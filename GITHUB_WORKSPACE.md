@@ -1,5 +1,10 @@
 # Bendros sistemos GitHub kopija
 
+Sekcijų ImageGen maketų ir atskirų asset kits darbo taisyklė:
+[WEBPAGE_SECTION_ASSET_KITS](docs/WEBPAGE_SECTION_ASSET_KITS.md),
+vykdomas [skill](skills/webpage-section-asset-kit/SKILL.md). Tai papildo pagrindinio
+projekto sutartis; visų nišų vizualo nesuvienodina ir publikavimo neįjungia.
+
 Ši privati saugykla yra viešų svetainių variklio šaltinio kopija. Pavadinimas „public core“ reiškia jo aptarnaujamus viešus puslapius, ne viešą GitHub prieigą.
 
 Pagrindinis projektas: https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui . Jį klonuoti kaip `nisiniai_puslapiai_monetizavimui`, šią saugyklą kaip gretimą `dovanos-memorycasting` katalogą. Abiejų privačių saugyklų prieiga būtina.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webpage Section Asset Kit"
+  short_description: "ImageGen section concepts and production asset kits"
+  default_prompt: "Use $webpage-section-asset-kit to design a webpage section with ImageGen, derive its production asset kit, and verify the rendered result."
