@@ -1,0 +1,378 @@
+{
+  "siteId": "dovanos123",
+  "capturedAt": "2026-10-04T20:02:01.000Z",
+  "activated": false,
+  "inventoryHash": "33d3d4bceb1773c99b9d9f994b390537cbbe1ee077fda57860b9b3959ef98cc4",
+  "dataHash": "4b1444e2f28a2102f9e7284a0bd679e911a969447c01076a8220fa6437a78bcc",
+  "rollbackRules": [
+    "restore-only-dovanos123",
+    "preserve-new-leads-and-revisions",
+    "apply-later-revocation-and-tombstones",
+    "never-reactivate-unapproved-demo-fallback"
+  ],
+  "sourceFiles": [
+    {
+      "path": "lib/content.ts",
+      "hash": "6b0e38a4a3a0881721e49ed9f771f792521e16ff5aecc34957e7eee7c7f4ab96",
+      "bytes": 34104
+    },
+    {
+      "path": "lib/new-articles.ts",
+      "hash": "05601f3adbad1febc45c3d4cf8dac642024608e38df0e8a987a1dd5079439058",
+      "bytes": 19306
+    },
+    {
+      "path": "lib/scheduled-articles-2026.ts",
+      "hash": "90367b81c2984095ff262ba94a910172beafe2dde453861f8f9044c9520521de",
+      "bytes": 55371
+    },
+    {
+      "path": "lib/site-config.ts",
+      "hash": "e9f1a13e93035e8c461f3999e702014749ea8be8e6adfd2fe7355df7bdbb2adc",
+      "bytes": 4030
+    },
+    {
+      "path": "lib/homepage-data.ts",
+      "hash": "0d82b3ee07131906fcd9d31ea44ab2229c3e00dfc89a48bfe1565fafe3de2a5b",
+      "bytes": 4466
+    },
+    {
+      "path": "lib/content-store.ts",
+      "hash": "3a988396bbe13d18a4eb060bff15e81590cc08e04f6d6c1d4c28972896699161",
+      "bytes": 9176
+    },
+    {
+      "path": "lib/db-approval.ts",
+      "hash": "e5f5bac13e86a873ab8b5a3a203c4e84fc65089422e48c887c2469e1184d17d9",
+      "bytes": 2017
+    },
+    {
+      "path": "lib/i18n.ts",
+      "hash": "9911398d622b6291d3d6cfe7d61f005b19da662480e50a11e05f0b5c6180f846",
+      "bytes": 5923
+    },
+    {
+      "path": "db/schema.ts",
+      "hash": "d76b08af13dab8199dcf4491ffc2c79b82a9abc8efb155fef6c3b526076ca906",
+      "bytes": 6234
+    },
+    {
+      "path": "proxy.ts",
+      "hash": "61d0e1b5d33a0434b78f7942f0c8aa4d4b4572f480fde55025c601cc1df88a82",
+      "bytes": 3990
+    },
+    {
+      "path": "app/layout.tsx",
+      "hash": "b9947ba9e6f08fb1c215de61730b893b57383aadfa2131f1a495d9dc1c273249",
+      "bytes": 3668
+    },
+    {
+      "path": "app/globals.css",
+      "hash": "1377c5755d428cb8934d557d75d613abaabf320ac11bafc895493cf8f38a3895",
+      "bytes": 32379
+    },
+    {
+      "path": "app/legacy-styles.tsx",
+      "hash": "a76b54d0da516bc738e3fa28d1ce81bd1369ec1c65b77cb4fce8035588f0ad9e",
+      "bytes": 72
+    },
+    {
+      "path": "app/sitemap.ts",
+      "hash": "a07e8c96e85f4286c1372ce37abce030ce11d4289b38d7bcd14f2a0f04227014",
+      "bytes": 2063
+    },
+    {
+      "path": "app/robots.ts",
+      "hash": "f3a5fe3331e0cc885343fb8da332c397f7dc81e3984452bb7110e99d6e2d4d32",
+      "bytes": 946
+    },
+    {
+      "path": "app/llms.txt/route.ts",
+      "hash": "13775dab61aae9e5c6aeb5e6f29a51ce67c956e598cf7b712e968716746837ac",
+      "bytes": 1345
+    },
+    {
+      "path": "app/llms-full.txt/route.ts",
+      "hash": "5317264e350f84d0e3fad7d4e30de7f9675ac7eb1649812d1598b61958dceda9",
+      "bytes": 1478
+    },
+    {
+      "path": "app/straipsniai/[slug]/page.tsx",
+      "hash": "253fa861ff395d8f7794653e2af2f7ee9b9f1090e03dab98ed9c85e5371d9d69",
+      "bytes": 9170
+    },
+    {
+      "path": "app/autoriai/[slug]/page.tsx",
+      "hash": "9a9e4602bec5db99a37722c6594f2853ce9b958b1ad8c950b970515a3412629b",
+      "bytes": 3358
+    },
+    {
+      "path": "app/page.tsx",
+      "hash": "399c6c7a273dcc25bbf0295460c48dab91c9bb633e1ddb40b5aece18c1948d4e",
+      "bytes": 15099
+    },
+    {
+      "path": "app/straipsniai/page.tsx",
+      "hash": "713c12d8c61fc722ddb70904c268e5dd5f7d3e8541773a2bda9c25da2bd420cf",
+      "bytes": 3719
+    },
+    {
+      "path": "app/autoriai/page.tsx",
+      "hash": "8c063533a9e5f04f7423fd676a403ceffcb40da26ad697f5624cfe4495aa77d2",
+      "bytes": 1896
+    },
+    {
+      "path": "app/apie/page.tsx",
+      "hash": "279d6de27bc2a12893312e95b9505b53dc530bd57a17aa1e86505b0786008c91",
+      "bytes": 1481
+    },
+    {
+      "path": "app/kontaktai/page.tsx",
+      "hash": "b064a4f686e6ed5b74bc0ed00f995abfc95f55c100bbb4405cbca91cd07e65cd",
+      "bytes": 1078
+    },
+    {
+      "path": "app/redakcine-politika/page.tsx",
+      "hash": "e478164dcc37cf86102692bb2ced5331be240241aafffab775a972194a354375",
+      "bytes": 1494
+    },
+    {
+      "path": "app/partneriu-nuorodu-atskleidimas/page.tsx",
+      "hash": "d90eb51521c14252f463fd57e5d666f50b8c99cb40c43d736218062581f2fb76",
+      "bytes": 1125
+    },
+    {
+      "path": "app/privatumas/page.tsx",
+      "hash": "64167681f3471f5c4ea5f71313a1f705464341bc7f1aa1bb154d1a858f59b42f",
+      "bytes": 1528
+    },
+    {
+      "path": "app/slapukai/page.tsx",
+      "hash": "94db603b35056902af1fcf1a21138218ccaef3d06d94dc00f1641a2486d5949e",
+      "bytes": 1223
+    },
+    {
+      "path": "app/taisykles/page.tsx",
+      "hash": "1c89f1e3d7012da574f2a3716ed03e1ffdd828faa62fc3f5824b590ed4de229b",
+      "bytes": 1237
+    }
+  ],
+  "media": [
+    {
+      "url": "/images/articles/christmas-gift-guide.webp",
+      "exists": true,
+      "bytes": 114320,
+      "hash": "1c68d0ae17e55afc0b0b73e693677e9ce1ba205ab2eaa11a8c0e8e19ae93f98e",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovana-zmogui-kuris-viska-turi-v2.webp",
+      "exists": true,
+      "bytes": 190202,
+      "hash": "8d2d8d118b12f5ec025668faaff226f92227dceb6aac5c186e8343478e04d8ef",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-broliui-v2.webp",
+      "exists": true,
+      "bytes": 194598,
+      "hash": "d829483bc2b25e8ea1940922faf5235e00f0c7dd17f0c475136c35a9f2821841",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-draugei-v2.webp",
+      "exists": true,
+      "bytes": 412348,
+      "hash": "5da97804b1f3c2b03b0bc39323992dd254e4d9344ea0d79034a3ba9e4c645fa8",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-draugui-v2.webp",
+      "exists": true,
+      "bytes": 202060,
+      "hash": "fce48bd9091e9b230ac0ee7e5b54d948f4cfa4d1569a0fcd22ca0975f2f6d97a",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-iki-20-euru.webp",
+      "exists": true,
+      "bytes": 108098,
+      "hash": "f4e6155425fcd3aedbe77d068667d2c3ba90ae7bfa247b02e50b4959522e15ff",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-mamai-v2.webp",
+      "exists": true,
+      "bytes": 241154,
+      "hash": "e3ec1140d0e52f235a8fa0f4723ef7b8aa7c09ce669474ff4a9acb663ae2ad71",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-merginai.webp",
+      "exists": true,
+      "bytes": 151704,
+      "hash": "1b03d24bbd92651eb3266a4da2dbc953140b50987d6b27270a6dd608af27a38f",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-patirtys.webp",
+      "exists": true,
+      "bytes": 180294,
+      "hash": "1fd53b7c12c2d2e8423464b981750a09bb6baef342e8b7827d801562d81e526b",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-porai-v2.webp",
+      "exists": true,
+      "bytes": 469956,
+      "hash": "d14603e449f6708a14a6605c56c8ccf4e44f08c3622df3b11aade1f94927dd20",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-seneliams.webp",
+      "exists": true,
+      "bytes": 170234,
+      "hash": "65476908c2e63ac908da81f21c307fd3da303168afac98d0dc8759938700e9d7",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-sesei-v2.webp",
+      "exists": true,
+      "bytes": 566278,
+      "hash": "6f4eb665d55204dd04f9318fa5df566394d167252bf62ef978170566f5357185",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-teciui-v2.webp",
+      "exists": true,
+      "bytes": 189230,
+      "hash": "1b46f7ff3af6b73a3e675998f2c6e2a4638a10a31a89b71403139b7c79c4335d",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/dovanos-vaikinui-v2.webp",
+      "exists": true,
+      "bytes": 251396,
+      "hash": "1fc2c1d605da961500c7401f63271d9d2e9939fe1bfe8a350684658929bacaac",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/hand-casting-memory.webp",
+      "exists": true,
+      "bytes": 99586,
+      "hash": "3ce1a6128dba90ac4014604a9ed0c8232c73fdb1f20dd76697ff54cc0222a510",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kaip-planuoti-dovanas.webp",
+      "exists": true,
+      "bytes": 161806,
+      "hash": "6694a3ea6bd06a6d5327e89e877f9d65ef6fb5e10035203cb53164eb389499fd",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kaledines-dovanos-draugams.webp",
+      "exists": true,
+      "bytes": 117888,
+      "hash": "398b41b24396417ec6381bec391e8c6e9c48a662bd5b55f076116d198c494173",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kaledines-dovanos-moteriai.webp",
+      "exists": true,
+      "bytes": 218676,
+      "hash": "0a40c945c095c5cd75fce1151c275977a640e6b4bda4b2dde4a09bec5e444b50",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kaledines-dovanos-seimai-v2.webp",
+      "exists": true,
+      "bytes": 315496,
+      "hash": "9064b9f354bdca3548a7efc828c0314d13db456bf30759ad9b89150d3e20209a",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kaledines-dovanos-tevams.webp",
+      "exists": true,
+      "bytes": 135278,
+      "hash": "9fd5eb3d5fa6670f6a6e584ddcbb7cb7e2e71f61d11a58c0bbcf68c36e474470",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/kalediniu-dovanu-gidas-2026.webp",
+      "exists": true,
+      "bytes": 178436,
+      "hash": "c43ecf615a871d11a4013ae3fe019ab999dfb7984e5b67aa2f60214c283af616",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/originalios-kaledines-dovanos-v2.webp",
+      "exists": true,
+      "bytes": 76574,
+      "hash": "67f48409580e74a7fcc8c43886a0d3734a606480402e5b094e5270f812362062",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/personalizuotos-dovanos-v2.webp",
+      "exists": true,
+      "bytes": 98830,
+      "hash": "3516363cf3c3c2e339bdad1d3a1a8faa6039e83987f36efaa8255c9a66f26836",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/prasmingos-dovanos-v2.webp",
+      "exists": true,
+      "bytes": 269574,
+      "hash": "2802ae5d460fb21efc43d3d0cb30c7917a57dc58fae4f18c8f707b2b0b623dac",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/articles/sentimentalios-dovanos-v2.webp",
+      "exists": true,
+      "bytes": 354036,
+      "hash": "b72157024b83725a43c2a9a1dcfe8550a26ad4d0ba5f59b2ca68322c0a472183",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/home/hand-casting-together.webp",
+      "exists": true,
+      "bytes": 126250,
+      "hash": "a267204d35d8b80047441636fdd1c83aca2699491b92aaebf43aadb83ee2fbd9",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    },
+    {
+      "url": "/images/home/thoughtful-gift.webp",
+      "exists": true,
+      "bytes": 146638,
+      "hash": "5341df39f76d899aff128355c46dfcd2f02a37acb89b4e11e479f310f8df0e81",
+      "webpSignatureValid": true,
+      "provenance": "legacy-source-review-required"
+    }
+  ]
+}

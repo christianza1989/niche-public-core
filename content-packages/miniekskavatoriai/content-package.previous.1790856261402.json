@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": 1,
+  "siteId": "miniekskavatoriai",
+  "canonicalHost": "miniekskavatoriai.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "miniekskavatoriai",
+    "name": "Miniekskavatoriai",
+    "canonicalHost": "miniekskavatoriai.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#cc6236"
+    },
+    "offer": "Tranšėjos kasimo su operatoriumi poreikio registracija Kaune ir Kauno rajone",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "home",
+      "slug": "",
+      "title": "Tranšėjai reikia aiškaus plano.",
+      "description": "Pasiruoškite tranšėjos kasimui: matmenys, privažiavimas ir darbų apimtis. Tūrio skaičiuotuvas bei poreikio registracija Kauno regione.",
+      "intent": "Kaip pasiruošti nedidelės tranšėjos kasimui su mini ekskavatoriumi?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Susidėkite matmenis, privažiavimo sąlygas ir darbus į vieną ruošinį. Tada lengviau paaiškinti, ko reikia jūsų sklype."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaunas ir Kauno rajonas. Registruojame planuojamo kasimo su operatoriumi poreikį. Vykdytojų partnerystės dar nesudarytos; tai nėra užsakymas ar pasiūlymo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tūris – tik viena darbo dalis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ilgis × plotis × gylis aprašo stačiakampę tranšėją. Gruntas, komunikacijos, iškastos žemės vieta ir paviršiaus atkūrimas skaičiuotuve neįvertinami."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kasimas: nurodykite paskirtį ir projektinius arba preliminarius matmenis.",
+            "Gruntas: palikti sklype, paskleisti ar išvežti – tai skirtingos apimtys.",
+            "Atkūrimas: užpylimas, sutankinimas ir dangos tvarkymas derinami atskirai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar technika pateks į darbų vietą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Išmatuokite siauriausią pravažiavimo vietą. Užrašykite posūkius, aukščio ribojimus, dangą ir vietą transportui. Vien vartų plotis dar nepatvirtina pravažiavimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš kasimą patikrinkite tinklus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pradedant darbus reikia išsiaiškinti požeminius ir greta esančius inžinerinius tinklus. ESO aprašo papildomus veiksmus darbams savo tinklų apsaugos zonose. Skaičiavimas ar ši forma nesuteikia leidimo kasti."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "5c85e9e4-160c-4834-961e-efa853ac2adb",
+          "src": "/content-assets/miniekskavatoriai/5c85e9e4-160c-4834-961e-efa853ac2adb.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1600,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "7efc68c9-917b-4ca6-a93d-b8e0addd1191",
+          "src": "/content-assets/miniekskavatoriai/7efc68c9-917b-4ca6-a93d-b8e0addd1191.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1200,
+          "height": 675,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78daf07f-a204-483c-b070-7b045432296e",
+          "src": "/content-assets/miniekskavatoriai/78daf07f-a204-483c-b070-7b045432296e.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 800,
+          "height": 450,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "15fa55c8-c882-485d-ad90-b876684ea611",
+          "src": "/content-assets/miniekskavatoriai/15fa55c8-c882-485d-ad90-b876684ea611.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 640,
+          "height": 360,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "5a6025ef-8b07-425e-a84f-0ec0c3db46a2",
+          "src": "/content-assets/miniekskavatoriai/5a6025ef-8b07-425e-a84f-0ec0c3db46a2.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 360,
+          "height": 203,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "30f29aee-b66a-4c9a-b3aa-6bf3510ee908",
+          "src": "/content-assets/miniekskavatoriai/30f29aee-b66a-4c9a-b3aa-6bf3510ee908.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78df1277-a813-4320-8a45-f8a9d6a52dde",
+          "src": "/content-assets/miniekskavatoriai/78df1277-a813-4320-8a45-f8a9d6a52dde.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "1f8ba0c2-da38-4c2f-9e7c-f6f12f050789",
+          "src": "/content-assets/miniekskavatoriai/1f8ba0c2-da38-4c2f-9e7c-f6f12f050789.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0ff7fdfc-c425-40df-a75e-fd24bbb30cb9",
+          "src": "/content-assets/miniekskavatoriai/0ff7fdfc-c425-40df-a75e-fd24bbb30cb9.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "efbbc750-6938-4be7-8194-3103e6c28fd7",
+          "src": "/content-assets/miniekskavatoriai/efbbc750-6938-4be7-8194-3103e6c28fd7.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+          "label": "Tranšėjos tūrio įrankis"
+        },
+        {
+          "targetPageId": "7a1cbb95-5a13-47d1-b6b1-dbf2f2a8b397",
+          "label": "Pravažiavimo patikros gidas"
+        },
+        {
+          "targetPageId": "9a41d952-5665-4f98-b307-9fffd27f6880",
+          "label": "Kasimo poreikio registracijos eiga"
+        }
+      ],
+      "id": "55dc5b00-de61-4971-9581-ebb1a8e9b865",
+      "revisionHash": "9ed887f74ce0e0fb5ec732ea4bd2507d24a015c902c8b11d333e858a3cd7b4e2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "9ed887f74ce0e0fb5ec732ea4bd2507d24a015c902c8b11d333e858a3cd7b4e2",
+        "approvedAt": "2026-10-01T11:46:06.955Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Gidai prieš kasimo darbus",
+      "description": "Kasimo ar technikos nuoma? Privažiavimo patikra ir kainos apimtis – trys gidai prieš derinant mini ekskavatoriaus darbą.",
+      "intent": "Kurį mini ekskavatoriaus pasirinkimo klausimą reikia išspręsti pirmiausia?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rinkitės pagal neaiškumą: kas dirbs, kaip technika pateks arba kas įeina į pasiūlymą. Kiekvienas gidas padeda surinkti konkrečią informaciją, bet nepakeičia objekto patikros ir saugos sprendimų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Turite tranšėjos matmenis? Tranšėjos tūrio įrankis padeda juos sudėti į ruošinį, kurį galite papildyti savo pastabomis."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "1f3415de-387f-439c-8fb6-241079e620ac",
+          "src": "/content-assets/miniekskavatoriai/1f3415de-387f-439c-8fb6-241079e620ac.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "f0075e44-ebf9-44bb-b572-752aa046c60b",
+          "src": "/content-assets/miniekskavatoriai/f0075e44-ebf9-44bb-b572-752aa046c60b.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "41c3aacd-7318-4574-94f6-b4b8b5b207f3",
+          "src": "/content-assets/miniekskavatoriai/41c3aacd-7318-4574-94f6-b4b8b5b207f3.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0dcb3e0c-1124-4e0d-a057-f4d52e62fad8",
+          "src": "/content-assets/miniekskavatoriai/0dcb3e0c-1124-4e0d-a057-f4d52e62fad8.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "8c5b0b0d-6636-4b53-9b42-211c7719e3d4",
+          "src": "/content-assets/miniekskavatoriai/8c5b0b0d-6636-4b53-9b42-211c7719e3d4.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "30f29aee-b66a-4c9a-b3aa-6bf3510ee908",
+          "src": "/content-assets/miniekskavatoriai/30f29aee-b66a-4c9a-b3aa-6bf3510ee908.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78df1277-a813-4320-8a45-f8a9d6a52dde",
+          "src": "/content-assets/miniekskavatoriai/78df1277-a813-4320-8a45-f8a9d6a52dde.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "1f8ba0c2-da38-4c2f-9e7c-f6f12f050789",
+          "src": "/content-assets/miniekskavatoriai/1f8ba0c2-da38-4c2f-9e7c-f6f12f050789.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0ff7fdfc-c425-40df-a75e-fd24bbb30cb9",
+          "src": "/content-assets/miniekskavatoriai/0ff7fdfc-c425-40df-a75e-fd24bbb30cb9.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "efbbc750-6938-4be7-8194-3103e6c28fd7",
+          "src": "/content-assets/miniekskavatoriai/efbbc750-6938-4be7-8194-3103e6c28fd7.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "c928e6ce-05f7-470b-bfe8-9d2c11f59461",
+          "src": "/content-assets/miniekskavatoriai/c928e6ce-05f7-470b-bfe8-9d2c11f59461.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0f7dcab1-04c5-4268-8327-2aaeea08b784",
+          "src": "/content-assets/miniekskavatoriai/0f7dcab1-04c5-4268-8327-2aaeea08b784.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "3a95b281-b693-4c45-9126-4dd57b5ae20e",
+          "src": "/content-assets/miniekskavatoriai/3a95b281-b693-4c45-9126-4dd57b5ae20e.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "7985a7ad-2107-45aa-b6cc-766120fc81af",
+          "src": "/content-assets/miniekskavatoriai/7985a7ad-2107-45aa-b6cc-766120fc81af.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "79cf8432-b3c5-44aa-be33-06f1387b2001",
+          "src": "/content-assets/miniekskavatoriai/79cf8432-b3c5-44aa-be33-06f1387b2001.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+          "label": "Tranšėjos tūrio įrankis"
+        }
+      ],
+      "id": "498f8bfe-da50-45ec-be9a-a114c06f7378",
+      "revisionHash": "a23f92c8f6310f86b6ff0ede035153887321b0aa7c04461d37e3c16d307457e3",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "a23f92c8f6310f86b6ff0ede035153887321b0aa7c04461d37e3c16d307457e3",
+        "approvedAt": "2026-10-01T11:46:07.119Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "su-operatoriumi",
+      "title": "Kasimo su operatoriumi poreikis Kauno regione",
+      "description": "Išankstinė planuojamos tranšėjos kasimo poreikio užklausa Kaune ir Kauno rajone. Partneriai ir kasimo datos dar nepatvirtinti.",
+      "intent": "Kaip užregistruoti planuojamos tranšėjos kasimo su operatoriumi poreikį Kaune?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Planuojate tranšėją sklype Kaune arba Kauno rajone? Galite užregistruoti konkretų kasimo su operatoriumi poreikį. Šiuo etapu MB Pinet tiria būsimų darbų paklausą. Neturime patvirtintų kasimo vykdytojų, savo technikos parko ar galimų atvykimo datų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokį darbą aprašyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Testas skirtas planuojamai nedidelei tranšėjai individualiame sklype. Nurodykite paskirtį, vietovę, ilgį, numatomą plotį ir gylį, laikotarpį bei ar reikės tvarkyti iškastą gruntą. Preliminarius duomenis taip ir pažymėkite. Komunikacijų montavimo, projektavimo, didelių pamatų duobių ar avarinių darbų šiuo testu nesiūlome."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas vyksta po pateikimo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formos rezultatas parodo, ar įrašas išsaugotas. Jūsų informacija skirta poreikiui įvertinti ir galimam patikslinimui el. paštu. Atsakymo laiko, vykdytojo, kainos ar darbų datos negarantuojame. Duomenų vykdytojams automatiškai neperduodame; galimą perdavimą reikėtų suderinti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas nėra užsakoma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma nėra rezervacija, mokamas užsakymas, sąmata ar leidimas kasti. Mokėjimų nepriimame. Jei reikia patvirtinto vykdytojo ar skubaus darbo, kreipkitės tiesiogiai į realiai paslaugą teikiantį rangovą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasiruošti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vietovę, paskirtį ir planuojamą laikotarpį. Tikslus adresas pradžioje nereikalingas.",
+            "Matmenis ir jų patikimumą: projektiniai, apytiksliai ar dar nežinomi.",
+            "Siauriausią pravažiavimą, dangą ir vietą iškastam gruntui.",
+            "Ką žinote apie tinklus ir suderinimus; nežinomų duomenų nevadinkite patikrintais."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pradėkite nuo savo apimties"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tranšėjos tūrio įrankis skaičiuoja tik stačiakampės formos geometrinį tūrį. Jis nenumato kasimo laiko, kainos, technikos tinkamumo ar grunto kiekio transportuojant. Kontaktai ir poreikio forma skirti jau aprašytam darbui."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "5c85e9e4-160c-4834-961e-efa853ac2adb",
+          "src": "/content-assets/miniekskavatoriai/5c85e9e4-160c-4834-961e-efa853ac2adb.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1600,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "7efc68c9-917b-4ca6-a93d-b8e0addd1191",
+          "src": "/content-assets/miniekskavatoriai/7efc68c9-917b-4ca6-a93d-b8e0addd1191.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1200,
+          "height": 675,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78daf07f-a204-483c-b070-7b045432296e",
+          "src": "/content-assets/miniekskavatoriai/78daf07f-a204-483c-b070-7b045432296e.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 800,
+          "height": 450,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "15fa55c8-c882-485d-ad90-b876684ea611",
+          "src": "/content-assets/miniekskavatoriai/15fa55c8-c882-485d-ad90-b876684ea611.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 640,
+          "height": 360,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "5a6025ef-8b07-425e-a84f-0ec0c3db46a2",
+          "src": "/content-assets/miniekskavatoriai/5a6025ef-8b07-425e-a84f-0ec0c3db46a2.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 360,
+          "height": 203,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+          "label": "Tranšėjos tūrio įrankis"
+        },
+        {
+          "targetPageId": "2a0ffe2e-dae1-4977-8867-7dcd8d41568b",
+          "label": "Kontaktai ir poreikio forma"
+        }
+      ],
+      "id": "9a41d952-5665-4f98-b307-9fffd27f6880",
+      "revisionHash": "c3a46d7f7a1a6fef945a1462cac3a1c7f9e92639bcfe1eea7fb755269ba05b0d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c3a46d7f7a1a6fef945a1462cac3a1c7f9e92639bcfe1eea7fb755269ba05b0d",
+        "approvedAt": "2026-10-01T11:46:07.319Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "transejos-kasimas",
+      "title": "Tranšėjos tūris ir užklausos ruošinys",
+      "description": "Apskaičiuokite stačiakampės tranšėjos geometrinį tūrį ir pasiruoškite poreikio aprašą. Be kainos ar kasimo laiko prognozės.",
+      "intent": "Kaip apskaičiuoti tranšėjos tūrį ir aprašyti konkrečią kasimo apimtį?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Įrašykite matmenis metrais. Įrankis daugina ilgį, plotį ir gylį: V = L × W × D. Tai stačiakampės tranšėjos geometrinis tūris kubiniais metrais, o ne išpureninto ar išvežamo grunto kiekis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdys su aiškiomis prielaidomis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinė tranšėja: 30 m ilgio, 0,4 m pločio, 0,8 m gylio. Skaičiavimas: 30 × 0,4 × 0,8 = 9,6 m³. Šie skaičiai nėra rekomenduojami kasimo matmenys. Reikalingą gylį, plotį ir profilį nustato jūsų projekto sprendiniai bei atsakingi specialistai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada formulė neaprašo darbo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuožulnios sienelės, skirtingas gylis, išplatėjimai ir šuliniai nėra vienas stačiakampis. Skirtingas atkarpas galima skaičiuoti atskirai, jeigu jų profilis žinomas. Nežinomų matmenų neatspėkite. Be geometrijos reikia įvertinti gruntą, tinklus, darbų eigą ir saugą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ruošinys jūsų pokalbiui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žemiau galima paruošti vietovės, paskirties, matmenų ir sąlygų tekstą. Jis lieka šiame naršyklės puslapyje, kol patys pateikiate formą. Asmens kodo, tikslaus adreso ar jautrių dokumentų nereikia. Prieš pateikdami tekstą patikrinkite, ar jis atitinka jūsų situaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pradedant darbus"
+        },
+        {
+          "type": "paragraph",
+          "text": "ESO rekomenduoja iš anksto patikrinti inžinerinius tinklus ir nurodo veiksmus savo tinklų apsaugos zonose. Susisiekite su atitinkamų tinklų valdytojais ir darbų specialistu. Šis įrankis nepatvirtina kasimo saugumo ir nėra tinklų planas."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "5c85e9e4-160c-4834-961e-efa853ac2adb",
+          "src": "/content-assets/miniekskavatoriai/5c85e9e4-160c-4834-961e-efa853ac2adb.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1600,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "7efc68c9-917b-4ca6-a93d-b8e0addd1191",
+          "src": "/content-assets/miniekskavatoriai/7efc68c9-917b-4ca6-a93d-b8e0addd1191.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 1200,
+          "height": 675,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78daf07f-a204-483c-b070-7b045432296e",
+          "src": "/content-assets/miniekskavatoriai/78daf07f-a204-483c-b070-7b045432296e.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 800,
+          "height": 450,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "15fa55c8-c882-485d-ad90-b876684ea611",
+          "src": "/content-assets/miniekskavatoriai/15fa55c8-c882-485d-ad90-b876684ea611.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 640,
+          "height": 360,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "5a6025ef-8b07-425e-a84f-0ec0c3db46a2",
+          "src": "/content-assets/miniekskavatoriai/5a6025ef-8b07-425e-a84f-0ec0c3db46a2.webp",
+          "alt": "Mini ekskavatorius sklype prie būsimos tranšėjos vietos",
+          "width": 360,
+          "height": 203,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "7a1cbb95-5a13-47d1-b6b1-dbf2f2a8b397",
+          "label": "Pravažiavimo patikros gidas"
+        },
+        {
+          "targetPageId": "afed1ea2-2ac9-4f1c-b853-23ad90e8aa0c",
+          "label": "Kainos apimties gidas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.eso.lt/namams/elektra/kasimo-darbai/3762",
+          "label": "ESO: veiksmai prieš kasimo darbus",
+          "reason": "Peržiūrėta 2026-10-01. Oficialūs reikalavimai dėl tinklų patikros ir darbų ESO tinklų apsaugos zonose. Tai nėra mūsų suteiktas leidimas kasti."
+        }
+      ],
+      "id": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+      "revisionHash": "8d84a5c33c391c23b18f0c49057f89c0b7a83551ecaee124a805d20b8d092c6d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "8d84a5c33c391c23b18f0c49057f89c0b7a83551ecaee124a805d20b8d092c6d",
+        "approvedAt": "2026-10-01T11:46:07.463Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "guide",
+      "slug": "su-operatoriumi-ar-be",
+      "title": "Mini ekskavatorius su operatoriumi ar be jo?",
+      "description": "Atskirkite technikos nuomą nuo kasimo paslaugos: atsakomybės, pristatymas, darbų apimtis ir klausimai prieš susitarimą.",
+      "intent": "Kada rinktis mini ekskavatoriaus nuomą, o kada kasimo paslaugą su operatoriumi?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia nuspręskite, ką perkate: naudojimąsi technika ar konkretų kasimo darbą. Nuoma be operatoriaus ir kasimas su operatoriumi gali būti vadinami panašiai, tačiau atsakomybės ir į kainą įtraukti dalykai skiriasi. Jei neturite technikos valdymo patirties, tai aiškiai pasakykite nuomotojui, o ne laikykite trumpą instruktažą viso darbo pasirengimu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuoma be operatoriaus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuomojant techniką reikia išsiaiškinti, kas ją valdys ir kokius reikalavimus taiko nuomotojas. Paklauskite apie naudojimo instrukcijas, priėmimo ir grąžinimo būklę, gedimo pranešimą, draudimą, atsakomybę už žalą, kurą, valymo ir papildomo naudojimo mokesčius. Sąlygos priklauso nuo sutarties – vienas universalus nuomos taisyklių rinkinys visiems tiekėjams netinka."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalendorinė nuomos diena nebūtinai reiškia neribotą variklio darbo laiką. Paprašykite nurodyti, kokia trukmė ir apskaitos vienetas taikomi. Jei pristatymas vėluotų ar darbą sustabdytų nepatikrinti tinklai, iš anksto žinokite, kaip skaičiuojamas laukimas ir nuomos pabaiga. Šiame gide pateikiame patikros klausimus, ne konkretaus tiekėjo sutarties išaiškinimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Darbas su operatoriumi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakant kasimą su operatoriumi reikia aprašyti rezultatą ir ribas: nuo kur iki kur kasama, kokie projektiniai matmenys, kur dedamas gruntas ir kas bus po kasimo. Operatorius valdo techniką, tačiau vien jo dalyvavimas nereiškia, kad į paslaugą įtraukti projektas, komunikacijų įrengimas, derinimai ar dangos atkūrimas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar pasiūlymas apima operatorių, techniką ir kelionę į objektą?",
+            "Kas pateikia tinklų bei projekto informaciją ir užtikrina reikiamus suderinimus?",
+            "Kas sprendžia dėl grunto, užpylimo ir paviršiaus atkūrimo?",
+            "Kaip derinami darbų pakeitimai, laukimas ir nenumatytos kliūtys?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pristatymas yra atskiras klausimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net jei technika pakankamai siaura, iki objekto reikia atvykti transportui. Įvertinkite privažiavimo dangą, vietą sustoti ir iškrauti, posūkius, viršuje esančius ribojimus. Nuotrauka gali padėti paaiškinti aplinką, tačiau tik vykdytojas gali patvirtinti, kad jo konkreti technika ir transportas tinka. Pravažiavimo patikros gidas padeda surinkti šią informaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginimo pavyzdys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinė situacija: norite vienos tranšėjos savo sklype, o operatoriaus patirties neturite. A pasiūlymas suteikia tik techniką vienai dienai. B pasiūlymas apima kasimą su operatoriumi, bet pristatymas ir grunto išvežimas neįtraukti. Jų sumų tiesiogiai lyginti negalima. Paprašykite abiejų aiškiai įvardyti galutinę vienodo darbo apimtį ir atsakomybes; nespręskite vien pagal antraštėje esantį skaičių."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitam žmogui, kuris turi tinkamą pasirengimą ir valdymo patirtį, technikos nuoma gali būti prasmingas kelias. Pasirinkimą turi pagrįsti konkreti sutartis, galimybės, saugi darbų eiga ir objekto sąlygos. Čia nevertiname jūsų kvalifikacijos ir nerekomenduojame mokytis kasant šalia tinklų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pateikti pirmame pokalbyje"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vietovę, darbo paskirtį ir laikotarpį; pradžioje nereikia viešinti tikslaus adreso.",
+            "Matmenis, jų šaltinį ir neaiškumus.",
+            "Privažiavimą, grunto vietą ir papildomus darbus.",
+            "Ką jau patikrinote apie tinklus ir kokių suderinimų dar trūksta."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Technikos centras viešai atskiria nuomos bei kasimo pasiūlymus, o Avesco nuomos sąlygose galima tikrinti konkretaus nuomotojo reikalavimus. HH Muckers yra užsienio paslaugos pavyzdys; jo kainos ir teritorija nėra Lietuvos pasiūlymas. Prieš kasimą vadovaukitės aktualia ESO informacija ir kitų jūsų objekte esančių tinklų valdytojų reikalavimais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šio projekto siūlomas žingsnis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mūsų testas registruoja planuojamos tranšėjos kasimo su operatoriumi poreikį Kaune ir Kauno rajone. Vykdytojai dar nepatvirtinti; registracija negarantuoja darbo ar pasiūlymo. Jei norite užsakyti patvirtintą datą, derinkite ją su realiu rangovu tiesiogiai."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "1f3415de-387f-439c-8fb6-241079e620ac",
+          "src": "/content-assets/miniekskavatoriai/1f3415de-387f-439c-8fb6-241079e620ac.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "f0075e44-ebf9-44bb-b572-752aa046c60b",
+          "src": "/content-assets/miniekskavatoriai/f0075e44-ebf9-44bb-b572-752aa046c60b.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "41c3aacd-7318-4574-94f6-b4b8b5b207f3",
+          "src": "/content-assets/miniekskavatoriai/41c3aacd-7318-4574-94f6-b4b8b5b207f3.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0dcb3e0c-1124-4e0d-a057-f4d52e62fad8",
+          "src": "/content-assets/miniekskavatoriai/0dcb3e0c-1124-4e0d-a057-f4d52e62fad8.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "8c5b0b0d-6636-4b53-9b42-211c7719e3d4",
+          "src": "/content-assets/miniekskavatoriai/8c5b0b0d-6636-4b53-9b42-211c7719e3d4.webp",
+          "alt": "Stovinčio mini ekskavatoriaus operatoriaus vieta ir valdymo svirtys",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "7a1cbb95-5a13-47d1-b6b1-dbf2f2a8b397",
+          "label": "Pravažiavimo patikros gidas"
+        },
+        {
+          "targetPageId": "9a41d952-5665-4f98-b307-9fffd27f6880",
+          "label": "Kasimo poreikio registracijos eiga"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.technikoscentras.lt/",
+          "label": "Technikos centras: nuomos ir kasimo pasiūlymai",
+          "reason": "Peržiūrėta 2026-10-01. Nuoma ir darbas su operatoriumi siūlomi atskirai. Vieši įkainiai priklauso šiam vykdytojui ir čia nekopijuojami kaip mūsų kainos."
+        },
+        {
+          "url": "https://www.avesco-rent.lt/lt/nuomos-salygos/",
+          "label": "Avesco Rent: nuomos sąlygos",
+          "reason": "Peržiūrėta 2026-10-01. Realaus nuomotojo atsiskaitymo ir nuomos sąlygų pavyzdys; tai ne šio projekto kainynas ar sutartis."
+        },
+        {
+          "url": "https://hhmuckers.com/digger-hire",
+          "label": "HH Muckers: darbas su operatoriumi",
+          "reason": "Peržiūrėta 2026-10-01. JK paslaugos pavyzdys, kuriame vieta ir darbų informacija reikalinga pasiūlymui. Užsienio kainos, sąlygos ir teritorija Lietuvai neperkeliamos."
+        },
+        {
+          "url": "https://www.eso.lt/namams/elektra/kasimo-darbai/3762",
+          "label": "ESO: veiksmai prieš kasimo darbus",
+          "reason": "Peržiūrėta 2026-10-01. Oficialūs reikalavimai dėl tinklų patikros ir darbų ESO tinklų apsaugos zonose. Tai nėra mūsų suteiktas leidimas kasti."
+        }
+      ],
+      "id": "f5c65ab1-b25a-49b3-b799-a005cdd4f604",
+      "revisionHash": "b400153b6d92e2b8aaa2c2860fd94c74f4fc8251453ae568b1dcb54c481202b2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b400153b6d92e2b8aaa2c2860fd94c74f4fc8251453ae568b1dcb54c481202b2",
+        "approvedAt": "2026-10-01T11:46:07.628Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "guide",
+      "slug": "pravaziavimo-plotis",
+      "title": "Ar mini ekskavatorius pravažiuos pro vartus?",
+      "description": "Išmatuokite siauriausią vietą, posūkius ir aukštį. Prieigos patikros sąrašas prieš derinant konkrečią techniką bei jos pristatymą.",
+      "intent": "Kaip patikrinti mini ekskavatoriaus prieigą į sklypą be klaidingos pravažiavimo garantijos?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pamatuokite visą kelią iki darbų vietos, o ne tik vartų angą. Technika turi praeiti siauriausią vietą, pasukti, tilpti po ribojimais ir turėti darbo erdvės. Žodis „mini“ nepasako jos tikro pločio ar tinkamumo jūsų sklypui. Galutinį sprendimą priimkite tik su konkretaus modelio ir komplektacijos duomenimis bei vykdytojo patikra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip užrašyti siauriausią plotį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vartus atidarykite taip, kaip jie bus atvykimo metu, ir matuokite laisvą tarpą tarp visų kliūčių. Vyrių, skląsčio ar išsikišusios detalės nepamirškite. Patikrinkite, ar siauresnio tarpo nėra toliau – tarp pastato ir tvoros, prie laiptų ar aplink kampą. Užrašykite, kur tiksliai matuota ir ar matmuo tikslus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vienas tiesus laisvas tarpas ir posūkis siaurame koridoriuje yra skirtingos situacijos. Pateikite kelią rodančias nuotraukas arba paprastą eskizą su matmenimis. Nesakykite „turėtų tilpti“ kaip patvirtinto fakto. Techninė nuotrauka šiame gide yra iliustracija, todėl iš jos negalima nuskaityti vartų pločio."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Modelio plotis gali priklausyti nuo būsenos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai kurios mašinos turi keičiamo pločio važiuoklę. Reikia žinoti tiek transportinę, tiek darbo būseną ir konkrečios komplektacijos dalis. Kaušas, peilis ar kitas priedas gali keisti pravažiavimo situaciją. Gamintojo arba nuomotojo specifikacija yra pradinis duomenų šaltinis; ji viena neįvertina jūsų posūkio, dangos ar šlaito."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avesco konkretaus modelio puslapis parodo, kokių parametrų ieškoti. Kitam modeliui tų pačių skaičių nepriskirkite. Šiame gide tyčia nepateikiame universalaus „saugių vartų“ pločio ar tarpo atsargos – juos reikia pagrįsti konkrečia technika, maršrutu ir vykdytojo vertinimu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aukštis, danga ir aplinka"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aukščio ribojimai: ar yra stogelis, šakos, laidai arba kitos kliūtys?",
+            "Danga: veja, trinkelės, minkštas gruntas; kieno atsakomybė apsaugoti ir atkurti paviršių?",
+            "Nuolydis ir pakopos: aprašykite, kad vykdytojas galėtų įvertinti, o ne spėkite technikos galimybes.",
+            "Darbo zona: erdvė pasukti ir veikti strėlei, saugus žmonių atskyrimas, iškasto grunto vieta.",
+            "Transportas: vieta sustoti ir iškrauti techniką; vartai į sklypą nėra vienintelis pristatymo ribojimas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdys: vartai tinka, kelias dar neaiškus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinė situacija: vartų anga platesnė už pasirinkto modelio nurodytą transportinį plotį, tačiau už vartų iškart laukia siauras posūkis palei namą. Pirmas matmuo nepatvirtina viso maršruto. Užrašykite posūkio aplinką, nufotografuokite ją ir kreipkitės į vykdytoją. Jei tektų nuimti tvoros dalį ar saugoti trinkeles, susitarimą dėl šių veiksmų reikia padaryti prieš atvykimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuotraukų ir matmenų rinkinys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bendras įvažiavimo vaizdas iš transporto atvykimo pusės.",
+            "Siauriausia vieta su užrašytu laisvu matmeniu.",
+            "Kiekvienas siauras posūkis ir aukščio ribojimas.",
+            "Kelias iki tranšėjos, danga ir numatoma grunto vieta.",
+            "Pastabos apie matmenų patikimumą ir nežinomas sąlygas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotraukose neužfiksuokite svetimų žmonių, numerių, dokumentų ar saugumo kodų. Mūsų formoje failų įkėlimo nėra; pradžiai pakanka aprašymo. Skaičiuotuvas nevertina pravažiavimo. Prieigos informacija taip pat nepakeičia tinklų patikros: ESO kasimo darbų informacijoje atskirai nurodyti veiksmai dėl tinklų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką įrašyti į poreikį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdžio tekstas: „Siauriausias laisvas tarpas išmatuotas tarp vartų stulpų. Už vartų yra posūkis, jo tinkamumas nepatvirtintas. Danga – trinkelės. Transporto sustojimo vietą dar reikia suderinti.“ Pakeiskite jį savo tikrais duomenimis. Registruojamas kasimo poreikis, o ne automatiškai patvirtinamas technikos tinkamumas."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "30f29aee-b66a-4c9a-b3aa-6bf3510ee908",
+          "src": "/content-assets/miniekskavatoriai/30f29aee-b66a-4c9a-b3aa-6bf3510ee908.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "78df1277-a813-4320-8a45-f8a9d6a52dde",
+          "src": "/content-assets/miniekskavatoriai/78df1277-a813-4320-8a45-f8a9d6a52dde.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "1f8ba0c2-da38-4c2f-9e7c-f6f12f050789",
+          "src": "/content-assets/miniekskavatoriai/1f8ba0c2-da38-4c2f-9e7c-f6f12f050789.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0ff7fdfc-c425-40df-a75e-fd24bbb30cb9",
+          "src": "/content-assets/miniekskavatoriai/0ff7fdfc-c425-40df-a75e-fd24bbb30cb9.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "efbbc750-6938-4be7-8194-3103e6c28fd7",
+          "src": "/content-assets/miniekskavatoriai/efbbc750-6938-4be7-8194-3103e6c28fd7.webp",
+          "alt": "Siauras įvažiavimas tarp vartų stulpų ir matavimo juosta",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+          "label": "Tranšėjos tūrio įrankis"
+        },
+        {
+          "targetPageId": "9a41d952-5665-4f98-b307-9fffd27f6880",
+          "label": "Kasimo poreikio registracijos eiga"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.avesco-rent.lt/lt/modelis/mini-ekskavatorius-cat-301-6/",
+          "label": "Avesco Rent: konkretaus modelio duomenys",
+          "reason": "Peržiūrėta 2026-10-01. Modelio techninių duomenų pavyzdys. Tik pasirinkto tiekėjo patvirtinta komplektacija ir objekto įvertinimas gali pagrįsti tinkamumą."
+        },
+        {
+          "url": "https://www.eso.lt/namams/elektra/kasimo-darbai/3762",
+          "label": "ESO: veiksmai prieš kasimo darbus",
+          "reason": "Peržiūrėta 2026-10-01. Oficialūs reikalavimai dėl tinklų patikros ir darbų ESO tinklų apsaugos zonose. Tai nėra mūsų suteiktas leidimas kasti."
+        }
+      ],
+      "id": "7a1cbb95-5a13-47d1-b6b1-dbf2f2a8b397",
+      "revisionHash": "ec42746a68c646eb14328caa90566a4ad5fd4e525483e03d61711ea2ef382fda",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ec42746a68c646eb14328caa90566a4ad5fd4e525483e03d61711ea2ef382fda",
+        "approvedAt": "2026-10-01T11:46:07.768Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "guide",
+      "slug": "nuomos-kainos-sudetis",
+      "title": "Kas įeina į mini ekskavatoriaus kainą?",
+      "description": "Valanda, diena ar visas darbas? Palyginkite operatorių, transportą, gruntą, papildomus darbus ir galutinės sumos sąlygas.",
+      "intent": "Kaip palyginti mini ekskavatoriaus nuomos ir kasimo pasiūlymų kainos apimtį?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Prieš lygindami sumas užrašykite, kokio rezultato reikia ir kas į jį įeina. Technika dienai, operatoriaus valanda ir visas atliktas kasimo darbas nėra vienodas produktas. Viešas „nuo“ skaičius gali padėti pradėti klausimus, tačiau nepasako jūsų objekto galutinės kainos. Ši svetainė neturi patvirtinto kainyno ir neskaičiuoja kasimo sąmatų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmiausia sulyginkite apskaitos vienetą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paklauskite, ar mokama už kalendorinę nuomos dieną, technikos darbo laiką, operatoriaus laiką, ar sutartą darbą. Patikrinkite minimalią apskaitomą trukmę, galimą variklio valandų ribą, viršijimą ir laukimo apskaitą. Pasiūlyme turi būti aišku, kada apskaita prasideda ir baigiasi. Šių dydžių nepriimkite kaip universalių – kiekvienas tiekėjas taiko savo sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Eilutės, kurios keičia palyginimą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Technika ir operatorius: ar gaunate abu, konkretų modelį ir reikiamą priedą?",
+            "Transportas: atvežimas, išvežimas, iškrovimas ir kelionės skaičiavimas.",
+            "Kuras, valymas, draudimas, užstatas ir atsakomybė: ypač nuomojant be operatoriaus.",
+            "Iškastas gruntas: palikti vietoje, paskleisti, pakrauti ar išvežti.",
+            "Užpylimas, sutankinimas, dangos atkūrimas ir medžiagos.",
+            "Taikomas PVM, apmokėjimo etapai, pakeitimai, atšaukimas ir pasiūlymo galiojimas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Grunto išvežimas nėra vien tūrio daugyba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geometrinis tranšėjos tūris aprašo ertmę pagal matmenis. Iškastas gruntas gali užimti kitokį tūrį, o jo transportui svarbus ir svoris, priemaišos bei priėmimo vieta. Mūsų įrankis šių savybių nenustato. Nenaudokite jo rezultato kaip patvirtinto reisų skaičiaus ar išvežimo kainos. Paprašykite vykdytojo nurodyti, kaip vertinamas ir apskaitomas šis darbas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu gruntą paliekate sklype, parodykite numatomą vietą ir susitarkite, ar reikės jį paskleisti. Jei išvežate, atskirai aptarkite pakrovimą, transportą, teisėtą priėmimą ir galimus mokesčius. Neaiški „viskas įskaičiuota“ frazė nepakankama, jei pasiūlyme nėra šių darbų ribų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdys be išgalvotos kainos"
+        },
+        {
+          "type": "paragraph",
+          "text": "A pasiūlymas: kasimas su operatoriumi, transportas atskirai, gruntas lieka sklype. B pasiūlymas: technikos nuoma be operatoriaus ir pristatymas, o kuras bei grąžinimo valymas papildomai. Jų sumos nelyginamos tiesiogiai. Pirmiausia paprašykite abiejų pasiūlyti vienodą jūsų darbo apimtį arba aiškiai suskaičiuokite, kurias dalis turėsite organizuoti patys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trečias pasiūlymas gali apimti ir grunto išvežimą, bet ne užpylimą. Net jei bendra suma didesnė, tai dar nerodo brangesnio vienodo kasimo. Vertinkite galutinį rezultatą, praleistas dalis ir atsakomybes. Nepamirškite darbų, kuriems reikia kitų specialistų, pavyzdžiui, komunikacijų montavimo ar projekto sprendinių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pridėti, kad pasiūlymas būtų naudingas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vietovę ir pageidaujamą laikotarpį.",
+            "Darbo paskirtį bei matmenis, pažymint, kas preliminaru.",
+            "Privažiavimą ir kliūtis, iškasto grunto vietą.",
+            "Papildomus darbus ir tai, ką organizuosite patys.",
+            "Žinomus tinklus, planą ir dar neatliktus suderinimus."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Technikos centro ir Avesco puslapiai yra realių tiekėjų pasiūlymų bei sąlygų pavyzdžiai. Viešos kainos gali keistis, todėl jas tikrinkite su tiekėju. HH Muckers rodo užsienio paslaugos pateikimą; jo kainos, mokesčiai ir aptarnavimo teritorija Lietuvai netaikomi. Šaltinio nuoroda nereiškia partnerystės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip naudoti mūsų poreikio formą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma skirta planuojamam tranšėjos kasimui su operatoriumi Kauno regione. Galite parašyti apimtį ir neaiškumus, tačiau tai nėra kainos užklausa patvirtintam vykdytojui. Partnerystės dar nesudarytos, pasiūlymo negarantuojame. Jei reikia įpareigojančios sąmatos, suderinkite ją tiesiogiai su paslaugos teikėju."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [
+        {
+          "id": "c928e6ce-05f7-470b-bfe8-9d2c11f59461",
+          "src": "/content-assets/miniekskavatoriai/c928e6ce-05f7-470b-bfe8-9d2c11f59461.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "0f7dcab1-04c5-4268-8327-2aaeea08b784",
+          "src": "/content-assets/miniekskavatoriai/0f7dcab1-04c5-4268-8327-2aaeea08b784.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "3a95b281-b693-4c45-9126-4dd57b5ae20e",
+          "src": "/content-assets/miniekskavatoriai/3a95b281-b693-4c45-9126-4dd57b5ae20e.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "7985a7ad-2107-45aa-b6cc-766120fc81af",
+          "src": "/content-assets/miniekskavatoriai/7985a7ad-2107-45aa-b6cc-766120fc81af.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        },
+        {
+          "id": "79cf8432-b3c5-44aa-be33-06f1387b2001",
+          "src": "/content-assets/miniekskavatoriai/79cf8432-b3c5-44aa-be33-06f1387b2001.webp",
+          "alt": "Mini ekskavatorius ant transportavimo priekabos",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI iliustracija, sukurta šiam projektui 2026-10-01. Ne mūsų technika, darbuotojai ar kliento darbas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "4bc1ec58-fc05-4951-b1f9-3eb982ca0db8",
+          "label": "Tranšėjos tūrio įrankis"
+        },
+        {
+          "targetPageId": "9a41d952-5665-4f98-b307-9fffd27f6880",
+          "label": "Kasimo poreikio registracijos eiga"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.technikoscentras.lt/",
+          "label": "Technikos centras: nuomos ir kasimo pasiūlymai",
+          "reason": "Peržiūrėta 2026-10-01. Nuoma ir darbas su operatoriumi siūlomi atskirai. Vieši įkainiai priklauso šiam vykdytojui ir čia nekopijuojami kaip mūsų kainos."
+        },
+        {
+          "url": "https://www.avesco-rent.lt/lt/nuomos-salygos/",
+          "label": "Avesco Rent: nuomos sąlygos",
+          "reason": "Peržiūrėta 2026-10-01. Realaus nuomotojo atsiskaitymo ir nuomos sąlygų pavyzdys; tai ne šio projekto kainynas ar sutartis."
+        },
+        {
+          "url": "https://hhmuckers.com/digger-hire",
+          "label": "HH Muckers: darbas su operatoriumi",
+          "reason": "Peržiūrėta 2026-10-01. JK paslaugos pavyzdys, kuriame vieta ir darbų informacija reikalinga pasiūlymui. Užsienio kainos, sąlygos ir teritorija Lietuvai neperkeliamos."
+        }
+      ],
+      "id": "afed1ea2-2ac9-4f1c-b853-23ad90e8aa0c",
+      "revisionHash": "12f584da943f8c4cda829733cb2f27a58d59c8780ff2a56ad12ee7754cc0ac07",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "12f584da943f8c4cda829733cb2f27a58d59c8780ff2a56ad12ee7754cc0ac07",
+        "approvedAt": "2026-10-01T11:46:07.916Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "kontaktai",
+      "title": "Aprašykite kasimo poreikį",
+      "description": "Tranšėjos kasimo su operatoriumi poreikio forma Kaunui ir Kauno rajonui. MB Pinet, info@pinet.lt. Be užsakymo ar atvykimo garantijos.",
+      "intent": "Kur pateikti konkretų tranšėjos kasimo poreikį ar turinio pataisą?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Nurodykite vietovę, paskirtį, matmenis, pageidaujamą laikotarpį ir svarbias sąlygas. Jei kažko dar nežinote, taip ir parašykite. Registracija nėra kasimo užsakymas, rezervacija ar kainos pasiūlymo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kitas susisiekimo kelias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Projektą administruoja MB Pinet. Klausimus apie šį poreikį, duomenis ar turinio pataisas galite siųsti į info@pinet.lt. Telefono ir fizinio aptarnavimo vietos šiame projekte nepateikiame. Nepriimame avarinių darbų užsakymų ir nežadame atsakymo termino."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [],
+      "links": [],
+      "id": "2a0ffe2e-dae1-4977-8867-7dcd8d41568b",
+      "revisionHash": "0907b3d4f4d0582a882954b2b1ea598aef1c28617669b4e13a80cb206fe18926",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0907b3d4f4d0582a882954b2b1ea598aef1c28617669b4e13a80cb206fe18926",
+        "approvedAt": "2026-10-01T11:46:08.071Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "apie-projekta",
+      "title": "Apie miniekskavatoriai.lt",
+      "description": "MB Pinet kuriamas pirmos fazės tranšėjos kasimo poreikio testas: konkretus regionas, registracijos ribos ir informaciniai gidai.",
+      "intent": "Kas atsako už projektą ir kokia paslauga realiai prieinama?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Miniekskavatoriai.lt administruoja MB Pinet, kontaktas info@pinet.lt. Projektas padeda pasiruošti nedidelės tranšėjos kasimui ir registruoja planuojamo kasimo su operatoriumi poreikį Kaune bei Kauno rajone."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dabartinis etapas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai pirmos fazės paklausos testas. Vykdytojų sutartys ir paslaugos pajėgumas nepatvirtinti, savo technikos parko nepristatome. Registracija nėra užsakymas; kainos, darbų datos ir pasiūlymo negarantuojame. Vietinė svetainės peržiūra dar nėra viešas domeno paleidimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Verslo hipotezė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei atsirastų tinkami vykdytojai ir tikras poreikis, svarstytume mokestį iš vykdytojo už jo aiškiai priimtą kvalifikuotą užklausą. Tokio susitarimo ar pajamų dabar nėra. Kliento duomenys automatiškai vykdytojams neperduodami. Registruojant poreikį mokėti nereikia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atsakomybė už informaciją"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai ir skaičiuotuvas skirti apimties bei klausimų pasiruošimui. Jie nėra saugos patikra, leidimas kasti ar techninis projektas. Redakcinė metodika paaiškina šaltinių, iliustracijų ir pataisų tvarką."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "764e9d13-d04e-41b0-b3dc-776a8db44d84",
+          "label": "Redakcinė metodika"
+        }
+      ],
+      "id": "7226a1b3-ad31-4123-98d4-26aecf842c9a",
+      "revisionHash": "85fdf54e11969d555f2454de76679d8c613b2893186b5ce05d38040a37a7206e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "85fdf54e11969d555f2454de76679d8c613b2893186b5ce05d38040a37a7206e",
+        "approvedAt": "2026-10-01T11:46:08.269Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "redakcija",
+      "title": "Redakcija ir šaltinių tikrinimas",
+      "description": "MB Pinet redakcinė atsakomybė: originalūs gidai, šaltinių ribos, iliustracijų kilmė ir klaidų taisymo kontaktas.",
+      "intent": "Kaip patikrinti šių gidų kilmę ir pateikti pataisą?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Už projekto turinio publikavimą ir pataisas atsako MB Pinet. Kontaktas info@pinet.lt. Neišgalvojame eksperto vardo, operatoriaus kvalifikacijos, klientų istorijų ar atliktų darbų. Turinį rengti padėjo AI; agento peržiūra nėra atestuoto statybos specialisto vertinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengti pradiniai gidai"
+        },
+        {
+          "type": "paragraph",
+          "text": "2026-10-01 peržiūrėti realių Lietuvos ir užsienio tiekėjų puslapiai bei ESO kasimo informacija. Giduose atskiriame šaltinio faktą, bendrą pasiruošimo klausimą ir iliustracinį pavyzdį. Mūsų originalus indėlis – palyginimo sąrašai, matmenų ruošinys ir aiškios registracijos ribos. Tiekėjų kainos ar jų vykdymo pažadai netampa mūsų pasiūlymu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Datos ir pakeitimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradinių puslapių datos yra šios vietinės versijos numatyto publikavimo ir redakcinės peržiūros datos. Jos neįrodo tikro domeno paleidimo. Prieš viešą publikavimą reikės patikrinti kintančias sąlygas. Reikšmingi turinio pakeitimai peržiūrimi iš naujo; šaltinių peržiūros data nevadinama istorine straipsnio publikavimo data."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vaizdų kilmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temos vaizdai yra originalios AI sukurtos iliustracijos. Jos nerodo mūsų technikos, darbuotojų, atliktų darbų ar konkretaus kliento sklypo. Originalai ir generavimo instrukcijos saugomi privačiame medijos žurnale. Geometrinis pjūvis paaiškina formulę, ne kasimo konstrukcinį sprendimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pataisų tvarka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastebėję netikslumą parašykite info@pinet.lt: pridėkite puslapio adresą, teiginį ir pagrindžiantį šaltinį. Įvertinsime pataisą prieš pakeisdami patvirtintą versiją. Individualios kasimo konsultacijos ar saugumo patvirtinimo šiuo kanalu nežadame."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [],
+      "links": [],
+      "id": "764e9d13-d04e-41b0-b3dc-776a8db44d84",
+      "revisionHash": "632029ae9d5b0ca23473f4143bcc4fc0e2129391f48be451fe33b85112a8077e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "632029ae9d5b0ca23473f4143bcc4fc0e2129391f48be451fe33b85112a8077e",
+        "approvedAt": "2026-10-01T11:46:08.532Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumo informacija",
+      "description": "Kokius poreikio duomenis gauna MB Pinet, kaip veikia vietinis bandymas ir kaip kreiptis dėl savo duomenų.",
+      "intent": "Kaip tvarkomi formos ir šios vietinės peržiūros duomenys?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šią svetainę administruoja MB Pinet, kontaktas info@pinet.lt. Ši versija skirta vietinei peržiūrai. Galutinės viešo duomenų rinkimo sąlygos dar tikrinamos prieš domeno paleidimą. Bandymams naudokite sintetinius duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Poreikio forma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formoje pateikiami vardas, el. paštas, darbo aprašas ir sutikimo žyma. Įrašomas svetainės ID, šaltinio puslapio kelias, pateikimo laikas bei techninė pristatymo būsena. Informacija skirta jūsų nurodytam poreikiui įvertinti ir galimam patikslinimui, o ne naujienlaiškiui. Vykdytojams automatiškai jos neperduodame. Sutikimą dėl šio poreikio galite atšaukti parašę el. paštu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinėje peržiūroje įrašas saugomas atskiroje vietinėje duomenų bazėje; laiškų siuntimas išjungtas. Formos atsakymas paaiškina išsaugojimo ir pristatymo būseną. Sintetiniai QA įrašai po patikros pašalinami. Tikro viešo domeno duomenų bazė ir pašto pristatymas turi būti patikrinti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Skaičiuotuvas ir ruošinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys ir ruošinys laikomi tik dabartinio naršyklės puslapio atmintyje. Jų neišsaugome slapukuose ar naršyklės saugykloje. Į poreikio formą jie patenka tik pasirinkus ruošinio paruošimą; serveris juos gauna tik jums pateikus formą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Naudojimo matavimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šioje versijoje naudojamas bendras puslapių peržiūrų ir el. pašto nuorodos paspaudimų skaičiavimas pagal svetainę, puslapį ir dieną. Jis nesiunčia formos teksto ar URL užklausos parametrų, nekuria lankytojo profilio ir nenaudoja analitikos slapukų. Do Not Track ir Global Privacy Control signalai stabdo šį klientinį skaičiavimą. Serverio eksploatavimo žurnalų sąlygos tikrinamos prieš viešą paleidimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Viešo paleidimo sąlygos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš renkant tikrus duomenis būtina nustatyti galutinį tvarkymo pagrindą, saugojimo terminą, tvarkytojus, gavėjus, galimus perdavimus ir ištrynimo eigą. Šioje vietinėje peržiūroje šių nepatvirtintų sąlygų nepateikiame kaip veikiančių garantijų. MB Pinet rekvizitai ir privatumo tekstas prieš viešą paleidimą papildomai tikrinami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų teisės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl prieigos, taisymo, ištrynimo, apribojimo ir kitų taikomų teisių kreipkitės į info@pinet.lt. Teisių taikymas priklauso nuo tvarkymo pagrindo ir aplinkybių. Oficialiame Europos duomenų apsaugos valdybos paaiškinime rasite daugiau informacijos. Dėl galimo pažeidimo galite kreiptis į Valstybinę duomenų apsaugos inspekciją."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [
+        {
+          "url": "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+          "label": "Europos duomenų apsaugos valdyba: asmenų teisės",
+          "reason": "Peržiūrėta 2026-10-01. Oficialus teisių ir informavimo paaiškinimas. Teisių taikymas priklauso nuo konkretaus tvarkymo pagrindo."
+        }
+      ],
+      "id": "174ac700-9dec-417e-9f2b-411ffdf39086",
+      "revisionHash": "329190d6172c51284cfa7c037d46b6b54fd4faedc12023c648c7c5d47ceab4ec",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "329190d6172c51284cfa7c037d46b6b54fd4faedc12023c648c7c5d47ceab4ec",
+        "approvedAt": "2026-10-01T11:46:08.802Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    },
+    {
+      "siteId": "miniekskavatoriai",
+      "type": "faq",
+      "slug": "naudojimo-salygos",
+      "title": "Naudojimo sąlygos",
+      "description": "Poreikio registracijos, informacinių gidų ir geometrinio skaičiuotuvo ribos. Kasimo užsakymų ar mokėjimų šiuo etapu nėra.",
+      "intent": "Kokios yra projekto įrankio ir poreikio registracijos naudojimo ribos?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Svetainę administruoja MB Pinet. Informacija padeda pasiruošti planuojamo kasimo apimčiai ir klausimams. Ji nėra individualus projektas, leidimas kasti, saugumo ar technikos tinkamumo patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Poreikio registracija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma nėra užsakymas, rezervacija, mokama konsultacija ar sutartis dėl kasimo. Mokėjimų nepriimame. Vykdytojų partnerystės dar nesudarytos; pasiūlymo, atsakymo termino, technikos ar atvykimo datos negarantuojame. Skubų darbą derinkite tiesiogiai su realiu paslaugos teikėju."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Skaičiuotuvo ribos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formulė taikoma stačiakampės tranšėjos geometrijai pagal jūsų matmenis metrais. Ji nenustato reikalingo gylio, sienelių profilio, kasimo laiko, kainos, išpureninto grunto kiekio ar reisų skaičiaus. Matmenis ir darbų saugą turi patikrinti atsakingi specialistai. Pavyzdžių skaičiai nėra rekomendacijos jūsų objektui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šaltiniai ir iliustracijos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuorodos į kitus tiekėjus yra informacijos šaltiniai, o ne partnerystė ar jų pasiūlymo garantija. Užsienio kainos ir sąlygos Lietuvai neperkeliamos. Vaizdai yra iliustracijos, ne atliktų darbų įrodymai. Klaidas praneškite info@pinet.lt. Duomenų tvarkymą paaiškina privatumo informacija."
+        }
+      ],
+      "publishAt": "2026-10-01T11:40:26.325Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "174ac700-9dec-417e-9f2b-411ffdf39086",
+          "label": "Privatumo informacija"
+        }
+      ],
+      "id": "52a1d701-4a9d-4be4-ac74-f81505efe537",
+      "revisionHash": "e721b4534ab03bac5dd57739c5d700dad5ebded17caee9619c55679ce28a9da2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e721b4534ab03bac5dd57739c5d700dad5ebded17caee9619c55679ce28a9da2",
+        "approvedAt": "2026-10-01T11:46:09.003Z",
+        "actorId": "miniekskavatoriai-agent-source-review"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-01T11:46:09.182Z"
+}

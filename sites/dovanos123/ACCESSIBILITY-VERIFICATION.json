@@ -1,0 +1,40 @@
+{
+  "siteId": "dovanos123",
+  "productionVerified": false,
+  "fixture": {
+    "baseUrl": "http://127.0.0.1:8928",
+    "canonicalHost": "gift-core-fixture.example",
+    "packageSha256": "5966f4fc1ba8f6e03f0dc50fabffcd299a846e4261282d30f4812e8c2dc2a7c2",
+    "checkedAt": "2026-10-04T22:01:13.000Z",
+    "routes": [
+      { "path": "/", "width": 390, "height": 844, "status": 200, "horizontalOverflow": false },
+      { "path": "/", "width": 320, "height": 900, "status": 200, "horizontalOverflow": false },
+      { "path": "/straipsniai", "width": 320, "height": 900, "status": 200, "horizontalOverflow": false },
+      { "path": "/straipsniai/bandomasis-gidas", "width": 1440, "height": 1000, "status": 200, "horizontalOverflow": false },
+      { "path": "/straipsniai/bandomasis-gidas", "width": 320, "height": 900, "status": 200, "horizontalOverflow": false },
+      { "path": "/kontaktai", "width": 320, "height": 900, "status": 200, "horizontalOverflow": false }
+    ],
+    "selectedTextContrastRatios": [5.746973488, 6.406767607, 5.521865979, 5.99764289],
+    "skipLinkFocus": "MAIN#main-content",
+    "screenshotsDirectory": "output/playwright/dovanos123-integration",
+    "excludedScreenshot": "article-mobile-second.png"
+  },
+  "enlargement": { "status": "UNVERIFIED", "mechanism": "No supported actual browser percentage control established", "originalZoom": null, "finalZoom": null, "globalSettingsChanged": false, "restorationRequired": false },
+  "actualPackage": {
+    "status": "SCOPED_LOCAL_REFLOW_CHECKS_PASS",
+    "baseUrl": "http://127.0.0.1:8930",
+    "packageSha256": "f9a14e3a5772781afe1233fbd3ccc6041ea2bf73aef2d7a12d40924ca6b4febd",
+    "baselineNavigations": 17,
+    "finalNavigations": 6,
+    "finalOverflowingElements": 0,
+    "finalGiftStylesSha256": "139da37d3e772d6b53b141ee96bfa8f53752e9989ca83661faaf7cb12d2c8cc1",
+    "categoryMinimumContrastRatio": 5.550153783162116,
+    "allInitialGuideImagesLoaded": true,
+    "formsEnabled": false,
+    "trackerPresent": false,
+    "focusAfterSkip": "MAIN#main-content",
+    "rawEvidence": ["output/playwright/dovanos123-integration/actual-r2-qa.json", "output/playwright/dovanos123-integration/actual-r2-final-qa.json", "output/playwright/dovanos123-integration/actual-r2-contrast-qa.json"],
+    "footerFastScreenshotLimitation": "content-visibility:auto can leave offscreen pixels blank; do not accept blank captures as visual footer proof"
+  },
+  "limitations": ["Narrow reflow is not browser enlargement", "Selected contrast and Lighthouse are not WCAG certification", "R1 synthetic results do not establish actual article/image acceptance"]
+}

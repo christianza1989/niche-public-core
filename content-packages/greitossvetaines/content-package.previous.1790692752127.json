@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "siteId": "greitossvetaines",
+  "canonicalHost": "greitossvetaines.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "greitossvetaines",
+    "name": "Greitos svetainės",
+    "canonicalHost": "greitossvetaines.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#246f74"
+    },
+    "offer": "Svetainių kūrimas apdailos meistrams: aiškios paslaugos, darbų pavyzdžiai ir patogus užklausos kelias. Pradinis paketas nuo 490 €.",
+    "contact": {
+      "email": "info@memorycasting.lt",
+      "phone": "+370 691 08251"
+    }
+  },
+  "pages": [
+    {
+      "siteId": "greitossvetaines",
+      "type": "home",
+      "slug": "",
+      "title": "Svetainių kūrimas apdailos meistrams | Greitos svetainės",
+      "description": "Kuriame apdailos meistrų svetaines, kuriose aiškiai matomos paslaugos, darbų pavyzdžiai ir užklausos kelias. Pradinis paketas nuo 490 €.",
+      "intent": "Rasti svetainės kūrimo paslaugą apdailos meistrui ir aprašyti savo poreikį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kuriame apdailos meistrui skirtą svetainę, kurioje klientas supranta jūsų paslaugas, pamato tikrus darbų pavyzdžius ir lengvai aprašo savo projektą. Pradinė svetainės kaina – nuo 490 €. Galutinę apimtį sutariame pagal turimą medžiagą ir reikalingus puslapius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas įeina į pradinę svetainę"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Individualus pradžios puslapis ir iki keturių papildomų informacinių puslapių.",
+            "Paslaugų aprašymai, darbų pavyzdžių vieta ir aiškus kontaktų kelias.",
+            "Mobiliesiems ekranams pritaikytas dizainas, pagrindiniai paieškos metaduomenys ir techninės patikros.",
+            "Jūsų pateikto turinio redagavimas; viešiname tik faktus ir vaizdus, kuriuos turite teisę naudoti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasiruošti prieš kuriant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užtenka paslaugų sąrašo, miestų ar rajonų, kuriuose dirbate, ir kelių darbų nuotraukų, jei turite teisę jas skelbti. Jei nuotraukų dar nėra, pradėsime nuo paslaugų ir užklausos struktūros – išgalvotų projektų nerodome."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip atsiranda naudingas turinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kiekvienas paslaugos puslapis atsako į atskirą kliento klausimą. Pavyzdžiui, vonios atnaujinimo puslapyje paaiškiname darbų ribas ir ko reikia pirminiam įvertinimui. Tekstą suderiname su realiai atliekamais darbais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkime jūsų poreikį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašykite, kokius apdailos darbus atliekate, kur dirbate ir kokių užklausų siekiate. Atsakysime, kokios struktūros svetainė tiktų jūsų situacijai. Galite skambinti +370 691 08251 arba rašyti info@memorycasting.lt."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.625Z",
+      "media": [
+        {
+          "id": "7b6f63d5-7234-4241-b20a-40aa70e4a681",
+          "src": "/content-assets/greitossvetaines/7b6f63d5-7234-4241-b20a-40aa70e4a681.webp",
+          "alt": "Iliustracija: apdailos darbo įrankiai ir telefone matomas abstraktus svetainės maketas",
+          "width": 1440,
+          "height": 960,
+          "credit": "Originali ImageGen iliustracija",
+          "rights": "Originali AI sugeneruota iliustracija šiam projektui; ne kliento darbų nuotrauka"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+          "label": "Sužinoti paslaugos apimtį"
+        },
+        {
+          "targetPageId": "2984aae6-8f13-4991-a4b4-c18570c1f312",
+          "label": "Kaip pateikti darbų pavyzdžius"
+        },
+        {
+          "targetPageId": "41073f2d-ed67-4ab6-aa66-1924aa491815",
+          "label": "Ką turėti meistro svetainėje"
+        },
+        {
+          "targetPageId": "6e07466d-ea41-4c38-9be3-ab728d4eb358",
+          "label": "Svetainė ar Facebook?"
+        },
+        {
+          "targetPageId": "77cffcb2-4c99-41b3-b303-3e817cf316a5",
+          "label": "Dažniausi klausimai"
+        }
+      ],
+      "id": "ffc009aa-cd75-4b86-8561-0c5acf52958b",
+      "revisionHash": "802d0b5d29ad4d8a41e66a228e3b842e920a61db48b98a3633f49e0a97baeeba",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "802d0b5d29ad4d8a41e66a228e3b842e920a61db48b98a3633f49e0a97baeeba",
+        "approvedAt": "2026-09-29T14:28:54.485Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "service",
+      "slug": "svetaine-apdailos-meistrui",
+      "title": "Svetainė apdailos meistrui: struktūra ir kaina",
+      "description": "Apdailos meistro svetainė nuo 490 €: paslaugos, darbų pavyzdžiai, užklausos forma ir SEO pagrindai. Sužinokite, kas įeina ir ką pasiruošti.",
+      "intent": "Suprasti, kokia svetainė tinka apdailos darbų specialistui.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Apdailos darbų klientai dažnai ateina su ne iki galo aiškiu poreikiu: reikia remonto, dažymo, glaistymo, plytelių klojimo ar kelių darbų vienu metu, bet dar nežino apimties, terminų ir biudžeto ribų. Todėl meistro svetainė neturėtų būti vien vizitinė kortelė. Ji turi padėti žmogui suprasti, kokius darbus atliekate, kokios informacijos reikia pirmam pokalbiui ir ar jo užklausa jums tinkama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuriame aiškią svetainę apdailos meistrui: paslaugų pristatymas, realių darbų pavyzdžių vieta, dažniausi klausimai ir patogus užklausos kelias. Pradinis paketas kainuoja nuo 490 €. Tiksli suma priklauso nuo puslapių, medžiagos ir papildomų funkcijų apimties."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pradinis paketas nuo 490 €"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pradžios puslapis ir iki keturių papildomų informacinių puslapių.",
+            "Mobilus dizainas, paslaugų aprašymai ir vieta jūsų tikriems darbų pavyzdžiams.",
+            "Kontaktų ir užklausos kelias, SEO antraštės, aprašymai, vidinės nuorodos bei techninis patikrinimas.",
+            "Domenas, mokamas talpinimas, profesionali fotosesija ir nestandartinės integracijos į bazinę kainą neįtraukti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką turi atlikti tokia svetainė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gera apdailos meistro svetainė pirmiausia turi atsakyti į praktinius klausimus. Lankytojui svarbu greitai suprasti, ar dirbate su jo tipo objektu, kokius darbus galite įvertinti, kokių pavyzdžių turite ir kaip patogiai pateikti pirminę informaciją. Kuo mažiau neaiškumo, tuo didesnė tikimybė, kad užklausa bus konkreti, o ne vien sakinys „kiek kainuotų remontas?“"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aiškiai išvardytos paslaugų kryptys: dažymas, glaistymas, plytelių darbai, grindys, smulkūs remonto darbai ar kitos realiai teikiamos paslaugos.",
+            "Darbų pavyzdžiai su trumpu paaiškinimu, kas buvo atlikta, kokia buvo pradinė situacija ir koks rezultatas matomas nuotraukoje.",
+            "Užklausos forma, kuri paprašo naudingos informacijos: objekto tipo, miesto ar rajono, darbų apimties, pageidaujamo laikotarpio ir nuotraukų.",
+            "Trumpas paaiškinimas, kokių darbų nesiimate arba kokiais atvejais reikia papildomo įvertinimo.",
+            "Kontaktinis kelias, kuris leidžia žmogui kreiptis be spaudimo iš karto pirkti ar rezervuoti laiką."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paslaugų struktūra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apdailos paslaugos dažnai persidengia, todėl svetainėje verta grupuoti jas ne tik pagal techninį darbą, bet ir pagal kliento situaciją. Pavyzdžiui, vienam žmogui reikia tik sienų perdažymo, kitam - viso buto paruošimo po remonto, trečiam - sutvarkyti konkretų broką ar užbaigti nebaigtus darbus. Tokia struktūra padeda lankytojui atpažinti savo atvejį."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Sienų ir lubų paruošimas“ tinka, jei norite atskirti glaistymą, šlifavimą, gruntavimą ir dažymą.",
+            "„Plytelių darbai“ turėtų nurodyti, kokioms erdvėms ir paviršiams darbai aktualūs, jei ši informacija patvirtinta.",
+            "„Smulkūs remonto darbai“ naudingi tik tada, kai aišku, kas patenka į šią kategoriją ir kas nepatenka.",
+            "„Darbai po būsto įsigijimo ar nuomos“ gali padėti klientui aprašyti problemą paprastesne kalba.",
+            "„Objekto įvertinimas“ turėtų būti aprašytas atsargiai, jei dar nėra patvirtinta, kaip jis vyksta."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Darbų pavyzdžiai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apdailos meistrui darbų galerija dažnai yra svarbesnė už ilgą tekstą. Tačiau vien nuotraukų nepakanka. Lankytojui naudinga žinoti, ką jis mato: ar tai naujai išdažyta siena, sutvarkyti kampai, pakeistos plytelės, užbaigta vonios zona ar prieš tai buvusių pažeidimų taisymas. Jei nėra patvirtintų projektų, svetainėje geriau palikti vietą būsimiems pavyzdžiams, o ne kurti fiktyvią galeriją."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rinkitės aiškias, šviesias nuotraukas be perteklinių filtrų.",
+            "Pridėkite trumpą kontekstą: kokia problema spręsta ir koks darbas atliktas.",
+            "Neskaičiuokite darbų kaip „projektų“, jei tai tik pavienės nuotraukos be patvirtinto konteksto.",
+            "Nenaudokite svetimų objektų, kataloginių vaizdų ar nuotraukų, kurioms neturite teisės.",
+            "Jei įmanoma, rodykite detales: kampus, sujungimus, paviršiaus lygumą, plytelių siūles, užbaigimus prie grindjuosčių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausos kelias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vienas svarbiausių svetainės tikslų – padėti klientui pateikti užklausą taip, kad iš karto būtų aiški darbo vieta, pobūdis ir apimtis. Forma turi būti trumpa ir surinkti būtinus duomenis; nuotraukas klientas gali atsiųsti vėliau el. paštu."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokio tipo objektas: butas, namas, komercinė patalpa ar kita erdvė.",
+            "Kokie darbai reikalingi ir ar tai nauja apdaila, atnaujinimas, taisymas ar užbaigimas.",
+            "Apytikslė darbų apimtis: patalpų skaičius, plotas arba trumpas aprašymas.",
+            "Ar yra nuotraukų, brėžinių ar kitų orientyrų.",
+            "Kurioje Lietuvos vietoje yra objektas, jei meistras dirba tik tam tikroje teritorijoje.",
+            "Kada žmogus norėtų pradėti, be pažado, kad konkretus terminas bus įmanomas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kam ši svetainė tinka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tokia svetainė labiausiai tinka savarankiškai dirbančiam apdailos meistrui arba mažai komandai, kuriai reikia tvarkingai pristatyti paslaugas ir gauti aiškesnes užklausas. Ji gali būti naudinga, kai klientai ateina iš rekomendacijų, socialinių tinklų ar paieškos, bet prieš susisiekdami nori pamatyti daugiau informacijos vienoje vietoje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ji mažiau tinka, jei reikia sudėtingos vidinės sistemos, kainų skaičiuoklės su tiksliomis sąmatomis, didelio katalogo, rezervacijos kalendoriaus ar kelių kalbų projekto nuo pirmos versijos. Tokius poreikius verta aptarti atskirai, nes jie priklauso nuo realaus darbo proceso ir turinio kiekio."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką verta pasiruošti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tikslų paslaugų sąrašą, kurį galima skelbti viešai.",
+            "Darbų nuotraukas, kurias leidžiama naudoti svetainėje.",
+            "Trumpą aprašymą, su kokiais klientais ir objektais norite dirbti.",
+            "Kontaktinį el. paštą ir kitus patvirtintus kontaktus, jei jie bus naudojami.",
+            "Atsakymus į dažniausius klientų klausimus: kaip pateikti užklausą, kokios informacijos reikia, kada būtina objekto apžiūra.",
+            "Aiškias ribas: kokių darbų nesiimate, kokių teiginių nenorite skelbti ir ką būtina patikrinti prieš publikavimą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai prieš pradedant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš kuriant pirmą svetainės versiją verta apsispręsti, ar svetainė turi pristatyti vieną konkretų meistrą, komandą ar bendrą paslaugų kryptį. Taip pat svarbu nuspręsti, ar bus naudojamos realios darbų nuotraukos, ar pradžioje svetainė veiks kaip informacinis puslapis su užklausos forma ir vėliau bus papildoma pavyzdžiais."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokios paslaugos yra pagrindinės, o kurios tik papildomos?",
+            "Ar galima viešai rodyti ankstesnių darbų nuotraukas?",
+            "Kokios užklausos yra tinkamiausios, o kokios dažniausiai gaišina laiką?",
+            "Ar reikia nurodyti aptarnaujamą teritoriją, jei ji patvirtinta?",
+            "Kokį pirmą veiksmą lankytojas turėtų atlikti: parašyti, atsiųsti nuotraukas ar trumpai aprašyti objektą?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip kreiptis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norite aptarti savo svetainę? Parašykite info@memorycasting.lt arba skambinkite +370 691 08251. Nurodykite atliekamas paslaugas, darbo vietoves ir ar turite darbų nuotraukų. Pagal tai pateiksime konkrečią apimtį ir kainą."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.625Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "2984aae6-8f13-4991-a4b4-c18570c1f312",
+          "label": "Darbų pavyzdžių gidas"
+        },
+        {
+          "targetPageId": "41073f2d-ed67-4ab6-aa66-1924aa491815",
+          "label": "Meistro svetainės kontrolinis sąrašas"
+        },
+        {
+          "targetPageId": "77cffcb2-4c99-41b3-b303-3e817cf316a5",
+          "label": "Dažniausi klausimai"
+        }
+      ],
+      "id": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+      "revisionHash": "78bda8a958897d0bdcc6bc201a29ab0d1f49a4cd49711b1fa573b68b9f42512d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "78bda8a958897d0bdcc6bc201a29ab0d1f49a4cd49711b1fa573b68b9f42512d",
+        "approvedAt": "2026-09-29T14:28:54.465Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "guide",
+      "slug": "gidas/darbu-pavyzdziai-meistrui",
+      "title": "Darbų pavyzdžiai meistro svetainėje: ką ir kaip rodyti",
+      "description": "Kaip atrinkti, nufotografuoti ir aprašyti apdailos darbus svetainėje? Praktinis galerijos planas su pavyzdžio šablonu ir dažnomis klaidomis.",
+      "intent": "Meistras ieško, kaip paruošti darbų galeriją savo svetainei",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Darbų pavyzdžiai meistro svetainėje turi ne tik gražiai atrodyti. Jie turi padėti žmogui greitai suprasti, kokius darbus atliekate, kokio sudėtingumo objektus priimate ir ar jūsų darbo stilius tinka jo situacijai. Gera galerija sumažina neaiškumų prieš užklausą: klientas gali aiškiau parašyti, ko reikia, o jūs gaunate tikslesnį pirmą aprašymą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokius darbus atrinkti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės ne vien pačias gražiausias nuotraukas, o tokius pavyzdžius, kurie atspindi realias paslaugas. Jei atliekate skirtingus darbus, verta parodyti kelias kryptis: sienų paruošimą, dažymą, plytelių klijavimą, grindų įrengimą, smulkius remonto darbus ar pilnesnę patalpų apdailą. Svarbiausia, kad kiekvienas pavyzdys būtų tikras ir aiškiai susijęs su paslauga, kurią norite gauti dažniau."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rodykite darbus, kuriuos tikrai norite kartoti ateityje.",
+            "Įtraukite skirtingo dydžio objektų, jei dirbate ir su mažesniais, ir su didesniais užsakymais.",
+            "Venkite pavyzdžių, kurių negalite paaiškinti arba kuriuose rezultatas priklausė nuo kito rangovo darbo.",
+            "Nenaudokite svetimų nuotraukų, kataloginių vaizdų ar vizualizacijų kaip atliktų darbų pavyzdžių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką parodyti nuotraukose"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klientui dažnai svarbu ne tik galutinis vaizdas, bet ir darbų pobūdis. Todėl vienas objektas gali turėti kelias nuotraukas: prieš darbą, proceso metu ir po darbų. Tai ypač naudinga, kai rezultatas priklauso nuo paruošimo, paviršiaus būklės ar sudėtingų kampų, nišų, sujungimų."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bendras patalpos vaizdas parodo mastelį ir bendrą rezultatą.",
+            "Detalės iš arti padeda įvertinti sujungimus, kampus, glaistymo, dažymo ar plytelių kokybę.",
+            "Nuotrauka prieš darbus paaiškina pradinę situaciją.",
+            "Proceso kadras tinka tada, kai norite parodyti paruošimą, pagrindo būklę ar darbo eigą.",
+            "Galutinis kadras turi būti šviesus, tiesus ir be nereikalingos netvarkos, jei įmanoma."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip aprašyti kiekvieną pavyzdį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien nuotrauka dažnai palieka per daug klausimų. Trumpas aprašymas padeda žmogui suprasti, ką tiksliai atlikote. Aprašymas neturi būti ilgas, bet turėtų atsakyti į praktinius klausimus: kokia buvo užduotis, kas atlikta, kokių ribojimų buvo ir kokiam klientui toks darbas aktualus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Darbo tipas: pavyzdžiui, sienų glaistymas ir dažymas, vonios plytelių klijavimas, grindų paruošimas.",
+            "Objekto pobūdis: butas, namas, viena patalpa, komercinė erdvė, jei tai galima nurodyti nepažeidžiant privatumo.",
+            "Pradinė situacija: nauja statyba, remontuojama patalpa, nelygūs paviršiai, senos dangos šalinimas.",
+            "Atlikti darbai: konkrečiai įvardykite savo dalį, o ne visą projektą, jei dalį darbų atliko kiti.",
+            "Svarbios detalės: nestandartiniai kampai, drėgna patalpa, smulkūs taisymai, sudėtingas paviršiaus paruošimas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko geriau nežadėti galerijoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbų pavyzdžiai neturėtų sudaryti įspūdžio, kad kiekvienas būsimas projektas kainuos tiek pat, truks tiek pat ar atrodys identiškai. Apdailos darbuose rezultatas priklauso nuo pagrindo, medžiagų, patalpos būklės, kliento pasirinkimų ir kitų aplinkybių. Todėl galerijoje geriau vengti nepagrįstų pažadų ir vietoje jų pateikti aiškią informaciją."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nerašykite kainų prie senų pavyzdžių, jei jos nebėra aktualios arba nėra patvirtintos.",
+            "Nenurodykite tikslaus termino, jei jis priklauso nuo objekto apžiūros ir darbų apimties.",
+            "Nerašykite, kad rezultatas garantuotai bus toks pats, nes kiekvienas objektas skiriasi.",
+            "Nenaudokite klientų vardų, adresų ar atpažįstamų detalių be aiškaus leidimo."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sugrupuoti darbus svetainėje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei pavyzdžių nedaug, užtenka paprastos galerijos su trumpais aprašymais. Jei jų daugiau, patogu grupuoti pagal paslaugas arba patalpų tipus. Svarbu, kad žmogus greitai rastų tai, kas panašu į jo poreikį, o ne naršytų per atsitiktinių nuotraukų rinkinį."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pagal paslaugą: dažymas, glaistymas, plytelės, grindys, smulkūs remonto darbai.",
+            "Pagal patalpą: vonia, virtuvė, kambarys, koridorius, komercinė patalpa.",
+            "Pagal situaciją: nauja statyba, senas remontas, dalinis atnaujinimas.",
+            "Pagal darbo apimtį: vienos užduoties pavyzdžiai ir platesni objektai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokius klausimus galerija turėtų padėti užduoti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gera darbų galerija veda į tikslesnę užklausą. Prie pavyzdžių galima subtiliai paskatinti klientą aprašyti savo objektą: kokia patalpa, kokie darbai reikalingi, ar yra nuotraukų, kokia dabartinė būklė. Tai nėra spaudimas pirkti, o būdas greičiau suprasti, ar užklausa tinkama."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokio tipo darbų reikia?",
+            "Kiek patalpų ar koks apytikslis plotas?",
+            "Kokia dabartinė paviršių ar patalpos būklė?",
+            "Ar klientas turi nuotraukų, brėžinį ar trumpą vaizdo įrašą?",
+            "Ar reikalingas tik vienas konkretus darbas, ar keli susiję darbai?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas šablonas vienam darbų pavyzdžiui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdžio aprašymas gali būti paprastas: „Atliktas sienų paruošimas ir dažymas viename kambaryje. Prieš darbus paviršiai buvo nelygūs, todėl pirmiausia atliktas glaistymas ir šlifavimas. Nuotraukose matomas galutinis vaizdas ir kelios detalės prie kampų.“ Tokia struktūra aiškiai pasako, kas buvo padaryta, bet nekuria nepagrįstų pažadų dėl kainos, termino ar kitų sąlygų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kvietimas užklausai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo turimų nuotraukų atrankos: palikite tik tas, kurioms turite viešinimo teisę, ir prie kiekvienos pasižymėkite atliktą darbą bei objekto situaciją. Jei norite šiuos pavyzdžius paversti tvarkinga meistro svetainės galerija, parašykite info@memorycasting.lt arba skambinkite +370 691 08251."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.626Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+          "label": "Svetainė apdailos meistrui"
+        },
+        {
+          "targetPageId": "41073f2d-ed67-4ab6-aa66-1924aa491815",
+          "label": "Ką dar turėti meistro svetainėje"
+        }
+      ],
+      "id": "2984aae6-8f13-4991-a4b4-c18570c1f312",
+      "revisionHash": "3b0e32dfb2d4804b4d0704ea48b175d7750037e54255c7df0ac6ea07bbc2cb01",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "3b0e32dfb2d4804b4d0704ea48b175d7750037e54255c7df0ac6ea07bbc2cb01",
+        "approvedAt": "2026-09-29T14:28:54.434Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "guide",
+      "slug": "ka-tureti-meistro-svetaineje",
+      "title": "Ką turėti meistro svetainėje: 8 būtini elementai",
+      "description": "Praktinis kontrolinis sąrašas apdailos meistrui: paslaugos, darbų pavyzdžiai, kontaktai, teritorija, kainų paaiškinimas ir užklausos kelias.",
+      "intent": "Sužinoti, kokia informacija reikalinga meistro svetainei.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Meistro svetainė neturi būti sudėtinga. Svarbiausia, kad žmogus per kelias minutes suprastų, kokius darbus atliekate, kokių užklausų laukiate ir kokios informacijos reikia, kad būtų galima įvertinti jo situaciją. Gerai paruošta svetainė padeda atsijoti neaiškius kreipimusis ir paskatina klientą iš karto aprašyti darbą tiksliau."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aiškus paslaugų sąrašas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia svetainėje reikėtų aiškiai išvardyti paslaugas. Apdailos klientai dažnai ieško konkretaus darbo: glaistymo, dažymo, plytelių klijavimo, grindų klojimo, gipso kartono montavimo ar smulkaus remonto. Jei paslaugos surašytos per bendrai, lankytojui sunkiau suprasti, ar verta kreiptis."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įvardykite pagrindines paslaugų kryptis paprastais žodžiais.",
+            "Prie kiekvienos paslaugos trumpai parašykite, kokiems atvejams ji tinka.",
+            "Atskirai paminėkite darbus, kurių nesiimate, jei tai padeda išvengti netinkamų užklausų.",
+            "Venkite pažadų apie kainą ar terminą, jei jie priklauso nuo objekto būklės ir apimties."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Darbų pavyzdžiai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotraukos meistro svetainėje dažnai svarbesnės už ilgą tekstą. Jos padeda klientui įvertinti darbų tipą, kruopštumą ir stilių. Tačiau galerija turi būti tvarkinga: geriau mažiau aiškių pavyzdžių nei daug tamsių, pasikartojančių ar nepaaiškintų nuotraukų."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rinkitės nuotraukas, kuriose matosi atliktas darbas, o ne tik bendras kambario vaizdas.",
+            "Pridėkite trumpą paaiškinimą: koks darbas atliktas ir kokia buvo užduotis.",
+            "Jei rodote vaizdus prieš ir po, aiškiai pažymėkite, kuris yra kuris.",
+            "Nenaudokite svetimų darbų nuotraukų kaip savo pavyzdžių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas prisistatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prisistatymas neturi būti ilga biografija. Klientui svarbu suprasti, su kuo jis kalbėsis, kokio tipo darbus priimate ir kaip vyksta pirmas kontaktas. Jei nėra patvirtintų kvalifikacijų, sertifikatų ar ilgametės patirties duomenų, jų nereikėtų rašyti vien dėl įspūdžio."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Parašykite, kokio pobūdžio apdailos darbams dažniausiai ieškote užklausų.",
+            "Paaiškinkite, kokios informacijos reikia pirmam įvertinimui.",
+            "Nurodykite, ar dirbate savarankiškai, ar kaip komanda, tik jei tai patvirtinta.",
+            "Venkite nepatvirtintų teiginių apie patirtį, sertifikatus ar atliktų objektų skaičių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausos forma arba aiškus el. paštas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Susisiekimas turėtų būti paprastas, bet ne per tuščias. Vien tik mygtukas „Susisiekti“ dažnai nepadeda, jei klientas nežino, ką parašyti. Geriau nukreipti jį į trumpą užklausą, kurioje prašoma pagrindinių duomenų apie darbą."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokio darbo reikia?",
+            "Kur yra objektas arba bent miestas / rajonas, jei ši informacija aktuali darbui.",
+            "Kokia apytikslė darbų apimtis: patalpos, kvadratiniai metrai, paviršių būklė.",
+            "Ar yra nuotraukų, brėžinių ar ankstesnių meistrų pastabų.",
+            "Kada žmogus norėtų pradėti, jei tai dar nėra fiksuotas pažadas iš jūsų pusės."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų skiltyje rodykite tik veikiančius kanalus. Prie formos paaiškinkite, ką klientas turėtų parašyti, ir pasitikrinkite, ar užklausa tikrai išsaugoma bei pasiekia atsakingą žmogų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarnaujama teritorija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klientai dažnai ieško meistro pagal vietą. Jei aptarnaujama teritorija aiški, ją verta nurodyti. Jei teritorija dar nepatvirtinta, geriau jos nespėlioti. Vietoj to galima formoje paprašyti žmogaus nurodyti miestą ar rajoną, kad būtų galima įvertinti, ar užklausa tinkama."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kainų pateikimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kainas galima rodyti tik tada, kai jos realiai patvirtintos ir atnaujinamos. Jei kainodara priklauso nuo objekto, paviršių būklės, medžiagų ar darbų eigos, naudinga paaiškinti, kokia informacija reikalinga sąmatai parengti. Tai sąžiningiau nei skelbti bendras kainas, kurios vėliau neatitinka konkretaus darbo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "DUK skiltis padeda atsakyti į pasikartojančius klausimus prieš pirmą laišką. Ji ypač naudinga, kai norima gauti tvarkingesnes užklausas ir sumažinti neaiškų susirašinėjimą."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokios informacijos reikia norint aptarti darbą?",
+            "Ar verta siųsti nuotraukas iš objekto?",
+            "Kada reikalinga apžiūra vietoje?",
+            "Kokie darbai nepriimami arba vertinami tik po papildomo pokalbio?",
+            "Kaip klientas turėtų aprašyti problemą, kad atsakymas būtų tikslesnis?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko geriau nežadėti be pagrindo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meistro svetainė turi kelti pasitikėjimą, bet pasitikėjimą griauna nepatikrinti pažadai. Jei nėra įrodymų, nereikėtų rašyti apie garantuotus terminus, mažiausias kainas, didelį klientų skaičių, partnerius, sertifikatus ar atsiliepimus. Tokie dalykai turėtų atsirasti tik tada, kai jie yra tikri ir gali būti pagrįsti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paprasta struktūra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradinei meistro svetainei dažnai pakanka kelių aiškių dalių: paslaugų, darbų pavyzdžių, trumpo prisistatymo, užklausos kelio ir dažniausių klausimų. Svarbiausia, kad kiekviena dalis padėtų klientui apsispręsti ir tiksliau parašyti, ko jam reikia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kvietimas kreiptis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo turimos medžiagos: paslaugų sąrašo, kelių tinkamų nuotraukų, darbo teritorijos ir klausimų, kuriuos dažniausiai užduoda klientai. Jei norite šiuos elementus sudėti į svetainę, parašykite info@memorycasting.lt arba skambinkite +370 691 08251."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.626Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+          "label": "Meistro svetainės paslauga"
+        },
+        {
+          "targetPageId": "2984aae6-8f13-4991-a4b4-c18570c1f312",
+          "label": "Kaip pateikti darbų pavyzdžius"
+        }
+      ],
+      "id": "41073f2d-ed67-4ab6-aa66-1924aa491815",
+      "revisionHash": "42996e0dd34f819c34d8b41b3d3552949404fe636625fbc5e44052b00894e121",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "42996e0dd34f819c34d8b41b3d3552949404fe636625fbc5e44052b00894e121",
+        "approvedAt": "2026-09-29T14:28:54.445Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "guide",
+      "slug": "svetaine-ar-facebook-puslapis-meistrui",
+      "title": "Svetainė ar Facebook puslapis apdailos meistrui?",
+      "description": "Palyginame Facebook puslapį ir nuosavą svetainę apdailos meistrui: kada pakanka socialinio tinklo, kada verta svetainės ir kaip naudoti abu.",
+      "intent": "Palyginti svetainę ir socialinių tinklų puslapį meistro veiklai.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Apdailos meistrui svarbiausia ne turėti kuo daugiau kanalų, o padėti žmogui greitai suprasti, ar verta kreiptis. Facebook puslapis gali būti patogus kasdieniams įrašams, nuotraukoms ir greitam susirašinėjimui. Atskira svetainė naudinga tada, kai norite aiškiau parodyti paslaugas, darbų pavyzdžius ir nukreipti klientą į tikslesnę užklausą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada gali pakakti Facebook puslapio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Socialinio tinklo puslapis dažnai tinka meistrui, kuris dar tik tikrina paklausą, dirba daugiausia per rekomendacijas arba nori paprastai kelti naujas darbų nuotraukas. Jis ypač praktiškas, jei jūsų klientai jau rašo per Messenger ir sprendimus priima pagal naujausius įrašus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kai nereikia detaliai aprašyti paslaugų ir darbo eigos.",
+            "Kai darbų apimtis maža, o užklausų kiekis lengvai suvaldomas žinutėmis.",
+            "Kai norite greitai parodyti naujas nuotraukas be papildomos struktūros.",
+            "Kai dauguma klientų ateina iš pažįstamų rekomendacijų."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur Facebook puslapis riboja meistrą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Socialinis tinklas nėra pilnai jūsų valdoma erdvė. Klientui gali būti sunkiau rasti senesnius pavyzdžius, palyginti skirtingas paslaugas ar suprasti, kokios informacijos jums reikia prieš įvertinant darbą. Įrašų srautas taip pat greitai paslepia svarbią informaciją: darbų tipus, pasiruošimo klausimus, apribojimus ir kontaktinį kelią."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada verta turėti svetainę"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainė tampa naudinga, kai meistras nori ne tik būti matomas, bet ir gauti tvarkingesnes užklausas. Joje galima atskirai paaiškinti paslaugas, parodyti galeriją pagal darbų tipus, įvardyti, kokių duomenų reikia iš kliento, ir sumažinti neaiškių žinučių kiekį."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kai klientai dažnai klausia tų pačių dalykų prieš kreipdamiesi.",
+            "Kai atliekate kelias skirtingas apdailos paslaugas ir norite jas aiškiai atskirti.",
+            "Kai svarbu parodyti ne vien gražias nuotraukas, bet ir darbo kontekstą: patalpą, problemą, atliktus etapus.",
+            "Kai norite, kad užklausoje klientas nurodytų objekto tipą, darbų apimtį, miestą ar pageidaujamą laiką, jei tai aktualu.",
+            "Kai socialinis profilis naudojamas kaip srauto šaltinis, o svetainė kaip vieta sprendimui priimti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką klientas turi suprasti per pirmą minutę"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nesvarbu, ar renkatės svetainę, ar Facebook puslapį, lankytojas turi greitai atsakyti sau į kelis klausimus: kokius darbus atliekate, kokių darbų nedarote, kaip atrodo jūsų ankstesni darbai, kokios informacijos reikia užklausai ir kaip su jumis susisiekti. Jei šių atsakymų reikia ieškoti tarp dešimčių įrašų, dalis žmonių tiesiog parašys labai neaiškią žinutę arba išeis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Praktinis palyginimas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matomumas paieškoje: svetainė gali būti aiškiau pritaikyta žmonėms, kurie ieško konkrečios paslaugos; Facebook labiau priklauso nuo platformos vidinės sklaidos ir rekomendacijų.",
+            "Darbų pavyzdžiai: svetainėje galima sudėti galeriją pagal kategorijas; Facebook įrašai greičiau nuslenka žemyn.",
+            "Užklausų kokybė: svetainėje galima iš anksto paprašyti reikalingos informacijos; socialiniame tinkle žinutės dažnai būna trumpesnės ir ne tokios struktūruotos.",
+            "Pasitikėjimas: abu kanalai gali padėti, jei informacija aiški ir tikra; nepatvirtintų atsiliepimų ar perdėtų pažadų geriau vengti.",
+            "Priežiūra: Facebook paprasčiau pildyti kasdien; svetainei reikia aiškios struktūros, bet ji gali ilgiau išlaikyti tvarkingą informaciją."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Geriausias variantas dažnai yra abu kanalai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Daugeliui meistrų nereikia rinktis vieno prieš kitą. Facebook gali likti gyvas kanalas naujoms nuotraukoms, trumpoms žinutėms ir bendravimui. Svetainė gali atlikti ramesnį darbą: paaiškinti paslaugas, sudėti pavyzdžius, atsakyti į dažnus klausimus ir nukreipti žmogų į aiškesnę užklausą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai prieš nusprendžiant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar klientai dažnai nesupranta, kokius darbus tiksliai atliekate?",
+            "Ar tenka daug kartų klausti tos pačios informacijos prieš pateikiant pirminį atsakymą?",
+            "Ar turite bent kelis darbų pavyzdžius, kuriuos galima parodyti aiškiai ir tvarkingai?",
+            "Ar norite, kad žmonės rastų jus ne tik socialiniame tinkle?",
+            "Ar dabartinis užklausų kelias taupo laiką, ar jį eikvoja?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jei svetainė dar tik svarstoma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nebūtina pradėti nuo didelės svetainės. Apdailos meistrui dažnai pakanka aiškaus pirmo varianto: paslaugų aprašymo, kelių darbų pavyzdžių, klausimų sąrašo klientui ir paprasto susisiekimo kelio. Svarbu ne pažadėti daugiau, negu galite pagrįsti, o padėti žmogui tiksliai aprašyti savo situaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausa dėl svetainės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei svarstote, ar jūsų apdailos veiklai jau reikia svetainės, pirmiausia pasižiūrėkite, kokios užklausos ateina per Facebook: ar žmonės supranta paslaugas, ar siunčia darbų aprašymus, ar nuolat kartojasi tie patys klausimai. Svetainę verta kurti tada, kai aiški struktūra gali palengvinti šį kelią. Dėl svetainės kreipkitės info@memorycasting.lt arba +370 691 08251."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.626Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+          "label": "Svetainė apdailos meistrui"
+        },
+        {
+          "targetPageId": "41073f2d-ed67-4ab6-aa66-1924aa491815",
+          "label": "Meistro svetainės elementai"
+        }
+      ],
+      "id": "6e07466d-ea41-4c38-9be3-ab728d4eb358",
+      "revisionHash": "c49113206e3d66ebda23b1d6f3bf3df2c6dcde2c88a31a892b614286c87679a4",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c49113206e3d66ebda23b1d6f3bf3df2c6dcde2c88a31a892b614286c87679a4",
+        "approvedAt": "2026-09-29T14:28:54.455Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "faq",
+      "slug": "duk",
+      "title": "DUK apie svetainių kūrimą apdailos meistrams",
+      "description": "Kiek kainuoja pradinė meistro svetainė, ką pasiruošti, ar reikia nuotraukų ir kaip pateikti užklausą? Atsakymai į dažniausius klausimus.",
+      "intent": "Gauti atsakymus prieš kreipiantis dėl svetainės kūrimo.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Čia atsakome į klausimus apie mūsų kuriamas svetaines apdailos meistrams. Jei jūsų darbų pobūdis kitoks, parašykite – pasiūlysime tinkamą struktūrą pagal realų poreikį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kiek kainuoja svetainė apdailos meistrui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradinis paketas kainuoja nuo 490 €. Jis apima pradžios puslapį, iki keturių papildomų informacinių puslapių, mobilų dizainą, kontaktų kelią ir SEO pagrindus. Galutinė kaina priklauso nuo turinio, nuotraukų ir papildomų funkcijų. Domenas, mokamas talpinimas bei nestandartinės integracijos aptariami atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reikia pateikti prieš pradedant?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašykite, kokius darbus atliekate, kur dirbate, kokias užklausas norite gauti ir kokius kontaktus galima skelbti. Jei turite teisę viešinti darbų nuotraukas, atrinkite kelis aiškius pavyzdžius. To pakanka pradinei struktūrai suplanuoti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar reikia daug darbų nuotraukų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Keli tikri, gerai aprašyti darbai yra naudingesni už didelę nepaaiškintą galeriją. Jei nuotraukų dar neturite, galime pradėti nuo paslaugų aprašymų ir kontaktų, o galeriją papildyti vėliau."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar garantuojate pirmą vietą Google paieškoje?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Sutvarkome turinio struktūrą, puslapių antraštes, aprašymus, vidines nuorodas, mobilią patirtį ir techninius pagrindus. Paieškos pozicijos priklauso ir nuo konkurencijos, domeno istorijos bei vėlesnio turinio."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Per kiek laiko svetainė parengiama?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terminą suderiname įvertinę puslapių skaičių ir tai, ar tekstai bei nuotraukos jau paruošti. Vienodo termino visiems projektams nežadame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar galiu palikti Facebook puslapį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip. Socialinį puslapį galima naudoti naujiems darbams rodyti ir bendravimui, o svetainę – nuosekliam paslaugų pristatymui bei tikslesnėms užklausoms."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip susisiekti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skambinkite +370 691 08251 arba rašykite info@memorycasting.lt. Galite užpildyti ir svetainės formą: nurodykite veiklą, darbo vietoves ir ką norėtumėte parodyti būsimiems klientams."
+        }
+      ],
+      "publishAt": "2026-09-29T12:37:53.626Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "9d90edf6-e6ac-40bc-bfdc-995d704dcdaa",
+          "label": "Paslaugos apimtis ir kaina"
+        },
+        {
+          "targetPageId": "6e07466d-ea41-4c38-9be3-ab728d4eb358",
+          "label": "Svetainė ar Facebook?"
+        }
+      ],
+      "id": "77cffcb2-4c99-41b3-b303-3e817cf316a5",
+      "revisionHash": "d8354289d7aef6f3b3d255dbc7e91e6fe26f3b2ec55af3b28aa6440647f9905c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "d8354289d7aef6f3b3d255dbc7e91e6fe26f3b2ec55af3b28aa6440647f9905c",
+        "approvedAt": "2026-09-29T14:28:54.474Z",
+        "actorId": "site-editor"
+      }
+    },
+    {
+      "siteId": "greitossvetaines",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumo informacija",
+      "description": "Kaip MB memocasting tvarko per greitossvetaines.lt pateiktų užklausų duomenis ir kur kreiptis dėl savo duomenų.",
+      "intent": "Sužinoti, kas tvarko per svetainę pateiktus asmens duomenis ir kaip pateikti prašymą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šioje svetainėje pateiktas užklausas tvarko MB memocasting, Gedimino g. 9, Vilnius. Dėl asmens duomenų galite kreiptis el. paštu info@memorycasting.lt arba telefonu +370 691 08251."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokius duomenis gauname"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikdami užklausą nurodote vardą, el. pašto adresą ir žinutę. Užfiksuojame pateikimo laiką ir puslapį, iš kurio buvo išsiųsta forma. Telefono numerio forma neprašo. Skambučio arba tiesioginio el. laiško duomenis gauname tik tiek, kiek patys pateikiate."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kam naudojame duomenis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenis naudojame atsakyti į jūsų užklausą, aptarti galimą svetainės kūrimo paslaugą ir išspręsti susijusius klausimus. Pagal šią formą nesiunčiame rinkodaros naujienlaiškių. Užklausos duomenys įrašomi į svetainės duomenų bazę, o atsakymui naudojamas jūsų nurodytas el. paštas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Saugojimas ir jūsų prašymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užklausų duomenis saugome tiek, kiek reikia bendravimui ir susijusiems įsipareigojimams. Dėl konkrečios užklausos duomenų peržiūros, taisymo ar ištrynimo rašykite info@memorycasting.lt. Gavę prašymą patikrinsime, ar galime jį įvykdyti pagal taikomas prievoles."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Techniniai duomenys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainės veikimui prieglobos paslaugų teikėjas gali tvarkyti įprastus techninius užklausų duomenis, pavyzdžiui, IP adresą ir naršyklės informaciją. Svetainėje nėra reklamos sekimo slapukų. Jei ateityje pridėsime analitikos ar kitų paslaugų, šią informaciją atnaujinsime."
+        }
+      ],
+      "publishAt": "2026-09-29T14:28:54.379Z",
+      "media": [],
+      "links": [],
+      "id": "2d6b5a60-d424-4105-b637-5b095eac7500",
+      "revisionHash": "76a3dae67c7f257a38104cec0c2cb70ca3a9de8826322e11ef243405e113ed29",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "76a3dae67c7f257a38104cec0c2cb70ca3a9de8826322e11ef243405e113ed29",
+        "approvedAt": "2026-09-29T14:28:54.417Z",
+        "actorId": "site-editor"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-29T14:28:54.491Z"
+}

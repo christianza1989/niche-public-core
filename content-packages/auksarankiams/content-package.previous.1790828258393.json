@@ -1,0 +1,1335 @@
+{
+  "schemaVersion": 1,
+  "siteId": "auksarankiams",
+  "canonicalHost": "auksarankiams.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "auksarankiams",
+    "name": "Auksarankiams",
+    "canonicalHost": "auksarankiams.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#355746"
+    },
+    "offer": "Paprasti popieriaus rankdarbiai: nuo turimų priemonių iki pirmo atviruko.",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "auksarankiams",
+      "type": "home",
+      "slug": "",
+      "title": "Gera idėja prasideda nuo vieno lapo.",
+      "description": "Paprasti popieriaus rankdarbiai namuose: pirmos priemonės, rankų darbo atvirukas ir spausdinamo šablono mastelis. Aiškūs gidai pradedantiesiems.",
+      "intent": "Nuo ko pradėti popieriaus rankdarbius ir kuris gidas padės pasigaminti pirmą darbą?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Popieriaus rankdarbiai namuose gali prasidėti paprastai. Išsirinkite mažą projektą, pasiruoškite kelias priemones ir kurkite po vieną žingsnį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką norite išbandyti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite pagal savo klausimą. Nuo turimų priemonių iki atviruko, kurį galima padovanoti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pradžiai pakanka mažiau, nei atrodo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peržiūrėkite stalčių prieš pirkdami. Žirklės, liniuotė, pieštukas ir keli popieriaus lapai padeda pradėti. Pirmą bandymą skirkite kirpimui, lenkimui ir vienai paprastai formai."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vienas projektas — lengviau suprasti, kokių priemonių iš tiesų reikia.",
+            "Atraižos — vieta patikrinti klijus, spalvas ir lenkimą.",
+            "Vienas bandymas — proga pataisyti sumanymą prieš klijuojant galutinai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko trūksta jūsų kūrybiniam sumanymui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasiūlykite temą arba parašykite, ties kuriuo žingsniu sustojote. Auksarankiams.lt yra informacinis projektas: žinutė redakcijai nėra prekės, šablono ar dirbtuvių užsakymas."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [
+        {
+          "id": "35d4b7ac-4bd7-42fd-9b7f-f9c266e37fee",
+          "src": "/content-assets/auksarankiams/35d4b7ac-4bd7-42fd-9b7f-f9c266e37fee.webp",
+          "alt": "Popieriniai lapų motyvai ant kreminio atviruko, žirklės ir popieriaus atraižos",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9f37ed5c-7c94-4bf7-b989-c05eb5427dce",
+          "src": "/content-assets/auksarankiams/9f37ed5c-7c94-4bf7-b989-c05eb5427dce.webp",
+          "alt": "Popieriniai lapų motyvai ant kreminio atviruko, žirklės ir popieriaus atraižos",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "998aa2b1-dca4-4ed1-8d5a-4a3dcad9320e",
+          "src": "/content-assets/auksarankiams/998aa2b1-dca4-4ed1-8d5a-4a3dcad9320e.webp",
+          "alt": "Popieriniai lapų motyvai ant kreminio atviruko, žirklės ir popieriaus atraižos",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "a1a7d743-46b9-44af-ae1b-1945a2abd0d2",
+          "src": "/content-assets/auksarankiams/a1a7d743-46b9-44af-ae1b-1945a2abd0d2.webp",
+          "alt": "Popieriniai lapų motyvai ant kreminio atviruko, žirklės ir popieriaus atraižos",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "4288030c-46ae-4b26-aa44-655df6e5ff40",
+          "src": "/content-assets/auksarankiams/4288030c-46ae-4b26-aa44-655df6e5ff40.webp",
+          "alt": "Popieriniai lapų motyvai ant kreminio atviruko, žirklės ir popieriaus atraižos",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "98874be6-a4d4-41d1-98ae-b79203cbdec7",
+          "src": "/content-assets/auksarankiams/98874be6-a4d4-41d1-98ae-b79203cbdec7.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf67b00a-b086-436b-a75d-2f06571da607",
+          "src": "/content-assets/auksarankiams/cf67b00a-b086-436b-a75d-2f06571da607.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "e84c0107-17c4-4162-a680-24a4b1074f16",
+          "src": "/content-assets/auksarankiams/e84c0107-17c4-4162-a680-24a4b1074f16.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "117a126f-cbff-435e-9d9a-de348bccb0be",
+          "src": "/content-assets/auksarankiams/117a126f-cbff-435e-9d9a-de348bccb0be.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "404ab416-0e35-4a6b-bf13-86676d412e9e",
+          "src": "/content-assets/auksarankiams/404ab416-0e35-4a6b-bf13-86676d412e9e.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9443c347-e7de-4873-ab80-da2ef186fb05",
+          "src": "/content-assets/auksarankiams/9443c347-e7de-4873-ab80-da2ef186fb05.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "197dc024-f76b-44d3-980d-97019a43c163",
+          "src": "/content-assets/auksarankiams/197dc024-f76b-44d3-980d-97019a43c163.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "a993a182-3aae-4d56-aea3-cb4b955c0cfb",
+          "src": "/content-assets/auksarankiams/a993a182-3aae-4d56-aea3-cb4b955c0cfb.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "706ceb46-caec-4efe-a5bd-a2c17aac5540",
+          "src": "/content-assets/auksarankiams/706ceb46-caec-4efe-a5bd-a2c17aac5540.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "2b9e5d39-4f2a-4411-9016-b4294e7db449",
+          "src": "/content-assets/auksarankiams/2b9e5d39-4f2a-4411-9016-b4294e7db449.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "5e4cc761-11cb-4052-89ae-3fa3ebcf8c50",
+          "src": "/content-assets/auksarankiams/5e4cc761-11cb-4052-89ae-3fa3ebcf8c50.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf674446-9fbd-4356-a35e-9f1d7045a32f",
+          "src": "/content-assets/auksarankiams/cf674446-9fbd-4356-a35e-9f1d7045a32f.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9073f62f-855d-4a8b-8cf2-cb3636c2ad34",
+          "src": "/content-assets/auksarankiams/9073f62f-855d-4a8b-8cf2-cb3636c2ad34.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "7ece179e-d3d1-460e-ae67-c9fe6675e7ac",
+          "src": "/content-assets/auksarankiams/7ece179e-d3d1-460e-ae67-c9fe6675e7ac.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "742eb452-0174-4ddb-afb4-648ba2c71221",
+          "src": "/content-assets/auksarankiams/742eb452-0174-4ddb-afb4-648ba2c71221.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "950912cb-f046-4e30-80d1-44348a61386c",
+          "label": "popieriaus rankdarbių gidai"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "id": "d5f8275c-97b8-4969-b5dd-44d507d98022",
+      "revisionHash": "69f6812a1f2f50653ab409baa83d9aebfdbcc294396a5f7019357faa4b4c8930",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "69f6812a1f2f50653ab409baa83d9aebfdbcc294396a5f7019357faa4b4c8930",
+        "approvedAt": "2026-10-01T03:37:06.589Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "guide",
+      "slug": "kaip-atsispausdinti-ir-naudoti-sablona",
+      "title": "Kaip atsispausdinti rankdarbių šabloną nepakeitus mastelio?",
+      "description": "PDF dydžio nustatymai, kontrolinio matmens patikra ir kontūro perkėlimas ant popieriaus. Kaip atpažinti apkirptą ar netinkamai pakeistą spaudinį.",
+      "intent": "Kaip patikrinti, ar turimas PDF šablonas atspausdintas tikru dydžiu?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Jei rankdarbio šablonui svarbūs tikslūs matmenys, spausdinkite jo autoriaus nurodytu masteliu ir išmatuokite kontrolinį matmenį ant tikro lapo. Ekrano vaizdo dydis ir spausdintuvo pasirinkimas „sutalpinti į lapą“ nepatvirtina tikro dydžio. Šiame puslapyje naujo atsisiunčiamo šablono nepateikiame — paaiškiname, kaip patikrinti jau turimą PDF."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš spausdinimą: patikrinkite patį failą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Koks autoriaus nurodytas lapo formatas ir mastelis?",
+            "Ar faile yra kontrolinis kvadratas, atkarpa arba aiškiai įvardytas detalės matmuo?",
+            "Ar matoma visa detalė, jos dalys ir reikalingos žymos?",
+            "Ar turite leidimą naudoti šabloną numatytam asmeniniam ar komerciniam tikslui?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei nėra nė vieno žinomo matmens, vien iš spausdinimo išvaizdos dydžio patikrinti negalėsite. Paprašykite šablono autoriaus matmens arba pasirinkite darbą, kuriam absoliutus dydis nesvarbus. Nespėkite centimetrų iš nuotraukos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kuris nustatymas keičia dydį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adobe spausdinimo dydžio paaiškinimas nurodo, kad „Actual size“ spausdina be mastelio pakeitimo, o „Fit“ pritaiko puslapį prie spausdinamos srities. Netelpančios tikro dydžio puslapio dalys gali būti apkirptos. Todėl tikras dydis ir pilnas kontūras yra du atskiri patikros klausimai."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kai šablono autorius nurodo tikrą dydį, Acrobat lange rinkitės „Actual size“. Kitose programose ieškokite lygiaverčio nustatymo.",
+            "Nenaudokite „Fit“ vien todėl, kad peržiūroje gražiai telpa visas lapas.",
+            "Pasirinkite numatytą popieriaus formatą ir pažiūrėkite spausdinimo peržiūrą.",
+            "Pirmiausia atspausdinkite vieną bandomąjį puslapį ant paprasto popieriaus."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išmatuokite kontrolinį matmenį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Padėkite lapą ant lygaus paviršiaus. Fizinę liniuotę sulygiuokite su kontrolinės atkarpos pradžia ir išmatuokite iki jos pabaigos. Kvadratui patikrinkite ir plotį, ir aukštį. Liniuotės pradžia nėra visada jos medinio ar plastikinio krašto pradžia: naudokite nulinę žymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: faile pažymėta 50 mm kontrolinė atkarpa, o ant spaudinio išmatuojate 45 mm. Šis konkretus spaudinys sumažintas; nepradėkite kirpti galutinių detalių. Grįžkite į nustatymus ir pakartokite bandomąjį spausdinimą. Šie skaičiai yra iliustracinis patikros pavyzdys, ne nuotraukoje esančio stačiakampio matmenys."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jei kontūras netelpa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nekeiskite mastelio automatiškai, kai detalės turi tarpusavyje sutapti. Patikrinkite autoriaus instrukciją: gali būti numatytas kitas formatas arba keli sujungti puslapiai. Jungiant kelias dalis svarbūs autoriaus sutapdinimo ženklai. Jei instrukcijos nėra, išsiaiškinkite prieš kurdami savo sujungimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Perkelkite kontūrą ant galutinio popieriaus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įsitikinę matmenimis, iškirpkite bandomąją popierinę detalę.",
+            "Padėkite ją ant galutinio popieriaus ir prilaikykite taip, kad neslystų.",
+            "Plonai apveskite pieštuku; pasižymėkite, kur yra lenkimas, jei jis nurodytas šablone.",
+            "Nukelkite bandomąją detalę, patikrinkite visą kontūrą ir tik tuomet kirpkite."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nenaudokite audinio, odos ar kitų medžiagų pjovimo instrukcijų iš šio popieriaus pavyzdžio: jų reikalavimai skiriasi. Atskirai tikrinkite, ar reikia užlaidų ir kur tiksliai kerpama."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpa patikra prieš darbą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Žinau failo formatą ir reikalaujamą mastelį.",
+            "Kontrolinis matmuo sutampa abiem kryptimis, jei tai kvadratas.",
+            "Visos kontūro dalys atspausdintos, nėra apkirptų kraštų.",
+            "Bandomoji detalė atlikta prieš naudojant galutinę medžiagą."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei problema kartojasi, užsirašykite PDF programą, pasirinktą formatą, mastelio nustatymą ir išmatuotą kontrolinį matmenį. Tokia informacija naudingesnė už vien „šablonas netinka“. Paprastam projektui be spausdintuvo pasirinkite rankų darbo atviruką."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [
+        {
+          "id": "5e4cc761-11cb-4052-89ae-3fa3ebcf8c50",
+          "src": "/content-assets/auksarankiams/5e4cc761-11cb-4052-89ae-3fa3ebcf8c50.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf674446-9fbd-4356-a35e-9f1d7045a32f",
+          "src": "/content-assets/auksarankiams/cf674446-9fbd-4356-a35e-9f1d7045a32f.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9073f62f-855d-4a8b-8cf2-cb3636c2ad34",
+          "src": "/content-assets/auksarankiams/9073f62f-855d-4a8b-8cf2-cb3636c2ad34.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "7ece179e-d3d1-460e-ae67-c9fe6675e7ac",
+          "src": "/content-assets/auksarankiams/7ece179e-d3d1-460e-ae67-c9fe6675e7ac.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "742eb452-0174-4ddb-afb4-648ba2c71221",
+          "src": "/content-assets/auksarankiams/742eb452-0174-4ddb-afb4-648ba2c71221.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "e8788427-5e39-4d4d-aebf-2d26f8491d4b",
+          "label": "rankų darbo atvirukas"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://helpx.adobe.com/acrobat/desktop/print-documents/set-up-and-print-pdfs/page-size.html",
+          "label": "Adobe spausdinimo dydžio paaiškinimas",
+          "reason": "Actual size spausdina be mastelio pakeitimo, Fit keičia dydį, netelpantis turinys gali būti apkirptas. Patikrinta 2026-10-01."
+        }
+      ],
+      "id": "3e59d170-3ce3-41e0-bdd0-4d7c5b9239f7",
+      "revisionHash": "6b777441e1d02e661f3b3d829c6e4752522c50d1268a62d7bffa30f8d26c9d60",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6b777441e1d02e661f3b3d829c6e4752522c50d1268a62d7bffa30f8d26c9d60",
+        "approvedAt": "2026-10-01T03:37:06.744Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "guide",
+      "slug": "ranku-darbo-atvirukai",
+      "title": "Rankų darbo atvirukas: paprastas projektas su dviem lapų formomis",
+      "description": "Kaip iš 20 × 14 cm ruošinio pasigaminti lenktą atviruką: medžiagos, dydis, dekoras, klijavimas ir baigiamoji patikra.",
+      "intent": "Kaip namuose pasigaminti paprastą lenktą popierinį atviruką be atsisiunčiamo šablono?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Paprastą atviruką galite pasigaminti iš vieno perpus sulenkto popieriaus ruošinio ir dviejų savo nupieštų lapų formų. Pirmiausia patikrinkite lenkimą, dekorą išdėliokite be klijų ir palikite vietos žinutei. Toliau pateiktas projektas yra originalus redakcinis pavyzdys."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasiruoškite medžiagas ir dydį"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vieną standesnio popieriaus 20 × 14 cm stačiakampį pagrindui.",
+            "Dvi skirtingų spalvų popieriaus atraižas, iš kurių tilps maždaug 3 × 6 cm lapų formos.",
+            "Pieštuką, liniuotę, žirkles ir popieriui tinkamus klijus.",
+            "Rašiklį žinutei; jei naudosite voką, prieš gamindami patikrinkite jo vidaus dydį."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "20 × 14 cm ruošinį lenksite taip, kad sutaptų jo du 14 cm kraštai. Gautas užvertas atvirukas bus 10 cm pločio ir 14 cm aukščio. Tai pasirinkti pavyzdžio matmenys. Nelaikykite jų universaliu voko standartu: dekoras ir popieriaus storis taip pat užima vietos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išbandykite lenkimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš kerpant gerą lapą, tokio paties popieriaus atraižą sulenkite. Jei lenkimas plyšta, keiskite ruošinį ar medžiagą; stipriau spausti ne visada padeda. Pagrindą lenkite ant švaraus stalo, sulyginkite kraštus ir švelniai prispauskite per visą lenkimo ilgį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nusipieškite du paprastus lapus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ant pirmos atraižos pieštuku nupieškite apie 6 cm ilgio ovalą su smailesniais galais. Ant antros nupieškite panašią, kiek mažesnę formą. Smulkios skiautės nebūtinos. Iškirpkite formas ir pasukite jas taip, kad pieštuko žymės liktų kitoje pusėje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaizde matote stilizuotą lapų kompoziciją. Tikslus kontūras neprivalomas ir vaizdas nėra mastelinis šablonas. Jei norite pakartoti formą, pirmą iškarpą apveskite ant antros atraižos, užuot mėginę matuoti ją ekrane."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išdėliokite prieš klijuodami"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Padėkite užvertą atviruką prieš save, lenkimu kairėje.",
+            "Pirmą lapą dėkite truputį aukščiau centro, antrą — šalia, kad jų dalys šiek tiek persidengtų.",
+            "Palikite laisvus kraštus ir pagalvokite, ar išorėje norėsite trumpo užrašo.",
+            "Atverkite atviruką: didesnę žinutę patogiau rašyti viduje."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdyje naudojame dvi spalvas ir vieną motyvą, kad sprendimų būtų mažiau. Jūsų pasirinkimas gali būti kitas. Jei atrodo per tuščia, prieš pridėdami dar penkias detales pabandykite pakeisti tik lapų padėtį ar dydį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Priklijuokite ir parašykite žinutę"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klijus dėkite pagal jų pakuotės instrukciją. Pirmiausia priklijuokite žemiau esantį lapą, tada viršutinį. Neišspauskite klijų ant matomos pusės. Leiskite dekorui išdžiūti; džiūvimo trukmė priklauso nuo priemonės ir nėra šiame gide nustatyta. Rašiklį išbandykite ant tos pačios rūšies atraižos, ypač jei popierius šiurkštus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Baigiamoji patikra"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar atvirukas užsiveria, o kraštai sutampa?",
+            "Ar dekoras tvirtai laikosi ir nesiekia už krašto?",
+            "Ar viduje yra vietos aiškiai perskaitomai žinutei?",
+            "Ar klijai sausi, o rašalas netepa?",
+            "Ar pasirinktas vokas talpina atviruką jo nesuspausdamas?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei pagrindas pernelyg minkštas, kitą bandymą darykite iš standesnio tinkamo popieriaus. Jei lenkimas prastas, išbandykite kitą ruošinį. Pirmas darbas neprivalo tiksliai sutapti su iliustracija. Kad atsirinktumėte priemones kitam bandymui, perskaitykite popieriaus rankdarbių pradžios gidą."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [
+        {
+          "id": "9443c347-e7de-4873-ab80-da2ef186fb05",
+          "src": "/content-assets/auksarankiams/9443c347-e7de-4873-ab80-da2ef186fb05.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "197dc024-f76b-44d3-980d-97019a43c163",
+          "src": "/content-assets/auksarankiams/197dc024-f76b-44d3-980d-97019a43c163.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "a993a182-3aae-4d56-aea3-cb4b955c0cfb",
+          "src": "/content-assets/auksarankiams/a993a182-3aae-4d56-aea3-cb4b955c0cfb.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "706ceb46-caec-4efe-a5bd-a2c17aac5540",
+          "src": "/content-assets/auksarankiams/706ceb46-caec-4efe-a5bd-a2c17aac5540.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "2b9e5d39-4f2a-4411-9016-b4294e7db449",
+          "src": "/content-assets/auksarankiams/2b9e5d39-4f2a-4411-9016-b4294e7db449.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "f19f65eb-16cc-460e-a787-c233b0ff1db7",
+          "label": "popieriaus rankdarbių pradžios gidą"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.hobbycraft.co.uk/ideas/get-started-in-card-making.html",
+          "label": "Hobbycraft priemonių apžvalga",
+          "reason": "Originali priemonių ir popieriaus naudojimo apžvalga. Mūsų projekto matmenys ir žingsniai yra atskiras redakcinis pavyzdys, ne šio šaltinio kopija. Patikrinta 2026-10-01."
+        }
+      ],
+      "id": "e8788427-5e39-4d4d-aebf-2d26f8491d4b",
+      "revisionHash": "15b4a9ec81c37e70920ec06c619529db58333a3efa83a4958a84abaa4d08716b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "15b4a9ec81c37e70920ec06c619529db58333a3efa83a4958a84abaa4d08716b",
+        "approvedAt": "2026-10-01T03:37:06.710Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Popieriaus rankdarbių gidai",
+      "description": "Pasirinkite, ko reikia dabar: paprastas pirmas projektas, atviruko gamyba ar PDF šablono spausdinimo patikra.",
+      "intent": "Kur rasti tinkamą atsakymą pradedant popieriaus rankdarbius?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo savo klausimo. Kiekvienas gidas padeda atlikti konkretų veiksmą, o ne susikrauti kuo daugiau priemonių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Skaitykite pagal savo sumanymą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar nežinote, ką gaminti, atsiverskite pradžios gidą. Jei norite dovanai skirto darbo, rinkitės atviruką. Jei jau turite PDF šabloną, pirmiausia patikrinkite spausdinimo dydį."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [
+        {
+          "id": "98874be6-a4d4-41d1-98ae-b79203cbdec7",
+          "src": "/content-assets/auksarankiams/98874be6-a4d4-41d1-98ae-b79203cbdec7.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf67b00a-b086-436b-a75d-2f06571da607",
+          "src": "/content-assets/auksarankiams/cf67b00a-b086-436b-a75d-2f06571da607.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "e84c0107-17c4-4162-a680-24a4b1074f16",
+          "src": "/content-assets/auksarankiams/e84c0107-17c4-4162-a680-24a4b1074f16.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "117a126f-cbff-435e-9d9a-de348bccb0be",
+          "src": "/content-assets/auksarankiams/117a126f-cbff-435e-9d9a-de348bccb0be.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "404ab416-0e35-4a6b-bf13-86676d412e9e",
+          "src": "/content-assets/auksarankiams/404ab416-0e35-4a6b-bf13-86676d412e9e.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9443c347-e7de-4873-ab80-da2ef186fb05",
+          "src": "/content-assets/auksarankiams/9443c347-e7de-4873-ab80-da2ef186fb05.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "197dc024-f76b-44d3-980d-97019a43c163",
+          "src": "/content-assets/auksarankiams/197dc024-f76b-44d3-980d-97019a43c163.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "a993a182-3aae-4d56-aea3-cb4b955c0cfb",
+          "src": "/content-assets/auksarankiams/a993a182-3aae-4d56-aea3-cb4b955c0cfb.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "706ceb46-caec-4efe-a5bd-a2c17aac5540",
+          "src": "/content-assets/auksarankiams/706ceb46-caec-4efe-a5bd-a2c17aac5540.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "2b9e5d39-4f2a-4411-9016-b4294e7db449",
+          "src": "/content-assets/auksarankiams/2b9e5d39-4f2a-4411-9016-b4294e7db449.webp",
+          "alt": "Pastatytas rankų darbo atvirukas su dviem popieriniais lapais",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "5e4cc761-11cb-4052-89ae-3fa3ebcf8c50",
+          "src": "/content-assets/auksarankiams/5e4cc761-11cb-4052-89ae-3fa3ebcf8c50.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf674446-9fbd-4356-a35e-9f1d7045a32f",
+          "src": "/content-assets/auksarankiams/cf674446-9fbd-4356-a35e-9f1d7045a32f.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "9073f62f-855d-4a8b-8cf2-cb3636c2ad34",
+          "src": "/content-assets/auksarankiams/9073f62f-855d-4a8b-8cf2-cb3636c2ad34.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "7ece179e-d3d1-460e-ae67-c9fe6675e7ac",
+          "src": "/content-assets/auksarankiams/7ece179e-d3d1-460e-ae67-c9fe6675e7ac.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "742eb452-0174-4ddb-afb4-648ba2c71221",
+          "src": "/content-assets/auksarankiams/742eb452-0174-4ddb-afb4-648ba2c71221.webp",
+          "alt": "Atspausdintas kontūras, liniuotė ir iškirpta popierinė lapo forma",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "f19f65eb-16cc-460e-a787-c233b0ff1db7",
+          "label": "popieriaus rankdarbių pradžios gidą"
+        },
+        {
+          "targetPageId": "e8788427-5e39-4d4d-aebf-2d26f8491d4b",
+          "label": "rankų darbo atvirukas"
+        },
+        {
+          "targetPageId": "3e59d170-3ce3-41e0-bdd0-4d7c5b9239f7",
+          "label": "šablono mastelio patikros"
+        }
+      ],
+      "id": "950912cb-f046-4e30-80d1-44348a61386c",
+      "revisionHash": "ebddcfbb8d652ef0663f64b1be86f5eedbb758a4363807baee1d6e6bfa0d404a",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ebddcfbb8d652ef0663f64b1be86f5eedbb758a4363807baee1d6e6bfa0d404a",
+        "approvedAt": "2026-10-01T03:37:06.624Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "guide",
+      "slug": "popieriaus-rankdarbiai-pradedantiesiems",
+      "title": "Popieriaus rankdarbiai pradedantiesiems: nuo ko pradėti?",
+      "description": "Mažas priemonių sąrašas, projekto pasirinkimas ir paprasto knygos skirtuko žingsniai. Pradėkite nuo to, ką turite namuose.",
+      "intent": "Kokį pirmą popieriaus rankdarbį pasirinkti ir kaip pasigaminti paprastą knygos skirtuką?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pirmam popieriaus rankdarbiui rinkitės vieną nedidelį darbą su tiesiais kirpimais ir nedaug detalių. Knygos skirtukas padeda išbandyti matavimą, kirpimą ir kompoziciją. Jam nereikia spausdinamo šablono ar specialios pjaustymo mašinos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmiausia nuspręskite, ką norite gauti"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Išmokti rankdarbių“ yra platus tikslas. „Pasigaminti vieną plokščią skirtuką savo knygai“ jau pasako, kada darbas baigtas. Pradžioje venkite darbo, kuriam vienu metu reikia naujų įrankių, kelių klijavimo technikų ir sudėtingo lankstymo."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Skirtukas tinka, jei norite išbandyti tiesų kirpimą ir spalvų derinį.",
+            "Rankų darbo atvirukas tinka, jei norite išmokti lenkti ir išdėstyti kelias formas.",
+            "Jei projektui reikia PDF, pradėkite nuo šablono mastelio patikros."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Priemonės: ką padėti ant stalo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasiruoškite žirkles, liniuotę, pieštuką, trintuką ir vieną popieriaus ar plono kartono lapą. Dekorui užteks rašiklio arba kelių spalvoto popieriaus atraižų. Jei klijuosite, pasirinkite popieriui tinkamus klijus ir perskaitykite jų etiketę. Hobbycraft priemonių apžvalga taip pat atskiria popierių, ruošinius ir dekoravimo įrankius; viso jų asortimento pirmam bandymui nereikia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Popierių rinkitės pagal veiksmą: ar lengvai kirpsite, ar pavyks sulenkti, ar dekoras laikysis? Vien gramų skaičius nepasako viso elgesio. Ant atraižos pabandykite kirpti ir lenkti. Storas lapas gali būti standus, bet sunkesnis mažoms detalėms."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paprasto skirtuko pavyzdys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau pateikti matmenys yra mūsų redakcinio pavyzdžio pasirinkimas, ne privalomas skirtuko standartas. Galutinis rezultatas — plokščias 4 × 15 cm skirtukas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Liniuote pažymėkite 4 × 15 cm stačiakampį. Jo kampus sujunkite pieštuku.",
+            "Iškirpkite pagal kontūrą. Jei kraštas nelygus, pirmiausia pataisykite tik jį.",
+            "Viršuje ir apačioje palikite laisvo popieriaus, o per vidurį nupieškite vieną lapą arba įstrižą spalvinę juostą.",
+            "Jei naudojate popierinį dekorą, iš pradžių padėkite jį nepriklijavę. Tada klijuokite pagal priemonės instrukciją ir palikite išdžiūti.",
+            "Patikrinkite tarp knygos puslapių: skirtukas turi būti sausas, plokščias, netepti ir nekabinti popieriaus."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką daryti, jei nepavyksta"
+        },
+        {
+          "type": "paragraph",
+          "text": "Banguojantis pagrindas gali reikšti, kad popierius ir klijų kiekis nesuderinti. Kitame bandyme išmėginkite kitą popierių ar popieriui tinkamą klijavimo būdą ant atraižos. Jei sunku kirpti smulkų dekorą, padidinkite formą arba nupieškite ją. Netaisykite visų dalykų vienu metu: vienas pakeitimas leidžia suprasti jo poveikį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Darbo vieta ir saugumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kirpkite sėdėdami prie stabilaus stalo; žirkles padėkite uždarytas. Šis pradinis projektas nereikalauja karštų klijų ar peiliuko. Jei kuria vaikas, suaugęs žmogus parenka jo gebėjimams tinkamas priemones ir prižiūri darbą. Klijų amžiaus, vėdinimo bei naudojimo ribas tikrinkite ant konkrečios pakuotės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš kitą projektą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar žinote, kur ir kam naudosite darbą?",
+            "Ar turite reikalingas priemones, o ne vien gražų pavyzdžio vaizdą?",
+            "Ar atlikote popieriaus ir klijų bandymą?",
+            "Ar galite paaiškinti, kada darbas bus baigtas?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai paprastas skirtukas pavyko, rankų darbo atvirukas yra kitas atskiras žingsnis: jame svarbus lenkimas ir vieta žinutei. Jei mūsų instrukcija neaiški, parašykite redakcijai, nurodydami konkretų žingsnį."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [
+        {
+          "id": "98874be6-a4d4-41d1-98ae-b79203cbdec7",
+          "src": "/content-assets/auksarankiams/98874be6-a4d4-41d1-98ae-b79203cbdec7.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "cf67b00a-b086-436b-a75d-2f06571da607",
+          "src": "/content-assets/auksarankiams/cf67b00a-b086-436b-a75d-2f06571da607.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "e84c0107-17c4-4162-a680-24a4b1074f16",
+          "src": "/content-assets/auksarankiams/e84c0107-17c4-4162-a680-24a4b1074f16.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "117a126f-cbff-435e-9d9a-de348bccb0be",
+          "src": "/content-assets/auksarankiams/117a126f-cbff-435e-9d9a-de348bccb0be.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        },
+        {
+          "id": "404ab416-0e35-4a6b-bf13-86676d412e9e",
+          "src": "/content-assets/auksarankiams/404ab416-0e35-4a6b-bf13-86676d412e9e.webp",
+          "alt": "Žirklės, liniuotė, pieštukas, klijų pieštukas ir spalvoto popieriaus lapai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originalus šiam projektui integruotu ImageGen sukurtas redakcinis vaizdas. Ne kliento darbas ir ne parduodama prekė."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "e8788427-5e39-4d4d-aebf-2d26f8491d4b",
+          "label": "rankų darbo atvirukas"
+        },
+        {
+          "targetPageId": "3e59d170-3ce3-41e0-bdd0-4d7c5b9239f7",
+          "label": "šablono mastelio patikros"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.hobbycraft.co.uk/ideas/get-started-in-card-making.html",
+          "label": "Hobbycraft priemonių apžvalga",
+          "reason": "Originali priemonių ir popieriaus naudojimo apžvalga. Mūsų projekto matmenys ir žingsniai yra atskiras redakcinis pavyzdys, ne šio šaltinio kopija. Patikrinta 2026-10-01."
+        }
+      ],
+      "id": "f19f65eb-16cc-460e-a787-c233b0ff1db7",
+      "revisionHash": "5a892545fd4e6b12bc38c47d3b786a7bf85a736dac8651544a91ad682678034d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "5a892545fd4e6b12bc38c47d3b786a7bf85a736dac8651544a91ad682678034d",
+        "approvedAt": "2026-10-01T03:37:06.669Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "kontaktai",
+      "title": "Parašykite redakcijai",
+      "description": "Pasiūlykite rankdarbių temą, nurodykite neaiškų instrukcijos žingsnį arba praneškite klaidą. MB Pinet kontaktas: info@pinet.lt.",
+      "intent": "Kaip pateikti rankdarbių klausimą, temos poreikį ar turinio pataisymą?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Projekto operatorius ir redakcinis kontaktas — MB Pinet, info@pinet.lt. Čia galite pasiūlyti temą, pranešti klaidą arba aprašyti, kurio paaiškinimo pasigedote."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas padeda suprasti klausimą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ką norite pasigaminti ir kokias priemones turite?",
+            "Kurį gidą skaitėte ir ties kuriuo žingsniu sustojote?",
+            "Jei klausiate apie mastelį, kokį kontrolinį matmenį išmatavote?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia žinutės išsiuntimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žinutė skirta redakciniam poreikiui suprasti. Ji nėra prekės, šablono ar mokymų užsakymas. Atsakymo termino ir individualaus projekto parengimo nežadame. Formoje failai neįkeliami; nerašykite perteklinių asmens duomenų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vietinės peržiūros forma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši parengta svetainės versija dar nepaleista su tikru domenu. Vietinėje peržiūroje forma skirta aiškiai pažymėtam bandymui: žinutė saugoma šiame kompiuteryje, o tikras laiškas nesiunčiamas. Prieš viešą paleidimą būtina patikrinti duomenų politiką ir pristatymą."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "1f0efe68-e370-4b06-8fa3-db5bcd647576",
+          "label": "privatumo puslapyje"
+        }
+      ],
+      "id": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+      "revisionHash": "4038f404e9b782bc84dafec179f4722c266d779b1b1deda849802136fea5f019",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "4038f404e9b782bc84dafec179f4722c266d779b1b1deda849802136fea5f019",
+        "approvedAt": "2026-10-01T03:37:06.787Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "apie-projekta",
+      "title": "Apie Auksarankiams",
+      "description": "Informacinis popieriaus rankdarbių projektas pradedantiesiems. Tikslas, dabartinė apimtis ir ryšys su MB Pinet.",
+      "intent": "Kas yra Auksarankiams.lt ir ką ši svetainė teikia?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Auksarankiams.lt kuriamas kaip lietuviškas informacinis popieriaus rankdarbių projektas. Norime padėti pradėti nuo mažo darbo ir suprasti konkretų veiksmą: paruošti priemones, sulenkti atviruką ar patikrinti šablono mastelį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dabartinė apimtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmoje fazėje pateikiami praktiniai gidai ir redakcinio poreikio forma. Parduotuvės, atsargų, mokamų dirbtuvių ir atsisiunčiamų šablonų bibliotekos šiuo metu nesiūlome. Žinutė leidžia iškelti klausimą, bet neužsako individualaus darbo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas atsakingas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Operatorius — MB Pinet. Kontaktas — info@pinet.lt. Turinio rengimo ir taisymų tvarka pateikta redakcijos puslapyje. Nepristatome išgalvotų ekspertų ar klientų projektų kaip savo patirties."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirenkamos kitos temos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poreikį vertinsime pagal tikrus skaitytojų klausimus ir naudingumą. Puslapio peržiūra ar el. pašto nuorodos paspaudimas dar neparodo, kad žmogus atsiuntė užklausą. Būsimas privatus temų planas nėra pažadas, kad visos temos bus paskelbtos."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "3cbf9d93-b5dc-4dc7-b466-c47eddc618f4",
+          "label": "redakcijos puslapyje"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "id": "39b932c0-4a4f-4f63-8af4-d1c22c1075c9",
+      "revisionHash": "287dbb2dee503eb1931f2178b9d332e2a30e84eb2401585894da66b866bd8a74",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "287dbb2dee503eb1931f2178b9d332e2a30e84eb2401585894da66b866bd8a74",
+        "approvedAt": "2026-10-01T03:37:06.830Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "redakcija",
+      "title": "MB Pinet redakcija ir turinio metodika",
+      "description": "Kaip Auksarankiams rengiami ir peržiūrimi gidai, naudojami šaltiniai bei AI, kuriami vaizdai ir priimami taisymai.",
+      "intent": "Kas rengia turinį ir kaip tikrinami teiginiai bei taisomos klaidos?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Už Auksarankiams.lt projektą atsakinga MB Pinet. Tai organizacijos redakcinis profilis, ne konkretaus rankdarbių meistro biografija. Gidai yra bendro pobūdžio informacija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rengimas ir šaltinių patikra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tekstas rengiamas su AI pagal atskirą skaitytojo klausimą. Agentas peržiūri teiginius ir patikrina svarbius pirminius šaltinius: programos dokumentaciją spausdinimui, institucijų gaires duomenų klausimams ir originalias priemonių apžvalgas. Šaltinių skyriuje nurodoma, ką konkretus dokumentas pagrindžia ir kada jis tikrintas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projekto pavyzdžio matmenys ir kompozicijos yra redakciniai pasirinkimai. Jie nėra standartas ar fizinio išbandymo pažadas. Teksto ir vaizdų redakcinė agento peržiūra nėra savininko ar kvalifikuoto eksperto patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vaizdų kilmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiai pradinei versijai originalūs iliustraciniai vaizdai sukurti naudojant generatyvinį AI. Jie padeda suprasti temą, bet nerodo parduodamų prekių, tikrų klientų darbų ar tiksliai mastelinių šablonų. Išsaugotas jų kilmės žurnalas; skirtingo dydžio kopijos pritaikytos įkrovimui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Datos ir atnaujinimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie gidų pateikiama parengto paketo publikavimo data ir peržiūrėtos versijos data. Iki realaus domeno paleidimo tai yra parengtos vietinės versijos datos, ne įrodymas, kad gidas jau buvo viešai pasiekiamas. Datos nekeičiamos vien tam, kad tekstas atrodytų naujas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Praneškite apie netikslumą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rašykite info@pinet.lt arba naudokite kontaktų formą. Nurodykite puslapį, netikslią vietą ir, jei turite, tinkamą šaltinį. Taisymas peržiūrimas, išsaugoma nauja versija ir tik tada atnaujinamas viešas paketas. Pataisymo pateikimas savaime jo nepatvirtina."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "id": "3cbf9d93-b5dc-4dc7-b466-c47eddc618f4",
+      "revisionHash": "09d68f9ed713e199fda1f9a86fa9e331b07c374ac5bb76135cfb46bdbf695117",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "09d68f9ed713e199fda1f9a86fa9e331b07c374ac5bb76135cfb46bdbf695117",
+        "approvedAt": "2026-10-01T03:37:06.868Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "naudojimo-salygos",
+      "title": "Informacijos naudojimo sąlygos",
+      "description": "Auksarankiams gidų, iliustracijų, išorinių šaltinių ir redakcinės užklausos naudojimo ribos.",
+      "intent": "Kokios šio informacinio projekto ir pateikiamų instrukcijų naudojimo ribos?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Auksarankiams.lt yra MB Pinet informacinis projektas. Gidai skirti padėti suprasti popieriaus rankdarbių veiksmus. Naudojimo sąlygos peržiūrėtos 2026-10-01; viešo aptarnavimo paleidimas dar nepatvirtintas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacijos taikymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Redakcinį pavyzdį pritaikykite savo medžiagoms ir naudojamų priemonių instrukcijoms. Popieriaus ir klijų savybės skiriasi. Vaizdai nėra mastelinės iškarpos; instrukcijos nenustato universalaus rezultato ar visų saugumo reikalavimų konkrečiai priemonei."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausa ir prekyba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žinutė redakcijai nėra pirkimas, rezervacija, mokymų registracija ar individualaus projekto užsakymas. Šioje versijoje nėra mokėjimų ir prekių katalogo. Atsakymo terminai, kainos ir paslaugų sąlygos nepateikiami kaip patvirtinti pasiūlymai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turinys ir išoriniai šaltiniai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šaltinių nuorodos padeda patikrinti konkretų paaiškinimą. Kitų svetainių turiniui ir failams taikomos jų sąlygos. Svetimos iškarpos ar iliustracijos komerciniam naudojimui reikalingas jų teisių turėtojo leidimas; vien nemokama prieiga nėra toks leidimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Taisymai ir duomenys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl teksto klaidos kreipkitės info@pinet.lt. Apie formos duomenis ir susidomėjimo skaitiklius skaitykite privatumo puslapyje. Nesiųskite slaptažodžių, asmens dokumentų ar mokėjimų duomenų."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "1f0efe68-e370-4b06-8fa3-db5bcd647576",
+          "label": "privatumo puslapyje"
+        },
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "id": "e3549cb0-55f1-4a49-b169-f18aa5fda103",
+      "revisionHash": "9e9cbc5f40d5e09d518e7685ee5f7eee69baa6c3069b26bfc8958e71a757d41e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "9e9cbc5f40d5e09d518e7685ee5f7eee69baa6c3069b26bfc8958e71a757d41e",
+        "approvedAt": "2026-10-01T03:37:06.907Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    },
+    {
+      "siteId": "auksarankiams",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumo informacija",
+      "description": "Formos ir pirmosios šalies skaitiklių duomenys, naudojimo tikslas, teisių kontaktas ir vietinės peržiūros ribos.",
+      "intent": "Kokie duomenys renkami formoje bei skaitikliuose ir kur kreiptis dėl savo duomenų?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Projekto operatorius — MB Pinet, kontaktas duomenų klausimams — info@pinet.lt. Šis tekstas aprašo parengtą vietinę Auksarankiams.lt versiją, peržiūrėtą 2026-10-01. Tikro domeno viešas aptarnavimas dar nepaleistas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Formos duomenys ir tikslas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formoje pateikiate vardą, el. paštą ir žinutę. Įraše išsaugoma svetainė, pateikimo laikas, pradinis puslapio kelias, formos žymos laikas ir apdorojimo būsena. Šie duomenys skirti jūsų klausimui suprasti ir susisiekti dėl jo. Žinutė nėra rinkodaros prenumerata."
+        },
+        {
+          "type": "paragraph",
+          "text": "Formos žyma skirta parodyti, kad susipažinote su informacija ir sutinkate pateikti duomenis savo žinutei apdoroti. Pateikimas savanoriškas; be būtinų laukų forma nepriimama. Nesiųskite papildomų jautrių duomenų. Vietinėje peržiūroje naudokite tik aiškiai pažymėtus bandymo duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vietinis saugojimas ir būsimas paleidimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinės formos įrašai saugomi šiame kompiuteryje, tikras pranešimas el. paštu peržiūros režimu nesiunčiamas. Patikros metu sukurtas sintetinis įrašas pašalinamas. Prieš viešą paleidimą operatorius turi nustatyti teisinį pagrindą, saugojimo kriterijus, infrastruktūros ir pašto gavėjus, tarptautinio perdavimo sąlygas bei duomenų ištrynimo procedūrą. Šios nepatvirtintos sąlygos nėra pakeičiamos išgalvotu terminu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Susidomėjimo skaitikliai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaičiuojami dienos puslapio peržiūrų ir el. pašto ar telefono nuorodų paspaudimų sumos. Skaitiklio įrašą sudaro svetainė, diena, viešo puslapio kelias, įvykio rūšis ir skaičius. Jame nesaugomi IP adresai, vardai, formos žinutės ar individualūs lankytojų identifikatoriai. Nėra analitikos slapukų ar reklamos sekimo. Infrastruktūros žurnalai yra atskiras srautas, kurio būsimo viešo hostingo sąlygas reikia patikrinti prieš paleidimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naršyklės Do Not Track ir Global Privacy Control signalai sustabdo šį skaitiklį. Paspaudimas nėra gautas laiškas, o peržiūrų suma nėra unikalių žmonių skaičius. Sintetiniai bandymai nevertinami kaip paklausa."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų teisės ir kontaktas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal taikomas BDAR sąlygas galite prašyti informacijos, prieigos prie savo duomenų, jų taisymo, ištrynimo, tvarkymo apribojimo ir naudotis kitomis taikomomis teisėmis. Rašykite info@pinet.lt ir nurodykite, kokiu el. paštu pateikėte žinutę. Tapatybė tikrinama proporcingai prašymui; iš anksto nesiųskite dokumentų kopijų. Galite kreiptis į Valstybinę duomenų apsaugos inspekciją. EDPB duomenų teisių paaiškinimas aprašo, kad konkrečių teisių taikymas priklauso nuo teisinio pagrindo ir aplinkybių."
+        }
+      ],
+      "publishAt": "2026-10-01T03:37:06.090Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "88d1e918-c3f0-45d3-9892-5456f6316b8c",
+          "label": "parašykite redakcijai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+          "label": "EDPB duomenų teisių paaiškinimas",
+          "reason": "Informavimo, prieigos, taisymo ir kitų taikomų teisių gairės; konkreti viešo pilotinio projekto politika turi būti suderinta prieš paleidimą. Patikrinta 2026-10-01."
+        },
+        {
+          "url": "https://www.edpb.europa.eu/sme/learn-the-basics/data-protection-basics_en",
+          "label": "EDPB duomenų tvarkymo principai",
+          "reason": "Duomenų kiekio ir saugojimo ribojimas bei būtina ištrynimo procedūra. Patikrinta 2026-10-01."
+        }
+      ],
+      "id": "1f0efe68-e370-4b06-8fa3-db5bcd647576",
+      "revisionHash": "cc377ef6ab8974427ad676d66357b98c9425147cb5fcfd8ce676ab3c52944dc7",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "cc377ef6ab8974427ad676d66357b98c9425147cb5fcfd8ce676ab3c52944dc7",
+        "approvedAt": "2026-10-01T03:37:06.948Z",
+        "actorId": "codex-evidence-review-2026-10-01"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-01T03:37:06.955Z"
+}

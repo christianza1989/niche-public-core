@@ -1,0 +1,46 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {validateV2Admission,assertPreviewSandbox} from '../scripts/content-v2-admission.mjs';
+import {contentSeoV2} from '../lib/content-seo-v2.mjs';
+import {visibleMediaAlias} from '../lib/content-media-aliases.mjs';
+import {projectContentPagesV2} from '../lib/content-projection-v2.mjs';
+const hash=text=>createHash('sha256').update(text).digest('hex');
+const pkg={siteId:'gift',canonicalHost:'gift.example',locale:'lt-LT',site:{renderer:'gift',name:'Fixture & QA',offer:'Private test',brand:{accent:'#123456'},contact:{email:'info@pinet.lt'}}};
+test('activation needs exact bytes and production evidence; local fixture cannot admit a real domain',()=>{
+  const raw=JSON.stringify(pkg),receipt={schemaVersion:1,scope:'local-fixture',testOnly:true,siteId:pkg.siteId,canonicalHost:pkg.canonicalHost,renderer:'gift',packageSha256:hash(raw),reviewer:'fixture only',acceptedAt:'2026-10-05T00:00:00Z'};
+  assert.equal(validateV2Admission(pkg,raw,receipt).testOnly,true);
+  assert.throws(()=>validateV2Admission(pkg,raw+' ',receipt),/exact package/);
+  assert.throws(()=>validateV2Admission(pkg,raw,{...receipt,testOnly:false}),/testOnly/);
+  const real={...pkg,canonicalHost:'dovanos123.lt'},realRaw=JSON.stringify(real);
+  assert.throws(()=>validateV2Admission(real,realRaw,{...receipt,canonicalHost:real.canonicalHost,packageSha256:hash(realRaw)}),/reserved/);
+  assert.equal(validateV2Admission(real,realRaw,{...receipt,scope:'local-preview',canonicalHost:real.canonicalHost,packageSha256:hash(realRaw)}).testOnly,true,'localhost-only preview permit is not production acceptance');
+  assert.throws(()=>assertPreviewSandbox('C:/Users/lenovo/Documents/dovanos-memorycasting/',{scope:'local-preview'}),/never main/);
+  assertPreviewSandbox('C:/Users/lenovo/Documents/dovanos-memorycasting/output/review/',{scope:'local-preview'});
+  const production={...receipt,scope:'production',checks:{}};
+  assert.throws(()=>validateV2Admission(pkg,raw,production),/evidence missing/);
+  for(const key of ['schema','routing','seo','forms','media','time','revocation','isolation','ownership','dns','contacts','inbox','privacy']) production.checks[key]={status:'PASS',evidence:[{path:'qa/evidence.json',sha256:hash(key)}]};
+  assert.equal(validateV2Admission(pkg,raw,production).scope,'production');
+  production.checks.inbox.status='UNVERIFIED';assert.throws(()=>validateV2Admission(pkg,raw,production),/inbox/);
+});
+test('SEO/LLM and legacy media aliases consume only the same projected public inventory',()=>{
+  const page={id:'now',slug:'straipsniai/now',url:'https://gift.example/straipsniai/now',title:'QA & guide',description:'Only a test',body:[{type:'richList',ordered:true,items:[[{type:'link',text:'Tikslus gidas',href:'https://gift.example/straipsniai/now'}]]}],media:[{id:'image',src:'/content-assets/gift/now.webp'}],editorial:{authors:[],sources:[],commerceTargets:[],dateModified:null}};
+  const sitemap=contentSeoV2(pkg,[page],'sitemap');assert.equal((sitemap.body.match(/<url>/g)||[]).length,1);assert.doesNotMatch(sitemap.body,/lastmod|future/);
+  assert.match(contentSeoV2(pkg,[page],'llms-full').body,/Tikslus gidas \(https:\/\/gift.example/);
+  assert.match(contentSeoV2(pkg,[page],'robots',true).body,/Disallow: \/\n/);
+  const aliases={entries:[{siteId:'gift',pageId:'now',assetId:'image',from:'/images/articles/old.jpg'},{siteId:'gift',pageId:'future',assetId:'future-image',from:'/images/articles/future.jpg'}]};
+  assert.equal(visibleMediaAlias(pkg,[page],aliases,'/images/articles/old.jpg'),page.media[0].src);
+  assert.equal(visibleMediaAlias(pkg,[page],aliases,'/images/articles/future.jpg'),null);
+  assert.equal(visibleMediaAlias(pkg,[],aliases,'/images/articles/old.jpg'),null);
+  assert.equal(visibleMediaAlias({...pkg,siteId:'other'},[page],aliases,'/images/articles/old.jpg'),null);
+  aliases.entries.push(aliases.entries[0]);assert.equal(visibleMediaAlias(pkg,[page],aliases,'/images/articles/old.jpg'),null);
+});
+test('owned informational citations need an approved snapshot and current target; identity links cannot bypass readiness',()=>{
+  const now=Date.parse('2026-10-05T00:00:00Z'),snapshot={id:'info',url:'https://owned.example/?utm_source=gift',label:'Apie rinkinį',relationship:'Nuosavas projektas',verified:true,checkedAt:'2026-10-04T00:00:00Z'};
+  const page={id:'p',slug:'p',siteId:'gift',publishAt:'2026-10-01T00:00:00Z',revisionHash:'a',approval:{status:'approved',revisionHash:'a'},body:[],media:[],links:[],externalLinks:[],editorial:{authors:[{name:'QA',sameAs:['https://www.owned.example/','https://primary.example/identity']}],sources:[{id:'s',public:true,url:'https://owned.example/'}],relatedPageIds:[],commerceTargets:[snapshot]}};
+  const p={...pkg,pages:[page]},settings={networkDomains:['owned.example'],ownedAliases:['www.owned.example'],networkLiveDomains:[]};
+  const registry={targets:[{id:'info',status:'ready',purpose:'information',canonicalUrl:'https://owned.example/',allowedQueryParams:['utm_source'],verifiedAt:'2026-10-04T00:00:00Z',expiresAt:'2026-10-06T00:00:00Z'}]};
+  const visible=projectContentPagesV2(p,[p],settings,registry,now)[0];assert.equal(visible.editorial.sources.length,1);assert.deepEqual(visible.editorial.authors[0].sameAs,['https://primary.example/identity']);
+  assert.equal(projectContentPagesV2(p,[p],settings,registry,Date.parse('2026-10-06T00:00:00Z'))[0].editorial.sources.length,0);
+  page.editorial.commerceTargets=[];assert.equal(projectContentPagesV2(p,[p],settings,registry,now)[0].editorial.sources.length,0);
+});

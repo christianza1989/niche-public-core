@@ -1,0 +1,1377 @@
+{
+  "schemaVersion": 1,
+  "siteId": "fasadopastoliai",
+  "canonicalHost": "fasadopastoliai.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "fasadopastoliai",
+    "name": "Fasado pastoliai",
+    "canonicalHost": "fasadopastoliai.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#d4e84c"
+    },
+    "offer": "Išankstinis individualaus namo fasado pastolių nuomos poreikio tyrimas Vilniaus regione",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "fasadopastoliai",
+      "type": "home",
+      "slug": "",
+      "title": "Nuomos apimtis prasideda nuo jūsų fasado.",
+      "description": "Fasado matmenys, laikotarpis ir paslaugų apimtis – aiškesnis pastolių nuomos poreikis Vilniuje ir Vilniaus rajone.",
+      "intent": "Suformuluoti realų namo fasado pastolių nuomos poreikį Vilniaus regione",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Padedame namo savininkui aiškiai aprašyti planuojamos fasado pastolių nuomos poreikį Vilniuje ir Vilniaus rajone: fasadą, laikotarpį ir reikalingas paslaugas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai MB Pinet išankstinis poreikio tyrimas. Įranga, vykdytojas, kaina ir atvykimo laikas dar nepatvirtinti. Užklausa nėra rezervacija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys klausimai prieš nuomą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fasadas: kurios sienos, kokie žinomi matmenys, kokių duomenų dar trūksta?",
+            "Laikas: kada planuojate pradėti ir kiek laiko numatote dirbti?",
+            "Apimtis: vien įranga, ar reikia ir pristatymo, profesionalaus montavimo, išmontavimo bei išvežimo?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Plotą aprašykite, komplektą derinkite"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stačiakampės sienos ilgis × aukštis padeda aprašyti fasadą. Tai nėra pastolių dalių kiekis, saugos patikra ar nuomos sąmata. Langų plotas automatiškai neatimamas; nestandartinę geometriją ir nežinomus aukščius aptarkite su realiu vykdytoju."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fasado matmenų gidas padės atskirti žinomus dydžius nuo spėjimų. Ruošinys žemiau skaičiuoja tik jūsų įrašytą paprastą geometriją ir nieko neišsiunčia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginkite visą pasiūlymą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien antraštinio €/m² dydžio neužtenka: reikia žinoti laikotarpį, paslaugų ribas ir grąžinimo sąlygas. Pastolių nuomos kainos gidas padės parengti vienodus klausimus skirtingiems tikriems pasiūlymams. Mūsų kainoraščio šiame etape nėra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuomos su montavimu gidas atskiria įrangą nuo profesionalaus vykdymo ir priėmimo. Savarankiško montavimo instrukcijų čia nepateikiame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aprašykite savo projektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje pateikite vietovę, fasado duomenis, laikotarpį ir paslaugų poreikį. Tikslaus adreso ar dokumentų pirmam poreikio tyrimui nereikia. Galima rašyti tiesiai arba naudoti neprivalomą ruošinį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nėra automatinio perdavimo tiekėjams ar pažado gauti pasiūlymų. Pirmo etapo ribas paaiškina nuomos poreikio puslapis; vėlesnė mokama paslauga būtų derinama atskirai."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "b5ac639d-bbff-4042-be73-71f00d759d65",
+          "src": "/content-assets/fasadopastoliai/b5ac639d-bbff-4042-be73-71f00d759d65.webp",
+          "alt": "Individualaus namo fasado su pastoliais konteksto iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "3785c11a-1380-47a1-b6c0-30e8b430da9e",
+          "src": "/content-assets/fasadopastoliai/3785c11a-1380-47a1-b6c0-30e8b430da9e.webp",
+          "alt": "Individualaus namo fasado su pastoliais konteksto iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "4c5a245f-823d-4a48-87fd-2a0600338667",
+          "src": "/content-assets/fasadopastoliai/4c5a245f-823d-4a48-87fd-2a0600338667.webp",
+          "alt": "Individualaus namo fasado su pastoliais konteksto iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "fb277936-53b7-4a09-9f03-1b92e4b35be0",
+          "src": "/content-assets/fasadopastoliai/fb277936-53b7-4a09-9f03-1b92e4b35be0.webp",
+          "alt": "Individualaus namo fasado su pastoliais konteksto iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "41ee0103-1d5c-4463-b333-1ba89a229bb3",
+          "src": "/content-assets/fasadopastoliai/41ee0103-1d5c-4463-b333-1ba89a229bb3.webp",
+          "alt": "Individualaus namo fasado su pastoliais konteksto iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "5a657433-74fc-417c-8596-b1bc453b345b",
+          "src": "/content-assets/fasadopastoliai/5a657433-74fc-417c-8596-b1bc453b345b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "73cddeeb-a19b-48e6-9216-5cf2fb136f5b",
+          "src": "/content-assets/fasadopastoliai/73cddeeb-a19b-48e6-9216-5cf2fb136f5b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "8640272b-3373-4c03-a34d-fd79f8908682",
+          "src": "/content-assets/fasadopastoliai/8640272b-3373-4c03-a34d-fd79f8908682.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "b87df4c7-8a8d-4a64-be95-c1399d613aea",
+          "src": "/content-assets/fasadopastoliai/b87df4c7-8a8d-4a64-be95-c1399d613aea.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "db48708c-2d7e-469c-b4ed-101179f6ec07",
+          "src": "/content-assets/fasadopastoliai/db48708c-2d7e-469c-b4ed-101179f6ec07.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "804de432-629a-4b47-aa2e-94fb43ec3688",
+          "label": "nuomos poreikio puslapis"
+        },
+        {
+          "targetPageId": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+          "label": "Fasado matmenų gidas"
+        },
+        {
+          "targetPageId": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+          "label": "Pastolių nuomos kainos gidas"
+        },
+        {
+          "targetPageId": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+          "label": "Nuomos su montavimu gidas"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "id": "0a76a0ef-fc97-4e0a-bf80-b6f9f0efd246",
+      "revisionHash": "4f87f72aec367b0a9572d237952f704eb22f7b66a631f8fbd5ecae37f478c171",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "4f87f72aec367b0a9572d237952f704eb22f7b66a631f8fbd5ecae37f478c171",
+        "approvedAt": "2026-10-03T18:53:40.275Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "nuomos-poreikis",
+      "title": "Kokį pastolių nuomos poreikį registruojame?",
+      "description": "Planinė individualaus namo fasado nuoma Vilniuje ir Vilniaus rajone: ką pateikiate ir ką tai reiškia.",
+      "intent": "Suprasti pirmo etapo nuomos užklausą ir vykdymo ribas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Registruojame individualaus namo savininko išankstinį poreikį planinei fasado pastolių nuomai Vilniuje ir Vilniaus rajone. Tai gali būti fasado atnaujinimas, šiltinimas ar dažymas, kai nuomos sprendimą priimate jūs, o rangovas pastolių dar nepateikia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką galite pateikti dabar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite vietovę be tikslaus adreso, planuojamus fasado darbus, numatomą pradžią ir trukmę. Nurodykite žinomus sienų matmenis arba aiškiai parašykite, kad jų dar neturite. Pasakykite, kokios apimties reikia: įrangos, transporto, profesionalaus montavimo ir išmontavimo. Nežinoma informacija nėra kliūtis parašyti, tačiau ji netampa patvirtintu dydžiu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia užklausa"
+        },
+        {
+          "type": "paragraph",
+          "text": "MB Pinet šiuo etapu tiria poreikį. Tai nėra nuomos užsakymas, kainos pasiūlymas, apžiūros rezervacija ar įrangos likučio patvirtinimas. Neturime patvirtinto nuomotojo partnerio, brigados, kainoraščio ar darbo grafiko. Atsakymo laiko ir vykdymo nežadame."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informacija automatiškai nuomotojams nepersiunčiama. Jeigu vėliau būtų galimas konkretus vykdytojas, jo pasiūlymas ir duomenų perdavimas turėtų būti atskirai suderinti. Formos checkbox nėra reklamos prenumerata."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kam šis etapas netinka"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Skubiam įrangos pristatymui ar darbų saugos klausimo sprendimui šiandien.",
+            "Pastolių pirkimui, naudotos įrangos supirkimui ar tariamam katalogo likučiui.",
+            "Konkrečios sistemos projektavimui, montavimo instrukcijai ar techninei ekspertizei.",
+            "Situacijai, kurioje rangovo sutartis jau apima visą pastolių organizavimą; pirmiausia patikrinkite savo sutartį."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip ruoštis tikram susitarimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Su realiu nuomotoju reikėtų suderinti vietos įvertinimą, sistemą, laiką, logistiką, profesionalų montavimą, dokumentus ir grąžinimo tvarką. Ploto ruošinys nieko iš to nepatvirtina. Paslaugų apimtį ir mokėjimo sąlygas turi įvardyti tikras vykdytojas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip spręsime dėl plėtros"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reikšmingas rezultatas būtų tikros tinkamos užklausos, suderintas vykdytojas ir mokėtojas bei išmatuota ekonomika. Gidų peržiūros, el. pašto nuorodos paspaudimai ir vietiniai testai nėra atliktos nuomos ar pajamų įrodymas. Dabar tik vietinė peržiūra su sintetiniais formos bandymais."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Aprašykite pastolių nuomos poreikį"
+        },
+        {
+          "targetPageId": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+          "label": "Fasado matmenys nuomai: ką užrašyti, ko neskaičiuoti"
+        },
+        {
+          "targetPageId": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+          "label": "Pastolių nuoma su montavimu: ką suderinti prieš darbus"
+        },
+        {
+          "targetPageId": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+          "label": "Pastolių nuomos kaina: lyginkite apimtį ir laikotarpį"
+        }
+      ],
+      "id": "804de432-629a-4b47-aa2e-94fb43ec3688",
+      "revisionHash": "21c4f5d7b9ae2766ba7ffae648bf72450e97f58cc4bd524a40d069e895a09d6b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "21c4f5d7b9ae2766ba7ffae648bf72450e97f58cc4bd524a40d069e895a09d6b",
+        "approvedAt": "2026-10-03T18:53:40.401Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Klausimai prieš fasado pastolių nuomą",
+      "description": "Matmenys, kainos apimtis ir profesionalus montavimas – trys skirtingi nuomos sprendimai.",
+      "intent": "Pasirinkti konkretų nuomos pasirengimo klausimą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite, kas dar neaišku jūsų projektui. Matmenų gidas padeda aprašyti sienas; kainos gidas – palyginti vienodą pasiūlymų apimtį; montavimo gidas – atskirti įrangos nuomą nuo vykdymo ir priėmimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai nėra įrangos katalogas ar darbo aukštyje instrukcija. Jei norite pateikti konkretų planuojamos nuomos poreikį Vilniaus regione, kontaktų puslapyje galima parašyti žinutę. Tai išankstinis tyrimas be rezervacijos ar pasiūlymo garantijos."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "5a657433-74fc-417c-8596-b1bc453b345b",
+          "src": "/content-assets/fasadopastoliai/5a657433-74fc-417c-8596-b1bc453b345b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "73cddeeb-a19b-48e6-9216-5cf2fb136f5b",
+          "src": "/content-assets/fasadopastoliai/73cddeeb-a19b-48e6-9216-5cf2fb136f5b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "8640272b-3373-4c03-a34d-fd79f8908682",
+          "src": "/content-assets/fasadopastoliai/8640272b-3373-4c03-a34d-fd79f8908682.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "b87df4c7-8a8d-4a64-be95-c1399d613aea",
+          "src": "/content-assets/fasadopastoliai/b87df4c7-8a8d-4a64-be95-c1399d613aea.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "db48708c-2d7e-469c-b4ed-101179f6ec07",
+          "src": "/content-assets/fasadopastoliai/db48708c-2d7e-469c-b4ed-101179f6ec07.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "7374b183-9b6f-47db-b8d9-f2479bb86e73",
+          "src": "/content-assets/fasadopastoliai/7374b183-9b6f-47db-b8d9-f2479bb86e73.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "dba73485-2b72-4769-9e74-e15a111f95a9",
+          "src": "/content-assets/fasadopastoliai/dba73485-2b72-4769-9e74-e15a111f95a9.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "4fd9432f-3c84-481e-a87e-25a676a5823d",
+          "src": "/content-assets/fasadopastoliai/4fd9432f-3c84-481e-a87e-25a676a5823d.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "e34d7b5d-1bd4-4d1c-b6f2-25a80027ffcf",
+          "src": "/content-assets/fasadopastoliai/e34d7b5d-1bd4-4d1c-b6f2-25a80027ffcf.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "f2c019ac-b1c2-41cf-8bb0-37bbe4b67ea4",
+          "src": "/content-assets/fasadopastoliai/f2c019ac-b1c2-41cf-8bb0-37bbe4b67ea4.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "241a8fad-00d8-47ee-a7fd-0a85067c62a9",
+          "src": "/content-assets/fasadopastoliai/241a8fad-00d8-47ee-a7fd-0a85067c62a9.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "a94a7756-cec8-46f7-8512-34a2143e9ba2",
+          "src": "/content-assets/fasadopastoliai/a94a7756-cec8-46f7-8512-34a2143e9ba2.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "477a051b-5351-4603-8fee-2a7a0fcb7e2e",
+          "src": "/content-assets/fasadopastoliai/477a051b-5351-4603-8fee-2a7a0fcb7e2e.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "d4f2192e-3a82-40b4-9d01-be470911bf38",
+          "src": "/content-assets/fasadopastoliai/d4f2192e-3a82-40b4-9d01-be470911bf38.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "a4fac329-2725-407f-ba34-23254961cac5",
+          "src": "/content-assets/fasadopastoliai/a4fac329-2725-407f-ba34-23254961cac5.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+          "label": "Matmenų gidas"
+        },
+        {
+          "targetPageId": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+          "label": "kainos gidas"
+        },
+        {
+          "targetPageId": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+          "label": "montavimo gidas"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "kontaktų puslapyje"
+        }
+      ],
+      "id": "4d957c71-cfd8-4e98-ac81-46a9be63222f",
+      "revisionHash": "631859edecd786774f1376153d616b9cc8f52d7f51c55aaef9390aa0a76bad6e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "631859edecd786774f1376153d616b9cc8f52d7f51c55aaef9390aa0a76bad6e",
+        "approvedAt": "2026-10-03T18:53:40.509Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "guide",
+      "slug": "fasado-matmenys",
+      "title": "Fasado matmenys nuomai: ką užrašyti, ko neskaičiuoti",
+      "description": "Stačiakampių sienų ilgis ir aukštis padeda aprašyti poreikį. Fasado plotas nėra techninė pastolių komplektacija.",
+      "intent": "Aprašyti žinomas fasado sienų dimensijas be tariamo įrangos kiekio",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Nuomotojui svarbu suprasti, kurią namo dalį norite pasiekti ir kokie darbai planuojami. Paprastas fasado aprašas padeda pradėti pokalbį, tačiau vien sienos kvadratūra nepasako, kiek ir kokių pastolių elementų reikia. Šis gidas skirtas žinomų duomenų surinkimui iš planų ar jau turimų matavimų, be lipimo, montavimo ar konstrukcijos parinkimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmiausia įvardykite sienas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surašykite kiekvieną reikalingą fasado pusę atskirai. Galite vadinti jas priekine, kiemo ar šonine siena; adresą ar geografinę kryptį nurodyti nebūtina. Užrašykite, ar darbai vyks visoje sienoje, dalyje fasado, ties priestatu ar keliais etapais. Vien bendras namo perimetras neatskleidžia, ar visos pusės reikalingos vienu metu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei fasado rangovas jau pateikia pastolius, pirmiausia patikrinkite jo pasiūlymo ribas. Dviguba nuomos užklausa gali būti nereikalinga. Jeigu rangovas pateikia tik dalį įrangos ar dirbs atskirais etapais, taip ir aprašykite. Nespėkite, kad visi rangovai pastolius organizuoja vienodai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Žinomi dydžiai ir jų kilmė"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kiekvienos sienos apytikris ilgis metrais ir iš kur dydis paimtas: planas, ankstesnis matavimas arba dar nežinomas.",
+            "Žinomas sienos aukštis ir kur baigiasi planuojamas darbas. Darbinės platformos aukštis yra atskiras techninis klausimas vykdytojui.",
+            "Iškyšos, priestatas, balkonas, stogelis ar dalis skirtingame lygyje: aprašykite jų buvimą, ne projektuojamą atramą.",
+            "Ar yra šlaitinė viršutinė sienos dalis, kurios neaprašo vienas stačiakampis?",
+            "Ar aplink sieną skiriasi pagrindo lygis ir ar prieiga iš visų reikalingų pusių vienoda?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenis pateikite iš saugiai jau turimos informacijos. Vien užklausai nereikia lipti ant kopėčių, stogo ar pastolių, artintis prie elektros linijų ar bandyti matuoti nepasiekiamos vietos. Jei dydžio nežinote, palikite jį nežinomą ir aptarkite tinkamą objekto įvertinimą su specialistu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia ilgis × aukštis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stačiakampės sienos geometrinis plotas yra ilgis padaugintas iš aukščio. Kelių tokių sienų plotai gali būti sudedami. Pavyzdžiui, iliustracinės 10 × 6 m ir 8 × 6 m sienos duotų 60 + 48 = 108 m² žinomos stačiakampės geometrijos. Tai skaičiavimo pavyzdys, ne jūsų namo matmenys, mūsų kainos pagrindas ar rekomenduojamas pastolių dydis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ruošinys automatiškai neatima langų ir durų. Darbui prie angų taip pat gali reikėti prieigos, todėl jų plotų atėmimas nėra automatinė įrangos kiekio taisyklė. Šlaitai, laiptai, iškyšos, keli aukščiai ir sistemos parinkimas ruošinyje neįvertinami. Dalies žinomų sienų suma negali būti vadinama viso objekto plotu, jei kita dalis nežinoma."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kodėl fasado plotas nėra komplektas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skirtingi tiekėjai pasiūlyme gali vartoti skirtingus ploto ir aukščio apibrėžimus. Pilaitės viešame puslapyje atskiria skaičiuojamą ir pasiekiamą aukštį pagal savo sistemą. To skirtumo negalima universaliai pritaikyti jūsų objektui. Paprašykite realaus nuomotojo paaiškinti, kas būtent laikoma jo pasiūlymo m² ir kuo tai susiję su jūsų pateiktais matmenimis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkreti įranga, atramos, prieiga, darbo lygiai ir tvirtinimas reikalauja profesionalaus sprendimo. Mūsų ruošinys nepateikia elementų sąrašo, apkrovos, tvirtinimo žingsnio ar saugos įvertinimo. Nuomos su montavimu gidas padeda pasiruošti klausimus apie atsakomybę; jis taip pat nepakeičia techninio projekto."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas matmenų aprašas"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Kiemo siena: apytikriai [ilgis] × [aukštis], dydžiai iš [šaltinis]. Šoninė siena: aukščio nežinau. Darbai [paskirtis], planuojami [vienu metu / etapais]. Prie [sienos] yra priestatas. Reikia aptarti objekto įvertinimą ir visą paslaugų apimtį.“ Tai pavyzdinis jūsų žinutės karkasas, ne tikras kliento atvejis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastolių nuomos kainos gidas padės prie matmenų pridėti laikotarpį ir paslaugas. Kontaktų puslapyje galite pateikti išankstinį poreikį; jis nėra nuomos rezervacija ar įrangos pasiūlymas."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "5a657433-74fc-417c-8596-b1bc453b345b",
+          "src": "/content-assets/fasadopastoliai/5a657433-74fc-417c-8596-b1bc453b345b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "73cddeeb-a19b-48e6-9216-5cf2fb136f5b",
+          "src": "/content-assets/fasadopastoliai/73cddeeb-a19b-48e6-9216-5cf2fb136f5b.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "8640272b-3373-4c03-a34d-fd79f8908682",
+          "src": "/content-assets/fasadopastoliai/8640272b-3373-4c03-a34d-fd79f8908682.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "b87df4c7-8a8d-4a64-be95-c1399d613aea",
+          "src": "/content-assets/fasadopastoliai/b87df4c7-8a8d-4a64-be95-c1399d613aea.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "db48708c-2d7e-469c-b4ed-101179f6ec07",
+          "src": "/content-assets/fasadopastoliai/db48708c-2d7e-469c-b4ed-101179f6ec07.webp",
+          "alt": "Paprasta namo siena ir matmenų užrašymo priemonės",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+          "label": "Pastolių nuomos kainos gidas"
+        },
+        {
+          "targetPageId": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+          "label": "Nuomos su montavimu gidas"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://tspastoliai.lt/fasadiniu-pastoliu-nuoma/",
+          "label": "Tvirtas sukibimas: fasadinės nuomos apimtis",
+          "reason": "Konkretaus tiekėjo viešas pasiūlymas. Matmenys, laikas ir vieta padeda aptarti projektą; tai ne mūsų kaina, partnerystė ar techninė komplektacijos taisyklė. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://www.pilaitespastoliai.lt/paslaugos/",
+          "label": "Pilaitės pastoliai: atskiros paslaugos",
+          "reason": "Viešas tiekėjo nuomos, transporto ir montavimo atskyrimas. Jo įkainiai bei matavimo sistema neperkeliami į mūsų pasiūlymą. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+      "revisionHash": "27b20d716054d0d9444e74dcfeb0419b8becbc699834b314074b68ec9441f172",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "27b20d716054d0d9444e74dcfeb0419b8becbc699834b314074b68ec9441f172",
+        "approvedAt": "2026-10-03T18:53:40.610Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "guide",
+      "slug": "pastoliu-nuomos-kaina",
+      "title": "Pastolių nuomos kaina: lyginkite apimtį ir laikotarpį",
+      "description": "Ką reiškia m², nuomos dienos, transportas ir grąžinimas? Klausimų lapas tikriems pasiūlymams palyginti.",
+      "intent": "Palyginti realių nuomos pasiūlymų sąlygas be išgalvoto tarifo",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Nuomos kainą prasminga lyginti tik tada, kai aišku, už kokį laiką, įrangą ir paslaugas mokama. Vien antraštinis €/m² dydis nepasako visos projekto sumos. Šis gidas yra klausimų lapas jūsų gautiems pasiūlymams, be tariamo rinkos vidurkio ar mūsų kainoraščio. MB Pinet šiame etape nuomos sąmatos nepateikia ir mokėjimų nepriima."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sutarkite, kas skaičiuojama"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprašykite tiekėjo įvardyti ploto pagrindą, laikotarpį ir įtrauktą komplektaciją. Ar suma skirta vienai dienai, sutartam laikotarpiui ar kitam aiškiam vienetui? Ar nurodyta kaina su PVM, ar be jo? Ar tai tik pradinis „nuo“ tarifas, ar konkrečiam objektui parengta suma? Jei vieneto nėra, neužpildykite jo prielaida."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fasado matmenų gidas parodo, kodėl geometrinis sienos plotas nėra automatinis nuomotojo sąskaitos plotas. Prie kiekvieno pasiūlymo užrašykite jo datą ir tą patį savo projekto aprašą. Skirtingų sienų ar skirtingo darbo aukščio pasiūlymų negalima patikimai palyginti vien bendromis sumomis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atskirkite paslaugų eilutes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrangos nuoma: kokiai apimčiai ir kiek laiko, nuo kokio įvykio prasideda nuomos skaičiavimas?",
+            "Pristatymas ir išvežimas: ar įtraukta abu kartus, koks objektas ir sutartas iškrovimo kelias?",
+            "Profesionalus montavimas ir išmontavimas: ar įtraukti abu darbai, ar juos reikia derinti atskirai?",
+            "Perstatymas ir etapai: ar planuojama perkelti prie kitų sienų, ar tai papildoma paslauga?",
+            "Priėmimo, priežiūros ir dokumentų apimtis: kas atsakingas ir kas iš tiesų įtraukta į pasiūlymą?",
+            "Grąžinimas, valymas ir trūkstama ar sugadinta įranga: kokios sutarties sąlygos taikomos?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pilaitės viešai atskiria nuomą, transportą ir montavimą. STR namo projektų apraše siūlo visą sutartą darbų apimtį. Tai du skirtingi pasiūlymo pateikimo pavyzdžiai, o ne pažadas, kad Lietuvos tiekėjai taiko tą pačią sutartį. Mūsų klausimų lapas leidžia patikrinti būtent jums pateiktą apimtį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Laikas keičia palyginimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite pageidaujamą pradžią, tikėtiną trukmę ir kas nutiktų fasado darbams užsitęsus. Kuri data yra nuomos pabaiga: prašymas išmontuoti, faktinis išmontavimas, išvežimas ar kitas sutartas įvykis? Kas nutinka, jei išvežimo laikas keičiasi? Atsakymą turi pateikti jūsų realus nuomotojas; šiame projekte nėra universalaus termino."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei pasiūlyme numatytas pratęsimas, paprašykite aiškaus jo skaičiavimo pagrindo ir pranešimo tvarkos. Nevadinkite planuojamo darbų laikotarpio garantuotu. Priklausomybę nuo kitų rangovų, paviršiaus darbų ar numatomų etapų verta aptarti prieš susitarimą, o ne laikyti papildomas dienas iš anksto nemokamomis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Lyginimo pavyzdys be tariamų kainų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tarkime, iliustracinis A pasiūlymas nurodo tik įrangą sutartam laikotarpiui, o B – įrangą ir profesionalų montavimą. Mažesnė A suma dar nereiškia mažesnės viso projekto kainos. Užpildykite tas pačias eilutes abiem: įranga, laikas, abu transportai, abu montavimo darbai, pratęsimas ir grąžinimas. Nepateiktą eilutę pažymėkite „reikia patikslinti“."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai nėra tikri mūsų gauti pasiūlymai ar skaičių simuliacija. Jei turite tikras sumas, lyginkite jas tik patikslinę tą pačią apimtį. Nežinomos paslaugos neprilyginkite nuliui. Taip išvengsite palyginimo, kuris atrodo tikslus, bet remiasi skirtingais projektais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sutarties smulkūs punktai yra apimties dalis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transrifus 2024 viešos taisyklės rodo, kad grąžinimas ir įrangos būklė gali turėti atskiras pasekmes. Nekopijuojame jų tarifų ar pranešimo dienų į jūsų projektą. Paprašykite aktualių konkretaus tiekėjo sąlygų ir išsiaiškinkite, kas priima įrangą, fiksuoja kiekius, patvirtina nuomos pabaigą bei sprendžia neatitikimus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuomos su montavimu gidas padės pasiruošti atsakomybės ir priėmimo klausimus. Jei norite pranešti tikrą planuojamą poreikį Vilniaus regione, kontaktų puslapyje galima pateikti žinutę. Tai lieka išankstinis tyrimas, be kainos, užsakymo ar tiekėjo pažado."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "7374b183-9b6f-47db-b8d9-f2479bb86e73",
+          "src": "/content-assets/fasadopastoliai/7374b183-9b6f-47db-b8d9-f2479bb86e73.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "dba73485-2b72-4769-9e74-e15a111f95a9",
+          "src": "/content-assets/fasadopastoliai/dba73485-2b72-4769-9e74-e15a111f95a9.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "4fd9432f-3c84-481e-a87e-25a676a5823d",
+          "src": "/content-assets/fasadopastoliai/4fd9432f-3c84-481e-a87e-25a676a5823d.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "e34d7b5d-1bd4-4d1c-b6f2-25a80027ffcf",
+          "src": "/content-assets/fasadopastoliai/e34d7b5d-1bd4-4d1c-b6f2-25a80027ffcf.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "f2c019ac-b1c2-41cf-8bb0-37bbe4b67ea4",
+          "src": "/content-assets/fasadopastoliai/f2c019ac-b1c2-41cf-8bb0-37bbe4b67ea4.webp",
+          "alt": "Tuščias pasiūlymo lapas su projekto aplanku ant planavimo stalo",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+          "label": "Fasado matmenų gidas"
+        },
+        {
+          "targetPageId": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+          "label": "Nuomos su montavimu gidas"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pilaitespastoliai.lt/paslaugos/",
+          "label": "Pilaitės pastoliai: atskiros paslaugos",
+          "reason": "Viešas tiekėjo nuomos, transporto ir montavimo atskyrimas. Jo įkainiai bei matavimo sistema neperkeliami į mūsų pasiūlymą. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://strscaffolding.co.uk/domestic-scaffolding",
+          "label": "STR: namo projekto pasiūlymo apimtis",
+          "reason": "UK nuomotojo pasiūlymo pavyzdys; vietos apžiūra ir sutartas nuomos laikas. Tai nėra Lietuvos kaina ar Lietuvai taikoma teisinė taisyklė. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://www.transrifus.lt/documents/Pastoli%C5%B3%20nuomos%20taisykl%C4%97s%20%28kai%20montuoja%20Nuomotojas%29%202024.pdf",
+          "label": "Transrifus: 2024 nuomos taisyklių pavyzdys",
+          "reason": "Dviejų puslapių konkretaus nuomotojo sutartis, kai jis montuoja. Parodo priėmimo, nuomos ir grąžinimo ribas; jos tarifai ir terminai nėra mūsų ar universalūs. Aktualų pasiūlymą tikrinkite su tiekėju. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+      "revisionHash": "d7304b781d1ac79987fbcd2e3b0a6ce7695d8505b0438198914642325ee67284",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "d7304b781d1ac79987fbcd2e3b0a6ce7695d8505b0438198914642325ee67284",
+        "approvedAt": "2026-10-03T18:53:40.716Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "guide",
+      "slug": "nuoma-su-montavimu",
+      "title": "Pastolių nuoma su montavimu: ką suderinti prieš darbus",
+      "description": "Įranga, profesionalus montavimas, priėmimas ir grąžinimas yra atskiros projekto atsakomybės.",
+      "intent": "Atskirti įrangos nuomą nuo profesionalaus montavimo ir priėmimo",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "„Nuoma su montavimu“ turėtų būti konkreti darbų ir atsakomybių apimtis, o ne vien patogi pasiūlymo antraštė. Prieš susitarimą išsiaiškinkite, kas vertina objektą, parenka įrangą, montuoja, priima, prižiūri ir išmontuoja. Šis gidas padeda pasiruošti pokalbiui su realiu vykdytoju. Jis nėra surinkimo instrukcija ar konkretaus objekto saugos patikra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Įranga ir vykdymas nėra tas pats"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien išnuomota įranga savaime nepatvirtina, kad pastoliai jūsų objekte tinkamai sumontuoti ir parengti naudoti. Paklauskite, ar tiekėjas siūlo profesionalų montavimą ir išmontavimą, ar jo pasiūlymas apima tik įrangos pateikimą. Jeigu darbą organizuoja jūsų fasado rangovas, aiškiai suderinkite, kuri atsakomybės dalis priklauso jam."
+        },
+        {
+          "type": "paragraph",
+          "text": "VDI statybviečių kontroliniame klausimyne darbo aukštyje dalis tikrina projektą, priežiūrą ir darbuotojų parengimą. Tai aiški priežastis nelaikyti interneto nuotraukos ar bendros sienos kvadratūros montavimo sprendimu. Šis projektas netvirtina operatoriaus techninės kvalifikacijos ar brigados pajėgumo. Konkretaus objekto reikalavimus bei instrukcijas nustato atsakingi specialistai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasakyti apie vietą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikite jau žinomas aplinkybes: skirtingi pagrindo lygiai, siauras praėjimas, priestatas, vartai, transporto privažiavimas, šalia esantis viešas kelias ar kiti apribojimai. Aprašas nėra leidimas užimti viešą erdvę ar išvada, kad parinktas pagrindas tinkamas. Nežinomus klausimus įvardykite ir aptarkite įvertinimą su vykdytoju."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien užklausai nereikia tikrinti tvirtinimo taškų, ardyti sienos, bandyti apkrovos ar lipti aukštyn. Nesiūlome universalių tvirtinimo, paklotų, apkrovų ar surinkimo taisyklių. Konkreti sistema ir situacija lemia techninį sprendimą; bendras gidas jo neperima."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai apie darbų apimtį"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kas profesionaliai įvertins objektą ir parengs taikytiną montavimo bei naudojimo sprendimą?",
+            "Kas pateikia įrangą, montuoja ir išmontuoja; ar tai aiškiai įvardyti vykdytojai?",
+            "Kas organizuoja pristatymą, iškrovimą ir išvežimą, kokias vietos sąlygas reikia iš anksto suderinti?",
+            "Kokiu dokumentu ir kokia tvarka patvirtinamas įrangos bei sumontuotų pastolių priėmimas?",
+            "Kas vykdo priežiūrą ir patikrą pagal konkrečias instrukcijas, kam pranešama apie pokytį ar neatitikimą?",
+            "Kas sprendžia dėl papildomų dangų, perstatymo ar pasikeitusios darbų apimties?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite konkrečius atsakymus. Žodis „įtraukta“ nepasako, ar apima ir išmontavimą, transportą atgal ar kitą etapą. Jei pasiūlyme šių dalių nėra, paklauskite prieš laikydami jį pilnu. Nepalikite atsakomybės vien numanomam susitarimui tarp dviejų rangovų, kurio patys nesate matę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Priėmimas nėra formalus paveikslėlis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Susitarkite, kas dalyvaus priimant įrangą ir darbą, kaip bus fiksuojami kiekiai, būklė bei pastabos ir kur gausite taikytinas instrukcijas. Mūsų generuota fasado iliustracija nieko iš to nepatvirtina. Viešas Transrifus taisyklių pavyzdys atskirai aptaria priėmimą ir grąžinimą; jūsų realus tiekėjas turi pateikti savo aktualias sąlygas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu pastebėjote problemą ar sąlygos pasikeitė, nepradėkite savo jėgomis keisti konstrukcijos remdamiesi gidu. Kreipkitės į atsakingą vykdytoją ir vadovaukitės konkretaus objekto saugos tvarka. MB Pinet forma nesiūlo skubios pagalbos, apžiūros ar nuotolinio leidimo naudoti pastolius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išmontavimas ir nuomos pabaiga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pasirašydami išsiaiškinkite, kaip prašomas išmontavimas, kas suderina datą ir kada baigiasi nuomos skaičiavimas. Ar reikės patvirtinti grąžinamą kiekį, ar taikomos valymo sąlygos ir kaip sprendžiami neatitikimai? Tai jūsų nuomotojo sutarties klausimai, ne šio projekto universalūs terminai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastolių nuomos kainos gidas padės visus šiuos punktus įtraukti į palyginimą. Fasado matmenų gidas leidžia parengti pradinį objekto aprašą. Kontaktų puslapyje galite pateikti konkretų planinį poreikį, aiškiai pažymėdami, ar reikia visos profesionalaus vykdymo apimties. Užklausa nepatvirtina nei brigados, nei nuomos laiko ar saugaus naudojimo."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "241a8fad-00d8-47ee-a7fd-0a85067c62a9",
+          "src": "/content-assets/fasadopastoliai/241a8fad-00d8-47ee-a7fd-0a85067c62a9.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 1448,
+          "height": 1086,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "a94a7756-cec8-46f7-8512-34a2143e9ba2",
+          "src": "/content-assets/fasadopastoliai/a94a7756-cec8-46f7-8512-34a2143e9ba2.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 1200,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "477a051b-5351-4603-8fee-2a7a0fcb7e2e",
+          "src": "/content-assets/fasadopastoliai/477a051b-5351-4603-8fee-2a7a0fcb7e2e.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 800,
+          "height": 600,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "d4f2192e-3a82-40b4-9d01-be470911bf38",
+          "src": "/content-assets/fasadopastoliai/d4f2192e-3a82-40b4-9d01-be470911bf38.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 640,
+          "height": 480,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "a4fac329-2725-407f-ba34-23254961cac5",
+          "src": "/content-assets/fasadopastoliai/a4fac329-2725-407f-ba34-23254961cac5.webp",
+          "alt": "Namo pastolių ir atskirtos prieigos konteksto iliustracija",
+          "width": 360,
+          "height": 270,
+          "credit": "",
+          "rights": "Originali projekto konteksto iliustracija, sukurta integruotu ImageGen. Trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2940b20e-da36-46b1-8a59-ce498a01bbde",
+          "label": "Fasado matmenų gidas"
+        },
+        {
+          "targetPageId": "888dd51f-0654-4f20-b6d9-fda5fbf4640e",
+          "label": "Pastolių nuomos kainos gidas"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://vdi.lrv.lt/media/viesa/saugykla/2023/12/wzrBu4Hhyn4.pdf",
+          "label": "VDI: statybviečių kontrolinis klausimynas",
+          "reason": "2023 kontrolinio klausimyno darbo aukštyje dalis (PDF 3 puslapis): projektas, priežiūra, specialiai apmokyti darbuotojai. Šis gidas nėra konkretaus objekto atitikties ar teisės konsultacija. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://www.transrifus.lt/documents/Pastoli%C5%B3%20nuomos%20taisykl%C4%97s%20%28kai%20montuoja%20Nuomotojas%29%202024.pdf",
+          "label": "Transrifus: 2024 nuomos taisyklių pavyzdys",
+          "reason": "Dviejų puslapių konkretaus nuomotojo sutartis, kai jis montuoja. Parodo priėmimo, nuomos ir grąžinimo ribas; jos tarifai ir terminai nėra mūsų ar universalūs. Aktualų pasiūlymą tikrinkite su tiekėju. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "40847c00-2164-4aba-ac8b-4acc0b262a77",
+      "revisionHash": "1975907d3297f32e663d4671635c9ccd42304ff9c2651bfc380cd4822fbc9418",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "1975907d3297f32e663d4671635c9ccd42304ff9c2651bfc380cd4822fbc9418",
+        "approvedAt": "2026-10-03T18:53:40.807Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "kontaktai",
+      "title": "Aprašykite pastolių nuomos poreikį",
+      "description": "Vietovė, fasadas, laikotarpis ir paslaugų apimtis. Galima rašyti tiesiai arba naudoti neprivalomą ruošinį.",
+      "intent": "Pateikti realų nuomos poreikį be užsakymo pažado",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kontaktas – MB Pinet, info@pinet.lt. Rašydami nurodykite fasadopastoliai.lt ir savo planuojamų fasado darbų poreikį Vilniuje arba Vilniaus rajone. Telefono, sandėlio, įrangos ar montavimo brigados šis projektas neturi patvirtintų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai išankstinis poreikio tyrimas. Nuomos rezervacija, sąmata, atvykimo laikas ir atsakymo terminas nežadami. Skubiam poreikiui kreipkitės į realiai veikiančią nuomos įmonę. Duomenų automatiškai tiekėjams nesiunčiame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką parašyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietovė be tikslaus adreso, fasado darbai ir žinomi matmenys arba „nežinau“, pageidaujama pradžia/trukmė, reikalingos paslaugos. Jei pastolius jau organizuoja rangovas, tai nurodykite. Nesiųskite asmens dokumentų, sutarties kopijų ar svetimų kontaktų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dabartinė peržiūra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietiniuose bandymuose naudokite tik sintetinius duomenis. Forma įrašo testą į atskirą vietinę bazę, tačiau laiškų siuntimas išjungtas. Nuomos poreikio puslapis ir privatumo tekstas paaiškina ribas prieš pateikimą."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "804de432-629a-4b47-aa2e-94fb43ec3688",
+          "label": "Nuomos poreikio puslapis"
+        },
+        {
+          "targetPageId": "20c8b621-19df-4a3e-9a36-0b78e9de1f1d",
+          "label": "privatumo tekstas"
+        }
+      ],
+      "id": "4701a920-6118-41fa-95a6-4020576b7493",
+      "revisionHash": "5b2dc8eea2fe654ba0b4145a14b4dfeccea6e1a5d15e20de2eda0cf5a3b05d9c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "5b2dc8eea2fe654ba0b4145a14b4dfeccea6e1a5d15e20de2eda0cf5a3b05d9c",
+        "approvedAt": "2026-10-03T18:53:40.886Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "apie-projekta",
+      "title": "Apie projektą „Fasado pastoliai“",
+      "description": "MB Pinet poreikio tyrimo projektas ir jo skirtumas nuo archyve buvusios nuomos įmonės.",
+      "intent": "Patikrinti projekto operatorių, tikslą ir istorijos ribą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Fasadopastoliai.lt yra MB Pinet administruojamas išankstinio nuomos poreikio tyrimo projektas. Padedame individualaus namo savininkui aiškiau parengti fasado, laiko ir paslaugų apimties klausimus. Operatorius ir kontaktas info@pinet.lt patvirtinti savininko kaip bendri tinklo kontaktai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ankstesnis domeno turinys nėra mūsų veikla"
+        },
+        {
+          "type": "paragraph",
+          "text": "Viešame archyve šis domenas buvo siejamas su kita pastolių nuomos ir pardavimo įmone. Mes neperimame jos įrangos, sandėlių, klientų, sertifikavimo, kontaktų ar darbų istorijos. Dabartinio projekto nereikia laikyti tos įmonės tęsiniu. Ankstesnio operatoriaus užsakymų šioje formoje neadministruojame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmo etapo ribos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Turime informacinius gidus, geometrinio fasado aprašo ruošinį ir išankstinio poreikio kelią. Patvirtinto nuomotojo, brigados, likučio ar nuomos kainoraščio nėra. Tai nėra pilna nuomos platforma, parduotuvė ar mokama montavimo paslauga. Tikras domeno paleidimas ir pristatymas atskirai tikrinami; dabar vietinė versija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Galima komercinė kryptis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei tikri poreikiai ir būsimas vykdytojo susitarimas tai pagrįstų, galėtume svarstyti atlyginamą tinkamų užklausų modelį. Tai hipotezė, ne esama partnerystė ar jūsų duomenų pardavimas. Konkretaus perdavimo sąlygos turėtų būti suderintos atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidų skaitymas nėra nuomos paklausos įrodymas. Plėtra priklausys nuo tinkamų užklausų, vykdymo ir ekonomikos, o ne vien nuo lankomumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turinys ir klausimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Redakcijos puslapyje paaiškinta šaltinių ir iliustracijų metodika. Dėl netikslumo ar projekto poreikio rašykite info@pinet.lt, nurodydami domeną ir URL. Netvirtiname specialisto kvalifikacijos, paslaugos pajėgumo ar konkretaus atsakymo termino."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "22ede55b-c79c-4fd4-af30-81dccd73369e",
+          "label": "Redakcijos puslapyje"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Aprašykite pastolių nuomos poreikį"
+        },
+        {
+          "targetPageId": "804de432-629a-4b47-aa2e-94fb43ec3688",
+          "label": "Kokį pastolių nuomos poreikį registruojame?"
+        }
+      ],
+      "id": "e035fcba-bc7c-455a-a3d5-687212cc73aa",
+      "revisionHash": "08c64689c54e4ed56807bfc8c86ff96cde29e27427ab8b92daddb9489a5c55ce",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "08c64689c54e4ed56807bfc8c86ff96cde29e27427ab8b92daddb9489a5c55ce",
+        "approvedAt": "2026-10-03T18:53:40.973Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "redakcija",
+      "title": "MB Pinet redakcija",
+      "description": "Kas atsako už gidus, kaip vertinami šaltiniai ir kodėl iliustracijos nėra atliktų darbų įrodymai.",
+      "intent": "Patikrinti realią organizacinę autorystę ir metodiką",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Už projekto turinį atsako MB Pinet. Tai organizacinis redakcinis profilis, ne išgalvoto montuotojo ar inžinieriaus biografija. Neteigiame techninės kvalifikacijos, pastolių projektavimo ar atliktų darbų patirties. Turinys padeda pasiruošti pokalbiui su realiu vykdytoju."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengiame gidus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kiekvienam URL pasirenkame vieną konkretų skaitytojo klausimą. Tikriname realių nuomotojų pasiūlymų apimtį ir oficialios institucijos saugos kontekstą. Prie gido yra konkreti nuoroda, patikros data ir šaltinio riba. Užsienio kainų, teisinių taisyklių ir svetimos kvalifikacijos automatiškai į Lietuvą neperkeliame."
+        },
+        {
+          "type": "paragraph",
+          "text": "Juodraščiai rengiami naudojant AI, po to teiginiai, nuorodos ir kontakto ribos peržiūrimi agento redakciniu procesu. Tai nėra žmogaus inžinieriaus patvirtintas montavimo projektas. Nežinomus mūsų įkainius, pajėgumą, tiekėjus ir rezultatus paliekame nežinomus. Tariamo eksperto ar kliento atsiliepimų nėra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Iliustracijos ir ruošinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Originalios temos iliustracijos sukurtos generatyviniu AI ir peržiūrėtos kaip kontekstiniai vaizdai. Jos nėra mūsų darbuotojų, sandėlio, įrangos ar tikrų klientų darbų fotografijos ir neįrodo techninės atitikties. Kilmė, tikslūs promptai ir originalai laikomi privačiame medijos žurnale; trečiųjų šalių fotografijos nenaudotos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ploto ruošinyje taikoma tik stačiakampės geometrijos aritmetika. Jis nepateikia techninės komplektacijos, kainos, projekto ar saugos išvados. Nežinoma dalis taip ir įvardijama. Pavyzdžiai aiškiai iliustraciniai, jie nėra realių klientų įrašai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Datos ir pataisymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gido datos yra suplanuotos patvirtinto turinio versijos datos, ne vietinės peržiūros faktinio viešo paskelbimo įrodymas. Keičiantis pasiūlymui ar tikram duomenų keliui reikės naujos peržiūros. Netikslumą praneškite info@pinet.lt, pateikdami domeną, URL ir sakinį; pakeistas tekstas patvirtinamas iš naujo. Paieškos reitingų, nuomos įvykdymo ar konversijų garantijų nėra."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Aprašykite pastolių nuomos poreikį"
+        },
+        {
+          "targetPageId": "e035fcba-bc7c-455a-a3d5-687212cc73aa",
+          "label": "Apie projektą „Fasado pastoliai“"
+        }
+      ],
+      "id": "22ede55b-c79c-4fd4-af30-81dccd73369e",
+      "revisionHash": "d1a06ccd3290c502b5898cf1347ea801cd1a8d524b84a229580e9ba5a323f12d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "d1a06ccd3290c502b5898cf1347ea801cd1a8d524b84a229580e9ba5a323f12d",
+        "approvedAt": "2026-10-03T18:53:41.062Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumas ir užklausos duomenys",
+      "description": "Vietinės formos laukai, geometrinio ruošinio paskirtis, saugojimas ir atskiras peržiūrų matavimas.",
+      "intent": "Suprasti dabartinį duomenų kelią prieš užklausą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šis tekstas skirtas 2026-10-03 vietinei peržiūrai. Už projekto sprendimus atsako MB Pinet, kontaktas info@pinet.lt. Tikras domeno paleidimas ir komercinio duomenų tvarkymo sąlygos dar nepatikrinti. Bandymams naudokite tik sintetinius duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Formos laukai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Priimamas vardas, el. paštas, jūsų žinutė ir pateikimo sutikimas. Įraše yra identifikatorius, siteId, pateikimo ir sutikimo laikas bei pradinis puslapis. Tikslaus adreso, asmens dokumentų, sutarčių kopijų ar svetimų duomenų nereikalaujame; nesiųskite jų laisvoje žinutėje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenų ir projekto ruošiniai veikia naršyklėje. Laukų užpildymas, geometrinės sumos apskaičiavimas ar žinutės paruošimas duomenų neišsiunčia ir nelaiko jų URL ar ilgalaikėje naršyklės saugykloje. Pateikiama tik paties lankytojo galutinai siunčiama forma. Checkbox skirtas šiam poreikiui nagrinėti, ne rinkodaros prenumeratai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vietinis saugojimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techninė peržiūra pateiktą sintetinę užklausą išsaugo atskiroje vietinėje bandymų bazėje. SMTP išjungtas; tikras laiškas operatoriui neišsiunčiamas. QA identifikuoti sintetiniai įrašai pašalinami iš šios bazės. Tai nėra veikiančio domeno duomenų saugojimo termino pažadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš tikrą paleidimą būtina nustatyti ir paskelbti teisėtą tvarkymo pagrindą, konkretų saugojimo terminą arba kriterijus, faktinius paslaugų teikėjus, galimą perdavimą ir teisių įgyvendinimo tvarką. Neįjungtas būsimas nuomotojas ar agentas nesuteikia teisės automatiškai perduoti pateiktos informacijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Matavimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaičiuojamos dienos, puslapio ir įvykio suvestinės atskirai šiam siteId. Formos tekstas į jas nepatenka; nuorodos į el. paštą paspaudimas nėra gautas laiškas. Kelias nesukuria paskyros, individualaus sekimo slapuko ar profilio. DNT / Global Privacy Control signalai ir atpažinti automatizuoti testai praleidžiami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reklamos pikselių, balso agento, žemėlapio ar išorinio vaizdo įrašo įterpimo šioje versijoje nėra. Šriftai ir vaizdai pateikiami su projektu. Išorinių šaltinių puslapiai turi savo duomenų tvarkymo taisykles."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duomenų klausimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite prašyti informacijos ir susipažinti su savo duomenimis, prašyti juos ištaisyti; teisės aktuose numatytais atvejais – ištrinti, apriboti tvarkymą ar perkelti, nesutikti su tvarkymu ir atšaukti sutikimą. Taikymas priklauso nuo tvarkymo pagrindo ir aplinkybių. Galima teikti skundą priežiūros institucijai. Bendrą teisių paaiškinimą pateikia Europos Komisija: asmens duomenų teisės. Tai nėra patvirtinimas, kad šios vietinės peržiūros komercinės procedūros jau įdiegtos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl savo duomenų kreipkitės info@pinet.lt, nurodydami šį domeną ir užklausos ID, jei jį turite. Tvarkymo pagrindas bei aplinkybės lemia teisių taikymą; prieš tikrą paleidimą operatorius turi patvirtinti informavimą ir teisių įgyvendinimo kelią. Neskelbiame išgalvotos veikiančios komercinės privatumo politikos. Į paprastą žinutę papildomų asmens dokumentų nedėkite."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Aprašykite pastolių nuomos poreikį"
+        },
+        {
+          "targetPageId": "9be42f20-d723-4dd7-9bb4-308b453b70f6",
+          "label": "Naudojimo sąlygos"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
+          "label": "Europos Komisija: asmens duomenų teisės",
+          "reason": "Bendras teisių ir informavimo reikalavimų paaiškinimas, patikrintas 2026-10-03. Jis neįrodo šio projekto produkcijos teisinio pagrindo ar veikiančios komercinės tvarkos."
+        }
+      ],
+      "id": "20c8b621-19df-4a3e-9a36-0b78e9de1f1d",
+      "revisionHash": "69aea10aa4fcb858ae353b9bc4d99eaf3488df66deaa647cc6e581448c958fae",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "69aea10aa4fcb858ae353b9bc4d99eaf3488df66deaa647cc6e581448c958fae",
+        "approvedAt": "2026-10-03T18:53:41.149Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "fasadopastoliai",
+      "type": "faq",
+      "slug": "naudojimo-salygos",
+      "title": "Naudojimo sąlygos",
+      "description": "Gidų, geometrinio ruošinio ir išankstinės nuomos poreikio formos ribos.",
+      "intent": "Suprasti kad turinys ir užklausa nėra sutartis ar techninis projektas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Fasadopastoliai.lt projektą administruoja MB Pinet, kontaktas info@pinet.lt. Dabartinė versija yra vietinė peržiūra, ne patvirtintas tikro domeno paleidimas. Ankstesnio šiame domene buvusio operatoriaus įrangos, klientų, kontaktų ir reputacijos neperimame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacinė paskirtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai ir ruošiniai padeda aprašyti nuomos poreikį. Jie nėra pastolių projektas, surinkimo instrukcija, ekspertizė, saugos patikra ar techninė komplektacija. Matmenų aritmetika apsiriboja stačiakampių sienų geometrija; individualų objektą ir vykdymą vertina realūs atsakingi specialistai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausos reikšmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žinutė nėra sutartis, rezervacija, sąmata, mokėjimo prievolė ar pažadas gauti tiekėjo pasiūlymą. Patvirtintos įrangos, nuomotojo, brigados, kainoraščio ir atvykimo grafiko neturime. Atsakymo termino, paslaugos suradimo, montavimo ar nuomos rezultato negarantuojame. Vėlesnė paslauga būtų suderinta atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tiekėjams informacija automatiškai nesiunčiama. Vietiniams bandymams naudokite sintetinius duomenis. Tikro kontakto ir duomenų kelio paleidimas reikalauja atskiros operatoriaus bei pristatymo patikros. Skubiam ar saugos klausimui ši forma netinka."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šaltiniai ir iliustracijos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šaltiniai pateikiami konkretiems klausimams pagrįsti; jie gali keistis ir nepatvirtina partnerystės. Kitos įmonės sutarties sąlygos ar UK taisyklės netampa mūsų ar universaliomis Lietuvos sąlygomis. Originalūs vaizdai yra konteksto iliustracijos, ne mūsų darbų ar įrangos atitikties fotografijos. Metodika redakcijos puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pataisymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Netikslumą galima pranešti info@pinet.lt, nurodant domeną, URL ir sakinį. Pasikeitęs pasiūlymas ir duomenų tvarkymas turi būti peržiūrėti iš naujo. Nėra atsiskaitymų, paskyrų, balso ar automatinio nuomos užsakymo. Paieškos reitingų ir individualaus nuomos rezultato nežadame."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "20c8b621-19df-4a3e-9a36-0b78e9de1f1d",
+          "label": "Privatumas ir užklausos duomenys"
+        },
+        {
+          "targetPageId": "4701a920-6118-41fa-95a6-4020576b7493",
+          "label": "Aprašykite pastolių nuomos poreikį"
+        },
+        {
+          "targetPageId": "22ede55b-c79c-4fd4-af30-81dccd73369e",
+          "label": "redakcijos puslapyje"
+        }
+      ],
+      "id": "9be42f20-d723-4dd7-9bb4-308b453b70f6",
+      "revisionHash": "6eb5d2714cfb5ffb512677ff2726d9f62ae7b5bd54ae763cb17b3ea66bc8eada",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6eb5d2714cfb5ffb512677ff2726d9f62ae7b5bd54ae763cb17b3ea66bc8eada",
+        "approvedAt": "2026-10-03T18:53:41.231Z",
+        "actorId": "codex-editorial-review"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-03T18:53:41.256Z"
+}

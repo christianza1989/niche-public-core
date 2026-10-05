@@ -1,0 +1,1370 @@
+{
+  "schemaVersion": 1,
+  "siteId": "autoelektrikaivilniuje",
+  "canonicalHost": "autoelektrikaivilniuje.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "autoelektrikaivilniuje",
+    "name": "Autoelektrikai Vilniuje",
+    "canonicalHost": "autoelektrikaivilniuje.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#1949b8"
+    },
+    "offer": "Išankstinis planinės automobilių elektros diagnostikos poreikio tyrimas Vilniuje",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "home",
+      "slug": "",
+      "title": "Autoelektriko paieška prasideda nuo simptomo.",
+      "description": "Akumuliatorius išsikrauna ar automobilis neužsiveda? Paruoškite aiškų diagnostikos poreikį Vilniuje.",
+      "intent": "Parengti planinės lengvojo automobilio elektros diagnostikos poreikį Vilniuje",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Padedame susisteminti pasikartojantį išsikrovimą, užvedimo ar įkrovimo simptomą prieš ieškant planinės elektros diagnostikos Vilniuje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai MB Pinet išankstinis poreikio tyrimas. Servisas, partneris, atvykimas, kaina ar priėmimo laikas dar nepatvirtinti. Užklausa nėra užsakymas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas nutinka jūsų automobiliui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite vieną konkretų įvykį: kada automobilis paskutinį kartą važiavo, kiek stovėjo ir ką pastebėjote bandydami užvesti. Šis aprašas naudingesnis už iš anksto pasirinktą keičiamą detalę."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Akumuliatorius išsikrauna: po stovėjimo, trumpų kelionių ar net po neseno pakeitimo.",
+            "Automobilis neužsiveda: nėra reakcijos, girdėti spragtelėjimas arba variklis sukamas, bet nepasileidžia.",
+            "Įkrovimo klausimas: įspėjimas ar ankstesnė patikra; tai aprašoma, o ne diagnozuojama internetu."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Susitarkite dėl tyrimo apimties"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klaidų nuskaitymas, konkretaus elektros simptomo tyrimas ir remontas gali būti skirtingi darbai. Prieš susitarimą svarbu paklausti, kas bus tikrinama, kaip gausite išvadą ir kada reikės papildomo sutikimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagnostikos kainos gidas padės palyginti darbų ribas. Mūsų projektas neturi savo kainoraščio ir nepriima mokėjimų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paruoškite poreikį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje automobilio, simptomo ir pristatymo duomenis galima sudėti į redaguojamą žinutę. Vardą ir el. paštą įrašykite tik nusprendę pateikti užklausą. Gavę poreikį galime jo patikslinti; atsakymo terminas ir paslaugos įvykdymas nežadami."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "7ea460ea-6977-4ee1-b1b2-2d0d69257ce1",
+          "src": "/content-assets/autoelektrikaivilniuje/7ea460ea-6977-4ee1-b1b2-2d0d69257ce1.webp",
+          "alt": "Mėlynas automobilis prie atvirų dirbtuvių vartų",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "91e37cef-6918-48c5-a405-6ddb5311be17",
+          "src": "/content-assets/autoelektrikaivilniuje/91e37cef-6918-48c5-a405-6ddb5311be17.webp",
+          "alt": "Mėlynas automobilis prie atvirų dirbtuvių vartų",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "d3c09ecb-3c4c-4181-9a9b-4854e131b563",
+          "src": "/content-assets/autoelektrikaivilniuje/d3c09ecb-3c4c-4181-9a9b-4854e131b563.webp",
+          "alt": "Mėlynas automobilis prie atvirų dirbtuvių vartų",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "1c79fcd6-a6ec-4f92-8f9b-a46e89ba05f6",
+          "src": "/content-assets/autoelektrikaivilniuje/1c79fcd6-a6ec-4f92-8f9b-a46e89ba05f6.webp",
+          "alt": "Mėlynas automobilis prie atvirų dirbtuvių vartų",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "e8285f76-f1db-450e-90cc-275fa72fafd4",
+          "src": "/content-assets/autoelektrikaivilniuje/e8285f76-f1db-450e-90cc-275fa72fafd4.webp",
+          "alt": "Mėlynas automobilis prie atvirų dirbtuvių vartų",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8",
+          "src": "/content-assets/autoelektrikaivilniuje/3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700",
+          "src": "/content-assets/autoelektrikaivilniuje/063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "9b975edb-6b1c-436e-b27e-18046c71e865",
+          "src": "/content-assets/autoelektrikaivilniuje/9b975edb-6b1c-436e-b27e-18046c71e865.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "2f8944e0-1ad2-4aad-8ff4-ac433a00507c",
+          "src": "/content-assets/autoelektrikaivilniuje/2f8944e0-1ad2-4aad-8ff4-ac433a00507c.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "af3166e5-12d0-4c34-a8ca-bc4262b3af20",
+          "src": "/content-assets/autoelektrikaivilniuje/af3166e5-12d0-4c34-a8ca-bc4262b3af20.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "82b8cc62-16d5-4340-980b-8fba511783ea",
+          "label": "Planinės elektros diagnostikos poreikis Vilniuje"
+        },
+        {
+          "targetPageId": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+          "label": "Akumuliatorius išsikrauna: ką užrašyti prieš diagnostiką"
+        },
+        {
+          "targetPageId": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+          "label": "Automobilis neužsiveda: aprašykite reakciją, ne spėjamą gedimą"
+        },
+        {
+          "targetPageId": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+          "label": "Diagnostikos kainos gidas"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "id": "811a835b-b0e2-4c2a-80cf-f93f23973d48",
+      "revisionHash": "b3e69c284f0346fabe385d35e9b80e59355c92f89811a060fa15d61cfcb18fe3",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b3e69c284f0346fabe385d35e9b80e59355c92f89811a060fa15d61cfcb18fe3",
+        "approvedAt": "2026-10-03T13:44:01.376Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "diagnostikos-poreikis",
+      "title": "Planinės elektros diagnostikos poreikis Vilniuje",
+      "description": "Kam skirtas pirmasis projekto etapas, ką verta parašyti ir ko užklausa dar nepatvirtina.",
+      "intent": "Suprasti konkretų bandomo pasiūlymo veiksmą ir vykdymo ribas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Registruojame išankstinį poreikį planinei lengvojo automobilio elektros diagnostikai Vilniuje. Pirmasis etapas skirtas pasikartojančiam akumuliatoriaus išsikrovimui, užvedimo ar įkrovimo simptomui, kai savininkas gali planuoti automobilio pristatymą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pateikiate dabar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų formoje aprašykite automobilį, pastebėtą simptomą, kada jis pasireiškia, ankstesnius bandymus ir pageidaujamą laikotarpį. Biudžetas nėra būtinas; nesiųskite VIN, valstybinio numerio, dokumentų, mokėjimo ar sveikatos duomenų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai nėra serviso registracija, kainos pasiūlymas ar pažadas rasti meistrą. MB Pinet vertina, ar tokio poreikio yra. Jūsų informacija nebus automatiškai persiųsta servisams. Jei vėliau atsirastų tinkamas paslaugos vykdytojas, konkretus kitas žingsnis ir duomenų perdavimas turėtų būti suderinti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką verta pasiruošti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Automobilio markė, modelis, apytikriai metai ir variklio tipas, jei žinote.",
+            "Kada problema pasireiškia ir kuo ši situacija skiriasi nuo įprasto naudojimo.",
+            "Ar buvo keistas akumuliatorius, papildyta elektros įranga arba atliktas remontas.",
+            "Ar galite pristatyti ir palikti automobilį; nežinomo pristatymo nevadinkite patvirtintu.",
+            "Jūsų laikotarpis ir neaiškumai, kuriuos norėtumėte aptarti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur yra šio etapo riba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neatliekame nuotolinės diagnozės ir neparduodame remonto. Avarinis iškvietimas, užvedimo pagalba vietoje, elektromobilio aukštos įtampos darbai ir konkretaus serviso laiko rezervavimas šiame etape nesiūlomi. Jei reikia skubios pagalbos, pasirinkite realiai veikiančią techninės pagalbos tarnybą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip vertinsime rezultatą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Projekto plėtra priklausys nuo tikrų tinkamų užklausų, galimo vykdytojo ir atskirai suderintos paslaugos ekonomikos. Gidų peržiūros ar el. pašto nuorodos paspaudimas savaime nėra atliktos diagnostikos ar patenkinto kliento įrodymas."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Aprašykite diagnostikos poreikį"
+        },
+        {
+          "targetPageId": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+          "label": "Akumuliatorius išsikrauna: ką užrašyti prieš diagnostiką"
+        },
+        {
+          "targetPageId": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+          "label": "Automobilis neužsiveda: aprašykite reakciją, ne spėjamą gedimą"
+        },
+        {
+          "targetPageId": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+          "label": "Autoelektriko diagnostikos kaina: pirmiausia sutarkite apimtį"
+        }
+      ],
+      "id": "82b8cc62-16d5-4340-980b-8fba511783ea",
+      "revisionHash": "35224822d353df8f0fca3f27a2ce356ea95151242ee14a1b814d9e57ba1b57fe",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "35224822d353df8f0fca3f27a2ce356ea95151242ee14a1b814d9e57ba1b57fe",
+        "approvedAt": "2026-10-03T13:44:01.506Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Aiškiau prieš diagnostiką",
+      "description": "Trys skirtingi klausimai: pasikartojantis išsikrovimas, nepavykęs užvedimas ir diagnostikos kainos apimtis.",
+      "intent": "Pasirinkti savo klausimą atitinkantį gidą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite tą situaciją, kurią iš tikrųjų pastebėjote. Gidai padeda surinkti aplinkybes ir pasirengti pokalbiui; pagal vieną požymį nustatyti gedimo negalima."
+        },
+        {
+          "type": "paragraph",
+          "text": "Akumuliatoriaus išsikrovimo gidas skirtas pasikartojimui po stovėjimo ar naudojimo. Užvedimo gidas padeda atskirti jūsų girdėtą ir matytą reakciją. Kainos gidas paaiškina, kokių darbų ribas reikia sutarti prieš lyginant sumas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite pranešti planinės diagnostikos poreikį Vilniuje, perskaitykite pasiūlymo ribas ir paruoškite žinutę kontaktų puslapyje. Tai išankstinis tyrimas, be serviso rezervacijos."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8",
+          "src": "/content-assets/autoelektrikaivilniuje/3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700",
+          "src": "/content-assets/autoelektrikaivilniuje/063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "9b975edb-6b1c-436e-b27e-18046c71e865",
+          "src": "/content-assets/autoelektrikaivilniuje/9b975edb-6b1c-436e-b27e-18046c71e865.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "2f8944e0-1ad2-4aad-8ff4-ac433a00507c",
+          "src": "/content-assets/autoelektrikaivilniuje/2f8944e0-1ad2-4aad-8ff4-ac433a00507c.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "af3166e5-12d0-4c34-a8ca-bc4262b3af20",
+          "src": "/content-assets/autoelektrikaivilniuje/af3166e5-12d0-4c34-a8ca-bc4262b3af20.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "bd1b9591-51ae-48ec-b306-88735305d5a4",
+          "src": "/content-assets/autoelektrikaivilniuje/bd1b9591-51ae-48ec-b306-88735305d5a4.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "d537753c-ad5c-484a-b283-207380f8354d",
+          "src": "/content-assets/autoelektrikaivilniuje/d537753c-ad5c-484a-b283-207380f8354d.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "b4afe1d7-98b8-4f2b-ba60-2080eab71461",
+          "src": "/content-assets/autoelektrikaivilniuje/b4afe1d7-98b8-4f2b-ba60-2080eab71461.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "403a52b4-55ea-4fac-a0c0-b91782c6a16a",
+          "src": "/content-assets/autoelektrikaivilniuje/403a52b4-55ea-4fac-a0c0-b91782c6a16a.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "1dc986fc-d106-4dac-9183-e31d7f8843fa",
+          "src": "/content-assets/autoelektrikaivilniuje/1dc986fc-d106-4dac-9183-e31d7f8843fa.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "4822458f-a2c5-48bb-bfff-81f0d6cdb5ed",
+          "src": "/content-assets/autoelektrikaivilniuje/4822458f-a2c5-48bb-bfff-81f0d6cdb5ed.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "aa8da38b-be6b-47ad-925c-1bcff2fa122e",
+          "src": "/content-assets/autoelektrikaivilniuje/aa8da38b-be6b-47ad-925c-1bcff2fa122e.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "728cfe29-25c4-4e26-8f81-1f53868169c9",
+          "src": "/content-assets/autoelektrikaivilniuje/728cfe29-25c4-4e26-8f81-1f53868169c9.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "0c251a3c-a06b-4b54-be35-998cddb0ab50",
+          "src": "/content-assets/autoelektrikaivilniuje/0c251a3c-a06b-4b54-be35-998cddb0ab50.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "f7be6f85-f17e-448f-bb5d-a21d277998ef",
+          "src": "/content-assets/autoelektrikaivilniuje/f7be6f85-f17e-448f-bb5d-a21d277998ef.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+          "label": "Akumuliatoriaus išsikrovimo gidas"
+        },
+        {
+          "targetPageId": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+          "label": "Užvedimo gidas"
+        },
+        {
+          "targetPageId": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+          "label": "Autoelektriko diagnostikos kaina: pirmiausia sutarkite apimtį"
+        }
+      ],
+      "id": "7701585e-1e65-4877-b11b-eda032ee93dc",
+      "revisionHash": "fb3dfb1fea752d5f34b9258351c293c60b77e8426da849f784065b301415de17",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "fb3dfb1fea752d5f34b9258351c293c60b77e8426da849f784065b301415de17",
+        "approvedAt": "2026-10-03T13:44:01.611Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "guide",
+      "slug": "akumuliatorius-issikrauna",
+      "title": "Akumuliatorius išsikrauna: ką užrašyti prieš diagnostiką",
+      "description": "Stovėjimo trukmė, važiavimo įpročiai ir ankstesni bandymai padeda aiškiau aprašyti pasikartojantį išsikrovimą.",
+      "intent": "Surinkti pasikartojančio išsikrovimo aplinkybes prieš planinį tyrimą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pasikartojantis išsikrovimas dar nepasako, kurią detalę reikia keisti. Pirmas naudingas žingsnis – aprašyti, kada automobilis veikė įprastai, kiek stovėjo ir kaip problema pasikartojo. Tokia įvykių seka padeda pokalbyje dėl tyrimo, tačiau nepakeičia automobilio patikros."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atskirti aplinkybes nuo priežasties"
+        },
+        {
+          "type": "paragraph",
+          "text": "VARTA paaiškina, kad trumpos kelionės gali nepapildyti užvedimui sunaudotos energijos, o papildoma elektros įranga didina apkrovą. Akumuliatoriaus būklė ir naudojimo sąlygos taip pat svarbios. Tai bendras kontekstas; iš jo negalima daryti išvados, kad jūsų automobilio problema tik akumuliatoriuje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašuose išlaikykite skirtumą tarp to, ką pastebėjote, ir to, ką spėjate. „Po dviejų parų stovėjimo nebeužsivedė“ yra aplinkybė. „Sugedo generatorius“ be patikros yra hipotezė. Jei turite ankstesnę serviso išvadą, trumpai nurodykite, kas buvo tikrinta ir kada. Nereikia siųsti visos sąskaitos su asmens duomenimis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sudarykite trumpą įvykių seką"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Paskutinis įprastas važiavimas: diena, apytikris kelionės pobūdis ir ar po jo buvo įspėjimų.",
+            "Stovėjimas iki problemos: valandos ar paros, jei žinote; užrašykite ir neaiškumą.",
+            "Bandymas užvesti: ar buvo šviesos, reakcija ir garsas. Vien prietaisų skydelio veikimas nėra patikros rezultatas.",
+            "Ankstesnis bandymas: įkrovimas, akumuliatoriaus keitimas ar serviso apsilankymas, tik jei tai iš tikrųjų buvo.",
+            "Pakartojimas: ar problema grįžo ir per kiek laiko, ar tai kol kas vienas įvykis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Neprisimintą laiką galima nurodyti apytikriai. Tikslumas nereiškia privalomų matavimų: nereikia atjunginėti laidų ar bandyti savarankiškai matuoti srovės vien tam, kad užpildytumėte žinutę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasakyti apie naudojimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Servisui gali būti naudinga žinoti, ar automobilis daugiausia naudojamas trumpoms miesto kelionėms, ar ilgai stovi. Užrašykite įprastą režimą savo žodžiais. Jei neseniai pridėta kamera, signalizacija ar kita įranga, nurodykite jos įrengimo laiką ir ar simptomas pasirodė prieš tai, ar po to. Laiko sutapimas nėra įrodymas, kad konkreti įranga kalta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip pat pasakykite, kada buvo pakeistas akumuliatorius, jei tai žinote. „Naujas“ be datos arba įrašo gali reikšti skirtingus dalykus. Bosch paslaugos aprašas akumuliatoriaus patikrą ir jo tinkamą pakeitimą pateikia kaip atskirus veiksmus. Nesirinkite kito akumuliatoriaus vien pagal internetinio gido pavadinimą: konkretaus automobilio reikalavimai turi būti patikrinti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokį tyrimą verta aptarti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prašykite paaiškinti, kaip planuojama tirti jūsų aprašytą pasikartojimą. Ar bus vertinama akumuliatoriaus būklė, įkrovimas ar stovėjimo metu atsirandanti apkrova? Kurie iš šių veiksmų įtraukti į pirmą etapą, o kuriems reikėtų papildomo laiko ir sutikimo? Tai klausimai paslaugos vykdytojui, ne šio gido paskirtas tyrimų sąrašas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei gedimas pasireiškia tik po ilgesnio stovėjimo, aptarkite ir automobilio palikimo galimybę. Negalima iš anksto pažadėti, kad problema bus atkartota per trumpą vizitą. Paklauskite, kokią išvadą gausite, jei patikros metu simptomas nepasireikš, ir kaip būtų sutariamas tęsinys."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdys, kurį galite pritaikyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žinutės struktūra: „Automobilis [modelis ir metai]. Po [apytikrio stovėjimo] pastebėjau [tikras simptomas]. Iki tol važiavau [naudojimo pobūdis]. Jau bandyta [tikri veiksmai arba nieko]. Problema kartojosi [kada arba dar nežinau]. Galiu pristatyti [laikotarpis], dėl palikimo [galiu / negaliu / reikia aptarti].“ Laužtinių skliaustų vietas pakeiskite savo duomenimis, o nežinomų aplinkybių neišgalvokite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nepalikite žinutėje detalių, kurių nenorite perduoti operatoriui. VIN, valstybinis numeris, tiksli gyvenamoji vieta ir dokumentų kopijos šiam poreikio tyrimui nereikalingi. Užvedimo simptomo gidas padės, jei neaišku, kaip aprašyti automobilio reakciją; diagnostikos kainos gidas – jei norite suprasti darbų ribas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tolimesnis veiksmas ir saugumo riba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje galite paruošti planinės diagnostikos poreikį Vilniuje. MB Pinet šiuo metu tiria poreikį ir neturi patvirtinto serviso, priėmimo laiko ar kainoraščio. Užklausa nėra rezervacija. Šis tekstas nėra remonto, matavimo ar užvedimo laidais instrukcija. Neaiškius ar pavojingus požymius aptarkite su realiai veikiančiu specialistu; bandomos formos atsakymo nelaukite, jei reikia skubios pagalbos."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8",
+          "src": "/content-assets/autoelektrikaivilniuje/3c7cb84d-44c3-48d5-b34c-ae7bdf0d0bf8.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700",
+          "src": "/content-assets/autoelektrikaivilniuje/063e49fc-ed25-4d3b-8a0c-4c9e9a6c6700.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "9b975edb-6b1c-436e-b27e-18046c71e865",
+          "src": "/content-assets/autoelektrikaivilniuje/9b975edb-6b1c-436e-b27e-18046c71e865.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "2f8944e0-1ad2-4aad-8ff4-ac433a00507c",
+          "src": "/content-assets/autoelektrikaivilniuje/2f8944e0-1ad2-4aad-8ff4-ac433a00507c.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "af3166e5-12d0-4c34-a8ca-bc4262b3af20",
+          "src": "/content-assets/autoelektrikaivilniuje/af3166e5-12d0-4c34-a8ca-bc4262b3af20.webp",
+          "alt": "Automobilio akumuliatorius įprastai sumontuotas variklio skyriuje",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+          "label": "Užvedimo simptomo gidas"
+        },
+        {
+          "targetPageId": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+          "label": "diagnostikos kainos gidas"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.varta-automotive.com/en-gb/knowledge/articles/article-details/which-is-the-right-battery-for-short-distance-driving",
+          "label": "VARTA: trumpi važiavimai ir akumuliatorius",
+          "reason": "Gamintojo bendras paaiškinimas apie trumpų kelionių ir papildomos elektros įrangos apkrovas. Jis nenustato konkretaus automobilio gedimo. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://www.boschcarservice.com/de/de/werkstattleistungen/elektronik-service/batterie-service/",
+          "label": "Bosch Car Service: akumuliatoriaus patikra",
+          "reason": "Viešas Vokietijos paslaugos aprašas atskiria patikrą ir tinkamą pakeitimą. Tai ne mūsų partnerystė, Lietuvos kaina ar pasiūlymas. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+      "revisionHash": "ed26b809b27a9f820975982bbd674b92f073eeb4ade947e4142eec9642435506",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ed26b809b27a9f820975982bbd674b92f073eeb4ade947e4142eec9642435506",
+        "approvedAt": "2026-10-03T13:44:01.798Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "guide",
+      "slug": "automobilis-neuzsiveda",
+      "title": "Automobilis neužsiveda: aprašykite reakciją, ne spėjamą gedimą",
+      "description": "Nėra reakcijos, girdėti spragtelėjimas ar variklis sukamas? Trumpas aplinkybių sąrašas pokalbiui dėl patikros.",
+      "intent": "Tiksliai aprašyti nepavykusio užvedimo simptomą ir pasirinkti planinį arba skubų kelią",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "„Neužsiveda“ gali reikšti skirtingas pastebėtas reakcijas. Naudinga pirmiausia pasakyti, kas įvyko paspaudus įprastą užvedimo mygtuką ar pasukus raktą: nieko negirdėjote, išgirdote spragtelėjimą ar variklis buvo sukamas, bet nepasileido. Tai aprašymas specialistui, o ne nuotolinis gedimo nustatymas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmiausia nuspręskite, kokios pagalbos reikia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei automobilis stovi taip, kad kelia pavojų, reikia pagalbos vietoje arba negalite saugiai tęsti kelionės, kreipkitės į realiai veikiančią techninės pagalbos tarnybą. MB Pinet poreikio forma nesiūlo avarinio iškvietimo, užvedimo pagalbos ar atsakymo per konkretų laiką. Ji skirta planiniam diagnostikos poreikiui, kurį galima aptarti vėliau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame tekste nėra bandymų užvesti laidais, remonto veiksmų ar patarimo vairuoti esant gedimui. Automobilio vadovas ir konkrečios situacijos specialisto nurodymai turi pirmenybę. Vien tam, kad pateiktumėte užklausą, nereikia kartoti bandymų, ardyti detalių ar fotografuoti po automobiliu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užrašykite, ką tikrai pastebėjote"
+        },
+        {
+          "type": "paragraph",
+          "text": "The AA savo apžvalgoje išskiria skirtingus garsus ir reakcijas bei kelias galimas priežasčių grupes. Akumuliatorius, starteris, laidai ar kitos sistemos gali būti svarbios, tačiau vienas garsas konkrečios priežasties nepatvirtina. Nesiremkite garsu kaip nurodymu įsigyti detalę."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar tuo metu įsijungė prietaisų skydelis? Aprašykite matytą būseną, nespėkite energijos atsargos.",
+            "Ar girdėjote vieną spragtelėjimą, kelis, kitą garsą, ar jokio garso? Jei nesate tikri, taip ir parašykite.",
+            "Ar variklis buvo sukamas, bet nepasileido? Nevadinkite to „akumuliatoriaus gedimu“ be patikros.",
+            "Ar matėte konkretų pranešimą? Galite perrašyti jo tekstą, jei jį prisimenate; nerinkite spėjamų klaidų kodų iš interneto.",
+            "Ar tai pirmas atvejis, ar pasikartojimas? Nurodykite bent apytikrį laiką."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai nėra savarankiškos patikros protokolas. Sąrašo laukus užpildykite iš jau pastebėtų aplinkybių. Jei automobilio valdymas ar požymiai neįprasti, pasitarkite su specialistu, o ne bandykite įrodyti pasirinktą internetinę diagnozę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Papildykite įvykio kontekstą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite, kada automobilis paskutinį kartą važiavo įprastai ir kiek stovėjo. Jei prieš problemą buvo remontas, keistas akumuliatorius ar įrengta papildoma įranga, pateikite laiko seką. Po remonto atsiradęs simptomas dar neįrodo priežasties, bet padeda specialistui suprasti, nuo ko pradėti klausimus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pridėkite markę, modelį ir apytikrius metus. Jei žinote variklio tipą ar start-stop buvimą, galite nurodyti; nežinoma informacija netrukdo aprašyti poreikio. VIN ir registracijos dokumentai šio projekto formoje nereikalingi. Tekste nereikia tikslaus stovėjimo adreso ar kitų žmonių duomenų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas jau buvo bandyta"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpai išvardykite tik atliktus veiksmus ir jų rezultatą. „Akumuliatorius pakeistas prieš mėnesį; po pakeitimo problema pasikartojo“ pasako daugiau nei „viskas sutvarkyta“. Jei turite ankstesnę serviso išvadą, atskirkite jos tekstą nuo savo spėjimo. Jei nieko nebandėte, toks atsakymas taip pat aiškus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ankstesnis sėkmingas užvedimas ar laikinas pagerėjimas savaime nepatvirtina, kad gedimas pašalintas. Tyrimo pokalbyje svarbi ir pasikartojimo eiga. Jei įvykis daugiau nepasikartojo, nevadinkite jo nuolatiniu. Specialistas turėtų žinoti, ar patikros metu bus galima tikėtis tokios pačios būsenos, tačiau to garantuoti negalite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite automobilio pristatymą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Planinės diagnostikos užklausoje nurodykite, ar automobilis gali būti pristatytas ir paliktas, ar pristatymo dar nežinote. Šis projektas transportavimo neorganizuoja. Pageidaujamas laikotarpis yra jūsų poreikis, o ne patvirtintas vizitas. Kol nėra konkretaus vykdytojo ir suderinto laiko, planuokite kitą realų kelią, jei pagalbos reikia greičiau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prašydami paslaugos paklauskite, kuo baigtųsi pirmas diagnostikos etapas: tyrimo išvada, papildomo darbo pasiūlymu ar konkrečiu remontu. Nepriimkite remonto kaip savaime įtraukto į patikrą. Diagnostikos kainos gidas padės susidaryti klausimus apie apimtį, papildomą laiką ir sutikimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Žinutės ruošinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Automobilis [modelis, metai]. [Kada] bandant užvesti pastebėjau [reakcija ir garsas]. Iki tol stovėjo [laikas arba nežinau]. Problema [pirmą kartą / kartojasi]. Jau atlikta [tikri veiksmai], rezultatas [pastebėjimas]. Pristatymas [galiu / reikia aptarti], pageidaujamas laikotarpis [jūsų poreikis].“ Tai pavyzdinė struktūra, ne tikras kliento atvejis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei problema kartojasi po stovėjimo, akumuliatoriaus išsikrovimo gidas padeda išplėsti laiko seką. Kontaktų puslapyje galite pateikti išankstinį poreikį Vilniuje. Net ir tikslus aprašas šiuo etapu nepatvirtina serviso, diagnozės, kainos ar rezervacijos; jis leidžia suprasti, ko jums reikia."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "bd1b9591-51ae-48ec-b306-88735305d5a4",
+          "src": "/content-assets/autoelektrikaivilniuje/bd1b9591-51ae-48ec-b306-88735305d5a4.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "d537753c-ad5c-484a-b283-207380f8354d",
+          "src": "/content-assets/autoelektrikaivilniuje/d537753c-ad5c-484a-b283-207380f8354d.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "b4afe1d7-98b8-4f2b-ba60-2080eab71461",
+          "src": "/content-assets/autoelektrikaivilniuje/b4afe1d7-98b8-4f2b-ba60-2080eab71461.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "403a52b4-55ea-4fac-a0c0-b91782c6a16a",
+          "src": "/content-assets/autoelektrikaivilniuje/403a52b4-55ea-4fac-a0c0-b91782c6a16a.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "1dc986fc-d106-4dac-9183-e31d7f8843fa",
+          "src": "/content-assets/autoelektrikaivilniuje/1dc986fc-d106-4dac-9183-e31d7f8843fa.webp",
+          "alt": "Vairuotojo ranka prie automobilio užvedimo mygtuko",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+          "label": "akumuliatoriaus išsikrovimo gidas"
+        },
+        {
+          "targetPageId": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+          "label": "Diagnostikos kainos gidas"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.theaa.com/breakdown-cover/advice/starting-a-car",
+          "label": "The AA: kai automobilis neužsiveda",
+          "reason": "Techninės pagalbos organizacijos simptomo ir galimų priežasčių apžvalga. Šiame gide nėra perkelta užvedimo laidais instrukcija. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+      "revisionHash": "6bea5ebc0cc20d9a963c6163b4509b92c6fa0bc487365c1816f80a3c4299bb4e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6bea5ebc0cc20d9a963c6163b4509b92c6fa0bc487365c1816f80a3c4299bb4e",
+        "approvedAt": "2026-10-03T13:44:01.883Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "guide",
+      "slug": "diagnostikos-kaina",
+      "title": "Autoelektriko diagnostikos kaina: pirmiausia sutarkite apimtį",
+      "description": "Klaidų nuskaitymas, elektros simptomo tyrimas ir remontas: kokius klausimus užduoti prieš lyginant pasiūlymus.",
+      "intent": "Palyginti realios planinės diagnostikos pasiūlymų apimtį be išgalvotų įkainių",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Diagnostikos sumą prasminga lyginti tada, kai aišku, už kokį darbą ji mokama. Klaidų nuskaitymas, pasikartojančio elektros simptomo tyrimas ir remontas nebūtinai apima tuos pačius veiksmus. Šis gidas padeda paruošti klausimus tikram vykdytojui. MB Pinet neturi patvirtinto diagnostikos kainoraščio ir nepateikia individualios remonto sąmatos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką vadinate diagnostika?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lietuvos Kemi viešame puslapyje kompiuterinė diagnostika, elektros sistemų diagnostika ir remontas pateikiami atskiromis eilutėmis. Tai konkretus rinkos pavyzdys, kodėl vien pavadinimo „diagnostika“ neužtenka pasiūlymams palyginti. Svetimos kainos nėra mūsų įkainiai; jos gali keistis ir nepakeičia jūsų automobilio darbų apimties susitarimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo savo klausimo: ar norite perskaityti klaidų informaciją, ištirti konkretų pasikartojantį simptomą, ar jau turite patvirtintą remonto poreikį? Nesirinkite platesnio darbo vien todėl, kad internetinėje antraštėje jis vadinamas pilna diagnostika. Paprašykite vykdytojo paaiškinti, kaip siūlomas pirmas etapas atsako į jūsų aprašą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmo etapo ribos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Koks simptomas arba klausimas bus tiriamas?",
+            "Kurie patikros veiksmai įtraukti, o kurie būtų papildomi?",
+            "Ar mokama už apibrėžtą etapą, laiką, ar kitą aiškiai sutartą darbą?",
+            "Ką gausite po etapo: žodinį paaiškinimą, rašytinę išvadą, matavimų santrauką ar remonto pasiūlymą?",
+            "Kaip bus elgiamasi, jei simptomas per vizitą nepasikartos?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Klausimai nėra įrodymas, kad visos dirbtuvės taiko tą patį modelį. Užrašykite konkrečius gautus atsakymus ir neužpildykite trūkstamų vietų savo prielaidomis. Jei pasiūlyme tik pradinė suma, paklauskite, kokiomis sąlygomis ji gali pasikeisti. Žodis „nuo“ nepasako jūsų būsimos galutinės sąskaitos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sutarti papildomą darbą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aiškiai paklauskite, kada reikės jūsų papildomo sutikimo. Ar vykdytojas sustos po pirmo etapo ir susisieks, ar gali tęsti iki iš anksto sutartos ribos? Jei susitariate dėl ribos, ji turi būti konkreti ir suprantama jums abiem. Šis projektas nenurodo universalaus valandų ar eurų limito ir neturi teisės sutikti dėl jūsų remonto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Papildomos detalės, jų keitimas ir automobilio grąžinimo sąlygos aptariamos su realiu paslaugos vykdytoju. Diagnostikos užklausa nėra leidimas pakeisti akumuliatorių ar starterį. Bosch akumuliatoriaus paslaugos aprašas patikrą ir pakeitimą aptaria atskirai; jis taip pat nenustato Lietuvos darbų kainų. Pasiūlyme palikite šias dalis atskirtas, kad žinotumėte, kam pritariate."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginimo lapas be tariamos rinkos kainos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surašykite kiekvieną gautą pasiūlymą tomis pačiomis eilutėmis: jūsų simptomas, pirmo etapo apimtis, mokėjimo pagrindas, numatyta išvada, papildomo darbo sutikimas, detalės ir pristatymas. Nurodykite pasiūlymo datą ir kas jį pateikė. Nepatikslintą informaciją žymėkite „nežinau“ arba „reikia paklausti“."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien mažesnė antraštinė suma neįrodo, kad pasiūlymas jums tinkamesnis. Viename gali būti tik siauresnis pirmas žingsnis, kitame daugiau tyrimo darbo. Jeigu apimtis nevienoda, pirmiausia užduokite trūkstamus klausimus. Nereikia atlikti aritmetinio palyginimo iš skirtingų darbų ir vadinti jo patikimu rinkos vidurkiu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdinis klausimas vykdytojui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Po [laikotarpio stovėjimo] automobilis [tikras simptomas]. Norėčiau suprasti, ką apimtų pirmas tyrimo etapas, kaip jis apmokamas ir kokią išvadą gausčiau. Kada būtų reikalingas papildomas mano sutikimas? Ar reikėtų automobilį palikti ir kokia būtų pristatymo tvarka?“ Pritaikykite klausimą savo situacijai; tai nėra mūsų kainos užsakymo forma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jau turite ankstesnių patikrų, nurodykite tik jų datą ir reikšmingą išvadą. Tiksliau aprašytas poreikis padeda aptarti darbą, bet negarantuoja vieno vizito, konkrečios trukmės ar sėkmingo remonto. Jei aprašas neaiškus, akumuliatoriaus išsikrovimo arba užvedimo gidas padės atskirti įvykio aplinkybes nuo priežasties spėjimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada ši informacija nepakankama"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidas netinka skubiam iškvietimui organizuoti, individualiai sąmatai ar techninei diagnozei. Nereikia laukti projekto atsakymo, kai pagalbos reikia dabar. Elektromobilio aukštos įtampos darbai taip pat nėra šio pirmo etapo pasiūlymas. Konkrečios paslaugos saugumas ir vykdymas turi būti aptarti su realiu specialistu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje galite parengti planinės diagnostikos poreikį Vilniuje. Tai leidžia MB Pinet įvertinti susidomėjimą ir galimus kitus žingsnius, tačiau partneris, mokama paslauga ir jos ekonomika dar nepatvirtinti. Šioje formoje nėra mokėjimų, automatinio kainos skaičiavimo ar patvirtinto serviso laiko."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [
+        {
+          "id": "4822458f-a2c5-48bb-bfff-81f0d6cdb5ed",
+          "src": "/content-assets/autoelektrikaivilniuje/4822458f-a2c5-48bb-bfff-81f0d6cdb5ed.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "aa8da38b-be6b-47ad-925c-1bcff2fa122e",
+          "src": "/content-assets/autoelektrikaivilniuje/aa8da38b-be6b-47ad-925c-1bcff2fa122e.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "728cfe29-25c4-4e26-8f81-1f53868169c9",
+          "src": "/content-assets/autoelektrikaivilniuje/728cfe29-25c4-4e26-8f81-1f53868169c9.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "0c251a3c-a06b-4b54-be35-998cddb0ab50",
+          "src": "/content-assets/autoelektrikaivilniuje/0c251a3c-a06b-4b54-be35-998cddb0ab50.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        },
+        {
+          "id": "f7be6f85-f17e-448f-bb5d-a21d277998ef",
+          "src": "/content-assets/autoelektrikaivilniuje/f7be6f85-f17e-448f-bb5d-a21d277998ef.webp",
+          "alt": "Diagnostikos įrankis ir tuščias darbo aprašo lapas ant dirbtuvių stalo",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta Codex integruotu ImageGen; trečiųjų šalių fotografija nenaudota."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "b6b35e2d-40fc-4e85-a772-499b4f83f639",
+          "label": "Akumuliatorius išsikrauna: ką užrašyti prieš diagnostiką"
+        },
+        {
+          "targetPageId": "29c1a3a2-8f6e-4ded-b544-b53fe84d1519",
+          "label": "užvedimo gidas"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.kemi.lt/paslaugos/elektros-sistemu-diagnostika-ir-remontas",
+          "label": "Kemi: elektros sistemų diagnostika ir remontas",
+          "reason": "Vietinis paslaugų pavyzdys: kompiuterinė diagnostika, elektros diagnostika ir remontas pateikiami atskirai. Mūsų įkainio ar serviso registracijos nėra. Kainos gali keistis. Patikrinta 2026-10-03."
+        },
+        {
+          "url": "https://www.boschcarservice.com/de/de/werkstattleistungen/elektronik-service/batterie-service/",
+          "label": "Bosch Car Service: akumuliatoriaus patikra",
+          "reason": "Viešas Vokietijos paslaugos aprašas atskiria patikrą ir tinkamą pakeitimą. Tai ne mūsų partnerystė, Lietuvos kaina ar pasiūlymas. Patikrinta 2026-10-03."
+        }
+      ],
+      "id": "9e1db76f-4bd0-47f9-a135-1963650c94d3",
+      "revisionHash": "2ef8974fa68bd17cdd72147c416a6d512e212af5136f4692f877ce378bd8f9a2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2ef8974fa68bd17cdd72147c416a6d512e212af5136f4692f877ce378bd8f9a2",
+        "approvedAt": "2026-10-03T13:44:01.972Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "kontaktai",
+      "title": "Aprašykite diagnostikos poreikį",
+      "description": "Automobilis, simptomas, pasikartojimas ir pristatymas. Pateikite išankstinį poreikį Vilniuje.",
+      "intent": "Sąmoningai pateikti konkretų planinės diagnostikos poreikį",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Projektą administruoja MB Pinet. Kontaktinis el. paštas: info@pinet.lt. Telefonas, dirbtuvių adresas ir priėmimo laikas šiame etape nenurodomi, nes diagnostikos vykdytojas nepatvirtintas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pateikiant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši forma skirta išankstiniam planinės elektros diagnostikos poreikiui Vilniuje. Tai nėra užsakymas, rezervacija, kainos pasiūlymas ar avarinės pagalbos kanalas. Atsakymo terminas ir galimybė įvykdyti paslaugą nežadami. Duomenys automatiškai servisams neperduodami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite automobilio modelį ir apytikrius metus, pastebėtą reakciją, kada ji kartojasi, tikrus ankstesnius bandymus ir pageidaujamą laikotarpį. Pasakykite, ar galite pristatyti bei palikti automobilį. Nežinomą aplinkybę taip ir pažymėkite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ruošinys veikia jūsų naršyklėje ir pats nieko neišsiunčia. Gautą žinutę galėsite pakeisti. Galima tiesiog parašyti laisvą tekstą; ruošinio naudoti neprivaloma. Nesiųskite VIN, numerio, tikslaus adreso, dokumentų ar kitų žmonių duomenų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vietinės peržiūros riba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dabartinė versija tikrinama vietoje, su išjungtu laiškų siuntimu. Bandymui naudokite tik sintetinį vardą ir adresą. Sėkmingas vietinis įrašymas nereiškia realaus el. laiško gavimo. Prieš tikrą paleidimą privalės būti patikrinti pristatymas, saugojimo tvarka ir aktualus privatumo tekstas."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "82b8cc62-16d5-4340-980b-8fba511783ea",
+          "label": "Planinės elektros diagnostikos poreikis Vilniuje"
+        },
+        {
+          "targetPageId": "c4acb685-4d97-4b3b-8f06-77d577a18768",
+          "label": "privatumo tekstas"
+        }
+      ],
+      "id": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+      "revisionHash": "f7a022cb4b1fe9bf02fc128c3fcc3731a0f645454c8a96d1108f037631010f02",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "f7a022cb4b1fe9bf02fc128c3fcc3731a0f645454c8a96d1108f037631010f02",
+        "approvedAt": "2026-10-03T13:44:02.105Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "apie-projekta",
+      "title": "Apie projektą „Autoelektrikai Vilniuje“",
+      "description": "MB Pinet poreikio tyrimas planinei automobilių elektros diagnostikai Vilniuje.",
+      "intent": "Suprasti operatorių, bandomą pasiūlymą ir dabartines ribas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Autoelektrikaivilniuje.lt yra MB Pinet kuriamas planinės automobilių elektros diagnostikos poreikio tyrimas. Norime suprasti, ar vairuotojams Vilniuje reikalingas aiškesnis pasikartojančio išsikrovimo, užvedimo ir įkrovimo simptomų aprašymo kelias."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas veikia pirmame etape"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikiame atskirų klausimų gidus, aprašymo ruošinį ir išankstinio poreikio formą. Tai informacija ir tyrimas; projekto operatorius nėra čia pristatomas kaip veikiantis autoservisas. Neturime patvirtinto dirbtuvių adreso, mechanikų komandos, kainoraščio, darbo valandų ar atliktų klientų darbų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Galima komercinė kryptis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei būtų tinkamų tikrų poreikių ir realus vykdytojas, būtų galima atskirai svarstyti atlyginamą klientų perdavimo ar užbaigtos diagnostikos modelį. Tai hipotezė, ne esama partnerystė. Jūsų užklausa šiuo etapu neparduodama ir automatiškai servisui nesiunčiama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plėtra priklausys nuo tinkamų užklausų ir vykdymo ekonomikos. Gidų skaitymas ar nuorodos paspaudimas nėra paslaugos paklausos patvirtinimas. Dabartinė vietinė versija taip pat nėra tikro domeno paleidimo įrodymas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Susisiekite dėl turinio arba poreikio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Operatoriaus kontaktas – info@pinet.lt. Rašydami nurodykite autoelektrikaivilniuje.lt ir klausimo puslapį. Pastebėtus netikslumus galima pranešti tuo pačiu adresu. Redakcijos puslapyje paaiškinta šaltinių ir iliustracijų metodika."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "3708b573-849a-4ac6-ace3-9b05eb39db3f",
+          "label": "Redakcijos puslapyje"
+        },
+        {
+          "targetPageId": "82b8cc62-16d5-4340-980b-8fba511783ea",
+          "label": "Planinės elektros diagnostikos poreikis Vilniuje"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Aprašykite diagnostikos poreikį"
+        }
+      ],
+      "id": "dddd743a-1828-4208-9812-59a26c472315",
+      "revisionHash": "bc165df1d7be4fc6c1866ef9de2849e8e7e382f672456e7297e40d8f1836df1b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "bc165df1d7be4fc6c1866ef9de2849e8e7e382f672456e7297e40d8f1836df1b",
+        "approvedAt": "2026-10-03T13:44:02.224Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "redakcija",
+      "title": "MB Pinet redakcija",
+      "description": "Kas atsako už gidus, kaip tikrinami šaltiniai ir ką reiškia šiame projekte naudojamos iliustracijos.",
+      "intent": "Patikrinti tikrą organizacinę autorystę ir turinio ribas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Už šio projekto turinį atsako MB Pinet. Tai organizacinis redakcinis profilis, o ne išgalvoto autoelektriko biografija. Netvirtiname mechaniko kvalifikacijos, atliktų darbų patirties ar konkretaus serviso partnerystės. Turinys yra informacinis pasirengimas pokalbiui, ne techninė diagnozė."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengiami ir tikrinami gidai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirenkame vieną skaitytojo klausimą kiekvienam gidui, tikriname gamintojų, techninės pagalbos organizacijų ir realių paslaugų aprašus. Prie gido pateikiame konkrečias nuorodas, patikros datą ir šaltinio ribą. Atskirai vertiname, ar teiginys tinka šio projekto pasiūlymui. Kitos įmonės paslauga ar kaina nėra MB Pinet paslauga ar kaina."
+        },
+        {
+          "type": "paragraph",
+          "text": "Juodraščiai rengiami naudojant AI, po to teiginiai ir nuorodos redakciškai peržiūrimi. Tai nėra specialisto atlikta konkretaus automobilio patikra. Nežinomus verslo faktus paliekame nežinomus; neskelbiame tariamų atsiliepimų, klientų atvejų ar patvirtintų remonto rezultatų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Iliustracijų kilmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Originalios temos iliustracijos sukurtos su generatyviniu AI ir peržiūrėtos. Jos vaizduoja bendrą automobilio bei diagnostikos kontekstą, o ne mūsų dirbtuves, darbuotojus ar klientų darbus. Privatūs medijos įrašai saugo originalus, tikslius generavimo aprašus ir pasirinkimą. Trečiųjų šalių fotografijos nenaudotos; būtinos licencinės autorystės žymos nebūtų šalinamos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Datos ir pataisymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gido paskelbimo bei atnaujinimo datos rodomos prie jo. Atnaujinimas nėra įrodymas, kad keitėsi jūsų automobilio diagnozė ar kad iš naujo patikrinta visa rinka. Prieš tikrą paleidimą ir keičiantis pasiūlymui peržiūrėsime kintančius šaltinius bei projekto faktus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei matote netikslų teiginį, praneškite info@pinet.lt, nurodydami šį domeną, URL ir sakinį. Patvirtintas turinys keičiamas nauja peržiūrėta versija. Projektas nežada paieškos reitingų, remonto sėkmės ar atsakymo termino."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Aprašykite diagnostikos poreikį"
+        },
+        {
+          "targetPageId": "dddd743a-1828-4208-9812-59a26c472315",
+          "label": "Apie projektą „Autoelektrikai Vilniuje“"
+        }
+      ],
+      "id": "3708b573-849a-4ac6-ace3-9b05eb39db3f",
+      "revisionHash": "34d8458ea5fe5c7366609822474c56d0da196fbf438932dcf97637f90251a19f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "34d8458ea5fe5c7366609822474c56d0da196fbf438932dcf97637f90251a19f",
+        "approvedAt": "2026-10-03T13:44:02.352Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumas ir užklausos duomenys",
+      "description": "Dabartinės vietinės peržiūros forma, duomenų laukai, matavimas ir kontaktas dėl jūsų teisių.",
+      "intent": "Suprasti dabartinį duomenų kelią prieš pateikiant formą",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šis tekstas skirtas 2026-10-03 vietinei projekto peržiūrai. Už projekto sprendimus atsako MB Pinet, kontaktas info@pinet.lt. Tikras domeno paleidimas ir komercinio duomenų tvarkymo sąlygos dar nepatikrinti. Šioje peržiūroje bandymams naudokite tik sintetinius duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką priima forma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma priima vardą, el. paštą, jūsų parašytą žinutę ir sutikimo pateikti ją patvirtinimą. Įraše taip pat yra užklausos identifikatorius, svetainės identifikatorius, pateikimo bei sutikimo laikas ir pradinis puslapis. Nerenkame VIN, automobilio numerio ar dokumentų kaip privalomų laukų. Nerašykite jų ir laisvoje žinutėje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ruošinio laukai naudojami žinutei parengti naršyklėje. Jie neišsiunčiami vien juos užpildžius ar paspaudus „Paruošti žinutę“. Siunčiama tik paties lankytojo pateikta kontaktų forma. Sutikimas skirtas konkretaus poreikio nagrinėjimui ir nėra rinkodaros prenumerata."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vietinis saugojimas ir siuntimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techninė peržiūra pirmiausia išsaugo pateiktą užklausą atskiroje vietinėje bandymų duomenų bazėje. Laiškų siuntimas išjungtas. Tikras laiškas operatoriui nebus išsiųstas. Bandymų įrašai yra sintetiniai; jie identifikuojami QA žyma ir šalinami tik iš šiai peržiūrai skirtos bazės. Tai nėra pažadas apie veikiančio domeno duomenų terminą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš tikrą formos paleidimą būtina nustatyti ir paskelbti konkretų duomenų tvarkymo pagrindą, saugojimo terminą arba jo kriterijus, faktinius paslaugų teikėjus, galimą duomenų perdavimą ir teisių įgyvendinimo tvarką. Neįjungta būsima partnerystė ar balso modulis nesuteikia teisės perduoti šioje formoje gautus duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Peržiūrų matavimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmojo projekto matavimo kelias skaičiuoja dienos, puslapio ir įvykio suvestines atskirai šiam siteId. El. pašto nuorodos paspaudimas nėra gautas laiškas. Šis kelias nesukuria lankytojo paskyros, individualaus sekimo slapuko ar profilio ir į suvestinę neįrašo formos teksto. DNT arba Global Privacy Control signalas bei atpažinti automatizuoti testai matavime praleidžiami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šioje versijoje nėra reklamos pikselių, pokalbio ar balso agento, žemėlapio ir išorinių vaizdo įrašų įterpimų. Šriftai bei iliustracijos pateikiami su projektu. Atvėrus išorinį šaltinį jo svetainė duomenis tvarko pagal savo taisykles."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duomenų klausimai ir teisės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl savo duomenų galite kreiptis info@pinet.lt, nurodydami šį domeną ir užklausos identifikatorių, jei jį turite. Priklausomai nuo tvarkymo pagrindo ir aplinkybių, BDAR numato teisę susipažinti, ištaisyti, ištrinti, apriboti tvarkymą, nesutikti arba atšaukti sutikimą. Galima pateikti skundą Valstybinei duomenų apsaugos inspekcijai. Nepateikite papildomų asmens dokumentų paprastoje žinutėje."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Aprašykite diagnostikos poreikį"
+        },
+        {
+          "targetPageId": "d376c08c-8afb-4d5b-828b-0980c48020b6",
+          "label": "Naudojimo sąlygos"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679",
+          "label": "Bendrasis duomenų apsaugos reglamentas",
+          "reason": "Teisių, informavimo ir saugojimo trukmės principų šaltinis. Paieškos tekstas patikrintas 2026-10-03; tiesioginis HTML/PDF prieigos bandymas buvo ribotas robotų patikros."
+        }
+      ],
+      "id": "c4acb685-4d97-4b3b-8f06-77d577a18768",
+      "revisionHash": "756704a273d16f76866b8b484721700c202a8bf91b1c74c556b4fc136172e762",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "756704a273d16f76866b8b484721700c202a8bf91b1c74c556b4fc136172e762",
+        "approvedAt": "2026-10-03T13:44:02.494Z",
+        "actorId": "codex-editorial-review"
+      }
+    },
+    {
+      "siteId": "autoelektrikaivilniuje",
+      "type": "faq",
+      "slug": "naudojimo-salygos",
+      "title": "Naudojimo sąlygos",
+      "description": "Informacinių gidų ir išankstinio poreikio formos paskirtis bei dabartinio projekto ribos.",
+      "intent": "Suprasti ką reiškia svetainės turinys ir pateikta užklausa",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Autoelektrikaivilniuje.lt projektą administruoja MB Pinet; kontaktas info@pinet.lt. Dabartinė versija yra vietinė pirmo etapo peržiūra. Domeno nuosavybė, DNS, tikras hostingas ir formos pristatymas nėra šios peržiūros patvirtintas paleidimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacinė paskirtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai ir ruošinys padeda suformuluoti automobilio elektros diagnostikos poreikį. Jie nėra techninė diagnozė, remonto instrukcija, ekspertizė ar nurodymas pirkti dalį. Konkretaus automobilio būklę ir darbo atlikimo sąlygas vertina realus specialistas. Projekto bandomos formos nenaudokite skubiai ar avarinei pagalbai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia pateiktas poreikis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikta žinutė nėra sutartis, serviso rezervacija, kainos pasiūlymas ar mokėjimo prievolė. Šiame etape nėra patvirtinto serviso, darbo laiko, vykdytojo, partnerio ar kainoraščio. Negarantuojame atsakymo termino, paslaugos suradimo, atvykimo ar remonto rezultato. Bet kokia vėlesnė mokama paslauga turėtų būti suderinta atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenų automatiškai servisams neperduodame. Nesiųskite svetimų, perteklinių ar jautrių duomenų. Vietinės peržiūros testuose naudokite tik sintetinius duomenis. Saugų tikro projekto formos paleidimą turi patvirtinti atskira pristatymo ir privatumo patikra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šaltiniai ir iliustracijos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Išorinės nuorodos pateikiamos kaip konkretaus teiginio arba klausimo šaltiniai. Jos nepatvirtina partnerystės ir gali keistis. Originalios iliustracijos yra bendro konteksto vaizdai, o ne mūsų patalpų ar atliktų darbų fotografijos. Autorystės ir redakcinė metodika paaiškinta redakcijos puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pataisymai ir aktualumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apie pastebėtą klaidą praneškite info@pinet.lt, pateikdami domeną, URL ir konkretų sakinį. Pasikeitus komerciniam pasiūlymui ar tikram duomenų keliui turinys turės būti iš naujo peržiūrėtas. Šis projektas nežada paieškos reitingų ar individualaus diagnostikos rezultato. Jokių užsakymo atsiskaitymų ar vartotojo paskyrų šioje versijoje nėra."
+        }
+      ],
+      "publishAt": "2026-10-03T00:00:00.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c4acb685-4d97-4b3b-8f06-77d577a18768",
+          "label": "Privatumas ir užklausos duomenys"
+        },
+        {
+          "targetPageId": "3cb844a5-8591-4e0e-b3f2-b3393b18d2b3",
+          "label": "Aprašykite diagnostikos poreikį"
+        }
+      ],
+      "id": "d376c08c-8afb-4d5b-828b-0980c48020b6",
+      "revisionHash": "0719c6a88632dfa0aa6b03dee10e0d7ad2f7bce9a6cca0ada6c1822d3e7b9b71",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0719c6a88632dfa0aa6b03dee10e0d7ad2f7bce9a6cca0ada6c1822d3e7b9b71",
+        "approvedAt": "2026-10-03T13:44:02.639Z",
+        "actorId": "codex-editorial-review"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-03T13:44:02.742Z"
+}

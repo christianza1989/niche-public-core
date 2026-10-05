@@ -1,0 +1,1694 @@
+{
+  "site": {
+    "id": "dovanos123",
+    "name": "Dovanos 123",
+    "domains": [
+      "dovanos123.lt",
+      "www.dovanos123.lt",
+      "localhost"
+    ],
+    "defaultLocale": "lt-LT",
+    "currency": "EUR",
+    "timezone": "Europe/Vilnius",
+    "languageName": "Lietuvių",
+    "locales": [
+      {
+        "code": "lt-LT",
+        "label": "Lietuvių",
+        "hreflang": "lt-LT",
+        "pathPrefix": "",
+        "enabled": true
+      },
+      {
+        "code": "lv-LV",
+        "label": "Latviešu",
+        "hreflang": "lv-LV",
+        "pathPrefix": "lv",
+        "enabled": false
+      },
+      {
+        "code": "pl-PL",
+        "label": "Polski",
+        "hreflang": "pl-PL",
+        "pathPrefix": "pl",
+        "enabled": false
+      }
+    ],
+    "accent": "#f06f4f",
+    "productUrl": "https://memorycasting.lt/",
+    "productName": "Rankų liejimo rinkinys",
+    "description": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms."
+  },
+  "articles": [
+    {
+      "id": "lt-hand-casting-guide",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "ranku-liejimo-rinkinys-issamus-gidas",
+      "title": "Rankų liejimo rinkinys: išsamus gidas nuo pasiruošimo iki rezultato",
+      "excerpt": "Sužinokite, kam tinka rankų liejimo rinkinys, kaip pasiruošti, kokių klaidų vengti ir kaip išsirinkti rinkinį prasmingai dovanai.",
+      "category": "Personalizuotos dovanos",
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "publicationState": "published",
+      "readingMinutes": 10,
+      "relatedIds": [
+        "lt-hand-casting",
+        "lt-couple-ideas",
+        "lt-gifts-personalized"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-memorycasting",
+        "source-hand-casting",
+        "source-gift-choice"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/hand-casting-memory.webp",
+        "alt": "Poros rankose laiko baltą rankų liejinio skulptūrą ant medinio stalo",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Rankų liejimo rinkinys leidžia porai, šeimai ar artimiems žmonėms kartu sukurti trimatį prisiminimą. Tai nėra įprasta dekoracija, kurią tiesiog išpakuojate ir padedate lentynoje: svarbiausia dovanos dalis yra pats procesas, o rezultatas lieka kaip bendro laiko ženklas.",
+        "Šis gidas skirtas žmogui, kuris svarsto tokį rinkinį dovanoti arba nori suprasti, kaip vyksta liejimas prieš jį užsakant. Čia rasite praktinius pasiruošimo žingsnius, sąžiningus pasirinkimo kriterijus ir dažniausias klaidas, dėl kurių pirmas bandymas gali nepavykti.",
+        "## Kam tinka rankų liejimo rinkinys?",
+        "Geriausiai jis tinka žmonėms, kurie nori ne tik gauti daiktą, bet ir patirti ką nors kartu. Porai tai gali būti vestuvių metinių, sužadėtuvių ar bendro gyvenimo pradžios dovana. Šeimai — būdas įamžinti skirtingo amžiaus žmonių rankas vienoje kompozicijoje. Jis taip pat gali tikti kaip asmeniška dovana žmogui, kuris vertina rankų darbą ir sentimentalius objektus.",
+        "• Poroms, norinčioms išsaugoti artumo gestą.",
+        "• Šeimoms, kurios nori bendro savaitgalio projekto.",
+        "• Vestuvių metinių, sužadėtuvių ar svarbaus jubiliejaus progai.",
+        "• Žmonėms, kuriems svarbus procesas, o ne vien greitas pirkinys.",
+        "Jeigu dovanos gavėjas nemėgsta rankdarbių, negali skirti laiko instrukcijai arba tikisi idealaus rezultato be jokio įsitraukimo, praktiškesnė gali būti jau pagaminta dovana. Geras pasirinkimas prasideda nuo žmogaus, o ne nuo raktažodžio.",
+        "## Kas paprastai būna rinkinyje?",
+        "Komplektacija priklauso nuo konkretaus gamintojo ir pasirinkto dydžio, todėl ją verta patikrinti produkto puslapyje prieš užsakant. Įprastai rankų liejimo rinkinyje būna medžiaga, kuri trumpam suformuoja rankų kontūrą, liejimo medžiaga galutinei skulptūrai, instrukcija ir priemonės procesui atlikti. Kai kuriuose rinkiniuose papildomai siūlomas stovas, padėklas ar daugiau medžiagos didesnei kompozicijai.",
+        "Svarbu atskirti du etapus: pirmiausia sukuriama ne pati skulptūra, o tuščiavidurė forma, o vėliau ji užpildoma kietėjančia medžiaga. Todėl instrukcijoje nurodyti maišymo ir laukimo laikai yra proceso dalis, o ne neprivalomas patarimas.",
+        "## Kaip pasiruošti prieš maišant medžiagas?",
+        "Geriausias rezultatas prasideda dar neatidarius pakuotės. Skirkite sau pakankamai laiko, kad nereikėtų skubėti, ir iš anksto perskaitykite visą instrukciją. Pirmą kartą atliekant procesą verta turėti pagalbininką, kuris paduotų indą ar stebėtų laiką.",
+        "• Pasirinkite vietą, kurioje galima lengvai nuvalyti paviršius.",
+        "• Pasiruoškite kambario temperatūros vandenį, jei jo reikia pagal instrukciją.",
+        "• Nuimkite žiedus, laikrodžius ir kitus daiktus nuo rankų.",
+        "• Iš anksto nuspręskite, kokią rankų padėtį norite išsaugoti.",
+        "• Susitarkite, kas matuos laiką ir kada visi turi nejudėti.",
+        "Jeigu liejate kelių žmonių rankas, iš anksto pasimatuokite, ar pasirinktas indas yra pakankamai platus. Rankų padėtis turi būti patogi, nes proceso metu net maži neplanuoti judesiai gali pakeisti galutinę formą.",
+        "## Kaip vyksta liejimas?",
+        "### 1. Sukuriama rankų forma",
+        "Formavimo medžiaga sumaišoma pagal konkretaus rinkinio instrukciją. Rankos panardinamos į masę pasirinktoje padėtyje, o dalyviai turi išlaikyti ją kuo stabiliau, kol masė sustingsta. Šiame etape nereikėtų bandyti pagreitinti proceso papildomai judinant pirštus ar tikrinant masę.",
+        "### 2. Forma atsargiai atlaisvinama",
+        "Kai forma paruošta, rankos ištraukiamos lėtai ir be staigių trūktelėjimų. Svarbu neplėšti medžiagos jėga: jei kuri nors vieta atrodo labai plona, vadovaukitės instrukcija ir dirbkite kantriai.",
+        "### 3. Forma užpildoma liejimo medžiaga",
+        "Liejimo medžiaga turi pasiekti visas formos vietas. Čia dažniausiai padeda lėtas pylimas, lengvas indo patapšnojimas ir instrukcijoje nurodytas laukimo laikas. Tikslas nėra kuo greičiau pripildyti formą, o sumažinti oro tarpų tikimybę.",
+        "### 4. Skulptūra išimama ir sutvarkoma",
+        "Po kietėjimo išorinė forma nuimama, o paviršius apžiūrimas. Smulkūs pataisymai gali būti įmanomi, tačiau jų apimtis priklauso nuo naudojamos medžiagos. Prieš šlifuodami, dažydami ar tvirtindami ant padėklo įsitikinkite, kad skulptūra visiškai sukietėjusi.",
+        "## Dažniausios klaidos ir kaip jų išvengti",
+        "• Maišymas pradedamas dar neperskaičius instrukcijos — pasiruoškite viską iš anksto.",
+        "• Pasirenkamas per mažas indas — rankos turi tilpti patogiai, be spaudimo.",
+        "• Dalyviai juda kietėjimo metu — susitarkite dėl pozos ir laiko prieš panardinant rankas.",
+        "• Medžiaga pilama per greitai — lėtesnis procesas dažnai leidžia geriau užpildyti smulkias vietas.",
+        "• Skulptūra tvarkoma per anksti — laikykitės gamintojo nurodyto kietėjimo laiko.",
+        "• Tikimasi kataloginės nuotraukos rezultato — rankų liejinys yra individualus, todėl nedideli skirtumai yra jo istorijos dalis.",
+        "## Kaip išsirinkti rinkinį dovanai?",
+        "Pradėkite nuo žmonių skaičiaus ir norimos kompozicijos dydžio. Porai dažniausiai reikia dviejų rankų rinkinio, o šeimai verta tikrinti, kiek rankų telpa ir ar komplekte pakanka medžiagos. Jei dovana skirta kūdikiui, pasirinkite tik tą rinkinį, kurio gamintojas aiškiai aprašo naudojimą ir suaugusiųjų priežiūrą.",
+        "Toliau įvertinkite instrukcijos aiškumą, medžiagų paskirtį, galutinio rezultato dydį, galimybę jį pastatyti ar pakabinti ir pristatymo terminą. Vien tik graži pakuotė nepasako, ar dovana patiks: svarbiau, ar gavėjas turės patogią vietą procesui ir norės jame dalyvauti.",
+        "## Dažniausiai užduodami klausimai",
+        "### Ar rankų liejimo rinkinys tinka vaikams?",
+        "Tai nėra žaislas. Vaikai gali dalyvauti tik su suaugusiojo priežiūra, laikantis konkretaus gamintojo instrukcijų ir saugos informacijos. Mažos dalys bei medžiagos neturi būti dedamos į burną.",
+        "### Kiek laiko reikia skirti procesui?",
+        "Tikslus laikas priklauso nuo rinkinio ir medžiagų, todėl vadovaukitės jo instrukcija. Praktiškai verta planuoti ne tik maišymą, bet ir pasiruošimą, pozos išlaikymą, kietėjimą bei vėlesnį sutvarkymą. Dovanai geriau pasirinkti dieną, kai nereikia skubėti.",
+        "### Ką daryti, jei liejinyje matosi oro tarpas?",
+        "Mažas oro tarpas ne visada sugadina visą rezultatą, tačiau jo taisymo galimybės priklauso nuo medžiagos ir vietos. Pirmiausia leiskite skulptūrai visiškai sukietėti, tada tikrinkite gamintojo rekomenduojamus pataisymo būdus. Nenaudokite atsitiktinių cheminių priemonių, jei nežinote, kaip jos veiks paviršių.",
+        "### Ar tai gera dovana vestuvių metinėms?",
+        "Taip, jei porai patinka bendros patirtys ir prasmingi daiktai. Tokia dovana ypač tinka tada, kai norite įamžinti ne tik datą, bet ir konkretų ryšį — laikymąsi už rankų, šeimos augimą ar naują gyvenimo etapą.",
+        "## Išvada",
+        "Rankų liejimo rinkinys vertas dėmesio tada, kai dovana turi sukurti progą pabūti kartu. Rinkdamiesi vertinkite ne vien nuotrauką ar kainą: patikrinkite komplektaciją, žmonių skaičių, instrukciją, paruošimo laiką ir tai, ar gavėjai norės patys dalyvauti procese.",
+        "Jei ieškote tokios dovanos porai, šeimai ar svarbiai progai, peržiūrėkite Memory Casting rinkinių aprašymus ir pasirinkite komplektą pagal savo situaciją. Plačiau apie kitus būdus suasmeninti dovaną skaitykite [[personalizuotų dovanų gide|article:lt-gifts-personalized]]."
+      ]
+    },
+    {
+      "id": "lt-couple-ideas",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "prasmingos-dovanos-porai",
+      "title": "Prasmingos dovanos porai, kurios išlieka ilgam",
+      "excerpt": "Atrinkome dovanas, kurios ne tik gražiai atrodo, bet ir sukuria bendrą prisiminimą.",
+      "category": "Dovanos porai",
+      "publishAt": "2026-09-30T20:02:01.000Z",
+      "publicationState": "published",
+      "readingMinutes": 7,
+      "relatedIds": [
+        "lt-hand-casting",
+        "lt-anniversary",
+        "lt-gifts-couple"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-gift-choice"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/christmas-gift-guide.webp",
+        "alt": "Dailiai supakuota kalėdinė dovana jaukiame žiemos interjere",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Geriausia dovana porai nebūtinai yra brangiausia. Svarbiau, kad ji turėtų istoriją ir būtų susijusi su abiem žmonėmis.",
+        "Rankų liejimo rinkinys ypač tinka tada, kai norisi įamžinti artumą namuose. Tai ne vien daiktas – tai bendra patirtis ir prisiminimas, kurį galima pasidėti matomoje vietoje.",
+        "Renkantis dovaną verta įvertinti, kiek laiko pora turi ceremonijai, ar mėgsta rankdarbius ir kokio dydžio rezultatą norėtų turėti."
+      ]
+    },
+    {
+      "id": "lt-hand-casting",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "ranku-liejimo-rinkinys-kaip-veikia",
+      "title": "Kaip veikia rankų liejimo rinkinys?",
+      "excerpt": "Trumpas ir aiškus paaiškinimas, ko tikėtis nuo pirmo žingsnio iki paruoštos skulptūros.",
+      "category": "Personalizuotos dovanos",
+      "publishAt": "2026-10-02T20:02:01.000Z",
+      "publicationState": "published",
+      "readingMinutes": 5,
+      "relatedIds": [
+        "lt-couple-ideas",
+        "lt-anniversary"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-hand-casting"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/hand-casting-memory.webp",
+        "alt": "Poros rankose laiko baltą rankų liejinio skulptūrą ant medinio stalo",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Rinkinys paprastai susideda iš formavimo mišinio, liejimo medžiagos ir aiškios instrukcijos. Procesas vyksta dviem etapais: pirmiausia sukuriama rankų forma, o vėliau ji užpildoma liejimo medžiaga.",
+        "Svarbiausia neskubėti maišant mišinį ir iš anksto pasiruošti indą, kuriame patogiai tilps rankos. Instrukcijoje nurodytas laikas yra svarbesnis už bandymą procesą pagreitinti.",
+        "Rezultatas priklauso nuo pasiruošimo, bet būtent todėl ši dovana tampa bendra poros patirtimi."
+      ]
+    },
+    {
+      "id": "lt-anniversary",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovana-vestuviu-metinems",
+      "title": "Dovana vestuvių metinėms: 9 idėjos su prasme",
+      "excerpt": "Nuo mažo simbolinio gesto iki dovanos, kurią pora kurs kartu.",
+      "category": "Dovanos progai",
+      "publishAt": "2026-10-06T20:02:01.000Z",
+      "publicationState": "draft",
+      "readingMinutes": 8,
+      "relatedIds": [
+        "lt-couple-ideas"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-gift-choice"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/christmas-gift-guide.webp",
+        "alt": "Dailiai supakuota kalėdinė dovana jaukiame žiemos interjere",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Vestuvių metinių dovana turėtų priminti ne tik datą, bet ir kartu nugyventą istoriją.",
+        "Šiame gide palyginsime dovanas pagal biudžetą, pasiruošimo laiką ir emocinę vertę."
+      ]
+    },
+    {
+      "id": "lt-christmas-couple",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-porai",
+      "title": "Kalėdinės dovanos porai: kaip išrinkti tai, ką prisimins abu",
+      "excerpt": "Praktiškas gidas, padedantis išsirinkti kalėdinę dovaną porai pagal jų kasdienybę, biudžetą ir norą patirti ką nors kartu.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "publicationState": "published",
+      "readingMinutes": 9,
+      "relatedIds": [
+        "lt-couple-ideas",
+        "lt-hand-casting-guide",
+        "lt-christmas-man",
+        "lt-gifts-couple"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/christmas-gift-guide.webp",
+        "alt": "Dailiai supakuota kalėdinė dovana jaukiame žiemos interjere",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Kalėdinę dovaną porai lengva paversti dar vienu bendru daiktu namuose. Geresnis pasirinkimas prasideda nuo klausimo, ką pora iš tikrųjų norėtų veikti kartu: gaminti vakarienę, išbandyti naują veiklą, atnaujinti namų erdvę ar išsaugoti svarbų gyvenimo etapą.",
+        "Šiame gide pateikiu konkretų būdą susiaurinti pasirinkimą, palyginu dovanų tipus ir paaiškinu, kada verta rinktis rankų liejimo rinkinį. Tai ne kainų reitingas — skirtingų porų poreikiai yra skirtingi, todėl svarbiausia dovanos tinkamumas, o ne kuo ilgesnis sąrašas.",
+        "## Nuo ko pradėti renkant dovaną porai?",
+        "Pirmiausia įvertinkite, ar dovana bus naudojama kartu, ar ją naudos vienas žmogus. Jei dovana skirta abiem, ieškokite bendro ritualo: daikto, kurį pora išbandys tą pačią dieną, arba prisiminimo, kuris turės vietą jų namuose.",
+        "• Koks jų laisvalaikis — ramus vakaras namuose, kelionės, maistas ar kūrybinės veiklos?",
+        "• Ar jie vertina praktiškumą, ar mieliau renkasi sentimentalius daiktus?",
+        "• Kiek laiko liko iki švenčių ir ar dovana turi būti pristatyta į kitą miestą?",
+        "• Ar turite biudžetą vienai kokybiškai dovanai, ar norite sudėti kelis mažus elementus?",
+        "Šie klausimai apsaugo nuo dažnos klaidos: nupirkti gražiai atrodantį daiktą, kuris visiškai neatitinka poros įpročių. Jei nežinote atsakymo, paklauskite artimo žmogaus apie jų savaitgalio rutiną — vienas konkretus pavyzdys dažnai pasako daugiau nei bendras apibūdinimas.",
+        "## Penki dovanų tipai, kuriuos verta palyginti",
+        "### 1. Bendra patirtis",
+        "Vakarienės kuponas, degustacija, kūrybinės dirbtuvės ar trumpa išvyka sukuria progą ištrūkti iš rutinos. Tokiai dovanai svarbu patikrinti galiojimo laiką, rezervavimo taisykles ir lokaciją. Patirtis puikiai tinka porai, kuri labiau vertina laiką nei naują daiktą.",
+        "### 2. Naudingas daiktas namams",
+        "Kokybiškas pledas, stalo serviravimo elementas ar virtuvės įrankis gali būti geras pasirinkimas, jei žinote jų skonį. Venkite labai asmeniškų spalvų ir dydžių, kurių negalite patikrinti. Praktinė dovana tampa asmeniška, kai ją susiejate su konkrečiu jų įpročiu.",
+        "### 3. Personalizuota dovana",
+        "Inicialai, data, nuotrauka ar trumpas palinkėjimas suteikia dovanai istoriją. Prieš užsakydami patikrinkite, ar gamintojas rodo personalizacijos maketą ir kiek laiko trunka gamyba. Kalėdiniu laikotarpiu pristatymo terminas yra toks pat svarbus kaip ir idėja.",
+        "### 4. Rankų darbo prisiminimas",
+        "Rankų liejimo rinkinys leidžia porai pačiai sukurti trimatį savo rankų prisiminimą. Jis tinka ne visiems: gavėjai turi norėti skirti laiko pasiruošimui, laikytis instrukcijos ir priimti tai, kad rankų liejinys bus unikalus, o ne identiškas katalogo nuotraukai.",
+        "Renkantis tokį rinkinį patikrinkite, kiek žmonių rankoms jis skirtas, kas įeina į komplektą, kiek laiko reikia procesui ir ar yra aiški saugos informacija. Jei pora mėgsta bendrus projektus, tai gali būti viena prasmingiausių kalėdinių dovanų.",
+        "### 5. Mažas rinkinys iš kelių daiktų",
+        "Arbata, saldumynas, žvakė ir ranka parašytas laiškas veikia tada, kai elementus sieja viena tema. Pavyzdžiui, jaukaus vakaro rinkinys bus įtikinamesnis, jei pridėsite konkretų pasiūlymą, kada jį išbandyti kartu.",
+        "## Kaip pasirinkti pagal biudžetą",
+        "Iki 30 € dažniausiai tinka nedidelis teminis rinkinys ar simbolinė detalė, tačiau verta investuoti į pateikimą ir asmeninį palinkėjimą. 30–80 € segmente galima rinktis kokybišką namų daiktą, patirtį su kuponu arba mažesnį personalizuotą gaminį. Didesniam biudžetui verta rinktis vieną išskirtinę dovaną ir skirti laiko jos istorijai, užuot pirkus kelis atsitiktinius daiktus.",
+        "Kainą lyginkite ne tik pagal prekės etiketę. Pridėkite pristatymą, personalizacijos mokestį, rezervacijos sąlygas ir laiką, kurį pora turės skirti dovanai. Taip palyginimas tampa sąžiningas.",
+        "## Kada rankų liejimo rinkinys yra geras pasirinkimas?",
+        "Jį verta rinktis, kai pora vertina bendras veiklas, turi patogią vietą procesui ir norės išsaugoti rezultatą namuose. Tai ypač prasminga pirmoms bendroms Kalėdoms, sužadėtiniams, jaunavedžiams arba porai, kuri švenčia naują gyvenimo etapą.",
+        "Jeigu pora gyvena labai mažoje erdvėje, nemėgsta rankdarbių arba dovaną reikės panaudoti tą pačią dieną be pasiruošimo, geriau rinktis patirtį ar paruoštą daiktą. Tinkamumas gavėjui yra svarbesnis už produkto populiarumą.",
+        "## Kalėdinio užsakymo kontrolinis sąrašas",
+        "• Patikrinkite, ar pristatymo terminas tinka jūsų šventės datai.",
+        "• Perskaitykite, kas tiksliai įeina į komplektą ir ko reikės papildomai.",
+        "• Įsitikinkite, kad aprašyme yra priežiūros ir saugos informacija.",
+        "• Jei dovana personalizuojama, dar kartą patikrinkite vardus ir datą.",
+        "• Pridėkite trumpą paaiškinimą, kodėl pasirinkote būtent šią dovaną.",
+        "## Dažniausi klausimai",
+        "### Ar dovaną porai geriau įteikti vieną bendrą, ar po atskirą?",
+        "Jei pora daug ką planuoja kartu, viena bendra dovana gali būti prasmingesnė. Jei jų pomėgiai labai skirtingi, galima pridėti po mažą asmeninę detalę prie pagrindinės bendros dovanos.",
+        "### Ar patirtis nėra per daug neapčiuopiama?",
+        "Patirtį galima padaryti konkrečią: įrašykite datą kalendoriuje, pridėkite užkandžių arba parašykite, kodėl norite, kad pora tą vakarą praleistų kartu. Taip kuponas tampa planu, o ne tik pažadu.",
+        "### Ką daryti, jei nežinau jų skonio?",
+        "Rinkitės neutralią, panaudojamą dovaną arba dovaną, kurioje svarbi veikla, o ne spalva ir dydis. Venkite labai specifinio interjero dekoro, jei nesate matę jų namų.",
+        "## Išvada",
+        "Geriausia kalėdinė dovana porai yra ta, kuri atitinka jų gyvenimą ir palieka progą pabūti kartu. Pradėkite nuo jų įpročių, palyginkite laiką, biudžetą bei pristatymą ir tik tada rinkitės konkretų produktą. Jei jie mėgsta bendrus kūrybinius projektus, Memory Casting rankų liejimo rinkinys gali tapti ne tik dovana, bet ir vakaru, kurį abu prisimins. Ne šventiniam sezonui pravers [[bendras dovanų porai gidas|article:lt-gifts-couple]]."
+      ]
+    },
+    {
+      "id": "lt-christmas-man",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "ka-dovanoti-vyrui-kaledoms",
+      "title": "Ką dovanoti vyrui Kalėdoms? Praktinis gidas pagal jo pomėgius",
+      "excerpt": "Kaip išrinkti kalėdinę dovaną vyrui ne pagal bendrą sąrašą, o pagal jo kasdienybę, pomėgius ir jūsų ryšį.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "publicationState": "published",
+      "readingMinutes": 9,
+      "relatedIds": [
+        "lt-christmas-couple",
+        "lt-hand-casting-guide",
+        "lt-couple-ideas",
+        "lt-gifts-father"
+      ],
+      "authorIds": [
+        "aiste-redaktore"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "featuredImage": {
+        "src": "/images/articles/christmas-gift-guide.webp",
+        "alt": "Dailiai supakuota kalėdinė dovana jaukiame žiemos interjere",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Sugeneruota redakcijos iliustracija"
+      },
+      "body": [
+        "Klausimas „ką dovanoti vyrui Kalėdoms?“ dažnai tampa per plačiu paieškos sąrašu. Geriau pradėti nuo jo įpročių: ką jis daro po darbo, ką nuolat taiso, apie ką kalba ir kokią veiklą vis atideda. Tokie signalai padeda rasti dovaną, kuri bus naudojama, o ne pamiršta stalčiuje.",
+        "Šis gidas padės susiaurinti pasirinkimą pagal pomėgius, santykį ir biudžetą. Įtraukiau ir dovanas, kurias galima patirti kartu, nes vyrui skirta dovana nebūtinai turi būti vien jo daiktas.",
+        "## Greitas pasirinkimo metodas",
+        "Užrašykite tris jo savybes arba veiklas ir prie kiekvienos pridėkite vieną realų poreikį. Pavyzdžiui: mėgsta kavą — trūksta gero rytinio ritualo; važinėja dviračiu — praverstų patogus aksesuaras; vertina šeimą — norėtųsi išsaugoti bendrą prisiminimą. Iš šių poreikių rinkitės vieną, kurio pats žmogus dar neišsprendė.",
+        "• Dovana turi būti susijusi su jo gyvenimu, ne tik su tuo, kas šiuo metu reklamuojama.",
+        "• Patikrinkite, ar neturi panašaus daikto, prieš pirkdami dar vieną.",
+        "• Įvertinkite, ar dovaną jis galės naudoti iš karto, ar reikės papildomų priedų.",
+        "• Jei dovana brangesnė, pasilikite laiko pristatymui ir grąžinimo sąlygoms.",
+        "## Dovanos pagal pomėgius",
+        "### Technikos ir praktiškumo mėgėjui",
+        "Praktiškam vyrui tinka daiktas, kuris išsprendžia konkretų nepatogumą: kokybiškas įrankis, patogus organizatorius, įkrovimo sprendimas ar darbo vietos priedas. Venkite neaiškios paskirties „gadgetų“, jei negalite paaiškinti, kokią problemą jie išsprendžia.",
+        "### Sportuojančiam vyrui",
+        "Rinkitės ne pagal sporto šakos pavadinimą, o pagal jo treniruočių rutiną. Gali tikti atsistatymui skirtas aksesuaras, gertuvė, krepšys ar patogus sluoksnis lauko veiklai. Batų, šalmo ir kitų dydžiui jautrių daiktų nepirkite nežinodami tikslių parametrų.",
+        "### Mėgstančiam maistą ir kavą",
+        "Čia geriausiai veikia dovana su aiškiu panaudojimo scenarijumi: degustacija, kavos pupelių rinkinys, geras virtuvės įrankis arba vakarienė, kurią paruošite kartu. Jei renkatės maistą, patikrinkite galiojimo laiką ir ar nėra alergijų.",
+        "### Automobilių ar kelionių entuziastui",
+        "Kelionėms praverčia patvarus krepšys, dokumentų dėklas, kompaktiškas organizatorius ar patirtis. Automobilio aksesuarus rinkite tik žinodami konkretų modelį ir suderinamumą — universalus aprašymas ne visada reiškia, kad daiktas tiks.",
+        "### Sentimentaliam vyrui",
+        "Jei jis vertina prisiminimus, rinkitės dovaną su istorija: nuotraukų knygą, laišką, bendros datos simbolį ar kartu sukurtą objektą. Rankų liejimo rinkinys gali būti tinkamas porai ar šeimai, kuri nori įamžinti artumą ir nebijo skirti laiko procesui.",
+        "## Kaip pasirinkti pagal santykį",
+        "Partneriui dažniausiai tinka dovana, kuri kalba apie jūsų bendrą istoriją. Tėčiui ar broliui svarbiau jo įprotis ir praktiškumas. Kolegei ar draugui rinkitės neutralesnę dovaną, kuri nesukuria nepatogaus įsipareigojimo. Santykis padeda nustatyti, kiek asmeniška gali būti dovana.",
+        "Jei dovana skirta partneriui, nebijokite rinktis ne tik jo asmeninio daikto. Bendra veikla arba objektas, kurį sukursite dviese, gali būti prasmingesnis už dar vieną daiktą, kurį jis turės prižiūrėti.",
+        "## Biudžetas ir kalėdinis laikas",
+        "Nedidelis biudžetas nėra problema, jei dovana turi konkretų kontekstą. Iki 30 € galima sudaryti teminį rinkinį, 30–80 € segmente rinktis kokybišką pomėgio daiktą arba patirtį, o didesniam biudžetui verta ieškoti ilgaamžio produkto ar personalizuoto prisiminimo.",
+        "Kalėdų laikotarpiu būtinai patikrinkite realų pristatymo terminą, ne vien žymą „turime sandėlyje“. Jei prekė gaminama pagal užsakymą, papildomai įvertinkite personalizacijos ir kurjerio laiką. Turėkite paprastesnį atsarginį variantą, jei pagrindinė dovana vėluotų.",
+        "## Ko geriau nepirkti aklai",
+        "• Drabužių ir avalynės, kai nežinote tikslaus dydžio ar modelio.",
+        "• Labai specifinių įrankių, jei nežinote jo turimos sistemos.",
+        "• Humoro dovanų, kurios gali būti juokingos tik pirkėjui.",
+        "• Prastos kokybės rinkinių, kurių aprašyme nėra komplektacijos ar saugos informacijos.",
+        "• Dovanų, kurios žada greitą rezultatą, bet reikalauja daug nepaaiškinto pasiruošimo.",
+        "## Dažniausiai užduodami klausimai",
+        "### Ar geriau pirkti vieną brangesnę dovaną, ar kelias mažesnes?",
+        "Jei žinote konkretų poreikį, viena kokybiška dovana paprastai yra aiškesnis pasirinkimas. Kelios mažesnės veikia tada, kai jos sudaro vieną temą ir nėra atsitiktinis daiktų rinkinys.",
+        "### Kaip suprasti, ar dovana tikrai asmeniška?",
+        "Paklauskite savęs, ar galėtumėte paaiškinti, kodėl ją pasirinkote būtent jam. Jei atsakymas tinka bet kuriam žmogui, pridėkite asmeninį elementą arba grįžkite prie jo tikro pomėgio.",
+        "### Ar rankų liejimo rinkinys tinka vyrui, kuris nemėgsta rankdarbių?",
+        "Jis tinka tik tada, jei žmogų domina bendra patirtis ir jis sutiks skirti laiko instrukcijai. Jei jis nori dovanos, kurią galima naudoti iš karto ir be pasiruošimo, rinkitės praktiškesnį variantą.",
+        "## Išvada",
+        "Gera kalėdinė dovana vyrui nėra universali — ji turi atitikti konkretų žmogų. Pradėkite nuo jo įpročių, patikrinkite suderinamumą ir pristatymo laiką, o partneriui apsvarstykite dovaną, kuri sukuria bendrą prisiminimą. Toks pasirinkimas bus naudingesnis už ilgą atsitiktinių idėjų sąrašą."
+      ]
+    },
+    {
+      "id": "lt-christmas-hub-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kalediniu-dovanu-gidas-2026",
+      "title": "Kalėdinių dovanų gidas 2026: kaip išrinkti pagal žmogų, o ne reklamą",
+      "excerpt": "Aiški Kalėdų dovanų atrankos sistema: nuo gavėjo pomėgių ir biudžeto iki įteikimo laiko, su konkrečiomis idėjomis porai, šeimai ir draugams.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-09-23T07:30:00+03:00",
+      "publicationState": "published",
+      "readingMinutes": 7,
+      "relatedIds": [
+        "lt-christmas-couple",
+        "lt-christmas-man",
+        "lt-gift-planning-2026",
+        "lt-gifts-under-20-2026"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "productRecommendation": true,
+      "featuredImage": {
+        "src": "/images/articles/kalediniu-dovanu-gidas-2026.webp",
+        "alt": "Keli apgalvotai supakuoti kalėdiniai siuntiniai ant medinio stalo",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės"
+      },
+      "body": [
+        "Geriausia kalėdinė dovana nėra ta, kuri šiemet dažniausiai rodoma reklamose. Pradėkite nuo trijų klausimų: ką žmogus mėgsta veikti, ko jam šiuo metu trūksta ir kiek laiko jis norės skirti pačiai dovanai? Tada nuspręskite, ar labiau tiks daiktas, patirtis, ar asmeniškas prisiminimas. Šis gidas padės tą sprendimą priimti be begalinio atsitiktinių prekių sąrašo.",
+        "Prieš atsidarydami parduotuvę, viename lape užrašykite gavėją, biudžetą, pristatymo arba paruošimo terminą ir vieną sakinį „šį žmogų nudžiugintų, nes…“. Jei sakinio neužbaigiate, dovanos dar nesirinkite — trūksta informacijos apie žmogų, ne apie prekes.",
+        "## Greita atrankos matrica",
+        "• Jei žmogus aiškiai įvardijo konkretų poreikį, rinkitės tikslų, suderinamą ir grąžinamą daiktą. Dydžiai, modeliai ir hobio įranga be tikslių duomenų yra rizikingi.",
+        "• Jei jis vertina bendrą laiką, siūlykite patirtį su realiai įmanoma data. Bilietas be laisvo savaitgalio gali tapti pareiga, ne dovana.",
+        "• Jei svarbi bendra istorija, rinkitės nuotraukų albumą, asmeninį laišką ar kartu sukuriamą objektą. Sentimentali dovana veikia tik tada, kai ji atitinka gavėjo skonį.",
+        "• Jei žmogaus gerai nepažįstate, saugiau rinktis mažą kokybišką sunaudojamą dovaną arba lankstų kuponą, o ne intymų suvenyrą.",
+        "## Ką dovanoti skirtingiems žmonėms?",
+        "### Porai",
+        "Pagalvokite apie abu, ne vieną iš jų. Bendras vakaras, žaidimas, kurį jie tikrai žaistų, arba kurį kartu sukurtų, geriau už vieną dekoratyvinį daiktą. Rankų liejimo rinkinys gali tikti porai, kuriai patinka ramūs kūrybiniai užsiėmimai ir norisi apčiuopiamo prisiminimo. Jei abu nemėgsta rankdarbių, dovanokite kitokią patirtį. Išsamesnius pasirinkimo kriterijus rasite susijusiame kalėdinių dovanų porai gide.",
+        "### Vyrui, kuris turi konkretų pomėgį",
+        "Dovaną siekite su jo realia rutina. Dviratininkui dažniau praverčia mažas geras aksesuaras nei nežinomo dydžio apranga. Kavos mėgėjui — išbandyti naują skonį, o ne dubliuoti turimą aparatą. Jei abejojate dėl suderinamumo, paklauskite artimo žmogaus arba rinkitės čekį. Plačiau apie atranką pagal pomėgius rašome gide vyrui.",
+        "### Tėvams ir šeimai",
+        "Šeimai gerai tinka dovana, kurią galima naudoti kartu: namų žaidimas, bendro patiekalo ingredientų rinkinys, fotografijų knyga ar suplanuota išvyka. Prieš pirkdami šeimai skirtą kūrybinį rinkinį patikrinkite, kiek žmonių realiai gali dalyvauti ir ar mažiems vaikams jis tinka pagal gamintojo instrukciją. Saugumo teiginių vien iš reklamos nepriimkite kaip garantijos.",
+        "### Draugui ar kolegai",
+        "Rinkitės mažesnį įsipareigojimą: konkretaus pomėgio smulkmeną, mėgstamą skanėstą ar kuponą ten, kur žmogus iš tiesų lankosi. Kolegai venkite pernelyg asmeninių, kvapnių ar sveikatą komentuojančių dovanų. Trumpas paaiškinimas ant atviruko dažnai suteikia daugiau vertės nei brangesnė pakuotė.",
+        "## Biudžetas: pirmiau riba, tada idėja",
+        "Bendrą sumą padalykite gavėjams dar prieš ieškodami prekių. Prie kiekvienos dovanos pridėkite galimas pakavimo ir pristatymo išlaidas. Mažam biudžetui tinka viena prasminga nuotrauka rėmelyje, ranka parašytas laiškas su žmogaus mėgstamu gėrimu ar apgalvotas valgis kartu. Jei biudžetas iki 20 €, nesistenkite imituoti prabangios dovanos — rinkitės vieną tikslų gestą.",
+        "Didesnė suma savaime nepadaro dovanos tinkamesnės. Brangesnį rinkinį ar patirtį svarstykite tada, kai žinote, kad gavėjas turės laiko ir noro ja pasinaudoti. Rankų liejimo rinkinys nėra biudžetinė smulkmena; jį vertinkite kaip bendros veiklos ir būsimo prisiminimo dovaną, o aktualią komplektaciją bei kainą tikrinkite pardavėjo puslapyje.",
+        "## Kada pradėti?",
+        "Rugsėjį ir spalį pakanka susidaryti žmonių bei idėjų sąrašą. Lapkritį verta tikrinti personalizuotų dovanų gamybos laiką, grąžinimo sąlygas ir atsarginį variantą. Gruodį nepasikliaukite bendru pažadu „greitas pristatymas“: prieš apmokėdami peržiūrėkite konkretaus pardavėjo terminą savo miestui ir užsakymo dienai. Šiame gide sąmoningai nerašome nekintančių „paskutinės užsakymo dienos“ datų, nes jos kinta.",
+        "## Ko geriau vengti",
+        "• Dovanos, kuri iš pirmo žvilgsnio atrodo įspūdinga, bet reikalauja brangių papildomų pirkinių.",
+        "• Drabužių ar įrangos be tikslaus dydžio, modelio arba grąžinimo galimybės.",
+        "• Įsipareigojimo patirčiai, kurios laiko gavėjas negalės pasirinkti.",
+        "• Vaikams ar kūdikiams skirtų priemonių, kurių amžiaus ir naudojimo instrukcijos nepatikrinote.",
+        "• Vien tik nuolaidos skatinamo pirkinio: nuolaida nėra priežastis, kodėl dovana tinka.",
+        "## Trumpas galutinis patikrinimas",
+        "Paklauskite savęs: ar galiu paaiškinti, kodėl ši dovana skirta būtent jam? Ar dovana telpa į visą, ne tik prekės, biudžetą? Ar ji bus panaudota? Ar žinau, kada ir kaip ją įteiksiu? Jei į visus keturis klausimus atsakymas aiškus, pasirinkimas greičiausiai pakankamai geras — net jei jis paprastas."
+      ]
+    },
+    {
+      "id": "lt-gift-planning-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaip-suplanuoti-kaledines-dovanas",
+      "title": "Kaip suplanuoti kalėdines dovanas be streso: 30 minučių metodas",
+      "excerpt": "Praktiškas planavimo lapas ir sprendimų seka: gavėjai, biudžetas, idėjos, terminai bei atsarginis variantas be spontaniškų pirkinių.",
+      "category": "Dovanų planavimas",
+      "publishAt": "2026-09-24T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 6,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gifts-under-20-2026",
+        "lt-christmas-couple"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/kaip-planuoti-dovanas.webp",
+        "alt": "Ant stalo išdėliotos tuščios dovanų planavimo kortelės ir užrašinė",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija"
+      },
+      "body": [
+        "Kalėdinių dovanų planui užtenka pusvalandžio, jei nepradedate nuo parduotuvių. Pirmiausia surašykite žmones, bendrą sumą ir paskutinę dieną, kada realiai galite nupirkti arba pagaminti dovanas. Tada kiekvienam žmogui pasiūlykite dvi idėjas: vieną pagrindinę ir vieną atsarginę. Tik po to tikrinkite prekes bei kainas.",
+        "Šis metodas skirtas ne „tobulam sąrašui“, o tam, kad gruodį nereikėtų pirkti pirmo daikto, kurį parodė reklama. Imkite vieną lapą arba skaičiuoklę su stulpeliais: gavėjas, pastebėjimas apie jį, idėja A, idėja B, visa suma, užsakymo data, būsena.",
+        "## 1 žingsnis: atskirkite žmones nuo progų",
+        "Užrašykite visus, kuriems tikrai planuojate dovanoti. Prie kiekvieno žmogaus pridėkite vieną realų pastebėjimą: „sekmadieniais kepa duoną“, „renka nuotraukas“, „nori daugiau laiko kartu“. Nerašykite abstraktaus „mėgsta gražius daiktus“ — toks apibūdinimas nepadeda rinktis.",
+        "Jei nieko nežinote apie kolegą ar tolimesnį giminaitį, nekurkite tariamai asmeniškos dovanos. Pirmiau pasiteiraukite jo pomėgių arba rinkitės neutralesnį suvartojamą dalyką ir pridėkite nuoširdų sveikinimą.",
+        "## 2 žingsnis: suskaičiuokite visą, o ne vien prekių biudžetą",
+        "Tarkime, turite 120 € šešioms dovanoms. Tai nereiškia, kad kiekvienai prekei turite po 20 €. Palikite dalį pakavimui, siuntimui ir vienam nenumatytam pakeitimui. Pavyzdžiui, jei šiems dalykams rezervuojate 15 €, prekėms lieka 105 €. Toliau paskirstykite pagal santykį ir pasirinkimą, o ne matematiškai po lygiai.",
+        "Biudžeto riba turi būti matoma prieš perkant. Kai randate patrauklią prekę, pridėkite pristatymą, papildomas dalis ir pakuotę. Jei visuma viršija ribą, nekeiskite viso plano dėl vienos nuolaidos — ieškokite kito varianto.",
+        "## 3 žingsnis: kiekvienam žmogui palikite du pasirinkimus",
+        "Pagrindinė idėja turi būti konkreti: „13×18 cm rėmelis su mūsų kelionės nuotrauka“ yra geriau nei „kažkas sentimentalaus“. Atsarginė idėja turi būti nepriklausoma nuo pirmosios, pavyzdžiui, bendra vakarienė namuose arba knygyno kuponas. Taip vienam pirkiniui dingus iš prekybos planas nesugriūva.",
+        "Vertinkite abi idėjas trimis balais nuo 0 iki 2: tinkamumas žmogui, tikimybė naudoti ir pasiruošimo paprastumas. Pavyzdžiui, patirtis gali puikiai tikti, bet jei reikia suderinti keturias užimtas dienotvarkes, jos įgyvendinimo balas mažas. Mažiau įspūdinga, bet tikrai įvykstanti dovana dažnai yra geresnė.",
+        "## 4 žingsnis: sudarykite terminų eilę",
+        "Pirmiau spręskite dovanas, kurias reikia pagaminti, personalizuoti arba išsiųsti į kitą miestą. Po jų — lengvai grąžinamus daiktus, galiausiai — vietoje nupirktus ar pačių paruoštus gestus. Pardavėjų terminus tikrinkite konkrečią pirkimo dieną. Šiame gide nepateikiame tariamai universalių kurjerių datų.",
+        "Užrašykite ne vien „nupirkti“, bet ir „gauta“, „patikrinta“, „supakuota“. Kai dovana atvyksta, patikrinkite jos būklę ir komplektaciją; paskutinę dieną tai gali būti per vėlu.",
+        "## 5 žingsnis: suplanuokite įteikimą",
+        "Dovana nebaigta, kol nežinote, kaip ją įteiksite. Bendrai patirčiai pridėkite siūlomą datą arba bent aiškų būdą ją susiderinti. Kūrybiniam rinkiniui numatykite laisvą vakarą ir erdvę darbui. Mažą simbolinį daiktą papildykite vienu sakiniu, kodėl jį pasirinkote. Tai nebrangu, bet padeda dovanai turėti kontekstą.",
+        "## Trys pavyzdžiai, kaip tai atrodo praktiškai",
+        "• Partneriui, kuris mėgsta bendrą laiką: pagrindinė idėja — namuose atliekamas kūrybinis projektas; atsarginė — suplanuotas pasimatymas. Jei rankdarbių nemėgsta, pagrindinę idėją atmeskite.",
+        "• Tėčiui, kuris nuolat gamina: pagrindinė — tikslus, jo virtuvei tinkantis priedas; atsarginė — jo mėgstamo patiekalo vakarienė kartu. Prieš perkant įrankį patikrinkite, ar jo jau neturi.",
+        "• Kolegei, kurios pomėgių nežinote: pagrindinė — neutralus nedidelis arbatos rinkinys; atsarginė — dovanų kuponas. Venkite asmeninio skonio ar sveikatos užuominų.",
+        "## Kontrolinis sąrašas prieš gruodį",
+        "• Visi gavėjai įtraukti, nė vienas neatsirado vien iš kaltės jausmo.",
+        "• Kiekvienai dovanai yra bendra suma ir atsarginė idėja.",
+        "• Personalizuojamiems pirkiniams patikrintas gamybos laikas.",
+        "• Gavėjas turi realią galimybę patirtimi pasinaudoti.",
+        "• Siuntimo ir pakavimo išlaidos telpa į bendrą ribą.",
+        "Jei dovanų sąrašas vis dar kelia stresą, sumažinkite pasirinkimų skaičių. Vienam žmogui reikia ne dešimties kandidatų, o vieno pagrįsto sprendimo ir atsarginio plano."
+      ]
+    },
+    {
+      "id": "lt-gifts-under-20-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-iki-20-euru",
+      "title": "Kalėdinės dovanos iki 20 €: 7 idėjos, kurios neatrodo atsitiktinės",
+      "excerpt": "Septynios mažo biudžeto idėjos su pasirinkimo kriterijais, konkrečiais Lietuvos parduotuvių pavyzdžiais ir priminimu patikrinti kainą bei pristatymą.",
+      "category": "Dovanos pagal biudžetą",
+      "publishAt": "2026-09-25T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 7,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gift-planning-2026",
+        "lt-christmas-couple"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [
+        "source-ikea-frame",
+        "source-ikea-mug",
+        "source-skonis-dovanos",
+        "source-pegasas-kuponas"
+      ],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-iki-20-euru.webp",
+        "alt": "Nedidelės dovanos idėjos: puodelis, rėmelis ir žvakė ant stalo",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota idėjų iliustracija; ne žemiau minimų prekių nuotrauka"
+      },
+      "body": [
+        "Iki 20 € galima išrinkti gerą kalėdinę dovaną, jei renkatės vieną aiškią mintį, o ne atsitiktinių smulkmenų rinkinį. Pradėkite nuo žmogaus įpročio: rytinė arbata, mėgstama nuotrauka, bendras žaidimas ar norima knyga. Tada patikrinkite, ar visa dovana — prekė, pakavimas ir pristatymas — telpa į 20 €. Žemiau pateikti konkretūs pavyzdžiai yra orientyrai, ne pažadas, kad kaina ar likutis nesikeis.",
+        "Parduotuvių puslapius peržiūrėjome 2026-09-23. Jei straipsnį skaitote vėliau, prieš pirkdami pasitikrinkite aktualią kainą, prekės likutį, pristatymo mokestį ir grąžinimo taisykles. Nuorodos nėra mokamos partnerių nuorodos. Memory Casting rinkinys į šį biudžetą nepatenka, todėl jo čia nerekomenduojame.",
+        "## 1. Nuotrauka rėmelyje su vienu sakiniu",
+        "Tinka tėvams, seneliams ar artimam draugui, jei turite kadrą, kuris jiems tikrai ką nors reiškia. Pirkite rėmelį pagal nuotraukos dydį, o ne vien interjero spalvą. Kaip konkretų pasirinkimo pavyzdį galite apžiūrėti [[13×18 cm RÖDALM rėmelį|https://www.ikea.com/lt/lt/p/roedalm-remelis-berzo-rastas-30548866/]]. Peržiūros metu jo kaina buvo 2,99 €, tačiau nuotraukos spauda, siuntimas ir pakuotė kainuos papildomai.",
+        "Netinka, jei neturite leidimo naudoti privačią kito žmogaus nuotrauką arba nežinote, ar gavėjas nori asmenines nuotraukas laikyti matomoje vietoje. Tokiu atveju rinkitės albumą ar skaitmeninį pasidalijimą.",
+        "## 2. Puodelis ir žmogaus mėgstamas gėrimas",
+        "Pats puodelis nėra originali dovana; konkretus rytinis ritualas ją gali padaryti asmenišką. Rinkitės talpą, kuri atitinka žmogaus įprotį, ir pridėkite nedidelį jo mėgstamos arbatos ar kavos kiekį. [[DINERA puodelis|https://www.ikea.com/lt/lt/p/dinera-puodelis-art-60350646/]] yra vienas paprasto indo pavyzdys; peržiūros metu kaina buvo 1,99 €. Patikrinkite, ar gavėjas neturi pilnos spintelės puodelių — jei turi, geriau dovanokite vien mėgstamą gėrimą.",
+        "## 3. Nedidelis arbatos ar kavos rinkinys",
+        "Tinka žmogui, kuris mėgsta ragauti naujus skonius. Pirmiausia sužinokite, ar jis geria kavą, ar arbatą, ar vengia kofeino. [[„Skonis ir kvapas“ dovanų skyriuje|https://www.skonis-kvapas.lt/dovanos]] galite palyginti rinkinių sudėtį ir aktualias kainas. Į 20 € ribą įtraukite ir pristatymą. Nežinant mitybos ribojimų saugiau rinktis ne maisto produktą arba paklausti.",
+        "## 4. Mažas namų vakaras vietoj daikto",
+        "Pakvieskite žmogų vakarienei, pasivaikščiojimui su karštu gėrimu arba bendram mėgstamo filmo vakarui. Prie dovanos pridėkite kortelę su dviem galimomis datomis, kad pažadas netaptų miglotas. Ši idėja ypač gerai veikia porai ar draugui, kuriam svarbus laikas kartu; netinka, jei žmogui nepatogu derinti planus.",
+        "## 5. Konkrečios knygos kuponas arba skaitymo pasirinkimas",
+        "Jei žinote, kad žmogus skaito, bet nežinote jo norimos knygos, leiskite išsirinkti pačiam. [[„Pegaso“ elektroninis kuponas|https://www.pegasas.lt/dovanu-kuponai/el-dovanu-kuponas-21001319/]] yra vienas pasirinkimo pavyzdys; prieš perkant patikrinkite, kokie nominalai siūlomi dabar ir kokios naudojimo bei galiojimo sąlygos. Įteikdami parašykite, kokį žanrą ar autorių prisiminėte — taip kuponas netampa beasmenis.",
+        "## 6. Asmeninis receptas ir jo ingredientai",
+        "Jei turite bendrą patiekalo prisiminimą, ranka užrašykite receptą ir supakuokite kelis ilgiau išsilaikančius ingredientus. Nežinant alergijų ar mitybos įpročių maisto nedovanokite aklai. Į bendrą sumą įtraukite ir tarą, o greitai gendančius produktus pirkite tik prieš įteikimą.",
+        "## 7. Mažas pomėgio papildymas",
+        "Knygų mėgėjui gali tikti kokybiškas skirtukas, sodininkui — sėklos ar mažas įrankis, piešiančiam — specifinis popierius. Tačiau tik tada, kai žinote tikslų pomėgį ir neturimą priedą. Profesionalui mėgėjiškas rinkinys dažnai nereikalingas; tokiu atveju geriau klausti arba rinktis kitą idėją.",
+        "## Kaip palyginti kandidatų vertę",
+        "Kiekvienai idėjai skirkite po balą už tris dalykus: ar ji atitinka žmogaus įprotį, ar ją tikrai panaudos, ar įteikimas įmanomas laiku. Jei dovana graži, bet žmogus jos nenaudos, pakeiskite ją. 20 € riba nėra tikslas, kurį privalote išleisti iki paskutinio cento; 5 € dovana su prasme gali būti geresnė už skubotą 19,99 € pirkinį.",
+        "Pristatymas mažoms dovanoms gali sudaryti didelę sumos dalį. Todėl rinkitės atsiėmimą, kai tai patogu, arba sujunkite pirkinius vienoje vietoje tik jei jų tikrai reikia. Neužsisakykite papildomo daikto vien tam, kad pasiektumėte nemokamo pristatymo ribą.",
+        "## Trumpi atsakymai",
+        "### Ar kuponas per daug beasmenis?",
+        "Ne, jei jis susijęs su žinomu žmogaus pomėgiu ir papildytas konkrečiu palinkėjimu. Jei net neįsivaizduojate, kur žmogus jį panaudos, kuponas nepadeda.",
+        "### Ar galima dovanoti pačių pagamintą daiktą?",
+        "Taip, jei jis tvarkingas, naudingas arba turi jums abiem suprantamą istoriją. Vien pastangų faktas nereiškia, kad gavėjas norės daiktą laikyti namuose.",
+        "### Kas, jei 20 € neužtenka norimai dovanai?",
+        "Neslėpkite papildomų išlaidų. Keiskite idėją, dovanokite bendrą laiką arba, jei santykis tinkamas, susitarkite dėl bendros dovanos su kitu žmogumi. Neskolinkitės vien dėl šventinio įspūdžio."
+      ]
+    },
+    {
+      "id": "lt-christmas-woman-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-moteriai",
+      "title": "Kalėdinės dovanos moteriai: idėjos pagal jos kasdienybę",
+      "excerpt": "Ne vienas sąrašas visoms: kaip pasirinkti dovaną mamai, partnerei, sesei ar kolegei pagal jų interesus ir jūsų santykį.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-09-28T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gifts-mother",
+        "lt-gifts-girlfriend"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/kaledines-dovanos-moteriai.webp",
+        "alt": "Šalikas ir asmeniškas atvirukas ruošiami dovanai",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Dovanos moteriai nereikėtų rinktis vien pagal žodį „moteriai“. Mama, partnerė, sesuo ir kolegė gali turėti visiškai skirtingus pomėgius. Pirmiausia atsakykite, ką šis konkretus žmogus daro laisvalaikiu, ką jau turi ir kokios dovanos jai būtų patogu priimti.",
+        "## Trijų signalų metodas",
+        "Užrašykite tris pastebėtus dalykus: kokią veiklą ji pati renkasi, apie ką yra užsiminusi per pastaruosius mėnesius ir ko sąmoningai vengia. Jei ji sako norinti mažiau daiktų, dar viena dekoracija greičiausiai netiks, net jei atrodo puikiai. Jei prašo konkrečios knygos, nebandykite jos „pagerinti“ atsitiktiniu grožio rinkiniu.",
+        "## Idėjos pagal santykį",
+        "### Partnerei",
+        "Bendrai suplanuota diena, nedidelis daiktas su jūsų istorija ar kūrybinė patirtis gali būti vertingesni už anoniminę prabangą. Jeigu svarstote [[dovaną merginai|article:lt-gifts-girlfriend]], įvertinkite, ar ji norės laiko dviese, ar atskiro daikto savo pomėgiui. Nė vieno varianto nelaikykite savaime romantiškesniu.",
+        "### Mamai",
+        "Paslaugą ar išvyką siūlykite tik žinodami, kad ji galės ja pasinaudoti. Jei ji mėgsta šeimos istorijas, atrinktas albumas su keliomis aiškiomis antraštėmis gali būti geras pasirinkimas. Jei ji labiau vertina praktiką, geriau išspręsti konkretų jos kasdienį nepatogumą. Plačiau — [[gidas mamai|article:lt-gifts-mother]].",
+        "### Sesei ar draugei",
+        "Čia padeda žinojimas, kas pasikeitė per metus: naujas būstas, pomėgis ar darbo ritmas. Venkite dovanoti tai, ką pati norėtumėte gauti. Jei dydis, skonis ar modelis neaiškus, palikite pasirinkimą gavėjai ir pridėkite asmenišką kontekstą.",
+        "### Kolegei",
+        "Rinkitės santūrią dovaną, atitinkančią kolektyve sutartą sumą. Stenkitės nekalbėti dovana apie išvaizdą, amžių, sveikatą ar šeimyninę padėtį. Nedidelis konkretus padėkos laiškas dažnai yra geresnė dovanos dalis už atsitiktinį suvenyrą.",
+        "## Patikra prieš mokant",
+        "Pridėkite siuntimo ir pakavimo išlaidas, patikrinkite grąžinimą ir terminą. Asmens duomenimis ar nuotrauka personalizuojamai dovanai gaukite tinkamą nuotrauką ir patikrinkite maketą. Jei apie gavėją žinote mažai, pirmiau paklauskite jos artimo žmogaus, o ne pirkite pagal reklamos kategoriją.",
+        "Geras sprendimas paaiškinamas vienu sakiniu: „parinkau tai, nes pastebėjau, kad…“. Jei sakinio nėra, grįžkite prie žmogaus, ne prie parduotuvės filtro."
+      ]
+    },
+    {
+      "id": "lt-christmas-parents-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-tevams",
+      "title": "Kalėdinės dovanos tėvams: viena bendra ar dvi atskiros?",
+      "excerpt": "Sprendimo būdas tėvų dovanai: kada tinka bendras laikas, kada atskiros dovanos ir kaip nepadovanoti papildomo darbo.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-09-29T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gifts-mother",
+        "lt-gifts-father",
+        "lt-gifts-grandparents"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/kaledines-dovanos-tevams.webp",
+        "alt": "Rėmelyje ruošiama šeimos nuotrauka šalia dovanų",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Tėvams dažnai perkame vieną bendrą dovaną iš patogumo. Tačiau bendra dovana gera tik tada, jei ja tikrai naudosis abu. Jei vienas mėgsta keliones, o kitas nori ramybės namuose, vienas viešbučio kuponas gali labiau įpareigoti nei nudžiuginti.",
+        "## Bendros ar atskiros dovanos testas",
+        "Paklauskite: ar jie patys renkasi bendrą laisvalaikį? Ar abu gali naudotis dovana be papildomų išlaidų? Ar ji nesukurs namuose darbo vienam iš jų? Jei į bent du klausimus atsakymas „ne“, verčiau paruoškite dvi mažesnes atskiras dovanas arba vieną bendrą ir po mažą asmeninį priedą.",
+        "## Trys kryptys bendram pasirinkimui",
+        "### Prisiminimas, kurį lengva naudoti",
+        "Atrinkite 10–20 tikrai reikšmingų nuotraukų, o ne šimtus neišrūšiuotų failų. Pridėkite datas ir žmonių vardus. Rėmelis su vienu kadru tinka, kai žinote jų namų stilių ir nuotrauka nėra tokia privati, kad jos nenorėtų rodyti.",
+        "### Laikas kartu su aiškiu planu",
+        "Vakarienė namuose, nedidelė išvyka ar bendras žaidimo vakaras gali kainuoti mažiau nei didelis daiktas. Patirčiai įrašykite du galimus laikus ir pasisiūlykite pasirūpinti organizavimu. Nepalikite visos rezervavimo naštos tėvams.",
+        "### Kūrybinis šeimos projektas",
+        "Jei jie mėgsta rankdarbius ir norėtų apčiuopiamo rezultato, galima svarstyti rankų liejimo rinkinį ar kitą bendrą kūrybinį užsiėmimą. Prieš pirkdami patikrinkite dalyvių skaičių, instrukciją ir ar abu norės procese dalyvauti. Jei ne, geriau rinktis kitą patirtį.",
+        "## Kada atskirti dovanas",
+        "Jei mama renka knygas, o tėtis leidžia laiką dirbtuvėse, dvi konkrečios dovanos geriau už neutralų rinkinį. Pasidalykite bendrą biudžetą nebūtinai po lygiai, bet skirkite panašų dėmesį. Daugiau atrankos kriterijų pateikiame [[mamai|article:lt-gifts-mother]] ir [[tėčiui|article:lt-gifts-father]] skirtuose giduose.",
+        "## Ko vengti",
+        "Nedovanokite buitinio prietaiso vien todėl, kad namuose jo trūksta: tai gali būti namų išlaida, ne asmeninė dovana. Nežadėkite abonemento, kurio vėlesnius mokėjimus turės dengti tėvai. Ir nedovanokite „pagalbos“ taip abstrakčiai, kad jie turės patys jūsų prašyti — suplanuokite konkretų darbą.",
+        "Galiausiai įteikite dovaną su paaiškinimu, ką pastebėjote apie jų metus. Būtent tai paverčia pasirinkimą jų, o ne bet kurių tėvų dovana."
+      ]
+    },
+    {
+      "id": "lt-christmas-family-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-seimai",
+      "title": "Kalėdinės dovanos šeimai: kaip įtraukti visus, o ne tik vaikus",
+      "excerpt": "Bendros šeimos dovanos pagal amžių, erdvę ir laiką: žaidimai, patirtys, prisiminimai ir kūrybiniai projektai.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-09-30T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-christmas-parents-2026",
+        "lt-gifts-couple"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/kaledines-dovanos-seimai-v2.webp",
+        "alt": "Spalvingoje iliustracijoje šeima kartu žaidžia stalo žaidimą",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Dovana visai šeimai skiriasi nuo keturių dovanų vienoje dėžėje. Ji turi suteikti galimybę bent dalį laiko praleisti kartu. Prieš pirkdami suskaičiuokite, kas realiai dalyvaus, kokio amžiaus yra vaikai ir ar veiklai namuose pakaks vietos.",
+        "## Pasirinkite pagal bendrą laiką",
+        "Jei šeima turi tik trumpą vakarą, tiks veikla, kurią galima pradėti be ilgo pasiruošimo: paprastas žaidimas, vakarienės ingredientai arba nedidelė kūrybinė užduotis. Jei jie mėgsta planuoti savaitgalius, galite siūlyti išvyką, muziejų ar dirbtuves, bet iš anksto patikrinkite tinkamą amžių ir galiojimo sąlygas.",
+        "## Keturi dovanų modeliai",
+        "### Žaidimas, kurį žais visi",
+        "Patikrinkite nurodytą žaidėjų skaičių, amžių, taisyklių sudėtingumą ir vienos partijos trukmę. Net puikus žaidimas netinka, jei jauniausias šeimos narys pusvalandį turi tik stebėti. Geriau paprastesnis, kuriame jis turi tikrą vaidmenį.",
+        "### Bendra vakarienė",
+        "Sukomplektuokite vieno patiekalo ingredientus ir receptą. Prieš dovanojant maistą būtina žinoti alergijas bei mitybos pasirinkimus. Jei nežinote, dovanokite kvietimą kartu gaminti ir produktus rinkitės jau susitarę.",
+        "### Prisiminimų projektas",
+        "Šeimos nuotraukų albumas gali sujungti skirtingas kartas, tačiau darbą atlikite jūs: atrinkite, išspausdinkite ir aprašykite nuotraukas. Kitu atveju padovanosite užduotį. Kūrybinį rinkinį rinkitės tik patikrinę jo instrukciją, reikalingą priežiūrą ir žmonių skaičių.",
+        "### Patirtis už namų ribų",
+        "Bilietai ar kuponas turi derėti su vaikų ritmu, kelionės trukme ir suaugusiųjų galimybėmis. Įvertinkite ir papildomas išlaidas: transportą, maistą, inventorių. Jei jų daug, dovana gali tapti neplanuota šeimos sąskaita.",
+        "## Pirkimo patikra",
+        "Prieš apmokėdami įsitikinkite, kad dovana tinka pagal amžių, visiems dalyviams yra vietos, o prireikus ją galima grąžinti. Jei siūlote konkrečią datą, pirmiausia pasitarkite su suaugusiaisiais. Geriausia šeimos dovana ne „tinka visiems“ etiketėje, o realiai veikia jų kalendoriuje."
+      ]
+    },
+    {
+      "id": "lt-christmas-original-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "originalios-kaledines-dovanos",
+      "title": "Originalios Kalėdų dovanos: 6 būdai nustebinti neperkant keistenybės",
+      "excerpt": "Originalumas kyla iš ryšio su žmogumi. Šeši būdai sukurti netikėtą, bet naudojamą dovaną ir patikrinti jos tinkamumą.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-10-01T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gifts-personalized",
+        "lt-gifts-experiences"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/originalios-kaledines-dovanos-v2.webp",
+        "alt": "Ryškiaspalvė idėjos metafora: iš dovanų dėžės kylantys grafiniai objektai",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Originali dovana nebūtinai yra negirdėtas daiktas. Staigmena gerai veikia tada, kai žmogus atpažįsta mintį: „tu mane pažįsti“. Neįprastas pirkinys be ryšio su gavėju dažniausiai tampa dar viena laikina dekoracija.",
+        "## 1. Pakeiskite įteikimo scenarijų",
+        "Užuot įteikę restoranų kuponą, pridėkite dviejų galimų datų planą ir pasiūlymą pasirūpinti rezervacija. Ta pati patirtis tampa konkretesnė. Jeigu gavėjui nepatinka staigūs planai, palikite datą pasirinkti jam.",
+        "## 2. Susiekite du jo pomėgius",
+        "Mėgstančiam skaityti ir keliauti galima paruošti maršrutą į knygoje minimą vietą arba namuose surengti teminį vakarą. Svarbu nepaversti dovanos pernelyg sudėtingu projektu, kuriam žmogus neturi laiko.",
+        "## 3. Paverskite prisiminimą naudingu",
+        "Vietoj užrašu apkrauto suvenyro atrinkite vieną nuotrauką ir pridėkite jai vietą: rėmelį, albumą ar nedidelį leidinį. Jei žmogus nemėgsta viešai rodyti privačių nuotraukų, pasirinkite uždaromą formatą.",
+        "## 4. Padovanokite bendrą kūrimo laiką",
+        "Pasirinkite užsiėmimą, kurio abu norėtumėte imtis: keramiką, maisto gaminimą, sodinimą ar rankų liejimo rinkinį. Kūrybinė dovana netinka, jei žmogui atrodytų kaip privaloma užduotis. Perskaitykite instrukciją ir sužinokite, kiek erdvės bei laiko reikės.",
+        "## 5. Papildykite tiksliu paaiškinimu",
+        "Ranka parašytas sakinys apie konkretų pastebėjimą gali pakeisti paprastą dovaną. „Prisiminiau, kaip po ilgos kelionės kalbėjome apie…“ yra stipriau nei universalus palinkėjimas. Jei norisi daugiau idėjų, skaitykite [[prasmingų dovanų gidą|article:lt-gifts-meaningful]].",
+        "## 6. Neįpareigokite vien dėl originalumo",
+        "Gyvūnai, augalai, prenumeratos ir dideli interjero daiktai sukuria priežiūros pareigą. Net jei jie netikėti, dovana neturėtų tapti problema. Pasitikrinkite, ar gavėjas gali ir nori ją priimti.",
+        "Prieš pirkdami vienu sakiniu įvardykite, kuo sprendimas originalus būtent šiam žmogui, ir atskirai — kaip jis dovana pasinaudos. Jei galite atsakyti tik į pirmą dalį, idėją dar pataisykite."
+      ]
+    },
+    {
+      "id": "lt-christmas-friends-2026",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "kaledines-dovanos-draugams",
+      "title": "Kalėdinės dovanos draugams: idėjos be spėlionių ir įsipareigojimų",
+      "excerpt": "Kaip draugams išrinkti mažą, tikslų gestą pagal bendrą istoriją, pomėgius ir aiškų biudžetą.",
+      "category": "Kalėdinės dovanos",
+      "publishAt": "2026-10-02T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-hub-2026",
+        "lt-gifts-female-friend",
+        "lt-gifts-male-friend"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/kaledines-dovanos-draugams.webp",
+        "alt": "Draugai apsikeičia nedidele dovana kavinėje prie lango",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Draugui Kalėdoms nebūtina išleisti daug, bet reikia parodyti, kad pastebėjote, kas jam patinka. Susitarkite dėl biudžeto, jei dovanojate vieni kitiems grupėje. Taip niekas neturės jaustis įpareigotas atsilyginti brangesne dovana.",
+        "## Pradėkite nuo bendro konteksto",
+        "Pagalvokite apie vieną per metus kartu patirtą dalyką: žygį, pokalbį, filmą ar valgį. Dovana gali pratęsti tą istoriją. Pavyzdžiui, po bendro žygio tinka mažas, realiai naudojamas lauko priedas arba kvietimas į kitą maršrutą, bet ne atsitiktinis „nuotykių“ suvenyras.",
+        "## Trys saugios kryptys",
+        "### Maža naudinga detalė",
+        "Rinkitės tik žinodami konkretų pomėgį ir ko draugas dar neturi. Specializuotos įrangos be modelio ar dydžio nepirkite — mėgėjai dažnai turi savus kriterijus. Geras priedas išsprendžia smulkų nepatogumą, o ne dubliuoja daiktą.",
+        "### Valgomas arba sunaudojamas pasirinkimas",
+        "Kava, arbata ar kitas mėgstamas produktas tinka, jei žinote mitybos ribojimus. Nekurkite didelio rinkinio vien dėl išvaizdos; viena tiksli prekė su paaiškinimu vertingesnė už penkias, kurias žmogus paliks spintelėje.",
+        "### Bendra patirtis",
+        "Bilietas, žaidimų vakaras ar jūsų surengta vakarienė veikia, jei draugas gali pasirinkti laiką. Palikite du variantus, o ne vieną jau nupirktą datą. Jei planas priklauso nuo kitų žmonių, prieš pirkdami pasitikrinkite jų galimybes.",
+        "## Kada nedovanoti asmeniškos dovanos",
+        "Jei santykis naujas arba draugas nemėgsta sentimentalių objektų, nuotrauka rėmelyje gali būti pernelyg intymi. Tokiu atveju pasirinkite praktišką smulkmeną arba drauge praleistą laiką. Daugiau niuansų rasite atskiruose [[giduose draugei|article:lt-gifts-female-friend]] ir [[draugui|article:lt-gifts-male-friend]].",
+        "Prieš įteikdami patikrinkite grąžinimą, galiojimą ir visą kainą su pristatymu. Draugystei dovana turi suteikti lengvumo, ne naują užduotį."
+      ]
+    },
+    {
+      "id": "lt-gifts-boyfriend",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-vaikinui",
+      "title": "Dovanos vaikinui: pasirinkite pagal tai, ką jis iš tikrųjų veikia",
+      "excerpt": "Praktiška atranka vaikinui pagal pomėgį, santykio etapą ir dovanos naudojimo tikimybę, be stereotipinių sąrašų.",
+      "category": "Dovanos pagal gavėją",
+      "publishAt": "2026-10-05T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-man",
+        "lt-gifts-girlfriend",
+        "lt-gifts-couple"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-vaikinui-v2.webp",
+        "alt": "Pora apsikeičia maža dovana lietingame vakaro mieste",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Geriausia dovana vaikinui nebūtinai susijusi su jo lytimi. Ji susijusi su tuo, ką jis daro po darbo, apie ką kalba ir kokius planus nuolat atideda. Prieš ieškodami prekių užrašykite vieną konkretų jo įprotį ir vieną nepatogumą, kurį būtų malonu pašalinti.",
+        "## Jei santykis dar naujas",
+        "Nedovanokite labai brangaus daikto ar pernelyg asmeniško suvenyro, jei dar nežinote vienas kito lūkesčių. Nedidelis pomėgio priedas, bilietai į renginį, kurį abu norėtumėte aplankyti, arba suplanuotas vakaras suteikia dėmesio nesukurdamas spaudimo. Patirties datos nederėtų rezervuoti nepasitarus.",
+        "## Jei vienas kitą gerai pažįstate",
+        "Gali tikti daiktas, kurio tikslų modelį jis yra paminėjęs, arba bendros istorijos tęsinys. Pavyzdžiui, po kartu pradėto gaminimo pomėgio vertingiau papildyti turimą įrangą nei pirkti kitą pradinį rinkinį. Jei renkatės aprangą ar techniką, patikrinkite dydį, suderinamumą ir grąžinimo galimybę.",
+        "## Keturi dovanų tipai",
+        "### Pomėgio papildymas",
+        "Sportui, muzikai ar žaidimams skirti aksesuarai tinka tik žinant tikslią veiklą. Profesionaliai įrangai galioja savi parametrai; jei jų nežinote, geriau pasirinkti patirtį arba leisti jam apsispręsti pačiam.",
+        "### Bendras laikas",
+        "Pasivaikščiojimas su suplanuota stotele, bilietas ar namuose surengtas degustavimo vakaras yra dovana tik tada, kai jūs pasirūpinate organizavimu. Vien pažadas „kada nors ką nors nuveiksime“ gali likti neįgyvendintas.",
+        "### Asmeniškas prisiminimas",
+        "Nuotrauka ar laiškas tinka, jeigu jis mėgsta tokius gestus. Jei ne, net labai gražiai paruošta dėžutė gali nepatikti. Porai, kuri vertina kūrybą, tinka ir kartu sukuriamas daiktas — bet prieš perkant įvertinkite laiką bei norą tuo užsiimti.",
+        "### Praktiškas daiktas",
+        "Rinkitės ne „naudingą apskritai“, o naudingą jo konkrečiai rutinai. Vieno gerai pasirinkto daikto užtenka; nereikia jo slėpti po atsitiktinių smulkmenų rinkiniu.",
+        "Kai pasirinksite kandidatą, paklauskite: ar jis jau turi analogą, ar panaudos per mėnesį ir ar dovana tiks jūsų santykiui? Jei neaišku, paklauskite jo tiesiai. Staigmena nėra vertingesnė už tinkamą dovaną."
+      ]
+    },
+    {
+      "id": "lt-gifts-girlfriend",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-merginai",
+      "title": "Dovanos merginai: asmeniška idėja be klišių",
+      "excerpt": "Kaip derinti jos pomėgius, santykio etapą, biudžetą ir kartu praleidžiamą laiką renkant dovaną merginai.",
+      "category": "Dovanos pagal gavėją",
+      "publishAt": "2026-10-06T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-boyfriend",
+        "lt-gifts-couple",
+        "lt-gifts-personalized"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-merginai.webp",
+        "alt": "Supakuota dovana, nuotraukų juosta ir gėlė ant stalo",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Dovana merginai tampa asmeniška ne dėl širdelės ant pakuotės, o dėl teisingai pastebėto poreikio. Gal ji neseniai pradėjo naują pomėgį, ieškojo konkrečios knygos arba nori daugiau neskubaus laiko kartu. Vienas toks signalas vertingesnis už šimtą universalių rekomendacijų.",
+        "## Stebėkite, bet nespėliokite",
+        "Užsirašykite, ką ji pati sakė norinti ir ko nemėgsta. Nemaišykite „man atrodo, kad jai tiktų“ su jos pasirinkimu. Jei perkate odos priežiūros priemonę, parfumeriją ar drabužį be tikslaus produkto, lengva nepataikyti. Tokiais atvejais patogiau suteikti pasirinkimą arba eiti rinktis kartu.",
+        "## Dovana pagal santykio etapą",
+        "Naujo santykio pradžioje geriau rinktis mažą, aiškų gestą: jos mėgstamo renginio bilietą, knygą iš norų sąrašo ar pasiūlymą kartu išbandyti veiklą. Ilgesniame santykyje galima remtis bendru prisiminimu — albumu, išvyka ar rankomis sukuriamu objektu. Tačiau kiekvienas iš jų turi tikti būtent jai, o ne jūsų įsivaizduotam romantikos scenarijui.",
+        "## Kai norisi patirties",
+        "Viena suplanuota diena dažnai jaučiasi geriau nei abstraktus kuponas. Pasiūlykite veiklą, laiką ir transportą, bet palikite jai galimybę datą keisti. Patirtį rinkitės pagal abiejų galimybes: staigmena, kurią sunku įtraukti į kalendorių, tampa rūpesčiu.",
+        "## Kai norisi daikto",
+        "Pasitikrinkite, ar jis turės vietą ir paskirtį. Gražus interjero akcentas netinka, jei nežinote jos namų stiliaus. Personalizuotam daiktui rinkitės prasmingą datą arba detalę, o ne atsitiktinai atspausdintą vardą. Jei dovana susijusi su jūsų bendru gyvenimu, iš anksto pasirūpinkite kokybiška nuotrauka ar teisingu užrašu.",
+        "## Greitas sprendimo testas",
+        "Ar ji pati galėtų paaiškinti, kodėl ši dovana tinka? Ar jai nereikės papildomai mokėti arba rūpintis priežiūra? Ar ji gali dovaną panaudoti per artimiausias savaites? Jei atsakymas į vieną klausimą „ne“, pakeiskite idėją arba paklauskite jos nuomonės.",
+        "Daugiau bendrų veiklų variantų rasite [[dovanų porai gide|article:lt-gifts-couple]]. Svarbiausia — ne įspūdis nuotraukoje, o jos tikras džiaugsmas atidarius dovaną."
+      ]
+    },
+    {
+      "id": "lt-gifts-female-friend",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-draugei",
+      "title": "Dovanos draugei: nuo mažo dėmesio iki bendro nuotykio",
+      "excerpt": "Platoniškai draugystei skirtos idėjos pagal jūsų bendrą istoriją, atstumą ir biudžetą.",
+      "category": "Dovanos pagal gavėją",
+      "publishAt": "2026-10-07T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-friends-2026",
+        "lt-gifts-male-friend",
+        "lt-gifts-experiences"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-draugei-v2.webp",
+        "alt": "Ryškus popieriaus koliažas: draugės dalijasi dovana lauke",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Dovanos draugei nereikia paversti iškilmingu pareiškimu. Dažnai geriausiai veikia maža, tiksli mintis apie tai, kas jums abiem būdinga: bendras filmas, kelionė, juokas ar ilgi pasivaikščiojimai. Skirtingai nuo dovanos partnerei, čia verta saugoti draugystės lengvumą.",
+        "## Jei draugė gyvena netoliese",
+        "Pakvieskite į konkretų bendrą užsiėmimą: pasivaikščiojimą nauju maršrutu, vakarą su stalo žaidimu arba dirbtuves, kurios jai tikrai įdomios. Pasiūlykite dvi galimas datas. Tai nedidelis, bet svarbus skirtumas tarp realaus plano ir tuščio pažado.",
+        "## Jei jus skiria atstumas",
+        "Tinka mažas išsiunčiamas daiktas, siejamas su jūsų istorija: viena nuotrauka su paaiškinimu, jos mėgstamos arbatos porcija ar knyga, apie kurią kalbėjotės. Prieš siųsdami patikrinkite tikrąją sumą su pristatymu ir ar siunta atvyks laiku.",
+        "## Jei nežinote jos naujų pomėgių",
+        "Neapsimeskite, kad žinote. Paklauskite, ko ji šiuo metu klausosi, skaito ar nori išbandyti. Jei staigmeną norite išlaikyti, sužinokite kryptį, o ne konkretų produktą. Dovana pagal seną pomėgį, kurio žmogus jau atsisakė, gali atrodyti neatidi.",
+        "## Ko vengti",
+        "Kosmetika, kvapai, drabužiai ir mitybos produktai yra jautrūs skoniui ar poreikiams. Juos rinkitės tik jei turite tikslią informaciją. Nepridėkite penkių atsitiktinių smulkmenų vien tam, kad dėžė atrodytų pilna; tai neišsprendžia tinkamumo problemos.",
+        "## Praktinis pasirinkimas",
+        "Surašykite tris idėjas ir kiekvienai pažymėkite: ar draugė ją panaudos, ar ją lengva priimti, ar ji telpa į jūsų bendrą dovanų įprotį. Laimi ne brangiausia idėja, o ta, kuri turi geriausią atsakymą į visus tris klausimus.",
+        "Jeigu proga yra Kalėdos, papildomai peržiūrėkite [[dovanų draugams gidą|article:lt-christmas-friends-2026]]. Ten rasite būdą susitarti dėl biudžeto nepatogumo nesukeliant."
+      ]
+    },
+    {
+      "id": "lt-gifts-male-friend",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-draugui",
+      "title": "Dovanos draugui: konkretūs pasirinkimo kriterijai vietoj stereotipų",
+      "excerpt": "Kaip draugui rasti naudojamą dovaną pagal bendrą veiklą ir nepaslysti perkant hobio įrangą.",
+      "category": "Dovanos pagal gavėją",
+      "publishAt": "2026-10-08T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-friends-2026",
+        "lt-gifts-female-friend",
+        "lt-gifts-boyfriend"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-draugui-v2.webp",
+        "alt": "Draugai apsikeičia dovana saulėtame riedlenčių parke",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Draugui dovana gali priminti bendrą veiklą arba pašalinti mažą jo kasdienį nepatogumą. Ji neprivalo būti „vyriška“ ar brangi. Renkantis svarbiau, ar draugas tikrai ją naudos ir ar dovana nesukurs neproporcingo įsipareigojimo atsilyginti.",
+        "## Pomėgis: domėkitės detalėmis",
+        "Žinoti, kad draugas žaidžia, važiuoja dviračiu ar kepa duoną, dar nepakanka konkrečiam priedui išrinkti. Paklauskite, kokį modelį jis naudoja, kokias medžiagas renkasi ir ko jam trūksta. Jei tokių duomenų neturite, saugiau dovanoti bilietą, laiką kartu arba pomėgio parduotuvės kuponą su jūsų paaiškinimu.",
+        "## Trys realūs scenarijai",
+        "### Draugas, su kuriuo retai susitinkate",
+        "Kvietimas į konkretų renginį arba suplanuotas susitikimas gali turėti daugiau vertės nei kurjeriu atsiųstas daiktas. Neužsakykite negrąžinamo bilieto, kol nesuderinote datos.",
+        "### Draugas, kuris nuolat ką nors kuria",
+        "Peržiūrėkite jo įrankių rinkinį prieš pirkdami. Mažas kokybiškas papildymas yra gerai, jei tiksliai žinote dydį ar suderinamumą. Dar vienas pradinis rinkinys patyrusiam žmogui dažniausiai nereikalingas.",
+        "### Draugas, kuris vertina humorą",
+        "Vidinis pokštas veikia, kai jį supranta gavėjas ir dovana nepažemina jo kitų akivaizdoje. Juokingą detalę galima pridėti prie naudojamo daikto, bet vien pokštas neturėtų tapti daiktu, kurį jis privalės saugoti.",
+        "## Biudžeto riba",
+        "Iš anksto pasakykite, jei draugų grupė keičiasi dovanomis. Nedidelis limitas skatina tikslumą, o ne prastą kokybę. Į kainą įtraukite siuntimą ir pakuotę; jei suma viršija ribą, rinkitės kitą idėją, ne slapta didinkite spaudimą kitiems.",
+        "Prieš pirkdami sau atsakykite, ką draugas su dovana darys pirmą savaitę. Jei negalite sugalvoti, tikėtina, kad ji paremta reklamos vaizdu, o ne jo gyvenimu."
+      ]
+    },
+    {
+      "id": "lt-gifts-couple",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-porai-idejos",
+      "title": "Dovanos porai: 4 kryptys pagal tai, kaip jie leidžia laiką",
+      "excerpt": "Nešventinis gidas poros dovanai: bendra veikla, namų ritualas, prisiminimas ar naudinga detalė.",
+      "category": "Dovanos porai",
+      "publishAt": "2026-10-09T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-couple-ideas",
+        "lt-christmas-couple",
+        "lt-gifts-experiences",
+        "lt-hand-casting-guide"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "productRecommendation": true,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-porai-v2.webp",
+        "alt": "Grafiška iliustracija: pora kartu kuria mažą sodą miesto terasoje",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Dovana porai turi tikti dviem žmonėms. Vienas gali mėgti keliauti, kitas — jaukius vakarus namuose; vienas — kurti, kitas — stebėti. Todėl prieš renkantis svarbu rasti jų tikrą bendrą vardiklį, o ne pirkti tai, kas nuotraukoje atrodo romantiška.",
+        "## 1. Bendra veikla",
+        "Vakarienė, dirbtuvės ar trumpa išvyka tinka, jei abu galės dalyvauti ir pasirinkti laiką. Patikrinkite vietą, trukmę, papildomas išlaidas ir galiojimą. Bilietai konkrečiai dienai gali būti blogesnė dovana nei lankstus planas, jei nežinote poros grafiko.",
+        "## 2. Namų ritualas",
+        "Jei pora mėgsta laiką namuose, rinkitės tai, kas pagerins jau esantį įprotį: žaidimo vakarą, bendrą maisto ruošimą ar skaitymo kampą. Dideli interjero daiktai rizikingi, jei nežinote jų skonio ir vietos namuose. Mažesnis, naudojamas dalykas dažnai saugesnis.",
+        "## 3. Bendras prisiminimas",
+        "Nuotraukų knyga, asmeniškas laiškas ar kartu sukurtas objektas tinka, kai pora vertina prisiminimus. Rankų liejimo rinkinys gali būti prasmingas, jei abu norėtų skirti vakarą procesui ir išsaugoti rezultatą. Jei bent vienam tokia veikla nepatinka, rinkitės kitą būdą įamžinti istoriją. Praktinį pasiruošimą aprašome [[rankų liejimo gide|article:lt-hand-casting-guide]].",
+        "## 4. Praktinis bendras daiktas",
+        "Jis veikia tik tada, jei tikrai naudojamas abiejų. Kavos aparatas vienam kavos geriančiam žmogui nėra dovana porai. Prieš pirkdami paklauskite, kaip pora jau leidžia rytus ar savaitgalius; naudokite atsakymą kaip pasirinkimo filtrą.",
+        "## Kaip išsirinkti iš keturių",
+        "Kiekvienai krypčiai skirkite po vieną balą už tinkamumą abiem, įgyvendinimą per mėnesį ir bendrą kainą be paslėptų papildymų. Mažiausiai vieną balą gavusios krypties atsisakykite. Toks paprastas testas padeda nepirkti dovanos vien dėl pakuotės.",
+        "Porai, kuri laukia kūdikio, kraustosi arba turi itin užimtą sezoną, dovanokite lanksčiai. Gera dovana prisitaiko prie jų gyvenimo, o ne reikalauja prisitaikyti prie jos."
+      ]
+    },
+    {
+      "id": "lt-gifts-mother",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-mamai",
+      "title": "Dovanos mamai: ką rinktis, kai norisi parodyti dėmesį, o ne pridėti rūpesčių",
+      "excerpt": "Idėjos mamai pagal jos įpročius ir laiką: asmeniškas prisiminimas, praktiška pagalba ar kartu suplanuota patirtis.",
+      "category": "Dovanos šeimai",
+      "publishAt": "2026-10-12T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-parents-2026",
+        "lt-gifts-father",
+        "lt-gifts-meaningful"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-mamai-v2.webp",
+        "alt": "Mama ir suaugusi dukra kartu vaikšto spalvingame gėlių turguje",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Mamą lengva apdovanoti tuo, kas naudinga visiems namuose, bet ne jai pačiai. Nauja keptuvė ar dulkių siurblys gali išspręsti šeimos poreikį, tačiau kaip asmeninė dovana tiks tik tada, jei ji pati to norėjo. Pirmiausia pagalvokite, ką mama renkasi dėl savęs, ne dėl kitų.",
+        "## Trys klausimai prieš idėjų sąrašą",
+        "Kada ji paskutinį kartą minėjo norinti laiko sau? Ką mėgsta veikti, kai nieko nereikia organizuoti kitiems? Ar jai patogiau gauti daiktą, patirtį ar pagalbą? Atsakymai padės atmesti dovanas, kurios tik gražiai atrodo internete.",
+        "## Jei ji vertina bendrą laiką",
+        "Pasiūlykite konkretų planą: pasivaikščiojimą su kava, apsilankymą parodoje ar vakarienę, kurią ruošite jūs. Pasirūpinkite bilietais, transportu ar maistu, bet palikite galimybę pakeisti datą. Jūsų suplanuotas laikas skiriasi nuo neapibrėžto pažado „būtinai kada nors susitiksime“.",
+        "## Jei ji vertina prisiminimus",
+        "Atrinkite kelias aiškias šeimos nuotraukas, surašykite jų kontekstą ir sukurkite mažą albumą. Patikrinkite, ar nuotraukos tinkamos rodyti ir ar mama norėtų jas laikyti matomoje vietoje. Jeigu ne, uždaromas albumas geriau už rėmelį.",
+        "## Jei ji vertina praktiškumą",
+        "Pasirinkite vieną jos pačios įvardytą nepatogumą: trūkstamą skaitymo šviesą, susidėvėjusį pomėgio įrankį arba paslaugą, kurios ji vis neprisiverčia užsakyti. Nepirkite pagal abstraktų „mamoms patinka“. Patikrinkite matmenis, suderinamumą ir grąžinimą.",
+        "## Jei norite padovanoti pagalbą",
+        "Pagalba turi būti konkreti: „šeštadienį 11 val. atvažiuosiu sutvarkyti nuotraukų archyvo, jei tau tinka“. Tuščias pažadas „skambink, jei ko reikės“ perkelia planavimą jai. Jei ji nenori pagalbos, gerbkite tai ir rinkitės kitą dovaną.",
+        "Prieš įteikdami patikrinkite, ar dovana nereikalauja papildomų mokėjimų, sudėtingo užsakymo ar vietos, kurios ji neturi. Geras dėmesys yra lengvas priimti. Tėvams skirtų bendrų pasirinkimų ieškokite [[Kalėdų gide|article:lt-christmas-parents-2026]]."
+      ]
+    },
+    {
+      "id": "lt-gifts-father",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-teciui",
+      "title": "Dovanos tėčiui: nuo konkretaus pomėgio iki laiko kartu",
+      "excerpt": "Kaip nesuklysti su įrankiais, technika ar patirtimi ir išrinkti tėčiui dovaną pagal tai, ką jis pats vertina.",
+      "category": "Dovanos šeimai",
+      "publishAt": "2026-10-13T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-parents-2026",
+        "lt-gifts-mother",
+        "lt-gifts-brother"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-teciui-v2.webp",
+        "alt": "Juodai baltas kadras: tėvas su suaugusiu sūnumi taiso dviratį",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Tėčiui dažnai dovanojami įrankiai ar technologijos vien dėl įpročio. Tačiau geras pirkinys priklauso nuo jo konkretaus modelio, veiklos ir poreikio. Jeigu tėtis nesidomi technika, dovanų kategorijos etiketė to nepakeis.",
+        "## Išsiaiškinkite, kas jam svarbu",
+        "Pasirinkite vieną iš trijų krypčių: ką jis mėgsta veikti, ką vis atideda arba kokį bendrą laiką vertintų. Užrašykite konkrečius pavyzdžius, ne vien „mėgsta gaminti“: gal jis kas savaitę kepa duoną, taiso dviračius ar žiūri senus filmus. Tada dovaną galima susieti su realiu veiksmu.",
+        "## Pomėgio dovana be klaidos",
+        "Jei norite pirkti įrankį, išsiaiškinkite dydį, baterijų sistemą ir turimą įrangą. Patyręs žmogus dažnai turi aiškius reikalavimus, todėl staigmena neturėtų jų ignoruoti. Jei abejojate, rinkitės priedą, kurį jis pats nurodė, arba kartu nueikite išsirinkti.",
+        "## Patirtis, kuri nėra papildoma užduotis",
+        "Bendra išvyka, koncertas ar vakarienė tinka, jei pasiūlote tikrą datą ir pasirūpinate organizavimu. Tėčiui, kuris nemėgsta minios, net puikus koncertas netiks. Vertinkite jo komfortą, ne tik renginio populiarumą.",
+        "## Asmeniškas, bet ne sentimentalumo prievolė",
+        "Nuotrauka ar laiškas gali būti vertingi, jei jūsų šeimoje tokius gestus priima natūraliai. Jeigu tėtis labiau vertina veiklą, atgaivinkite bendrą tradiciją: suplanuokite remontą, išvyką ar gaminimą kartu. Dovana gali būti proga vėl nuveikti tai, kas anksčiau jungė.",
+        "## Ko vengti",
+        "Nedovanokite darbo įrankio kaip užuominos, kad jis turėtų daugiau taisyti namuose. Nepirkite sveikatai ar amžiui skirtų priemonių, jei jis pats jų neprašė. Nesukurkite prenumeratos, kurią vėliau turės apmokėti pats.",
+        "Prieš pirkdami paklauskite, ar dovana jam suteiks malonumo, ar tik pareigą. Jei abejojate, nuoširdus klausimas apie jo norą gali būti naudingesnis už tariamą staigmeną."
+      ]
+    },
+    {
+      "id": "lt-gifts-grandparents",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-seneliams",
+      "title": "Dovanos seneliams: prisiminimai, ryšys ir patogus naudojimas",
+      "excerpt": "Senelių dovanų atranka be amžiaus stereotipų: aiškus naudojimas, bendras laikas ir jų pačių pomėgiai.",
+      "category": "Dovanos šeimai",
+      "publishAt": "2026-10-14T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-christmas-parents-2026",
+        "lt-gifts-mother",
+        "lt-gifts-father"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-seneliams.webp",
+        "alt": "Seneliai kartu varto šeimos nuotraukų albumą prie arbatos",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Seneliai nėra viena pomėgių grupė. Vieni keliauja, kiti augina augalus, žaidžia su anūkais ar kuria rankdarbius. Rinkdamiesi dovaną pirmiausia prisiminkite jų individualų gyvenimą ir tik tada vertinkite, ar daiktas bus patogus naudoti.",
+        "## Prisiminimų dovana, kurioje darbas jau atliktas",
+        "Nuotraukų albumas tinka, kai jūs patys atrinkote gerus kadrus, surašėte datas ir vardus, patikrinote spausdinimo kokybę. Neįteikite dėžės su šimtais nesurūšiuotų nuotraukų kaip tariamai baigto projekto. Jei šeimos istorija jautri, pasirinkite tik tas nuotraukas, kurias seneliai norės matyti.",
+        "## Bendras laikas be skubėjimo",
+        "Pasivaikščiojimas, pietūs ar bendras recepto gaminimas dažnai vertingas tada, kai suplanuotas patogiu tempu. Pasiūlykite pasirinkti datą, pasirūpinkite transportu, tačiau nepriimkite sprendimo už juos. Jie gali turėti aktyvesnį kalendorių, nei manote.",
+        "## Daiktas, kurį patogu priimti",
+        "Jei perkate techniką, įvertinkite ne stereotipinį „paprastumą senjorams“, o ar konkrečiam žmogui patiks sąsaja ir ar padėsite ją įdiegti. Pirkdami pomėgio daiktą patikrinkite tikslius matmenis, medžiagas ir esamus priedus.",
+        "## Jei dovanojate abiem",
+        "Bendra dovana turi būti naudojama abiejų. Jei vienas nemėgsta nuotraukų albumų, o kitas jų laukia, nedarykite kompromiso vien dėl pakuotės: įteikite atskiras mažesnes dovanas. Pora nėra vienas žmogus.",
+        "## Ko nedaryti",
+        "Nedovanokite didelio daikto, kuriam jie neturi vietos, arba paslaugos su sudėtinga registracija. Dovana neturėtų būti užuomina apie amžių ar sveikatą. Jei planuojate pagalbą, pasiūlykite konkretų darbą ir paklauskite, ar jos tikrai norima.",
+        "Prie dovanos pridėkite vieną sakinį apie tai, kodėl pasirinkote būtent jiems. Tai gali būti asmeniškiau už bet kokią etiketę „seneliams“."
+      ]
+    },
+    {
+      "id": "lt-gifts-brother",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-broliui",
+      "title": "Dovanos broliui: idėjos pagal jūsų ryšį ir jo dabartinį gyvenimą",
+      "excerpt": "Pomėgio, bendro laiko ir mažų praktiškų dovanų broliui atranka, nepasikliaujant vaikystės prisiminimais vienais.",
+      "category": "Dovanos šeimai",
+      "publishAt": "2026-10-15T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-sister",
+        "lt-gifts-male-friend",
+        "lt-gifts-father"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-broliui-v2.webp",
+        "alt": "Broliai ar seserys apsikeičia dovana žygiuodami snieguotu taku",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Brolį pažįstate seniai, bet tai nereiškia, kad žinote dabartinius jo pomėgius. Dovana, paremta vien tuo, ką jis mėgo mokykloje, gali nepataikyti. Paklauskite, ką jis šiuo metu veikia savaitgaliais ir ko jam trūksta naujame gyvenimo etape.",
+        "## Jei gyvenate skirtinguose miestuose",
+        "Dovaną galima susieti su susitikimu: pasiūlykite suplanuotą išvyką, renginį ar vakarą kartu. Įvertinkite atvykimo kainą ir laiką; nereikalaukite, kad jis pats finansuotų didžiąją dalį jūsų dovanotos patirties.",
+        "## Jei dalijatės pomėgiu",
+        "Bendras sportas, muzika ar žaidimai leidžia pasirinkti labai tiksliai. Vis tiek pasitikrinkite konkretų modelį ir ar jis jo neturi. Jei perkate hobio įrangą, grąžinimo galimybė svarbesnė už staigmenos išsaugojimą.",
+        "## Jei jūsų skoniai skiriasi",
+        "Neverskite jo pamėgti jūsų veiklos per dovaną. Užuot pirkę jam savo mėgstamą knygą ar žaidimą, sužinokite jo pasirinkimą. Jei informacijos mažai, nedidelis neutralus gestas ir laikas kartu geresni už spėliojimą.",
+        "## Humoras su pagarba",
+        "Vidinis šeimos pokštas gali būti gera detalė, bet neturėtų gėdinti brolio kitų akivaizdoje. Jei dovana labai asmeniška, įteikite ją privačiai. Nereikalaukite, kad suvenyras visada būtų rodomas namuose.",
+        "## Greitas filtras",
+        "Ar jis panaudos dovaną per mėnesį? Ar ji atitinka jo dabartinį, o ne vaikystės gyvenimą? Ar visa suma su papildomais priedais telpa į jūsų ribą? Jei bent vienas atsakymas „ne“, idėją keiskite. [[Gide sesei|article:lt-gifts-sister]] aptariame panašius, bet ne tapačius šeimos pasirinkimo klausimus."
+      ]
+    },
+    {
+      "id": "lt-gifts-sister",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-sesei",
+      "title": "Dovanos sesei: kaip pasirinkti tarp bendros istorijos ir naujų pomėgių",
+      "excerpt": "Sesei skirta dovana gali atspindėti jūsų ryšį, bet neturi ignoruoti to, kuo ji gyvena šiandien.",
+      "category": "Dovanos šeimai",
+      "publishAt": "2026-10-16T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-brother",
+        "lt-gifts-female-friend",
+        "lt-gifts-personalized"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-sesei-v2.webp",
+        "alt": "Ryški retro iliustracija: seserys juokiasi miesto transporte",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Sesei lengva išrinkti nostalgišką dovaną, nes turite daug bendrų prisiminimų. Tačiau geras pasirinkimas turėtų kalbėti ir apie tai, kas ji yra dabar. Jei neseniai pakeitė darbą, miestą ar pomėgį, įsiklausykite į šį etapą, o ne vien į vaikystės istoriją.",
+        "## Kada tinka asmeniškas prisiminimas",
+        "Viena jūsų abiejų nuotrauka, mažas albumas ar laiškas gali būti stipri dovana, jei sesė mėgsta tokius daiktus. Atsirinkite tik tuos kadrus, kuriuos ji pati norėtų matyti. Intymi šeimos istorija nebūtinai skirta rėmeliui ant darbo stalo.",
+        "## Kada geriau remtis nauju pomėgiu",
+        "Jei sesė neseniai pradėjo piešti, bėgioti ar gaminti, neperkite pirmo pasitaikiusio pradinio rinkinio. Paklauskite, ko jai reikia šiuo etapu. Patyrusiam žmogui dažnai reikia vieno konkretaus įrankio, o ne bendro „kūrybos“ rinkinio.",
+        "## Laikas kartu",
+        "Jei retai susitinkate, pasiūlykite veiklą, kurią abi ar abu mielai darytumėte: pasivaikščiojimą, koncertą, maisto gaminimą. Nupirkus bilietus be datos suderinimo, patirtis gali virsti kalendoriaus problema. Verčiau pirmiausia susitarti dėl laiko.",
+        "## Dydis, kvapas ir skonis",
+        "Apranga, kosmetika ir kvapai tinka tik žinant konkretų jos pasirinkimą. Net artimas šeimos ryšys nėra garantija, kad pataikysite. Jei nesate tikri, rinkitės daiktą be dydžio arba leiskite jai dalyvauti renkantis.",
+        "## Dvi idėjos vietoj dešimties",
+        "Užrašykite vieną idėją iš jūsų bendros istorijos ir vieną iš dabartinio jos gyvenimo. Palyginkite, kurią ji lengviau panaudos ir kuriai mažiau papildomų sąlygų. Dovana neturi įrodyti, kad viską apie ją žinote; ji turi parodyti, kad domitės."
+      ]
+    },
+    {
+      "id": "lt-gifts-personalized",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "personalizuotos-dovanos-kaip-issirinkti",
+      "title": "Personalizuotos dovanos: kada vardas, nuotrauka ar rankų darbas turi prasmę",
+      "excerpt": "Praktinis personalizavimo gidas: ką suasmeninti, kaip patikrinti maketą, terminą ir gavėjo privatumą.",
+      "category": "Personalizuotos dovanos",
+      "publishAt": "2026-10-19T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-hand-casting-guide",
+        "lt-gifts-sentimental",
+        "lt-gifts-meaningful"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "productRecommendation": true,
+      "featuredImage": {
+        "src": "/images/articles/personalizuotos-dovanos-v2.webp",
+        "alt": "Spalvinga grafinė kompozicija su rėmeliu ir suasmeninamo daikto formomis",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Personalizacija nėra vien vardas ant daikto. Geriausiai ji veikia, kai pasirinkta detalė reiškia ką nors gavėjui: konkreti nuotrauka, bendras prisiminimas, jo mėgstama spalva ar daiktas, pagamintas kartu. Atsitiktinis inicialas ant nereikalingo gaminio nepadaro dovanos naudingos.",
+        "## Pirmiausia pasirinkite patį daiktą",
+        "Paklauskite, ar gavėjas naudotų šį daiktą net be personalizacijos. Jei ne, papildomas užrašas vargu ar išgelbės pirkinį. Puodelis tinka tam, kas jį iš tikrųjų naudos; albumas — tam, kas mėgsta vartyti nuotraukas; kūrybinis rinkinys — tam, kas norėtų dalyvauti procese.",
+        "## Vardas ar data",
+        "Patikrinkite rašybą, linksnį, lietuviškas raides, datą ir maketo peržiūrą prieš patvirtindami užsakymą. Kai kurie gaminiai po personalizavimo negali būti grąžinti dėl vien persigalvojimo; konkrečias pardavėjo sąlygas skaitykite prieš mokėdami. Užrašą rinkitės trumpą, kad jis nepersvertų daikto paskirties.",
+        "## Nuotrauka",
+        "Rinkitės ryškų originalų failą, ne suspaustą pokalbio programėlės kopiją. Patikrinkite kadravimą ir ar visi vaizduojami žmonės norėtų, kad ši nuotrauka būtų atspausdinta ar rodoma. Jei albumas skirtas privačiam laikymui, formatas gali būti jaukesnis už didelį sienos paveikslą.",
+        "## Bendras rankų darbas",
+        "Jis suteikia dovanai asmeninio veiksmo, bet reikalauja laiko. Rankų liejimo rinkinys gali tikti porai ar šeimai, kuriai įdomus kūrybinis procesas ir pats rezultatas. Prieš užsakant verta perskaityti [[išsamų pasiruošimo gidą|article:lt-hand-casting-guide]] ir gamintojo komplektaciją. Nesirinkite jo žmogui, kuris aiškiai nemėgsta rankdarbių.",
+        "## Gamybos ir pristatymo terminas",
+        "Personalizuotas gaminys gali turėti du laikotarpius: gamybą ir siuntimą. Patikrinkite abu bei atsarginį variantą, jei terminas kritinis. Neužsisakykite vien remdamiesi bendru pažadu „greitas pristatymas“ — žiūrėkite konkretų užsakymą.",
+        "## Galutinis klausimas",
+        "Ar personalizacija padeda gavėjui pamatyti, kodėl ši dovana būtent jo? Jei ji tik užpildo tuščią vietą ant gaminio, rinkitės paprastesnį daiktą ir nuoširdų paaiškinimą. Prasmė yra pasirinkime, ne spaudos technologijoje."
+      ]
+    },
+    {
+      "id": "lt-gifts-meaningful",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "prasmingos-dovanos-idejos",
+      "title": "Prasmingos dovanos: kaip atskirti tikrą dėmesį nuo brangaus gesto",
+      "excerpt": "Keturi klausimai, padedantys išrinkti prasmingą dovaną be spaudimo pirkti daugiau ar kurti pernelyg sentimentalią istoriją.",
+      "category": "Dovanų idėjos",
+      "publishAt": "2026-10-20T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-sentimental",
+        "lt-gifts-experiences",
+        "lt-gifts-personalized"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/prasmingos-dovanos-v2.webp",
+        "alt": "Du žmonės kartu sodina medį bendruomenės sode",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Prasminga dovana nėra automatiškai brangi, rankų darbo ar sentimentali. Ji turi aiškų ryšį su gavėjo gyvenimu. Vienam žmogui tai bus laikas kartu, kitam — tiksliai parinktas įrankis, trečiam — prisiminimas, kurį norisi išsaugoti.",
+        "## Keturi atrankos klausimai",
+        "Ką žmogus jau vertina? Ką jis galės su dovana daryti? Kokių papildomų išlaidų ar pareigų ji sukurs? Ar pasirinkimą galite paaiškinti vienu tikru pastebėjimu? Jei atsakymai konkretūs, tikimybė pataikyti didesnė nei renkant pagal etiketę „prasminga“.",
+        "## Maža, bet tiksli dovana",
+        "Rėmelyje įdėta nuotrauka iš svarbios dienos, jo paties minėta knyga ar jūsų iškeptas mėgstamas patiekalas gali kainuoti nedaug. Tačiau neapsimeskite, kad bet kuri nuotrauka yra reikšminga. Atrinkite tą, kurios istoriją gavėjas atpažins.",
+        "## Laikas ir paslaugumas",
+        "Bendras vakaras, pagalba su konkrečiu darbu ar išvyka gali būti prasmingi, jei dalyvausite patys ir pasirūpinsite organizavimu. „Kada nors padėsiu“ nėra užbaigta dovana. Sutarkite datą arba aiškią jos pasirinkimo tvarką.",
+        "## Kai dovana turi likti ilgam",
+        "Ilgaamžis daiktas geras tik jei žmogus nori jį laikyti. Šeimos albumas ar kartu sukurtas objektas gali išlikti kaip ryšio ženklas; tačiau neverskite gavėjo jo eksponuoti. Ypač jautriems prisiminimams palikite privatumą.",
+        "## Kada prasmė tampa spaudimu",
+        "Per didelė dovana gali įpareigoti atsilyginti. Gyvūnas, prenumerata ar kelionė gali reikalauti priežiūros, mokėjimų ir laiko. Jeigu šių dalykų gavėjas nepasirinko, „prasmingumas“ yra labiau dovanojančiojo istorija nei gavėjo džiaugsmas.",
+        "Galiausiai rinkitės ne tarp „praktiška“ ir „jausminga“, o tarp tinkama ir netinkama. Jausmas gali slypėti praktiniame daikte, jei aišku, kodėl jis parinktas. Daugiau formų aptariame [[sentimentalių dovanų gide|article:lt-gifts-sentimental]]."
+      ]
+    },
+    {
+      "id": "lt-gifts-sentimental",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "sentimentalios-dovanos",
+      "title": "Sentimentalios dovanos: kaip išsaugoti prisiminimą neperžengiant ribos",
+      "excerpt": "Nuotraukų, laiškų ir bendrų kūrybinių dovanų pasirinkimo kriterijai, kai svarbi ir istorija, ir gavėjo privatumas.",
+      "category": "Dovanų idėjos",
+      "publishAt": "2026-10-21T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-meaningful",
+        "lt-gifts-personalized",
+        "lt-hand-casting-guide"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [
+        "source-memorycasting"
+      ],
+      "productRecommendation": true,
+      "featuredImage": {
+        "src": "/images/articles/sentimentalios-dovanos-v2.webp",
+        "alt": "Akvarelėje dvi kartos kartu žiūri į žvaigždėtą dangų",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Sentimentali dovana primena ryšį, tačiau ji turi būti maloni gavėjui, ne vien ją ruošiančiam žmogui. Kai kurie mėgsta nuotraukas ant sienos, kiti nori prisiminimus laikyti privačiai. Nuo šio skirtumo priklauso formatas, ne jausmo stiprumas.",
+        "## Nuotrauka: viena ar visas albumas?",
+        "Viena nuotrauka tinka, jei kadras aiškus ir žmogus norės jį matyti kasdien. Albumas geresnis, kai istorija ilgesnė arba asmeniškesnė. Atrinkite tik reikalingus vaizdus, prie jų užrašykite kontekstą ir patikrinkite, ar kiti juose esantys žmonės sutiktų su tokiu naudojimu.",
+        "## Laiškas: būkite konkretūs",
+        "Nereikia rašyti didelio atsiminimų romano. Užtenka vieno epizodo, už kurį norite padėkoti, ir vieno sakinio apie tai, ką žmoguje vertinate dabar. Venkite perdėto viešo jausmų demonstravimo, jei gavėjui tai nepatogu. Laišką galima įdėti į voką, kad jis pats pasirinktų, kada skaityti.",
+        "## Bendras kūrimas",
+        "Rankų darbo dovana gali būti jūsų pačių pagaminta arba kartu atliekamas procesas. Pastarajam reikia sutikimo ir laiko: net prasmingas rankų liejimo rinkinys netiks tam, kas nemėgsta kūrybinių veiklų. Prieš siūlydami įvertinkite instrukciją, vietą ir tai, kur bus laikomas rezultatas.",
+        "## Jautrūs prisiminimai",
+        "Netekties, skyrybų ar sudėtingų šeimos įvykių nuotraukos gali sukelti netikėtų jausmų. Jei nesate tikri, klauskite gavėjo arba rinkitės neutralesnę dabarties akimirką. Dovana neturėtų priversti žmogaus viešai išgyventi to, ką jis norėtų laikyti sau.",
+        "## Kaip nepersistengti",
+        "Nepaverskite dovanos testu, ar gavėjas prisimena tą patį taip pat stipriai. Įteikite ją be reikalavimo tuoj pat kabinti, fotografuoti ar demonstruoti. Pakanka leisti jam priimti istoriją savaip.",
+        "Jei dvejojate tarp prisiminimo ir praktiško daikto, perskaitykite [[prasmingų dovanų kriterijus|article:lt-gifts-meaningful]]. Kartais geriausias sprendimas yra kasdien naudojamas daiktas su trumpu asmenišku palinkėjimu."
+      ]
+    },
+    {
+      "id": "lt-gifts-experiences",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovanos-patirtys-kaip-issirinkti",
+      "title": "Dovanos-patirtys: kaip išrinkti veiklą, kuria žmogus tikrai pasinaudos",
+      "excerpt": "Patirties dovanos kontrolinis sąrašas: data, vieta, papildomos išlaidos, galiojimas ir galimybė keisti planus.",
+      "category": "Dovanų idėjos",
+      "publishAt": "2026-10-22T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-couple",
+        "lt-gifts-meaningful",
+        "lt-gifts-has-everything"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovanos-patirtys.webp",
+        "alt": "Du žmonės keliauja link namelio prie ežero saulėlydžio metu",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Patirties dovana atrodo lengva, nes neužima vietos lentynoje. Tačiau ji gali užimti daug vietos kalendoriuje. Geras kuponas ar bilietas turi derėti su gavėjo laiku, pomėgiais, judėjimo galimybėmis ir papildomomis išlaidomis.",
+        "## Pirmas klausimas — ar žmogus pats norėtų šios veiklos?",
+        "Nedovanokite ekstremalaus užsiėmimo tam, kuris aiškiai vengia aukščio, arba degustacijos tam, kas nemėgsta ragauti. Staigmena neturėtų versti įveikti baimės. Paklauskite artimo žmogaus arba paties gavėjo, kokias veiklas jis norėtų išbandyti.",
+        "## Data ir galiojimas",
+        "Bilietas konkrečiai dienai tinka tik suderinus kalendorių. Lankstus kuponas gali būti saugesnis, bet perskaitykite jo galiojimą, rezervavimo tvarką ir keitimo sąlygas. Jei laisvų vietų mažai, net ilgas galiojimas nebūtinai padeda.",
+        "## Tikroji dovanos kaina",
+        "Pridėkite transportą, nakvynę, maistą ir reikalingą įrangą. Jei dovanojate tik dalį išvykos, pasakykite tai aiškiai. Geriausia, kai gavėjui nereikia netikėtai mokėti už tai, kad panaudotų dovaną.",
+        "## Vienam ar kartu?",
+        "Kai žmogus nori pabūti vienas, solo veikla gali būti tobula. Jei svarbus ryšys, pasirinkite veiklą dviese ir iš anksto pasiūlykite, kas dalyvaus. Neverskite gavėjo pačiam ieškoti kompanijos ir derinti visų laiko.",
+        "## Rezervinis planas",
+        "Ligą, blogą orą ar pasikeitusius planus numatyti neįmanoma, bet galima tikrinti perkėlimo taisykles. Lauko veiklai tinka alternatyvi data; trumpai galiojančiam bilietui — galimybė perleisti kitam. Nepirkite griežtų sąlygų dovanos žmogui, kurio grafikas nuolat keičiasi.",
+        "Patirtį įteikite su vienu aiškiu sakiniu: ką padovanojote, kokios sąlygos ir kurias dalis jau suorganizavote. Tada ji tampa kvietimu, o ne administracine užduotimi."
+      ]
+    },
+    {
+      "id": "lt-gifts-has-everything",
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "slug": "dovana-zmogui-kuris-viska-turi",
+      "title": "Dovana žmogui, kuris viską turi: nustokite ieškoti dar vieno daikto",
+      "excerpt": "Kaip rasti dovaną žmogui, kuriam nieko netrūksta: laikas, patirtis, pagalba ir apgalvoti sunaudojami dalykai.",
+      "category": "Dovanų idėjos",
+      "publishAt": "2026-10-23T07:30:00+03:00",
+      "publicationState": "scheduled",
+      "readingMinutes": 3,
+      "relatedIds": [
+        "lt-gifts-experiences",
+        "lt-gifts-meaningful",
+        "lt-gifts-personalized"
+      ],
+      "authorIds": [
+        "dovanos123-redakcija"
+      ],
+      "sourceIds": [],
+      "productRecommendation": false,
+      "featuredImage": {
+        "src": "/images/articles/dovana-zmogui-kuris-viska-turi-v2.webp",
+        "alt": "Dvi kėdės atviroje terasoje prieš mėlyną jūros horizontą",
+        "width": 1536,
+        "height": 1024,
+        "credit": "AI sugeneruota redakcinė iliustracija; ne konkrečios prekės fotografija"
+      },
+      "body": [
+        "Žmogus, kuris „viską turi“, paprastai turi pakankamai daiktų, bet nebūtinai pakankamai laiko, naujų įspūdžių ar dėmesio. Tai nereiškia, kad turite pirkti išskirtinai brangią patirtį. Pirmiausia išsiaiškinkite, ko jis nenori: papildomo daikto, įpareigojimo ar viešos staigmenos.",
+        "## Laikas, kurio nereikės organizuoti jam",
+        "Pasiūlykite konkretų vakarą kartu, pasirūpinkite vieta ir palikite datą pakeisti. Jei jis daug dirba, dovana turi mažinti planavimo naštą, o ne reikalauti dar vienos rezervacijos. Geras planas dažnai yra vertingesnis už abstraktų kuponą.",
+        "## Mažas tikslus sunaudojamas dalykas",
+        "Jei žmogus mėgsta konkretų skonį, viena gera sunaudojama dovana gali būti maloni be poreikio ją saugoti. Prieš rinkdamiesi maistą ar gėrimą patikrinkite mitybos ribojimus. Nepirkite milžiniško rinkinio vien todėl, kad jis atrodo įspūdingai.",
+        "## Pagalba, kurią galima priimti",
+        "Jei žinote darbą, kurį žmogus vis atideda, pasiūlykite konkrečią pagalbą ir laiką. Paklauskite, ar to nori — ne kiekvienas mėgsta, kai kiti perima jo reikalus. Jei jis atsisako, tai nėra dovanos atmetimas; tiesiog reikia kitos idėjos.",
+        "## Patirtis be spaudimo",
+        "Rinkitės veiklą pagal jo paties smalsumą, ne pagal tai, kas atrodo neįprasta jums. Patikrinkite galiojimą, papildomas išlaidas ir galimybę atidėti. Išsamus sąrašas — [[patirčių dovanų gide|article:lt-gifts-experiences]].",
+        "## Kada vis dėlto tinka daiktas",
+        "Jei žmogus pats įvardijo tikslų poreikį, geras daiktas nėra blogas pasirinkimas. Tačiau nepirkite dekoro, technologijos ar drabužių be tikslaus skonio ir suderinamumo. Asmeninis užrašas neturi gelbėti daikto, kurio jam nereikia.",
+        "Galiausiai prisiminkite: dovana neturi įrodyti, kad sugebate nustebinti žmogų, kuris daug matė. Ji turi suteikti jam vieną malonią, lengvai priimamą akimirką."
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "id": "dovanos123-redakcija",
+      "slug": "dovanos123-redakcija",
+      "name": "Dovanos 123 redakcija",
+      "role": "Turinio komanda",
+      "bio": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant.",
+      "experience": "Temų planavimas, dovanų atrankos kriterijų kūrimas ir viešų šaltinių peržiūra.",
+      "sameAs": [],
+      "siteId": "dovanos123",
+      "locale": "lt-LT",
+      "kind": "organization"
+    },
+    {
+      "id": "aiste-redaktore",
+      "slug": "aiste-redaktore",
+      "name": "Aistė Petrauskaitė",
+      "role": "Dovanų gidų redaktorė",
+      "bio": "Aistė redaguoja dovanų gidus ir padeda skaitytojams išsirinkti prasmingas dovanas pagal progą, biudžetą ir santykį.",
+      "experience": "Dovanų idėjų atranka, vartotojo klausimų analizė ir turinio faktų patikra.",
+      "sameAs": [],
+      "siteId": "dovanos123",
+      "locale": "lt-LT"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-memorycasting",
+      "title": "Memory Casting rankų liejimo rinkinių puslapis",
+      "publisher": "Memory Casting",
+      "url": "https://memorycasting.lt/",
+      "accessedAt": "2026-09-19"
+    },
+    {
+      "id": "source-ikea-frame",
+      "title": "RÖDALM 13×18 cm rėmelis",
+      "publisher": "IKEA Lietuva",
+      "url": "https://www.ikea.com/lt/lt/p/roedalm-remelis-berzo-rastas-30548866/",
+      "accessedAt": "2026-09-23"
+    },
+    {
+      "id": "source-ikea-mug",
+      "title": "DINERA puodelis",
+      "publisher": "IKEA Lietuva",
+      "url": "https://www.ikea.com/lt/lt/p/dinera-puodelis-art-60350646/",
+      "accessedAt": "2026-09-23"
+    },
+    {
+      "id": "source-skonis-dovanos",
+      "title": "Dovanų rinkiniai su arbata ir kava",
+      "publisher": "Skonis ir kvapas",
+      "url": "https://www.skonis-kvapas.lt/dovanos",
+      "accessedAt": "2026-09-23"
+    },
+    {
+      "id": "source-pegasas-kuponas",
+      "title": "Elektroninis dovanų kuponas",
+      "publisher": "Pegasas",
+      "url": "https://www.pegasas.lt/dovanu-kuponai/el-dovanu-kuponas-21001319/",
+      "accessedAt": "2026-09-23"
+    },
+    {
+      "id": "source-gift-choice",
+      "title": "People-first content guidance",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "accessedAt": "2026-09-18",
+      "public": false
+    },
+    {
+      "id": "source-hand-casting",
+      "title": "Article structured data documentation",
+      "publisher": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+      "accessedAt": "2026-09-18",
+      "public": false
+    }
+  ],
+  "categories": [
+    {
+      "slug": "dovanos-porai",
+      "label": "Dovanos porai",
+      "description": "Idėjos, kurias galima patirti ir prisiminti kartu.",
+      "marker": "01",
+      "tone": "sage",
+      "articleIds": [
+        "lt-christmas-couple",
+        "lt-couple-ideas",
+        "lt-hand-casting-guide",
+        "lt-gifts-couple"
+      ]
+    },
+    {
+      "slug": "dovanos-jam",
+      "label": "Dovanos jam",
+      "description": "Rinkitės pagal jo pomėgius ir kasdienybę.",
+      "marker": "02",
+      "tone": "sand",
+      "articleIds": [
+        "lt-christmas-man",
+        "lt-gifts-boyfriend",
+        "lt-gifts-father",
+        "lt-gifts-brother"
+      ]
+    },
+    {
+      "slug": "dovanos-jai",
+      "label": "Dovanos jai",
+      "description": "Asmeniškos idėjos skirtingoms progoms.",
+      "marker": "03",
+      "tone": "lavender",
+      "articleIds": [
+        "lt-christmas-woman-2026",
+        "lt-gifts-girlfriend",
+        "lt-gifts-mother",
+        "lt-gifts-sister"
+      ]
+    },
+    {
+      "slug": "dovanos-seimai",
+      "label": "Dovanos šeimai",
+      "description": "Bendram laikui ir namų prisiminimams.",
+      "marker": "04",
+      "tone": "peach",
+      "articleIds": [
+        "lt-hand-casting-guide",
+        "lt-christmas-parents-2026",
+        "lt-christmas-family-2026",
+        "lt-gifts-grandparents"
+      ]
+    },
+    {
+      "slug": "gimtadieniui",
+      "label": "Gimtadieniui",
+      "description": "Kai norisi pradžiuginti apgalvotai.",
+      "marker": "05",
+      "tone": "sand",
+      "articleIds": []
+    },
+    {
+      "slug": "vestuviu-metinems",
+      "label": "Vestuvių metinėms",
+      "description": "Dovanos svarbiai bendrai datai.",
+      "marker": "06",
+      "tone": "sage",
+      "articleIds": [
+        "lt-anniversary",
+        "lt-hand-casting-guide"
+      ]
+    },
+    {
+      "slug": "kaledoms",
+      "label": "Kalėdoms",
+      "description": "Gidai pagal žmogų, progą ir biudžetą.",
+      "marker": "07",
+      "tone": "peach",
+      "articleIds": [
+        "lt-christmas-hub-2026",
+        "lt-christmas-couple",
+        "lt-christmas-man",
+        "lt-gifts-under-20-2026",
+        "lt-christmas-woman-2026",
+        "lt-christmas-parents-2026",
+        "lt-christmas-family-2026",
+        "lt-christmas-original-2026",
+        "lt-christmas-friends-2026"
+      ]
+    },
+    {
+      "slug": "personalizuotos-dovanos",
+      "label": "Personalizuotos dovanos",
+      "description": "Prisiminimai su jūsų pačių istorija.",
+      "marker": "08",
+      "tone": "lavender",
+      "articleIds": [
+        "lt-hand-casting-guide",
+        "lt-hand-casting",
+        "lt-gifts-personalized",
+        "lt-gifts-sentimental"
+      ]
+    },
+    {
+      "slug": "dovanos-draugei",
+      "label": "Dovanos draugei",
+      "description": "Maži gestai ir didesnės staigmenos.",
+      "marker": "09",
+      "tone": "lavender",
+      "articleIds": [
+        "lt-gifts-female-friend",
+        "lt-christmas-friends-2026"
+      ]
+    },
+    {
+      "slug": "dovanos-draugui",
+      "label": "Dovanos draugui",
+      "description": "Praktiškos idėjos pagal jo pomėgius.",
+      "marker": "10",
+      "tone": "sage",
+      "articleIds": [
+        "lt-christmas-man",
+        "lt-gifts-male-friend",
+        "lt-christmas-friends-2026"
+      ]
+    },
+    {
+      "slug": "iki-20-euru",
+      "label": "Iki 20 €",
+      "description": "Mintis svarbesnė už sumą.",
+      "marker": "11",
+      "tone": "sand",
+      "articleIds": [
+        "lt-gifts-under-20-2026"
+      ]
+    },
+    {
+      "slug": "25-50-euru",
+      "label": "25–50 €",
+      "description": "Apgalvotos dovanos aiškiam biudžetui.",
+      "marker": "12",
+      "tone": "peach",
+      "articleIds": []
+    }
+  ],
+  "newIds": [
+    "lt-christmas-hub-2026",
+    "lt-gift-planning-2026",
+    "lt-gifts-under-20-2026"
+  ],
+  "scheduledIds": [
+    "lt-christmas-woman-2026",
+    "lt-christmas-parents-2026",
+    "lt-christmas-family-2026",
+    "lt-christmas-original-2026",
+    "lt-christmas-friends-2026",
+    "lt-gifts-boyfriend",
+    "lt-gifts-girlfriend",
+    "lt-gifts-female-friend",
+    "lt-gifts-male-friend",
+    "lt-gifts-couple",
+    "lt-gifts-mother",
+    "lt-gifts-father",
+    "lt-gifts-grandparents",
+    "lt-gifts-brother",
+    "lt-gifts-sister",
+    "lt-gifts-personalized",
+    "lt-gifts-meaningful",
+    "lt-gifts-sentimental",
+    "lt-gifts-experiences",
+    "lt-gifts-has-everything"
+  ]
+}

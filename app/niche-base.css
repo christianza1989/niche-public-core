@@ -1,0 +1,10 @@
+/* Shared niche document reset; each niche owns its actual design tokens. */
+html{color-scheme:light;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;font-family:Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+*,*::before,*::after{box-sizing:border-box}
+button,input,select,textarea{font:inherit}
+button,summary{cursor:pointer}
+img,svg{vertical-align:middle}
+img{max-width:100%}
+button,input,textarea{border-radius:0}
+[hidden]{display:none!important}

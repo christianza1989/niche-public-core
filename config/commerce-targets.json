@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": "memorycasting-information",
+      "status": "ready",
+      "purpose": "information",
+      "canonicalUrl": "https://memorycasting.lt/",
+      "allowedQueryParams": [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_content"
+      ],
+      "verifiedAt": "2026-10-04T21:06:31.000Z",
+      "expiresAt": "2026-10-11T21:06:31.000Z",
+      "label": "Apie rinkinį",
+      "evidence": "research/dovanos123-integration-2026-10-04/M3/COMMERCE-REVIEW.md"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.dev.vars*
+*mail_login_and_password*
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+/dist/
+/.wrangler/
+# Checkout-local execution profile and tool state; never publish them.
+/.sites-runtime/
+/.agents/
+/.codex/
+/outputs/
+/output/dovanos123-m1-isolated/
+/output/dovanos123-integration/
+/output/dovanos123-editorial/
+/output/playwright/dovanos123-integration/
+/output/imagegen/dovanos123-integration/
+/output/dovanos123-m5-root/
+/output/dovanos123-m5-root-r*/
+/work/
+/.playwright-cli/
+
+.vercel
+
+# Clean multi-machine source snapshot; local state excluded.
+node_modules/
+output/
+outputs/
+data/
+build/
+work/
+artifacts/
+logs/
+secrets/
+credentials/
+*.db
+*.sqlite3
+*.tsbuildinfo

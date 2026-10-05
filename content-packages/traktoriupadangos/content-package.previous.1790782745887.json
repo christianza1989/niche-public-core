@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "siteId": "traktoriupadangos",
+  "canonicalHost": "traktoriupadangos.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "traktoriupadangos",
+    "name": "Traktorių padangos",
+    "canonicalHost": "traktoriupadangos.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#d7ba3f"
+    },
+    "offer": "Traktorių padangų pasirinkimo informacija ir poreikio užklausos",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "traktoriupadangos",
+      "type": "home",
+      "slug": "",
+      "title": "Traktorių padangos: pasirinkimas pagal jūsų techniką",
+      "description": "Supraskite padangų matmenis, konstrukciją ir pasirinkimo klausimus. Praktiniai gidai ir aiškus būdas pateikti traktoriaus padangų poreikį.",
+      "intent": "Nuo ko pradėti traktoriaus padangų pasirinkimą ir kur pateikti savo poreikį?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Vien dydžio neužtenka. Užsirašykite visą padangos žymėjimą, traktoriaus modelį ir darbo sąlygas — turėsite aiškesnį pagrindą pokalbiui su padangų specialistu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti pasirinkimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trys klausimai, kurie padeda atsirinkti informaciją prieš žiūrint į padangų pasiūlymus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pasiruoškite technikos duomenis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Traktoriaus modelis, ašis ir atliekami darbai suteikia dydžio kodui reikalingą kontekstą. Pradėkite nuo aiškaus patikros sąrašo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Perskaitykite visą žymėjimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ant padangos šono ieškokite ne vien matmenų. Nurašykite ir konstrukcijos bei apkrovos ar greičio žymas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Supraskite konstrukciją"
+        },
+        {
+          "type": "paragraph",
+          "text": "Radialinė ir diagonalinė konstrukcija nėra tas pats. Palyginimą pradėkite nuo technikos reikalavimų ir tikro naudojimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Matmuo — tik pradžia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dydžio kodą verta perskaityti dalimis. Tačiau jis nepakeičia konkretaus modelio techninės informacijos ir tinkamumo patikros."
+        },
+        {
+          "type": "list",
+          "items": [
+            "650 — nominalus plotis milimetrais.",
+            "60 — profilio santykis procentais.",
+            "R — radialinė konstrukcija.",
+            "38 — nominalus ratlankio skersmuo coliais."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur ir kaip dirba jūsų technika?"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lauko darbai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aprašykite padargus, naudojimo sąlygas ir tai, kokių duomenų apie apkrovą turite. Tai padės tinkamai kelti klausimus gamintojo dokumentacijai."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Važiavimas keliu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite transportavimo darbus ir greitį. Informacija apie naudojimą reikalinga kartu su padangos ir mašinos duomenimis."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mišrus naudojimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei traktorius dirba ir lauke, ir kelyje, aprašykite abu scenarijus. Vieno darbo režimo nereikėtų laikyti visų kitų pakaitalu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai prieš pasirenkant"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar vienodas dydis reiškia vienodą tinkamumą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Reikia konkrečios padangos techninių duomenų, ratlankio ir traktoriaus reikalavimų. Dydis yra tik patikros pradžia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar galiu čia nusipirkti padangas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuo metu pateikiame informaciją ir priimame poreikio užklausas. Viešo prekių sandėlio, kainyno ar pirkimo krepšelio nėra."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką parašyti, jei nežinau tikslaus dydžio?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašykite traktoriaus modelį ir matomą padangos žymėjimą. Neaiškių simbolių nespėliokite — pažymėkite, ko nepavyko perskaityti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar užklausa patvirtina padangos tinkamumą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Formoje aprašomas poreikis. Konkretaus padangos ir technikos derinio patikrą reikia atlikti pagal gamintojo dokumentus su specialistu."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [
+        {
+          "id": "493665ac-7356-479b-a075-0a7352663df1",
+          "src": "/content-assets/traktoriupadangos/493665ac-7356-479b-a075-0a7352663df1.webp",
+          "alt": "Iliustracinė nepaženklinta žemės ūkio padanga su V formos protektoriumi",
+          "width": 782,
+          "height": 1001,
+          "credit": "Originali ImageGen iliustracija, ne konkretus parduodamas modelis.",
+          "rights": "Originalus OpenAI ImageGen vaizdas, sukurtas šiam projektui 2026-09-30. Iliustracija, ne reali prekių katalogo fotografija."
+        },
+        {
+          "id": "17c8f68e-1705-400d-870b-77fa2f63f164",
+          "src": "/content-assets/traktoriupadangos/17c8f68e-1705-400d-870b-77fa2f63f164.webp",
+          "alt": "Iliustracinė nepaženklinta žemės ūkio padanga su V formos protektoriumi",
+          "width": 720,
+          "height": 922,
+          "credit": "Originali ImageGen iliustracija, ne konkretus parduodamas modelis.",
+          "rights": "Originalus OpenAI ImageGen vaizdas, sukurtas šiam projektui 2026-09-30. Iliustracija, ne reali prekių katalogo fotografija."
+        },
+        {
+          "id": "1e2e3d87-e30c-4c1a-b476-4bbec2438618",
+          "src": "/content-assets/traktoriupadangos/1e2e3d87-e30c-4c1a-b476-4bbec2438618.webp",
+          "alt": "Iliustracinė nepaženklinta žemės ūkio padanga su V formos protektoriumi",
+          "width": 480,
+          "height": 614,
+          "credit": "Originali ImageGen iliustracija, ne konkretus parduodamas modelis.",
+          "rights": "Originalus OpenAI ImageGen vaizdas, sukurtas šiam projektui 2026-09-30. Iliustracija, ne reali prekių katalogo fotografija."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "940dc1a4-bd53-4f91-85f3-64e8de228010",
+          "label": "Kaip išsirinkti traktoriaus padangas: nuo kokių duomenų pradėti?"
+        },
+        {
+          "targetPageId": "4825f37d-e5bd-48ba-b4ab-f8146a523980",
+          "label": "Traktoriaus padangų žymėjimas: kaip skaityti šoninę sienelę?"
+        },
+        {
+          "targetPageId": "4e3a6ecd-ac2f-4cd0-985a-528027041051",
+          "label": "Radialinės ar diagonalinės traktoriaus padangos: kuo skiriasi?"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://business.michelinman.com/tips-suggestions/reading-tire-markings",
+          "label": "Michelin: padangos žymėjimas",
+          "reason": "Pagrindžia pateikto matmenų pavyzdžio skaitymą; patikrinta 2026-09-30."
+        }
+      ],
+      "id": "8b0140c6-5f0c-4015-b923-fa1d8abd03ae",
+      "revisionHash": "c35b0d9c5995a45929f11f4e2798f165bddf161cf349ebc4ef30f15f369fa86f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c35b0d9c5995a45929f11f4e2798f165bddf161cf349ebc4ef30f15f369fa86f",
+        "approvedAt": "2026-09-30T09:03:08.838Z",
+        "actorId": "codex-showroom-media-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "guide",
+      "slug": "gidas/kaip-issirinkti-traktoriaus-padangas",
+      "title": "Kaip išsirinkti traktoriaus padangas: nuo kokių duomenų pradėti?",
+      "description": "Praktinis pasirengimo sąrašas: esamos padangos, traktoriaus modelis, ratlankis, ašis ir naudojimo sąlygos. Ką patikrinti prieš lyginant pasiūlymus.",
+      "intent": "Kokių duomenų reikia prieš renkantis traktoriaus padangas?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Traktoriaus padangų pasirinkimą pradėkite nuo esamos komplektacijos ir savo darbų aprašymo. Žymėjimas padeda identifikuoti padangą, o mašinos, ratlankio ir naudojimo informacija padeda suformuluoti konkrečią tinkamumo patikrą. Vien pagal išvaizdą arba vieną dydžio eilutę sprendimo nepriimkite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1. Užfiksuokite, kas sumontuota dabar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai technika saugiai pastatyta ir jos galima apžiūrėti, nurašykite visą padangos šono žymėjimą. Jei simbolis neįskaitomas, pažymėkite tai užrašuose. Nereikia iš atminties atkurti skaičių, kurių nematote."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Užrašykite gamintoją, modelio pavadinimą ir visą dydžio eilutę.",
+            "Nurodykite, ar tai priekinė, ar galinė ašis, ir ar keičiate vieną padangą, porą ar komplektą.",
+            "Atskirai užrašykite papildomas žymas bei ratlankio duomenis, jeigu jie prieinami."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2. Aprašykite mašiną ir naudojimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Specialistui pateikite traktoriaus modelį bei informaciją apie komplektaciją. Nežinomi duomenys nėra kliūtis pradėti pokalbį — svarbu jų nepakeisti spėjimu."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokie pagrindiniai darbai: laukas, transportavimas ar mišrus naudojimas?",
+            "Kokie padargai ir kroviniai naudojami?",
+            "Kokią informaciją apie apkrovą, darbo greitį ir balastą turite?",
+            "Ar norite išlaikyti esamą dydį, ar svarstote kitą?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3. Tinkamumą vertinkite atskirai nuo kainos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prašydami pasiūlymo pasitikrinkite, ar jame nurodytas konkretus padangos modelis ir dydis. Ratlankio reikalavimai tikrinami konkrečioje techninėje informacijoje. Slėgio klausimui reikia to modelio ir realaus darbo režimo duomenų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dydis keičiamas keturiais ratais varomame traktoriuje, vien išorinio panašumo nepakanka. Priekinės ir galinės ašies derinį vertinkite pagal traktoriaus bei padangų gamintojo reikalavimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4. Lyginkite tokią pačią pasiūlymo apimtį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palyginimui susirašykite, kas įtraukta į kiekvieną pasiūlymą. Mažesnė vienos padangos kaina savaime neatsako į visus pirkimo klausimus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar lyginate vienodą modelį, dydį ir konstrukciją?",
+            "Ar kaina nurodyta su PVM, ir kokiam kiekiui ji taikoma?",
+            "Kokios pristatymo, montavimo ir kitų darbų sąlygos?",
+            "Kas ir pagal kokius duomenis patikrins konkretų tinkamumą?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Poreikio aprašymo pavyzdys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinė užklausos struktūra: „Traktoriaus modelis: …; dabartinė priekinė padanga: …; galinė: …; ratlankio duomenys: …; pagrindiniai darbai: …; norimas kiekis: …; klausimas: ar galima išlaikyti esamą komplektaciją?“ Tai paruošiamas aprašymas, ne patvirtinto suderinamumo išvada."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada reikalingas specialistas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinkamumo, neaiškių pažeidimų ar montavimo klausimai negali būti išspręsti vien šiame puslapyje. Surinkite informaciją, tada konkrečiam sprendimui naudokite gamintojo dokumentaciją ir kompetentingo specialisto vertinimą."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        },
+        {
+          "targetPageId": "4825f37d-e5bd-48ba-b4ab-f8146a523980",
+          "label": "Traktoriaus padangų žymėjimas: kaip skaityti šoninę sienelę?"
+        },
+        {
+          "targetPageId": "4e3a6ecd-ac2f-4cd0-985a-528027041051",
+          "label": "Radialinės ar diagonalinės traktoriaus padangos: kuo skiriasi?"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://business.michelinman.com/help-advice/farm-vehicles/tractor-tire-pressure",
+          "label": "Michelin: traktoriaus padangų slėgio parinkimas",
+          "reason": "Pagrindžia apkrovos, mašinos ir darbo režimo duomenų svarbą slėgio klausimui; patikrinta 2026-09-30."
+        },
+        {
+          "url": "https://blog.bridgestone-agriculture.eu/impact-of-the-dynamic-rolling-circumference-of-agricultural-tyres",
+          "label": "Bridgestone: riedėjimo apskritimas",
+          "reason": "Pagrindžia atskirą 4x4 ašių derinio patikros poreikį; patikrinta 2026-09-30."
+        }
+      ],
+      "id": "940dc1a4-bd53-4f91-85f3-64e8de228010",
+      "revisionHash": "5b4fe1c85a155eaa36213a86218f7ebf65c093ed1a5e5f0c9ac5de13be487415",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "5b4fe1c85a155eaa36213a86218f7ebf65c093ed1a5e5f0c9ac5de13be487415",
+        "approvedAt": "2026-09-30T09:03:08.889Z",
+        "actorId": "codex-language-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "guide",
+      "slug": "gidas/traktoriaus-padangu-zymejimas",
+      "title": "Traktoriaus padangų žymėjimas: kaip skaityti šoninę sienelę?",
+      "description": "Kaip atskirti plotį, profilį, konstrukciją ir ratlankio skersmenį. Praktinis sąrašas, ką nurašyti nuo padangos prieš siunčiant užklausą.",
+      "intent": "Kaip perskaityti traktoriaus padangos dydį ir papildomas žymas?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Padangos šone perskaitykite visą žymėjimą, o ne vien didžiausius skaičius. Jame gali būti dydis, konstrukcija ir naudojimo indeksai. Šių duomenų kopija padeda išvengti neaiškumo bendraujant su pardavėju ar specialistu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dydžio pavyzdys: 650/60 R38"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai iliustracinis žymėjimo skaitymo pavyzdys. Jis nėra konkrečiam traktoriui rekomenduojamas dydis."
+        },
+        {
+          "type": "list",
+          "items": [
+            "650 žymi nominalų padangos plotį milimetrais.",
+            "60 yra profilio santykis: šono aukščio santykis su nominaliu pločiu, išreikštas procentais.",
+            "R nurodo radialinę konstrukciją.",
+            "38 yra nominalus ratlankio skersmuo coliais, ne visos padangos išorinis skersmuo."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką dar verta užrašyti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po dydžio esantys kodai gali nurodyti apkrovos ir greičio indeksus. Papildomos raidės ar užrašai taip pat priklauso pilnam padangos aprašymui. Nurašykite juos kartu su gamintoju ir modeliu; reikšmę tikrinkite pagal konkrečią techninę informaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip susirinkti informaciją be spėlionių"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nurašykite žymėjimą nuo naudojamos padangos, jei saugiai galima jį perskaityti.",
+            "Atskirai pažymėkite ašį ir pusę, kad nesumaišytumėte skirtingų ratų.",
+            "Neįskaitomą dalį pažymėkite klaustuku; nekeiskite jos panašiu skaičiumi.",
+            "Užrašykite, jeigu padangos šonuose matote skirtingus dydžius ar modelius."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko šis kodas nepatvirtina?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dydžio kodas nepakeičia ratlankio reikalavimų, mašinos dokumentacijos ar viso padangos modelio specifikacijos. Kito žymėjimo nereikėtų laikyti automatiškai tinkamu pakaitalu. Jeigu norite keisti dydį, užklausoje aiškiai atskirkite dabartinį žymėjimą nuo siūlomo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpa užrašų forma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasidarykite vieną įrašą kiekvienai skirtingai padangai: „Ašis: …; gamintojas ir modelis: …; visas žymėjimas: …; neįskaitomi simboliai: …“. Tai paprastas informacijos surinkimo būdas, o ne automatinio parinkimo įrankis."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        },
+        {
+          "targetPageId": "940dc1a4-bd53-4f91-85f3-64e8de228010",
+          "label": "Kaip išsirinkti traktoriaus padangas: nuo kokių duomenų pradėti?"
+        },
+        {
+          "targetPageId": "4e3a6ecd-ac2f-4cd0-985a-528027041051",
+          "label": "Radialinės ar diagonalinės traktoriaus padangos: kuo skiriasi?"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://business.michelinman.com/tips-suggestions/reading-tire-markings",
+          "label": "Michelin: žemės ūkio padangos žymėjimas",
+          "reason": "Pagrindžia dydžio, radialinės konstrukcijos, apkrovos ir greičio kodų aiškinimą; patikrinta 2026-09-30."
+        }
+      ],
+      "id": "4825f37d-e5bd-48ba-b4ab-f8146a523980",
+      "revisionHash": "aa8bb896b188a4d55ae4c006e713b1f6d775019c9df534a7d400082ebd581aa9",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "aa8bb896b188a4d55ae4c006e713b1f6d775019c9df534a7d400082ebd581aa9",
+        "approvedAt": "2026-09-30T06:54:12.615Z",
+        "actorId": "codex-source-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "guide",
+      "slug": "gidas/radialines-ar-diagonalines-traktoriaus-padangos",
+      "title": "Radialinės ar diagonalinės traktoriaus padangos: kuo skiriasi?",
+      "description": "Konstrukcijų skirtumas ir praktiški klausimai palyginimui. Kodėl sprendimas priklauso nuo konkrečios technikos ir padangos modelio.",
+      "intent": "Kuo skiriasi radialinė ir diagonalinė konstrukcija ir ką tai reiškia pasirinkimui?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Radialinės ir diagonalinės padangos skiriasi vidinės konstrukcijos kordo sluoksnių išdėstymu. Tai nėra vien du to paties gaminio pavadinimai. Konstrukciją svarbu vertinti kartu su konkrečiu modeliu ir technikos reikalavimais, o ne rinktis pagal bendrą „geresnės padangos“ etiketę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Radialinė konstrukcija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Radialinės padangos kordo sluoksniai eina nuo borto iki borto radialine kryptimi, o protektoriaus zona sustiprinama juostomis. Dydžio kode radialinę konstrukciją nurodo raidė R."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Diagonalinė konstrukcija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagonalinėje konstrukcijoje kordo sluoksniai kerta vienas kitą skirtingomis kryptimis. Konstrukcijos skirtumas gali būti svarbus vertinant padangos darbą, tačiau vien šis aprašymas nenusprendžia konkretaus dydžio ar modelio tinkamumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginimą pradėkite nuo savo naudojimo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užuot klausus vien „kuri konstrukcija geresnė?“, verta aprašyti, ką turi atlikti jūsų technika. Taip gausite aiškesnį klausimą pardavėjui ir mažiau vietos abstraktiems pažadams."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokia konstrukcija numatyta mašinos dokumentuose ir kas sumontuota dabar?",
+            "Kokius konkrečius padangų modelius lyginate?",
+            "Kokie darbai atliekami lauke ir kelyje?",
+            "Ar pasiūlyme įvertinti ratlankio ir technikos reikalavimai?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PR skaičiaus nepaverskite sluoksnių skaičiavimu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trelleborg aiškina, kad šiuolaikinis ply rating nėra tiesiog tikrasis vidinių sluoksnių skaičius. Jeigu palyginime matote PR, nepakeiskite jo savo interpretacija apie padangos sandarą; tikrinkite modelio techninę informaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko nevertėtų laikyti pasirinkimo pagrindu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vienodos išvaizdos ar vien matmenų kodo.",
+            "Bendro teiginio, kad viena konstrukcija tinka visiems darbams.",
+            "Pardavimo palyginimo, kuriame nėra konkretaus modelio ir dydžio.",
+            "Prielaidos, kad pigesnis pasiūlymas apima tuos pačius darbus ir sąlygas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kitas naudingas žingsnis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasiruoškite esamos komplektacijos duomenis ir paprašykite palyginti konkrečius modelius pagal jūsų techniką. Šis gidas padeda užduoti klausimus, bet nepateikia individualaus montavimo ar suderinamumo patvirtinimo."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        },
+        {
+          "targetPageId": "940dc1a4-bd53-4f91-85f3-64e8de228010",
+          "label": "Kaip išsirinkti traktoriaus padangas: nuo kokių duomenų pradėti?"
+        },
+        {
+          "targetPageId": "4825f37d-e5bd-48ba-b4ab-f8146a523980",
+          "label": "Traktoriaus padangų žymėjimas: kaip skaityti šoninę sienelę?"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.trelleborg-tires.com/en/education/faq",
+          "label": "Trelleborg: radialinė ir diagonalinė konstrukcija",
+          "reason": "Gamintojo DUK paaiškina konstrukcijų bei PR reikšmę; patikrinta 2026-09-30."
+        }
+      ],
+      "id": "4e3a6ecd-ac2f-4cd0-985a-528027041051",
+      "revisionHash": "5296bb4c2006030d42346deea7888b7a2fe7f9743c106717adcb0dbfb83229e0",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "5296bb4c2006030d42346deea7888b7a2fe7f9743c106717adcb0dbfb83229e0",
+        "approvedAt": "2026-09-30T06:54:12.842Z",
+        "actorId": "codex-source-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Traktorių padangų pasirinkimo gidai",
+      "description": "Nuo technikos duomenų iki žymėjimo ir konstrukcijos: praktiški atsakymai prieš renkantis traktoriaus padangas.",
+      "intent": "Kur rasti atsakymus į pagrindinius traktorių padangų pasirinkimo klausimus?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite klausimą, nuo kurio norite pradėti. Gidai padeda susirinkti duomenis ir suprasti, ką reikia patikrinti pagal konkrečią techniką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Skaitykite pagal savo klausimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar tik pradedate, pradėkite nuo pasirinkimo duomenų sąrašo. Jei turite padangos žymėjimą, perskaitykite jo paaiškinimą. Konstrukcijų palyginimas naudingas tada, kai svarstote konkrečius pasiūlymus."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "940dc1a4-bd53-4f91-85f3-64e8de228010",
+          "label": "Kaip išsirinkti traktoriaus padangas: nuo kokių duomenų pradėti?"
+        },
+        {
+          "targetPageId": "4825f37d-e5bd-48ba-b4ab-f8146a523980",
+          "label": "Traktoriaus padangų žymėjimas: kaip skaityti šoninę sienelę?"
+        },
+        {
+          "targetPageId": "4e3a6ecd-ac2f-4cd0-985a-528027041051",
+          "label": "Radialinės ar diagonalinės traktoriaus padangos: kuo skiriasi?"
+        }
+      ],
+      "id": "c02e4389-81c3-4532-ad83-5103c603ae96",
+      "revisionHash": "7ce442d9f450212a87ffb98713a85bcf6027ad4c27186a2f1a0a90a991430667",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7ce442d9f450212a87ffb98713a85bcf6027ad4c27186a2f1a0a90a991430667",
+        "approvedAt": "2026-09-30T06:54:13.570Z",
+        "actorId": "codex-source-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "faq",
+      "slug": "duk",
+      "title": "Dažniausi klausimai apie traktorių padangų pasirinkimą",
+      "description": "Atsakymai apie padangų poreikio užklausą, žymėjimą, kainas ir sprendimo ribas. Kas pateikiama šioje svetainėje.",
+      "intent": "Ką galiu padaryti šiame projekte ir ko reikia pasirinkimui?",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar svetainė yra veikianti padangų parduotuvė?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuo metu tai informacinė svetainė su poreikio užklausos forma. Patvirtinto sandėlio, kainyno, pirkimo krepšelio ar montavimo paslaugos nepateikiame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar užklausa yra užsakymas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Ji skirta aprašyti poreikį. Išsiuntimas nėra pirkimo sutartis, atsargų rezervacija ar padangos tinkamumo patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kodėl nėra kainų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mūsų kainos ir tiekimo sąlygos dar nepatvirtintos. Todėl svetainėje nepateikiame konkurentų kainų kaip savo pasiūlymo ir nesukuriame tariamo katalogo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką surinkti prieš kreipiantis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite visą padangos žymėjimą, traktoriaus modelį, ašį, naudojimo sąlygas ir klausimą. Nežinomas detales aiškiai pažymėkite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar gidas nustato slėgį ar patvirtina kitą dydį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Konkrečių padangų naudojimas tikrinamas pagal jų techninę informaciją ir mašinos reikalavimus. Šie gidai skirti suprasti klausimą ir pasiruošti specialistų vertinimui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar pagrindinio puslapio nuotrauka rodo jūsų parduodamą prekę?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Tai šiam projektui sukurta ImageGen iliustracija. Ji nerodo konkretaus parduodamo modelio ar tikro kliento technikos."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        }
+      ],
+      "id": "6f54accc-3cd4-47ac-a3ec-2fa187be5226",
+      "revisionHash": "764f72b68eb6174ac1317409113bddd40ac372daa715cb30dff2ef1270dfe839",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "764f72b68eb6174ac1317409113bddd40ac372daa715cb30dff2ef1270dfe839",
+        "approvedAt": "2026-09-30T06:54:13.847Z",
+        "actorId": "codex-source-review-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "faq",
+      "slug": "kontaktai",
+      "title": "Kontaktai ir traktoriaus padangų poreikio užklausa",
+      "description": "Pateikite matmenis, traktoriaus modelį ir savo klausimą. Projekto kontaktinis el. paštas info@pinet.lt.",
+      "intent": "Kaip pateikti klausimą arba padangų poreikį?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Projekto kontaktinis el. paštas: info@pinet.lt. Taip pat galite užpildyti poreikio formą šiame puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką įrašyti į užklausą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Traktoriaus modelį ir ašį.",
+            "Visą padangos žymėjimą, jei jį žinote.",
+            "Atliekamus darbus ir norimą kiekį.",
+            "Konkretų klausimą ir detales, kurių nepavyko patikrinti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia formos išsiuntimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikta informacija skirta poreikiui aprašyti. Forma nepatvirtina padangos tinkamumo, pardavimo kainos, tiekimo ar montavimo. El. paštas yra bendras projekto operatoriaus kontaktas; šiam domenui atskiro telefono nenurodome."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        }
+      ],
+      "id": "c4a94393-d662-4b0b-8e1d-2c677dbd8cc7",
+      "revisionHash": "1063d810d9f77bd8c741d9018788779c456526016b129fdd1957329497f4dc4f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "1063d810d9f77bd8c741d9018788779c456526016b129fdd1957329497f4dc4f",
+        "approvedAt": "2026-09-30T08:53:20.517Z",
+        "actorId": "codex-owner-contact-change-2026-09-30"
+      }
+    },
+    {
+      "siteId": "traktoriupadangos",
+      "type": "faq",
+      "slug": "privatumas",
+      "title": "Privatumo informacija",
+      "description": "Kokie duomenys pateikiami užklausos formoje, kam jie naudojami ir kur kreiptis dėl jų tvarkymo.",
+      "intent": "Kaip tvarkomi šiame projekte pateikti užklausos duomenys?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Projekto operatorius: MB Pinet. Bendras kontaktas dėl užklausų ir pateiktų duomenų: info@pinet.lt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši informacija aprašo traktoriupadangos.lt poreikio formos techninį duomenų kelią. Klausimus dėl duomenų galite pateikti projekto kontaktu info@pinet.lt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pateikiate ir kas išsaugoma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formoje pateikiamas vardas, el. paštas ir žinutė. Užklausos įrašas taip pat turi pateikimo laiką, sutikimo laiką ir puslapio kelią, iš kurio ji pateikta. Duomenys atskiriami pagal svetainę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kam naudojama užklausa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenys skirti apdoroti pateiktą poreikį ir susisiekti jūsų nurodytu el. paštu. Forma neprenumeruoja reklaminių laiškų. Nerašykite žinutėje slaptažodžių, mokėjimo duomenų ar kitų užklausai nereikalingų jautrių duomenų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Puslapio susidomėjimo matavimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaičiuojamos bendros dienos puslapių peržiūros ir el. pašto ar telefono nuorodų paspaudimai. Šie įrašai turi tik svetainę, dieną, viešo puslapio kelią, įvykio rūšį ir bendrą skaičių. Nenaudojami analitikos slapukai ar individualūs lankytojų identifikatoriai; IP adresas šiame skaitiklių įraše nesaugomas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peržiūros ir tikros gautos užklausos vertinamos atskirai. El. pašto nuorodos paspaudimas savaime nėra gautas laiškas. Tai nėra unikalių lankytojų skaičius. Naršyklės Do Not Track arba Global Privacy Control signalas sustabdo šį skaitiklį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai apie jūsų duomenis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl savo pateiktos užklausos, duomenų tikslinimo ar pašalinimo rašykite info@pinet.lt ir nurodykite, kokiu el. paštu siuntėte užklausą. Nepersiųskite perteklinių asmens dokumentų kopijų."
+        }
+      ],
+      "publishAt": "2026-09-30T06:54:08.845Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "c02e4389-81c3-4532-ad83-5103c603ae96",
+          "label": "Traktorių padangų pasirinkimo gidai"
+        }
+      ],
+      "id": "f4fe8f12-65c9-461c-bf84-e20b6fc11959",
+      "revisionHash": "6220aa29b2414fc8585570830ff30200d85307bfb5dd19496fe230bc9ff83668",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6220aa29b2414fc8585570830ff30200d85307bfb5dd19496fe230bc9ff83668",
+        "approvedAt": "2026-09-30T08:53:20.530Z",
+        "actorId": "codex-owner-contact-change-2026-09-30"
+      }
+    }
+  ],
+  "generatedAt": "2026-09-30T09:03:08.922Z"
+}
