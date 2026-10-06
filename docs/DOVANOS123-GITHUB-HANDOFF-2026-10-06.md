@@ -70,6 +70,11 @@ Nekeisti approval hash rankomis ir neįjungti būsimo turinio vien dėl Git push
   `./build/sites-vite-plugin`. Šis perdavimas tų source failų nekeičia. Spraga
   perduota core koordinatoriui; neįkelti privataus managed-host config ar apsimetamos
   production konfigūracijos vien tam, kad build praeitų.
+- Portable pataisymo kandidatas jau yra [core PR1](https://github.com/christianza1989/niche-public-core/pull/1):
+  versioned vendor plugin ir optional local hosting config. PR taip pat turi kito
+  projekto pakeitimų, todėl jo aklai neperimti ar nesujungti šio staging pavedimu.
+  Build/HTTP kartoti po faktinio pataisos sujungimo arba aiškiai įvardytame atskirame
+  integration branch; jo PASS nepriskirti atgal šio main-based kandidato versijai.
 - Actual HTTP/SEO smoke naujame clone: **UNVERIFIED** dėl šio build blocker.
   Ankstesni localhost8930 HTTP/Lighthouse rezultatai lieka istorinio checkpoint
   įrodymais, ne šio švaraus clone ar deployment priėmimu.
