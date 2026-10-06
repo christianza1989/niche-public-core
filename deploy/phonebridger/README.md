@@ -11,7 +11,7 @@ node deploy/phonebridger/build.mjs ../nisiniai_puslapiai_monetizavimui <approved
 node node_modules/wrangler/bin/wrangler.js deploy --config deploy/phonebridger/wrangler.jsonc --dry-run
 ```
 
-The build checks every prototype file hash before transforming it. It rejects changed contact/privacy copy without a matching Studio-reviewed edition. Deployment does not create editorial approval. The accepted homepage receives only publication metadata, a null guard, first-party measurement and restored download destinations; its appearance and demo engine stay as approved. Inner pages receive production service copy. The four account routes remain noindex and outside public discovery outputs.
+The build checks every prototype file hash before transforming it. It rejects changed contact/privacy copy without a matching Studio-reviewed edition. Deployment does not create editorial approval. The accepted homepage receives only publication metadata, a null guard, first-party measurement and restored download destinations; its main content and demo engine stay as approved. The owner separately authorized a shared header/footer on 6 October; all 19 routes now use the companion production shell and four scoped assets. Inner pages receive production service copy. The four account routes remain noindex and outside public discovery outputs.
 
 Installer hashes must match `release/v1.1-auto-usb-1/package-verification.json`. Static Assets has a 25 MiB individual-file limit; the unchanged ZIP is delivered as a streamed concatenation of 20 MiB delivery parts. Those internal part URLs return 404 publicly. HTTP ranges work across part boundaries. This is delivery splitting, not repackaging. No R2 or paid plan was activated.
 

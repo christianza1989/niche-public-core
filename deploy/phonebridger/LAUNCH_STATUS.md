@@ -47,6 +47,18 @@ Actual browser purchases in the isolated Stripe sandbox succeeded for the $70 ph
 
 For scoped application rollback, the preceding production version is `99a6fa36-da93-43c8-b9dc-c95e9a124787`. The additive table can remain for compatibility; do not restore the private backup over intervening customer changes. Worker rollback does not reverse data or secrets. Playground resources are isolated from the canonical site and mailbox.
 
+## Shared header/footer release — 6 October 2026
+
+The owner authorized replacing the homepage navigation/footer to match all inner pages. Production version **3a7a058b-e193-4521-88c5-ea94cef1a649** serves the companion's single shell on all **19 routes**, with four dedicated shared assets. The immutable prototype, homepage main content/demo and original installers remain byte-attested. Public content revisions are unchanged because the replaced chrome is outside reviewed main copy.
+
+Canonical HTTP checks pass for exactly one identical header/footer on every route and exact deployed CSS/JS/SVG assets. The ordinary browser rendered the homepage, shop and contact page; active navigation, 320-pixel reflow, 44-pixel header targets, Escape/focus return and mobile footer access were checked. A fixed shop summary initially covered the footer and is now hidden while the footer is visible. An inherited homepage heading weight was corrected to match inner pages. No homepage console errors were observed. Screenshots remain in ignored local output. The standalone local Workers preview stalled; canonical browser acceptance succeeded through the existing live tab.
+
+The core suite passes **78 tests**, including 22 commerce tests; the generic SEO smoke passes for its seven-page pilot. Full canonical acceptance on version 903fe869-2a7c-4b6f-920c-cd938f477689 passed account/CSRF/order privacy, 14 public revisions, installer hashes and cross-part ranges. Later changes were limited to shared chrome; final shell assets/routes and rendered behavior were rechecked separately.
+
+The additive procurement table was applied to the dedicated production D1 before deployment, without replacing customer data or seeding inventory. The backend supports an explicit immutable manual-dropship model and protected private supplier exports. The owner confirmed free worldwide shipping and non-VAT-registered MB Memocasting. Payment acceptance now checks the exact merchant and Stripe charges_enabled; payout verification is tracked separately rather than confused with payment capability. This preparation does **not** activate live checkout: policy remains disabled, the owner must finish the prepared restricted-key creation, and the live webhook and reviewed commercial edition still need completion. No real charge or supplier purchase was made.
+
+The preceding stable Worker version was 3d6455c4-7ff4-4c73-a7c1-997acd4bd2da. Scoped rollback may retain the additive procurement table. DNS, mailbox and other application credentials were preserved.
+
 ## DNS cutover / rollback inventory
 
 Old nameservers: `apollo.dns-parking.com`, `athena.dns-parking.com`.

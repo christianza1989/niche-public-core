@@ -59,10 +59,34 @@ test('checkout ignores client amount, reserves exact stock and reuses its durabl
  assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM commerce_orders').get().n,1);
 });
 
-test('live checkout checks the selected account payout readiness before creating payment',async()=>{
+test('live checkout uses Stripe payment authority without confusing paused payouts with payments',async()=>{
  const db=database(),env={...envOf(db),STRIPE_RESTRICTED_KEY:'rk_live_unit_only'};let calls=0;
- const stripe={accounts:{retrieve:async()=>({id:'acct_test',charges_enabled:true,payouts_enabled:false,requirements:{currently_due:['owner']}})},checkout:{sessions:{create:async()=>{calls++;}}}};
- assert.equal((await commerce(request('checkout',{holders:0,finish:'black',requestId:crypto.randomUUID(),consent:true}),env,{...policy,mode:'live'},'checkout',stripe)).status,503);assert.equal(calls,0);
+ const stripe={accounts:{retrieve:async()=>({id:'acct_test',charges_enabled:false,payouts_enabled:false,requirements:{currently_due:['owner']}})},checkout:{sessions:{create:async()=>{calls++;return {id:'cs_live_unit',livemode:true,url:'https://checkout.stripe.com/c/pay/unit'};}}}};
+ const payload={holders:0,finish:'black',requestId:crypto.randomUUID(),consent:true};
+ assert.equal((await commerce(request('checkout',payload),env,{...policy,mode:'live'},'checkout',stripe)).status,503);assert.equal(calls,0);
+ stripe.accounts.retrieve=async()=>({id:'another',charges_enabled:true});assert.equal((await commerce(request('checkout',payload),env,{...policy,mode:'live'},'checkout',stripe)).status,503);assert.equal(calls,0);
+ stripe.accounts.retrieve=async()=>({id:'acct_test',charges_enabled:true,payouts_enabled:false,requirements:{currently_due:['owner']}});
+ assert.equal((await commerce(request('checkout',payload),env,{...policy,mode:'live'},'checkout',stripe)).status,201);assert.equal(calls,1);
+});
+
+test('manual dropship creates one immutable procurement record without fictional inventory',async()=>{
+ const db=database(),p={...policy,fulfilmentModel:'manual_dropship',supplierFinishes:['black'],shippingAmount:0,shippingDeliveryMinimum:null,shippingDeliveryMaximum:null};
+ const stripe={accounts:{retrieve:async()=>({id:policy.stripeAccount,charges_enabled:true})},checkout:{sessions:{create:async params=>{assert.equal(params.shipping_options[0].shipping_rate_data.fixed_amount.amount,0);assert.equal(params.shipping_options[0].shipping_rate_data.delivery_estimate,undefined);return {id:'cs_dropship',livemode:false,url:'https://checkout.stripe.com/c/pay/unit'};}}}};
+ const catalog=await(await commerce(request('catalog'),envOf(db),p,'catalog',stripe)).json();assert.equal(catalog.offers[2].finishes.black,true);assert.equal(catalog.offers[2].finishes.silver,false);
+ const payload={holders:2,finish:'black',requestId:crypto.randomUUID(),consent:true};
+ assert.equal((await commerce(request('checkout',payload),envOf(db),p,'checkout',stripe)).status,201);assert.equal((await commerce(request('checkout',payload),envOf(db),p,'checkout',stripe)).status,201);
+ assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM commerce_stock').get().n,0);assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM commerce_reservations').get().n,0);assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM commerce_procurement').get().n,1);
+ assert.equal((await commerce(request('checkout',{...payload,finish:'silver',requestId:crypto.randomUUID()}),envOf(db),p,'checkout',stripe)).status,409);assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM commerce_orders').get().n,1);
+ const id=db.sql.prepare('SELECT id FROM commerce_orders').get().id;db.sql.prepare("UPDATE commerce_orders SET status='paid'").run();db.sql.prepare("INSERT INTO commerce_stock VALUES ('black',7)").run();
+ const tracking={carrier:'Test carrier',trackingNumber:'TEST-ONLY',trackingUrl:'https://example.com/tracking'};await dispatchOrder(db,id,tracking);await dispatchOrder(db,id,tracking);await fulfilOrder(db,id,'delivery-test');assert.equal(db.sql.prepare('SELECT quantity FROM commerce_stock').get().quantity,7);
+ db.sql.prepare("UPDATE commerce_orders SET status='refunded'").run();await assert.rejects(dispatchOrder(db,id,tracking));assert.equal(db.sql.prepare('SELECT quantity FROM commerce_stock').get().quantity,7);
+});
+
+test('free shipping permits an absent estimate but rejects a partial or inverted promise',()=>{
+ const p={...policy,shippingAmount:0,shippingDeliveryMinimum:null,shippingDeliveryMaximum:null};assert.equal(commerceReady(envOf({}),p,2),true);
+ assert.equal(commerceReady(envOf({}),{...p,shippingDeliveryMinimum:3},2),false);assert.equal(commerceReady(envOf({}),{...p,shippingDeliveryMinimum:5,shippingDeliveryMaximum:3},2),false);
+ assert.equal(commerceReady(envOf({}),{...p,fulfilmentModel:'unknown'},2),false);
+ const params=checkoutParameters({id:'b'.repeat(32),email:'buyer@example.com',holders:2,finish:'black',expires_at:Date.now()+7200000},{...p,mode:'live'},'https://phonebridger.test');assert.equal(params.payment_intent_data.receipt_email,'buyer@example.com');assert.equal(params.shipping_options[0].shipping_rate_data.display_name,'Free delivery');
 });
 
 test('late retries reuse a confirmed open session and retain uncertain reservations',async()=>{
@@ -178,6 +202,17 @@ test('operator route rejects public callers and reconciles only provider canonic
  const stripe={checkout:{sessions:{retrieve:async()=>({...session,status:'complete'})}}};
  assert.equal((await commerce(request('operator',payload,{Authorization:'Bearer operator-unit-only'}),env,policy,'operator',stripe)).status,200);
  assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'paid');
+});
+
+test('supplier order exports require separate operator access and never appear in customer history',async()=>{
+ const db=database(),env={...envOf(db),COMMERCE_OPERATOR_SECRET:'operator-unit-only'};
+ const order=insertOrder(db,{holders:1,finish:'black',status:'paid',paid_at:Date.now(),shipping_details:JSON.stringify({address:{line1:'Synthetic test address'}})});
+ const payload={action:'orders'};
+ assert.equal((await commerce(request('operator',payload),env,policy,'operator')).status,401);
+ const exported=await (await commerce(request('operator',payload,{Authorization:'Bearer operator-unit-only'}),env,policy,'operator')).json();
+ assert.equal(exported.orders.length,1);assert.equal(exported.orders[0].id,order.id);assert.match(exported.orders[0].shipping_details,/Synthetic test address/);
+ const history=await(await commerce(request('orders'),env,policy,'orders')).json();
+ assert.equal(history.orders.length,1);assert.equal(history.orders[0].shipping_details,undefined);assert.equal(history.orders[0].email,undefined);
 });
 
 

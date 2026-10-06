@@ -18,7 +18,7 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const esc=text=>String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
 const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
-const {productionSource,shopAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
+const {productionSource,shopAssetFiles,shellAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
 const manifest=JSON.parse(await readFile(path.join(prototype,'manifest.json'),'utf8'));
 const transformed=new Map();
 for(const entry of manifest.files){
@@ -28,6 +28,7 @@ for(const entry of manifest.files){
  transformed.set(entry.path,/\.(html|js)$/.test(entry.path)?Buffer.from(transform(entry.path,await productionSource(entry.path,original.toString()))):original);
 }
 for(const file of shopAssetFiles)transformed.set('assets/shop-v2/'+file,await readFile(path.join(project,'shop-v2',file)));
+for(const file of shellAssetFiles)transformed.set('assets/shared-shell/'+file,await readFile(path.join(project,'production/shared-shell',file)));
 transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
 // Builds consume the committed reviewed edition; deployment never manufactures approval.
 const pkg=JSON.parse(await readFile(path.join(project,'production/package/content-package.json'),'utf8'));validateContentPackage(pkg);

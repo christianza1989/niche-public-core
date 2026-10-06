@@ -4,3 +4,9 @@ CREATE TABLE IF NOT EXISTS commerce_deliveries (
  tracking_number TEXT NOT NULL,tracking_url TEXT NOT NULL,dispatched_at INTEGER NOT NULL,
  delivered_at INTEGER
 );
+-- The supply model is immutable per order; future policy edits cannot turn a
+-- stocked order into a dropship order or consume invented stock at dispatch.
+CREATE TABLE IF NOT EXISTS commerce_procurement (
+ order_id TEXT PRIMARY KEY REFERENCES commerce_orders(id),
+ model TEXT NOT NULL CHECK(model='manual_dropship'),created_at INTEGER NOT NULL
+);
