@@ -4,6 +4,8 @@ Owner-authorized end-to-end test, 6 October 2026. Public test shop: https://phon
 
 ## Isolation and evidence
 
+Final deployed playground version: `039baddd-39be-4bba-96a7-eca901fd6471`, using core `e2f670a` and companion `b32cada`. Final read-only provider/application reconciliation passed after deployment at 18:05 UTC on 6 October 2026. Production version and canonical acceptance are recorded in LAUNCH_STATUS.md.
+
 `wrangler.playground.jsonc` has its own Worker, EU D1, Stripe sandbox, key, signing secret, operator secret and synthetic buyer. It has no canonical domain routes or Hostinger mailbox credentials. All HTML/API responses are noindex/private. The policy booleans, LT destination, $5 shipping, 2–5 day estimate and stock of ten per finish are **test fixtures**, not approved production business facts. Never copy these fixtures into `commerce-policy.json` or the production database.
 
 The claimable Stripe sandbox was created through the official CLI with a dedicated ignored configuration. Unclaimed it expires on **13 October 2026**. The owner can claim it from the sandbox Checkout banner; claiming/onboarding must not be completed by inventing identity details. Do not use Stripe MCP in the anonymous sandbox until claimed. SDK/CLI access is sufficient for the tests below. If replacing the sandbox, update its exact account/D1/host binding and webhook together, not only a key.
