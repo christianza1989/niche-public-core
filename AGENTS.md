@@ -33,5 +33,11 @@ Follow the companion's CORE_IMPROVEMENT contract when present. Small authorized,
 coordinated rule/skill/helper repairs are done by the builder and verified;
 Git/PR/adoption status stays explicit, with no mandatory artificial changes.
 
+For an authorized launch, production update, hosting migration or deployment
+runbook, apply [website-deploy](skills/website-deploy/SKILL.md). Preserve existing
+DNS/mail/data and shared publication; verify the public host and distinguish
+build, upload, activation and delivery. Local builds or writing instructions
+alone do not authorize live changes.
+
 This rule authorizes no deployment, commerce, external messaging, merge or
 native-app changes. Follow actual user scope and the coordination contracts.

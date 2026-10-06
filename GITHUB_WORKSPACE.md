@@ -13,6 +13,12 @@ Sekcijų ImageGen maketų ir atskirų asset kits darbo taisyklė:
 vykdomas [skill](skills/webpage-section-asset-kit/SKILL.md). Tai papildo pagrindinio
 projekto sutartis; visų nišų vizualo nesuvienodina ir publikavimo neįjungia.
 
+Autorizuotam paleidimui, atnaujinimui ar perkėlimui naudoti
+[website-deploy](skills/website-deploy/SKILL.md): pakartojamas build, tiksli
+publikavimo versija, DNS/pašto išsaugojimas, rollback ir gyvo domeno patikros.
+Atskirai pateiktos Cloudflare bei DNS/Hostinger pašto instrukcijos. Asmeninis
+skill diegimas aprašytas dizaino pipeline Distribution dalyje.
+
 Ši privati saugykla yra viešų svetainių variklio šaltinio kopija. Pavadinimas „public core“ reiškia jo aptarnaujamus viešus puslapius, ne viešą GitHub prieigą.
 
 Pagrindinis projektas: https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui . Jį klonuoti kaip `nisiniai_puslapiai_monetizavimui`, šią saugyklą kaip gretimą `dovanos-memorycasting` katalogą. Abiejų privačių saugyklų prieiga būtina.

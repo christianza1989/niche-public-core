@@ -16,6 +16,11 @@ Assess behavior separately through real routes, controls and outcomes. Choose me
 
 Inspect the full homepage's middle/end and representative inner pages together. Check that each region adds useful information, transitions feel intentional, shared identity is stable and functional pages support sustained use. Compare nearest niche identities when required. Similar accessible controls are acceptable; a wholesale noun/palette swap is weak differentiation.
 
+When the task includes an authorized launch or migration, apply the available
+[website-deploy workflow](../../website-deploy/SKILL.md) for production evidence
+and recovery. If that separate skill is not installed, retain these acceptance
+requirements and use the project's maintained deployment instructions.
+
 ## Actual-browser checks
 
 Choose widths around the composition's real breakpoints, including a narrow screen. Verify page/section order, no accidental horizontal overflow or concealed clipping, readable text, correct asset decoding/crop, appropriate keyboard/touch use, visible focus and functional routes. Check actual text enlargement/reflow where applicable; narrowing the viewport alone is not proof of browser zoom behavior.

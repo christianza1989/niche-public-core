@@ -25,9 +25,18 @@ Read this core's GITHUB_WORKSPACE and the private companion's README, AGENTS, ST
 
 This is an additive visual-planning/delivery workflow. It changes no schema, optimizer, renderer, authentication/payment service, native app, business facts or live deployment. It adds no mandatory user approval for already delegated reversible design work. Absent capabilities remain explicit dependencies; private synthetic states are not production proof.
 
+## Authorized production release
+
+Use [website-deploy](../skills/website-deploy/SKILL.md) when the owner requests a
+launch, production update, hosting migration or deployment runbook. It preserves
+shared publication, DNS/mail/data and frozen regions, checks the hosted edition
+and records rollback and remaining gates. Preparing instructions or a local
+build does not activate live services. Provider guidance is conditional; a static
+site does not inherit this product's accounts, D1, mailbox or download workaround.
+
 ## Distribution
 
-Tracked portable sources: `skills/website-design-system/` and `skills/webpage-section-asset-kit/`. Read them directly in a repository task, or copy both into configured `$CODEX_HOME/skills/` (default `~/.codex/skills/`) to install personally. Synchronize from a reviewed revision; Git push alone does not install skills on another machine. The companion catalog/loader is unchanged by this extension.
+Tracked portable sources: `skills/website-design-system/`, `skills/webpage-section-asset-kit/` and `skills/website-deploy/`. Read relevant skills directly in a repository task, or copy selected folders into configured `$CODEX_HOME/skills/` (default `~/.codex/skills/`) to install personally. Synchronize from a reviewed revision; Git push alone does not install skills on another machine. The companion catalog/loader is unchanged by this extension.
 
 Validation covers instruction structure, references, personal/core-copy integrity and documented realistic planning scenarios. These are instruction checks, not implementation of the future shop/auth/dashboard or a guarantee of professional-looking output without rendered review. Keep historical website audits and instruction fingerprints unchanged.
 
