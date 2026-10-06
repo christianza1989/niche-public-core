@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "siteId": "dovanos123",
+  "canonicalHost": "dovanos123.lt",
+  "state": "staged-not-deployed",
+  "scope": "local-editorial-only",
+  "productionAccepted": false,
+  "packageSha256": "f9a14e3a5772781afe1233fbd3ccc6041ea2bf73aef2d7a12d40924ca6b4febd",
+  "reviewDate": "2026-10-05",
+  "pageIds": ["lt-hand-casting-guide", "lt-christmas-couple", "lt-christmas-man", "gift-home", "gift-articles", "gift-authors", "gift-about", "gift-contact", "gift-editorial-policy", "gift-disclosure", "gift-editorial-profile"],
+  "assets": {
+    "00e65700-09cc-403c-a057-0c0055390ce2.webp": "b0ee003492d3d311c2a834de21cb198016db7af3b380491aba28ae49c67a904b",
+    "0e8bc9ab-f506-4cbe-89a9-e3b322276735.webp": "414e61520f502310caf3c0e0a009822e53a2f7b0040563fe1b290093d805e521",
+    "207bc8ab-c6df-4e62-ade2-41659752991b.webp": "512f7eb50b4e3fada0faedfd431c8bad3e5cbb6e368800da833fc75bbdc146b9",
+    "390d8a4e-958b-45f7-a961-4886e44a667c.webp": "9283dbc487b3b19d71fd86222b2316da8857dc10ee14c1eeba5a8745f8d34e7b",
+    "3ca49289-5119-4d60-810e-fe2ca2575a10.webp": "4f4d26dd62880af89013fd6eccd72cc180c347c82f7b96f8e3f277595e62cf06",
+    "446bb397-59b0-4ff9-bd2f-7fab613ff8b9.webp": "d05860f30efd6716b539c4167d191603e8018c51358906ad48551831dc3b7f09",
+    "76408ead-e53f-4de0-876e-668b308f5115.webp": "0990b27ca06148a6689b9f185f50f686dd2d70c81272cbf196c047818e5c6ecd",
+    "84cd4ad9-ee78-455d-9283-1eeb0ec2f46e.webp": "7673e0b74688872815fb18812beeea767676bc086eceac8101df33d0668565e7",
+    "91569ccc-9252-41e5-a263-73b5bbe26e25.webp": "96d05bcb730f9fc17fa1aa835c2f1b1f5211b9011d27696d03b6df41b2e5df49",
+    "a0f855a7-8c52-4a4a-a552-a2c2d343f974.webp": "3d1ca77833f87edf4cb90dbe2f59a7385d0b05b2dfbad22e978f104aa382fccf",
+    "c99e0ed2-28ef-4331-8da1-c064bc843f60.webp": "cc71077d48dc01f40ffb30a0c9cdcea54c978dc088ec5ff1fed33710750ef03f",
+    "d22d5b83-0f13-4d7b-bd82-b8a13734ade1.webp": "3972e59a2c9b7d8b49872f4e085d821c93c276360416ddac8396d75dd473c43a",
+    "e94d0723-d210-450b-a6ee-cc14ebe14975.webp": "a41fec8906cd79bd31a0e94d5e8ed68dcf0bba067c62988d5032c9bab52cee69",
+    "f2274242-7ae3-48ac-9be2-aa796e98f82e.webp": "708be6646a1298d0c70d10eb2bd682fa512132573cefcc1388be656c02a575c4",
+    "f3208800-ded2-466f-8b1a-0a9651e4c29e.webp": "6caa638912612ed6bd7b40d6d9f9482f837c5c4e41dee1e19b5c0d01bf31da08"
+  },
+  "openGates": ["privacy-and-terms", "production-admission", "domain-dns-https-hosting", "contact-inbox-delivery", "legacy-data-cutover-and-rollback", "agent-runtime-admission"],
+  "notes": "This is a transfer integrity manifest, not an activation receipt or a new editorial approval. Private drafts, originals, customer records and operational credentials are excluded."
+}
