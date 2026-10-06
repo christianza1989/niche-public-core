@@ -1,5 +1,10 @@
 # Webpage section asset kits
 
+For a whole-page or multipage design task first apply the
+[website design pipeline](WEBSITE_DESIGN_PIPELINE.md). This asset-kit cycle
+implements its image-led regions and shares the active design/asset records;
+it does not restart brand research or mandate generation for every section.
+
 Owner-authorized shared workflow rule, 2026-10-05. Apply
 [webpage-section-asset-kit](../skills/webpage-section-asset-kit/SKILL.md) when
 creating image-led section concepts or turning a chosen mockup into production

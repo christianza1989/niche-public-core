@@ -1,5 +1,13 @@
 # Bendros sistemos GitHub kopija
 
+Visos svetainės ir skirtingų puslapių šeimų dizaino eiga:
+[WEBSITE_DESIGN_PIPELINE](docs/WEBSITE_DESIGN_PIPELINE.md),
+vykdomas [website-design-system](skills/website-design-system/SKILL.md).
+Pirma planuojamas autorizuotas puslapių kelias, savita dizaino sistema,
+būsenos ir bendri asetai, tada kuriamos bei tikrinamos atskiros sekcijos.
+Shop, kontaktai, login/register ir dashboard išlaiko prekės ženklo tapatybę,
+bet jų kompozicija bei tankis parenkami pagal skirtingą vartotojo užduotį.
+
 Sekcijų ImageGen maketų ir atskirų asset kits darbo taisyklė:
 [WEBPAGE_SECTION_ASSET_KITS](docs/WEBPAGE_SECTION_ASSET_KITS.md),
 vykdomas [skill](skills/webpage-section-asset-kit/SKILL.md). Tai papildo pagrindinio
