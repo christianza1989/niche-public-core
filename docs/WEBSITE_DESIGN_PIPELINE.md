@@ -15,6 +15,8 @@ Owner-authorized shared-rule extension, 2026-10-06, following the PhoneBridger h
 
 ## Flexible page families
 
+Completion covers the authorized journey and the active site's content/search/publication contract, not just the visual page list. Keep an evidence matrix for supporting guides, editorial trust, shared metadata/schema/link/media projections, crawl behavior, optional LLM exports, backend outcomes and deployment. Apply the maintained site's actual audit, including unresolved frozen-surface and production dependencies; do not invent a universal article quota or imply a prepared preview is live. See [acceptance](../skills/website-design-system/references/acceptance.md).
+
 The skill includes conditional guidance for homepage/marketing, shop/product choice, contacts, login/register/recovery, operational/creator dashboards and editorial/help/legal pages. No universal layout or module list is imposed. Shops prioritize meaningful product choice and the actual transaction/enquiry path; forms prioritize completion and recovery; dashboards prioritize roles, tasks and readable information. Pages share identity without copying one promotional hero or glowing card onto every route.
 
 ## Compatibility and scope

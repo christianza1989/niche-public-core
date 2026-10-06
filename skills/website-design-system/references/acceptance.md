@@ -4,6 +4,12 @@ Read before judging a built page family or delivering a multipage result. Reuse 
 
 ## Separate the evidence
 
+Before calling a site complete, compare the delivered routes against the active task and the site's full acceptance contract. Maintain a completion matrix covering the customer journey, useful supporting content/guides, trust/editorial information, search metadata and internal links, crawl/publication behavior, machine-readable output when required, forms/authentication, measurement and deployment. Mark each row implemented, tested, deferred or blocked with its actual evidence. Do not infer completion from an attractive homepage and account flow. A niche's required guide count belongs to its active contract, not a universal minimum invented by this skill.
+
+Use the maintained site's authoring, approval, projection, media, SEO and audit helpers. One eligible-content projection must govern HTML, links, media, schema, sitemap and LLM exports; a separate per-site formatter is not a substitute. Verify draft/future/revoked exclusions and preserve incumbent outputs when extracting shared helpers. Treat llms.txt as supplementary when selected; it does not replace crawlable, useful semantic content or establish AI visibility. Record true preparation/review/publication dates separately.
+
+Respect a frozen homepage: inspect and report any metadata/publication gap without silently changing protected regions. Missing domain ownership, delivery credentials, real inbox receipts, measurement or production evidence remain explicit dependencies; they are not not-applicable checks or proof of readiness. A local frontend, a prepared content package and a launched site have different completion states.
+
 Assess visual craft from screenshots at actual display size before interpreting automated results. Record concrete observations about hierarchy, line breaks, alignment, density, image framing, light, edges and page rhythm. Compare the actual chosen concept and relevant references. A technically passing page may still have an incoherent composition.
 
 Assess behavior separately through real routes, controls and outcomes. Choose meaningful tests for changed behavior and required project checks; do not write tests that simply mirror every CSS declaration. States with absent integration remain unverified, not passing because a fixture rendered.
