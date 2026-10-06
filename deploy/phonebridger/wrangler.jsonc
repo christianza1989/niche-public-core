@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "phonebridger",
+  "main": "worker.mjs",
+  "account_id": "d102163f74a45ab6d33bca786ce281ec",
+  "compatibility_date": "2026-05-22",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [{"pattern":"phonebridger.com","custom_domain":true},{"pattern":"www.phonebridger.com","custom_domain":true}],
+  "assets": {"directory":"../../.sites-runtime/phonebridger-production/assets","binding":"ASSETS","run_worker_first":true,"html_handling":"auto-trailing-slash","not_found_handling":"none"},
+  "d1_databases": [{"binding":"DB","database_name":"phonebridger-production","database_id":"03b08a79-d7d5-4b91-a3ca-1cb9e06f59af"}],
+  "vars": {"LEAD_SMTP_ENABLED":"0","LEAD_RECIPIENT":"hello@phonebridger.com","PREVIEW_HOST":"phonebridger.phonebridger-app.workers.dev"},
+  "triggers": {"crons":["17 3 * * *"]},
+  "observability": {"enabled":true,"head_sampling_rate":0.1,"logs":{"enabled":true,"invocation_logs":false}}
+}
