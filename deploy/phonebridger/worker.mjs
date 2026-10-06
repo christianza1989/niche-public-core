@@ -6,8 +6,10 @@ import {boundedJson,requestRate,customerAccount} from '../../lib/customer-accoun
 import {smtpSession} from '../../lib/smtp-protocol.mjs';
 import {connect} from 'cloudflare:sockets';
 import {sendHostingerMail} from '../../lib/hostinger-mail-api.mjs';
+import {commerce} from '../../lib/stripe-commerce.mjs';
+import commercePolicy from './commerce-policy.json';
 
-const pkg=release.package, privatePages=new Set(['login','register','recover','account']);
+const pkg=release.package, privatePages=new Set(['login','register','recover','account','checkout']);
 const response=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex'}});
 const txt=(body,type='text/plain; charset=utf-8')=>new Response(body,{headers:{'Content-Type':type,'Cache-Control':'no-cache'}});
 async function download(request,env,key){
@@ -70,6 +72,7 @@ export default {
     let result;
     try{
       if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length));
+      else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,local&&commercePolicy.mode==='live'?{...commercePolicy,mode:'disabled'}:commercePolicy,url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);
       else if(!['GET','HEAD'].includes(request.method))result=new Response('Method not allowed',{status:405});

@@ -34,6 +34,14 @@ Verification creates and removes only its own test account, checks CSRF and inva
 
 For an explicitly authorized owner-mailbox delivery test, run `node deploy/phonebridger/mail-self-test.mjs https://phonebridger.com send` once. It creates a private attempt ledger before posting. If delayed, use `check` instead of `send`; it searches only the recorded subject ID and marker. It never browses unrelated mail. After confirmed receipt, remove only its recorded disposable D1 enquiry if cleanup is needed. DNS diagnosis may use an isolated public resolver with unchanged hostname/TLS validation; document that separately from ordinary browser/system resolution. Never change system DNS or disable certificate checks to make an acceptance test pass.
 
+## Shop release
+
+The owner-selected seller for proposed paid orders is MB Memocasting. The separately maintained `sites/phonebridger/shop-v2/` kit adds the product gallery, four setup choices, black/silver selection, compatibility, FAQs and a genuine-review empty state. The exact shop/terms bodies also require the Studio-reviewed edition. The current build emits 19 routes (14 public, five private) and 294 allowlisted assets. The homepage and original installers remain unchanged.
+
+The additive `commerce-schema.sql` is for this dedicated D1 only. `lib/stripe-commerce.mjs` supplies server-authoritative hosted Checkout, durable stock reservations, signed webhook payment confirmation, owner-only order retrieval and paid/fulfilled/moderated reviews. These preparatory services are covered by focused local tests; no provider sandbox checkout or paid delivery is claimed. See [COMMERCE.md](COMMERCE.md) for the complete activation and reconciliation contract.
+
+Live checkout is disabled in `commerce-policy.json`. MB Memocasting has outstanding owner verification and disabled payouts. Runtime Stripe credentials, confirmed fulfilment/shipping, licence delivery and tax/return terms are missing. The working public action is a setup enquiry, alongside the free beta. Preview hosts cannot accept live payments even if canonical sales are later activated. Never flip the policy flags to bypass these missing facts.
+
 ## Current provider constraints
 
 Cloudflare requires account-email verification before activating Worker routes; error 10034 must be resolved by the owner, not bypassed. Preserve all existing Hostinger MX, SPF, DKIM, DMARC and discovery records before changing nameservers. Bind apex and www as Worker custom domains only after the reviewed deployment is usable; HTTP and www redirect to canonical HTTPS. Do not activate R2 or upgrade Workers without the owner's spending authorization. Free Workers has a 10 ms CPU limit; account performance must be checked on the actual edge. Current launch results, including DNS-propagation limitations, are recorded separately in `LAUNCH_STATUS.md`.

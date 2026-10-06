@@ -18,18 +18,21 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const esc=text=>String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
 const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
+const {productionSource,shopAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
 const manifest=JSON.parse(await readFile(path.join(prototype,'manifest.json'),'utf8'));
 const transformed=new Map();
 for(const entry of manifest.files){
  const original=await readFile(path.join(prototype,entry.path));
  if(original.length!==entry.bytes||sha(original)!==entry.sha256)throw Error('Prototype attestation failed: '+entry.path);
  if(entry.path.startsWith('tests/')||/preview\.html$|\.test\.|^robots.txt$|^sitemap.xml$|^llms/.test(entry.path))continue;
- transformed.set(entry.path,/\.(html|js)$/.test(entry.path)?Buffer.from(transform(entry.path,original.toString())):original);
+ transformed.set(entry.path,/\.(html|js)$/.test(entry.path)?Buffer.from(transform(entry.path,await productionSource(entry.path,original.toString()))):original);
 }
+for(const file of shopAssetFiles)transformed.set('assets/shop-v2/'+file,await readFile(path.join(project,'shop-v2',file)));
+transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
 // Builds consume the committed reviewed edition; deployment never manufactures approval.
 const pkg=JSON.parse(await readFile(path.join(project,'production/package/content-package.json'),'utf8'));validateContentPackage(pkg);
 const pages=projectPublicPages(pkg,[pkg],settings);if(pages.length!==14)throw Error('Expected 14 due exact approved public pages.');
-for(const page of pages.filter(p=>['contact','privacy'].includes(p.slug))){
+for(const page of pages.filter(p=>['contact','privacy','shop','terms'].includes(p.slug))){
  const html=transformed.get(page.slug+'/index.html').toString(),main=html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)[1];
  const body=[...main.matchAll(/<(p|h2|li)\b[^>]*>([\s\S]*?)<\/\1>/g)].map(m=>m[1]==='h2'?{type:'heading',level:2,text:decode(m[2])}:{type:'paragraph',text:decode(m[2])}).filter(b=>b.text);
  if(JSON.stringify(body)!==JSON.stringify(page.body))throw Error('Production copy requires a new reviewed edition: '+page.slug);
@@ -40,8 +43,9 @@ for(const [file,bytes] of transformed){
  let content=bytes;const html=file.endsWith('/index.html')||file==='index.html';
  if(html){
   const slug=file==='index.html'?'':file.slice(0,-'/index.html'.length),page=pages.find(p=>p.slug===slug);
-  if(!page&&!['login','register','recover','account'].includes(slug))continue;
+  if(!page&&!['login','register','recover','account','checkout'].includes(slug))continue;
   let text=bytes.toString();
+  if(slug==='checkout')text=text.replace(/<meta name="robots"[^>]*>/g,'<meta name="robots" content="noindex,nofollow">').replace(/<link rel="canonical"[^>]*>/g,'').replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
   if(slug)text=text.replace('<head>',`<head><base href="/${slug}/">`);
   if(page){
    text=text.replace('</head>','<script src="/interest.js" defer></script></head>');

@@ -1,0 +1,16 @@
+{
+  "version": "phonebridger-v1-draft-20261006",
+  "seller": "MB Memocasting",
+  "stripeAccount": "acct_1QMlRkL0g8f3vxfN",
+  "mode": "disabled",
+  "currency": "usd",
+  "prices": [2900, 4900, 6500, 7900],
+  "licenceApproved": false,
+  "taxReviewed": false,
+  "returnsApproved": false,
+  "shippingApproved": false,
+  "shippingCountries": [],
+  "shippingAmount": null,
+  "shippingDeliveryMinimum": null,
+  "shippingDeliveryMaximum": null
+}

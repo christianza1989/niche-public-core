@@ -23,6 +23,14 @@ A uniquely identified live `https://phonebridger.com/api/contact` request saved 
 
 Email verification and automated account recovery remain unavailable and disclosed. Checkout/creator/fulfilment are deferred. Free-tier acceptance is a measured test result, not a capacity or uptime guarantee. Historical homepage performance/ARIA findings remain recorded; this launch does not certify those frozen-surface issues as repaired. Re-run checks against eventual merged revisions; these deployed commits are still in scoped open PRs.
 
+## Shop preparation — 6 October 2026
+
+The owner selected MB Memocasting for proposed paid orders. The new shop preserves the immutable prototype and accepted homepage. Its production overlay includes a product gallery, four bundles, black/silver choice, saved/query selection, compatibility, FAQs and honest review states. The shop's enquiry action retains the actual selected bundle in the contact form. Mobile checks at 390 and 320 pixels found no horizontal overflow or broken visible images; desktop and gallery interactions were rendered through the in-app browser without console errors.
+
+The additive commerce service uses server-authoritative totals, durable idempotency and stock reservations, raw SDK-verified webhook signatures, private account-owned orders, paid/fulfilled review qualification and audited moderation. Fourteen focused commerce tests pass. The incumbent SEO byte comparisons and actual built-Worker SEO smoke pass. Production publishing evidence is recorded after the exact release deployment; these local tests do not prove provider Checkout or fulfilment.
+
+**Paid checkout remains disabled:** the account has outstanding owner verification and payouts disabled; runtime Stripe keys/signing secret, actual hardware inventory/shipping, tax/return terms and final paid licence delivery are unconfirmed. No live Stripe product, charge, refund or fabricated review was created. The beta stays free. The entitlement helper is an order record, not native paid activation. Creator work remains deferred. Activation requires [COMMERCE.md](COMMERCE.md), not a boolean-only policy edit.
+
 ## DNS cutover / rollback inventory
 
 Old nameservers: `apollo.dns-parking.com`, `athena.dns-parking.com`.
