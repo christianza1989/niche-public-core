@@ -2,6 +2,8 @@ import { createReadStream } from 'node:fs';
 import { readFile, realpath, stat } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { homedir } from 'node:os';
 
 export const PHONEBRIDGER_PREVIEW_PREFIX = '/__projects/phonebridger/';
 const headers = { 'X-Robots-Tag': 'noindex, nofollow, noarchive', 'Cache-Control': 'private, no-store', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'no-referrer' };
@@ -23,7 +25,7 @@ export function byteRange(value, size) {
   if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start < 0 || start >= size || end < start) throw Error('Unsatisfiable range');
   return { start, end };
 }
-export async function createPhoneBridgerPreviewMiddleware(root) {
+export async function createPhoneBridgerPreviewMiddleware(root, { accountHandler } = {}) {
   const canonicalRoot = await realpath(root);
   const manifest = JSON.parse(await readFile(path.join(canonicalRoot, 'manifest.json'), 'utf8'));
   if (manifest.siteId !== 'phonebridger' || manifest.mode !== 'private-prototype') throw Error('Wrong project manifest');
@@ -45,9 +47,18 @@ export async function createPhoneBridgerPreviewMiddleware(root) {
     }
     if (!rawPath.startsWith(PHONEBRIDGER_PREVIEW_PREFIX)) return next();
     if (!previewRequestAllowed(request)) { response.writeHead(404, headers); return response.end('Private preview'); }
+    if (accountHandler && rawPath.startsWith(PHONEBRIDGER_PREVIEW_PREFIX+'api/account/')) {
+      for (const [key,value] of Object.entries(headers)) response.setHeader(key,value);
+      if (await accountHandler(request,response,rawPath)) return;
+    }
     if (!['GET', 'HEAD'].includes(request.method)) { response.writeHead(405, { ...headers, Allow: 'GET, HEAD' }); return response.end(); }
     let name;
     try { name = decodeURIComponent(rawPath.slice(PHONEBRIDGER_PREVIEW_PREFIX.length)) || 'index.html'; } catch { response.writeHead(404, headers); return response.end(); }
+    if (name.endsWith('/') && files.has(name+'index.html')) name += 'index.html';
+    else if (files.has(name+'/index.html')) {
+      const search = request.url.includes('?') ? request.url.slice(request.url.indexOf('?')) : '';
+      response.writeHead(307,{...headers,Location:PHONEBRIDGER_PREVIEW_PREFIX+name+'/'+search});return response.end();
+    }
     const asset = files.get(name);
     if (!asset) { response.writeHead(404, headers); return response.end('Not found'); }
     // Recheck realpath so replacing a manifest asset with a symlink cannot serve secrets.
@@ -65,10 +76,25 @@ export async function createPhoneBridgerPreviewMiddleware(root) {
     stream.pipe(response);
   };
 }
-export function phoneBridgerPreview(root) {
+export function phoneBridgerPreview(root, options = {}) {
   return { name: 'phonebridger-private-preview', apply: 'serve', async configureServer(server) {
     // An absent companion project is normal. No assets are copied to public/dist.
     try { await stat(path.join(root, 'manifest.json')); } catch (error) { if (error.code === 'ENOENT') return; throw error; }
-    server.middlewares.use(await createPhoneBridgerPreviewMiddleware(root));
+    let accountHandler;
+    if (options.accountsModule && server.httpServer) {
+      let createAccounts;
+      try { await stat(options.accountsModule);({createAccounts}=await import(pathToFileURL(options.accountsModule).href)); }
+      catch(error) { if(error.code!=='ENOENT') throw error; }
+      if (createAccounts) {
+        let accounts;
+        accountHandler=async(request,response,url)=>{
+          const port=server.httpServer.address()?.port;
+          if (!port) return false;
+          accounts ||= createAccounts({origin:`http://127.0.0.1:${port}`,prefix:PHONEBRIDGER_PREVIEW_PREFIX,storePath:process.env.PHONEBRIDGER_CORE_ACCOUNT_STORE || path.join(homedir(),'.phonebridger-preview',`core-${port}.json`)});
+          return accounts(request,response,url);
+        };
+      }
+    }
+    server.middlewares.use(await createPhoneBridgerPreviewMiddleware(root,{accountHandler}));
   } };
 }

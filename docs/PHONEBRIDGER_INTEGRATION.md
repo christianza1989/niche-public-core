@@ -62,3 +62,28 @@ records limitations. Physical Pointer Lock, hosted bindings/auth, public domain,
 legal/privacy, payment/referral backend, SMTP receipt and launch/demand are not
 accepted by these tests. No migrations, worker, live channel, DNS or deployment
 was activated. Reviewer merges core then companion after inspection.
+
+## Eleven inner pages and local accounts, 2026-10-06
+
+Manifest-listed directory indexes now resolve beneath the same private mount;
+slash redirects preserve query parameters. The serve-only plugin optionally
+imports the companion server/accounts.cjs and configures it with the actual
+listening port and exact http://127.0.0.1 origin. Only its account namespace
+accepts authenticated account actions; other writes remain denied. Private
+stores stay outside the attested static directory, with a separate per-port
+home-directory default. Core-first merge tolerates a missing account module.
+The adapter is local-preview auth, not public customer licensing or hosted auth.
+
+Companion PAGES.md/PAGE_PLAN.md/CORE_FEEDBACK.md record the delegated pricing,
+page families, truthful mailto draft and unresolved production dependencies.
+Homepage source is frozen except footer; creator work is deferred. All nine
+approved public packages remain unchanged.
+
+Current checks: core 48/48, account 12/12, existing simulator 60/60; actual core
+plugin integration serves 282 attested assets and 11 exact nested HTML routes,
+preserves choice-query redirects, denies private files/public Host, and runs a
+real local register/session/logout cycle. Browser confirms private core shop and
+local account flow. Build, TypeScript and scoped ESLint pass; pre-existing
+vinext/chunk/CSS output warnings remain. Production-client file inventory and
+public-package inventory exclude PhoneBridger. No latest production HTTP smoke
+or hosted-auth/mail/payment/fulfilment acceptance is claimed by this extension.

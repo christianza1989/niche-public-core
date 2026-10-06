@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer, request as httpRequest } from 'node:http';
-import { writeFile, mkdtemp, rm } from 'node:fs/promises';
+import { writeFile, mkdtemp, rm, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
@@ -32,7 +32,8 @@ test('actual HTTP preview isolates manifest assets, preserves video range bytes,
   let server;
   try {
     const files = [];
-    for (const [name, content] of [['index.html', '<html lang="en">Demo</html>'], ['clip.mp4', '0123456789']]) {
+    for (const [name, content] of [['index.html', '<html lang="en">Demo</html>'], ['shop/index.html','<html lang="en">Shop fixture</html>'], ['clip.mp4', '0123456789']]) {
+      await mkdir(path.dirname(path.join(root,name)),{recursive:true});
       const bytes = Buffer.from(content); await writeFile(path.join(root,name),bytes);
       files.push({ path: name, bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') });
     }
@@ -44,6 +45,9 @@ test('actual HTTP preview isolates manifest assets, preserves video range bytes,
     const origin = `http://127.0.0.1:${server.address().port}`;
     const base = `${origin}/__projects/phonebridger/`;
     const html = await fetch(base); assert.equal(html.status,200); assert.match(html.headers.get('x-robots-tag'),/noindex/); assert.match(html.headers.get('cache-control'),/no-store/); assert.match(await html.text(), /Demo/);
+    assert.match(await (await fetch(base+'shop/')).text(),/Shop fixture/);
+    const redirect=await fetch(base+'shop?holders=3&finish=silver',{redirect:'manual'});assert.equal(redirect.status,307);assert.equal(redirect.headers.get('location'),'/__projects/phonebridger/shop/?holders=3&finish=silver');
+    assert.equal((await fetch(base+'unlisted-page/')).status,404);
     const part = await fetch(base+'clip.mp4',{headers:{Range:'bytes=3-6'}}); assert.equal(part.status,206); assert.equal(part.headers.get('content-range'),'bytes 3-6/10'); assert.equal(await part.text(),'3456');
     const head = await fetch(base+'clip.mp4',{method:'HEAD'}); assert.equal(head.headers.get('content-length'),'10'); assert.equal(await head.text(),'');
     assert.equal((await fetch(base+'clip.mp4',{headers:{Range:'bytes=100-'}})).status,416);
@@ -55,6 +59,10 @@ test('actual HTTP preview isolates manifest assets, preserves video range bytes,
     });
     assert.equal(denied,404);
     assert.equal((await fetch(base,{method:'POST',body:'sale'})).status,405);
+    const forwarded=await createPhoneBridgerPreviewMiddleware(root,{accountHandler:async(req,res,url)=>{if(url!== '/__projects/phonebridger/api/account/session')return false;res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({fixture:true}));return true;}});
+    const forwardingServer=createServer((req,res)=>forwarded(req,res,()=>{res.writeHead(404);res.end();}));
+    await new Promise(resolve=>forwardingServer.listen(0,'127.0.0.1',resolve));
+    try {const r=await fetch(`http://127.0.0.1:${forwardingServer.address().port}/__projects/phonebridger/api/account/session`);assert.equal(r.status,200);assert.match(r.headers.get('x-robots-tag'),/noindex/);assert.deepEqual(await r.json(),{fixture:true});}finally{await new Promise(resolve=>forwardingServer.close(resolve));}
     assert.equal((await fetch(origin+'/other')).status,418);
     await writeFile(path.join(root,'clip.mp4'),'tampered');
     await assert.rejects(createPhoneBridgerPreviewMiddleware(root),/Changed preview asset/);

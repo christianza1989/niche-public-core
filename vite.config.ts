@@ -75,7 +75,7 @@ export default defineConfig(async () => {
       ...(isCodexSeatbeltSandbox ? { watch: { useFsEvents: false, usePolling: true } } : {}),
     },
     plugins: [
-      phoneBridgerPreview(fileURLToPath(new URL("../nisiniai_puslapiai_monetizavimui/sites/phonebridger/prototype/", import.meta.url))),
+      phoneBridgerPreview(fileURLToPath(new URL("../nisiniai_puslapiai_monetizavimui/sites/phonebridger/prototype/", import.meta.url)), { accountsModule: fileURLToPath(new URL("../nisiniai_puslapiai_monetizavimui/sites/phonebridger/server/accounts.cjs", import.meta.url)) }),
       vinext(),
       sites({ mockAuth: !managedLinux }),
       cloudflare({
