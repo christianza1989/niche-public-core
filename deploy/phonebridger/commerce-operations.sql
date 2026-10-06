@@ -10,3 +10,7 @@ CREATE TABLE IF NOT EXISTS commerce_procurement (
  order_id TEXT PRIMARY KEY REFERENCES commerce_orders(id),
  model TEXT NOT NULL CHECK(model='manual_dropship'),created_at INTEGER NOT NULL
 );
+-- Preserve the exact accepted offer after later website edits.
+CREATE TABLE IF NOT EXISTS commerce_policy_records (
+ version TEXT PRIMARY KEY, seller TEXT NOT NULL, terms_text TEXT NOT NULL, created_at INTEGER NOT NULL
+);

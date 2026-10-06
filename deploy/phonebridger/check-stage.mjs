@@ -6,7 +6,7 @@ const files=execFileSync('git',['diff','--cached','--name-only','--diff-filter=A
 if(!files.length)throw Error('Nothing staged; this is not a successful safety check.');
 const root=path.resolve(import.meta.dirname,'../..');
 const secrets=await Promise.all(['hostinger-token.txt','hostinger-mailbox.txt','rate-secret.txt'].map(file=>readFile(path.join(root,'.sites-runtime/phonebridger-production',file),'utf8').then(value=>value.trim())));
-for(const [directory,files]of [['phonebridger-production',['operator-secret.txt']],['phonebridger-playground',['stripe-key.txt','webhook-secret.txt','operator-secret.txt']]]){
+for(const [directory,files]of [['phonebridger-production',['operator-secret.txt','stripe-live-key.txt','stripe-live-webhook-secret.txt']],['phonebridger-playground',['stripe-key.txt','webhook-secret.txt','operator-secret.txt']]]){
  for(const file of files){try{secrets.push((await readFile(path.join(root,'.sites-runtime',directory,file),'utf8')).trim());}catch(error){if(error.code!=='ENOENT')throw error;}}
 }
 try{const buyer=JSON.parse(await readFile(path.join(root,'.sites-runtime/phonebridger-playground/buyer.json'),'utf8'));secrets.push(buyer.password,buyer.cookie?.split('=')[1]);}catch(error){if(error.code!=='ENOENT')throw error;}

@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 import Stripe from 'stripe';
 import {commerce,commerceReady,checkoutParameters,applyStripeEvent,fulfilOrder,moderateReview,dispatchOrder} from '../lib/stripe-commerce.mjs';
 
-const policy={version:'test-policy',seller:'Test seller',stripeAccount:'acct_test',mode:'test',currency:'usd',prices:[2900,4900,6500,7900],licenceApproved:true,taxReviewed:true,returnsApproved:true,shippingApproved:true,shippingCountries:['LT'],shippingAmount:500,shippingDeliveryMinimum:2,shippingDeliveryMaximum:5};
+const policy={version:'test-policy',termsText:'This is the immutable test purchase offer. It records licence, payment, delivery and cancellation terms accepted before checkout.',seller:'Test seller',stripeAccount:'acct_test',mode:'test',currency:'usd',prices:[2900,4900,6500,7900],licenceApproved:true,taxReviewed:true,returnsApproved:true,shippingApproved:true,shippingCountries:['LT'],shippingAmount:500,shippingDeliveryMinimum:2,shippingDeliveryMaximum:5};
 const envOf=db=>({DB:db,AUTH_RATE_SECRET:'local-test-rate',STRIPE_RESTRICTED_KEY:'rk_test_unit_only',STRIPE_WEBHOOK_SECRET:'whsec_unit_only'});
 const token='a'.repeat(64),digest=createHash('sha256').update(token).digest('hex');
 function database(){
@@ -37,6 +37,25 @@ test('parameters use authoritative price, stable idempotency inputs and dynamic 
  assert.equal(a.line_items[0].price_data.unit_amount,6500);assert.equal(a.line_items[0].quantity,1);assert.equal(a.payment_method_types,undefined);assert.equal(a.automatic_tax,undefined);assert.equal(a.ui_mode,undefined);assert.match(a.integration_identifier,/_[a-z]{8}$/);assert.equal(a.branding_settings.display_name,'PhoneBridger');
  assert.equal(a.shipping_options[0].shipping_rate_data.fixed_amount.amount,500);
  assert.equal(checkoutParameters({...order,holders:0,finish:'none'},policy,'https://phonebridger.test').shipping_options,undefined);
+ const live=checkoutParameters(order,{...policy,mode:'live'},'https://phonebridger.test');
+ assert.equal(live.consent_collection,undefined);
+ assert.match(live.custom_text.submit.message,/https:\/\/phonebridger\.test\/terms/);
+ assert.match(live.custom_text.submit.message,/Test seller/);
+ assert.equal(live.payment_intent_data.receipt_email,order.email);
+});
+
+test('live accepted terms survive later website edits and conflicting editions cannot charge',async()=>{
+ const db=database(),env={...envOf(db),STRIPE_RESTRICTED_KEY:'rk_live_unit_only'},live={...policy,mode:'live'};
+ const data={holders:0,finish:'black',requestId:crypto.randomUUID(),consent:true};let calls=0;
+ const stripe={accounts:{retrieve:async()=>({id:policy.stripeAccount,charges_enabled:true})},checkout:{sessions:{create:async()=>{calls++;return {id:'cs_live_terms',livemode:true,url:'https://checkout.stripe.com/c/pay/unit'};}}}};
+ assert.equal(commerceReady(env,{...live,termsText:undefined}),false);
+ assert.equal((await commerce(request('checkout',{...data,consent:false}),env,live,'checkout',stripe)).status,400);
+ const response=await commerce(request('checkout',data),env,live,'checkout',stripe);assert.equal(response.status,201);const {orderId}=await response.json();
+ assert.equal(db.sql.prepare('SELECT terms_text FROM commerce_policy_records WHERE version=?').get(policy.version).terms_text,policy.termsText);
+ assert.equal((await commerce(request('checkout',{...data,requestId:crypto.randomUUID()}),env,{...live,termsText:policy.termsText+' An altered offer.'},'checkout',stripe)).status,503);assert.equal(calls,1);
+ db.sql.prepare("UPDATE commerce_orders SET status='paid',paid_at=? WHERE id=?").run(Date.now(),orderId);
+ const receipt=await commerce(new Request('https://phonebridger.test/api/shop/receipt?id='+orderId,{headers:{Cookie:'__Host-pb_session='+token}}),env,{...live,version:'later-edition',seller:'Later seller',termsText:'Later terms'},'receipt');
+ assert.equal(receipt.status,200);const text=await receipt.text();assert.match(text,/Seller: Test seller/);assert.ok(text.includes(policy.termsText));assert.ok(!text.includes('Later terms'));assert.match(text,/Purchase terms accepted: test-policy/);
 });
 
 test('disabled, foreign origin and unauthenticated checkout cannot create orders',async()=>{

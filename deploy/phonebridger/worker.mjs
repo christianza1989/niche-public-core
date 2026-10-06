@@ -8,6 +8,7 @@ import {connect} from 'cloudflare:sockets';
 import {sendHostingerMail} from '../../lib/hostinger-mail-api.mjs';
 import {commerce} from '../../lib/stripe-commerce.mjs';
 import commercePolicy from './commerce-policy.json';
+import commerceContract from '../../.sites-runtime/phonebridger-production/commerce-contract.json';
 
 const pkg=release.package, privatePages=new Set(['login','register','recover','account','checkout']);
 const response=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex'}});
@@ -18,7 +19,8 @@ function policyFor(env,local){
   if(!local||policy.mode!=='test'||policy.stripeAccount!==env.CLAIMABLE_SANDBOX_ACCOUNT)throw Error('Invalid isolated playground configuration');
   return policy;
  }
- return local&&commercePolicy.mode==='live'?{...commercePolicy,mode:'disabled'}:commercePolicy;
+ if(commerceContract.version!==commercePolicy.version)throw Error('Commerce contract edition differs from the policy.');
+ return {...commercePolicy,termsText:commerceContract.text,...(local&&commercePolicy.mode==='live'?{mode:'disabled'}:{})};
 }
 async function download(request,env,key){
  const item=release.downloads[key];if(!item)return new Response('Not found',{status:404});
@@ -58,7 +60,7 @@ async function lead(request,env,live){
   await env.DB.prepare("INSERT INTO niche_leads (id,site_id,created_at,source_path,name,email,message,consent_at,status) VALUES (?,?,?,?,?,?,?,?, 'new')").bind(id,pkg.siteId,now,source,name,email,`Topic: ${topic}\n${message}`,now).run();
   let notified=false;
   try{notified=await sendMail(env,{id,to:env.LEAD_RECIPIENT||pkg.site.contact.email,replyTo:email,subject:`[${pkg.canonicalHost}] ${topic} ${id.slice(0,8)}`,text:`PhoneBridger website enquiry\nID: ${id}\nName: ${name}\nEmail: ${email}\nPage: ${source}\nTopic: ${topic}\n\n${message}`});if(notified)await env.DB.prepare("UPDATE niche_leads SET status='notified' WHERE id=? AND site_id=?").bind(id,pkg.siteId).run();}catch{console.error(JSON.stringify({event:'lead_notification_failed',siteId:pkg.siteId,id}));}
-  return response({ok:true,id,notified,message:notified?'Your message was saved and passed to our mail server.':'Your message was saved. Email notification is currently unavailable; please contact support if urgent.'},201);
+  return response({ok:true,id,receivedAt:now,notified,message:notified?'Your message was saved and passed to our mail server.':'Your message was saved. Email notification is currently unavailable; please contact support if urgent.'},201);
 }
 async function interest(request,env,live){
   if(request.method!=='POST'||request.headers.get('origin')!==new URL(request.url).origin)return response({error:'Invalid origin or method.'},403);

@@ -19,6 +19,9 @@ const esc=text=>String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').re
 const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
 const {productionSource,shopAssetFiles,shellAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
+const {purchaseTerms,purchaseVersion}=await import(pathToFileURL(path.join(project,'production/purchase-terms.mjs')));
+const commercePolicy=JSON.parse(await readFile(path.join(import.meta.dirname,'commerce-policy.json'),'utf8'));
+if(commercePolicy.version!==purchaseVersion)throw Error('The accepted purchase edition and commerce policy must share a version.');
 const manifest=JSON.parse(await readFile(path.join(prototype,'manifest.json'),'utf8'));
 const transformed=new Map();
 for(const entry of manifest.files){
@@ -39,6 +42,7 @@ for(const page of pages.filter(p=>['contact','privacy','shop','terms'].includes(
  if(JSON.stringify(body)!==JSON.stringify(page.body))throw Error('Production copy requires a new reviewed edition: '+page.slug);
 }
 await mkdir(out,{recursive:true});
+await writeFile(path.join(out,'commerce-contract.json'),JSON.stringify({version:purchaseVersion,text:purchaseTerms.split(/<h2>|<p>/).map(decode).filter(Boolean).join('\n\n')})+'\n');
 const routes={},allow=[];await mkdir(assets,{recursive:true});
 for(const [file,bytes] of transformed){
  let content=bytes;const html=file.endsWith('/index.html')||file==='index.html';
