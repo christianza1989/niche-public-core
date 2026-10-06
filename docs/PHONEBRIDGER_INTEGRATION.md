@@ -87,3 +87,11 @@ local account flow. Build, TypeScript and scoped ESLint pass; pre-existing
 vinext/chunk/CSS output warnings remain. Production-client file inventory and
 public-package inventory exclude PhoneBridger. No latest production HTTP smoke
 or hosted-auth/mail/payment/fulfilment acceptance is claimed by this extension.
+
+## Prepared guides and shared English SEO, 2026-10-06
+
+The companion now carries17inner routes and313attested runtime files, including a guide hub, four illustrated guides and editorial profile. Its existing Studio CRUD/review/export produced14eligible prepared pages and20WebP variants; the actual importer validated them in shadow mode only. Optional txt/xml MIME support still serves only attested manifest files behind the existing loopback/Host guard. No package or host is activated.
+
+`lib/niche-seo-core.mjs` extracts the existing pure SEO formatting so the companion uses the same maintained projection/schema/media/robots/sitemap/LLM output rather than copying a site formatter. Locale-aware English labels and profile/utility aliases are additive. `niche-seo.ts` keeps existing wrappers/operator lookup. `tests/seo-legacy-baseline.json` was captured from the actual parent revision e42107b468a05797aa864fd0bd42b871d3168b60 at a fixed2026-10-06clock; all45outputs across9packages remain byte-identical.
+
+Current52core tests, TypeScript, scopedESLint and production build pass. All9existing niche hosts pass actual local productionWorker HTTP smoke (96eligible pages total); this is a local build test, not deployment. Companion13account/plugin tests,286local link checks and20actualWebPs pass. The audit records private/prepared dates versus public publication, frozen homepage metadata/performance/script/accessibility gaps, missing durable inquiry/INBOX/counters and unresolved production/legal/auth facts. It explicitly reports NOTREADY, not10/10. Core remains public; project content/QA and raw source prompts stay in the private companion.
