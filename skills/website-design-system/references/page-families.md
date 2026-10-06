@@ -12,6 +12,8 @@ Plan contextual actions and transitions along the whole page. Footer/nav should 
 
 ## Shop, category and product choice
 
+For an authorized production payment/order integration, read [commerce acceptance](commerce-acceptance.md). It supplements visual selection with seller/provider readiness, actual order delivery, real-review provenance and distinct local/provider/live evidence. An enquiry-only shop does not need a payment integration.
+
 Prioritize selection: what is included, meaningful variants, real price/availability when supplied, compatibility/limits, quantities and actual next step. Adapt layout to a small curated set, technical catalogue, service options or another real offering. Filters need to distinguish the actual collection; omit purposeless search/filter controls for a handful of bundles.
 
 Reuse approved product masters and match camera, scale and illumination. A quantity arrangement can repeat one faithful object. Use live text for package contents, labels, selected options and prices; selected states change the relevant surface/outline and retain semantic selection.
