@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Deploy"
+  short_description: "Reproducible launches with DNS, mail and live checks"
+  default_prompt: "Use $website-deploy to prepare and complete the authorized website release, preserving existing services and verifying the actual public domain."

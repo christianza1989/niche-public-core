@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Design System"
+  short_description: "Niche-specific multipage design and asset workflow"
+  default_prompt: "Use $website-design-system to plan and implement the requested pages as a coherent niche-specific design, with reusable assets and actual browser verification."
