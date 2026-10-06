@@ -4,13 +4,13 @@ import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import Stripe from 'stripe';
-import {commerce,commerceReady,checkoutParameters,applyStripeEvent,fulfilOrder,moderateReview} from '../lib/stripe-commerce.mjs';
+import {commerce,commerceReady,checkoutParameters,applyStripeEvent,fulfilOrder,moderateReview,dispatchOrder} from '../lib/stripe-commerce.mjs';
 
 const policy={version:'test-policy',seller:'Test seller',stripeAccount:'acct_test',mode:'test',currency:'usd',prices:[2900,4900,6500,7900],licenceApproved:true,taxReviewed:true,returnsApproved:true,shippingApproved:true,shippingCountries:['LT'],shippingAmount:500,shippingDeliveryMinimum:2,shippingDeliveryMaximum:5};
 const envOf=db=>({DB:db,AUTH_RATE_SECRET:'local-test-rate',STRIPE_RESTRICTED_KEY:'rk_test_unit_only',STRIPE_WEBHOOK_SECRET:'whsec_unit_only'});
 const token='a'.repeat(64),digest=createHash('sha256').update(token).digest('hex');
 function database(){
- const sql=new DatabaseSync(':memory:');sql.exec(readFileSync(new URL('../deploy/phonebridger/schema.sql',import.meta.url),'utf8'));sql.exec(readFileSync(new URL('../deploy/phonebridger/commerce-schema.sql',import.meta.url),'utf8'));
+ const sql=new DatabaseSync(':memory:');sql.exec(readFileSync(new URL('../deploy/phonebridger/schema.sql',import.meta.url),'utf8'));sql.exec(readFileSync(new URL('../deploy/phonebridger/commerce-schema.sql',import.meta.url),'utf8'));sql.exec(readFileSync(new URL('../deploy/phonebridger/commerce-operations.sql',import.meta.url),'utf8'));
  sql.prepare('INSERT INTO customer_users VALUES (?,?,?,?,?)').run('user-1','buyer@example.com','unused','unused','2026-10-06');sql.prepare('INSERT INTO customer_sessions VALUES (?,?,?)').run(digest,'user-1',Date.now()+3600000);
  const wrap=(statement,values=[])=>({sql:statement,values,bind(...args){return wrap(statement,args);},async first(){return sql.prepare(statement).get(...values)||null;},async all(){return {results:sql.prepare(statement).all(...values)};},async run(){return sql.prepare(statement).run(...values);}});
  return {sql,prepare:statement=>wrap(statement),async batch(statements){sql.exec('BEGIN');try{const results=statements.map(s=>sql.prepare(s.sql).run(...s.values));sql.exec('COMMIT');return results;}catch(error){sql.exec('ROLLBACK');throw error;}}};
@@ -20,7 +20,7 @@ function insertOrder(db,changes={}){
  const order={id:'b'.repeat(32),user_id:'user-1',email:'buyer@example.com',holders:0,finish:'none',policy_version:policy.version,currency:'usd',subtotal:2900,shipping:0,status:'pending',fulfilment:'unfulfilled',created_at:Date.now(),expires_at:Date.now()+7200000,session_id:'cs_test_unit',...changes};
  const entries=Object.entries(order);db.sql.prepare(`INSERT INTO commerce_orders (${entries.map(e=>e[0]).join(',')}) VALUES (${entries.map(()=>'?').join(',')})`).run(...entries.map(e=>e[1]));return order;
 }
-const sessionOf=order=>({id:order.session_id,livemode:false,client_reference_id:order.id,metadata:{phonebridger_order:order.id,policy_version:order.policy_version},payment_status:'paid',currency:order.currency,amount_subtotal:order.subtotal,amount_total:order.subtotal+order.shipping,total_details:{amount_shipping:order.shipping,amount_tax:0},payment_intent:'pi_test_unit',line_items:{data:[{quantity:1,amount_subtotal:order.subtotal}]}});
+const sessionOf=order=>({id:order.session_id,livemode:false,client_reference_id:order.id,metadata:{phonebridger_order:order.id,policy_version:order.policy_version},payment_status:'paid',currency:order.currency,amount_subtotal:order.subtotal,amount_total:order.subtotal+order.shipping,total_details:{amount_shipping:order.shipping,amount_tax:0},payment_intent:{id:'pi_test_unit',status:'succeeded',latest_charge:{id:'ch_test_unit',refunded:false,disputed:false}},line_items:{data:[{quantity:1,amount_subtotal:order.subtotal}]}});
 const eventOf=(type,session,id='evt_test_unit')=>({id,type,livemode:false,data:{object:session}});
 
 test('checkout policy is fail closed for launch facts, key mode and physical delivery',()=>{
@@ -80,7 +80,7 @@ test('payment waits for verified canonical paid state, duplicate events are harm
  await applyStripeEvent(eventOf('checkout.session.completed',{...session,payment_status:'unpaid'},'evt_unpaid'),db,policy,stripe);
  assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'pending');assert.equal(reads,0);
  const event=eventOf('checkout.session.async_payment_succeeded',session);await applyStripeEvent(event,db,policy,stripe);await applyStripeEvent(event,db,policy,stripe);
- assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'paid');assert.equal(reads,1);assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM commerce_entitlements').get().n,0);
+ assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'paid');assert.equal(reads,1);assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM commerce_entitlements').get().n,1);assert.equal(db.sql.prepare('SELECT fulfilment FROM commerce_orders').get().fulfilment,'fulfilled');
 });
 
 test('mismatched amount, session identity or mode never confirms payment',async()=>{
@@ -136,4 +136,54 @@ test('moderation accepts a critical review and records its action; duplicate dec
  const db=database(),order=insertOrder(db,{status:'paid',fulfilment:'fulfilled'});db.sql.prepare("INSERT INTO commerce_reviews VALUES (?,?,?,?,?,?,?,?, 'pending')").run('review-negative',order.id,'user-1','Buyer',1,'Not a fit for me','The holder did not suit my particular desk.',Date.now());
  await assert.rejects(moderateReview(db,'review-negative','reject','low-rating'));await moderateReview(db,'review-negative','publish','publish');
  assert.equal(db.sql.prepare('SELECT moderation FROM commerce_reviews').get().moderation,'published');assert.equal(db.sql.prepare('SELECT reason FROM commerce_moderation_audit').get().reason,'publish');await assert.rejects(moderateReview(db,'review-negative','publish','publish'));
+});
+
+
+test('claimable key exemption is isolated to its explicitly bound test playground',async()=>{
+ const db=database(),payload={holders:0,finish:'black',requestId:crypto.randomUUID(),consent:true};let accountReads=0;
+ const stripe={accounts:{retrieve:async()=>{accountReads++;throw Error('Account permission denied');}},checkout:{sessions:{create:async()=>({id:'cs_test_claimable',livemode:false,url:'https://checkout.stripe.com/c/pay/test'})}}};
+ const env={...envOf(db),STRIPE_RESTRICTED_KEY:'rkcs_test_unit_only',PLAYGROUND:'1',CLAIMABLE_SANDBOX_ACCOUNT:policy.stripeAccount};
+ assert.equal((await commerce(request('checkout',payload),env,policy,'checkout',stripe)).status,201);assert.equal(accountReads,0);
+ assert.equal((await commerce(request('checkout',{...payload,requestId:crypto.randomUUID()}),{...env,PLAYGROUND:'0'},policy,'checkout',stripe)).status,503);assert.equal(accountReads,1);
+ assert.equal(commerceReady(env,{...policy,mode:'live'}),false);
+ assert.equal(checkoutParameters({id:'b'.repeat(32),email:'buyer@example.com',holders:0,finish:'none',expires_at:Date.now()+7200000},policy,'https://test.example').consent_collection,undefined);
+});
+
+test('dispatch and delivery consume physical stock only once; tracking is exact',async()=>{
+ const db=database(),order=insertOrder(db,{holders:2,finish:'black',status:'paid',subtotal:6500});
+ db.sql.prepare('INSERT INTO commerce_stock VALUES (?,?)').run('black',4);db.sql.prepare('INSERT INTO commerce_reservations VALUES (?,?,?,NULL)').run(order.id,'black',2);
+ const delivery={carrier:'Test carrier',trackingNumber:'TEST-123',trackingUrl:'https://example.com/tracking/TEST-123'};
+ await dispatchOrder(db,order.id,delivery);await dispatchOrder(db,order.id,delivery);
+ await assert.rejects(dispatchOrder(db,order.id,{...delivery,trackingNumber:'DIFFERENT'}));
+ assert.equal(db.sql.prepare('SELECT quantity FROM commerce_stock').get().quantity,2);
+ await fulfilOrder(db,order.id,'confirmed-delivery');await fulfilOrder(db,order.id,'confirmed-delivery');
+ assert.equal(db.sql.prepare('SELECT quantity FROM commerce_stock').get().quantity,2);assert.equal(db.sql.prepare('SELECT fulfilment FROM commerce_orders').get().fulfilment,'fulfilled');
+});
+
+test('receipts, licences and order history are owned, test-labelled and revoked on refund',async()=>{
+ const db=database(),order=insertOrder(db),session=sessionOf(order);
+ await applyStripeEvent(eventOf('checkout.session.completed',session),db,policy,{checkout:{sessions:{retrieve:async()=>session}}});
+ const licence=await commerce(request('licence?id='+order.id),envOf(db),policy,'licence');assert.equal(licence.status,200);assert.match(await licence.text(),/TEST RECORD/);
+ assert.equal((await commerce(request('licence?id='+order.id,null,{Cookie:''}),envOf(db),policy,'licence')).status,401);
+ const history=await(await commerce(request('orders'),envOf(db),policy,'orders')).json();assert.equal(history.orders.length,1);assert.equal(history.orders[0].email,undefined);
+ await applyStripeEvent(eventOf('charge.refunded',{payment_intent:'pi_test_unit',refunded:true},'evt_refund'),db,policy,{});
+ assert.equal((await commerce(request('licence?id='+order.id),envOf(db),policy,'licence')).status,409);
+ assert.match(await(await commerce(request('receipt?id='+order.id),envOf(db),policy,'receipt')).text(),/Status: refunded/);
+});
+
+test('operator route rejects public callers and reconciles only provider canonical payment',async()=>{
+ const db=database(),order=insertOrder(db),session=sessionOf(order),env={...envOf(db),COMMERCE_OPERATOR_SECRET:'operator-unit-only'};
+ const payload={action:'reconcile',orderId:order.id};
+ assert.equal((await commerce(request('operator',payload),env,policy,'operator')).status,401);
+ const stripe={checkout:{sessions:{retrieve:async()=>({...session,status:'complete'})}}};
+ assert.equal((await commerce(request('operator',payload,{Authorization:'Bearer operator-unit-only'}),env,policy,'operator',stripe)).status,200);
+ assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'paid');
+});
+
+
+test('a refund received before checkout completion cannot issue a licence',async()=>{
+ const db=database(),order=insertOrder(db),session=sessionOf(order);session.payment_intent.latest_charge.refunded=true;
+ await applyStripeEvent(eventOf('charge.refunded',{payment_intent:'pi_test_unit',refunded:true},'evt_early_refund'),db,policy,{});
+ await applyStripeEvent(eventOf('checkout.session.completed',session),db,policy,{checkout:{sessions:{retrieve:async()=>session}}});
+ assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'refunded');assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM commerce_entitlements').get().n,0);
 });

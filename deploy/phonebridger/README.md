@@ -15,7 +15,7 @@ The build checks every prototype file hash before transforming it. It rejects ch
 
 Installer hashes must match `release/v1.1-auto-usb-1/package-verification.json`. Static Assets has a 25 MiB individual-file limit; the unchanged ZIP is delivered as a streamed concatenation of 20 MiB delivery parts. Those internal part URLs return 404 publicly. HTTP ranges work across part boundaries. This is delivery splitting, not repackaging. No R2 or paid plan was activated.
 
-Generated files and all credentials live only in ignored `.sites-runtime/` or `.dev.vars`. The committed manifest includes 14 exact eligible public routes, four private account routes and an explicit asset allowlist. Static Assets is never served ahead of the Worker guards. A fresh deployment binds asset files and release metadata together.
+Generated files and all credentials live only in ignored `.sites-runtime/` or `.dev.vars`. The committed manifest includes 14 exact eligible public routes, five private routes and an explicit asset allowlist. Static Assets is never served ahead of the Worker guards. A fresh deployment binds asset files and release metadata together.
 
 ## Services and verification
 
@@ -36,11 +36,11 @@ For an explicitly authorized owner-mailbox delivery test, run `node deploy/phone
 
 ## Shop release
 
-The owner-selected seller for proposed paid orders is MB Memocasting. The separately maintained `sites/phonebridger/shop-v2/` kit adds the product gallery, four setup choices, black/silver selection, compatibility, FAQs and a genuine-review empty state. The exact shop/terms bodies also require the Studio-reviewed edition. The current build emits 19 routes (14 public, five private) and 294 allowlisted assets. The homepage and original installers remain unchanged.
+The owner-selected seller for proposed paid orders is MB Memocasting. The separately maintained `sites/phonebridger/shop-v2/` kit adds the product gallery, four setup choices, black/silver selection, compatibility, FAQs and a genuine-review empty state. The exact shop/terms bodies also require the Studio-reviewed edition. The current build emits 19 routes (14 public, five private) and 295 allowlisted assets. The homepage and original installers remain unchanged.
 
-The additive `commerce-schema.sql` is for this dedicated D1 only. `lib/stripe-commerce.mjs` supplies server-authoritative hosted Checkout, durable stock reservations, signed webhook payment confirmation, owner-only order retrieval and paid/fulfilled/moderated reviews. These preparatory services are covered by focused local tests; no provider sandbox checkout or paid delivery is claimed. See [COMMERCE.md](COMMERCE.md) for the complete activation and reconciliation contract.
+The additive `commerce-schema.sql` is for this dedicated D1 only. `lib/stripe-commerce.mjs` supplies server-authoritative hosted Checkout, durable stock reservations, signed webhook payment confirmation, owner-only order retrieval and paid/fulfilled/moderated reviews. These services now have 19 focused local tests plus actual hosted Stripe sandbox purchase/refund/expiry acceptance. Account history, private payment summaries and licence records, automatic digital fulfilment and protected operator dispatch/reconciliation are implemented. See PLAYGROUND.md for exact evidence and limits. See [COMMERCE.md](COMMERCE.md) for the complete activation and reconciliation contract.
 
-Live checkout is disabled in `commerce-policy.json`. MB Memocasting has outstanding owner verification and disabled payouts. Runtime Stripe credentials, confirmed fulfilment/shipping, licence delivery and tax/return terms are missing. The working public action is a setup enquiry, alongside the free beta. Preview hosts cannot accept live payments even if canonical sales are later activated. Never flip the policy flags to bypass these missing facts.
+Live checkout is disabled in `commerce-policy.json`. MB Memocasting has outstanding owner verification and disabled payouts. Runtime Stripe credentials, confirmed fulfilment/shipping, final commercial licence delivery and tax/return terms remain unconfirmed. The test entitlement is a purchase record, not native paid unlocking. The working public action is a setup enquiry, alongside the free beta. Preview hosts cannot accept live payments even if canonical sales are later activated. Never flip the policy flags to bypass these missing facts.
 
 ## Current provider constraints
 

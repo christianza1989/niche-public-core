@@ -12,6 +12,14 @@ import commercePolicy from './commerce-policy.json';
 const pkg=release.package, privatePages=new Set(['login','register','recover','account','checkout']);
 const response=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex'}});
 const txt=(body,type='text/plain; charset=utf-8')=>new Response(body,{headers:{'Content-Type':type,'Cache-Control':'no-cache'}});
+function policyFor(env,local){
+ if(env.PLAYGROUND==='1'){
+  const policy=JSON.parse(env.COMMERCE_SANDBOX_POLICY||'{}');
+  if(!local||policy.mode!=='test'||policy.stripeAccount!==env.CLAIMABLE_SANDBOX_ACCOUNT)throw Error('Invalid isolated playground configuration');
+  return policy;
+ }
+ return local&&commercePolicy.mode==='live'?{...commercePolicy,mode:'disabled'}:commercePolicy;
+}
 async function download(request,env,key){
  const item=release.downloads[key];if(!item)return new Response('Not found',{status:404});
  let start=0,end=item.bytes-1,status=200;const range=request.headers.get('range');
@@ -72,7 +80,7 @@ export default {
     let result;
     try{
       if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length));
-      else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,local&&commercePolicy.mode==='live'?{...commercePolicy,mode:'disabled'}:commercePolicy,url.pathname.slice('/api/shop/'.length));
+      else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,policyFor(env,local),url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);
       else if(!['GET','HEAD'].includes(request.method))result=new Response('Method not allowed',{status:405});
@@ -93,7 +101,11 @@ export default {
         else result=new Response('Not found',{status:404});
       }
     }catch(error){console.error(JSON.stringify({event:'request_failed',code:error.status||503,path:url.pathname}));result=response({error:error.status?error.message:'Service is temporarily unavailable.'},error.status||503);}
-    const headers=new Headers(result.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.set('Content-Security-Policy',"frame-ancestors 'none'; base-uri 'self'; object-src 'none'");
+    if(env.PLAYGROUND==='1'&&result.headers.get('Content-Type')?.includes('text/html')&&request.method!=='HEAD'){
+      const html=(await result.text()).replace(/<body([^>]*)>/,'<body$1><aside style="padding:14px;text-align:center;background:#c50068;color:white;font:700 14px system-ui;position:relative;z-index:100">STRIPE PLAYGROUND · Test cards only · No money, goods or licence supplied</aside>');
+      result=new Response(html,{status:result.status,headers:result.headers});
+    }
+    const headers=new Headers(result.headers);if(env.PLAYGROUND==='1')headers.set('X-PhoneBridger-Environment','playground');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.set('Content-Security-Policy',"frame-ancestors 'none'; base-uri 'self'; object-src 'none'");
     if(!local)headers.set('Strict-Transport-Security','max-age=31536000');
     if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
     else if(headers.get('Content-Type')?.includes('text/html'))headers.set('Cache-Control','no-cache');
