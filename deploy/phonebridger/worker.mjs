@@ -81,7 +81,7 @@ export default {
     if(!home)return new Response('Not found',{status:404});
     let result;
     try{
-      if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length));
+      if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length),{minimumPasswordLength:6});
       else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,policyFor(env,local),url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);

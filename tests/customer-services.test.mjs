@@ -28,6 +28,18 @@ test('session issuance failure returns a private recoverable error rather than r
   assert.deepEqual(await response.json(),{error:'Account service is temporarily unavailable.'});
 });
 
+test('site password minimum accepts six, rejects five and preserves the shared default', async () => {
+  const db={prepare(sql){return {bind(){return this;},async first(){return sql.includes('request_rates')?{count:1}:null;},async run(){return {success:true};}};}};
+  const register=(password,options)=>customerAccount(new Request('https://example.com/api/account/register',{method:'POST',headers:{Origin:'https://example.com','Content-Type':'application/json'},body:JSON.stringify({email:'disposable@example.com',password})}),{DB:db,AUTH_RATE_SECRET:'test-only'},'register',options);
+  const short=await register('abcde',{minimumPasswordLength:6});
+  assert.equal(short.status,400);
+  assert.deepEqual(await short.json(),{error:'Use at least 6 characters for your password.'});
+  assert.equal((await register('abcdef',{minimumPasswordLength:6})).status,201);
+  const standard=await register('abcdef');
+  assert.equal(standard.status,400);
+  assert.deepEqual(await standard.json(),{error:'Use at least 12 characters for your password.'});
+});
+
 test('optional Mail API is off without credentials and targets only the configured mailbox', async () => {
   let calls=0;
   assert.equal(await sendHostingerMail({}, {}, async()=>{calls++;}), false);
