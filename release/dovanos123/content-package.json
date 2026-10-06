@@ -1,0 +1,2661 @@
+{
+  "schemaVersion": 2,
+  "siteId": "dovanos123",
+  "canonicalHost": "dovanos123.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "dovanos123",
+    "name": "Dovanos 123",
+    "canonicalHost": "dovanos123.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#f06f4f"
+    },
+    "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    },
+    "renderer": "gift",
+    "operatorName": "MB Pinet"
+  },
+  "pages": [
+    {
+      "id": "lt-hand-casting-guide",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "article",
+      "slug": "straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+      "title": "Rankų liejimo rinkinys dovanai: kaip išsirinkti ir kam jis tinka",
+      "description": "Praktinis pasirinkimo gidas: kam tinka rankų liejimo dovana, ką tikrinti komplektacijoje ir kaip suplanuoti bendrą veiklą. Ne gamintojo darbo instrukcija.",
+      "intent": "Padėti prieš pirkimą įvertinti rankų liejimo rinkinio tinkamumą gavėjui ir pasirinkimo kriterijus; nepakeisti konkretaus produkto naudojimo ar saugos instrukcijos.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys gali būti gera dovana porai, kuri norėtų ką nors sukurti kartu ir pasilikti bendrą prisiminimą. Tačiau tai nėra paruošta skulptūra: dovanos gavėjai turės perskaityti instrukciją, pasiruošti darbo vietą ir dalyvauti procese. Jei jiems tokia veikla nepatinka, geriau rinktis kitą idėją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis gidas padeda apsispręsti prieš perkant: ką tikrinti rinkinio aprašyme, kaip suplanuoti bendrą veiklą ir kokius klausimus užduoti pardavėjui. Tai nėra konkretaus rinkinio darbo ar saugos instrukcija. Nepriskiriame jam patirties, kurios neturime, ir nežadame tokio rezultato, kokį rodo iliustracija."
+        },
+        {
+          "type": "paragraph",
+          "text": "Komercinis ryšys: Memory Casting yra šio portalo savininko rankų liejimo rinkinių projektas. Nuorodos į jį yra komercinės rekomendacijos, ne nepriklausomo produkto bandymo išvados. Nuorodos į kitas parduotuves savaime nereiškia partnerystės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas sprendimas: rinktis ar nerinktis?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Svarstyti verta, jei abu gavėjai nori bendro kūrybinio projekto ir turi kur laikyti rezultatą.",
+            "Nerinkite vien dėl romantiškos išvaizdos, jei vienas žmogus nemėgsta rankdarbių ar nenori liesti formavimo medžiagų.",
+            "Atidėkite pirkimą, jei aprašyme nėra komplektacijos, aiškių instrukcijų ar konkretaus produkto naudojimo ribų.",
+            "Jei dovaną būtina panaudoti iškart po išpakavimo, paprastesnis pasirinkimas gali būti paruošta nuotrauka, knyga ar iš anksto suderinta patirtis."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas yra rankų liejimas — ir kuo skiriasi du jo etapai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Produkto informacijos puslapyje Memory Casting aprašo du skirtingus dalykus: rankų formos paruošimą ir jos užpildymą liejimo medžiaga. Pirmame etape gaunama forma, kitame — būsimas liejinys. Šis skirtumas svarbus skaitant komplektaciją: vien formavimo medžiaga dar nėra visa dovana."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skirtingų rinkinių medžiagos, jų kiekiai, naudojimo tvarka ir laikai gali skirtis. Mūsų aprašymas yra bendras orientyras, todėl neperkelkite vieno gamintojo recepto kitam rinkiniui. Tikslūs santykiai, vandens temperatūra ir visi darbo žingsniai turi būti imami iš jūsų konkretaus produkto instrukcijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Septyni dalykai, kuriuos patikrinti prieš užsakant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kompozicija. Kiek ir kokių rankų telpa į gamintojo nurodytą talpą? „Porai“ ar „šeimai“ nėra pakankamai tikslus atsakymas kiekvienai situacijai.",
+            "Komplektacija. Atskirai išsirašykite, kas įeina į pakuotę ir ką reikės pasiruošti patiems. Talpa, maišymo priemonės ar pagrindas ne visada būna komplekte.",
+            "Instrukcija. Ar prieš pirkimą galite sužinoti darbo eigą ir pasiruošimo poreikius? Ar gavėjai supras jos kalbą?",
+            "Naudojimo ribos. Paprašykite konkretaus produkto saugos informacijos ir amžiaus apribojimų. Šis gidas nevertina tinkamumo vaikams, kūdikiams ar jautriai odai.",
+            "Vieta ir laikas. Ar gavėjai galės ramiai atlikti procesą, sutvarkyti darbo vietą ir palikti rezultatą gamintojo nurodytam laikui?",
+            "Galutinio objekto vieta. Ar liejinys bus pastatomas, ar jam reikės atskiro pagrindo? Įvertinkite jų namų erdvę, ne tik pakuotės dydį.",
+            "Visa dovanos kaina. Įtraukite pristatymą ir reikalingus papildomus daiktus. Nepirkite remdamiesi vien senoje nuotraukoje nurodyta nuolaida."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasiruošimo planas be spėjamų instrukcijų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia perskaitykite visą komplekte pateiktą instrukciją. Ant lapo susirašykite reikalingas priemones ir užduotis: darbo vieta, rankų padėtis, pagalba, laiko stebėjimas ir vieta rezultatui. Tokia tvarka leidžia pastebėti trūkstamą daiktą dar nepradėjus darbo."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasitikrinkite, kad gavėjai iš tikrųjų nori dalyvauti: bendra veikla nėra gera staigmena, jei vienas žmogus jaučiasi spaudžiamas.",
+            "Pasirinkite dieną be skubėjimo. Planuokite ne tik darbą, bet ir pasiruošimą, tvarkymą bei gamintojo nurodytus laukimo etapus.",
+            "Instrukcijoje susiraskite, ką būtina paruošti prieš atidarant medžiagas. Neimprovizuokite proporcijų ar darbo laiko.",
+            "Jeigu kuri nors naudojimo ar saugos sąlyga neaiški, išsiaiškinkite ją su pardavėju prieš pradedant, o ne proceso viduryje."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip suprasti proceso eigą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bendra logika — paruošti formą, ją atlaisvinti gamintojo numatytu būdu, užpildyti ir sulaukti nurodyto kietėjimo bei džiūvimo. Tai nėra keturi savarankiški mūsų siūlomi darbo žingsniai: konkretaus rinkinio instrukcija gali turėti papildomų etapų. Jei jos neturite, iš šio straipsnio darbo nepradėkite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nusprendę dovanoti rinkinį, įteikite jį su trumpu asmeniniu paaiškinimu: kodėl pasirinkote bendrą veiklą ir kada būtų smagu ją išbandyti. Nepaverskite siūlomos datos įsipareigojimu — gavėjai turi galėti pasirinkti sau patogų laiką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klaidų prevencija: ką galima nuspręsti dar prieš liejimą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Per mažai informacijos: rinkinio nuotrauka nepakeičia tikslaus aprašymo ir instrukcijos. Trūkstamus atsakymus gaukite prieš pirkimą.",
+            "Netinkama kompozicija: norimą rankų padėtį sulyginkite su gamintojo pateiktais dydžio apribojimais, o ne su kito rinkinio reklama.",
+            "Per anksti suplanuotas įteikimas: rinkinio gavimas ir paruoštos skulptūros įteikimas yra du skirtingi terminai.",
+            "Neaptarta pagalba: jei instrukcijoje reikalingas pagalbininkas, iš anksto susitarkite, kas padės.",
+            "Kataloginio rezultato lūkestis: individualios rankos ir procesas reiškia individualų rezultatą. Teminė iliustracija nėra kokybės ar tikslaus panašumo pažadas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Alternatyvos, jei rankų liejimas netinka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei gavėjai vertina prisiminimus, bet nenori kūrybinio proceso, galima įrėminti bendrą nuotrauką su trumpu laišku. Jei jiems trūksta laiko, apsvarstykite veiklą, kurios datą galės pasirinkti patys. Skirtumas nėra „geresnė“ ar „blogesnė“ dovana — skiriasi įsitraukimas, erdvė ir pasiruošimas."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Šventinei progai palyginkite "
+            },
+            {
+              "type": "link",
+              "text": "kalėdinių dovanų porai pasirinkimus",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-christmas-couple"
+              }
+            },
+            {
+              "type": "text",
+              "text": ". Jei dovanojate partneriui, "
+            },
+            {
+              "type": "link",
+              "text": "dovanų vyrui Kalėdoms gidas",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-christmas-man"
+              }
+            },
+            {
+              "type": "text",
+              "text": " padės įvertinti ir praktiškesnes alternatyvas."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi pasirinkimo klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar tokia dovana tinka metinėms?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gali tikti, jei abu žmonės vertina bendrą kūrybinę veiklą ir norės saugoti rezultatą. Vien metinių proga nepasako, ar rinkinys jiems tinkamas — patikrinkite šiuos du dalykus prieš pirkdami."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar galima dovanoti dar nežinant, kada jie liejimą atliks?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip svarstyti galima, bet prieš užsakydami pasiteiraukite apie konkrečių medžiagų laikymo sąlygas ir naudojimo terminus. Nerašome universalaus galiojimo laiko, nes jis priklauso nuo produkto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kiek užtruks ir ar medžiagos tinka visiems?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide to konkrečiam rinkiniui nepatvirtinome. Reikalinga gamintojo instrukcija ir saugos informacija. Nelaikykite bendro „saugu“ reklaminio sakinio individualaus tinkamumo įrodymu."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kur skaityti apie savininko rinkinį?"
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rinkinių informaciją rasite "
+            },
+            {
+              "type": "link",
+              "text": "Memory Casting puslapyje",
+              "target": {
+                "kind": "commerce",
+                "targetId": "memorycasting-information"
+              }
+            },
+            {
+              "type": "text",
+              "text": ". Sprendimą dėl konkretaus rinkinio priimkite perskaitę jo komplektaciją bei naudojimo informaciją."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atranka paremta dovanos tinkamumo kriterijais ir nurodytais pirminiais puslapiais, ne asmeniniu produktų testu. Kainų, likučių, šventinių pristatymo terminų ir kuponų sąlygų čia nefiksuojame: tikrinkite juos pas pardavėją prieš užsakydami. Iliustracijos yra teminės, ne konkrečių prekybininkų prekių nuotraukos."
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [
+        {
+          "id": "3ca49289-5119-4d60-810e-fe2ca2575a10",
+          "src": "/content-assets/dovanos123/3ca49289-5119-4d60-810e-fe2ca2575a10.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "76408ead-e53f-4de0-876e-668b308f5115",
+          "src": "/content-assets/dovanos123/76408ead-e53f-4de0-876e-668b308f5115.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 1200,
+          "height": 800,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "a0f855a7-8c52-4a4a-a552-a2c2d343f974",
+          "src": "/content-assets/dovanos123/a0f855a7-8c52-4a4a-a552-a2c2d343f974.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 800,
+          "height": 533,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "e94d0723-d210-450b-a6ee-cc14ebe14975",
+          "src": "/content-assets/dovanos123/e94d0723-d210-450b-a6ee-cc14ebe14975.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 640,
+          "height": 427,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "00e65700-09cc-403c-a057-0c0055390ce2",
+          "src": "/content-assets/dovanos123/00e65700-09cc-403c-a057-0c0055390ce2.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 360,
+          "height": 240,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        }
+      ],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Personalizuotos dovanos",
+        "readingMinutes": 5,
+        "authors": [
+          {
+            "id": "dovanos123-redakcija",
+            "slug": "dovanos123-redakcija",
+            "name": "Dovanos 123 redakcija",
+            "role": "Turinio komanda",
+            "bio": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant.",
+            "kind": "organization",
+            "sameAs": [],
+            "siteId": "dovanos123",
+            "locale": "lt-LT"
+          }
+        ],
+        "sources": [
+          {
+            "id": "source-memorycasting",
+            "title": "Memory Casting: rankų liejimo rinkinių informacija",
+            "publisher": "Memory Casting",
+            "url": "https://memorycasting.lt/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          }
+        ],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:16:07.763Z",
+        "productRecommendation": true,
+        "featuredImageId": "3ca49289-5119-4d60-810e-fe2ca2575a10",
+        "relatedPageIds": [
+          "lt-christmas-couple",
+          "lt-christmas-man"
+        ],
+        "commerceTargets": [
+          {
+            "id": "memorycasting-information",
+            "url": "https://memorycasting.lt/",
+            "label": "Memory Casting: rankų liejimo rinkinių informacija",
+            "relationship": "Šio portalo savininko projektas; komercinė informacinė rekomendacija, ne nepriklausomas bandymas ar patvirtintas checkout.",
+            "verified": true,
+            "checkedAt": "2026-10-04T22:01:56.596Z"
+          }
+        ]
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "0551cf5f26a4a7dd019e5ca1738342cd14870f8d96e3dd7221e894d7b44747d2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0551cf5f26a4a7dd019e5ca1738342cd14870f8d96e3dd7221e894d7b44747d2",
+        "approvedAt": "2026-10-04T22:25:18.029Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "lt-christmas-couple",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "article",
+      "slug": "straipsniai/kaledines-dovanos-porai",
+      "title": "Kalėdinės dovanos porai: kaip išrinkti tai, ką prisimins abu",
+      "description": "Praktiškas gidas, padedantis išsirinkti kalėdinę dovaną porai pagal jų kasdienybę, biudžetą ir norą patirti ką nors kartu.",
+      "intent": "Kalėdinės dovanos porai: kaip išrinkti tai, ką prisimins abu",
+      "body": [
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kalėdinę dovaną porai lengva paversti dar vienu bendru daiktu namuose. Geresnis pasirinkimas prasideda nuo klausimo, ką pora iš tikrųjų norėtų veikti kartu: gaminti vakarienę, išbandyti naują veiklą, atnaujinti namų erdvę ar išsaugoti svarbų gyvenimo etapą."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Šiame gide pateikiame konkretų būdą susiaurinti pasirinkimą, palyginame dovanų tipus ir paaiškiname, kada verta rinktis rankų liejimo rinkinį. Tai ne kainų reitingas — skirtingų porų poreikiai yra skirtingi, todėl svarbiausia dovanos tinkamumas, o ne kuo ilgesnis sąrašas."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Komercinis ryšys: Memory Casting yra šio portalo savininko rankų liejimo rinkinių projektas. Nuorodos į jį yra komercinės rekomendacijos, ne nepriklausomo produkto bandymo išvados. Nuorodos į kitas parduotuves savaime nereiškia partnerystės."
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Nuo ko pradėti renkant dovaną porai?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pirmiausia įvertinkite, ar dovana bus naudojama kartu, ar ją naudos vienas žmogus. Jei dovana skirta abiem, ieškokite bendro ritualo: daikto, kurį pora išbandys tą pačią dieną, arba prisiminimo, kuris turės vietą jų namuose."
+            }
+          ]
+        },
+        {
+          "type": "richList",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Koks jų laisvalaikis — ramus vakaras namuose, kelionės, maistas ar kūrybinės veiklos?"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ar jie vertina praktiškumą, ar mieliau renkasi sentimentalius daiktus?"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Kiek laiko liko iki švenčių ir ar dovana turi būti pristatyta į kitą miestą?"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ar turite biudžetą vienai kokybiškai dovanai, ar norite sudėti kelis mažus elementus?"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Šie klausimai apsaugo nuo dažnos klaidos: nupirkti gražiai atrodantį daiktą, kuris visiškai neatitinka poros įpročių. Jei nežinote atsakymo, paklauskite artimo žmogaus apie jų savaitgalio rutiną — vienas konkretus pavyzdys dažnai pasako daugiau nei bendras apibūdinimas."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Penki dovanų tipai, kuriuos verta palyginti"
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "1. Bendra patirtis"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Vakarienės kuponas, degustacija, kūrybinės dirbtuvės ar trumpa išvyka sukuria progą ištrūkti iš rutinos. Tokiai dovanai svarbu patikrinti galiojimo laiką, rezervavimo taisykles ir lokaciją. Patirtis puikiai tinka porai, kuri labiau vertina laiką nei naują daiktą."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "2. Naudingas daiktas namams"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kokybiškas pledas, stalo serviravimo elementas ar virtuvės įrankis gali būti geras pasirinkimas, jei žinote jų skonį. Venkite labai asmeniškų spalvų ir dydžių, kurių negalite patikrinti. Praktinė dovana tampa asmeniška, kai ją susiejate su konkrečiu jų įpročiu."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "3. Personalizuota dovana"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Inicialai, data, nuotrauka ar trumpas palinkėjimas suteikia dovanai istoriją. Prieš užsakydami patikrinkite, ar gamintojas rodo personalizacijos maketą ir kiek laiko trunka gamyba. Kalėdiniu laikotarpiu pristatymo terminas yra toks pat svarbus kaip ir idėja."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "4. Rankų darbo prisiminimas"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rankų liejimo rinkinys leidžia porai pačiai sukurti trimatį savo rankų prisiminimą. Jis tinka ne visiems: gavėjai turi norėti skirti laiko pasiruošimui, laikytis instrukcijos ir priimti tai, kad rankų liejinys bus unikalus, o ne identiškas katalogo nuotraukai."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Renkantis tokį rinkinį patikrinkite, kiek žmonių rankoms jis skirtas, kas įeina į komplektą, kiek laiko reikia procesui ir ar yra aiški saugos informacija. Jei pora mėgsta bendrus projektus, tai gali būti svarstytina kalėdinė dovana."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "5. Mažas rinkinys iš kelių daiktų"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Arbata, saldumynas, žvakė ir ranka parašytas laiškas veikia tada, kai elementus sieja viena tema. Pavyzdžiui, jaukaus vakaro rinkinys bus įtikinamesnis, jei pridėsite konkretų pasiūlymą, kada jį išbandyti kartu."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Kaip pasirinkti pagal biudžetą"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Pirmiausia nusistatykite savo ribą, pavyzdžiui, 30 € arba 80 €, ir iš jos atimkite pristatymo bei pateikimo išlaidas. Tai planavimo pavyzdžiai, ne pažadas, kad konkretus produktas tilps į šias sumas. Didesniam biudžetui verta rinktis vieną išskirtinę dovaną ir skirti laiko jos istorijai, užuot pirkus kelis atsitiktinius daiktus."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kainą lyginkite ne tik pagal prekės etiketę. Pridėkite pristatymą, personalizacijos mokestį, rezervacijos sąlygas ir laiką, kurį pora turės skirti dovanai. Taip palyginimas tampa sąžiningas."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Kada rankų liejimo rinkinys yra geras pasirinkimas?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jį verta rinktis, kai pora vertina bendras veiklas, turi patogią vietą procesui ir norės išsaugoti rezultatą namuose. Tai ypač prasminga pirmoms bendroms Kalėdoms, sužadėtiniams, jaunavedžiams arba porai, kuri švenčia naują gyvenimo etapą."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jeigu pora gyvena labai mažoje erdvėje, nemėgsta rankdarbių arba dovaną reikės panaudoti tą pačią dieną be pasiruošimo, geriau rinktis patirtį ar paruoštą daiktą. Tinkamumas gavėjui yra svarbesnis už produkto populiarumą."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Kalėdinio užsakymo kontrolinis sąrašas"
+            }
+          ]
+        },
+        {
+          "type": "richList",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Patikrinkite, ar pristatymo terminas tinka jūsų šventės datai."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Perskaitykite, kas tiksliai įeina į komplektą ir ko reikės papildomai."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Įsitikinkite, kad aprašyme yra priežiūros ir saugos informacija."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Jei dovana personalizuojama, dar kartą patikrinkite vardus ir datą."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Pridėkite trumpą paaiškinimą, kodėl pasirinkote būtent šią dovaną."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Dažniausi klausimai"
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ar dovaną porai geriau įteikti vieną bendrą, ar po atskirą?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei pora daug ką planuoja kartu, viena bendra dovana gali būti prasmingesnė. Jei jų pomėgiai labai skirtingi, galima pridėti po mažą asmeninę detalę prie pagrindinės bendros dovanos."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ar patirtis nėra per daug neapčiuopiama?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Patirtį galima padaryti asmenišką: pridėkite palinkėjimą ir parašykite, kodėl ją pasirinkote. Datą įrašykite tik iš anksto suderinę su pora, arba leiskite ją pasirinkti patiems gavėjams."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ką daryti, jei nežinau jų skonio?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rinkitės neutralią, panaudojamą dovaną arba dovaną, kurioje svarbi veikla, o ne spalva ir dydis. Venkite labai specifinio interjero dekoro, jei nesate matę jų namų."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkretūs pavyzdžiai, kuriuos galima palyginti"
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "IKEA RÖDALM 13 × 18 cm rėmelis",
+              "target": {
+                "kind": "external",
+                "url": "https://www.ikea.com/lt/lt/p/roedalm-remelis-berzo-rastas-30548866/"
+              }
+            },
+            {
+              "type": "text",
+              "text": " — pavyzdys porai, kuri norėtų išsaugoti bendrą nuotrauką be rankdarbių proceso. Prieš spausdindami patikrinkite nuotraukos dydį ir pasparto naudojimą konkrečiame aprašyme. Nepirkite, jei jų namuose jau nėra vietos dar vienam rėmeliui."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Pegaso dovanų kuponų pasirinkimas",
+              "target": {
+                "kind": "external",
+                "url": "https://www.pegasas.lt/dovanu-kuponai/"
+              }
+            },
+            {
+              "type": "text",
+              "text": " — alternatyva skaitytojui, kurio norimos knygos nežinote. Tai kategorijos, ne vieno konkretaus kupono nuoroda. Prieš pirkimą atskirai patikrinkite sumą, galiojimą, panaudojimo vietą ir gavimo būdą; negalime pažadėti momentinio pristatymo."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei svarstote bendrą kūrybinį prisiminimą, prieš užsakydami perskaitykite "
+            },
+            {
+              "type": "link",
+              "text": "rankų liejimo rinkinio pasirinkimo gidą",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-hand-casting-guide"
+              }
+            },
+            {
+              "type": "text",
+              "text": ". Kitam gavėjui gali praversti "
+            },
+            {
+              "type": "link",
+              "text": "dovanų vyrui Kalėdoms atranka",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-christmas-man"
+              }
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atranka paremta dovanos tinkamumo kriterijais ir nurodytais pirminiais puslapiais, ne asmeniniu produktų testu. Kainų, likučių, šventinių pristatymo terminų ir kuponų sąlygų čia nefiksuojame: tikrinkite juos pas pardavėją prieš užsakydami. Iliustracijos yra teminės, ne konkrečių prekybininkų prekių nuotraukos."
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [
+        {
+          "id": "0e8bc9ab-f506-4cbe-89a9-e3b322276735",
+          "src": "/content-assets/dovanos123/0e8bc9ab-f506-4cbe-89a9-e3b322276735.webp",
+          "alt": "Popieriaus koliažo iliustracija: pora prie stalo su kalėdine dovana",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "91569ccc-9252-41e5-a263-73b5bbe26e25",
+          "src": "/content-assets/dovanos123/91569ccc-9252-41e5-a263-73b5bbe26e25.webp",
+          "alt": "Popieriaus koliažo iliustracija: pora prie stalo su kalėdine dovana",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "f2274242-7ae3-48ac-9be2-aa796e98f82e",
+          "src": "/content-assets/dovanos123/f2274242-7ae3-48ac-9be2-aa796e98f82e.webp",
+          "alt": "Popieriaus koliažo iliustracija: pora prie stalo su kalėdine dovana",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "84cd4ad9-ee78-455d-9283-1eeb0ec2f46e",
+          "src": "/content-assets/dovanos123/84cd4ad9-ee78-455d-9283-1eeb0ec2f46e.webp",
+          "alt": "Popieriaus koliažo iliustracija: pora prie stalo su kalėdine dovana",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "446bb397-59b0-4ff9-bd2f-7fab613ff8b9",
+          "src": "/content-assets/dovanos123/446bb397-59b0-4ff9-bd2f-7fab613ff8b9.webp",
+          "alt": "Popieriaus koliažo iliustracija: pora prie stalo su kalėdine dovana",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        }
+      ],
+      "links": [],
+      "externalLinks": [
+        {
+          "url": "https://www.ikea.com/lt/lt/p/roedalm-remelis-berzo-rastas-30548866/",
+          "label": "IKEA RÖDALM rėmelis",
+          "reason": "Pirminis konkretaus 13 × 18 cm nuotraukos rėmelio aprašymas; kainos ir likučio netvirtiname."
+        },
+        {
+          "url": "https://www.pegasas.lt/dovanu-kuponai/",
+          "label": "Pegaso dovanų kuponai",
+          "reason": "Pirminė kuponų kategorija; konkretaus kupono sąlygos šiame gide nepatvirtintos."
+        }
+      ],
+      "editorial": {
+        "category": "Kalėdinės dovanos",
+        "readingMinutes": 5,
+        "authors": [
+          {
+            "id": "dovanos123-redakcija",
+            "slug": "dovanos123-redakcija",
+            "name": "Dovanos 123 redakcija",
+            "role": "Turinio komanda",
+            "bio": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant.",
+            "kind": "organization",
+            "sameAs": [],
+            "siteId": "dovanos123",
+            "locale": "lt-LT"
+          }
+        ],
+        "sources": [
+          {
+            "id": "source-memorycasting",
+            "title": "Memory Casting: rankų liejimo rinkinių informacija",
+            "publisher": "Memory Casting",
+            "url": "https://memorycasting.lt/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          },
+          {
+            "id": "source-ikea-rodalm",
+            "title": "IKEA RÖDALM: rėmelis, 13 × 18 cm",
+            "publisher": "IKEA Lietuva",
+            "url": "https://www.ikea.com/lt/lt/p/roedalm-remelis-berzo-rastas-30548866/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          },
+          {
+            "id": "source-pegasas-giftcards",
+            "title": "Pegasas: dovanų kuponų kategorija",
+            "publisher": "Pegasas",
+            "url": "https://www.pegasas.lt/dovanu-kuponai/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          }
+        ],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:16:07.788Z",
+        "productRecommendation": true,
+        "featuredImageId": "0e8bc9ab-f506-4cbe-89a9-e3b322276735",
+        "relatedPageIds": [
+          "lt-hand-casting-guide",
+          "lt-christmas-man"
+        ],
+        "commerceTargets": [
+          {
+            "id": "memorycasting-information",
+            "url": "https://memorycasting.lt/",
+            "label": "Memory Casting: rankų liejimo rinkinių informacija",
+            "relationship": "Šio portalo savininko projektas; komercinė informacinė rekomendacija, ne nepriklausomas bandymas ar patvirtintas checkout.",
+            "verified": true,
+            "checkedAt": "2026-10-04T22:01:56.596Z"
+          }
+        ]
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "415a408038dd4a1ce1e8a4660cf146a750b68f7d584c20dab1aff23b6ae07a04",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "415a408038dd4a1ce1e8a4660cf146a750b68f7d584c20dab1aff23b6ae07a04",
+        "approvedAt": "2026-10-04T22:25:18.203Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "lt-christmas-man",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "article",
+      "slug": "straipsniai/ka-dovanoti-vyrui-kaledoms",
+      "title": "Ką dovanoti vyrui Kalėdoms? Praktinis gidas pagal jo pomėgius",
+      "description": "Kaip išrinkti kalėdinę dovaną vyrui ne pagal bendrą sąrašą, o pagal jo kasdienybę, pomėgius ir jūsų ryšį.",
+      "intent": "Ką dovanoti vyrui Kalėdoms? Praktinis gidas pagal jo pomėgius",
+      "body": [
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Klausimas „ką dovanoti vyrui Kalėdoms?“ dažnai tampa per plačiu paieškos sąrašu. Geriau pradėti nuo jo įpročių: ką jis daro po darbo, ką nuolat taiso, apie ką kalba ir kokią veiklą vis atideda. Tokie signalai padeda rasti dovaną, kuri bus naudojama, o ne pamiršta stalčiuje."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Šis gidas padės susiaurinti pasirinkimą pagal pomėgius, santykį ir biudžetą. Įtraukiame ir dovanas, kurias galima patirti kartu, nes vyrui skirta dovana nebūtinai turi būti vien jo daiktas."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Komercinis ryšys: Memory Casting yra šio portalo savininko rankų liejimo rinkinių projektas. Nuorodos į jį yra komercinės rekomendacijos, ne nepriklausomo produkto bandymo išvados. Nuorodos į kitas parduotuves savaime nereiškia partnerystės."
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Greitas pasirinkimo metodas"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Užrašykite tris jo savybes arba veiklas ir prie kiekvienos pridėkite vieną realų poreikį. Pavyzdžiui: mėgsta kavą — trūksta gero rytinio ritualo; važinėja dviračiu — praverstų patogus aksesuaras; vertina šeimą — norėtųsi išsaugoti bendrą prisiminimą. Iš šių poreikių rinkitės vieną, kurio pats žmogus dar neišsprendė."
+            }
+          ]
+        },
+        {
+          "type": "richList",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Dovana turi būti susijusi su jo gyvenimu, ne tik su tuo, kas šiuo metu reklamuojama."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Patikrinkite, ar neturi panašaus daikto, prieš pirkdami dar vieną."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Įvertinkite, ar dovaną jis galės naudoti iš karto, ar reikės papildomų priedų."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Jei dovana brangesnė, pasilikite laiko pristatymui ir grąžinimo sąlygoms."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Dovanos pagal pomėgius"
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Technikos ir praktiškumo mėgėjui"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Praktiškam vyrui tinka daiktas, kuris išsprendžia konkretų nepatogumą: kokybiškas įrankis, patogus organizatorius, įkrovimo sprendimas ar darbo vietos priedas. Venkite neaiškios paskirties „gadgetų“, jei negalite paaiškinti, kokią problemą jie išsprendžia."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Sportuojančiam vyrui"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Rinkitės ne pagal sporto šakos pavadinimą, o pagal jo treniruočių rutiną. Gali tikti atsistatymui skirtas aksesuaras, gertuvė, krepšys ar patogus sluoksnis lauko veiklai. Batų, šalmo ir kitų dydžiui jautrių daiktų nepirkite nežinodami tikslių parametrų."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Mėgstančiam maistą ir kavą"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Čia geriausiai veikia dovana su aiškiu panaudojimo scenarijumi: degustacija, kavos pupelių rinkinys, geras virtuvės įrankis arba vakarienė, kurią paruošite kartu. Jei renkatės maistą, patikrinkite galiojimo laiką ir ar nėra alergijų."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Automobilių ar kelionių entuziastui"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kelionėms praverčia patvarus krepšys, dokumentų dėklas, kompaktiškas organizatorius ar patirtis. Automobilio aksesuarus rinkite tik žinodami konkretų modelį ir suderinamumą — universalus aprašymas ne visada reiškia, kad daiktas tiks."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Sentimentaliam vyrui"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei jis vertina prisiminimus, rinkitės dovaną su istorija: nuotraukų knygą, laišką, bendros datos simbolį ar kartu sukurtą objektą. Rankų liejimo rinkinys gali būti tinkamas porai ar šeimai, kuri nori įamžinti artumą ir nebijo skirti laiko procesui."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Kaip pasirinkti pagal santykį"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Partneriui dažniausiai tinka dovana, kuri kalba apie jūsų bendrą istoriją. Tėčiui ar broliui svarbiau jo įprotis ir praktiškumas. Kolegai ar draugui rinkitės neutralesnę dovaną, kuri nesukuria nepatogaus įsipareigojimo. Santykis padeda nustatyti, kiek asmeniška gali būti dovana."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei dovana skirta partneriui, nebijokite rinktis ne tik jo asmeninio daikto. Bendra veikla arba objektas, kurį sukursite dviese, gali būti prasmingesnis už dar vieną daiktą, kurį jis turės prižiūrėti."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Biudžetas ir kalėdinis laikas"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Nedidelis biudžetas nėra problema, jei dovana turi konkretų kontekstą. Nusistatykite savo kainos ribą ir į ją įtraukite pristatymą bei reikalingus priedus. 30 € ar 80 € gali būti jūsų planavimo ribos, tačiau jos negarantuoja konkrečios prekės ar patirties pasiūlymo."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kalėdų laikotarpiu būtinai patikrinkite realų pristatymo terminą, ne vien žymą „turime sandėlyje“. Jei prekė gaminama pagal užsakymą, papildomai įvertinkite personalizacijos ir kurjerio laiką. Turėkite paprastesnį atsarginį variantą, jei pagrindinė dovana vėluotų."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ko geriau nepirkti aklai"
+            }
+          ]
+        },
+        {
+          "type": "richList",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Drabužių ir avalynės, kai nežinote tikslaus dydžio ar modelio."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Labai specifinių įrankių, jei nežinote jo turimos sistemos."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Humoro dovanų, kurios gali būti juokingos tik pirkėjui."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Prastos kokybės rinkinių, kurių aprašyme nėra komplektacijos ar saugos informacijos."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Dovanų, kurios žada greitą rezultatą, bet reikalauja daug nepaaiškinto pasiruošimo."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Dažniausiai užduodami klausimai"
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ar geriau pirkti vieną brangesnę dovaną, ar kelias mažesnes?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei žinote konkretų poreikį, viena kokybiška dovana paprastai yra aiškesnis pasirinkimas. Kelios mažesnės veikia tada, kai jos sudaro vieną temą ir nėra atsitiktinis daiktų rinkinys."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Kaip suprasti, ar dovana tikrai asmeniška?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Paklauskite savęs, ar galėtumėte paaiškinti, kodėl ją pasirinkote būtent jam. Jei atsakymas tinka bet kuriam žmogui, pridėkite asmeninį elementą arba grįžkite prie jo tikro pomėgio."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 3,
+          "content": [
+            {
+              "type": "text",
+              "text": "Ar rankų liejimo rinkinys tinka vyrui, kuris nemėgsta rankdarbių?"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jis tinka tik tada, jei žmogų domina bendra patirtis ir jis sutiks skirti laiko instrukcijai. Jei jis nori dovanos, kurią galima naudoti iš karto ir be pasiruošimo, rinkitės praktiškesnį variantą."
+            }
+          ]
+        },
+        {
+          "type": "richHeading",
+          "level": 2,
+          "content": [
+            {
+              "type": "text",
+              "text": "Išvada"
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Gera kalėdinė dovana vyrui nėra universali — ji turi atitikti konkretų žmogų. Pradėkite nuo jo įpročių, patikrinkite suderinamumą ir pristatymo laiką, o partneriui apsvarstykite dovaną, kuri sukuria bendrą prisiminimą. Toks pasirinkimas bus naudingesnis už ilgą atsitiktinių idėjų sąrašą."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkretūs pavyzdžiai, kuriuos galima palyginti"
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "IKEA DINERA 30 cl puodelis",
+              "target": {
+                "kind": "external",
+                "url": "https://www.ikea.com/lt/lt/p/dinera-puodelis-smeline-60350646/"
+              }
+            },
+            {
+              "type": "text",
+              "text": " — paprasto kavos ritualo pavyzdys, ne mūsų išbandytas ar universalus „geriausias“ puodelis. Pirmiau įvertinkite, ar jis naudoja tokios talpos puodelį ir ar dar vienas daiktas iš tiesų reikalingas. Kavos pasirinkimą derinkite prie jo įpročių, ne prie gražios pakuotės."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Pegaso dovanų kuponų pasirinkimas",
+              "target": {
+                "kind": "external",
+                "url": "https://www.pegasas.lt/dovanu-kuponai/"
+              }
+            },
+            {
+              "type": "text",
+              "text": " — alternatyva skaitytojui, kurio norimos knygos nežinote. Tai kategorijos, ne vieno konkretaus kupono nuoroda. Prieš pirkimą atskirai patikrinkite sumą, galiojimą, panaudojimo vietą ir gavimo būdą; negalime pažadėti momentinio pristatymo."
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Jei svarstote bendrą kūrybinį prisiminimą, prieš užsakydami perskaitykite "
+            },
+            {
+              "type": "link",
+              "text": "rankų liejimo rinkinio pasirinkimo gidą",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-hand-casting-guide"
+              }
+            },
+            {
+              "type": "text",
+              "text": ". Kitam gavėjui gali praversti "
+            },
+            {
+              "type": "link",
+              "text": "kalėdinių dovanų porai palyginimas",
+              "target": {
+                "kind": "page",
+                "pageId": "lt-christmas-couple"
+              }
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atranka paremta dovanos tinkamumo kriterijais ir nurodytais pirminiais puslapiais, ne asmeniniu produktų testu. Kainų, likučių, šventinių pristatymo terminų ir kuponų sąlygų čia nefiksuojame: tikrinkite juos pas pardavėją prieš užsakydami. Iliustracijos yra teminės, ne konkrečių prekybininkų prekių nuotraukos."
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [
+        {
+          "id": "390d8a4e-958b-45f7-a961-4886e44a667c",
+          "src": "/content-assets/dovanos123/390d8a4e-958b-45f7-a961-4886e44a667c.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "c99e0ed2-28ef-4331-8da1-c064bc843f60",
+          "src": "/content-assets/dovanos123/c99e0ed2-28ef-4331-8da1-c064bc843f60.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "207bc8ab-c6df-4e62-ade2-41659752991b",
+          "src": "/content-assets/dovanos123/207bc8ab-c6df-4e62-ade2-41659752991b.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "d22d5b83-0f13-4d7b-bd82-b8a13734ade1",
+          "src": "/content-assets/dovanos123/d22d5b83-0f13-4d7b-bd82-b8a13734ade1.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "f3208800-ded2-466f-8b1a-0a9651e4c29e",
+          "src": "/content-assets/dovanos123/f3208800-ded2-466f-8b1a-0a9651e4c29e.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        }
+      ],
+      "links": [],
+      "externalLinks": [
+        {
+          "url": "https://www.ikea.com/lt/lt/p/dinera-puodelis-smeline-60350646/",
+          "label": "IKEA DINERA puodelis",
+          "reason": "Pirminis konkretaus 30 cl puodelio aprašymas; nefiksuojame kainų, akcijų ir likučių."
+        },
+        {
+          "url": "https://www.pegasas.lt/dovanu-kuponai/",
+          "label": "Pegaso dovanų kuponai",
+          "reason": "Pirminė kuponų kategorija; konkretaus kupono sąlygos šiame gide nepatvirtintos."
+        }
+      ],
+      "editorial": {
+        "category": "Kalėdinės dovanos",
+        "readingMinutes": 5,
+        "authors": [
+          {
+            "id": "dovanos123-redakcija",
+            "slug": "dovanos123-redakcija",
+            "name": "Dovanos 123 redakcija",
+            "role": "Turinio komanda",
+            "bio": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant.",
+            "kind": "organization",
+            "sameAs": [],
+            "siteId": "dovanos123",
+            "locale": "lt-LT"
+          }
+        ],
+        "sources": [
+          {
+            "id": "source-memorycasting",
+            "title": "Memory Casting: rankų liejimo rinkinių informacija",
+            "publisher": "Memory Casting",
+            "url": "https://memorycasting.lt/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          },
+          {
+            "id": "source-ikea-dinera",
+            "title": "IKEA DINERA: puodelis, 30 cl",
+            "publisher": "IKEA Lietuva",
+            "url": "https://www.ikea.com/lt/lt/p/dinera-puodelis-smeline-60350646/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          },
+          {
+            "id": "source-pegasas-giftcards",
+            "title": "Pegasas: dovanų kuponų kategorija",
+            "publisher": "Pegasas",
+            "url": "https://www.pegasas.lt/dovanu-kuponai/",
+            "accessedAt": "2026-10-04T22:01:56.596Z",
+            "public": true
+          }
+        ],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:16:07.818Z",
+        "productRecommendation": true,
+        "featuredImageId": "390d8a4e-958b-45f7-a961-4886e44a667c",
+        "relatedPageIds": [
+          "lt-hand-casting-guide",
+          "lt-christmas-couple"
+        ],
+        "commerceTargets": [
+          {
+            "id": "memorycasting-information",
+            "url": "https://memorycasting.lt/",
+            "label": "Memory Casting: rankų liejimo rinkinių informacija",
+            "relationship": "Šio portalo savininko projektas; komercinė informacinė rekomendacija, ne nepriklausomas bandymas ar patvirtintas checkout.",
+            "verified": true,
+            "checkedAt": "2026-10-04T22:01:56.596Z"
+          }
+        ]
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "84c0228e78543251b7de191f5c002595a1459fa909c83f88250e84aa444804c1",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "84c0228e78543251b7de191f5c002595a1459fa909c83f88250e84aa444804c1",
+        "approvedAt": "2026-10-04T22:25:18.401Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-home",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "home",
+      "slug": "",
+      "title": "Gera dovana prasideda nuo žmogaus.",
+      "description": "Raskite idėją pagal progą, pomėgius ir jūsų ryšį. Aiškūs gidai padės išsirinkti tai, kuo žmogus iš tikrųjų džiaugsis.",
+      "intent": "Gera dovana prasideda nuo žmogaus.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovaną vertiname pagal gavėją, progą, biudžetą ir pasiruošimo laiką. Aptariame ne tik idėjos privalumus, bet ir kada jos geriau nesirinkti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai rengiami pasitelkiant AI. Nepriskiriame jiems išgalvotos asmeninės patirties ar produktų testų. Mūsų komerciniai ryšiai nurodomi atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Komercinis ryšys: Memory Casting yra šio portalo savininko rankų liejimo rinkinių projektas. Nuorodos į jį yra komercinės rekomendacijos, ne nepriklausomo produkto bandymo išvados. Nuorodos į kitas parduotuves savaime nereiškia partnerystės."
+        },
+        {
+          "type": "image",
+          "assetId": "390d8a4e-958b-45f7-a961-4886e44a667c"
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [
+        {
+          "id": "3ca49289-5119-4d60-810e-fe2ca2575a10",
+          "src": "/content-assets/dovanos123/3ca49289-5119-4d60-810e-fe2ca2575a10.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "76408ead-e53f-4de0-876e-668b308f5115",
+          "src": "/content-assets/dovanos123/76408ead-e53f-4de0-876e-668b308f5115.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 1200,
+          "height": 800,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "a0f855a7-8c52-4a4a-a552-a2c2d343f974",
+          "src": "/content-assets/dovanos123/a0f855a7-8c52-4a4a-a552-a2c2d343f974.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 800,
+          "height": 533,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "e94d0723-d210-450b-a6ee-cc14ebe14975",
+          "src": "/content-assets/dovanos123/e94d0723-d210-450b-a6ee-cc14ebe14975.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 640,
+          "height": 427,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "00e65700-09cc-403c-a057-0c0055390ce2",
+          "src": "/content-assets/dovanos123/00e65700-09cc-403c-a057-0c0055390ce2.webp",
+          "alt": "Dviejų susikibusių rankų skulptūros iliustracija ant apvalaus pagrindo",
+          "width": 360,
+          "height": 240,
+          "credit": "Rankų liejinio kompozicijos iliustracija, ne konkretaus rinkinio rezultato nuotrauka.",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "390d8a4e-958b-45f7-a961-4886e44a667c",
+          "src": "/content-assets/dovanos123/390d8a4e-958b-45f7-a961-4886e44a667c.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "c99e0ed2-28ef-4331-8da1-c064bc843f60",
+          "src": "/content-assets/dovanos123/c99e0ed2-28ef-4331-8da1-c064bc843f60.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "207bc8ab-c6df-4e62-ade2-41659752991b",
+          "src": "/content-assets/dovanos123/207bc8ab-c6df-4e62-ade2-41659752991b.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "d22d5b83-0f13-4d7b-bd82-b8a13734ade1",
+          "src": "/content-assets/dovanos123/d22d5b83-0f13-4d7b-bd82-b8a13734ade1.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        },
+        {
+          "id": "f3208800-ded2-466f-8b1a-0a9651e4c29e",
+          "src": "/content-assets/dovanos123/f3208800-ded2-466f-8b1a-0a9651e4c29e.webp",
+          "alt": "Puodelio, užrašinės ir kelioninės rankinės iliustracija ant šviesaus stalo",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Sukurta šiam projektui naudojant OpenAI imagegen 2026-10-05; originali redakcinė AI iliustracija be prekės ženklų. Generavimo aprašas ir originalas išsaugoti privačiai."
+        }
+      ],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:16:07.845Z",
+        "productRecommendation": true,
+        "featuredImageId": "3ca49289-5119-4d60-810e-fe2ca2575a10",
+        "relatedPageIds": [],
+        "commerceTargets": [
+          {
+            "id": "memorycasting-information",
+            "url": "https://memorycasting.lt/",
+            "label": "Memory Casting: rankų liejimo rinkinių informacija",
+            "relationship": "Šio portalo savininko projektas; komercinė informacinė rekomendacija, ne nepriklausomas bandymas ar patvirtintas checkout.",
+            "verified": true,
+            "checkedAt": "2026-10-04T22:01:56.596Z"
+          }
+        ]
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "0a37976b89296e295f5e1e1969f7cfbb632da8e398230fa7e0fd951586a7be4c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0a37976b89296e295f5e1e1969f7cfbb632da8e398230fa7e0fd951586a7be4c",
+        "approvedAt": "2026-10-04T22:25:18.556Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-articles",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "index",
+      "slug": "straipsniai",
+      "title": "Dovanų gidai",
+      "description": "Praktiškos dovanų idėjos pagal gavėją, progą ir biudžetą.",
+      "intent": "Dovanų gidai",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rinkitės gidą pagal žmogų, kuriam dovanojate. Kategorijos rodo tik jau paskelbtus straipsnius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo gavėjo, progos ir pasiruošimo laiko. Giduose lyginame idėjų tinkamumą, nurodome, kada jų nesirinkti, ir pateikiame klausimus, kuriuos verta užduoti prieš užsakant. Atranka nėra produktų bandymų ar kainų reitingas."
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:06:01.901Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "02bb70e72b6a4d2a70c08423d465ed3bd7b4eeac40f4a776c5337950d0c8e992",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "02bb70e72b6a4d2a70c08423d465ed3bd7b4eeac40f4a776c5337950d0c8e992",
+        "approvedAt": "2026-10-04T22:25:18.694Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-authors",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "index",
+      "slug": "autoriai",
+      "title": "Redakcija ir autorystė",
+      "description": "Kas atsakingas už Dovanos123 dovanų gidus ir kaip juose naudojamas AI.",
+      "intent": "Redakcija ir autorystė",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Straipsnių autorystė gali būti priskirta tikram organizacijos redakciniam projektui. AI yra turinio rengimo įrankis, ne išgalvotas žmogus ar kvalifikuotas ekspertas."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Apie redakcijos darbą",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-editorial-policy"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "27453fc4942c75b20d8fc6abc1e5c7aac0feff16ff73b2e9cc9d54c11788bb96",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "27453fc4942c75b20d8fc6abc1e5c7aac0feff16ff73b2e9cc9d54c11788bb96",
+        "approvedAt": "2026-10-04T22:25:18.888Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-about",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "about",
+      "slug": "apie",
+      "title": "Dovanų pasirinkimas be triukšmo.",
+      "description": "Dovanos123 — dovanų pasirinkimo informacinis portalas.",
+      "intent": "Dovanų pasirinkimas be triukšmo.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką rasite čia?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apžvelgiame dovanas pagal progą, santykį, biudžetą ir pasiruošimo laiką. Gidų paskirtis — padėti susiaurinti pasirinkimą, o ne pakeisti prekybininko informaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengiamas turinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojame AI tyrimo, juodraščio ir redakcinės patikros darbuose. Tai nereiškia, kad produktus asmeniškai išbandė žmogus. Nepriklausomą patirtį ar ekspertinę citatą nurodome tik turėdami tikrą šaltinį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Komerciniai ryšiai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Memory Casting yra savininko rankų liejimo rinkinių projektas. Dovanos123 nėra šio produkto atsiskaitymo svetainė. Memory Casting puslapį laikome informacijos šaltiniu; tai nėra patvirtinimas, kad parduotuvė šiuo metu priima užsakymus."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Komercinių ryšių atskleidimas",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-disclosure"
+              }
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Susisiekite dėl pataisymų",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-contact"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "c35563f3e13223c51911bbcf5eedbab30df5ca30d2708c3ade29a2d39809bfdd",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c35563f3e13223c51911bbcf5eedbab30df5ca30d2708c3ade29a2d39809bfdd",
+        "approvedAt": "2026-10-04T22:25:19.154Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-contact",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "contact",
+      "slug": "kontaktai",
+      "title": "Kontaktai ir pataisymai",
+      "description": "Praneškite apie netikslumą ar pasiūlykite naudingą dovanų pasirinkimo temą.",
+      "intent": "Kontaktai ir pataisymai",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rašydami dėl netikslumo pridėkite straipsnio adresą, konkrečią taisytiną vietą ir, jei turite, pirminio šaltinio nuorodą. Nesiųskite mokėjimo kortelės duomenų, slaptažodžių ar jautrios asmeninės informacijos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovanos123 netvarko užsakymų išorinių prekybininkų vardu. Dėl produkto užsakymo, pristatymo ar grąžinimo kreipkitės į jį parduodantį prekybininką."
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "f9ff88e5b74f4f48e2fa7fdf4e02ce53272936555c482f7f14de4d712eb4212e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "f9ff88e5b74f4f48e2fa7fdf4e02ce53272936555c482f7f14de4d712eb4212e",
+        "approvedAt": "2026-10-04T22:25:19.355Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-editorial-policy",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "policy",
+      "slug": "redakcine-politika",
+      "title": "Kaip rengiame ir tikriname gidus.",
+      "description": "Naudingas, patikrinamas ir sąžiningai pateiktas turinys.",
+      "intent": "Kaip rengiame ir tikriname gidus.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimas ir atrankos kriterijai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš rengiant gidą apibrėžiame skaitytojo klausimą, gavėją, progą, biudžetą ir praktinius apribojimus. Rekomendacija turi paaiškinti, kam idėja tinka ir kada jos nesirinkti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "AI ir atsakomybė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Turinio rengimo bei atskiros redakcinės peržiūros darbus gali atlikti AI agentai. Organizacijos autorystė nėra žmogaus asmeninio testavimo įrodymas. Nekuriame fiktyvių žmonių, kvalifikacijų, citatų, pirkėjų ar bandymų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šaltiniai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prekės faktus siejame su aktualia pirminio šaltinio informacija. Skaitytojo šaltinių sąraše rodome temai svarbius šaltinius, o ne vidines SEO instrukcijas. Jei kainos ar prieinamumo nepatikrinome, neteigiame, kad jie galioja."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Publikavimas ir pakeitimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Juodraštis publikuojamas tik po atskiros jo versijos patikros ir nustatytu laiku. Grafiko data nėra senos publikacijos įrodymas. Reikšmingo atnaujinimo datą nurodome tik pakeitus ar iš naujo patikrinus turinį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pataisymai"
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Pranešti apie klaidą",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-contact"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "aac7c0d5960842024890b85ea32ef45a2f9ff172350df4fcb7e2e7f120853fb2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "aac7c0d5960842024890b85ea32ef45a2f9ff172350df4fcb7e2e7f120853fb2",
+        "approvedAt": "2026-10-04T22:25:19.502Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-disclosure",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "policy",
+      "slug": "partneriu-nuorodu-atskleidimas",
+      "title": "Komercinių ryšių atskleidimas",
+      "description": "Kaip atskiriame dovanų rekomendacijas nuo savo produkto reklamos.",
+      "intent": "Komercinių ryšių atskleidimas",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mūsų produkto nuorodos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Memory Casting rankų liejimo rinkiniai yra šio portalo savininko projektas. Nuorodą į jį vertinkite kaip komercinę rekomendaciją, ne nepriklausomo bandymo išvadą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kitų parduotuvių nuorodos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuoroda į kito prekybininko svetainę savaime nereiškia partnerystės ar komisinio. Jei konkrečiai nuorodai būtų taikomas komisinis arba turinys būtų remiamas, tai turėtų būti pažymėta prie rekomendacijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kainos ir sąlygos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galutinę kainą, likutį, pristatymą, grąžinimą bei sutarties sąlygas tikrinkite prekybininko svetainėje. Šis portalas nepriima mokėjimų jo vardu."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Redakciniai atrankos kriterijai",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-editorial-policy"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "6c17096ee706c490b70c6515f7344bf23fc170f278745d6a502eca18c090b4c4",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6c17096ee706c490b70c6515f7344bf23fc170f278745d6a502eca18c090b4c4",
+        "approvedAt": "2026-10-04T22:25:19.676Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-editorial-profile",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "author",
+      "slug": "autoriai/dovanos123-redakcija",
+      "title": "Dovanos 123 redakcija",
+      "description": "Turinio komanda",
+      "intent": "Dovanos 123 redakcija",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Autorystės ribos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Redakcijos vardas nurodo portalo turinio atsakomybę. Jis nėra atskiro žmogaus, mokslinės kvalifikacijos ar produkto išbandymo teiginys."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Turinio rengimo politika",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-editorial-policy"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-04T20:02:01.000Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "Svetainės informacija",
+        "readingMinutes": 2,
+        "authors": [
+          {
+            "id": "dovanos123-redakcija",
+            "slug": "dovanos123-redakcija",
+            "name": "Dovanos 123 redakcija",
+            "role": "Turinio komanda",
+            "bio": "Rengiame praktiškus dovanų pasirinkimo gidus. Šie straipsniai sukurti pasitelkiant AI, todėl faktus ir prekių informaciją skaitytojams rekomenduojame pasitikrinti prieš perkant.",
+            "kind": "organization",
+            "sameAs": [],
+            "siteId": "dovanos123",
+            "locale": "lt-LT"
+          }
+        ],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": "2026-10-04T22:01:56.596Z",
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "71057fff475d8bf8e98e9b303ecabfd0db5fc11a3ba3c612c38b031c35e96a3e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "71057fff475d8bf8e98e9b303ecabfd0db5fc11a3ba3c612c38b031c35e96a3e",
+        "approvedAt": "2026-10-04T22:25:19.844Z",
+        "actorId": "codex-independent-ai-editorial-review-local-only"
+      }
+    },
+    {
+      "id": "gift-privacy",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "policy",
+      "slug": "privatumas",
+      "title": "Privatumo informacija",
+      "description": "Kaip MB Pinet naudoja Dovanos123 užklausų duomenis ir bendrus svetainės naudojimo skaičius.",
+      "intent": "Kaip MB Pinet naudoja Dovanos123 užklausų duomenis ir bendrus svetainės naudojimo skaičius.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovanos123 duomenų valdytojas yra MB Pinet. Dėl šios svetainės duomenų tvarkymo ir savo teisių rašykite info@pinet.lt. Informacija atnaujinta 2026 m. spalio 6 d."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai pateikiate užklausą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gauname jūsų vardą, el. paštą, žinutę, pateikimo datą, pradinio puslapio adresą ir formoje pažymėtą sutikimą. Tai būtina užklausai perskaityti, atsakyti ir išsaugoti jos aptarnavimo eigą. Duomenis pateikiate savo pasirinkimu; nepateikę būtinų laukų formos išsiųsti negalėsite. Užklausa nėra rinkodaros prenumerata ar prekės užsakymas. Nesiųskite asmens dokumentų, mokėjimo kortelių, slaptažodžių ar jautrios informacijos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užklausos apdorojimą grindžiame jūsų formoje duotu sutikimu. Jį galite atšaukti parašę info@pinet.lt; tai nekeičia iki atšaukimo atlikto tvarkymo teisėtumo. Užklausos duomenis svetainės sistemoje saugome iki 180 dienų nuo pateikimo, tada šaliname. Susirašinėjimui pašto dėžutėje taikomas toks pats įprastas terminas; operatorius jį peržiūri. Jei konkretaus susirašinėjimo reikia teisiniam reikalavimui ar ginčui, jį galime saugoti tam reikalingą laiką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Svetainės naudojimas ir saugumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaičiuojame bendrą puslapio peržiūrų ir kontaktinės nuorodos paspaudimų skaičių pagal dieną ir puslapį. Nenaudojame lankytoją identifikuojančio analitikos slapuko, reklamos pikselių ar sekimo tarp svetainių. Bendrus skaičius saugome iki 365 dienų. Naršyklės „Do Not Track“ ir „Global Privacy Control“ signalai išjungia šį skaičiavimą. Statistika nerodo, kad gavome tikrą užklausą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainės pateikimui ir apsaugai Cloudflare apdoroja ryšio techninius duomenis, įskaitant IP adresą, puslapio užklausą ir saugumo įvykius. IP adresas naudojamas trumpalaikiam užklausų dažnio ribojimui; jo nesaugome užklausų ar bendros statistikos įrašuose. Būtiną ryšio apsaugą grindžiame teisėtu interesu saugiai pateikti svetainę ir riboti piktnaudžiavimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas apdoroja duomenis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainę ir jos duomenų saugyklą aptarnauja Cloudflare, o el. paštą – Hostinger. Šie paslaugų teikėjai veikia pagal jų duomenų tvarkymo sąlygas; duomenys gali būti apdorojami ir už Europos ekonominės erdvės ribų, taikant atitinkamas perdavimo apsaugos priemones, įskaitant standartines sutarčių sąlygas. Užklausų automatiškai neperduodame prekybininkams ir neparduodame kontaktų. Puslapyje nėra automatizuoto sprendimo, nustatančio jūsų teises ar pirkimo galimybes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų teisės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite prašyti susipažinti su savo duomenimis, juos patikslinti, ištrinti, apriboti tvarkymą, o kai taikoma – gauti perkeltiną kopiją arba nesutikti su teisėtu interesu grindžiamu tvarkymu. Rašykite info@pinet.lt ir nurodykite užklausai naudotą el. paštą. Prieš atskleisdami duomenis patikriname tapatybę. Jei manote, kad tvarkymas pažeidžia jūsų teises, galite kreiptis į Valstybinę duomenų apsaugos inspekciją. Ištrinti įrašai gali ribotą laiką likti paslaugų teikėjo apsaugotose atsarginėse kopijose."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Slapukai ir naršyklės saugykla",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-cookies"
+              }
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Kontaktai ir pataisymai",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-contact"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-06T15:20:59.616Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "",
+        "readingMinutes": 0,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": null,
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "21b16afef4911f89831b7ce23fdbb80e2d73352da64e452b3895ef732f3a6f60",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "21b16afef4911f89831b7ce23fdbb80e2d73352da64e452b3895ef732f3a6f60",
+        "approvedAt": "2026-10-06T15:27:31.693Z",
+        "actorId": "Codex root / reviewed legal additions"
+      }
+    },
+    {
+      "id": "gift-cookies",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "policy",
+      "slug": "slapukai",
+      "title": "Slapukai ir naršyklės pasirinkimai",
+      "description": "Dovanos123 naudoja bendrus lankomumo skaičius be identifikuojančių analitikos ar reklamos slapukų.",
+      "intent": "Dovanos123 naudoja bendrus lankomumo skaičius be identifikuojančių analitikos ar reklamos slapukų.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ši Dovanos123 versija nereikalauja paskyros ir nenaudoja reklamos ar lankytoją identifikuojančių analitikos slapukų. Svetainės naudojimo skaičiavimas nesukuria asmeninio lankytojo profilio."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką skaičiuojame"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vienai dienai ir puslapio adresui kaupiame bendrą peržiūrų bei kontaktinės nuorodos paspaudimų skaičių. Į statistikos įrašą neįrašome el. pašto, IP adreso ar unikalaus lankytojo identifikatoriaus. Skaičiavimas išjungiamas, kai naršyklė siunčia „Do Not Track“ arba „Global Privacy Control“ signalą. Nenaudojame išorinių reklamos pikselių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Būtina ryšio apsauga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cloudflare pateikia svetainę ir saugo ryšį. Jei apsaugai nuo piktnaudžiavimo prireiktų būtino saugumo slapuko, jo paskirtis būtų ryšio apsauga, o ne reklama. Šio leidinio paskyros sesijos ar pirkinių krepšelio slapuko nėra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išorinės svetainės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paspaudę prekybininko nuorodą pereinate į jo svetainę, kur taikomos jos slapukų ir privatumo sąlygos. Dovanos123 jų pasirinkimų jūsų vardu nenustato. Jei ateityje įjungtume neesminius sekiklius, informacija ir pasirinkimo galimybės būtų pateiktos prieš juos naudojant."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Plačiau apie duomenų tvarkymą",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-privacy"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-06T15:20:59.628Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "",
+        "readingMinutes": 0,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": null,
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "8c59b93faed0de6cc7ebef9fd5599ab16ec45409443647b9a4fd25d249781eda",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "8c59b93faed0de6cc7ebef9fd5599ab16ec45409443647b9a4fd25d249781eda",
+        "approvedAt": "2026-10-06T15:27:31.703Z",
+        "actorId": "Codex root / reviewed legal additions"
+      }
+    },
+    {
+      "id": "gift-terms",
+      "siteId": "dovanos123",
+      "contentVersion": 2,
+      "type": "policy",
+      "slug": "taisykles",
+      "title": "Naudojimo taisyklės",
+      "description": "Dovanos123 informacinio portalo paskirtis, turinio ribos ir išorinių prekybininkų atsakomybė.",
+      "intent": "Dovanos123 informacinio portalo paskirtis, turinio ribos ir išorinių prekybininkų atsakomybė.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovanos123 yra MB Pinet valdomas dovanų pasirinkimo informacinis portalas. Kontaktas: info@pinet.lt. Taisyklės taikomos naudojantis portalo turiniu ir kontaktų forma; jos nėra išorinio prekybininko pirkimo sutartis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip naudoti gidus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai padeda palyginti dovanos tinkamumą gavėjui, progą ir praktinius apribojimus. Jie nėra universali geriausios prekės garantija, asmeninio produkto bandymo įrodymas ar konkretaus gamintojo naudojimo ir saugos instrukcija. Produktų kainos, likučiai, pristatymas ir kuponų sąlygos keičiasi; prieš pirkdami tikrinkite juos pas pardavėją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirkimai ir užklausos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Portalas nepriima mokėjimų ir netvarko užsakymų kitų prekybininkų vardu. Paspaudę išorinę nuorodą, sprendimą dėl pirkimo ir sutartį sudarote su konkrečiu pardavėju. Užklausa redakcijai skirta netikslumui, temai ar konkrečiam poreikiui aptarti; ji negarantuoja prekės tiekimo, kainos pasiūlymo ar atsakymo per nustatytą laiką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Komerciniai ryšiai ir turinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Savininko projektų rekomendacijas ir komercinius ryšius atskleidžiame atskirame puslapyje bei prie atitinkamų rekomendacijų. AI naudojamas rengimui ir redakcinei peržiūrai; jis nepateikiamas kaip išgalvotas ekspertas. Teminės iliustracijos nėra pardavėjo prekės ar kliento rezultato fotografijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sąžiningas naudojimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nesiųskite klaidinančių užklausų, svetimų kontaktų be teisės juos pateikti ar kenksmingo turinio. Cituodami ir naudodami tekstą laikykitės taikomų autorinių teisių taisyklių. Praneškite redakcijai apie klaidą ir nurodykite konkretų puslapį. Šios taisyklės neriboja įstatymų suteiktų vartotojo teisių."
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Komercinių ryšių atskleidimas",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-disclosure"
+              }
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Redakcinė politika",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-editorial-policy"
+              }
+            }
+          ]
+        },
+        {
+          "type": "richParagraph",
+          "content": [
+            {
+              "type": "link",
+              "text": "Privatumo informacija",
+              "target": {
+                "kind": "page",
+                "pageId": "gift-privacy"
+              }
+            }
+          ]
+        }
+      ],
+      "publishAt": "2026-10-06T15:20:59.639Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [],
+      "editorial": {
+        "category": "",
+        "readingMinutes": 0,
+        "authors": [],
+        "sources": [],
+        "datePublished": null,
+        "dateModified": null,
+        "productRecommendation": false,
+        "featuredImageId": null,
+        "relatedPageIds": [],
+        "commerceTargets": []
+      },
+      "siteSnapshot": {
+        "id": "dovanos123",
+        "name": "Dovanos 123",
+        "canonicalHost": "dovanos123.lt",
+        "locale": "lt-LT",
+        "timezone": "Europe/Vilnius",
+        "brand": {
+          "accent": "#f06f4f"
+        },
+        "offer": "Prasmingų dovanų pasirinkimo vadovas poroms, šeimai ir artimiems žmonėms.",
+        "contact": {
+          "email": "info@pinet.lt",
+          "phone": ""
+        },
+        "renderer": "gift",
+        "operatorName": "MB Pinet"
+      },
+      "revisionHash": "12ee242a58a6e6c1c1363d4603eddfcf3b15834ef91ba082bc88196d05a64b62",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "12ee242a58a6e6c1c1363d4603eddfcf3b15834ef91ba082bc88196d05a64b62",
+        "approvedAt": "2026-10-06T15:27:31.714Z",
+        "actorId": "Codex root / reviewed legal additions"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-06T15:27:31.829Z"
+}

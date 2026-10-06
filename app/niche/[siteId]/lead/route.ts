@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { publicSiteByHost, publicSitePage } from "@/lib/public-site";
 import { nicheLeadRecipient } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
+import { notifyStoredLead } from "@/lib/niche-lead-delivery.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -72,14 +73,16 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   const now = Date.now();
   const leadId = crypto.randomUUID();
   try {
-    await env.DB.prepare("INSERT INTO niche_leads (id, site_id, created_at, source_path, name, email, message, consent_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'new')")
-      .bind(leadId, siteId, now, sourcePath, name, email, message, now).run();
+    const insert=env.DB.prepare("INSERT INTO niche_leads (id, site_id, created_at, source_path, name, email, message, consent_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'new')").bind(leadId, siteId, now, sourcePath, name, email, message, now);
+    if(env.LEAD_MAIL_RETRY_ENABLED==='1'&&env.RELEASE_SITE_ID===siteId){await env.DB.batch([insert,env.DB.prepare('INSERT INTO niche_lead_delivery(id,site_id,canonical_host,recipient) VALUES(?,?,?,?)').bind(leadId,siteId,pkg.canonicalHost,nicheLeadRecipient(siteId,pkg.site.contact.email))]);}
+    else await insert.run();
   } catch (error) {
     console.error(JSON.stringify({ event: "niche_lead_write_failed", siteId, error: String(error) }));
     return response("Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.", 503);
   }
   let notified = false;
-  if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_EMAIL) {
+  if(env.LEAD_MAIL_RETRY_ENABLED==='1'&&env.RELEASE_SITE_ID===siteId)notified=await notifyStoredLead(env,leadId);
+  else if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_EMAIL) {
     try {
       const mail = {
         id: leadId,

@@ -5,6 +5,15 @@ import { request as httpRequest } from "node:http";
 import { request as httpsRequest } from "node:https";
 import { projectPublicPages } from "../lib/niche-links.mjs";
 
+// The gift V2 renderer has its own approved package and deployment boundary.
+// Keep the V1 host-header regression below intact for every existing profile.
+if(process.env.SEO_SMOKE_PROFILE==='dovanos123-release'){
+  process.argv[2]=process.env.SEO_SMOKE_BASE_URL||'https://dovanos123-preview.phonebridger-app.workers.dev';
+  await import('../release/dovanos123/verify.mjs');
+  process.exit(0);
+}
+if(process.env.SEO_SMOKE_PROFILE)throw Error('Unknown SEO smoke profile');
+
 const siteId = process.env.SEO_SMOKE_SITE_ID || "greitossvetaines";
 const base = process.env.SEO_SMOKE_BASE_URL || "http://127.0.0.1:8787";
 const pkg = JSON.parse(await readFile(resolve(`content-packages/${siteId}/content-package.json`), "utf8"));

@@ -16,6 +16,7 @@ try {
   if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
 }
 const { d1, r2 } = hostingConfig;
+const releaseConfig=process.env.NICHE_RELEASE_CONFIG?JSON.parse(readFileSync(process.env.NICHE_RELEASE_CONFIG,'utf8')):null;
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
@@ -81,7 +82,7 @@ export default defineConfig(async () => {
       cloudflare({
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
-        config: localBindingConfig,
+        config: releaseConfig || localBindingConfig,
       }),
     ],
   };

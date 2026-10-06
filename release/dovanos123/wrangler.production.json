@@ -1,0 +1,15 @@
+{
+ "name":"dovanos123-preview",
+ "account_id":"d102163f74a45ab6d33bca786ce281ec",
+ "main":"worker/release.ts",
+ "compatibility_date":"2026-05-22",
+ "compatibility_flags":["nodejs_compat"],
+ "workers_dev":false,
+ "routes":[{"pattern":"dovanos123.lt","custom_domain":true},{"pattern":"www.dovanos123.lt","custom_domain":true}],
+ "assets":{"binding":"ASSETS","run_worker_first":true},
+ "d1_databases":[{"binding":"DB","database_name":"dovanos123-production","database_id":"4fd42638-6c82-446f-9314-9aaa1c4189c6"}],
+ "ratelimits":[{"name":"LEAD_LIMITER","namespace_id":"202610061","simple":{"limit":10,"period":60}},{"name":"INTEREST_LIMITER","namespace_id":"202610062","simple":{"limit":120,"period":60}}],
+ "triggers":{"crons":["*/15 * * * *"]},
+ "vars":{"NICHE_DEV_SITE_ID":"dovanos123","RELEASE_SITE_ID":"dovanos123","RELEASE_MODE":"production","RELEASE_ORIGIN":"https://dovanos123.lt","LEAD_MAIL_RETRY_ENABLED":"1"},
+ "observability":{"enabled":true,"head_sampling_rate":0.1}
+}

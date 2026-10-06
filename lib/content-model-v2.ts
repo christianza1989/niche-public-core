@@ -24,14 +24,16 @@ export type ProjectedContentPageV2=Omit<ContentPageV2,'body'|'externalLinks'>&{u
 export const contentPackagesV2=(compiled as unknown as ContentPackageV2[]).filter(p=>p.schemaVersion===2);
 export const contentPackageBySiteId=(id:string)=>contentPackagesV2.find(p=>p.siteId===id)||null;
 export function contentAdmissionScope(pkg:ContentPackageV2){return (admissions as Record<string,{scope:string}>)[pkg.siteId]?.scope;}
-export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview'].includes(contentAdmissionScope(pkg)||'');}
-export function hasLocalPreviewContent(){return contentPackagesV2.some(pkg=>contentAdmissionScope(pkg)==='local-preview');}
+export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview','hosted-preview'].includes(contentAdmissionScope(pkg)||'');}
+export function hasLocalPreviewContent(){return contentPackagesV2.some(pkg=>['local-preview','hosted-preview'].includes(contentAdmissionScope(pkg)||''));}
+export function hostedPreviewHost(pkg:ContentPackageV2){const a=(admissions as Record<string,{scope:string;previewHost?:string}>)[pkg.siteId];return a?.scope==='hosted-preview'?a.previewHost:null;}
 export const contentPackageByHost=(host:string|null|undefined)=>{
   const name=(host||'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,'');
   if(name==='localhost'||name==='127.0.0.1'){
     const devId=env.NICHE_DEV_SITE_ID || process.env.NICHE_DEV_SITE_ID;
     if(devId)return contentPackageBySiteId(devId);
   }
+  const preview=contentPackagesV2.find(p=>hostedPreviewHost(p)===name);if(preview)return preview;
   const legacy=Object.values(SITE_CONFIGS).find(site=>site.domains.includes(name));
   return contentPackagesV2.find(p=>p.canonicalHost===(legacy?.domains[0]||name))||null;
 };
