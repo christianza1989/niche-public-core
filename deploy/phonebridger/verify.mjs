@@ -6,6 +6,11 @@ const release=JSON.parse(await readFile('.sites-runtime/phonebridger-production/
 const preview=new URL(base).hostname!==release.package.canonicalHost;
 const results=[];
 const request=(path,body,cookie)=>fetch(base+path,{method:body?'POST':'GET',headers:{...(body?{Origin:base,'Content-Type':'application/json'}:{}),...(cookie?{Cookie:cookie}:{})},body:body?JSON.stringify(body):undefined});
+if(!preview){
+ for(const origin of ['http://'+release.package.canonicalHost,'https://www.'+release.package.canonicalHost]){
+  const redirect=await fetch(origin+'/shop?setup=2',{redirect:'manual'});assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),base+'/shop?setup=2');
+ }
+}
 for(const page of release.package.pages){
  const path=page.slug?'/'+page.slug:'/';const r=await request(path),html=await r.text();assert.equal(r.status,200,path);assert.equal(r.url,base+path,'Canonical should respond without a redirect.');
  assert.ok(html.includes(`content="${page.revisionHash}"`),path+' exact editorial revision');

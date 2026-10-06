@@ -62,7 +62,8 @@ async function interest(request,env,live){
 export default {
   async fetch(request,env){
     const url=new URL(request.url),host=url.hostname;
-    if(host==='www.'+pkg.canonicalHost){url.hostname=pkg.canonicalHost;return Response.redirect(url.toString(),308);}
+    if(host==='www.'+pkg.canonicalHost){url.hostname=pkg.canonicalHost;url.protocol='https:';return Response.redirect(url.toString(),308);}
+    if(host===pkg.canonicalHost&&url.protocol==='http:'){url.protocol='https:';return Response.redirect(url.toString(),308);}
     if(host!==pkg.canonicalHost&&host!==env.PREVIEW_HOST&&!['127.0.0.1','localhost'].includes(host))return new Response('Unknown domain',{status:404});
     const local=host!==pkg.canonicalHost,live=projectPublicPages(pkg,[pkg],settings),home=live.some(p=>p.slug==='');
     if(!home)return new Response('Not found',{status:404});

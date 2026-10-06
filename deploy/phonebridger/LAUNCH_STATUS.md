@@ -1,6 +1,6 @@
 # Launch acceptance — 6 October 2026
 
-The owner authorized PhoneBridger hosting, DNS, durable enquiries, email/password accounts and Hostinger mailbox delivery. Creator and paid commerce remain deferred. No paid Cloudflare plan or R2 subscription was activated.
+**Live:** https://phonebridger.com, with www and HTTP redirected to the canonical HTTPS origin. The owner authorized PhoneBridger hosting, DNS, durable enquiries, email/password accounts and Hostinger mailbox delivery. Creator and paid commerce remain deferred. No paid Cloudflare plan or R2 subscription was activated.
 
 ## Verified preparation
 
@@ -9,17 +9,19 @@ The owner authorized PhoneBridger hosting, DNS, durable enquiries, email/passwor
 - The original ZIP and APK were not repackaged. Delivery splitting satisfies Static Assets' 25 MiB file limit.
 - The contact form saves to isolated D1 before notifying Hostinger. A uniquely identified local form self-test was actually found in the hello mailbox; provider acceptance alone was not treated as receipt. Private IDs and message details remain outside Git.
 - Four new focused service tests and the existing core suite pass: 56/56. Existing incumbent SEO output remains byte-identical in its fixed-clock comparisons. The actual local SEO smoke also passes.
-- The EU-jurisdiction D1 schema and three remote secrets are installed. The Worker uploaded successfully; its route activation did not complete.
-- All nine existing Hostinger mail DNS records are present in the pending Cloudflare zone. The registrar's nameservers have not been changed.
+- The EU-jurisdiction D1 schema and three remote secrets are installed. The Worker, both custom domains and daily retention cron are active. Final deployed version: `053dd6f5-ca6e-408e-bfca-bdc4bbad59c7`.
+- All nine existing Hostinger mail DNS records are preserved in the active Cloudflare zone. Hostinger confirms the nameservers changed to asa/sullivan; public resolvers confirm the new delegation.
 - No parent DNSSEC DS record was returned by a public DS lookup on 6 October. Recheck immediately before cutover.
 
-## Remaining launch gate
+## Live acceptance
 
-Cloudflare returned error **10034** because the account's email is unverified. The dashboard also displays its account verification request. A resend was requested; the owner must follow the verification email. Do not bypass this gate or assert that the uploaded Worker is publicly reachable.
+Earlier Cloudflare error **10034** was resolved by the owner's email confirmation. No verification bypass or plan upgrade was used. Both workers.dev and the canonical domain pass actual edge HTTP checks: all 14 exact public revisions, metadata, robots/sitemap, private-path rejection, registration/session/password rejection/CSRF/revocation and both full installer hashes with cross-part ranges. Password hashing works on the tested free-plan edge without reducing strength. HTTP and www preserve path/query in their 308 HTTPS canonical redirects.
 
-After verification: deploy, run the actual workers.dev tests, assess the account hashing cost on the actual edge without weakening it, recheck and preserve mail DNS, change nameservers, activate the zone, bind apex/www custom domains and verify TLS, canonical redirects, public metadata, live form receipt and authenticated sessions. Re-run tests against the eventual merged revisions. Local tests do not prove public readiness.
+A uniquely identified live `https://phonebridger.com/api/contact` request saved to the dedicated production D1, was accepted by Hostinger and was found in the hello inbox. Only that disposable test enquiry was removed from D1 after confirmation; the mailbox message remains. Real enquiries are untouched. `mail-self-test.mjs` records a send attempt before posting and offers check-only reconciliation, so a delayed or ambiguous response is never automatically replayed.
 
-The free Worker CPU allowance may require a separately authorized hosting budget for password hashing. No plan upgrade is implied by deployment authorization. Email verification and automated account recovery are not implemented and the website discloses that limitation.
+**DNS propagation limitation:** the computer's/router's resolver briefly cached a negative A answer while the new AAAA record already resolved. Normal fetch/browser attempts timed out. The canonical-domain acceptance test used an isolated diagnostic resolver querying public 1.1.1.1, preserving the requested hostname and normal certificate verification. No hosts-file, system/browser DNS or TLS-security setting was changed. Public 1.1.1.1 and 8.8.8.8 return Cloudflare addresses, and normal TLS-validated HTTPS requests to those addresses pass. The deployed UI is also rendered through workers.dev while local DNS catches up. Do not relabel that as a successful normal-resolver browser test of the apex.
+
+Email verification and automated account recovery remain unavailable and disclosed. Checkout/creator/fulfilment are deferred. Free-tier acceptance is a measured test result, not a capacity or uptime guarantee. Historical homepage performance/ARIA findings remain recorded; this launch does not certify those frozen-surface issues as repaired. Re-run checks against eventual merged revisions; these deployed commits are still in scoped open PRs.
 
 ## DNS cutover / rollback inventory
 
