@@ -32,8 +32,18 @@ test('informational utility pages do not become services through the editor buck
     const page = {...guide, type:'service', slug};
     const graph = nicheSchemaGraph(pkg, page, [page], 'MB Pinet')['@graph'];
     assert.ok(!graph.some(entity=>entity['@type']==='Service'), slug);
-    assert.ok(graph.some(entity=>['WebPage','ContactPage','AboutPage','ProfilePage'].includes(entity['@type'])), slug);
+    assert.ok(graph.some(entity=>['WebPage','ContactPage','AboutPage','ProfilePage','CollectionPage'].includes(entity['@type'])), slug);
   }
   const page = {...guide,type:'service',slug:'poreikio-registracija'};
   assert.ok(nicheSchemaGraph(pkg,page,[page],'MB Pinet')['@graph'].some(entity=>entity['@type']==='Service'));
+});
+
+test('V1 guide hub is a CollectionPage and references only the supplied public inventory',()=>{
+  const hub={...guide,type:'service',slug:'gidai',title:'Gidai'},future={...guide,slug:'future',title:'Private future guide'};
+  const data=nicheSchemaGraph({...pkg,pages:[hub,guide,future]},hub,[hub,guide],'MB Pinet');
+  const collection=data['@graph'].find(e=>e['@type']==='CollectionPage');
+  assert.equal(collection.url,'https://sample.lt/gidai');
+  assert.deepEqual(collection.hasPart,[{'@type':'WebPage',name:'Dydis',url:'https://sample.lt/gidas/dydis'}]);
+  assert.ok(!JSON.stringify(data).includes('future'));
+  assert.deepEqual(nicheSchemaGraph(pkg,hub,[hub],'MB Pinet')['@graph'].find(e=>e['@type']==='CollectionPage').hasPart,[]);
 });

@@ -2,6 +2,8 @@
 
 User requested current GEO research and automatic content-to-discovery updates for every niche. Companion scope: `lib/content-seo-v2.mjs` and targeted discovery regressions only. Shared publication projection, approval/package schemas, renderer identities, routes and bot preferences remain authoritative.
 
+Final integration scope extension: the same first-delivery audit demonstrates the shipped V1 gidai hub is WebPage, while our network contract requires CollectionPage. Own bounded `lib/niche-schema-core.mjs` and niche-schema regression update its public role using the already supplied public projection; no article identity/date/package change. Earlier configured V2/gift hub correction belongs to PR6, not this V1 helper.
+
 Instruction/loader/checker work: [primary PR31](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/31). Current baseline: V1/V2 routes dynamically render `llms.txt`/`llms-full.txt` with no-store; V2 full output omits approved publication/review dates and non-inline approved related/external links. No production deployment, DNS, WAF, customer data or paid measurement is part of this source change.
 
 Status: source implemented and locally verified. `contentReadingV2` reads only the shared projected pages and adds approved dates, eligible author profile links and projected related/external panel links to the full reading output. Index includes true site summary/contact, canonical reading links and the full export. No fallback clock date, raw private source or independent eligibility predicate is introduced.
