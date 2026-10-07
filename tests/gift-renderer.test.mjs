@@ -98,6 +98,21 @@ test("metadata/schema match visible facts, not schedule; organization and safe J
   assert.doesNotMatch(giftJsonLd({ title: "</script><script>alert(1)</script>" }), /<script|<\/script/);
   assert.doesNotMatch(htmlFor(pkg, "lt-hand-casting-guide"), /Memory Casting|Person|AggregateRating|Offer|datePublished/);
 });
+
+test("Shared article schema uses the actual projected index and truthful editorial dates across adapters", () => {
+  const pkg = fixture(), live = project(pkg, before), page = live.find(p => p.id === "lt-hand-casting-guide");
+  const index = live.find(p => p.type === "index");index.slug = "gidai";index.url = "https://gift.example/gidai";
+  page.editorial.datePublished = "2026-10-01T08:00:00.000Z";page.editorial.dateModified = "2026-10-03T09:00:00.000Z";
+  const navigation = {homeLabel:"Madbeauty",articleIndexSlug:"gidai",articleIndexLabel:"Gidai"};
+  const schemas = giftSchemas(pkg,page,live,navigation);
+  assert.equal(schemas[0].datePublished,page.editorial.datePublished);assert.equal(schemas[0].dateModified,page.editorial.dateModified);
+  assert.equal(schemas[0].author[0]["@type"],"Organization");assert.equal(schemas[0].reviewedBy,undefined);
+  assert.deepEqual(Array.from(schemas[1].itemListElement,x=>x.name),["Madbeauty","Gidai",page.title]);
+  assert.equal(schemas[1].itemListElement[1].item,index.url);
+  const collection=giftSchemas(pkg,index,live,navigation)[0];assert.equal(collection["@type"],"CollectionPage");assert.equal(collection.mainEntity.itemListElement.length,1);
+  const noIndex=giftSchemas(pkg,page,live.filter(p=>p.id!==index.id),navigation);
+  assert.equal(noIndex[1].itemListElement.length,2);assert.ok(!JSON.stringify(noIndex).includes("SLAPTAS BŪSIMAS"));
+});
 test("article index renders the approved orientation body, not just its description", () => {
   const pkg = fixture();
   const index = pkg.pages.find(page => page.id === "gift-articles");
