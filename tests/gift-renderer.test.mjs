@@ -38,7 +38,7 @@ function load(relative) {
 }
 const { GiftSite } = load("components/gift/gift-site.tsx");
 const { giftSchemas, giftMetadata, giftJsonLd } = load("lib/gift-seo.ts");
-const { giftFilteredArticles } = load("lib/gift-content.ts");
+const { giftArticles, giftFilteredArticles } = load("lib/gift-content.ts");
 const before = Date.parse("2026-10-04T20:00:00Z"), boundary = "2026-10-05T04:30:00.000Z";
 function fixture() {
   const site = { id: "dovanos123", name: "Gift isolated test", canonicalHost: "gift.example", locale: "lt-LT", timezone: "Europe/Vilnius", brand: { accent: "#f06f4f" }, offer: "Only a test", contact: { email: "test@example.org" }, renderer: "gift", operatorName: "Test organization" };
@@ -97,6 +97,27 @@ test("metadata/schema match visible facts, not schedule; organization and safe J
   assert.equal(giftMetadata(pkg, page, true).robots.index, false);
   assert.doesNotMatch(giftJsonLd({ title: "</script><script>alert(1)</script>" }), /<script|<\/script/);
   assert.doesNotMatch(htmlFor(pkg, "lt-hand-casting-guide"), /Memory Casting|Person|AggregateRating|Offer|datePublished/);
+});
+
+test("Dovanos schema identifies the operator, public organization profile, collection and configured article breadcrumb", () => {
+  const pkg = fixture(), live = project(pkg, before), article = live.find(p => p.id === "lt-hand-casting-guide");
+  const index = live.find(p => p.id === "gift-articles"), profile = live.find(p => p.id === "gift-profile");
+  const navigation = { homeLabel: "Pradžia", articleIndexSlug: "straipsniai", articleIndexLabel: "Straipsniai" };
+  const articleSchemas = giftSchemas(pkg, article, live, navigation);
+  assert.deepEqual(Array.from(articleSchemas[1].itemListElement, item => item.name), ["Pradžia", "Straipsniai", article.title]);
+  assert.equal(articleSchemas[1].itemListElement[1].item, index.url);
+  const profileSchema = giftSchemas(pkg, profile, live)[0];
+  assert.equal(profileSchema["@type"], "ProfilePage");
+  assert.equal(profileSchema.mainEntity["@type"], "Organization");
+  assert.equal(profileSchema.mainEntity.name, article.editorial.authors[0].name);
+  assert.equal(profileSchema.mainEntity.url, profile.url);
+  const homeSchemas = giftSchemas(pkg, live.find(p => p.type === "home"), live);
+  assert.equal(homeSchemas[0].name, pkg.site.operatorName);
+  assert.equal(homeSchemas[1]["@type"], "WebSite");
+  assert.equal(homeSchemas[1].publisher["@id"], homeSchemas[0]["@id"]);
+  const collection = giftSchemas(pkg, index, live)[0];
+  assert.equal(collection["@type"], "CollectionPage");
+  assert.equal(collection.mainEntity.numberOfItems, giftArticles(live).length);
 });
 
 test("Shared article schema uses the actual projected index and truthful editorial dates across adapters", () => {

@@ -4,7 +4,7 @@ Canonical origin: https://dovanos123.lt. Service `dovanos123-preview` is retaine
 
 ## Exact content and build
 
-The tracked 14-page package has SHA-256 `86255754c98846235fef06e541ea304bc97c61a23015650feadf91550f7a3bbb`: the original 11 immutable approvals plus newly reviewed privacy/cookie/terms pages. All 15 approved WebP files come from `content-staging/dovanos123/assets`; baseline staging approvals and the previously stopped editorial work remain unchanged. The three initial articles and all support pages were reviewed; this release does not claim to publish the entire draft calendar.
+The current 34-page package has SHA-256 `f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b`: the 14 previously live pages plus 20 newly written and reviewed gift guides. All 72 approved WebP files are paired with this exact release in `release/dovanos123/assets`; the separate 11-page `content-staging/dovanos123` research handoff remains byte-for-byte unchanged.
 
 Install pinned dependencies with `npm ci`. Stage/commit owned source before building: the release builder copies only Git-indexed framework source to a new isolated `outputs/` directory, imports this one package, and copies its approved assets/fonts. It never traverses private state, previous niche packages or unrelated media. The node_modules junction reuses the pinned local install.
 

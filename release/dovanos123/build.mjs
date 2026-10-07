@@ -19,7 +19,7 @@ for(const file of files){
 }
 const dest=path.join(target,'content-packages/dovanos123');await mkdir(path.join(dest,'assets'),{recursive:true});
 await writeFile(path.join(dest,'content-package.json'),raw);await writeFile(path.join(dest,'activation.json'),JSON.stringify(receipt,null,2));
-for(const name of new Set(pkg.pages.flatMap(p=>p.media.map(m=>path.basename(m.src)))))await copyFile(path.join(root,'content-staging/dovanos123/assets',name),path.join(dest,'assets',name));
+for(const name of new Set(pkg.pages.flatMap(p=>p.media.map(m=>path.basename(m.src)))))await copyFile(path.join(import.meta.dirname,'assets',name),path.join(dest,'assets',name));
 // Use the pinned installed dependency tree. A clean clone first runs npm ci.
 await symlink(path.join(root,'node_modules'),path.join(target,'node_modules'),process.platform==='win32'?'junction':'dir');
 const env={...process.env,NICHE_RELEASE_CONFIG:`release/dovanos123/wrangler.${mode}.json`,CLOUDFLARE_WORKER_BUILD:'1'};
