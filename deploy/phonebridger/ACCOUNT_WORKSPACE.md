@@ -1,5 +1,7 @@
 # PhoneBridger account and creator workspace — 7 October 2026
 
+Historical sandbox preparation below. The subsequent explicit human publication request and canonical release supersede its live-disabled status: see [ACCOUNT_LIVE_RELEASE_2026-10-07.md](ACCOUNT_LIVE_RELEASE_2026-10-07.md). Live referrals/accounting are enabled under a separate immutable edition; automatic provider payouts remain unavailable.
+
 Implemented on `codex/phonebridger-account-creator-20261007`, depending on production integration PR 1. [Core PR 7](https://github.com/christianza1989/niche-public-core/pull/7) pairs with [companion PR 28](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/28). Neither has been merged. Only the isolated playground was deployed; canonical production was not redeployed by this session.
 
 ## Implemented behavior
