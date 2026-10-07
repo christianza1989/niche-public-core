@@ -33,6 +33,15 @@ function fixture() {
   };
 }
 
+test('canonical home body capability changes approval hash and rejects tampering without changing legacy hashes',()=>{
+ const pkg=fixture(),home=pkg.pages[0],legacyHash=home.revisionHash;
+ home.bodyProjection='canonical';assert.notEqual(pageRevisionHash(home),legacyHash);
+ assert.throws(()=>validateContentPackage(pkg),/hash|checksum|revision/i);
+ home.revisionHash=pageRevisionHash(home);home.approval.revisionHash=home.revisionHash;
+ assert.equal(validateContentPackage(pkg).pages[0].bodyProjection,'canonical');
+ home.bodyProjection='partial';assert.throws(()=>validateContentPackage(pkg),/bodyProjection/);
+});
+
 test("approved immutable package passes validation", () => {
   assert.equal(validateContentPackage(fixture()).pages.length, 1);
 });

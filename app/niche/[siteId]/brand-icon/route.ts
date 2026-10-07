@@ -5,6 +5,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sit
   const { siteId } = await params;
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) return new Response("Not found", { status: 404 });
+  if (pkg.siteId === 'roletaiklaipedoje') {
+    const svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 44"><rect width="40" height="44" fill="#f5f1e9"/><path d="M5 40V4h30v36H5ZM20 4v36M5 13h30M5 20h30M5 27h30" fill="none" stroke="#734b34" stroke-width="2"/><path d="M7 32h11M22 32h11" stroke="#734b34" stroke-width="3"/></svg>';
+    return new Response(svg,{headers:{'content-type':'image/svg+xml','cache-control':'public, max-age=3600','x-content-type-options':'nosniff'}});
+  }
   if (pkg.siteId === "fasadopastoliai") {
     const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38"><rect width="38" height="38" fill="#d4e84c"/><path d="M6 33V5h26v28M6 14h26M6 24h26M19 5v28M6 5l13 9 13-9M6 24l13 9 13-9" fill="none" stroke="#182d31" stroke-width="2.4"/></svg>';
     return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });
