@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import Stripe from 'stripe';
-import {creatorApi,affiliateTerms,checkoutAttribution,qualifyCommission,releaseHolds,reverseCommission,reservePayout,settlePayout,referralRedirect,reconcileAffiliateEvent} from '../lib/phonebridger-affiliate.mjs';
+import {creatorApi,affiliateTerms,affiliateEnabled,programTerms,checkoutAttribution,qualifyCommission,releaseHolds,reverseCommission,reservePayout,settlePayout,referralRedirect,reconcileAffiliateEvent} from '../lib/phonebridger-affiliate.mjs';
 import {commerce} from '../lib/stripe-commerce.mjs';
 import {database,request,order,otherToken} from './helpers/phonebridger-db.mjs';
 const t=affiliateTerms,day=86400000;
@@ -16,6 +16,28 @@ async function commission(db,change={}){
 }
 const balances=(db,id)=>Object.fromEntries(db.sql.prepare('SELECT bucket,SUM(amount) n FROM affiliate_ledger WHERE commission_id=? GROUP BY bucket').all(id).map(r=>[r.bucket,r.n]));
 const api=(action,d,h)=>request('/api/creator/'+action,d,h);
+
+test('live creator activation requires its explicit flag and preserves the separate immutable sandbox edition',async()=>{
+ const db=database(),env={...envOf(db),PLAYGROUND:'0',AFFILIATE_LIVE:'1'},live=programTerms(env);partner(db);
+ assert.equal(affiliateEnabled({...env,AFFILIATE_LIVE:undefined}),false);assert.equal(affiliateEnabled(env),true);
+ assert.equal(programTerms(envOf(db)).version,t.version);assert.notEqual(live.version,t.version);assert.equal(live.approvedForLive,true);
+ await assert.rejects(checkoutAttribution(request('/shop'),env,db,{id:'buyer'},'TESTCODE',2900,'usd'),/not eligible/);
+ const accepted=await creatorApi(api('accept-terms',{version:live.version,consent:true},{Cookie:'__Host-pb_session='+otherToken}),env,'accept-terms');assert.equal(accepted.status,200);
+ const attribution=await checkoutAttribution(request('/shop'),env,db,{id:'buyer'},'TESTCODE',2900,'usd');assert.equal(attribution.discount,145);assert.equal(attribution.basis,2755);assert.equal(attribution.version,live.version);
+ assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM affiliate_terms').get().n,2);assert.equal(JSON.parse(db.sql.prepare('SELECT definition FROM affiliate_terms WHERE version=?').get(t.version).definition).approvedForLive,false);
+ const view=await(await creatorApi(api('overview',undefined,{Cookie:'__Host-pb_session='+otherToken}),env,'overview')).json();assert.equal(view.programMode,'live');assert.equal(view.financiallyActive,true);
+ // Enabling live accounting never enables the test-only reservation/settlement operator.
+ for(const action of ['reserve','settle'])assert.equal((await creatorApi(api('operator',{action},{Authorization:'Bearer unit-operator'}),env,'operator')).status,403);
+});
+
+test('live affiliate refund reconciliation accepts only canonical live charges and reverses once',async()=>{
+ const db=database(),o=await commission(db,{subtotal:2755,payment_intent:'pi_live_fixture'}),env={...envOf(db),PLAYGROUND:'0',AFFILIATE_LIVE:'1'};
+ const event={type:'charge.refunded',data:{object:{id:'ch_live_fixture'}}};
+ const stripe={charges:{retrieve:async()=>({livemode:true,payment_intent:o.payment_intent,amount:2755,amount_refunded:1378})}};
+ await reconcileAffiliateEvent(event,db,stripe,env);await reconcileAffiliateEvent(event,db,stripe,env);assert.deepEqual(balances(db,o.id),{Pending:344,Reversed:345});
+ await assert.rejects(reconcileAffiliateEvent(event,db,{charges:{retrieve:async()=>({livemode:false,payment_intent:o.payment_intent,amount:2755,amount_refunded:2755})}},env),/environment/);
+ assert.equal(balances(db,o.id).Reversed,345);
+});
 test('application approval is distinct from buying; denied users cannot read or mutate creator records',async()=>{
  const db=database(),env=envOf(db);order(db);
  assert.equal((await creatorApi(api('overview'),env,'overview')).status,403);
@@ -94,14 +116,15 @@ test('creator response is masked, aggregates each commission once and separates 
  assert.ok(!JSON.stringify(data).includes('buyer@example'));assert.ok(!JSON.stringify(data).includes('private-new'));assert.ok(!JSON.stringify(data).includes('b'.repeat(32)));
  assert.equal((await creatorApi(api('operator',{action:'reserve',partnerId:'partner',currency:'usd',requestId:crypto.randomUUID()},{Authorization:'Bearer unit-operator'}),{...envOf(db),PLAYGROUND:'0'},'operator')).status,403);
 });
-test('signed sandbox checkout integrates frozen discount, paid qualification and canonical partial refund',async()=>{
- const db=database();partner(db);const env={...envOf(db),STRIPE_RESTRICTED_KEY:'rk_test_unit_only',STRIPE_WEBHOOK_SECRET:'whsec_unit_only'};
- const policy={version:'test-v1',seller:'Test seller',stripeAccount:'acct_test',mode:'test',currency:'usd',prices:[2900,4900,6500,7900],licenceApproved:true,taxReviewed:true,returnsApproved:true};
- const sdk=new Stripe('sk_test_unit_only');let session;
- const stripe={accounts:{retrieve:async()=>({id:'acct_test',charges_enabled:true})},checkout:{sessions:{create:async p=>{assert.equal(p.line_items[0].price_data.unit_amount,2755);session={id:'cs_test_integrated',url:'https://checkout.stripe.com/c/pay/test',livemode:false,metadata:p.metadata,client_reference_id:p.client_reference_id,currency:'usd',amount_subtotal:2755,amount_total:2755,total_details:{amount_shipping:0,amount_tax:0},line_items:{data:[{quantity:1,amount_subtotal:2755}]},payment_intent:{id:'pi_test',status:'succeeded',latest_charge:{id:'ch_test',refunded:false,disputed:false}}};return session;},retrieve:async()=>({...session,payment_status:'paid'})}},webhooks:sdk.webhooks,charges:{retrieve:async()=>({livemode:false,payment_intent:'pi_test',amount:2755,amount_refunded:1378})}};
+for(const mode of ['test','live'])test(`signed ${mode} checkout integrates frozen discount, paid qualification and canonical partial refund`,async()=>{
+ const db=database();partner(db);const env={...envOf(db),PLAYGROUND:mode==='test'?'1':'0',AFFILIATE_LIVE:mode==='live'?'1':undefined,STRIPE_RESTRICTED_KEY:`rk_${mode}_unit_only`,STRIPE_WEBHOOK_SECRET:'whsec_unit_only'};
+ if(mode==='live')db.sql.prepare('UPDATE creator_partners SET accepted_terms=?').run(programTerms(env).version);
+ const policy={version:'test-v1',seller:'Test seller',stripeAccount:'acct_test',mode,currency:'usd',prices:[2900,4900,6500,7900],licenceApproved:true,taxReviewed:true,returnsApproved:true,termsText:'Approved fixture purchase terms. '.repeat(10)};
+ const sdk=new Stripe(`sk_${mode}_unit_only`);let session;
+ const stripe={accounts:{retrieve:async()=>({id:'acct_test',charges_enabled:true})},checkout:{sessions:{create:async p=>{assert.equal(p.line_items[0].price_data.unit_amount,2755);session={id:'cs_test_integrated',url:'https://checkout.stripe.com/c/pay/test',livemode:mode==='live',metadata:p.metadata,client_reference_id:p.client_reference_id,currency:'usd',amount_subtotal:2755,amount_total:2755,total_details:{amount_shipping:0,amount_tax:0},line_items:{data:[{quantity:1,amount_subtotal:2755}]},payment_intent:{id:'pi_test',status:'succeeded',latest_charge:{id:'ch_test',refunded:false,disputed:false}}};return session;},retrieve:async()=>({...session,payment_status:'paid'})}},webhooks:sdk.webhooks,charges:{retrieve:async()=>({livemode:mode==='live',payment_intent:'pi_test',amount:2755,amount_refunded:1378})}};
  const payload={holders:0,finish:'black',requestId:crypto.randomUUID(),consent:true,creatorCode:'TESTCODE'};
  const response=await commerce(request('/api/shop/checkout',payload),env,policy,'checkout',stripe);assert.equal(response.status,201);const {orderId}=await response.json();assert.equal(db.sql.prepare('SELECT amount FROM affiliate_commissions').get(),undefined);
- async function webhook(type,object,id){const body=JSON.stringify({id,type,livemode:false,data:{object}}),signature=sdk.webhooks.generateTestHeaderString({payload:body,secret:env.STRIPE_WEBHOOK_SECRET});return commerce(new Request('https://phonebridger.test/api/shop/webhook',{method:'POST',headers:{'Stripe-Signature':signature},body}),env,policy,'webhook',stripe);}
+ async function webhook(type,object,id){const body=JSON.stringify({id,type,livemode:mode==='live',data:{object}}),signature=sdk.webhooks.generateTestHeaderString({payload:body,secret:env.STRIPE_WEBHOOK_SECRET});return commerce(new Request('https://phonebridger.test/api/shop/webhook',{method:'POST',headers:{'Stripe-Signature':signature},body}),env,policy,'webhook',stripe);}
  assert.equal((await webhook('checkout.session.completed',{...session,payment_status:'paid'},'evt_paid')).status,200);assert.equal((await webhook('checkout.session.completed',{...session,payment_status:'paid'},'evt_paid')).status,200);assert.equal(balances(db,orderId).Pending,689);
  assert.equal((await webhook('charge.refunded',{id:'ch_test',payment_intent:'pi_test',refunded:false},'evt_partial')).status,200);assert.equal(balances(db,orderId).Reversed,345);assert.equal(balances(db,orderId).Pending,344);
 });
