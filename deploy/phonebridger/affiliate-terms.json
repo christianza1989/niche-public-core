@@ -1,0 +1,16 @@
+{
+  "version": "proposal-20261007-v1",
+  "approvedForLive": false,
+  "commissionBps": 2500,
+  "audienceDiscountBps": 500,
+  "attributionDays": 30,
+  "digitalHoldDays": 30,
+  "hardwareSaleHoldDays": 30,
+  "hardwareDeliveryHoldDays": 14,
+  "payoutDay": 15,
+  "minimumByCurrency": {"usd": 2500},
+  "basis": "eligible merchandise actually paid after discount, excluding taxes and shipping",
+  "qualification": "first qualifying new-customer purchase; no self-referrals or recruitment chain",
+  "attribution": "explicit eligible partner code before last eligible partner link; direct visits retain attribution",
+  "tier": "No automatic tier. A future margin-qualified version requires separate approval."
+}
