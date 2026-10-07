@@ -1,0 +1,13 @@
+# Shared GEO discovery integration — 2026-10-07
+
+User requested current GEO research and automatic content-to-discovery updates for every niche. Companion scope: `lib/content-seo-v2.mjs` and targeted discovery regressions only. Shared publication projection, approval/package schemas, renderer identities, routes and bot preferences remain authoritative.
+
+Instruction/loader/checker work: [primary PR31](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/31). Current baseline: V1/V2 routes dynamically render `llms.txt`/`llms-full.txt` with no-store; V2 full output omits approved publication/review dates and non-inline approved related/external links. No production deployment, DNS, WAF, customer data or paid measurement is part of this source change.
+
+Status: source implemented and locally verified. `contentReadingV2` reads only the shared projected pages and adds approved dates, eligible author profile links and projected related/external panel links to the full reading output. Index includes true site summary/contact, canonical reading links and the full export. No fallback clock date, raw private source or independent eligibility predicate is introduced.
+
+Validation: `npm run test:core` 52/52 PASS; targeted tests prove T−1/T scheduled inclusion, revocation, immutable package input, private/future exclusion and site-scoped body updates. `npm run build` PASS with 9 approved current-main packages. Actual isolated Worker SEO smoke passes greitossvetaines (7 pages) and traktoriupadangos (11 pages). V2 helper is exercised in projection unit tests/build; shipped smoke packages are V1. Existing build warnings retained. Attempted dovanos123 smoke had no activated main package (ENOENT); no production/reviewed package imported for this source task.
+
+Site adapter owners must consume the shared helper and preserve route no-store/appropriate bounded invalidation. Source change is not a production deployment. Madbeauty's current custom discovery adapter has no Cache-Control at captured HTTP baseline; Dovanos has private,no-store but its full output did not contain the new publication/profile labels. Primary audit/checker binds findings to actual source/package/time and distinguishes account/WAF/crawler/AI measurement unknowns. Historical approved packages and prior deployment receipts are not rewritten. Earlier V1 CollectionPage hub patch is separate PR6; this change does not duplicate it.
+
+Full primary evidence: `research/core-completion-20261007/GEO_AUDIT.md` and `VALIDATION.md` in PR31. Companion handoff: [PR10](https://github.com/christianza1989/niche-public-core/pull/10).
