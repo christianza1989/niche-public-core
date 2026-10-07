@@ -1,0 +1,17 @@
+{
+  "version": "phonebridger-creators-v1-20261007",
+  "approvedForLive": true,
+  "commissionBps": 2500,
+  "audienceDiscountBps": 500,
+  "attributionDays": 30,
+  "digitalHoldDays": 30,
+  "hardwareSaleHoldDays": 30,
+  "hardwareDeliveryHoldDays": 14,
+  "payoutDay": 15,
+  "minimumByCurrency": {"usd": 2500},
+  "basis": "eligible merchandise actually paid after discount, excluding taxes and shipping",
+  "qualification": "first qualifying new-customer purchase; no self-referrals or recruitment chain",
+  "attribution": "explicit eligible partner code before last eligible partner link; direct visits retain attribution",
+  "tier": "No automatic higher tier. A new version requires separate approval.",
+  "payouts": "Provider onboarding and automatic transfers are not available in this release. Eligible balances remain recorded; contact support for payout arrangements."
+}

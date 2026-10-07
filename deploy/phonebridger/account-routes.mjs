@@ -1,0 +1,2 @@
+export const accountRoutes=new Set(['account','account/downloads','account/licences','account/orders','account/support','account/settings','account/integrations','creators/apply','creator','creator/links','creator/performance','creator/referrals','creator/earnings','creator/payouts','creator/media-kit','creator/content','creator/settings']);
+export const accountRoute=slug=>accountRoutes.has(slug)||/^account\/orders\/[a-f0-9]{32}$/.test(slug);

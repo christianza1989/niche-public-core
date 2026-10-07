@@ -9,6 +9,9 @@ import {sendHostingerMail} from '../../lib/hostinger-mail-api.mjs';
 import {commerce} from '../../lib/stripe-commerce.mjs';
 import commercePolicy from './commerce-policy.json';
 import commerceContract from '../../.sites-runtime/phonebridger-production/commerce-contract.json';
+import {accountWorkspace} from '../../lib/phonebridger-account-workspace.mjs';
+import {creatorApi,referralRedirect} from '../../lib/phonebridger-affiliate.mjs';
+import {accountRoute} from './account-routes.mjs';
 
 const pkg=release.package, privatePages=new Set(['login','register','recover','account','checkout']);
 const response=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex'}});
@@ -82,6 +85,9 @@ export default {
     let result;
     try{
       if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length),{minimumPasswordLength:6});
+      else if(url.pathname.startsWith('/api/workspace/'))result=await accountWorkspace(request,env,url.pathname.slice('/api/workspace/'.length),release.downloads);
+      else if(url.pathname.startsWith('/api/creator/'))result=await creatorApi(request,env,url.pathname.slice('/api/creator/'.length));
+      else if(/^\/r\/[a-f0-9]{32}$/.test(url.pathname)&&request.method==='GET')result=await referralRedirect(request,env,url.pathname.split('/').pop());
       else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,policyFor(env,local),url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);
@@ -93,12 +99,12 @@ export default {
       else if(url.pathname==='/llms-full.txt')result=txt(nicheLlmsFullCore(pkg,live,settings.operatorName));
       else {
         const slug=url.pathname.replace(/^\/+|\/+$/g,'');
-        const page=live.find(p=>p.slug===slug),isPrivate=privatePages.has(slug);
+        const page=live.find(p=>p.slug===slug),isPrivate=privatePages.has(slug)||accountRoute(slug);
         if(page||isPrivate){
           if(slug&&url.pathname!=='/'+slug){url.pathname='/'+slug;return Response.redirect(url.toString(),308);}
-          const expected=release.routes[slug];
+          const workspace=accountRoute(slug),expected=release.routes[workspace?'account':slug];
           if(!expected||(page&&expected.revisionHash!==page.revisionHash))return new Response('Not found',{status:404});
-          const assetUrl=new URL(request.url);if(slug)assetUrl.pathname='/'+slug+'/';result=await env.ASSETS.fetch(new Request(assetUrl,request));
+          const assetUrl=new URL(request.url);if(slug)assetUrl.pathname='/'+(workspace?'account':slug)+'/';result=await env.ASSETS.fetch(new Request(assetUrl,request));
         }else if(release.assets.includes(url.pathname)&&(!url.pathname.startsWith('/content-assets/')||live.some(p=>p.media.some(m=>m.src===url.pathname))))result=await env.ASSETS.fetch(request);
         else result=new Response('Not found',{status:404});
       }
@@ -109,7 +115,7 @@ export default {
     }
     const headers=new Headers(result.headers);if(env.PLAYGROUND==='1')headers.set('X-PhoneBridger-Environment','playground');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.set('Content-Security-Policy',"frame-ancestors 'none'; base-uri 'self'; object-src 'none'");
     if(!local)headers.set('Strict-Transport-Security','max-age=31536000');
-    if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
+    if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||accountRoute(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||url.pathname.startsWith('/r/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
     else if(headers.get('Content-Type')?.includes('text/html'))headers.set('Cache-Control','no-cache');
     return new Response(request.method==='HEAD'?null:result.body,{status:result.status,headers});
   },

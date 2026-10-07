@@ -241,3 +241,10 @@ test('a refund received before checkout completion cannot issue a licence',async
  await applyStripeEvent(eventOf('checkout.session.completed',session),db,policy,{checkout:{sessions:{retrieve:async()=>session}}});
  assert.equal(db.sql.prepare('SELECT status FROM commerce_orders').get().status,'refunded');assert.equal(db.sql.prepare('SELECT COUNT(*) AS n FROM commerce_entitlements').get().n,0);
 });
+test('order history pagination keeps stable ties and never crosses account ownership',async()=>{
+ const db=database();for(let i=0;i<52;i++)insertOrder(db,{id:i.toString(16).padStart(32,'0'),session_id:'cs_page_'+i,created_at:10000});
+ insertOrder(db,{id:'f'.repeat(32),user_id:'other',session_id:'cs_foreign',created_at:20000});
+ const first=await(await commerce(request('orders'),envOf(db),policy,'orders')).json();assert.equal(first.orders.length,50);assert.ok(first.nextCursor);assert.ok(first.orders.every(o=>o.created_at===10000));
+ const second=await(await commerce(request('orders?before='+encodeURIComponent(first.nextCursor)),envOf(db),policy,'orders')).json();assert.equal(second.orders.length,2);assert.equal(second.nextCursor,null);assert.equal(new Set([...first.orders,...second.orders].map(o=>o.id)).size,52);
+ assert.equal((await commerce(request('orders?before=invalid'),envOf(db),policy,'orders')).status,400);
+});
