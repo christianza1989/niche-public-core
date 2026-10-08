@@ -1,0 +1,7 @@
+# Agentų kalibravimo startas
+
+**Visiems šio repo pavedimams:** naudoti companion [CODEX_GIT_WORKFLOW](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/blob/main/docs/CODEX_GIT_WORKFLOW.md). Kiekviename Codex PC/profilyje vieną kartą įdiegti `scripts/install-agent-git-bootstrap.mjs` iš aktualaus core; prieš startą / tęsimą / handoff vykdyti core `scripts/git-freshness.mjs --repo <šis-repo> --companion <core-repo> --phase start|continue|handoff`. Sėkmingas fetch ir current main HEAD bazėje būtini; kito agento dirty checkout neperrašyti, naudoti savo branch/worktree. Po main integravimo perskaityti actual instrukcijas; pradėtas job išlaiko snapshot. Companion trūkumas nėra leidimas kurti antrą shared core.
+
+Jei pavedime yra verslo pokalbių, laiškų, tiekėjų agentų prijungimas, kalibravimas ar autonominis mokymasis, perskaityti [docs/AGENT_CALIBRATION.md](docs/AGENT_CALIBRATION.md) ir ten nurodytą companion `business-agent-calibration` skill. Jis turi vieną authoritative šaltinį companion repo; nekopijuoti promptų ar mokymosi core į šį viešą rendererį.
+
+Tęsti actual vartų ir siteId / host izoliacijos sutartis. Repo clone, skill perskaitymas ar tekstinių scenarijų PASS neįjungia balso / SMTP / prekybos ir neįrodo realaus klientų garso ar laiško gavimo. Privatūs klientų įrašai ir API raktai į viešą paketą ar Git nepatenka. Kitoms šio repo užduotims ši kalibravimo instrukcija papildomo modulio neprideda.

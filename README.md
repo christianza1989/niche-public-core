@@ -1,5 +1,7 @@
 # vinext-starter
 
+Šiame projekte starteris yra `niche-public-core`, viešas nišinių svetainių variklis. Verslo pokalbių agentų prijungimui ir kalibravimui pradėti nuo [agentų kalibravimo integracijos](docs/AGENT_CALIBRATION.md); canonical skills, modelių instrukcijos ir mokymosi controller yra companion `nisiniai-puslapiai-monetizavimui` repo. Ši nuoroda neįjungia balso, pašto ar prekybos.
+
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
 ## Prerequisites
