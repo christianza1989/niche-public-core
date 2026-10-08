@@ -1,0 +1,2104 @@
+{
+  "schemaVersion": 1,
+  "siteId": "parasoplansetes",
+  "canonicalHost": "parasoplansetes.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "parasoplansetes",
+    "name": "Parašo planšetės",
+    "canonicalHost": "parasoplansetes.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#142b29"
+    },
+    "offer": "StepOver įrenginių, programinės įrangos ir konkretaus pasirašymo proceso komplekto užklausos Lietuvoje.",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "parasoplansetes",
+      "type": "home",
+      "slug": "",
+      "title": "StepOver parašo planšetės verslui",
+      "description": "StepOver parašo planšetės, programinė įranga ir sprendimo atranka pagal jūsų dokumentų procesą. Modelių palyginimas ir užklausa Lietuvoje.",
+      "intent": "Suprasti StepOver pasiūlymą ir pradėti konkretaus pasirašymo komplekto atranką.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "StepOver įrenginiai, programinė įranga ir tinkamo komplekto atranka pagal jūsų dokumentus. Pasirašymas aptarnavimo vietoje, padalinyje ar mišriame procese — pradėkime nuo jūsų darbo eigos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Įrenginys yra viena sprendimo dalis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svarbu, ką žmogus perskaito, kaip pasirašo ir kur patenka galutinis dokumentas. Planšetę, programinę įrangą ir integraciją vertinkite kaip vieną procesą."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasirinkite ekraną ir darbo vietai tinkamą modelį.",
+            "Suderinkite dokumentą rengiančią ir pasirašančią programą.",
+            "Numatykite galutinio failo archyvą ir prieigas."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sprendimą lemia procesas, ne įmonės sektorius"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sutartys, perdavimo aktai, prekių atsiėmimas ar vidaus patvirtinimai — tinkamumą vertiname pagal konkrečius dokumentus ir techninę aplinką. Vienas punktas ar keli padaliniai: užklausoje aprašykite savo darbo vietas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aiški pradžia jūsų darbo vietai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikite dokumento tipą, darbo vietų skaičių, naudojamą sistemą ir norimą terminą. Įrangos, licencijų, priedų ir diegimo apimtį reikia suderinti individualiai. Užklausa nėra užsakymas, rezervacija ar galutinė kaina."
+        }
+      ],
+      "publishAt": "2026-10-08T15:47:01.522Z",
+      "media": [
+        {
+          "id": "6b19d0f2-a258-48be-9d46-66867bdf4e34",
+          "src": "/content-assets/parasoplansetes/6b19d0f2-a258-48be-9d46-66867bdf4e34.webp",
+          "alt": "StepOver duraSign Pad 4.3, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-4.3_04.png"
+        },
+        {
+          "id": "154e4efb-4bbe-4d12-8725-9128f845b536",
+          "src": "/content-assets/parasoplansetes/154e4efb-4bbe-4d12-8725-9128f845b536.webp",
+          "alt": "StepOver duraSign Pad 5.0, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-5.0.png"
+        },
+        {
+          "id": "6f96f282-c3e2-44e7-a645-69fc590f45be",
+          "src": "/content-assets/parasoplansetes/6f96f282-c3e2-44e7-a645-69fc590f45be.webp",
+          "alt": "StepOver duraSign Pad 10.0, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-10.0_01.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "356f6a4a-c558-4825-adfb-96b96905a32e",
+          "label": "Parašo planšečių pasirinkimo ir diegimo gidai"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "id": "7ff7ca94-fe65-43c7-a31c-d47e7d965df5",
+      "revisionHash": "50c05a5bce8330ca4e63e015922e96c63d92108c45b63e5f1a9d09f0bf4b9172",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "50c05a5bce8330ca4e63e015922e96c63d92108c45b63e5f1a9d09f0bf4b9172",
+        "approvedAt": "2026-10-08T16:31:50.062Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "guide",
+      "slug": "gidai/kaip-pasirinkti-paraso-plansete",
+      "title": "Kaip pasirinkti parašo planšetę verslui",
+      "description": "Šeši pasirinkimo kriterijai: dokumentas, ekranas, programinė įranga, darbo vieta, visas komplektas ir ribotas bandomasis procesas.",
+      "intent": "Surinkti tinkamus reikalavimus parašo planšetės ir programinės įrangos komplekto užklausai.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Parašo planšetę rinkitės pagal visą pasirašymo procesą: ką žmogus turi perskaityti, kur pasirašo, kokia programa parengia dokumentą ir kur lieka galutinis failas. Ekrano įstrižainė yra tik vienas kriterijus. Prieš užsakant verta palyginti įrenginio, licencijų, priedų ir diegimo apimtį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1. Aprašykite vieną tikrą dokumentą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo dokumento, kurį darbuotojai pasirašo reguliariai: sutarties, perdavimo akto, prekių atsiėmimo patvirtinimo ar supažindinimo. Užrašykite, kas jį parengia, kas pasirašo ir kas vėliau turi jį rasti. Nurodykite, ar dokumentas turi vieną parašą, kelis laukus, priedų arba formos laukų. Pasikartojantis aiškus procesas leidžia tikrinti konkretų komplektą; bendras noras atsisakyti popieriaus dar nepasako, kokia įranga reikalinga."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: nuomos įmonė iš savo sistemos gauna perdavimo akto PDF, klientas jį peržiūri aptarnavimo vietoje, pasirašo, o darbuotojas galutinį failą priskiria tam pačiam užsakymui. Tai iliustracinis scenarijus, ne mūsų atliktas projektas. Tokiam bandymui svarbu ne tik nubrėžti parašą, bet ir išsaugoti teisingą dokumento versiją su tinkamu užsakymo numeriu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2. Nuspręskite, ką pasirašantysis turi matyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažas parašo langas ir visas dokumentas įrenginio ekrane nėra tas pats. Jei tekstą žmogus skaito atskirame monitoriuje, reikia patikrinti jo matomumą ir ryšį su pasirašomu failu. Jei tekstas peržiūrimas planšetėje, bandykite tikrą dokumentą: lenteles, smulkų šriftą, kelių puslapių priedus, slinkimą ir mastelio keitimą. Didesnis ekranas gali padėti peržiūrai, tačiau jo naudos neįrodo vien colių skaičius."
+        },
+        {
+          "type": "list",
+          "items": [
+            "naturaSign Pad Classic turi nespalvinį ekraną; jo paskirtį vertinkite pagal parašo ir instrukcijų rodymo poreikį.",
+            "duraSign Pad 4.3 ir 5.0 — skirtingo dydžio spalvotų ekranų modeliai. Dokumento pateikimą lemia ir naudojama programa.",
+            "duraSign Pad 10.0 ir NG 10 turi didesnį ekraną. NG modelio programinį kelią vertinkite atskirai nuo įprasto duraSign."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3. Atskirai pasirinkite programinį kelią"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašo planšetė, operacinės sistemos atpažintas USB įrenginys ir veikiantis dokumentų pasirašymas yra trys skirtingi dalykai. USB HID atpažinimas savaime nepatvirtina, kad jūsų dokumentų programa palaiko konkretų modelį. Tikrinkite įrenginį, programą, operacinę sistemą ir jų versijas kaip vieną komplektą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojas eSignatureOffice pateikia kaip Windows programą PDF dokumentų pasirašymui ir aprašo darbo vietų licencijas. nextGen šeima turi atskirą PDF perdavimo bei API kelią. Todėl klauskite, kas vyksta kompiuteryje, kas pačiame įrenginyje ir kokie priedai reikalingi. LAN galimybė nereiškia, kad tinklo prijungimo rinkinys jau įtrauktas į kiekvieną pasiūlymą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4. Patikrinkite darbo vietą ir žmogaus veiksmus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar pasirašantysis patogiai pasiekia ekraną ir mato visą reikiamą tekstą?",
+            "Ar laidas, maitinimas ir tvirtinimas tinka konkrečiam stalui?",
+            "Ar darbuotojas gali aiškiai atšaukti neteisingą dokumentą prieš pasirašymą?",
+            "Kas nutinka pasirašymą nutraukus arba įrenginį atjungus?",
+            "Ar darbuotojai ir klientai naudojasi ta pačia darbo vieta, ar įrenginys keliauja tarp vietų?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bandykite kasdienį scenarijų, ne tik gamintojo demonstracinį dokumentą. Jei dirbate per terminalinį serverį ar nuotolinį darbalaukį, šią aplinką įtraukite į bandymą nuo pradžių. Papildomi moduliai ir licencijos gali keisti visą komplektą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5. Į sąmatą įtraukite visą komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palyginkite atskiras eilutes: planšetė, reikalingi laidai ar tinklo priedai, programinės įrangos licencijos, diegimas, šablonų parengimas, integracija ir palaikymas. Nevienoda komplektacija gali paaiškinti kainų skirtumą. Žema vieno įrenginio kaina neparodo visos darbo vietos kainos; aukšta kaina savaime neįrodo, kad jums reikia didžiausio modelio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pirkimą atsakingi asmenys turi įvertinti konkretaus dokumento reikalavimus, parašo lygį ir duomenų tvarkymo procesą. Svetainės modelio aprašymas ar planšetės techninė savybė nėra individuali teisinė išvada."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6. Pirmą bandymą apribokite aiškia apimtimi"
+        },
+        {
+          "type": "paragraph",
+          "text": "Siūlomas pradinis testas: viena darbo vieta, vienas dokumento tipas, vienas pasirašymo kelias ir viena galutinio failo paskirties vieta. Priėmimo metu atverkite išsaugotą dokumentą iš archyvo, o ne iš programos laikino aplanko. Tuomet pakartokite tą pačią eigą su nutrauktu pasirašymu ir ilgesniu dokumentu. Tik po šių patikrų verta plėsti vietų skaičių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pateikti komplekto užklausai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dokumento tipą ir tai, ką pasirašantysis turi perskaityti.",
+            "Darbo vietų / padalinių skaičių ir pasirašymų kiekio apytikrį įvertinimą.",
+            "Naudojamą programą, operacinę sistemą ir ar yra nuotolinio darbalaukio aplinka.",
+            "Galutinio failo saugojimo vietą ir kas prie jo turi prieigą.",
+            "Norimą terminą bei žinomus papildomus reikalavimus."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Peržiūrėkite StepOver modelius, o jei programos kelias dar neaiškus — pirmiausia aptarkite procesą. Užklausa nėra įrangos užsakymas ar galutinė kainos sąmata."
+        }
+      ],
+      "publishAt": "2026-10-08T15:47:01.529Z",
+      "media": [
+        {
+          "id": "6b19d0f2-a258-48be-9d46-66867bdf4e34",
+          "src": "/content-assets/parasoplansetes/6b19d0f2-a258-48be-9d46-66867bdf4e34.webp",
+          "alt": "StepOver duraSign Pad 4.3, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-4.3_04.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "2026-10-08 tikrintas gamintojo programos, Windows aplinkos ir darbo vietų licencijų aprašymas."
+        },
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen Pad 5",
+          "reason": "2026-10-08 tikrintas nextGen PDF / API ir papildomo tinklo priedo kelias; ne konkretaus kliento priėmimas."
+        }
+      ],
+      "id": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+      "revisionHash": "d2e3c7962e8830087fc9796c1837263fcbd70929ba251fa8c433bad56638ea77",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "d2e3c7962e8830087fc9796c1837263fcbd70929ba251fa8c433bad56638ea77",
+        "approvedAt": "2026-10-08T16:31:50.073Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "paraso-plansetes",
+      "title": "StepOver parašo planšečių modeliai",
+      "description": "Palyginkite naturaSign Pad Classic, duraSign 4.3, 5.0, 10.0 ir NG 10. Ekranas, programinis kelias ir informacija komplekto užklausai.",
+      "intent": "Pasirinkti konkretų StepOver modelį pagal ekrano ir programinio proceso poreikį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rinkitės modelį pagal dokumento peržiūrą ir programinį kelią. Toliau pateikti įrenginiai yra esamo StepOver pasiūlymo atrankos pagrindas; konkrečią komplektaciją, licencijas, kainą ir pristatymą reikia suderinti užklausoje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką palyginti prieš pasirenkant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar žmogus planšetėje matys tik parašą / instrukciją, ar peržiūrės dokumentą?",
+            "Ar pasirašymas vyks Windows darbo vietoje, nuotolinio darbalaukio aplinkoje ar per NG įrenginio sąsają?",
+            "Kiek darbo vietų reikia, kokie priedai, tvirtinimas ir archyvo kelias?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Modelis ir programinė įranga parenkami kartu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įprasto duraSign modelio ir NG modelio vienodai vertinti nereikėtų: skiriasi dokumento apdorojimo kelias. Suderinamumą tikrinkite pagal konkrečią naudojamos programos, įrenginio ir operacinės sistemos versiją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gaukite tinkamo komplekto pasiūlymą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užklausoje nurodykite dokumento tipą, darbo vietų skaičių, turimą sistemą ir norimą terminą. Jei dar nesate pasirinkę modelio, užtenka aprašyti procesą. Užklausa nėra užsakymas ar galutinė kaina."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.122Z",
+      "media": [
+        {
+          "id": "154e4efb-4bbe-4d12-8725-9128f845b536",
+          "src": "/content-assets/parasoplansetes/154e4efb-4bbe-4d12-8725-9128f845b536.webp",
+          "alt": "StepOver duraSign Pad 5.0, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-5.0.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "Kaip pasirinkti parašo planšetę verslui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+      "revisionHash": "0ae93daa7a3beae9eb468cfcb985ecab99f5e42ab016348104d176a8a3d641cc",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0ae93daa7a3beae9eb468cfcb985ecab99f5e42ab016348104d176a8a3d641cc",
+        "approvedAt": "2026-10-08T16:31:50.087Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "produktas/paraso-plansete-stepover-naturasign-pad-classic",
+      "title": "StepOver naturaSign Pad Classic",
+      "description": "Kai svarbu kompaktiškas parašo ir instrukcijų rodymas. Modelio paskirtis ir informacija konkretaus komplekto užklausai.",
+      "intent": "Įvertinti naturaSign Pad Classic tinkamumą ir pateikti konkretaus komplekto užklausą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Classic vertinkite ten, kur dokumentas perskaitomas atskirame ekrane, o planšetė naudojama parašui ir trumpoms instrukcijoms. Nedidelis nespalvinis ekranas nėra viso A4 dokumento peržiūros pakaitalas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagrindiniai pasirinkimo duomenys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ekranas: Nespalvinis LCD",
+            "Rezoliucija: 320 × 85 pikselių",
+            "Programinis kelias: Programa darbo vietoje"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką išbandyti savo darbo vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pasirenkant patikrinkite, ar pasirašantysis patogiai mato dokumentą kitame ekrane ir supranta, kuri jo versija pasirašoma. Parašo lango dydį išbandykite su įprastais savo darbo vietos veiksmais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas turi būti suderinta pasiūlyme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginio modelis, reikalingi priedai ir pajungimas.",
+            "Programinės įrangos licencijos ir konkrečių versijų suderinamumas.",
+            "Dokumento perdavimas, galutinio failo archyvas ir vartotojų prieigos.",
+            "Diegimo, palaikymo, garantijos ir pristatymo sąlygos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite šio modelio komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite modelį arba savo dokumento peržiūros poreikį, darbo vietų skaičių ir naudojamą programą. Konkrečią kainą bei komplektaciją reikia patikrinti individualiai. Užklausa nėra užsakymas; atsargų ar pristatymo termino šis puslapis negarantuoja."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "72dd3442-8ebe-4c1b-b070-1872a414cbfd",
+          "src": "/content-assets/parasoplansetes/72dd3442-8ebe-4c1b-b070-1872a414cbfd.webp",
+          "alt": "StepOver naturaSign Pad Classic, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/naturaSign-Pad-Classic_04.jpg"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "225aff0d-674d-47ba-be62-198e74b129a2",
+      "revisionHash": "686dda34967203a66c150f82e19a1845a779b7fbc5f18293cdf9fd34795ea367",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "686dda34967203a66c150f82e19a1845a779b7fbc5f18293cdf9fd34795ea367",
+        "approvedAt": "2026-10-08T16:31:50.096Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "produktas/paraso-plansete-stepover-durasign-pad-4-3",
+      "title": "StepOver duraSign Pad 4.3",
+      "description": "Kompaktiška spalvoto ekrano darbo vieta. Modelio paskirtis ir informacija konkretaus komplekto užklausai.",
+      "intent": "Įvertinti duraSign Pad 4.3 tinkamumą ir pateikti konkretaus komplekto užklausą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "duraSign Pad 4.3 — kompaktiškas spalvoto ekrano StepOver modelis. Jį verta lyginti, kai aptarnavimo vietoje norite aiškaus parašo lango ir ribotos dokumento peržiūros, bet stalo vieta svarbi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagrindiniai pasirinkimo duomenys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ekranas: 4,3 col. spalvotas",
+            "Rezoliucija: 480 × 272 pikselių",
+            "Programinis kelias: Programa darbo vietoje"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką išbandyti savo darbo vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudokite savo PDF su įprasto dydžio tekstu ir parašo lauku. Jei žmogus turi skaityti ilgą dokumentą pačiame įrenginyje, patikrinkite slinkimą ir įskaitomumą, palyginkite didesnio ekrano modelį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas turi būti suderinta pasiūlyme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginio modelis, reikalingi priedai ir pajungimas.",
+            "Programinės įrangos licencijos ir konkrečių versijų suderinamumas.",
+            "Dokumento perdavimas, galutinio failo archyvas ir vartotojų prieigos.",
+            "Diegimo, palaikymo, garantijos ir pristatymo sąlygos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite šio modelio komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite modelį arba savo dokumento peržiūros poreikį, darbo vietų skaičių ir naudojamą programą. Konkrečią kainą bei komplektaciją reikia patikrinti individualiai. Užklausa nėra užsakymas; atsargų ar pristatymo termino šis puslapis negarantuoja."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "6b19d0f2-a258-48be-9d46-66867bdf4e34",
+          "src": "/content-assets/parasoplansetes/6b19d0f2-a258-48be-9d46-66867bdf4e34.webp",
+          "alt": "StepOver duraSign Pad 4.3, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-4.3_04.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "dc242d72-77a6-4f7c-9606-84e57aa73ee8",
+      "revisionHash": "a3db59a5920e494af8fe246f9dcf83b4425c128c99b34641364c47877abcf353",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "a3db59a5920e494af8fe246f9dcf83b4425c128c99b34641364c47877abcf353",
+        "approvedAt": "2026-10-08T16:31:50.107Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "produktas/paraso-plansete-stepover-durasign-pad-5-0",
+      "title": "StepOver duraSign Pad 5.0",
+      "description": "Spalvotas ekranas ir daugiau vietos dokumentui. Modelio paskirtis ir informacija konkretaus komplekto užklausai.",
+      "intent": "Įvertinti duraSign Pad 5.0 tinkamumą ir pateikti konkretaus komplekto užklausą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "duraSign Pad 5.0 turi 5 colių spalvotą ekraną. Lyginant su 4.3 modeliu, verta tikrinti konkretaus dokumento vaizdą ir darbuotojo veiksmus, o ne spręsti vien iš didesnės rezoliucijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagrindiniai pasirinkimo duomenys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ekranas: 5 col. spalvotas",
+            "Rezoliucija: 800 × 480 pikselių",
+            "Programinis kelias: Programa darbo vietoje"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką išbandyti savo darbo vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bandymo metu parodykite įprastą sutartį ir ilgesnį jos variantą. Įvertinkite, ar klientui nereikia nuolat didinti teksto, ar parašo laukas ir patvirtinimo veiksmas aiškūs."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas turi būti suderinta pasiūlyme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginio modelis, reikalingi priedai ir pajungimas.",
+            "Programinės įrangos licencijos ir konkrečių versijų suderinamumas.",
+            "Dokumento perdavimas, galutinio failo archyvas ir vartotojų prieigos.",
+            "Diegimo, palaikymo, garantijos ir pristatymo sąlygos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite šio modelio komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite modelį arba savo dokumento peržiūros poreikį, darbo vietų skaičių ir naudojamą programą. Konkrečią kainą bei komplektaciją reikia patikrinti individualiai. Užklausa nėra užsakymas; atsargų ar pristatymo termino šis puslapis negarantuoja."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "154e4efb-4bbe-4d12-8725-9128f845b536",
+          "src": "/content-assets/parasoplansetes/154e4efb-4bbe-4d12-8725-9128f845b536.webp",
+          "alt": "StepOver duraSign Pad 5.0, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-5.0.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "497c8819-4fc2-497d-ad38-7082dc18bc5c",
+      "revisionHash": "e208f30f9553a4b28a7bb82b2f7167479f164c1740d668df279dc04e3d5f0e32",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e208f30f9553a4b28a7bb82b2f7167479f164c1740d668df279dc04e3d5f0e32",
+        "approvedAt": "2026-10-08T16:31:50.117Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "produktas/paraso-plansete-stepover-durasign-pad-10-0",
+      "title": "StepOver duraSign Pad 10.0",
+      "description": "Kai svarbi didesnė dokumento peržiūra. Modelio paskirtis ir informacija konkretaus komplekto užklausai.",
+      "intent": "Įvertinti duraSign Pad 10.0 tinkamumą ir pateikti konkretaus komplekto užklausą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "duraSign Pad 10.0 — didesnio ekrano modelis, skirtas procesams, kuriuose pasirašančiajam svarbu peržiūrėti dokumento turinį įrenginyje. Programos ir archyvo kelias parenkamas atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagrindiniai pasirinkimo duomenys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ekranas: 10 col. spalvotas",
+            "Rezoliucija: 1024 × 600 pikselių",
+            "Programinis kelias: Programa darbo vietoje"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką išbandyti savo darbo vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Didesniam įrenginiui numatykite vietą ant stalo ir patogų pasiekiamumą. Patikrinkite kelių puslapių dokumentą, smulkesnę lentelę ir įprastą darbuotojo darbo vietos judėjimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas turi būti suderinta pasiūlyme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginio modelis, reikalingi priedai ir pajungimas.",
+            "Programinės įrangos licencijos ir konkrečių versijų suderinamumas.",
+            "Dokumento perdavimas, galutinio failo archyvas ir vartotojų prieigos.",
+            "Diegimo, palaikymo, garantijos ir pristatymo sąlygos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite šio modelio komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite modelį arba savo dokumento peržiūros poreikį, darbo vietų skaičių ir naudojamą programą. Konkrečią kainą bei komplektaciją reikia patikrinti individualiai. Užklausa nėra užsakymas; atsargų ar pristatymo termino šis puslapis negarantuoja."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "6f96f282-c3e2-44e7-a645-69fc590f45be",
+          "src": "/content-assets/parasoplansetes/6f96f282-c3e2-44e7-a645-69fc590f45be.webp",
+          "alt": "StepOver duraSign Pad 10.0, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-10.0_01.png"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "1838da73-e900-4334-8983-2a56e036e280",
+      "revisionHash": "819f3d25dcee612cdaf707f4a55b327a5c5d840939acb84436cb2115dd52e1ea",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "819f3d25dcee612cdaf707f4a55b327a5c5d840939acb84436cb2115dd52e1ea",
+        "approvedAt": "2026-10-08T16:31:50.127Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "produktas/paraso-plansete-stepover-durasign-pad-ng-10",
+      "title": "StepOver duraSign Pad NG 10",
+      "description": "Kai vertinate NG dokumentų apdorojimą. Modelio paskirtis ir informacija konkretaus komplekto užklausai.",
+      "intent": "Įvertinti duraSign Pad NG 10 tinkamumą ir pateikti konkretaus komplekto užklausą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "duraSign Pad NG 10 vertinkite kaip atskirą NG pasirašymo kelią, ne tik didesnį duraSign ekraną. Gamintojo NG technologija leidžia rinktis dokumento perdavimą įrenginiui arba gilesnį valdymą per sąsajas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagrindiniai pasirinkimo duomenys"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ekranas: 10 col. spalvotas",
+            "Rezoliucija: 1024 × 600 pikselių",
+            "Programinis kelias: PDF / XML / API įrenginio kelias"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką išbandyti savo darbo vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iš anksto patikrinkite konkretų NG modelį, programinės įrangos versiją ir reikalingą jungtį. Jei planuojate LAN naudojimą, į pasiūlymą turi patekti ir tam reikalingi priedai; USB komplektacijos nelaikykite savaime tinklo komplektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas turi būti suderinta pasiūlyme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginio modelis, reikalingi priedai ir pajungimas.",
+            "Programinės įrangos licencijos ir konkrečių versijų suderinamumas.",
+            "Dokumento perdavimas, galutinio failo archyvas ir vartotojų prieigos.",
+            "Diegimo, palaikymo, garantijos ir pristatymo sąlygos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aptarkite šio modelio komplektą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite modelį arba savo dokumento peržiūros poreikį, darbo vietų skaičių ir naudojamą programą. Konkrečią kainą bei komplektaciją reikia patikrinti individualiai. Užklausa nėra užsakymas; atsargų ar pristatymo termino šis puslapis negarantuoja."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "2a4ffcc8-4a67-443b-b32e-2c21a658c8b3",
+          "src": "/content-assets/parasoplansetes/2a4ffcc8-4a67-443b-b32e-2c21a658c8b3.webp",
+          "alt": "StepOver duraSign Pad NG 10, gamintojo įrenginys",
+          "width": 300,
+          "height": 300,
+          "credit": "Įrenginio nuotrauka: StepOver",
+          "rights": "Savininko 2026-10-08 nurodyta jam priklausančios signaturepads.lt StepOver produktų migracija. Pirminė įrenginio nuotrauka StepOver; kilmė https://signaturepads.lt/wp-content/uploads/2026/01/duraSign-Pad-NG-10_01-300x300-1.jpg"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        },
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen technologija",
+          "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
+        }
+      ],
+      "id": "d60d6eb9-35e6-4778-b7e5-136827efc61d",
+      "revisionHash": "36165de5c050e1cf9a7af8a8ed626151068f340e24b4f58837654c1edb2a984c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "36165de5c050e1cf9a7af8a8ed626151068f340e24b4f58837654c1edb2a984c",
+        "approvedAt": "2026-10-08T16:31:50.141Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "product",
+      "slug": "programine-iranga",
+      "title": "StepOver programinė įranga dokumentų pasirašymui",
+      "description": "eSignatureOffice, NG įrenginio kelias ir nuotolinio proceso atranka. Licencijos ir suderinamumas pagal jūsų darbo vietas.",
+      "intent": "Suprasti, kokia programa reikalinga konkrečiam StepOver įrenginio ir dokumento procesui.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Programa parenkama pagal tai, kur atsiranda dokumentas ir kaip jis pasiekia pasirašantįjį. Windows darbo vieta, NG įrenginio dokumentų apdorojimas ir nuotolinis pasirašymas nėra viena universali licencija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "eSignatureOffice darbo vietai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojas eSignatureOffice aprašo kaip Windows programą PDF dokumentams. Dokumentas gali būti perduodamas iš jūsų programos, o vėlesni veiksmai parenkami pagal darbo eigą. Darbo vietų ir serverio aplinkos licencijas reikia suderinti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "NG įrenginio dokumentų kelias"
+        },
+        {
+          "type": "paragraph",
+          "text": "NG sprendimui atskirai vertinama PDF perdavimo, XML arba API eiga. Konkretaus modelio funkcijos, jo versija ir tinklo priedai turi atitikti pasirinktą kelią. Nereikia automatiškai perkelti įprasto duraSign darbo vietos komplekto prielaidų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuotolinis arba mišrus procesas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei žmogus pasirašo iš kitos vietos, vertinkite atskirą gamintojo nuotolinio pasirašymo pasiūlymą ir dokumentui reikalingą parašo lygį. Parašo planšetė aptarnavimo vietoje neišsprendžia kiekvieno nuotolinio poreikio. Konkrečią cloud licenciją ir jos sąlygas pateikiame tik patikrinus komplektą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką nurodyti užklausoje"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Programos pavadinimą ir jos versiją.",
+            "Operacinę sistemą, darbo vietų skaičių ir ar naudojamas terminalinis serveris.",
+            "Dokumento formatą, parašo laukus ir galutinio failo saugojimo vietą.",
+            "Ar visi pasirašo vietoje, ar dalis žmonių yra nuotoliu."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Parašo lygis priklauso nuo viso sprendimo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprastas, pažangusis ir kvalifikuotas elektroninis parašas turi skirtingus reikalavimus. Vien planšetė ar parašo vaizdas nepatvirtina, kad sukuriamas kvalifikuotas parašas. Europos Komisija QES sieja su kvalifikuotu sertifikatu ir kvalifikuota parašo kūrimo priemone. Konkretaus dokumento tinkamumas vertinamas atskirai."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "c5530e22-0c75-46ad-8973-f71e1aac10a9",
+          "src": "/content-assets/parasoplansetes/c5530e22-0c75-46ad-8973-f71e1aac10a9.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "6e137c98-78e6-444b-8860-b5504b14fb5d",
+          "src": "/content-assets/parasoplansetes/6e137c98-78e6-444b-8860-b5504b14fb5d.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "75e95132-667d-4980-b523-122b07b45aa1",
+          "src": "/content-assets/parasoplansetes/75e95132-667d-4980-b523-122b07b45aa1.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "eaf7f497-2be7-42aa-8acc-4cfbf91b8635",
+          "src": "/content-assets/parasoplansetes/eaf7f497-2be7-42aa-8acc-4cfbf91b8635.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "f662199f-fc30-4532-97ac-2b732c88d5f6",
+          "src": "/content-assets/parasoplansetes/f662199f-fc30-4532-97ac-2b732c88d5f6.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+          "label": "PDF pasirašymas parašo planšete: visas dokumento kelias"
+        },
+        {
+          "targetPageId": "e522e382-e7f1-493d-9323-e3e5d2c5b705",
+          "label": "StepOver integracijos apimties vertinimas"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        },
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen technologija",
+          "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
+        },
+        {
+          "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/880312429/eSignature+FAQ",
+          "label": "Europos Komisija: elektroninio parašo lygiai",
+          "reason": "Peržiūrėta 2026-10-08: paprasto, pažangiojo ir kvalifikuoto parašo skirtumai; QES reikia kvalifikuoto sertifikato ir QSCD."
+        }
+      ],
+      "id": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+      "revisionHash": "2d691995f604ef764b139e32a94077df64d000d057417d11d469c21d02bd9d55",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2d691995f604ef764b139e32a94077df64d000d057417d11d469c21d02bd9d55",
+        "approvedAt": "2026-10-08T16:31:50.153Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "integracija",
+      "title": "StepOver integracijos apimties vertinimas",
+      "description": "Dokumento įvestis, pasirašymo kelias, archyvas ir atsakomybės. Paruoškite aiškų StepOver integracijos poreikį.",
+      "intent": "Pateikti sistemų ir dokumentų informaciją tikro integracijos projekto apimčiai įvertinti.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Integracijos poreikį aprašykite nuo dokumento atsiradimo iki galutinio failo grąžinimo. Vien API pavadinimas ar USB prijungimas neparodo, kiek darbų reikės jūsų sistemai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sutarkite dokumentų ribas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kuri sistema parengia dokumentą ir kada jis tampa galutine pasirašoma versija?",
+            "Kas nurodo parašo laukus, pasirašančiųjų eiliškumą ir privalomus veiksmus?",
+            "Kur grįžta pasirašytas failas, kokiu identifikatoriumi jis susiejamas su užsakymu?",
+            "Kaip atšaukiamas, pakartojamas ir patikrinamas nutrūkęs procesas?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkite tinkamą techninį kelią"
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbo vietos programos paleidimas, NG įrenginio dokumento perdavimas ir API valdymas reikalauja skirtingo parengimo. Gamintojas pateikia kūrėjų sąsajas; jų buvimas nėra įrodymas, kad jos jau suderintos su jūsų ERP, CRM ar dokumentų valdymo sistema."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pradėkite nuo riboto piloto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmam vertinimui siūlomas vienas dokumento tipas, viena darbo vieta ir viena archyvo paskirties vieta. Sudėtingą integraciją, kelis padalinius bei saugumo reikalavimus reikia įkainoti po techninio aptarimo. Diegimas ir jo terminas pažadami tik suderinus realų vykdytoją bei apimtį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacija techniniam aptarimui"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sistemų pavadinimai / versijos ir techninis kontaktas.",
+            "Dokumento kelias ir pavyzdinė jo struktūra be asmens duomenų.",
+            "Darbo vietos, nuotolinis darbalaukis, tinklo apribojimai.",
+            "Galutinio failo ir sutrikimų priėmimo kriterijai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aptariant pirminį poreikį nesiųskite pasirašytų sutarčių, biometrinių duomenų ar konfidencialių klientų dokumentų per užklausos formą. Pakanka proceso aprašymo."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "246323f5-171a-469b-b4fd-403870ef722f",
+          "src": "/content-assets/parasoplansetes/246323f5-171a-469b-b4fd-403870ef722f.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "1cb4dda2-1813-47a8-a3e7-ec77ea5a5a1c",
+          "src": "/content-assets/parasoplansetes/1cb4dda2-1813-47a8-a3e7-ec77ea5a5a1c.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "662e318a-d291-4e6b-8c3b-443b1b208b0b",
+          "src": "/content-assets/parasoplansetes/662e318a-d291-4e6b-8c3b-443b1b208b0b.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "2ff7618a-5d40-4b66-8a0d-ca762ee39754",
+          "src": "/content-assets/parasoplansetes/2ff7618a-5d40-4b66-8a0d-ca762ee39754.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "f7af355c-80e6-4126-8e08-d3f56c1ff603",
+          "src": "/content-assets/parasoplansetes/f7af355c-80e6-4126-8e08-d3f56c1ff603.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+        },
+        {
+          "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
+          "label": "Parašo planšetė terminaliniame serveryje: bandymo sąrašas"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/entwickler/",
+          "label": "StepOver kūrėjų portfelis",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo integravimo įrankių egzistavimas, ne mūsų atliktas diegimas."
+        },
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen technologija",
+          "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
+        }
+      ],
+      "id": "e522e382-e7f1-493d-9323-e3e5d2c5b705",
+      "revisionHash": "dde700c7c3a424afdbd84f06e6b1f7d279784dd8b461fe2dcc4a4e0ce3a325ec",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "dde700c7c3a424afdbd84f06e6b1f7d279784dd8b461fe2dcc4a4e0ce3a325ec",
+        "approvedAt": "2026-10-08T16:31:50.165Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "guide",
+      "slug": "gidai/pdf-pasirasymas-plansete",
+      "title": "PDF pasirašymas parašo planšete: visas dokumento kelias",
+      "description": "Nuo PDF parengimo iki patikrinto galutinio failo. Praktinė eiga ir aštuoni bandymai prieš pradedant naudoti sprendimą.",
+      "intent": "Parengti ir patikrinti dokumento pasirašymo eigą, ne tik užfiksuoti parašo vaizdą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "PDF pasirašymas parašo planšete turi apimti dokumento parengimą, peržiūrą, sutartą pasirašymo veiksmą ir galutinio failo grąžinimą. Parašo vaizdo įklijavimas į failą ir kontroliuojamas pasirašymo procesas nėra tas pats. Pirmam bandymui pasirinkite vieną savo dokumento tipą ir iš anksto aprašykite, kur turi atsidurti galutinis failas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirma parenkite dokumentą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užbaikite turinį prieš perduodami jį pasirašyti. Patikrinkite vardus, sutarties ar užsakymo numerį, sumas ir priedus. Jei dokumentą generuoja jūsų sistema, svarbu išvengti situacijos, kai darbuotojas pasirašyti pateikia kitą ar pasenusią versiją. Galite naudoti bandomąjį dokumentą be asmens duomenų — jo struktūra ir ilgis turi atitikti įprastą darbą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aprašykite, kaip atpažįstate vieną procesą: dokumento numeris, užsakymo įrašas ar kitas jūsų sistemos identifikatorius. Jis padės susieti pasirašytą failą su tuo pačiu darbu. Failo pavadinimas gali būti darbo eigos dalis, tačiau vien pavadinimas nepatvirtina dokumento turinio ar parašo tikrumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkite įrenginio ir programos kelią"
+        },
+        {
+          "type": "paragraph",
+          "text": "StepOver eSignatureOffice yra Windows programos kelias, o NG šeima turi atskirą dokumento perdavimo ir valdymo eigą. Kuris iš jų tinka, lemia jūsų darbo vieta ir naudojama sistema. Prieš diegiant reikia suderinti tikslų modelį, programą, versijas ir reikalingas licencijas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdžiui, darbuotojas gali iš esamos programos perduoti parengtą PDF pasirašymo programai. Kitame scenarijuje dokumentas perduodamas tinkamai parengtam NG įrenginiui. Tai dvi proceso schemos, ne universalios instrukcijos bet kuriam StepOver modeliui. Gamintojo dokumentacija ir konkretaus komplekto bandymas nustato tikslius veiksmus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirašantysis turi matyti tai, ką patvirtina"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patikrinkite, kur žmogus skaito dokumentą: atskirame monitoriuje ar planšetėje. Peržiūra turi apimti reikiamą tekstą ir priedus, o parašo laukas neturi slėpti svarbių sąlygų. Bandykite ilgą dokumentą, kelias parašo vietas ir atšaukimo veiksmą. Nereikėtų vertinti sėkmės vien pagal tai, kad ekrane atsirado parašo brūkšnys."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išsaugokite galutinį failą ir atverkite jį iš naujo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sutarkite, kas gauna užbaigtą dokumentą, kas prie jo turi prieigą ir kaip jis susiejamas su sistemos įrašu. Priėmimo metu failą atverkite iš tikros paskirties vietos, ne tik iš pasirašymo programos ar laikino aplanko. Patikrinkite, ar darbuotojas randa tinkamą versiją ir ar klientui skirtos kopijos perdavimas atitinka sutartą procesą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Archyvavimas, failo kopija ir parašo patikra sprendžia skirtingas užduotis. PDF atidarymas įrodo skaitomumą, o parašo ir dokumento vientisumo tikrinimas turi atitikti konkretaus sprendimo dokumentaciją. Prieigos bei duomenų saugojimo taisyklės nustatomos pagal organizacijos poreikį ir taikomus reikalavimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aštuoni bandymai prieš priimant procesą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įprastas dokumentas sėkmingai pasirašomas ir grąžinamas į sutartą vietą.",
+            "Ilgesnis dokumentas su priedu išlieka įskaitomas.",
+            "Keli parašo laukai užbaigiami teisinga sutarta tvarka.",
+            "Pasirašymo atšaukimas nepalieka dokumento pažymėto kaip sėkmingai užbaigto.",
+            "Atjungus įrenginį darbuotojas supranta būseną ir žino, kaip tęsti.",
+            "Pakartotas veiksmas nesukuria nevaldomų to paties proceso kopijų.",
+            "Galutinis failas atveriamas iš archyvo ir susiejamas su teisingu įrašu.",
+            "Tik leistiną prieigą turintys asmenys pasiekia dokumentą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada reikia papildomo vertinimo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Papildomai aptarkite kelių pasirašančiųjų eigą, nuotolinį pasirašymą, terminalinį serverį ir automatinį duomenų perdavimą. Parašo lygis priklauso nuo viso sprendimo; planšetė savaime nesuteikia QES. Šis proceso sąrašas padeda parengti bandymą, bet nepakeičia konkretaus dokumento teisinių reikalavimų vertinimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką aprašyti užklausoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašykite dokumento formatą, iš kurios programos jis gaunamas, darbo vietų skaičių ir galutinio failo paskirties vietą. Jei dar tik planuojate procesą, taip ir nurodykite. Pradėkite nuo programinės įrangos kelio, o gilesnę integraciją vertinkite turėdami aiškų dokumento maršrutą."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.124Z",
+      "media": [
+        {
+          "id": "c5530e22-0c75-46ad-8973-f71e1aac10a9",
+          "src": "/content-assets/parasoplansetes/c5530e22-0c75-46ad-8973-f71e1aac10a9.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "6e137c98-78e6-444b-8860-b5504b14fb5d",
+          "src": "/content-assets/parasoplansetes/6e137c98-78e6-444b-8860-b5504b14fb5d.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "75e95132-667d-4980-b523-122b07b45aa1",
+          "src": "/content-assets/parasoplansetes/75e95132-667d-4980-b523-122b07b45aa1.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "eaf7f497-2be7-42aa-8acc-4cfbf91b8635",
+          "src": "/content-assets/parasoplansetes/eaf7f497-2be7-42aa-8acc-4cfbf91b8635.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "f662199f-fc30-4532-97ac-2b732c88d5f6",
+          "src": "/content-assets/parasoplansetes/f662199f-fc30-4532-97ac-2b732c88d5f6.webp",
+          "alt": "Konceptinė dokumento sluoksnių ir parašo iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        },
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen technologija",
+          "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
+        },
+        {
+          "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/880312429/eSignature+FAQ",
+          "label": "Europos Komisija: elektroninio parašo lygiai",
+          "reason": "Peržiūrėta 2026-10-08: paprasto, pažangiojo ir kvalifikuoto parašo skirtumai; QES reikia kvalifikuoto sertifikato ir QSCD."
+        }
+      ],
+      "id": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+      "revisionHash": "400b8fb61926667d7bd78f4ba9b46ccc66d0f0056f65c7b0232e952b4cff930b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "400b8fb61926667d7bd78f4ba9b46ccc66d0f0056f65c7b0232e952b4cff930b",
+        "approvedAt": "2026-10-08T16:31:50.179Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "guide",
+      "slug": "gidai/paraso-plansetes-integracija",
+      "title": "Parašo planšetės integracija: ką paruošti IT komandai",
+      "description": "Dokumento, programų, darbo vietų ir archyvo klausimai. Kaip apibrėžti ribotą pilotą ir priėmimo bandymus.",
+      "intent": "Parengti integracijos reikalavimus ir atsakomybes prieš pasirenkant API ar diegimo apimtį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Integraciją pradėkite nuo dokumento kelio ir priėmimo kriterijų. API pasirinkimas turi spręsti jau aprašytą užduotį: iš kur gauti dokumentą, kaip pateikti jį žmogui ir kur grąžinti galutinį failą. Gamintojo sąsajų buvimas savaime nereiškia, kad konkretus įrenginys jau veikia jūsų ERP, CRM ar dokumentų valdymo sistemoje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nubraižykite tris ribas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įvestis: sistema parengia konkrečią dokumento versiją ir pasirašymo laukus.",
+            "Pasirašymas: darbuotojas ir pasirašantysis mato aiškią būseną bei tinkamą dokumentą.",
+            "Išvestis: galutinis failas grąžinamas, susiejamas su įrašu ir pasiekiamas pagal prieigas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kiekvienai ribai paskirkite atsakingą asmenį. Dokumento šabloną prižiūrintis darbuotojas, sistemos tiekėjas, IT administratorius ir verslo proceso savininkas gali būti skirtingi žmonės. Nei viena jų rolė neturėtų būti automatiškai priskiriama įrenginio pardavėjui vien dėl to, kad jis pateikia planšetę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atskirai aprašykite darbo vietą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite operacinę sistemą ir versiją, kur paleidžiama dokumentų programa bei kas turi įrenginio prijungimo teises. Įvertinkite, ar tai vietinis kompiuteris, terminalinis serveris, Citrix ar naršyklės programa. Tas pats darbuotojo ekranas dar nereiškia, kad programa vykdoma tame pačiame kompiuteryje kaip USB įrenginys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei planuojate tinklo kelią, iš anksto suderinkite įrenginio pasiekiamumą ir reikalingus priedus. Gamintojas NG modeliui nurodo papildomą tinklo prijungimo komplektą. Konkretaus modelio ir versijos galimybes reikia tikrinti atskirai; vien NG pavadinimas nesuteikia universalaus tinklo suderinamumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkite paprasčiausią pakankamą perdavimo kelią"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standartinės darbo vietos programos paleidimas gali būti pakankamas, kai dokumentą darbuotojas valdo pats. Automatinis perdavimas arba NG API kelias gali būti reikalingas, kai veiksmus valdo jūsų sistema. Gilios integracijos nereikia laikyti savaiminiu privalumu: ji turi aiškiai mažinti pasikartojantį darbą ir turėti palaikymo savininką."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: sandėlio sistema parengia perdavimo aktą, procesas jį perduoda sutartai pasirašymo aplinkai, o užbaigtas failas grįžta prie to paties išdavimo įrašo. Tai iliustracinė architektūra, ne įdiegtas mūsų projektas. Prieš programavimą verta išbandyti šį kelią rankiniu būdu su vienu bandomuoju dokumentu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sutarkite, kaip atpažįstate būseną ir klaidą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kada jūsų sistema gali laikyti dokumentą užbaigtu?",
+            "Kas nutinka žmogui atšaukus arba nebaigus pasirašyti?",
+            "Kaip atpažįstamas pakartotas perdavimas?",
+            "Kaip darbuotojas randa nutrūkusį procesą ir kokius veiksmus gali atlikti?",
+            "Kas tikrina išsaugoto failo ir sistemos įrašo atitikimą?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuos klausimus atsakykite prieš patvirtindami terminą ar kainą. Nereikėtų klaidos užmaskuoti kaip sėkmingo dokumento perdavimo. Sprendimo priėmimas turi apimti ne tik patogią demonstraciją, bet ir paprastą sutrikimo atvejį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duomenų prieigos yra projekto dalis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nustatykite, kam reikia matyti dokumento turinį, kas gali tikrinti parašą ir kas valdo archyvą. Jeigu procese naudojami parašo biometriniai duomenys, jų paskirtį ir tvarkymo reikalavimus įvertina atsakingi asmenys. Pradiniam techniniam aptarimui naudokite dokumentą be asmens duomenų — bandomasis failas gali išlaikyti tikrą laukų ir priedų struktūrą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Riboto piloto priėmimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Siūloma piloto apimtis: viena darbo vieta, vienas dokumento tipas ir vienas archyvo kelias. Užbaikite įprastą procesą, atverkite galutinį failą iš archyvo, pakartokite veiksmus po atšaukimo ir patikrinkite prieigas. Tikrinant kelių vietų plėtrą papildomai įvertinamos licencijos, tinklas, versijų priežiūra ir pagalbos atsakomybės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas parengimo sąrašas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sistemų ir jų versijų sąrašas, darbo vietos vykdymo aplinka.",
+            "Dokumento tipas, pasirašymo laukai ir galutinio failo paskirties vieta.",
+            "Tinklo bei prieigų apribojimai, sistemos tiekėjo techninis kontaktas.",
+            "Numatyta piloto apimtis ir konkretūs priėmimo bandymai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Integracijos užklausoje pakanka šios informacijos. Konfidencialių sutarčių ar parašo duomenų per bendrą formą nesiųskite. Įrangos, licencijų ir diegimo apimtis suderinama po techninio vertinimo."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.125Z",
+      "media": [
+        {
+          "id": "246323f5-171a-469b-b4fd-403870ef722f",
+          "src": "/content-assets/parasoplansetes/246323f5-171a-469b-b4fd-403870ef722f.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "1cb4dda2-1813-47a8-a3e7-ec77ea5a5a1c",
+          "src": "/content-assets/parasoplansetes/1cb4dda2-1813-47a8-a3e7-ec77ea5a5a1c.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "662e318a-d291-4e6b-8c3b-443b1b208b0b",
+          "src": "/content-assets/parasoplansetes/662e318a-d291-4e6b-8c3b-443b1b208b0b.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "2ff7618a-5d40-4b66-8a0d-ca762ee39754",
+          "src": "/content-assets/parasoplansetes/2ff7618a-5d40-4b66-8a0d-ca762ee39754.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        },
+        {
+          "id": "f7af355c-80e6-4126-8e08-d3f56c1ff603",
+          "src": "/content-assets/parasoplansetes/f7af355c-80e6-4126-8e08-d3f56c1ff603.webp",
+          "alt": "Konceptinė trijų dokumentų proceso dalių sujungimo iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto iliustracija, sukurta integruotu imagegen šiai svetainei. Ne realus klientas, įrenginys ar įdiegtas tinklas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "e522e382-e7f1-493d-9323-e3e5d2c5b705",
+          "label": "StepOver integracijos apimties vertinimas"
+        },
+        {
+          "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
+          "label": "Parašo planšetė terminaliniame serveryje: bandymo sąrašas"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/entwickler/",
+          "label": "StepOver kūrėjų įrankiai",
+          "reason": "Peržiūrėta 2026-10-08: integravimo portfelis ir jo ribos, konkreti kliento sistema nebandyta."
+        },
+        {
+          "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
+          "label": "StepOver nextGen technologija",
+          "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
+        },
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "56845903-0cbb-4648-85a5-3ee3356913ac",
+      "revisionHash": "bcfb8f5ce59af4071868955275bcd7dffa0591646cbbbd98eafe25e343a88ff8",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "bcfb8f5ce59af4071868955275bcd7dffa0591646cbbbd98eafe25e343a88ff8",
+        "approvedAt": "2026-10-08T16:31:50.189Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "guide",
+      "slug": "gidai/terminalinis-serveris-paraso-plansete",
+      "title": "Parašo planšetė terminaliniame serveryje: bandymo sąrašas",
+      "description": "Ką patikrinti, kai dokumentų programa ir USB įrenginys yra skirtingose darbo vietos pusėse. Sesijos, licencijos ir galutinis failas.",
+      "intent": "Parengti nuotolinio darbalaukio / terminal server piloto bandymą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Terminalinio serverio darbo vietą bandykite kaip atskirą aplinką. Dokumentų programa gali veikti serveryje, o planšetė būti prijungta prie darbuotojo kompiuterio. Vietiniame kompiuteryje sėkmingas parašas dar nepatvirtina, kad veiks visas nuotolinės sesijos dokumento kelias."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užrašykite, kur vyksta kiekvienas veiksmas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kur generuojamas PDF ir kur paleidžiama pasirašymo programa?",
+            "Prie kurio fizinio kompiuterio prijungtas įrenginys?",
+            "Kokiu būdu sesija pasiekia konkretų įrenginį?",
+            "Kur išsaugomas galutinis failas ir kas gali jį atverti?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Skirtingi dokumento ir programos laikini aplankai gali klaidinti: darbuotojas mato vieną aplinką, o procesas failą palieka kitoje. Paskirties vietą tikrinkite iš galutinio archyvo. Iš anksto įvardykite, kas prižiūri serverį ir kas valdo darbo vietos įrenginius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Licencijas ir modulius skaičiuokite pagal tikrą aplinką"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojas eSignatureOffice serverio bei Citrix aplinkoms aprašo papildomus komponentus ir licencijavimo sąlygas. Todėl vieno vietinio kompiuterio pasiūlymo negalima savaime dauginti iš darbuotojų skaičiaus. Techniniam vertinimui pateikite serverių, klientų ir tuo pat metu naudojamų darbo vietų informaciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikrinkite šešis sesijos atvejus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įprastas dokumentas pasirašomas tinkamoje darbuotojo sesijoje.",
+            "Du darbuotojai tuo pat metu negauna vienas kito dokumento ar įrenginio.",
+            "Užrakinus ar nutraukus sesiją, būsena nelieka klaidingai pažymėta kaip užbaigta.",
+            "Prisijungus iš naujo, darbuotojas supranta, ar tęsti procesą, ar pradėti naują.",
+            "Atjungus planšetę, dokumentas neperduodamas kaip sėkmingai pasirašytas.",
+            "Galutinis failas grįžta į reikiamą archyvą ir yra pasiekiamas pagal darbuotojo teises."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai siūlomas priėmimo sąrašas, ne instrukcija keisti organizacijos saugumo nustatymus. Tikslų prijungimo ir modulių kelią nustato naudojamo modelio bei programos dokumentacija ir atsakingas IT administratorius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pateikti techninei užklausai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodykite nuotolinio darbalaukio aplinką, programų versijas, įrenginio modelį, serverių bei darbo vietų skaičių ir norimą dokumento kelią. Pradiniam aptarimui pakanka struktūrinio aprašymo be klientų asmens duomenų. Platesnį diegimą pradėkite po riboto piloto."
+        }
+      ],
+      "publishAt": "2026-10-08T16:45:49.664Z",
+      "media": [
+        {
+          "id": "cb64f6da-31e1-4032-a004-bc7c68df0d45",
+          "src": "/content-assets/parasoplansetes/cb64f6da-31e1-4032-a004-bc7c68df0d45.webp",
+          "alt": "Konceptinė terminalinio serverio dokumentų kelio iliustracija",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projekto integracijos iliustracija, ta pati sąžiningai konceptinė vizualinė kalba. Atskira medijos šeima būsimam terminalinio serverio gidui; ne realus įdiegtas tinklas."
+        },
+        {
+          "id": "10d2c46c-4dd8-480c-b774-0a9abc3fed12",
+          "src": "/content-assets/parasoplansetes/10d2c46c-4dd8-480c-b774-0a9abc3fed12.webp",
+          "alt": "Konceptinė terminalinio serverio dokumentų kelio iliustracija",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projekto integracijos iliustracija, ta pati sąžiningai konceptinė vizualinė kalba. Atskira medijos šeima būsimam terminalinio serverio gidui; ne realus įdiegtas tinklas."
+        },
+        {
+          "id": "7ed6f893-4e38-4cd3-bda8-051a82245575",
+          "src": "/content-assets/parasoplansetes/7ed6f893-4e38-4cd3-bda8-051a82245575.webp",
+          "alt": "Konceptinė terminalinio serverio dokumentų kelio iliustracija",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projekto integracijos iliustracija, ta pati sąžiningai konceptinė vizualinė kalba. Atskira medijos šeima būsimam terminalinio serverio gidui; ne realus įdiegtas tinklas."
+        },
+        {
+          "id": "122d4817-a836-4b10-981f-c0ad27a79860",
+          "src": "/content-assets/parasoplansetes/122d4817-a836-4b10-981f-c0ad27a79860.webp",
+          "alt": "Konceptinė terminalinio serverio dokumentų kelio iliustracija",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projekto integracijos iliustracija, ta pati sąžiningai konceptinė vizualinė kalba. Atskira medijos šeima būsimam terminalinio serverio gidui; ne realus įdiegtas tinklas."
+        },
+        {
+          "id": "682659c4-ba4f-4ab1-bbf3-f224998447b3",
+          "src": "/content-assets/parasoplansetes/682659c4-ba4f-4ab1-bbf3-f224998447b3.webp",
+          "alt": "Konceptinė terminalinio serverio dokumentų kelio iliustracija",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projekto integracijos iliustracija, ta pati sąžiningai konceptinė vizualinė kalba. Atskira medijos šeima būsimam terminalinio serverio gidui; ne realus įdiegtas tinklas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
+          "label": "StepOver programinė įranga dokumentų pasirašymui"
+        },
+        {
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://stepover.com/produkte/software/esignatureoffice/",
+          "label": "StepOver eSignatureOffice",
+          "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
+        }
+      ],
+      "id": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
+      "revisionHash": "8fbd39d97f40d4c53972b51bd0c2743f318e2b742251cc420dee494eadc4ada5",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "8fbd39d97f40d4c53972b51bd0c2743f318e2b742251cc420dee494eadc4ada5",
+        "approvedAt": "2026-10-08T16:31:50.198Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "gidai",
+      "title": "Parašo planšečių pasirinkimo ir diegimo gidai",
+      "description": "Praktiniai atsakymai apie StepOver modelio pasirinkimą, PDF darbo eigą ir integracijos parengimą.",
+      "intent": "Rasti gido atsakymą pagal sprendžiamą dokumentų proceso klausimą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo klausimo, kurį sprendžiate dabar: kokio įrenginio reikia, kaip keliauja PDF ar ką paruošti techninei komandai. Gidai padeda parengti tikslesnį poreikį; konkretaus modelio ir sistemos suderinamumas tikrinamas atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo pasirinkimo iki bandymo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei procesas dar neaprašytas, rinkitės pasirinkimo gidą. Jeigu modelis jau žinomas, bet neaišku, kas vyksta su failu — skaitykite PDF darbo eigą. Integracijos gidas skirtas dokumentų ir sistemų riboms suderinti."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "Kaip pasirinkti parašo planšetę verslui"
+        },
+        {
+          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+          "label": "PDF pasirašymas parašo planšete: visas dokumento kelias"
+        },
+        {
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+        },
+        {
+          "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
+          "label": "Parašo planšetė terminaliniame serveryje: bandymo sąrašas"
+        }
+      ],
+      "id": "356f6a4a-c558-4825-adfb-96b96905a32e",
+      "revisionHash": "db69aadeebf819f0237f2e8a1c46fb91c207536f6c2b52b58d2749c5a2490cf4",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "db69aadeebf819f0237f2e8a1c46fb91c207536f6c2b52b58d2749c5a2490cf4",
+        "approvedAt": "2026-10-08T16:31:50.209Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "kontaktai",
+      "title": "Aptarkime jūsų pasirašymo procesą",
+      "description": "Pateikite dokumento tipą, darbo vietų skaičių ir naudojamą sistemą. Užklausa konkrečiam StepOver komplektui.",
+      "intent": "Pateikti realų StepOver įrangos / programos / integracijos poreikį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Aprašykite, kas ir kur pasirašo, kokį dokumentą naudojate bei iš kurios programos jis gaunamas. Jei modelio dar nepasirinkote, pakanka savo darbo eigos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia ši užklausa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užklausa nėra užsakymas, rezervacija ar patvirtinta kaina. Tinkamą įrenginio, licencijų, priedų ir diegimo apimtį reikia suderinti individualiai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rašykite apie procesą, ne siųskite sutartį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradiniam aptarimui nesiųskite asmens dokumentų, pasirašytų sutarčių, biometrinių parašo duomenų ar konfidencialios klientų informacijos. Pakanka dokumento tipo, darbo vietų skaičiaus ir techninio konteksto."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "bbc91dc1-e0f5-46b3-8fc9-279cf7e7c8bb",
+          "label": "Užklausų ir svetainės privatumo informacija"
+        },
+        {
+          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
+          "label": "StepOver parašo planšečių modeliai"
+        }
+      ],
+      "id": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+      "revisionHash": "cc126b1c5263c601c7e40598b701083f3acfb4883994236f09c8d228c7eeb2c4",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "cc126b1c5263c601c7e40598b701083f3acfb4883994236f09c8d228c7eeb2c4",
+        "approvedAt": "2026-10-08T16:31:50.222Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "apie-projekta",
+      "title": "Apie parasoplansetes.lt",
+      "description": "StepOver sprendimų paskirtis, svetainės operatorius ir aiškios pasiūlymo ribos.",
+      "intent": "Suprasti kas atsakingas už svetainę ir ką ji siūlo.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "parasoplansetes.lt skirta StepOver parašo planšetėms, programinės įrangos keliui ir konkretaus dokumentų proceso komplekto atrankai Lietuvoje. Poreikį vertiname bet kuriame sektoriuje, kuriame toks pasirašymo procesas gali būti tinkamas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Svetainės atsakomybė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainės operatorius ir turinio rengimo organizacija — MB Pinet. Kontaktas pateiktas šios svetainės kontaktų puslapyje ir poraštėje. StepOver yra įrangos gamintojas; svetainė nėra paties gamintojo portalas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką galite padaryti čia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite susipažinti su modeliais, peržiūrėti praktinius pasirinkimo bei diegimo gidus ir pateikti konkretaus komplekto užklausą. Atsargos, kaina, suderinamumas ir vykdymo sąlygos tikrinamos prieš individualų pasiūlymą. Svetainė neskelbia išskirtinio atstovavimo ar nepatvirtintų atliktų projektų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengiama informacija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modelių ir programų paaiškinimai rengiami pagal gamintojo dokumentaciją bei nurodytus šaltinius. Iliustraciniai procesai pažymėti kaip pavyzdžiai. Turinys nepakeičia konkretaus dokumento teisinių reikalavimų ar techninio komplekto bandymo."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "62ebfdac-b6e8-4fef-b591-f32b2bacd979",
+          "label": "MB Pinet: turinio rengimas ir peržiūra"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "id": "25f43486-e140-4fcf-b965-e457e47d8e20",
+      "revisionHash": "f55616213831668a3581fffeb2a1019909ab21953e5c46a0036ab646c6c7f40e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "f55616213831668a3581fffeb2a1019909ab21953e5c46a0036ab646c6c7f40e",
+        "approvedAt": "2026-10-08T16:31:50.234Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "redakcija",
+      "title": "MB Pinet: turinio rengimas ir peržiūra",
+      "description": "Kas rengia parasoplansetes.lt gidus, kaip tikrinami šaltiniai ir kaip pranešti apie klaidą.",
+      "intent": "Patikrinti organizacijos autorystę ir redakcinę atsakomybę.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "parasoplansetes.lt informacinį turinį rengia MB Pinet. Atsakomybė apima klausimų atranką, pirminių šaltinių patikrą, tekstų ir iliustracijų peržiūrą. Nenurodome išgalvotų asmeninių ekspertų, įrangos bandymų ar klientų projektų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šaltiniai ir peržiūra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniams teiginiams naudojama gamintojo dokumentacija, teisiniams skirtumams — oficialūs šaltiniai. Gido pabaigoje nurodomas šaltinis ir jo palaikomas teiginys. Bendras aprašymas nelaikomas konkrečios kliento sistemos suderinamumo įrodymu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Autorystė ir datos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tekstai rengiami su AI pagal nurodytus šaltinius ir peržiūrimi Codex agento prieš įtraukiant į turinį. Tai nėra žmogaus eksperto ar gamintojo patvirtinimas. Giduose matoma numatyto publikavimo ir turinio peržiūros data; vietinė peržiūra nėra ankstesnio viešo paleidimo įrodymas. Tikra pirmojo viešo paskelbimo data užfiksuojama paleidžiant domeną. Reikšmingai taisant teiginį atnaujinama peržiūros data; vien datos pakeitimas neįrodo naujo tyrimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vaizdų paskirtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Produktų nuotraukos rodo konkretų StepOver įrenginį ir turi gamintojo atribuciją. Konceptinės darbo eigos iliustracijos nevaizduoja tikro kliento ar mūsų įdiegtos sistemos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pranešimas apie klaidą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apie pastebėtą netikslumą rašykite svetainės kontaktiniu el. paštu, nurodydami puslapio adresą, teiginį ir galimą pirminį šaltinį. Esminį teiginį tikriname pagal jo konkretų modelį, versiją ir kontekstą. Neklausiame konfidencialių dokumentų ar parašo duomenų."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "356f6a4a-c558-4825-adfb-96b96905a32e",
+          "label": "Parašo planšečių pasirinkimo ir diegimo gidai"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "id": "62ebfdac-b6e8-4fef-b591-f32b2bacd979",
+      "revisionHash": "6272a5db0d8100259bf9290a3ab1f7f049f7fbe6ff2bd204b1f58150aaa070db",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6272a5db0d8100259bf9290a3ab1f7f049f7fbe6ff2bd204b1f58150aaa070db",
+        "approvedAt": "2026-10-08T16:31:50.244Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "naudojimo-salygos",
+      "title": "Informacijos ir užklausos naudojimo sąlygos",
+      "description": "Svetainės informacijos, modelių aprašymų ir užklausų ribos. Konkretaus komplekto sąlygos derinamos individualiai.",
+      "intent": "Suprasti informacinio pasiūlymo ir užklausos teisinę / praktinę paskirtį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Svetainė padeda pasirinkti StepOver pasirašymo sprendimo kryptį ir pateikti poreikio užklausą. Formos pateikimas nesudaro įrangos pirkimo, diegimo ar licencijos sutarties."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Individualus pasiūlymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kainą, mokėjimą, konkrečią komplektaciją, pristatymą, garantiją ir paslaugų apimtį reikia sutarti atskirame pasiūlyme. Modelio puslapis nėra atsargų ar nepatikrinto suderinamumo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacijos paskirtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai yra bendro pobūdžio informacija. Konkretaus dokumento reikalavimai, parašo lygis, duomenų tvarkymas ir techninis diegimas vertinami pagal jūsų situaciją. Gamintojo dokumentacija ir sutartos sąlygos turi būti tikrinamos pagal konkrečią versiją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Turinys ir ženklai"
+        },
+        {
+          "type": "paragraph",
+          "text": "StepOver pavadinimai ir įrenginių nuotraukos siejami su jų gamintoju. Svetainės iliustracijos neįrodo partnerystės, sertifikato ar atlikto projekto. Kitų gamintojų pasiūlymų nelaikykite tame pačiame modelio komplekte esančiais produktais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ryšys ir taisymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl informacijos ar užklausos rašykite kontaktų puslapyje pateiktu el. paštu. Nesiųskite per formą slaptų ar jautrių dokumentų. Asmens duomenų tvarkymas paaiškintas privatumo puslapyje."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "bbc91dc1-e0f5-46b3-8fc9-279cf7e7c8bb",
+          "label": "Užklausų ir svetainės privatumo informacija"
+        },
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        }
+      ],
+      "id": "e1fe5c9d-f69d-4b04-8131-ec57ff113fc0",
+      "revisionHash": "2fa0d4ba77dad4a6eaa22ce1990372b99af1638f281cb2b012e629cf3ddcae75",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2fa0d4ba77dad4a6eaa22ce1990372b99af1638f281cb2b012e629cf3ddcae75",
+        "approvedAt": "2026-10-08T16:31:50.256Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    },
+    {
+      "siteId": "parasoplansetes",
+      "type": "service",
+      "slug": "privatumas",
+      "title": "Užklausų ir svetainės privatumo informacija",
+      "description": "Kokie duomenys pateikiami užklausos formoje, kam jie naudojami ir kaip kreiptis dėl savo duomenų.",
+      "intent": "Suprasti dabartinės užklausos formos duomenų paskirtį ir kontaktą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Svetainės operatorius — MB Pinet. Dėl užklausos ar savo duomenų kreipkitės šios svetainės kontaktiniu el. paštu, pateiktu kontaktų puslapyje ir poraštėje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užklausos duomenys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forma prašo vardo, el. pašto ir žinutės. Užklausos įraše taip pat išsaugomas pateikimo laikas, sutikimo laikas, puslapio kelias ir apdorojimo būsena. Šie duomenys naudojami jūsų poreikiui aptarti ir atsakyti; šia forma rinkodaros prenumerata nekuriama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asmens dokumentų, pasirašytų sutarčių, biometrinių parašo duomenų, sveikatos ar kitų jautrių duomenų nesiųskite. Pirminiam aptarimui pakanka proceso aprašymo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išsaugojimas ir atsakymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikta žinutė išsaugoma užklausų sistemoje. Techninė saugykla šiame sprendime — Cloudflare D1; kai veikia pranešimas operatoriui, laiškas perduodamas jo pašto paslaugai. Žinutės išsaugojimas ir el. laiško perdavimas yra atskiri veiksmai; jų būsena paaiškinama po pateikimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinėje peržiūroje bandymo įrašas išsaugomas tik šiame kompiuteryje, tikras el. laiškas neišsiunčiamas. Ši peržiūra nėra viešo domeno veikimo ar gamybinių duomenų tvarkymo patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duomenų saugojimo apimtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinės peržiūros duomenys yra sintetiniai testavimo įrašai izoliuotoje šio kompiuterio duomenų bazėje. Ji nesiunčia įrašų į nuotolinę D1 ar pašto sistemą. Viešai renkant tikras užklausas turi būti patvirtintas jų tvarkymo pagrindas, faktiniai duomenų tvarkytojai, perdavimai, saugojimo terminas ir prašymų vykdymo procesas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenys turi būti tvarkomi tik užklausai ir su ja susijusiems sutartiems veiksmams. Konkretaus viešo paleidimo saugojimo terminas, pašto teikėjas ir duomenų pašalinimo procedūra turi atitikti faktinį operatoriaus procesą. Šioje vietinėje peržiūroje tie gamybiniai nustatymai dar neaktyvuoti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų prašymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl prieigos, netikslumų taisymo, ištrynimo ar kitų taikomų duomenų teisių rašykite operatoriui. Nurodykite, kada ir kokiu el. paštu pateikėte užklausą; nepridėkite perteklinių asmens dokumentų. Galite kreiptis ir į Valstybinę duomenų apsaugos inspekciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Matavimas ir slapukai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainė skaičiuoja bendrą puslapio peržiūrų, el. pašto ir telefono nuorodų paspaudimų skaičių pagal dieną bei puslapį. Šiems skaitikliams nenaudojami slapukai ar lankytojo identifikatorius; juose nėra formos žinutės ar el. pašto. Skaitikliai gerbia naršyklės DNT / GPC signalus ir atmeta atpažintus robotus bei laboratorinius bandymus. Paspaudimas nėra gauta užklausa ar unikalus žmogus. Reklamos ir trečiųjų šalių analitika bei balsiniai pokalbiai neįjungti. Techninis HTTP aptarnavimas gali apdoroti ryšio duomenis."
+        }
+      ],
+      "publishAt": "2026-10-08T16:03:32.126Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
+          "label": "Aptarkime jūsų pasirašymo procesą"
+        },
+        {
+          "targetPageId": "e1fe5c9d-f69d-4b04-8131-ec57ff113fc0",
+          "label": "Informacijos ir užklausos naudojimo sąlygos"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en",
+          "label": "Europos Komisija: duomenų apsaugos teisės",
+          "reason": "2026-10-08 tikrinta oficiali informacija apie teisę gauti informaciją, prieigą, taisymą ir kitas taikomas teises. Tai nepakeičia konkretaus viešo paleidimo politikos patvirtinimo."
+        }
+      ],
+      "id": "bbc91dc1-e0f5-46b3-8fc9-279cf7e7c8bb",
+      "revisionHash": "4f14773201727fb0c48c2b348979284021b5b2c8059cb918953316a6f5b1d979",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "4f14773201727fb0c48c2b348979284021b5b2c8059cb918953316a6f5b1d979",
+        "approvedAt": "2026-10-08T16:31:50.267Z",
+        "actorId": "Codex / source-checked local preparation"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-08T16:31:50.311Z"
+}

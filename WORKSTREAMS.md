@@ -1,0 +1,3 @@
+# Active workstreams
+
+2026-10-08 — codex/parasoplansetes-public-20261008. Private coordination: https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/issues/44. Own adjacent private core at f743b1cbcb09418d733fbe3c72b6968d65a72259; public base e578426610f067fd7a4db3574f754b8d06ef5426. Scope: parasoplansetes renderer/CSS, small router and brand-icon branches, owner-confirmed domain registration, own approved package/assets. Local-only D1 test config is ignored; no production binding or deployment. Local configuration ignore line is included to prevent accidental publication of runtime settings. Shared publication predicates, schemas and lead backend stay authoritative.
