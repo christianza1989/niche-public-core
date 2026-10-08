@@ -1,5 +1,7 @@
 # Agentų kalibravimo startas
 
+Numatytas užsakyto verslo pokalbių agento rezultatas: tikras svetainės balso skambutis, kontaktų popup/save ir konteksto tęstinumas, postcall analizė, reviewed profesionalus email ir kliento reply tęsinys. Įgyvendinti reikalingą kodą / integraciją ir įrodyti actual kanalus pagal companion create-and-calibrate; vien promptas/tekstinis lab nėra live priėmimas. Aiškiai siauresnis pavedimas ir esama operacijų/prieigų/išlaidų autorizacija lieka pagrindinės.
+
 Aiškus pavedimas sukurti verslui pokalbių agentą apima ir iš karto autonominį jo kalibravimą. Naudoti companion `SKILLS/business-agent-calibration/references/create-and-calibrate.md`; nelaukti papildomo kalibravimo prašymo ir nesustoti ties profiliu/promptu/widget. Tikros kanalų patikros ir private konfigūracija vertinamos pagal actual sutartį bei autorizaciją.
 
 Naują BUSINESS ar reikšmingą plėtrą planuoti pagal [CORE_UPGRADES](docs/CORE_UPGRADES.md): companion niche-business-tools parenka dabartinius ir ateities įrankius visam mokamam rezultatui, ne vien SEO/GEO. Kiekvienas agentas gali pats atlikti pagrįstas scoped core / skill pataisas, dokumentuoja bendrame companion upgrade žurnale ir nereikalingus failus saugiai karantinuoja pagal canonical helperį. Šiame viešame repo nekopijuoti privačių įrašų, raw duomenų, įrankių credentials ar core taisyklių kopijų.

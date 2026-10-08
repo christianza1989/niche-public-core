@@ -1,5 +1,7 @@
 # Verslo agentų kalibravimas per bendrą core
 
+Savininkas numatytai užsako visą svetainės skambutis → kontaktas → final transcript/analizė → profesionalus reviewed email → kliento reply kelią. Actual browser/audio/worker/inbox/thread patikros būtinos; trūkstama realizacija taisoma autonomiškai, neišjungiama vien NA statusu. Tiekėjai/quote/antkainis/PDF tik pagal nišos tikrą modelį ir mandatą.
+
 **Sukurk = prijunk + iš karto kalibruok.** Savininko agento sukūrimo pavedimui taikyti companion [create-and-calibrate](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/blob/main/SKILLS/business-agent-calibration/references/create-and-calibrate.md). Nišos profilis / žinios / tools, skirtingi klientų archetipai, actual baseline, priežasčių pataisos, regresijos ir apsaugoti nematyti atvejai, mokymosi sprendimas / adoption / rollback, užsakytų kanalų patikra ir report yra vieno pavedimo dalys. Naujo nepriklausomo core nekuriama.
 
 Visų PC / Codex sesijų aktualumas: [CODEX_GIT_WORKFLOW](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/blob/main/docs/CODEX_GIT_WORKFLOW.md). Core bootstrap diegiamas vieną kartą kiekviename PC; start / continue / handoff gate pats fetch ir atmeta pasenusią bazę. Iš gretimų clone šio repo kataloge: `node ../nisiniai_puslapiai_monetizavimui/scripts/git-freshness.mjs --repo . --companion ../nisiniai_puslapiai_monetizavimui --phase start`. Tai ne kito agento failų auto-pull ir ne aktyvios sesijos instrukcijų hot reload.
