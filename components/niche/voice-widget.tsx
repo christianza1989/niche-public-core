@@ -7,6 +7,8 @@ import s from "./voice-widget.module.css";
 type Session = { conversation_id: string; session_token: string; livekit_url?: string; room_token?: string };
 type UI = { id: string; state: string };
 
+class ConversationRequestError extends Error {}
+
 function parseUI(value: unknown): UI | null {
   if (!value || typeof value !== "object" || !("id" in value) || !("state" in value)
     || typeof value.id !== "string" || typeof value.state !== "string") return null;
@@ -56,7 +58,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       ...(method === "POST" ? { body: JSON.stringify({ ...body, conversation_id: active?.conversation_id }) } : {}) });
     if (!response.ok) {
       console.warn(JSON.stringify({ event: "conversation_request_failed", action, status: response.status }));
-      throw new Error("Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma.");
+      throw new ConversationRequestError("Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma.");
     }
     const data: unknown = await response.json();
     if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Neteisingas serverio atsakymas.");
@@ -188,7 +190,12 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       const nextUI = parseUI(receipt.ui);
       if (nextUI?.state === "requested") { setUI(nextUI); setContactOpen(true); }
       pendingMessage.current = null; setText(""); setChatFailed(false);
-    } catch { setChatFailed(true); setMessage("Atsakymo gauti nepavyko. Galite pakartoti tą pačią žinutę arba pradėti naują pokalbį."); }
+    } catch (error) {
+      const rejected = error instanceof ConversationRequestError;
+      setChatFailed(rejected);
+      setMessage(rejected ? "Atsakymo gauti nepavyko. Pradėkite naują pokalbį arba pateikite užklausą forma."
+        : "Ryšys nutrūko. Galite dar kartą išsiųsti tą pačią žinutę.");
+    }
     finally { setBusy(false); }
   }
 
@@ -249,8 +256,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     </div>}
     {state === "active" && channel === "chat" && <form className={s.composer} onSubmit={sendMessage} aria-label="Parašyti konsultantui">
       <label htmlFor="chat-message">Jūsų žinutė</label>
-      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy} rows={3} onChange={e => setText(e.target.value)} placeholder="Aprašykite dokumentą, darbo vietas ar užduokite klausimą…" />
-      <button type="submit" disabled={busy || !text.trim()}>{busy ? "Konsultantas atsako…" : "Siųsti žinutę"}</button>
+      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy || chatFailed} rows={3} onChange={e => setText(e.target.value)} placeholder="Aprašykite dokumentą, darbo vietas ar užduokite klausimą…" />
+      <button type="submit" disabled={busy || chatFailed || !text.trim()}>{busy ? "Konsultantas atsako…" : "Siųsti žinutę"}</button>
     </form>}
     {state === "active" && <div className={s.actions}>
       {channel === "voice" && soundBlocked && <button onClick={() => void room.current?.startAudio()}>Įjungti garsą</button>}

@@ -2,7 +2,7 @@ import { env } from "cloudflare:workers";
 import { publicNichePages, type NichePackage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 
-function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET" | "VOICE_SITE_IDS" | "CHAT_WIDGET_ENABLED" | "CHAT_SITE_IDS") {
+function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET" | "VOICE_SITE_IDS" | "VOICE_PILOT_SITE_IDS" | "CHAT_WIDGET_ENABLED" | "CHAT_SITE_IDS") {
   return env[key] || process.env[key] || "";
 }
 
@@ -83,8 +83,9 @@ export async function voiceCoreRequest(pkg: NichePackage, action: string, body: 
       return Response.json({ error: "invalid_request_id" }, { status: 400 });
     }
     if (body.remember !== undefined && typeof body.remember !== "boolean") return Response.json({ error: "invalid_memory_choice" }, { status: 400 });
+    const pilot = setting("VOICE_PILOT_SITE_IDS").split(",").map(x => x.trim()).includes(pkg.siteId);
     payload = { request_id: body.request_id, knowledge: await manifest(pkg), notice_version: "voice-local-v2",
-      consent: true, mode: body.mode === "chat" ? "chat" : "voice", remember: body.remember === true, memory_token: memoryToken || null };
+      consent: true, mode: body.mode === "chat" ? "chat" : pilot ? "voice_pilot" : "voice", remember: body.remember === true, memory_token: memoryToken || null };
   } else if (action === "zinute") {
     payload = { request_id: body.request_id, text: body.text };
   } else if (action === "kontaktas") {
