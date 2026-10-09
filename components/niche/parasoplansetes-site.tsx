@@ -7,6 +7,8 @@ import { imageSrcSet, visibleImageCredit } from "@/lib/niche-media.mjs";
 import { LinkedText } from "./linked-text";
 import { ArticleMeta } from "./article-meta";
 import { InterestTracking } from "./interest-tracking";
+import { VoiceWidget } from "./voice-widget";
+import { voiceWidgetEnabled } from "@/lib/niche-voice";
 import styles from "./parasoplansetes-site.module.css";
 
 type Props = { pkg: NichePackage; page: NichePage; livePages: NichePage[] };
@@ -88,6 +90,7 @@ export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
         {page.slug === "kontaktai" || isCatalog ? <Inquiry pkg={pkg} /> : <div className={styles.nextAction}><p>Reikia komplekto jūsų dokumentams?</p><a className={styles.primary} href="/kontaktai">Aptarti sprendimą ↗</a></div>}
       </>}
     </main>
+    {voiceWidgetEnabled(pkg) && <VoiceWidget title="StepOver AI konsultantas" />}
     <footer className={styles.footer}><div><Brand /><p>{nicheNetworkContact(pkg.siteId).operatorName}</p><a href={`mailto:${pkg.site.contact.email}`}>{pkg.site.contact.email}</a></div><nav aria-label="Papildoma navigacija">{livePages.filter(p => ["gidai", "kontaktai", "apie-projekta", "redakcija", "privatumas", "naudojimo-salygos"].includes(p.slug)).map(p => <a key={p.id} href={nichePagePath(p)}>{p.title}</a>)}</nav><p className={styles.attribution}>Mūsų verslas automatizuotas su <a href="https://verslomatika.lt/" rel="noopener noreferrer">verslomatika.lt</a></p></footer>
   </div>;
 }

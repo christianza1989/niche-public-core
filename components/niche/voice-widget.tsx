@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import type { Room } from "livekit-client";
+import { waitForVoiceAgent } from "@/lib/voice-connection";
 import s from "./voice-widget.module.css";
 
 type Session = { conversation_id: string; session_token: string; livekit_url: string; room_token: string };
@@ -22,11 +23,12 @@ function parseSession(value: Record<string, unknown>): Session {
   return { conversation_id, session_token, livekit_url, room_token };
 }
 
-export function VoiceWidget() {
+export function VoiceWidget({ title = "Padangų AI konsultantas" }: { title?: string } = {}) {
   const [open, setOpen] = useState(false), [state, setState] = useState("ready");
   const [contactOpen, setContactOpen] = useState(false), [email, setEmail] = useState("");
   const [phone, setPhone] = useState(""), [contactChannel, setContactChannel] = useState<"email" | "phone">("email");
   const [message, setMessage] = useState(""), [muted, setMuted] = useState(false);
+  const [soundBlocked, setSoundBlocked] = useState(false);
   const [ui, setUI] = useState<UI | null>(null), [busy, setBusy] = useState(false);
   const [hasSession, setHasSession] = useState(false);
   const [remember, setRemember] = useState(false), [recognized, setRecognized] = useState(false);
@@ -112,13 +114,19 @@ export function VoiceWidget() {
   async function start() {
     if (busy) return;
     setBusy(true); setState("connecting"); setMessage("");
+    let microphone: MediaStream | null = null;
+    let starting = true;
     try {
+      if (!navigator.mediaDevices?.getUserMedia) throw new Error("Balso pokalbiui reikia saugaus HTTPS ryšio ir naršyklės su mikrofono palaikymu.");
+      // Obtain permission before allocating a provider session or dispatching an agent.
+      microphone = await navigator.mediaDevices.getUserMedia({ audio: true });
       sdk.current ||= import("livekit-client");
-      const { Room, RoomEvent, Track } = await sdk.current;
+      const { Room, RoomEvent, Track, LocalAudioTrack } = await sdk.current;
       const nextRoom = new Room(); room.current = nextRoom;
+      nextRoom.on(RoomEvent.AudioPlaybackStatusChanged, () => setSoundBlocked(!nextRoom.canPlaybackAudio));
       nextRoom.on(RoomEvent.TrackSubscribed, track => { if (track.kind === Track.Kind.Audio) audioElements.current?.appendChild(track.attach()); });
       nextRoom.on(RoomEvent.TrackUnsubscribed, track => track.detach().forEach(element => element.remove()));
-      nextRoom.on(RoomEvent.Disconnected, () => { if (mounted.current && room.current === nextRoom) {
+      nextRoom.on(RoomEvent.Disconnected, () => { if (!starting && mounted.current && room.current === nextRoom) {
         setState("ended"); setContactOpen(true);
         if (session.current) void request("baigti").catch(() => {});
       } });
@@ -129,13 +137,19 @@ export function VoiceWidget() {
       if (remember) setRecognized(true);
       setHasSession(true);
       await nextRoom.connect(created.livekit_url, created.room_token);
-      await nextRoom.localParticipant.setMicrophoneEnabled(true);
+      await waitForVoiceAgent(nextRoom, RoomEvent);
+      await nextRoom.localParticipant.publishTrack(new LocalAudioTrack(microphone.getAudioTracks()[0]), { source: Track.Source.Microphone });
+      microphone = null; // The room now owns this track and releases it on disconnect.
+      setMuted(false);
       setState("active");
     } catch (error) {
       if (session.current) { try { await request("baigti"); } catch { /* expiry reaper closes the slot */ } }
       await room.current?.disconnect();
-      setState("failed"); setMessage(error instanceof Error ? error.message : "Nepavyko prisijungti.");
-    } finally { setBusy(false); }
+      setState("failed"); setMessage(error instanceof DOMException && ["NotAllowedError", "SecurityError"].includes(error.name)
+        ? "Leiskite naršyklei naudoti mikrofoną ir bandykite dar kartą."
+        : error instanceof DOMException && error.name === "NotFoundError" ? "Mikrofonas nerastas. Prijunkite jį ir bandykite dar kartą."
+        : error instanceof Error ? error.message : "Nepavyko prisijungti.");
+    } finally { starting = false; microphone?.getTracks().forEach(track => track.stop()); setBusy(false); }
   }
 
   async function end() {
@@ -151,7 +165,7 @@ export function VoiceWidget() {
       consent: true, base_revision: contactRevisions.current[contactChannel] });
       if (typeof receipt.revision === "number") contactRevisions.current[contactChannel] = receipt.revision;
       setMessage(contactChannel === "email" ? "El. paštas išsaugotas. Atsakymo pristatymas dar tikrinamas."
-        : "Telefono numeris išsaugotas. Automatinis atsakymas telefonu dar neprieinamas; atsakymui galite palikti el. paštą."); setContactOpen(false);
+        : "Telefono numeris išsaugotas."); setContactOpen(false);
     } catch (error) { setMessage(error instanceof Error ? error.message : "Kontakto išsaugoti nepavyko."); }
     finally { setBusy(false); }
   }
@@ -175,7 +189,7 @@ export function VoiceWidget() {
     if (event.key === "Escape" && !["active", "connecting"].includes(state)) setOpen(false);
   }}>
     <div ref={audioElements} hidden />
-    <div className={s.heading}><strong>Padangų AI konsultantas</strong><button ref={closer} aria-label="Uždaryti" disabled={state === "active" || state === "connecting"} onClick={() => setOpen(false)}>×</button></div>
+    <div className={s.heading}><strong>{title}</strong><button ref={closer} aria-label="Uždaryti" disabled={state === "active" || state === "connecting"} onClick={() => setOpen(false)}>×</button></div>
     <p>Kalbėsite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai. <a href="/privatumas">Privatumas</a></p>
     <p role="status">{state === "active" ? "Pokalbis vyksta" : state === "connecting" ? "Jungiamasi…" : state === "ended" ? "Pokalbis baigtas" : "Pokalbis nepradėtas"}</p>
     {state === "ready" && <>
@@ -187,6 +201,7 @@ export function VoiceWidget() {
     </>}
     {state === "ready" && <button onClick={() => void start()} disabled={busy}>{recognized ? "Sutinku ir tęsiu pokalbį" : "Sutinku ir pradedu pokalbį"}</button>}
     {state === "active" && <div className={s.actions}>
+      {soundBlocked && <button onClick={() => void room.current?.startAudio()}>Įjungti garsą</button>}
       <button onClick={() => { void room.current?.localParticipant.setMicrophoneEnabled(muted); setMuted(!muted); }}>{muted ? "Įjungti mikrofoną" : "Nutildyti"}</button>
       <button onClick={() => setContactOpen(true)}>Palikti kontaktą</button><button onClick={() => void end()} disabled={busy}>Baigti</button>
     </div>}
@@ -201,7 +216,7 @@ export function VoiceWidget() {
       <input ref={input} id="voice-contact" type={contactChannel === "email" ? "email" : "tel"}
         autoComplete={contactChannel === "email" ? "email" : "tel"} maxLength={contactChannel === "email" ? 254 : 25}
         required value={contactChannel === "email" ? email : phone} onChange={e => contactChannel === "email" ? setEmail(e.target.value) : setPhone(e.target.value)} />
-      <p>Naudosime tik šio pokalbio užklausai. Automatinį atsakymą šiuo metu galime pateikti el. paštu; tęsinys telefonu dar neprieinamas.</p>
+      <p>Naudosime tik šio pokalbio užklausai. El. paštą naudosime prašytam atsakymui. Paliktas telefono numeris nesukuria automatinio skambučio ar SMS.</p>
       <button disabled={busy} type="submit">Išsaugoti kontaktą</button>
       <button type="button" onClick={() => { setContactOpen(false); if (ui) void request("ui", { request_id: ui.id, state: "dismissed" }).catch(() => {}); }}>Praleisti</button>
     </form>}

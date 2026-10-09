@@ -2,12 +2,13 @@ import { env } from "cloudflare:workers";
 import { publicNichePages, type NichePackage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 
-function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET") {
+function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET" | "VOICE_SITE_IDS") {
   return env[key] || process.env[key] || "";
 }
 
 export function voiceWidgetEnabled(pkg: NichePackage) {
-  return pkg.siteId === "traktoriupadangos" && setting("VOICE_WIDGET_ENABLED") === "1";
+  const admitted = (setting("VOICE_SITE_IDS") || "traktoriupadangos").split(",").map(site => site.trim());
+  return admitted.includes(pkg.siteId) && setting("VOICE_WIDGET_ENABLED") === "1";
 }
 
 async function sha(value: string) {
