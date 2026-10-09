@@ -1,0 +1,22 @@
+{
+  "family": "Manrope",
+  "license": "SIL Open Font License 1.1",
+  "reusedAt": "2026-10-10",
+  "reusedFrom": "public/fonts/traktoriupadangos",
+  "retrievedAt": "2026-09-30T08:58:24.767Z",
+  "cssUrl": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap",
+  "files": [
+    {
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSuXd.woff2",
+      "filename": "manrope-latin-ext.woff2",
+      "bytes": 15120,
+      "sha256": "3911b66d9f2e005a4b989223405d0e5032619c668597ba467cc76a23c8fffcfb"
+    },
+    {
+      "source": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+      "filename": "manrope-latin.woff2",
+      "bytes": 24836,
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+    }
+  ]
+}
