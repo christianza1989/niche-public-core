@@ -2,12 +2,15 @@
 import { useEffect, useRef, useState } from "react";
 import type { Room } from "livekit-client";
 import { waitForVoiceAgent } from "@/lib/voice-connection";
+import { chatExpiry, clearChat, readChat, saveChat, type ChatLine } from "@/lib/chat-session";
 import s from "./voice-widget.module.css";
 
 type Session = { conversation_id: string; session_token: string; livekit_url?: string; room_token?: string };
 type UI = { id: string; state: string };
 
-class ConversationRequestError extends Error {}
+class ConversationRequestError extends Error {
+  constructor(message: string, readonly status: number) { super(message); }
+}
 
 function parseUI(value: unknown): UI | null {
   if (!value || typeof value !== "object" || !("id" in value) || !("state" in value)
@@ -36,7 +39,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   const [hasSession, setHasSession] = useState(false);
   const [remember, setRemember] = useState(false), [recognized, setRecognized] = useState(false);
   const [channel, setChannel] = useState<"voice" | "chat">("chat"), [text, setText] = useState("");
-  const [lines, setLines] = useState<Array<{ id: string; speaker: "client" | "agent"; text: string }>>([]);
+  const [lines, setLines] = useState<ChatLine[]>([]);
+  const expiresAt = useRef(0);
   const pendingMessage = useRef<{ id: string; text: string } | null>(null);
   const chatLog = useRef<HTMLDivElement>(null);
   const room = useRef<Room | null>(null), session = useRef<Session | null>(null);
@@ -58,7 +62,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       ...(method === "POST" ? { body: JSON.stringify({ ...body, conversation_id: active?.conversation_id }) } : {}) });
     if (!response.ok) {
       console.warn(JSON.stringify({ event: "conversation_request_failed", action, status: response.status }));
-      throw new ConversationRequestError("Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma.");
+      throw new ConversationRequestError("Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma.", response.status);
     }
     const data: unknown = await response.json();
     if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Neteisingas serverio atsakymas.");
@@ -66,6 +70,45 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   }
 
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; void room.current?.disconnect(); }; }, []);
+  useEffect(() => {
+    if (!chatAvailable) return;
+    let cancelled = false;
+    let checkpoint;
+    try { checkpoint = readChat(window.sessionStorage, window.location.host); } catch { return; }
+    if (!checkpoint) return;
+    const saved = checkpoint;
+    session.current = saved.session;
+    setBusy(true); setState("connecting"); setOpen(saved.open);
+    void request("busena", {}, "GET").then(result => {
+      if (cancelled) return;
+      if (!["created", "active"].includes(String(result.state))) {
+        clearChat(window.sessionStorage, window.location.host); session.current = null; setState("ready"); return;
+      }
+      expiresAt.current = saved.expiresAt;
+      contactRevisions.current = saved.contactRevisions;
+      if (Array.isArray(result.contacts)) for (const contact of result.contacts) {
+        if (contact && (contact.channel === "email" || contact.channel === "phone") && Number.isInteger(contact.revision)) {
+          contactRevisions.current[contact.channel as "email" | "phone"] = contact.revision;
+        }
+      }
+      pendingMessage.current = saved.pending;
+      setLines(saved.lines); setText(saved.pending?.text || ""); setHasSession(true); setChannel("chat"); setState("active");
+      const nextUI = parseUI(result.ui);
+      if (nextUI?.state === "requested") { setUI(nextUI); setContactOpen(true); }
+    }).catch(error => {
+      if (cancelled) return;
+      session.current = null; setState("ready");
+      if (error instanceof ConversationRequestError && [401, 403, 404, 409, 410].includes(error.status)) clearChat(window.sessionStorage, window.location.host);
+      setMessage("Pokalbio tęsti nepavyko. Galite pradėti naują pokalbį arba pateikti užklausą forma.");
+    }).finally(() => { if (!cancelled) setBusy(false); });
+    return () => { cancelled = true; };
+  }, [chatAvailable]);
+
+  useEffect(() => {
+    if (channel !== "chat" || state !== "active" || !session.current || !expiresAt.current) return;
+    try { saveChat(window.sessionStorage, window.location.host, { version: 1, expiresAt: expiresAt.current,
+      session: session.current, open, lines, pending: pendingMessage.current, contactRevisions: contactRevisions.current }); } catch { /* Storage optional. */ }
+  }, [channel, state, open, lines, busy, message]);
   useEffect(() => {
     if (open) {
       closer.current?.focus();
@@ -99,11 +142,13 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
         }
       }
       if (nextUI?.state === "requested") { setUI(nextUI); setContactOpen(true); }
-      if (result.state === "finalized" && state === "active") { void room.current?.disconnect(); setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); }
+      if (result.state === "finalized" && state === "active") { void room.current?.disconnect();
+        if (channel === "chat") try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+        setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); }
     }).catch(() => setMessage("Ryšio būsena laikinai nepasiekiama.")); }, state === "active" ? 750 : 3000);
     return () => clearInterval(timer);
   // Session is held privately in a ref; state owns this poller's lifecycle.
-  }, [state]);
+  }, [state, channel]);
 
   useEffect(() => {
     if (state !== "active") return;
@@ -170,6 +215,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       const created = await request("sesija", { consent: true, remember, mode: "chat", request_id: startRequest.current });
       if (typeof created.conversation_id !== "string" || typeof created.session_token !== "string") throw new Error("Nepavyko pradėti pokalbio.");
       session.current = { conversation_id: created.conversation_id, session_token: created.session_token };
+      expiresAt.current = chatExpiry();
       setHasSession(true); setState("active"); if (remember) setRecognized(true);
       setLines([{ id: "welcome", speaker: "agent", text: "Sveiki, esu virtualus AI konsultantas. Aprašykite savo poreikį arba užduokite klausimą." }]);
     } catch (error) { setState("failed"); setMessage(error instanceof Error ? error.message : "Nepavyko pradėti pokalbio."); }
@@ -203,6 +249,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     setBusy(true);
     try { if (session.current) await request("baigti"); }
     catch { setMessage("Pokalbio pabaigą serveris sutikrins atkūręs ryšį."); }
+    if (channel === "chat") try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+    expiresAt.current = 0;
     await room.current?.disconnect(); setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); setBusy(false);
   }
 
@@ -218,6 +266,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   }
 
   function resetCall() {
+    try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+    expiresAt.current = 0;
     session.current = null; startRequest.current = null; room.current = null;
     contactRevisions.current = {};
     pendingMessage.current = null; setLines([]); setText(""); setChatFailed(false);
@@ -239,6 +289,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     <div ref={audioElements} hidden />
     <div className={s.heading}><strong>{title}</strong><button ref={closer} aria-label="Uždaryti" disabled={channel === "voice" && (state === "active" || state === "connecting")} onClick={() => setOpen(false)}>×</button></div>
     <p>Bendrausite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai. <a href="/privatumas">Privatumas</a></p>
+    {chatAvailable && <p>Pokalbį šiame skirtuke galite tęsti pereidami į kitą svetainės puslapį iki 30 minučių. Ilgesnė atmintis pasirenkama atskirai.</p>}
     <p role="status">{state === "active" ? "Pokalbis vyksta" : state === "connecting" ? "Jungiamasi…" : state === "ended" ? "Pokalbis baigtas" : "Pokalbis nepradėtas"}</p>
     {state === "ready" && <>
       <label className={s.memoryChoice}><input type="checkbox" checked={remember} disabled={busy} onChange={e => {
