@@ -28,6 +28,7 @@ export type NichePage = {
   description: string;
   intent: string;
   body: NicheBlock[];
+  bodyProjection?: 'canonical';
   publishAt: string;
   revisionHash: string;
   approval: { status: "approved"; revisionHash: string; approvedAt: string; actorId: string };

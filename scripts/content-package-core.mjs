@@ -44,6 +44,7 @@ export function pageRevisionHash(page) {
     description: page.description,
     intent: page.intent,
     body: page.body,
+    ...(page.bodyProjection !== undefined ? {bodyProjection:page.bodyProjection} : {}),
     publishAt: page.publishAt,
     media: page.media,
     links: page.links,
@@ -93,6 +94,7 @@ export function validateContentPackage(pkg) {
     if (!PAGE_SLUG.test(slug) || slug.startsWith("niche/") || slug.startsWith("api/")) fail(`unsafe slug: ${slug}`);
     if (!["home", "service", "product", "guide", "faq", "location"].includes(page.type)) fail(`invalid page type: ${id}`);
     if ((page.type === "home") !== (slug === "")) fail(`home page must use an empty slug: ${id}`);
+    if(page.bodyProjection!==undefined&&(page.type!=='home'||page.bodyProjection!=='canonical'))fail('bodyProjection must be canonical and is supported only for a fully canonical home renderer');
     if (page.type === "home") homeCount += 1;
     requireString(page.title, `page ${id} title`);
     requireString(page.description, `page ${id} description`);

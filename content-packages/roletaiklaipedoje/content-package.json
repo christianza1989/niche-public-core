@@ -10,9 +10,9 @@
     "locale": "lt-LT",
     "timezone": "Europe/Vilnius",
     "brand": {
-      "accent": "#294f65"
+      "accent": "#734b34"
     },
-    "offer": "Praktiniai roletų pasirinkimo gidai ir poreikio užklausa Klaipėdoje",
+    "offer": "Aiškesnis roletų pasirinkimas ir poreikio registracija Klaipėdoje",
     "contact": {
       "email": "info@pinet.lt",
       "phone": ""
@@ -21,286 +21,63 @@
   "pages": [
     {
       "siteId": "roletaiklaipedoje",
-      "type": "home",
-      "slug": "",
-      "title": "Roletai Klaipėdoje. Šviesa pagal jūsų ritmą.",
-      "description": "Roletų pasirinkimas Klaipėdoje: šviesa, privatumas, tamsinimas ir matmenys. Praktiniai gidai bei forma jūsų poreikiui aprašyti.",
-      "intent": "Nuo ko pradėti roletų pasirinkimą Klaipėdoje?",
-      "body": [
-        {
-          "type": "paragraph",
-          "text": "Mažiau akinimo, daugiau privatumo ar tamsesnis miegamasis? Pradėkite nuo to, kaip norite jaustis savo kambaryje. Gidai padės atsirinkti sprendimus, o forma – aiškiai aprašyti poreikį."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kokios šviesos reikia jums?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Audinio pavadinimas dar nepasako, kaip jausitės kambaryje. Pirmiausia pasirinkite svarbiausią užduotį."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Dienos šviesa"
-        },
-        {
-          "type": "paragraph",
-          "text": "Norite sumažinti akinimą, bet išsaugoti šviesų kambarį? Palyginkite šviesą filtruojantį audinį ir dviejų sluoksnių „diena–naktis“ sprendimą."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Privatumas vakare"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vertinkite audinį tada, kai kambaryje įjungta šviesa. Dieninis įspūdis neatsako į visus klausimus apie privatumą."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Tamsesnis miegamasis"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tamsinimui svarbūs du dalykai: pats audinys ir šviesa, patenkanti pro kraštus. Vien žodis „blackout“ neapibūdina visos sistemos."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Audinys ir mechanizmas – du atskiri pasirinkimai."
-        },
-        {
-          "type": "paragraph",
-          "text": "„Diena–naktis“ apibūdina audinio veikimą, o kasetė – konstrukciją. Sprendimą derinkite su lango atidarymu, rankenos vieta ir norimu tamsinimu."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Šviesą filtruojantis audinys"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pirmiausia vertinkite šviesumą ir matomumą. Tinkamumą privatumui patikrinkite pagal konkretų audinį."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Diena–naktis"
-        },
-        {
-          "type": "paragraph",
-          "text": "Permatomos ir tankesnės juostos persidengia. Tai leidžia keisti į kambarį patenkančią šviesą."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Tamsinantis audinys"
-        },
-        {
-          "type": "paragraph",
-          "text": "Klauskite ne tik apie audinį, bet ir apie šoninius tarpus bei viso lango uždengimą."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Nuo lango iki aiškios užklausos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nebūtina iškart žinoti modelio. Pradžiai pakanka kambario, svarbiausio poreikio ir preliminarių lango matmenų."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Aprašykite kambarį ir kas dabar trukdo: akinimas, matomumas iš lauko ar šviesa miegant.",
-            "Užsirašykite langų skaičių, preliminarų plotį ir aukštį. Pažymėkite, ką matavote.",
-            "Nurodykite Klaipėdos vietovę ir klausimą. Tikslus adresas pirmai užklausai nereikalingas."
-          ]
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Praktiniai gidai jūsų sprendimui"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nuo skirtingų audinių iki informacijos, kurios reikia palyginamam pasiūlymui."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Papasakokite apie savo langus"
-        },
-        {
-          "type": "paragraph",
-          "text": "Priimame roletų poreikio užklausas. Tai informacinis projektas: užklausa nėra užsakymas, matavimo vizito rezervacija ar patvirtintas montavimo pasiūlymas."
-        }
-      ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [
-        {
-          "id": "8eefb15b-0a13-46c2-b081-ffbb4252e05b",
-          "src": "/content-assets/roletaiklaipedoje/8eefb15b-0a13-46c2-b081-ffbb4252e05b.webp",
-          "alt": "Iliustracinis interjeras su mėlynu roletu ir popietės šviesa (1440 px)",
-          "width": 1440,
-          "height": 960,
-          "credit": "ImageGen interjero iliustracija. Ne atlikto darbo ar konkretaus gaminio nuotrauka.",
-          "rights": "Originali OpenAI ImageGen iliustracija šiam projektui, 2026-09-30; ne klientų projektas."
-        },
-        {
-          "id": "776df12d-2b06-4ad8-982f-1697e692baaa",
-          "src": "/content-assets/roletaiklaipedoje/776df12d-2b06-4ad8-982f-1697e692baaa.webp",
-          "alt": "Iliustracinis interjeras su mėlynu roletu ir popietės šviesa (960 px)",
-          "width": 960,
-          "height": 640,
-          "credit": "ImageGen interjero iliustracija. Ne atlikto darbo ar konkretaus gaminio nuotrauka.",
-          "rights": "Originali OpenAI ImageGen iliustracija šiam projektui, 2026-09-30; ne klientų projektas."
-        },
-        {
-          "id": "88a67382-7623-4228-8876-1ff5a9fd41ce",
-          "src": "/content-assets/roletaiklaipedoje/88a67382-7623-4228-8876-1ff5a9fd41ce.webp",
-          "alt": "Iliustracinis interjeras su mėlynu roletu ir popietės šviesa (640 px)",
-          "width": 640,
-          "height": 427,
-          "credit": "ImageGen interjero iliustracija. Ne atlikto darbo ar konkretaus gaminio nuotrauka.",
-          "rights": "Originali OpenAI ImageGen iliustracija šiam projektui, 2026-09-30; ne klientų projektas."
-        }
-      ],
-      "links": [
-        {
-          "targetPageId": "4bba5ebd-fb82-4377-b908-272d057623cd",
-          "label": "Kaip išsirinkti roletus pagal kambarį ir poreikį"
-        },
-        {
-          "targetPageId": "04f06ca0-76f6-4ab2-bc1b-87cdf0e140ff",
-          "label": "Diena–naktis ar blackout: ką iš tikrųjų lyginate?"
-        },
-        {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
-        },
-        {
-          "targetPageId": "fa88aa44-5dbc-4163-9b5f-6d8244b09037",
-          "label": "Nuo ko priklauso roletų kaina ir kaip palyginti pasiūlymus"
-        },
-        {
-          "targetPageId": "51db8a91-f90e-4ed9-8b20-27fbb7ef4d47",
-          "label": "Praktiniai roletų pasirinkimo gidai"
-        },
-        {
-          "targetPageId": "c594e978-c63c-4870-931f-c8105414b8ae",
-          "label": "Roletų poreikio užklausa Klaipėdoje"
-        },
-        {
-          "targetPageId": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-          "label": "Kontaktai ir jūsų roletų poreikis"
-        }
-      ],
-      "externalLinks": [
-        {
-          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
-          "label": "ISOTRA: dviejų sluoksnių audinys",
-          "reason": "Pagrindžia juostų persidengimo principą; patikrinta 2026-09-30."
-        },
-        {
-          "url": "https://www.luxaflex.co.uk/products/blackout-blinds/",
-          "label": "Luxaflex: tamsinimas ir šoniniai tarpai",
-          "reason": "Pagrindžia audinio ir kraštų šviesos skirtį; patikrinta 2026-09-30."
-        }
-      ],
-      "id": "26c041fe-6bbc-4de9-818c-8409cd4b2774",
-      "revisionHash": "7ff543192406596ff042be1dc5ca92571b6f707adffb7ffb9535ef2392d07350",
-      "approval": {
-        "status": "approved",
-        "revisionHash": "7ff543192406596ff042be1dc5ca92571b6f707adffb7ffb9535ef2392d07350",
-        "approvedAt": "2026-09-30T08:50:52.671Z",
-        "actorId": "codex-source-review-2026-09-30"
-      }
-    },
-    {
-      "siteId": "roletaiklaipedoje",
       "type": "guide",
-      "slug": "gidai/kaip-issirinkti-roletus",
-      "title": "Kaip išsirinkti roletus pagal kambarį ir poreikį",
-      "description": "Pasirinkimo seka: šviesa, privatumas, audinys, mechanizmas ir langas. Praktinis patikros sąrašas prieš roletų užklausą.",
-      "intent": "Kaip pasirinkti roletų tipą nepasimetant tarp audinių ir mechanizmų?",
+      "slug": "gidai/roletu-pasirinkimas",
+      "title": "Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos",
+      "description": "Pradėkite nuo to, kaip kambaryje norite valdyti šviesą ir privatumą, tada pasirinkite audinį, tvirtinimą ir valdymą.",
+      "intent": "roletai kaip pasirinkti",
       "body": [
         {
           "type": "paragraph",
-          "text": "Roletus rinkitės nuo norimo rezultato, o ne spalvos ar modelio pavadinimo. Užrašykite, kurį poreikį sprendžiate pirmiausia: akinimą dieną, privatumą vakare ar šviesą miegant. Tada atskirai vertinkite audinį, konstrukciją ir lango naudojimą."
+          "text": "Roletą rinkitės pagal tai, ką norite pakeisti kambaryje: sumažinti akinimą, išlaikyti daugiau dienos šviesos, paslėpti vaizdą iš lauko ar pritemdyti patalpą. Tada atskirai įvertinkite audinį, tvirtinimo vietą ir valdymą. Taip išvengsite dažnos painiavos, kai vienas žodis, pavyzdžiui, „blackout“, palaikomas viso lango sprendimo apibūdinimu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pradėkite nuo vieno kambario"
+          "text": "1. Aprašykite, ko reikia kambaryje"
         },
         {
           "type": "paragraph",
-          "text": "Skirtingi kambariai gali turėti skirtingus prioritetus. Svetainėje norėsite išsaugoti dienos šviesą, darbo vietoje – sumažinti akinimą ekrane, o miegamajame gali būti svarbiausias tamsinimas. Tai poreikių pavyzdžiai, o ne vienas privalomas sprendimas visiems būstams."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Kada šviesa labiausiai trukdo – ryte, dieną ar vakare?",
-            "Ar norite matyti lauką, kai langas uždengtas?",
-            "Ar svarbiausias privatumas, ar kuo mažiau šviesos?",
-            "Kaip dažnai atidarote ir atverčiate langą?"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Pabandykite suformuluoti vieną sakinį: „Darbo kambaryje popietę akina ekraną, bet nenoriu visą dieną sėdėti tamsoje.“ Toks aprašymas pasirinkimui naudingesnis už „reikia pilkų roletų“."
+          "text": "Stebėkite langą skirtingu paros metu ir užsirašykite, kada šviesa trukdo, kada norite privatumo ir ar kambaryje svarbiau išlaikyti šviesumą, ar labiau pritemdyti. Taip pat įvardykite, ar langas dažnai atidaromas, ar šalia jo yra stalas, lova arba balkono durys. Tai padės pokalbį apie roletą pradėti nuo realaus naudojimo, o ne vien audinio spalvos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Atskirkite audinį nuo konstrukcijos"
+          "text": "2. Audinį rinkitės pagal šviesos pralaidumą"
         },
         {
           "type": "paragraph",
-          "text": "Audinys lemia, kaip praleidžiama šviesa. „Diena–naktis“ audinyje keičiama permatomų ir tankesnių juostų padėtis. Tamsinantis audinys sprendžia kitą užduotį. Gamintojai siūlo skirtingus šviesos pralaidumo variantus, todėl vien spalva nėra pakankamas pasirinkimo kriterijus."
+          "text": "Vieniems langams tinka šviesą filtruojantis audinys, kitiems gali reikėti labiau tamsinančio. Šias savybes tikrinkite konkretaus audinio aprašyme, nes pavadinimas ar spalva nepasako, kiek šviesos jis praleidžia. Pavyzdžiui, „Luxaflex“ roletų asortimente nurodo skirtingus pralaidumo variantus – nuo permatomo iki šviesą blokuojančio audinio. Tai konkretaus gamintojo pasiūlos pavyzdys, o ne visų sistemų standartas."
         },
         {
           "type": "paragraph",
-          "text": "Kasetė uždengia susuktą audinį ir mechanizmą. Kreipiančiosios, jų buvimas bei paskirtis priklauso nuo sistemos. Prigludimas prie varčios ir šviesos tarpo sumažinimas nėra automatiškai tas pats. Klauskite, ką konkrečioje konstrukcijoje daro kiekviena detalė."
+          "text": "Tamsinantis audinys ir mažesnis šviesos patekimas palei lango kraštus yra du atskiri dalykai. „Luxaflex“ nurodo, kad kai kuriems roletams galima rinktis šoninius kanalus, kurie sumažina šviesos tarpus. Jei norite kuo labiau pritemdyti kambarį, klauskite ir apie audinį, ir apie konkrečios sistemos šviesos kontrolę ties kraštais. Galutinis rezultatas priklauso nuo pasirinkto gaminio ir jo sumontavimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diena–naktis tipo audinyje persidengia permatomos ir tankesnės juostos. Pavyzdžiui, „ISOTRA Verra semi“ aprašyme nurodomi du audinio sluoksniai, kurių juostų padėtimi reguliuojamas į patalpą patenkančios šviesos kiekis. Tai gali būti svarbu, jei norite keisti šviesos pralaidumą nepakeldami roleto. Apie kitų gamintojų modelius spręskite pagal jų pačių aprašymus."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Patikrinkite lango naudojimą"
+          "text": "3. Atskirai pasirinkite tvirtinimą ir valdymą"
         },
         {
           "type": "paragraph",
-          "text": "Pažiūrėkite, kur yra rankena, kiek vietos virš lango ir į kurią pusę jis atsidaro. Pažymėkite gretimą sieną, palangę ir duris. Galimas roleto tvirtinimas turi būti vertinamas kartu su šiomis kliūtimis ir pasirinkto modelio instrukcija."
-        },
-        {
-          "type": "paragraph",
-          "text": "Preliminarūs matmenys padeda aptarti poreikį, tačiau nėra universalus užsakymo dydis. Skirtingose sistemose matuojamas stiklas, varčia, niša ar visas uždengiamas plotas. Jei dar nežinote konstrukcijos, neatimkite tariamo standartinio centimetro."
+          "text": "Prieš lygindami sistemas pasitikrinkite, kur jas galima tvirtinti: lango nišoje, prie sienos ar prie lubų. Įvertinkite, ar roletas trukdytų atidaryti langą, pasiekti rankeną ar naudotis balkono durimis. Taip pat pagalvokite, kaip patogu jį pakelti ir nuleisti. Tvirtinimo ir valdymo variantai priklauso nuo konkretaus gaminio, todėl neperkelkite vieno modelio instrukcijos kitam."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Audinį vertinkite tikroje šviesoje"
+          "text": "4. Matmenis pateikite kaip preliminarią informaciją"
         },
         {
           "type": "paragraph",
-          "text": "Nuotrauka telefone ar ekrane padeda išsirinkti kryptį, bet nepatvirtina audinio spalvos ir matomumo konkrečiame kambaryje. Prašykite realaus audinio pavyzdžio ir pasitikrinkite jį dieną bei įjungus kambario šviesą. Tai ypač naudinga, kai privatumas svarbesnis už vaizdą į lauką."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Pagalvokite apie valdymą ir priežiūrą"
+          "text": "Jei norite aptarti tinkamą variantą, pasižymėkite lango nišos plotį ir aukštį, kur norėtumėte montuoti roletą, ir nurodykite, ar matavote nišą, ar visą langą. Matavimo taškai priklauso nuo pasirinktos sistemos. Universalaus centimetrais išreikšto atėmimo nėra: galutinį dydį lemia konkretaus gaminio instrukcija."
         },
         {
           "type": "paragraph",
-          "text": "Nurodykite, ar langą patogu pasiekti ir ar namuose yra mažų vaikų. Laisvos virvelių ar grandinėlių kilpos kelia pavojų. Saugos detalės ir jų montavimas turi atitikti konkretaus gaminio instrukciją. Vaikų lovelę ir baldus laikykite atokiau nuo valdymo virvelių."
-        },
-        {
-          "type": "paragraph",
-          "text": "Prieš pasirenkant paprašykite valymo instrukcijos konkrečiam audiniui. Ne kiekvieną padengtą audinį galima drėkinti ar šveisti. Dizaino pasirinkimas neturėtų užgožti to, kaip roletą iš tikrųjų naudosite."
+          "text": "Patikrinkite, ar gaminio aprašyme atskirai nurodyti audinio ir viso roleto matmenys. Pavyzdžiui, IKEA LÅNGDANS 80 × 250 cm gaminiui nurodytas 80 cm audinio plotis ir 83,6 cm visos ritininės užuolaidos plotis. Tai vieno modelio duomenys, o ne matavimo taisyklė kitiems roletams. Daugiau žingsnių rasite gide „Ką išmatuoti prieš roletų užklausą“."
         },
         {
           "type": "heading",
@@ -310,701 +87,1177 @@
         {
           "type": "list",
           "items": [
-            "Kambarys: ____ . Svarbiausias poreikis: ____ .",
-            "Lango tipas ir atidarymas: ____ . Langų skaičius: ____ .",
-            "Preliminarūs matmenys ir matavimo vieta: ____ .",
-            "Audinio kryptis: šviesą filtruojantis / diena–naktis / tamsinantis / dar nežinau.",
-            "Neaišku: valdymas / tvirtinimas / privatumas / šoniniai tarpai."
+            "Kambarys ir langas: kur bus roletas ir kaip dažnai langas naudojamas?",
+            "Pagrindinis poreikis: mažiau akinimo, daugiau privatumo ar labiau pritemdyta patalpa?",
+            "Audinys: kokį šviesos pralaidumą nurodo konkretaus modelio aprašymas?",
+            "Kraštai: ar svarbu sumažinti šviesos tarpus, ir ar siūlomai sistemai yra tinkamas sprendimas?",
+            "Tvirtinimas ir valdymas: kur roletą galima montuoti ir ar patogu jį naudoti?",
+            "Matmenys: ką tiksliai matavote ir ar gaminio specifikacijoje atskirti audinio bei visos sistemos matmenys?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Šį lapą galite perrašyti į užklausos žinutę. Jei svarbiausias miegamasis, toliau skaitykite audinių ir tamsinimo palyginimą. Jei konstrukcija jau aiški, pereikite prie matmenų pasiruošimo gido."
+          "text": "Jei dar tik aiškinatės poreikį, galite parašyti MB Pinet adresu info@pinet.lt ir aprašyti langą bei tai, kokio rezultato ieškote. Tai poreikio registracija, ne roletų užsakymas ar vizito pažadas; šiuo metu nėra patvirtinto tiekėjo ar montavimo komandos. Jei klausimas daugiausia apie dienos šviesą ir privatumą, skaitykite ir gidą „Diena–naktis ar blackout: šviesa ir privatumas“."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [],
+      "publishAt": "2026-10-07T11:34:30.201Z",
+      "media": [
+        {
+          "id": "979247f9-4494-40e1-bfc6-df2862405800",
+          "src": "/content-assets/roletaiklaipedoje/979247f9-4494-40e1-bfc6-df2862405800.webp",
+          "alt": "Skirtingo tankumo audinio pavyzdžiai prie lango rėmo ir roleto apatinės juostos",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "e9fd3c6c-bd88-4508-8983-b9fb09359eb7",
+          "src": "/content-assets/roletaiklaipedoje/e9fd3c6c-bd88-4508-8983-b9fb09359eb7.webp",
+          "alt": "Skirtingo tankumo audinio pavyzdžiai prie lango rėmo ir roleto apatinės juostos",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "2b5bf0c0-1764-4696-abe6-1ec98c06b682",
+          "src": "/content-assets/roletaiklaipedoje/2b5bf0c0-1764-4696-abe6-1ec98c06b682.webp",
+          "alt": "Skirtingo tankumo audinio pavyzdžiai prie lango rėmo ir roleto apatinės juostos",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "e838cbc0-79e1-45e4-850b-100272d59d55",
+          "src": "/content-assets/roletaiklaipedoje/e838cbc0-79e1-45e4-850b-100272d59d55.webp",
+          "alt": "Skirtingo tankumo audinio pavyzdžiai prie lango rėmo ir roleto apatinės juostos",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "e1ff5b14-fb8f-47b6-a88a-8c6be53a5e7b",
+          "src": "/content-assets/roletaiklaipedoje/e1ff5b14-fb8f-47b6-a88a-8c6be53a5e7b.webp",
+          "alt": "Skirtingo tankumo audinio pavyzdžiai prie lango rėmo ir roleto apatinės juostos",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        }
+      ],
       "links": [
         {
-          "targetPageId": "04f06ca0-76f6-4ab2-bc1b-87cdf0e140ff",
-          "label": "Diena–naktis ar blackout: ką iš tikrųjų lyginate?"
+          "targetPageId": "c724b12b-2821-4990-95f8-bfc1167f49cb",
+          "label": "Ką išmatuoti prieš roletų užklausą"
         },
         {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
+          "targetPageId": "f89735ad-2a98-42b1-970b-32676758a669",
+          "label": "Diena–naktis ar blackout: šviesa ir privatumas"
         },
         {
-          "targetPageId": "c594e978-c63c-4870-931f-c8105414b8ae",
-          "label": "Roletų poreikio užklausa Klaipėdoje"
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Aprašykite savo langą"
         }
       ],
       "externalLinks": [
+        {
+          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
+          "label": "ISOTRA Verra semi audinio roletai",
+          "reason": "Gamintojo puslapyje patikrinta, kad diena–naktis versijoje naudojami du audinio sluoksniai su permatomomis ir nepermatomomis juostomis; teiginys tekste apribotas konkrečiu pavyzdžiu. Patikrinta 2026-10-07."
+        },
         {
           "url": "https://www.luxaflex.co.uk/products/roller-blinds/",
-          "label": "Luxaflex: audinių ir konstrukcijų variantai",
-          "reason": "Audinių šviesos pralaidumo ir sistemos pasirinkimo skirtis; 2026-09-30."
-        },
-        {
-          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
-          "label": "ISOTRA: Verra semi veikimo principas",
-          "reason": "Juostų persidengimas ir šviesos reguliavimas; 2026-09-30."
-        },
-        {
-          "url": "https://www.isotra.com/s-doc/2/306/638136926886700000/obsluha%20udrzba_latkove%20rolety_en.pdf",
-          "label": "ISOTRA: valdymo, priežiūros ir saugos instrukcija",
-          "reason": "Psl. 3: grandinėlių kilpų pavojus, baldai ir audinio valymo apribojimai; 2026-09-30."
-        }
-      ],
-      "id": "4bba5ebd-fb82-4377-b908-272d057623cd",
-      "revisionHash": "c5c65f2ff73ec60d262f29184d0c991e3465863ef9534f5838dd10235f546923",
-      "approval": {
-        "status": "approved",
-        "revisionHash": "c5c65f2ff73ec60d262f29184d0c991e3465863ef9534f5838dd10235f546923",
-        "approvedAt": "2026-09-30T08:50:52.718Z",
-        "actorId": "codex-source-review-2026-09-30"
-      }
-    },
-    {
-      "siteId": "roletaiklaipedoje",
-      "type": "guide",
-      "slug": "gidai/diena-naktis-ar-blackout",
-      "title": "Diena–naktis ar blackout: ką iš tikrųjų lyginate?",
-      "description": "Šviesos reguliavimas ir tamsinimas – skirtingi poreikiai. Kaip vertinti audinį, vakarinį privatumą ir šviesos tarpus.",
-      "intent": "Kada rinktis diena–naktis, o kada tamsinantį audinį?",
-      "body": [
-        {
-          "type": "paragraph",
-          "text": "„Diena–naktis“ ir „blackout“ nėra du tos pačios savybės pavadinimai. Pirmasis apibūdina šviesos reguliavimą dviejų sluoksnių juostomis, antrasis – audinio tamsinimo savybę. Visos patalpos tamsumas dar priklauso nuo uždengimo ir šviesos tarpų."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip veikia diena–naktis?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Audinį sudaro permatomos ir tankesnės juostos. Slenkant sluoksniams, keičiasi jų persidengimas ir į kambarį patenkanti šviesa. Šis principas naudingas, kai per dieną norite keisti šviesumą nepakeldami viso roleto."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pavadinimas „naktis“ savaime nepatvirtina visiško tamsinimo. Vertinkite konkretų audinį ir mechanizmą. Jei pardavėjas siūlo tamsinantį diena–naktis variantą, paprašykite paaiškinti audinio savybes ir visos sistemos šviesos tarpus."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ką reiškia blackout?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tamsinantis audinys skirtas sumažinti arba užblokuoti per jį patenkančią šviesą. Tačiau šviesa gali patekti šalia audinio – per šonus, viršų ar apačią. Gamintojų siūlomos šoninės sistemos gali mažinti tarpus; jų veikimą reikia vertinti konkrečiame lange."
-        },
-        {
-          "type": "paragraph",
-          "text": "Todėl miegamajam pateikite aiškų reikalavimą: ar pakanka sumažinti šviesą, ar norite kuo tamsesnės patalpos? Klauskite apie visą sumontuotą sistemą, ne vien audinio etiketę. Be konkretaus lango ir sistemos įvertinimo procentinio tamsinimo nežadame."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Privatumą tikrinkite atskirai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Šviesos pralaidumas, vaizdas į lauką ir matomumas iš lauko susiję, bet nėra viena savybė. Kai kambaryje šviesu, o lauke tamsu, audinį verta vertinti dar kartą. Prašykite pavyzdžio ir patikrinkite jį savo vakarinėmis sąlygomis, laikydamiesi saugumo bei kitų žmonių privatumo."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Palyginimas pagal jūsų užduotį"
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Noriu keisti dienos šviesą"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pradėkite nuo reguliavimo galimybių ir audinio pralaidumo. Diena–naktis gali būti vienas iš svarstomų variantų. Patikrinkite, kaip atrodo kambarys kiekvienoje juostų padėtyje."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Noriu daugiau privatumo vakare"
-        },
-        {
-          "type": "paragraph",
-          "text": "Svarbiausias klausimas – ką mato žmogus iš lauko, kai kambaryje įjungtas apšvietimas. Vien gražus audinys ar tamsesnė spalva šio klausimo neišsprendžia."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Noriu tamsesnio miegamojo"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vertinkite tamsinantį audinį kartu su kraštų uždengimu. Paprašykite nurodyti likusius šviesos tarpus ir kaip pasirinkta konstrukcija juos mažina."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Pavyzdys: dvi skirtingos užklausos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Iliustracinis svetainės poreikis: „Popietę ryški šviesa, bet noriu matyti lauką ir turėti kelias šviesumo padėtis.“ Iliustracinis miegamojo poreikis: „Dieną miegu po darbo; svarbiau tamsinimas nei vaizdas į lauką.“ Abu langai gali būti vienodo dydžio, tačiau pasirinkimo prioritetai skiriasi."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ko paklausti prieš sprendimą?"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Ar pateikiamos savybės taikomos audiniui, ar visai sistemai?",
-            "Kaip atrodys privatumas vakare su įjungta šviesa?",
-            "Kokie tarpai liks aplink audinį?",
-            "Ar galiu gauti realaus audinio pavyzdį?",
-            "Ar mechanizmas netrukdys lango atidarymui?"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei viename kambaryje norite kelių skirtingų režimų, taip ir parašykite. Užklausai svarbiau tikslus naudojimo scenarijus nei iš anksto pasirinktas reklaminis pavadinimas."
-        }
-      ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [],
-      "links": [
-        {
-          "targetPageId": "4bba5ebd-fb82-4377-b908-272d057623cd",
-          "label": "Kaip išsirinkti roletus pagal kambarį ir poreikį"
-        },
-        {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
-        },
-        {
-          "targetPageId": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-          "label": "Kontaktai ir jūsų roletų poreikis"
-        }
-      ],
-      "externalLinks": [
-        {
-          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
-          "label": "ISOTRA: dviejų sluoksnių juostų persidengimas",
-          "reason": "Verra semi principas; tai nėra visų audinių tamsinimo pažadas; 2026-09-30."
+          "label": "Luxaflex roletai",
+          "reason": "Gamintojo puslapyje patikrinta, kad roletų audiniai skiriasi šviesos pralaidumu ir siūlomi variantai nuo permatomų iki šviesą blokuojančių; taip pat minimi pasirenkami šoniniai kanalai. Tai JK gamintojo pasiūlos pavyzdys, ne vietinės pasiūlos įrodymas. Patikrinta 2026-10-07."
         },
         {
           "url": "https://www.luxaflex.co.uk/products/blackout-blinds/",
-          "label": "Luxaflex: blackout ir šoninės sistemos",
-          "reason": "Audinio tamsinimas atskiriamas nuo šviesos tarpų; 2026-09-30."
+          "label": "Luxaflex šviesą blokuojantys roletai",
+          "reason": "Gamintojo puslapyje patikrinta, kad roletams gali būti siūlomi šoniniai kanalai kraštų šviesos tarpams sumažinti; tai pagrindžia audinio ir šviesos kontrolės ties kraštais atskyrimą. Patikrinta 2026-10-07."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/langdans-ritinine-uzuolaida-pilka-50471837/",
+          "label": "IKEA LÅNGDANS ritininė užuolaida",
+          "reason": "Konkretaus 80 × 250 cm modelio specifikacijoje nurodyti 80 cm audinio plotis ir 83,6 cm visos užuolaidos plotis; tekste šie skaičiai aiškiai pateikti kaip vieno modelio pavyzdys, ne universali taisyklė. Patikrinta 2026-10-07."
         }
       ],
-      "id": "04f06ca0-76f6-4ab2-bc1b-87cdf0e140ff",
-      "revisionHash": "a9b6e0eb155af6d4ef8f8c641196e7d2dad27179d20e3a4d302f01204610b467",
+      "id": "8cdccbb2-c005-4b1e-9009-6a103eb91476",
+      "revisionHash": "499e92a55994852f1474926861bae16d67143bea423883b3efbcbdfcd412e15a",
       "approval": {
         "status": "approved",
-        "revisionHash": "a9b6e0eb155af6d4ef8f8c641196e7d2dad27179d20e3a4d302f01204610b467",
-        "approvedAt": "2026-09-30T08:50:52.739Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "499e92a55994852f1474926861bae16d67143bea423883b3efbcbdfcd412e15a",
+        "approvedAt": "2026-10-07T12:03:38.488Z",
+        "actorId": "Codex /root — local review only; no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
       "type": "guide",
-      "slug": "gidai/lango-matmenys-roletams",
-      "title": "Lango matmenys roletams: ką pasiruošti užklausai",
-      "description": "Kaip užrašyti preliminarius lango matmenis, atidarymą ir kliūtis. Skirtumas tarp stiklo, nišos ir užsakomo gaminio dydžio.",
-      "intent": "Kokius lango duomenis surinkti prieš roletų užklausą?",
+      "slug": "gidai/sviesa-ir-privatumas",
+      "title": "Diena–naktis ar blackout: šviesa ir privatumas",
+      "description": "Palyginkite, kaip reguliuojama dienos šviesa ir kiek tamsumo galite tikėtis. Sužinokite, kodėl audinio savybės ir šviesos tarpai prie kraštų yra atskiri pasirinkimai.",
+      "intent": "diena naktis ar blackout",
       "body": [
         {
           "type": "paragraph",
-          "text": "Pradinei užklausai surinkite preliminarius matmenis ir pažymėkite, ką matavote. Stiklo, varčios ir nišos plotis nėra tas pats. Galutinis užsakymo dydis nustatomas pagal pasirinktos roletų sistemos matavimo instrukciją."
+          "text": "Jei norite keisti į kambarį patenkančios šviesos kiekį, svarstykite diena–naktis audinį. Jei svarbiau pritemdyti kambarį, ieškokite tam skirtos blackout medžiagos. Tačiau vien audinio pavadinimas negarantuoja, kad kambaryje neliks šviesos: ji gali patekti ir pro tarpus aplink roletą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpai: diena–naktis pirmiausia padeda reguliuoti šviesą juostų padėtimi, o blackout pasirinkimas pirmiausia susijęs su audinio tamsinimo savybe. Audinys ir jo montavimo konstrukcija yra atskiri sprendimai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pirma užrašykite lango situaciją"
+          "text": "Kuo skiriasi diena–naktis ir blackout?"
         },
         {
           "type": "paragraph",
-          "text": "Nurodykite, ar langas atidaromas, atverčiamas, stacionarus, balkono durų ar stoglangio tipo. Suskaičiuokite atskiras varčias. Jei langai skirtingi, kiekvienam suteikite paprastą pavadinimą: „svetainė kairė“, „svetainė dešinė“, „miegamasis“."
+          "text": "Diena–naktis roletų audinyje kaitaliojasi permatomos ir tankesnės juostos. Keičiant jų persidengimą galima reguliuoti, kiek šviesos patenka į kambarį. Pavyzdžiui, ISOTRA „Verra semi“ aprašyme nurodytas dviejų audinio sluoksnių persidengimas. Tai konkretaus gaminio pavyzdys, o ne visų sistemų savybių garantija."
         },
         {
           "type": "paragraph",
-          "text": "Matmenų lentelė be kambario ir varčios pavadinimo lengvai pasimeta. Neapjunkite kelių skirtingų langų į vieną vidutinį dydį. Kartu užrašykite norimą roleto valdymo pusę, jei jau turite pageidavimą."
+          "text": "Blackout audinys skirtas labiau užtemdyti kambarį. Vis dėlto audinio tamsinimas ir šviesos patekimas pro kraštus nėra tas pats. „Luxaflex“ nurodo, kad kai kuriuose jų gaminiuose šviesos tarpus gali mažinti šoniniai kanalai; ar toks sprendimas tinka konkrečiam langui, priklauso nuo pasirinktos sistemos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Matavimo vietą įvardykite žodžiais"
+          "text": "Kada rinktis vieną ar kitą?"
         },
         {
           "type": "list",
           "items": [
-            "Stiklas: matoma stiklo dalis ir jos ribos; aprašykite, ar įtraukėte stiklajuostes.",
-            "Varčia: atsidarančios lango dalies matmuo; tai nėra automatiškai audinio plotis.",
-            "Niša: sienos angos matmuo; pažymėkite, kuriose vietose matuota.",
-            "Uždengiamas plotas: pageidaujamos ribos virš ir šalia lango."
+            "Diena–naktis gali tikti, jei norite dieną kaitalioti šviesesnį ir tankesnį audinio ruožą. Įvertinkite, ar jums priimtina, kad juostų padėtys reguliuoja šviesą, bet savaime neužtikrina visiško užtemdymo.",
+            "Blackout audinį svarstykite, jei norite sumažinti pro patį audinį patenkančią šviesą, pavyzdžiui, miegamajame. Kartu išsiaiškinkite, ar jūsų langui svarbūs tarpai šonuose ir kokia konkreti konstrukcija juos mažintų.",
+            "Jei svarbus ir dienos šviesos reguliavimas, ir tamsesnė aplinka, aptarkite konkretų audinio bei sistemos derinį. Vien pavadinimo „blackout“ arba „diena–naktis“ nepakanka palyginti skirtingų gaminių."
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Šie įrašai skirti kontekstui, o ne universalios sistemos užsakymui. Pasirinktos konstrukcijos gamintojas gali prašyti kitokių matavimo taškų. Nevadinkite preliminaraus pločio „gaminio pločiu“, jei to dar nepatvirtinote."
-        },
-        {
           "type": "heading",
           "level": 2,
-          "text": "Naudokite vienodus vienetus"
+          "text": "Patikrinkite ne tik pavadinimą"
         },
         {
           "type": "paragraph",
-          "text": "Vienoje užklausoje patogiausia visus dydžius užrašyti tuo pačiu vienetu, pavyzdžiui, milimetrais. Aiškiai rašykite „plotis × aukštis“. Tai įrašo tvarkos rekomendacija, o ne reikalavimas visiems gamintojams."
-        },
-        {
-          "type": "paragraph",
-          "text": "Nišos matmenis galima pasižymėti keliose vietose ir perduoti visus rezultatus. Jei jie skiriasi, nepaverskite vidurkio užsakymo dydžiu. Nežinodami sistemos, neatskaičiuokite tariamos universalios atsargos ir nepridėkite standartinio užleidimo."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Patikrinkite, kas gali kliudyti"
+          "text": "Prieš pasirinkdami įvardykite, kas jums svarbiau: reguliuoti dienos šviesą, pritemdyti kambarį ar sumažinti šviesą prie lango kraštų. Tuomet klauskite apie konkretų audinį ir jo montavimo variantą. Šie klausimai padės palyginti pasiūlymus:"
         },
         {
           "type": "list",
           "items": [
-            "Lango rankena ir jos judėjimo trajektorija.",
-            "Palangė, radiatorius, gretima siena ar durys.",
-            "Vieta virš varčios ir nišos gylis, jei planuojamas montavimas nišoje.",
-            "Poreikis atverti langą ir prieiti jį valyti."
+            "Ką konkretaus šio audinio aprašyme reiškia „blackout“ ar „tamsinantis“?",
+            "Ar norimas rezultatas susijęs su šviesa per audinį, ar šviesa, patenkančia aplink roletą?",
+            "Ar siūlomai sistemai yra šoninių kanalų arba kitas kraštų uždengimo sprendimas?",
+            "Ar galima audinio pavyzdį įvertinti prie jūsų lango ir apšvietimo sąlygomis?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Jei neaišku, pažymėkite „reikia patikslinti“. Negręžkite rėmo ir nekeiskite jo konstrukcijos vien pagal bendrą interneto gidą. Šis puslapis nepatvirtina tvirtinimo tinkamumo ir nepakeičia pasirinkto modelio instrukcijos."
+          "text": "Norite užregistruoti roletų poreikį Klaipėdoje? Parašykite info@pinet.lt ir trumpai nurodykite, kuriam kambariui renkatės, kokio šviesos rezultato siekiate ir ar rūpi šviesa prie kraštų. Tai poreikio registracija, ne užsakymas ar vizitas; užklausa automatiškai neperduodama trečiajai šaliai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Iliustracinis užklausos įrašas"
+          "text": "Privatumą vertinkite ir vakare"
         },
         {
           "type": "paragraph",
-          "text": "„Miegamasis, vienas atidaromas langas. Preliminarus matomas stiklas: plotis 620 mm, aukštis 1100 mm; stiklajuosčių neįtraukiau. Noriu tamsinimo. Rankenos pusėje vietos mažai; roleto sistemos dar nepasirinkau.“ Tai išgalvotas duomenų pateikimo pavyzdys, ne siūlomas gaminio dydis."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kada preliminarių dydžių nepakanka?"
+          "text": "Dienos vaizdas neparodo, kaip audinys atrodys įjungus kambario šviesą. Konkretaus IKEA LÅNGDANS modelio aprašyme nurodoma, kad audinys filtruoja šviesą, bet vakare iš lauko gali būti matomi formų siluetai. Tai vieno gaminio pavyzdys: renkantis kitą audinį, klauskite apie jo pralaidumą ir vertinkite pavyzdį tokiomis sąlygomis, kurioms reikia privatumo."
         },
         {
           "type": "paragraph",
-          "text": "Kai jau ruošiamas gaminys, reikia pasirinkto modelio matavimo taisyklių ir patvirtintų duomenų. Pavyzdžiui, standartinio gaminio audinio ir viso mechanizmo pločiai gali skirtis. Tai matoma ir konkrečių gaminių specifikacijose, todėl vienas skaičius be paaiškinimo gali suklaidinti."
-        },
-        {
-          "type": "paragraph",
-          "text": "Forma šiame projekte neturi nuotraukų įkėlimo. Pirmoje žinutėje pakanka tekstinio aprašymo; nesiųskite dokumentų, tikslaus būsto adreso ar kitų užklausai nereikalingų duomenų. Nežinomus matmenis galima palikti nežinomus."
+          "text": "Bendresnę pasirinkimo eigą rasite gide „Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos“."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [],
+      "publishAt": "2026-10-07T11:34:30.201Z",
+      "media": [
+        {
+          "id": "7d515925-2e43-4b9e-9cb3-7055d4152eb8",
+          "src": "/content-assets/roletaiklaipedoje/7d515925-2e43-4b9e-9cb3-7055d4152eb8.webp",
+          "alt": "Diena–naktis roleto tankios ir permatomos juostos prie miegamojo lango",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "45549210-db7c-4521-b617-cc613326fe55",
+          "src": "/content-assets/roletaiklaipedoje/45549210-db7c-4521-b617-cc613326fe55.webp",
+          "alt": "Diena–naktis roleto tankios ir permatomos juostos prie miegamojo lango",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "0abf37b8-3fe3-44c9-8590-be927d58fd24",
+          "src": "/content-assets/roletaiklaipedoje/0abf37b8-3fe3-44c9-8590-be927d58fd24.webp",
+          "alt": "Diena–naktis roleto tankios ir permatomos juostos prie miegamojo lango",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "4fa7d10a-bc3c-41bb-834f-a91bb0440531",
+          "src": "/content-assets/roletaiklaipedoje/4fa7d10a-bc3c-41bb-834f-a91bb0440531.webp",
+          "alt": "Diena–naktis roleto tankios ir permatomos juostos prie miegamojo lango",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "d5723dd3-5296-4fe4-afb3-02c004568da1",
+          "src": "/content-assets/roletaiklaipedoje/d5723dd3-5296-4fe4-afb3-02c004568da1.webp",
+          "alt": "Diena–naktis roleto tankios ir permatomos juostos prie miegamojo lango",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        }
+      ],
       "links": [
         {
-          "targetPageId": "4bba5ebd-fb82-4377-b908-272d057623cd",
-          "label": "Kaip išsirinkti roletus pagal kambarį ir poreikį"
+          "targetPageId": "8cdccbb2-c005-4b1e-9009-6a103eb91476",
+          "label": "Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos"
         },
         {
-          "targetPageId": "fa88aa44-5dbc-4163-9b5f-6d8244b09037",
-          "label": "Nuo ko priklauso roletų kaina ir kaip palyginti pasiūlymus"
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Aprašykite savo langą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
+          "label": "ISOTRA: Verra semi fabric roller blind",
+          "reason": "Gamintojo aprašymas pagrindžia konkretaus Verra semi diena–naktis modelio permatomų ir tankesnių juostų bei dviejų sluoksnių persidengimo pavyzdį."
         },
         {
-          "targetPageId": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-          "label": "Kontaktai ir jūsų roletų poreikis"
+          "url": "https://www.luxaflex.co.uk/products/blackout-blinds/",
+          "label": "Luxaflex: Blackout blinds",
+          "reason": "Gamintojas atskiria blackout audinį nuo šviesos tarpų prie kraštų ir aprašo šoninius kanalus kaip kai kurių sistemų sprendimą jiems mažinti."
+        },
+        {
+          "url": "https://www.luxaflex.co.uk/products/roller-blinds/",
+          "label": "Luxaflex: Roller blinds",
+          "reason": "Gamintojo informacija pagrindžia, kad roletų audiniai siūlomi skirtingo šviesos pralaidumo, o šoniniai kanalai yra atskira pasirinktinė konstrukcijos savybė."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/langdans-ritinine-uzuolaida-pilka-50471837/",
+          "label": "IKEA LÅNGDANS 80 × 250 cm",
+          "reason": "Konkretaus modelio duomenys: audinio plotis 80 cm, bendras plotis 83,6 cm; aprašomas šviesos filtravimas ir vakare matomi siluetai. Vieno gaminio pavyzdys, ne kitų sistemų instrukcija. Patikrinta 2026-10-07."
+        }
+      ],
+      "id": "f89735ad-2a98-42b1-970b-32676758a669",
+      "revisionHash": "e0bd71505d461d507eb3c0b27d26c6fb9b4be0384da9c7ff46b8c9e1fc77b7b2",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e0bd71505d461d507eb3c0b27d26c6fb9b4be0384da9c7ff46b8c9e1fc77b7b2",
+        "approvedAt": "2026-10-07T12:03:38.492Z",
+        "actorId": "Codex /root — local review only; no deployment"
+      }
+    },
+    {
+      "siteId": "roletaiklaipedoje",
+      "type": "guide",
+      "slug": "gidai/matmenys-uzklausai",
+      "title": "Ką išmatuoti prieš roletų užklausą",
+      "description": "Pasiruoškite langų sąrašą, preliminarius matmenis ir klausimus apie galutinį matavimą. Čia nerasite universalaus centimet­rų atėmimo ar užsakymo dydžio formulės: ją lemia pasirinkta sistema ir jos instrukcija.",
+      "intent": "roletu matavimas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Prieš teikdami roletų užklausą, pasižymėkite kiekvieno lango vietą, aprašykite, kur norėtumėte montuoti roletą, ir užrašykite preliminarius matmenis su aiškiai nurodytais matavimo taškais. Šie duomenys padės apibūdinti poreikį, bet patys savaime nenustato galutinio gaminio dydžio."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmiausia aprašykite kiekvieną langą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surašykite langus atskirai, net jei jie atrodo vienodi. Prie kiekvieno nurodykite patalpą ir lango vietą, pavyzdžiui, „miegamasis, kairysis langas“. Taip vėliau bus lengviau susieti matmenis ir pasirinkimus su konkrečiu langu."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kuriame kambaryje yra langas ir kiek langų norite uždengti.",
+            "Kur įsivaizduojate roletą: ant lango varčios, lango nišoje ar už jos ribų. Tai jūsų pageidavimo aprašas, ne montavimo suderinamumo patvirtinimas.",
+            "Kas gali trukdyti arba turėtų likti pasiekiama: rankena, lango atidarymas, palangė ar kiti greta esantys daiktai.",
+            "Ar norite vienodo sprendimo visiems langams, ar kiekvienam jų svarbūs skirtingi poreikiai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jei matuojate, užrašykite ir matavimo vietą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jau turite preliminarius matmenis, prie kiekvieno skaičiaus pažymėkite, tarp kurių taškų matavote ir ką matavote. Pavyzdžiui, įrašykite „plotis – nuo šio krašto iki šio krašto“ arba pažymėkite matavimo vietą nuotraukoje. Užrašykite matavimo vienetą ir palikite matmenis kaip orientacinius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nesujunkite skirtingų matavimo vietų į vieną skaičių ir neatimkite savavališko pločio ar aukščio. Konkretaus gaminio instrukcija nurodo, kokių matmenų reikia; kai kurių gaminių audinio plotis gali skirtis nuo visos sistemos pločio. Todėl per užklausą pasitikslinkite, ką tiksliai prašoma išmatuoti ir kas patvirtins galutinį dydį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vieno lango užrašo pavyzdys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinis užrašas: „Svetainė, kairysis langas. Nišos plotis tarp vidinių kraštų – 120 cm; aukščio dar nematavau. Varčia atsidaro į vidų, rankena turi likti pasiekiama. Norėčiau mažiau akinimo popietę.“ Tai išgalvotas pasiruošimo pavyzdys, ne gaminio užsakymo dydis. Jokio centimetro koregavimo jam nepritaikyta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kodėl svarbu matmenų pavadinimas? IKEA LÅNGDANS 80 × 250 cm modelio puslapyje audinio plotis yra 80 cm, o visos užuolaidos – 83,6 cm. Šio skirtumo negalima perkelti kitam roletui; prieš užsakymą reikia pasirinkto modelio instrukcijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pridėti prie užklausos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Langų sąrašą su patalpos ar vietos žymomis.",
+            "Trumpą pageidaujamos montavimo vietos aprašą.",
+            "Preliminarius matmenis, jei juos jau turite, kartu su aiškiai nurodytais matavimo taškais.",
+            "Jei savo užrašuose turite lango nuotrauką, joje pasižymėkite matavimo taškus. Ši svetainės forma failų neprideda; tekste aprašykite, ką matavote.",
+            "Klausimus: kokių matmenų reikia konkrečiai sistemai, ar audinio ir viso gaminio plotis skiriasi, kas atlieka galutinį matavimą ir ar pasirinkta vieta tai sistemai tinka."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar sprendžiate, kokio tipo roletas atitiktų jūsų poreikį, pradėkite nuo gido „Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos“. Šis matavimo lapas padės pasiruošti pokalbiui, o ne parinkti gaminį ar jo galutinį dydį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia ši užklausa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poreikio registracija padeda aprašyti, ko ieškote. Ji nėra roletų užsakymas, montavimo vizitas, kainos pasiūlymas ar pažadas, kad paslauga jau teikiama. Šiuo metu patvirtinta, kad užklausa automatiškai neperduodama trečiajai šaliai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Norėdami užregistruoti poreikį, rašykite MB Pinet adresu info@pinet.lt. Laiške nurodykite, kokių langų sprendimo ieškote ir kokią informaciją jau turite. Jei matmenų dar neturite, tai aiškiai parašykite – jų spėlioti nereikia."
+        }
+      ],
+      "publishAt": "2026-10-07T11:34:30.201Z",
+      "media": [
+        {
+          "id": "54a938f9-e9c4-46a4-8990-e657decd4aff",
+          "src": "/content-assets/roletaiklaipedoje/54a938f9-e9c4-46a4-8990-e657decd4aff.webp",
+          "alt": "Lango rėmas ir rankena, ant palangės užrašų lapas ir susukta matavimo juosta",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "4ed657ac-2ef6-4506-b62a-788cb9810e72",
+          "src": "/content-assets/roletaiklaipedoje/4ed657ac-2ef6-4506-b62a-788cb9810e72.webp",
+          "alt": "Lango rėmas ir rankena, ant palangės užrašų lapas ir susukta matavimo juosta",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "5bf04a33-4187-439e-ad19-c632ac81ba49",
+          "src": "/content-assets/roletaiklaipedoje/5bf04a33-4187-439e-ad19-c632ac81ba49.webp",
+          "alt": "Lango rėmas ir rankena, ant palangės užrašų lapas ir susukta matavimo juosta",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "a0868661-1cda-43e2-b14a-4afe226167db",
+          "src": "/content-assets/roletaiklaipedoje/a0868661-1cda-43e2-b14a-4afe226167db.webp",
+          "alt": "Lango rėmas ir rankena, ant palangės užrašų lapas ir susukta matavimo juosta",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "1e4d8d70-6ffd-41ff-8cd2-d5a2b056ec97",
+          "src": "/content-assets/roletaiklaipedoje/1e4d8d70-6ffd-41ff-8cd2-d5a2b056ec97.webp",
+          "alt": "Lango rėmas ir rankena, ant palangės užrašų lapas ir susukta matavimo juosta",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "8cdccbb2-c005-4b1e-9009-6a103eb91476",
+          "label": "Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos"
+        },
+        {
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Aprašykite savo langą"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.ikea.com/lt/lt/p/langdans-ritinine-uzuolaida-pilka-50471837/",
-          "label": "IKEA: audinio ir gaminio matmenų pavyzdys",
-          "reason": "Konkretaus LÅNGDANS gaminio specifikacija skiria audinio ir bendrą plotį; universalių atėmimų nekopijuojame; 2026-09-30."
+          "label": "IKEA LÅNGDANS 80 × 250 cm",
+          "reason": "Konkretaus modelio duomenys: audinio plotis 80 cm, bendras plotis 83,6 cm; aprašomas šviesos filtravimas ir vakare matomi siluetai. Vieno gaminio pavyzdys, ne kitų sistemų instrukcija. Patikrinta 2026-10-07."
         }
       ],
-      "id": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-      "revisionHash": "aa224c44d7b51d902f0908fd66551749d8578daeb7a2238f902f553f84c802ca",
+      "id": "c724b12b-2821-4990-95f8-bfc1167f49cb",
+      "revisionHash": "a509bf3277fa66b9c8193812cfbb76a099c88201d6ee51ccf9c9a7f2f73ae1f2",
       "approval": {
         "status": "approved",
-        "revisionHash": "aa224c44d7b51d902f0908fd66551749d8578daeb7a2238f902f553f84c802ca",
-        "approvedAt": "2026-09-30T08:50:52.762Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "a509bf3277fa66b9c8193812cfbb76a099c88201d6ee51ccf9c9a7f2f73ae1f2",
+        "approvedAt": "2026-10-07T12:03:38.497Z",
+        "actorId": "Codex /root — local review only; no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
       "type": "guide",
-      "slug": "gidai/nuo-ko-priklauso-roletu-kaina",
-      "title": "Nuo ko priklauso roletų kaina ir kaip palyginti pasiūlymus",
-      "description": "Matmenys, audinys, konstrukcija, valdymas ir darbų apimtis. Kaip parengti vienodą užklausą palyginamiems pasiūlymams.",
-      "intent": "Kaip palyginti skirtingus roletų pasiūlymus be klaidinančios pradinės kainos?",
+      "slug": "gidai/pasiulymu-palyginimas",
+      "title": "Kaip palyginti roletų kainos pasiūlymus",
+      "description": "Praktinis sąrašas, padėsiantis sulyginti roletų pasiūlymų komplektaciją, matmenis ir papildomas paslaugas.",
+      "intent": "roletu kaina",
       "body": [
         {
           "type": "paragraph",
-          "text": "Roletų pasiūlymus lyginkite pagal vienodą langų sąrašą ir vienodą apimtį. Vien pradinė „nuo“ kaina neatsako, ar įtrauktas jums reikalingas audinys, konstrukcija, valdymas ir darbai. Šiame projekte savo kainyno dar neskelbiame."
+          "text": "Vien mažiausia pasiūlymo suma neparodo, ar lyginate tą patį gaminį ir tą pačią paslaugų apimtį. Pirmiausia sulyginkite kiekvieno lango matmenų apibrėžimą, roletų sistemą, audinį, valdymą ir tai, kas įskaičiuota. Tada palyginkite bendrą kainą ir atskirai pasižymėkite, kas liktų jūsų rūpesčiu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kas turi būti aišku pasiūlyme?"
+          "text": "Sulyginkite komplektaciją"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prašykite, kad kiekviename pasiūlyme būtų aiškiai įvardyta, ką gaunate. Jei renkatės kelis langus, paprašykite duomenų ir kainos kiekvienam langui atskirai, kad vieno matmens ar komplektacijos skirtumas nesislėptų bendroje sumoje."
         },
         {
           "type": "list",
           "items": [
-            "Kiek langų ir atskirų varčių numatyta uždengti.",
-            "Kokie patvirtinti matmenys ir pasirinkta roletų sistema.",
-            "Konkretus audinys ir jo šviesos pralaidumo / tamsinimo savybės.",
-            "Kasetė, kreipiančiosios, valdymas ir numatytas tvirtinimas.",
-            "Kas atlieka matavimą, montavimą ir kaip suderinta darbų apimtis."
+            "Langų skaičius ir kiekvieno lango matmenys. Pasitikrinkite, ar nurodomas audinio plotis, ar visos sistemos plotis, ir kaip matmenys buvo nustatyti.",
+            "Roleto tipas ir konstrukcija: pavyzdžiui, atvira sistema ar kasetė. Užrašykite konkretaus modelio ar sistemos pavadinimą, jei jis pateiktas.",
+            "Audinio savybės: ar jis persišviečia, pritemdo, ar skirtas patalpai tamsinti. Spalvą ir raštą tikrinkite pagal konkretų pavyzdį, o ne vien ekrano vaizdą.",
+            "Valdymas ir priedai: grandinėlė, kitas rankinis valdymas ar elektrinė pavara; laikikliai, kasetė ir šoninės kreipiančiosios, jei jų reikia.",
+            "Kiekvienos paslaugos kaina ir atsakomybė: matavimas, pristatymas, montavimas ir kiti siūlomi darbai. Pažymėkite, kas įtraukta, kas kainuoja papildomai, o kas nenurodyta."
           ]
         },
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginkite vienodas sąlygas"
+        },
+        {
           "type": "paragraph",
-          "text": "Tai praktinis pasiūlymo pilnumo sąrašas. Jis nenustato konkretaus pardavėjo kainų politikos. Iš anksto paprašykite, kad pardavėjas aiškiai nurodytų galutinę sumą ir atskirai aprašytų neįtrauktas dalis."
+          "text": "Pasiūlyme ieškokite galutinės sumos už tiksliai aprašytą komplektaciją. Jei nurodyta tik gaminio kaina, paprašykite patikslinti pristatymo, matavimo ar montavimo kainą, jei šių paslaugų jums reikia. Taip pat pasitikrinkite, ar suma pateikta su PVM, kiek laiko pasiūlymas galioja, kokios garantijos sąlygos ir kas nutinka, jei galutinai išmatavus langą gaminį reikia keisti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu vienas pasiūlymas gerokai pigesnis, palyginkite eilutes, o ne spėliokite priežastį: gal skiriasi audinys ar valdymas, viename pasiūlyme neįskaičiuotas montavimas, arba nurodytas kitas matmuo. Paprašykite trūkstamą dalį įrašyti aiškiai. Jei jos patikslinti nepavyksta, pažymėkite pasiūlymą kaip nepilną, o ne kaip tiesiog pigesnį."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Sulyginkite funkciją, ne vien spalvą"
+          "text": "Patikrinkite, ką reiškia matmenys"
         },
         {
           "type": "paragraph",
-          "text": "Du panašios spalvos roletai gali skirtis šviesos pralaidumu ir konstrukcija. Diena–naktis audinys bei vientisas tamsinantis audinys sprendžia skirtingas užduotis. Kasetė taip pat nėra audinio savybė. Pasiūlyme turi būti suprantama, kas konkrečiai pateikta."
+          "text": "Skirtingos sistemos matmenis gali pateikti nevienodai. Pavyzdžiui, IKEA LÅNGDANS 80 × 250 cm gaminio puslapyje nurodomas 80 cm audinio plotis ir 83,6 cm visos ritininės užuolaidos plotis. Tai konkretaus modelio duomenys, ne universalus perskaičiavimas kitoms sistemoms. Pasiūlyme klauskite, kokiam tiksliai pločiui pateikta kaina, o savo preliminarius matmenis galutinai tikrinkite pagal pasirinkto gaminio instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lyginkite ir funkciją, kurią perkate. Tamsinantis audinys bei šviesos patekimo pro kraštus mažinimas nėra tas pats dalykas: kai kurioms sistemoms siūlomos papildomos šoninės kreipiančiosios. Diena–naktis audinys taip pat turi konkretų veikimo principą; ISOTRA aprašytame Verra semi variante persidengia du audinio sluoksniai su tankiomis ir permatomomis juostomis. Šie gamintojų pavyzdžiai padeda suformuluoti klausimus, bet savaime nereiškia, kad kitas tiekėjas siūlo tokią pačią komplektaciją."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Darbų ribas išsiaiškinkite prieš užsakymą"
-        },
-        {
-          "type": "paragraph",
-          "text": "Paklauskite, ar matavimas ir montavimas įtraukti, kas tikrina lango tinkamumą ir kokia procedūra, jei preliminarūs matmenys pasikeičia. Jei jau turite senus roletus, atskirai nurodykite, ar juos reikės nuimti. Ši svetainė tokio darbo ar vizito nepatvirtina."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Palyginimo lapas dviem pasiūlymams"
+          "text": "Trumpa palyginimo lentelė sau"
         },
         {
           "type": "list",
           "items": [
-            "Langų sąrašas ir matmenys abiejuose pasiūlymuose sutampa: taip / ne / neaišku.",
-            "Audinys ir norima funkcija sutampa: taip / ne / neaišku.",
-            "Konstrukcija, valdymas bei tvirtinimas aprašyti: taip / ne.",
-            "Matavimas, montavimas ir kiti darbai įvardyti: taip / ne.",
-            "Bendra suma, neįtrauktos dalys ir sąlygos aiškios: taip / ne."
+            "Pasiūlymas A: gaminys ir audinys; kiek langų ir kokie matmenys; valdymas bei priedai; matavimo, pristatymo ir montavimo kaina; galutinė suma; garantijos ir galiojimo sąlygos.",
+            "Pasiūlymas B: užpildykite tuos pačius laukus.",
+            "Prie kiekvienos nenurodytos eilutės įrašykite „patikslinti“. Kol ji nepatikslinta, nelaikykite bendrų sumų lygiaverčiu palyginimu."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Jei svarbi eilutė pažymėta „neaišku“, paprašykite paaiškinimo prieš vertindami, kuris pasiūlymas geresnis. Mažesnė suma gali reikšti kitokią apimtį, todėl jos savaime nelaikykite pigesniu to paties sprendimo variantu."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ką parašyti pirmai užklausai?"
+          "text": "Prieš priimdami sprendimą, patikrinkite, ar tikrai norite abiejuose pasiūlymuose tos pačios funkcijos: šviesą praleidžiančio ar tamsinančio audinio, vienodo valdymo ir tų pačių paslaugų. Jei skiriasi poreikis, skirtingos kainos nebūtinai reiškia, kad vienas pasirinkimas geresnis."
         },
         {
           "type": "paragraph",
-          "text": "Pateikite vietovę Klaipėdoje, langų skaičių, preliminarius matmenis, kambario poreikį ir jau žinomus pasirinkimus. Jei sistemos nežinote, nurodykite tai. Tiekėjas ir galimybė įgyvendinti konkretų sprendimą turi būti patvirtinti atskirai."
-        },
-        {
-          "type": "paragraph",
-          "text": "Geriausias pirmos užklausos rezultatas – aiškesnė informacija kitam pokalbiui. Šiame projekte užklausos pateikimas nėra kainos skaičiavimas ar įsipareigojimas pagaminti roletus."
+          "text": "Jei dar renkatės ir norite užregistruoti savo poreikį, galite parašyti MB Pinet adresu info@pinet.lt. Tai susidomėjimo registracija, ne roletų užsakymas ar montavimo vizitas; šiuo metu nėra patvirtinto tiekėjo ar montavimo komandos, o užklausa automatiškai neperduodama trečiajai šaliai."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [],
-      "links": [
+      "publishAt": "2026-10-07T12:52:15.095Z",
+      "media": [
         {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
+          "id": "7f4bcfbd-3fec-4e4a-b827-e517e96d2179",
+          "src": "/content-assets/roletaiklaipedoje/7f4bcfbd-3fec-4e4a-b827-e517e96d2179.webp",
+          "alt": "Audinių ir kasetės pavyzdžiai šalia tuščių pasiūlymo apimties lapų",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
         },
         {
-          "targetPageId": "c594e978-c63c-4870-931f-c8105414b8ae",
-          "label": "Roletų poreikio užklausa Klaipėdoje"
+          "id": "c35fa7d6-2799-407c-8cd6-3ed0e7d41e8e",
+          "src": "/content-assets/roletaiklaipedoje/c35fa7d6-2799-407c-8cd6-3ed0e7d41e8e.webp",
+          "alt": "Audinių ir kasetės pavyzdžiai šalia tuščių pasiūlymo apimties lapų",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "88e9a2c9-3fcb-43b0-abb8-f3a978c8ce51",
+          "src": "/content-assets/roletaiklaipedoje/88e9a2c9-3fcb-43b0-abb8-f3a978c8ce51.webp",
+          "alt": "Audinių ir kasetės pavyzdžiai šalia tuščių pasiūlymo apimties lapų",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "232f4a08-c348-4551-8367-ac0a470c9b1b",
+          "src": "/content-assets/roletaiklaipedoje/232f4a08-c348-4551-8367-ac0a470c9b1b.webp",
+          "alt": "Audinių ir kasetės pavyzdžiai šalia tuščių pasiūlymo apimties lapų",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "31e47d38-245b-495c-ba5e-a681074270aa",
+          "src": "/content-assets/roletaiklaipedoje/31e47d38-245b-495c-ba5e-a681074270aa.webp",
+          "alt": "Audinių ir kasetės pavyzdžiai šalia tuščių pasiūlymo apimties lapų",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "c724b12b-2821-4990-95f8-bfc1167f49cb",
+          "label": "Ką išmatuoti prieš roletų užklausą"
+        },
+        {
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Aprašykite savo langą"
         }
       ],
       "externalLinks": [
         {
+          "url": "https://www.ikea.com/lt/lt/p/langdans-ritinine-uzuolaida-pilka-50471837/",
+          "label": "IKEA Lietuva: LÅNGDANS ritininė užuolaida, 80 × 250 cm",
+          "reason": "Gamintojo prekės puslapyje nurodytas šio konkretaus modelio audinio plotis 80 cm ir visos užuolaidos plotis 83,6 cm. Puslapis peržiūrėtas 2026-10-07; pavyzdys tekste aiškiai neapibendrinamas kitoms sistemoms."
+        },
+        {
           "url": "https://www.luxaflex.co.uk/products/roller-blinds/",
-          "label": "Luxaflex: audinių ir valdymo pasirinkimai",
-          "reason": "Pagrindžia pasirinkimų įvairovę, ne mūsų kainas; 2026-09-30."
+          "label": "Luxaflex: Roller blinds",
+          "reason": "Gamintojo puslapis aprašo skirtingus audinių šviesos pralaidumo variantus, valdymo sistemas ir pasirenkamas šonines kreipiančiąsias; naudota tik konkrečiam klausimui, ką sulyginti pasiūlymuose. Peržiūrėta 2026-10-07."
+        },
+        {
+          "url": "https://www.isotra.com/verra-semi-fabric-roller-blind",
+          "label": "ISOTRA: Verra semi",
+          "reason": "Gamintojo puslapyje paaiškinta konkretaus Verra semi diena–naktis varianto dviejų sluoksnių konstrukcija bei nurodyta, kad leistini matmenys priklauso nuo audinio. Pavyzdys tekste neperkeliamas kitoms sistemoms. Peržiūrėta 2026-10-07."
         }
       ],
-      "id": "fa88aa44-5dbc-4163-9b5f-6d8244b09037",
-      "revisionHash": "cdb870556c66ce86750ea470b8b6f01ce165a7894a43fce6466670198cb5bf6d",
+      "id": "060391b8-d36b-4717-b4ec-a6a8cd6665d0",
+      "revisionHash": "7fc64d2173683fc5875f8db93bca986ef2af1dcde919c69d8b7f13d56c359298",
       "approval": {
         "status": "approved",
-        "revisionHash": "cdb870556c66ce86750ea470b8b6f01ce165a7894a43fce6466670198cb5bf6d",
-        "approvedAt": "2026-09-30T08:50:52.783Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "7fc64d2173683fc5875f8db93bca986ef2af1dcde919c69d8b7f13d56c359298",
+        "approvedAt": "2026-10-07T12:46:15.143Z",
+        "actorId": "Codex /root — local browser repairs, no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
-      "type": "faq",
-      "slug": "gidai",
-      "title": "Praktiniai roletų pasirinkimo gidai",
-      "description": "Atsakymai apie roletų pasirinkimą, diena–naktis ir blackout, preliminarius matmenis bei pasiūlymų palyginimą.",
-      "intent": "Kur rasti atsakymą į konkretų roletų pasirinkimo klausimą?",
+      "type": "home",
+      "slug": "",
+      "title": "Roletai Klaipėdoje: pradėkite nuo šviesos",
+      "description": "Kaip apgalvoti šviesą ir privatumą, ką pasižymėti apie langą ir ką reiškia poreikio registracija Klaipėdoje.",
+      "intent": "Pasirinkimo gidai ir lango poreikio registracija Klaipėdoje. Audinys, šviesa ir matmenys prieš kreipiantis dėl roletų.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Pradėkite nuo klausimo, kurį dabar sprendžiate. Jei nežinote, kokio roleto reikia, pirmas gidas padės aprašyti kambario poreikį. Toliau pasirinkite audinių palyginimą, matmenų pasiruošimą arba pasiūlymų vertinimą."
+          "text": "Roletą verta rinktis nuo situacijos prie lango: kada šviesa trukdo, kiek privatumo norite ir ką kambaryje norėtumėte pakeisti. Pirmiausia užsirašykite svarbiausią poreikį, o tik tada lyginkite audinius ir sistemas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši svetainė yra MB Pinet kuriamas roletų poreikio registracijos pilotas. Tai nėra parduotuvė ar montavimo paslauga. Registracija nėra užsakymas ar vizito pažadas, o pateiktas poreikis automatiškai neperduodamas trečiajai šaliai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Gidai padeda pasiruošti sprendimui"
+          "text": "Pradėkite nuo šviesos ir privatumo"
         },
         {
           "type": "paragraph",
-          "text": "Ši informacija nepakeičia konkretaus gaminio instrukcijos, patvirtintų užsakymo matmenų ar montuotojo vertinimo. Poreikį galima pateikti ir nežinant modelio."
+          "text": "Stebėkite, kada langas kelia daugiausia rūpesčių. Jei dirbant dieną erzina akinimas, užrašykite, kuriuo metu ir kurioje kambario vietoje jis juntamas. Jei svarbiausias privatumas, pažymėkite, ar jo norite dieną, vakare, ar abiem atvejais. Miegamajame gali būti svarbu tamsesnė aplinka, tačiau tikslų rezultatą reikėtų vertinti pagal konkretaus gaminio aprašą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite vieną pagrindinį tikslą ir, jei reikia, antrą pagal svarbą. Vėliau lygindami konkrečius variantus, tikrinkite informaciją apie audinį ir tai, kaip visa sistema uždengia langą; vien spalvos ar gaminio pavadinimo pasirinkimui nepakanka."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasižymėti apie savo langą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpi pastebėjimai padės aiškiau apibūdinti poreikį. Tai paruošiamoji informacija, o ne galutiniai matmenys ar gaminio parinkimas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kambarys – nurodykite, kuriame kambaryje yra langas ir kokiai veiklai jis svarbus.",
+            "Laikas – užrašykite, kada problema ryškiausia: ryte, dieną ar vakare.",
+            "Tikslas – pasirinkite pagrindinį prioritetą, pavyzdžiui, mažiau akinimo, daugiau privatumo arba tamsesnį kambarį.",
+            "Kliūtys prie lango – paminėkite rankeną, atidaromą varčią, balkono duris ar kitą dalyką, kuris gali turėti įtakos sprendimui."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką reiškia poreikio registracija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuo metu nėra patvirtinto roletų tiekėjo, montavimo komandos, kainų ar atvykimo termino. Todėl poreikio registracija nereiškia, kad gausite kainos pasiūlymą, užsakysite gaminį ar susitarsite dėl montavimo. Ji skirta susidomėjimui ir lango poreikiui apibūdinti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl projekto ar savo poreikio kreipkitės į MB Pinet el. paštu info@pinet.lt. Daugiau apie pateikimo kelią rasite puslapyje „Aprašykite savo langą“."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
-      "media": [],
+      "publishAt": "2026-10-07T11:51:53.502Z",
+      "media": [
+        {
+          "id": "9c87c9f6-e1b8-4592-a2b3-16f527437bf1",
+          "src": "/content-assets/roletaiklaipedoje/9c87c9f6-e1b8-4592-a2b3-16f527437bf1.webp",
+          "alt": "Šviesus iliustracinis kambarys su dviem lininio atspalvio roletais",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "f38979d5-42cf-447d-b291-808ecc18c726",
+          "src": "/content-assets/roletaiklaipedoje/f38979d5-42cf-447d-b291-808ecc18c726.webp",
+          "alt": "Šviesus iliustracinis kambarys su dviem lininio atspalvio roletais",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "a09454a9-4533-4927-b367-3d10e4f54a13",
+          "src": "/content-assets/roletaiklaipedoje/a09454a9-4533-4927-b367-3d10e4f54a13.webp",
+          "alt": "Šviesus iliustracinis kambarys su dviem lininio atspalvio roletais",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "92f67e70-feae-4314-9292-4a22aa8d1d56",
+          "src": "/content-assets/roletaiklaipedoje/92f67e70-feae-4314-9292-4a22aa8d1d56.webp",
+          "alt": "Šviesus iliustracinis kambarys su dviem lininio atspalvio roletais",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        },
+        {
+          "id": "a9af6bce-712c-4771-86f9-e0134d83200f",
+          "src": "/content-assets/roletaiklaipedoje/a9af6bce-712c-4771-86f9-e0134d83200f.webp",
+          "alt": "Šviesus iliustracinis kambarys su dviem lininio atspalvio roletais",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali šio projekto ImageGen iliustracija, 2026-10-07. Ne klientų projektas ar parduodamas gaminys."
+        }
+      ],
       "links": [
         {
-          "targetPageId": "4bba5ebd-fb82-4377-b908-272d057623cd",
-          "label": "Kaip išsirinkti roletus pagal kambarį ir poreikį"
-        },
-        {
-          "targetPageId": "04f06ca0-76f6-4ab2-bc1b-87cdf0e140ff",
-          "label": "Diena–naktis ar blackout: ką iš tikrųjų lyginate?"
-        },
-        {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
-        },
-        {
-          "targetPageId": "fa88aa44-5dbc-4163-9b5f-6d8244b09037",
-          "label": "Nuo ko priklauso roletų kaina ir kaip palyginti pasiūlymus"
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Aprašykite savo langą"
         }
       ],
-      "id": "51db8a91-f90e-4ed9-8b20-27fbb7ef4d47",
-      "revisionHash": "1ba1bb45b3e119ac8c6d4ece37a0ff55be413da4a2bfc23d24929f81eba17045",
+      "bodyProjection": "canonical",
+      "id": "edd9c46e-bac6-481d-97c3-dcfd33124f5f",
+      "revisionHash": "4ad36b2453621ac95d16933c8207cff29565f3d4339a4f55e1b0e0a0e562cbd0",
       "approval": {
         "status": "approved",
-        "revisionHash": "1ba1bb45b3e119ac8c6d4ece37a0ff55be413da4a2bfc23d24929f81eba17045",
-        "approvedAt": "2026-09-30T08:50:52.697Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "4ad36b2453621ac95d16933c8207cff29565f3d4339a4f55e1b0e0a0e562cbd0",
+        "approvedAt": "2026-10-07T12:28:33.929Z",
+        "actorId": "Codex /root — local projection correction; no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
       "type": "service",
-      "slug": "roletu-poreikis",
-      "title": "Roletų poreikio užklausa Klaipėdoje",
-      "description": "Aprašykite kambario poreikį, langų skaičių ir preliminarius matmenis. Kas pateikiama užklausoje ir ką reiškia jos išsiuntimas.",
-      "intent": "Kaip aiškiai aprašyti roletų poreikį Klaipėdoje?",
+      "slug": "gidai",
+      "title": "Roletų pasirinkimo gidai",
+      "description": "Nuo kambario poreikio ir šviesos bei privatumo balanso iki preliminarių matmenų: praktiniai klausimai, padedantys pasiruošti roletų pasirinkimui.",
+      "intent": "Nuo šviesos ir privatumo iki preliminarių matmenų: praktiški roletų pasirinkimo gidai.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Šiame projekte galite pateikti roletų poreikio užklausą. Jei dar nežinote modelio, aprašykite kambarį, norimą šviesą ar privatumą ir langus. Operatorius – MB Pinet; kontaktas – info@pinet.lt."
+          "text": "Roletų pasirinkimą pradėkite nuo to, ką norite pakeisti kambaryje: sumažinti akinimą, turėti daugiau privatumo ar kitaip valdyti į patalpą patenkančią šviesą. Tada įvertinkite, kaip naudojamas langas ir kas gali trukdyti roletui ar jo valdymui. Šie atsakymai padeda aiškiau aprašyti poreikį, bet patys nenustato tinkamo audinio, tvirtinimo ar galutinio matmens."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Ką pateikti"
+          "text": "Pasirinkite, nuo kurio klausimo pradėti"
         },
         {
           "type": "list",
           "items": [
-            "Kambario paskirtį ir problemą, kurią norite spręsti.",
-            "Klaipėdos vietovę; tikslaus būsto adreso pradžiai nereikia.",
-            "Langų / varčių skaičių, preliminarius dydžius ir matavimo vietą.",
-            "Jau žinomą audinio, valdymo ar tvirtinimo pageidavimą.",
-            "Konkretų klausimą ir detales, kurių dar nežinote."
+            "Jei dar svarstote, ko reikia konkrečiam kambariui, skaitykite „Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos“.",
+            "Jei svarbiausia šviesa ir privatumas, pradėkite nuo „Diena–naktis ar blackout: šviesa ir privatumas“. Įvardykite, kokio šviesos pokyčio siekiate ir kada privatumas aktualiausias; vien audinio pavadinimas neatsako į visus klausimus apie lango uždengimą.",
+            "Jei jau ruošiatės kreiptis dėl roletų, naudokitės gidu „Ką išmatuoti prieš roletų užklausą“. Užsirašykite, kaip ir kur atlikti preliminarūs matavimai, bei nurodykite kliūtis, pavyzdžiui, rankeną ar dažnai varstomą langą. Galutinis matavimo būdas priklauso nuo pasirinktos sistemos, todėl universaliai atimti centimetrų nereikėtų."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Ką reiškia užklausa"
+          "text": "Ko tikėtis iš poreikio registracijos"
         },
         {
           "type": "paragraph",
-          "text": "Tai poreikio aprašymas informaciniame projekte. Išsiuntimas nepatvirtina kainos, tiekimo, matavimo vizito ar montavimo. Šios nišos tiekėjai ir darbų atlikimo pajėgumas dar nepatvirtinti."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ko nereikia pridėti"
-        },
-        {
-          "type": "paragraph",
-          "text": "Mokėjimo duomenų, asmens dokumentų ir tikslaus būsto adreso. Forma priima tekstą ir neturi nuotraukų įkėlimo. Jei norite rašyti tiesiogiai, naudokite info@pinet.lt."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Papasakokite apie savo langus"
-        },
-        {
-          "type": "paragraph",
-          "text": "Žinutėje pakanka to, ką jau žinote. Nežinomus duomenis taip ir įvardykite. Užklausa nėra užsakymas."
+          "text": "„Roletai Klaipėdoje“ kuriama kaip pasirinkimo gidų ir poreikio registracijos pilotas. Tai nėra roletų parduotuvė ar montavimo paslauga. Poreikio registracija nėra užsakymas ar pažadas dėl vizito, o pateikta informacija trečiajai šaliai automatiškai neperduodama."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
+      "publishAt": "2026-10-07T11:51:53.508Z",
       "media": [],
       "links": [
         {
-          "targetPageId": "19a1a829-66a1-4461-9dd4-ab83d097c31a",
-          "label": "Lango matmenys roletams: ką pasiruošti užklausai"
+          "targetPageId": "8cdccbb2-c005-4b1e-9009-6a103eb91476",
+          "label": "Kaip pasirinkti roletus: nuo kambario poreikio iki sistemos"
         },
         {
-          "targetPageId": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-          "label": "Kontaktai ir jūsų roletų poreikis"
+          "targetPageId": "f89735ad-2a98-42b1-970b-32676758a669",
+          "label": "Diena–naktis ar blackout: šviesa ir privatumas"
         },
         {
-          "targetPageId": "d9359aab-1946-49eb-86b9-d54b192e4319",
-          "label": "Privatumo informacija"
+          "targetPageId": "c724b12b-2821-4990-95f8-bfc1167f49cb",
+          "label": "Ką išmatuoti prieš roletų užklausą"
         }
       ],
-      "id": "c594e978-c63c-4870-931f-c8105414b8ae",
-      "revisionHash": "1158a45450db43eb748a54ddb77d4bca05f51dc971b8b6a7ae57f2976572c213",
+      "id": "decedd62-337c-4faa-8db1-19944097b625",
+      "revisionHash": "dc09807bf52ea40074efc4a8e2d91e7595332447aefa862e75f0e56e91b54114",
       "approval": {
         "status": "approved",
-        "revisionHash": "1158a45450db43eb748a54ddb77d4bca05f51dc971b8b6a7ae57f2976572c213",
-        "approvedAt": "2026-09-30T08:50:52.807Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "dc09807bf52ea40074efc4a8e2d91e7595332447aefa862e75f0e56e91b54114",
+        "approvedAt": "2026-10-07T12:46:15.137Z",
+        "actorId": "Codex /root — local browser repairs, no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
-      "type": "faq",
+      "type": "service",
       "slug": "kontaktai",
-      "title": "Kontaktai ir jūsų roletų poreikis",
-      "description": "MB Pinet projekto kontaktas info@pinet.lt ir roletų poreikio užklausos forma. Užklausa nėra užsakymas ar vizito rezervacija.",
-      "intent": "Kaip susisiekti dėl savo langų ir roletų klausimo?",
+      "title": "Aprašykite savo langą Klaipėdoje",
+      "description": "Užregistruokite roletų poreikį Klaipėdoje arba parašykite MB Pinet el. paštu info@pinet.lt. Poreikio registracija nėra užsakymas ar vizito rezervacija.",
+      "intent": "Registruokite roletų poreikį Klaipėdoje arba susisiekite su MB Pinet adresu info@pinet.lt.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Projekto operatorius – MB Pinet. El. paštas – info@pinet.lt. Šiam domenui atskiras telefono numeris ir salonas nenurodyti."
+          "text": "Renkate roletus būstui Klaipėdoje? Aprašykite, kokį langą norite uždengti ir kas kelia daugiausia klausimų — pavyzdžiui, akinanti saulė, privatumas ar dar neaiškūs matmenys. Šis projektas skirtas poreikiams registruoti ir aiškiau apsvarstyti pasirinkimus."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Ką parašyti žinutėje"
+          "text": "Ką parašyti apie langą"
         },
         {
           "type": "paragraph",
-          "text": "Nurodykite kambarį, langų skaičių ir svarbiausią poreikį. Jei turite preliminarius matmenis, pažymėkite, ką matavote. Klaipėdos vietovės pakanka – tikslaus adreso pirmoje žinutėje nereikia."
+          "text": "Formos žinutėje galite nurodyti kambario paskirtį, langų skaičių, kaip atsiveria langas ir kokios šviesos ar privatumo norėtumėte. Jei jau matavote, pridėkite preliminarius matmenis; jei ne, tai irgi naudinga paminėti. Galutinį matavimą lemia konkretaus gaminio instrukcija, todėl universalaus matmenų atėmimo čia netaikome."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys, kaip galima aprašyti poreikį: „Svetainėje yra du langai, popietėmis stipriai akina, o preliminarių matmenų dar neturiu.“ Tai tik iliustracinis pavyzdys, ne kliento užklausa."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Papasakokite apie savo langus"
+          "text": "Poreikio registracija"
         },
         {
           "type": "paragraph",
-          "text": "Priimame tekstines poreikio užklausas. Tai informacinis projektas: išsiuntimas nėra roletų užsakymas, kainos patvirtinimas ar matavimo vizito rezervacija."
+          "text": "Pateikite vardą, el. pašto adresą, žinutę ir sutikimą formoje. Užklausa registruoja jūsų poreikį MB Pinet; tai nėra roletų užsakymas, kainos pasiūlymas ar matavimo, konsultacijos ar montavimo vizito rezervacija. Šiuo metu nėra patvirtinto tiekėjo ar montavimo komandos, o užklausa automatiškai neperduodama trečiajai šaliai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei patogiau, galite parašyti adresu info@pinet.lt. Atsakymo termino nežadame. Prieš pateikdami duomenis, susipažinkite su puslapiu Privatumas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei prieš registruodami poreikį norite daugiau pasiruošti, peržiūrėkite Roletų pasirinkimo gidus ir gidą Ką išmatuoti prieš roletų užklausą."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
+      "publishAt": "2026-10-07T11:51:53.514Z",
       "media": [],
       "links": [
         {
-          "targetPageId": "c594e978-c63c-4870-931f-c8105414b8ae",
-          "label": "Roletų poreikio užklausa Klaipėdoje"
+          "targetPageId": "69064c9b-5ff0-481f-8044-7eda18da503a",
+          "label": "Privatumas"
         },
         {
-          "targetPageId": "d9359aab-1946-49eb-86b9-d54b192e4319",
-          "label": "Privatumo informacija"
+          "targetPageId": "decedd62-337c-4faa-8db1-19944097b625",
+          "label": "Roletų pasirinkimo gidai"
+        },
+        {
+          "targetPageId": "c724b12b-2821-4990-95f8-bfc1167f49cb",
+          "label": "Ką išmatuoti prieš roletų užklausą"
         }
       ],
-      "id": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-      "revisionHash": "76ed555004a0583afac6eefb758c88d743288e29f40d437928a22abde15f3e41",
+      "id": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+      "revisionHash": "d1064b74b1f413cdf87db96242c0cb228f42657a6c153f448f1a7bc0497bf7f4",
       "approval": {
         "status": "approved",
-        "revisionHash": "76ed555004a0583afac6eefb758c88d743288e29f40d437928a22abde15f3e41",
-        "approvedAt": "2026-09-30T08:50:52.830Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "d1064b74b1f413cdf87db96242c0cb228f42657a6c153f448f1a7bc0497bf7f4",
+        "approvedAt": "2026-10-07T12:03:38.515Z",
+        "actorId": "Codex /root — local review only; no deployment"
       }
     },
     {
       "siteId": "roletaiklaipedoje",
-      "type": "faq",
-      "slug": "privatumas",
-      "title": "Privatumo informacija",
-      "description": "MB Pinet užklausų duomenys, jų paskirtis ir bendri susidomėjimo skaitikliai. Duomenų klausimams – info@pinet.lt.",
-      "intent": "Kas tvarko pateiktą užklausą ir kokie duomenys naudojami?",
+      "type": "service",
+      "slug": "apie-projekta",
+      "title": "Apie šį projektą",
+      "description": "Kas valdo Roletai Klaipėdoje, kaip rengiami pasirinkimo gidai ir ką reiškia poreikio registracija.",
+      "intent": "Kas valdo Roletai Klaipėdoje ir kokiu tikslu kuriami roletų pasirinkimo gidai bei poreikio registracija.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Projekto roletaiklaipedoje.lt operatorius – MB Pinet. Dėl pateiktų duomenų ir šios informacijos rašykite info@pinet.lt. Šis tekstas aprašo vietinio pirmos fazės projekto techninį duomenų kelią."
+          "text": "„Roletai Klaipėdoje“ – MB Pinet kuriamas informacinis projektas. Juo siekiama padėti Klaipėdos gyventojams aiškiau įvertinti roletų pasirinkimus ir suprasti, kokią informaciją verta pasiruošti prieš kreipiantis į pardavėją ar montuotoją."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Užklausos duomenys"
+          "text": "Kas vykdo projektą"
         },
         {
           "type": "paragraph",
-          "text": "Formoje pateikiate vardą, el. paštą ir žinutę bei pažymite sutikimą naudoti juos atsakymui į jūsų užklausą. Įrašas turi pateikimo ir sutikimo laiką, puslapio kelią, svetainės identifikatorių bei apdorojimo būseną. Duomenys naudojami pateiktam poreikiui apdoroti ir susisiekti jūsų nurodytu el. paštu; forma neprenumeruoja rinkodaros laiškų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Nerašykite mokėjimo duomenų, slaptažodžių, asmens dokumentų ar kitos užklausai nereikalingos jautrios informacijos. Pirmai žinutei nereikia tikslaus būsto adreso."
+          "text": "Projektą vykdo MB Pinet. Šiuo metu tai nėra roletų parduotuvė ar montavimo paslaugų teikėjas: neturime patvirtinto tiekėjo, montavimo komandos, kainoraščio ar paslaugos atlikimo termino. Čia pateikiama informacija skirta padėti pasiruošti savarankiškam pasirinkimui, o ne pakeisti konkretaus gaminio instrukciją ar pardavėjo konsultaciją."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Saugojimas ir pristatymas"
+          "text": "Ką reiškia poreikio registracija"
         },
         {
           "type": "paragraph",
-          "text": "Vietinėje peržiūroje užklausa išsaugoma šio kompiuterio bandomojoje duomenų bazėje. Vietinė peržiūra nepatvirtina tikro el. laiško pristatymo. Prieš viešą paleidimą turi būti patvirtinti produkcinis saugojimas, pristatymas, naudojami paslaugų teikėjai, duomenų saugojimo terminas ir galutinė duomenų valdytojo informacija."
+          "text": "Projektu tikrinama, ar gyventojams naudingi aiškesni pasirinkimo gidai ir poreikio registracija. Pateiktas poreikis nėra užsakymas, vizito rezervacija ar pažadas pateikti kainos pasiūlymą. Šiuo metu nėra susitarimo, pagal kurį užklausos būtų automatiškai perduodamos tiekėjui ar montuotojui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite pasiteirauti apie patį projektą, galite naudoti kontaktų puslapį arba rašyti MB Pinet adresu info@pinet.lt."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Bendri susidomėjimo skaitikliai"
+          "text": "Kaip rengiama informacija"
         },
         {
           "type": "paragraph",
-          "text": "Skaičiuojamos dienos puslapių peržiūros ir kontaktinio el. pašto nuorodų paspaudimai. Skaitiklio įrašas turi tik svetainę, dieną, viešo puslapio kelią, įvykio rūšį ir bendrą skaičių. Analitikos slapukai ir individualūs lankytojų identifikatoriai nenaudojami; IP adresas šiame skaitiklio įraše nesaugomas."
+          "text": "Straipsniai rengiami pasitelkiant dirbtinį intelektą ir redakcijos peržiūrimi. Svarbūs gaminių teiginiai tikrinami pagal gamintojų pirminę informaciją, kai ji prieinama. Tai nėra praktinių bandymų ar asmeninės montavimo patirties aprašymai. Daugiau apie šaltinių tikrinimą ir dirbtinio intelekto naudojimą rasite puslapyje Redakcija ir pataisymai."
         },
         {
           "type": "paragraph",
-          "text": "Naršyklės Do Not Track arba Global Privacy Control signalas sustabdo šį skaitiklį. Tai nėra unikalių lankytojų skaičius. Kontaktinės nuorodos paspaudimas nėra gautas laiškas; išsaugota užklausa ir pristatytas laiškas taip pat vertinami atskirai."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Klausimai ir prašymai dėl duomenų"
-        },
-        {
-          "type": "paragraph",
-          "text": "Dėl savo užklausos, jos tikslinimo ar pašalinimo kreipkitės į info@pinet.lt ir nurodykite el. paštą, kuriuo pateikėte užklausą. Nesiųskite perteklinių asmens dokumentų kopijų. Viešam paleidimui galutinis privatumo tekstas bus tikslinamas pagal realų duomenų tvarkymą."
+          "text": "Informacija apie tai, kaip tvarkomi per projektą pateikti asmens duomenys, pateikiama privatumo puslapyje."
         }
       ],
-      "publishAt": "2026-09-30T08:50:52.438Z",
+      "publishAt": "2026-10-07T11:51:53.519Z",
       "media": [],
       "links": [
         {
-          "targetPageId": "44cd29b0-1d7c-4e06-bbd9-61c70ff6508f",
-          "label": "Kontaktai ir jūsų roletų poreikis"
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "kontaktų puslapį"
+        },
+        {
+          "targetPageId": "d9dd415b-b8da-448f-a693-86492b086b84",
+          "label": "Redakcija ir pataisymai"
+        },
+        {
+          "targetPageId": "69064c9b-5ff0-481f-8044-7eda18da503a",
+          "label": "privatumo puslapyje"
         }
       ],
-      "id": "d9359aab-1946-49eb-86b9-d54b192e4319",
-      "revisionHash": "c7bf992936996ba58b2317fafa5342cbe9ac131b6abdc23c91413fe483fbea4d",
+      "id": "954941b8-c1e2-4ead-bdce-bae596fc21c4",
+      "revisionHash": "27b5914421e253e3643cd3e07b3458d495d0b961ffdd778090fad70941396073",
       "approval": {
         "status": "approved",
-        "revisionHash": "c7bf992936996ba58b2317fafa5342cbe9ac131b6abdc23c91413fe483fbea4d",
-        "approvedAt": "2026-09-30T08:50:52.856Z",
-        "actorId": "codex-source-review-2026-09-30"
+        "revisionHash": "27b5914421e253e3643cd3e07b3458d495d0b961ffdd778090fad70941396073",
+        "approvedAt": "2026-10-07T12:49:11.131Z",
+        "actorId": "Codex /root — inline correction, no deployment"
+      }
+    },
+    {
+      "siteId": "roletaiklaipedoje",
+      "type": "service",
+      "slug": "redakcija",
+      "title": "Redakcija ir pataisymai",
+      "description": "Kaip MB Pinet rengia ir tikrina roletų pasirinkimo gidus, žymi iliustracijas ir priima pranešimus apie netikslumus.",
+      "intent": "MB Pinet redakcinė atsakomybė, šaltinių tikrinimas, AI naudojimas ir klaidų taisymo tvarka.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Roletai Klaipėdoje turinį rengia MB Pinet redakcija. Gidai skirti padėti skaitytojams apgalvoti roletų pasirinkimą; jie nėra montavimo paslaugos ar klientų darbų katalogas. Daugiau apie projekto paskirtį skaitykite puslapyje „Apie šį projektą“."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rengiame tekstus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tekstai rengiami pasitelkiant dirbtinį intelektą ir redakciškai tikrinami. Kai teiginiui pagrįsti reikia išorinių duomenų, remiamės pirminiais šaltiniais, pavyzdžiui, gamintojo informacija. Konkretaus modelio savybes priskiriame tam modeliui, o ne visoms roletų sistemoms. Redakcinė peržiūra nereiškia, kad gaminį išbandėme ar sumontavome."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame projekte nėra patvirtintos montavimo komandos ar pateiktų klientų darbų. Naudojami generuoti interjerų vaizdai yra iliustracijos, o ne klientų būstų ar parduodamų gaminių nuotraukos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pranešti apie netikslumą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastebėję klaidą, parašykite adresu info@pinet.lt. Nurodykite straipsnio adresą, netikslų teiginį ir, jei turite, jį pagrindžiantį šaltinį. Redakcija įvertins pateiktą informaciją; atsakymo termino nežadame."
+        },
+        {
+          "type": "paragraph",
+          "text": "Straipsnio peržiūros datą keičiame tada, kai reikšmingai pasikeičia jo turinys, o ne vien dėl datos atnaujinimo."
+        }
+      ],
+      "publishAt": "2026-10-07T11:51:53.524Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "954941b8-c1e2-4ead-bdce-bae596fc21c4",
+          "label": "Apie šį projektą"
+        }
+      ],
+      "id": "d9dd415b-b8da-448f-a693-86492b086b84",
+      "revisionHash": "61438170bd77052c63378e1f62f3ed8290aebba3ae57243e9f5e91e9ee1c6b2d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "61438170bd77052c63378e1f62f3ed8290aebba3ae57243e9f5e91e9ee1c6b2d",
+        "approvedAt": "2026-10-07T12:03:38.524Z",
+        "actorId": "Codex /root — local review only; no deployment"
+      }
+    },
+    {
+      "siteId": "roletaiklaipedoje",
+      "type": "service",
+      "slug": "privatumas",
+      "title": "Privatumas",
+      "description": "Sužinokite, kokius duomenis renkame per roletų poreikio registracijos formą, kodėl juos tvarkome ir kaip galite pasinaudoti savo teisėmis.",
+      "intent": "Kokius duomenis renka užklausos forma, kam jie naudojami ir kaip kreiptis dėl savo duomenų.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šiame pranešime aprašomas duomenų tvarkymas, kai per svetainės roletų poreikio registracijos formą pateikiate užklausą. Duomenų valdytojas – MB Pinet. Dėl savo duomenų tvarkymo galite kreiptis el. paštu info@pinet.lt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokius duomenis renkame ir kodėl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikę formą galite nurodyti vardą, el. pašto adresą ir žinutę apie savo langų ar roletų poreikį. Taip pat užregistruojamas sutikimo laikas, sistemos sukurtas įrašo identifikatorius, formos šaltinio puslapis ir užklausos tvarkymo būsena."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuos duomenis naudojame tam, kad galėtume atsakyti į jūsų užklausą ir įvertinti susidomėjimą roletų poreikio registracijos pilotu Klaipėdoje. Užklausa nėra roletų užsakymas, matavimo vizito registracija ar pažadas pateikti pasiūlymą. Duomenys automatiškai neperduodami tiekėjams, nenaudojami rinkodaros žinutėms siųsti ar automatizuotiems sprendimams apie jus priimti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tvarkymo pagrindas ir formos pasirinktinumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užklausos duomenis tvarkome jūsų sutikimo pagrindu. Sutikimą pateikiate pažymėdami formoje tam skirtą laukelį. Pildyti formos neprivalote – svetainės gidus galite skaityti ir jos nepildydami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sutikimą galite bet kada atšaukti el. paštu info@pinet.lt arba formoje parašę, kad atšaukiate sutikimą, ir nurodę el. pašto adresą, kuriuo pateikėte užklausą. Sutikimo atšaukimas nepakeičia iki atšaukimo atlikto tvarkymo teisėtumo. Atšaukus sutikimą, užklausos duomenis ištrinsime rankiniu būdu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Saugojimas ir gavėjai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bandomosios peržiūros aplinkos duomenys saugomi tik vietinėje D1 duomenų bazėje; iš jos realūs el. laiškai nesiunčiami. Užklausų įrašus ištriname rankiniu būdu, kai jų tvarkymo tikslas pasiekiamas, sutikimas atšaukiamas arba ne vėliau kaip praėjus 90 dienų nuo užklausos gavimo. Automatinis ištrynimas šiuo metu neįdiegtas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis aprašymas nurodo bandomosios peržiūros tvarką. Jei prieš viešą formos įjungimą duomenys bus tvarkomi per hostingo, duomenų bazės ar el. pašto paslaugų teikėjus, šiame pranešime turi būti nurodyti jų vaidmenys ir taikoma duomenų saugojimo ar perdavimo tvarka."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų teisės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Duomenų apsaugos teisės aktuose nustatytais atvejais galite prašyti susipažinti su savo duomenimis, juos ištaisyti ar ištrinti, apriboti jų tvarkymą arba gauti juos perkelti. Taip pat galite atšaukti sutikimą. Teisę į duomenų perkeliamumą galima įgyvendinti tik tada, kai tenkinamos teisės aktuose nustatytos sąlygos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prašymą pateikite el. paštu info@pinet.lt. Kad galėtume rasti su jumis susijusią užklausą ir saugiai atsakyti, nurodykite tą patį el. pašto adresą, kurį naudojote formoje. Taip pat turite teisę pateikti skundą Valstybinei duomenų apsaugos inspekcijai (VDAI)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Bendri naudojimo skaitikliai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainės kodas gali kaupti bendrus dienos puslapių peržiūrų ir kontaktų nuorodų paspaudimų skaitiklius: svetainę, datą, puslapio kelią, įvykio tipą ir skaičių. Šioje skaitiklių lentelėje lankytojo identifikatorius, IP adresas ar formos tekstas nesaugomas. Šiam matavimui kodas nenustato analitikos slapukų. Tai nėra teiginys apie visus infrastruktūros žurnalus: viešo hostingo saugos žurnalų ir techninių metaduomenų tvarka turi būti patikslinta prieš paleidimą."
+        }
+      ],
+      "publishAt": "2026-10-07T11:51:53.528Z",
+      "media": [],
+      "links": [],
+      "externalLinks": [
+        {
+          "url": "https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en",
+          "label": "Europos duomenų apsaugos valdyba",
+          "reason": "Sutikimo pasirinktinumas, tikslas, informacija ir atšaukimas. Patikrinta 2026-10-07."
+        },
+        {
+          "url": "https://www.edpb.europa.eu/topics/key-gdpr-concepts/data-subject-rights_en",
+          "label": "Europos duomenų apsaugos valdyba",
+          "reason": "Duomenų subjekto teisės ir jų taikymo sąlygos. Patikrinta 2026-10-07."
+        },
+        {
+          "url": "https://vdai.lrv.lt/",
+          "label": "Valstybinė duomenų apsaugos inspekcija",
+          "reason": "Lietuvos duomenų apsaugos priežiūros institucija ir skundų kelias. Patikrinta 2026-10-07."
+        }
+      ],
+      "id": "69064c9b-5ff0-481f-8044-7eda18da503a",
+      "revisionHash": "39cf555188e7b0f4421247a4221cbb183cd64dba59901b2d93cb030434a4f804",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "39cf555188e7b0f4421247a4221cbb183cd64dba59901b2d93cb030434a4f804",
+        "approvedAt": "2026-10-07T12:03:38.530Z",
+        "actorId": "Codex /root — local review only; no deployment"
+      }
+    },
+    {
+      "siteId": "roletaiklaipedoje",
+      "type": "service",
+      "slug": "naudojimo-salygos",
+      "title": "Naudojimo sąlygos",
+      "description": "Informacijos, iliustracijų ir poreikio registracijos paskirtis bei naudojimo ribos.",
+      "intent": "Informacijos, iliustracijų ir poreikio registracijos paskirtis bei naudojimo ribos.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šios sąlygos paaiškina, kaip naudotis svetaine „Roletai Klaipėdoje“ ir kaip suprasti joje pateiktą informaciją. Svetainę administruoja MB Pinet. Klausimus ar pranešimus apie galimą klaidą galite siųsti adresu info@pinet.lt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Svetainės paskirtis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainėje pateikiami bendro pobūdžio gidai, padedantys apgalvoti roletų pasirinkimą ir lango poreikį. Šiuo metu MB Pinet nėra roletų parduotuvė ar montuotojas: svetainėje neparduodami gaminiai ir neužsakomi montavimo darbai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacija ir iliustracijos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gidai nepakeičia konkretaus gaminio instrukcijos ar jo pardavėjo pateiktų sąlygų. Matmenys, kuriuos lankytojas gali užsirašyti užklausai, yra preliminarūs. Tinkamas matavimo būdas priklauso nuo pasirinktos sistemos ir gamintojo nurodymų; universalaus matmenų koregavimo ši svetainė nenustato."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojų ar gaminių pavadinimai, jei jie pateikiami kaip pavyzdžiai, taikomi tik nurodytam atvejui ir savaime nereiškia, kad MB Pinet yra su gamintoju susijusi ar jo rekomenduojama. Svetainės iliustracijos yra vaizdiniai pavyzdžiai, o ne klientų darbų, konkretaus parduodamo gaminio ar atlikto bandymo nuotraukos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Poreikio registracija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei svetainėje pateikiama poreikio forma, jos pateikimas reiškia, kad lankytojas aprašo savo langą ir susidomėjimą. Tai nėra roletų užsakymas, rezervacija, kainos pasiūlymas ar susitarimas dėl vizito, pardavimo arba montavimo. Užklausos duomenys automatiškai neperduodami trečiajai šaliai. Formos pateikimas taip pat nenustato atsakymo ar paslaugos suteikimo termino."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikite tik užklausai reikalingą informaciją. Duomenų tvarkymo paskirtis ir sąlygos aprašomos Privatumo puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Teisės ir atskiri susitarimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien svetainės peržiūra ar poreikio registracija nesudaro roletų pirkimo ar montavimo susitarimo. Jei ateityje būtų pateiktas atskiras pasiūlymas, šios sąlygos jo kainos, pristatymo, atšaukimo ar kitų sąlygų neatstoja. Šis tekstas nėra skirtas apriboti privalomų teisės aktų nustatytas vartotojų teises."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai ir pataisymai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei pastebėjote netikslumą arba turite klausimą apie šias sąlygas, parašykite info@pinet.lt arba apsilankykite Kontaktų puslapyje."
+        }
+      ],
+      "publishAt": "2026-10-07T11:51:53.533Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "69064c9b-5ff0-481f-8044-7eda18da503a",
+          "label": "Privatumo puslapyje"
+        },
+        {
+          "targetPageId": "8353af3d-6e5b-4a71-af7c-340912f004e8",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "id": "fd424d59-4e70-4cfe-99f7-39dcae03e2b1",
+      "revisionHash": "43d8e647702902e10dfb98a2de079db2b91058e13eb52e779fbc319d05f1ac27",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "43d8e647702902e10dfb98a2de079db2b91058e13eb52e779fbc319d05f1ac27",
+        "approvedAt": "2026-10-07T12:03:38.535Z",
+        "actorId": "Codex /root — local review only; no deployment"
       }
     }
   ],
-  "generatedAt": "2026-09-30T08:53:20.453Z"
+  "generatedAt": "2026-10-07T12:49:11.141Z"
 }

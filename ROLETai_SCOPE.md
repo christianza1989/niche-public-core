@@ -1,0 +1,11 @@
+# Roletaiklaipedoje local rebuild
+
+Branch reserves the roletaiklaipedoje renderer, CSS, package and own content-assets. Replaces its obsolete implementation with an original light-selection editorial site. Private sibling studio holds business facts, research, drafts, reviews and original image prompts. No deployment, DNS, SMTP, mailboxes or other sites are changed.
+
+Final own probes: scripts/verify-roletai-http.mjs, verify-roletai-interest.mjs, verify-roletai-mail.mjs and check-home-reading.mjs. One authorized marked self-test to info@pinet.lt used existing SMTP configuration in an isolated server; no protocol, mailbox settings or client messaging changes. SMTP acceptance and exact-ID INBOX absence are separate evidence. Test-only D1 cleanup is scoped to exact site/UUID or the guarded counter tuple. No credentials, logs, local hosting file, backup packages or private audit material belong in this PR.
+
+Shared file reservation: lib/niche-seo.ts and a pure reading helper/regression test. The current V1 LLM export skips the approved homepage body for every domain except one hardcoded site ID. The new renderer reads its complete approved homepage body, so the omission is reproducible and would make HTML and LLM representations disagree. Repair the shared export without another site-ID exception; assess legacy renderer alignment separately. Other shared repairs only where reproduced evidence requires them, with tests and private CORE_GAPS receipts. Local publication/media guards and inquiry storage will be checked after import. Visual verification cannot be claimed before actual browser inspection.
+
+Shared form-verifier reservation: scripts/verify-phase-one-local.mjs now accepts explicit local site/base/source parameters, checks the selected tenant before writing, preserves the existing tractor output default, and removes only its uniquely marked synthetic record. A real roletai D1 receipt is retained privately.
+
+Signed V1 home-body contract reservation: scripts/content-package-core.mjs and lib/niche-sites.ts. Legacy home renderers do not all expose the complete stored body (actual HTTP corpus check found gaps). The LLM reader will export a whole home body only when its approved revision explicitly declares canonical bodyProjection. No site-ID exception or unrelated renderer/package rewrite.
