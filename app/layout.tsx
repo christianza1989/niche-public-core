@@ -43,6 +43,11 @@ export default async function RootLayout({
       <html lang={niche.locale.slice(0, 2).toLowerCase()}>
         <head>
           <NicheStyles />
+          {niche.siteId === "promedical" && <>
+            <link rel="stylesheet" href="/fonts/promedical/font.css" />
+            <link rel="preload" href="/fonts/promedical/_Xms-HUzqDCFdgfMm4q9DbZs.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/promedical/_Xms-HUzqDCFdgfMm4S9DQ.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          </>}
           {niche.siteId === "traktoriupadangos" && <>
             <link rel="preload" href="/fonts/traktoriupadangos/barlow-condensed-latin-3787a5a41917.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/traktoriupadangos/barlow-condensed-latin-ext-9d351bd9222b.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />

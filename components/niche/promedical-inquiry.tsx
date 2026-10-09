@@ -7,7 +7,7 @@ type Item = { sku: string; title: string; path: string; quantity: number };
 const key = "promedical-request-v1";
 const eventName = "promedical-request-change";
 function read(): Item[] {
-  try { const data = JSON.parse(localStorage.getItem(key) || "[]"); return Array.isArray(data) ? data.filter(v => typeof v.sku === "string" && typeof v.title === "string" && /^\/produktai\/[a-z0-9-]+$/.test(v.path) && Number.isInteger(v.quantity) && v.quantity > 0 && v.quantity <= 999).slice(0, 20) : []; } catch { return []; }
+  try { const data = JSON.parse(localStorage.getItem(key) || "[]"); return Array.isArray(data) ? data.filter(v => v && typeof v.sku === "string" && v.sku.length<=100 && typeof v.title === "string" && v.title.length<=300 && /^\/produktai\/[a-z0-9-]+$/.test(v.path) && Number.isInteger(v.quantity) && v.quantity > 0 && v.quantity <= 999).slice(0, 20) : []; } catch { return []; }
 }
 function write(items: Item[]) { localStorage.setItem(key, JSON.stringify(items)); window.dispatchEvent(new Event(eventName)); }
 function useItems() {
@@ -18,9 +18,9 @@ function useItems() {
 export function InquiryCount() { const items = useItems(); return <span className={s.count} aria-label={`${items.length} produktų užklausos sąraše`}>{items.length}</span>; }
 export function AddToInquiry({ sku, title, path }: Omit<Item, "quantity">) {
   const items = useItems(); const [quantity, setQuantity] = useState(1); const [notice, setNotice] = useState("");
-  const present = items.some(v => v.sku === sku);
+  const present = items.some(v => v.path === path);
   function add() {
-    const current = read(); const found = current.find(v => v.sku === sku);
+    const current = read(); const found = current.find(v => v.path === path);
     if (!found && current.length >= 20) { setNotice("Sąraše galima pasirinkti iki 20 produktų. Didesnį poreikį aprašykite užklausoje."); return; }
     if (found) found.quantity = Math.min(999, found.quantity + quantity); else current.push({ sku, title, path, quantity });
     try { write(current); setNotice("Produktas įtrauktas. Kiekį galite keisti užklausos sąraše."); } catch { setNotice("Naršyklė neleidžia išsaugoti sąrašo. Nukopijuokite katalogo kodą į užklausą."); }
@@ -29,8 +29,8 @@ export function AddToInquiry({ sku, title, path }: Omit<Item, "quantity">) {
 }
 export function InquiryForm({ email }: { email: string }) {
   const items = useItems(); const [message, setMessage] = useState(""); const [status, setStatus] = useState(""); const [busy, setBusy] = useState(false); const [saved, setSaved] = useState(false);
-  function change(sku: string, quantity: number) { try { write(read().map(v => v.sku === sku ? { ...v, quantity: Math.min(999, Math.max(1, quantity || 1)) } : v)); } catch { setStatus("Sąrašo išsaugoti nepavyko. Produktų kodus įrašykite į žinutę."); } }
-  function remove(sku: string) { try { write(read().filter(v => v.sku !== sku)); } catch { setStatus("Sąrašo išsaugoti nepavyko."); } }
+  function change(path: string, quantity: number) { try { write(read().map(v => v.path === path ? { ...v, quantity: Math.min(999, Math.max(1, quantity || 1)) } : v)); } catch { setStatus("Sąrašo išsaugoti nepavyko. Produktų kodus įrašykite į žinutę."); } }
+  function remove(path: string) { try { write(read().filter(v => v.path !== path)); } catch { setStatus("Sąrašo išsaugoti nepavyko."); } }
   const selection = items.length ? "Pasirinkti Klaro produktai:\n" + items.map(v => `${v.sku} — ${v.quantity} vnt. — ${v.title}`).join("\n") + "\n\n" : "";
   const combined = selection + message;
   async function submit(e: React.FormEvent<HTMLFormElement>) {
@@ -46,7 +46,7 @@ export function InquiryForm({ email }: { email: string }) {
     } catch { setStatus("Ryšys nutrūko. Duomenų išsaugojimo patvirtinimo negavome. Bandykite dar kartą arba rašykite el. paštu."); } finally { setBusy(false); }
   }
   return <div id="uzklausa" className={s.inquiryForm}>
-    {items.length > 0 && <section className={s.shortlist} aria-label="Pasirinkti produktai"><h2>Jūsų pasirinkti produktai</h2><p>Šis sąrašas saugomas šioje naršyklėje. Jis dar nėra užsakymas.</p>{items.map(v => <div className={s.shortlistRow} key={v.sku}><div><a href={v.path}>{v.title}</a><span>{v.sku}</span></div><label><span className={s.srOnly}>{v.sku} kiekis</span><input type="number" min="1" max="999" value={v.quantity} onChange={e => change(v.sku, Number(e.target.value))}/><span>vnt.</span></label><button type="button" className={s.remove} onClick={() => remove(v.sku)} aria-label={`Pašalinti ${v.sku}`}>Pašalinti</button></div>)}</section>}
+    {items.length > 0 && <section className={s.shortlist} aria-label="Pasirinkti produktai"><h2>Jūsų pasirinkti produktai</h2><p>Šis sąrašas saugomas šioje naršyklėje. Jis dar nėra užsakymas.</p>{items.map(v => <div className={s.shortlistRow} key={v.path}><div><a href={v.path}>{v.title}</a><span>{v.sku}</span></div><label><span className={s.srOnly}>{v.title}: {v.sku} kiekis</span><input type="number" min="1" max="999" value={v.quantity} onChange={e => change(v.path, Number(e.target.value))}/><span>vnt.</span></label><button type="button" className={s.remove} onClick={() => remove(v.path)} aria-label={`Pašalinti ${v.title} (${v.sku})`}>Pašalinti</button></div>)}</section>}
     <form action="/uzklausa" method="post" onSubmit={submit} className={s.form}>
       <h2>Pateikite poreikį</h2><div className={s.formGrid}><label>Kontaktinis asmuo<input name="name" autoComplete="name" minLength={2} maxLength={100} required /></label><label>El. paštas<input name="email" type="email" autoComplete="email" maxLength={250} required /></label></div>
       <label>Įstaiga, skyrius ir papildomi reikalavimai<textarea name="message" rows={6} value={message} onChange={e => setMessage(e.target.value)} maxLength={3000} minLength={items.length ? undefined : 20} required={!items.length} placeholder="Įstaigos pavadinimas, skyrius, įrangos paskirtis, norimi matmenys ar priedai, pageidaujamas terminas..." aria-describedby="request-help" /></label>
