@@ -1,0 +1,1225 @@
+{
+  "recordedAt": "2026-10-06T17:29:27.356Z",
+  "status": "live-canonical",
+  "dns": {
+    "registrar": "Hostinger",
+    "authority": "Cloudflare",
+    "zones": "active",
+    "nameServers": [
+      "asa.ns.cloudflare.com",
+      "sullivan.ns.cloudflare.com"
+    ],
+    "ordinaryResolverHttps": "PASS",
+    "systemDnsUnchanged": true,
+    "oldHostingerZone": "Website A records bridged for cached old nameservers; gift certificate TXT mirrored narrowly during validation",
+    "mailDns": "pinet.lt preserved"
+  },
+  "workersDev": false,
+  "versionPreviews": false,
+  "mail": {
+    "mailbox": "info@pinet.lt",
+    "transport": "Authenticated HTTPS to pinned PHPMailer/PHP on existing own Hostinger Premium hosting",
+    "workerMailboxPassword": "deleted",
+    "primaryInbox": "PASS"
+  },
+  "gitStatus": "Draft PR source handoff; main merge is separate",
+  "limits": [
+    "No current production Lighthouse measurement",
+    "No indexing, demand, capacity or uptime guarantee",
+    "No destructive production restore rehearsal"
+  ],
+  "origin": "https://dovanos123.lt",
+  "service": "dovanos123-preview",
+  "version": "5dd0cd85-93e4-4a1c-9892-b191d0c20b60",
+  "deployedAt": "2026-10-07T10:34:16.442355Z",
+  "contentSha256": "f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b",
+  "canonicalVerification": {
+    "origin": "https://dovanos123.lt",
+    "at": "2026-10-07T10:34:38.145Z",
+    "production": true,
+    "pages": [
+      {
+        "path": "/straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/kaledines-dovanos-porai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/kaledines-dovanos-porai",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/ka-dovanoti-vyrui-kaledoms",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/ka-dovanoti-vyrui-kaledoms",
+        "schema": true
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai",
+        "schema": true
+      },
+      {
+        "path": "/autoriai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/autoriai",
+        "schema": true
+      },
+      {
+        "path": "/apie",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/apie",
+        "schema": true
+      },
+      {
+        "path": "/kontaktai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/kontaktai",
+        "schema": true
+      },
+      {
+        "path": "/redakcine-politika",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/redakcine-politika",
+        "schema": true
+      },
+      {
+        "path": "/partneriu-nuorodu-atskleidimas",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/partneriu-nuorodu-atskleidimas",
+        "schema": true
+      },
+      {
+        "path": "/autoriai/dovanos123-redakcija",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/autoriai/dovanos123-redakcija",
+        "schema": true
+      },
+      {
+        "path": "/privatumas",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/privatumas",
+        "schema": true
+      },
+      {
+        "path": "/slapukai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/slapukai",
+        "schema": true
+      },
+      {
+        "path": "/taisykles",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/taisykles",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/kaip-isrinkti-dovana",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/kaip-isrinkti-dovana",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-mazai-pazistamam-zmogui",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-mazai-pazistamam-zmogui",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-zmogui-kuris-viska-turi",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-zmogui-kuris-viska-turi",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/prasmingos-dovanos-idejos",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/prasmingos-dovanos-idejos",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-artimiesiems",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-artimiesiems",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-mamai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-mamai",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-teciui",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-teciui",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-moterims",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-moterims",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-vyrams",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-vyrams",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-vaikams",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-vaikams",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-paaugliams",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-paaugliams",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-draugei",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-draugei",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-pagal-proga",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-pagal-proga",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-gimtadieniui-ir-jubiliejui",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-gimtadieniui-ir-jubiliejui",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-vestuvems",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-vestuvems",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/kaledines-dovanos-moteriai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/kaledines-dovanos-moteriai",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-valentino-dienai",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-valentino-dienai",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovana-velykoms",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovana-velykoms",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/padeka-mokytojui-ir-aukletojui",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/padeka-mokytojui-ir-aukletojui",
+        "schema": true
+      },
+      {
+        "path": "/straipsniai/dovanos-pagal-biudzeta",
+        "status": 200,
+        "canonical": "https://dovanos123.lt/straipsniai/dovanos-pagal-biudzeta",
+        "schema": true
+      }
+    ],
+    "media": [
+      {
+        "url": "/content-assets/dovanos123/3ca49289-5119-4d60-810e-fe2ca2575a10.webp",
+        "sha256": "4f4d26dd62880af89013fd6eccd72cc180c347c82f7b96f8e3f277595e62cf06"
+      },
+      {
+        "url": "/content-assets/dovanos123/76408ead-e53f-4de0-876e-668b308f5115.webp",
+        "sha256": "0990b27ca06148a6689b9f185f50f686dd2d70c81272cbf196c047818e5c6ecd"
+      },
+      {
+        "url": "/content-assets/dovanos123/a0f855a7-8c52-4a4a-a552-a2c2d343f974.webp",
+        "sha256": "3d1ca77833f87edf4cb90dbe2f59a7385d0b05b2dfbad22e978f104aa382fccf"
+      },
+      {
+        "url": "/content-assets/dovanos123/e94d0723-d210-450b-a6ee-cc14ebe14975.webp",
+        "sha256": "a41fec8906cd79bd31a0e94d5e8ed68dcf0bba067c62988d5032c9bab52cee69"
+      },
+      {
+        "url": "/content-assets/dovanos123/00e65700-09cc-403c-a057-0c0055390ce2.webp",
+        "sha256": "b0ee003492d3d311c2a834de21cb198016db7af3b380491aba28ae49c67a904b"
+      },
+      {
+        "url": "/content-assets/dovanos123/0e8bc9ab-f506-4cbe-89a9-e3b322276735.webp",
+        "sha256": "414e61520f502310caf3c0e0a009822e53a2f7b0040563fe1b290093d805e521"
+      },
+      {
+        "url": "/content-assets/dovanos123/91569ccc-9252-41e5-a263-73b5bbe26e25.webp",
+        "sha256": "96d05bcb730f9fc17fa1aa835c2f1b1f5211b9011d27696d03b6df41b2e5df49"
+      },
+      {
+        "url": "/content-assets/dovanos123/f2274242-7ae3-48ac-9be2-aa796e98f82e.webp",
+        "sha256": "708be6646a1298d0c70d10eb2bd682fa512132573cefcc1388be656c02a575c4"
+      },
+      {
+        "url": "/content-assets/dovanos123/84cd4ad9-ee78-455d-9283-1eeb0ec2f46e.webp",
+        "sha256": "7673e0b74688872815fb18812beeea767676bc086eceac8101df33d0668565e7"
+      },
+      {
+        "url": "/content-assets/dovanos123/446bb397-59b0-4ff9-bd2f-7fab613ff8b9.webp",
+        "sha256": "d05860f30efd6716b539c4167d191603e8018c51358906ad48551831dc3b7f09"
+      },
+      {
+        "url": "/content-assets/dovanos123/390d8a4e-958b-45f7-a961-4886e44a667c.webp",
+        "sha256": "9283dbc487b3b19d71fd86222b2316da8857dc10ee14c1eeba5a8745f8d34e7b"
+      },
+      {
+        "url": "/content-assets/dovanos123/c99e0ed2-28ef-4331-8da1-c064bc843f60.webp",
+        "sha256": "cc71077d48dc01f40ffb30a0c9cdcea54c978dc088ec5ff1fed33710750ef03f"
+      },
+      {
+        "url": "/content-assets/dovanos123/207bc8ab-c6df-4e62-ade2-41659752991b.webp",
+        "sha256": "512f7eb50b4e3fada0faedfd431c8bad3e5cbb6e368800da833fc75bbdc146b9"
+      },
+      {
+        "url": "/content-assets/dovanos123/d22d5b83-0f13-4d7b-bd82-b8a13734ade1.webp",
+        "sha256": "3972e59a2c9b7d8b49872f4e085d821c93c276360416ddac8396d75dd473c43a"
+      },
+      {
+        "url": "/content-assets/dovanos123/f3208800-ded2-466f-8b1a-0a9651e4c29e.webp",
+        "sha256": "6caa638912612ed6bd7b40d6d9f9482f837c5c4e41dee1e19b5c0d01bf31da08"
+      },
+      {
+        "url": "/content-assets/dovanos123/f478dc66-c121-4eb9-824b-fff7982bd0c1.webp",
+        "sha256": "04a822d38d72f363a23919a9e061d56493b3963399f1a83f5e0d00443463822e"
+      },
+      {
+        "url": "/content-assets/dovanos123/e91b72b4-a8fd-4567-9c42-5754eafb2999.webp",
+        "sha256": "d98be962ae59dc930e5e19659b63d661ba820cccf4a549dffa4e014a58f47c83"
+      },
+      {
+        "url": "/content-assets/dovanos123/202d6fd6-ab9d-486f-baee-f4f488aa9129.webp",
+        "sha256": "58c853db4a7c19f92cf01613ffee5e6aeb0bd73b026564a36cc22ad3d28a611d"
+      },
+      {
+        "url": "/content-assets/dovanos123/6189900b-6401-45e4-b421-62ce74df3152.webp",
+        "sha256": "93f9e95dba93594e569e1b845279ab1b587b0a7313267fc5db731704985c733f"
+      },
+      {
+        "url": "/content-assets/dovanos123/f23e691c-a3a1-40bd-8f6b-b4053699a073.webp",
+        "sha256": "be3b6a65a8556dfcb80c56b6764b85acafc898a043973ff684caf9070ce59d2f"
+      },
+      {
+        "url": "/content-assets/dovanos123/0388a9cd-6ae5-4969-84d5-3f006a6a9a3f.webp",
+        "sha256": "587cc5834954d5312b5daa406d1f0fc91da092c632aa115bfa7f49175e6259d6"
+      },
+      {
+        "url": "/content-assets/dovanos123/a6231e27-6f19-4bc1-bad4-6934aac20767.webp",
+        "sha256": "d7991c8d982613774f4058b91facda645d4d86120c3ae6ba7e77c9a7b5e2e488"
+      },
+      {
+        "url": "/content-assets/dovanos123/62b06c78-30ec-45b0-806c-1203f531daf8.webp",
+        "sha256": "b0484a548039abaf4b8d5dc1671afadf998f27c5e0a91e9369558661d4b8a4ff"
+      },
+      {
+        "url": "/content-assets/dovanos123/264a44fa-2bbe-4835-93d7-5decb6bd70af.webp",
+        "sha256": "3738e70e69317621f3b5eb7d6e518ad1303390eaae57933af665119d13065258"
+      },
+      {
+        "url": "/content-assets/dovanos123/ca3d78b6-b19e-451c-a1e5-a203f19ba521.webp",
+        "sha256": "1be67e9d620ae2ac560287999bbf35c024f04ffe58e98dc03377cb018d345081"
+      },
+      {
+        "url": "/content-assets/dovanos123/7cc3b454-1080-40db-88b7-2b2b14daae5d.webp",
+        "sha256": "7ef1a2b7dacc27d2e6964aa2e57aec05756698814cc83a505c7360e7f2e88ec9"
+      },
+      {
+        "url": "/content-assets/dovanos123/7a32a029-b4ee-447f-806f-d412e18f085c.webp",
+        "sha256": "0a90db9dfebd9d17d951a60a3159553ea59ab62695c45989d81fc07a3867d56e"
+      },
+      {
+        "url": "/content-assets/dovanos123/3c1c6f43-3ef6-41e2-b8e6-cb9a15976809.webp",
+        "sha256": "5862e8d63b3f68f384f5e66a32685207bc830f0834b9193b7e8424b26b8ffdec"
+      },
+      {
+        "url": "/content-assets/dovanos123/b3c4b5ea-b7e3-4575-8217-8e9675196461.webp",
+        "sha256": "5b67595a14eeab789940cbce5ac1254f3a5a96c6ce433ab1a84ab137a02a30fb"
+      },
+      {
+        "url": "/content-assets/dovanos123/3030f6d0-465b-4253-a29c-adbc4ae5125b.webp",
+        "sha256": "1abbae58d810542e03d296c4d7e04dca04cbb49d480c2f7c3d463cfbb60d544a"
+      },
+      {
+        "url": "/content-assets/dovanos123/e82766ad-92f2-4795-9c1d-518d1bd64440.webp",
+        "sha256": "c3497801ac94a302389323e392a037cb67787b0bf412fbd1786cfc52ff52c897"
+      },
+      {
+        "url": "/content-assets/dovanos123/f8e4f054-7798-487a-b58e-c636263241cd.webp",
+        "sha256": "86be3c908d72e1d0e0b3cfab6fab6fd85b819cb40edfcf9d0feffd548a2e36e8"
+      },
+      {
+        "url": "/content-assets/dovanos123/2d857535-d8c9-475c-a701-5390cd393bb4.webp",
+        "sha256": "4c708f54ced8325a98fb4f8babe0981b9d12f67a955b039b98fefa380db1e741"
+      },
+      {
+        "url": "/content-assets/dovanos123/7677d51b-5667-4432-bb44-e0fbcb79476b.webp",
+        "sha256": "7310508531f44a78796500f38384ef0912fd1877dfdfcf507e37907ee6434e66"
+      },
+      {
+        "url": "/content-assets/dovanos123/c3adecb9-c205-4273-b0fc-123378378352.webp",
+        "sha256": "ae2c20e4aef7328c437f267178147052174ced95a2ca7ffa866614793662cca0"
+      },
+      {
+        "url": "/content-assets/dovanos123/aa9f3644-908a-402a-913b-467b9c51713e.webp",
+        "sha256": "a1778d8f536040e28fc6c93b92d066171aafcbb51bc215880137b60d3ab34278"
+      },
+      {
+        "url": "/content-assets/dovanos123/38dbbfba-8ee2-4b69-836f-2a825855dd18.webp",
+        "sha256": "dd4b35ce22347f96cff27334010a926a5df683ba79e2d13b8e02bafc3c7d0b65"
+      },
+      {
+        "url": "/content-assets/dovanos123/8c2b3db9-227c-4b74-b67e-3d73d4ea0b34.webp",
+        "sha256": "f983b9b06570c407155fd3a2fe820833e3b0ff148b1835cd113fcb84b748de12"
+      },
+      {
+        "url": "/content-assets/dovanos123/726fd02a-465c-4d86-88b5-a223893e9480.webp",
+        "sha256": "e291d25eca624e1be08d6bed7aff3d1c6f140b812119193aa28a818e3c6fc831"
+      },
+      {
+        "url": "/content-assets/dovanos123/70ba54d7-2d75-41f4-b322-ffb107147be4.webp",
+        "sha256": "50ba5df04751d30a36abff5eecea60a2c0961dd56cb112479086f866bf8874a1"
+      },
+      {
+        "url": "/content-assets/dovanos123/15013786-173b-466b-a5ed-ea0b007fc5d5.webp",
+        "sha256": "4bcac090998a285c17c3850dc161b6e08912f8f87dc0f604b5656c8e36031982"
+      },
+      {
+        "url": "/content-assets/dovanos123/6b99f741-2280-4078-a198-89f6b3d75cac.webp",
+        "sha256": "43094fb957228baf7d665f7659884a92dbb57632dd407701a4ec2efff93f1f83"
+      },
+      {
+        "url": "/content-assets/dovanos123/9c5a1eb5-a4b5-4db5-9123-90cc6c4fe936.webp",
+        "sha256": "fa4d600a869aadd3e4214b200dcda70a0a975875b80c6679a96a9d9c91619631"
+      },
+      {
+        "url": "/content-assets/dovanos123/3b09aff6-204f-4e53-9181-f6992a7495e1.webp",
+        "sha256": "457bc103e5e5476afcacf9b5e5e938ac9b9835cd452f4eb78144683ee30a98b7"
+      },
+      {
+        "url": "/content-assets/dovanos123/dd7bc405-6625-4bd0-860d-509d6e00bfd3.webp",
+        "sha256": "82da35ebb9c7747678404d2ec479bd9481518360aa37b90b888f0a7f0f105335"
+      },
+      {
+        "url": "/content-assets/dovanos123/0a57e9f2-4e98-4e52-808e-5e417d60fe20.webp",
+        "sha256": "16f28eb2a85aa30a79f1b1574ea9657be80d691a65066baf69543c25bce860ce"
+      },
+      {
+        "url": "/content-assets/dovanos123/9117795b-a51b-4340-b0e2-687e03e1041d.webp",
+        "sha256": "6dd3959b09a8f44c36d2ab41c753bda6a13c8e5e638f9b434d6bf442fb675cc8"
+      },
+      {
+        "url": "/content-assets/dovanos123/84b585a7-343f-43e0-9b04-917232b608f7.webp",
+        "sha256": "a03c4e8139f9804122481a9c3c283603af0c468fb5c63c4e3be782981e504f54"
+      },
+      {
+        "url": "/content-assets/dovanos123/212059c1-d1c0-4985-8d5e-523fea280af6.webp",
+        "sha256": "7bcbf029068f3dcf58c61eb4e09834bf8dee013b7bdd8d0cca90a9e3853514a0"
+      },
+      {
+        "url": "/content-assets/dovanos123/6d276852-2ee3-4bb6-a12c-dcd2906b606a.webp",
+        "sha256": "756586e7f70e76088e7c2e9e8b988c62bb5d57d0f8a7bd879d83126413382d32"
+      },
+      {
+        "url": "/content-assets/dovanos123/a51e5b01-7034-4bcf-a123-e1f14506fe26.webp",
+        "sha256": "17c809e730263edd21471fde2fde8924daeebad44836ecf873cc9c78f8ed2a0a"
+      },
+      {
+        "url": "/content-assets/dovanos123/25e7923d-231d-480d-9070-10f7daa8f9d8.webp",
+        "sha256": "09423156dd9e6c38d4632e20bcf359a8ac0c2213d11260d854747be2ed3db401"
+      },
+      {
+        "url": "/content-assets/dovanos123/18d50fcb-51c2-4ed5-b1ee-a2eb3aaa5abe.webp",
+        "sha256": "cb933fea0775bc346fd5d1e0ec88754c4463fad7f27987ed107f567a5f67db80"
+      },
+      {
+        "url": "/content-assets/dovanos123/a355b74c-aebe-4185-a63d-06c047407f5c.webp",
+        "sha256": "78812b07af9170475b06a0fdbe3365c88ff4d984f8b0d4f281e1f13be9cd5eb7"
+      },
+      {
+        "url": "/content-assets/dovanos123/0da73627-abf8-4184-90be-bfbe24b08094.webp",
+        "sha256": "dfd7c90d52992168e8ca7a94b7813c5a92378601685076dd8880cf130af524a6"
+      },
+      {
+        "url": "/content-assets/dovanos123/a47a76c0-d9c1-417e-a3e2-e9d7d541244d.webp",
+        "sha256": "37343afa975e6e0c96e363fee14e21a5ba86ab7cc3c838faf3f2c87e921aa148"
+      },
+      {
+        "url": "/content-assets/dovanos123/1bb94975-a53e-4ba3-b907-19e6479a3ef6.webp",
+        "sha256": "42b55c365b81a1495c769f59065933243d971106ec512c1601c2fd439f82ee8e"
+      },
+      {
+        "url": "/content-assets/dovanos123/e70a6ede-e993-45f1-88bd-d6251cb2b2dc.webp",
+        "sha256": "a997b91002b483470dd9c536360da49839666eff1642c5059cd23c5e9d1dd8b5"
+      },
+      {
+        "url": "/content-assets/dovanos123/b69648c5-4eb8-4484-a382-85b765993c32.webp",
+        "sha256": "f2c68f5c654ec01a25f421ffed7672cc896bed9e4dc36dfbdb5d00220ad4183a"
+      },
+      {
+        "url": "/content-assets/dovanos123/e9ce42bf-89ab-4220-9e59-0f796b6b715d.webp",
+        "sha256": "4c0036748addc360179493c5b7eb722f14d0e19ca545a185fc596ea5888d3239"
+      },
+      {
+        "url": "/content-assets/dovanos123/8e5c433e-6435-46d5-8f85-f8e8fc36700f.webp",
+        "sha256": "266d4d14b8803aa8017a90529eee2bb4b38a482ec59c8bcef18026d2b537727d"
+      },
+      {
+        "url": "/content-assets/dovanos123/3683f733-c59e-4ff5-b299-56578be4bd28.webp",
+        "sha256": "9455c955961483570cff74a77c724b630c413654e152519b3c38739a90ba4228"
+      },
+      {
+        "url": "/content-assets/dovanos123/42f6a3b6-4ddf-4ec9-ba55-de732b5c07c6.webp",
+        "sha256": "0da70a964f34d72e3519da9c04e21367bc56fa080e7d06fdb5356dc04eb7dd0f"
+      },
+      {
+        "url": "/content-assets/dovanos123/0f1b3f22-7f07-4c63-9bda-6502404dfb71.webp",
+        "sha256": "529deb0cabc52588df3f8a19c84447fe52c488332fa4db9225ade0d47c3768a8"
+      },
+      {
+        "url": "/content-assets/dovanos123/7c81f271-eefa-40e4-a808-add132a85a18.webp",
+        "sha256": "635d56ef3b4ddfb50c788e087aef902b8213e71c1b61b30a9b92003c9a825739"
+      },
+      {
+        "url": "/content-assets/dovanos123/4843d57f-376e-4eed-9d58-e1bf9e2f7c9c.webp",
+        "sha256": "3d81fd1df31ffed7b56d7fa06b8c147de2db91177e9fda3f4de60faa7defd69c"
+      },
+      {
+        "url": "/content-assets/dovanos123/95969407-35a6-4c0a-8473-d80924a7dc55.webp",
+        "sha256": "71998682f893d20c48aef13e4c37ff18d9c399e8cf43e1197f124a8791881e79"
+      },
+      {
+        "url": "/content-assets/dovanos123/b524d09e-931d-4abf-85a9-8482921ba13b.webp",
+        "sha256": "a9392c1f42255fb6338b6af1f2bfbac79bed10548e47ba5bb3839018a8450c9d"
+      },
+      {
+        "url": "/content-assets/dovanos123/770bb975-5e98-4cd3-959d-f9285a850195.webp",
+        "sha256": "700c3b701c61b4d9eaefde0ed3b6c009f3a4bbbe76f9313d347bd52ba0bd0bfb"
+      },
+      {
+        "url": "/content-assets/dovanos123/7749a1f3-7737-41e4-9b36-1d2d1f0da319.webp",
+        "sha256": "8f86d14d676e3e0f2158c50571b93c071ed5c86671e010611b9ac1c4572f3ad4"
+      },
+      {
+        "url": "/content-assets/dovanos123/c893c28f-d4a6-465c-8d58-e35630e5f935.webp",
+        "sha256": "3e264f6862eab37e0f52d46aebcd9b173900a9da7085c53c5af3182502b38755"
+      },
+      {
+        "url": "/content-assets/dovanos123/b5f8d7b7-ec5b-4352-91aa-f56009ecc946.webp",
+        "sha256": "a0cfa8d9bb8d03c876257b5909dc708d3008d670763511dfb3806fe79b8edb01"
+      }
+    ],
+    "boundaries": [
+      {
+        "path": "/niche/dovanos123/lead",
+        "status": 404
+      },
+      {
+        "path": "/gift/dovanos123",
+        "status": 404
+      },
+      {
+        "path": "/api/internal/publish-due",
+        "status": 404
+      },
+      {
+        "path": "/content-assets/dovanos123/unapproved.webp",
+        "status": 404
+      },
+      {
+        "path": "/images/legacy-private.webp",
+        "status": 404
+      },
+      {
+        "path": "/not-a-page",
+        "status": 404
+      },
+      {
+        "path": "/.dev.vars",
+        "status": 404
+      },
+      {
+        "path": "/runtime/platform.sqlite",
+        "status": 404
+      }
+    ],
+    "discovery": [
+      {
+        "path": "/sitemap.xml",
+        "status": 200
+      },
+      {
+        "path": "/llms.txt",
+        "status": 200
+      },
+      {
+        "path": "/llms-full.txt",
+        "status": 200
+      }
+    ],
+    "clientAssets": 15,
+    "robots": true,
+    "redirects": true
+  },
+  "mailVerification": {
+    "at": "2026-10-06T17:20:07.110Z",
+    "origin": "https://dovanos123.lt",
+    "originRejected": true,
+    "consentRequired": true,
+    "honeypotNoWrite": true,
+    "durableLead": true,
+    "smtpAccepted": true,
+    "inbox": true
+  },
+  "backup": {
+    "at": "2026-10-06T16:45:58.992Z",
+    "scopedDatabase": "dovanos123-production",
+    "exportSha256": "ceb0174cedcc593e39640fbc4cb498e38747ec559b6e8fdb1aa1ccf7eca3b0ec",
+    "restore": "isolated-sqlite",
+    "integrity": "ok",
+    "leads": 4,
+    "queue": 4
+  },
+  "backupScope": "Four own test leads/jobs at export time; later canonical own test is newer than backup",
+  "browser": {
+    "desktopHomepage": "PASS",
+    "mobile390HomepageAndContact": "PASS",
+    "horizontalOverflow": false,
+    "visibleBrokenHomepageImages": 0
+  },
+  "regression": {
+    "core": 51,
+    "typeScript": "PASS",
+    "productionBuild": "PASS",
+    "seoSmokeProfile": "dovanos123-release PASS (34 pages, 72 media, 8 private boundaries)"
+  },
+  "migration": [
+    "0004_niche_leads.sql",
+    "0005_niche_interest_daily.sql",
+    "0006_niche_lead_delivery.sql"
+  ],
+  "admission": "All 13 maintained gates retained; immutable pre-activation EVIDENCE.json and private exact-bound receipt preserved",
+  "previousCodeVersion": "6ecc1a41-b8a9-4317-886e-5034efb738ff",
+  "runbook": "OPERATIONS.md",
+  "previousRelease": {
+    "version": "c072d424-177c-4db6-b3f7-ccc3d1ff9a11",
+    "deployedAt": "2026-10-07T08:18:45.325892Z",
+    "contentSha256": "f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b",
+    "verificationEvidence": "POST-RELEASE-VERIFICATION-20261007.json",
+    "previousRelease": {
+      "version": "9f5d62f4-b182-44c3-8fef-d2995a315c37",
+      "deployedAt": "2026-10-07T00:12:00.000Z",
+      "contentSha256": "a472045d5ed815123a994ad9077875818bd75a48a515e001859150c5bf1c8f59",
+      "canonicalVerification": {
+        "origin": "https://dovanos123.lt",
+        "at": "2026-10-07T00:13:32.434Z",
+        "production": true,
+        "pages": [
+          {
+            "path": "/straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/kaledines-dovanos-porai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/kaledines-dovanos-porai",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/ka-dovanoti-vyrui-kaledoms",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/ka-dovanoti-vyrui-kaledoms",
+            "schema": true
+          },
+          {
+            "path": "/",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai",
+            "schema": true
+          },
+          {
+            "path": "/autoriai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/autoriai",
+            "schema": true
+          },
+          {
+            "path": "/apie",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/apie",
+            "schema": true
+          },
+          {
+            "path": "/kontaktai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/kontaktai",
+            "schema": true
+          },
+          {
+            "path": "/redakcine-politika",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/redakcine-politika",
+            "schema": true
+          },
+          {
+            "path": "/partneriu-nuorodu-atskleidimas",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/partneriu-nuorodu-atskleidimas",
+            "schema": true
+          },
+          {
+            "path": "/autoriai/dovanos123-redakcija",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/autoriai/dovanos123-redakcija",
+            "schema": true
+          },
+          {
+            "path": "/privatumas",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/privatumas",
+            "schema": true
+          },
+          {
+            "path": "/slapukai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/slapukai",
+            "schema": true
+          },
+          {
+            "path": "/taisykles",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/taisykles",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/kaip-isrinkti-dovana",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/kaip-isrinkti-dovana",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-mazai-pazistamam-zmogui",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-mazai-pazistamam-zmogui",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-zmogui-kuris-viska-turi",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-zmogui-kuris-viska-turi",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/prasmingos-dovanos-idejos",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/prasmingos-dovanos-idejos",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-artimiesiems",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-artimiesiems",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-mamai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-mamai",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-teciui",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-teciui",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-moterims",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-moterims",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-vyrams",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-vyrams",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-vaikams",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-vaikams",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-paaugliams",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-paaugliams",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-draugei",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-draugei",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-pagal-proga",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-pagal-proga",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-gimtadieniui-ir-jubiliejui",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-gimtadieniui-ir-jubiliejui",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-vestuvems",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-vestuvems",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/kaledines-dovanos-moteriai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/kaledines-dovanos-moteriai",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-valentino-dienai",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-valentino-dienai",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovana-velykoms",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovana-velykoms",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/padeka-mokytojui-ir-aukletojui",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/padeka-mokytojui-ir-aukletojui",
+            "schema": true
+          },
+          {
+            "path": "/straipsniai/dovanos-pagal-biudzeta",
+            "status": 200,
+            "canonical": "https://dovanos123.lt/straipsniai/dovanos-pagal-biudzeta",
+            "schema": true
+          }
+        ],
+        "media": [
+          {
+            "url": "/content-assets/dovanos123/3ca49289-5119-4d60-810e-fe2ca2575a10.webp",
+            "sha256": "4f4d26dd62880af89013fd6eccd72cc180c347c82f7b96f8e3f277595e62cf06"
+          },
+          {
+            "url": "/content-assets/dovanos123/76408ead-e53f-4de0-876e-668b308f5115.webp",
+            "sha256": "0990b27ca06148a6689b9f185f50f686dd2d70c81272cbf196c047818e5c6ecd"
+          },
+          {
+            "url": "/content-assets/dovanos123/a0f855a7-8c52-4a4a-a552-a2c2d343f974.webp",
+            "sha256": "3d1ca77833f87edf4cb90dbe2f59a7385d0b05b2dfbad22e978f104aa382fccf"
+          },
+          {
+            "url": "/content-assets/dovanos123/e94d0723-d210-450b-a6ee-cc14ebe14975.webp",
+            "sha256": "a41fec8906cd79bd31a0e94d5e8ed68dcf0bba067c62988d5032c9bab52cee69"
+          },
+          {
+            "url": "/content-assets/dovanos123/00e65700-09cc-403c-a057-0c0055390ce2.webp",
+            "sha256": "b0ee003492d3d311c2a834de21cb198016db7af3b380491aba28ae49c67a904b"
+          },
+          {
+            "url": "/content-assets/dovanos123/0e8bc9ab-f506-4cbe-89a9-e3b322276735.webp",
+            "sha256": "414e61520f502310caf3c0e0a009822e53a2f7b0040563fe1b290093d805e521"
+          },
+          {
+            "url": "/content-assets/dovanos123/91569ccc-9252-41e5-a263-73b5bbe26e25.webp",
+            "sha256": "96d05bcb730f9fc17fa1aa835c2f1b1f5211b9011d27696d03b6df41b2e5df49"
+          },
+          {
+            "url": "/content-assets/dovanos123/f2274242-7ae3-48ac-9be2-aa796e98f82e.webp",
+            "sha256": "708be6646a1298d0c70d10eb2bd682fa512132573cefcc1388be656c02a575c4"
+          },
+          {
+            "url": "/content-assets/dovanos123/84cd4ad9-ee78-455d-9283-1eeb0ec2f46e.webp",
+            "sha256": "7673e0b74688872815fb18812beeea767676bc086eceac8101df33d0668565e7"
+          },
+          {
+            "url": "/content-assets/dovanos123/446bb397-59b0-4ff9-bd2f-7fab613ff8b9.webp",
+            "sha256": "d05860f30efd6716b539c4167d191603e8018c51358906ad48551831dc3b7f09"
+          },
+          {
+            "url": "/content-assets/dovanos123/390d8a4e-958b-45f7-a961-4886e44a667c.webp",
+            "sha256": "9283dbc487b3b19d71fd86222b2316da8857dc10ee14c1eeba5a8745f8d34e7b"
+          },
+          {
+            "url": "/content-assets/dovanos123/c99e0ed2-28ef-4331-8da1-c064bc843f60.webp",
+            "sha256": "cc71077d48dc01f40ffb30a0c9cdcea54c978dc088ec5ff1fed33710750ef03f"
+          },
+          {
+            "url": "/content-assets/dovanos123/207bc8ab-c6df-4e62-ade2-41659752991b.webp",
+            "sha256": "512f7eb50b4e3fada0faedfd431c8bad3e5cbb6e368800da833fc75bbdc146b9"
+          },
+          {
+            "url": "/content-assets/dovanos123/d22d5b83-0f13-4d7b-bd82-b8a13734ade1.webp",
+            "sha256": "3972e59a2c9b7d8b49872f4e085d821c93c276360416ddac8396d75dd473c43a"
+          },
+          {
+            "url": "/content-assets/dovanos123/f3208800-ded2-466f-8b1a-0a9651e4c29e.webp",
+            "sha256": "6caa638912612ed6bd7b40d6d9f9482f837c5c4e41dee1e19b5c0d01bf31da08"
+          },
+          {
+            "url": "/content-assets/dovanos123/f478dc66-c121-4eb9-824b-fff7982bd0c1.webp",
+            "sha256": "04a822d38d72f363a23919a9e061d56493b3963399f1a83f5e0d00443463822e"
+          },
+          {
+            "url": "/content-assets/dovanos123/e91b72b4-a8fd-4567-9c42-5754eafb2999.webp",
+            "sha256": "d98be962ae59dc930e5e19659b63d661ba820cccf4a549dffa4e014a58f47c83"
+          },
+          {
+            "url": "/content-assets/dovanos123/202d6fd6-ab9d-486f-baee-f4f488aa9129.webp",
+            "sha256": "58c853db4a7c19f92cf01613ffee5e6aeb0bd73b026564a36cc22ad3d28a611d"
+          },
+          {
+            "url": "/content-assets/dovanos123/6189900b-6401-45e4-b421-62ce74df3152.webp",
+            "sha256": "93f9e95dba93594e569e1b845279ab1b587b0a7313267fc5db731704985c733f"
+          },
+          {
+            "url": "/content-assets/dovanos123/f23e691c-a3a1-40bd-8f6b-b4053699a073.webp",
+            "sha256": "be3b6a65a8556dfcb80c56b6764b85acafc898a043973ff684caf9070ce59d2f"
+          },
+          {
+            "url": "/content-assets/dovanos123/0388a9cd-6ae5-4969-84d5-3f006a6a9a3f.webp",
+            "sha256": "587cc5834954d5312b5daa406d1f0fc91da092c632aa115bfa7f49175e6259d6"
+          },
+          {
+            "url": "/content-assets/dovanos123/a6231e27-6f19-4bc1-bad4-6934aac20767.webp",
+            "sha256": "d7991c8d982613774f4058b91facda645d4d86120c3ae6ba7e77c9a7b5e2e488"
+          },
+          {
+            "url": "/content-assets/dovanos123/62b06c78-30ec-45b0-806c-1203f531daf8.webp",
+            "sha256": "b0484a548039abaf4b8d5dc1671afadf998f27c5e0a91e9369558661d4b8a4ff"
+          },
+          {
+            "url": "/content-assets/dovanos123/264a44fa-2bbe-4835-93d7-5decb6bd70af.webp",
+            "sha256": "3738e70e69317621f3b5eb7d6e518ad1303390eaae57933af665119d13065258"
+          },
+          {
+            "url": "/content-assets/dovanos123/ca3d78b6-b19e-451c-a1e5-a203f19ba521.webp",
+            "sha256": "1be67e9d620ae2ac560287999bbf35c024f04ffe58e98dc03377cb018d345081"
+          },
+          {
+            "url": "/content-assets/dovanos123/7cc3b454-1080-40db-88b7-2b2b14daae5d.webp",
+            "sha256": "7ef1a2b7dacc27d2e6964aa2e57aec05756698814cc83a505c7360e7f2e88ec9"
+          },
+          {
+            "url": "/content-assets/dovanos123/7a32a029-b4ee-447f-806f-d412e18f085c.webp",
+            "sha256": "0a90db9dfebd9d17d951a60a3159553ea59ab62695c45989d81fc07a3867d56e"
+          },
+          {
+            "url": "/content-assets/dovanos123/3c1c6f43-3ef6-41e2-b8e6-cb9a15976809.webp",
+            "sha256": "5862e8d63b3f68f384f5e66a32685207bc830f0834b9193b7e8424b26b8ffdec"
+          },
+          {
+            "url": "/content-assets/dovanos123/b3c4b5ea-b7e3-4575-8217-8e9675196461.webp",
+            "sha256": "5b67595a14eeab789940cbce5ac1254f3a5a96c6ce433ab1a84ab137a02a30fb"
+          },
+          {
+            "url": "/content-assets/dovanos123/3030f6d0-465b-4253-a29c-adbc4ae5125b.webp",
+            "sha256": "1abbae58d810542e03d296c4d7e04dca04cbb49d480c2f7c3d463cfbb60d544a"
+          },
+          {
+            "url": "/content-assets/dovanos123/e82766ad-92f2-4795-9c1d-518d1bd64440.webp",
+            "sha256": "c3497801ac94a302389323e392a037cb67787b0bf412fbd1786cfc52ff52c897"
+          },
+          {
+            "url": "/content-assets/dovanos123/f8e4f054-7798-487a-b58e-c636263241cd.webp",
+            "sha256": "86be3c908d72e1d0e0b3cfab6fab6fd85b819cb40edfcf9d0feffd548a2e36e8"
+          },
+          {
+            "url": "/content-assets/dovanos123/2d857535-d8c9-475c-a701-5390cd393bb4.webp",
+            "sha256": "4c708f54ced8325a98fb4f8babe0981b9d12f67a955b039b98fefa380db1e741"
+          },
+          {
+            "url": "/content-assets/dovanos123/7677d51b-5667-4432-bb44-e0fbcb79476b.webp",
+            "sha256": "7310508531f44a78796500f38384ef0912fd1877dfdfcf507e37907ee6434e66"
+          },
+          {
+            "url": "/content-assets/dovanos123/c3adecb9-c205-4273-b0fc-123378378352.webp",
+            "sha256": "ae2c20e4aef7328c437f267178147052174ced95a2ca7ffa866614793662cca0"
+          },
+          {
+            "url": "/content-assets/dovanos123/aa9f3644-908a-402a-913b-467b9c51713e.webp",
+            "sha256": "a1778d8f536040e28fc6c93b92d066171aafcbb51bc215880137b60d3ab34278"
+          },
+          {
+            "url": "/content-assets/dovanos123/38dbbfba-8ee2-4b69-836f-2a825855dd18.webp",
+            "sha256": "dd4b35ce22347f96cff27334010a926a5df683ba79e2d13b8e02bafc3c7d0b65"
+          },
+          {
+            "url": "/content-assets/dovanos123/8c2b3db9-227c-4b74-b67e-3d73d4ea0b34.webp",
+            "sha256": "f983b9b06570c407155fd3a2fe820833e3b0ff148b1835cd113fcb84b748de12"
+          },
+          {
+            "url": "/content-assets/dovanos123/726fd02a-465c-4d86-88b5-a223893e9480.webp",
+            "sha256": "e291d25eca624e1be08d6bed7aff3d1c6f140b812119193aa28a818e3c6fc831"
+          },
+          {
+            "url": "/content-assets/dovanos123/70ba54d7-2d75-41f4-b322-ffb107147be4.webp",
+            "sha256": "50ba5df04751d30a36abff5eecea60a2c0961dd56cb112479086f866bf8874a1"
+          },
+          {
+            "url": "/content-assets/dovanos123/15013786-173b-466b-a5ed-ea0b007fc5d5.webp",
+            "sha256": "4bcac090998a285c17c3850dc161b6e08912f8f87dc0f604b5656c8e36031982"
+          },
+          {
+            "url": "/content-assets/dovanos123/6b99f741-2280-4078-a198-89f6b3d75cac.webp",
+            "sha256": "43094fb957228baf7d665f7659884a92dbb57632dd407701a4ec2efff93f1f83"
+          },
+          {
+            "url": "/content-assets/dovanos123/9c5a1eb5-a4b5-4db5-9123-90cc6c4fe936.webp",
+            "sha256": "fa4d600a869aadd3e4214b200dcda70a0a975875b80c6679a96a9d9c91619631"
+          },
+          {
+            "url": "/content-assets/dovanos123/3b09aff6-204f-4e53-9181-f6992a7495e1.webp",
+            "sha256": "457bc103e5e5476afcacf9b5e5e938ac9b9835cd452f4eb78144683ee30a98b7"
+          },
+          {
+            "url": "/content-assets/dovanos123/dd7bc405-6625-4bd0-860d-509d6e00bfd3.webp",
+            "sha256": "82da35ebb9c7747678404d2ec479bd9481518360aa37b90b888f0a7f0f105335"
+          },
+          {
+            "url": "/content-assets/dovanos123/0a57e9f2-4e98-4e52-808e-5e417d60fe20.webp",
+            "sha256": "16f28eb2a85aa30a79f1b1574ea9657be80d691a65066baf69543c25bce860ce"
+          },
+          {
+            "url": "/content-assets/dovanos123/9117795b-a51b-4340-b0e2-687e03e1041d.webp",
+            "sha256": "6dd3959b09a8f44c36d2ab41c753bda6a13c8e5e638f9b434d6bf442fb675cc8"
+          },
+          {
+            "url": "/content-assets/dovanos123/84b585a7-343f-43e0-9b04-917232b608f7.webp",
+            "sha256": "a03c4e8139f9804122481a9c3c283603af0c468fb5c63c4e3be782981e504f54"
+          },
+          {
+            "url": "/content-assets/dovanos123/212059c1-d1c0-4985-8d5e-523fea280af6.webp",
+            "sha256": "7bcbf029068f3dcf58c61eb4e09834bf8dee013b7bdd8d0cca90a9e3853514a0"
+          },
+          {
+            "url": "/content-assets/dovanos123/6d276852-2ee3-4bb6-a12c-dcd2906b606a.webp",
+            "sha256": "756586e7f70e76088e7c2e9e8b988c62bb5d57d0f8a7bd879d83126413382d32"
+          },
+          {
+            "url": "/content-assets/dovanos123/a51e5b01-7034-4bcf-a123-e1f14506fe26.webp",
+            "sha256": "17c809e730263edd21471fde2fde8924daeebad44836ecf873cc9c78f8ed2a0a"
+          },
+          {
+            "url": "/content-assets/dovanos123/25e7923d-231d-480d-9070-10f7daa8f9d8.webp",
+            "sha256": "09423156dd9e6c38d4632e20bcf359a8ac0c2213d11260d854747be2ed3db401"
+          },
+          {
+            "url": "/content-assets/dovanos123/18d50fcb-51c2-4ed5-b1ee-a2eb3aaa5abe.webp",
+            "sha256": "cb933fea0775bc346fd5d1e0ec88754c4463fad7f27987ed107f567a5f67db80"
+          },
+          {
+            "url": "/content-assets/dovanos123/a355b74c-aebe-4185-a63d-06c047407f5c.webp",
+            "sha256": "78812b07af9170475b06a0fdbe3365c88ff4d984f8b0d4f281e1f13be9cd5eb7"
+          },
+          {
+            "url": "/content-assets/dovanos123/0da73627-abf8-4184-90be-bfbe24b08094.webp",
+            "sha256": "dfd7c90d52992168e8ca7a94b7813c5a92378601685076dd8880cf130af524a6"
+          },
+          {
+            "url": "/content-assets/dovanos123/a47a76c0-d9c1-417e-a3e2-e9d7d541244d.webp",
+            "sha256": "37343afa975e6e0c96e363fee14e21a5ba86ab7cc3c838faf3f2c87e921aa148"
+          },
+          {
+            "url": "/content-assets/dovanos123/1bb94975-a53e-4ba3-b907-19e6479a3ef6.webp",
+            "sha256": "42b55c365b81a1495c769f59065933243d971106ec512c1601c2fd439f82ee8e"
+          },
+          {
+            "url": "/content-assets/dovanos123/e70a6ede-e993-45f1-88bd-d6251cb2b2dc.webp",
+            "sha256": "a997b91002b483470dd9c536360da49839666eff1642c5059cd23c5e9d1dd8b5"
+          },
+          {
+            "url": "/content-assets/dovanos123/b69648c5-4eb8-4484-a382-85b765993c32.webp",
+            "sha256": "f2c68f5c654ec01a25f421ffed7672cc896bed9e4dc36dfbdb5d00220ad4183a"
+          },
+          {
+            "url": "/content-assets/dovanos123/e9ce42bf-89ab-4220-9e59-0f796b6b715d.webp",
+            "sha256": "4c0036748addc360179493c5b7eb722f14d0e19ca545a185fc596ea5888d3239"
+          },
+          {
+            "url": "/content-assets/dovanos123/8e5c433e-6435-46d5-8f85-f8e8fc36700f.webp",
+            "sha256": "266d4d14b8803aa8017a90529eee2bb4b38a482ec59c8bcef18026d2b537727d"
+          },
+          {
+            "url": "/content-assets/dovanos123/3683f733-c59e-4ff5-b299-56578be4bd28.webp",
+            "sha256": "9455c955961483570cff74a77c724b630c413654e152519b3c38739a90ba4228"
+          },
+          {
+            "url": "/content-assets/dovanos123/42f6a3b6-4ddf-4ec9-ba55-de732b5c07c6.webp",
+            "sha256": "0da70a964f34d72e3519da9c04e21367bc56fa080e7d06fdb5356dc04eb7dd0f"
+          },
+          {
+            "url": "/content-assets/dovanos123/0f1b3f22-7f07-4c63-9bda-6502404dfb71.webp",
+            "sha256": "529deb0cabc52588df3f8a19c84447fe52c488332fa4db9225ade0d47c3768a8"
+          },
+          {
+            "url": "/content-assets/dovanos123/7c81f271-eefa-40e4-a808-add132a85a18.webp",
+            "sha256": "635d56ef3b4ddfb50c788e087aef902b8213e71c1b61b30a9b92003c9a825739"
+          },
+          {
+            "url": "/content-assets/dovanos123/4843d57f-376e-4eed-9d58-e1bf9e2f7c9c.webp",
+            "sha256": "3d81fd1df31ffed7b56d7fa06b8c147de2db91177e9fda3f4de60faa7defd69c"
+          },
+          {
+            "url": "/content-assets/dovanos123/95969407-35a6-4c0a-8473-d80924a7dc55.webp",
+            "sha256": "71998682f893d20c48aef13e4c37ff18d9c399e8cf43e1197f124a8791881e79"
+          },
+          {
+            "url": "/content-assets/dovanos123/b524d09e-931d-4abf-85a9-8482921ba13b.webp",
+            "sha256": "a9392c1f42255fb6338b6af1f2bfbac79bed10548e47ba5bb3839018a8450c9d"
+          },
+          {
+            "url": "/content-assets/dovanos123/770bb975-5e98-4cd3-959d-f9285a850195.webp",
+            "sha256": "700c3b701c61b4d9eaefde0ed3b6c009f3a4bbbe76f9313d347bd52ba0bd0bfb"
+          },
+          {
+            "url": "/content-assets/dovanos123/7749a1f3-7737-41e4-9b36-1d2d1f0da319.webp",
+            "sha256": "8f86d14d676e3e0f2158c50571b93c071ed5c86671e010611b9ac1c4572f3ad4"
+          },
+          {
+            "url": "/content-assets/dovanos123/c893c28f-d4a6-465c-8d58-e35630e5f935.webp",
+            "sha256": "3e264f6862eab37e0f52d46aebcd9b173900a9da7085c53c5af3182502b38755"
+          },
+          {
+            "url": "/content-assets/dovanos123/b5f8d7b7-ec5b-4352-91aa-f56009ecc946.webp",
+            "sha256": "a0cfa8d9bb8d03c876257b5909dc708d3008d670763511dfb3806fe79b8edb01"
+          }
+        ],
+        "boundaries": [
+          {
+            "path": "/niche/dovanos123/lead",
+            "status": 404
+          },
+          {
+            "path": "/gift/dovanos123",
+            "status": 404
+          },
+          {
+            "path": "/api/internal/publish-due",
+            "status": 404
+          },
+          {
+            "path": "/content-assets/dovanos123/unapproved.webp",
+            "status": 404
+          },
+          {
+            "path": "/images/legacy-private.webp",
+            "status": 404
+          },
+          {
+            "path": "/not-a-page",
+            "status": 404
+          },
+          {
+            "path": "/.dev.vars",
+            "status": 404
+          },
+          {
+            "path": "/runtime/platform.sqlite",
+            "status": 404
+          }
+        ],
+        "discovery": [
+          {
+            "path": "/sitemap.xml",
+            "status": 200
+          },
+          {
+            "path": "/llms.txt",
+            "status": 200
+          },
+          {
+            "path": "/llms-full.txt",
+            "status": 200
+          }
+        ],
+        "clientAssets": 15,
+        "robots": true,
+        "redirects": true
+      }
+    }
+  },
+  "productionAcceptance": {
+    "receipt": "output/gates/batch-002/production-receipt.json",
+    "packageSha256": "a472045d5ed815123a994ad9077875818bd75a48a515e001859150c5bf1c8f59",
+    "gates": [
+      "schema",
+      "routing",
+      "seo",
+      "forms",
+      "media",
+      "time",
+      "revocation",
+      "isolation",
+      "ownership",
+      "dns",
+      "contacts",
+      "inbox",
+      "privacy"
+    ],
+    "status": "PASS",
+    "publishedPages": 34,
+    "newArticles": 20,
+    "images": 72,
+    "foreignLanguageFragmentCorrectedAndReapproved": true
+  },
+  "sourceCommit": "c922d0bb0b75fee27d666cb35bd5a41b91766b3d",
+  "latestRuntimeUpdate": {
+    "kind": "shared V2 llms-full adapter integration",
+    "sourceCommit": "c922d0bb0b75fee27d666cb35bd5a41b91766b3d",
+    "workerVersion": "5dd0cd85-93e4-4a1c-9892-b191d0c20b60",
+    "deployedAt": "2026-10-07T10:34:16.442355Z",
+    "proof": "POST-GEO-DISCOVERY-20261007.json",
+    "packageUnchanged": true,
+    "approvalAndDatesChanged": false
+  }
+}

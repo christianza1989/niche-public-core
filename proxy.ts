@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { nicheSiteByHost, normalizedHost, publicNichePages } from "@/lib/niche-sites";
 import { SITE_CONFIGS } from "@/lib/site-config";
-import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
+import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent, hostedPreviewHost } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 
@@ -23,10 +23,11 @@ export function proxy(request: NextRequest) {
 
   const gift = !niche ? contentPackageByHost(host) : null;
   if (gift) {
+    if(contentAdmissionScope(gift)==='hosted-preview' && host!=='localhost' && host!=='127.0.0.1' && host!==hostedPreviewHost(gift))return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
     if(contentAdmissionScope(gift)==='local-preview' && host!=='localhost' && host!=='127.0.0.1') return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
     if (gift.site.renderer !== 'gift') return new Response('Unsupported content renderer', { status: 404 });
     if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return new Response('Not found', { status: 404 });
-    if (!isPreview(host) && host !== gift.canonicalHost) {
+    if (!isPreview(host) && host !== hostedPreviewHost(gift) && host !== gift.canonicalHost) {
       const destination=request.nextUrl.clone();destination.hostname=gift.canonicalHost;destination.protocol='https:';destination.port='';
       return NextResponse.redirect(destination,308);
     }

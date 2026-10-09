@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
 import {projectContentPagesV2} from '../lib/content-projection-v2.mjs';
 import {contentSeoV2} from '../lib/content-seo-v2.mjs';
 const article=(id,publishAt)=>({id,slug:id,siteId:'sample',type:'article',title:id,description:'Actual useful content',publishAt,revisionHash:'a'.repeat(64),approval:{status:'approved',revisionHash:'a'.repeat(64)},
@@ -41,5 +42,26 @@ test('canonical identity, concise index and updated content stay site scoped',()
     assert.ok(x.full.includes(`URL: https://${host}/current`));assert.ok(!x.full.includes('sample.example'));
     p.pages[0].body[0].text='Meaningfully revised body';
     const updated=exportsAt(p,'2026-10-07T00:00:00Z');assert.match(updated.full,/Meaningfully revised body/);assert.doesNotMatch(updated.full,/Current body current/);
+  }
+});
+test('Dovanos123 live V2 export includes only projected publication facts, profile and reader links',async()=>{
+  const pkg=JSON.parse(await readFile(new URL('../release/dovanos123/content-package.json',import.meta.url),'utf8'));
+  const settings=JSON.parse(await readFile(new URL('../config/niche-network.json',import.meta.url),'utf8'));
+  const commerce=JSON.parse(await readFile(new URL('../config/commerce-targets.json',import.meta.url),'utf8'));
+  const pages=projectContentPagesV2(pkg,[pkg],settings,commerce,Date.parse('2026-10-07T08:21:00Z'));
+  const articles=pages.filter(p=>p.type==='article');
+  assert.equal(articles.length,23);
+  const full=contentSeoV2(pkg,pages,'llms-full').body;
+  assert.match(full,/Publikavimo data: 2026-10-07T00:08:39\.007Z/);
+  assert.match(full,/Turinio atnaujinimo data: 2026-10-07T08:13:37\.000Z/);
+  assert.match(full,/Autoriaus profilis: \[MB Pinet\]\(https:\/\/dovanos123\.lt\/autoriai\/dovanos123-redakcija\)/);
+  assert.match(full,/Susijęs atsakymas: \[[^\]]+\]\(https:\/\/dovanos123\.lt\/straipsniai\//);
+  assert.match(full,/Šaltinis: \[[^\]]+\]\(https:\/\//);
+  const index=contentSeoV2(pkg,pages,'llms').body;
+  assert.doesNotMatch(index,/Dovana mamai turi atitikti jos norą/);
+  for(const page of articles){
+    assert.ok(full.includes(`URL: ${page.url}`),page.id);
+    assert.ok(full.includes(page.editorial.datePublished),page.id+' publication date');
+    assert.ok(full.includes(page.editorial.dateModified),page.id+' modified date');
   }
 });

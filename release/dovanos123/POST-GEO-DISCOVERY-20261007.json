@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "siteId": "dovanos123",
+  "origin": "https://dovanos123.lt",
+  "checkedAt": "2026-10-07T10:36:54.215Z",
+  "workerVersion": "5dd0cd85-93e4-4a1c-9892-b191d0c20b60",
+  "deployedAt": "2026-10-07T10:34:16.442355Z",
+  "sourceCommit": "c922d0bb0b75fee27d666cb35bd5a41b91766b3d",
+  "packageSha256": "f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b",
+  "endpoints": {
+    "/robots.txt": {
+      "status": 200,
+      "cacheControl": "private, no-store"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "cacheControl": "private, no-store"
+    },
+    "/llms.txt": {
+      "status": 200,
+      "cacheControl": "private, no-store"
+    },
+    "/llms-full.txt": {
+      "status": 200,
+      "cacheControl": "private, no-store"
+    }
+  },
+  "inventory": {
+    "pages": 34,
+    "articles": 23,
+    "sitemapUrls": 34
+  },
+  "articleChecks": {
+    "articlesChecked": 23,
+    "allPassed": true,
+    "publicationDates": 23,
+    "modifiedDates": 23,
+    "authorProfileLinks": 23,
+    "relatedLinks": 40,
+    "externalSources": 4
+  },
+  "articles": [
+    {
+      "id": "lt-hand-casting-guide",
+      "path": "/straipsniai/ranku-liejimo-rinkinys-issamus-gidas",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 0,
+      "externalLinks": 0
+    },
+    {
+      "id": "lt-christmas-couple",
+      "path": "/straipsniai/kaledines-dovanos-porai",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 0,
+      "externalLinks": 2
+    },
+    {
+      "id": "lt-christmas-man",
+      "path": "/straipsniai/ka-dovanoti-vyrui-kaledoms",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 0,
+      "externalLinks": 2
+    },
+    {
+      "id": "gift-choose",
+      "path": "/straipsniai/kaip-isrinkti-dovana",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-unknown",
+      "path": "/straipsniai/dovana-mazai-pazistamam-zmogui",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-everything",
+      "path": "/straipsniai/dovana-zmogui-kuris-viska-turi",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-meaning",
+      "path": "/straipsniai/prasmingos-dovanos-idejos",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-recipient",
+      "path": "/straipsniai/dovanos-artimiesiems",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-mother",
+      "path": "/straipsniai/dovanos-mamai",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-father",
+      "path": "/straipsniai/dovanos-teciui",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-women",
+      "path": "/straipsniai/dovanos-moterims",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-men",
+      "path": "/straipsniai/dovanos-vyrams",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-children",
+      "path": "/straipsniai/dovanos-vaikams",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-teen",
+      "path": "/straipsniai/dovanos-paaugliams",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-girlfriend",
+      "path": "/straipsniai/dovanos-draugei",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-occasion",
+      "path": "/straipsniai/dovanos-pagal-proga",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-birthday",
+      "path": "/straipsniai/dovana-gimtadieniui-ir-jubiliejui",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-wedding",
+      "path": "/straipsniai/dovana-vestuvems",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-christmas",
+      "path": "/straipsniai/kaledines-dovanos-moteriai",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-valentine",
+      "path": "/straipsniai/dovana-valentino-dienai",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-easter",
+      "path": "/straipsniai/dovana-velykoms",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-teacher",
+      "path": "/straipsniai/padeka-mokytojui-ir-aukletojui",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    },
+    {
+      "id": "gift-budget",
+      "path": "/straipsniai/dovanos-pagal-biudzeta",
+      "published": true,
+      "modified": true,
+      "profileLinks": 1,
+      "relatedLinks": 2,
+      "externalLinks": 0
+    }
+  ],
+  "limits": [
+    "This verifies the deployed text outputs and cache headers; it does not establish search indexing, AI citations, rankings or demand."
+  ]
+}

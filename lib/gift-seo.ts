@@ -20,12 +20,12 @@ export function giftSchemas(pkg: ContentPackageV2, page: ProjectedContentPageV2,
   const origin = `https://${pkg.canonicalHost}`;
   const indexSlug = navigation.articleIndexSlug ?? "straipsniai";
   const indexLabel = navigation.articleIndexLabel ?? "Dovanų gidai";
-  const organization = { "@type": "Organization", "@id": `${origin}/#publisher`, name: pkg.site.name, url: origin };
+  const organization = { "@type": "Organization", "@id": `${origin}/#publisher`, name: pkg.site.operatorName || pkg.site.name, alternateName: pkg.site.name, url: origin };
   const base = { "@context": "https://schema.org", name: page.title, description: page.description, url: page.url, inLanguage: pkg.locale };
   if (page.type === "home") return [{ ...organization, "@context": "https://schema.org" }, { ...base, "@type": "WebSite", "@id": `${origin}/#website`, publisher: organization }];
   if (page.type === "article") {
     const image = giftFeaturedImage(page);
-    const article = { ...base, "@type": "Article", headline: page.title, articleSection: page.editorial.category, mainEntityOfPage: page.url, publisher: organization,
+    const article = { ...base, "@type": "Article", headline: page.title, articleSection: page.editorial.category, mainEntityOfPage: page.url, isPartOf: { "@id": `${origin}/#website` }, publisher: organization,
       // Scheduling is not evidence of historical publication or a meaningful update.
       ...(page.editorial.datePublished ? { datePublished: page.editorial.datePublished } : {}),
       ...(page.editorial.dateModified ? { dateModified: page.editorial.dateModified } : {}),
@@ -38,9 +38,16 @@ export function giftSchemas(pkg: ContentPackageV2, page: ProjectedContentPageV2,
     const crumbs = [{ name: navigation.homeLabel ?? "Pradžia", item: origin + "/" }, ...(livePages.some(p => p.type === "index" && p.slug === indexSlug) ? [{ name: indexLabel, item: origin + "/" + indexSlug }] : []), { name: page.title, item: page.url }];
     return [article, { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: crumbs.map((crumb, i) => ({ "@type": "ListItem", position: i + 1, ...crumb })) }];
   }
-  if (page.type === "index" && page.slug === indexSlug) return [{ ...base, "@type": "CollectionPage", mainEntity: { "@type": "ItemList", itemListElement: giftArticles(livePages).map((article, i) => ({ "@type": "ListItem", position: i + 1, name: article.title, url: article.url })) } }];
+  if (page.type === "index" && page.slug === indexSlug) return [{ ...base, "@type": "CollectionPage", "@id": `${page.url}#collection`, isPartOf: { "@id": `${origin}/#website` }, publisher: organization, mainEntity: { "@type": "ItemList", numberOfItems: giftArticles(livePages).length, itemListElement: giftArticles(livePages).map((article, i) => ({ "@type": "ListItem", position: i + 1, name: article.title, url: article.url })) } }];
+  if (page.type === "author") {
+    const author = page.editorial.authors.find(item => item.kind === "organization");
+    const profileOrganization = author ? { ...organization, name: author.name, url: page.url } : organization;
+    return [{ ...base, "@type": "ProfilePage", mainEntity: profileOrganization }];
+  }
+  if (page.type === "contact") return [{ ...base, "@type": "ContactPage", mainEntity: organization, publisher: organization }];
+  if (page.type === "about") return [{ ...base, "@type": "AboutPage", about: organization, publisher: organization }];
   // Organization editorial profile is not a fabricated Person/ProfilePage expert.
-  return [{ ...base, "@type": page.type === "contact" ? "ContactPage" : page.type === "about" ? "AboutPage" : "WebPage" }];
+  return [{ ...base, "@type": "WebPage", publisher: organization }];
 }
 
 export const giftJsonLd = (value: unknown) => JSON.stringify(value).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029");

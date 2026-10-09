@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "siteId": "dovanos123",
+  "origin": "https://dovanos123.lt",
+  "verifiedAt": "2026-10-07T08:20:48.106Z",
+  "workerVersion": "c072d424-177c-4db6-b3f7-ccc3d1ff9a11",
+  "packageSha256": "f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b",
+  "productionDeploymentAt": "2026-10-07T08:18:45.325892Z",
+  "articleAudit": {
+    "articles": 23,
+    "allArticleChecksPassed": true,
+    "checks": "HTTP, canonical, one H1, title, description, Open Graph, Article schema/image, organization author, published/modified dates, breadcrumbs"
+  },
+  "hub": {
+    "path": "/straipsniai",
+    "status": true,
+    "canonical": true,
+    "oneH1": true,
+    "collectionPage": true,
+    "listedArticles": 23
+  },
+  "home": {
+    "path": "/",
+    "pass": {
+      "status": true,
+      "oneH1": true,
+      "organization": true,
+      "website": true,
+      "ogTitle": true,
+      "ogDescription": true,
+      "ogUrl": true,
+      "ogImage": true
+    }
+  },
+  "editorialProfile": {
+    "path": "/autoriai/dovanos123-redakcija",
+    "pass": {
+      "status": true,
+      "canonical": true,
+      "oneH1": true,
+      "profile": true,
+      "email": true,
+      "corrections": true,
+      "editorialPolicy": true
+    }
+  },
+  "trustPages": {
+    "status200AndOneH1": true,
+    "paths": [
+      "/kontaktai",
+      "/apie",
+      "/redakcine-politika",
+      "/partneriu-nuoruodu-atskleidimas"
+    ]
+  },
+  "internalLinkTargets": {
+    "count": 32,
+    "allStatus200": true
+  },
+  "canonicalVerification": {
+    "pages": 34,
+    "allStatus200": true,
+    "allCanonicalAndSchema": true,
+    "media": 72,
+    "privateBoundary404": true,
+    "discovery": [
+      {
+        "path": "/sitemap.xml",
+        "status": 200
+      },
+      {
+        "path": "/llms.txt",
+        "status": 200
+      },
+      {
+        "path": "/llms-full.txt",
+        "status": 200
+      }
+    ],
+    "clientAssets": 15
+  },
+  "productionSmoke": "PASS",
+  "seoSmoke": "PASS",
+  "releaseReceipt": {
+    "schemaVersion": 1,
+    "scope": "production",
+    "siteId": "dovanos123",
+    "canonicalHost": "dovanos123.lt",
+    "renderer": "gift",
+    "packageSha256": "f5746acd121f1195f8b1746dae63c85f517e6f3ea45bb01389da8490a2e48c2b",
+    "reviewer": "Codex / 34-page reviewed release requested by site owner",
+    "acceptedAt": "2026-10-07T08:17:20.044Z",
+    "checks": {
+      "schema": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/schema.json",
+            "sha256": "badefcdc1ad4f44e263fd5dd92425236d33a513ee96dae9e3c51b4a1befdfe57"
+          }
+        ]
+      },
+      "routing": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/routing.json",
+            "sha256": "163cd8de8903d3fde69d4ae38ed9684043527473bf7ef27a3256142db87d4ceb"
+          }
+        ]
+      },
+      "seo": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/seo.json",
+            "sha256": "596bfb38bea4611e9418fc558c371fa3be1c600226d1a64ab69d314b566abc53"
+          }
+        ]
+      },
+      "forms": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/forms.json",
+            "sha256": "6da71cc7f762831e69806b34948757ae1f29ab61f1a428c484286371d7096423"
+          }
+        ]
+      },
+      "media": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/media.json",
+            "sha256": "b445ae07ab37e0635ba5d2e0ec63ba395c79bcd8cd916e11d315bc16d992a19e"
+          }
+        ]
+      },
+      "time": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/time.json",
+            "sha256": "d112d2bd2b9898a0e139b2c66ddbfc85c2760012dccde6cdf896f3068b34d7cf"
+          }
+        ]
+      },
+      "revocation": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/revocation.json",
+            "sha256": "7331a7c2be37e5a68feab1daf8cc5a88213aa46a6bd63a4050794ee57820de9b"
+          }
+        ]
+      },
+      "isolation": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/isolation.json",
+            "sha256": "6b7b803199febbadb7ea4f1d273f380c3e435ac526e46a53543fcacb195fae8c"
+          }
+        ]
+      },
+      "ownership": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/ownership.json",
+            "sha256": "db88efb27d7413f2efeb342ad467d31e74f549507e7520c102e266ec1f9be1cc"
+          }
+        ]
+      },
+      "dns": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/dns.json",
+            "sha256": "bf9c9343e00ada7d6008067ae55093f5c222c370a283fa79172a493c72130ad4"
+          }
+        ]
+      },
+      "contacts": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/contacts.json",
+            "sha256": "3e337fcaf136c0c79e5ac91756e348fbde333ca28bf7890b74e357913ba6453b"
+          }
+        ]
+      },
+      "inbox": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/inbox.json",
+            "sha256": "bf2294ea815ee5f7a4a9a36efcfd9d3d4bf77191fb0247b0ee7e64387202a647"
+          }
+        ]
+      },
+      "privacy": {
+        "status": "PASS",
+        "evidence": [
+          {
+            "path": "release/dovanos123/output/gates/batch-002/privacy.json",
+            "sha256": "21797c3b60ff655845ce2c9fa8bbf1d447e2403880948c40f850a0434c34d584"
+          }
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Search indexing, demand, rankings, production Lighthouse and traffic are not asserted."
+  ]
+}
