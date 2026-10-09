@@ -1,7 +1,7 @@
 import { env } from "cloudflare:workers";
 import { headers } from "next/headers";
 import { publicSiteByHost, publicSitePage } from "@/lib/public-site";
-import { nicheLeadRecipient } from "@/lib/niche-network";
+import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
 
 export const dynamic = "force-dynamic";
@@ -84,6 +84,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       const mail = {
         id: leadId,
         to: nicheLeadRecipient(siteId, pkg.site.contact.email),
+        fromName: nicheNetworkContact(siteId).operatorName,
         replyTo: email,
         subject: `[${pkg.canonicalHost}] Poreikio užklausa ${leadId.slice(0, 8)}`,
         text: `Nauja svetainės užklausa\n\nSvetainė: ${pkg.canonicalHost}\nPuslapis: ${sourcePath}\nUžklausos ID: ${leadId}\nVardas: ${name}\nEl. paštas: ${email}\n\nŽinutė:\n${message}\n`,

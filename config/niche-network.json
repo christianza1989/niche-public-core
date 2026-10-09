@@ -3,7 +3,7 @@
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
   "contactsBySite": {
-    "promedical": { "email": "sales@promedical.lt", "operatorName": "Promedical" }
+    "promedical": { "email": "info@promedical.lt", "operatorName": "Promedical" }
   },
   "networkDomains": [
     "promedical.lt",
