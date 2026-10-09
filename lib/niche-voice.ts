@@ -2,13 +2,17 @@ import { env } from "cloudflare:workers";
 import { publicNichePages, type NichePackage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 
-function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET" | "VOICE_SITE_IDS") {
+function setting(key: "VOICE_WIDGET_ENABLED" | "VOICE_CORE_URL" | "VOICE_EDGE_SECRET" | "VOICE_SITE_IDS" | "CHAT_WIDGET_ENABLED" | "CHAT_SITE_IDS") {
   return env[key] || process.env[key] || "";
 }
 
 export function voiceWidgetEnabled(pkg: NichePackage) {
   const admitted = (setting("VOICE_SITE_IDS") || "traktoriupadangos").split(",").map(site => site.trim());
   return admitted.includes(pkg.siteId) && setting("VOICE_WIDGET_ENABLED") === "1";
+}
+
+export function chatWidgetEnabled(pkg: NichePackage) {
+  return setting("CHAT_WIDGET_ENABLED") === "1" && setting("CHAT_SITE_IDS").split(",").map(x => x.trim()).includes(pkg.siteId);
 }
 
 async function sha(value: string) {
@@ -52,7 +56,10 @@ export async function voiceManifestResponse(pkg: NichePackage, request: Request)
 export async function voiceCoreRequest(pkg: NichePackage, action: string, body: Record<string, unknown>, token: string,
   cookieHeader = "", secureCookie = true) {
   const base = setting("VOICE_CORE_URL"), secret = setting("VOICE_EDGE_SECRET");
-  if (!base || !secret || !voiceWidgetEnabled(pkg)) return Response.json({ error: "voice_not_ready" }, { status: 503 });
+  if (!base || !secret || !(voiceWidgetEnabled(pkg) || chatWidgetEnabled(pkg))) return Response.json({ error: "conversation_not_ready" }, { status: 503 });
+  if (action === "sesija" && !(body.mode === "chat" ? chatWidgetEnabled(pkg) : voiceWidgetEnabled(pkg))) {
+    return Response.json({ error: "channel_not_ready" }, { status: 503 });
+  }
   const url = new URL(base);
   if (url.protocol !== "https:" && !(url.protocol === "http:" && ["127.0.0.1", "localhost"].includes(url.hostname))) {
     return Response.json({ error: "invalid_core_configuration" }, { status: 503 });
@@ -65,7 +72,7 @@ export async function voiceCoreRequest(pkg: NichePackage, action: string, body: 
   if (action !== "sesija" && !memoryAction && (typeof cid !== "string" || !/^[a-f0-9-]{36}$/.test(cid))) {
     return Response.json({ error: "invalid_session" }, { status: 400 });
   }
-  const paths: Record<string, string> = { sesija: "", busena: "", kontaktas: "/contact", baigti: "/end", ui: "/ui", zinios: "/knowledge" };
+  const paths: Record<string, string> = { sesija: "", busena: "", kontaktas: "/contact", baigti: "/end", ui: "/ui", zinios: "/knowledge", zinute: "/message" };
   const path = memoryAction ? `/v1/sites/${pkg.siteId}/memory`
     : `/v1/sites/${pkg.siteId}/sessions${action === "sesija" ? "" : `/${cid}${paths[action]}`}`;
   const method = action === "busena" || action === "atmintis" ? "GET" : action === "pamirsti" ? "DELETE" : "POST";
@@ -77,7 +84,9 @@ export async function voiceCoreRequest(pkg: NichePackage, action: string, body: 
     }
     if (body.remember !== undefined && typeof body.remember !== "boolean") return Response.json({ error: "invalid_memory_choice" }, { status: 400 });
     payload = { request_id: body.request_id, knowledge: await manifest(pkg), notice_version: "voice-local-v2",
-      consent: true, mode: "voice", remember: body.remember === true, memory_token: memoryToken || null };
+      consent: true, mode: body.mode === "chat" ? "chat" : "voice", remember: body.remember === true, memory_token: memoryToken || null };
+  } else if (action === "zinute") {
+    payload = { request_id: body.request_id, text: body.text };
   } else if (action === "kontaktas") {
     payload = { channel: body.channel, value: body.value, purpose: "followup", consent: body.consent,
       notice_version: "voice-local-v1", ...(body.base_revision === undefined ? {} : { base_revision: body.base_revision }) };
@@ -91,7 +100,7 @@ export async function voiceCoreRequest(pkg: NichePackage, action: string, body: 
   const signature = Array.from(new Uint8Array(await crypto.subtle.sign("HMAC", key,
     new TextEncoder().encode(canonical))), x => x.toString(16).padStart(2, "0")).join("");
   try {
-    const result = await fetch(new URL(path, base), { method, redirect: "manual", signal: AbortSignal.timeout(12000),
+    const result = await fetch(new URL(path, base), { method, redirect: "manual", signal: AbortSignal.timeout(action === "zinute" ? 125000 : 12000),
       headers: { "Content-Type": "application/json", "x-pinet-timestamp": timestamp, "x-pinet-nonce": nonce,
         "x-pinet-signature": signature, "x-pinet-session": token, "x-pinet-memory": memoryToken }, ...(method === "POST" ? { body: serialized } : {}) });
     if (result.status >= 300 && result.status < 400) throw new Error("core_redirect_rejected");

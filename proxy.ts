@@ -67,7 +67,7 @@ export function proxy(request: NextRequest) {
     }
     if (path.startsWith("/api/")) return new Response("Not found", { status: 404 });
     if (path === "/pokalbis" || path.startsWith("/pokalbis/")) {
-      const actions: Record<string, string> = { sesija: "POST", busena: "GET", kontaktas: "POST", baigti: "POST", ui: "POST", atmintis: "GET", pamirsti: "POST", zinios: "POST", manifestas: "GET" };
+      const actions: Record<string, string> = { sesija: "POST", busena: "GET", kontaktas: "POST", baigti: "POST", ui: "POST", atmintis: "GET", pamirsti: "POST", zinios: "POST", manifestas: "GET", zinute: "POST" };
       const action = path.slice("/pokalbis/".length);
       if (!actions[action]) return new Response("Not found", { status: 404 });
       if (request.method !== actions[action]) return new Response("Method not allowed", { status: 405 });
