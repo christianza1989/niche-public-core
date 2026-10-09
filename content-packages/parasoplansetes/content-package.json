@@ -251,11 +251,11 @@
       "links": [
         {
           "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
-          "label": "StepOver parašo planšečių modeliai"
+          "label": "StepOver modelius"
         },
         {
           "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "StepOver programinė įranga dokumentų pasirašymui"
+          "label": "eSignatureOffice"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
@@ -275,12 +275,12 @@
         }
       ],
       "id": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
-      "revisionHash": "d2e3c7962e8830087fc9796c1837263fcbd70929ba251fa8c433bad56638ea77",
+      "revisionHash": "81358059a9243285a4c9c0d1eea6a0203ec1f874836a230457952c3025ee2296",
       "approval": {
         "status": "approved",
-        "revisionHash": "d2e3c7962e8830087fc9796c1837263fcbd70929ba251fa8c433bad56638ea77",
-        "approvedAt": "2026-10-08T16:31:50.073Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "81358059a9243285a4c9c0d1eea6a0203ec1f874836a230457952c3025ee2296",
+        "approvedAt": "2026-10-08T18:54:19.222Z",
+        "actorId": "Codex / self-audit source-preserving link repair"
       }
     },
     {
@@ -455,18 +455,23 @@
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/produkte/unterschriftenpads/naturasign-pad-classic/",
+          "label": "StepOver naturaSign Pad Classic",
+          "reason": "2026-10-08 saviaudito metu tikrintas konkretaus modelio gamintojo aprašymas: ekranas, rezoliucija ir programinio kelio ribos. Tai nėra mūsų atliktas darbo vietos bandymas ar pasiūlymo likučio patvirtinimas."
+        },
+        {
           "url": "https://stepover.com/produkte/software/esignatureoffice/",
           "label": "StepOver eSignatureOffice",
           "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
         }
       ],
       "id": "225aff0d-674d-47ba-be62-198e74b129a2",
-      "revisionHash": "686dda34967203a66c150f82e19a1845a779b7fbc5f18293cdf9fd34795ea367",
+      "revisionHash": "87ee3ab4b870b19f50e78d4693ca2aff24964efb5a6ac1cbdfe2f98cd1630fa2",
       "approval": {
         "status": "approved",
-        "revisionHash": "686dda34967203a66c150f82e19a1845a779b7fbc5f18293cdf9fd34795ea367",
-        "approvedAt": "2026-10-08T16:31:50.096Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "87ee3ab4b870b19f50e78d4693ca2aff24964efb5a6ac1cbdfe2f98cd1630fa2",
+        "approvedAt": "2026-10-08T18:58:54.069Z",
+        "actorId": "Codex / exact model primary-source repair"
       }
     },
     {
@@ -489,7 +494,7 @@
         {
           "type": "list",
           "items": [
-            "Ekranas: 4,3 col. spalvotas",
+            "Ekranas: 4,3 col. TFT, 4 spalvos",
             "Rezoliucija: 480 × 272 pikselių",
             "Programinis kelias: Programa darbo vietoje"
           ]
@@ -555,18 +560,23 @@
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/produkte/unterschriftenpads/durasign-pad-4-3/",
+          "label": "StepOver duraSign Pad 4.3",
+          "reason": "2026-10-08 saviaudito metu tikrintas konkretaus modelio gamintojo aprašymas: ekranas, rezoliucija ir programinio kelio ribos. Tai nėra mūsų atliktas darbo vietos bandymas ar pasiūlymo likučio patvirtinimas."
+        },
+        {
           "url": "https://stepover.com/produkte/software/esignatureoffice/",
           "label": "StepOver eSignatureOffice",
           "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
         }
       ],
       "id": "dc242d72-77a6-4f7c-9606-84e57aa73ee8",
-      "revisionHash": "a3db59a5920e494af8fe246f9dcf83b4425c128c99b34641364c47877abcf353",
+      "revisionHash": "8cca470aa59432f4211f34c564aa06fc7b85964356fbf7bb07e44f113a01fe21",
       "approval": {
         "status": "approved",
-        "revisionHash": "a3db59a5920e494af8fe246f9dcf83b4425c128c99b34641364c47877abcf353",
-        "approvedAt": "2026-10-08T16:31:50.107Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "8cca470aa59432f4211f34c564aa06fc7b85964356fbf7bb07e44f113a01fe21",
+        "approvedAt": "2026-10-08T18:58:54.101Z",
+        "actorId": "Codex / exact model primary-source repair"
       }
     },
     {
@@ -655,18 +665,23 @@
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/produkte/unterschriftenpads/durasign-pad-5-0/",
+          "label": "StepOver duraSign Pad 5.0",
+          "reason": "2026-10-08 saviaudito metu tikrintas konkretaus modelio gamintojo aprašymas: ekranas, rezoliucija ir programinio kelio ribos. Tai nėra mūsų atliktas darbo vietos bandymas ar pasiūlymo likučio patvirtinimas."
+        },
+        {
           "url": "https://stepover.com/produkte/software/esignatureoffice/",
           "label": "StepOver eSignatureOffice",
           "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
         }
       ],
       "id": "497c8819-4fc2-497d-ad38-7082dc18bc5c",
-      "revisionHash": "e208f30f9553a4b28a7bb82b2f7167479f164c1740d668df279dc04e3d5f0e32",
+      "revisionHash": "6f7c53ea335d9584110589fa144c39677727b71218efce3298d67ee06305da72",
       "approval": {
         "status": "approved",
-        "revisionHash": "e208f30f9553a4b28a7bb82b2f7167479f164c1740d668df279dc04e3d5f0e32",
-        "approvedAt": "2026-10-08T16:31:50.117Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "6f7c53ea335d9584110589fa144c39677727b71218efce3298d67ee06305da72",
+        "approvedAt": "2026-10-08T18:58:54.124Z",
+        "actorId": "Codex / exact model primary-source repair"
       }
     },
     {
@@ -755,18 +770,23 @@
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/produkte/unterschriftenpads/durasign-pad-10-0/",
+          "label": "StepOver duraSign Pad 10.0",
+          "reason": "2026-10-08 saviaudito metu tikrintas konkretaus modelio gamintojo aprašymas: ekranas, rezoliucija ir programinio kelio ribos. Tai nėra mūsų atliktas darbo vietos bandymas ar pasiūlymo likučio patvirtinimas."
+        },
+        {
           "url": "https://stepover.com/produkte/software/esignatureoffice/",
           "label": "StepOver eSignatureOffice",
           "reason": "Peržiūrėta 2026-10-08: gamintojo Windows programos, licencijų ir dokumentų perdavimo aprašymas; konkretus kliento procesas netestuotas."
         }
       ],
       "id": "1838da73-e900-4334-8983-2a56e036e280",
-      "revisionHash": "819f3d25dcee612cdaf707f4a55b327a5c5d840939acb84436cb2115dd52e1ea",
+      "revisionHash": "09e21b4baaeb1d97ef452629dffab5a1a8d0571f9c4a3d841c826742f2eb1eca",
       "approval": {
         "status": "approved",
-        "revisionHash": "819f3d25dcee612cdaf707f4a55b327a5c5d840939acb84436cb2115dd52e1ea",
-        "approvedAt": "2026-10-08T16:31:50.127Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "09e21b4baaeb1d97ef452629dffab5a1a8d0571f9c4a3d841c826742f2eb1eca",
+        "approvedAt": "2026-10-08T18:58:54.145Z",
+        "actorId": "Codex / exact model primary-source repair"
       }
     },
     {
@@ -779,7 +799,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "duraSign Pad NG 10 vertinkite kaip atskirą NG pasirašymo kelią, ne tik didesnį duraSign ekraną. Gamintojo NG technologija leidžia rinktis dokumento perdavimą įrenginiui arba gilesnį valdymą per sąsajas."
+          "text": "duraSign Pad NG 10 PDF dokumentą apdoroja pačiame įrenginyje. Gamintojas šiam modeliui nurodo nextGen .NET / REST API integracijai ir Print2NG virtualų spausdintuvą dokumentams perduoti. Šį kelią vertinkite atskirai nuo įprasto duraSign modelio: konkretaus proceso tinkamumą reikia išbandyti."
         },
         {
           "type": "heading",
@@ -791,7 +811,7 @@
           "items": [
             "Ekranas: 10 col. spalvotas",
             "Rezoliucija: 1024 × 600 pikselių",
-            "Programinis kelias: PDF / XML / API įrenginio kelias"
+            "Programinis kelias: PDF įrenginyje, nextGen API arba Print2NG"
           ]
         },
         {
@@ -855,18 +875,23 @@
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/produkte/unterschriftenpads/durasign-pad-ng-10/",
+          "label": "StepOver duraSign Pad NG 10",
+          "reason": "2026-10-08 saviaudito metu tikrintas konkretaus modelio gamintojo aprašymas: ekranas, rezoliucija ir programinio kelio ribos. Tai nėra mūsų atliktas darbo vietos bandymas ar pasiūlymo likučio patvirtinimas."
+        },
+        {
           "url": "https://stepover.com/produkte/unterschriftenpads/nextgen-pad-5/",
           "label": "StepOver nextGen technologija",
           "reason": "Peržiūrėta 2026-10-08: PDF / XML / API keliai ir papildomo tinklo priedo poreikis; modelio galimybes tikrinti pagal konkrečią versiją."
         }
       ],
       "id": "d60d6eb9-35e6-4778-b7e5-136827efc61d",
-      "revisionHash": "36165de5c050e1cf9a7af8a8ed626151068f340e24b4f58837654c1edb2a984c",
+      "revisionHash": "fc211c68bcbfb49219881582ec83849dc763d91cea7b3fd83fd6515e79697163",
       "approval": {
         "status": "approved",
-        "revisionHash": "36165de5c050e1cf9a7af8a8ed626151068f340e24b4f58837654c1edb2a984c",
-        "approvedAt": "2026-10-08T16:31:50.141Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "fc211c68bcbfb49219881582ec83849dc763d91cea7b3fd83fd6515e79697163",
+        "approvedAt": "2026-10-08T18:58:54.172Z",
+        "actorId": "Codex / exact model primary-source repair"
       }
     },
     {
@@ -1314,11 +1339,11 @@
       "links": [
         {
           "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "StepOver programinė įranga dokumentų pasirašymui"
+          "label": "programinės įrangos kelio"
         },
         {
           "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
-          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+          "label": "gilesnę integraciją"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
@@ -1343,12 +1368,12 @@
         }
       ],
       "id": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
-      "revisionHash": "400b8fb61926667d7bd78f4ba9b46ccc66d0f0056f65c7b0232e952b4cff930b",
+      "revisionHash": "c37bab4d26699ec5b08a77585218d67c0484d09776daaad64806710f6ba442ec",
       "approval": {
         "status": "approved",
-        "revisionHash": "400b8fb61926667d7bd78f4ba9b46ccc66d0f0056f65c7b0232e952b4cff930b",
-        "approvedAt": "2026-10-08T16:31:50.179Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "c37bab4d26699ec5b08a77585218d67c0484d09776daaad64806710f6ba442ec",
+        "approvedAt": "2026-10-08T18:54:19.250Z",
+        "actorId": "Codex / self-audit source-preserving link repair"
       }
     },
     {
@@ -1513,11 +1538,11 @@
       "links": [
         {
           "targetPageId": "e522e382-e7f1-493d-9323-e3e5d2c5b705",
-          "label": "StepOver integracijos apimties vertinimas"
+          "label": "Integracijos užklausoje"
         },
         {
           "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
-          "label": "Parašo planšetė terminaliniame serveryje: bandymo sąrašas"
+          "label": "terminalinis serveris"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
@@ -1542,12 +1567,12 @@
         }
       ],
       "id": "56845903-0cbb-4648-85a5-3ee3356913ac",
-      "revisionHash": "bcfb8f5ce59af4071868955275bcd7dffa0591646cbbbd98eafe25e343a88ff8",
+      "revisionHash": "199aa6f99249b80afd22b63dac4647b01ea3725458ad43ce60e20a6035d5c9c7",
       "approval": {
         "status": "approved",
-        "revisionHash": "bcfb8f5ce59af4071868955275bcd7dffa0591646cbbbd98eafe25e343a88ff8",
-        "approvedAt": "2026-10-08T16:31:50.189Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "199aa6f99249b80afd22b63dac4647b01ea3725458ad43ce60e20a6035d5c9c7",
+        "approvedAt": "2026-10-08T18:54:19.291Z",
+        "actorId": "Codex / self-audit source-preserving link repair"
       }
     },
     {
@@ -1670,11 +1695,11 @@
       "links": [
         {
           "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "StepOver programinė įranga dokumentų pasirašymui"
+          "label": "eSignatureOffice"
         },
         {
           "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
-          "label": "Parašo planšetės integracija: ką paruošti IT komandai"
+          "label": "norimą dokumento kelią"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
@@ -1689,12 +1714,12 @@
         }
       ],
       "id": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
-      "revisionHash": "8fbd39d97f40d4c53972b51bd0c2743f318e2b742251cc420dee494eadc4ada5",
+      "revisionHash": "8ff97e88af3ad9bc4544f8155c23d7705050663c6638e7a270aa5f0c9de3eabe",
       "approval": {
         "status": "approved",
-        "revisionHash": "8fbd39d97f40d4c53972b51bd0c2743f318e2b742251cc420dee494eadc4ada5",
-        "approvedAt": "2026-10-08T16:31:50.198Z",
-        "actorId": "Codex / source-checked local preparation"
+        "revisionHash": "8ff97e88af3ad9bc4544f8155c23d7705050663c6638e7a270aa5f0c9de3eabe",
+        "approvedAt": "2026-10-08T18:54:19.342Z",
+        "actorId": "Codex / self-audit source-preserving link repair"
       }
     },
     {
@@ -2100,5 +2125,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-08T16:31:50.311Z"
+  "generatedAt": "2026-10-08T18:58:54.218Z"
 }

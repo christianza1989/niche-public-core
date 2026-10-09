@@ -11,11 +11,11 @@ import styles from "./parasoplansetes-site.module.css";
 
 type Props = { pkg: NichePackage; page: NichePage; livePages: NichePage[] };
 const modelPages = (pages: NichePage[]) => pages.filter(p => p.slug.startsWith("produktas/paraso-plansete-stepover-"));
-function Picture({ page, asset = page.media[0], eager = false }: { page: NichePage; asset?: NicheMedia; eager?: boolean }) {
+function Picture({ page, asset = page.media[0], eager = false, sizes }: { page: NichePage; asset?: NicheMedia; eager?: boolean; sizes?: string }) {
   if (!asset) return null;
   const documentary = asset.width <= 300;
   return <figure className={`${styles.picture} ${documentary ? styles.device : styles.illustration}`}>
-    <img src={asset.src} srcSet={imageSrcSet(page.media, asset)} sizes={documentary ? "(max-width: 360px) calc(100vw - 48px), 300px" : "(max-width: 760px) calc(100vw - 48px), 720px"} alt={asset.alt} width={asset.width} height={asset.height} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : "auto"} decoding="async" />
+    <img src={asset.src} srcSet={imageSrcSet(page.media, asset)} sizes={sizes ?? (documentary ? "(max-width: 360px) calc(100vw - 48px), 300px" : "(max-width: 760px) calc(100vw - 48px), 720px")} alt={asset.alt} width={asset.width} height={asset.height} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : "auto"} decoding="async" />
     {visibleImageCredit(asset) && <figcaption>{visibleImageCredit(asset)}</figcaption>}
   </figure>;
 }
@@ -46,7 +46,8 @@ function Inquiry({ pkg }: { pkg: NichePackage }) {
 }
 function Guides({ pages }: { pages: NichePage[] }) {
   const guides = pages.filter(p => p.type === "guide");
-  return <div className={`${styles.guides} ${guides.length === 4 ? styles.guidesFour : ""}`}>{guides.map((guide, i) => <article key={guide.id}><a className={styles.guideImage} href={nichePagePath(guide)} tabIndex={-1} aria-hidden="true"><Picture page={guide} /></a><div><p className={styles.kicker}>Gidas / {String(i + 1).padStart(2, "0")}</p><h3><a href={nichePagePath(guide)}>{guide.title}</a></h3><p>{guide.description}</p><a className={styles.textLink} href={nichePagePath(guide)}>Skaityti gidą <span aria-hidden="true">↗</span></a></div></article>)}</div>;
+  const cardSizes = guides.length === 4 ? "(max-width: 360px) 85px, (max-width: 760px) 110px, (max-width: 1050px) calc((100vw - 72px) / 2), (max-width: 1328px) calc((100vw - 88px) / 2), 620px" : "(max-width: 360px) 85px, (max-width: 760px) 110px, (max-width: 1050px) calc((100vw - 96px) / 3), (max-width: 1328px) calc((100vw - 128px) / 3), 400px";
+  return <div className={`${styles.guides} ${guides.length === 4 ? styles.guidesFour : ""}`}>{guides.map((guide, i) => <article key={guide.id}><a className={styles.guideImage} href={nichePagePath(guide)} tabIndex={-1} aria-hidden="true"><Picture page={guide} sizes={cardSizes} /></a><div><p className={styles.kicker}>Gidas / {String(i + 1).padStart(2, "0")}</p><h3><a href={nichePagePath(guide)}>{guide.title}</a></h3><p>{guide.description}</p><a className={styles.textLink} href={nichePagePath(guide)}>Skaityti gidą <span aria-hidden="true">↗</span></a></div></article>)}</div>;
 }
 function Catalog({ pages }: { pages: NichePage[] }) {
   return <div className={styles.catalog}>{modelPages(pages).map((model, i) => <article key={model.id}><span className={styles.number}>{String(i + 1).padStart(2, "0")}</span><Picture page={model} /><div><h2><a href={nichePagePath(model)}>{model.title}</a></h2><p>{model.description}</p><dl>{model.body.find(b => b.type === "list")?.items.map((item, n) => { const colon = item.indexOf(":"); return <div key={n}><dt>{colon >= 0 ? item.slice(0, colon) : "Savybė"}</dt><dd>{colon >= 0 ? item.slice(colon + 1).trim() : item}</dd></div>; })}</dl><a className={styles.textLink} href={nichePagePath(model)}>Modelis ir komplektacija ↗</a></div></article>)}</div>;
