@@ -21,34 +21,36 @@ export function proxy(request: NextRequest) {
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
   const niche = nicheSiteByHost(host);
 
-  const gift = !niche ? contentPackageByHost(host) : null;
-  if (gift) {
-    if(contentAdmissionScope(gift)==='local-preview' && host!=='localhost' && host!=='127.0.0.1') return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
-    if (gift.site.renderer !== 'gift') return new Response('Unsupported content renderer', { status: 404 });
+  const content = !niche ? contentPackageByHost(host) : null;
+  if (content) {
+    if(contentAdmissionScope(content)==='local-preview' && host!=='localhost' && host!=='127.0.0.1') return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
+    if (!['gift', 'niche'].includes(content.site.renderer)) return new Response('Unsupported content renderer', { status: 404 });
     if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return new Response('Not found', { status: 404 });
-    if (!isPreview(host) && host !== gift.canonicalHost) {
-      const destination=request.nextUrl.clone();destination.hostname=gift.canonicalHost;destination.protocol='https:';destination.port='';
+    if (!isPreview(host) && host !== content.canonicalHost) {
+      const destination=request.nextUrl.clone();destination.hostname=content.canonicalHost;destination.protocol='https:';destination.port='';
       return NextResponse.redirect(destination,308);
     }
-    const live=publicContentPages(gift);
+    const live=publicContentPages(content);
     if (!live.some(page=>page.type==='home'&&page.slug==='')) return new Response('Not found',{status:404});
     if(path.startsWith('/content-assets/'))return live.some(page=>page.media.some(media=>media.src===path))?NextResponse.next():new Response('Not found',{status:404});
     // Old article originals must not bypass the new publication/media gate.
     if(path.startsWith('/images/')){
-      const asset=visibleMediaAlias(gift,live,mediaAliases,path);
+      const asset=visibleMediaAlias(content,live,mediaAliases,path);
       if(!asset)return new Response('Not found',{status:404});
       const target=request.nextUrl.clone();target.pathname=asset;target.search='';
       const response=NextResponse.redirect(target,307);response.headers.set('Cache-Control','private, no-store');return response;
     }
     if(path.startsWith('/_next/')||path.startsWith('/fonts/'))return NextResponse.next();
+    if(content.site.renderer==='niche' && !['GET','HEAD'].includes(request.method)) return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store'}});
     const destination=request.nextUrl.clone();
     const seo:Record<string,string>={'/robots.txt':'robots','/sitemap.xml':'sitemap','/llms.txt':'llms','/llms-full.txt':'llms-full','/favicon.svg':'favicon','/favicon.ico':'favicon'};
-    destination.pathname=seo[path]?`/gift/${gift.siteId}/seo/${seo[path]}`:path==='/uzklausa'&&request.method==='POST'?`/niche/${gift.siteId}/lead`:path==='/ivykius'&&request.method==='POST'?`/niche/${gift.siteId}/interest`:`/gift/${gift.siteId}${path==='/'?'':path}`;
+    const renderer=content.site.renderer;
+    destination.pathname=seo[path]?`/${renderer}/${content.siteId}/seo/${seo[path]}`:renderer==='gift'&&path==='/uzklausa'&&request.method==='POST'?`/niche/${content.siteId}/lead`:renderer==='gift'&&path==='/ivykius'&&request.method==='POST'?`/niche/${content.siteId}/interest`:`/${renderer}/${content.siteId}${path==='/'?'':path}`;
     const requestHeaders=new Headers(request.headers);requestHeaders.set('x-gift-original-path',path);
     requestHeaders.set('x-gift-filtered',path==='/straipsniai' && Boolean(request.nextUrl.searchParams.get('tema')?.trim())?'1':'0');
     const response=NextResponse.rewrite(destination,{request:{headers:requestHeaders}});
     response.headers.set('Cache-Control','private, no-store');
-    if(isPreview(host)||localContentAdmission(gift))response.headers.set('X-Robots-Tag','noindex, nofollow');
+    if(isPreview(host)||localContentAdmission(content))response.headers.set('X-Robots-Tag','noindex, nofollow');
     return response;
   }
 
