@@ -62,7 +62,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       ...(method === "POST" ? { body: JSON.stringify({ ...body, conversation_id: active?.conversation_id }) } : {}) });
     if (!response.ok) {
       console.warn(JSON.stringify({ event: "conversation_request_failed", action, status: response.status }));
-      throw new ConversationRequestError((appearance === "stepover" ? "Konsultantas šiuo metu nepasiekiamas. Galite užpildyti kontaktų formą." : "Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma."), response.status);
+      throw new ConversationRequestError((appearance === "stepover" ? "Konsultantas šiuo metu nepasiekiamas. Kviečiame užpildyti kontaktų formą." : "Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma."), response.status);
     }
     const data: unknown = await response.json();
     if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Neteisingas serverio atsakymas.");
@@ -172,7 +172,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     let microphone: MediaStream | null = null;
     let starting = true;
     try {
-      if (!navigator.mediaDevices?.getUserMedia) throw new Error("Balso pokalbiui reikia saugaus HTTPS ryšio ir naršyklės su mikrofono palaikymu.");
+      if (!navigator.mediaDevices?.getUserMedia) throw new Error((appearance === "stepover" ? "Balso pokalbiui reikalingas saugus HTTPS ryšys ir naršyklė, palaikanti mikrofoną." : "Balso pokalbiui reikia saugaus HTTPS ryšio ir naršyklės su mikrofono palaikymu."));
       // Obtain permission before allocating a provider session or dispatching an agent.
       microphone = await navigator.mediaDevices.getUserMedia({ audio: true });
       sdk.current ||= import("livekit-client");
@@ -217,7 +217,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       session.current = { conversation_id: created.conversation_id, session_token: created.session_token };
       expiresAt.current = chatExpiry();
       setHasSession(true); setState("active"); if (remember) setRecognized(true);
-      setLines([{ id: "welcome", speaker: "agent", text: (appearance === "stepover" ? "Sveiki! Esu DI konsultantas. Galiu padėti susigaudyti tarp StepOver planšečių ir programų. Kokius dokumentus norite pasirašyti?" : "Sveiki, esu virtualus AI konsultantas. Aprašykite savo poreikį arba užduokite klausimą.") }]);
+      setLines([{ id: "welcome", speaker: "agent", text: (appearance === "stepover" ? "Sveiki! Esu DI konsultantas. Padėsiu jums susigaudyti tarp StepOver planšečių ir programų. Kokius dokumentus planuojate pasirašyti?" : "Sveiki, esu virtualus AI konsultantas. Aprašykite savo poreikį arba užduokite klausimą.") }]);
     } catch (error) { setState("failed"); setMessage(error instanceof Error ? error.message : "Nepavyko pradėti pokalbio."); }
     finally { setBusy(false); }
   }
@@ -259,7 +259,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     try { const receipt = await request("kontaktas", { channel: contactChannel, value: contactChannel === "email" ? email : phone,
       consent: true, base_revision: contactRevisions.current[contactChannel] });
       if (typeof receipt.revision === "number") contactRevisions.current[contactChannel] = receipt.revision;
-      setMessage(contactChannel === "email" ? (appearance === "stepover" ? "El. pašto adresas išsaugotas. Kol kas nepatvirtinta, kad atsakymas pristatytas." : "El. paštas išsaugotas. Atsakymo pristatymas dar tikrinamas.")
+      setMessage(contactChannel === "email" ? (appearance === "stepover" ? "El. pašto adresas išsaugotas. Kol kas nepatvirtinta, ar atsakymas sėkmingai pristatytas." : "El. paštas išsaugotas. Atsakymo pristatymas dar tikrinamas.")
         : "Telefono numeris išsaugotas."); setContactOpen(false);
     } catch (error) { setMessage(error instanceof Error ? error.message : "Kontakto išsaugoti nepavyko."); }
     finally { setBusy(false); }
@@ -277,7 +277,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   async function forget() {
     setBusy(true);
     try { await request("pamirsti"); setRecognized(false); setRemember(false);
-      setMessage((appearance === "stepover" ? "Šio įrenginio atmintis išjungta. Tai savaime neištrina pokalbio įrašų." : "Šios naršyklės atmintis išjungta."));
+      setMessage((appearance === "stepover" ? "Šio įrenginio atmintis išjungta. Atkreipkite dėmesį, kad tai savaime neištrina pokalbio įrašų." : "Šios naršyklės atmintis išjungta."));
     } catch { setMessage("Atminties išjungti nepavyko. Bandykite dar kartą."); }
     finally { setBusy(false); }
   }
@@ -290,9 +290,9 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   }}>
     <div ref={audioElements} hidden />
     <div className={s.heading}><div className={s.headingIdentity}>{stepover && chatIcon}<strong>{title}</strong></div><button ref={closer} aria-label="Uždaryti" disabled={channel === "voice" && (state === "active" || state === "connecting")} onClick={() => setOpen(false)}>{stepover ? <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" /></svg> : "×"}</button></div>
-    {stepover && state === "ready" && <div className={s.chatIntro}><h2>Kuo galime padėti?</h2><p>Aprašykite, kaip pasirašote dokumentus. Padėsime susigaudyti tarp planšečių ir programų.</p></div>}
-    <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Jums atsakys dirbtinio intelekto konsultantas. Pokalbio tekstą naudosime atsakymui parengti ir jo kokybei įvertinti." : "Bendrausite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai."} <a href="/privatumas">Privatumas</a></p>
-    {chatAvailable && <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Šiame naršyklės skirtuke pokalbį galite tęsti iki 30 minučių ir pereidami į kitus svetainės puslapius. Jei norite būti atpažinti vėliau, galite įjungti įrenginio atmintį." : "Pokalbį šiame skirtuke galite tęsti pereidami į kitą svetainės puslapį iki 30 minučių. Ilgesnė atmintis pasirenkama atskirai."}</p>}
+    {stepover && state === "ready" && <div className={s.chatIntro}><h2>Kuo galime padėti?</h2><p>Trumpai aprašykite savo pasirašymo procesą, ir mes padėsime išsirinkti tinkamiausią planšetę bei programą.</p></div>}
+    <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Jums atsakys dirbtinio intelekto konsultantas. Pokalbio tekstas bus naudojamas atsakymui parengti ir jo kokybei įvertinti." : "Bendrausite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai."} <a href="/privatumas">Privatumas</a></p>
+    {chatAvailable && <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Šiame naršyklės skirtuke pokalbį galite tęsti iki 30 minučių net ir naršydami kitus puslapius. Jei norite būti atpažinti vėliau, galite įjungti įrenginio atmintį." : "Pokalbį šiame skirtuke galite tęsti pereidami į kitą svetainės puslapį iki 30 minučių. Ilgesnė atmintis pasirenkama atskirai."}</p>}
     <p className={stepover ? s.sessionStatus : undefined} role="status">{state === "active" ? "Pokalbis vyksta" : state === "connecting" ? "Jungiamasi…" : state === "ended" ? "Pokalbis baigtas" : "Pokalbis nepradėtas"}</p>
     {state === "ready" && <>
       <label className={s.memoryChoice}><input type="checkbox" checked={remember} disabled={busy} onChange={e => {
@@ -310,7 +310,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     </div>}
     {state === "active" && channel === "chat" && <form className={s.composer} onSubmit={sendMessage} aria-label="Parašyti konsultantui" aria-busy={busy}>
       <label htmlFor="chat-message">Jūsų žinutė</label>
-      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy || chatFailed} rows={3} onChange={e => setText(e.target.value)} placeholder={stepover ? "Parašykite klausimą apie įrangą ar dokumentų pasirašymą…" : "Aprašykite dokumentą, darbo vietas ar užduokite klausimą…"} />
+      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy || chatFailed} rows={3} onChange={e => setText(e.target.value)} placeholder={stepover ? "Užduokite klausimą apie įrangą arba dokumentų pasirašymą…" : "Aprašykite dokumentą, darbo vietas ar užduokite klausimą…"} />
       <button type="submit" disabled={busy || chatFailed || !text.trim()}>{busy ? "Konsultantas atsako…" : "Siųsti žinutę"}</button>
     </form>}
     {state === "active" && <div className={s.actions}>
@@ -321,8 +321,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     {state === "ended" && hasSession && !contactOpen && <button onClick={() => setContactOpen(true)}>{stepover ? "Palikti kontaktus" : "Palikti kontaktą"}</button>}
     {state === "ended" && <button onClick={resetCall} disabled={busy}>Naujas pokalbis</button>}
     {contactOpen && hasSession && <form className={stepover ? s.contactForm : undefined} onSubmit={submit} aria-label={stepover ? "Kontaktai atsakymui" : "Kontaktas prašytam atsakymui"}>
-      {stepover && <h3>Kur atsiųsti atsakymą?</h3>}
-      <label htmlFor="voice-channel">Kokį kontaktą norite palikti?</label>
+      {stepover && <h3>Kur turėtume atsiųsti atsakymą?</h3>}
+      <label htmlFor="voice-channel">{stepover ? "Kokius kontaktus norėtumėte palikti?" : "Kokį kontaktą norite palikti?"}</label>
       <select id="voice-channel" value={contactChannel} onChange={e => setContactChannel(e.target.value === "phone" ? "phone" : "email")}>
         <option value="email">El. paštą atsakymui</option><option value="phone">Telefono numerį</option>
       </select>
@@ -330,7 +330,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       <input ref={input} id="voice-contact" type={contactChannel === "email" ? "email" : "tel"}
         autoComplete={contactChannel === "email" ? "email" : "tel"} maxLength={contactChannel === "email" ? 254 : 25}
         required value={contactChannel === "email" ? email : phone} onChange={e => contactChannel === "email" ? setEmail(e.target.value) : setPhone(e.target.value)} />
-      <p>{stepover ? "Kontaktus naudosime tik šio pokalbio klausimui aptarti. Jei norite atsakymo el. paštu, palikite jo adresą. Palikus telefono numerį, sistema automatiškai neskambina ir nesiunčia SMS." : "Naudosime tik šio pokalbio užklausai. El. paštą naudosime prašytam atsakymui. Paliktas telefono numeris nesukuria automatinio skambučio ar SMS."}</p>
+      <p>{stepover ? "Jūsų kontaktus naudosime tik atsakydami į pokalbio klausimą. Norėdami gauti atsakymą el. paštu, įrašykite savo adresą. Palikus telefono numerį, sistema automatinių skambučių ar SMS pranešimų nesiunčia." : "Naudosime tik šio pokalbio užklausai. El. paštą naudosime prašytam atsakymui. Paliktas telefono numeris nesukuria automatinio skambučio ar SMS."}</p>
       <button disabled={busy} type="submit">Išsaugoti kontaktą</button>
       <button type="button" onClick={() => { setContactOpen(false); if (ui) void request("ui", { request_id: ui.id, state: "dismissed" }).catch(() => {}); }}>Praleisti</button>
     </form>}
