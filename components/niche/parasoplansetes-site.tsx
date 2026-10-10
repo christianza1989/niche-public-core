@@ -103,6 +103,49 @@ function Brand() {
     </svg>
   </a>;
 }
+type FooterLink = readonly [slug: string, label: string];
+function FooterLinks({ pages, items }: { pages: NichePage[]; items: readonly FooterLink[] }) {
+  return <ul>{items.map(([slug, label]) => {
+    const target = pages.find(p => p.slug === slug);
+    return target ? <li key={slug}><a href={nichePagePath(target)}>{label}</a></li> : null;
+  })}</ul>;
+}
+function Footer({ pkg, livePages }: { pkg: NichePackage; livePages: NichePage[] }) {
+  const operator = nicheNetworkContact(pkg.siteId).operatorName;
+  const year = new Intl.DateTimeFormat("lt-LT", { year: "numeric", timeZone: pkg.site.timezone }).format(new Date());
+  const groups: Array<{ id: string; title: string; links: FooterLink[] }> = [
+    { id: "footer-solutions", title: "StepOver sprendimai", links: [
+      ["paraso-plansetes", "Parašo planšečių modeliai"], ["programine-iranga", "Pasirašymo programos"],
+      ["integracija", "Integracija į jūsų sistemas"], ["kainos", "Kainos ir diegimo biudžetas"],
+      ["pasirasymo-procesai", "Dokumentų pasirašymo eiga"],
+    ] },
+    { id: "footer-guides", title: "Praktiniai gidai", links: [
+      ["gidai", "Visi gidai"], ["gidai/kaip-pasirinkti-paraso-plansete", "Kaip išsirinkti parašo planšetę"],
+      ["gidai/pdf-pasirasymas-plansete", "PDF dokumentų pasirašymas"],
+      ["gidai/paraso-plansetes-integracija", "Pasiruošimas integracijai"],
+      ["gidai/terminalinis-serveris-paraso-plansete", "Pasirašymas per RDP ir Citrix"],
+      ["gidai/paraso-galiojimas", "Elektroninio parašo galiojimas"],
+    ] },
+    { id: "footer-about", title: "Informacija ir kontaktai", links: [
+      ["apie-projekta", "Apie svetainę"], ["kontaktai", "Kontaktai ir konsultacijos"],
+      ["redakcija", "Kaip rengiame turinį"],
+    ] },
+  ];
+  return <footer className={styles.footerBand}><div className={styles.footer}>
+    <div className={styles.footerMain}>
+      <div className={styles.footerIdentity}><Brand /><p>Svetainę administruoja <strong>{operator}</strong>.</p>
+        <a className={styles.footerContact} href={`mailto:${pkg.site.contact.email}`}>{pkg.site.contact.email}</a>
+        {pkg.site.contact.phone && <a className={styles.footerContact} href={`tel:${pkg.site.contact.phone.replace(/[^+0-9]/g, "")}`}>{pkg.site.contact.phone}</a>}
+      </div>
+      {groups.filter(group => group.links.some(([slug]) => livePages.some(p => p.slug === slug))).map(group =>
+        <nav key={group.id} aria-labelledby={group.id}><h2 id={group.id}>{group.title}</h2><FooterLinks pages={livePages} items={group.links} /></nav>)}
+    </div>
+    <div className={styles.footerBottom}><p>© {year} {operator}</p>
+      <nav aria-label="Teisinė informacija"><FooterLinks pages={livePages} items={[["privatumas", "Privatumo politika"], ["naudojimo-salygos", "Naudojimo sąlygos"]]} /></nav>
+      <p className={styles.attribution}>Mūsų verslas automatizuotas su <a href="https://verslomatika.lt/" rel="noopener noreferrer">verslomatika.lt</a></p>
+    </div>
+  </div></footer>;
+}
 export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
   const isHome = page.type === "home", isGuide = page.type === "guide", isHub = page.slug === "gidai", isCatalog = page.slug === "paraso-plansetes";
   const intro = page.body[0]?.type === "paragraph" ? page.body[0].text : page.description;
@@ -140,6 +183,6 @@ export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
       </>}
     </main>
     {(voiceWidgetEnabled(pkg) || chatWidgetEnabled(pkg)) && <VoiceWidget title="StepOver DI konsultantas" appearance="stepover" chatAvailable={chatWidgetEnabled(pkg)} voiceAvailable={voiceWidgetEnabled(pkg)} />}
-    <footer className={styles.footer}><div><Brand /><p>{nicheNetworkContact(pkg.siteId).operatorName}</p><a href={`mailto:${pkg.site.contact.email}`}>{pkg.site.contact.email}</a></div><nav aria-label="Papildoma navigacija">{livePages.filter(p => ["gidai", "kontaktai", "apie-projekta", "redakcija", "privatumas", "naudojimo-salygos"].includes(p.slug)).map(p => <a key={p.id} href={nichePagePath(p)}>{p.title}</a>)}</nav><p className={styles.attribution}>Mūsų verslas automatizuotas su <a href="https://verslomatika.lt/" rel="noopener noreferrer">verslomatika.lt</a></p></footer>
+    <Footer pkg={pkg} livePages={livePages} />
   </div>;
 }
