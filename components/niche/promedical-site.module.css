@@ -18,10 +18,8 @@
 .skip:focus{top:10px}
 .header{background:#fff;border-bottom:1px solid var(--line)}
 .headerTop{max-width:1264px;margin:auto;display:flex;align-items:center;gap:42px;padding:26px 32px}
-.brand{display:flex!important;align-items:center;gap:10px;color:var(--green)!important;text-decoration:none!important;white-space:nowrap}
-.brand>span{font-size:1.75rem;font-weight:700;letter-spacing:-.035em;line-height:1}
-.brand>span>span{font-weight:500;color:var(--dark);letter-spacing:-.025em}
-.brand small{display:block;color:var(--muted);font-size:.75rem;font-weight:500;letter-spacing:normal;margin-top:7px;line-height:1.4}
+.brand{display:flex!important;align-items:center;width:244px;max-width:100%;flex-shrink:0;color:var(--green)!important;text-decoration:none!important}
+.shell .brandLogo{width:244px;height:48px;max-width:100%;object-fit:cover;object-position:center}
 .search{flex:1;max-width:560px;display:flex;background:var(--pale);border-radius:8px;border:1px solid var(--line)}
 .search input{width:100%;min-width:0;padding:14px 16px;background:transparent;border:0;color:var(--dark);outline:none}
 .search:focus-within{box-shadow:0 0 0 2px var(--green)}
@@ -242,9 +240,8 @@
 @media(max-width:720px){
 .shell{font-size:var(--text-body);--text-prose:1rem;--title-card:1.0625rem}
 .headerTop{padding:20px;gap:16px;flex-wrap:wrap}
-.brand>span{font-size:1.625rem;letter-spacing:-.035em}
-.brand small{font-size:.75rem;line-height:1.4;letter-spacing:normal}
-.brand>svg{width:29px;height:29px}
+.brand{width:205px}
+.shell .brandLogo{width:205px;height:42px}
 .headerRequest{margin-left:auto}
 .headerRequest>svg{width:22px}
 .count{width:22px;height:22px;font-size:.75rem}
@@ -402,9 +399,6 @@
 .shortlistRow label{margin-left:0}
 .shortlistRow .remove{margin-left:auto}
 .shortlistRow input{font-size:var(--text-body)}
-.brand>span{font-size:1.5rem}
-.brand small{font-size:.6875rem}
-.brand{gap:8px}
 .orderFacts>div{grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:12px}
 }
 

@@ -12,7 +12,7 @@
     "brand": {
       "accent": "#317955"
     },
-    "offer": "Klaro medicininiai vežimėliai, baldai, laikymo sistemos ir priedai gydymo įstaigoms",
+    "offer": "Medicininė įranga, baldai, laikymo sistemos ir priedai gydymo įstaigoms",
     "contact": {
       "email": "info@promedical.lt",
       "phone": "+370 686 88369"
@@ -23,49 +23,49 @@
       "siteId": "promedical",
       "type": "home",
       "slug": "",
-      "title": "Klaro medicininė įranga ir baldai gydymo įstaigoms | Promedical",
-      "description": "Profesionalūs Klaro medicininiai vežimėliai, modulinės ISO laikymo sistemos ir nerūdijančiojo plieno baldai Lietuvos ligoninėms, klinikoms bei slaugos centrams.",
-      "intent": "Kokią Klaro medicininę įrangą ir baldus siūlo Promedical ir kaip pateikti poreikio užklausą gydymo įstaigai?",
+      "title": "Medicininė įranga ir baldai gydymo įstaigoms | Promedical",
+      "description": "Medicininiai vežimėliai, baldai, laikymo sistemos ir priedai ligoninėms, poliklinikoms bei slaugos įstaigoms. Padėsime suderinti įrangą su jūsų skyriaus poreikiais.",
+      "intent": "Kokią medicininę įrangą ir baldus siūlo Promedical ir kaip pateikti poreikio užklausą gydymo įstaigai?",
       "body": [
         {
           "type": "paragraph",
-          "text": "„Promedical“ pristato Čekijos gamintojo „Klaro“ medicininę įrangą, baldus ir logistikos sprendimus, pritaikytus kasdieniam Lietuvos ligoninių, poliklinikų, operacinių bei slaugos įstaigų darbui. Gamintojo patirtis ir modulinė konstrukcija leidžia sukomplektuoti baldus pagal konkretaus skyriaus darbo procesus bei griežčiausius higienos standartus."
+          "text": "„Promedical“ padeda gydymo įstaigoms pasirinkti medicininę įrangą, baldus ir priemonių laikymo bei transportavimo sprendimus. Ligoninių, poliklinikų ir slaugos įstaigų poreikiai skiriasi, todėl įrangą verta rinktis pagal skyriaus darbą, patalpų dydį ir personalo naudojamas priemones."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Įranga pagal skyriaus darbo profilį ir procesus"
+          "text": "Įranga pagal skyriaus poreikius"
         },
         {
           "type": "paragraph",
-          "text": "Kiekvienas gydymo įstaigos padalinys turi savitus reikalavimus mobilumui, higienai ir talpai. Rinkdamiesi įrangą, atsižvelkite į medžiagų judėjimo maršrutus, atsparumą dezinfekcijos priemonėms ir ergonomiką. Mūsų svetainėje pateikiamas išsamus Klaro produktų katalogas padeda lengvai rasti reikiamos konfigūracijos gaminius pagal jų techninius parametrus bei katalogo kodą:"
+          "text": "Rinkdamiesi įrangą, įvertinkite jos paskirtį, talpą, judėjimo maršrutus ir priežiūros reikalavimus. Mūsų produktų katalogas padeda rasti gaminius pagal jų techninius duomenis ir modelio kodą. Jame rasite šias įrangos grupes:"
         },
         {
           "type": "list",
           "items": [
-            "Moduliniai medicininiai vežimėliai: procedūriniai, anesteziologiniai, reanimaciniai, vaistų paskirstymo ir vizitų vežimėliai su teleskopiniais stalčiais.",
-            "ISO 60-40 standartizuota sistema: universalios daugiafunkcės spintos, stacionarūs stelažai ir UNI-TRANS transportavimo vežimėliai.",
-            "PROFI nerūdijančiojo plieno (AISI 304) baldai: operacinių stalai, instrumentų vežimėliai, Mayo staliukai ir dezinfekcijai atsparūs baldai.",
-            "Pagalbinė ligoninės logistika: švarių ir nešvarių skalbinių vežimėliai, medicininių atliekų rūšiavimo stovai bei patalpų priežiūros įranga."
+            "Medicininiai vežimėliai: priemonėms laikyti, procedūroms, medikamentams paskirstyti ir pacientų priežiūrai.",
+            "Laikymo ir transportavimo sistemos: moduliniai krepšiai, spintos, stelažai ir priemonių transportavimo vežimėliai.",
+            "Medicininiai baldai ir priedai: instrumentų staleliai, Mayo staliukai, infuzijų stovai ir nerūdijančiojo plieno darbo paviršiai.",
+            "Skalbinių, atliekų ir patalpų priežiūros įranga: skalbinių vežimėliai, atliekų rūšiavimo stovai ir pagalbinės darbo priemonės."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Aiški atranka ir praktiniai pirkimų patarimai"
+          "text": "Praktinė pagalba ruošiant pirkimą"
         },
         {
           "type": "paragraph",
-          "text": "Tam, kad gydymo įstaigos pirkimų specialistai ir skyrių vadovai galėtų tiksliai apibrėžti techninius reikalavimus, parengti praktiniai pasirinkimo gidai. Juose paaiškinama, kaip įvertinti korpuso medžiagą, parinkti ratukų diametrą, suplanuoti stalčių vidinius matmenis bei užtikrinti modulių suderinamumą tarp sandėlio ir procedūrinio kabineto."
+          "text": "Mūsų pasirinkimo gidai padeda įvertinti įrangos matmenis, medžiagas, ratukus, stalčių išdėstymą ir priedų suderinamumą. Juose rasite patarimų, kokią informaciją surinkti prieš pirkimą ir kaip aprašyti skyriaus poreikį, kad būtų lengviau palyginti pasiūlymus."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Individualus pasiūlymas ir komplektacijos derinimas"
+          "text": "Komplektacija pagal jūsų poreikį"
         },
         {
           "type": "paragraph",
-          "text": "Medicininė įranga komplektuojama individualiai: galima pasirinkti papildomus Euro-rail bėgelius (25 × 10 mm), infuzijų stovus, šoninius atlenkiamus staliukus, aštrių atliekų ar dezinfekanto laikiklius. Nurodykite reikiamą modelį, pageidaujamus priedus bei vienetų skaičių, ir mūsų specialistai parengs oficialų komercinį pasiūlymą su aiškiais tiekimo terminais. Užklausą galite atsiųsti paspaudę pateikti įrangos užklausą arba susisiekę tiesiogiai el. paštu bei telefonu."
+          "text": "Ruošdami užklausą, nurodykite įrangos paskirtį, pasirinktus modelius, kiekius ir reikalingus priedus. Kainą, komplektaciją ir tiekimo sąlygas suderinsime individualiai. Galite pateikti įrangos užklausą svetainėje arba susisiekti su mumis el. paštu ir telefonu."
         }
       ],
       "publishAt": "2026-10-09T14:47:29.665Z",
@@ -73,7 +73,7 @@
         {
           "id": "412f1048-43d2-497c-8643-96fa590a8c36",
           "src": "/content-assets/promedical/412f1048-43d2-497c-8643-96fa590a8c36.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 720,
           "height": 720,
           "credit": "",
@@ -82,7 +82,7 @@
         {
           "id": "cf994159-8b49-4fb7-8697-2af593aa4b26",
           "src": "/content-assets/promedical/cf994159-8b49-4fb7-8697-2af593aa4b26.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 640,
           "height": 640,
           "credit": "",
@@ -91,7 +91,7 @@
         {
           "id": "20e50921-b610-4a83-b86a-245df79ad78d",
           "src": "/content-assets/promedical/20e50921-b610-4a83-b86a-245df79ad78d.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 360,
           "height": 360,
           "credit": "",
@@ -101,7 +101,7 @@
       "links": [
         {
           "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
-          "label": "Klaro produktų katalogas"
+          "label": "produktų katalogas"
         },
         {
           "targetPageId": "be06fde7-be34-4faa-95c2-c99831ca4d99",
@@ -112,20 +112,14 @@
           "label": "pateikti įrangos užklausą"
         }
       ],
-      "externalLinks": [
-        {
-          "url": "https://www.klaro.cz/en",
-          "label": "Klaro: gamintojo produktų apžvalga",
-          "reason": "2026-10-09 peržiūrėtos gamintojo produktų grupės ir paskirtis; tai ne mūsų kainų, likučių ar tiekimo terminų šaltinis."
-        }
-      ],
+      "externalLinks": [],
       "id": "36d50e14-bc72-4305-b8fe-9d55981abde3",
-      "revisionHash": "3c3d72af3fb0810458cdbeff6552501e096944dfdb3885ad5d1cdd3d9b918848",
+      "revisionHash": "cb4818415f36f118a9dac095d99b1ee21de6e7206a3f31183b489db1f3e62ecb",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.832Z",
-        "revisionHash": "3c3d72af3fb0810458cdbeff6552501e096944dfdb3885ad5d1cdd3d9b918848"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:45:44.731Z",
+        "revisionHash": "cb4818415f36f118a9dac095d99b1ee21de6e7206a3f31183b489db1f3e62ecb"
       }
     },
     {
@@ -280,12 +274,12 @@
       "type": "guide",
       "slug": "gidai/medicininio-vezimelio-pasirinkimas",
       "title": "Kaip pasirinkti medicininį vežimėlį įstaigai",
-      "description": "Vežimėlio paskirtis, korpuso medžiagos (BASIC vs PROFI AISI 304), stalčiai, Tente ratukai ir Euro-rail priedai: praktinis vadovas ligoninėms ir klinikoms.",
+      "description": "Kaip parinkti medicininio vežimėlio paskirtį, BASIC ar PROFI korpusą, stalčius, ratukus ir priedus pagal gydymo įstaigos darbo sąlygas.",
       "intent": "Pagal kokius techninius ir ergonominius kriterijus parinkti medicininį vežimėlį gydymo įstaigos skyriui?",
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicininis vežimėlis yra viena intensyviausiai naudojamų gydymo įstaigos darbo priemonių. Tinkamai parinktas modelis ne tik taupo personalo laiką atliekant procedūras, bet ir užtikrina griežtą infekcijų kontrolę, ergonomiką bei saugų medikamentų laikymą. Norint išvengti klaidų, vežimėlio atranką verta pradėti nuo konkrečių procedūrų ir judėjimo maršruto analizės, o visus galimus modelių variantus galima išsamiai apžiūrėti Klaro produktų kataloge."
+          "text": "Medicininis vežimėlis yra viena intensyviausiai naudojamų gydymo įstaigos darbo priemonių. Tinkamai parinktas modelis padeda patogiai išdėstyti priemones, taupyti personalo laiką ir laikytis skyriaus higienos bei medikamentų laikymo tvarkos. Norint išvengti klaidų, vežimėlio atranką verta pradėti nuo konkrečių procedūrų ir judėjimo maršruto analizės, o visus galimus modelių variantus galima išsamiai apžiūrėti Klaro produktų kataloge."
         },
         {
           "type": "heading",
@@ -294,7 +288,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Klaro asortimente vežimėliai skirstomi pagal specializuotą pritaikymą, todėl kiekvienas tipas pasižymi tam tikrais konstrukciniais ypatumais:"
+          "text": "Rinkdamiesi iš „Klaro“ asortimento, pagal darbo paskirtį įvertinkite šias galimas komplektacijas. Konkretaus modelio įrangą sutikrinkite su jo kortele:"
         },
         {
           "type": "list",
@@ -318,7 +312,7 @@
         {
           "type": "list",
           "items": [
-            "PROFI serija (nerūdijantysis plienas AISI 304): visiškai atspari agresyvioms chloro, alkoholio ir rūgštinėms dezinfekavimo priemonėms, korozijai bei drėgmei. Šie vežimėliai yra privalomas standartas operacinėse, reanimacijoje, nudegimų skyriuose bei centrinėse sterilizacinėse.",
+            "PROFI serija (nerūdijantysis plienas AISI 304): nerūdijančiojo plieno konstrukcija, kurios priežiūrą reikia derinti su konkretaus modelio instrukcija. „Klaro“ AISI 304 paviršiams nurodo nenaudoti chloro turinčių priemonių. Komplektaciją operacinei, reanimacijai ar sterilizavimo skyriui parinkite pagal skyriaus darbo ir higienos reikalavimus.",
             "BASIC serija (dažytas plienas): plieninis karkasas padengtas aukštos kokybės poliesterio milteline danga, o kampai apsaugoti smūgiams atspariais ABS plastiko profiliais. Tai ekonomiškas, estetiškas ir patvarus pasirinkimas poliklinikoms, bendriesiems stacionaro skyriams bei slaugos postams."
           ]
         },
@@ -335,7 +329,7 @@
           "type": "list",
           "items": [
             "Siauriausias durų angas pakeliui (ypač senesnės statybos korpusuose) ir lifto durų plotį.",
-            "Patalpos, kurioje vežimėlis stovės nenaudojamas, išplanavimą – ar bus galima pilnai ištraukti stalčius nekliudant kitų baldų?",
+            "Patalpos, kurioje vežimėlis stovės nenaudojamas, išplanavimą – ar bus galima iki galo ištraukti stalčius nekliudant kitų baldų?",
             "Manevravimo erdvę palatoje tarp funkcinės lovos, infuzijos stovo ir sienos."
           ]
         },
@@ -346,7 +340,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Klaro stalčiai montuojami ant plieninių teleskopinių bėgelių su rutuliniais guoliais, užtikrinančiais 100 % ištraukiamumą ir švelnų savaiminį pritraukimą („soft-close“). Standartiniai stalčių fasadų aukščiai yra 75 mm, 150 mm, 225 mm ir 300 mm. Stalčių viduje montuojamos modulinės išilginės bei skersinės pertvaros, leidžiančios sukurti stabilias vietas ampulėms, švirkštams ir tvarsčiams. Jeigu įstaigoje naudojamas standartizuotas priemonių tiekimas, patikrinkite, ar vežimėlyje integruota ISO modulių sistema, leidžianti krepšius perkelti tiesiai iš sandėlio spintos be priemonių perrinkimo."
+          "text": "Pasirinkto modelio kortelėje patikrinkite stalčių vidinius matmenis, apkrovą, ištraukimo eigą ir uždarymo mechanizmą. Pertvaras parinkite pagal laikomų ampulių, švirkštų ir tvarsčių pakuočių dydį. Jeigu įstaigoje naudojamas standartizuotas priemonių tiekimas, patikrinkite, ar vežimėlyje integruota ISO modulių sistema, leidžianti krepšius perkelti tiesiai iš sandėlio spintos be priemonių perrinkimo."
         },
         {
           "type": "heading",
@@ -355,15 +349,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Medicininio vežimėlio eigos sklandumas ir triukšmo lygis tiesiogiai priklauso nuo ratukų kokybės. Klaro vežimėliuose montuojami vokiški „Tente“ medicininiai ratukai:"
+          "text": "Medicininio vežimėlio eigos sklandumas ir triukšmo lygis tiesiogiai priklauso nuo ratukų kokybės. Ratukų gamintoją, skersmenį ir stabdžių konstrukciją patikrinkite pasirinkto modelio dokumentuose. Vertinkite šias savybes:"
         },
         {
           "type": "list",
           "items": [
             "Skersmuo: rekomenduojamas 100 mm arba 125 mm skersmuo. Didesnio skersmens ratukai lengviau įveikia grindų slenksčius ir lifto sujungimus.",
             "Protektorius: netepanti termoplastinė guma, nepaliekanti žymių ant polimerinių ar linoleumo grindų dangų.",
-            "Guolių apsauga: integruotos šoninės guolių apsaugos apsaugo mechanizmus nuo siūlų, plaukų ir dulkių apsivyniojimo.",
-            "Stabdžiai: du priekiniai ratukai turi nepriklausomus visiško blokavimo stabdžius („total stop“), blokuojančius ir riedėjimą, ir ratuko pasisukimą apie ašį. Operacinėms galima pasirinkti antistatinius ratukus."
+            "Guolių apsauga: patikrinkite, ar ratukai turi šonines apsaugas nuo siūlų ir plaukų apsivyniojimo.",
+            "Stabdžiai: sutikrinkite ratukų su stabdžiais skaičių ir blokavimo veikimą. Visiško blokavimo stabdys („total stop“) fiksuoja riedėjimą ir ratuko pasisukimą. Jei skyriui reikia antistatinės komplektacijos, ją nurodykite užklausoje ir patvirtinkite konkrečiam modeliui."
           ]
         },
         {
@@ -373,7 +367,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Daugelis Klaro modelių komplektuojami su standartiniais nerūdijančiojo plieno 25 × 10 mm bėgeliais vežimėlio šonuose. Šie bėgeliai leidžia greitai ir be specialių įrankių pritvirtinti papildomus priedus: reguliuojamo aukščio infuzijų stovą su 2 arba 4 kabliukais, atliekų dėžę su rankiniu arba pedalo atidarymu, aštrių medicininių atliekų konteinerio laikiklį, pirštinių dėžučių laikiklius ar atlenkiamą staliuką papildomam darbiniam plotui."
+          "text": "Jei priedus tvirtinsite prie Euro-rail bėgelio, sutikrinkite jo 25 × 10 mm profilį, vietą ir leistiną apkrovą su pasirinktu modeliu bei laikikliu. Pagal poreikį galima derinti šiuos priedus: reguliuojamo aukščio infuzijų stovą su 2 arba 4 kabliukais, atliekų dėžę su rankiniu arba pedalo atidarymu, aštrių medicininių atliekų konteinerio laikiklį, pirštinių dėžučių laikiklius ar atlenkiamą staliuką papildomam darbiniam plotui."
         },
         {
           "type": "heading",
@@ -501,12 +495,12 @@
         }
       ],
       "id": "a4a35108-c881-401b-a598-d2d0c800b7d3",
-      "revisionHash": "17f3341e13227e4774d8416bae7b50069bd62ff4887180f744b0338f9418af1b",
+      "revisionHash": "2ed6f3052bd6f2b6116a968df050285aada4cd150fa8c345a5b2e25447969700",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.834Z",
-        "revisionHash": "17f3341e13227e4774d8416bae7b50069bd62ff4887180f744b0338f9418af1b"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "2ed6f3052bd6f2b6116a968df050285aada4cd150fa8c345a5b2e25447969700"
       }
     },
     {
@@ -961,7 +955,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Nuo 1990 m. veikianti Čekijos bendrovė „Klaro“ yra viena iš pirmaujančių Centrinės Europos medicininio inventoriaus gamintojų. Įmonė specializuojasi modulinių vežimėlių, ISO 60-40 standartizuotų laikymo sistemų, nerūdijančiojo plieno baldų bei skalbinių ir atliekų tvarkymo įrangos srityje. Visi gaminiai projektuojami glaudžiai bendradarbiaujant su sveikatos priežiūros specialistais, todėl atitinka realius kasdienio klinikinio darbo poreikius."
+          "text": "1994 m. įkurta Čekijos bendrovė „Klaro“ gamina medicininę įrangą ir baldus gydymo įstaigoms. Įmonė specializuojasi modulinių vežimėlių, ISO 60-40 standartizuotų laikymo sistemų, nerūdijančiojo plieno baldų bei skalbinių ir atliekų tvarkymo įrangos srityje. Visi gaminiai projektuojami glaudžiai bendradarbiaujant su sveikatos priežiūros specialistais, todėl atitinka realius kasdienio klinikinio darbo poreikius."
         },
         {
           "type": "heading",
@@ -997,12 +991,12 @@
         }
       ],
       "id": "f4b86b06-c39a-4aeb-b0f4-20b195c06328",
-      "revisionHash": "722563239aad81ce99b0ab8751e9247632b3f6b7b14a6e2b020e6f1e551f0237",
+      "revisionHash": "557d6579e27a805589a6052a26913616aabf78c9d7e39ead2bfd5c440b26d4a1",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.834Z",
-        "revisionHash": "722563239aad81ce99b0ab8751e9247632b3f6b7b14a6e2b020e6f1e551f0237"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "557d6579e27a805589a6052a26913616aabf78c9d7e39ead2bfd5c440b26d4a1"
       }
     },
     {
@@ -1083,12 +1077,12 @@
       "type": "faq",
       "slug": "privatumas",
       "title": "Privatumo politika ir asmens duomenų apsauga | Promedical",
-      "description": "Kaip tvarkomi užklausos kontaktiniai duomenys, kokios yra duomenų subjektų teisės ir kaip užtikrinamas BDAR laikymasis Promedical svetainėje.",
+      "description": "Kokius įrangos užklausos duomenis naudojame, kaip ją saugome ir pristatome, kaip kreiptis dėl savo duomenų į Promedical.",
       "intent": "Kokie asmens duomenys renkami pateikiant užklausą ir kaip užtikrinamas jų saugumas pagal BDAR?",
       "body": [
         {
           "type": "paragraph",
-          "text": "„Promedical“ gerbia jūsų privatumą ir užtikrina skaidrų bei teisėtą asmens duomenų tvarkymą, vadovaudamasi Bendruoju duomenų apsaugos reglamentu (BDAR) bei Lietuvos Respublikos teisės aktais."
+          "text": "Šiame puslapyje paaiškinama, kokia informacija naudojama gavus „Promedical“ įrangos užklausą ir kaip kreiptis dėl savo duomenų."
         },
         {
           "type": "heading",
@@ -1097,7 +1091,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kai kreipiatės į mus dėl įrangos poreikio ar komercinio pasiūlymo, tvarkome tik būtinus kontaktinius duomenis: kontaktinio asmens vardą, pavardę, darbinį el. pašto adresą, telefono numerį ir atstovaujamos gydymo įstaigos pavadinimą. Šie duomenys naudojami išimtinai komerciniam pasiūlymui parengti, užsakymui administruoti bei ryšiui palaikyti."
+          "text": "Kai pateikiate įrangos užklausą, naudojame jūsų įrašytus kontaktinius duomenis, įstaigos pavadinimą, užklausos tekstą ir pasirinktų produktų sąrašą. Taip pat išsaugomas formos patvirtinimas ir užklausos pateikimo laikas. Ši informacija reikalinga poreikiui suprasti, pasiūlymui parengti ir atsakyti į užklausą."
         },
         {
           "type": "paragraph",
@@ -1110,7 +1104,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gauti duomenys nėra perduodami jokiems tretiesiems asmenims, išskyrus atvejus, kai tai būtina užsakymo įvykdymui (pvz., logistikos partneriams pristatymo organizavimui) arba kai to reikalauja įstatymai. Duomenys saugomi tiek laiko, kiek būtina užklausai išnagrinėti bei teisės aktuose numatytiems archyvavimo reikalavimams įvykdyti."
+          "text": "Svetainė ir užklausų saugykla veikia „Cloudflare“ infrastruktūroje. Užklausos pranešimas siunčiamas į „Hostinger“ administruojamą info@promedical.lt pašto dėžutę. Šie paslaugų teikėjai dalyvauja užklausos saugojime ir pristatyme; informaciją naudojame jai išnagrinėti ir tolesniam bendravimui. Dėl užklausos duomenų saugojimo ar pašalinimo kreipkitės žemiau nurodytais kontaktais."
         },
         {
           "type": "heading",
@@ -1142,12 +1136,12 @@
         }
       ],
       "id": "fbecd4f2-ddef-4f28-b12a-97d2da359a68",
-      "revisionHash": "36b980f2b540d0ca7f9d756afccc9adb8c1eceb36d1939feaf55402c94ce2ca2",
+      "revisionHash": "46dfb5bc24f912708157639bc3dc080d2cf711810ec3ca5824ac9eb641b93546",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.834Z",
-        "revisionHash": "36b980f2b540d0ca7f9d756afccc9adb8c1eceb36d1939feaf55402c94ce2ca2"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "46dfb5bc24f912708157639bc3dc080d2cf711810ec3ca5824ac9eb641b93546"
       }
     },
     {
@@ -191818,7 +191812,7 @@
       "type": "guide",
       "slug": "gidai/mayo-staliuko-pasirinkimas",
       "title": "Kaip pasirinkti Mayo instrumentų staliuką",
-      "description": "Chirurginių instrumentų Mayo staliukai operacinėms: hidraulinis pedalo valdymas vs sriegis, AISI 304 nerūdijantysis plienas, išimami padėklai.",
+      "description": "Mayo instrumentų staliuko aukščio reguliavimas, padėklas, ratukai ir modelio priežiūros sąlygos. NEREZ1120, NEREZ1101 ir NEREZ1135 pavyzdžiai.",
       "intent": "Kaip parinkti chirurginį Mayo instrumentų staliuką operacinei ar procedūrų kabinetui?",
       "body": [
         {
@@ -191849,7 +191843,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Visi Klaro Mayo staliukai gaminami iš aukščiausios kokybės nerūdijančiojo plieno AISI 304. Viršutinis padėklas yra išimamas, be jokių aštrių kampų, todėl jį galima atskirai plauti ir sterilizuoti autoklave. Pagrindo konstrukcija suprojektuota taip, kad žemas rėmas laisvai palįstų po operaciniu stalu ar gultu."
+          "text": "NEREZ1120 kortelėje nurodyta AISI 304 konstrukcija ir nuimamas, pasukamas padėklas. Šiam ir kitiems N0010 instrukcijoje išvardytiems hidrauliniams modeliams leidžiamas garų poveikis iki 130 °C ne ilgiau kaip 3 minutes. Kitų modelių valymo ir sterilizavimo sąlygas tikrinkite jų instrukcijose. Prieš rinkdamiesi išmatuokite vietą po operaciniu stalu ar gultu ir sutikrinkite ją su staliuko pagrindo matmenimis."
         },
         {
           "type": "heading",
@@ -191858,7 +191852,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Staliukas komplektuojamas su antistatiniais Tente ratukais, atspariais dezinfekcijai, iš kurių du turi stabdžius. Platesnį nerūdijančiojo plieno baldų kontekstą aptaria Kaip aprašyti nerūdijančio plieno stalo poreikį. Norėdami pateikti užklausą, perskaitykite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "NEREZ1120 gamintojas nurodo antistatinę konstrukciją ir keturis 75 mm dvigubus pasukamus ratukus su stabdžiais. Ratukų ir stabdžių duomenis tikrinkite pagal konkretų staliuko kodą. Platesnį nerūdijančiojo plieno baldų kontekstą aptaria gidas „Kaip aprašyti nerūdijančio plieno stalo poreikį“. Norėdami pateikti užklausą, perskaitykite gidą „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“ arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-10-29T08:00:00.000Z",
@@ -192003,12 +191997,12 @@
         }
       ],
       "id": "7fb61c62-a821-47e2-b42c-81685961c434",
-      "revisionHash": "6a4c50883a269f045bc6f7c64490402f539abba8dc22414a583c5ebed24c5c1f",
+      "revisionHash": "36319e82df746735559c3ea7e529fe7ae7c4e9e1e705735d09c20da4dec110fd",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.838Z",
-        "revisionHash": "6a4c50883a269f045bc6f7c64490402f539abba8dc22414a583c5ebed24c5c1f"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "36319e82df746735559c3ea7e529fe7ae7c4e9e1e705735d09c20da4dec110fd"
       }
     },
     {
@@ -192720,7 +192714,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Gydymo įstaigos privalo užtikrinti, kad perkami baldai ir įranga būtų suderinami su įstaigoje patvirtintomis dezinfekavimo priemonėmis. Jei baldas neturi aiškios gamintojo valymo instrukcijos (Instructions for Use – IFU), kyla rizika sugadinti miltelinę dangą, plastiko elementus ar ratukų guolius. Priežiūros plano sudarymą aptaria Medicininių baldų priežiūros planas pagal gamintojo dokumentus."
+          "text": "Gydymo įstaigos privalo užtikrinti, kad perkami baldai ir įranga būtų suderinami su įstaigoje patvirtintomis dezinfekavimo priemonėmis. Jei baldas neturi aiškios gamintojo valymo instrukcijos (Instructions for Use – IFU), kyla rizika sugadinti miltelinę dangą, plastiko elementus ar ratukų guolius. Priežiūros plano sudarymą aptaria gidas „Medicininių baldų priežiūros planas pagal gamintojo dokumentus“."
         },
         {
           "type": "heading",
@@ -192734,10 +192728,10 @@
         {
           "type": "list",
           "items": [
-            "Leistinos cheminių medžiagų grupės: alkoholiniai dezinfekantai, chloro junginiai, ketvirtiniai amonio junginiai, vandenilio peroksidas.",
+            "Leistinos valymo ir dezinfekavimo priemonės: sutikrinkite konkrečius preparatus, koncentraciją ir paviršiaus medžiagą su instrukcija. „Klaro“ AISI 304 paviršiams draudžia chloro turinčias priemones.",
             "Maksimali ekspozicijos trukmė ir reikalavimas po dezinfekcijos nuvalyti paviršių drėgna šluoste, kad neliktų chemijos kristalų.",
-            "Temperatūrinis atsparumas: krepšių ir padėklų plovimo temperatūra automatinėse mašinose (iki 93 °C) ir autoklavavimas (iki 134 °C).",
-            "Ratukų ir bėgelių priežiūra: kokius tepalus leidžiama naudoti guolių profilaktikai iš skilties Vežimėlių priedai."
+            "Temperatūrinis atsparumas: patikrinkite, ar konkretų gaminį leidžiama plauti mašinoje ar sterilizuoti garais, kokia didžiausia temperatūra ir poveikio trukmė. Vieno modelio leidžiamas režimas netaikomas visiems krepšiams, padėklams ar vežimėliams.",
+            "Ratukų ir bėgelių priežiūra: instrukcijoje patikrinkite valymo būdą ir ar reikia tepimo. Keičiamas dalis rinkitės pagal modelio kodą iš skilties Vežimėlių priedai."
           ]
         },
         {
@@ -192756,7 +192750,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Reikalavimą pateikti instrukcijas lietuvių kalba įtraukite į pirkimą pagal Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užsakymą pateikite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Reikalavimą pateikti instrukcijas lietuvių kalba įtraukite į pirkimą pagal gidą „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o užsakymą pateikite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-11-14T12:00:00.000Z",
@@ -192847,12 +192841,12 @@
         }
       ],
       "id": "1f166ace-c55b-4d5f-8502-b7e72bc84522",
-      "revisionHash": "4cbb38aafd34a5349d312cfc0c8535cf2e7533bf2e7a35c44de0739d48408d3c",
+      "revisionHash": "c182fc4679b9ab786194d7dbe81c1a116de4b9e95e6f566107228fbf93eacbd5",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.841Z",
-        "revisionHash": "4cbb38aafd34a5349d312cfc0c8535cf2e7533bf2e7a35c44de0739d48408d3c"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "c182fc4679b9ab786194d7dbe81c1a116de4b9e95e6f566107228fbf93eacbd5"
       }
     },
     {
@@ -193410,7 +193404,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Visi sterilizavimo skyriaus baldai turi būti pagaminti iš aukštos kokybės nerūdijančiojo plieno AISI 304:"
+          "text": "Baldų medžiagas ir priežiūros sąlygas parinkite pagal konkrečios zonos procesus bei naudojamas priemones. „Klaro“ siūlo nerūdijančiojo plieno baldus; reikalingą plieno klasę nurodykite užklausoje. Planuojant įrangą verta atskirti šias darbo vietas:"
         },
         {
           "type": "list",
@@ -193427,7 +193421,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Steriliems paketams transportuoti naudojami specialūs padėklai, aprašyti gide Nerūdijančio plieno padėklai sterilizavimo skyriui: matmenų ir talpinimo patikra. Vežimėliai privalo turėti karščiui atsparius ratukus, atlaikančius įkaitusius krepšius tiesiai iš autoklavo."
+          "text": "Steriliems paketams transportuoti naudojami specialūs padėklai, aprašyti gide Nerūdijančio plieno padėklai sterilizavimo skyriui: matmenų ir talpinimo patikra. Krepšių vėsinimo ir transportavimo tvarką derinkite su skyriaus procedūromis. Vežimėlio, jo paviršių ir ratukų leistiną temperatūrą patikrinkite gamintojo dokumentuose."
         },
         {
           "type": "heading",
@@ -193436,7 +193430,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Techninę specifikaciją parengti padeda Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užsakymo parametrą pateikite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Techninę specifikaciją parengti padeda gidas „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o savo poreikį pateikite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-11-11T12:00:00.000Z",
@@ -193531,12 +193525,12 @@
         }
       ],
       "id": "f97260fd-040b-43e9-9d7b-260d8ef66cc0",
-      "revisionHash": "4691db780e69be93e3c006c36eeb1f96e0ad21f39916a65bddb06f3917288b17",
+      "revisionHash": "02d831866a6e675d273f299011d040b903ce39d053109285b6747b6292866697",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.841Z",
-        "revisionHash": "4691db780e69be93e3c006c36eeb1f96e0ad21f39916a65bddb06f3917288b17"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "02d831866a6e675d273f299011d040b903ce39d053109285b6747b6292866697"
       }
     },
     {
@@ -194204,7 +194198,7 @@
       "type": "guide",
       "slug": "gidai/medicininio-vezimelio-ratukai-ir-stabdziai",
       "title": "Medicininio vežimėlio ratukai ir stabdžiai pagal grindis bei maršrutą",
-      "description": "Kaip parinkti vežimėlio ratukus ligoninei: skersmuo (100 vs 125 mm), Tente ratukai, guolių apsaugos, centrinis stabdys, antistatiniai variantai.",
+      "description": "Medicininio vežimėlio ratukų skersmuo, grindų danga, guolių apsaugos ir stabdžiai: ką patikrinti pagal modelį, apkrovą ir judėjimo maršrutą.",
       "intent": "Kokie ratukai ir stabdžių sistemos užtikrina lengvą bei saugų medicininio vežimėlio riedėjimą?",
       "body": [
         {
@@ -194218,7 +194212,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Klaro vežimėliuose montuojami aukštos klasės vokiški „Tente“ ratukai. Ratuko diametro pasirinkimas priklauso nuo maršruto:"
+          "text": "Ratukų skersmenį ir komplektaciją sutikrinkite su modelio kortele. Pavyzdžiui, „Klaro“ ZV1361N/PZ kortelėje nurodyti keturi 125 mm ratukai, iš kurių du turi stabdžius. Pasirinkimą derinkite su vežimėlio apkrova ir maršrutu:"
         },
         {
           "type": "list",
@@ -194234,7 +194228,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Ligoninėse naudojami termoplastinės gumos protektoriai, kurie nepalieka juodų žymių ant dangos ir slopina vibraciją. Ratukuose integruotos šoninės guolių apsaugos (thread guards), kurios neleidžia medicininiams siūlams, plaukams ir dulkėms apsivynioti aplink ašį ir užkirsti ratuko."
+          "text": "Ligoninėse naudojami termoplastinės gumos protektoriai, kurie nepalieka juodų žymių ant dangos ir slopina vibraciją. Pasirinkto ratuko dokumentuose patikrinkite protektoriaus medžiagą ir šonines guolių apsaugas nuo siūlų bei plaukų apsivyniojimo."
         },
         {
           "type": "heading",
@@ -194243,7 +194237,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Standartiniuose modeliuose du priekiniai ratukai turi individualius „total stop“ stabdžius. Didelio intensyvumo vežimėliams ir reanimacijai siūlomas pažangus sprendimas – Stabdžių sistema: centrinis stabdys, kur vieno pedalo paspaudimu iškart užblokuojami du ar keturi ratukai."
+          "text": "Modelio dokumentuose patikrinkite, kurie ratukai turi stabdžius ir ar stabdys fiksuoja tik riedėjimą, ar ir ratuko pasisukimą. Kataloge pateikiamas sprendimas Stabdžių sistema: centrinis stabdys. Jo suderinamumą, valdymą ir blokuojamų ratukų skaičių suderinkite pagal pasirinkto vežimėlio kodą."
         },
         {
           "type": "heading",
@@ -194252,7 +194246,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Operacinėms galima pasirinkti antistatinius ratukus, saugančius nuo statinės elektros iškrovų. Daugiau važiuoklės priedų rasite kataloge Vežimėlių priedai. Komplektacijos derinimo klausimus aptaria Bazinis vežimėlis ir priedai: kaip patikrinti komplektaciją. Pirkimo specifikaciją parengti padeda Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užklausą pateikite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Operacinėms galima pasirinkti antistatinius ratukus, saugančius nuo statinės elektros iškrovų. Daugiau važiuoklės priedų rasite kataloge Vežimėlių priedai. Komplektacijos derinimo klausimus aptaria gidas „Bazinis vežimėlis ir priedai: kaip patikrinti komplektaciją“. Pirkimo specifikaciją parengti padeda gidas „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o užklausą pateikite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-10-20T11:00:00.000Z",
@@ -194354,15 +194348,20 @@
           "url": "https://www.klaro.cz/en/navody-pdf-2186",
           "label": "Klaro gaminių instrukcijos",
           "reason": "Gamintojo instrukcijų rodyklė. Raskite dokumentą pagal tikslų gaminio kodą ir patikrinkite jo leidimą bei taikymo sritį."
+        },
+        {
+          "url": "https://www.klaro.cz/produkt/zv1361n-pz",
+          "label": "Klaro: ZV1361N/PZ techniniai duomenys",
+          "reason": "Šio modelio kortelėje nurodyti keturi 125 mm ratukai, iš kurių du turi stabdžius. Kitų modelių komplektaciją tikrinkite atskirai."
         }
       ],
       "id": "51c7d249-2055-4f26-997f-7cc832313fb4",
-      "revisionHash": "b1e72458ae334a6ceca12cae953fa19e0501afc44fad6dace7d7240b40e72149",
+      "revisionHash": "1493f49350d3f55186b48d43d52e1d8b1f194766063d6dca7fda7f4908484f20",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.836Z",
-        "revisionHash": "b1e72458ae334a6ceca12cae953fa19e0501afc44fad6dace7d7240b40e72149"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "1493f49350d3f55186b48d43d52e1d8b1f194766063d6dca7fda7f4908484f20"
       }
     },
     {
@@ -195408,16 +195407,16 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Skubiosios medicinos pagalbos ir reanimacijos vežimėlis (tarptautiniu mastu žinomas kaip „Crash Cart“) yra kritinės svarbos įranga kiekviename ligoninės skyriuje. Gaivinimo situacijoje kiekviena sekundė lemia paciento gyvybę, todėl vežimėlis turi būti akimirksniu atpažįstamas, lengvai manevruojamas ir aprūpintas visa reanimacine įranga. Bendrąsias rekomendacijas pateikia Kaip pasirinkti medicininį vežimėlį įstaigai."
+          "text": "Skubiosios medicinos pagalbos ir reanimacijos vežimėlis (tarptautiniu mastu žinomas kaip „Crash Cart“) yra kritinės svarbos įranga kiekviename ligoninės skyriuje. Gaivinimo situacijoje kiekviena sekundė lemia paciento gyvybę, todėl vežimėlis turi būti akimirksniu atpažįstamas, lengvai manevruojamas ir aprūpintas visa reanimacine įranga. Bendrąsias rekomendacijas pateikia gidas „Kaip pasirinkti medicininį vežimėlį įstaigai“."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Būtina reanimacinio vežimėlio įranga"
+          "text": "Reanimacinio vežimėlio priedai"
         },
         {
           "type": "paragraph",
-          "text": "Klaro gaivinimo vežimėliai projektuojami pagal tarptautinius gaivinimo protokolus:"
+          "text": "Komplektaciją suderinkite su skyriaus gaivinimo tvarka ir naudojamais prietaisais. Renkantis vežimėlį verta įvertinti šiuos priedus ir konstrukcijos savybes:"
         },
         {
           "type": "list",
@@ -195437,7 +195436,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Specializuotą asortimentą rasite skiltyje Gaivinimo vežimėliai. Pavyzdinis modelis – BASIC, PROFI vežimėlio komplektacijos pavyzdys – gaivinimo vežimėlis 01, atitinkantis visus skubios pagalbos skyrių reikalavimus."
+          "text": "Specializuotą asortimentą rasite skiltyje Gaivinimo vežimėliai. Pavyzdinis modelis – BASIC, PROFI vežimėlio komplektacijos pavyzdys – gaivinimo vežimėlis 01. Jo priedus ir išdėstymą suderinkite su konkretaus skyriaus reikalavimais."
         },
         {
           "type": "heading",
@@ -195446,7 +195445,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prieš užsakant vežimėlį svarbu suderinti turimo defibriliatoriaus ir deguonies baliono matmenis. Patarimus dėl dalių specifikavimo rasite gide Bazinis vežimėlis ir priedai: kaip patikrinti komplektaciją. Užklausos parengimą detalizuoja Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užsakymo parametrą galite pateikti skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Prieš užsakant vežimėlį svarbu suderinti turimo defibriliatoriaus ir deguonies baliono matmenis. Patarimus dėl dalių specifikavimo rasite gide Bazinis vežimėlis ir priedai: kaip patikrinti komplektaciją. Užklausos parengimą detalizuoja gidas „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o savo poreikį galite pateikti skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-10-17T11:00:00.000Z",
@@ -195578,12 +195577,12 @@
         }
       ],
       "id": "e6f574e9-b8a0-4aab-853c-5d00277636c6",
-      "revisionHash": "ab7b15c775b017efcefde1a0a96158371c65b3505c45957d141fb3ce02262302",
+      "revisionHash": "bff8261b693c47581d6c686bc7018af85c4b1b1f036d5426a4b1b2bc4da82cea",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.835Z",
-        "revisionHash": "ab7b15c775b017efcefde1a0a96158371c65b3505c45957d141fb3ce02262302"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "bff8261b693c47581d6c686bc7018af85c4b1b1f036d5426a4b1b2bc4da82cea"
       }
     },
     {
@@ -195909,7 +195908,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Net ir pats talpiausias krepšys taps netvarkinga dėže, jei jo vidus nebus padalintas skyriais. Vežimėliui judant per koridoriaus slenksčius, palaidos ampulės, švirkštai ir kateteriai susimaišo, o tai apsunkina greitą paiešką skubiais momentais. Modulinės logistikos pagrindus apžvelgia ISO modulių sistema: kaip suderinti laikymą ir transportavimą."
+          "text": "Net ir pats talpiausias krepšys taps netvarkinga dėže, jei jo vidus nebus padalintas skyriais. Vežimėliui judant per koridoriaus slenksčius, palaidos ampulės, švirkštai ir kateteriai susimaišo, o tai apsunkina greitą paiešką skubiais momentais. Modulinės logistikos pagrindus apžvelgia ISO modulių sistema: kaip suderinti laikymą ir transportavimą. Krepšius ir jų priedus rasite katalogo skiltyje „ISO modulių sistema“."
         },
         {
           "type": "heading",
@@ -196036,12 +196035,12 @@
         }
       ],
       "id": "2a8c3c5b-59b0-49b0-9521-47c6940294ba",
-      "revisionHash": "e91037dddb42ae4c9e12ec15f157f7c2d51d73a1cd99d9cbafc21e03bccf2ce9",
+      "revisionHash": "8614048782443d49c7d2b8dfc001d1918ebb8736a5f398798394f85f5eb7d848",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.837Z",
-        "revisionHash": "e91037dddb42ae4c9e12ec15f157f7c2d51d73a1cd99d9cbafc21e03bccf2ce9"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:16:29.828Z",
+        "revisionHash": "8614048782443d49c7d2b8dfc001d1918ebb8736a5f398798394f85f5eb7d848"
       }
     },
     {
@@ -196054,7 +196053,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Aiški vizualinė kontrolė yra modernios ligoninės kokybės ir saugumo garantas. Kai kiekvienas krepšys ir skyrelis turi vienareikšmišką ženklinimą, naujas ar budintis personalas akimirksniu suranda reikiamą priemonę, o papildymo procesas vyksta be klaidų. Bendra modulinė sistema aprašyta leidinyje ISO modulių sistema: kaip suderinti laikymą ir transportavimą."
+          "text": "Aiški vizualinė kontrolė yra modernios ligoninės kokybės ir saugumo garantas. Kai kiekvienas krepšys ir skyrelis turi vienareikšmišką ženklinimą, naujas ar budintis personalas akimirksniu suranda reikiamą priemonę, o papildymo procesas vyksta be klaidų. Bendra modulinė sistema aprašyta leidinyje ISO modulių sistema: kaip suderinti laikymą ir transportavimą. Ženklinimo priedus derinkite su pasirinktu krepšiu iš katalogo skilties „ISO modulių sistema“."
         },
         {
           "type": "heading",
@@ -196174,12 +196173,12 @@
         }
       ],
       "id": "ab5eb205-84ff-438b-ad55-ec4ad7e21e46",
-      "revisionHash": "91f71b9ebb45a4448876cddaafb3a799d9c11429b0bb958e84c693c33ff809cd",
+      "revisionHash": "6dec1a57e42adcf7314464f097b59e6b387996e5d3962abea19e513547766f10",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.837Z",
-        "revisionHash": "91f71b9ebb45a4448876cddaafb3a799d9c11429b0bb958e84c693c33ff809cd"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:16:29.828Z",
+        "revisionHash": "6dec1a57e42adcf7314464f097b59e6b387996e5d3962abea19e513547766f10"
       }
     },
     {
@@ -196192,7 +196191,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Renkantis ISO 60-40 modulius, svarbus sprendimas – perforuoti tinkliniai krepšiai ar vientisi (užpiltiniai) padėklai. Abi talpos turi savų pranašumų, priklausomai nuo to, ar saugomi sausi pakuoti tvarsčiai, ar atviri tirpalai ir instrumentai. Bendra logistikos schema išdėstyta gide ISO modulių sistema: kaip suderinti laikymą ir transportavimą."
+          "text": "Renkantis ISO 60-40 modulius, svarbus sprendimas – perforuoti tinkliniai krepšiai ar vientisi (užpiltiniai) padėklai. Abi talpos turi savų pranašumų, priklausomai nuo to, ar saugomi sausi pakuoti tvarsčiai, ar atviri tirpalai ir instrumentai. Bendra logistikos schema išdėstyta gide ISO modulių sistema: kaip suderinti laikymą ir transportavimą. Asortimentą palyginsite skiltyje „ISO modulių sistema“."
         },
         {
           "type": "heading",
@@ -196235,7 +196234,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tiek krepšiai, tiek padėklai gaminami pagal tuos pačius 600 × 400 mm standartus, detaliai aprašytus gide ISO modulių matmenys: nominalus formatas ir realus įdėjimo tarpas. Norėdami paruošti užklausą, perskaitykite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "ISO krepšių nominalus formatas yra 600 × 400 mm. Pasirinkto padėklo matmenis ir atramas patikrinkite atskirai: XL pavadinimas savaime nereiškia ISO suderinamumo. Matavimo eigą aptaria gidas „ISO modulių matmenys: nominalus formatas ir realus įdėjimo tarpas“. Norėdami paruošti užklausą, perskaitykite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-10-24T07:00:00.000Z",
@@ -196357,12 +196356,12 @@
         }
       ],
       "id": "8c200256-0d2e-4947-acbd-dd364e44ab96",
-      "revisionHash": "589498c955b5829cc9c1b9fe35de9699cc120599e9115e8a33120efe3c310f40",
+      "revisionHash": "c451ac23d42ea0326fa27c2e5f9c92420989f47d8dedc03c01bbbec5b635b6d5",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.837Z",
-        "revisionHash": "589498c955b5829cc9c1b9fe35de9699cc120599e9115e8a33120efe3c310f40"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:16:29.828Z",
+        "revisionHash": "c451ac23d42ea0326fa27c2e5f9c92420989f47d8dedc03c01bbbec5b635b6d5"
       }
     },
     {
@@ -197873,7 +197872,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Sterilizavimo padėklai – tai tiesioginis kontaktas su chirurginiais instrumentais paruošimo, plovimo, sterilizavimo ir operacinio stalo etapuose. Jie turi atlaikyti šimtus terminio apdorojimo ciklų garų autoklavuose, nesikraipyti nuo temperatūros svyravimų ir neturėti jokių aštrių briaunų, galinčių praplėšti sterilų popierių. Bendra sterilizavimo logika aprašyta Sterilizavimo skyriaus baldai ir transportavimas: įrangos poreikio planas."
+          "text": "Rinkdamiesi padėklą sterilizavimo skyriui, įvertinkite instrumentų matmenis, laikymo būdą ir numatytus plovimo bei sterilizavimo procesus. Gamintojo dokumentai turi patvirtinti, kad padėklas tinka šiems procesams. Bendra sterilizavimo logika aprašyta Sterilizavimo skyriaus baldai ir transportavimas: įrangos poreikio planas."
         },
         {
           "type": "heading",
@@ -197887,8 +197886,8 @@
         {
           "type": "list",
           "items": [
-            "XL formatas: Nerūdijančiojo plieno išimamas XL serijos padėklas – 03100. Tinka standartiniams laparoskopiniams ir bendrosios chirurgijos instrumentų rinkiniams.",
-            "XXL formatas: Nerūdijančiojo plieno išimamas XXL serijos padėklas – 03150. Pailgintas formatas ortopediniams ir traumatologiniams instrumentams.",
+            "XL formatas: Nerūdijančiojo plieno išimamas XL serijos padėklas – 03100. Sutikrinkite jo vidinius matmenis su numatomais instrumentais ir jų laikymo būdu.",
+            "XXL formatas: Nerūdijančiojo plieno išimamas XXL serijos padėklas – 03150. Didesnio formato tinkamumą patikrinkite pagal priemonių matmenis, transportavimo ir apdorojimo įrangą.",
             "Vientisa presuota konstrukcija užapvalintais kampais, užtikrinanti lengvą valymą be nešvarumų kaupimosi siūlėse."
           ]
         },
@@ -197899,7 +197898,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Padėklai pritaikyti dėti į automatines plovimo mašinas, kaip aprašyta gide Vežimėliai plovimo mašinoms: A ir B variantų suderinamumo patikra. Prieš perkant svarbu patikrinti autoklavo kameros matmenis."
+          "text": "Pasirinkto padėklo dokumentuose patikrinkite suderinamumą su plovimo ir sterilizavimo įranga. Transportavimo įrangos atranką aptaria gidas Vežimėliai plovimo mašinoms: A ir B variantų suderinamumo patikra. Prieš perkant svarbu patikrinti autoklavo kameros matmenis."
         },
         {
           "type": "heading",
@@ -197908,7 +197907,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Reikalavimų pirkimui parengimą rasite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užsakymo parametrą pateikite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Reikalavimų pirkimui parengimą rasite gide „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o savo poreikį pateikite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-11-12T08:00:00.000Z",
@@ -198026,12 +198025,12 @@
         }
       ],
       "id": "7b870e24-5f44-4d7a-b006-36492a74847b",
-      "revisionHash": "8b8d5170cfdfbd6ceade8d74e97c84accd15539aea4bcf69c8e3264f4144fe08",
+      "revisionHash": "b786b3732e1ca85aa0c991b9e25084aa89d0bd76ab66f142d128349e3ee16371",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.841Z",
-        "revisionHash": "8b8d5170cfdfbd6ceade8d74e97c84accd15539aea4bcf69c8e3264f4144fe08"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "b786b3732e1ca85aa0c991b9e25084aa89d0bd76ab66f142d128349e3ee16371"
       }
     },
     {
@@ -198159,12 +198158,12 @@
       "type": "guide",
       "slug": "gidai/medicininiu-baldu-naudojimo-islaidu-palyginimas",
       "title": "Medicininių baldų naudojimo išlaidos: ką įtraukti į pasiūlymų palyginimą",
-      "description": "Visuminė nuosavybės kaina (TCO) medicinos įrangoje: pirkimo kaina vs eksploatacijos trukmė, atsarginės dalys, dezinfekcijos atsparumas.",
+      "description": "Kaip palyginti medicininių baldų įsigijimo, priežiūros ir remonto išlaidas, atsargines dalis bei numatomą naudojimo laikotarpį.",
       "intent": "Kodėl kokybiški Klaro medicininiai baldai atsiperka labiau nei pigūs alternatyvūs gaminiai per visą tarnavimo ciklą?",
       "body": [
         {
           "type": "paragraph",
-          "text": "Sveikatos priežiūros įstaigose baldai patiria ekstremalias apkrovas: jie kasdien stumdomi per slenksčius, dešimtis kartų per parą dezinfekuojami stipriais chemikalais ir intensyviai varstomi. Pigus vežimėlis ar spinta po 1–2 metų pradeda klibėti, rūdyti ar lūžti ratukai, o gamintojas neturi atsarginių dalių. Todėl profesionalūs pirkėjai vertina visuminę nuosavybės kainą (Total Cost of Ownership – TCO). Užklausos planavimą rasite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai."
+          "text": "Baldų naudojimo išlaidas lemia įsigijimo kaina, darbo intensyvumas, priežiūra, remontas ir atsarginių dalių prieinamumas. Pasiūlymus verta lyginti pagal numatomą naudojimo laikotarpį ir vienodas apkrovos bei priežiūros sąlygas. Taip vertinama bendra nuosavybės kaina (Total Cost of Ownership – TCO). Užklausos planavimą rasite gide „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“."
         },
         {
           "type": "heading",
@@ -198173,15 +198172,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Klaro baldų asortimente skiltyje Medicininiai baldai investicija atsiperka per šiuos veiksnius:"
+          "text": "Lygindami skilties Medicininiai baldai gaminius, įvertinkite šiuos veiksnius:"
         },
         {
           "type": "list",
           "items": [
-            "Tarnavimo trukmė: kokybiškas Klaro vežimėlis tarnauja 10–15 metų, o pigus analogas – vos 2–4 metus.",
-            "Atsarginių dalių prieinamumas: galimybė po 5 metų užsakyti originalų ratuką ar spynelę, išvengiant viso baldo nurašymo.",
-            "Atsparumas dezinfekcijai: AISI 304 plienas ir miltelinis dažymas nesilupa ir nereikalauja perdažymo.",
-            "Personalo darbo efektyvumas: sklandžiai riedantys Tente ratukai ir patikimi stalčiai tausoja slaugytojų sveikatą ir laiką."
+            "Tarnavimo trukmė: vertinkite gamintojo dokumentus, garantijos sąlygas ir numatomą naudojimo intensyvumą. Skaičiavimui pasirinktą laikotarpį aiškiai įvardykite kaip prielaidą.",
+            "Atsarginių dalių prieinamumas: prieš pirkimą pasiteiraukite, kokias dalis galima pakeisti, kaip jos užsakomos ir kokie jų tiekimo terminai.",
+            "Priežiūros išlaidos: sutikrinkite paviršių medžiagas ir leistinas dezinfekavimo priemones. Įvertinkite valymui reikalingą laiką ir galimo dangos ar dalių remonto kainą.",
+            "Personalo darbo sąlygos: išbandykite vežimėlio riedėjimą su numatyta apkrova, stabdžius ir stalčių valdymą. Įvertinkite, ar konstrukcija tinka įstaigos maršrutams ir darbo eigai."
           ]
         },
         {
@@ -198261,12 +198260,12 @@
         }
       ],
       "id": "3aad033e-b626-4fb3-949c-33b7a417b413",
-      "revisionHash": "040b74e73f1cc80691b96aa18ba15cc1ffa7e8d0b0c163d76a719320f6927c94",
+      "revisionHash": "ae1d5771bca1ad391c3776d8e503cca4f14d23c7c2484699635afdd5e74dafdd",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.842Z",
-        "revisionHash": "040b74e73f1cc80691b96aa18ba15cc1ffa7e8d0b0c163d76a719320f6927c94"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "ae1d5771bca1ad391c3776d8e503cca4f14d23c7c2484699635afdd5e74dafdd"
       }
     },
     {
@@ -198279,7 +198278,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicinos laboratorijose dirbama su biologiniais skysčiais, reagentais, dažikliais ir agresyviomis valymo priemonėmis. Laboratorijos baldai turi garantuoti ergonomišką sėdimą ir stovimą darbą, lengvą išsiliejusių skysčių pašalinimą ir saugų reagentų sandėliavimą. Patalpų ergonomiką aprašo Medicinos įstaigos baldų planavimas: patalpos, darbo vietos ir maršrutai."
+          "text": "Medicinos laboratorijose dirbama su biologiniais skysčiais, reagentais, dažikliais ir agresyviomis valymo priemonėmis. Laboratorijos baldai turi garantuoti ergonomišką sėdimą ir stovimą darbą, lengvą išsiliejusių skysčių pašalinimą ir saugų reagentų sandėliavimą. Patalpų ergonomiką aprašo gidas „Medicinos įstaigos baldų planavimas: patalpos, darbo vietos ir maršrutai“."
         },
         {
           "type": "heading",
@@ -198294,7 +198293,7 @@
           "type": "list",
           "items": [
             "BASIC serija: Medicininė spinta Metal Line Basic – ZS1211 – žemas variantas. Tvirta dažyto plieno konstrukcija bendriesiems reagentams ir dokumentams.",
-            "PROFI serija: Medicininė spinta Metal Line Profi – ZS1311 – žemas variantas. Pilnai nerūdijančiojo plieno AISI 304 korpusas, atsparus rūgštims, šarmams ir agresyviai dezinfekcijai."
+            "PROFI serija: Medicininė spinta Metal Line Profi – ZS1311 – žemas variantas. Nerūdijančiojo plieno AISI 304 korpusas. Valymo priemones rinkitės pagal modelio instrukciją; „Klaro“ šiam plienui nurodo nenaudoti chloro turinčių priemonių."
           ]
         },
         {
@@ -198304,7 +198303,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Laboratorijose ypač pasiteisina Modulių suderinimas tarp spintos ir vežimėlio su smulkiais ISO krepšiais ir skaidriomis pertvaromis, leidžiančiomis tvarkingai surūšiuoti tūkstančius mėginių. Vaistinių analogus aptaria Vaistinės baldai ir moduliai: priemonių inventoriaus ir vietų planas."
+          "text": "Laboratorijose ypač pasiteisina Modulių suderinimas tarp spintos ir vežimėlio su smulkiais ISO krepšiais ir skaidriomis pertvaromis, leidžiančiomis tvarkingai surūšiuoti tūkstančius mėginių. Vaistinių analogus aptaria gidas „Vaistinės baldai ir moduliai: priemonių inventoriaus ir vietų planas“."
         },
         {
           "type": "heading",
@@ -198313,7 +198312,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Parengti pirkimo užklausą padeda Kaip parengti įrangos pirkimo užklausą gydymo įstaigai, o užsakymo parametrą pateikite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Parengti pirkimo užklausą padeda gidas „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“, o savo poreikį pateikite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-11-21T08:00:00.000Z",
@@ -198456,12 +198455,12 @@
         }
       ],
       "id": "bec2ba0c-e772-415c-ad80-c9d04734dea6",
-      "revisionHash": "1bdfd145e5b74388f9829a40ba7332a11e5d215ce27e0972d740755b8e0dd383",
+      "revisionHash": "ef4b6bdae438cbafcd872ea58a1a90ab4f5c9d5d9d8a63e726725be6c6b166ff",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.841Z",
-        "revisionHash": "1bdfd145e5b74388f9829a40ba7332a11e5d215ce27e0972d740755b8e0dd383"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "ef4b6bdae438cbafcd872ea58a1a90ab4f5c9d5d9d8a63e726725be6c6b166ff"
       }
     },
     {
@@ -198607,28 +198606,28 @@
       "type": "guide",
       "slug": "gidai/medicininiu-baldu-nerudijancio-plieno-klase",
       "title": "Nerūdijančio plieno klasė: kaip perskaityti medicininių baldų medžiagų nurodymą",
-      "description": "Kuo skiriasi nerūdijantysis plienas AISI 304 (1.4301) nuo pigesnių lydinių: atsparumas dezinfekcijai, chlorui, drėgmei ir korozijai.",
+      "description": "Kaip patikrinti medicininių baldų plieno klasę, AISI 304 ir 1.4301 žymėjimą, paviršiaus priežiūrą bei suderinamumą su dezinfekavimo priemonėmis.",
       "intent": "Kaip atskirti tikrą medicininį nerūdijantįjį plieną AISI 304 ir kodėl tai svarbu gydymo įstaigos baldams?",
       "body": [
         {
           "type": "paragraph",
-          "text": "Terminas „nerūdijantis plienas“ pirkimo dokumentuose be konkrečios plieno markės nurodymo yra didžiulė rizika. Ne visi plienai yra vienodai atsparūs ligoninės aplinkai: pigesni feritiniai plienai (pvz., AISI 430), dažnai naudojami buityje ar pigiuose balduose, po kelių dezinfekavimo ciklų pradeda rūdyti taškine korozija. Baldų planavimo reikalavimus nagrinėja Medicinos įstaigos baldų planavimas: patalpos, darbo vietos ir maršrutai."
+          "text": "Vien užrašo „nerūdijantysis plienas“ nepakanka medžiagai ir jos priežiūrai įvertinti. AISI 304, AISI 316 ir AISI 430 skiriasi sudėtimi bei atsparumu aplinkos poveikiui. Rinkitės pagal gamintojo nurodytą plieno klasę ir konkrečias naudojimo sąlygas. Baldų planavimo reikalavimus nagrinėja gidas „Medicinos įstaigos baldų planavimas: patalpos, darbo vietos ir maršrutai“."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Auksinis medicinos standartas: AISI 304 (EN 1.4301)"
+          "text": "AISI 304 ir 1.4301 žymėjimas"
         },
         {
           "type": "paragraph",
-          "text": "Klaro savo PROFI baldams naudoja sertifikuotą austenitinį nerūdijantįjį plieną AISI 304:"
+          "text": "„Klaro“ plieno rūšių aprašyme AISI 304 nurodytas kaip standartinės gamybos plienas, dar žymimas 1.4301. Vertinant jo savybes svarbu žinoti:"
         },
         {
           "type": "list",
           "items": [
             "Sudėtyje yra bent 18 % chromo ir 8–10 % nikelio, kurie suformuoja apsauginį savaime atsikuriantį pasyvų oksido sluoksnį.",
-            "Atsparus alkoholiams, aldehidams, paviršinio aktyvumo medžiagoms ir periodiniam chloro tirpalų poveikiui.",
-            "Nemagnetinis (arba labai silpnai magnetinis po lenkimo), kas svarbu jautrios medicininės aparatūros aplinkoje.",
+            "„Klaro“ nurodo atsparumą vandeniui, vandens garams, atmosferos drėgmei, silpnoms rūgštims ir silpniems šarmams. Chloro turinčių priemonių naudoti negalima; kitus preparatus sutikrinkite su gaminio instrukcija.",
+            "Gamintojas AISI 304 aprašo kaip nemagnetinį plieną. Viso baldo suderinamumą su medicinos aparatūra vertinkite pagal jo paskirtį ir dokumentus.",
             "Pavyzdys – Nerūdijančiojo plieno darbo stalas su kojų jungiamąja atrama, kodas ATS001 skiltyje Nerūdijančiojo plieno stalai."
           ]
         },
@@ -198639,7 +198638,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Svarbi ne tik plieno markė, bet ir paviršiaus šiurkštumas (Ra vertė). Klaro baldai pasižymi smulkiu satino šlifavimu be porų, kurios galėtų tapti bakterijų židiniu. Chirurginių staliukų pavyzdžius rasite Kaip pasirinkti Mayo instrumentų staliuką."
+          "text": "Svarbi ne tik plieno markė, bet ir paviršiaus apdirbimas, siūlės bei galimybė pasiekti visas vietas valant. Jei pirkimui reikalinga konkreti paviršiaus šiurkštumo (Ra) vertė, paprašykite ją pagrindžiančio gaminio dokumento. Chirurginių staliukų pavyzdžius rasite gide „Kaip pasirinkti Mayo instrumentų staliuką“."
         },
         {
           "type": "heading",
@@ -198648,7 +198647,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pirkimo techninėje specifikacijoje visuomet reikalaukite konkretaus standarto: „nerūdijantysis plienas AISI 304 (arba DIN 1.4301)“. Kaip tai suformuluoti, skaitykite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Poreikio apraše įvardykite reikiamą plieno klasę, pavyzdžiui, AISI 304 / 1.4301, ir naudojimo sąlygas. Lygiaverčių medžiagų tinkamumą vertinkite pagal tas pačias reikalingas savybes. Kaip tai suformuluoti, skaitykite gidą „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“ arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-10-31T08:00:00.000Z",
@@ -198733,12 +198732,12 @@
         }
       ],
       "id": "28a9913e-441d-4f5c-9f5b-cba5678c7a61",
-      "revisionHash": "16b7ad9505bddb11e6fe3a06574ca50d2e116c7f2858fd51cbd691faa0d1fd07",
+      "revisionHash": "942a9bda1bd6fa8a0d588dee22cecc76c0209d0005dd332ab059d62d2cf84eca",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.841Z",
-        "revisionHash": "16b7ad9505bddb11e6fe3a06574ca50d2e116c7f2858fd51cbd691faa0d1fd07"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "942a9bda1bd6fa8a0d588dee22cecc76c0209d0005dd332ab059d62d2cf84eca"
       }
     },
     {
@@ -199004,7 +199003,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Metalinių instrumentų barškėjimas vežant vežimėlį sukelia triukšmą ligoninės koridoriuose ir kelia stresą pacientams. Be to, slidžiame metaliniame paviršiuje brangūs chirurginiai instrumentai ar optiniai zondai gali susidaužti ir sugesti. Šią problemą išsprendžia medicininiai silikoniniai kilimėliai. Bendrą logistikos planą rasite Medicinos priemonių laikymo ir transportavimo planas."
+          "text": "Metalinių instrumentų barškėjimas vežant vežimėlį sukelia triukšmą ligoninės koridoriuose ir kelia stresą pacientams. Be to, slidžiame metaliniame paviršiuje brangūs chirurginiai instrumentai ar optiniai zondai gali susidaužti ir sugesti. Šią problemą išsprendžia medicininiai silikoniniai kilimėliai. Bendrą logistikos planą rasite gide „Medicinos priemonių laikymo ir transportavimo planas“."
         },
         {
           "type": "heading",
@@ -199030,7 +199029,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kilimėliai gaminami iš medicininio silikono, kuris atlaiko aukštą temperatūrą (galima sterilizuoti garų autoklave iki 134 °C) ir agresyvius dezinfekantus. Paviršius yra perforuotas arba dygliuotas, užtikrinantis greitą skysčių nutekėjimą po plovimo. Stelažų laikymo rekomendacijas rasite Stelažo apkrova ir vieta: kaip suplanuoti medicinos priemonių laikymą."
+          "text": "Įdėklo medžiagą, paviršiaus sandarą ir suderinamumą su padėklu patikrinkite pasirinkto gaminio dokumentuose. Jei įdėklą ketinate plauti mašinoje ar sterilizuoti garais, prieš pirkimą patvirtinkite leistiną temperatūrą, poveikio trukmę ir naudojamas chemines priemones. Stelažų laikymo rekomendacijas rasite gide „Stelažo apkrova ir vieta: kaip suplanuoti medicinos priemonių laikymą“."
         },
         {
           "type": "heading",
@@ -199039,7 +199038,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Norėdami suformuluoti poreikį, skaitykite Kaip parengti įrangos pirkimo užklausą gydymo įstaigai arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
+          "text": "Norėdami suformuluoti poreikį, skaitykite gidą „Kaip parengti įrangos pirkimo užklausą gydymo įstaigai“ arba susisiekite skiltyje Įrangos užklausa ir kontaktai."
         }
       ],
       "publishAt": "2026-11-11T08:00:00.000Z",
@@ -199124,12 +199123,12 @@
         }
       ],
       "id": "ff9ead26-22fc-4292-850b-21f29ce4d11e",
-      "revisionHash": "a77ae8ecec674ae985cd3f4644d87e9ca769139e2f001cd0231da7f745e16688",
+      "revisionHash": "e60c4b8da37f67d13638d2a1866d40b53f27db1bc3a729b6ce2353b2cf70e858",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.840Z",
-        "revisionHash": "a77ae8ecec674ae985cd3f4644d87e9ca769139e2f001cd0231da7f745e16688"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:10:27.409Z",
+        "revisionHash": "e60c4b8da37f67d13638d2a1866d40b53f27db1bc3a729b6ce2353b2cf70e858"
       }
     },
     {
