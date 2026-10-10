@@ -284,7 +284,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
 
   const stepover = appearance === "stepover";
   const chatIcon = <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H8l-5 3V6.5A3.5 3.5 0 0 1 6.5 3h10A3.5 3.5 0 0 1 20 6.5v5ZM7 8h9M7 12h6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>;
-  if (!open) return <button ref={launcher} className={`${s.launch} ${stepover ? s.stepoverLaunch : ""}`} aria-expanded={false} aria-controls="conversation-panel" onClick={() => setOpen(true)}>{stepover && chatIcon}<span>Kalbėtis su AI konsultantu</span></button>;
+  if (!open) return <button ref={launcher} className={`${s.launch} ${stepover ? s.stepoverLaunch : ""}`} aria-label="Kalbėtis su AI konsultantu" aria-expanded={false} aria-controls="conversation-panel" onClick={() => setOpen(true)}>{stepover && chatIcon}<span>{stepover ? "AI konsultantas" : "Kalbėtis su AI konsultantu"}</span></button>;
   return <aside id="conversation-panel" className={`${s.panel} ${stepover ? s.stepoverPanel : ""}`} aria-label="AI konsultantas" onKeyDown={event => {
     if (event.key === "Escape" && (channel === "chat" || !["active", "connecting"].includes(state))) setOpen(false);
   }}>
