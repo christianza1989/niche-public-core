@@ -23,3 +23,11 @@ test('SMTP refusal retains a generic error and closes the socket', async () => {
   await assert.rejects(smtpSession({ readable, writable: new WritableStream(), close: async () => { closed = true; } }, { user: 'info@pinet.lt', password: 'secret' }), /SMTP request rejected/);
   assert.equal(closed, true);
 });
+test('independent operator sender remains UTF8 and cannot inject headers', () => {
+  const mail={from:'info@promedical.lt',to:'info@promedical.lt',subject:'Patikra',text:'test',id:'site-test',fromName:'Promedical'};
+  const message=smtpMessage(mail);
+  assert.match(message,/From: =\?UTF-8\?B\?UHJvbWVkaWNhbA==\?= <info@promedical.lt>/);
+  assert.match(message,/Message-ID: <site-test@promedical.lt>/);
+  assert.doesNotMatch(message,/MB Pinet/);
+  assert.throws(()=>smtpMessage({...mail,fromName:'Operator\r\nBcc: attacker@example.invalid'}),/SMTP invalid header/);
+});
