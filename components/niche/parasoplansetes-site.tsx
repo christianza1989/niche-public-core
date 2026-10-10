@@ -46,8 +46,8 @@ function Inquiry({ pkg }: { pkg: NichePackage }) {
     </form>
   </section>;
 }
-function Guides({ pages }: { pages: NichePage[] }) {
-  const guides = pages.filter(p => p.type === "guide");
+function Guides({ pages, limit }: { pages: NichePage[]; limit?: number }) {
+  const guides = pages.filter(p => p.type === "guide").slice(0, limit);
   const cardSizes = guides.length === 4 ? "(max-width: 360px) 85px, (max-width: 760px) 110px, (max-width: 1050px) calc((100vw - 72px) / 2), (max-width: 1328px) calc((100vw - 88px) / 2), 620px" : "(max-width: 360px) 85px, (max-width: 760px) 110px, (max-width: 1050px) calc((100vw - 96px) / 3), (max-width: 1328px) calc((100vw - 128px) / 3), 400px";
   return <div className={`${styles.guides} ${guides.length === 4 ? styles.guidesFour : ""}`}>{guides.map((guide, i) => <article key={guide.id}><a className={styles.guideImage} href={nichePagePath(guide)} tabIndex={-1} aria-hidden="true"><Picture page={guide} sizes={cardSizes} /></a><div><p className={styles.kicker}>Gidas / {String(i + 1).padStart(2, "0")}</p><h3><a href={nichePagePath(guide)}>{guide.title}</a></h3><p>{guide.description}</p><a className={styles.textLink} href={nichePagePath(guide)}>Skaityti gidą <span aria-hidden="true">↗</span></a></div></article>)}</div>;
 }
@@ -77,7 +77,7 @@ export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
       {isHome ? <>
         <section className={styles.deviceRail} aria-label="StepOver modelių pavyzdžiai">{page.media.map(asset => { const model = modelPages(livePages).find(p => p.media.some(m => m.id === asset.id)); return <div key={asset.id}><Picture page={page} asset={asset} eager />{model && <a href={nichePagePath(model)}>{model.title} ↗</a>}</div>; })}<p>Įrenginys + programinė įranga + jūsų dokumentų procesas</p></section>
         <section className={styles.homeContent}><Body page={page} livePages={livePages} skipIntro /><a className={styles.textLink} href="/integracija">Kaip įvertinti integraciją ↗</a></section>
-        <section className={styles.guideSection}><div className={styles.sectionTitle}><p className={styles.kicker}>Prieš pasirenkant</p><h2>Klausimai, kurie padeda<br />pasirinkti sprendimą.</h2><a className={styles.textLink} href="/gidai">Visi gidai ↗</a></div><Guides pages={livePages} /></section>
+        <section className={styles.guideSection}><div className={styles.sectionTitle}><p className={styles.kicker}>Prieš pasirenkant</p><h2>Klausimai, kurie padeda<br />pasirinkti sprendimą.</h2><a className={styles.textLink} href="/gidai">Visi gidai ↗</a></div><Guides pages={livePages} limit={4} /></section>
         <Inquiry pkg={pkg} />
       </> : <>
         {isGuide && <div className={styles.articlePicture}><Picture page={page} eager /></div>}

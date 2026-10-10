@@ -1,5 +1,9 @@
 # Active workstreams
 
+2026-10-10 content production VERIFIED / edit window released:46 approved StepOver pages,170responsiveassets imported from exact private immutable release924b8844/SHA78bb031a. New27 publish10AMVilnius in six weekly batches throughNov14; true clientpilot omitted. Home four guides, gidai all eligible; shared due/media/host predicates retained.66core/typecheck/build/19SEO and companion241remoteHTTP/sixcompiled-clock boundaries PASS. Companion report CONTENT_PRODUCTION_20261010; existing preview8534e038 noindex, no customdomain/main adoption/paid runtime. Own PR17 scope package/assets/generatedinventory/site renderer only; preserve separate design and chat source.
+
+2026-10-10 content production RESERVED: own PR17 with companion PR46 comment6094446265; fresh main d0fd6b7 / core d4ea8bf. Approved six-week StepOver content package and responsive assets, home shows four introductory guides while /gidai discovers all eligible guides. Shared request-time publication stays authoritative. Preserve separate design worktrees, existing chat/voice switches, no new paid resources or domain activation. Real pilot results remain private pending evidence.
+
 2026-10-08 — codex/parasoplansetes-public-20261008. Private coordination: https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/issues/44. Own adjacent private core at f743b1cbcb09418d733fbe3c72b6968d65a72259; public base e578426610f067fd7a4db3574f754b8d06ef5426. Scope: parasoplansetes renderer/CSS, small router and brand-icon branches, owner-confirmed domain registration, own approved package/assets. Local-only D1 test config is ignored; no production binding or deployment. Local configuration ignore line is included to prevent accidental publication of runtime settings. Shared publication predicates, schemas and lead backend stay authoritative.
 # 2026-10-09 parasoplansetes agent RESERVED
 
