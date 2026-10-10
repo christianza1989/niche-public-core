@@ -6,12 +6,12 @@ export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
   return `${nicheOrigin(pkg)}${nichePagePath(page)}`;
 }
 
-export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+export function nicheStructuredData(pkg: NichePackage, page: NichePage, pages = publicNichePages(pkg)) {
+  return nicheSchemaGraph(pkg, page, pages, nicheNetworkContact(pkg.siteId).operatorName);
 }
 
-export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {
-  return JSON.stringify(nicheStructuredData(pkg, page)).replace(/</g, "\\u003c");
+export function nicheJsonLd(pkg: NichePackage, page: NichePage, pages?: NichePage[]): string {
+  return JSON.stringify(nicheStructuredData(pkg, page, pages)).replace(/</g, "\\u003c");
 }
 
 export function nicheRobotsText(pkg: NichePackage, preview: boolean, hasHomepage: boolean): string {
