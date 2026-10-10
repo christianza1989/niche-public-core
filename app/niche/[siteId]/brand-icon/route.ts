@@ -5,6 +5,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sit
   const { siteId } = await params;
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) return new Response("Not found", { status: 404 });
+  if (pkg.siteId === "parasoplansetes") {
+    const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#142b29"/><path d="M12 40c6-3 14-22 11-24-5-3-11 30-4 30 5 0 15-25 11-25-3 0-5 20 0 19l11-9-4 9 14-4M12 49h40" fill="none" stroke="#b7f2cf" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });
+  }
   if (pkg.siteId === "fasadopastoliai") {
     const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38"><rect width="38" height="38" fill="#d4e84c"/><path d="M6 33V5h26v28M6 14h26M6 24h26M19 5v28M6 5l13 9 13-9M6 24l13 9 13-9" fill="none" stroke="#182d31" stroke-width="2.4"/></svg>';
     return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });
