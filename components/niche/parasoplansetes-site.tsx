@@ -96,7 +96,13 @@ function Sources({ page, livePages }: { page: NichePage; livePages: NichePage[] 
   const related = page.links.map(l => ({ ...l, page: livePages.find(p => p.id === l.targetPageId) })).filter(l => l.page);
   return <div className={styles.readingEnd}>{page.externalLinks?.length ? <section aria-labelledby="sources-title"><h2 id="sources-title">Šaltiniai ir papildoma informacija</h2><ul>{page.externalLinks.map(source => <li key={source.url}><a href={source.url} rel="noopener noreferrer">{source.label}</a><p>{source.reason}</p></li>)}</ul></section> : null}{related.length ? <section aria-labelledby="related-title"><h2 id="related-title">Susijusi informacija</h2><ul>{related.map(l => <li key={l.targetPageId}><a href={nichePagePath(l.page!)}>{l.label} ↗</a></li>)}</ul></section> : null}</div>;
 }
-function Brand() { return <a className={styles.brand} href="/" title="Pradžia"><svg aria-hidden="true" viewBox="0 0 64 64"><path d="M10 39c7-3 15-23 12-25-5-3-12 32-5 32 6 0 17-27 13-27-3 0-6 23 0 21l11-9-4 9 17-5M10 51h44" /></svg><span>parašo planšetės<span>StepOver sprendimai</span></span></a>; }
+function Brand() {
+  return <a className={styles.brand} href="/" aria-label="Parašo planšetės.lt – pradžia">
+    <svg className={styles.brandLogo} width="1570" height="360" viewBox="120 295 1570 360" aria-hidden="true" focusable="false">
+      <image href="/branding/parasoplansetes-logo-20261010.png" width="1774" height="887" />
+    </svg>
+  </a>;
+}
 export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
   const isHome = page.type === "home", isGuide = page.type === "guide", isHub = page.slug === "gidai", isCatalog = page.slug === "paraso-plansetes";
   const intro = page.body[0]?.type === "paragraph" ? page.body[0].text : page.description;
