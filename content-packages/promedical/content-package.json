@@ -12,7 +12,7 @@
     "brand": {
       "accent": "#317955"
     },
-    "offer": "Klaro medicininiai vežimėliai, baldai, laikymo sistemos ir priedai gydymo įstaigoms",
+    "offer": "Medicininė įranga, baldai, laikymo sistemos ir priedai gydymo įstaigoms",
     "contact": {
       "email": "info@promedical.lt",
       "phone": "+370 686 88369"
@@ -23,49 +23,49 @@
       "siteId": "promedical",
       "type": "home",
       "slug": "",
-      "title": "Klaro medicininė įranga ir baldai gydymo įstaigoms | Promedical",
-      "description": "Profesionalūs Klaro medicininiai vežimėliai, modulinės ISO laikymo sistemos ir nerūdijančiojo plieno baldai Lietuvos ligoninėms, klinikoms bei slaugos centrams.",
-      "intent": "Kokią Klaro medicininę įrangą ir baldus siūlo Promedical ir kaip pateikti poreikio užklausą gydymo įstaigai?",
+      "title": "Medicininė įranga ir baldai gydymo įstaigoms | Promedical",
+      "description": "Medicininiai vežimėliai, baldai, laikymo sistemos ir priedai ligoninėms, poliklinikoms bei slaugos įstaigoms. Padėsime suderinti įrangą su jūsų skyriaus poreikiais.",
+      "intent": "Kokią medicininę įrangą ir baldus siūlo Promedical ir kaip pateikti poreikio užklausą gydymo įstaigai?",
       "body": [
         {
           "type": "paragraph",
-          "text": "„Promedical“ pristato Čekijos gamintojo „Klaro“ medicininę įrangą, baldus ir logistikos sprendimus, pritaikytus kasdieniam Lietuvos ligoninių, poliklinikų, operacinių bei slaugos įstaigų darbui. Gamintojo patirtis ir modulinė konstrukcija leidžia sukomplektuoti baldus pagal konkretaus skyriaus darbo procesus bei griežčiausius higienos standartus."
+          "text": "„Promedical“ padeda gydymo įstaigoms pasirinkti medicininę įrangą, baldus ir priemonių laikymo bei transportavimo sprendimus. Ligoninių, poliklinikų ir slaugos įstaigų poreikiai skiriasi, todėl įrangą verta rinktis pagal skyriaus darbą, patalpų dydį ir personalo naudojamas priemones."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Įranga pagal skyriaus darbo profilį ir procesus"
+          "text": "Įranga pagal skyriaus poreikius"
         },
         {
           "type": "paragraph",
-          "text": "Kiekvienas gydymo įstaigos padalinys turi savitus reikalavimus mobilumui, higienai ir talpai. Rinkdamiesi įrangą, atsižvelkite į medžiagų judėjimo maršrutus, atsparumą dezinfekcijos priemonėms ir ergonomiką. Mūsų svetainėje pateikiamas išsamus Klaro produktų katalogas padeda lengvai rasti reikiamos konfigūracijos gaminius pagal jų techninius parametrus bei katalogo kodą:"
+          "text": "Rinkdamiesi įrangą, įvertinkite jos paskirtį, talpą, judėjimo maršrutus ir priežiūros reikalavimus. Mūsų produktų katalogas padeda rasti gaminius pagal jų techninius duomenis ir modelio kodą. Jame rasite šias įrangos grupes:"
         },
         {
           "type": "list",
           "items": [
-            "Moduliniai medicininiai vežimėliai: procedūriniai, anesteziologiniai, reanimaciniai, vaistų paskirstymo ir vizitų vežimėliai su teleskopiniais stalčiais.",
-            "ISO 60-40 standartizuota sistema: universalios daugiafunkcės spintos, stacionarūs stelažai ir UNI-TRANS transportavimo vežimėliai.",
-            "PROFI nerūdijančiojo plieno (AISI 304) baldai: operacinių stalai, instrumentų vežimėliai, Mayo staliukai ir dezinfekcijai atsparūs baldai.",
-            "Pagalbinė ligoninės logistika: švarių ir nešvarių skalbinių vežimėliai, medicininių atliekų rūšiavimo stovai bei patalpų priežiūros įranga."
+            "Medicininiai vežimėliai: priemonėms laikyti, procedūroms, medikamentams paskirstyti ir pacientų priežiūrai.",
+            "Laikymo ir transportavimo sistemos: moduliniai krepšiai, spintos, stelažai ir priemonių transportavimo vežimėliai.",
+            "Medicininiai baldai ir priedai: instrumentų staleliai, Mayo staliukai, infuzijų stovai ir nerūdijančiojo plieno darbo paviršiai.",
+            "Skalbinių, atliekų ir patalpų priežiūros įranga: skalbinių vežimėliai, atliekų rūšiavimo stovai ir pagalbinės darbo priemonės."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Aiški atranka ir praktiniai pirkimų patarimai"
+          "text": "Praktinė pagalba ruošiant pirkimą"
         },
         {
           "type": "paragraph",
-          "text": "Tam, kad gydymo įstaigos pirkimų specialistai ir skyrių vadovai galėtų tiksliai apibrėžti techninius reikalavimus, parengti praktiniai pasirinkimo gidai. Juose paaiškinama, kaip įvertinti korpuso medžiagą, parinkti ratukų diametrą, suplanuoti stalčių vidinius matmenis bei užtikrinti modulių suderinamumą tarp sandėlio ir procedūrinio kabineto."
+          "text": "Mūsų pasirinkimo gidai padeda įvertinti įrangos matmenis, medžiagas, ratukus, stalčių išdėstymą ir priedų suderinamumą. Juose rasite patarimų, kokią informaciją surinkti prieš pirkimą ir kaip aprašyti skyriaus poreikį, kad būtų lengviau palyginti pasiūlymus."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Individualus pasiūlymas ir komplektacijos derinimas"
+          "text": "Komplektacija pagal jūsų poreikį"
         },
         {
           "type": "paragraph",
-          "text": "Medicininė įranga komplektuojama individualiai: galima pasirinkti papildomus Euro-rail bėgelius (25 × 10 mm), infuzijų stovus, šoninius atlenkiamus staliukus, aštrių atliekų ar dezinfekanto laikiklius. Nurodykite reikiamą modelį, pageidaujamus priedus bei vienetų skaičių, ir mūsų specialistai parengs oficialų komercinį pasiūlymą su aiškiais tiekimo terminais. Užklausą galite atsiųsti paspaudę pateikti įrangos užklausą arba susisiekę tiesiogiai el. paštu bei telefonu."
+          "text": "Ruošdami užklausą, nurodykite įrangos paskirtį, pasirinktus modelius, kiekius ir reikalingus priedus. Kainą, komplektaciją ir tiekimo sąlygas suderinsime individualiai. Galite pateikti įrangos užklausą svetainėje arba susisiekti su mumis el. paštu ir telefonu."
         }
       ],
       "publishAt": "2026-10-09T14:47:29.665Z",
@@ -73,7 +73,7 @@
         {
           "id": "412f1048-43d2-497c-8643-96fa590a8c36",
           "src": "/content-assets/promedical/412f1048-43d2-497c-8643-96fa590a8c36.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 720,
           "height": 720,
           "credit": "",
@@ -82,7 +82,7 @@
         {
           "id": "cf994159-8b49-4fb7-8697-2af593aa4b26",
           "src": "/content-assets/promedical/cf994159-8b49-4fb7-8697-2af593aa4b26.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 640,
           "height": 640,
           "credit": "",
@@ -91,7 +91,7 @@
         {
           "id": "20e50921-b610-4a83-b86a-245df79ad78d",
           "src": "/content-assets/promedical/20e50921-b610-4a83-b86a-245df79ad78d.webp",
-          "alt": "Klaro Medicininis vežimėlis METAL LINE BASIC ZV1253N/PZ – aukšta versija",
+          "alt": "Medicininis vežimėlis su stalčiais ir darbo paviršiumi",
           "width": 360,
           "height": 360,
           "credit": "",
@@ -101,7 +101,7 @@
       "links": [
         {
           "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
-          "label": "Klaro produktų katalogas"
+          "label": "produktų katalogas"
         },
         {
           "targetPageId": "be06fde7-be34-4faa-95c2-c99831ca4d99",
@@ -112,20 +112,14 @@
           "label": "pateikti įrangos užklausą"
         }
       ],
-      "externalLinks": [
-        {
-          "url": "https://www.klaro.cz/en",
-          "label": "Klaro: gamintojo produktų apžvalga",
-          "reason": "2026-10-09 peržiūrėtos gamintojo produktų grupės ir paskirtis; tai ne mūsų kainų, likučių ar tiekimo terminų šaltinis."
-        }
-      ],
+      "externalLinks": [],
       "id": "36d50e14-bc72-4305-b8fe-9d55981abde3",
-      "revisionHash": "3c3d72af3fb0810458cdbeff6552501e096944dfdb3885ad5d1cdd3d9b918848",
+      "revisionHash": "cb4818415f36f118a9dac095d99b1ee21de6e7206a3f31183b489db1f3e62ecb",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.832Z",
-        "revisionHash": "3c3d72af3fb0810458cdbeff6552501e096944dfdb3885ad5d1cdd3d9b918848"
+        "actorId": "codex-promedical-publisher",
+        "approvedAt": "2026-10-10T20:45:44.731Z",
+        "revisionHash": "cb4818415f36f118a9dac095d99b1ee21de6e7206a3f31183b489db1f3e62ecb"
       }
     },
     {
