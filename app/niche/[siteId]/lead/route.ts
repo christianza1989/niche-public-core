@@ -51,10 +51,10 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   const origin = request.headers.get("origin");
   const referrer = request.headers.get("referer");
   const expected = new URL(request.url).origin;
-  if (origin && origin !== expected) return response("Neleidžiama užklausos kilmė.", 403);
+  if (origin && origin !== expected) return response((pkg.siteId === "parasoplansetes" ? "Formos pateikti nepavyko. Atverkite ją šioje svetainėje ir bandykite dar kartą." : "Neleidžiama užklausos kilmė."), 403);
   if (!origin) {
-    try { if (!referrer || new URL(referrer).origin !== expected) return response("Neleidžiama užklausos kilmė.", 403); }
-    catch { return response("Neleidžiama užklausos kilmė.", 403); }
+    try { if (!referrer || new URL(referrer).origin !== expected) return response((pkg.siteId === "parasoplansetes" ? "Formos pateikti nepavyko. Atverkite ją šioje svetainėje ir bandykite dar kartą." : "Neleidžiama užklausos kilmė."), 403); }
+    catch { return response((pkg.siteId === "parasoplansetes" ? "Formos pateikti nepavyko. Atverkite ją šioje svetainėje ir bandykite dar kartą." : "Neleidžiama užklausos kilmė."), 403); }
   }
   if (!form) return response("Patikrinkite formą ir bandykite dar kartą.", 400);
   if (form.get("website")) return response("Užklausa gauta.", 200);
@@ -62,7 +62,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   const email = String(form.get("email") || "").trim();
   const message = String(form.get("message") || "").trim();
   if (name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
-    return response("Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
+    return response((pkg.siteId === "parasoplansetes" ? "Įrašykite vardą ir galiojantį el. pašto adresą. Žinutėje turi būti bent 20 simbolių; taip pat pažymėkite sutikimą." : "Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą."), 400);
   }
   if (!env.DB) return response("Užklausų sistema laikinai nepasiekiama. Parašykite svetainėje nurodytu el. paštu.", 503);
   let sourcePath = "/";
@@ -97,8 +97,8 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "smtp_failed" }));
     }
   }
-  return response(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."
+  return response(notified ? (pkg.siteId === "parasoplansetes" ? "Žinutė išsaugota, o pranešimas apie ją perduotas mūsų pašto sistemai. Atsakymui naudosime jūsų nurodytą el. pašto adresą." : "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą.")
     : /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(host || "")
-    ? "Tai vietinės peržiūros bandymas: žinutė išsaugota tik šiame kompiuteryje, o tikras el. laiškas neišsiųstas."
-    : "Jūsų žinutė išsaugota. Pranešimo el. paštu šiuo metu nepavyko perduoti. Jei užklausa skubi, parašykite svetainėje nurodytu el. paštu.", 200);
+    ? (pkg.siteId === "parasoplansetes" ? "Tai vietinės peržiūros bandymas. Žinutė išsaugota šiame kompiuteryje; el. laiškas neišsiųstas." : "Tai vietinės peržiūros bandymas: žinutė išsaugota tik šiame kompiuteryje, o tikras el. laiškas neišsiųstas.")
+    : (pkg.siteId === "parasoplansetes" ? "Žinutė išsaugota, tačiau pranešimas administratoriui el. paštu neišsiųstas. Jei norite susisiekti tiesiogiai, parašykite svetainėje nurodytu el. pašto adresu." : "Jūsų žinutė išsaugota. Pranešimo el. paštu šiuo metu nepavyko perduoti. Jei užklausa skubi, parašykite svetainėje nurodytu el. paštu."), 200);
 }
