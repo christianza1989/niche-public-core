@@ -1,13 +1,35 @@
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { contentPackageByHost, publicContentPages } from '@/lib/content-model-v2';
+import { contentMetadata } from '@/lib/content-page-seo';
+import { NativeContentSite } from '@/components/niche/native-content-site';
 import { voiceWidgetEnabled } from "@/lib/niche-voice";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 type Params = Promise<{ siteId: string; slug?: string[] }>;
+export async function generateMetadata({ params }: { params: Params }) {
+  const {siteId, slug=[]} = await params;
+  const pkg = contentPackageByHost((await headers()).get("host"));
+  if (!pkg) return {}; // V1 compositions retain their existing metadata.
+  if (pkg.siteId!==siteId || pkg.site.renderer!=="niche") notFound();
+  const pages=publicContentPages(pkg);
+  const page=pages.find(item=>item.slug===slug.join("/"));
+  if (!page || !pages.some(item=>item.type==="home" && item.slug==="")) notFound();
+  return contentMetadata(pkg,page,false,["article","guide"]);
+}
 export default async function NichePageView({ params }: { params: Params }) {
   const { siteId, slug = [] } = await params;
-  const pkg = nicheSiteByHost((await headers()).get("host"));
+  const host = (await headers()).get("host");
+  const native = contentPackageByHost(host);
+  if (native) {
+    if (native.siteId!==siteId || native.site.renderer!=="niche") notFound();
+    const livePages=publicContentPages(native);
+    const page=livePages.find(item=>item.slug===slug.join("/"));
+    if (!page || !livePages.some(item=>item.type==="home" && item.slug==="")) notFound();
+    return <NativeContentSite pkg={native} page={page} livePages={livePages} />;
+  }
+  const pkg = nicheSiteByHost(host);
   if (!pkg || pkg.siteId !== siteId) notFound();
   const page = publicNichePage(pkg, slug.join("/"));
   if (!page) notFound();

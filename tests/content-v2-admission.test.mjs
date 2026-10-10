@@ -7,6 +7,19 @@ import {visibleMediaAlias} from '../lib/content-media-aliases.mjs';
 import {projectContentPagesV2} from '../lib/content-projection-v2.mjs';
 const hash=text=>createHash('sha256').update(text).digest('hex');
 const pkg={siteId:'gift',canonicalHost:'gift.example',locale:'lt-LT',site:{renderer:'gift',name:'Fixture & QA',offer:'Private test',brand:{accent:'#123456'},contact:{email:'info@pinet.lt'}}};
+test('niche admission retains exact package, locale, production and isolated preview gates',()=>{
+  const niche={...pkg,siteId:'niche',canonicalHost:'niche.example',site:{...pkg.site,renderer:'niche'}},raw=JSON.stringify(niche);
+  const receipt={schemaVersion:1,scope:'local-fixture',testOnly:true,siteId:niche.siteId,canonicalHost:niche.canonicalHost,renderer:'niche',packageSha256:hash(raw),reviewer:'isolated fixture',acceptedAt:'2026-10-10T00:00:00Z'};
+  assert.equal(validateV2Admission(niche,raw,receipt).testOnly,true);
+  assert.throws(()=>validateV2Admission(niche,raw+' ',receipt),/exact package/);
+  assert.throws(()=>validateV2Admission({...niche,locale:'en-GB'},raw,receipt),/lt-LT/);
+  assert.throws(()=>validateV2Admission(niche,raw,{...receipt,renderer:'gift'}),/exact package/);
+  assert.throws(()=>validateV2Admission(niche,raw,{...receipt,scope:'production',checks:{}}),/evidence missing/);
+  const real={...niche,canonicalHost:'client.lt'},realRaw=JSON.stringify(real),realReceipt={...receipt,canonicalHost:real.canonicalHost,packageSha256:hash(realRaw)};
+  assert.throws(()=>validateV2Admission(real,realRaw,realReceipt),/reserved/);
+  assert.equal(validateV2Admission(real,realRaw,{...realReceipt,scope:'local-preview'}).scope,'local-preview');
+  assert.throws(()=>assertPreviewSandbox('/workspace/dovanos-memorycasting/',{scope:'local-preview'}),/isolated/);
+});
 test('activation needs exact bytes and production evidence; local fixture cannot admit a real domain',()=>{
   const raw=JSON.stringify(pkg),receipt={schemaVersion:1,scope:'local-fixture',testOnly:true,siteId:pkg.siteId,canonicalHost:pkg.canonicalHost,renderer:'gift',packageSha256:hash(raw),reviewer:'fixture only',acceptedAt:'2026-10-05T00:00:00Z'};
   assert.equal(validateV2Admission(pkg,raw,receipt).testOnly,true);
