@@ -19,7 +19,7 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const esc=text=>String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
 const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
-const {productionSource,shopAssetFiles,shellAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
+const {productionSource,shopAssetFiles,shellAssetFiles,reviewAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
 const {purchaseTerms,purchaseVersion}=await import(pathToFileURL(path.join(project,'production/purchase-terms.mjs')));
 const commercePolicy=JSON.parse(await readFile(path.join(import.meta.dirname,'commerce-policy.json'),'utf8'));
 if(commercePolicy.version!==purchaseVersion)throw Error('The accepted purchase edition and commerce policy must share a version.');
@@ -33,6 +33,8 @@ for(const entry of manifest.files){
 }
 for(const file of shopAssetFiles)transformed.set('assets/shop-v2/'+file,await readFile(path.join(project,'shop-v2',file)));
 for(const file of shellAssetFiles)transformed.set('assets/shared-shell/'+file,await readFile(path.join(project,'production/shared-shell',file)));
+// Repair owner-selected interactions without changing the attested prototype.
+for(const file of reviewAssetFiles)transformed.set('assets/reviews-v1/'+file,await readFile(path.join(project,'production/reviews-v2',file)));
 for(const file of ['workspace.css','workspace.js'])transformed.set('assets/account-workspace/'+file,await readFile(path.join(project,'account-workspace',file)));
 transformed.set('account/index.html',await readFile(path.join(project,'account-workspace/index.html')));
 transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
