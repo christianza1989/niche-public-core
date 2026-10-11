@@ -9,7 +9,7 @@ import ts from 'typescript';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createElement } from 'react';
 import * as media from '../lib/niche-media.mjs';
-import { projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
+import { commerceDestination, projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
 import { contentSeoV2 } from '../lib/content-seo-v2.mjs';
 import { nativeFixture, retiredFixture, approveFixture } from './fixtures/native-niche-v2.mjs';
 
@@ -61,6 +61,26 @@ test('native indexes select their own identity with multiple eligible indexes', 
     assert.equal(schema.url, `https://nativeqa.example/${slug}`);
   }
 });
+test('native rich links stay on the reader origin without changing canonical projection or external destinations', () => {
+  const pkg = nativeFixture();
+  const current = pkg.pages.find(page => page.id === 'current');
+  current.body.push({type:'richParagraph',content:[{type:'link',text:'Pirminis šaltinis',target:{kind:'external',url:'https://primary.example/source'}}]});
+  approveFixture(pkg);
+  const original=JSON.stringify(pkg),visible=project(pkg,boundary);
+  assert.equal(visible.find(page=>page.id==='current').body[0].content[0].href,'https://nativeqa.example/gidai/veliau');
+  const rendered=html(pkg,'current',boundary);
+  assert.equal((rendered.match(/href="\/gidai\/veliau"/g)||[]).length,4,'three rich positions plus related navigation');
+  assert.match(rendered,/<a href="https:\/\/primary\.example\/source"[^>]*>Pirminis šaltinis<\/a>/);
+  assert.equal(schemasIn(rendered)[0].url,'https://nativeqa.example/gidai/dabartinis');
+  assert.equal(JSON.stringify(pkg),original);
+  const peer=nativeFixture({siteId:'peerqa'});
+  const networkPages=projectContentPagesV2(pkg,[pkg,peer],{networkLiveDomains:[peer.canonicalHost]},{targets:[]},boundary);
+  const networkHtml=renderToStaticMarkup(createElement(NativeContentSite,{pkg,page:networkPages.find(page=>page.id==='current'),livePages:networkPages}));
+  assert.match(networkHtml,/href="https:\/\/peerqa\.example\/gidai\/dabartinis"/);
+  const { RichContent }=load('components/content/rich-content.tsx');
+  const legacy=renderToStaticMarkup(createElement(RichContent,{body:visible.find(page=>page.id==='current').body,media:[]}));
+  assert.equal((legacy.match(/href="https:\/\/nativeqa\.example\/gidai\/veliau"/g)||[]).length,3,'omitted origin preserves compatibility callers');
+});
 test('native guide breadcrumb selects the nearest eligible nested index', () => {
   const pkg = nativeFixture();
   addPage(pkg, 'index', 'answers', 'index', 'gidai/atsakymai');
@@ -69,6 +89,15 @@ test('native guide breadcrumb selects the nearest eligible nested index', () => 
   const rendered = html(pkg, 'nested-guide', boundary - 1);
   assert.deepEqual(schemasIn(rendered)[1].itemListElement.map(crumb => new URL(crumb.item).pathname), ['/', '/gidai/atsakymai', '/gidai/atsakymai/pasirinkimas']);
   assert.match(breadcrumbIn(rendered), /href="\/gidai\/atsakymai">Bandymo puslapis answers<\/a>/);
+});
+test('presentation preserves admitted same-origin commerce URLs with a double-slash path', () => {
+  const url='https://nativeqa.example//other.example/path';
+  const target={id:'approved-destination',url,verified:true,checkedAt:'2020-01-01T00:00:00Z'};
+  const registry={targets:[{id:target.id,status:'ready',canonicalUrl:url,allowedQueryParams:[],verifiedAt:target.checkedAt,expiresAt:'2040-01-01T00:00:00Z'}]};
+  const destination=commerceDestination(target,registry,boundary);
+  assert.equal(destination,url);
+  const { contentLinkHref }=load('lib/content-presentation.ts');
+  assert.equal(contentLinkHref(destination,'https://nativeqa.example/gidai/dabartinis'),url,'relative // would navigate to another host');
 });
 test('standalone native guide never gains an unrelated index breadcrumb', () => {
   const pkg = nativeFixture();
@@ -85,7 +114,7 @@ test('native rich positions, responsive media and all exports share exact tempor
   const rendered = html(pkg, 'current', boundary);
   assert.match(rendered, /<h2><a[^>]+>Kitas atsakymas<\/a><\/h2>/);
   assert.match(rendered, /<ol><li><a[^>]+>Kitas atsakymas<\/a><\/li>/);
-  assert.equal((rendered.match(/href="https:\/\/nativeqa\.example\/gidai\/veliau"/g) || []).length, 3);
+  assert.equal((rendered.match(/href="\/gidai\/veliau"/g) || []).length, 4);
   assert.match(rendered, /srcSet="[^\"]*640w[^\"]*1280w[^\"]*1600w"/i);
   assert.equal(JSON.stringify(pkg), original);
   pkg.pages.find(p => p.id === 'future').approval.status = 'revoked';
