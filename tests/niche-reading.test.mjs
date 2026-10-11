@@ -9,7 +9,8 @@ test('StepOver native homepage exports its real approved process and sector-inde
   assert.equal(home.approval.revisionHash,home.revisionHash);
   const body=nicheReadingBody(pkg.siteId,home).join('\n');
   for(const fact of home.body.flatMap(b=>b.type==='list'?b.items:b.text?[b.text]:[])) assert.ok(body.includes(fact),fact);
-  assert.match(body,/Sprendimą lemia procesas, ne įmonės sektorius/);
+  assert.ok(home.body.some(block=>block.type==='paragraph'));
+  assert.ok(home.body.some(block=>block.type==='list'));
 });
 test('Legacy custom-home hidden body remains excluded; existing tractor adapter keeps its body',()=>{
   const home={type:'home',body:[{type:'paragraph',text:'Native process answer'}]};

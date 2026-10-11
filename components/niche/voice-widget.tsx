@@ -2,12 +2,15 @@
 import { useEffect, useRef, useState } from "react";
 import type { Room } from "livekit-client";
 import { waitForVoiceAgent } from "@/lib/voice-connection";
+import { chatExpiry, clearChat, readChat, saveChat, type ChatLine } from "@/lib/chat-session";
 import s from "./voice-widget.module.css";
 
 type Session = { conversation_id: string; session_token: string; livekit_url?: string; room_token?: string };
 type UI = { id: string; state: string };
 
-class ConversationRequestError extends Error {}
+class ConversationRequestError extends Error {
+  constructor(message: string, readonly status: number) { super(message); }
+}
 
 function parseUI(value: unknown): UI | null {
   if (!value || typeof value !== "object" || !("id" in value) || !("state" in value)
@@ -36,7 +39,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   const [hasSession, setHasSession] = useState(false);
   const [remember, setRemember] = useState(false), [recognized, setRecognized] = useState(false);
   const [channel, setChannel] = useState<"voice" | "chat">("chat"), [text, setText] = useState("");
-  const [lines, setLines] = useState<Array<{ id: string; speaker: "client" | "agent"; text: string }>>([]);
+  const [lines, setLines] = useState<ChatLine[]>([]);
+  const expiresAt = useRef(0);
   const pendingMessage = useRef<{ id: string; text: string } | null>(null);
   const chatLog = useRef<HTMLDivElement>(null);
   const room = useRef<Room | null>(null), session = useRef<Session | null>(null);
@@ -58,7 +62,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       ...(method === "POST" ? { body: JSON.stringify({ ...body, conversation_id: active?.conversation_id }) } : {}) });
     if (!response.ok) {
       console.warn(JSON.stringify({ event: "conversation_request_failed", action, status: response.status }));
-      throw new ConversationRequestError("Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma.");
+      throw new ConversationRequestError((appearance === "stepover" ? "Konsultantas šiuo metu nepasiekiamas. Kviečiame užpildyti kontaktų formą." : "Paslauga laikinai nepasiekiama. Pateikite užklausą įprasta forma."), response.status);
     }
     const data: unknown = await response.json();
     if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Neteisingas serverio atsakymas.");
@@ -66,6 +70,45 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   }
 
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; void room.current?.disconnect(); }; }, []);
+  useEffect(() => {
+    if (!chatAvailable) return;
+    let cancelled = false;
+    let checkpoint;
+    try { checkpoint = readChat(window.sessionStorage, window.location.host); } catch { return; }
+    if (!checkpoint) return;
+    const saved = checkpoint;
+    session.current = saved.session;
+    setBusy(true); setState("connecting"); setOpen(saved.open);
+    void request("busena", {}, "GET").then(result => {
+      if (cancelled) return;
+      if (!["created", "active"].includes(String(result.state))) {
+        clearChat(window.sessionStorage, window.location.host); session.current = null; setState("ready"); return;
+      }
+      expiresAt.current = saved.expiresAt;
+      contactRevisions.current = saved.contactRevisions;
+      if (Array.isArray(result.contacts)) for (const contact of result.contacts) {
+        if (contact && (contact.channel === "email" || contact.channel === "phone") && Number.isInteger(contact.revision)) {
+          contactRevisions.current[contact.channel as "email" | "phone"] = contact.revision;
+        }
+      }
+      pendingMessage.current = saved.pending;
+      setLines(saved.lines); setText(saved.pending?.text || ""); setHasSession(true); setChannel("chat"); setState("active");
+      const nextUI = parseUI(result.ui);
+      if (nextUI?.state === "requested") { setUI(nextUI); setContactOpen(true); }
+    }).catch(error => {
+      if (cancelled) return;
+      session.current = null; setState("ready");
+      if (error instanceof ConversationRequestError && [401, 403, 404, 409, 410].includes(error.status)) clearChat(window.sessionStorage, window.location.host);
+      setMessage((appearance === "stepover" ? "Pokalbio tęsti nepavyko. Pradėkite naują pokalbį arba užpildykite kontaktų formą." : "Pokalbio tęsti nepavyko. Galite pradėti naują pokalbį arba pateikti užklausą forma."));
+    }).finally(() => { if (!cancelled) setBusy(false); });
+    return () => { cancelled = true; };
+  }, [chatAvailable]);
+
+  useEffect(() => {
+    if (channel !== "chat" || state !== "active" || !session.current || !expiresAt.current) return;
+    try { saveChat(window.sessionStorage, window.location.host, { version: 1, expiresAt: expiresAt.current,
+      session: session.current, open, lines, pending: pendingMessage.current, contactRevisions: contactRevisions.current }); } catch { /* Storage optional. */ }
+  }, [channel, state, open, lines, busy, message]);
   useEffect(() => {
     if (open) {
       closer.current?.focus();
@@ -99,11 +142,13 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
         }
       }
       if (nextUI?.state === "requested") { setUI(nextUI); setContactOpen(true); }
-      if (result.state === "finalized" && state === "active") { void room.current?.disconnect(); setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); }
+      if (result.state === "finalized" && state === "active") { void room.current?.disconnect();
+        if (channel === "chat") try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+        setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); }
     }).catch(() => setMessage("Ryšio būsena laikinai nepasiekiama.")); }, state === "active" ? 750 : 3000);
     return () => clearInterval(timer);
   // Session is held privately in a ref; state owns this poller's lifecycle.
-  }, [state]);
+  }, [state, channel]);
 
   useEffect(() => {
     if (state !== "active") return;
@@ -127,7 +172,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     let microphone: MediaStream | null = null;
     let starting = true;
     try {
-      if (!navigator.mediaDevices?.getUserMedia) throw new Error("Balso pokalbiui reikia saugaus HTTPS ryšio ir naršyklės su mikrofono palaikymu.");
+      if (!navigator.mediaDevices?.getUserMedia) throw new Error((appearance === "stepover" ? "Balso pokalbiui reikalingas saugus HTTPS ryšys ir naršyklė, palaikanti mikrofoną." : "Balso pokalbiui reikia saugaus HTTPS ryšio ir naršyklės su mikrofono palaikymu."));
       // Obtain permission before allocating a provider session or dispatching an agent.
       microphone = await navigator.mediaDevices.getUserMedia({ audio: true });
       sdk.current ||= import("livekit-client");
@@ -170,8 +215,9 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       const created = await request("sesija", { consent: true, remember, mode: "chat", request_id: startRequest.current });
       if (typeof created.conversation_id !== "string" || typeof created.session_token !== "string") throw new Error("Nepavyko pradėti pokalbio.");
       session.current = { conversation_id: created.conversation_id, session_token: created.session_token };
+      expiresAt.current = chatExpiry();
       setHasSession(true); setState("active"); if (remember) setRecognized(true);
-      setLines([{ id: "welcome", speaker: "agent", text: "Sveiki, esu virtualus AI konsultantas. Aprašykite savo poreikį arba užduokite klausimą." }]);
+      setLines([{ id: "welcome", speaker: "agent", text: (appearance === "stepover" ? "Sveiki! Esu DI konsultantas. Padėsiu jums susigaudyti tarp StepOver planšečių ir programų. Kokius dokumentus planuojate pasirašyti?" : "Sveiki, esu virtualus AI konsultantas. Aprašykite savo poreikį arba užduokite klausimą.") }]);
     } catch (error) { setState("failed"); setMessage(error instanceof Error ? error.message : "Nepavyko pradėti pokalbio."); }
     finally { setBusy(false); }
   }
@@ -193,7 +239,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     } catch (error) {
       const rejected = error instanceof ConversationRequestError;
       setChatFailed(rejected);
-      setMessage(rejected ? "Atsakymo gauti nepavyko. Pradėkite naują pokalbį arba pateikite užklausą forma."
+      setMessage(rejected ? (appearance === "stepover" ? "Atsakymo gauti nepavyko. Pradėkite naują pokalbį arba užpildykite kontaktų formą." : "Atsakymo gauti nepavyko. Pradėkite naują pokalbį arba pateikite užklausą forma.")
         : "Ryšys nutrūko. Galite dar kartą išsiųsti tą pačią žinutę.");
     }
     finally { setBusy(false); }
@@ -203,6 +249,8 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     setBusy(true);
     try { if (session.current) await request("baigti"); }
     catch { setMessage("Pokalbio pabaigą serveris sutikrins atkūręs ryšį."); }
+    if (channel === "chat") try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+    expiresAt.current = 0;
     await room.current?.disconnect(); setState("ended"); setContactOpen(Object.keys(contactRevisions.current).length === 0); setBusy(false);
   }
 
@@ -211,13 +259,15 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     try { const receipt = await request("kontaktas", { channel: contactChannel, value: contactChannel === "email" ? email : phone,
       consent: true, base_revision: contactRevisions.current[contactChannel] });
       if (typeof receipt.revision === "number") contactRevisions.current[contactChannel] = receipt.revision;
-      setMessage(contactChannel === "email" ? "El. paštas išsaugotas. Atsakymo pristatymas dar tikrinamas."
+      setMessage(contactChannel === "email" ? (appearance === "stepover" ? "El. pašto adresas išsaugotas. Kol kas nepatvirtinta, ar atsakymas sėkmingai pristatytas." : "El. paštas išsaugotas. Atsakymo pristatymas dar tikrinamas.")
         : "Telefono numeris išsaugotas."); setContactOpen(false);
     } catch (error) { setMessage(error instanceof Error ? error.message : "Kontakto išsaugoti nepavyko."); }
     finally { setBusy(false); }
   }
 
   function resetCall() {
+    try { clearChat(window.sessionStorage, window.location.host); } catch { /* Storage optional. */ }
+    expiresAt.current = 0;
     session.current = null; startRequest.current = null; room.current = null;
     contactRevisions.current = {};
     pendingMessage.current = null; setLines([]); setText(""); setChatFailed(false);
@@ -227,51 +277,52 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
   async function forget() {
     setBusy(true);
     try { await request("pamirsti"); setRecognized(false); setRemember(false);
-      setMessage("Šios naršyklės atmintis išjungta.");
+      setMessage((appearance === "stepover" ? "Šio įrenginio atmintis išjungta. Atkreipkite dėmesį, kad tai savaime neištrina pokalbio įrašų." : "Šios naršyklės atmintis išjungta."));
     } catch { setMessage("Atminties išjungti nepavyko. Bandykite dar kartą."); }
     finally { setBusy(false); }
   }
 
   const stepover = appearance === "stepover";
   const chatIcon = <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H8l-5 3V6.5A3.5 3.5 0 0 1 6.5 3h10A3.5 3.5 0 0 1 20 6.5v5ZM7 8h9M7 12h6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>;
-  if (!open) return <button ref={launcher} className={`${s.launch} ${stepover ? s.stepoverLaunch : ""}`} aria-label="Kalbėtis su AI konsultantu" aria-expanded={false} aria-controls="conversation-panel" onClick={() => setOpen(true)}>{stepover && chatIcon}<span>{stepover ? "AI konsultantas" : "Kalbėtis su AI konsultantu"}</span></button>;
-  return <aside id="conversation-panel" className={`${s.panel} ${stepover ? s.stepoverPanel : ""}`} aria-label="AI konsultantas" onKeyDown={event => {
+  if (!open) return <button ref={launcher} className={`${s.launch} ${stepover ? s.stepoverLaunch : ""}`} aria-label={stepover ? "Kalbėtis su DI konsultantu" : "Kalbėtis su AI konsultantu"} aria-expanded={false} aria-controls="conversation-panel" onClick={() => setOpen(true)}>{stepover && chatIcon}<span>{stepover ? "DI konsultantas" : "Kalbėtis su AI konsultantu"}</span></button>;
+  return <aside id="conversation-panel" className={`${s.panel} ${stepover ? s.stepoverPanel : ""}`} aria-label={stepover ? "DI konsultantas" : "AI konsultantas"} onKeyDown={event => {
     if (event.key === "Escape" && (channel === "chat" || !["active", "connecting"].includes(state))) setOpen(false);
   }}>
     <div ref={audioElements} hidden />
     <div className={s.heading}><div className={s.headingIdentity}>{stepover && chatIcon}<strong>{title}</strong></div><button ref={closer} aria-label="Uždaryti" disabled={channel === "voice" && (state === "active" || state === "connecting")} onClick={() => setOpen(false)}>{stepover ? <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" /></svg> : "×"}</button></div>
-    {stepover && state === "ready" && <div className={s.chatIntro}><h2>Aptarkime jūsų dokumentų procesą.</h2><p>Aprašykite dokumentą, naudojamą sistemą ar modelį, kurį norite palyginti.</p></div>}
-    <p className={stepover ? s.privacyNote : undefined}>Bendrausite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai. <a href="/privatumas">Privatumas</a></p>
+    {stepover && state === "ready" && <div className={s.chatIntro}><h2>Kuo galime padėti?</h2><p>Trumpai aprašykite savo pasirašymo procesą, ir mes padėsime išsirinkti tinkamiausią planšetę bei programą.</p></div>}
+    <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Jums atsakys dirbtinio intelekto konsultantas. Pokalbio tekstas bus naudojamas atsakymui parengti ir jo kokybei įvertinti." : "Bendrausite su virtualiu AI. Pokalbio tekstą naudosime jūsų užklausai ir kokybės peržiūrai."} <a href="/privatumas">Privatumas</a></p>
+    {chatAvailable && <p className={stepover ? s.privacyNote : undefined}>{stepover ? "Šiame naršyklės skirtuke pokalbį galite tęsti iki 30 minučių net ir naršydami kitus puslapius. Jei norite būti atpažinti vėliau, galite įjungti įrenginio atmintį." : "Pokalbį šiame skirtuke galite tęsti pereidami į kitą svetainės puslapį iki 30 minučių. Ilgesnė atmintis pasirenkama atskirai."}</p>}
     <p className={stepover ? s.sessionStatus : undefined} role="status">{state === "active" ? "Pokalbis vyksta" : state === "connecting" ? "Jungiamasi…" : state === "ended" ? "Pokalbis baigtas" : "Pokalbis nepradėtas"}</p>
     {state === "ready" && <>
       <label className={s.memoryChoice}><input type="checkbox" checked={remember} disabled={busy} onChange={e => {
         memoryChoiceTouched.current = true; setRemember(e.target.checked);
         if (!e.target.checked && recognized) void forget();
-      }} />Prisiminti pokalbius šioje naršyklėje 30 dienų</label>
+      }} />{stepover ? "Prisiminti mane šiame įrenginyje 30 dienų" : "Prisiminti pokalbius šioje naršyklėje 30 dienų"}</label>
       {recognized && <p className={s.memoryNote}>Galime tęsti ankstesnį pokalbį. <button onClick={() => void forget()} disabled={busy}>Pamiršti šį įrenginį</button></p>}
     </>}
     {state === "ready" && <div className={s.actions}>
-      {chatAvailable && <button onClick={() => void startChat()} disabled={busy}>Sutinku ir rašau</button>}
+      {chatAvailable && <button onClick={() => void startChat()} disabled={busy}>{stepover ? 'Sutinku ir pradedu pokalbį' : 'Sutinku ir rašau'}</button>}
       {voiceAvailable && <button onClick={() => void start()} disabled={busy}>{recognized ? "Sutinku ir tęsiu balso pokalbį" : "Sutinku ir skambinu"}</button>}
     </div>}
     {lines.length > 0 && <div ref={chatLog} className={s.chatLog} role="log" aria-label="Pokalbio žinutės" aria-live="polite" aria-relevant="additions">
-      {lines.map(line => <p key={line.id} className={line.speaker === "client" ? s.clientLine : s.agentLine}><strong>{line.speaker === "client" ? "Jūs" : "AI konsultantas"}</strong><span>{line.text}</span></p>)}
+      {lines.map(line => <p key={line.id} className={line.speaker === "client" ? s.clientLine : s.agentLine}><strong>{line.speaker === "client" ? "Jūs" : stepover ? "DI konsultantas" : "AI konsultantas"}</strong><span>{line.text}</span></p>)}
     </div>}
     {state === "active" && channel === "chat" && <form className={s.composer} onSubmit={sendMessage} aria-label="Parašyti konsultantui" aria-busy={busy}>
       <label htmlFor="chat-message">Jūsų žinutė</label>
-      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy || chatFailed} rows={3} onChange={e => setText(e.target.value)} placeholder="Aprašykite dokumentą, darbo vietas ar užduokite klausimą…" />
+      <textarea id="chat-message" value={text} maxLength={1800} disabled={busy || chatFailed} rows={3} onChange={e => setText(e.target.value)} placeholder={stepover ? "Užduokite klausimą apie įrangą arba dokumentų pasirašymą…" : "Aprašykite dokumentą, darbo vietas ar užduokite klausimą…"} />
       <button type="submit" disabled={busy || chatFailed || !text.trim()}>{busy ? "Konsultantas atsako…" : "Siųsti žinutę"}</button>
     </form>}
     {state === "active" && <div className={s.actions}>
       {channel === "voice" && soundBlocked && <button onClick={() => void room.current?.startAudio()}>Įjungti garsą</button>}
       {channel === "voice" && <button onClick={() => { void room.current?.localParticipant.setMicrophoneEnabled(muted); setMuted(!muted); }}>{muted ? "Įjungti mikrofoną" : "Nutildyti"}</button>}
-      <button onClick={() => setContactOpen(true)}>Palikti kontaktą</button><button onClick={() => void end()} disabled={busy}>Baigti</button>
+      <button onClick={() => setContactOpen(true)}>{stepover ? "Palikti kontaktus" : "Palikti kontaktą"}</button><button onClick={() => void end()} disabled={busy}>Baigti</button>
     </div>}
-    {state === "ended" && hasSession && !contactOpen && <button onClick={() => setContactOpen(true)}>Palikti kontaktą</button>}
+    {state === "ended" && hasSession && !contactOpen && <button onClick={() => setContactOpen(true)}>{stepover ? "Palikti kontaktus" : "Palikti kontaktą"}</button>}
     {state === "ended" && <button onClick={resetCall} disabled={busy}>Naujas pokalbis</button>}
-    {contactOpen && hasSession && <form className={stepover ? s.contactForm : undefined} onSubmit={submit} aria-label="Kontaktas prašytam atsakymui">
-      {stepover && <h3>Kontaktas atsakymui</h3>}
-      <label htmlFor="voice-channel">Kokį kontaktą norite palikti?</label>
+    {contactOpen && hasSession && <form className={stepover ? s.contactForm : undefined} onSubmit={submit} aria-label={stepover ? "Kontaktai atsakymui" : "Kontaktas prašytam atsakymui"}>
+      {stepover && <h3>Kur turėtume atsiųsti atsakymą?</h3>}
+      <label htmlFor="voice-channel">{stepover ? "Kokius kontaktus norėtumėte palikti?" : "Kokį kontaktą norite palikti?"}</label>
       <select id="voice-channel" value={contactChannel} onChange={e => setContactChannel(e.target.value === "phone" ? "phone" : "email")}>
         <option value="email">El. paštą atsakymui</option><option value="phone">Telefono numerį</option>
       </select>
@@ -279,7 +330,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
       <input ref={input} id="voice-contact" type={contactChannel === "email" ? "email" : "tel"}
         autoComplete={contactChannel === "email" ? "email" : "tel"} maxLength={contactChannel === "email" ? 254 : 25}
         required value={contactChannel === "email" ? email : phone} onChange={e => contactChannel === "email" ? setEmail(e.target.value) : setPhone(e.target.value)} />
-      <p>Naudosime tik šio pokalbio užklausai. El. paštą naudosime prašytam atsakymui. Paliktas telefono numeris nesukuria automatinio skambučio ar SMS.</p>
+      <p>{stepover ? "Jūsų kontaktus naudosime tik atsakydami į pokalbio klausimą. Norėdami gauti atsakymą el. paštu, įrašykite savo adresą. Palikus telefono numerį, sistema automatinių skambučių ar SMS pranešimų nesiunčia." : "Naudosime tik šio pokalbio užklausai. El. paštą naudosime prašytam atsakymui. Paliktas telefono numeris nesukuria automatinio skambučio ar SMS."}</p>
       <button disabled={busy} type="submit">Išsaugoti kontaktą</button>
       <button type="button" onClick={() => { setContactOpen(false); if (ui) void request("ui", { request_id: ui.id, state: "dismissed" }).catch(() => {}); }}>Praleisti</button>
     </form>}
@@ -287,7 +338,7 @@ export function VoiceWidget({ title = "Padangų AI konsultantas", chatAvailable 
     {chatFailed && state === "active" && channel === "chat" && <button disabled={busy} onClick={() => { void end().then(resetCall); }}>Pradėti naują pokalbį</button>}
     {state === "failed" && <div className={s.actions}>
       <button onClick={resetCall}>Bandyti dar kartą</button>
-      <a href="/kontaktai">Pateikti užklausą forma</a>
+      <a href="/kontaktai">{stepover ? "Užpildyti užklausos formą" : "Pateikti užklausą forma"}</a>
     </div>}
   </aside>;
 }

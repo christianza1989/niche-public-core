@@ -1,11 +1,11 @@
 {
-  "hero": "54fcfd3a-d7d4-4d4a-b9a9-950193521d9e",
-  "customer-desk": "5f3c7f9b-99ba-417b-9880-a7067d9d9a01",
-  "reception-desk": "2b7a74f8-a79a-418a-8ad6-3fb9e2eda065",
-  "business-desk": "d515eeee-2392-49b9-a27a-f3eb364854be",
-  "process": "d965c16e-0140-4dbf-bc2a-924f91850308",
-  "guide-device": "114da68a-33a3-444b-9219-007d2d928eaf",
-  "guide-pdf": "0b49b474-354b-48c3-a3b4-b4c8c932fe9b",
-  "guide-integration": "51ebc947-ab6b-4749-a30c-f0e4bea5b3c4",
-  "guide-terminal": "d64df8c3-0867-4392-852d-458f0e381077"
+  "hero": "f725f0be-4926-45b0-8fc9-e7655809b675",
+  "customer-desk": "31b07a89-78f7-4e38-b01b-ad91df262bf4",
+  "reception-desk": "6e1a5835-9e03-43d0-84b2-23186b580966",
+  "business-desk": "829eaa16-210a-4f4a-86f8-c20aa6338347",
+  "process": "1601c104-5746-464d-ba69-39a29b92619c",
+  "guide-device": "b88c3284-4e9e-4665-8c17-b35638efcefc",
+  "guide-pdf": "1585d858-679f-4547-91db-39f279146d90",
+  "guide-integration": "bc7cddf8-614a-43c6-ab1a-fcde5e61c3a8",
+  "guide-terminal": "b00afb89-9d66-4d23-af34-c14d07276fa5"
 }
