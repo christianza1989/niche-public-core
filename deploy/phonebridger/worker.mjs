@@ -9,8 +9,14 @@ import {sendHostingerMail} from '../../lib/hostinger-mail-api.mjs';
 import {commerce} from '../../lib/stripe-commerce.mjs';
 import commercePolicy from './commerce-policy.json';
 import commerceContract from '../../.sites-runtime/phonebridger-production/commerce-contract.json';
+import {accountWorkspace} from '../../lib/phonebridger-account-workspace.mjs';
+import {creatorApi,referralRedirect} from '../../lib/phonebridger-affiliate.mjs';
+import {accountRoute} from './account-routes.mjs';
+import {accountSecurity,securityActions,emailVerified,securityDeletionStatements} from '../../lib/phonebridger-account-security.mjs';
+import {serviceMailMaintenance} from '../../lib/phonebridger-notifications.mjs';
+import {creatorPayoutProvider,runCreatorPayouts} from '../../lib/phonebridger-payout-provider.mjs';
 
-const pkg=release.package, privatePages=new Set(['login','register','recover','account','checkout']);
+const pkg=release.package, privatePages=new Set(['login','register','recover','verify','account','checkout']);
 const response=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex'}});
 const txt=(body,type='text/plain; charset=utf-8')=>new Response(body,{headers:{'Content-Type':type,'Cache-Control':'no-cache'}});
 function policyFor(env,local){
@@ -72,7 +78,7 @@ async function interest(request,env,live){
   await env.DB.prepare('INSERT INTO niche_interest_daily (site_id,day,page_path,event,count) VALUES (?,?,?,?,1) ON CONFLICT(site_id,day,page_path,event) DO UPDATE SET count=count+1').bind(pkg.siteId,day,data.path,data.event).run();return new Response(null,{status:204});
 }
 export default {
-  async fetch(request,env){
+  async fetch(request,env,ctx){
     const url=new URL(request.url),host=url.hostname;
     if(host==='www.'+pkg.canonicalHost){url.hostname=pkg.canonicalHost;url.protocol='https:';return Response.redirect(url.toString(),308);}
     if(host===pkg.canonicalHost&&url.protocol==='http:'){url.protocol='https:';return Response.redirect(url.toString(),308);}
@@ -81,7 +87,13 @@ export default {
     if(!home)return new Response('Not found',{status:404});
     let result;
     try{
-      if(url.pathname.startsWith('/api/account/'))result=await customerAccount(request,env,url.pathname.slice('/api/account/'.length),{minimumPasswordLength:6});
+      if(url.pathname.startsWith('/api/account/')){
+        const action=url.pathname.slice('/api/account/'.length);result=securityActions.has(action)?await accountSecurity(request,env,action,ctx):await customerAccount(request,env,action,{minimumPasswordLength:6,emailStatus:emailVerified,deleteExtra:securityDeletionStatements});
+      }
+      else if(url.pathname.startsWith('/api/workspace/'))result=await accountWorkspace(request,env,url.pathname.slice('/api/workspace/'.length),release.downloads,ctx);
+      else if(url.pathname.startsWith('/api/creator/provider/'))result=await creatorPayoutProvider(request,env,url.pathname.slice('/api/creator/provider/'.length));
+      else if(url.pathname.startsWith('/api/creator/'))result=await creatorApi(request,env,url.pathname.slice('/api/creator/'.length));
+      else if(/^\/r\/[a-f0-9]{32}$/.test(url.pathname)&&request.method==='GET')result=await referralRedirect(request,env,url.pathname.split('/').pop());
       else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,policyFor(env,local),url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);
@@ -93,12 +105,12 @@ export default {
       else if(url.pathname==='/llms-full.txt')result=txt(nicheLlmsFullCore(pkg,live,settings.operatorName));
       else {
         const slug=url.pathname.replace(/^\/+|\/+$/g,'');
-        const page=live.find(p=>p.slug===slug),isPrivate=privatePages.has(slug);
+        const page=live.find(p=>p.slug===slug),isPrivate=privatePages.has(slug)||accountRoute(slug);
         if(page||isPrivate){
           if(slug&&url.pathname!=='/'+slug){url.pathname='/'+slug;return Response.redirect(url.toString(),308);}
-          const expected=release.routes[slug];
+          const workspace=accountRoute(slug),expected=release.routes[workspace?'account':slug];
           if(!expected||(page&&expected.revisionHash!==page.revisionHash))return new Response('Not found',{status:404});
-          const assetUrl=new URL(request.url);if(slug)assetUrl.pathname='/'+slug+'/';result=await env.ASSETS.fetch(new Request(assetUrl,request));
+          const assetUrl=new URL(request.url);if(slug)assetUrl.pathname='/'+(workspace?'account':slug)+'/';result=await env.ASSETS.fetch(new Request(assetUrl,request));
         }else if(release.assets.includes(url.pathname)&&(!url.pathname.startsWith('/content-assets/')||live.some(p=>p.media.some(m=>m.src===url.pathname))))result=await env.ASSETS.fetch(request);
         else result=new Response('Not found',{status:404});
       }
@@ -109,7 +121,7 @@ export default {
     }
     const headers=new Headers(result.headers);if(env.PLAYGROUND==='1')headers.set('X-PhoneBridger-Environment','playground');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.set('Content-Security-Policy',"frame-ancestors 'none'; base-uri 'self'; object-src 'none'");
     if(!local)headers.set('Strict-Transport-Security','max-age=31536000');
-    if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
+    if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||accountRoute(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||url.pathname.startsWith('/r/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
     else if(headers.get('Content-Type')?.includes('text/html'))headers.set('Cache-Control','no-cache');
     return new Response(request.method==='HEAD'?null:result.body,{status:result.status,headers});
   },
@@ -118,5 +130,5 @@ export default {
     env.DB.prepare('DELETE FROM request_rates WHERE expires_at<?').bind(Date.now()),
     env.DB.prepare('DELETE FROM niche_leads WHERE created_at<?').bind(Date.now()-180*86400000),
     env.DB.prepare('DELETE FROM niche_interest_daily WHERE day<?').bind(new Date(Date.now()-395*86400000).toISOString().slice(0,10))
-  ]));}
+  ]));ctx.waitUntil(serviceMailMaintenance(env));ctx.waitUntil(runCreatorPayouts(env));}
 };

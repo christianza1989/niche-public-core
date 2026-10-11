@@ -7,6 +7,7 @@ import {projectPublicPages} from '../../lib/niche-links.mjs';
 import settings from '../../config/niche-network.json' with {type:'json'};
 import {nicheSchemaGraph} from '../../lib/niche-schema-core.mjs';
 import {nichePageUrlCore} from '../../lib/niche-seo-core.mjs';
+import {accountRoutes} from './account-routes.mjs';
 const core=path.resolve(import.meta.dirname,'../..');
 const companion=path.resolve(process.argv[2]||path.join(core,'../nisiniai_puslapiai_monetizavimui'));
 const appInput=process.argv[3]||process.env.PHONEBRIDGER_APP_ROOT;
@@ -18,7 +19,7 @@ const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
 const esc=text=>String(text).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
 const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/\s+/g,' ').trim();
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
-const {productionSource,shopAssetFiles,shellAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
+const {productionSource,shopAssetFiles,shellAssetFiles,reviewAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
 const {purchaseTerms,purchaseVersion}=await import(pathToFileURL(path.join(project,'production/purchase-terms.mjs')));
 const commercePolicy=JSON.parse(await readFile(path.join(import.meta.dirname,'commerce-policy.json'),'utf8'));
 if(commercePolicy.version!==purchaseVersion)throw Error('The accepted purchase edition and commerce policy must share a version.');
@@ -32,6 +33,12 @@ for(const entry of manifest.files){
 }
 for(const file of shopAssetFiles)transformed.set('assets/shop-v2/'+file,await readFile(path.join(project,'shop-v2',file)));
 for(const file of shellAssetFiles)transformed.set('assets/shared-shell/'+file,await readFile(path.join(project,'production/shared-shell',file)));
+// Repair owner-selected interactions without changing the attested prototype.
+for(const file of reviewAssetFiles)transformed.set('assets/reviews-v1/'+file,await readFile(path.join(project,'production/reviews-v2',file)));
+for(const file of ['workspace.css','workspace.js'])transformed.set('assets/account-workspace/'+file,await readFile(path.join(project,'account-workspace',file)));
+transformed.set('account/index.html',await readFile(path.join(project,'account-workspace/index.html')));
+transformed.set('assets/account-security/security.js',await readFile(path.join(project,'account-security/security.js')));
+for(const slug of ['recover','verify'])transformed.set(slug+'/index.html',await readFile(path.join(project,'account-security/index.html')));
 transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
 // Builds consume the committed reviewed edition; deployment never manufactures approval.
 const pkg=JSON.parse(await readFile(path.join(project,'production/package/content-package.json'),'utf8'));validateContentPackage(pkg);
@@ -48,7 +55,7 @@ for(const [file,bytes] of transformed){
  let content=bytes;const html=file.endsWith('/index.html')||file==='index.html';
  if(html){
   const slug=file==='index.html'?'':file.slice(0,-'/index.html'.length),page=pages.find(p=>p.slug===slug);
-  if(!page&&!['login','register','recover','account','checkout'].includes(slug))continue;
+  if(!page&&!['login','register','recover','verify','account','checkout'].includes(slug))continue;
   let text=bytes.toString();
   if(slug==='checkout')text=text.replace(/<meta name="robots"[^>]*>/g,'<meta name="robots" content="noindex,nofollow">').replace(/<link rel="canonical"[^>]*>/g,'').replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
   if(slug)text=text.replace('<head>',`<head><base href="/${slug}/">`);
@@ -74,7 +81,7 @@ const downloads={};
 for(const [key,filename,hash]of [['windows','PhoneBridger-V1.1-auto-USB-beta.3.zip',verification.zip_sha256],['android','PhoneBridger-Android.apk',verification.apk_sha256]]){
  const bytes=await readFile(path.join(app,'release/v1.1-auto-usb-1',filename));if(sha(bytes)!==hash)throw Error('Approved installer hash mismatch: '+filename);
  const parts=[];for(let offset=0;offset<bytes.length;offset+=20*1024*1024){const data=bytes.subarray(offset,offset+20*1024*1024),file=`/_downloads/${key}/${parts.length}.bin`;await mkdir(path.dirname(path.join(assets,file)),{recursive:true});await writeFile(path.join(assets,file),data);parts.push({path:file,bytes:data.length,sha256:sha(data)});}
- downloads[key]={filename,bytes:bytes.length,sha256:hash,parts};
+ downloads[key]={filename,version:verification[key==='windows'?'windows_version':'android_version'],bytes:bytes.length,sha256:hash,parts};
 }
-await writeFile(path.join(out,'release.json'),JSON.stringify({package:pkg,routes,assets:allow,downloads,generatedAt:new Date().toISOString()},null,2));
+await writeFile(path.join(out,'release.json'),JSON.stringify({package:pkg,routes,privateWorkspaceRoutes:[...accountRoutes],assets:allow,downloads,generatedAt:new Date().toISOString()},null,2));
 console.log(JSON.stringify({routes:Object.keys(routes).length,publicPages:pages.length,assets:allow.length,downloads:Object.fromEntries(Object.entries(downloads).map(([k,v])=>[k,{bytes:v.bytes,sha256:v.sha256}]))}));

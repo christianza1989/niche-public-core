@@ -1,6 +1,6 @@
 # Launch acceptance — 6 October 2026
 
-**Live:** https://phonebridger.com, with www and HTTP redirected to the canonical HTTPS origin. The owner authorized PhoneBridger hosting, DNS, durable enquiries, email/password accounts and Hostinger mailbox delivery. Creator features remain deferred. Live Checkout activation is recorded in the latest section below; paid sandbox evidence remains separate. No paid Cloudflare plan or R2 subscription was activated.
+**Live:** https://phonebridger.com, with www and HTTP redirected to the canonical HTTPS origin. The owner authorized hosting, durable enquiries, accounts and the subsequent customer/creator release below. Live Checkout and creator qualification are active; automatic partner payouts remain unavailable. Paid sandbox evidence remains separate. No paid Cloudflare plan or R2 subscription was activated.
 
 ## Verified preparation
 
@@ -100,3 +100,9 @@ Final canonical verification passed all 14 exact public revisions, auth/CSRF/rev
 Technical live purchase entry is active; no completed real sale, paid-live webhook, refund, receipt-email inbox delivery, supplier procurement, native activation or carrier delivery is certified. Prior sandbox payment evidence is unchanged. Owner verification is still needed for payouts. Scoped rollback can restore the prior disabled Worker; secrets are a separate state change and must not be removed blindly. No DNS/mail, native input, accepted homepage main or original installer changed.
 
 2026-10-07 owner-requested password minimum: dedicated PhoneBridger registration accepts 6–128 characters; shared helper default remains 12. Production form minimum/help and server validation agree. Five affected service tests pass. Canonical HTML, 5-character rejection, 6-character registration/login and authenticated disposal PASS. Worker eff640d2-76e6-4292-8ba0-75da4f4c5b8b; rollback 2f63ee9b-5775-4418-9837-281d21296a20. No schema, commerce policy, credential, native or frozen prototype changes. Scoped reservation complete.
+
+## Canonical customer and creator release — 7 October 2026
+
+At the human's explicit request to publish everything for creator testing, Worker fef51fad-ab14-4718-a3bd-03e24ca9844b serves the private customer/creator panels on the canonical domain. Dedicated additive account schema applied; only the requested existing account received audited creator access. Existing login, customer/order data, public purchase/legal edition, homepage/prototype, mail/DNS and frozen native/releases remain unchanged.
+
+100 core tests, 68 local and 51 canonical route/width combinations, actual registration/application/separate approval/UI live terms/link, two-account denial and all public/auth/download acceptance passed. Actual live unpaid Checkout confirms 5% discount (USD29 to27.55), followed by real signed expiry; no entitlement/commission without payment and no funds charged. QA links/capability/accounts were retired through owned supported operations; expired order/attribution/audit retained. Live creator accounting now uses its separate approved 25% edition and requires terms acceptance. Automated provider payouts and completed real paid/refund outcomes remain unavailable/unverified respectively. See ACCOUNT_LIVE_RELEASE_2026-10-07.md for exact authority, commits, evidence and rollback.
