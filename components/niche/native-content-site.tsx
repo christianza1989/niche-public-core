@@ -13,7 +13,8 @@ export function NativeContentSite({ pkg, page, livePages }: Props) {
   if (pkg.site.renderer !== 'niche' || page.siteId !== pkg.siteId || !livePages.some(item => item.id === page.id)) return null;
   const site = page.siteSnapshot;
   const home = livePages.find(item => item.type === 'home' && item.slug === '');
-  const index = livePages.find(item => item.type === 'index' && page.slug.startsWith(item.slug + '/')) ?? livePages.find(item => item.type === 'index');
+  const index = livePages.filter(item => item.type === 'index' && (item.id === page.id || page.slug.startsWith(item.slug + '/')))
+    .sort((a, b) => b.slug.length - a.slug.length)[0];
   const navigation = livePages.filter(item => ['index', 'service', 'about', 'contact'].includes(item.type)).slice(0, 6);
   const information = livePages.filter(item => ['policy', 'about', 'contact', 'author'].includes(item.type));
   const image = contentFeaturedImage(page);

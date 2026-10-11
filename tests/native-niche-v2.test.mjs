@@ -11,13 +11,13 @@ import { createElement } from 'react';
 import * as media from '../lib/niche-media.mjs';
 import { projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
 import { contentSeoV2 } from '../lib/content-seo-v2.mjs';
-import { nativeFixture, retiredFixture } from './fixtures/native-niche-v2.mjs';
+import { nativeFixture, retiredFixture, approveFixture } from './fixtures/native-niche-v2.mjs';
 
 const root = path.resolve(fileURLToPath(new URL('..', import.meta.url))), nativeRequire = createRequire(import.meta.url), cache = new Map();
 function load(relative) {
   const file = path.resolve(root, relative);
   if (cache.has(file)) return cache.get(file);
-  const module = { exports: {} }; cache.set(file, module.exports);
+  const loadedModule = { exports: {} }; cache.set(file, loadedModule.exports);
   const javascript = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2022 } }).outputText;
   const require = name => {
     if (name.endsWith('niche-media.mjs')) return media;
@@ -30,14 +30,54 @@ function load(relative) {
     }
     return nativeRequire(name);
   };
-  vm.runInNewContext(javascript, { module, exports: module.exports, require, URL, Intl, Date, Set, Map, console }, { filename: file });
-  cache.set(file, module.exports); return module.exports;
+  vm.runInNewContext(javascript, { module: loadedModule, exports: loadedModule.exports, require, URL, Intl, Date, Set, Map, console }, { filename: file });
+  cache.set(file, loadedModule.exports); return loadedModule.exports;
 }
 const { NativeContentSite } = load('components/niche/native-content-site.tsx');
 const { contentSchemas, contentMetadata } = load('lib/content-page-seo.ts');
 const project = (pkg, now) => projectContentPagesV2(pkg, [pkg, nativeFixture({ siteId: 'peerqa' })], {}, { targets: [] }, now);
 const html = (pkg, id, now) => { const livePages = project(pkg, now); return renderToStaticMarkup(createElement(NativeContentSite, { pkg, page: livePages.find(p => p.id === id), livePages })); };
 const boundary = Date.parse('2030-01-01T00:00:00.000Z');
+
+function schemasIn(rendered) {
+  return JSON.parse(rendered.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+}
+function breadcrumbIn(rendered) {
+  return rendered.match(/<nav class="breadcrumbs"[^>]*>(.*?)<\/nav>/s)[1];
+}
+function addPage(pkg, originalId, id, type, slug) {
+  const page = structuredClone(pkg.pages.find(item => item.id === originalId));
+  Object.assign(page, { id, type, slug, title: `Bandymo puslapis ${id}` });
+  pkg.pages.push(page);
+  return page;
+}
+test('native indexes select their own identity with multiple eligible indexes', () => {
+  const pkg = nativeFixture();
+  addPage(pkg, 'index', 'lessons', 'index', 'pamokos');
+  approveFixture(pkg);
+  for (const [id, slug] of [['index', 'gidai'], ['lessons', 'pamokos']]) {
+    const schema = schemasIn(html(pkg, id, boundary - 1))[0];
+    assert.equal(schema['@type'], 'CollectionPage', id);
+    assert.equal(schema.url, `https://nativeqa.example/${slug}`);
+  }
+});
+test('native guide breadcrumb selects the nearest eligible nested index', () => {
+  const pkg = nativeFixture();
+  addPage(pkg, 'index', 'answers', 'index', 'gidai/atsakymai');
+  addPage(pkg, 'current', 'nested-guide', 'guide', 'gidai/atsakymai/pasirinkimas');
+  approveFixture(pkg);
+  const rendered = html(pkg, 'nested-guide', boundary - 1);
+  assert.deepEqual(schemasIn(rendered)[1].itemListElement.map(crumb => new URL(crumb.item).pathname), ['/', '/gidai/atsakymai', '/gidai/atsakymai/pasirinkimas']);
+  assert.match(breadcrumbIn(rendered), /href="\/gidai\/atsakymai">Bandymo puslapis answers<\/a>/);
+});
+test('standalone native guide never gains an unrelated index breadcrumb', () => {
+  const pkg = nativeFixture();
+  addPage(pkg, 'current', 'standalone', 'guide', 'sprendimas');
+  approveFixture(pkg);
+  const rendered = html(pkg, 'standalone', boundary - 1);
+  assert.deepEqual(schemasIn(rendered)[1].itemListElement.map(crumb => new URL(crumb.item).pathname), ['/', '/sprendimas']);
+  assert.doesNotMatch(breadcrumbIn(rendered), /href="\/gidai"/);
+});
 
 test('native rich positions, responsive media and all exports share exact temporal/revocation projection', () => {
   const pkg = nativeFixture(), original = JSON.stringify(pkg);
