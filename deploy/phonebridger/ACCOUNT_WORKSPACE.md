@@ -1,6 +1,6 @@
 # PhoneBridger account and creator workspace — 7 October 2026
 
-Historical sandbox preparation below. The subsequent explicit human publication request and canonical release supersede its live-disabled status: see [ACCOUNT_LIVE_RELEASE_2026-10-07.md](ACCOUNT_LIVE_RELEASE_2026-10-07.md). Live referrals/accounting are enabled under a separate immutable edition; automatic provider payouts remain unavailable.
+Historical sandbox preparation below. The subsequent explicit human publication request and canonical release supersede its live-disabled status: see [ACCOUNT_LIVE_RELEASE_2026-10-07.md](ACCOUNT_LIVE_RELEASE_2026-10-07.md). The [11 October completion update](ACCOUNT_COMPLETION_2026-10-11.md) implements verified-email/password-recovery/support mail and the approved Stripe recipient/transfer model. Actual provider permission and identity-verification gates remain visible; no funds or bank arrival are fabricated. The unavailable-feature descriptions below refer to the dated original release.
 
 Implemented on `codex/phonebridger-account-creator-20261007`, depending on production integration PR 1. [Core PR 7](https://github.com/christianza1989/niche-public-core/pull/7) pairs with [companion PR 28](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/28). Neither has been merged. Only the isolated playground was deployed; canonical production was not redeployed by this session.
 

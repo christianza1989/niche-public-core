@@ -37,6 +37,8 @@ for(const file of shellAssetFiles)transformed.set('assets/shared-shell/'+file,aw
 for(const file of reviewAssetFiles)transformed.set('assets/reviews-v1/'+file,await readFile(path.join(project,'production/reviews-v2',file)));
 for(const file of ['workspace.css','workspace.js'])transformed.set('assets/account-workspace/'+file,await readFile(path.join(project,'account-workspace',file)));
 transformed.set('account/index.html',await readFile(path.join(project,'account-workspace/index.html')));
+transformed.set('assets/account-security/security.js',await readFile(path.join(project,'account-security/security.js')));
+for(const slug of ['recover','verify'])transformed.set(slug+'/index.html',await readFile(path.join(project,'account-security/index.html')));
 transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
 // Builds consume the committed reviewed edition; deployment never manufactures approval.
 const pkg=JSON.parse(await readFile(path.join(project,'production/package/content-package.json'),'utf8'));validateContentPackage(pkg);
@@ -53,7 +55,7 @@ for(const [file,bytes] of transformed){
  let content=bytes;const html=file.endsWith('/index.html')||file==='index.html';
  if(html){
   const slug=file==='index.html'?'':file.slice(0,-'/index.html'.length),page=pages.find(p=>p.slug===slug);
-  if(!page&&!['login','register','recover','account','checkout'].includes(slug))continue;
+  if(!page&&!['login','register','recover','verify','account','checkout'].includes(slug))continue;
   let text=bytes.toString();
   if(slug==='checkout')text=text.replace(/<meta name="robots"[^>]*>/g,'<meta name="robots" content="noindex,nofollow">').replace(/<link rel="canonical"[^>]*>/g,'').replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
   if(slug)text=text.replace('<head>',`<head><base href="/${slug}/">`);

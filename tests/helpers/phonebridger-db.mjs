@@ -5,7 +5,7 @@ export const token='a'.repeat(64),otherToken='c'.repeat(64);
 export const digest=v=>createHash('sha256').update(v).digest('hex');
 export function database(){
  const sql=new DatabaseSync(':memory:');
- for(const file of ['schema.sql','commerce-schema.sql','commerce-operations.sql','account-schema.sql'])sql.exec(readFileSync(new URL('../../deploy/phonebridger/'+file,import.meta.url),'utf8'));
+ for(const file of ['schema.sql','commerce-schema.sql','commerce-operations.sql','account-schema.sql','security-schema.sql'])sql.exec(readFileSync(new URL('../../deploy/phonebridger/'+file,import.meta.url),'utf8'));
  for(const [id,email,t] of [['buyer','buyer@example.invalid',token],['other','other@example.invalid',otherToken]]){
   sql.prepare('INSERT INTO customer_users VALUES (?,?,?,?,?)').run(id,email,'unused','unused','2026-10-07');sql.prepare('INSERT INTO customer_sessions VALUES (?,?,?)').run(digest(t),id,Date.now()+3600000);
  }
