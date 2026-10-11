@@ -5,7 +5,7 @@ export function assertPreviewSandbox(root, receipt){
   if(receipt.scope==='local-preview' && !/(?:^|\/)(?:output|outputs)\//.test(root.replaceAll('\\','/')))throw new Error('local-preview is allowed only in an isolated output checkout, never main');
 }
 export function validateV2Admission(pkg, raw, receipt) {
-  if(pkg.site.renderer!=='gift' || pkg.locale!=='lt-LT')throw new Error('V2 admission currently supports reviewed lt-LT gift renderer only');
+  if(!['gift','niche'].includes(pkg.site.renderer) || pkg.locale!=='lt-LT')throw new Error('V2 admission currently supports reviewed lt-LT gift and niche renderers only');
   if(!receipt || receipt.schemaVersion!==1 || !['local-fixture','local-preview','production'].includes(receipt.scope)) throw new Error('V2 acceptance receipt required');
   if(receipt.siteId!==pkg.siteId || receipt.canonicalHost!==pkg.canonicalHost || receipt.renderer!==pkg.site.renderer || receipt.packageSha256!==createHash('sha256').update(raw).digest('hex')) throw new Error('V2 acceptance receipt does not bind exact package');
   if(receipt.scope==='local-fixture' && !pkg.canonicalHost.endsWith('.example')) throw new Error('Local fixture admission requires reserved .example domain');
