@@ -50,6 +50,11 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-a30ddcd34970.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-ext-3911b66d9f2e.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
+          {niche.siteId === "memocasting" && <>
+            <link rel="preload" href="/fonts/memocasting/newsreader-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          </>}
           <title>{page?.title || niche.site.name}</title>
           <meta name="description" content={page?.description || niche.site.offer} />
           {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}

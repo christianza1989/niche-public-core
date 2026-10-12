@@ -1,6 +1,7 @@
 import { nicheOrigin, nichePagePath, publicNichePages, type NicheBlock, type NichePackage, type NichePage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
+import {memoSchemaGraph} from './memocasting-structure.mjs';
 import { memoIndexablePages } from './memocasting-content.mjs';
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
@@ -8,7 +9,7 @@ export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
 }
 
 export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+  return (pkg.siteId==='memocasting'?memoSchemaGraph:nicheSchemaGraph)(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
 }
 
 export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {

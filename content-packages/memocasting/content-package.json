@@ -23,7 +23,7 @@
       "siteId": "memocasting",
       "type": "home",
       "slug": "",
-      "title": "Prisiminimas. Jūsų rankomis.",
+      "title": "Rankų liejimo rinkiniai porai ir šeimai",
       "description": "Rankų liejimo rinkiniai porai ir šeimai. Išsirinkite, su kuo norite sukurti asmenišką prisiminimą.",
       "intent": "Rankų liejimo rinkiniai porai ir šeimai. Išsirinkite, su kuo norite sukurti asmenišką prisiminimą.",
       "body": [
@@ -131,11 +131,11 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "486b8f7cedefd8d37da4ff3ac35b23016a0d02c099c18009adef106e574772ea",
+      "revisionHash": "b8f133c67ff79e759f284c191d945817d632aaf75264e8f51a0e49f2b5118327",
       "approval": {
         "status": "approved",
-        "revisionHash": "486b8f7cedefd8d37da4ff3ac35b23016a0d02c099c18009adef106e574772ea",
-        "approvedAt": "2026-10-11T23:04:05.760Z",
+        "revisionHash": "b8f133c67ff79e759f284c191d945817d632aaf75264e8f51a0e49f2b5118327",
+        "approvedAt": "2026-10-12T00:36:54.795Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -288,7 +288,7 @@
       "siteId": "memocasting",
       "type": "faq",
       "slug": "collections/all",
-      "title": "Išsirinkite, su kuo kursite.",
+      "title": "Rankų liejimo rinkiniai: porai ar šeimai?",
       "description": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
       "intent": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
       "body": [
@@ -322,11 +322,11 @@
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "e7e77676137d6b23d8095b2883947a1e2545ea2decbe67cd5727f56436bb5111",
+      "revisionHash": "2d27dbe70f11414445a5e87df28a5baa6c6e10e7a373e5c8ff58bbdab54e48f0",
       "approval": {
         "status": "approved",
-        "revisionHash": "e7e77676137d6b23d8095b2883947a1e2545ea2decbe67cd5727f56436bb5111",
-        "approvedAt": "2026-10-11T23:04:05.774Z",
+        "revisionHash": "2d27dbe70f11414445a5e87df28a5baa6c6e10e7a373e5c8ff58bbdab54e48f0",
+        "approvedAt": "2026-10-12T00:36:54.801Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -334,7 +334,7 @@
       "siteId": "memocasting",
       "type": "faq",
       "slug": "pages/instrukcija",
-      "title": "Prieš pradėdami rankų liejimą.",
+      "title": "Rankų liejimo instrukcija: ką patikrinti prieš pradedant?",
       "description": "Ką patikrinti savo rinkinio instrukcijoje prieš atidarant medžiagas. Tikslūs Memocasting parametrai ruošiami.",
       "intent": "Ką patikrinti savo rinkinio instrukcijoje prieš atidarant medžiagas. Tikslūs Memocasting parametrai ruošiami.",
       "body": [
@@ -403,11 +403,11 @@
         }
       ],
       "id": "29842385-77b0-432e-9dea-fc4106ed630f",
-      "revisionHash": "ac8a7691468a117ed6068e7769c3da48b7f47064e702b095fdb0e8b9b3313abc",
+      "revisionHash": "6c23ce21addd6d1a134968778cb29f5b95401eb526f09e9d757978c7792a5cfb",
       "approval": {
         "status": "approved",
-        "revisionHash": "ac8a7691468a117ed6068e7769c3da48b7f47064e702b095fdb0e8b9b3313abc",
-        "approvedAt": "2026-10-11T23:04:05.778Z",
+        "revisionHash": "6c23ce21addd6d1a134968778cb29f5b95401eb526f09e9d757978c7792a5cfb",
+        "approvedAt": "2026-10-12T00:36:54.807Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1707,5 +1707,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-11T23:36:52.421Z"
+  "generatedAt": "2026-10-12T00:36:54.819Z"
 }
