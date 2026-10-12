@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import { request as httpRequest } from "node:http";
 import { request as httpsRequest } from "node:https";
 import { projectPublicPages } from "../lib/niche-links.mjs";
+import {memoIndexablePages} from "../lib/memocasting-content.mjs";
 
 const siteId = process.env.SEO_SMOKE_SITE_ID || "greitossvetaines";
 const base = process.env.SEO_SMOKE_BASE_URL || "http://127.0.0.1:8787";
@@ -12,6 +13,7 @@ const origin = `https://${pkg.canonicalHost}`;
 const packages = JSON.parse(await readFile(resolve('lib/generated/content-packages.json'), 'utf8'));
 const settings = JSON.parse(await readFile(resolve('config/niche-network.json'), 'utf8'));
 const live = projectPublicPages(pkg, packages, settings);
+const indexable=memoIndexablePages(pkg,live);
 
 async function get(path, host = pkg.canonicalHost) {
   const target = new URL(path, base);
@@ -57,15 +59,15 @@ assert.ok(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`));
 
 const sitemap = await get("/sitemap.xml");
 assert.equal(sitemap.response.statusCode, 200);
-assert.equal((sitemap.body.match(/<url>/g) || []).length, live.length);
-for (const page of live) assert.ok(sitemap.body.includes(`<loc>${origin}${page.slug ? `/${page.slug}` : "/"}</loc>`));
+assert.equal((sitemap.body.match(/<url>/g) || []).length, indexable.length);
+for (const page of indexable) assert.ok(sitemap.body.includes(`<loc>${origin}${page.slug ? `/${page.slug}` : "/"}</loc>`));
 
 for (const path of ["/llms.txt", "/llms-full.txt"]) {
   const { response, body } = await get(path);
   assert.equal(response.statusCode, 200, `${path} status`);
   assert.match(response.headers["content-type"] || "", /text\/markdown/);
-  for (const page of live) assert.ok(body.includes(`${origin}${page.slug ? `/${page.slug}` : "/"}`), `${path}: ${page.slug}`);
-  if (path === '/llms-full.txt') for (const page of live) for (const link of page.externalLinks ?? []) assert.ok(body.includes(link.url), `LLM sources: ${link.url}`);
+  for (const page of indexable) assert.ok(body.includes(`${origin}${page.slug ? `/${page.slug}` : "/"}`), `${path}: ${page.slug}`);
+  if (path === '/llms-full.txt') for (const page of indexable) for (const link of page.externalLinks ?? []) assert.ok(body.includes(link.url), `LLM sources: ${link.url}`);
 }
 
 const missing = await get("/__seo_smoke_missing__");

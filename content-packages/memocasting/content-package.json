@@ -1,0 +1,1711 @@
+{
+  "schemaVersion": 1,
+  "siteId": "memocasting",
+  "canonicalHost": "memocasting.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "memocasting",
+    "name": "Memocasting",
+    "canonicalHost": "memocasting.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#97452f"
+    },
+    "offer": "Rankų liejimo rinkiniai porai ir šeimai. Prisiminimas, kurį kuriate kartu.",
+    "contact": {
+      "email": "info@pinet.lt",
+      "phone": ""
+    }
+  },
+  "pages": [
+    {
+      "siteId": "memocasting",
+      "type": "home",
+      "slug": "",
+      "title": "Prisiminimas. Jūsų rankomis.",
+      "description": "Rankų liejimo rinkiniai porai ir šeimai. Išsirinkite, su kuo norite sukurti asmenišką prisiminimą.",
+      "intent": "Rankų liejimo rinkiniai porai ir šeimai. Išsirinkite, su kuo norite sukurti asmenišką prisiminimą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys — dovana, kuri kviečia dalyvauti. Medžiagos tampa priemone bendrai veiklai, o liejinys primena žmones ir akimirką, kurią pasirinkote išsaugoti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Du rinkiniai. Aiškus pasirinkimas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros rinkinys kainuoja 32 €. Jame yra vienas alginato pakelis, 1 200 g gipso ir kibiras. Poros rinkinį galite rinktis su baltais dažais už papildomus 3 €. Šeimos rinkinys kainuoja 48 €; jame yra du alginato ir du gipso pakeliai. Tikslūs šeimos medžiagų svoriai dar tikslinami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirma susitarkite dėl akimirkos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuspręskite, kas dalyvaus, kada turėsite laisvo laiko ir kam dovanosite: patį rinkinį ar vėliau sukurtą prisiminimą. Dovanų gidai padės atskirti šiuos pasirinkimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pradėdami perskaitykite instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vandens kiekis, maišymas ir laukimo laikas priklauso nuo konkrečių medžiagų. Instrukcijos puslapyje paaiškiname, ką būtina patikrinti prieš darbą. Neperkelkite kito gamintojo santykių į savo rinkinį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Aiškumas iki apmokėjimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Krepšelyje prekės ir pristatymo suma skaičiuojama serveryje. Ši vietinė parduotuvė skirta bandymui: pristatymo tarifas ir likučiai yra testiniai, tikri mokėjimai dar nepriimami. MB Memocasting tikrą prekybą pradės priėmus mokėjimo, pristatymo ir produkto informacijos patikras."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.535Z",
+      "media": [
+        {
+          "id": "5804afdf-4cb7-4000-ac96-320917b2de6d",
+          "src": "/content-assets/memocasting/5804afdf-4cb7-4000-ac96-320917b2de6d.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "e5177d7e-111f-4da2-acff-bcbed7cc6f40",
+          "src": "/content-assets/memocasting/e5177d7e-111f-4da2-acff-bcbed7cc6f40.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "c7e6a042-7cd9-4930-b79f-b113ce53f502",
+          "src": "/content-assets/memocasting/c7e6a042-7cd9-4930-b79f-b113ce53f502.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "34c54424-af5b-4930-b592-db17df45a7ae",
+          "src": "/content-assets/memocasting/34c54424-af5b-4930-b592-db17df45a7ae.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "e369148e-a851-4b66-8abb-886b134a64b6",
+          "src": "/content-assets/memocasting/e369148e-a851-4b66-8abb-886b134a64b6.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+          "label": "Peržiūrėti rinkinius"
+        },
+        {
+          "targetPageId": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+          "label": "Dovanų gidai"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "Instrukcijos puslapyje"
+        }
+      ],
+      "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
+      "revisionHash": "486b8f7cedefd8d37da4ff3ac35b23016a0d02c099c18009adef106e574772ea",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "486b8f7cedefd8d37da4ff3ac35b23016a0d02c099c18009adef106e574772ea",
+        "approvedAt": "2026-10-11T23:04:05.760Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/liejimo-rinkinys-porai",
+      "title": "Rankų liejimo rinkinys porai",
+      "description": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
+      "intent": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas yra rinkinyje?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vienas alginato pakelis.",
+            "1 200 g gipso.",
+            "Kibiras."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Baltus dažus galima pridėti už 3 €. Tai pasirenkamas poros rinkinio variantas; dažų tūris ir naudojimo instrukcija bus pateikti patvirtinus produkto duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką patikrinti prieš pasirinkimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinys skirtas poros rankų liejinio idėjai. Konkreti poza, rankų dydžiai ir indo talpa turi būti vertinami pagal patvirtintą instrukciją. Nežadame, kad bet kokia rankų padėtis ar dydis tilps."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pakuotė ir pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros rinkinio siuntos svoris — 2 kg, pakuotės matmenys — 20 × 20 × 17 cm. Pristatymo suma parodoma krepšelyje prieš užsakymo išsaugojimą. Vietiniame bandyme naudojamas testinis tarifas; jis nėra viešas komercinis pasiūlymas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Patikrinkite instrukcijos informaciją ir apgalvokite, ar dovanosite rinkinį, ar planuosite bendrą veiklą. Tikras mokėjimas dar neįjungtas."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.540Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukcijos informaciją"
+        },
+        {
+          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+          "label": "dovanosite rinkinį"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "Šeimos rinkinys"
+        }
+      ],
+      "id": "01d74212-2141-4060-8127-a71c42090450",
+      "revisionHash": "45de01443ec77879a44c909724595899f9cd72e6ec6f7660529b1e037f7bd1fd",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "45de01443ec77879a44c909724595899f9cd72e6ec6f7660529b1e037f7bd1fd",
+        "approvedAt": "2026-10-11T23:04:05.765Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/seimos-rinkinys-1",
+      "title": "Rankų liejimo rinkinys šeimai",
+      "description": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
+      "intent": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patvirtinta komplektacija"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Du alginato pakeliai.",
+            "Du gipso pakeliai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tikslūs pakelių svoriai ir šeimos rinkinio indo duomenys dar tikslinami. Suaugusiųjų ir vaikų rankų skaičiaus nenurodome, kol jo nepatvirtina realus rinkinio bandymas ir instrukcija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šeimos veiklą suplanuokite iš anksto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia sutarkite, kas dalyvaus. Patikrinkite konkrečiam rinkiniui taikomą tinkamumą ir rankų padėties ribas. Šeimos pavadinimas savaime nepatvirtina tinkamumo kūdikiams ar bet kokiam dalyvių skaičiui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pakuotė ir pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šeimos rinkinio siuntos svoris — 4 kg, matmenys — 25 × 25 × 20 cm. Kaina — 48 €. Pristatymo suma skaičiuojama atskirai; dabartinis vietinis tarifas testinis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinių palyginimas padės patikrinti žinomus skirtumus. Instrukcijos puslapyje rasite pasiruošimo ribas; tikslūs medžiagų parametrai bus pridėti po patvirtinimo."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.545Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+          "label": "Rinkinių palyginimas"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "Instrukcijos puslapyje"
+        },
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Rinkinys porai"
+        }
+      ],
+      "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
+      "revisionHash": "0eab5e4b039c63adc714208eb33e9add81448bafafa0c00fba712f83b6c5d923",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0eab5e4b039c63adc714208eb33e9add81448bafafa0c00fba712f83b6c5d923",
+        "approvedAt": "2026-10-11T23:04:05.770Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "collections/all",
+      "title": "Išsirinkite, su kuo kursite.",
+      "description": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
+      "intent": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso ir kibiras. Poros variantas su baltais dažais — 35 €. Šeimai: 48 €, du alginato ir du gipso pakeliai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros siunta sveria 2 kg ir yra 20 × 20 × 17 cm. Šeimos siunta sveria 4 kg ir yra 25 × 25 × 20 cm. Siuntos matmenys nėra indo talpos ar tinkamo rankų skaičiaus įrodymas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės pagal žmones ir konkrečiam rinkiniui patvirtintą instrukciją. Šeimos pakelių svoriai, dalyvių ribos ir tikros produktų nuotraukos dar ruošiamos. Kūdikio pėdutės ar alginato papildymas šiuo metu neparduodami."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.550Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Poros rinkinys"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "Šeimos rinkinys"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukciją"
+        }
+      ],
+      "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+      "revisionHash": "e7e77676137d6b23d8095b2883947a1e2545ea2decbe67cd5727f56436bb5111",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e7e77676137d6b23d8095b2883947a1e2545ea2decbe67cd5727f56436bb5111",
+        "approvedAt": "2026-10-11T23:04:05.774Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "pages/instrukcija",
+      "title": "Prieš pradėdami rankų liejimą.",
+      "description": "Ką patikrinti savo rinkinio instrukcijoje prieš atidarant medžiagas. Tikslūs Memocasting parametrai ruošiami.",
+      "intent": "Ką patikrinti savo rinkinio instrukcijoje prieš atidarant medžiagas. Tikslūs Memocasting parametrai ruošiami.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pilna Memocasting instrukcija šiuo metu tikrinama. Kol nėra patvirtinto jūsų rinkinio lapo, nepradėkite maišyti medžiagų ir nesiremkite kito gamintojo receptu. Čia išlaikome seną instrukcijos adresą, tačiau nepateikiame spėjamų santykių ar saugos pažadų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sutikrinkite rinkinį ir jo dokumentus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Raskite rinkinio pavadinimą ir medžiagų pakelių žymėjimą.",
+            "Patikrinkite pakelių būklę, jų galiojimą ir tiekėjo naudojimo informaciją.",
+            "Įsitikinkite, kad instrukcija skirta būtent toms medžiagoms ir tam kiekiui.",
+            "Jeigu trūksta lapo ar informacija neaiški, prieš naudodami kreipkitės pagalbos."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Keturi etapai, kuriuos turi paaiškinti instrukcija"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasiruošimas, formos sudarymas, gipso užpildymas ir liejinio išėmimas bei džiovinimas yra skirtingi darbo etapai. Kiekvienam reikia atskiros medžiagų ir veiksmų informacijos. Vien bendras vaizdo įrašas šių parametrų nepakeičia."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kurių skaičių negalima atspėti?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alginato ir vandens santykio bei temperatūros.",
+            "Maišymo ir darbo laiko.",
+            "Gipso ir vandens santykio.",
+            "Kada galima išimti liejinį ir kada jį galima dažyti.",
+            "Tinkamumo kontaktui su oda, naudojimo amžiaus ribų ir atsargumo priemonių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur gauti pagalbą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalbos puslapyje galite pateikti klausimą apie rinkinio dokumentus. Vietiniame bandyme laiškai nesiunčiami. Patvirtinta instrukcija, video, saugos dokumentai ir realus pagalbos gavimas yra būtini prieš tikrą prekybos paleidimą."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.553Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Pagalbos puslapyje"
+        },
+        {
+          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+          "label": "Palyginti rinkinius"
+        }
+      ],
+      "id": "29842385-77b0-432e-9dea-fc4106ed630f",
+      "revisionHash": "ac8a7691468a117ed6068e7769c3da48b7f47064e702b095fdb0e8b9b3313abc",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ac8a7691468a117ed6068e7769c3da48b7f47064e702b095fdb0e8b9b3313abc",
+        "approvedAt": "2026-10-11T23:04:05.778Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "gidai",
+      "title": "Nuo dovanos idėjos iki liejinio apdailos.",
+      "description": "Rankų liejimo gidai: dovanos pasirinkimas, proceso planavimas, apdaila ir pagalbos klausimai.",
+      "intent": "Rankų liejimo gidai: dovanos pasirinkimas, proceso planavimas, apdaila ir pagalbos klausimai.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovana gali būti pats rinkinys, bendra veikla arba jau sukurtas prisiminimas. Šiuose giduose padedame atskirti šias idėjas ir susitarti dėl to, kas iš tiesų svarbu jūsų žmonėms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojimo giduose atskiriame džiovinimo etapus, apdailos pasirinkimus ir informacijos surinkimą, kai liejinys nepavyko. Čia pateikiami redakciniai planavimo pavyzdžiai. Jie nepakeičia konkretaus rinkinio instrukcijos, saugos dokumentų ar tikrų pristatymo terminų."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.558Z",
+      "media": [],
+      "links": [],
+      "id": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+      "revisionHash": "2b08a3fc9ff7525b82f8578398320e1acf203968982c3b6497176f31c20cc2a1",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2b08a3fc9ff7525b82f8578398320e1acf203968982c3b6497176f31c20cc2a1",
+        "approvedAt": "2026-10-11T23:33:49.898Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dovana-porai",
+      "title": "Dovana porai: rinkinys ar akimirka kartu?",
+      "description": "Trys būdai padovanoti rankų liejimo idėją ir trumpas pasirinkimo lapas, kad dovana tiktų abiem.",
+      "intent": "Trys būdai padovanoti rankų liejimo idėją ir trumpas pasirinkimo lapas, kad dovana tiktų abiem.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys gali tikti porai, kuri nori įsitraukti į bendrą veiklą. Tačiau pirmiausia verta nuspręsti, ką dovanojate: neatidarytą rinkinį, suplanuotą laiką dviese ar rezultatą, kurį dar reikės sukurti. Nuo šio pasirinkimo priklauso dovanos pateikimas ir tai, ką turite sutarti iš anksto."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pats rinkinys: laisvė pasirinkti savo laiką"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis variantas tinka, kai dovanos gavėjai mėgsta patys planuoti veiklas. Galite pridėti asmeninį laišką apie tai, kodėl pasirinkote šią idėją. Neįrašykite liejimo datos, jei dar nežinote abiejų žmonių planų. Rinkinys gali būti pakvietimas, tačiau neturėtų tapti įpareigojimu atlikti veiklą tą patį vakarą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Redakcinis pavyzdys: porai, gyvenančiai skirtinguose miestuose, įteikiate rinkinį su žinute „Pasirinkite jums tinkantį vakarą“. Tokia formuluotė palieka erdvės jų susitarimui. Tai nėra realaus kliento istorija ar pažadas, kiek užtruks procesas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Bendra veikla: susitarimas svarbesnis už staigmeną"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovanojate ir laiką kartu, pasitikrinkite, ar abu žmonės nori dalyvauti. Vienam patinkanti rankdarbių idėja kitam gali būti nepatogi. Paklauskite paprastai: „Ar norėtumėte kartu sukurti rankų liejinį?“ Atsakymas padeda pasirinkti, o staigmena gali likti laiškas, pakuotė ar pati proga."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sutarkite, kas dalyvaus ir kas organizuos pasiruošimą.",
+            "Pasirinkite laiką, kai nereikės skubėti į kitą veiklą.",
+            "Prieš sutardami konkrečią eigą perskaitykite savo rinkinio instrukciją.",
+            "Nežadėkite paruošto liejinio tą pačią dieną, kol nežinote konkretaus džiovinimo laiko."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paruoštas liejinys: jį reikia suplanuoti prieš progą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu per šventę norite įteikti patį liejinį, bendrą veiklą turite atlikti anksčiau. Atskirai įvertinkite pristatymą, pasiruošimą, konkrečių medžiagų darbo laiką, išėmimą ir džiovinimą. Šių laikų nesumaišykite: siuntos gavimas dar nereiškia, kad dovana jau paruošta įteikti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai tikslių parametrų neturite, saugesnis dovanos pateikimo planas yra įteikti patį rinkinį arba pakvietimą veiklai. Tai leidžia išsaugoti dovanos idėją ir nekurti nepagrįsto pažado apie rezultatą iki šventės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpas pasirinkimo lapas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar abu gavėjai norės dalyvauti? Jei nežinote, prieš pirkdami pasitikrinkite.",
+            "Ar norite dovanoti daiktą šiandien, ar bendrą laiką vėliau?",
+            "Ar turite šiam rinkiniui skirtą naudojimo ir saugos informaciją?",
+            "Ar rezultatas būtinas iki konkrečios datos? Jei taip, reikia patvirtinto pristatymo ir proceso laiko.",
+            "Ar gavėjai labiau vertina veiklą, ar iš karto užbaigtą dovaną?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Koks Memocasting pasirinkimas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros rinkinio kaina yra 32 €. Pasirinkus baltus dažus, kaina — 35 €. Patvirtinta bazinė komplektacija: vienas alginato pakelis, 1 200 g gipso ir kibiras. Dažų variantą rinkitės tik supratę jo paskirtį pagal būsimą patvirtintą instrukciją; jis nesuteikia garantijos apie konkretų rezultatą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinio puslapyje rasite žinomus produkto duomenis. Jei vis dar svarstote, ar gavėjai nori kurti, palyginimo gidas padės apsispręsti tarp rinkinio ir paruoštos dovanos. Prieš pačią veiklą grįžkite į instrukcijos puslapį — šis dovanos gidas nepateikia medžiagų maišymo recepto."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.562Z",
+      "media": [
+        {
+          "id": "5804afdf-4cb7-4000-ac96-320917b2de6d",
+          "src": "/content-assets/memocasting/5804afdf-4cb7-4000-ac96-320917b2de6d.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "e5177d7e-111f-4da2-acff-bcbed7cc6f40",
+          "src": "/content-assets/memocasting/e5177d7e-111f-4da2-acff-bcbed7cc6f40.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "c7e6a042-7cd9-4930-b79f-b113ce53f502",
+          "src": "/content-assets/memocasting/c7e6a042-7cd9-4930-b79f-b113ce53f502.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "34c54424-af5b-4930-b592-db17df45a7ae",
+          "src": "/content-assets/memocasting/34c54424-af5b-4930-b592-db17df45a7ae.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "e369148e-a851-4b66-8abb-886b134a64b6",
+          "src": "/content-assets/memocasting/e369148e-a851-4b66-8abb-886b134a64b6.webp",
+          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Rinkinio puslapyje"
+        },
+        {
+          "targetPageId": "61da1023-a13e-49f7-b6be-62cf372f4936",
+          "label": "palyginimo gidas"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukcijos puslapį"
+        }
+      ],
+      "id": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+      "revisionHash": "91047eeb255d2e287049df709414eb303e16f45b61a0cefcd957e62d927ad155",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "91047eeb255d2e287049df709414eb303e16f45b61a0cefcd957e62d927ad155",
+        "approvedAt": "2026-10-11T23:04:05.786Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dovana-vestuviu-metinems",
+      "title": "Dovana vestuvių metinėms: ką įteiksite tą dieną?",
+      "description": "Atskirkite rinkinio įteikimą, bendrą veiklą ir gatavą prisiminimą. Planavimo lapas be spėjamų pristatymo terminų.",
+      "intent": "Atskirkite rinkinio įteikimą, bendrą veiklą ir gatavą prisiminimą. Planavimo lapas be spėjamų pristatymo terminų.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Jei vestuvių metinėms renkatės rankų liejimo idėją, pirmas klausimas turėtų būti ne „ar suspės siunta?“, o „ką noriu įteikti per metines?“. Rinkinys, bendras vakaras ir jau išdžiūvęs liejinys yra trys skirtingi planai. Aiškiai pasirinkę vieną iš jų, lengviau suprasite, kurių datų ir duomenų dar trūksta."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai įteikiate rinkinį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagrindinė priklausomybė yra pristatymas ir pats pasirinkimas. Įteikdami rinkinį galite pridėti laišką apie bendrą akimirką, kurią norėtumėte išsaugoti. Veiklos datą sutarkite kartu; jos nereikia prikabinti prie metinių datos vien todėl, kad tą dieną dovanojate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neatidarytas rinkinys nėra paruoštas liejinys. Jei dovanos gavėjas tikisi iš karto matomo rezultato, paaiškinkite idėją laiške: tai kvietimas sukurti prisiminimą, o ne jau baigta skulptūra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai per metines planuojate veiklą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Be rinkinio gavimo reikia susitarimo dėl dalyvavimo, tinkamos vietos ir konkrečios instrukcijos. Neskirkite vieno universalaus „pusvalandžio“ visam procesui. Medžiagų paruošimas, liejimas ir rezultato džiovinimas turi skirtingus laikus, kuriuos turi pagrįsti jūsų rinkinio dokumentai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Planavimo pavyzdys: per metines dovanojate laišką su dviem jums tinkamais vakarais ir kartu pasirenkate vieną. Tokia dovana vis tiek asmeniška, tačiau nereikalauja skubiai kurti tarp šventinės vakarienės ir kitų planų. Tai redakcinis scenarijus, ne mūsų išbandyto darbo laiko rekomendacija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai norite įteikti liejinį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Planuokite atgal nuo dovanojimo dienos. Atskirai užrašykite: kada gausite rinkinį, kada atliksite veiklą ir iki kada pagal patvirtintą instrukciją liejinys turės išdžiūti. Jei planuojate dažymą, jo sąlygas ir laiką taip pat tikrinkite pagal naudojamus produktus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dovanojimo diena: ką tiksliai įteiksite?",
+            "Rinkinio gavimas: koks terminas iš tikrųjų patvirtintas?",
+            "Bendros veiklos diena: ar abu dalyviai sutinka?",
+            "Džiovinimas ir apdaila: ką nurodo konkrečių medžiagų instrukcija?",
+            "Atsarginis planas: ką įteiksite, jeigu rezultatas iki progos nebus paruoštas?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką daryti, kai terminas neaiškus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Neaiškumo nepaverskite garantija. Pristatymo tarifas dar neįrodo pristatymo datos, o vien parduotuvės užsakymo išsaugojimas nepatvirtina, kad prekė apmokėta ir išsiųsta. Prieš žadėdami dovaną konkrečiai dienai tikrinkite užsakymo būseną ir tikrą siuntimo informaciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Memocasting vietiniame bandyme naudojami testiniai pristatymo duomenys, tikras siuntimo terminas nepatvirtintas. Ši būsena neleidžia pažadėti dovanos gavimo iki metinių. Galite suplanuoti idėją, tačiau komercinį datų pažadą reikės vertinti po realios prekybos paleidimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dovanos prasmė nebūtinai sutampa su kalendoriaus diena"
+        },
+        {
+          "type": "paragraph",
+          "text": "Metinės gali būti diena, kai nusprendžiate sukurti naują prisiminimą. Pats liejimas gali vykti vėliau, abiem patogiu metu. Jei laiko trūksta, laiške įvardykite bendrą veiklą ir palikite galutinę datą susitarimui. Taip dovanojimo dieną turėsite aiškų, sąžiningą pažadą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovanos porai gidas padės pasirinkti, kokį dalyvavimą dovanojate. Rinkinių puslapyje palyginkite patvirtintus produktų duomenis, o instrukciją tikrinkite prieš pradėdami darbą."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.567Z",
+      "media": [
+        {
+          "id": "8ca094b8-5ba0-41a4-b917-fc18f6f581fd",
+          "src": "/content-assets/memocasting/8ca094b8-5ba0-41a4-b917-fc18f6f581fd.webp",
+          "alt": "Tuščias planavimo sąsiuvinis, pieštukas ir dovanų kortelė; redakcinė iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "e779b7c9-61ae-48b0-89e5-7cc0911b3bf6",
+          "src": "/content-assets/memocasting/e779b7c9-61ae-48b0-89e5-7cc0911b3bf6.webp",
+          "alt": "Tuščias planavimo sąsiuvinis, pieštukas ir dovanų kortelė; redakcinė iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "42618e09-ad07-4d09-b845-b2f5421b3524",
+          "src": "/content-assets/memocasting/42618e09-ad07-4d09-b845-b2f5421b3524.webp",
+          "alt": "Tuščias planavimo sąsiuvinis, pieštukas ir dovanų kortelė; redakcinė iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "6646185f-f59e-4afc-8f3b-e70eb9c5863c",
+          "src": "/content-assets/memocasting/6646185f-f59e-4afc-8f3b-e70eb9c5863c.webp",
+          "alt": "Tuščias planavimo sąsiuvinis, pieštukas ir dovanų kortelė; redakcinė iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "b67f8138-3412-4b08-aedc-9fe97a43985b",
+          "src": "/content-assets/memocasting/b67f8138-3412-4b08-aedc-9fe97a43985b.webp",
+          "alt": "Tuščias planavimo sąsiuvinis, pieštukas ir dovanų kortelė; redakcinė iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+          "label": "Dovanos porai gidas"
+        },
+        {
+          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+          "label": "Rinkinių puslapyje"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukciją"
+        },
+        {
+          "targetPageId": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
+          "label": "Pristatymo informacija"
+        }
+      ],
+      "id": "65534355-5b66-42be-ba22-23060c6a0f2e",
+      "revisionHash": "e5fe1e3aa2d3c738004feadd73e6322382812016849d579bf7ff363171306f38",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e5fe1e3aa2d3c738004feadd73e6322382812016849d579bf7ff363171306f38",
+        "approvedAt": "2026-10-11T23:04:05.791Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/ranku-liejimo-rinkinys-ar-paruosta-dovana",
+      "title": "Rankų liejimo rinkinys ar paruošta dovana?",
+      "description": "Sprendimas pagal gavėjų norą dalyvauti, laiką ir lūkestį dėl rezultato — su praktiniais pasirinkimo pavyzdžiais.",
+      "intent": "Sprendimas pagal gavėjų norą dalyvauti, laiką ir lūkestį dėl rezultato — su praktiniais pasirinkimo pavyzdžiais.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rinkitės rankų liejimo rinkinį tada, kai bendras kūrimas yra dovanos dalis ir gavėjai nori dalyvauti. Paruošta dovana gali būti tinkamesnė, kai žmogus tikisi iš karto naudojamo daikto, nenori rankdarbių arba iki progos neliko laiko veiklai. Tai pasirinkimas pagal gavėjų poreikį, o ne vien pagal dovanos išskirtinumą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką dovanojate: dalyvavimą ar baigtą daiktą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinys palieka dalį darbo gavėjui. Vieniems tai ir yra maloniausia dovanos dalis; kitiems papildomas pasiruošimas gali būti našta. Prieš pirkdami pasitikrinkite, ar žmogui patinka tokios veiklos. Net graži liejinio nuotrauka nepasako, ar gavėjas norės pats jį kurti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paruoštos dovanos vertę galite matyti iš karto. Su rinkiniu vertinate ir būsimą patirtį: dalyvavimą, bendrą laiką, procesą ir vėlesnį rezultatą. Jei norite būtent šios patirties, pasirinkimas gali būti asmeniškesnis. Tačiau nenorintis dalyvauti žmogus neprivalo vertinti jos taip pat."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Keturi sprendimo kriterijai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dalyvavimas. Ar visi reikalingi žmonės nori ir gali dalyvauti?",
+            "Laikas. Ar galite susitarti dėl veiklos, pasiruošimo ir džiovinimo atskirai nuo progos?",
+            "Informacija. Ar turite konkrečių medžiagų instrukciją, tinkamumo ir saugos duomenis?",
+            "Lūkestis. Ar gavėjui svarbiau procesas, ar garantuotai baigtas daiktas įteikimo metu?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai rinkinys gali tikti geriau"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įsivaizduokite porą, kuri pati ieško bendro vakaro idėjos ir nori sukurti namuose laikomą prisiminimą. Jiems rinkinys gali būti pasirinkimas, jeigu jie supranta proceso ribas ir turi patvirtintą instrukciją. Toks pavyzdys remiasi jų noru dalyvauti, o ne pažadu, kad bet kuri pora pasieks vienodą rezultatą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovanodami rinkinį neprivalote iš anksto nustatyti rankų pozos ar darbų datos. Pasiūlykite idėją ir palikite žmonėms pasirinkimą. Instrukcijos reikalavimai ir produkto talpa vėliau padės nuspręsti, kaip galima ją įgyvendinti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai paruošta dovana gali tikti geriau"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu gavėjas nenori maišyti medžiagų, negali skirti laiko ar norite įteikti gatavą daiktą jau rytoj, rinkinys gali nesutapti su jo lūkesčiu. Tokiu atveju verta rinktis kitą dovanos formatą. Šiame puslapyje neparduodame paruoštų skulptūrų ir neapsimetame teikiantys individualaus liejimo paslaugą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dar vienas klausimas — dalyvių prieinamumas. Jei prisiminimui reikalingi žmonės gyvena toli ir artimiausiu metu nesusitiks, rinkinys gali laukti ilgiau, nei tikitės. Galite dovanoti pakvietimą ateities veiklai, bet aiškiai jį įvardykite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip palyginti kainą sąžiningai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Memocasting poros rinkinys kainuoja 32 €, su baltais dažais — 35 €, šeimos — 48 €. Prie palyginimo pridėkite atskirai parodytą pristatymo sumą. Negalime palyginti su neįvardytos paruoštos dovanos kaina ar apskaičiuoti jūsų laiko vertės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kainų skirtumas nėra vienintelis kriterijus. Patikrinkite, ką iš tikrųjų gaunate ir kokią informaciją turi pateikti pardavėjas. Pavyzdžiui, kito gamintojo CreativeDeco instrukcijoje aprašyti jo rinkiniui skirti medžiagų kiekiai ir etapai; šių parametrų negalima tiesiog perkelti į Memocasting rinkinį. Konkurento dokumentas čia padeda suprasti, kodėl svarbi konkreti instrukcija, o ne nustato mūsų medžiagų receptą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų sprendimas vienu sakiniu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užbaikite sakinį: „Dovanoju šį rinkinį, nes norime kartu…“ Jei atsakymas aiškus ir abi pusės nori dalyvauti, turite gerą pagrindą vertinti konkretų produktą. Jei sakinį tenka baigti „nes nežinau, ką dar padovanoti“, pirmiausia išsiaiškinkite gavėjo lūkestį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinių palyginime rasite žinomą komplektaciją. Dovanos porai gidas padės pasirinkti pateikimą, o planavimo gidas — atskirti dovanojimo ir būsimos veiklos datas."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.571Z",
+      "media": [
+        {
+          "id": "eb1d5ffe-d4a5-43d8-a819-610caf75d2ee",
+          "src": "/content-assets/memocasting/eb1d5ffe-d4a5-43d8-a819-610caf75d2ee.webp",
+          "alt": "Atvira kūrybos priemonių dėžutė ir supakuota dovana; redakcinė palyginimo iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "bf054f02-25ab-4019-8846-f8f2516eff2e",
+          "src": "/content-assets/memocasting/bf054f02-25ab-4019-8846-f8f2516eff2e.webp",
+          "alt": "Atvira kūrybos priemonių dėžutė ir supakuota dovana; redakcinė palyginimo iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "dabac9e6-9e15-4b91-a89a-cf4fe835f8f4",
+          "src": "/content-assets/memocasting/dabac9e6-9e15-4b91-a89a-cf4fe835f8f4.webp",
+          "alt": "Atvira kūrybos priemonių dėžutė ir supakuota dovana; redakcinė palyginimo iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "21e9b609-adb9-48fa-b2de-9ca1e60997a0",
+          "src": "/content-assets/memocasting/21e9b609-adb9-48fa-b2de-9ca1e60997a0.webp",
+          "alt": "Atvira kūrybos priemonių dėžutė ir supakuota dovana; redakcinė palyginimo iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        },
+        {
+          "id": "7797b71c-6d90-42d2-8249-111f25f50859",
+          "src": "/content-assets/memocasting/7797b71c-6d90-42d2-8249-111f25f50859.webp",
+          "alt": "Atvira kūrybos priemonių dėžutė ir supakuota dovana; redakcinė palyginimo iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
+          "label": "Rinkinių palyginime"
+        },
+        {
+          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+          "label": "Dovanos porai gidas"
+        },
+        {
+          "targetPageId": "65534355-5b66-42be-ba22-23060c6a0f2e",
+          "label": "planavimo gidas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://creativedeco.pl/blog/zestaw-do-odlewu-dloni-jak-uzywac/",
+          "label": "CreativeDeco instrukcijoje",
+          "reason": "Patikrinta 2026-10-12. Šaltinis aprašo kito gamintojo rinkinį; naudojamas konkrečios instrukcijos poreikiui paaiškinti, ne Memocasting santykiams, laikui ar saugai nustatyti."
+        }
+      ],
+      "id": "61da1023-a13e-49f7-b6be-62cf372f4936",
+      "revisionHash": "2757ba3e07fbcc02ca0bc57c2924348701b4c246d79fd029cf0be1d756344f28",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2757ba3e07fbcc02ca0bc57c2924348701b4c246d79fd029cf0be1d756344f28",
+        "approvedAt": "2026-10-11T23:04:05.796Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "apie-projekta",
+      "title": "Apie Memocasting",
+      "description": "Rankų liejimo rinkinių idėja ir už ją atsakinga MB Memocasting.",
+      "intent": "Rankų liejimo rinkinių idėja ir už ją atsakinga MB Memocasting.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Memocasting pasiūlymą sudaro rankų liejimo rinkinys porai ir rinkinys šeimai. Operatorius — MB Memocasting. Savininko pateiktais duomenimis įmonė nėra PVM mokėtoja."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinis projektas atkuria parduotuvės pasirinkimo ir užsakymo kelią. Tikra prekyba dar neaktyvuota. Įmonės kodas, adresas, pilna produkto informacija ir pagalbos gavimo patikra bus pateikti prieš paleidimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Redakcija rengia pasirinkimo ir dovanos planavimo gidus. Medžiagų saugos, amžiaus ribų ar techninių instrukcijų nepakeičia redakcinės idėjos."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.578Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "378cd675-fc86-4823-ab5c-4ff0a77e0bd9",
+          "label": "Redakcija"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Pagalba"
+        }
+      ],
+      "id": "457cc2a3-775e-421a-8869-341e1eef359d",
+      "revisionHash": "616bfaa2f2aa0f762dd17d3ab2060b4b8db5687c234f4879c5f12071f15d5847",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "616bfaa2f2aa0f762dd17d3ab2060b4b8db5687c234f4879c5f12071f15d5847",
+        "approvedAt": "2026-10-11T23:04:05.803Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "redakcija",
+      "title": "Memocasting redakcija",
+      "description": "Kas atsako už gidų turinį, kaip tikriname teiginius ir atskiriame iliustracijas nuo produkto nuotraukų.",
+      "intent": "Kas atsako už gidų turinį, kaip tikriname teiginius ir atskiriame iliustracijas nuo produkto nuotraukų.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Už šios svetainės turinį atsako MB Memocasting. Gidai rengiami pasitelkiant dirbtinį intelektą ir peržiūrint visą tekstą prieš patvirtinant konkrečią versiją. Nenurodome išgalvoto eksperto, asmeninės patirties ar neegzistuojančių klientų istorijų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Faktai ir planavimo pavyzdžiai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Produkto kainos ir žinoma komplektacija remiasi savininko pateiktais duomenimis. Medžiagų parametrai turi būti patvirtinti tiekėjo dokumentais ir realiu produkto bandymu. Dovanų scenarijai yra redakciniai pavyzdžiai, ne klientų atsiliepimai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vaizdų kilmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Teminės gidų iliustracijos gali būti sukurtos dirbtiniu intelektu. Jos nevaizduoja realaus Memocasting rinkinio ar kliento rezultato. Tikros produkto ir kliento nuotraukos naudojamos tik patikrinus jų kilmę bei naudojimo teisę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pataisymai ir datos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Giduose rodome patvirtintos versijos prieinamumo ir peržiūros datas. Vietinio paketo datos nėra ankstesnio gyvo svetainės paleidimo įrodymas. Apie netikslumą galite pranešti pagalbos puslapyje; šiuo metu jo laiškų pristatymas dar nepriimtas."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.584Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "pagalbos puslapyje"
+        },
+        {
+          "targetPageId": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+          "label": "Gidai"
+        }
+      ],
+      "id": "378cd675-fc86-4823-ab5c-4ff0a77e0bd9",
+      "revisionHash": "003c5c6252e254690869d11ff7ba080c54ae78d4c12bfee254d8050666984342",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "003c5c6252e254690869d11ff7ba080c54ae78d4c12bfee254d8050666984342",
+        "approvedAt": "2026-10-11T23:04:05.807Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "kontaktai",
+      "title": "Pagalba prieš ir po pasirinkimo",
+      "description": "Pateikite klausimą apie rinkinį, instrukciją ar užsakymo būseną.",
+      "intent": "Pateikite klausimą apie rinkinį, instrukciją ar užsakymo būseną.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šioje vietinėje peržiūroje formos duomenys saugomi testinėje aplinkoje, laiškų pristatymas išjungtas. Naudokite tik testinius kontaktus. Patvirtintas Memocasting pagalbos adresas, rekvizitai ir atsakymo gavimo patikra ruošiami prieš tikrą paleidimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Klausime nurodykite rinkinio pavadinimą, kokia informacija neaiški ir, jei reikia, užsakymo numerį. Nesiųskite mokėjimo kortelės duomenų, prisijungimo slaptažodžių ar prieigos žetonų. Nuotraukų įkėlimas šioje formoje nepalaikomas."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.589Z",
+      "media": [],
+      "links": [],
+      "id": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+      "revisionHash": "ce4f45ac1e8f1350676ec796c702457fda3d3ac8c5edc2a6966121a1d8bd1459",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ce4f45ac1e8f1350676ec796c702457fda3d3ac8c5edc2a6966121a1d8bd1459",
+        "approvedAt": "2026-10-11T23:04:05.810Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "pristatymas",
+      "title": "Pristatymo informacija",
+      "description": "Kada parodoma pristatymo suma ir kas dar turi būti patvirtinta prieš tikrą siuntimą.",
+      "intent": "Kada parodoma pristatymo suma ir kas dar turi būti patvirtinta prieš tikrą siuntimą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Vietinio bandymo krepšelyje pristatymo suma gaunama iš prekybos serverio. Testinis kurjerio tarifas nėra sutartas komercinis tarifas ar realios pristatymo datos pažadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros siunta: 2 kg, 20 × 20 × 17 cm. Šeimos siunta: 4 kg, 25 × 25 × 20 cm. Šie savininko duomenys skirti bazinių rinkinių pakuotėms; galutinės siuntos su papildomais pasirinkimais duomenys turi būti patikrinti atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tikras vežėjo paslaugų sąrašas, siuntimo adresas, terminai ir galutinės rinkų kainos dar nepriimti. LT, PL, LV ir EE yra planuojamos rinkos, tačiau vietinis checkout šiuo metu veikia tik su LT testiniais duomenimis."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.594Z",
+      "media": [],
+      "links": [],
+      "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
+      "revisionHash": "81c2f6d61af586de54d575b188911358bc62692034c75f129e450ee0a5bce5db",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "81c2f6d61af586de54d575b188911358bc62692034c75f129e450ee0a5bce5db",
+        "approvedAt": "2026-10-11T23:04:05.815Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "grazinimas",
+      "title": "Užsakymo atsisakymas ir klausimai",
+      "description": "Vietinio atsisakymo prašymo ir tikros grąžinimo procedūros skirtumas.",
+      "intent": "Vietinio atsisakymo prašymo ir tikros grąžinimo procedūros skirtumas.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Išsaugoję vietinį užsakymą krepšelio puslapyje galite pateikti atsisakymo prašymą. Serveris jį patvariai įrašo; tai savaime nepatvirtina pinigų grąžinimo. Tikri mokėjimai šiame bandyme nepriimami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tikros prekybos grąžinimo adresas, pranešimo kanalas ir pilnos sąlygos dar ruošiami. Kol jie nepriimti, šis puslapis nėra galutinė e. parduotuvės grąžinimo politika. Jei klausimas susijęs su nepavykusiu liejimu, nurodykite rinkinio bei medžiagos duomenis ir proceso etapą; kliento kaltės nenustatome iš vieno sakinio."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.599Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Pateikti klausimą"
+        }
+      ],
+      "id": "53ac4b89-8168-4762-887f-438c0b5aba21",
+      "revisionHash": "605f61af24280ac70d5a67d2ce8a6e8c74731e39511727d50ef44933ea566052",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "605f61af24280ac70d5a67d2ce8a6e8c74731e39511727d50ef44933ea566052",
+        "approvedAt": "2026-10-11T23:04:05.820Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "privatumas",
+      "title": "Vietinio bandymo privatumo informacija",
+      "description": "Kokie testiniai duomenys naudojami krepšelyje, užsakyme ir pagalbos formoje.",
+      "intent": "Kokie testiniai duomenys naudojami krepšelyje, užsakyme ir pagalbos formoje.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ši peržiūra skirta vietiniam bandymui. Naudokite tik testinius vardus, adresus ir kontaktus. Operatorius — MB Memocasting; galutiniai rekvizitai ir tikra duomenų tvarkymo tvarka dar ruošiami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Krepšelis ir užsakymo prieiga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Krepšelio prekės saugomos naršyklės skirtuko sessionStorage. Prieš siunčiant užsakymą šiame skirtuke išsaugoma užklausos kopija su gavėjo duomenimis, pakartojimo raktu ir prieigos žetonu. Tai leidžia pakartoti tą patį užsakymą negavus pirmo atsakymo. Sąsaja tokią prieigą naudoja iki 24 valandų; uždarius arba išvalius skirtuką ji gali būti prarasta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakymo serveris saugo gavėjo vardą, el. paštą, telefoną, adresą, prekes ir pristatymo pasirinkimą izoliuotoje vietinėje duomenų bazėje. Prieigos žetono reikšmės serveris nesaugo — tik jos hash. Žetonas nesiunčiamas URL ar analitikai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagalbos forma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vardas, el. paštas ir klausimas naudojami užklausai saugoti ir jos atsakymui parengti. Vietiniame bandyme laiškai nesiunčiami. Formos pateikimas nėra rinkodaros prenumerata."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tikro paleidimo sąlygos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš paleidimą turi būti patvirtinti tikri duomenų gavėjai, saugojimo terminai, duomenų subjektų prašymų vykdymas ir naudojamų paslaugų tvarka. Vietinė peržiūra nepatvirtina šių operacinių procesų. Produkcijos duomenų čia neįveskite."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.603Z",
+      "media": [],
+      "links": [],
+      "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
+      "revisionHash": "b3c72867cb02a91ed586d45b5c3b58a337891c2249db0bb2900430b6f739d4fa",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b3c72867cb02a91ed586d45b5c3b58a337891c2249db0bb2900430b6f739d4fa",
+        "approvedAt": "2026-10-11T23:04:05.823Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "naudojimo-salygos",
+      "title": "Vietinio bandymo sąlygos",
+      "description": "Kaip vertinti testinį užsakymą ir kokios prekybos sąlygos dar neaktyvuotos.",
+      "intent": "Kaip vertinti testinį užsakymą ir kokios prekybos sąlygos dar neaktyvuotos.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ši vietinė parduotuvė skirta pirkimo kelio patikrai. Kainos 32 € porai, 35 € porai su baltais dažais ir 48 € šeimai yra savininko patvirtintos produktų kainos; likučiai ir pristatymo tarifas yra testiniai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakymo išsaugojimas sukuria testinį įrašą. Tai nėra tikras prekių pardavimas, apmokėjimo patvirtinimas ar siuntimo įsipareigojimas. Mokėjimo ir vežėjo integracijos dar neprijungtos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Galutinės prekybos sąlygos bus pateiktos prieš produkcijos paleidimą kartu su rekvizitais, vežėjo informacija, grąžinimo procedūra ir patvirtinta produkto instrukcija. Šis tekstas nesuteikia leidimo pradėti gyvą prekybą."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.609Z",
+      "media": [],
+      "links": [],
+      "id": "6db61a25-2056-4a41-a97e-c2bc1794f817",
+      "revisionHash": "c34b4ae65b138015c8459f30ccc719326e2f9fff056c464d8d732efca707bca8",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c34b4ae65b138015c8459f30ccc719326e2f9fff056c464d8d732efca707bca8",
+        "approvedAt": "2026-10-11T23:04:05.827Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "cart",
+      "title": "Jūsų krepšelis",
+      "description": "Patikrinkite pasirinkimą ir serverio apskaičiuotą sumą prieš išsaugodami vietinį užsakymą.",
+      "intent": "Patikrinkite pasirinkimą ir serverio apskaičiuotą sumą prieš išsaugodami vietinį užsakymą.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Prekių ir pristatymo kainas skaičiuoja prekybos serveris. Prieš mokėjimą užsakymas išsaugomas patvariai; jo pakartojimas naudoja tą patį raktą ir prieigos žetoną."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.614Z",
+      "media": [],
+      "links": [],
+      "id": "684d6a6f-ede6-4bde-8a40-234b242d931a",
+      "revisionHash": "279b9da7e63ffddb2a56176cdb0cce01e0bae2899ec83206a6dd2b0678c32dcc",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "279b9da7e63ffddb2a56176cdb0cce01e0bae2899ec83206a6dd2b0678c32dcc",
+        "approvedAt": "2026-10-11T23:04:05.831Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dziovinimas-ir-isemimas",
+      "title": "Kada išimti ir dažyti rankų liejinį? Atskirkite etapus.",
+      "description": "Išėmimas iš formos, džiovinimas ir pasiruošimas dangai nėra tas pats. Proceso užrašų lapas be universalaus laukimo termino.",
+      "intent": "Suprasti atskirus proceso etapus ir planuoti dovaną pagal savo medžiagų dokumentus.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Liejinio išėmimo ir dažymo laikas nėra vienas bendras laukimo terminas. Instrukcijoje atskirai ieškokite, kada galima išimti liejinį, kokios yra džiovinimo sąlygos ir kada pagrindas tinkamas pasirinktai dangai. Patvirtintų Memocasting laikų dar neturime, todėl čia nepateikiame universalaus valandų ar dienų skaičiaus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys atskiri sprendimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Išėmimas: kada ir kokiu būdu jūsų medžiagų instrukcija leidžia atskirti formą nuo liejinio?",
+            "Džiovinimas: kokios sąlygos ir kriterijai taikomi išimtam liejiniui?",
+            "Dengimas: kada jūsų pasirinkti dažai ar kita danga gali būti naudojami ant šio pagrindo?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie klausimai padeda tiksliai perskaityti instrukciją prieš pereinant prie kito darbo etapo. Jei joje paaiškintas vien išėmimas, tai dar nėra atsakymas apie dažymą. Taip pat nepakanka bendro teiginio, kad liejinys „jau sukietėjo“: reikia konkretaus kito darbo etapo sąlygų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Proceso užrašų lapas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Viename lape pasižymėkite rinkinio pavadinimą, medžiagų žymėjimą, instrukcijos versiją ir darbo pradžios datą. Toliau kiekvienam etapui palikite tris laukus: dokumente nurodyta sąlyga, faktinis atlikimo laikas ir pastebėjimas. Trūkstamą informaciją žymėkite „nežinoma“, o ne užpildykite kito gamintojo skaičiumi."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Formos užpildymas: kada baigtas ir pagal kokią instrukciją atliktas?",
+            "Išėmimas: kokia sąlyga nurodyta ir kada išimta?",
+            "Džiovinimas: kokia aplinka nurodyta dokumente ir kokia buvo faktiškai?",
+            "Apdaila: koks dangos produktas pasirinktas ir kokie jo pagrindo reikalavimai?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kodėl internetinis terminas netampa jūsų instrukcija?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Edinburgh DUK pateikia džiovinimo ir dengimo rekomendacijas savo rinkiniui. Tai konkretus kito produkto pavyzdys, o ne Memocasting parametro šaltinis. Mūsų rinkinio gipso dokumentai ir numatytos dangos informacija turi būti sutikrinti atskirai. Todėl šiame gide jų laukimo termino neperkeliame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai liejinį norite įteikti per šventę"
+        },
+        {
+          "type": "paragraph",
+          "text": "Planavimo pavyzdys: turite metinių datą, bet nežinote, kada bus galima dažyti. Tokiu atveju patvirtinkite trūkstamą etapą prieš žadėdami gatavą dovaną. Jei aiškaus grafiko nėra, galite įteikti patį rinkinį ar kvietimą veiklai. Tai leidžia nepainioti siuntos gavimo, liejimo dienos ir paruošto prisiminimo įteikimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nepridėkite savo spartinimo būdo vien tam, kad tilptumėte į šventės grafiką. Jei instrukcija neatsako apie pasirinktas sąlygas, kreipkitės su medžiagos pavadinimu ir tiksliai įvardytu etapu. Pagalbos aprašymo gidas padės surinkti informaciją, o apdailos gidas — apsispręsti dėl norimos išvaizdos."
+        }
+      ],
+      "publishAt": "2026-10-11T23:36:34.899Z",
+      "media": [
+        {
+          "id": "9ef7fc4b-f6c6-4fbc-9b17-5da4710f30c4",
+          "src": "/content-assets/memocasting/9ef7fc4b-f6c6-4fbc-9b17-5da4710f30c4.webp",
+          "alt": "Trys tuščios kortelės, laikrodis ir pieštukas; redakcinė proceso planavimo iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "a7a257d9-232a-42f7-a805-db1bb78a0028",
+          "src": "/content-assets/memocasting/a7a257d9-232a-42f7-a805-db1bb78a0028.webp",
+          "alt": "Trys tuščios kortelės, laikrodis ir pieštukas; redakcinė proceso planavimo iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "d0617ab7-91c4-4a73-9264-3b0f8a277039",
+          "src": "/content-assets/memocasting/d0617ab7-91c4-4a73-9264-3b0f8a277039.webp",
+          "alt": "Trys tuščios kortelės, laikrodis ir pieštukas; redakcinė proceso planavimo iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "5382bedb-6f32-4e91-8c7f-ab5dd2f64df2",
+          "src": "/content-assets/memocasting/5382bedb-6f32-4e91-8c7f-ab5dd2f64df2.webp",
+          "alt": "Trys tuščios kortelės, laikrodis ir pieštukas; redakcinė proceso planavimo iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "013a4bcf-dcfc-40c2-98a7-a1865b85eca1",
+          "src": "/content-assets/memocasting/013a4bcf-dcfc-40c2-98a7-a1865b85eca1.webp",
+          "alt": "Trys tuščios kortelės, laikrodis ir pieštukas; redakcinė proceso planavimo iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+          "label": "Visi gidai"
+        },
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukciją"
+        },
+        {
+          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
+          "label": "Pagalbos aprašymo gidas"
+        },
+        {
+          "targetPageId": "49eb9c9a-d1b3-437c-8198-cdd582634ed5",
+          "label": "apdailos gidas"
+        },
+        {
+          "targetPageId": "65534355-5b66-42be-ba22-23060c6a0f2e",
+          "label": "Metinių dovanos planavimas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://edinburghcasting.com/faqs/",
+          "label": "Edinburgh DUK",
+          "reason": "Patikrinta 2026-10-12. Peržiūrėtas atsakymas apie savo liejinio dažymą. Jų džiovinimo terminai, pridėtas sandariklis ir saugos teiginiai netaikomi Memo; naudojama tik konkretaus produkto instrukcijos pavyzdžiui."
+        }
+      ],
+      "id": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
+      "revisionHash": "b74bb4ef58634b3c24b5049019167b88729ea9b83948a1b7de8c1306ca33f8c0",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b74bb4ef58634b3c24b5049019167b88729ea9b83948a1b7de8c1306ca33f8c0",
+        "approvedAt": "2026-10-11T23:36:52.376Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/liejinio-dazymas-ir-prieziura",
+      "title": "Rankų liejinio apdaila: kokio rezultato norite?",
+      "description": "Natūrali išvaizda, dažytas paviršius ar profesionali apdaila: pasirinkimo lapas ir ką patikrinti prieš dažymą.",
+      "intent": "Atskirti apdailos pasirinkimus ir pasiruošti dažymui, neperimant kito rinkinio recepto.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Prieš dažydami rankų liejinį pasirinkite, ką norite pakeisti: spalvą, paviršiaus išvaizdą ar patį liejinį. Tai skirtingi darbai. Dažymas nėra trūkstamo piršto atkūrimas, o bronzos spalvos danga nėra iš bronzos pagaminta skulptūra. Šis gidas padės pasirinkti apdailos tikslą; konkrečią darbų eigą turi patvirtinti jūsų gipso ir dangos instrukcijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys pasirinkimai, kurių nereikia suplakti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Palikti liejinį be papildomos spalvos: pirmiausia įvertinkite jo išvaizdą po instrukcijoje nurodyto džiovinimo.",
+            "Keisti spalvą: rinkitės pagal norimą išvaizdą ir konkrečiam pagrindui tinkamą dangą.",
+            "Kreiptis dėl profesionalaus darbo: atskirai aptarkite paviršiaus apdailą, pažeidimų taisymą ar naujo liejinio gamybą."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Edinburgh apdailos puslapyje dažymas ir liejimas iš tikros bronzos pristatomi kaip atskiros paslaugos. Šis skirtumas naudingas ir renkantis dovanos išvaizdą: spalvos pavadinimas nepasako, iš kokios medžiagos pagamintas daiktas. Memocasting tokių profesionalių paslaugų šiuo metu nesiūlo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Apdailos pasirinkimo lapas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite vieną sakinį: „Noriu, kad liejinys būtų…“ Toliau nurodykite norimą spalvą, matinį ar kitokį vaizdą ir vietą, kur jį planuojate laikyti. Jei dovanojate kitam žmogui, prieš negrįžtamai keisdami išvaizdą pasitarkite su gavėju. Pavyzdžiui, prie šviesios lentynos planuojamas baltas liejinys ir metalo spalvos akcentas yra skirtingi estetiniai pasirinkimai, o ne skirtingi kokybės lygiai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš atidarydami dažus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identifikuokite gipsą ir dažus: pavadinimą, gamintoją bei naudojimo informaciją.",
+            "Sutikrinkite, ar danga skirta jūsų pagrindui ir ar reikia atskiro paruošimo produkto.",
+            "Instrukcijoje raskite pagrindo džiovinimo, sluoksnių ir tolesnio naudojimo sąlygas.",
+            "Jei norite bandomojo dažymo, susitarkite dėl tinkamo atskiro bandinio; pats prisiminimas neturėtų tapti neapgalvotu eksperimentu."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Balti dažai, kuriuos galima pasirinkti prie Memocasting poros rinkinio už 3 €, nėra patvirtinimas, kad rinkinyje yra gruntas, lakas ar visos kitam gamintojui reikalingos priemonės. Jų tūris ir naudojimo dokumentai dar tikslinami. Kol jie nepateikti, nepradėkite darbo pagal kito rinkinio instrukciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Priežiūrą susiekite su pasirinkta danga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Baigę išsaugokite naudotų medžiagų pavadinimus ir instrukcijas. Juose ieškokite valymo, kontakto su vandeniu ir naudojimo aplinkos ribų. Iš vien balto ar blizgaus paviršiaus negalima spręsti, kad liejinį galima plauti, laikyti lauke ar valyti konkrečia priemone. Jei dovanojate, perduokite šią informaciją kartu su liejiniu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Džiovinimo ir išėmimo gidas padės atskirti proceso etapus. Jei matote pažeidimą, pirmiausia paruoškite pagalbos aprašymą ir išsiaiškinkite tinkamą veiksmą. Dažai neturėtų slėpti problemos, kurios dar neįvertinote."
+        }
+      ],
+      "publishAt": "2026-10-11T23:36:34.890Z",
+      "media": [
+        {
+          "id": "9e1b58e5-a029-47c3-bf3b-4f45659a25ea",
+          "src": "/content-assets/memocasting/9e1b58e5-a029-47c3-bf3b-4f45659a25ea.webp",
+          "alt": "Baltas ir bronzos spalvos keraminiai pavyzdžiai su teptuku; redakcinė apdailos pasirinkimo iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "d469c236-5703-4ce2-b834-33e61e8d3227",
+          "src": "/content-assets/memocasting/d469c236-5703-4ce2-b834-33e61e8d3227.webp",
+          "alt": "Baltas ir bronzos spalvos keraminiai pavyzdžiai su teptuku; redakcinė apdailos pasirinkimo iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "9605aa23-9ed9-462a-9564-fe3febc4f9dd",
+          "src": "/content-assets/memocasting/9605aa23-9ed9-462a-9564-fe3febc4f9dd.webp",
+          "alt": "Baltas ir bronzos spalvos keraminiai pavyzdžiai su teptuku; redakcinė apdailos pasirinkimo iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "aa379d43-986d-4d88-8fc9-a1a1548e8394",
+          "src": "/content-assets/memocasting/aa379d43-986d-4d88-8fc9-a1a1548e8394.webp",
+          "alt": "Baltas ir bronzos spalvos keraminiai pavyzdžiai su teptuku; redakcinė apdailos pasirinkimo iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "ccccf85d-2e38-43d7-a968-c0bf9bc7dc6e",
+          "src": "/content-assets/memocasting/ccccf85d-2e38-43d7-a968-c0bf9bc7dc6e.webp",
+          "alt": "Baltas ir bronzos spalvos keraminiai pavyzdžiai su teptuku; redakcinė apdailos pasirinkimo iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+          "label": "Visi gidai"
+        },
+        {
+          "targetPageId": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
+          "label": "Džiovinimo ir išėmimo gidas"
+        },
+        {
+          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
+          "label": "pagalbos aprašymą"
+        },
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Memocasting poros rinkinio"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://edinburghcasting.com/professional-finishing-touches/",
+          "label": "Edinburgh apdailos puslapyje",
+          "reason": "Patikrinta 2026-10-12. Pagrindžia tik jų dažymo ir tikro bronzos liejimo paslaugų atskyrimą; kainos, rezultatai, nuotraukos ir jų remonto pažadai neperimti."
+        }
+      ],
+      "id": "49eb9c9a-d1b3-437c-8198-cdd582634ed5",
+      "revisionHash": "fe3261fd442f6a4a5f3d67e3ddaed49a36ff423e84dfe4a908bb8517b90b4d64",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "fe3261fd442f6a4a5f3d67e3ddaed49a36ff423e84dfe4a908bb8517b90b4d64",
+        "approvedAt": "2026-10-11T23:36:52.387Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "pagalba",
+      "title": "Nepavyko rankų liejinys: kaip tiksliai aprašyti problemą?",
+      "description": "Atskirkite pastebėtą požymį nuo spėjamos priežasties. Proceso, medžiagų ir nuotraukų aprašas prasmingam pagalbos klausimui.",
+      "intent": "Paruošti konkretų pagalbos klausimą, nepriimant nepagrįstos diagnozės ar taisymo recepto.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Jei rankų liejinys atrodo kitaip, nei tikėjotės, pirmiausia užrašykite, ką matote ir kuriame etape tai pastebėjote. „Matoma skylutė“ yra pastebėjimas; „blogas gipsas“ jau yra išvada, kuriai vien nuotraukos nepakanka. Tikslus aprašymas padeda aiškintis problemą nepaskiriant kaltės nei naudotojui, nei medžiagai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pirmas klausimas: kuriame etape?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Medžiagos paruošimas: mišinys pasikeitė dar prieš formuojant.",
+            "Formos sudarymas: problema pastebėta laikant ar ištraukiant rankas.",
+            "Užpildymas: problema pastebėta pilant ar laukiant pagal instrukciją.",
+            "Išėmimas ir džiovinimas: požymis matomas išimtame liejinyje.",
+            "Apdaila: pokytis atsirado naudojant dažus ar kitą dangą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Požymis nėra diagnozė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Edinburgh klaidų straipsnyje aptariamas greitas formavimo mišinio stingimas, paviršiaus iškilimai, trūkstami pirštų galiukai, ertmės ir tamsios dėmės. Tai naudingi stebėjimo pavadinimai, tačiau jų paaiškinimai ir taisymo būdai nėra mūsų rinkinio patvirtinta diagnostika."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aprašykite vietą, dydį ir tai, kada požymį pamatėte. Vietoje „visas liejinys sugadintas“ galima rašyti „išėmus prie nykščio pastebėta ertmė; kitų paviršių dar neapžiūrėjau“. Toks redakcinis pavyzdys nesako, kodėl ertmė atsirado ar ar ją galima sutaisyti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Informacija pagalbos klausimui"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rinkinio pavadinimas ir užsakymo numeris, jeigu jį turite.",
+            "Medžiagų pakelių žymėjimas, partija ir galiojimo informacija, jei pateikta.",
+            "Naudotos instrukcijos pavadinimas arba versija.",
+            "Faktiškai naudoti kiekiai ir matuoti laikai; jei nematavote, taip ir parašykite.",
+            "Etapas, pirmas pastebėjimas ir vėliau atlikti veiksmai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokias nuotraukas pasiruošti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Turėkite bendrą vaizdą ir aiškų konkretaus požymio vaizdą. Atskirai užfiksuokite medžiagos žymėjimą, jei jis reikalingas produktui identifikuoti. Jei naudojate mastelį, nurodykite, ką jis rodo. Viešai nekeliant nuotraukų lengviau išvengti asmens duomenų atskleidimo: nerodykite siuntos etiketės su adresu ar užsakymo prieigos žetono. Dabartinė Memocasting pagalbos forma nuotraukų įkėlimo nepalaiko."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ko nepakeičia bendras internetinis patarimas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis aprašas nenustato, ar liejinį galima taisyti, kartoti, dažyti ar naudoti toliau. Tam reikia konkrečių medžiagų ir būklės įvertinimo. Nesiimkite cheminio valymo ar negrįžtamo taisymo pagal kito rinkinio komentarą: pirmiau išsaugokite pradinį vaizdą ir išsiaiškinkite tinkamą veiksmą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalbos puslapyje pateikite surinktą informaciją. Vietiniame bandyme laiškų pristatymas išjungtas, todėl jis nėra veikiantis konsultavimo kanalas. Jei klausimas yra apie galimą prekės trūkumą ar užsakymo atsisakymą, grąžinimo puslapyje atskiriame testinį prašymą nuo būsimos tikros procedūros."
+        }
+      ],
+      "publishAt": "2026-10-11T23:36:34.908Z",
+      "media": [
+        {
+          "id": "b07e3189-ce49-4f12-8e80-04968a558603",
+          "src": "/content-assets/memocasting/b07e3189-ce49-4f12-8e80-04968a558603.webp",
+          "alt": "Tuščias užrašų sąsiuvinis, lupa ir keraminiai pavyzdžiai; redakcinė stebėjimų užrašymo iliustracija.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "c8414c75-2225-4ac7-a788-f3c4d24821b0",
+          "src": "/content-assets/memocasting/c8414c75-2225-4ac7-a788-f3c4d24821b0.webp",
+          "alt": "Tuščias užrašų sąsiuvinis, lupa ir keraminiai pavyzdžiai; redakcinė stebėjimų užrašymo iliustracija.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "48296478-58b8-436d-976d-a5f3d70bc329",
+          "src": "/content-assets/memocasting/48296478-58b8-436d-976d-a5f3d70bc329.webp",
+          "alt": "Tuščias užrašų sąsiuvinis, lupa ir keraminiai pavyzdžiai; redakcinė stebėjimų užrašymo iliustracija.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "fed63060-e038-4a16-b0b0-4aee688833d7",
+          "src": "/content-assets/memocasting/fed63060-e038-4a16-b0b0-4aee688833d7.webp",
+          "alt": "Tuščias užrašų sąsiuvinis, lupa ir keraminiai pavyzdžiai; redakcinė stebėjimų užrašymo iliustracija.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        },
+        {
+          "id": "e03ac0ac-cd05-4051-a35b-ac788abcc6e0",
+          "src": "/content-assets/memocasting/e03ac0ac-cd05-4051-a35b-ac788abcc6e0.webp",
+          "alt": "Tuščias užrašų sąsiuvinis, lupa ir keraminiai pavyzdžiai; redakcinė stebėjimų užrašymo iliustracija.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali AI redakcinė iliustracija; ne Memocasting produktas, bandymas ar kliento rezultatas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
+          "label": "Visi gidai"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Pagalbos puslapyje"
+        },
+        {
+          "targetPageId": "53ac4b89-8168-4762-887f-438c0b5aba21",
+          "label": "grąžinimo puslapyje"
+        },
+        {
+          "targetPageId": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
+          "label": "Džiovinimo etapų gidas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://edinburghcasting.com/top-5-most-common-problems-with-hand-casting-kits/",
+          "label": "Edinburgh klaidų straipsnyje",
+          "reason": "Patikrinta 2026-10-12. Naudojamos tik penkios stebimų požymių kategorijos. Jų maišymo, rekonstrukcijos ir cheminio valymo receptai neperimti; komentarai ir klientų asmens duomenys nenaudojami."
+        }
+      ],
+      "id": "23796e2f-040d-40a5-86fa-9630580f1fc7",
+      "revisionHash": "031a20a404d1ecb4261a91fbe8600a6fce3697639a1c7cb92206bc6047c871ef",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "031a20a404d1ecb4261a91fbe8600a6fce3697639a1c7cb92206bc6047c871ef",
+        "approvedAt": "2026-10-11T23:36:52.397Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-11T23:36:52.421Z"
+}

@@ -16,6 +16,10 @@ function isPreview(host: string): boolean {
 export function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
+  if (host === 'www.memocasting.lt') {
+    const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
+    return NextResponse.redirect(destination,308);
+  }
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
@@ -53,6 +57,11 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
+    if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);
+      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');response.headers.set('Cache-Control','no-store');return response;
+    }
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
     if (path.startsWith("/content-assets/")) {

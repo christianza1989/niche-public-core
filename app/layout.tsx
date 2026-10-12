@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
 import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -52,6 +53,7 @@ export default async function RootLayout({
           <title>{page?.title || niche.site.name}</title>
           <meta name="description" content={page?.description || niche.site.offer} />
           {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
+          {page && memoFunctionalPage(niche,page) && <meta name="robots" content="noindex, nofollow" />}
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           {page && <>
             <meta property="og:site_name" content={niche.site.name} />

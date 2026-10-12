@@ -1,3 +1,4 @@
+import {memoIndexablePages,memoFunctionalPage} from '../lib/memocasting-content.mjs';
 // Read-only production HTML audit. Uses the same projection as the public core.
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {resolve,dirname} from 'node:path';
@@ -30,7 +31,7 @@ for(const page of pages){
  check(title.includes(page.title),path,'title',title);check(h1s.length===1,path,'h1-count',h1s);
  check(canonical===origin+path,path,'canonical',canonical);check(/<html[^>]*lang="lt/.test(html),path,'language','Expected Lithuanian HTML');
  check(metas.some(a=>a.name==='description'&&a.content===page.description),path,'description','Missing or differing description');
- check(!metas.some(a=>a.name==='robots'&&/noindex/.test(a.content)),path,'indexability','Unexpected noindex on canonical response');
+ check(memoFunctionalPage(pkg,page)?metas.some(a=>a.name==='robots'&&/noindex/.test(a.content)):!metas.some(a=>a.name==='robots'&&/noindex/.test(a.content)),path,'indexability','Route indexability does not match its role');
  const graphs=[...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
  const entities=graphs.flatMap(g=>g['@graph']??[g]);check(entities.some(x=>x['@type']==='WebSite'),path,'schema','Missing WebSite');
  check(!entities.some(x=>['Product','Offer','Review','AggregateRating','LocalBusiness'].includes(x['@type'])),path,'truthful-schema','Unsupported commerce entity');
@@ -71,11 +72,12 @@ for(const page of pages){
  const articleText=plain(html.match(/<article[^>]*>([\s\S]*?)<\/article>/)?.[1]??'');
  pageEvidence.push({path,title,h1:h1s[0],canonical,schemaTypes:entities.map(x=>x['@type']),articleWords:articleText?articleText.split(/\s+/).length:0,anchors:anchors.length,images:images.length,dates:page.type==='guide'?nicheEditorialDates(page):undefined});
 }
+const indexable=memoIndexablePages(pkg,pages);
 const sitemap=await get('/sitemap.xml');check(sitemap.status===200,'/sitemap.xml','status',sitemap.status);
-const locs=[...sitemap.body.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>decode(m[1]));check(locs.length===pages.length,'/sitemap.xml','count',locs.length);
-for(const p of pages)check(locs.includes(origin+(p.slug?`/${p.slug}`:'/')),'/sitemap.xml','public-url',p.slug);
+const locs=[...sitemap.body.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>decode(m[1]));check(locs.length===indexable.length,'/sitemap.xml','count',locs.length);
+for(const p of indexable)check(locs.includes(origin+(p.slug?`/${p.slug}`:'/')),'/sitemap.xml','public-url',p.slug);
 const robots=await get('/robots.txt');check(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`),'/robots.txt','sitemap',robots.body);
-for(const path of ['/llms.txt','/llms-full.txt']){const r=await get(path);check(r.status===200,path,'status',r.status);for(const p of pages){check(r.body.includes(origin+(p.slug?`/${p.slug}`:'/')),path,'public-url',p.slug);if(path.endsWith('full.txt'))for(const link of p.externalLinks??[])check(r.body.includes(link.url),path,'source-url',link.url);}}
+for(const path of ['/llms.txt','/llms-full.txt']){const r=await get(path);check(r.status===200,path,'status',r.status);for(const p of indexable){check(r.body.includes(origin+(p.slug?`/${p.slug}`:'/')),path,'public-url',p.slug);if(path.endsWith('full.txt'))for(const link of p.externalLinks??[])check(r.body.includes(link.url),path,'source-url',link.url);}}
 for(const path of ['/__audit_missing__',`/niche/${siteId}`]){const r=await get(path);check(r.status===404,path,'404',r.status);check(!r.body.includes('rel="canonical"'),path,'404-canonical','404 claims canonical');}
 const slash=await get('/gidai/');const query=await get('/gidai?auditas=1');
 const result={siteId,canonicalHost:pkg.canonicalHost,base,checkedAt:new Date().toISOString(),packageGeneratedAt:pkg.generatedAt,publicPages:pages.length,readOnly:true,requests:cache.size,pages:pageEvidence,externalUrls:[...external],urlVariants:{slash:{status:slash.status,location:slash.headers.location},query:{status:query.status,canonical:query.body.match(/<link rel="canonical" href="([^"]+)"/)?.[1]}},findings};

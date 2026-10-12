@@ -1,6 +1,7 @@
 import { nicheOrigin, nichePagePath, publicNichePages, type NicheBlock, type NichePackage, type NichePage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
+import { memoIndexablePages } from './memocasting-content.mjs';
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
   return `${nicheOrigin(pkg)}${nichePagePath(page)}`;
@@ -24,6 +25,7 @@ function escapeXml(value: string): string {
 }
 
 export function nicheSitemapXml(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod></url>`).join("");
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries}</urlset>`;
 }
@@ -36,6 +38,7 @@ function blockText(block: NicheBlock): string {
 }
 
 export function nicheLlmsIndex(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const origin = nicheOrigin(pkg);
   return [
     `# ${pkg.site.name}`,
@@ -50,6 +53,7 @@ export function nicheLlmsIndex(pkg: NichePackage, pages: NichePage[]): string {
 }
 
 export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const byId = new Map(pages.map(page => [page.id, page]));
   return [
     `# ${pkg.site.name}`,
@@ -62,7 +66,7 @@ export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
       `URL: ${nichePageUrl(pkg, page)}`,
       page.description,
       ...(page.type === "guide" ? [`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`, `Publikavimo data: ${nicheEditorialDates(page).published}`, `Turinio peržiūra: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && pkg.siteId !== "traktoriupadangos" ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...(page.type === "home" && !["traktoriupadangos","memocasting"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
       ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`Susijęs atsakymas: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
       ...(page.externalLinks ?? []).map(link => `Šaltinis: [${link.label}](${link.url}) — ${link.reason}`),
     ].join("\n")),

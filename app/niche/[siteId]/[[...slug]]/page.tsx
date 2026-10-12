@@ -12,6 +12,7 @@ export default async function NichePageView({ params }: { params: Params }) {
   const page = publicNichePage(pkg, slug.join("/"));
   if (!page) notFound();
   const props = { pkg, page, livePages: publicNichePages(pkg) };
+  if (siteId === "memocasting") { const { MemocastingSite } = await import("@/components/niche/memocasting-site"); return <MemocastingSite {...props} />; }
   if (siteId === "traktoriupadangos") {
     const { TractorSite } = await import("@/components/niche/tractor-site");
     const enabled = voiceWidgetEnabled(pkg);
