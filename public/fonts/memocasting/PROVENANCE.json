@@ -30,5 +30,13 @@
       "file": "sourcesans3-OFL.txt",
       "sha256": "7fac2f6c6bc47144e2c35e8f41147b3c8c895490d44b46266a5312fe93364d2e"
     }
-  ]
+  ],
+  "derivative": {
+    "file": "newsreader-latin-extended.woff2",
+    "sha256": "4668b15f57fa2607449aabf53d638f56501c92f44ebbde6aa2dc944e8a904a43",
+    "bytes": 66348,
+    "source": "newsreader-regular.woff2; original unchanged",
+    "method": "FontTools subset: ASCII/Latin1/LatinExtendedA and punctuation/euro; default kern/liga/clig/calt/locl/mark/mkmk/ccmp features; OFL/name notices retained",
+    "glyphCoverage": "All required LT/PL/LV/ET uppercase/lowercase alphabets checked in actualcmap"
+  }
 }

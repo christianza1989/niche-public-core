@@ -52,7 +52,7 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-ext-3911b66d9f2e.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
           {niche.siteId === "memocasting" && <>
-            <link rel="preload" href="/fonts/memocasting/newsreader-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/memocasting/newsreader-latin-extended.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
