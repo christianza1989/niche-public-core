@@ -67,8 +67,10 @@ export default async function RootLayout({
             <meta property="og:type" content={page.type === "guide" ? "article" : "website"} />
             <meta property="og:title" content={page.title} />
             <meta property="og:description" content={page.description} />
+            {niche.siteId==='memocasting'&&<meta property="og:locale" content={memoRoute(page).locale.replace('-','_')} />}
             <meta property="og:url" content={canonical} />
             {hero && <meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />}
+            {niche.siteId==='memocasting'&&hero&&<meta property="og:image:alt" content={hero.alt} />}
             <meta name="twitter:card" content={hero ? "summary_large_image" : "summary"} />
           </>}
         </head>

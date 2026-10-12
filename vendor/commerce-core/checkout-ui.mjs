@@ -159,6 +159,21 @@ const element = (tag, attrs = {}, ...children) => {
   el.append(...children.flat().filter((c) => c !== undefined && c !== null));
   return el;
 };
+export function resolveTermsLink(termsUrl, context, origin) {
+  try {
+    const value = typeof termsUrl === 'function' ? termsUrl(context) : termsUrl;
+    if (typeof value !== 'string' || !value.trim() || value.length > 2000) return null;
+    const url = new URL(value, origin);
+    if (url.origin !== origin || url.username || url.password) return null;
+    return url.pathname + url.search + url.hash;
+  } catch {
+    return null;
+  }
+}
+/**
+ * @param {HTMLElement} root
+ * @param {{language?:string,country?:string,client?:CommerceClient,termsUrl?:string|((context:{country:string,language:string,policyVersion:string})=>string|null),initialLines?:Array<{sku:string,quantity:number}>,headingLevel?:number,title?:string,productTitle?:(product:any,language:string)=>string}} options
+ */
 export async function mountCheckout(
   root,
   {
@@ -169,7 +184,8 @@ export async function mountCheckout(
     initialLines = [],
     headingLevel = 1,
     title,
-    productTitle = (product) => product.title,
+    productTitle = (product, language) =>
+      product.titles?.[{ lt: 'LT', pl: 'PL', lv: 'LV', et: 'EE' }[language]] || product.title,
   } = {},
 ) {
   const t = translations[language] || translations.lt;
@@ -192,7 +208,15 @@ export async function mountCheckout(
     try {
       await task();
     } catch (error) {
-      status.textContent = error.message === 'network' ? t[30] : t[29];
+      status.textContent = [
+        'quote_price_changed',
+        'delivery_quote_conflict',
+        'terms_acceptance_required',
+      ].includes(error.message)
+        ? t[32]
+        : error.message === 'network'
+          ? t[30]
+          : t[29];
       status.setAttribute('role', 'alert');
     } finally {
       button.disabled = false;
@@ -217,7 +241,7 @@ export async function mountCheckout(
       element('p', {}, t[21] + ': ' + money(order.amount, order.currency)),
     );
     for (const line of order.snapshot.lines)
-      content.append(element('p', {}, line.title + ' × ' + line.quantity));
+      content.append(element('p', {}, productTitle({ ...line }, language) + ' × ' + line.quantity));
     const buttons = element('div', { class: 'actions' });
     const add = (label, task) => {
       const b = element('button', { type: 'button' }, label);
@@ -277,8 +301,7 @@ export async function mountCheckout(
   };
   const formView = () => {
     content.replaceChildren();
-    status.textContent =
-      context.environment === 'sandbox' ? t[19] : context.productionReady ? '' : t[20];
+    status.textContent = '';
     const form = element('form', { class: 'checkout-form' }),
       fields = {};
     const field = (name, label, attrs = {}, tag = 'input') => {
@@ -287,24 +310,26 @@ export async function mountCheckout(
       form.append(element('label', { for: 'checkout-' + name }, label, input));
       return input;
     };
-    const productInputs = catalog.map((p) => {
-      const q = field(p.sku, productTitle(p, language), {
-        type: 'number',
-        min: '0',
-        max: Math.min(100, p.available),
-        value: String(
-          initialLines.find(
-            (l) =>
-              l.sku === p.sku &&
-              Number.isInteger(l.quantity) &&
-              l.quantity >= 0 &&
-              l.quantity <= 100,
-          )?.quantity || 0,
-        ),
-        inputmode: 'numeric',
+    const productInputs = catalog
+      .filter((p) => p.enabled !== false)
+      .map((p) => {
+        const q = field(p.sku, productTitle(p, language), {
+          type: 'number',
+          min: '0',
+          max: Math.min(100, p.available),
+          value: String(
+            initialLines.find(
+              (l) =>
+                l.sku === p.sku &&
+                Number.isInteger(l.quantity) &&
+                l.quantity >= 0 &&
+                l.quantity <= 100,
+            )?.quantity || 0,
+          ),
+          inputmode: 'numeric',
+        });
+        return { p, q };
       });
-      return { p, q };
-    });
     const marketSelect = field('country', t[3], {}, 'select');
     for (const m of markets)
       marketSelect.append(element('option', { value: m.country }, m.country));
@@ -333,14 +358,31 @@ export async function mountCheckout(
     field('city', t[9], { required: true, maxlength: '100', autocomplete: 'address-level2' });
     field('postalCode', t[10], { required: true, maxlength: '20', autocomplete: 'postal-code' });
     const terms = field('terms', t[12], { type: 'checkbox', required: true });
-    const safeTerms = new URL(termsUrl, location.origin);
-    if (safeTerms.origin === location.origin)
-      form.append(element('a', { href: safeTerms.pathname }, t[12]));
+    const termsLink = element('a', {}, t[12]);
+    form.append(termsLink);
     const quoteButton = element('button', { type: 'button' }, t[13]),
       submit = element('button', { type: 'submit', disabled: true }, t[14]);
     const summary = element('p', { role: 'status' });
-    let quoted;
+    let quoted,
+      termsAvailable = false;
     const selected = () => markets.find((m) => m.country === marketSelect.value);
+    const refreshTerms = () => {
+      const market = selected();
+      const href =
+        market &&
+        resolveTermsLink(
+          termsUrl,
+          { country: market.country, language, policyVersion: market.policyVersion },
+          location.origin,
+        );
+      termsAvailable = Boolean(href);
+      terms.checked = false;
+      terms.disabled = !termsAvailable;
+      termsLink.hidden = !termsAvailable;
+      if (href) termsLink.setAttribute('href', href);
+      else termsLink.removeAttribute('href');
+      submit.disabled = true;
+    };
     const refreshLockers = () => {
       locker.replaceChildren();
       const method = selected()?.delivery.find((d) => d.id === delivery.value);
@@ -356,7 +398,16 @@ export async function mountCheckout(
           element(
             'option',
             { value: d.id },
-            d.label + ' · ' + money(d.amount, selected().currency),
+            d.label +
+              ' · ' +
+              (d.pricing === 'carrier'
+                ? {
+                    lt: 'Kaina pagal adresą',
+                    pl: 'Cena według adresu',
+                    lv: 'Cena pēc adreses',
+                    et: 'Hind aadressi järgi',
+                  }[language] || 'Price by address'
+                : money(d.amount, selected().currency)),
           ),
         );
       fields.postalCode.pattern =
@@ -364,6 +415,7 @@ export async function mountCheckout(
           marketSelect.value
         ] || '.+';
       refreshLockers();
+      refreshTerms();
       if (!delivery.options.length) summary.textContent = t[31];
     };
     const input = () => ({
@@ -375,24 +427,50 @@ export async function mountCheckout(
         .map(({ p, q }) => ({ sku: p.sku, quantity: Number(q.value) })),
     });
     const canOrder = context.productionReady || context.canCreateTestOrder;
-    form.addEventListener('input', () => {
+    let deliveryQuoteId;
+    const customerInput = () => ({
+      name: fields.name.value,
+      email: fields.email.value,
+      phone: fields.phone.value,
+      address: {
+        country: marketSelect.value,
+        line1: fields.line1.value,
+        city: fields.city.value,
+        postalCode: fields.postalCode.value,
+      },
+      ...(locker.required ? { lockerId: locker.value } : {}),
+    });
+    form.addEventListener('input', (event) => {
+      if (event.target === terms) {
+        submit.disabled = !(canOrder && quoted && termsAvailable && terms.checked);
+        return;
+      }
       quoted = undefined;
+      deliveryQuoteId = undefined;
       submit.disabled = true;
     });
     marketSelect.addEventListener('change', refresh);
     delivery.addEventListener('change', refreshLockers);
     quoteButton.addEventListener('click', () =>
       run(quoteButton, async () => {
-        quoted = await client.quote(input());
+        const customer = customerInput(),
+          method = selected().delivery.find((d) => d.id === delivery.value);
+        if (method?.pricing === 'carrier')
+          deliveryQuoteId = (await client.deliveryQuote({ ...input(), customer })).id;
+        quoted = await client.quote({
+          ...input(),
+          customer,
+          ...(deliveryQuoteId ? { deliveryQuoteId } : {}),
+        });
         summary.textContent = t[21] + ': ' + money(quoted.amount, quoted.currency);
-        submit.disabled = !canOrder;
-        status.textContent = context.environment === 'sandbox' ? t[19] : '';
+        submit.disabled = !canOrder || !termsAvailable || !terms.checked;
+        status.textContent = '';
       }),
     );
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
       event.preventDefault();
-      if (!quoted || !terms.checked || !form.reportValidity()) return;
-      run(submit, async () => {
+      if (!quoted || !termsAvailable || !terms.checked || !form.reportValidity()) return;
+      await run(submit, async () => {
         const customer = {
           name: fields.name.value,
           email: fields.email.value,
@@ -405,10 +483,37 @@ export async function mountCheckout(
           },
           ...(locker.required ? { lockerId: locker.value } : {}),
         };
-        const order = await client.create({ ...input(), customer });
+        let order;
+        try {
+          order = await client.create({
+            ...input(),
+            customer,
+            quoteHash: quoted.quoteHash,
+            ...(deliveryQuoteId ? { deliveryQuoteId } : {}),
+            acceptedPolicyVersion: selected().policyVersion,
+          });
+        } catch (error) {
+          if (client.attempt) {
+            content.replaceChildren();
+            const retry = element('button', { type: 'button' }, t[16]);
+            retry.addEventListener('click', () =>
+              run(retry, async () => {
+                await orderView(await client.resume());
+                status.textContent = '';
+              }),
+            );
+            content.append(retry);
+          } else {
+            quoted = undefined;
+            deliveryQuoteId = undefined;
+            submit.disabled = true;
+          }
+          throw error;
+        }
         await orderView(order);
         status.textContent = t[27];
       });
+      submit.disabled = !(canOrder && quoted && termsAvailable && terms.checked);
     });
     form.append(summary, element('div', { class: 'actions' }, quoteButton, submit));
     content.append(form);

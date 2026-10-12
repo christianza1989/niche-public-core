@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {memoMarkets,memoRoute,memoPath,memoAlternates} from '../lib/memocasting-locales.mjs';
 import {memoIndexablePages} from '../lib/memocasting-content.mjs';
-import {memoSchemaGraph,memoBreadcrumbs} from '../lib/memocasting-structure.mjs';
+import {memoSchemaGraph,memoBreadcrumbs,memoProfilePath} from '../lib/memocasting-structure.mjs';
 const pkg={siteId:'memocasting',canonicalHost:'memocasting.lt',locale:'lt-LT',site:{name:'Memocasting',offer:'Rinkiniai',contact:{email:'info@pinet.lt'}}};
 const page=(slug,type='product')=>({slug,type,title:slug,description:'Information',publishAt:'2026-10-12T00:00:00Z',approval:{approvedAt:'2026-10-12T00:00:00Z'},media:[]});
 test('four market routes use proper language codes and exclude localized functional pages',()=>{
@@ -25,4 +25,12 @@ test('locale schema and breadcrumbs never borrow the catalogue of another market
  assert.deepEqual(memoBreadcrumbs(pkg,prod,[lt,pl,prod]).map(e=>e.path),['/','/pl/collections/all','/pl/products/a']);
  const graph=memoSchemaGraph(pkg,pl,[lt,pl,prod],'MB Memocasting')['@graph'];
  const collection=graph.find(e=>e['@type']==='CollectionPage');assert.equal(collection.inLanguage,'pl-PL');assert.deepEqual(collection.hasPart.map(e=>e.url),['https://memocasting.lt/pl/products/a']);
+});
+test('localized policy is informational and the author profile follows eligible locale only',()=>{
+ const ltProfile=page('redakcija','service'),plProfile=page('pl/redakcija','service'),policy=page('pl/privatumas','service');
+ assert.equal(memoProfilePath(policy,[ltProfile]),'/redakcija');assert.equal(memoProfilePath(policy,[ltProfile,plProfile]),'/pl/redakcija');
+ const graph=memoSchemaGraph(pkg,policy,[ltProfile,plProfile,policy],'MB Memocasting')['@graph'];
+ assert.ok(!graph.some(e=>e['@type']==='Service'));assert.equal(graph.find(e=>e['@type']==='Organization').url,'https://memocasting.lt/pl/redakcija');
+ const profileGraph=memoSchemaGraph(pkg,plProfile,[ltProfile,plProfile],'MB Memocasting')['@graph'];
+ assert.equal(profileGraph.find(e=>e['@type']==='ProfilePage').mainEntity['@id'],'https://memocasting.lt/#organization');
 });
