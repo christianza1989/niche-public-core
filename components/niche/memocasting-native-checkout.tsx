@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useRef} from 'react';
-import {CommerceClient} from '../../../nisiniai_puslapiai_monetizavimui/commerce-core/public/commerce-client.mjs';
-import {mountCheckout} from '../../../nisiniai_puslapiai_monetizavimui/commerce-core/public/checkout-ui.mjs';
+import {CommerceClient} from '@/vendor/commerce-core/commerce-client.mjs';
+import {mountCheckout} from '@/vendor/commerce-core/checkout-ui.mjs';
 import s from './memocasting-site.module.css';
 
 export const memoCartKey='memo_cart_v1';

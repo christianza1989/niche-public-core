@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {readFileSync,mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
-import {join} from 'node:path';
+import {join,dirname,resolve} from 'node:path';
 import {createCommerceMailGateway,D1CommerceMailLedger} from '../lib/commerce-mail-gateway.mjs';
 import {smtpSession} from '../lib/smtp-protocol.mjs';
 const migration=readFileSync(new URL('../workers/commerce-mail/migrations/0001_mail_messages.sql',import.meta.url),'utf8');
@@ -26,7 +26,7 @@ test('concurrent/restarted requests send once and retain exact SMTP acceptance i
   const reopened=createCommerceMailGateway({config,ledger:new D1CommerceMailLedger(db),send:async()=>calls++});
   const saved=await (await reopened(post())).json();assert.equal(saved.reference,'smtp-accepted:<notice-123@example.test>');assert.equal(calls,1);
   assert.equal((await reopened(post({...message,text:'Changed order details'}))).status,409);assert.equal(calls,1);
- }finally{db.close();rmSync(directory,{recursive:true});}
+ }finally{db.close();assert.equal(dirname(resolve(directory)),resolve(tmpdir()));assert.ok(directory.includes('commerce-mail-'));rmSync(directory,{recursive:true});}
 });
 test('lost transport outcome and lost acceptance acknowledgement remain unknown without automatic resend',async()=>{
  for(const failure of ['transport','ack']){
