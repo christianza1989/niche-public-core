@@ -3,7 +3,14 @@ import assert from 'node:assert/strict';
 import {memoCheckoutPolicies,memoResolveTerms} from '../lib/memocasting-checkout-policies.mjs';
 import {memoLeadContext,memoLeadText} from '../lib/memocasting-lead-response.mjs';
 import {memoAvailableExtra} from '../lib/memocasting-catalog-options.mjs';
+import {memoLanguageLinks} from '../lib/memocasting-locales.mjs';
 const pages=['','pl/','lv/','et/'].flatMap(prefix=>['kontaktai','privatumas','naudojimo-salygos'].map(slug=>({slug:prefix+slug,revisionHash:prefix+'revision'})));
+test('language navigation preserves the reader job and excludes absent equivalents, including functional carts',()=>{
+ const current={slug:'pl/cart',type:'faq'},lt={slug:'cart',type:'faq'},different={slug:'et/kontaktai',type:'faq'};
+ assert.deepEqual(memoLanguageLinks(current,[current,lt,different]).map(p=>p.path),['/cart','/pl/cart']);
+ assert.equal(memoLanguageLinks(current,[current,lt])[1].current,true);
+ assert.deepEqual(memoLanguageLinks({slug:'',type:'home'},[{slug:'',type:'home'},{slug:'et',type:'faq'}]).map(p=>p.path),['/','/et']);
+});
 test('an extra opens only with actual enabled stock, country price, kit relation and measured package',()=>{
  const item={sku:'white_paint',enabled:true,available:1,prices:{LT:300},addonFor:['couple'],package:{weightGrams:100,dimensionsMm:[50,50,50]}};
  assert.equal(memoAvailableExtra([item],'white_paint','couple','LT'),item);

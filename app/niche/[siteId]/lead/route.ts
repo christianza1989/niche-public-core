@@ -15,7 +15,7 @@ function response(message: string, status: number, context?:{language:string;hom
   return new Response(html, { status, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store", "x-robots-tag": "noindex, nofollow", "x-content-type-options": "nosniff" } });
 }
 
-async function limitedForm(request: Request): Promise<URLSearchParams | null> {
+async function limitedForm(request: Request, retainedLimit = 10000): Promise<URLSearchParams | null> {
   if (!request.headers.get("content-type")?.startsWith("application/x-www-form-urlencoded")) return null;
   const declaredSize = request.headers.get("content-length");
   if (declaredSize && /^\d+$/.test(declaredSize) && Number(declaredSize) > 65536) return null;
@@ -27,13 +27,15 @@ async function limitedForm(request: Request): Promise<URLSearchParams | null> {
     const { done, value } = await reader.read();
     if (done) break;
     length += value.byteLength;
-    // Retain at most 10 KB. Drain modest rejected bodies without retaining
+    // The default retains10KB; Memo retains up to the existing64KiB ceiling,
+    // since URL-encoded native text can exceed10KB within its3000-char limit.
+    // Drain modest rejected bodies without retaining
     // their bytes so the local proxy can deliver an error and reuse transport.
     // Stop abusive streams at 64 KB; they never reach parsing or storage.
     if (length > 65536) { await reader.cancel(); return null; }
-    if (length <= 10000) chunks.push(value);
+    if (length <= retainedLimit) chunks.push(value);
   }
-  if (length > 10000) return null;
+  if (length > retainedLimit) return null;
   const bytes = new Uint8Array(length);
   let offset = 0;
   for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
@@ -48,7 +50,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
   // No storage or notification occurs until origin and field checks both pass.
-  const form = await limitedForm(request);
+  const form = await limitedForm(request,siteId==='memocasting'?65536:10000);
   if(siteId==='memocasting'&&!form)return response("Patikrinkite formą ir bandykite dar kartą.",400);
   const context=siteId==='memocasting'?memoLeadContext(publicSitePages(pkg),String(form?.get('source_path')||'')):null;
   const reply=(message:string,status:number)=>response(message,status,context);
