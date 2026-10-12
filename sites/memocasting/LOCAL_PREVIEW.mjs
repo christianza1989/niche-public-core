@@ -6,7 +6,7 @@ const root=new URL('../../',import.meta.url),runtime=new URL('output/memocasting
 const config=JSON.parse(await readFile(new URL('dist/server/wrangler.json',root),'utf8'));
 config.name='memocasting-local-preview';config.main=fileURLToPath(new URL('dist/server/index.js',root));
 config.assets.directory=fileURLToPath(new URL('dist/client/',root));
-config.vars={NICHE_DEV_SITE_ID:'memocasting',MEMO_COMMERCE_ORIGIN:'http://127.0.0.1:8797',LEAD_SMTP_ENABLED:'0',VOICE_WIDGET_ENABLED:'0'};
+config.vars={NICHE_DEV_SITE_ID:'memocasting',MEMO_COMMERCE_ORIGIN:process.env.MEMO_LOCAL_COMMERCE_ORIGIN||'http://127.0.0.1:8797',LEAD_SMTP_ENABLED:'0',VOICE_WIDGET_ENABLED:'0'};
 config.d1_databases=[{binding:'DB',database_name:'memo_local_leads',database_id:'00000000-0000-4000-8000-000000000017'}];
 config.send_email=[];config.services=[];config.r2_buckets=[];
 await mkdir(runtime,{recursive:true});const configPath=new URL('wrangler.local.json',runtime);await writeFile(configPath,JSON.stringify(config));

@@ -1279,7 +1279,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Krepšelio prekės saugomos naršyklės skirtuko sessionStorage. Prieš siunčiant užsakymą šiame skirtuke išsaugoma užklausos kopija su gavėjo duomenimis, pakartojimo raktu ir prieigos žetonu. Tai leidžia pakartoti tą patį užsakymą negavus pirmo atsakymo. Sąsaja tokią prieigą naudoja iki 24 valandų; uždarius arba išvalius skirtuką ji gali būti prarasta."
+          "text": "Krepšelio prekės saugomos naršyklės skirtuko sessionStorage. Prieš siunčiant užsakymą šiame skirtuke išsaugoma užklausos kopija su gavėjo duomenimis, pakartojimo raktu ir prieigos žetonu. Tai leidžia atkurti tą patį užsakymą negavus pirmo atsakymo. Kol atsakymas neatkurtas, ši kopija naudojama iki vienos valandos. Gavus užsakymo atsakymą gavėjo duomenų kopija iš skirtuko pašalinama, o užsakymo numeris, pakartojimo raktas ir prieigos žetonas naudojami iki 30 dienų. Uždarius arba išvalius skirtuką ši prieiga gali būti prarasta. Tai naršyklės kliento terminai, o ne serverio duomenų saugojimo politika."
         },
         {
           "type": "paragraph",
@@ -1308,11 +1308,11 @@
       "media": [],
       "links": [],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "997a70fede0f434b064024b7452b93d7eb7fca65036a8daab1517c2be27470bb",
+      "revisionHash": "c5c96e73fe3605ee6f3f6f054ec48fdbf3a77bde211aefb18066eeddb9d829cf",
       "approval": {
         "status": "approved",
-        "revisionHash": "997a70fede0f434b064024b7452b93d7eb7fca65036a8daab1517c2be27470bb",
-        "approvedAt": "2026-10-12T02:09:23.147Z",
+        "revisionHash": "c5c96e73fe3605ee6f3f6f054ec48fdbf3a77bde211aefb18066eeddb9d829cf",
+        "approvedAt": "2026-10-12T04:26:14.561Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2030,5 +2030,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-12T02:09:23.165Z"
+  "generatedAt": "2026-10-12T04:26:14.595Z"
 }

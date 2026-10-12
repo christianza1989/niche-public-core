@@ -21,3 +21,8 @@ test('Lithuanian section identifiers are meaningful and independent of block pos
   assert.equal(memoSectionId('Kurių skaičių negalima atspėti?'),'kuriu-skaiciu-negalima-atspeti');
   assert.equal(memoSectionId('Apdailos pasirinkimo lapas'),'apdailos-pasirinkimo-lapas');
 });
+test('localized section links retain Polish, Latvian and Estonian words',()=>{
+  assert.equal(memoSectionId('Łączenie i suszenie odlewu'),'laczenie-i-suszenie-odlewu');
+  assert.equal(memoSectionId('Atlējuma žāvēšana'),'atlejuma-zavesana');
+  assert.equal(memoSectionId('Värvimine ja hooldus'),'varvimine-ja-hooldus');
+});
