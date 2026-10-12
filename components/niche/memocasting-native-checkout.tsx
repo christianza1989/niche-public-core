@@ -15,7 +15,7 @@ const loading={lt:'Kraunama prekybos informacija…',pl:'Ładowanie informacji o
 const unavailable={lt:'Prekybos ryšys šiuo metu nepasiekiamas. Bandykite dar kartą. Ankstesnis užsakymas šiuo pranešimu neatšaukiamas.',pl:'Połączenie ze sklepem jest obecnie niedostępne. Spróbuj ponownie. Ten komunikat nie anuluje wcześniejszego zamówienia.',lv:'Savienojums ar veikalu pašlaik nav pieejams. Mēģiniet vēlreiz. Šis paziņojums neatceļ iepriekšējo pasūtījumu.',et:'Ühendus poega pole praegu saadaval. Proovige uuesti. See teade ei tühista varasemat tellimust.'};
 const retryText={lt:'Bandyti dar kartą',pl:'Spróbuj ponownie',lv:'Mēģināt vēlreiz',et:'Proovi uuesti'};
 const storageText={lt:'Nepavyko išsaugoti krepšelio šioje naršyklėje. Perkrovus puslapį pasirinkimas gali neišlikti. Jei užsakymas jau sukurtas, jis neatšaukiamas.',pl:'Nie udało się zapisać koszyka w tej przeglądarce. Po odświeżeniu strony wybór może nie zostać zachowany. Utworzone zamówienie nie jest anulowane.',lv:'Neizdevās saglabāt grozu šajā pārlūkprogrammā. Pārlādējot lapu, izvēle var nesaglabāties. Jau izveidots pasūtījums netiek atcelts.',et:'Ostukorvi ei õnnestunud selles brauseris salvestada. Lehe uuesti laadimisel ei pruugi valik säilida. Juba loodud tellimust ei tühistata.'};
-export function MemoNativeCheckout({title,description,language='lt',country='LT',policies=[]}:{title:string;description:string;language?:string;country?:string;policies?:MemoPolicy[]}){
+export function MemoNativeCheckout({title,language='lt',country='LT',policies=[],catalogueUrl}:{title:string;language?:string;country?:string;policies?:MemoPolicy[];catalogueUrl?:string}){
  const root=useRef<HTMLDivElement>(null),lang=(['lt','pl','lv','et'].includes(language)?language:'lt') as keyof typeof loading;
  const [retry,setRetry]=useState(0),[failed,setFailed]=useState(false);
  const [storageFailed,setStorageFailed]=useState(false);
@@ -25,8 +25,8 @@ export function MemoNativeCheckout({title,description,language='lt',country='LT'
   // Caller only supplies same-origin transport, presentation and existing cart lines.
   mountCheckout(target,{language:lang,country,client,termsUrl:(context:{country:string;language:string;policyVersion:string})=>memoResolveTerms(policies,context),initialLines:memoCartLines(),onCartChange:(lines:Array<{sku:string;quantity:number}>)=>{if(disposed)return;try{memoSaveCart(lines);setStorageFailed(false);}catch{setStorageFailed(true);}},title,headingLevel:1,productTitle:(product:{sku:string;title:string})=>memoProductTitle(product,lang)}).catch(()=>{if(disposed)return;target.replaceChildren();const h=document.createElement('h1');h.textContent=title;const p=document.createElement('p');p.setAttribute('role','alert');p.textContent=unavailable[lang];target.appendChild(h);target.appendChild(p);setFailed(true);});
   return()=>{disposed=true;};
- },[title,lang,country,policies,retry]);
- return <section className={s.commerce}><div ref={root}><h1>{title}</h1><p>{description}</p><p role="status">{loading[lang]}</p></div>{failed&&<button type="button" onClick={()=>setRetry(n=>n+1)}>{retryText[lang]}</button>}{storageFailed&&<p role="alert">{storageText[lang]}</p>}</section>;
+ },[title,lang,country,policies,catalogueUrl,retry]);
+ return <section className={s.commerce}><div ref={root}><h1>{title}</h1><p role="status">{loading[lang]}</p></div>{failed&&<button type="button" onClick={()=>setRetry(n=>n+1)}>{retryText[lang]}</button>}{storageFailed&&<p role="alert">{storageText[lang]}</p>}</section>;
 }
 const productTitles:Record<string,Record<string,string>>={
  lt:{couple:'Rankų liejimo rinkinys porai',couple_white:'Rankų liejimo rinkinys porai su baltais dažais',family:'Rankų liejimo rinkinys šeimai',white_paint:'Balti dažai',wooden_base:'Medinis pagrindas'},

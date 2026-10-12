@@ -32,7 +32,7 @@ export function MemoAdd({sku,paint=false,language='lt',country='LT',cartPath='/c
   try{
    const selected=[sku,...(white&&paintItem?['white_paint']:[]),...(wood&&woodItem?['wooden_base']:[])],lines=memoCartLines();
    for(const selectedSku of selected){const line=lines.find(l=>l.sku===selectedSku);if((line?.quantity??0)+qty>100){setError(text.limit);return;}}
-   for(const selectedSku of selected){const item=catalog.find(p=>p.sku===selectedSku),line=lines.find(l=>l.sku===selectedSku);if(!item||(line?.quantity??0)+qty>item.available){setError(stateText.stock);return;}}
+   for(const selectedSku of selected){const item=catalog.find(p=>p?.sku===selectedSku),line=lines.find(l=>l.sku===selectedSku);if(!item||(line?.quantity??0)+qty>item.available){setError(stateText.stock);return;}}
    for(const selectedSku of selected){const line=lines.find(l=>l.sku===selectedSku);if(line)line.quantity+=qty;else lines.push({sku:selectedSku,quantity:qty});}
    memoSaveCart(lines);
    window.location.assign(cartPath);
