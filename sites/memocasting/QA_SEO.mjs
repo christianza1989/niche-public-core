@@ -23,6 +23,8 @@ for(const page of live){
   for(const b of page.body.filter(b=>b.type==='heading'))assert.ok(ids.includes(memoSectionId(b.text)),path+' section');
   const graph=JSON.parse(r.body.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   if(page.type!=='home')assert.deepEqual(graph.find(e=>e['@type']==='BreadcrumbList').itemListElement.map(e=>new URL(e.item).pathname),memoBreadcrumbs(pkg,page,live).map(e=>e.path));
+  if(page.type==='product')assert.deepEqual(graph.find(e=>e['@type']==='Product').image,[origin+page.media[0].src],path+' visible Product image');
+  if(['products/kudikio-pedutes','products/alginato-papildymas-650g-dvieju-ranku-rinkiniui'].includes(page.slug)){assert.ok(!graph.some(e=>e['@type']==='Product'));assert.ok(!/<button/.test(r.body));}
   assert.ok(!graph.some(e=>['Offer','AggregateRating','Review','Person'].includes(e['@type'])),path+' unsupported commercial facts');
   if(page.slug==='cart')assert.ok(r.body.includes('content="noindex, nofollow"'));else assert.ok(!/<meta name="robots" content="noindex/.test(r.body));
 }
@@ -44,8 +46,10 @@ for(const path of ['/llms.txt','/llms-full.txt']){
 }
 const robots=await get('/robots.txt');assert.equal(robots.status,200);assert.ok(robots.body.includes('Allow: /'));assert.ok(robots.body.includes(origin+'/sitemap.xml'));
 const www=await get('/products/liejimo-rinkinys-porai?utm_source=qa','www.memocasting.lt');assert.equal(www.status,308);assert.equal(www.headers.location,origin+'/products/liejimo-rinkinys-porai?utm_source=qa');
-for(const path of ['/products/kudikio-pedutes','/products/seimos-rinkinys','/products/alginato-papildymas-650g-dvieju-ranku-rinkiniui','/dovanos','/produkto-sauga','/niche/memocasting','/__seo_missing']){const r=await get(path);assert.equal(r.status,404,path);assert.ok(!r.body.includes('rel="canonical"'));}
+for(const path of ['/products/seimos-rinkinys','/pl','/lv','/et','/pl/collections/all','/lv/cart','/et/gidai','/dovanos','/produkto-sauga','/niche/memocasting','/__seo_missing']){const r=await get(path);assert.equal(r.status,404,path);assert.ok(!r.body.includes('rel="canonical"'));}
 assert.equal((await get('/','unknown-domain.example')).status,404);
+const marketPlan=JSON.parse(await readFile(new URL('../../../nisiniai_puslapiai_monetizavimui/sites/memocasting/MARKET-INVENTORY.json',import.meta.url)));for(const p of marketPlan.routes.filter(p=>p.country!=='LT')){const r=await get(p.path);assert.equal(r.status,404,'private translation '+p.path);assert.ok(!r.body.includes('rel="canonical"'));}
+const owner=JSON.parse(await readFile(new URL('../../../nisiniai_puslapiai_monetizavimui/sites/memocasting/OWNER-ASSETS.json',import.meta.url)));for(const e of owner.entries.filter(e=>e.decision.startsWith('private')))for(const m of e.variants)assert.equal((await get(m.src)).status,404,'private owner media '+e.key);
 await mkdir(new URL('../../output/audits/',import.meta.url),{recursive:true});
 const report={state:'SEO_STRUCTURE_HTTP_PASS_NOT_DEPLOYED',checkedAt:new Date().toISOString(),packageSha256:createHash('sha256').update(bytes).digest('hex'),publicPages:live.length,indexablePages:indexable.length,articles:live.filter(p=>p.type==='guide').length,internalReachable:internal.size,requests:observations.length,observations,limits:['Production DNS/WAF/crawl/indexing/AI citations not measured','Offers/stock/provider details await live shop integration','Future and revoked lifecycle verified separately']};
 await writeFile(new URL('../../output/audits/memocasting-seo-readiness.json',import.meta.url),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,observations:undefined}));

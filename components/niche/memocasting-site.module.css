@@ -9,3 +9,5 @@
 
 .site .button{color:#fff}.site .button:hover{color:#fff}
 @media(max-width:600px){.productDetail>div:last-child{order:1}.productMedia{order:2}.productDetail .add{margin:0 0 35px}}
+
+.product img{display:block;width:100%;height:auto;max-height:380px;object-fit:contain;margin-bottom:24px}

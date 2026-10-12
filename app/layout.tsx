@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
+import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -41,7 +42,7 @@ export default async function RootLayout({
     const canonical = page ? `${nicheOrigin(niche)}${nichePagePath(page)}` : undefined;
     const hero = page?.media[0];
     return (
-      <html lang={niche.locale.slice(0, 2).toLowerCase()}>
+      <html lang={niche.siteId==='memocasting'&&page?memoRoute(page).language:niche.locale.slice(0, 2).toLowerCase()}>
         <head>
           <NicheStyles />
           {niche.siteId === "traktoriupadangos" && <>
@@ -59,6 +60,7 @@ export default async function RootLayout({
           <meta name="description" content={page?.description || niche.site.offer} />
           {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
           {page && memoFunctionalPage(niche,page) && <meta name="robots" content="noindex, nofollow" />}
+          {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           {page && <>
             <meta property="og:site_name" content={niche.site.name} />

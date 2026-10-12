@@ -14,8 +14,8 @@
     },
     "offer": "Rankų liejimo rinkiniai porai ir šeimai. Prisiminimas, kurį kuriate kartu.",
     "contact": {
-      "email": "info@pinet.lt",
-      "phone": ""
+      "email": "info@memorycasting.lt",
+      "phone": "+37069108251"
     }
   },
   "pages": [
@@ -38,7 +38,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinys kainuoja 32 €. Jame yra vienas alginato pakelis, 1 200 g gipso ir kibiras. Poros rinkinį galite rinktis su baltais dažais už papildomus 3 €. Šeimos rinkinys kainuoja 48 €; jame yra du alginato ir du gipso pakeliai. Tikslūs šeimos medžiagų svoriai dar tikslinami."
+          "text": "Poros rinkinys kainuoja 32 €. Jame yra vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Poros rinkinį galite rinktis su baltais dažais už papildomus 3 €. Šeimos rinkinys kainuoja 48 €; jame yra du alginato ir du gipso pakeliai. Tikslūs šeimos medžiagų svoriai dar tikslinami. Į šeimos rinkinį taip pat įeina maišymo pagaliukai. Medinis pagrindas pasirenkamas atskirai už 10 €."
         },
         {
           "type": "heading",
@@ -71,49 +71,49 @@
       "publishAt": "2026-10-11T23:02:08.535Z",
       "media": [
         {
-          "id": "5804afdf-4cb7-4000-ac96-320917b2de6d",
-          "src": "/content-assets/memocasting/5804afdf-4cb7-4000-ac96-320917b2de6d.webp",
-          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
-          "width": 1536,
-          "height": 1024,
-          "credit": "",
-          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+          "id": "754f510b-06a4-4750-b9be-c1f7a04a745e",
+          "src": "/content-assets/memocasting/754f510b-06a4-4750-b9be-c1f7a04a745e.webp",
+          "alt": "Memory Casting rinkinio ir rankų liejinio vaizdas su pakuotėmis bei mediniu pagrindu.",
+          "width": 1600,
+          "height": 1128,
+          "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         },
         {
-          "id": "e5177d7e-111f-4da2-acff-bcbed7cc6f40",
-          "src": "/content-assets/memocasting/e5177d7e-111f-4da2-acff-bcbed7cc6f40.webp",
-          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "id": "c5b26ed7-8ea4-4e87-b26a-839035005586",
+          "src": "/content-assets/memocasting/c5b26ed7-8ea4-4e87-b26a-839035005586.webp",
+          "alt": "Memory Casting rinkinio ir rankų liejinio vaizdas su pakuotėmis bei mediniu pagrindu.",
           "width": 1200,
-          "height": 800,
-          "credit": "",
-          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+          "height": 846,
+          "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         },
         {
-          "id": "c7e6a042-7cd9-4930-b79f-b113ce53f502",
-          "src": "/content-assets/memocasting/c7e6a042-7cd9-4930-b79f-b113ce53f502.webp",
-          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "id": "3cbccf4c-a1d7-4c51-9ad9-41fc1045dd3d",
+          "src": "/content-assets/memocasting/3cbccf4c-a1d7-4c51-9ad9-41fc1045dd3d.webp",
+          "alt": "Memory Casting rinkinio ir rankų liejinio vaizdas su pakuotėmis bei mediniu pagrindu.",
           "width": 800,
-          "height": 533,
-          "credit": "",
-          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+          "height": 564,
+          "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         },
         {
-          "id": "34c54424-af5b-4930-b592-db17df45a7ae",
-          "src": "/content-assets/memocasting/34c54424-af5b-4930-b592-db17df45a7ae.webp",
-          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "id": "9bf3253c-bb64-4a64-9d64-c61191bcf0bf",
+          "src": "/content-assets/memocasting/9bf3253c-bb64-4a64-9d64-c61191bcf0bf.webp",
+          "alt": "Memory Casting rinkinio ir rankų liejinio vaizdas su pakuotėmis bei mediniu pagrindu.",
           "width": 640,
-          "height": 427,
-          "credit": "",
-          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+          "height": 451,
+          "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         },
         {
-          "id": "e369148e-a851-4b66-8abb-886b134a64b6",
-          "src": "/content-assets/memocasting/e369148e-a851-4b66-8abb-886b134a64b6.webp",
-          "alt": "Dviejų suaugusiųjų susikibusios rankos prie tuščio dovanų laiško; redakcinė iliustracija.",
+          "id": "a7293a72-7638-4d0c-8540-1c9704e974ee",
+          "src": "/content-assets/memocasting/a7293a72-7638-4d0c-8540-1c9704e974ee.webp",
+          "alt": "Memory Casting rinkinio ir rankų liejinio vaizdas su pakuotėmis bei mediniu pagrindu.",
           "width": 360,
-          "height": 240,
-          "credit": "",
-          "rights": "Originali AI redakcinė iliustracija, sugeneruota šiam projektui; ne produktas ar kliento nuotrauka."
+          "height": 254,
+          "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         }
       ],
       "links": [
@@ -131,11 +131,11 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "b8f133c67ff79e759f284c191d945817d632aaf75264e8f51a0e49f2b5118327",
+      "revisionHash": "0f6d868390c312a47ac76a2831f4915e619a64b4066ae1a4b4691d5e8cbd83e1",
       "approval": {
         "status": "approved",
-        "revisionHash": "b8f133c67ff79e759f284c191d945817d632aaf75264e8f51a0e49f2b5118327",
-        "approvedAt": "2026-10-12T00:36:54.795Z",
+        "revisionHash": "0f6d868390c312a47ac76a2831f4915e619a64b4066ae1a4b4691d5e8cbd83e1",
+        "approvedAt": "2026-10-12T02:09:23.069Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -157,7 +157,8 @@
           "items": [
             "Vienas alginato pakelis.",
             "1 200 g gipso.",
-            "Kibiras."
+            "Kibiras.",
+            "Maišymo pagaliukai."
           ]
         },
         {
@@ -185,10 +186,64 @@
         {
           "type": "paragraph",
           "text": "Patikrinkite instrukcijos informaciją ir apgalvokite, ar dovanosite rinkinį, ar planuosite bendrą veiklą. Tikras mokėjimas dar neįjungtas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirenkamas medinis pagrindas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Medinį pagrindą galima pasirinkti atskirai už 10 €. Jis neįeina į bazinę rinkinio kainą. Pagrindo matmenys ir medžio rūšis dar nepatvirtinti. Nuotraukoje matomas liejinys pateikiamas kaip vaizdo pavyzdys."
+        },
+        {
+          "type": "image",
+          "assetId": "1aae0e50-d485-4f03-b647-e6699d271afe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodytas bazinio rinkinio siuntos svoris ir matmenys neapima nepatvirtintų papildomos komplektacijos pakuotės duomenų. Galutinę siuntą prekybos serveris turi įvertinti pagal konkretų pasirinkimą. Vietiniame pirkimo bandyme šio priedo pasirinkimas bus prijungtas tik prie serverio patvirtintos kainos ir pakuotės."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.540Z",
-      "media": [],
+      "media": [
+        {
+          "id": "665e2e7c-aaad-439c-bb4d-fa798a0d26ef",
+          "src": "/content-assets/memocasting/665e2e7c-aaad-439c-bb4d-fa798a0d26ef.webp",
+          "alt": "Baltas susikibusių poros rankų liejinys rožiniame ir žydrame fone.",
+          "width": 533,
+          "height": 533,
+          "credit": "Rankų liejinio pavyzdys; rinkinio komplektacija aprašyta tekste.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "e772a569-61f8-4162-87ab-e40d8414f178",
+          "src": "/content-assets/memocasting/e772a569-61f8-4162-87ab-e40d8414f178.webp",
+          "alt": "Baltas susikibusių poros rankų liejinys rožiniame ir žydrame fone.",
+          "width": 360,
+          "height": 360,
+          "credit": "Rankų liejinio pavyzdys; rinkinio komplektacija aprašyta tekste.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "1aae0e50-d485-4f03-b647-e6699d271afe",
+          "src": "/content-assets/memocasting/1aae0e50-d485-4f03-b647-e6699d271afe.webp",
+          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
+          "width": 400,
+          "height": 400,
+          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7",
+          "src": "/content-assets/memocasting/8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7.webp",
+          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
+          "width": 360,
+          "height": 360,
+          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        }
+      ],
       "links": [
         {
           "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
@@ -204,11 +259,11 @@
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "45de01443ec77879a44c909724595899f9cd72e6ec6f7660529b1e037f7bd1fd",
+      "revisionHash": "ee374a9374a936b2bd6a9a47e3091eb879a9ac27edfd7b7037466f947d9cae8b",
       "approval": {
         "status": "approved",
-        "revisionHash": "45de01443ec77879a44c909724595899f9cd72e6ec6f7660529b1e037f7bd1fd",
-        "approvedAt": "2026-10-11T23:04:05.765Z",
+        "revisionHash": "ee374a9374a936b2bd6a9a47e3091eb879a9ac27edfd7b7037466f947d9cae8b",
+        "approvedAt": "2026-10-12T02:09:23.079Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -229,7 +284,8 @@
           "type": "list",
           "items": [
             "Du alginato pakeliai.",
-            "Du gipso pakeliai."
+            "Du gipso pakeliai.",
+            "Maišymo pagaliukai."
           ]
         },
         {
@@ -257,10 +313,64 @@
         {
           "type": "paragraph",
           "text": "Rinkinių palyginimas padės patikrinti žinomus skirtumus. Instrukcijos puslapyje rasite pasiruošimo ribas; tikslūs medžiagų parametrai bus pridėti po patvirtinimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirenkamas medinis pagrindas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Medinį pagrindą galima pasirinkti atskirai už 10 €. Jis neįeina į bazinę rinkinio kainą. Pagrindo matmenys ir medžio rūšis dar nepatvirtinti. Nuotraukoje matomas liejinys pateikiamas kaip vaizdo pavyzdys."
+        },
+        {
+          "type": "image",
+          "assetId": "1aae0e50-d485-4f03-b647-e6699d271afe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nurodytas bazinio rinkinio siuntos svoris ir matmenys neapima nepatvirtintų papildomos komplektacijos pakuotės duomenų. Galutinę siuntą prekybos serveris turi įvertinti pagal konkretų pasirinkimą. Vietiniame pirkimo bandyme šio priedo pasirinkimas bus prijungtas tik prie serverio patvirtintos kainos ir pakuotės."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.545Z",
-      "media": [],
+      "media": [
+        {
+          "id": "c6bb0722-4dcd-49ef-a1ba-0290ae2a597d",
+          "src": "/content-assets/memocasting/c6bb0722-4dcd-49ef-a1ba-0290ae2a597d.webp",
+          "alt": "Kelių susikibusių rankų liejinys rožiniame ir žydrame fone.",
+          "width": 533,
+          "height": 533,
+          "credit": "Liejinio pavyzdys; nuotrauka nenustato rinkinio dalyvių skaičiaus.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "46879fea-b147-40cb-9e4c-42a455f94c0a",
+          "src": "/content-assets/memocasting/46879fea-b147-40cb-9e4c-42a455f94c0a.webp",
+          "alt": "Kelių susikibusių rankų liejinys rožiniame ir žydrame fone.",
+          "width": 360,
+          "height": 360,
+          "credit": "Liejinio pavyzdys; nuotrauka nenustato rinkinio dalyvių skaičiaus.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "1aae0e50-d485-4f03-b647-e6699d271afe",
+          "src": "/content-assets/memocasting/1aae0e50-d485-4f03-b647-e6699d271afe.webp",
+          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
+          "width": 400,
+          "height": 400,
+          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7",
+          "src": "/content-assets/memocasting/8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7.webp",
+          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
+          "width": 360,
+          "height": 360,
+          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        }
+      ],
       "links": [
         {
           "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
@@ -276,11 +386,11 @@
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "0eab5e4b039c63adc714208eb33e9add81448bafafa0c00fba712f83b6c5d923",
+      "revisionHash": "650757aad1d3d48df43543e92acac5f0e58064fb00b66e35cddd5711c8cc0a51",
       "approval": {
         "status": "approved",
-        "revisionHash": "0eab5e4b039c63adc714208eb33e9add81448bafafa0c00fba712f83b6c5d923",
-        "approvedAt": "2026-10-11T23:04:05.770Z",
+        "revisionHash": "650757aad1d3d48df43543e92acac5f0e58064fb00b66e35cddd5711c8cc0a51",
+        "approvedAt": "2026-10-12T02:09:23.087Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -294,7 +404,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso ir kibiras. Poros variantas su baltais dažais — 35 €. Šeimai: 48 €, du alginato ir du gipso pakeliai."
+          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Poros variantas su baltais dažais — 35 €. Šeimai: 48 €, du alginato ir du gipso pakeliai."
         },
         {
           "type": "paragraph",
@@ -302,7 +412,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Rinkitės pagal žmones ir konkrečiam rinkiniui patvirtintą instrukciją. Šeimos pakelių svoriai, dalyvių ribos ir tikros produktų nuotraukos dar ruošiamos. Kūdikio pėdutės ar alginato papildymas šiuo metu neparduodami."
+          "text": "Rinkitės pagal žmones ir konkrečiam rinkiniui patvirtintą instrukciją. Šeimos pakelių svoriai ir dalyvių ribos dar tikslinami. Rinkinių vaizdus pateikė savininkas; juose matomi pavyzdžiai nepatvirtina neaprašytų savybių. Kūdikio pėdutės ar alginato papildymas šiuo metu neparduodami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maišymo pagaliukai įeina į poros ir šeimos rinkinius. Medinis pagrindas yra atskirai pasirenkamas priedas už 10 €. Balti dažai prie poros rinkinio lieka pasirenkami už 3 €. Priedų pakuotės duomenys tikrinami atskirai nuo bazinių siuntų."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.550Z",
@@ -322,11 +436,11 @@
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "2d27dbe70f11414445a5e87df28a5baa6c6e10e7a373e5c8ff58bbdab54e48f0",
+      "revisionHash": "54465cc648e50f772ae0552a8539843c6509065edda483e624af4239f954097a",
       "approval": {
         "status": "approved",
-        "revisionHash": "2d27dbe70f11414445a5e87df28a5baa6c6e10e7a373e5c8ff58bbdab54e48f0",
-        "approvedAt": "2026-10-12T00:36:54.801Z",
+        "revisionHash": "54465cc648e50f772ae0552a8539843c6509065edda483e624af4239f954097a",
+        "approvedAt": "2026-10-12T02:09:23.097Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -518,7 +632,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinio kaina yra 32 €. Pasirinkus baltus dažus, kaina — 35 €. Patvirtinta bazinė komplektacija: vienas alginato pakelis, 1 200 g gipso ir kibiras. Dažų variantą rinkitės tik supratę jo paskirtį pagal būsimą patvirtintą instrukciją; jis nesuteikia garantijos apie konkretų rezultatą."
+          "text": "Poros rinkinio kaina yra 32 €. Pasirinkus baltus dažus, kaina — 35 €. Patvirtinta bazinė komplektacija: vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Dažų variantą rinkitės tik supratę jo paskirtį pagal būsimą patvirtintą instrukciją; jis nesuteikia garantijos apie konkretų rezultatą."
         },
         {
           "type": "paragraph",
@@ -588,11 +702,11 @@
         }
       ],
       "id": "ff93abdd-8aae-4992-985e-f624ff8d874e",
-      "revisionHash": "91047eeb255d2e287049df709414eb303e16f45b61a0cefcd957e62d927ad155",
+      "revisionHash": "077cecbaf50a052cc6470f5889078994c79c6d7d768daf093c2384b7c4f067d3",
       "approval": {
         "status": "approved",
-        "revisionHash": "91047eeb255d2e287049df709414eb303e16f45b61a0cefcd957e62d927ad155",
-        "approvedAt": "2026-10-11T23:04:05.786Z",
+        "revisionHash": "077cecbaf50a052cc6470f5889078994c79c6d7d768daf093c2384b7c4f067d3",
+        "approvedAt": "2026-10-12T02:09:23.105Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -939,11 +1053,26 @@
         },
         {
           "type": "paragraph",
-          "text": "Vietinis projektas atkuria parduotuvės pasirinkimo ir užsakymo kelią. Tikra prekyba dar neaktyvuota. Įmonės kodas, adresas, pilna produkto informacija ir pagalbos gavimo patikra bus pateikti prieš paleidimą."
+          "text": "Redakcija rengia pasirinkimo ir dovanos planavimo gidus. Medžiagų saugos, amžiaus ribų ar techninių instrukcijų nepakeičia redakcinės idėjos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pardavėjas ir kontaktai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pardavėjas: MB Memocasting.",
+            "Įmonės kodas: 306026827.",
+            "El. paštas: info@memorycasting.lt.",
+            "Telefonas: +37069108251.",
+            "Kontaktinis ir grąžinimo adresas: Molynės g. 2C, Vilnius, LT-02211."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Redakcija rengia pasirinkimo ir dovanos planavimo gidus. Medžiagų saugos, amžiaus ribų ar techninių instrukcijų nepakeičia redakcinės idėjos."
+          "text": "Kontaktinis ir grąžinimo adresas pateiktas savininko. Registrų centro 2026-05-03 leidinyje buveinė nurodyta atskirai: Pupinės g. 10-55, Vilnius, LT-02206. Šio registro įrašo nepateikiame kaip vėliau atnaujinto adreso patvirtinimo. Prieš tikrą prekybos paleidimą abu adreso vaidmenys turi būti galutinai sutikrinti."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.578Z",
@@ -958,12 +1087,19 @@
           "label": "Pagalba"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.registrucentras.lt/jar/infleid/download.do?oid=336173",
+          "label": "Registrų centro 2026-05-03 informacinis leidinys",
+          "reason": "MB Memocasting įmonės kodas ir šiame datuotame leidinyje pateikta buveinė patikrinti. Tai nėra dabartinio siuntimo ar savininko kontaktinio adreso šaltinis."
+        }
+      ],
       "id": "457cc2a3-775e-421a-8869-341e1eef359d",
-      "revisionHash": "616bfaa2f2aa0f762dd17d3ab2060b4b8db5687c234f4879c5f12071f15d5847",
+      "revisionHash": "51034e20373555c744ec2d2b6b2446871a9fa1b0c89d1ab5576e7fa039ded9d3",
       "approval": {
         "status": "approved",
-        "revisionHash": "616bfaa2f2aa0f762dd17d3ab2060b4b8db5687c234f4879c5f12071f15d5847",
-        "approvedAt": "2026-10-11T23:04:05.803Z",
+        "revisionHash": "51034e20373555c744ec2d2b6b2446871a9fa1b0c89d1ab5576e7fa039ded9d3",
+        "approvedAt": "2026-10-12T02:09:23.115Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1038,7 +1174,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Šioje vietinėje peržiūroje formos duomenys saugomi testinėje aplinkoje, laiškų pristatymas išjungtas. Naudokite tik testinius kontaktus. Patvirtintas Memocasting pagalbos adresas, rekvizitai ir atsakymo gavimo patikra ruošiami prieš tikrą paleidimą."
+          "text": "Klientų aptarnavimo kontaktai: info@memorycasting.lt, +37069108251. Kontaktinis ir grąžinimo adresas: Molynės g. 2C, Vilnius, LT-02211. Šioje vietinėje peržiūroje formos duomenys saugomi testinėje aplinkoje, automatinis laiškų pristatymas išjungtas. Naudokite tik testinius kontaktus; tikras formos laiško gavimas bus priimtas atskiru bandymu."
         },
         {
           "type": "paragraph",
@@ -1049,11 +1185,11 @@
       "media": [],
       "links": [],
       "id": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
-      "revisionHash": "ce4f45ac1e8f1350676ec796c702457fda3d3ac8c5edc2a6966121a1d8bd1459",
+      "revisionHash": "70b8dd7612b6b1af3b3e5a5f0266bcdf7caacc5ac5e55e103a92ad7b98f85f44",
       "approval": {
         "status": "approved",
-        "revisionHash": "ce4f45ac1e8f1350676ec796c702457fda3d3ac8c5edc2a6966121a1d8bd1459",
-        "approvedAt": "2026-10-11T23:04:05.810Z",
+        "revisionHash": "70b8dd7612b6b1af3b3e5a5f0266bcdf7caacc5ac5e55e103a92ad7b98f85f44",
+        "approvedAt": "2026-10-12T02:09:23.122Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1075,18 +1211,18 @@
         },
         {
           "type": "paragraph",
-          "text": "Tikras vežėjo paslaugų sąrašas, siuntimo adresas, terminai ir galutinės rinkų kainos dar nepriimti. LT, PL, LV ir EE yra planuojamos rinkos, tačiau vietinis checkout šiuo metu veikia tik su LT testiniais duomenimis."
+          "text": "Siuntėjo adresas — Molynės g. 2C, Vilnius, LT-02211. Bazinių rinkinių pakuotės duomenys pateikti savininko; siuntos su priedais vertinamos atskirai. Tikras vežėjo paslaugų sąrašas, terminai ir galutinės rinkų pristatymo kainos dar nepriimti. LT, PL, LV ir EE struktūra planuojama atskirai; dabartinis vietinis pirkimo bandymas dar nepatvirtina realaus siuntimo šiose šalyse."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.594Z",
       "media": [],
       "links": [],
       "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
-      "revisionHash": "81c2f6d61af586de54d575b188911358bc62692034c75f129e450ee0a5bce5db",
+      "revisionHash": "40619c18dffdca19d7a0bcb1ec2aa6f8628585e5c100c2e42118d2d69f85aa7b",
       "approval": {
         "status": "approved",
-        "revisionHash": "81c2f6d61af586de54d575b188911358bc62692034c75f129e450ee0a5bce5db",
-        "approvedAt": "2026-10-11T23:04:05.815Z",
+        "revisionHash": "40619c18dffdca19d7a0bcb1ec2aa6f8628585e5c100c2e42118d2d69f85aa7b",
+        "approvedAt": "2026-10-12T02:09:23.132Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1104,7 +1240,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tikros prekybos grąžinimo adresas, pranešimo kanalas ir pilnos sąlygos dar ruošiami. Kol jie nepriimti, šis puslapis nėra galutinė e. parduotuvės grąžinimo politika. Jei klausimas susijęs su nepavykusiu liejimu, nurodykite rinkinio bei medžiagos duomenis ir proceso etapą; kliento kaltės nenustatome iš vieno sakinio."
+          "text": "Dėl grąžinimo ar galimo prekės trūkumo kreipkitės info@memorycasting.lt arba +37069108251. Savininko nurodytas grąžinimo adresas — Molynės g. 2C, Vilnius, LT-02211. Ši vietinė peržiūra dar nėra tikra prekyba; pilnos vartotojui taikomos sąlygos ir grąžinimo procesas turi būti priimti prieš mokėjimų įjungimą. Jei klausimas susijęs su nepavykusiu liejimu, nurodykite rinkinio bei medžiagos duomenis ir proceso etapą; kliento kaltės nenustatome iš vieno sakinio."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.599Z",
@@ -1116,11 +1252,11 @@
         }
       ],
       "id": "53ac4b89-8168-4762-887f-438c0b5aba21",
-      "revisionHash": "605f61af24280ac70d5a67d2ce8a6e8c74731e39511727d50ef44933ea566052",
+      "revisionHash": "7845a1449ecfb07daf882a23497f6403718f868007f07592a79aa430349a823e",
       "approval": {
         "status": "approved",
-        "revisionHash": "605f61af24280ac70d5a67d2ce8a6e8c74731e39511727d50ef44933ea566052",
-        "approvedAt": "2026-10-11T23:04:05.820Z",
+        "revisionHash": "7845a1449ecfb07daf882a23497f6403718f868007f07592a79aa430349a823e",
+        "approvedAt": "2026-10-12T02:09:23.139Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1134,7 +1270,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Ši peržiūra skirta vietiniam bandymui. Naudokite tik testinius vardus, adresus ir kontaktus. Operatorius — MB Memocasting; galutiniai rekvizitai ir tikra duomenų tvarkymo tvarka dar ruošiami."
+          "text": "Duomenų valdytojas — MB Memocasting, įmonės kodas 306026827. Dėl duomenų tvarkymo galima kreiptis info@memorycasting.lt. Ši peržiūra skirta vietiniam bandymui: naudokite tik testinius vardus, adresus ir kontaktus."
         },
         {
           "type": "heading",
@@ -1172,11 +1308,11 @@
       "media": [],
       "links": [],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "b3c72867cb02a91ed586d45b5c3b58a337891c2249db0bb2900430b6f739d4fa",
+      "revisionHash": "997a70fede0f434b064024b7452b93d7eb7fca65036a8daab1517c2be27470bb",
       "approval": {
         "status": "approved",
-        "revisionHash": "b3c72867cb02a91ed586d45b5c3b58a337891c2249db0bb2900430b6f739d4fa",
-        "approvedAt": "2026-10-11T23:04:05.823Z",
+        "revisionHash": "997a70fede0f434b064024b7452b93d7eb7fca65036a8daab1517c2be27470bb",
+        "approvedAt": "2026-10-12T02:09:23.147Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1235,6 +1371,193 @@
         "status": "approved",
         "revisionHash": "279b9da7e63ffddb2a56176cdb0cce01e0bae2899ec83206a6dd2b0678c32dcc",
         "approvedAt": "2026-10-11T23:04:05.831Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "products/alginato-papildymas-650g-dvieju-ranku-rinkiniui",
+      "title": "Alginato papildymas: ką patikrinti prieš papildant rinkinį?",
+      "description": "Papildymo suderinamumo patikra: medžiagos žymėjimas, instrukcija ir likusi rinkinio dalis. Dabartinis Memocasting papildymo pasiūlymas dar nepatvirtintas.",
+      "intent": "Patikrinti ankstesnio papildymo pasiūlymo dabartinę informaciją ir pasiruošti klausimą apie konkretų rinkinį.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šis adresas išsaugotas žmonėms, ieškantiems ankstesnio Memocasting alginato papildymo. Dabartinė papildymo komplektacija, kaina ir galimybė jį užsisakyti dar nepatvirtintos. Adrese esantis „650g“ yra istorinio adreso dalis; jis nėra šiandien parduodamo pakelio svorio ar tinkamumo jūsų rinkiniui patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Papildymas nėra visas naujas rinkinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš ieškodami vienos medžiagos, surašykite, ką jau turite: rinkinio pavadinimą, alginato ir gipso pakelių žymėjimą, indą bei naudojimo instrukciją. Atskiras papildymas neatsako, ar likusi rinkinio dalis pakankama naujam sumanymui. Šiuo puslapiu nepatvirtiname bandymų skaičiaus ar galimybės pakartotinai naudoti jau panaudotas medžiagas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Suderinamumo klausimų lapas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kokio rinkinio ir kokios medžiagos papildymo ieškote? Užrašykite tikslų pavadinimą.",
+            "Ar turite konkrečiam pakeliui skirtą instrukciją ir jo žymėjimą?",
+            "Ar ketinate papildyti neatidarytas atsargas, ar kartoti jau atliktą darbą? Tai skirtingi klausimai.",
+            "Kokios kitos rinkinio dalys liko ir kokia jų būklė?",
+            "Kuri informacija turi būti patvirtinta prieš pasirenkant papildymą: kiekis, suderinamumas, galiojimas ar naudojimo eiga?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kiekio neatspėkite iš seno adreso"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vandens santykiai, darbo laikas ir reikalingas medžiagų kiekis turi būti susieti su konkrečiu gaminiu bei jo naudojimo dokumentais. Seno prekės pavadinimo, panašios pakuotės ar kito pardavėjo instrukcijos tam nepakanka. Jei savo rinkinio parametrų neturite, instrukcijos puslapis padės suprasti, kurių duomenų ieškoti prieš darbą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip tiksliai pateikti klausimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalbos aprašymo gide rasite informacijos rinkimo lapą. Klausime atskirkite turimus faktus nuo lūkesčio: pavyzdžiui, „turiu šį rinkinį ir noriu patikrinti, ar jam siūlomas papildymas“, o ne „man tikrai pakaks vieno pakelio“. Nurodykite žymėjimą ir turimas instrukcijas; viešai neskelbkite užsakymo prieigos duomenų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje galite pateikti surinktą klausimą. Dabartinėje vietinėje peržiūroje forma naudojama bandymui, tikras pagalbos laiškų gavimas dar nepriimtas. Kai papildymo produkto duomenys bus patvirtinti, šiame pačiame adrese bus galima pateikti konkretų pasiūlymą. Iki tol čia nėra pirkimo mygtuko ar nepatvirtintos prekės kainos."
+        }
+      ],
+      "publishAt": "2026-10-12T01:37:37.151Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "instrukcijos puslapis"
+        },
+        {
+          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
+          "label": "Pagalbos aprašymo gide"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "id": "330139f8-8078-4d03-b859-6602d4745f13",
+      "revisionHash": "7fe63104ffea420db13781571dcbc40811159ff919a2eea75e30b38b111eae8b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7fe63104ffea420db13781571dcbc40811159ff919a2eea75e30b38b111eae8b",
+        "approvedAt": "2026-10-12T01:38:30.417Z",
+        "actorId": "memocasting-editorial-agent"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "faq",
+      "slug": "products/kudikio-pedutes",
+      "title": "Pėdučių liejiniai: kokios produkto informacijos reikia?",
+      "description": "Ankstesnio pėdučių rinkinio adresas ir dokumentų patikros lapas. Dabartinė komplektacija, kaina bei tinkamumo vaikams duomenys dar nepatvirtinti.",
+      "intent": "Suprasti, kokių konkretaus pėdučių rinkinio dokumentų ir pasiūlymo faktų trūksta, nepakeičiant jų bendrais saugos pažadais.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Pėdučių liejinys gali būti prisiminimo idėja, tačiau jo vaizdas nepasako, kokios medžiagos buvo naudotos ir kam jos tinkamos. Šiame sename Memocasting adrese pateikiame informacijos patikros lapą. Dabartinis kūdikio pėdučių rinkinys, jo kaina, komplektacija ir naudojimo amžiaus ribos dar nepatvirtinti; pirkimo šiame puslapyje nėra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuotrauka ir produkto dokumentai atsako skirtingus klausimus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Savininko pateiktame vaizde matomi du pėdučių liejiniai. Vaizdas padeda suprasti prisiminimo išvaizdos idėją, tačiau nepatvirtina naudojimo būdo, medžiagų sudėties, bandymo ar produkto tinkamumo kūdikiui. Nuotrauka nėra saugos instrukcija ar konkretaus kliento istorija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką turi paaiškinti konkretaus gaminio informacija?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tikslų rinkinio pavadinimą ir medžiagų žymėjimą.",
+            "Kuriam naudojimui gaminys skirtas ir kokios jo amžiaus bei kitų naudojimo ribos.",
+            "Kokie dokumentai paaiškina kontaktą su oda ir atsargumo priemones.",
+            "Kokia instrukcija taikoma būtent šioms medžiagoms ir kiekiams.",
+            "Kokiais patvirtintais duomenimis remiasi pažadai apie rezultatą ar dalyvių skaičių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šeimos pavadinimas nėra atsakymas apie kūdikį"
+        },
+        {
+          "type": "paragraph",
+          "text": "Memocasting turi atskirą šeimos rinkinio aprašą, tačiau vien pavadinimas „šeimai“ nepatvirtina, kad rinkinys tinka kūdikio pėdutėms. Neperkeliame poros ar šeimos rinkinio naudojimo į šį puslapį ir nenustatome tinkamumo pagal nuotraukoje matomą liejinio dydį. Šių klausimų turi pakakti konkretaus produkto informacijai patikrinti, o ne naudojimo būdui išgalvoti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimą susiekite su turimu gaminiu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jau turite rinkinį, pasižymėkite pavadinimą, pakelių žymėjimą ir instrukcijos versiją. Instrukcijos puslapis padės atskirti produkto dokumentus nuo bendro internetinio vaizdo įrašo. Nepavykusio liejinio pagalbos aprašas skirtas pastebėjimams surinkti; jis taip pat nepakeičia tinkamumo ar saugos dokumentų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontaktų puslapyje nurodykite, kokio konkretaus gaminio informaciją norite patikrinti. Dabartinė vietinė forma skirta bandymui, tikras pagalbos laiškų gavimas dar nepriimtas. Kai turėsime patvirtintą pėdučių rinkinio pasiūlymą ir jo dokumentus, šiame adrese galėsime aiškiai pateikti faktus. Kol jų nėra, nežadame nei prekės prieinamumo, nei naudojimo tinkamumo."
+        }
+      ],
+      "publishAt": "2026-10-12T01:37:37.158Z",
+      "media": [
+        {
+          "id": "80ee3c1a-88a2-445b-9aef-e01f7870f223",
+          "src": "/content-assets/memocasting/80ee3c1a-88a2-445b-9aef-e01f7870f223.webp",
+          "alt": "Du pėdučių liejiniai rožiniame ir žydrame fone.",
+          "width": 533,
+          "height": 533,
+          "credit": "Liejinių pavyzdys; produkto tinkamumas ir pardavimo duomenys dar nepatvirtinti.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "7a7f154b-a4ee-43b1-a0bf-a236766e384a",
+          "src": "/content-assets/memocasting/7a7f154b-a4ee-43b1-a0bf-a236766e384a.webp",
+          "alt": "Du pėdučių liejiniai rožiniame ir žydrame fone.",
+          "width": 360,
+          "height": 360,
+          "credit": "Liejinių pavyzdys; produkto tinkamumas ir pardavimo duomenys dar nepatvirtinti.",
+          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
+          "label": "Instrukcijos puslapis"
+        },
+        {
+          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
+          "label": "pagalbos aprašas"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Kontaktų puslapyje"
+        }
+      ],
+      "id": "ef4ab657-b8db-4c57-abe0-3f5c395be67e",
+      "revisionHash": "7ac7dfe371c95f75bdc1056a03f677ed222f48f288066e3f0ce70ac5c9be2b74",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7ac7dfe371c95f75bdc1056a03f677ed222f48f288066e3f0ce70ac5c9be2b74",
+        "approvedAt": "2026-10-12T01:38:30.423Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1707,5 +2030,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-12T00:36:54.819Z"
+  "generatedAt": "2026-10-12T02:09:23.165Z"
 }

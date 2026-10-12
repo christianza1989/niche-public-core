@@ -1,8 +1,15 @@
 {
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
-  "mailRecipientsBySite": {},
-  "contactsBySite": {"memocasting":{"operatorName":"MB Memocasting","email":"info@pinet.lt"}},
+  "mailRecipientsBySite": {
+    "memocasting": "info@memorycasting.lt"
+  },
+  "contactsBySite": {
+    "memocasting": {
+      "operatorName": "MB Memocasting",
+      "email": "info@memorycasting.lt"
+    }
+  },
   "networkDomains": [
     "akmenas.lt",
     "apartmentstrakai.lt",

@@ -23,6 +23,6 @@ check('Production host bridge fails closed',(await call('/prekyba/catalog',{host
 check('Unknown tenant denied',(await call('/prekyba/catalog',{host:'unknown.example'})).status===404);
 check('Cross-origin write denied',(await call('/prekyba/quote',{method:'POST',body:input,headers:{Origin:'https://other.example'}})).status===403);
 let oversizedDenied=false,oversizedTransport='';try{const r=await fetch(origin+'/prekyba/quote',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({padding:'x'.repeat(66000)})});oversizedDenied=r.status===413;oversizedTransport='HTTP '+r.status;}catch(e){oversizedDenied=e.code==='ECONNRESET'||e.cause?.code==='ECONNRESET';oversizedTransport=oversizedDenied?'connection closed at rejection boundary':'unexpected error';}check('Oversized write bounded and rejected (413 or closed connection)',oversizedDenied);results.push({name:'Oversized response transport',observation:oversizedTransport});
-check('Unapproved legacy product remains 404',(await call('/products/kudikio-pedutes')).status===404);
+check('Unapproved legacy product remains 404',(await call('/products/seimos-rinkinys')).status===404);
 await mkdir('output/audits',{recursive:true});await writeFile('output/audits/memocasting-http.json',JSON.stringify({checkedAt:new Date().toISOString(),origin,synthetic:true,paymentAndMailOff:true,results},null,2));
 console.log(JSON.stringify({passed:results.filter(r=>r.result==='PASS').length,failed:0,synthetic:true}));
