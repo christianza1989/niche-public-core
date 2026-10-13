@@ -2,7 +2,12 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
-  "contactsBySite": {},
+  "contactsBySite": {
+    "parasoplansetes": {
+      "operatorName": "Parašo planšetės.lt",
+      "email": "sales@parasoplansetes.lt"
+    }
+  },
   "networkDomains": [
     "akmenas.lt",
     "apartmentstrakai.lt",

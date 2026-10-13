@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element -- Native navigation and responsive approved WebP media. */
 import { nichePagePath, type NicheBlock, type NicheMedia, type NichePage, type NichePackage } from "@/lib/niche-sites";
 import { nicheJsonLd } from "@/lib/niche-seo";
-import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheBreadcrumbs } from "@/lib/niche-schema-core.mjs";
 import { imageSrcSet, visibleImageCredit } from "@/lib/niche-media.mjs";
 import { LinkedText } from "./linked-text";
@@ -111,7 +110,6 @@ function FooterLinks({ pages, items }: { pages: NichePage[]; items: readonly Foo
   })}</ul>;
 }
 function Footer({ pkg, livePages }: { pkg: NichePackage; livePages: NichePage[] }) {
-  const operator = nicheNetworkContact(pkg.siteId).operatorName;
   const year = new Intl.DateTimeFormat("lt-LT", { year: "numeric", timeZone: pkg.site.timezone }).format(new Date());
   const groups: Array<{ id: string; title: string; links: FooterLink[] }> = [
     { id: "footer-solutions", title: "StepOver sprendimai", links: [
@@ -133,16 +131,15 @@ function Footer({ pkg, livePages }: { pkg: NichePackage; livePages: NichePage[] 
   ];
   return <footer className={styles.footerBand}><div className={styles.footer}>
     <div className={styles.footerMain}>
-      <div className={styles.footerIdentity}><Brand /><p>Svetainę administruoja <strong>{operator}</strong>.</p>
+      <div className={styles.footerIdentity}><Brand />
         <a className={styles.footerContact} href={`mailto:${pkg.site.contact.email}`}>{pkg.site.contact.email}</a>
         {pkg.site.contact.phone && <a className={styles.footerContact} href={`tel:${pkg.site.contact.phone.replace(/[^+0-9]/g, "")}`}>{pkg.site.contact.phone}</a>}
       </div>
       {groups.filter(group => group.links.some(([slug]) => livePages.some(p => p.slug === slug))).map(group =>
         <nav key={group.id} aria-labelledby={group.id}><h2 id={group.id}>{group.title}</h2><FooterLinks pages={livePages} items={group.links} /></nav>)}
     </div>
-    <div className={styles.footerBottom}><p>© {year} {operator}</p>
+    <div className={styles.footerBottom}><p>© {year} Parašo planšetės.lt</p>
       <nav aria-label="Teisinė informacija"><FooterLinks pages={livePages} items={[["privatumas", "Privatumo politika"], ["naudojimo-salygos", "Naudojimo sąlygos"]]} /></nav>
-      <p className={styles.attribution}>Mūsų verslas automatizuotas su <a href="https://verslomatika.lt/" rel="noopener noreferrer">verslomatika.lt</a></p>
     </div>
   </div></footer>;
 }
