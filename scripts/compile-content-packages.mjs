@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateContentPackage } from "./content-package-core.mjs";
 import { validateV2Admission, assertPreviewSandbox } from './content-v2-admission.mjs';
+import { validateNichePathAliases } from '../lib/niche-path-aliases.mjs';
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const packagesRoot = path.join(root, "content-packages");
@@ -49,6 +50,7 @@ for (const entry of entries) {
 }
 
 packages.sort((a, b) => a.siteId.localeCompare(b.siteId));
+validateNichePathAliases(JSON.parse(await readFile(path.join(root,'config/niche-path-aliases.json'),'utf8')),packages);
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(packages)}\n`, "utf8");
 await writeFile(path.join(root,'lib/generated/content-admissions.json'),`${JSON.stringify(admissions)}\n`,'utf8');
