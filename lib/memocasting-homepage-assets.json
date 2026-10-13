@@ -1,5 +1,5 @@
 {
-  "source": "Owner-selected prototype assets plus owner-requested imagegen zoomed-out hero v3, imported through canonical responsive-webp-v1",
+  "source": "Owner-approved visual direction; canonical imagegen alpha/editorial kit and reviewed guide reuse, exact namespaced assets",
   "assets": [
     {
       "path": "/memocasting-homepage/v1/fonts/manrope-400.ttf",
@@ -144,6 +144,240 @@
       "bytes": 3338,
       "sha256": "be068c28b93d0d5c404643cbdd6579d342db8ed1737fa6ee9267b15542da3e70",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-1122.webp",
+      "bytes": 81774,
+      "sha256": "c32e05168590e6e902bb7dc4d21a8f635b926e3a455db3462f6d870c8ffd45d7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-800.webp",
+      "bytes": 51128,
+      "sha256": "5059261cb1b925145a864e6598104ecafa720386d79c8d7a1f44f513fefad967",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-640.webp",
+      "bytes": 36466,
+      "sha256": "723606bcf1519216e08fee073b1e9aa46422713a56866ac6fbf66fb77dc58724",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-360.webp",
+      "bytes": 15884,
+      "sha256": "07bc3fa8b0df7f90f62868fdbf300713419a1b4fd6b0fbb2c12ec9b27647f61b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-1122.webp",
+      "bytes": 77244,
+      "sha256": "be20b7760da16323af616b715d0e4ab444e2f355ed9547a9e5972c5143f2d579",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-800.webp",
+      "bytes": 47858,
+      "sha256": "4ab24fe5bab4bb224bd15a232e1c36d17d2236550f4818d6ed775a8aa3015d2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-640.webp",
+      "bytes": 33136,
+      "sha256": "493f270ca5b28f93460bb9cb46af48161ee24cb1c9182c46224b54754299e0f7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-360.webp",
+      "bytes": 15212,
+      "sha256": "23b24f900c5586a5a2d611176e49b14d5c65853f6713122e8e2260dc414da339",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-1448.webp",
+      "bytes": 110614,
+      "sha256": "9a69db4271bea183b80d2d665caf5820e1d2cb809d7feec059a032f4f404f97b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-1200.webp",
+      "bytes": 88066,
+      "sha256": "fbfdca9f27743f2a0084e8acb6941f3eb76f1827eb62ad1a26d3beeb11a3b125",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-800.webp",
+      "bytes": 49612,
+      "sha256": "cf0bad0ec352eb34ba8a1dd28609922f33f23adebe34b6c21104dbf94da8139a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-640.webp",
+      "bytes": 36688,
+      "sha256": "cb70bcb8a29bc94dd7155d561a753ae2230634a8dad338e7b69e1c1459a764b4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-360.webp",
+      "bytes": 17130,
+      "sha256": "94ad623613f53ccfd84533df1229f234ffe79f098d60141169a6f77ced0a4328",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-1536.webp",
+      "bytes": 59204,
+      "sha256": "821353925978046f1f91cfed17275766080dd9988bb9303027ac5525a01a9a5d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-1200.webp",
+      "bytes": 40612,
+      "sha256": "4f88fbf4cb5f30bce2e0fc44dc2c7c1d16431b1fde700ee6f7030e650f8e0f0c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-800.webp",
+      "bytes": 21416,
+      "sha256": "4b3288e92b6b6af4ac0b639eba9ee08e8384d4ae76762c2b4890b86500a0179a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-640.webp",
+      "bytes": 14632,
+      "sha256": "1cc6c6d4049d789fa9257911a40619d7010e924d8cc6276716c377a0eb483ad4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-360.webp",
+      "bytes": 5350,
+      "sha256": "3eaa1220dc67c9ed073c4b89c89246e01101ae38b7b13015a30af4cbc4b35cb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-1122.webp",
+      "bytes": 53576,
+      "sha256": "594cb6485cc35cd6b17923b34a1de739a9d8ed8aa4e1e1d091159c0b8824a8af",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-800.webp",
+      "bytes": 33098,
+      "sha256": "869fa60935fb12d562e86b566eb2063203f50e62ed40717de436217b7157d725",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-640.webp",
+      "bytes": 23698,
+      "sha256": "41f2393850b3fda05ef07d2b99477882c84efe44ca9b6a44f3bfd8847a192a9b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-360.webp",
+      "bytes": 10288,
+      "sha256": "6c486795b80f91d1d142b9974481cabdf78b2d306181ca8ee26cf2a56a20b1e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-1536.webp",
+      "bytes": 79352,
+      "sha256": "d4b950eb1ebc36565ec8131f761597a0137f1ac10a60f457eb3d3d76cd331cc4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-1200.webp",
+      "bytes": 56026,
+      "sha256": "a27fbb1e63aadc124ef21f821d15006fc58b122d2a531d2652acaee4f544b07a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-800.webp",
+      "bytes": 31884,
+      "sha256": "1fb77ec2f97438356fc5da6735d8b9fee7ab6c1d9f38968019398e60f81ac84c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-640.webp",
+      "bytes": 22800,
+      "sha256": "718d800e236b5c4619b4ba6953b1cde10c0e83551fd0f8db3a6e94f40396ff61",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-360.webp",
+      "bytes": 9608,
+      "sha256": "e8b8a47b3a8460755016e2933344f0a9f8aa38396abd1b3798d59c509465c126",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-800.webp",
+      "bytes": 41164,
+      "sha256": "fb1d56160aea0ce867f92c10c319a8e5ec50b614050dd785e6cf53956afc2d8e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-640.webp",
+      "bytes": 28478,
+      "sha256": "e72efa632a8d49754a010f537bc817ca1ba14fb5c1a03bac30bf569cd8b8d4e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-360.webp",
+      "bytes": 10886,
+      "sha256": "da5b46a8400a5c2e291af3e4cc316388c635ca4001a6cfdd791d52fd6b2775cf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-800.webp",
+      "bytes": 61834,
+      "sha256": "c1339ff09a2360e5e78d49507a85cdefe0f2b2bfdf80fda31a789d04de2fd500",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-640.webp",
+      "bytes": 41566,
+      "sha256": "18227cf6f404f3386152baf7fdc65ef6904efa66f1d7087e7cc1ba5e971aefbc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-360.webp",
+      "bytes": 13190,
+      "sha256": "5d15ddaac391d218443ade55893beeb4920837783b1125932e1c4da999b01493",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/kit.svg",
+      "bytes": 215,
+      "sha256": "8006148737f2240e70e33e45dca586fa357cc24bff584517c8b7dfda33d2818b",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/mix.svg",
+      "bytes": 226,
+      "sha256": "094c22c7d34c86bc03435a26f338c5ad9dbeef290b61cbec6713bfd7563a1bae",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/imprint.svg",
+      "bytes": 302,
+      "sha256": "6600f157a782455eeb9bca9d605d75517201eca17a58b5da7f2d2ecafc70e8d4",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/gypsum.svg",
+      "bytes": 258,
+      "sha256": "96f41906cb6ed7a8a043e0d2c213efe10c6d2f86c6131c4cb10bee8868ed74c6",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/reveal.svg",
+      "bytes": 229,
+      "sha256": "6aaccb5aaba2f7de4b794e554e64c90627380183572f3320b90dac715e691996",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/memory.svg",
+      "bytes": 222,
+      "sha256": "b9cc4f8b3460490dde586119d59c148e38e30dd20ff6475843fcf42061f3a3f1",
+      "type": "image/svg+xml"
     }
   ]
 }
