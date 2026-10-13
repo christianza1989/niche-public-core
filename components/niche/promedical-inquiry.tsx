@@ -2,35 +2,45 @@
 
 import { useEffect, useState } from "react";
 import s from "./promedical-site.module.css";
+import { migrateInquiryItems } from "@/lib/promedical-inquiry-paths.mjs";
 
 type Item = { sku: string; title: string; path: string; quantity: number };
 const key = "promedical-request-v1";
 const eventName = "promedical-request-change";
-function read(): Item[] {
-  try { const data = JSON.parse(localStorage.getItem(key) || "[]"); return Array.isArray(data) ? data.filter(v => v && typeof v.sku === "string" && v.sku.length<=100 && typeof v.title === "string" && v.title.length<=300 && /^\/produktai\/[a-z0-9-]+$/.test(v.path) && Number.isInteger(v.quantity) && v.quantity > 0 && v.quantity <= 999).slice(0, 20) : []; } catch { return []; }
+const noAliases: Record<string, string> = {};
+function read(aliases = noAliases): Item[] {
+  try {
+    const data = JSON.parse(localStorage.getItem(key) || "[]");
+    const valid: Item[] = Array.isArray(data) ? data.filter(v => v && typeof v.sku === "string" && v.sku.length<=100 && typeof v.title === "string" && v.title.length<=300 && /^\/produktai\/[a-z0-9-]+$/.test(v.path) && Number.isInteger(v.quantity) && v.quantity > 0 && v.quantity <= 999).slice(0, 20) : [];
+    const items = migrateInquiryItems(valid, aliases);
+    if (JSON.stringify(items) !== JSON.stringify(valid)) {
+      try { localStorage.setItem(key, JSON.stringify(items)); window.dispatchEvent(new Event(eventName)); } catch { /* Keep the readable in-memory selection if storage is full/read-only. */ }
+    }
+    return items;
+  } catch { return []; }
 }
 function write(items: Item[]) { localStorage.setItem(key, JSON.stringify(items)); window.dispatchEvent(new Event(eventName)); }
-function useItems() {
+function useItems(aliases = noAliases) {
   const [items, setItems] = useState<Item[]>([]);
-  useEffect(() => { const update = () => setItems(read()); update(); window.addEventListener(eventName, update); window.addEventListener("storage", update); return () => { window.removeEventListener(eventName, update); window.removeEventListener("storage", update); }; }, []);
+  useEffect(() => { const update = () => setItems(read(aliases)); update(); window.addEventListener(eventName, update); window.addEventListener("storage", update); return () => { window.removeEventListener(eventName, update); window.removeEventListener("storage", update); }; }, [aliases]);
   return items;
 }
 export function InquiryCount() { const items = useItems(); return <span className={s.count} aria-label={`${items.length} produktų užklausos sąraše`}>{items.length}</span>; }
-export function AddToInquiry({ sku, title, path }: Omit<Item, "quantity">) {
-  const items = useItems(); const [quantity, setQuantity] = useState(1); const [notice, setNotice] = useState("");
+export function AddToInquiry({ sku, title, path, aliases = noAliases }: Omit<Item, "quantity"> & { aliases?: Record<string, string> }) {
+  const items = useItems(aliases); const [quantity, setQuantity] = useState(1); const [notice, setNotice] = useState("");
   const present = items.some(v => v.path === path);
   function add() {
-    const current = read(); const found = current.find(v => v.path === path);
+    const current = read(aliases); const found = current.find(v => v.path === path);
     if (!found && current.length >= 20) { setNotice("Sąraše galima pasirinkti iki 20 produktų. Didesnį poreikį aprašykite užklausoje."); return; }
     if (found) found.quantity = Math.min(999, found.quantity + quantity); else current.push({ sku, title, path, quantity });
     try { write(current); setNotice("Produktas įtrauktas. Kiekį galite keisti užklausos sąraše."); } catch { setNotice("Naršyklė neleidžia išsaugoti sąrašo. Nukopijuokite katalogo kodą į užklausą."); }
   }
   return <div className={s.addProduct}><div className={s.addRow}><label>Kiekis<input type="number" min="1" max="999" value={quantity} onChange={e => setQuantity(Math.min(999, Math.max(1, Number(e.target.value) || 1)))} /></label><button className={s.primary} onClick={add}>{present ? "Pridėti kiekį į užklausą" : "Įtraukti į užklausą"}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="1.8"/></svg></button></div><p className={s.notice} role="status">{notice}</p>{present && <a className={s.textLink} href="/kontaktai">Peržiūrėti užklausos sąrašą</a>}</div>;
 }
-export function InquiryForm({ email }: { email: string }) {
-  const items = useItems(); const [message, setMessage] = useState(""); const [status, setStatus] = useState(""); const [busy, setBusy] = useState(false); const [saved, setSaved] = useState(false);
-  function change(path: string, quantity: number) { try { write(read().map(v => v.path === path ? { ...v, quantity: Math.min(999, Math.max(1, quantity || 1)) } : v)); } catch { setStatus("Sąrašo išsaugoti nepavyko. Produktų kodus įrašykite į žinutę."); } }
-  function remove(path: string) { try { write(read().filter(v => v.path !== path)); } catch { setStatus("Sąrašo išsaugoti nepavyko."); } }
+export function InquiryForm({ email, aliases = noAliases }: { email: string; aliases?: Record<string, string> }) {
+  const items = useItems(aliases); const [message, setMessage] = useState(""); const [status, setStatus] = useState(""); const [busy, setBusy] = useState(false); const [saved, setSaved] = useState(false);
+  function change(path: string, quantity: number) { try { write(read(aliases).map(v => v.path === path ? { ...v, quantity: Math.min(999, Math.max(1, quantity || 1)) } : v)); } catch { setStatus("Sąrašo išsaugoti nepavyko. Produktų kodus įrašykite į žinutę."); } }
+  function remove(path: string) { try { write(read(aliases).filter(v => v.path !== path)); } catch { setStatus("Sąrašo išsaugoti nepavyko."); } }
   const selection = items.length ? "Pasirinkti Klaro produktai:\n" + items.map(v => `${v.sku} — ${v.quantity} vnt. — ${v.title}`).join("\n") + "\n\n" : "";
   const combined = selection + message;
   async function submit(e: React.FormEvent<HTMLFormElement>) {

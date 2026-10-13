@@ -62,7 +62,7 @@ export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
       `URL: ${nichePageUrl(pkg, page)}`,
       page.description,
       ...(page.type === "guide" ? [`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`, `Publikavimo data: ${nicheEditorialDates(page).published}`, `Turinio peržiūra: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && pkg.siteId !== "traktoriupadangos" ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...(page.type === "home" && !["traktoriupadangos", "promedical"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
       ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`Susijęs atsakymas: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
       ...(page.externalLinks ?? []).map(link => `Šaltinis: [${link.label}](${link.url}) — ${link.reason}`),
     ].join("\n")),

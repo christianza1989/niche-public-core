@@ -2,6 +2,9 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
+  "guidePublicationPausedAtBySite": {
+    "promedical": "2026-10-13T19:26:54.000Z"
+  },
   "contactsBySite": {
     "promedical": { "email": "info@promedical.lt", "operatorName": "Promedical" }
   },
