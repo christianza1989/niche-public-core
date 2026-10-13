@@ -73,7 +73,7 @@ for(const [file,bytes] of transformed){
    if(/<link rel="canonical"[^>]*>/.test(text))text=text.replace(/<link rel="canonical"[^>]*>/,canonicalTag);else text=text.replace('</head>',canonicalTag+'</head>');
    text=text.replace(/<meta property="og:url"[^>]*>/,`<meta property="og:url" content="${canonical}">`).replace(/<meta property="og:description"[^>]*>/,`<meta property="og:description" content="${esc(page.description)}">`).replace(/<meta property="og:title"[^>]*>/,`<meta property="og:title" content="${esc(page.title)}">`);
    text=text.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
-   text=text.replace('</head>',`<meta name="content-revision" content="${page.revisionHash}"><script type="application/ld+json">${JSON.stringify(nicheSchemaGraph(pkg,page,pages,settings.operatorName)).replaceAll('<','\\u003c')}</script></head>`);
+   text=text.replace('</head>',`<meta name="content-revision" content="${page.revisionHash}"><script type="application/ld+json">${JSON.stringify(nicheSchemaGraph(pkg,page,pages,commercePolicy.seller)).replaceAll('<','\\u003c')}</script></head>`);
   }
   routes[slug]={revisionHash:page?.revisionHash||null,sha256:sha(text)};content=Buffer.from(text);
  }else allow.push('/'+file);
