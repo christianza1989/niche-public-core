@@ -5,6 +5,7 @@ import { contentPackageByHost, publicContentPages, localContentAdmission, conten
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
+import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -28,6 +29,14 @@ export function proxy(request: NextRequest) {
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
   const niche = nicheSiteByHost(host);
+  // Run this gate before every legacy/gift fallback as well as niche dispatch.
+  // Otherwise an old legacy host can fall through to the shared ASSETS binding.
+  if(path.startsWith('/memocasting-homepage/')){
+    if(!niche||!memoHomepageAsset(niche,publicNichePages(niche),path))return new Response('Not found',{status:404});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/design-assets/'+path.slice('/memocasting-homepage/'.length);
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');return response;
+  }
 
   const gift = !niche ? contentPackageByHost(host) : null;
   if (gift) {

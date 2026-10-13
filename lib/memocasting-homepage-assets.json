@@ -1,0 +1,119 @@
+{
+  "source": "Owner-selected memory-casting-share-20261013 public package",
+  "assets": [
+    {
+      "path": "/memocasting-homepage/v1/fonts/manrope-400.ttf",
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a",
+      "type": "font/ttf"
+    },
+    {
+      "path": "/memocasting-homepage/v1/fonts/manrope-600.ttf",
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce",
+      "type": "font/ttf"
+    },
+    {
+      "path": "/memocasting-homepage/v1/fonts/OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/logo.webp",
+      "bytes": 18820,
+      "sha256": "8906b293bc9da6a2736038b10cebce29c9bf7381cd8f70914e1995134cfc68c8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-v2.webp",
+      "bytes": 108844,
+      "sha256": "e548b877856ad903902edf62fc48c48d16e6d8949d3687884c2b5930bc55b359",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-white-v1.webp",
+      "bytes": 117866,
+      "sha256": "fa37914e8a9f0e810025778da841779afb14ddf1a83544b26e70ac469c73859a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/couple-cast-v1.webp",
+      "bytes": 59896,
+      "sha256": "fd24d3cec3bdb776d672f2d4dcf753e081e28390483b8849b134f3cde42a492d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/family-cast-v1.webp",
+      "bytes": 207378,
+      "sha256": "a05f992a6ae39087e3a4103c1e9d65e55c5ade95bf32e970b93a3da9420525be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-home-v1.webp",
+      "bytes": 166858,
+      "sha256": "98462ee2e01754b95e615c45e7cc46cbb90edf020151e2a26569577bed1cd3ba",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/desktop.mp4",
+      "bytes": 8587634,
+      "sha256": "51cb6bf413f8500de4eddce343aa60d5ca01b3db6ff2d4bacccbab495a42ae06",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/mobile.mp4",
+      "bytes": 3668917,
+      "sha256": "9996d253cfe0a67319e1648e2f62e57e02101f4dccbf12b1540c191e0e3d28fe",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/desktop-poster.webp",
+      "bytes": 21216,
+      "sha256": "0d1c74a761be32a7f9bf016233a93eefae141e12dc38b031030678173d608326",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/mobile-poster.webp",
+      "bytes": 13556,
+      "sha256": "bb11d8592d7eef53f0945335863405a6cfc7bd7b04ce044b26f26b2cfcc8ef18",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-1.webp",
+      "bytes": 15478,
+      "sha256": "be3d3411ba91621948382a27db9585267720dd5c8b4212de1dd35ad7f236346d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-2.webp",
+      "bytes": 14206,
+      "sha256": "3d35c80eae7cca503e477557317199bc30b25bd87c83e35b040878b97372d8d8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-3.webp",
+      "bytes": 15804,
+      "sha256": "7abace9be6996ce7095cb769a93b9733fbdea2109cb14c0c89d379b725e09f22",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-4.webp",
+      "bytes": 13668,
+      "sha256": "82ec0f328fe319a38db9f801581c9f82f6521a456dc812a1786a380635f76b0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-5.webp",
+      "bytes": 18444,
+      "sha256": "c5c8d7e72431962ba818f224f5fc06d723b6efb71fd212cecf45474cda1d9ca3",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-6.webp",
+      "bytes": 12296,
+      "sha256": "2e25cc2bf0c48b46876d8e24fd7268ed0c9827847b5bdf854cbfa3d4ead32815",
+      "type": "image/webp"
+    }
+  ]
+}

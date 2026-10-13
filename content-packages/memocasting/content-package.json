@@ -29,6 +29,188 @@
       "body": [
         {
           "type": "paragraph",
+          "text": "Akimirka, kuri lieka."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys jūsų bendrai akimirkai. Išsaugokite tai, ką jaučiate."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Viskas, ko reikia. Viename rinkinyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinyje — alginatas, gipsas ir maišymo pagaliukai. Poros rinkinio baltus dažus galite pasirinkti papildomai. Tikslią kiekvieno rinkinio sudėtį rasite jo apraše."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Truputis vandens. Pradžia prisiminimui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alginatas sumaišomas su vandeniu. Rožinė masė netrukus išsaugos jūsų rankų atspaudą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų gestas. Jo atspaudas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Susikibkite rankomis ir panardinkite jas į paruoštą alginatą. Jam sustingus, rankas atsargiai ištraukite po vieną."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Akimirka įgauna formą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Į likusį atspaudą supilamas atskirai paruoštas gipso mišinys. Leiskite jam sustingti pagal rinkinio instrukciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atidengiamas jūsų prisiminimas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuimkite kibirėlį ir atsargiai pašalinkite alginatą dalimis. Po juo — jūsų rankų skulptūra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų rankos. Jūsų istorija."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iš bendros akimirkos — prisiminimas, kuriam atsiras vieta jūsų namuose."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką norėtumėte pasilikti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai kasdienybė skuba, trumpam sustokite. Susikibkite rankomis. Išsaugokite šį prisilietimą — su visomis mažomis detalėmis, kurios priklauso tik jums."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gera kurti kartu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Atsiliepimų tekstų pavyzdžiai, skirti dizaino peržiūrai. Tai nėra tikrų klientų atsiliepimai."
+        },
+        {
+          "type": "paragraph",
+          "text": "„Ieškojome dovanos metinėms, o gavome dar ir vakarą sau. Smagiausia buvo viską daryti kartu. Dabar tą akimirką turime savo namuose.“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdinis atsiliepimas Poros rinkinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Norėjome išsaugoti laiką, kai vaikų rankos dar telpa mūsų delnuose. Kūrėme visi kartu, juokėmės ir laukėme, kas bus viduje. Gavosi mūsų šeimos istorija.“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdinis atsiliepimas Šeimos rinkinys"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Kai nuėmėme formą ir pamatėme savo rankas, abu nusišypsojome. Pažįstamas prisilietimas, mažos detalės, mūsų žiedas. Tokia paprasta, bet labai sava akimirka.“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdinis atsiliepimas Poros rinkinys"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkite savo istoriją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dviese ar visi kartu. Pradžia telpa viename rinkinyje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dviese."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dviejų rankų prisilietimas. Jūsų bendram vakarui, metinėms ar akimirkai be progos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Visi kartu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažos ir didelės rankos vienoje istorijoje. Prisiminimas apie jūsų šeimos bendrystę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Detalės, kurios priklauso jums."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pažįstamas gestas. Vis naujas būdas jį pamatyti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustraciniai vaizdai. Jie nerodo patvirtintų klientų darbų ar visos rinkinių komplektacijos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vieta jūsų akimirkai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažos rankos. Didelis ryšys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kiekvienas prisilietimas savas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Viskas prasideda nuo jūsų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pirmąjį prisilietimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros rinkinyje yra alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Baltus dažus galima pasirinkti papildomai už 3 €. Šeimos rinkinyje — du alginato ir du gipso pakeliai bei maišymo pagaliukai. Visą komplektaciją tikrinkite konkretaus rinkinio apraše."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip. Jūsų rankų atspaudas suformuojamas alginate, o į jį supilamas atskirai paruoštas gipso mišinys. Sustingusį liejinį atidengiate pašalindami alginato formą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vandens kiekius ir stingimo laiką tikrinkite savo rinkinio instrukcijoje. Pradinis stingimas ir galutinis išdžiūvimas yra skirtingi etapai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Išsaugokite tai, ką jaučiate."
+        },
+        {
+          "type": "paragraph",
           "text": "Rankų liejimo rinkinys — dovana, kuri kviečia dalyvauti. Medžiagos tampa priemone bendrai veiklai, o liejinys primena žmones ir akimirką, kurią pasirinkote išsaugoti."
         },
         {
@@ -131,11 +313,11 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "0f6d868390c312a47ac76a2831f4915e619a64b4066ae1a4b4691d5e8cbd83e1",
+      "revisionHash": "61e9fda8355a1fa78136730a56f23c40deb97a0613c3066c702d7548a7ae681f",
       "approval": {
         "status": "approved",
-        "revisionHash": "0f6d868390c312a47ac76a2831f4915e619a64b4066ae1a4b4691d5e8cbd83e1",
-        "approvedAt": "2026-10-12T02:09:23.069Z",
+        "revisionHash": "61e9fda8355a1fa78136730a56f23c40deb97a0613c3066c702d7548a7ae681f",
+        "approvedAt": "2026-10-13T07:12:22.638Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -8120,5 +8302,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T05:50:07.507Z"
+  "generatedAt": "2026-10-13T07:12:22.690Z"
 }
