@@ -7,6 +7,7 @@ import {projectPublicPages} from '../../lib/niche-links.mjs';
 import {memoIndexablePages} from '../../lib/memocasting-content.mjs';
 import {memoBreadcrumbs,memoSectionId} from '../../lib/memocasting-structure.mjs';
 import {memoRoute,memoPageRole,memoAlternates} from '../../lib/memocasting-locales.mjs';
+import {memoHomepageAdmitted,memoHomepageIntro,memoHomepageStory} from '../../lib/memocasting-homepage-markup.mjs';
 const bytes=await readFile(new URL('../../content-packages/memocasting/content-package.json',import.meta.url));
 const pkg=JSON.parse(bytes),all=JSON.parse(await readFile(new URL('../../lib/generated/content-packages.json',import.meta.url))),settings=JSON.parse(await readFile(new URL('../../config/niche-network.json',import.meta.url)));
 const live=projectPublicPages(pkg,all,settings),indexable=memoIndexablePages(pkg,live),origin='https://memocasting.lt';
@@ -21,7 +22,10 @@ for(const page of live){
   assert.ok(r.body.includes(`rel="canonical" href="${origin}${path}"`));
   assert.ok(r.headers['cache-control']?.includes('no-store'),path+' cache');
   const ids=[...r.body.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,path+' unique IDs');
-  for(const b of page.body.filter(b=>b.type==='heading'))assert.ok(ids.includes(memoSectionId(b.text)),path+' section');
+  if(memoHomepageAdmitted(page)){
+    const landmarks=[...(memoHomepageIntro+memoHomepageStory).matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+    for(const id of landmarks)assert.ok(ids.includes(id),path+' custom homepage landmark '+id);
+  }else for(const b of page.body.filter(b=>b.type==='heading'))assert.ok(ids.includes(memoSectionId(b.text)),path+' section');
   const graph=JSON.parse(r.body.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   const route=memoRoute(page);
   assert.ok(r.body.includes('lang="'+route.language+'"'),path+' native language');
