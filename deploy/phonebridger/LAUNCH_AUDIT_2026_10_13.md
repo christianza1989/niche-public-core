@@ -2,7 +2,7 @@
 
 Website fixes are published on https://phonebridger.com. Full commercial product readiness is **not achieved**. The complete versioned 85-criterion audit, screenshots, measurements and gate evidence live in the companion at `sites/phonebridger/launch-audit-20261013/`.
 
-Final production Worker/assets version: `028a75ec-40db-4619-84e6-39c532f3ed39`. Prior version before this audit: `3f2e3fd0-f788-4ab4-ad3d-45d81087d76c`. Source implementation commits: public `8dcf9ee`, companion `c211801`; reviewed package revisions preserve original publication dates. No live D1 migration, DNS/mail change, customer impersonation, provider permission change, financial transfer or native rebuild performed.
+Final production Worker/assets version: `f6ca95ba-bb81-4052-b4b4-0260bc13479a`. Prior version before this audit: `3f2e3fd0-f788-4ab4-ad3d-45d81087d76c`. Source implementation commits: public `8dcf9ee`, companion `3393197`; reviewed package revisions preserve original publication dates. No live D1 migration, DNS/mail change, customer impersonation, provider permission change, financial transfer or native rebuild performed.
 
 Completed repairs:
 
