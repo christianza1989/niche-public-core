@@ -49,7 +49,7 @@ for(const path of ['/llms.txt','/llms-full.txt']){
  if(path.endsWith('full.txt'))for(const p of indexable)for(const b of p.body){if(b.text)assert.ok(r.body.includes(b.text),p.slug+' exported body');}
 }
 const robots=await get('/robots.txt');assert.equal(robots.status,200);assert.ok(robots.body.includes('Allow: /'));assert.ok(robots.body.includes(origin+'/sitemap.xml'));
-const www=await get('/products/liejimo-rinkinys-porai?utm_source=qa','www.memocasting.lt');assert.equal(www.status,308);assert.equal(www.headers.location,origin+'/products/liejimo-rinkinys-porai?utm_source=qa');
+const www=await get('/products/liejimo-rinkinys-porai?utm_source=qa','www.memocasting.lt');assert.equal(www.status,301);assert.equal(www.headers.location,origin+'/rinkinys-porai?utm_source=qa');
 for(const path of ['/products/seimos-rinkinys','/dovanos','/produkto-sauga','/niche/memocasting','/__seo_missing']){const r=await get(path);assert.equal(r.status,404,path);assert.ok(!r.body.includes('rel="canonical"'));}
 assert.equal((await get('/','unknown-domain.example')).status,404);
 for(const country of ['LT','PL','LV','EE'])assert.equal(live.filter(p=>memoRoute(p).country===country).length,22,country+' accepted inventory');

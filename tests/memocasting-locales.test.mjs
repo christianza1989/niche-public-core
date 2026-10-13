@@ -20,7 +20,7 @@ test('hreflang contains only same-role equivalents supplied by the eligible proj
  assert.equal(memoBreadcrumbs(pkg,page('pl','faq'),[page('pl','faq')]).length,1);
 });
 test('locale schema and breadcrumbs never borrow the catalogue of another market',()=>{
- const lt=page('collections/all','faq'),pl=page('pl/collections/all','faq'),prod=page('pl/products/a');
+ const lt=page('ranku-liejimo-rinkiniai','faq'),pl=page('pl/collections/all','faq'),prod=page('pl/products/a');
  assert.deepEqual(memoBreadcrumbs(pkg,prod,[lt,prod]).map(e=>e.path),['/','/pl/products/a']);
  assert.deepEqual(memoBreadcrumbs(pkg,prod,[lt,pl,prod]).map(e=>e.path),['/','/pl/collections/all','/pl/products/a']);
  const graph=memoSchemaGraph(pkg,pl,[lt,pl,prod],'MB Memocasting')['@graph'];

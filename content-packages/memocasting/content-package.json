@@ -142,7 +142,7 @@
     {
       "siteId": "memocasting",
       "type": "product",
-      "slug": "products/liejimo-rinkinys-porai",
+      "slug": "rinkinys-porai",
       "title": "Rankų liejimo rinkinys porai",
       "description": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
       "intent": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
@@ -259,18 +259,18 @@
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "ee374a9374a936b2bd6a9a47e3091eb879a9ac27edfd7b7037466f947d9cae8b",
+      "revisionHash": "159db794bc5d4d0b9205b4e853d039996cf92874a31f4050ee4108509c173081",
       "approval": {
         "status": "approved",
-        "revisionHash": "ee374a9374a936b2bd6a9a47e3091eb879a9ac27edfd7b7037466f947d9cae8b",
-        "approvedAt": "2026-10-12T02:09:23.079Z",
+        "revisionHash": "159db794bc5d4d0b9205b4e853d039996cf92874a31f4050ee4108509c173081",
+        "approvedAt": "2026-10-13T05:50:07.447Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
     {
       "siteId": "memocasting",
       "type": "product",
-      "slug": "products/seimos-rinkinys-1",
+      "slug": "seimos-rinkinys",
       "title": "Rankų liejimo rinkinys šeimai",
       "description": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
       "intent": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
@@ -386,18 +386,18 @@
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "650757aad1d3d48df43543e92acac5f0e58064fb00b66e35cddd5711c8cc0a51",
+      "revisionHash": "7d059a4736f23ff60b81662cac3cc446ed17b95db5aa0773fb3010ec168aa9a6",
       "approval": {
         "status": "approved",
-        "revisionHash": "650757aad1d3d48df43543e92acac5f0e58064fb00b66e35cddd5711c8cc0a51",
-        "approvedAt": "2026-10-12T02:09:23.087Z",
+        "revisionHash": "7d059a4736f23ff60b81662cac3cc446ed17b95db5aa0773fb3010ec168aa9a6",
+        "approvedAt": "2026-10-13T05:50:07.428Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
     {
       "siteId": "memocasting",
       "type": "faq",
-      "slug": "collections/all",
+      "slug": "ranku-liejimo-rinkiniai",
       "title": "Rankų liejimo rinkiniai: porai ar šeimai?",
       "description": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
       "intent": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
@@ -436,11 +436,11 @@
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "54465cc648e50f772ae0552a8539843c6509065edda483e624af4239f954097a",
+      "revisionHash": "661606a4b6f06d83003cae9872fced9d60532675b0f835dba0aa81a960a6c916",
       "approval": {
         "status": "approved",
-        "revisionHash": "54465cc648e50f772ae0552a8539843c6509065edda483e624af4239f954097a",
-        "approvedAt": "2026-10-12T02:09:23.097Z",
+        "revisionHash": "661606a4b6f06d83003cae9872fced9d60532675b0f835dba0aa81a960a6c916",
+        "approvedAt": "2026-10-13T05:50:07.467Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -8120,5 +8120,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-12T09:28:22.300Z"
+  "generatedAt": "2026-10-13T05:50:07.507Z"
 }

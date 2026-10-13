@@ -4,6 +4,7 @@ import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
+import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -18,7 +19,10 @@ export function proxy(request: NextRequest) {
   const path = request.nextUrl.pathname;
   if (host === 'www.memocasting.lt') {
     const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
-    return NextResponse.redirect(destination,308);
+    const memo=nicheSiteByHost('memocasting.lt');
+    const moved=memo?memoRedirectPath(path,publicNichePages(memo),request.method):null;
+    if(moved)destination.pathname=moved;
+    return NextResponse.redirect(destination,moved?301:308);
   }
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
@@ -57,6 +61,10 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if(niche.siteId==='memocasting'){
+      const moved=memoRedirectPath(path,publicNichePages(niche),request.method);
+      if(moved){const destination=request.nextUrl.clone();destination.pathname=moved;return NextResponse.redirect(destination,301);}
+    }
     if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
     if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);

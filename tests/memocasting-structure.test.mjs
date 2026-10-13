@@ -2,12 +2,12 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {memoBreadcrumbs,memoSchemaGraph,memoSectionId} from '../lib/memocasting-structure.mjs';
 const pkg={canonicalHost:'memocasting.lt',locale:'lt-LT',site:{name:'Memocasting',offer:'Rinkiniai',contact:{email:'info@pinet.lt'}}};
-const product={type:'product',slug:'products/liejimo-rinkinys-porai',title:'Porai',description:'Rinkinys',publishAt:'2026-10-11T00:00:00Z',approval:{approvedAt:'2026-10-11T00:00:00Z'},media:[]};
-const hub={...product,type:'faq',slug:'collections/all',title:'Rinkiniai'};
+const product={type:'product',slug:'rinkinys-porai',title:'Porai',description:'Rinkinys',publishAt:'2026-10-11T00:00:00Z',approval:{approvedAt:'2026-10-11T00:00:00Z'},media:[]};
+const hub={...product,type:'faq',slug:'ranku-liejimo-rinkiniai',title:'Rinkiniai'};
 test('product visible trail and schema reference an eligible catalogue only',()=>{
   const pages=[hub,product];
   const trail=memoBreadcrumbs(pkg,product,pages);
-  assert.deepEqual(trail.map(p=>p.path),['/','/collections/all','/'+product.slug]);
+  assert.deepEqual(trail.map(p=>p.path),['/','/ranku-liejimo-rinkiniai','/'+product.slug]);
   const graph=memoSchemaGraph(pkg,product,pages,'MB Memocasting')['@graph'];
   assert.deepEqual(graph.find(e=>e['@type']==='BreadcrumbList').itemListElement.map(e=>new URL(e.item).pathname),trail.map(p=>p.path));
   assert.equal(memoBreadcrumbs(pkg,product,[product]).length,2);
