@@ -64,7 +64,7 @@ export function proxy(request: NextRequest) {
         const destination = request.nextUrl.clone();
         const target = new URL(legacyDestination, destination.origin);
         destination.pathname = target.pathname; destination.search = target.search;
-        const response = NextResponse.redirect(destination, 308);
+        const response = NextResponse.redirect(destination, 301);
         response.headers.set('Cache-Control', 'private, no-store');
         return response;
       }

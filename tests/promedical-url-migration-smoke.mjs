@@ -29,7 +29,7 @@ async function parallel(items,task){let cursor=0,done=0;await Promise.all(Array.
 const sitemap=await get('/sitemap.xml');assert.equal(sitemap.r.status,200);
 const locs=[...sitemap.text.matchAll(/<loc>(.*?)<\/loc>/gu)].map(m=>m[1]);assert.equal(locs.length,new Set(locs).size);assert.deepEqual(new Set(locs),expected);
 assert.ok(locs.every(url=>!old.has(new URL(url).pathname)));
-await parallel(aliases,async a=>{const {r}=await get(a.from);assert.equal(r.status,308);const location=new URL(r.headers.get('location'),base);assert.equal(location.pathname,a.to);assert.equal(location.search,'');});
+await parallel(aliases,async a=>{const {r}=await get(a.from);assert.equal(r.status,301);const location=new URL(r.headers.get('location'),base);assert.equal(location.pathname,a.to);assert.equal(location.search,'');});
 await parallel(visible,async p=>{
  const path='/'+p.slug,{r,text}=await get(path);assert.equal(r.status,200);
  assert.deepEqual(canonical(text),['https://promedical.lt'+path]);
@@ -40,21 +40,22 @@ await parallel(visible,async p=>{
 const example=aliases.find(a=>a.from==='/produktai/infuzni-stojan-nerez1005ais');
 let trailingSlashNormalization=false;
 for(const path of [example.from+'/?utm_source=url-migration&q=NEREZ1005AIS',example.from+'?utm_source=url-migration&q=NEREZ1005AIS']){
- let {r}=await get(path);assert.equal(r.status,308);let url=new URL(r.headers.get('location'),base);
+ let {r}=await get(path);let url=new URL(r.headers.get('location'),base);
  // vinext normalizes a trailing slash before proxy.ts. Original sitemap URLs
  // have no slash and must remain one-hop; this noncanonical variant may have
  // that additional framework hop. Never accept an unrelated/looping target.
- if(path.startsWith(example.from+'/?')&&url.pathname===example.from){trailingSlashNormalization=true;assert.equal(url.searchParams.get('utm_source'),'url-migration');assert.equal(url.searchParams.get('q'),'NEREZ1005AIS');({r}=await get(url.pathname+url.search));assert.equal(r.status,308);url=new URL(r.headers.get('location'),base);}
+ if(path.startsWith(example.from+'/?')&&url.pathname===example.from){assert.equal(r.status,308);trailingSlashNormalization=true;assert.equal(url.searchParams.get('utm_source'),'url-migration');assert.equal(url.searchParams.get('q'),'NEREZ1005AIS');({r}=await get(url.pathname+url.search));url=new URL(r.headers.get('location'),base);}
+ assert.equal(r.status,301);
  assert.equal(url.pathname,example.to);assert.equal(url.searchParams.get('utm_source'),'url-migration');assert.equal(url.searchParams.get('q'),'NEREZ1005AIS');
 }
-assert.equal((await get(example.from,'HEAD')).r.status,308);
+assert.equal((await get(example.from,'HEAD')).r.status,301);
 assert.equal((await get('/produktai/neegzistuojantis-modelis-20261013')).r.status,404);
 if(base.startsWith('http://'))assert.equal((await get(example.from,'GET','unknown.example')).r.status,404);
-const filtered=await get('/produktai?category=infuzni-stojany&q=NEREZ&p=2');assert.equal(filtered.r.status,308);
+const filtered=await get('/produktai?category=infuzni-stojany&q=NEREZ&p=2');assert.equal(filtered.r.status,301);
 const filterURL=new URL(filtered.r.headers.get('location'),base);assert.equal(filterURL.searchParams.get('category'),aliases.find(a=>a.from==='/kategorijos/infuzni-stojany').to.slice('/kategorijos/'.length));assert.equal(filterURL.searchParams.get('q'),'NEREZ');assert.equal(filterURL.searchParams.get('p'),'2');
 assert.equal((await get(filterURL.pathname+filterURL.search)).r.status,200);
 for(const path of ['/llms.txt','/llms-full.txt']){const {r,text}=await get(path);assert.equal(r.status,200);for(const a of aliases)assert.ok(!text.includes('https://promedical.lt'+a.from+')')&&!text.includes('https://promedical.lt'+a.from+'\n'),'legacy reading URL '+a.from);}
-const report={state:issues.length?'FAIL':'PASS',checkedAt:new Date().toISOString(),base,packageSha256:createHash('sha256').update(bytes).digest('hex'),sitemapUrls:locs.length,redirects:aliases.length,canonicalPages:visible.length,requests:observations.length,trailingSlashNormalization,issues,observations,scope:'All1845 original sitemap catalogue paths redirect directly to their new canonical URL. A trailing-slash variant may normalize once in vinext before that direct migration. Current eligible canonical HTML, sitemap/internal anchors/reading exports and representative HEAD/query/category/unknown paths. Read-only; no mail/lead submission or indexing/ranking claim.'};
+const report={state:issues.length?'FAIL':'PASS',checkedAt:new Date().toISOString(),base,packageSha256:createHash('sha256').update(bytes).digest('hex'),sitemapUrls:locs.length,redirects:aliases.length,redirectStatus:301,canonicalPages:visible.length,requests:observations.length,trailingSlashNormalization,issues,observations,scope:'All 1,845 original sitemap catalogue paths return 301 directly to their new canonical URL. A trailing-slash variant may normalize once with a framework 308 before that direct 301 migration. Current eligible canonical HTML, sitemap/internal anchors/reading exports and representative HEAD/query/category/unknown paths. Read-only; no mail/lead submission or indexing/ranking claim.'};
 if(process.env.PROMEDICAL_URL_REPORT)await fs.writeFile(process.env.PROMEDICAL_URL_REPORT,JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({...report,observations:observations.length},null,2));
 assert.equal(issues.length,0);
