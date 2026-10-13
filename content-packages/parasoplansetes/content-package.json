@@ -689,43 +689,45 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "StepOver asortimente yra skirtingiems verslo procesams pritaikytos parašo planšetės: nuo nedidelių įrenginių parašo fiksavimui iki 10 colių ekranų, kuriuose klientas gali perskaityti visą A4 dokumentą. Taip pat skiriasi ir įrenginių veikimo principas: standartiniai modeliai jungiami prie kompiuterio per USB, o „NextGen“ (NG) šeimos planšetės geba apdoroti dokumentus savarankiškai."
+          "text": "Renkantis parašo planšetę svarbu įvertinti du dalykus: kokią informaciją pasirašantis asmuo turi matyti ekrane ir iš kurios sistemos bus siunčiamas dokumentas. Svarbu atskirti techninius parametrus: ekrano raiška lemia atvaizduojamą vaizdą, o jutiklio raiška ir spaudimo lygiai – užfiksuojamo biometrinio parašo duomenis. Šių rodiklių paskirtis skiriasi."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kompaktiški modeliai parašo įvedimui"
+          "text": "Modelių palyginimas"
         },
         {
-          "type": "paragraph",
-          "text": "Jei klientas dokumentą skaito kompiuterio monitoriuje, o planšetė reikalinga tik parašo parašymui, puikiai tinka kompaktiški modeliai: vienspalvis „naturaSign Pad Classic“ arba spalvotas „duraSign Pad 4.3“. Jie užima mažai vietos ant stalo ir idealiai tinka registratūroms ar prekių atsiėmimo punktams."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Vidutinio dydžio ir pilno dokumento peržiūros ekranai"
-        },
-        {
-          "type": "paragraph",
-          "text": "„duraSign Pad 5.0“ siūlo erdvesnį 5 colių ekraną, kuriame patogu rodyti papildomus sutikimo laukelius ar interaktyvius mygtukus. Tuo tarpu „duraSign Pad 10.0“ turi didelį 10 colių ekraną, leidžiantį klientui patogiai peržiūrėti visą sutarties puslapį tiesiogiai įrenginyje prieš pasirašant."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Autonominiai NextGen (NG) įrenginiai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ypatingoms saugumo ir tinklo infrastruktūroms skirti „duraSign Pad NG 10“ ir „nextGen Pad 5“ modeliai turi integruotą procesorių ir PDF apdoroja patys. Jie palaiko tiesioginį tinklo ryšį (LAN) ir tinka darbui terminalinėse bei žiniatinklio aplinkose."
+          "type": "list",
+          "items": [
+            "naturaSign Pad Classic: Plonas įrenginys; parašas ir trumpas tekstas nespalvotame ekrane.",
+            "duraSign Pad 4.3: Kompaktiškas apšviestas ekranas, keturios spalvos.",
+            "duraSign Pad 5.0: Dokumento peržiūra ir pasirašymas spalvotame ekrane.",
+            "duraSign Pad 10.0: Didesnis ekranas stacionariai darbo vietai.",
+            "duraSign Pad NG 10: PDF apdorojamas pačioje planšetėje; NG integracija.",
+            "nextGen Pad 5: Kompaktiškas NG šeimos modelis."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip teisingai sukomplektuoti įrangą"
+          "text": "Jungtys, programinė įranga ir priedai"
         },
         {
           "type": "paragraph",
-          "text": "Planšetė yra tik viena sprendimo dalis – kartu reikalinga ir tinkamai parinkta pasirašymo programa. Mūsų pasirinkimo gidas padės įvertinti jūsų darbo vietą, o susisiekę su mumis galėsite gauti tikslų pasiūlymą, kuriame bus įvertinti įrangos bei diegimo kaštai."
+          "text": "Klasikiniams modeliams veikti reikalinga pasirašymo programa kompiuteryje. Tuo tarpu NG modelių pagrindinį pasirašymą galima patogiai valdyti per interneto naršyklę, o ryšiui vietiniame „Ethernet“ tinkle reikalingas atskiras priedas. Įrenginio palaikoma operacinė sistema ir konkrečios kompiuterio programos reikalavimai turi būti vertinami atskirai. NG šeimos formų pildymo funkcijoms taikomas atskiras plėtinys „NG Pad Feature Extension“."
+        },
+        {
+          "type": "paragraph",
+          "text": "Visų modelių puslapiuose rasite techninius duomenis ir nuorodas į gamintojo šaltinius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkimo gidas padės įvertinti darbo vietą, o pasirašymo programa turi atitikti planšetę ir dokumentų pateikimo būdą. Įrangos bei diegimo sąnaudos aptariamos kainų puslapyje. Norėdami gauti pasiūlymą, pateikite užklausą."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.122Z",
@@ -747,15 +749,35 @@
         },
         {
           "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
-          "label": "pasirinkimo gidas"
+          "label": "Pasirinkimo gidas"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "gauti tikslų pasiūlymą"
+          "label": "pateikite užklausą"
         },
         {
           "targetPageId": "d65078e4-4315-47ef-a39c-7792c95aa4cc",
-          "label": "įrangos bei diegimo kaštai"
+          "label": "kainų puslapyje"
+        },
+        {
+          "targetPageId": "225aff0d-674d-47ba-be62-198e74b129a2",
+          "label": "naturaSign Pad Classic"
+        },
+        {
+          "targetPageId": "dc242d72-77a6-4f7c-9606-84e57aa73ee8",
+          "label": "duraSign Pad 4.3"
+        },
+        {
+          "targetPageId": "497c8819-4fc2-497d-ad38-7082dc18bc5c",
+          "label": "duraSign Pad 5.0"
+        },
+        {
+          "targetPageId": "1838da73-e900-4334-8983-2a56e036e280",
+          "label": "duraSign Pad 10.0"
+        },
+        {
+          "targetPageId": "d60d6eb9-35e6-4778-b7e5-136827efc61d",
+          "label": "duraSign Pad NG 10"
         },
         {
           "targetPageId": "90a6e7c4-7fe2-412f-9a55-6d6e16a88076",
@@ -764,23 +786,73 @@
       ],
       "externalLinks": [
         {
-          "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice: pasirašymo programa",
-          "reason": "Gamintojo informacija apie PDF pasirašymą ir programos licencijavimą."
+          "url": "https://stepover.com/en/products/signature-pads/naturasign-pad-classic/",
+          "label": "StepOver naturaSign Pad Classic",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/",
-          "label": "StepOver parašo planšečių katalogas",
-          "reason": "Įprastų ir NG šeimos modelių palyginimas bei jų specifikacijos."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_naturaSign-Pad-Classic_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver naturaSign Pad Classic",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-4-3/",
+          "label": "StepOver duraSign Pad 4.3",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-4.3_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 4.3",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-5-0/",
+          "label": "StepOver duraSign Pad 5.0",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign_-Pad_5.0__EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 5.0",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-10-0/",
+          "label": "StepOver duraSign Pad 10.0",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-10.0_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 10.0",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "StepOver duraSign Pad NG 10",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-NG-10_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad NG 10",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
+          "label": "StepOver nextGen Pad 5",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_nextGen-Pad-5_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver nextGen Pad 5",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
         }
       ],
       "id": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
-      "revisionHash": "318631f62ecd1a5487a004ed9802c97d0e024852725454935736e8adbb1229bf",
+      "revisionHash": "18cf8505dccddd00e874fae404fe3631d23d29b5e3329ff6b81ab8595d28cd57",
       "approval": {
         "status": "approved",
-        "revisionHash": "318631f62ecd1a5487a004ed9802c97d0e024852725454935736e8adbb1229bf",
-        "approvedAt": "2026-10-13T14:38:21.355Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "18cf8505dccddd00e874fae404fe3631d23d29b5e3329ff6b81ab8595d28cd57",
+        "approvedAt": "2026-10-13T16:22:47.464Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -788,38 +860,88 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-naturasign-pad-classic",
       "title": "StepOver naturaSign Pad Classic",
-      "description": "Plona ir lengva parašo planšetė su nespalviniu ekranu. Idealiai tinka greitam parašo fiksavimui, kai sutartis klientui rodoma kompiuterio monitoriuje.",
+      "description": "Plona, apie 150 g sverianti StepOver parašo planšetė su nespalvotu LCD ekranu. Techniniai duomenys, USB prijungimas ir programų reikalavimai.",
       "intent": "Įvertinti naturaSign Pad Classic tinkamumą ir pateikti konkretaus komplekto užklausą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„naturaSign Pad Classic“ yra ekonomiškas ir patikimas pasirinkimas, kai klientas sutarties tekstą skaito kompiuterio ekrane, o planšetė naudojama tik pačiam parašui surinkti. Dėl plono korpuso ir nedidelio svorio įrenginys užima minimaliai vietos ant stalo ir yra patogus transportuoti."
+          "text": "„naturaSign Pad Classic“ – itin plona ir kompaktiška parašo planšetė su vienspalviu LCD ekranu. Įrenginio ekrane matomas rašomas parašas ir trumpas informacinis tekstas, o visas dokumentas peržiūrimas kompiuteryje. Apie 150 g sveriančią planšetę patogu pasiimti vykstant pas klientus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: nespalvinis LCD (320 × 85 pikselių raiška).",
-            "Paskirtis: tikslus biometrinio parašo fiksavimas.",
-            "Ryšys: standartinė USB jungtis prie kompiuterio."
+            "Ekranas: nespalvotas LCD, 320 × 85 taškai.",
+            "Svoris: apie 150 g be kabelio.",
+            "Prijungimas: USB; dokumentas peržiūrimas kompiuteryje."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Paskirtis ir naudojimo aplinka"
+          "text": "Naudojimas ir veikimo principas"
         },
         {
           "type": "paragraph",
-          "text": "Kadangi šio modelio ekranas nerodo viso PDF dokumento teksto, svarbu suderinti darbo procesą taip, kad klientas aiškiai matytų pasirašomą sutartį kompiuterio monitoriuje. Jeigu jūsų procesas reikalauja, kad visą dokumentą žmogus peržiūrėtų pačiame įrenginyje, rekomenduojame pasirinkti didesnio ekrano modelius."
+          "text": "Ekrano rodinį galima pasukti, kad būtų patogu pasirašyti tiek kairiarankiams, tiek dešiniarankiams. Biometriniai parašo duomenys asimetriniu būdu šifruojami pačioje planšetėje; jiems iššifruoti reikalingą privatų raktą saugo notaras. Dokumentams pasirašyti naudojama atskira „StepOver“ programinė įranga. Darbui terminalinėse RDP ir „Citrix“ aplinkose gamintojas siūlo papildomus TCP bei „Citrix“ modulius."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Prijungimas ir programinė įranga"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Planšetė jungiasi prie kompiuterio per USB kabelį, o dokumentų pasirašymui reikalinga kompiuteryje įdiegta programa. Detalią informaciją apie palaikomus sprendimus rasite mūsų programinės įrangos apžvalgoje. Įvertinus jūsų darbo vietų skaičių ir naudojamą sistemą, padėsime paruošti tikslų sprendimo pasiūlymą."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys (plotis × gylis × aukštis): 15 × 12 × 1 cm",
+            "Svoris be kabelio: Apie 150 g",
+            "Korpuso medžiaga: Polikarbonatas (PC)",
+            "Ekranas: Nespalvotas LCD, 320 × 85 taškai",
+            "Jutiklio tipas: Varžinis",
+            "Jutiklio raiška: 1000 DPI",
+            "Pakartojamumas: ±0,1 mm",
+            "Išvedami parašo duomenys: 500 X/Y/spaudimo/laiko rinkinių per sekundę",
+            "Spaudimo lygiai: 512",
+            "Matavimo jėga: 1–10 N",
+            "Rašiklis: Pasyvus „naturaPen“, POM; spiralinė virvelė",
+            "Šifravimas: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Jungtis: USB 2.0 / 1.1; HID",
+            "Kabelis: USB-A → Mini-USB-B, 2 m",
+            "Suderinamos operacinės sistemos (produkto puslapis): Windows 10 / 11",
+            "Darbo sąlygos: 0…+50 °C; iki 90 % RH, be kondensacijos",
+            "Laikymo sąlygos: −10…+80 °C; iki 90 % RH, be kondensacijos",
+            "Tvirtinimas: Dvi sraigtų angos",
+            "Komplektacija: USB kabelis, instrukcija, apsauginė dėžutė",
+            "GTIN: 4260130060848",
+            "Kilmė ir atitiktis: Vokietija; CE, UKCA, RoHS, WEE",
+            "Gamintojo garantija (produkto puslapis): 2 metai"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dirbant 2048 bitų šifravimo režimu, techniniame lape (PDF) nurodomi šie minimalūs programinės įrangos reikalavimai: „eSignatureOffice“ ≥5.0, „SimpleSigner“ ≥7.0 ir „Device API“ ≥5.6. Naudojant ilgesnį šifravimo raktą, reikalaujama: „eSignatureOffice“ ≥6.2, „SimpleSigner“ ≥7.1, „Device API“ ≥6.2, „Signature API“ ≥4.13 bei įrenginio valdymo programos („firmware“) versija ≥5.05.0.3031. Įrenginio palaikymas „macOS“, „Linux“ ir plonųjų klientų aplinkose priklauso nuo pasirinktos taikomosios programinės įrangos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei klientas turi skaityti dokumentą pačioje planšetėje, palyginkite didesnio ekrano modelius. Tinkamas programas rasite programinės įrangos apžvalgoje. Dėl pasirinkimo pateikite užklausą."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -845,28 +967,28 @@
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "paruošti tikslų sprendimo pasiūlymą"
+          "label": "pateikite užklausą"
         }
       ],
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/naturasign-pad-classic/",
-          "label": "naturaSign Pad Classic: gamintojo aprašas",
-          "reason": "Ekrano, USB jungties, konstrukcijos ir transportavimo dėžutės duomenys."
+          "label": "StepOver naturaSign Pad Classic",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice: programos galimybės",
-          "reason": "PDF dokumentų pasirašymas kompiuteryje ir programos naudojimo sąlygos."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_naturaSign-Pad-Classic_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver naturaSign Pad Classic",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
         }
       ],
       "id": "225aff0d-674d-47ba-be62-198e74b129a2",
-      "revisionHash": "8622dea5c12d5b8c1eaf64c2de459bba0862f5a31bd3021dbff6987b651e2e09",
+      "revisionHash": "9122870e856685c6197e7ff93a3d5e29ed6440d03770767f8ce707933ef6a3b7",
       "approval": {
         "status": "approved",
-        "revisionHash": "8622dea5c12d5b8c1eaf64c2de459bba0862f5a31bd3021dbff6987b651e2e09",
-        "approvedAt": "2026-10-13T14:38:21.420Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "9122870e856685c6197e7ff93a3d5e29ed6440d03770767f8ce707933ef6a3b7",
+        "approvedAt": "2026-10-13T16:22:47.231Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -874,38 +996,105 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-durasign-pad-4-3",
       "title": "StepOver duraSign Pad 4.3",
-      "description": "Kompaktiška 4,3 colio planšetė su apšviestu spalvotu TFT ekranu ir tvirtu stiklo paviršiumi. Patikimas pasirinkimas aktyviam klientų aptarnavimui biure.",
+      "description": "StepOver duraSign Pad 4.3: 4 spalvų TFT ekranas, grūdintas stiklas ir USB-C jungtis. Techniniai duomenys ir pasirašymo programų reikalavimai.",
       "intent": "Įvertinti duraSign Pad 4.3 tinkamumą ir pateikti konkretaus komplekto užklausą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„duraSign Pad 4.3“ sukurta intensyviam kasdieniam naudojimui klientų aptarnavimo vietose, kur reikalingas patvarumas ir aiškus, apšviestas spalvotas ekranas. Dėl kompaktiško dydžio įrenginys patogiai telpa ant bet kurio stalo."
+          "text": "„duraSign Pad 4.3“ – kompaktiška 4,3 colio parašo planšetė, skirta kasdieniam darbui biure ir vykstant pas klientus. Apšviestame ekrane matomas rašomas parašas, trumpa informacija ir interaktyvūs valdymo mygtukai. Rašymo paviršius patikimai apsaugotas chemiškai grūdintu stiklu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: 4,3 col. spalvotas apšviestas TFT (480 × 272 pikselių).",
-            "Paviršius: įbrėžimams atsparus grūdintas stiklas.",
-            "Rašiklis: pritaikytas įrenginiui, su vertikaliu ir horizontaliu laikikliais korpuse."
+            "Ekranas: 4,3 colio TFT, 4 spalvos, 480 × 272 taškai.",
+            "Paviršius: chemiškai grūdintas stiklas.",
+            "Prijungimas: USB-C; komplekte yra USB-A adapteris."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Patvarumas ir patogumas klientui"
+          "text": "Naudojimas ir veikimo principas"
         },
         {
           "type": "paragraph",
-          "text": "Grūdinto stiklo danga apsaugo jutiklį net ir nuolat pasirašant dešimtims klientų per dieną. Ekrane galima rodyti interaktyvius mygtukus, trumpus patvirtinimus ar grafinį parašo atvaizdavimą. Jei pageidaujate, kad klientas prieš pasirašydamas skaitytų visą A4 sutartį pačiame įrenginyje, verta apsvarstyti didesnio ekrano modelius."
+          "text": "Korpuso konstrukcija leidžia rašiklį įstatyti vertikaliai arba patogiai paguldyti į integruotą laikiklį. Budėjimo režimu ekrane galima rodyti įmonės logotipą ar pasirinktą grafinę informaciją. Biometriniai parašo duomenys šifruojami pačiame įrenginyje. PDF dokumentams pasirašyti reikalinga „StepOver“ programinė įranga, o darbui terminalinio serverio ar „Citrix“ aplinkose – specialūs papildomi moduliai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Sistemos komplektacija"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Įrenginys veikia kartu su Windows kompiuteriu ir pasirašymo programa. Sužinoti apie programų licencijavimą galite mūsų programinės įrangos apžvalgoje. Jei norite sužinoti tikslią komplektaciją jūsų darbo vietoms, pateikite užklausą mūsų komandai."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys: 16,3 × 15,4 × 1,9 cm",
+            "Svoris be USB kabelio: 300 g",
+            "Korpuso medžiaga: PC/ABS",
+            "Ekranas: TFT; 4 spalvos; 480 × 272 taškai",
+            "Aktyvus ekrano ir jutiklio plotas: 9,5 × 5,3 cm",
+            "Ryškumas: Iki 330 cd/m²",
+            "Matymo kampai: Paprastai 60° horizontaliai ir vertikaliai",
+            "Jutiklio raiška: X/Y: 2565 DPI/LPI",
+            "Pakartojamumas: ±0,4 mm",
+            "Parašo duomenys: 500 X/Y/spaudimo/laiko rinkinių/s",
+            "Spaudimo lygiai: 1024",
+            "Rašiklio modelis: duraPen 1",
+            "Logotipo failai: PNG, JPG, BMP; 480 × 272",
+            "Jungtis: USB 2.0; HID; USB-C / USB-A adapteris",
+            "Kabelis: USB-C → USB-C, 2 m",
+            "Maksimali galia ir srovė: 1,55 W / 310 mA",
+            "Suderinamos sistemos: Windows ≥10, dabartinė macOS, Linux",
+            "Darbo sąlygos: 0…+50 °C / RH≤65 %; 0…+40 °C / RH≤90 %; be kondensacijos",
+            "Laikymo sąlygos: −10…+70 °C / RH≤90 %; be kondensacijos",
+            "Tvirtinimas: Dvi sraigtų angos",
+            "Komplektacija: USB-C kabelis, USB-A adapteris, instrukcija",
+            "GTIN: 4260130061456",
+            "Gamintojo garantija: 2 metai",
+            "Jutiklis: ERT; chemiškai grūdintas stiklas",
+            "Rašiklio prispaudimo jėga: Apie 0,5–8 N",
+            "Rašiklis: Elektromagnetinis, be baterijos; pritvirtinamas virvele",
+            "Kriptografiniai algoritmai: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Apsauga nuo vagystės: Kensington užrakto lizdas",
+            "Kilmė: Pagaminta Vokietijoje",
+            "Atitiktis: CE, UKCA, RoHS; gamintojo lape nurodyta WEE"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniame lape (PDF) nurodomi šie minimalūs reikalavimai: „eSignatureOffice“ ≥7.3, „SimpleSigner“ ≥8.1.0, „Device API“ / „Signature API“ ≥3.1.0 ir „PadConnector“ ≥3.1.0. Įrenginio atpažinimas operacinėje sistemoje ir konkrečios pasirašymo programos suderinamumas vertinami atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gamintojo deklaruojama eksploatavimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojo deklaruojama jutiklio eksploatavimo trukmė – daugiau kaip 30 mln. parašų, o ekrano apšvietimo – 20 000 valandų. Šie rodikliai nėra pardavėjo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite, kad klientas sutartį skaitytų pačioje planšetėje, palyginkite didesnio ekrano modelius. Daugiau apie programas skaitykite programinės įrangos apžvalgoje. Norėdami suderinti darbo vietos įrangą, pateikite užklausą."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -937,22 +1126,22 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/durasign-pad-4-3/",
-          "label": "duraSign Pad 4.3: gamintojo duomenys",
-          "reason": "Apšviestas TFT ekranas, raiška, grūdinto stiklo paviršius ir USB prijungimas."
+          "label": "StepOver duraSign Pad 4.3",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "Gamintojo programa PDF dokumentams pasirašyti naudojant planšetę."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-4.3_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 4.3",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
         }
       ],
       "id": "dc242d72-77a6-4f7c-9606-84e57aa73ee8",
-      "revisionHash": "5e0e259d11664925cea6f606962daeab91acd8660c70ff3d6159098a696f5518",
+      "revisionHash": "86820c7a4dbcc2bcc51bd1128f19dd962b46736cc899dd0c1dc2c0b056fa5937",
       "approval": {
         "status": "approved",
-        "revisionHash": "5e0e259d11664925cea6f606962daeab91acd8660c70ff3d6159098a696f5518",
-        "approvedAt": "2026-10-13T14:38:21.474Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "86820c7a4dbcc2bcc51bd1128f19dd962b46736cc899dd0c1dc2c0b056fa5937",
+        "approvedAt": "2026-10-13T16:22:47.259Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -960,38 +1149,112 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-durasign-pad-5-0",
       "title": "StepOver duraSign Pad 5.0",
-      "description": "5 colių parašo planšetė su ryškiu spalvotu ekranu ir grūdinto stiklo paviršiumi. Skirta patogiam parašo įvedimui ir papildomų sutikimų patvirtinimui.",
+      "description": "StepOver duraSign Pad 5.0: 5 colių ekranas, 800 × 480 taškų raiška ir USB jungtis. Techniniai duomenys, komplektacija ir programų reikalavimai.",
       "intent": "Įvertinti duraSign Pad 5.0 tinkamumą ir pateikti konkretaus komplekto užklausą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„duraSign Pad 5.0“ yra universalus sprendimas klientų aptarnavimo vietoms, kuriose reikalingas ryškus, patikimas ir didesnio ploto spalvotas ekranas. Šis modelis suteikia daugiau erdvės nei baziniai įrenginiai, todėl ekrane patogu rodyti ne tik parašo lauką, bet ir patvirtinimo mygtukus ar papildomus sutikimo punktus."
+          "text": "„duraSign Pad 5.0“ – 5 colių spalvoto ekrano parašo planšetė, leidžianti patogiai peržiūrėti pasirašomą dokumentą ir pasirašyti numatytoje vietoje. Parašas ekrane atvaizduojamas realiuoju laiku. Šis modelis pritaikytas nuolatinei darbo vietai prie klientų aptarnavimo stalo, registratūroje ar biure."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: 5,0 col. spalvotas apšviestas TFT (800 × 480 pikselių).",
-            "Konstrukcija: grūdinto stiklo jutiklinis paviršius su patikimu rašikliu.",
-            "Valdymas: suderinama su kompiuteryje įdiegta pasirašymo programa."
+            "Ekranas: 5 colių TFT, 64 000 spalvų, 800 × 480 taškų.",
+            "Paviršius: chemiškai grūdintas stiklas.",
+            "Prijungimas: USB; pasirašoma naudojant kompiuterio programą."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Papildomi interaktyvūs veiksmai ekrane"
+          "text": "Naudojimas ir veikimo principas"
         },
         {
           "type": "paragraph",
-          "text": "Dėl 800 × 480 pikselių raiškos ekrane galima atvaizduoti aiškias piktogramas, pasirinkimo varneles ar trumpą teisinį sutikimo tekstą prieš klientui pasirašant. Vis dėlto, jei sutartys yra ilgos ir reikalaujama, kad visas A4 formato dokumentas būtų skaitomas pačioje planšetėje, rekomenduojame palyginti didesnius įrenginius mūsų StepOver modelių kataloge."
+          "text": "Tvirtą 3 mm PC/ABS korpusą papildo braižymui atsparus grūdinto stiklo rašymo paviršius. Budėjimo režimu ekrane galima rodyti pasirinktą vaizdų seką ar reklaminius pranešimus. Gamintojas nurodo suderinamumą su ankstesniu modeliu „duraSign Pad Brilliance“. Duomenų perdavimas tarp jutiklio ir pagrindinės plokštės apsaugotas AES-256 šifravimu, kiekvienam parašui sukuriant unikalų raktą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Programinė įranga ir darbo vietos paruošimas"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Įrenginys jungiamas per USB kabelį prie kompiuterio, kuriame veikia suderinama programa (pavyzdžiui, „eSignatureOffice“). Kaip programinė įranga susiejama su jūsų apskaitos ar sutarčių sistema, sužinosite pasirašymo programų apžvalgoje. Norėdami suderinti komplektaciją ir sužinoti kainas, galite tiesiogiai pasiteirauti dėl duraSign Pad 5.0."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys: 16,3 × 15,4 × 1,9 cm",
+            "Svoris be USB kabelio: 300 g",
+            "Korpusas: PC/ABS; 3 mm",
+            "Ekranas: TFT; 64 000 spalvų; 800 × 480",
+            "Aktyvus ekranas / jutiklis: 10,8 × 6,5 cm",
+            "Ryškumas: Iki 245 cd/m²",
+            "Jutiklio raiška: X/Y: 3700 DPI/LPI",
+            "Pakartojamumas: ±0,5 mm",
+            "Parašo duomenys: 500 X/Y/spaudimo/laiko rinkinių/s",
+            "Spaudimo lygiai: 1024",
+            "Rašiklio modelis: duraPen 1",
+            "Jungtis: USB 2.0; HID; pasirenkamas virtualus COM",
+            "Kabelis: USB-C → USB-C, 2 m; USB-A adapteris",
+            "Maksimali galia ir srovė: 2,3 W / 460 mA",
+            "Suderinamos sistemos (produkto puslapis): Windows 10 / 11",
+            "Darbo sąlygos: 0…+50 °C / RH≤90 %; be kondensacijos",
+            "Įrenginio laikymo sąlygos: −10…+70 °C / RH≤90 %; be kondensacijos",
+            "Rekomenduojamos komplekto laikymo sąlygos: −10…+65 °C / RH≤90 %; be kondensacijos",
+            "Tvirtinimas: Dvi sraigtų angos",
+            "Komplektacija: duraPen 1, USB-C kabelis, USB-A adapteris, instrukcija",
+            "GTIN: 4260130061463",
+            "Gamintojo garantija: 2 metai",
+            "Jutiklis: ERT; chemiškai grūdintas stiklas",
+            "Rašiklio prispaudimo jėga: Apie 0,5–8 N",
+            "Rašiklis: Elektromagnetinis, be baterijos; pritvirtinamas virvele",
+            "Kriptografiniai algoritmai: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Apsauga nuo vagystės: Kensington užrakto lizdas",
+            "Kilmė: Pagaminta Vokietijoje",
+            "Atitiktis: CE, UKCA, RoHS; gamintojo lape nurodyta WEE",
+            "Rašiklio laikymo sąlygos: −20…+70 °C / RH≤65 % arba −20…+65 °C / RH≤95 %; be kondensacijos."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matymo kampai horizontaliai: mažiausiai 60°, įprastai 70°.",
+            "Matymo kampai vertikaliai (dviem kryptimis): mažiausiai 60° / 45°, įprastai 70° / 50°."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniame lape (PDF) nurodomi reikalavimai: dirbant 2048 bitų šifravimo režimu – „eSignatureOffice“ ≥5.9, „SimpleSigner“ ≥7.0 ir „Device API“ ≥5.9; naudojant ilgesnį raktą – „eSignatureOffice“ ≥6.2, „SimpleSigner“ ≥7.1, „Device API“ ≥6.2 bei „Signature API“ ≥4.13. Gamintojas nurodo, kad įrenginio palaikymą „macOS“, „Linux“ ir plonųjų klientų aplinkose būtina derinti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gamintojo deklaruojama eksploatavimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojo deklaruojama jutiklio eksploatavimo trukmė – daugiau kaip 30 mln. parašų, o ekrano apšvietimo – 20 000 valandų. Šie rodikliai nėra pardavėjo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitus įrenginius rasite StepOver modelių kataloge, o programas – pasirašymo programų apžvalgoje. Dėl komplektacijos ir kainos galite pasiteirauti dėl duraSign Pad 5.0."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -1023,22 +1286,22 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/durasign-pad-5-0/",
-          "label": "duraSign Pad 5.0: gamintojo aprašas",
-          "reason": "Dokumento rodymas, spalvoto ekrano raiška, konstrukcija ir USB jungtis."
+          "label": "StepOver duraSign Pad 5.0",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "Informacija apie dokumentų pasirašymo programą ir jos funkcijas."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign_-Pad_5.0__EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 5.0",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
         }
       ],
       "id": "497c8819-4fc2-497d-ad38-7082dc18bc5c",
-      "revisionHash": "f679390963083c65aa246f13a78cede2689fb0f805df920c020516c693e77576",
+      "revisionHash": "2c71df4df6e1026a021a2cb2ca6a6943a510e0985e3403a195a5b94f439529e5",
       "approval": {
         "status": "approved",
-        "revisionHash": "f679390963083c65aa246f13a78cede2689fb0f805df920c020516c693e77576",
-        "approvedAt": "2026-10-13T14:38:21.560Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "2c71df4df6e1026a021a2cb2ca6a6943a510e0985e3403a195a5b94f439529e5",
+        "approvedAt": "2026-10-13T16:22:47.282Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -1046,38 +1309,104 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-durasign-pad-10-0",
       "title": "StepOver duraSign Pad 10.0",
-      "description": "10 colių parašo planšetė pilnam dokumento skaitymui ir pasirašymui. Spalvotas 1024 × 600 pikselių ekranas su grūdinto stiklo paviršiumi.",
+      "description": "StepOver duraSign Pad 10.0 dokumentams peržiūrėti ir pasirašyti. 1024 × 600 taškų ekranas, VESA 100 tvirtinimas ir programų reikalavimai.",
       "intent": "Įvertinti duraSign Pad 10.0 tinkamumą ir pateikti konkretaus komplekto užklausą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„duraSign Pad 10.0“ yra sukurta toms situacijoms, kai klientas turi patogiai perskaityti visą sutartį ar aktą tiesiogiai įrenginyje prieš pasirašydamas. Didelis 10 colių spalvotas ekranas leidžia atvaizduoti dokumento puslapį be varginančio vartymo kompiuterio monitoriuje."
+          "text": "„duraSign Pad 10.0“ – didelio formato parašo planšetė su 10 colių ekranu, skirta patogiai peržiūrėti ir pasirašyti dokumentus viename ekrane. Ekrane telpa visas standartinio A4 formato dokumento plotis, o naudotojas rašikliu gali slinkti tekstą ir keisti mastelį. Įrenginys sukurtas stacionarioms klientų aptarnavimo erdvėms."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: 10,1 col. spalvotas ekranas (1024 × 600 pikselių raiška).",
-            "Dokumento peržiūra: patogus A4 puslapio skaitymas, didinimas ir slinkimas rašikliu.",
-            "Konstrukcija: tvirtas grūdintas stiklas, pritaikytas stacionarioms klientų aptarnavimo vietoms."
+            "Ekranas: 10 colių TFT, 1024 × 600 taškų.",
+            "Dokumento peržiūra: teksto slinkimas ir mastelio keitimas.",
+            "Prijungimas: USB; pasirašoma naudojant kompiuterio programą."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Patogus sutarčių skaitymas prie aptarnavimo stalo"
+          "text": "Naudojimas ir veikimo principas"
         },
         {
           "type": "paragraph",
-          "text": "Didelis ekranas užtikrina skaidrų procesą: klientas mato visas sutarties sąlygas, lenteles bei specialius punktus ir pasirašo tiesiai po jais. Įrenginys skirtas stacionariam darbui biure, todėl ant stalo rekomenduojama numatyti pakankamai vietos ir saugiai išvedžioti USB jungtį."
+          "text": "Ekrano padėtį galima nustatyti vertikaliai arba horizontaliai. Budėjimo režimu rodomus reklaminius vaizdus galima valdyti naudojant „StepOver ImageLoader“ įrankį. Įrenginį galima montuoti ant standartinio VESA 100 laikiklio arba apsaugoti „Kensington“ užraktu. PDF dokumentų pasirašymui reikalinga atskira programinė įranga, o terminalinėms aplinkoms skirti specialūs TCP ir „Citrix“ moduliai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Sistemos veikimas ir skirtumas nuo NG serijos"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Šis modelis prijungiamas USB laidu ir veikia kartu su kompiuteriu, kuriame įdiegta pasirašymo programinė įranga (pavyzdžiui, „eSignatureOffice“). Atkreipkite dėmesį, kad šis modelis neturi integruoto procesoriaus savarankiškam PDF apdorojimui (tuo jis skiriasi nuo „NG 10“ modelio). Išsamus StepOver modelių palyginimas padės pasirinkti teisingą architektūrą, o pasiteirauti dėl duraSign Pad 10.0 galite susisiekę su mūsų komanda."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys: 29 × 22 × 2,1 cm",
+            "Svoris be kabelio: 955 g",
+            "Korpusas: PC/ABS; 3 mm",
+            "Ekranas: TFT; 64 000 spalvų; 1024 × 600",
+            "Ryškumas: Iki 310 cd/m²",
+            "Jutiklio raiška: X/Y: 2560 DPI/LPI",
+            "Pakartojamumas: ±0,4 mm",
+            "Parašo duomenys: 330 X/Y/spaudimo/laiko rinkinių/s",
+            "Spaudimo lygiai: 2048",
+            "Rašiklio modeliai (techninis lapas): duraPen 2 / 2.5",
+            "Jungtis: USB 2.0 / 1.1; HID",
+            "Kabelis: 2 × USB-A → Mini-USB-B; Y kabelis, 299 cm",
+            "Maksimali srovė: 1100 mA",
+            "Suderinamos sistemos (produkto puslapis): Windows 10 / 11",
+            "Darbo sąlygos: 0…+50 °C / RH≤65 %; 0…+40 °C / RH≤90 %; be kondensacijos",
+            "Laikymo sąlygos: −10…+70 °C / RH≤90 %; be kondensacijos",
+            "Tvirtinimas: VESA 100; dvi sraigtų angos",
+            "Komplektacija: USB kabelis, instrukcija; rašiklis su virvele",
+            "GTIN: 4260130061234",
+            "Gamintojo garantija: 2 metai",
+            "Jutiklis: ERT; chemiškai grūdintas stiklas",
+            "Rašiklio prispaudimo jėga: Apie 0,5–8 N",
+            "Rašiklis: Elektromagnetinis, be baterijos; pritvirtinamas virvele",
+            "Kriptografiniai algoritmai: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Apsauga nuo vagystės: Kensington užrakto lizdas",
+            "Kilmė: Pagaminta Vokietijoje",
+            "Atitiktis: CE, UKCA, RoHS; gamintojo lape nurodyta WEE",
+            "Matymo kampai horizontaliai: mažiausiai 60°, įprastai 70°.",
+            "Matymo kampai vertikaliai (dviem kryptimis): mažiausiai 60° / 45°, įprastai 70° / 50°."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniame lape (PDF) nurodomi reikalavimai: dirbant 2048 bitų šifravimo režimu – „eSignatureOffice“ ≥5.9, „SimpleSigner“ ≥7.0 ir „Device API“ ≥5.9; naudojant ilgesnį raktą – „eSignatureOffice“ ≥6.2, „SimpleSigner“ ≥7.1, „Device API“ ≥6.2, „Signature API“ ≥4.13 bei įrenginio valdymo programos („firmware“) versija ≥7.09.0.47. Įrenginio palaikymas „macOS“, „Linux“ ir plonųjų klientų sistemose derinamas atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gamintojo deklaruojama eksploatavimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojo deklaruojama jutiklio eksploatavimo trukmė – daugiau kaip 30 mln. parašų, o ekrano apšvietimo – 20 000 valandų. Šie rodikliai nėra pardavėjo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "StepOver modelių palyginimas padės įvertinti ekranų ir veikimo principų skirtumus. Šiam modeliui reikalinga kompiuteryje veikianti pasirašymo programinė įranga. Dėl darbo vietos paruošimo galite pasiteirauti dėl duraSign Pad 10.0."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -1109,22 +1438,22 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/durasign-pad-10-0/",
-          "label": "duraSign Pad 10.0: gamintojo duomenys",
-          "reason": "Ekrano dydis, dokumento peržiūra, USB prijungimas ir tvirtinimo galimybės."
+          "label": "StepOver duraSign Pad 10.0",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "PDF pasirašymo funkcijos, kurias atlieka kompiuteryje veikianti programa."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-10.0_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad 10.0",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
         }
       ],
       "id": "1838da73-e900-4334-8983-2a56e036e280",
-      "revisionHash": "2c7d1e605b0ddf9cace75c8e44dc6834168c980fe3d207964995bee310546d69",
+      "revisionHash": "b6bcb000eab70120b97b18f8988f76265f0c9e1a8fd259810a9dd508ef60279e",
       "approval": {
         "status": "approved",
-        "revisionHash": "2c7d1e605b0ddf9cace75c8e44dc6834168c980fe3d207964995bee310546d69",
-        "approvedAt": "2026-10-13T14:38:21.667Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "b6bcb000eab70120b97b18f8988f76265f0c9e1a8fd259810a9dd508ef60279e",
+        "approvedAt": "2026-10-13T16:22:47.302Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -1132,38 +1461,114 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-durasign-pad-ng-10",
       "title": "StepOver duraSign Pad NG 10",
-      "description": "10 colių autonominė parašo planšetė su integruotu PDF apdorojimu. Palaiko tiesioginį tinklo ryšį (LAN), naršyklės pasirašymą ir API integracijas.",
+      "description": "StepOver duraSign Pad NG 10 apdoroja PDF pačioje planšetėje. Techniniai duomenys, valdymas naršyklėje ir Ethernet ryšys su papildomu priedu.",
       "intent": "Įvertinti duraSign Pad NG 10 tinkamumą ir pateikti konkretaus komplekto užklausą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„duraSign Pad NG 10“ yra pažangus 10 colių įrenginys su integruotu procesoriumi, kuris PDF dokumentus apdoroja pačioje planšetėje. Tai leidžia atvaizduoti dokumentą, surinkti biometrinius parašo duomenis ir pasirašyti failą nepriklausomai nuo vietinio kompiuterio operacinės sistemos apribojimų."
+          "text": "„duraSign Pad NG 10“ – naujos kartos (NextGen) parašo planšetė, savarankiškai apdorojanti PDF dokumentus: įrenginys atvaizduoja failą ekrane, fiksuoja biometrinį parašą ir sugeneruoja galutinį pasirašytą dokumentą. Pagrindinį pasirašymo procesą galima patogiai valdyti interneto naršyklėje be atskiros pasirašymo programos. Didesnis 10 colių ekranas tinka darbo vietai, kur klientas prieš pasirašydamas turi perskaityti visą dokumentą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: 10,1 col. spalvotas ekranas (1024 × 600 pikselių).",
-            "Autonominis apdorojimas: PDF failą atvaizduoja ir parašą įrašo pati planšetė.",
-            "Ryšio galimybės: USB arba vietinis tinklas (su papildomu Ethernet priedu)."
+            "Ekranas: 10 colių TFT, 1024 × 600 taškų.",
+            "Dokumentai: PDF apdorojamas ir pasirašomas pačioje planšetėje.",
+            "Prijungimas: USB arba Ethernet su papildomu priedu."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dokumento pateikimas ir integracija"
+          "text": "Naudojimas ir integracija"
         },
         {
           "type": "paragraph",
-          "text": "Dokumentą į NG 10 galima nusiųsti tiesiai per žiniatinklio sąsają, naudojant „Print2NG“ virtualų spausdintuvą arba per „nextGen API“. Prijungus įrenginį prie vietinio tinklo (LAN), viena planšete gali naudotis keli darbuotojai arba terminalinių serverių sesijos."
+          "text": "Prijungus per USB laidą, planšetę valdo vietinis kompiuteris. Naudojant papildomą „Ethernet Connection Kit“ priedą, įrenginys prijungiamas prie vietinio tinklo, todėl juo paeiliui gali naudotis keli skirtingi darbo vietų kompiuteriai. Integracijai į įmonės sistemas gamintojas siūlo REST ir .NET API sąsajas bei „Print2NG“ virtualų spausdintuvą. Interaktyvioms formoms pildyti pačioje planšetėje skirtas papildomas „NG Pad Feature Extension“ plėtinys."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Architektūros pasirinkimas"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Svarbu atskirti „NG 10“ nuo standartinio „duraSign Pad 10.0“ modelio: NG versija pati atlieka PDF kriptografinį apdorojimą ir tinka sudėtingoms tinklo bei žiniatinklio infrastruktūroms. Kitas alternatyvas rasite mūsų StepOver planšečių kataloge, o programas – pasirašymo programų apžvalgoje. Jei norite sužinoti technines detales, kviečiame pasiteirauti dėl NG 10."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys: 29 × 22 × 2,1 cm",
+            "Korpusas: PC/ABS; 3 mm",
+            "Ekranas: TFT; 64 000 spalvų; 1024 × 600",
+            "Ryškumas: Iki 310 cd/m²",
+            "Jutiklio raiška: X/Y: 2560 DPI/LPI",
+            "Pakartojamumas: ±0,4 mm",
+            "Parašo duomenys: 330 X/Y/spaudimo/laiko rinkinių/s",
+            "Spaudimo lygiai: 2048",
+            "Rašiklio modelis: duraPen 3",
+            "Dokumentai: PDF/A-1b, -2b, -3b; kiti PDF tik išbandžius",
+            "Vaizdai: PNG, JPG, BMP; 1024 × 600",
+            "Vaizdo įrašai: VP8; 512 × 300; 24 Hz; be garso",
+            "Jungtis: USB 2.0; Ethernet su papildomu priedu",
+            "USB režimas (techninis lapas): Tinklo įrenginys; Ethernet over USB / RNDIS",
+            "Kabelis: 2 × USB-A → Mini-USB-B; Y kabelis, 299 cm",
+            "Maksimali galia ir srovė: 5 W / 1000 mA",
+            "Sistemos (techninis lapas): Windows ≥10; macOS ≥Catalina; Linux su USB / CDC palaikymu",
+            "Naršyklės: Chrome, Edge, Safari, Firefox",
+            "Darbo sąlygos: 0…+50 °C / RH≤65 %; 0…+40 °C / RH≤90 %; be kondensacijos",
+            "Laikymas: −10…+70 °C / RH≤90 %; be kondensacijos",
+            "GTIN: 4260130061418",
+            "Gamintojo garantija: 2 metai (gamintojo nurodyta)",
+            "Jutiklis: ERT; chemiškai grūdintas stiklas",
+            "Rašiklio prispaudimo jėga: Apie 0,5–8 N",
+            "Rašiklis: Elektromagnetinis, be baterijos; pritvirtinamas virvele",
+            "Kriptografiniai algoritmai: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Apsauga nuo vagystės: Kensington užrakto lizdas",
+            "Kilmė: Pagaminta Vokietijoje",
+            "Atitiktis: CE, UKCA, RoHS; gamintojo lape nurodyta WEE",
+            "Tvirtinimas: VESA 100."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tinklo priedo adapteris: 10/100 Mbit/s; užsakomas atskirai.",
+            "Tinklo priedo maitinimo šaltinis: 7 W („Europlugs“) arba 7,5 W („International“).",
+            "Budėjimo vaizdai: bent 4 vaizdai įrenginio atmintyje.",
+            "Vaizdo įrašo trukmė: iki 30 min."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniame lape (PDF) nurodoma, kad tradiciniam darbo modeliui palaikomos „eSignatureOffice“ ≥7.X ir „SimpleSigner“ ≥8.X programos. NG integracijai pateikiamas įrenginio REST API, „NextGen API“ (.NET) bei „Swagger“ specifikacija. Tinklo priedai su 10/100 Mbit/s adapteriu ir maitinimo šaltiniu užsakomi atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gamintojo deklaruojama eksploatavimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojo deklaruojama jutiklio eksploatavimo trukmė – daugiau kaip 30 mln. parašų, o ekrano apšvietimo – 20 000 valandų. Šie rodikliai nėra pardavėjo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitus įrenginius rasite StepOver planšečių kataloge, o programas – pasirašymo programų apžvalgoje. Dėl komplektacijos ir integracijos galite pasiteirauti dėl NG 10."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -1195,22 +1600,27 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
-          "label": "duraSign Pad NG 10: gamintojo aprašas",
-          "reason": "PDF apdorojimas planšetėje, ekrano duomenys ir papildomas Ethernet priedas."
+          "label": "StepOver duraSign Pad NG 10",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5: kitas NG šeimos modelis",
-          "reason": "Mažesnio NG įrenginio aprašas, padedantis palyginti tos pačios šeimos planšetes."
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_duraSign-Pad-NG-10_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver duraSign Pad NG 10",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/software/ng-pad-feature-extension/",
+          "label": "NG Pad Feature Extension – formų pildymo plėtinys",
+          "reason": "NG formų pildymo funkcijos ir atskira metinė prenumerata vienam įrenginiui."
         }
       ],
       "id": "d60d6eb9-35e6-4778-b7e5-136827efc61d",
-      "revisionHash": "c20a1d6085277edd2bca69e464184a2e0b8e0823fb44f1e82fab4299a26b837f",
+      "revisionHash": "3e6c8f6e273f49615220d401034fabb21bba6c7be78c16a9f356d6753d496faf",
       "approval": {
         "status": "approved",
-        "revisionHash": "c20a1d6085277edd2bca69e464184a2e0b8e0823fb44f1e82fab4299a26b837f",
-        "approvedAt": "2026-10-13T14:38:21.791Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "3e6c8f6e273f49615220d401034fabb21bba6c7be78c16a9f356d6753d496faf",
+        "approvedAt": "2026-10-13T16:22:47.328Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -1223,43 +1633,39 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Parašo planšetė yra įvesties įrenginys, o dokumento atidarymą, parašo laukų valdymą ir biometrijos įrašymą atlieka programinė įranga. Programos pasirinkimas priklauso nuo to, kokio formato dokumentus pasirašote, kur jie saugomi ir ar procesas vyksta vietoje, ar internetu."
+          "text": "Programą rinkitės pagal dokumento šaltinį, naudojamos planšetės šeimą ir pasirašymo vietą. Kiekvienas sprendimas atlieka konkrečią funkciją: viena programa peržiūri ir pasirašo PDF bylas kompiuteryje, kita perduoda dokumentą į NG planšetę per virtualų spausdintuvą, o „Office“ įskiepis įterpia parašo grafinį vaizdą į „Word“ ar „Excel“ dokumentus. Todėl pirmiausia nuspręskite, kaip norite pateikti dokumentą ir kur jį pasirašysite."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Standartinis PDF pasirašymas su eSignatureOffice"
+          "text": "Programų palyginimas"
         },
         {
-          "type": "paragraph",
-          "text": "„eSignatureOffice“ yra pagrindinė Windows programa darbui su standartinėmis USB planšetėmis. Ji leidžia atverti PDF dokumentus, nustatyti parašo vietas, automatiškai užšifruoti biometrinius duomenis ir išsaugoti pasirašytą failą nurodytame aplanke. Išsamiau apie šį įrankį skaitykite mūsų eSignatureOffice apžvalgoje, o kaip procesas vyksta praktiškai – gide PDF pasirašymas planšete."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Dokumentų siuntimas į NG planšetes per Print2NG"
-        },
-        {
-          "type": "paragraph",
-          "text": "Jeigu naudojate buhalterinę ar verslo valdymo programą, kuri neturi tiesioginės integracijos, galite naudoti Print2NG sprendimą. Tai virtualus spausdintuvas, kuris bet kurį spausdinamą dokumentą paverčia PDF ir automatiškai persiunčia į NextGen planšetę pasirašymui."
+          "type": "list",
+          "items": [
+            "eSignatureOffice: PDF/A peržiūra, formos, parašai ir dokumentų apdorojimo automatizavimas Windows darbo vietoje.",
+            "Print2NG: Dokumento perdavimas per virtualų spausdintuvą į NG planšetę.",
+            "Office Plugin / NextGen Office Plugin: Parašo vaizdas Word ir Excel; variantas pagal įrenginį.",
+            "webSignatureOffice / Lite: Dokumentų pasirašymas internetu; skirtingi paslaugos ir diegimo variantai."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirašymas Microsoft Word ir Excel failuose"
+          "text": "Papildomos NG formų pildymo funkcijos"
         },
         {
           "type": "paragraph",
-          "text": "Tais atvejais, kai dirbama ne su PDF, o su redaguojamais dokumentais, naudojamas Office Plugin įskiepis. Jis leidžia įterpti parašą tiesiai į „Word“ arba „Excel“ dokumentą. Tai patogu vidiniams įmonės suderinimams, tačiau teisiškai svarbioms sutartims rekomenduojamas PDF formatas su kriptografiniu vientisumo patikrinimu."
+          "text": "Plėtinys „NG Pad Feature Extension“ leidžia „nextGen Pad 5“ ir „duraSign Pad NG 10“ planšečių ekranuose tiesiogiai užpildyti tekstinius laukus, pažymėti pasirinkimus ir naudoti išskleidžiamuosius sąrašus. Duomenys gali būti iš anksto įrašomi iš įmonės sistemų ir perduodami XML formatu. Tai yra atskira metinė prenumerata vienam įrenginiui; ji nėra automatiškai įtraukta į pagrindines NG pasirašymo funkcijas."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirašymas internetu ir integracija per API"
+          "text": "Toliau renkantis sprendimą"
         },
         {
           "type": "paragraph",
-          "text": "Kai pasirašantysis yra kitoje vietoje, dokumentus galima teikti per debesis su nuotolinio pasirašymo programų apžvalgoje pristatomais įrankiais („webSignatureOffice“). O jeigu norite pasirašymo procesą pilnai automatizuoti savo IT sistemoje, galima realizuoti tiesioginę API integraciją. Jei dvejojate, koks modelis tinka jūsų verslui, susisiekite su mumis."
+          "text": "Dokumentų pateikimo ir pasirašymo eigą paaiškina gidas PDF pasirašymas planšete. Jei procesą norite susieti su įmonės sistema, aptarkite tiesioginę API integraciją. Dėl programos pasirinkimo susisiekite su mumis."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -1325,55 +1731,65 @@
         },
         {
           "targetPageId": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
-          "label": "eSignatureOffice apžvalgoje"
+          "label": "eSignatureOffice"
         },
         {
           "targetPageId": "265c5f13-24f2-48aa-b4b6-ad1e52e116f1",
-          "label": "Print2NG sprendimą"
+          "label": "Print2NG"
         },
         {
           "targetPageId": "ad59a259-6dab-4f83-a8aa-3c134860691e",
-          "label": "ffice Plugin įskiepis"
+          "label": "Office Plugin / NextGen Office Plugin"
         },
         {
           "targetPageId": "7ab49804-5789-4037-8395-1e293c399122",
-          "label": "nuotolinio pasirašymo programų apžvalgoje"
+          "label": "webSignatureOffice / Lite"
         }
       ],
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "PDF peržiūros, pasirašymo ir automatizavimo funkcijos."
+          "label": "eSignatureOffice – PDF pasirašymo programa",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5",
-          "reason": "NG šeimos dokumento apdorojimo principas ir prijungimo būdai."
+          "url": "https://stepover.com/wp-content/uploads/Flyer-eSignatureOffice-EN.pdf",
+          "label": "eSignatureOffice – gamintojo brošiūra (2021 m.)",
+          "reason": "2021 m. brošiūra: papildomas funkcijų aprašymas; netaikoma dabartinei programos versijai nustatyti."
         },
         {
-          "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/880312429/eSignature+FAQ",
-          "label": "Europos Komisija apie elektroninius parašus",
-          "reason": "Elektroninių parašų rūšys ir kvalifikuotam parašui taikomi reikalavimai."
+          "url": "https://stepover.com/en/products/software/print2ng/",
+          "label": "Print2NG – tiesioginis dokumentų siuntimas į NextGen planšetes",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/software/",
-          "label": "StepOver programų apžvalga",
-          "reason": "eSignatureOffice, Print2NG ir Office Plugin paskirtys."
+          "url": "https://stepover.com/en/products/software/stepover-office-plugin/",
+          "label": "StepOver Office Plugin – parašas Word ir Excel dokumentuose",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
-          "url": "https://stepover.com/en/products/cloud-sign-online/",
-          "label": "StepOver pasirašymo internetu paslaugos",
-          "reason": "webSignatureOffice ir Lite bei susijusių įrankių apžvalga."
+          "url": "https://stepover.com/en/products/cloud-sign-online/websignatureoffice/",
+          "label": "webSignatureOffice ir Lite – pasirašymas internetu",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/en/products/cloud-sign-online/websignatureoffice-lite/",
+          "label": "webSignatureOffice ir Lite – pasirašymas internetu",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/en/products/software/ng-pad-feature-extension/",
+          "label": "NG Pad Feature Extension – formų pildymo plėtinys",
+          "reason": "NG formų pildymo funkcijos ir atskira metinė prenumerata vienam įrenginiui."
         }
       ],
       "id": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-      "revisionHash": "ef1b1e49d0b02dc618961a61e1b160ed9784df9bbb9fd53e9d0909a0c4b34c19",
+      "revisionHash": "a36960893d9601a603b640b12cd737e4c6c6b02bd38cc5934e68a836608abaef",
       "approval": {
         "status": "approved",
-        "revisionHash": "ef1b1e49d0b02dc618961a61e1b160ed9784df9bbb9fd53e9d0909a0c4b34c19",
-        "approvedAt": "2026-10-13T14:38:21.848Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "a36960893d9601a603b640b12cd737e4c6c6b02bd38cc5934e68a836608abaef",
+        "approvedAt": "2026-10-13T16:22:47.492Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -2656,39 +3072,61 @@
       "type": "guide",
       "slug": "programine-iranga/esignatureoffice",
       "title": "eSignatureOffice – PDF pasirašymo programa",
-      "description": "Išsami StepOver eSignatureOffice apžvalga: PDF peržiūra, automatiniai parašo laukai, biometrijos šifravimas ir terminalinių serverių palaikymas.",
+      "description": "eSignatureOffice funkcijos ir techniniai reikalavimai: PDF/A pasirašymas Windows aplinkoje, formos, makrokomandos ir integracija į įmonės sistemas.",
       "intent": "eSignatureOffice yra atskiras PDF darbo eigos kelias, kurį reikia parinkti pagal aplinką ir licenciją.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„eSignatureOffice“ yra StepOver programa PDF dokumentams atverti, peržiūrėti ir pasirašyti parašo planšete. Ji susieja surinktus parašo duomenis su dokumentu ir taiko asimetrinį šifravimą."
+          "text": "„eSignatureOffice“ – „Windows“ operacinei sistemai skirta programinė įranga PDF/A dokumentams peržiūrėti, formoms pildyti ir biometriniam parašui fiksuoti. Ji pritaikyta stacionarioms darbo vietoms, kuriose darbuotojas pateikia dokumentą klientui, o pasirašytą failą reikia išsaugoti arba perduoti tolesniam apdorojimui įmonės sistemoje. Parašas įterpiamas tiesiai į PDF dokumentą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Automatizuotas parašo laukų valdymas"
+          "text": "Techniniai reikalavimai"
         },
         {
-          "type": "paragraph",
-          "text": "Programa geba automatiškai atpažinti raktinius žodžius PDF dokumente ir tose vietose sukurti pasirašymo laukus. Tai itin patogu pasikartojančioms sutartims: darbuotojui nereikia rankiniu būdu žymėti, kur klientas turi pasirašyti – programa pati nukreipia procesą."
+          "type": "list",
+          "items": [
+            "Operacinė sistema: Windows 10 / 11",
+            "Minimalus procesorius: Dviejų branduolių, 1 GHz",
+            "Rekomenduojamas procesorius: Dviejų branduolių, 2 GHz",
+            "RAM: Min. 1 GB; rekomenduojama 2 GB",
+            "Disko vieta: 150 MB, įskaitant laikinuosius duomenis",
+            "Ekranas: Bent 1024 × 768, 16 bitų spalvos",
+            "Dokumentai: PDF/A; formų ir parašo laukai",
+            "Duomenų apsauga: Biometrinių duomenų RSA šifravimas iki 4096 bitų"
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Biometrinis saugumas ir RSA šifravimas"
+          "text": "Dokumentų apdorojimas ir integracija"
         },
         {
           "type": "paragraph",
-          "text": "Pasirašant fiksuojamas ne tik parašo vaizdas, bet ir jo dinamika, pavyzdžiui, spaudimas bei rašymo greitis. Duomenys užšifruojami ir susiejami su konkrečiu PDF dokumentu. Proceso eigą paaiškina PDF pasirašymo gidas."
+          "text": "Parašo laukus galima nustatyti pagal ieškomus teksto raktinius žodžius arba pagal iš anksto parengtus PDF laukus. Programa leidžia atskirti privalomus ir pasirenkamus parašus, pildyti formas, patogiai slinkti dokumentą ir keisti mastelį. Naudojant makrokomandas galima automatizuoti failo pervadinimą, išsaugojimą, spausdinimą ir perdavimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Integracijai į įmonės sistemas naudojami paleidimo parametrai, XML bei konfigūracijos failai; galima integruoti OCX komponentą. Dokumentai gaunami ir perduodami HTTP(S) ar FTP protokolais, o rezultatus galima automatiškai siųsti el. paštu. Sukurtą konfigūraciją galima eksportuoti į .scs failą kitoms darbo vietoms. Terminalinėms aplinkoms skirti specialūs TCP ir „Citrix“ moduliai. Pasirašant PDF/A dokumentą, programa išsaugo jo atitiktį PDF/A standartui."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Terminaliniai serveriai ir bandomasis diegimas"
+          "text": "Suderinamumas ir licencijavimas"
         },
         {
           "type": "paragraph",
-          "text": "Nuotoliniam darbalaukiui ir Citrix aplinkai numatyti papildomi ryšio moduliai. Jų tinkamumą verta patikrinti bandomuoju diegimu savo sistemoje. Apie licencijas, kainą ir galimybę išbandyti programą galite teirautis dėl eSignatureOffice."
+          "text": "Gamintojo produkto puslapyje nurodytas suderinamumas su „naturaSign Pad Classic“, „duraSign Pad 4.3“, „5.0“ ir „10.0“. NG modelių techniniuose lapuose nurodoma „eSignatureOffice“ 7.X ar naujesnė versija, tačiau konkreti darbo eiga su NG modeliu tikrinama atskirai. Gamintojas siūlo metinę prenumeratą su programinės įrangos atnaujinimais ir pagalba."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip dokumentas pateikiamas ir pasirašomas, paaiškina PDF pasirašymo gidas. Programos tinkamumą jūsų aplinkai padeda įvertinti bandomasis diegimas. Dėl licencijos ir papildomų modulių galite teirautis dėl eSignatureOffice."
         }
       ],
       "publishAt": "2026-10-10T07:00:00.000Z",
@@ -2756,17 +3194,22 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice: gamintojo funkcijų aprašas",
-          "reason": "Dokumento peržiūra, automatiniai parašo laukai, makrokomandos ir serverio aplinkoms skirti moduliai."
+          "label": "StepOver eSignatureOffice – PDF pasirašymo programa",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/Flyer-eSignatureOffice-EN.pdf",
+          "label": "eSignatureOffice – gamintojo brošiūra (2021 m.)",
+          "reason": "2021 m. brošiūra: papildomas funkcijų aprašymas; netaikoma dabartinei programos versijai nustatyti."
         }
       ],
       "id": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
-      "revisionHash": "34c75849dd109bc19e0d087e79c7f4a53b908afa44c421454c2ea57834210c7f",
+      "revisionHash": "2a86c56e39013483404f828403d0d52ed127156d6caabdf7cf8cafc4671615a1",
       "approval": {
         "status": "approved",
-        "revisionHash": "34c75849dd109bc19e0d087e79c7f4a53b908afa44c421454c2ea57834210c7f",
-        "approvedAt": "2026-10-13T14:38:22.938Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "2a86c56e39013483404f828403d0d52ed127156d6caabdf7cf8cafc4671615a1",
+        "approvedAt": "2026-10-13T16:22:47.375Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -2774,39 +3217,49 @@
       "type": "guide",
       "slug": "programine-iranga/print2ng",
       "title": "Print2NG – tiesioginis dokumentų siuntimas į NextGen planšetes",
-      "description": "Print2NG virtualus spausdintuvas leidžia siųsti dokumentus į StepOver NG planšetes tiesiai iš bet kurios programos spausdinimo komanda.",
+      "description": "Print2NG siunčia dokumentus iš spausdinimo funkciją turinčių programų į StepOver NG planšetes. Windows, macOS ir Linux reikalavimai bei apribojimai.",
       "intent": "Print2NG kelias svarstomas, kai programa gali spausdinti dokumentą ir naudojama tinkama NG įranga.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„Print2NG“ yra unikalus sprendimas įmonėms, kurios nori skaitmenizuoti pasirašymą be sudėtingo programavimo. Įdiegus „Print2NG“, jūsų operacinėje sistemoje atsiranda virtualus spausdintuvas: bet kurioje programoje paspaudus „Spausdinti“, dokumentas iškart atsidaro „NextGen“ (NG) planšetės ekrane."
+          "text": "„Print2NG“ – virtualaus spausdintuvo tvarkyklė, skirta siųsti dokumentus tiesiogiai į „NextGen“ šeimos parašo planšetes. Bet kurioje taikomojoje programoje pasirinkus spausdinimo komandą, dokumentas perduodamas į NG įrenginį, klientas pasirašo jo ekrane, o pasirašytas failas grąžinamas į kompiuterį. Tai leidžia inicijuoti pasirašymo procesą tiesiai iš „Word“, „Excel“ ar bet kurios kitos spausdinimo funkciją palaikančios programos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip veikia pasirašymo eiga"
+          "text": "Techniniai reikalavimai"
         },
         {
-          "type": "paragraph",
-          "text": "Darbuotojas savo kompiuteryje mato dokumento pateikimo langą, o klientas – visą tekstą planšetės ekrane. Klientui pasirašius, baigtas PDF failas automatiškai išsaugomas nurodytame tinklo aplanke arba persiunčiamas į archyvą. Tai idealiai tinka buhalterinėms programoms ir senesnėms sistemoms, neturinčioms PDF eksporto funkcijos."
+          "type": "list",
+          "items": [
+            "Windows: 10 / 11; tik x86 arba x64",
+            "Windows ARM: ARM32 ir ARM64 nepalaikomi",
+            "macOS: Nuo 13.2",
+            "Linux: Gamintojas nurodo Linux palaikymą; konkrečią distribuciją reikia suderinti.",
+            "Procesorius: Dviejų branduolių: min. 1 GHz, rekomenduojama 2 GHz",
+            "RAM: 2 GB",
+            "Laisva disko vieta: 300 MB, įskaitant laikinuosius duomenis",
+            "Ekranas: Bent 1024 × 768; 16 bitų spalvos",
+            "Planšetės: nextGen Pad 5 ir duraSign Pad NG 10"
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Suderinamumas su NG modeliais"
+          "text": "Pasirašymo stebėjimas ir išsaugojimas"
         },
         {
           "type": "paragraph",
-          "text": "Svarbu atkreipti dėmesį, kad „Print2NG“ skirta būtent StepOver NextGen šeimos įrenginiams (tokiems kaip duraSign Pad NG 10). Standartiniams USB modeliams be integruoto PDF apdorojimo rekomenduojame palyginti eSignatureOffice galimybes."
+          "text": "Kompiuterio ekrane darbuotojas realiuoju laiku mato planšetėje vykstantį pasirašymo vaizdą. Tai leidžia stebėti proceso eigą ir valdyti planšetės mygtukus. Failas išsaugomas naudojant standartinį langą „Išsaugoti kaip“ arba automatiškai nukreipiamas į iš anksto nustatytą aplanką. Išsaugojus dokumentą, programa gali automatiškai užsidaryti arba likti fone."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Sistemos palaikymas ir reikalavimai"
+          "text": "Toliau renkantis sprendimą"
         },
         {
           "type": "paragraph",
-          "text": "Programa palaiko Windows 10/11 x86 ir x64 architektūras, taip pat macOS ir Linux. Jei planuojate naudoti šį sprendimą savo darbo vietose, kviečiame teirautis dėl Print2NG su mūsų specialistais."
+          "text": "„Print2NG“ veikia su NG šeimos įrenginiais, pavyzdžiui, duraSign Pad NG 10. Jei naudojate klasikinę planšetę, palyginkite eSignatureOffice galimybes. Dėl diegimo ir licencijos galite teirautis dėl Print2NG."
         }
       ],
       "publishAt": "2026-10-10T07:00:00.000Z",
@@ -2874,17 +3327,17 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/print2ng/",
-          "label": "Print2NG: gamintojo aprašas",
-          "reason": "Virtualaus spausdintuvo veikimas, pasirašymo vaizdo rodymas kompiuteryje ir operacinių sistemų reikalavimai."
+          "label": "StepOver Print2NG – tiesioginis dokumentų siuntimas į NextGen planšetes",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         }
       ],
       "id": "265c5f13-24f2-48aa-b4b6-ad1e52e116f1",
-      "revisionHash": "c5cb513e2ad52f8ac6dd74db100566099293df3751f78fd25631b283a1f73a29",
+      "revisionHash": "0d507bdd3b8cec39e7b333c4eeb592e3631141728d6b287e27d49a36a5e9a59f",
       "approval": {
         "status": "approved",
-        "revisionHash": "c5cb513e2ad52f8ac6dd74db100566099293df3751f78fd25631b283a1f73a29",
-        "approvedAt": "2026-10-13T14:38:22.998Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "0d507bdd3b8cec39e7b333c4eeb592e3631141728d6b287e27d49a36a5e9a59f",
+        "approvedAt": "2026-10-13T16:22:47.398Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -4259,30 +4712,47 @@
       "type": "guide",
       "slug": "programine-iranga/office-plugin",
       "title": "StepOver Office Plugin – parašas Word ir Excel dokumentuose",
-      "description": "Parašo įterpimas į Microsoft Word ir Excel failus naudojant StepOver Office Plugin: galimybės, apribojimai ir skirtumai nuo PDF pasirašymo.",
+      "description": "StepOver Office Plugin įterpia parašo vaizdą į Word ir Excel dokumentus. Sistemos reikalavimai, Standard ir NextGen variantai bei funkcijų ribos.",
       "intent": "Parašo vaizdo įterpimas į Word ar Excel turi būti aiškiai atskirtas nuo PDF kriptografinio parašo.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„StepOver Office Plugin“ yra tiesioginis įskiepis, skirtas „Microsoft Office“ („Word“ ir „Excel“) programoms Windows aplinkoje. Jis leidžia įterpti ranka pasirašytą parašą tiesiai į redaguojamą dokumentą."
+          "text": "„StepOver Office Plugin“ – programinis įskiepis, įterpiantis planšetėje užfiksuoto parašo grafinį vaizdą tiesiai į „Word“ arba „Excel“ dokumentą. Taip redaguojamą dokumentą galima papildyti ranka rašytu parašu. Šio papildinio funkcijų negalima tapatinti su visavertėmis PDF elektroninio pasirašymo sistemomis."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Paskirtis ir skirtumas nuo PDF formato"
+          "text": "Reikalavimai ir variantai"
         },
         {
-          "type": "paragraph",
-          "text": "Įskiepis įterpia grafinį parašo vaizdą į „Word“ ar „Excel“ dokumentą. Tai nėra tas pats, kas PDF pasirašymas su užšifruotais parašo duomenimis ir dokumento vientisumo patikra. Vien PDF formatas tokios apsaugos taip pat nesuteikia – ją turi užtikrinti pasirašymo programa. Šį procesą aptariame PDF pasirašymo gide."
+          "type": "list",
+          "items": [
+            "Operacinė sistema: Windows",
+            "Office: Microsoft Office nuo 2013",
+            "Dokumentai: Word ir Excel",
+            "Funkcija: Parašo vaizdo įterpimas",
+            "Licencija: Gamintojas papildinį pateikia nemokamai",
+            "Standard variantas: naturaSign Pad Classic; duraSign Pad 4.3, 5.0, 10.0",
+            "NextGen variantas: nextGen Pad 5; duraSign Pad NG 10"
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Suderinamumas ir alternatyvos"
+          "text": "Tinkamo varianto pasirinkimas"
         },
         {
           "type": "paragraph",
-          "text": "Įskiepis palaiko „Microsoft Office“ nuo 2013 versijos ir turi variantus standartinėms bei NextGen planšetėms. Jei norite iš „Word“ ar „Excel“ greitai sukurti pasirašomą dokumentą NG planšetėje, puiki alternatyva yra Print2NG virtualus spausdintuvas."
+          "text": "Pasirinktas papildinio variantas turi atitikti naudojamos planšetės šeimą: klasikiniams modeliams skirtas „Standard“, o naujos kartos planšetėms – „NextGen“ variantas. Gamintojas šį įskiepį priskiria paprasto elektroninio parašo sprendimams. Jeigu organizacijai reikalingas pažangesnis pasirašymo procesas su biometrinių duomenų šifravimu ir dokumento vientisumo patikra, gamintojas nurodo „eSignatureOffice“ arba „webSignatureOffice“ kaip atskiras alternatyvas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "PDF pasirašymo gide paaiškiname, kuo parašo vaizdas skiriasi nuo dokumento pasirašymo su užšifruotais duomenimis. Jei norite iš „Word“ ar „Excel“ siųsti dokumentą į NG planšetę pasirašyti, palyginkite Print2NG."
         }
       ],
       "publishAt": "2026-10-31T08:00:00.000Z",
@@ -4346,17 +4816,17 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/stepover-office-plugin/",
-          "label": "StepOver Office Plugin: funkcijos ir variantai",
-          "reason": "Gamintojas atskiria parašo vaizdo įterpimą, Standard bei NextGen variantus ir nurodo Office reikalavimus."
+          "label": "StepOver Office Plugin – parašas Word ir Excel dokumentuose",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         }
       ],
       "id": "ad59a259-6dab-4f83-a8aa-3c134860691e",
-      "revisionHash": "55f5b34ee1679c5f66c2fd0dbead8663d6319d9e63ce3868a3524e6324e0d190",
+      "revisionHash": "5af8d26cf5f8b04f14ce80c7af7108f0d8396e739aa015eb7926234f0b851043",
       "approval": {
         "status": "approved",
-        "revisionHash": "55f5b34ee1679c5f66c2fd0dbead8663d6319d9e63ce3868a3524e6324e0d190",
-        "approvedAt": "2026-10-13T14:38:23.612Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "5af8d26cf5f8b04f14ce80c7af7108f0d8396e739aa015eb7926234f0b851043",
+        "approvedAt": "2026-10-13T16:22:47.419Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -5021,30 +5491,62 @@
       "type": "guide",
       "slug": "programine-iranga/websignatureoffice",
       "title": "webSignatureOffice ir Lite – pasirašymas internetu",
-      "description": "Debesijos sprendimai elektroniniam pasirašymui: webSignatureOffice ir webSignatureOffice Lite galimybės, funkcijos ir diegimas.",
+      "description": "webSignatureOffice ir Lite funkcijos, techninės galimybės ir licencijavimas. Palyginkite pasirašymo internetu bei diegimo variantus.",
       "intent": "Debesijos produktai vertinami pagal procesą, paskyras, duomenų vietą ir konkrečias pardavimo sąlygas.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„webSignatureOffice“ yra StepOver debesijos sprendimų šeima, skirta dokumentų pasirašymui internetu. Ji leidžia organizuoti pasirašymą, kai šalys yra skirtingose vietose ir negali susitikti prie bendro aptarnavimo stalo."
+          "text": "„webSignatureOffice“ – internetinė platforma dokumentams pasirašyti nuotoliniu būdu. Pasirašymo proceso dalyviai gali jungtis iš skirtingų vietų naudodamiesi kompiuteriais, išmaniaisiais telefonais, įprastomis planšetėmis arba specializuotomis „StepOver“ parašo planšetėmis. Pasirašymo procesas patogiai valdomas naršyklėje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "webSignatureOffice Lite greitam startui"
+          "text": "webSignatureOffice techninės galimybės"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Naršyklės: Pagrindinės šiuolaikinės naršyklės",
+            "Dokumentai: PDF/A, parašo ir formų laukai",
+            "Ryšys: HTTPS, WSS",
+            "Biometrinių duomenų šifravimas: Iki 4096 bitų RSA, kai naudojamas atitinkamas fiksavimo būdas",
+            "Papildomas patvirtinimas: SMS autentifikavimas arba dokumento slaptažodis",
+            "Valdymas: Naudotojai, grupės, teisės, dokumentų šablonai",
+            "Pasirašymo eiga: Privalomi / neprivalomi laukai, būsenos, priminimai, galiojimo terminai",
+            "Integracija: Žiniatinklio paslaugų sąsaja / XML; SaaS ir savo serveryje diegiamiems variantams",
+            "Failo rezultatas: Atsisiuntimas; integracijai – XML su laukų būsena ir pasirašytu dokumentu"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "„Lite“ versija yra paprasta interneto paslauga: įkeliate PDF, nurodote parašo laukus ir išsiunčiate nuorodą gavėjui. Gavėjas atveria dokumentą naršyklėje kompiuteryje ar telefone ir patvirtina jį parašu. Nereikia diegti jokios papildomos programinės įrangos."
+          "text": "Galimi trys diegimo variantai: gamintojo viešoji internetinė paslauga, atskirai įmonei skirta SaaS paslauga bei sprendimo diegimas organizacijos nuosavame serveryje. Integracijos ir administravimo apimtis priklauso nuo pasirinkto varianto. Gamintojo mobilioji programėlė papildomai palaiko biometrinių parašo duomenų fiksavimą, dokumentų sinchronizavimą ir darbą be interneto ryšio."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pilnaversė webSignatureOffice versija verslui"
+          "text": "webSignatureOffice Lite"
         },
         {
           "type": "paragraph",
-          "text": "Didelėms organizacijoms skirta pilna „webSignatureOffice“ versija palaiko vartotojų administravimą, SaaS prenumeratas arba diegimą savo serveriuose (on-premise). Kaip šį įrankį derinti su biure esančiomis planšetėmis, paaiškina vietinio ir nuotolinio pasirašymo palyginimas. Norėdami sužinoti licencijavimo sąlygas, galite pasitarti dėl nuotolinio pasirašymo su mūsų komanda."
+          "text": "„Lite“ – prenumeruojama SaaS paslauga dokumentams pasirašyti interneto naršyklėje. Dokumento apdorojimo eiga paprasta: įkeliamas failas, nurodomi parašo laukai, pasirenkamas pasirašantis asmuo ir jam išsiunčiama nuoroda. Kompiuteryje nereikia diegti jokios papildomos programinės įrangos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Įrenginiai: Telefonas, planšetė, kompiuteris, parašo planšetė",
+            "Diegimas: Gamintojo SaaS; savam serveriui siūloma pilna versija",
+            "Licencijavimas: Prenumerata naudotojams; kainų pakopos pagal jų skaičių",
+            "Biometriniai duomenys: Gamintojas nurodo 4096 bitų RSA šifravimą"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vietinio ir nuotolinio pasirašymo palyginimas padės įvertinti, kada pakanka planšetės prie aptarnavimo stalo, o kada reikia internetinės paslaugos. Dėl paslaugos varianto ir licencijos galite pasitarti dėl nuotolinio pasirašymo."
         }
       ],
       "publishAt": "2026-11-07T08:00:00.000Z",
@@ -5098,7 +5600,7 @@
       "links": [
         {
           "targetPageId": "74106b88-fc16-412c-8e4a-1215b0bb5bfa",
-          "label": "vietinio ir nuotolinio pasirašymo palyginimas"
+          "label": "Vietinio ir nuotolinio pasirašymo palyginimas"
         },
         {
           "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
@@ -5107,28 +5609,23 @@
       ],
       "externalLinks": [
         {
-          "url": "https://stepover.com/en/products/cloud-sign-online/",
-          "label": "StepOver debesijos paslaugos",
-          "reason": "webSignatureOffice, Lite, mobiliųjų programų ir PrintToCloud paskirtys."
-        },
-        {
           "url": "https://stepover.com/en/products/cloud-sign-online/websignatureoffice/",
-          "label": "webSignatureOffice",
-          "reason": "Paslaugos funkcijos, integracija ir įmonėms siūlomi diegimo variantai."
+          "label": "StepOver webSignatureOffice ir Lite – pasirašymas internetu",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         },
         {
           "url": "https://stepover.com/en/products/cloud-sign-online/websignatureoffice-lite/",
-          "label": "webSignatureOffice Lite",
-          "reason": "Dokumento pateikimo, parašo laukų ir nuorodos perdavimo eiga."
+          "label": "StepOver webSignatureOffice Lite",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
         }
       ],
       "id": "7ab49804-5789-4037-8395-1e293c399122",
-      "revisionHash": "689c41f6073d63b59f6dca180bb63be478ffd3fa310e6d5ffbe3f9bef2a4fdf9",
+      "revisionHash": "fe9daa11b7f2464cfe71b280831fc31a41ccae37b15e0e4ae2a75864f963e98b",
       "approval": {
         "status": "approved",
-        "revisionHash": "689c41f6073d63b59f6dca180bb63be478ffd3fa310e6d5ffbe3f9bef2a4fdf9",
-        "approvedAt": "2026-10-13T14:38:23.944Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "fe9daa11b7f2464cfe71b280831fc31a41ccae37b15e0e4ae2a75864f963e98b",
+        "approvedAt": "2026-10-13T16:22:47.441Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -5136,38 +5633,119 @@
       "type": "product",
       "slug": "produktas/paraso-plansete-stepover-nextgen-pad-5",
       "title": "StepOver nextGen Pad 5",
-      "description": "Kompaktiška 5 colių autonominė parašo planšetė su integruotu PDF apdorojimu, palaikanti naršyklės sąsają, Print2NG ir tinklo ryšį.",
+      "description": "StepOver nextGen Pad 5: PDF apdorojimas planšetėje, 5 colių ekranas ir valdymas naršyklėje. Techniniai duomenys ir papildomi tinklo priedai.",
       "intent": "nextGen5 gamintojo kataloge yra atskiras produktas; jis negali perimti duraSign5.0 tapatybės.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„nextGen Pad 5“ yra kompaktiška 5 colių „NextGen“ (NG) šeimos parašo planšetė. Jos procesorius apdoroja PDF dokumentus pačiame įrenginyje, todėl jų nereikia atvaizduoti kompiuteryje."
+          "text": "„nextGen Pad 5“ – kompaktiškas „NextGen“ (NG) šeimos modelis su 5 colių spalvotu ekranu. PDF dokumentai apdorojami ir galutiniai pasirašyti failai parengiami pačioje planšetėje. Įprastą pasirašymo procesą galima pradėti interneto naršyklėje nediegiant kompiuteryje atskiros pasirašymo programos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpai apie modelį"
         },
         {
           "type": "list",
           "items": [
-            "Ekranas: 5 col. spalvotas apšviestas ekranas (800 × 480 pikselių).",
-            "Architektūra: savarankiškas PDF apdorojimas ir kriptografinis parašo generavimas įrenginyje.",
-            "Ryšys: USB arba Ethernet LAN (naudojant papildomą adapterį)."
+            "Ekranas: 5 colių TFT, 800 × 480 taškų.",
+            "Dokumentai: PDF apdorojamas ir pasirašomas pačioje planšetėje.",
+            "Prijungimas: USB arba Ethernet su papildomu priedu."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Universalūs valdymo ir integracijos būdai"
+          "text": "Naudojimas ir integracija"
         },
         {
           "type": "paragraph",
-          "text": "Dokumentus į „nextGen Pad 5“ galima perduoti per integruotą naršyklės sąsają, virtualų spausdintuvą „Print2NG“ arba per „nextGen API“. Daugiau apie programinius metodus sužinosite mūsų programų apžvalgoje."
+          "text": "Prijungus per USB jungtį, įrenginį valdo tiesiogiai prijungtas kompiuteris. Papildomas „Ethernet Connection Kit 2.0“ priedas leidžia pasiekti planšetę vietiniame tinkle; techniniame lape (PDF) taip pat nurodytas atskiras PoE ryšio priedas. Integracijai į įmonės sistemas skirtos REST ir .NET API sąsajos, o dokumentų perdavimui iš programų, turinčių spausdinimo funkciją, – „Print2NG“ virtualus spausdintuvas. Formoms pildyti reikalingas papildomas „NG Pad Feature Extension“ plėtinys."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Skirtumai nuo standartinio 5 colių modelio"
+          "text": "Techninės charakteristikos"
         },
         {
           "type": "paragraph",
-          "text": "Nors išoriškai šis modelis panašus į „duraSign Pad 5.0“, jų veikimo principas visiškai kitoks: standartiniam modeliui reikalinga kompiuteryje veikianti programa, o NG versija dokumentus valdo pati. Kitus modelius palyginkite mūsų modelių kataloge."
+          "text": "Duomenys pateikti remiantis oficialiu gamintojo produkto puslapiu ir techniniu lapu. RH – santykinė oro drėgmė."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Matmenys: 16,3 × 15,4 × 1,9 cm",
+            "Svoris be USB kabelio: 325 g",
+            "Korpusas: PC/ABS; 3 mm",
+            "Ekranas: TFT; 64 000 spalvų; 800 × 480",
+            "Aktyvus ekranas / jutiklis: 10,8 × 6,5 cm",
+            "Ryškumas: Iki 245 cd/m²",
+            "Jutiklio raiška: X/Y: 3700 DPI/LPI",
+            "Pakartojamumas: ±0,4 mm",
+            "Parašo duomenys: 500 X/Y/spaudimo/laiko rinkinių/s",
+            "Spaudimo lygiai: 1024",
+            "Rašiklio modelis: duraPen 1",
+            "Dokumentai: PDF/A-1b, -2b, -3b; kiti PDF tik išbandžius",
+            "Vaizdai: PNG, JPG, BMP; 800 × 480",
+            "Vaizdo įrašai: VP8; 512 × 300; 24 Hz; be garso",
+            "Jungtis: USB 2.0; Ethernet per atskirą Kit 2.0",
+            "Kabelis: USB-C → USB-C, 2 m; USB-A adapteris",
+            "Maksimali galia ir srovė: 2,0 W / 400 mA",
+            "Sistemos (techninis lapas): Windows ≥11; macOS ≥Catalina; Linux",
+            "Naršyklės: Chrome, Edge, Safari, Firefox",
+            "Darbo sąlygos: 0…+50 °C / RH≤90 %; be kondensacijos",
+            "Įrenginio laikymo sąlygos: −10…+70 °C / RH≤90 %; be kondensacijos",
+            "Rekomenduojamos komplekto laikymo sąlygos: −10…+65 °C / RH≤90 %; be kondensacijos",
+            "Tvirtinimas: Dvi sraigtų angos",
+            "GTIN: 4260130061470",
+            "Gamintojo garantija: 2 metai (gamintojo nurodyta)",
+            "Jutiklis: ERT; chemiškai grūdintas stiklas",
+            "Rašiklio prispaudimo jėga: Apie 0,5–8 N",
+            "Rašiklis: Elektromagnetinis, be baterijos; pritvirtinamas virvele",
+            "Kriptografiniai algoritmai: RSA iki 4096 bitų, AES-256, SHA-256",
+            "Apsauga nuo vagystės: Kensington užrakto lizdas"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kilmė: Pagaminta Vokietijoje",
+            "Atitiktis: CE, UKCA, RoHS; gamintojo lape nurodyta WEE",
+            "Rašiklio laikymo sąlygos: −20…+70 °C / RH≤65 % arba −20…+65 °C / RH≤95 %; be kondensacijos.",
+            "Matymo kampai horizontaliai: mažiausiai 60°, įprastai 70°.",
+            "Matymo kampai vertikaliai (dviem kryptimis): mažiausiai 60° / 45°, įprastai 70° / 50°.",
+            "Tinklo priedo adapteris: 10/100 Mbit/s; užsakomas atskirai.",
+            "Tinklo priedo maitinimo šaltinis: 7,5 W.",
+            "Budėjimo vaizdai: bent 4 vaizdai įrenginio atmintyje.",
+            "Vaizdo įrašo trukmė: iki 30 min."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programinė įranga ir prijungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techniniame lape (PDF) nurodoma, kad pasirenkant tradicines programas palaikomos „eSignatureOffice“ ≥7.X, „SimpleSigner“ ≥8.X bei naujausia „Print2NG“ versija. Pagrindiniam darbui naršyklėje šios programos nėra privalomos. Papildomas „PoE Connection Kit“ priedas atitinka IEEE 802.3af standartą; jo komplektacija ir PoE injektoriaus poreikis derinami atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gamintojo deklaruojama eksploatavimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamintojo deklaruojama jutiklio eksploatavimo trukmė – daugiau kaip 30 mln. parašų, o ekrano apšvietimo – 20 000 valandų. Šie rodikliai nėra pardavėjo garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Toliau renkantis sprendimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "NG ir klasikinius įrenginius palyginkite modelių kataloge. Apie dokumentų perdavimą ir pasirašymą skaitykite programų apžvalgoje."
         }
       ],
       "publishAt": "2026-11-14T08:00:00.000Z",
@@ -5231,17 +5809,27 @@
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5: gamintojo informacija",
-          "reason": "PDF apdorojimas įrenginyje, naudojimo būdai ir tinklui reikalingas Ethernet Connection Kit 2.0."
+          "label": "StepOver nextGen Pad 5",
+          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+        },
+        {
+          "url": "https://stepover.com/wp-content/uploads/StepOver_Technical-Data-Sheet_nextGen-Pad-5_EN.pdf",
+          "label": "StepOver techninis lapas – StepOver nextGen Pad 5",
+          "reason": "Gamintojo techniniai duomenys, jungtys ir sistemos reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/software/ng-pad-feature-extension/",
+          "label": "NG Pad Feature Extension – formų pildymo plėtinys",
+          "reason": "NG formų pildymo funkcijos ir atskira metinė prenumerata vienam įrenginiui."
         }
       ],
       "id": "90a6e7c4-7fe2-412f-9a55-6d6e16a88076",
-      "revisionHash": "7ef704cdd5c3a89d62629207da1dce9e93c41b37861b4f1f80b56b815da3ef10",
+      "revisionHash": "e5df68faf5f6d3f06f963796184a6085d6097f2f3aed3c94938d3e51c3bad00e",
       "approval": {
         "status": "approved",
-        "revisionHash": "7ef704cdd5c3a89d62629207da1dce9e93c41b37861b4f1f80b56b815da3ef10",
-        "approvedAt": "2026-10-13T14:38:24.000Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "e5df68faf5f6d3f06f963796184a6085d6097f2f3aed3c94938d3e51c3bad00e",
+        "approvedAt": "2026-10-13T16:22:47.349Z",
+        "actorId": "Codex owner-authorized technical-description adoption"
       }
     },
     {
@@ -5355,5 +5943,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T14:38:24.109Z"
+  "generatedAt": "2026-10-13T16:33:15.215Z"
 }

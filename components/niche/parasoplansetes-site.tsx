@@ -29,7 +29,17 @@ function Picture({ page, asset = page.media[0], eager = false, sizes }: { page: 
 function Block({ block, index, page, livePages }: { block: NicheBlock; index: number; page: NichePage; livePages: NichePage[] }) {
   if (block.type === "heading") return block.level === 2 ? <h2 id={`section-${index}`}>{block.text}</h2> : <h3 id={`section-${index}`}>{block.text}</h3>;
   if (block.type === "paragraph") return <p><LinkedText text={block.text} page={page} livePages={livePages} /></p>;
-  if (block.type === "list") return <ul>{block.items.map((item, i) => <li key={i}><LinkedText text={item} page={page} livePages={livePages} /></li>)}</ul>;
+  if (block.type === "list") {
+    // V1 keeps approved list content; only specification sections use a definition layout.
+    const precedingHeading = page.body.slice(0, index).findLast(b => b.type === "heading" && b.level === 2);
+    const heading = precedingHeading?.type === "heading" ? precedingHeading.text : undefined;
+    const specificationSection = ["Techninės charakteristikos", "Techniniai reikalavimai", "Reikalavimai ir variantai", "webSignatureOffice techninės galimybės", "webSignatureOffice Lite"].includes(heading ?? "");
+    if (specificationSection && block.items.every(item => item.indexOf(":") > 0)) return <dl className={styles.specifications} data-technical-specifications>{block.items.map((item, i) => {
+      const colon = item.indexOf(":");
+      return <div key={i}><dt>{item.slice(0, colon)}:</dt><dd><LinkedText text={item.slice(colon + 1).trim()} page={page} livePages={livePages} /></dd></div>;
+    })}</dl>;
+    return <ul>{block.items.map((item, i) => <li key={i}><LinkedText text={item} page={page} livePages={livePages} /></li>)}</ul>;
+  }
   const asset = page.media.find(a => a.id === block.assetId);
   return asset ? <Picture page={page} asset={asset} /> : null;
 }

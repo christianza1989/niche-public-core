@@ -186,6 +186,14 @@
   .documentFlow li:nth-child(3) > svg:first-child path { animation: none; }
 }
 .homeRelated { max-width: 1248px; margin: 0 auto; padding: 0 24px 48px; }
+.specifications{margin:1.25rem 0;font-size:var(--text-body);line-height:var(--leading-body);font-variant-numeric:tabular-nums}
+.specifications>div{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:1.25rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.specifications>div:first-child{border-top:1px solid var(--line)}
+.specifications dt{font-weight:var(--weight-control);color:var(--ink)}
+.specifications dd{margin:0;min-width:0;color:var(--body-ink)}
+.specifications+.specifications{margin-top:-1.25rem}
+.specifications+.specifications>div:first-child{border-top:0}
+@media(max-width:520px){.specifications>div{grid-template-columns:1fr;gap:.375rem}}
 .catalog dt,.catalog dd{overflow-wrap:anywhere}
 .proseSection > :last-child{margin-bottom:0}
 @media (max-width:700px){
