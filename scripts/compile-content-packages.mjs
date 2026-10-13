@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { validateContentPackage } from "./content-package-core.mjs";
 import { validateV2Admission, assertPreviewSandbox } from './content-v2-admission.mjs';
 import { validateNichePathAliases } from '../lib/niche-path-aliases.mjs';
+import { validateGuidePublicationPauses } from '../lib/niche-links.mjs';
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const packagesRoot = path.join(root, "content-packages");
@@ -50,6 +51,7 @@ for (const entry of entries) {
 }
 
 packages.sort((a, b) => a.siteId.localeCompare(b.siteId));
+validateGuidePublicationPauses(JSON.parse(await readFile(path.join(root,'config/niche-network.json'),'utf8')),packages);
 validateNichePathAliases(JSON.parse(await readFile(path.join(root,'config/niche-path-aliases.json'),'utf8')),packages);
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(packages)}\n`, "utf8");

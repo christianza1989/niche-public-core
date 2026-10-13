@@ -46,7 +46,9 @@ if (process.argv.includes('--render-child')) {
       });
       assert.deepEqual(observed,projectPublicPages(pkg,packages,settings,instant),
         'cache must reset on the next request, including backward QA clocks');
-      assert.equal(observed.some(p=>p.id===guide.id),instant>=Date.parse(guide.publishAt));
+      const pausedAt=settings.guidePublicationPausedAtBySite?.[pkg.siteId];
+      assert.equal(observed.some(p=>p.id===guide.id),instant>=Date.parse(guide.publishAt)
+        && (pausedAt===undefined || Date.parse(guide.publishAt)<=Date.parse(pausedAt)));
       assert.deepEqual(model.publicNichePages(pkg,instant-1),projectPublicPages(pkg,packages,settings,instant-1),
         'explicit caller clocks remain independent of the render cache');
       renders++;
