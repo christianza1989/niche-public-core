@@ -378,6 +378,96 @@
       "bytes": 222,
       "sha256": "b9cc4f8b3460490dde586119d59c148e38e30dd20ff6475843fcf42061f3a3f1",
       "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-1448.webp",
+      "bytes": 57150,
+      "sha256": "d10c9d3b95763f014785ed151a5a8bd98a2dbd5c0167d24d34c37e8690b3af3f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-1200.webp",
+      "bytes": 43628,
+      "sha256": "a1b2814d877238ca62d5a1049989eec6cec636f49c5392ac50c12166f02685b7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-800.webp",
+      "bytes": 21086,
+      "sha256": "2d15895625f0f8fe3171fd15bb84315b52addd936538eedf14784a4397c4ba57",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-640.webp",
+      "bytes": 13712,
+      "sha256": "30c19c5e279cd6a6c71881048463c97c951813dfa486df733665b316381f7421",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-360.webp",
+      "bytes": 4978,
+      "sha256": "c437f35e4baed6a27f7d6525a50ef0a2389c4eeb39a969d8df45eb5f4c540a0f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-1448.webp",
+      "bytes": 37388,
+      "sha256": "ff02f2c58b68d40cfa3400b23a44b3ca5ebae55a13cd36ecc112f0977810a360",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-1200.webp",
+      "bytes": 28244,
+      "sha256": "7713b8e51531663a4a978a4d535e2fac59e2642b569d66e9673c713bb3816c62",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-800.webp",
+      "bytes": 15382,
+      "sha256": "832ca8d5557d26c6c1d9a7256445f3c9599352c53d0651c4fa23b4f554478c22",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-640.webp",
+      "bytes": 11110,
+      "sha256": "e45aeed08dec937c6bfcab456cb078b1c4e16163750a623e7417759e7500d08c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-360.webp",
+      "bytes": 4724,
+      "sha256": "80a5e9e958f3a52024bcaf3d4a55f7485c38d258a80e179f9f954715a2291a95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-1448.webp",
+      "bytes": 60320,
+      "sha256": "91ad932226fe8c5821ecdfc0d1cd691210200b21edc5d289ee784eaebb46c37f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-1200.webp",
+      "bytes": 46428,
+      "sha256": "5c54c9a007de248c61500321ca22c49626a74e28f20c7372ea9e883dd3cfae61",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-800.webp",
+      "bytes": 25232,
+      "sha256": "671a3bac16caf542a43a52d51fee2ea40b7741dfefc0dc04b81c468de1f00854",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-640.webp",
+      "bytes": 17418,
+      "sha256": "0024c3e0db7a796a075af31da3d50c1cc2d92ea4cd39dcbccdc8c07801ad07f2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-360.webp",
+      "bytes": 6756,
+      "sha256": "23622a3c6cd8f5446b103e24f5374e19c0544f836ddd5e1dfc3f49d61d4462fe",
+      "type": "image/webp"
     }
   ]
 }

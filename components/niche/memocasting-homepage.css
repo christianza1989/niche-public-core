@@ -104,8 +104,12 @@
 .memo-homepage .contents-kit{width:100%;height:auto;max-height:420px;object-fit:contain}
 .memo-homepage .contents-art .material-type{font-size:clamp(1.25rem,1.7vw,1.5rem);display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:28px;line-height:1.4}
 .memo-homepage .contents-art .image-note{margin-top:18px;font-size:.875rem}
-.memo-homepage .moment-scene{width:100%;aspect-ratio:1.5;object-fit:cover;margin-top:40px}
+.memo-homepage .moment-scene{width:100%;aspect-ratio:4/3;margin-top:40px;display:grid;mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent),linear-gradient(to bottom,transparent,#000 6%,#000 94%,transparent);mask-composite:intersect}
+.memo-homepage .moment-image{grid-area:1/1;width:100%;height:100%;aspect-ratio:4/3;object-fit:contain;opacity:0;visibility:hidden;transition:opacity .25s ease,visibility 0s .25s}
+.memo-homepage .moment-image.is-current{opacity:1;visibility:visible;transition:opacity .25s ease}
+.memo-homepage.motion-off .moment-image{transition:none}
+@media(prefers-reduced-motion:reduce){.memo-homepage .moment-image{transition:none}}
 .memo-homepage .home-guide-image{width:100%;aspect-ratio:1.6;object-fit:cover;margin-bottom:25px}
 .memo-homepage .chapter-navigation .timeline-icon{width:16px;height:16px;flex:none}
 @media(min-width:701px) and (max-width:950px){.memo-homepage .chapter-navigation button>span:first-child{display:none}.memo-homepage .chapter-navigation button{gap:5px;font-size:.8125rem}.memo-homepage.motion-on:not(.film-static) .story-copy{width:28%}}
-@media(max-width:700px){.memo-homepage .moment-scene{margin-top:28px}.memo-homepage .contents-kit{max-height:340px}.memo-homepage .contents-art .material-type{gap:8px 15px}}
+@media(max-width:700px){.memo-homepage .moment-scene{margin-top:28px}.memo-homepage .meaning .home-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:0}.memo-homepage .meaning .home-tabs button{padding-inline:5px;white-space:nowrap}.memo-homepage .contents-kit{max-height:340px}.memo-homepage .contents-art .material-type{gap:8px 15px}}
