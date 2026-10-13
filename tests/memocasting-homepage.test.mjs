@@ -24,3 +24,13 @@ test('all selected design asset bytes match the narrow manifest including both o
  for(const asset of manifest.assets){const bytes=await fs.readFile(new URL('../public'+asset.path,import.meta.url));assert.equal(bytes.length,asset.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);}
  assert.equal(manifest.assets.find(a=>a.path.endsWith('/desktop.mp4')).bytes,8587634);assert.equal(manifest.assets.find(a=>a.path.endsWith('/mobile.mp4')).bytes,3668917);
 });
+
+test('complete homepage gates every guide/service CTA and carries honest illustration content without sample reviews',()=>{
+ const pages=[{slug:'rinkinys-porai'},{slug:'seimos-rinkinys'},{slug:'pages/instrukcija'},{slug:'pagalba'},{slug:'gidai/liejinio-dazymas-ir-prieziura'},{slug:'pristatymas'},{slug:'grazinimas'},{slug:'kontaktai'}];
+ const story=memoHomepageProductStory(pages);
+ assert.ok(story.includes('href="/pages/instrukcija"'));assert.ok(story.includes('href="/gidai/liejinio-dazymas-ir-prieziura"'));
+ const missing=memoHomepageProductStory(pages.filter(p=>p.slug!=='pages/instrukcija'));
+ assert.ok(!missing.includes('href="/pages/instrukcija"'));assert.ok(missing.includes('Informacija šiuo metu nerodoma.'));
+ assert.ok(!story.includes('@@'));assert.ok(!story.includes('class="testimonials"'));assert.ok(!memoHomepageBlocks.some(b=>/Video nepavyko|klientų atsiliepimai|4,9/.test(b.text)));
+ assert.ok(story.includes('https://www.instagram.com/memocasting.lt/'));
+});
