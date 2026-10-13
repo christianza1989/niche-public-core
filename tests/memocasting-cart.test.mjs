@@ -19,3 +19,13 @@ test('cart survives a read, reflects removal, clears after order and detects den
  assert.throws(()=>memoWriteCart({setItem(){},getItem(){return null;}},[{sku:'couple',quantity:1}]),/cart_storage_unavailable/);
  assert.deepEqual(memoReadCart({getItem(){throw Error('denied');}}),[]);
 });
+
+test('included paint migrates old unsent paid variants and drops separate paint without changing kit quantity or charging twice',()=>{
+ const legacy=[{sku:'couple_white',quantity:2},{sku:'couple',quantity:1},{sku:'white_paint',quantity:3},{sku:'family',quantity:2},{sku:'wooden_base',quantity:1}];
+ const expected=[{sku:'couple',quantity:3},{sku:'family',quantity:2},{sku:'wooden_base',quantity:1}];
+ assert.deepEqual(memoNormalizeCart(legacy),expected);
+ assert.deepEqual(memoNormalizeCart([{sku:'white_paint',quantity:1}]),[]);
+ assert.deepEqual(memoNormalizeCart([{sku:'couple_white',quantity:100},{sku:'couple',quantity:1}]),[]);
+ assert.deepEqual(memoReadCart({getItem:()=>JSON.stringify(legacy)}),expected);
+ assert.equal(legacy[0].sku,'couple_white','do not mutate the original snapshot');
+});

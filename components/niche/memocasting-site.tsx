@@ -65,7 +65,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
   <section className={s.productHero} aria-labelledby="product-title">
    <div className={s.productHeading}><h1 id="product-title">{page.title}</h1><p className={s.intro}>{labels.tagline}</p></div>
    <MemoProductGallery images={memoGalleryImages(page.media)} language={route.language}/>
-   <div className={s.purchase}><MemoAdd key={route.country+':'+route.baseSlug} sku={route.baseSlug===productSlugs[0]?'couple':'family'} paint={route.baseSlug===productSlugs[0]} language={route.language} country={route.country} cartPath={path('cart')}/>
+   <div className={s.purchase}><MemoAdd key={route.country+':'+route.baseSlug} sku={route.baseSlug===productSlugs[0]?'couple':'family'} language={route.language} country={route.country} cartPath={path('cart')}/>
     <nav className={s.purchaseLinks} aria-label={labels.information}>{[['pristatymas',labels.delivery],['grazinimas',labels.returns],['kontaktai',labels.contact]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}</a>)}</nav>
    </div>
   </section>

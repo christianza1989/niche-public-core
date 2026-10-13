@@ -87,7 +87,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai."
+          "text": "Alginato pakelis, 1 200 g gipso, kibiras, maišymo pagaliukai ir balti dažai."
         },
         {
           "type": "heading",
@@ -96,7 +96,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Du alginato ir du gipso pakeliai bei maišymo pagaliukai."
+          "text": "Du alginato ir du gipso pakeliai, maišymo pagaliukai ir balti dažai."
         },
         {
           "type": "paragraph",
@@ -109,7 +109,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rinkinyje — alginatas, gipsas ir maišymo pagaliukai. Poros rinkinio baltus dažus galite pasirinkti papildomai. Tikslią kiekvieno rinkinio sudėtį rasite jo apraše."
+          "text": "Rinkinyje — alginatas, gipsas ir maišymo pagaliukai. Balti dažai įeina į poros ir šeimos rinkinius. Tikslią kiekvieno rinkinio sudėtį rasite jo apraše."
         },
         {
           "type": "heading",
@@ -209,7 +209,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Baltus dažus galima pasirinkti papildomai už 3 €."
+          "text": "Balti dažai įeina į rinkinį."
         },
         {
           "type": "heading",
@@ -230,7 +230,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Komplektaciją ir pasiruošimą tikrinkite konkretaus rinkinio apraše."
+          "text": "Balti dažai įeina į rinkinį. Komplektaciją ir pasiruošimą tikrinkite konkretaus rinkinio apraše."
         },
         {
           "type": "paragraph",
@@ -384,7 +384,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Baltus dažus prie poros rinkinio galima pasirinkti papildomai už 3 €. Medinis pagrindas pasirenkamas atskirai už 10 €. Priedų prieinamumą tikrinkite produkto puslapyje."
+          "text": "Balti dažai įeina į poros ir šeimos rinkinius. Medinis pagrindas pasirenkamas atskirai už 10 €. Priedų prieinamumą tikrinkite produkto puslapyje."
         },
         {
           "type": "heading",
@@ -429,7 +429,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinys kainuoja 32 €. Jame yra vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Poros rinkinį galite rinktis su baltais dažais už papildomus 3 €. Šeimos rinkinys kainuoja 48 €; jame yra du alginato ir du gipso pakeliai. Tikslūs šeimos medžiagų svoriai dar tikslinami. Į šeimos rinkinį taip pat įeina maišymo pagaliukai. Medinis pagrindas pasirenkamas atskirai už 10 €."
+          "text": "Poros rinkinys kainuoja 32 €. Jame yra vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Balti dažai įeina į poros ir šeimos rinkinius. Šeimos rinkinys kainuoja 48 €; jame yra du alginato ir du gipso pakeliai. Tikslūs šeimos medžiagų svoriai dar tikslinami. Į šeimos rinkinį taip pat įeina maišymo pagaliukai. Medinis pagrindas pasirenkamas atskirai už 10 €."
         },
         {
           "type": "heading",
@@ -544,11 +544,11 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "6ddf48d60172c7e86822a9db4851f296321834149f99f21b189739bbaab61bb9",
+      "revisionHash": "4ff46946b1ba154a8116102333b1c25a69e2b7e9586a7bf03296b328a99300fa",
       "approval": {
         "status": "approved",
-        "revisionHash": "6ddf48d60172c7e86822a9db4851f296321834149f99f21b189739bbaab61bb9",
-        "approvedAt": "2026-10-13T11:16:35.690Z",
+        "revisionHash": "4ff46946b1ba154a8116102333b1c25a69e2b7e9586a7bf03296b328a99300fa",
+        "approvedAt": "2026-10-13T21:29:04.481Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -557,8 +557,8 @@
       "type": "product",
       "slug": "rinkinys-porai",
       "title": "Rankų liejimo rinkinys porai",
-      "description": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
-      "intent": "Rinkinys porai — 32 €. Su pasirinktiniais baltais dažais — 35 €. Bendrai veiklai ir asmeniškam prisiminimui.",
+      "description": "Rinkinys porai — 32 €. Balti dažai įeina į komplektą. Bendrai veiklai ir asmeniškam prisiminimui.",
+      "intent": "Rinkinys porai — 32 €. Balti dažai įeina į komplektą. Bendrai veiklai ir asmeniškam prisiminimui.",
       "body": [
         {
           "type": "heading",
@@ -571,12 +571,13 @@
             "Vienas alginato pakelis.",
             "1 200 g gipso.",
             "Kibiras.",
-            "Maišymo pagaliukai."
+            "Maišymo pagaliukai.",
+            "Balti dažai."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Baltus dažus galima pridėti už 3 €. Tai pasirenkamas poros rinkinio variantas; dažų tūris ir naudojimo instrukcija bus pateikti patvirtinus produkto duomenis."
+          "text": "Balti dažai įeina į rinkinį ir yra įskaičiuoti į 32 € kainą. Dažų tūris ir naudojimo instrukcija dar tikslinami."
         },
         {
           "type": "heading",
@@ -672,11 +673,11 @@
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "159db794bc5d4d0b9205b4e853d039996cf92874a31f4050ee4108509c173081",
+      "revisionHash": "5f2dbc6fe6272b2fc7be7282d632e56f5301c0825da750d237f9cc5536638f25",
       "approval": {
         "status": "approved",
-        "revisionHash": "159db794bc5d4d0b9205b4e853d039996cf92874a31f4050ee4108509c173081",
-        "approvedAt": "2026-10-13T05:50:07.447Z",
+        "revisionHash": "5f2dbc6fe6272b2fc7be7282d632e56f5301c0825da750d237f9cc5536638f25",
+        "approvedAt": "2026-10-13T21:29:04.509Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -685,8 +686,8 @@
       "type": "product",
       "slug": "seimos-rinkinys",
       "title": "Rankų liejimo rinkinys šeimai",
-      "description": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
-      "intent": "Šeimos rinkinys — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
+      "description": "Šeimos rinkinys su baltais dažais — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
+      "intent": "Šeimos rinkinys su baltais dažais — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
       "body": [
         {
           "type": "heading",
@@ -698,7 +699,8 @@
           "items": [
             "Du alginato pakeliai.",
             "Du gipso pakeliai.",
-            "Maišymo pagaliukai."
+            "Maišymo pagaliukai.",
+            "Balti dažai."
           ]
         },
         {
@@ -799,11 +801,11 @@
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "7d059a4736f23ff60b81662cac3cc446ed17b95db5aa0773fb3010ec168aa9a6",
+      "revisionHash": "30a89945807a968fe1294798505a981eb88d7ca2706f3ede46096daf64768025",
       "approval": {
         "status": "approved",
-        "revisionHash": "7d059a4736f23ff60b81662cac3cc446ed17b95db5aa0773fb3010ec168aa9a6",
-        "approvedAt": "2026-10-13T05:50:07.428Z",
+        "revisionHash": "30a89945807a968fe1294798505a981eb88d7ca2706f3ede46096daf64768025",
+        "approvedAt": "2026-10-13T21:29:04.538Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -817,7 +819,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Poros variantas su baltais dažais — 35 €. Šeimai: 48 €, du alginato ir du gipso pakeliai."
+          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Balti dažai įeina į abu rinkinius. Šeimai: 48 €, du alginato ir du gipso pakeliai."
         },
         {
           "type": "paragraph",
@@ -829,7 +831,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Maišymo pagaliukai įeina į poros ir šeimos rinkinius. Medinis pagrindas yra atskirai pasirenkamas priedas už 10 €. Balti dažai prie poros rinkinio lieka pasirenkami už 3 €. Priedų pakuotės duomenys tikrinami atskirai nuo bazinių siuntų."
+          "text": "Maišymo pagaliukai įeina į poros ir šeimos rinkinius. Medinis pagrindas yra atskirai pasirenkamas priedas už 10 €. Balti dažai įeina į poros ir šeimos rinkinius. Priedų pakuotės duomenys tikrinami atskirai nuo bazinių siuntų."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.550Z",
@@ -849,11 +851,11 @@
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "661606a4b6f06d83003cae9872fced9d60532675b0f835dba0aa81a960a6c916",
+      "revisionHash": "6fba9115d9cb49f4c1a08fdf222c1fe25c8ab88614b774267a2b436dcee39e51",
       "approval": {
         "status": "approved",
-        "revisionHash": "661606a4b6f06d83003cae9872fced9d60532675b0f835dba0aa81a960a6c916",
-        "approvedAt": "2026-10-13T05:50:07.467Z",
+        "revisionHash": "6fba9115d9cb49f4c1a08fdf222c1fe25c8ab88614b774267a2b436dcee39e51",
+        "approvedAt": "2026-10-13T21:29:04.567Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1045,7 +1047,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinio kaina yra 32 €. Pasirinkus baltus dažus, kaina — 35 €. Patvirtinta bazinė komplektacija: vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Dažų variantą rinkitės tik supratę jo paskirtį pagal būsimą patvirtintą instrukciją; jis nesuteikia garantijos apie konkretų rezultatą."
+          "text": "Poros rinkinio kaina yra 32 €. Balti dažai įeina į rinkinį be papildomo mokesčio. Patvirtinta bazinė komplektacija: vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Prieš naudodami dažus patikrinkite jų paskirtį ir patvirtintą instrukciją. Dažai nesuteikia garantijos apie konkretų rezultatą."
         },
         {
           "type": "paragraph",
@@ -1115,11 +1117,11 @@
         }
       ],
       "id": "ff93abdd-8aae-4992-985e-f624ff8d874e",
-      "revisionHash": "077cecbaf50a052cc6470f5889078994c79c6d7d768daf093c2384b7c4f067d3",
+      "revisionHash": "d1e9186bebf8d58f6c4d7ff5e32db7e2f7012202c85d670b4e6c5f6ff737a7e5",
       "approval": {
         "status": "approved",
-        "revisionHash": "077cecbaf50a052cc6470f5889078994c79c6d7d768daf093c2384b7c4f067d3",
-        "approvedAt": "2026-10-12T02:09:23.105Z",
+        "revisionHash": "d1e9186bebf8d58f6c4d7ff5e32db7e2f7012202c85d670b4e6c5f6ff737a7e5",
+        "approvedAt": "2026-10-13T21:29:04.589Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1354,7 +1356,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Memocasting poros rinkinys kainuoja 32 €, su baltais dažais — 35 €, šeimos — 48 €. Prie palyginimo pridėkite atskirai parodytą pristatymo sumą. Negalime palyginti su neįvardytos paruoštos dovanos kaina ar apskaičiuoti jūsų laiko vertės."
+          "text": "Memocasting poros rinkinys kainuoja 32 €, šeimos — 48 €. Balti dažai įeina į abu rinkinius. Prie palyginimo pridėkite atskirai parodytą pristatymo sumą. Negalime palyginti su neįvardytos paruoštos dovanos kaina ar apskaičiuoti jūsų laiko vertės."
         },
         {
           "type": "paragraph",
@@ -1444,11 +1446,11 @@
         }
       ],
       "id": "61da1023-a13e-49f7-b6be-62cf372f4936",
-      "revisionHash": "2757ba3e07fbcc02ca0bc57c2924348701b4c246d79fd029cf0be1d756344f28",
+      "revisionHash": "fe3e2679596c8a836552b350869bfddb2f17952f830e28207479ba542eaed487",
       "approval": {
         "status": "approved",
-        "revisionHash": "2757ba3e07fbcc02ca0bc57c2924348701b4c246d79fd029cf0be1d756344f28",
-        "approvedAt": "2026-10-11T23:04:05.796Z",
+        "revisionHash": "fe3e2679596c8a836552b350869bfddb2f17952f830e28207479ba542eaed487",
+        "approvedAt": "2026-10-13T21:29:04.614Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -1739,7 +1741,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Ši vietinė parduotuvė skirta pirkimo kelio patikrai. Kainos 32 € porai, 35 € porai su baltais dažais ir 48 € šeimai yra savininko patvirtintos produktų kainos; likučiai ir pristatymo tarifas yra testiniai."
+          "text": "Ši vietinė parduotuvė skirta pirkimo kelio patikrai. Savininko patvirtintos rinkinių kainos — 32 € porai ir 48 € šeimai, įskaitant baltus dažus. Likučiai ir pristatymo tarifas yra testiniai."
         },
         {
           "type": "paragraph",
@@ -1754,11 +1756,11 @@
       "media": [],
       "links": [],
       "id": "6db61a25-2056-4a41-a97e-c2bc1794f817",
-      "revisionHash": "c34b4ae65b138015c8459f30ccc719326e2f9fff056c464d8d732efca707bca8",
+      "revisionHash": "0eb607172a0a2661180d450eb15d4b9160a85815bce2d9b307ae5cb4f869f622",
       "approval": {
         "status": "approved",
-        "revisionHash": "c34b4ae65b138015c8459f30ccc719326e2f9fff056c464d8d732efca707bca8",
-        "approvedAt": "2026-10-11T23:04:05.827Z",
+        "revisionHash": "0eb607172a0a2661180d450eb15d4b9160a85815bce2d9b307ae5cb4f869f622",
+        "approvedAt": "2026-10-13T21:29:04.642Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2184,7 +2186,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Balti dažai, kuriuos galima pasirinkti prie Memocasting poros rinkinio už 3 €, nėra patvirtinimas, kad rinkinyje yra gruntas, lakas ar visos kitam gamintojui reikalingos priemonės. Jų tūris ir naudojimo dokumentai dar tikslinami. Kol jie nepateikti, nepradėkite darbo pagal kito rinkinio instrukciją."
+          "text": "Į poros ir šeimos rinkinius įtraukti balti dažai nėra patvirtinimas, kad rinkinyje yra gruntas, lakas ar visos kitam gamintojui reikalingos priemonės. Jų tūris ir naudojimo dokumentai dar tikslinami. Kol jie nepateikti, nepradėkite darbo pagal kito rinkinio instrukciją."
         },
         {
           "type": "heading",
@@ -2274,11 +2276,11 @@
         }
       ],
       "id": "49eb9c9a-d1b3-437c-8198-cdd582634ed5",
-      "revisionHash": "fe3261fd442f6a4a5f3d67e3ddaed49a36ff423e84dfe4a908bb8517b90b4d64",
+      "revisionHash": "ae788f1ba75a2822c8a7d4f387d825f65e23d426117f14bf249f7dcb31269247",
       "approval": {
         "status": "approved",
-        "revisionHash": "fe3261fd442f6a4a5f3d67e3ddaed49a36ff423e84dfe4a908bb8517b90b4d64",
-        "approvedAt": "2026-10-11T23:36:52.387Z",
+        "revisionHash": "ae788f1ba75a2822c8a7d4f387d825f65e23d426117f14bf249f7dcb31269247",
+        "approvedAt": "2026-10-13T21:29:04.663Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2465,7 +2467,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Potwierdzone ceny bazowe na Litwie wynoszą 32 € dla pary i 48 € dla rodziny. Biała farba do zestawu dla pary jest opcjonalna i kosztuje dodatkowo 3 €, a drewniana podstawa — 10 €. Ceny sprzedaży w Polsce i rzeczywista dostawa nie zostały jeszcze zatwierdzone; nie przeliczamy ich według wymyślonego kursu."
+          "text": "Potwierdzone ceny bazowe na Litwie wynoszą 32 € dla pary i 48 € dla rodziny. Biała farba wchodzi w skład zestawu dla pary i zestawu rodzinnego bez dopłaty. Drewniana podstawa kosztuje dodatkowo 10 €. Ceny sprzedaży w Polsce i rzeczywista dostawa nie zostały jeszcze zatwierdzone; nie przeliczamy ich według wymyślonego kursu."
         },
         {
           "type": "heading",
@@ -2544,11 +2546,11 @@
         }
       ],
       "id": "0c8dbf42-9ec8-4ecd-ab75-545899172d1f",
-      "revisionHash": "1945100e8726bfa4d1ca370a462ddc61e787f8b257afb8fa8e286d04308d730e",
+      "revisionHash": "698d97ca32cf5c2750ae24e00878f01caa6252671bb37128309097d3a73d6294",
       "approval": {
         "status": "approved",
-        "revisionHash": "1945100e8726bfa4d1ca370a462ddc61e787f8b257afb8fa8e286d04308d730e",
-        "approvedAt": "2026-10-12T09:28:21.257Z",
+        "revisionHash": "698d97ca32cf5c2750ae24e00878f01caa6252671bb37128309097d3a73d6294",
+        "approvedAt": "2026-10-13T21:29:04.683Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2557,12 +2559,12 @@
       "type": "product",
       "slug": "pl/products/liejimo-rinkinys-porai",
       "title": "Zestaw do odlewu dłoni dla pary",
-      "description": "Zawartość zestawu dla pary, opcjonalna farba i podstawa. Bazowa cena na Litwie: 32 €.",
-      "intent": "Zawartość zestawu dla pary, opcjonalna farba i podstawa. Bazowa cena na Litwie: 32 €.",
+      "description": "Zawartość zestawu dla pary z białą farbą w cenie i opcjonalna podstawa. Bazowa cena na Litwie: 32 €.",
+      "intent": "Zawartość zestawu dla pary z białą farbą w cenie i opcjonalna podstawa. Bazowa cena na Litwie: 32 €.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Zestaw dla pary jest pomysłem na wspólną pamiątkę dłoni. Potwierdzona cena bazowa na Litwie to 32 €, a wariant z opcjonalną białą farbą — 35 €. Cena i dostępność sprzedaży w Polsce wymagają odrębnego zatwierdzenia."
+          "text": "Zestaw dla pary jest pomysłem na wspólną pamiątkę dłoni. Potwierdzona cena bazowa na Litwie to 32 €. Biała farba jest wliczona w cenę zestawu. Cena i dostępność sprzedaży w Polsce wymagają odrębnego zatwierdzenia."
         },
         {
           "type": "heading",
@@ -2575,7 +2577,8 @@
             "Jedno opakowanie alginatu.",
             "1 200 g gipsu.",
             "Wiadro.",
-            "Patyczki do mieszania."
+            "Patyczki do mieszania.",
+            "Biała farba."
           ]
         },
         {
@@ -2598,7 +2601,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Białą farbę można wybrać dodatkowo za 3 € w potwierdzonej ofercie bazowej. Jej pojemność i instrukcja stosowania nie zostały jeszcze potwierdzone. Dostępność wyboru zależy od zatwierdzonej konfiguracji serwera."
+          "text": "Biała farba wchodzi w skład zestawu bez dopłaty. Jej pojemność i instrukcja stosowania wymagają jeszcze potwierdzenia."
         },
         {
           "type": "heading",
@@ -2672,11 +2675,11 @@
         }
       ],
       "id": "8125d493-11eb-4d09-840b-999de78a5a9d",
-      "revisionHash": "401878a85f03d665dc75d990809caa5ea2b4f2b862c1148e4e8519c9bb57ba96",
+      "revisionHash": "b4e44634a92483e1cdcdee46f42fe59e6f1da5a31233b6f653298686c4b72340",
       "approval": {
         "status": "approved",
-        "revisionHash": "401878a85f03d665dc75d990809caa5ea2b4f2b862c1148e4e8519c9bb57ba96",
-        "approvedAt": "2026-10-12T09:28:21.276Z",
+        "revisionHash": "b4e44634a92483e1cdcdee46f42fe59e6f1da5a31233b6f653298686c4b72340",
+        "approvedAt": "2026-10-13T21:29:04.708Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2685,8 +2688,8 @@
       "type": "product",
       "slug": "pl/products/seimos-rinkinys-1",
       "title": "Rodzinny zestaw do odlewu dłoni",
-      "description": "Zawartość zestawu rodzinnego i ograniczenia planowania. Bazowa cena na Litwie: 48 €.",
-      "intent": "Zawartość zestawu rodzinnego i ograniczenia planowania. Bazowa cena na Litwie: 48 €.",
+      "description": "Zawartość zestawu rodzinnego z białą farbą w cenie. Bazowa cena na Litwie: 48 €.",
+      "intent": "Zawartość zestawu rodzinnego z białą farbą w cenie. Bazowa cena na Litwie: 48 €.",
       "body": [
         {
           "type": "paragraph",
@@ -2702,7 +2705,8 @@
           "items": [
             "Dwa opakowania alginatu.",
             "Dwa opakowania gipsu.",
-            "Patyczki do mieszania."
+            "Patyczki do mieszania.",
+            "Biała farba."
           ]
         },
         {
@@ -2799,11 +2803,11 @@
         }
       ],
       "id": "8db60556-be40-4416-8001-fd57d52844fe",
-      "revisionHash": "42c5626ac65b2513417a9fae853a94a29ae97a065af34687eb6b850356dca9e9",
+      "revisionHash": "c260a3141b75a63750db3d8198c669a410defe1a13b333f4c25770bfa27ec269",
       "approval": {
         "status": "approved",
-        "revisionHash": "42c5626ac65b2513417a9fae853a94a29ae97a065af34687eb6b850356dca9e9",
-        "approvedAt": "2026-10-12T09:28:21.296Z",
+        "revisionHash": "c260a3141b75a63750db3d8198c669a410defe1a13b333f4c25770bfa27ec269",
+        "approvedAt": "2026-10-13T21:29:04.730Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -2826,7 +2830,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Potwierdzone ceny na Litwie to 32 € dla pary, 35 € dla pary z białą farbą i 48 € dla rodziny. Drewniana podstawa jest osobnym dodatkiem za 10 €. Ceny i dostępność sprzedaży w Polsce pozostają do zatwierdzenia. Dostawa nie jest zawarta w tych kwotach."
+          "text": "Potwierdzone ceny na Litwie to 32 € dla pary i 48 € dla rodziny. Biała farba jest wliczona w cenę obu zestawów. Drewniana podstawa jest osobnym dodatkiem za 10 €. Ceny i dostępność sprzedaży w Polsce pozostają do zatwierdzenia. Dostawa nie jest zawarta w tych kwotach."
         },
         {
           "type": "heading",
@@ -2873,11 +2877,11 @@
         }
       ],
       "id": "245cd2e3-98b7-49c0-b9ec-24aa4d743587",
-      "revisionHash": "dc437c5c80cccd2039e64193909c5bae1e5a312b65f68311910d7b9a888f8f21",
+      "revisionHash": "b7fbd1175dde07bc29c7cef9e0d25e409b47191154854155d787ac94d947d9d9",
       "approval": {
         "status": "approved",
-        "revisionHash": "dc437c5c80cccd2039e64193909c5bae1e5a312b65f68311910d7b9a888f8f21",
-        "approvedAt": "2026-10-12T09:28:21.315Z",
+        "revisionHash": "b7fbd1175dde07bc29c7cef9e0d25e409b47191154854155d787ac94d947d9d9",
+        "approvedAt": "2026-10-13T21:29:04.753Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -3802,7 +3806,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Ta wersja służy sprawdzeniu procesu zakupowego. Właściciel potwierdził bazowe ceny na Litwie: 32 € dla pary, 35 € dla pary z białą farbą oraz 48 € dla rodziny. Drewniana podstawa kosztuje dodatkowo 10 €. Ceny sprzedaży w Polsce wymagają zatwierdzenia; stan magazynowy i dostawa w koszyku są testowe."
+          "text": "Ta wersja służy sprawdzeniu procesu zakupowego. Właściciel potwierdził bazowe ceny na Litwie: 32 € dla pary i 48 € dla rodziny. Biała farba jest wliczona w cenę obu zestawów. Drewniana podstawa kosztuje dodatkowo 10 €. Ceny sprzedaży w Polsce wymagają zatwierdzenia; stan magazynowy i dostawa w koszyku są testowe."
         },
         {
           "type": "paragraph",
@@ -3817,11 +3821,11 @@
       "media": [],
       "links": [],
       "id": "13ce0752-adf0-427e-a7c7-6042bd0b0bc9",
-      "revisionHash": "f5dba3371fd7b2057a90264064adf76ea0ef536fdf0d33d0f492ac51facec07e",
+      "revisionHash": "46529099f2fc7f2eddbf735a41ccf8bd0091bd931521b0805b961e87eff28880",
       "approval": {
         "status": "approved",
-        "revisionHash": "f5dba3371fd7b2057a90264064adf76ea0ef536fdf0d33d0f492ac51facec07e",
-        "approvedAt": "2026-10-12T09:28:21.511Z",
+        "revisionHash": "46529099f2fc7f2eddbf735a41ccf8bd0091bd931521b0805b961e87eff28880",
+        "approvedAt": "2026-10-13T21:29:04.778Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -3904,7 +3908,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Opcjonalna biała farba za 3 € w bazowej ofercie zestawu dla pary nie dowodzi, że zestaw zawiera grunt, lakier lub wszystkie materiały potrzebne według obcej instrukcji. Jej pojemność i dokumenty są jeszcze weryfikowane."
+          "text": "Biała farba dołączona do zestawu dla pary i zestawu rodzinnego nie dowodzi, że zestaw zawiera grunt, lakier lub wszystkie materiały potrzebne według obcej instrukcji. Jej pojemność i dokumenty są jeszcze weryfikowane."
         },
         {
           "type": "heading",
@@ -3990,11 +3994,11 @@
         }
       ],
       "id": "dc3dfba6-efef-451c-827b-248d9db267ed",
-      "revisionHash": "3538733e2b3145f281323dcff779934fb0c6e9da95314a97cc3d5303e2c7e6bc",
+      "revisionHash": "71c63aa6c87c5cb7c8023af0421d42c2bfd60e5c39673d91f42d6357b550ff96",
       "approval": {
         "status": "approved",
-        "revisionHash": "3538733e2b3145f281323dcff779934fb0c6e9da95314a97cc3d5303e2c7e6bc",
-        "approvedAt": "2026-10-12T09:28:21.538Z",
+        "revisionHash": "71c63aa6c87c5cb7c8023af0421d42c2bfd60e5c39673d91f42d6357b550ff96",
+        "approvedAt": "2026-10-13T21:29:04.801Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -4495,7 +4499,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Apstiprinātās bāzes cenas Lietuvā ir 32 € pārim un 48 € ģimenei. Baltu krāsu pāra komplektam var izvēlēties papildus par 3 €, bet koka pamatni — par 10 €. Pārdošanas cenas Latvijā un faktiskā piegāde vēl nav apstiprinātas. Tās neaizstājam ar izdomātu valūtas pārrēķinu."
+          "text": "Apstiprinātās bāzes cenas Lietuvā ir 32 € pārim un 48 € ģimenei. Balta krāsa ir iekļauta pāra un ģimenes komplekta cenā. Koka pamatni var izvēlēties papildus par 10 €. Pārdošanas cenas Latvijā un faktiskā piegāde vēl nav apstiprinātas. Tās neaizstājam ar izdomātu valūtas pārrēķinu."
         },
         {
           "type": "heading",
@@ -4574,11 +4578,11 @@
         }
       ],
       "id": "355af238-d5db-49a1-aa22-dcadda5835c8",
-      "revisionHash": "55c0c577c78899ec7d904a663fe40558fd762e8d54438f2aff6ef4b2e022dd52",
+      "revisionHash": "4c1aa98970b4a90963e86d3daf68358a0d5421241a8fe20ad6266824467441dd",
       "approval": {
         "status": "approved",
-        "revisionHash": "55c0c577c78899ec7d904a663fe40558fd762e8d54438f2aff6ef4b2e022dd52",
-        "approvedAt": "2026-10-12T09:28:21.614Z",
+        "revisionHash": "4c1aa98970b4a90963e86d3daf68358a0d5421241a8fe20ad6266824467441dd",
+        "approvedAt": "2026-10-13T21:29:04.822Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -4587,12 +4591,12 @@
       "type": "product",
       "slug": "lv/products/liejimo-rinkinys-porai",
       "title": "Roku atlējuma komplekts pārim",
-      "description": "Pāra komplektācija, izvēles krāsa un koka pamatne. Apstiprinātā bāzes cena Lietuvā: 32 €.",
-      "intent": "Pāra komplektācija, izvēles krāsa un koka pamatne. Apstiprinātā bāzes cena Lietuvā: 32 €.",
+      "description": "Pāra komplektācija ar cenā iekļautu balto krāsu un izvēles koka pamatni. Apstiprinātā bāzes cena Lietuvā: 32 €.",
+      "intent": "Pāra komplektācija ar cenā iekļautu balto krāsu un izvēles koka pamatni. Apstiprinātā bāzes cena Lietuvā: 32 €.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Ar pāra komplektu varat ieplānot kopīgu roku atlējumu. Apstiprinātā bāzes cena Lietuvā ir 32 €, bet ar izvēles balto krāsu — 35 €. Pārdošanas cena un pieejamība Latvijā jāapstiprina atsevišķi."
+          "text": "Ar pāra komplektu varat ieplānot kopīgu roku atlējumu. Apstiprinātā bāzes cena Lietuvā ir 32 €, ieskaitot balto krāsu. Pārdošanas cena un pieejamība Latvijā jāapstiprina atsevišķi."
         },
         {
           "type": "heading",
@@ -4605,7 +4609,8 @@
             "Viens algināta iepakojums.",
             "1 200 g ģipša.",
             "Spainis.",
-            "Maisīšanas kociņi."
+            "Maisīšanas kociņi.",
+            "Balta krāsa."
           ]
         },
         {
@@ -4628,7 +4633,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Apstiprinātajā bāzes piedāvājumā balta krāsa ir izvēles papildinājums par 3 €. Tās tilpums un lietošanas dokumenti vēl tiek pārbaudīti. Izvēle tiks aktivizēta tikai pēc servera konfigurācijas apstiprināšanas."
+          "text": "Balta krāsa ir iekļauta komplektā bez papildu maksas. Tās tilpums un lietošanas dokumenti vēl tiek precizēti."
         },
         {
           "type": "heading",
@@ -4702,11 +4707,11 @@
         }
       ],
       "id": "64467f7d-5053-449f-9872-32c4d694e21c",
-      "revisionHash": "83f67ad80828b45e7fc11b7a1d671b45f43b367d5aee6ff8424c4f949c52ad32",
+      "revisionHash": "e14cc2ba44b8241cf389dffd9611285ca5985aeaceeebe6581f581c6fc11fbef",
       "approval": {
         "status": "approved",
-        "revisionHash": "83f67ad80828b45e7fc11b7a1d671b45f43b367d5aee6ff8424c4f949c52ad32",
-        "approvedAt": "2026-10-12T09:28:21.628Z",
+        "revisionHash": "e14cc2ba44b8241cf389dffd9611285ca5985aeaceeebe6581f581c6fc11fbef",
+        "approvedAt": "2026-10-13T21:29:04.847Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -4715,8 +4720,8 @@
       "type": "product",
       "slug": "lv/products/seimos-rinkinys-1",
       "title": "Roku atlējuma komplekts ģimenei",
-      "description": "Ģimenes komplektācija un plānošanas robežas. Apstiprinātā bāzes cena Lietuvā: 48 €.",
-      "intent": "Ģimenes komplektācija un plānošanas robežas. Apstiprinātā bāzes cena Lietuvā: 48 €.",
+      "description": "Ģimenes komplekts ar cenā iekļautu balto krāsu. Apstiprinātā bāzes cena Lietuvā: 48 €.",
+      "intent": "Ģimenes komplekts ar cenā iekļautu balto krāsu. Apstiprinātā bāzes cena Lietuvā: 48 €.",
       "body": [
         {
           "type": "paragraph",
@@ -4732,7 +4737,8 @@
           "items": [
             "Divi algināta iepakojumi.",
             "Divi ģipša iepakojumi.",
-            "Maisīšanas kociņi."
+            "Maisīšanas kociņi.",
+            "Balta krāsa."
           ]
         },
         {
@@ -4829,11 +4835,11 @@
         }
       ],
       "id": "a48e2656-fbc2-4929-98d2-7a984c64936c",
-      "revisionHash": "47c67a6d948e6cb06d0dc90f7ad769a6f7017bce1a6903e8e0cd681ccc84a445",
+      "revisionHash": "87b47f258f6d9f6dc5b59aae2a3aec8bebb2044af7681f784a3ee9e5294ec5c1",
       "approval": {
         "status": "approved",
-        "revisionHash": "47c67a6d948e6cb06d0dc90f7ad769a6f7017bce1a6903e8e0cd681ccc84a445",
-        "approvedAt": "2026-10-12T09:28:21.641Z",
+        "revisionHash": "87b47f258f6d9f6dc5b59aae2a3aec8bebb2044af7681f784a3ee9e5294ec5c1",
+        "approvedAt": "2026-10-13T21:29:04.867Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -4856,7 +4862,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Lietuvā apstiprinātās cenas: 32 € pārim, 35 € pārim ar baltu krāsu un 48 € ģimenei. Koka pamatne ir atsevišķs papildinājums par 10 €. Cenas un pieejamība pārdošanai Latvijā vēl jāapstiprina. Šajās summās nav iekļauta piegāde."
+          "text": "Lietuvā apstiprinātās cenas: 32 € pārim un 48 € ģimenei. Balta krāsa ir iekļauta abu komplektu cenā. Koka pamatne ir atsevišķs papildinājums par 10 €. Cenas un pieejamība pārdošanai Latvijā vēl jāapstiprina. Šajās summās nav iekļauta piegāde."
         },
         {
           "type": "heading",
@@ -4903,11 +4909,11 @@
         }
       ],
       "id": "aed7937c-4412-4508-93c1-d9d9866a5ade",
-      "revisionHash": "d4565d1fe2f655cc79ea1587471238c622e338ea543fd08995e558c2a156f0e9",
+      "revisionHash": "b2d98092f42a46c610a6b07be09e3ab9b29960b116bb96c340ea56773b42ce5d",
       "approval": {
         "status": "approved",
-        "revisionHash": "d4565d1fe2f655cc79ea1587471238c622e338ea543fd08995e558c2a156f0e9",
-        "approvedAt": "2026-10-12T09:28:21.656Z",
+        "revisionHash": "b2d98092f42a46c610a6b07be09e3ab9b29960b116bb96c340ea56773b42ce5d",
+        "approvedAt": "2026-10-13T21:29:04.888Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -5832,7 +5838,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Šī versija paredzēta pirkuma procesa pārbaudei. Īpašnieks apstiprināja Lietuvas bāzes cenas: 32 € pārim, 35 € pārim ar baltu krāsu un 48 € ģimenei. Koka pamatne maksā papildus 10 €. Latvijas pārdošanas cenas vēl jāapstiprina. Groza krājumu un piegādes dati ir testam."
+          "text": "Šī versija paredzēta pirkuma procesa pārbaudei. Īpašnieks apstiprināja Lietuvas bāzes cenas: 32 € pārim un 48 € ģimenei. Balta krāsa ir iekļauta abu komplektu cenā. Koka pamatne maksā papildus 10 €. Latvijas pārdošanas cenas vēl jāapstiprina. Groza krājumu un piegādes dati ir testam."
         },
         {
           "type": "paragraph",
@@ -5847,11 +5853,11 @@
       "media": [],
       "links": [],
       "id": "a559b9ec-bf4b-4b1c-bf5a-c8a1661f545a",
-      "revisionHash": "cdc2ec1e9d36485c1d6159339e2cecbd603d23a7183618abe55c7e1c9cda3816",
+      "revisionHash": "5bc00fe6c286b3950447592a80d6486db509d9d55b77a76a438cc7407db272f2",
       "approval": {
         "status": "approved",
-        "revisionHash": "cdc2ec1e9d36485c1d6159339e2cecbd603d23a7183618abe55c7e1c9cda3816",
-        "approvedAt": "2026-10-12T09:28:21.820Z",
+        "revisionHash": "5bc00fe6c286b3950447592a80d6486db509d9d55b77a76a438cc7407db272f2",
+        "approvedAt": "2026-10-13T21:29:04.919Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -5934,7 +5940,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Izvēles baltā krāsa par 3 € pāra komplekta bāzes piedāvājumā neapstiprina grunts, lakas vai visu cita ražotāja prasīto līdzekļu esamību. Tās tilpums un lietošanas dokumenti vēl tiek precizēti."
+          "text": "Pāra un ģimenes komplektā iekļautā baltā krāsa neapstiprina grunts, lakas vai visu cita ražotāja prasīto līdzekļu esamību. Tās tilpums un lietošanas dokumenti vēl tiek precizēti."
         },
         {
           "type": "heading",
@@ -6020,11 +6026,11 @@
         }
       ],
       "id": "e0e0af35-78f4-4a44-9805-ae1e71824d61",
-      "revisionHash": "e53723172122dcc376f07cccfb8881028f225c2b66744db8615cbf7ad65bedd5",
+      "revisionHash": "f92b331bb23667bdbc3a52af8a198ddb2207844c81c8559469150e41e21dabd2",
       "approval": {
         "status": "approved",
-        "revisionHash": "e53723172122dcc376f07cccfb8881028f225c2b66744db8615cbf7ad65bedd5",
-        "approvedAt": "2026-10-12T09:28:21.842Z",
+        "revisionHash": "f92b331bb23667bdbc3a52af8a198ddb2207844c81c8559469150e41e21dabd2",
+        "approvedAt": "2026-10-13T21:29:04.951Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -6525,7 +6531,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Leedus kinnitatud baashinnad on 32 € paarile ja 48 € perele. Paari komplekti valge värv on valikuline lisand hinnaga 3 € ning puidust alus maksab lisaks 10 €. Eesti müügihinnad ja tegelik tarne ei ole veel kinnitatud. Me ei tuleta neid väljamõeldud valuutakursist."
+          "text": "Leedus kinnitatud baashinnad on 32 € paarile ja 48 € perele. Valge värv kuulub paari- ja perekomplekti hinna sisse. Puidust alus maksab lisaks 10 €. Eesti müügihinnad ja tegelik tarne ei ole veel kinnitatud. Me ei tuleta neid väljamõeldud valuutakursist."
         },
         {
           "type": "heading",
@@ -6604,11 +6610,11 @@
         }
       ],
       "id": "cea3c3f0-a71f-48a3-aa48-c606f27d17aa",
-      "revisionHash": "06f8342e631365da37f81a195074c39ce9db81a0a0049225a2fff85e3aa67e03",
+      "revisionHash": "4b3ffebfdd17201c6fe9a0b82cc2a40ebd482f66c865e71372c6da1180225b52",
       "approval": {
         "status": "approved",
-        "revisionHash": "06f8342e631365da37f81a195074c39ce9db81a0a0049225a2fff85e3aa67e03",
-        "approvedAt": "2026-10-12T09:28:21.919Z",
+        "revisionHash": "4b3ffebfdd17201c6fe9a0b82cc2a40ebd482f66c865e71372c6da1180225b52",
+        "approvedAt": "2026-10-13T21:29:04.983Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -6617,12 +6623,12 @@
       "type": "product",
       "slug": "et/products/liejimo-rinkinys-porai",
       "title": "Kätevalukomplekt paarile",
-      "description": "Paari komplekti sisu, valikuline värv ja puidust alus. Leedus kinnitatud baashind: 32 €.",
-      "intent": "Paari komplekti sisu, valikuline värv ja puidust alus. Leedus kinnitatud baashind: 32 €.",
+      "description": "Paari komplekti sisu koos hinnas sisalduva valge värviga ja valikuline puidust alus. Leedus kinnitatud baashind: 32 €.",
+      "intent": "Paari komplekti sisu koos hinnas sisalduva valge värviga ja valikuline puidust alus. Leedus kinnitatud baashind: 32 €.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Paari komplektiga saate kavandada ühise kätevalandi. Leedus kinnitatud baashind on 32 €, valikulise valge värviga 35 €. Eesti müügihind ja müügiks kättesaadavus tuleb kinnitada eraldi."
+          "text": "Paari komplektiga saate kavandada ühise kätevalandi. Leedus kinnitatud baashind on 32 € ja valge värv kuulub komplekti hinna sisse. Eesti müügihind ja müügiks kättesaadavus tuleb kinnitada eraldi."
         },
         {
           "type": "heading",
@@ -6635,7 +6641,8 @@
             "Üks alginaadipakk.",
             "1 200 g kipsi.",
             "Ämber.",
-            "Segamispulgad."
+            "Segamispulgad.",
+            "Valge värv."
           ]
         },
         {
@@ -6658,7 +6665,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kinnitatud baaspakkumises võib valida valge värvi lisaks 3 € eest. Värvi kogus ja kasutusdokumendid on veel kontrollimisel. Valiku saab aktiveerida alles kinnitatud serveriseadistuse põhjal."
+          "text": "Valge värv kuulub komplekti ilma lisatasuta. Värvi kogus ja kasutusdokumendid on veel täpsustamisel."
         },
         {
           "type": "heading",
@@ -6732,11 +6739,11 @@
         }
       ],
       "id": "7c5f2df9-74f8-400d-8b96-23385f513118",
-      "revisionHash": "394e549bd6257474c8acc46231c70862fd7c428f893b40164b1f067490e64842",
+      "revisionHash": "b8188487c9a657da7ab223743cf73b62a9e7f19b3cd11f7a1823b9ebe29b7fa9",
       "approval": {
         "status": "approved",
-        "revisionHash": "394e549bd6257474c8acc46231c70862fd7c428f893b40164b1f067490e64842",
-        "approvedAt": "2026-10-12T09:28:21.937Z",
+        "revisionHash": "b8188487c9a657da7ab223743cf73b62a9e7f19b3cd11f7a1823b9ebe29b7fa9",
+        "approvedAt": "2026-10-13T21:29:05.014Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -6745,8 +6752,8 @@
       "type": "product",
       "slug": "et/products/seimos-rinkinys-1",
       "title": "Kätevalukomplekt perele",
-      "description": "Perekomplekti sisu ja kavandamise piirid. Leedus kinnitatud baashind: 48 €.",
-      "intent": "Perekomplekti sisu ja kavandamise piirid. Leedus kinnitatud baashind: 48 €.",
+      "description": "Perekomplekt hinnas sisalduva valge värviga. Leedus kinnitatud baashind: 48 €.",
+      "intent": "Perekomplekt hinnas sisalduva valge värviga. Leedus kinnitatud baashind: 48 €.",
       "body": [
         {
           "type": "paragraph",
@@ -6762,7 +6769,8 @@
           "items": [
             "Kaks alginaadipakki.",
             "Kaks kipsipakki.",
-            "Segamispulgad."
+            "Segamispulgad.",
+            "Valge värv."
           ]
         },
         {
@@ -6859,11 +6867,11 @@
         }
       ],
       "id": "6f87921e-a801-4099-a11e-4ce8252b9f48",
-      "revisionHash": "d26253ed1b72362d6172e3ee56213e5e4e1185817f616188ebb34246fd84ad07",
+      "revisionHash": "1376ef3478c19650c4a1d765be23635c892c894187db59769531e6c8fab4f0d8",
       "approval": {
         "status": "approved",
-        "revisionHash": "d26253ed1b72362d6172e3ee56213e5e4e1185817f616188ebb34246fd84ad07",
-        "approvedAt": "2026-10-12T09:28:21.952Z",
+        "revisionHash": "1376ef3478c19650c4a1d765be23635c892c894187db59769531e6c8fab4f0d8",
+        "approvedAt": "2026-10-13T21:29:05.034Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -6886,7 +6894,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Leedus kinnitatud hinnad: 32 € paarile, 35 € paarile valge värviga ja 48 € perele. Puidust alus on eraldi lisand hinnaga 10 €. Eesti müügihinnad ja kättesaadavus vajavad veel kinnitamist. Need summad ei sisalda tarnet."
+          "text": "Leedus kinnitatud hinnad: 32 € paarile ja 48 € perele. Valge värv kuulub mõlema komplekti hinna sisse. Puidust alus on eraldi lisand hinnaga 10 €. Eesti müügihinnad ja kättesaadavus vajavad veel kinnitamist. Need summad ei sisalda tarnet."
         },
         {
           "type": "heading",
@@ -6933,11 +6941,11 @@
         }
       ],
       "id": "8a7f39e9-2d4f-4ad9-a186-b1028cb2ea79",
-      "revisionHash": "741a6fc3cd8977af3fbe92875d4e63c3ed29da123213755e4bc3573c0e7521b3",
+      "revisionHash": "92bed27345676cfb917dea1f45bca3cc90d1625cca08e38b88e31aebe93d3853",
       "approval": {
         "status": "approved",
-        "revisionHash": "741a6fc3cd8977af3fbe92875d4e63c3ed29da123213755e4bc3573c0e7521b3",
-        "approvedAt": "2026-10-12T09:28:21.967Z",
+        "revisionHash": "92bed27345676cfb917dea1f45bca3cc90d1625cca08e38b88e31aebe93d3853",
+        "approvedAt": "2026-10-13T21:29:05.057Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -7862,7 +7870,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "See versioon kontrollib ostuprotsessi. Omanik kinnitas Leedu baashinnad: 32 € paarile, 35 € paarile valge värviga ja 48 € perele. Puidust alus maksab lisaks 10 €. Eesti müügihinnad vajavad kinnitamist; ostukorvi laoseis ja tarne on testandmed."
+          "text": "See versioon kontrollib ostuprotsessi. Omanik kinnitas Leedu baashinnad: 32 € paarile ja 48 € perele. Valge värv kuulub mõlema komplekti hinna sisse. Puidust alus maksab lisaks 10 €. Eesti müügihinnad vajavad kinnitamist; ostukorvi laoseis ja tarne on testandmed."
         },
         {
           "type": "paragraph",
@@ -7877,11 +7885,11 @@
       "media": [],
       "links": [],
       "id": "06608f8a-8bd8-4df1-82ae-1f0ae0526aaa",
-      "revisionHash": "2942240cbd96735a3456e00df3cd496df2f9810f1b0c8a881207ec6bcbae52d6",
+      "revisionHash": "abad70c8da19e9fa51846096e86ba211a9ef31568eca4fd5e93089f9f9c44c14",
       "approval": {
         "status": "approved",
-        "revisionHash": "2942240cbd96735a3456e00df3cd496df2f9810f1b0c8a881207ec6bcbae52d6",
-        "approvedAt": "2026-10-12T09:28:22.160Z",
+        "revisionHash": "abad70c8da19e9fa51846096e86ba211a9ef31568eca4fd5e93089f9f9c44c14",
+        "approvedAt": "2026-10-13T21:29:05.086Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -7964,7 +7972,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Paari baaspakkumise valikuline valge värv hinnaga 3 € ei tõenda krundi, laki või kõigi teise tootja nõutud vahendite olemasolu. Kogus ja kasutusdokumendid on veel täpsustamisel."
+          "text": "Paari- ja perekomplekti kuuluv valge värv ei tõenda krundi, laki või kõigi teise tootja nõutud vahendite olemasolu. Kogus ja kasutusdokumendid on veel täpsustamisel."
         },
         {
           "type": "heading",
@@ -8050,11 +8058,11 @@
         }
       ],
       "id": "42d32782-0cda-405d-90c3-dbcbfc52f927",
-      "revisionHash": "50027eb8f5a16926336d22bf0a195ad63f3ec50ed816850ad38098da18503014",
+      "revisionHash": "7613212c44a0282fa45d89a4c83cb66765c892c7a1c0c517284a117036b5c88e",
       "approval": {
         "status": "approved",
-        "revisionHash": "50027eb8f5a16926336d22bf0a195ad63f3ec50ed816850ad38098da18503014",
-        "approvedAt": "2026-10-12T09:28:22.188Z",
+        "revisionHash": "7613212c44a0282fa45d89a4c83cb66765c892c7a1c0c517284a117036b5c88e",
+        "approvedAt": "2026-10-13T21:29:05.110Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -8533,5 +8541,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T11:16:35.750Z"
+  "generatedAt": "2026-10-13T21:31:30.864Z"
 }

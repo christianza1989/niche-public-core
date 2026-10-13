@@ -5,7 +5,8 @@ const markets={markets:[{country:'LT',currency:'EUR'},{country:'PL',currency:'PL
 const item=(sku,price,extra={})=>({sku,enabled:true,available:4,prices:{LT:price,PL:price*4},package:{weightGrams:100,dimensionsMm:[10,20,30]},...extra});
 test('selection total uses the actual market, quantity and eligible unique extras',()=>{
  const catalog=[item('couple',3200),item('white_paint',300,{addonFor:['couple']}),item('wooden_base',1000,{addonFor:['couple','family']})];
- assert.deepEqual(memoSelectionTotal(catalog,markets,'couple','LT',2,['white_paint','wooden_base','white_paint']),{currency:'EUR',cents:9000});
+ assert.deepEqual(memoSelectionTotal(catalog,markets,'couple','LT',2,['white_paint','wooden_base','white_paint']),{currency:'EUR',cents:8400});
+ assert.deepEqual(memoSelectionTotal(catalog,markets,'couple','LT',1,['white_paint']),{currency:'EUR',cents:3200});
  assert.deepEqual(memoSelectionTotal(catalog,markets,'couple','PL',1,[]),{currency:'PLN',cents:12800});
  assert.equal(memoSelectionTotal(catalog,{markets:[]},'couple','LT',1),null);
 });
