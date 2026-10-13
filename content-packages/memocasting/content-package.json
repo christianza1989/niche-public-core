@@ -38,6 +38,42 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Ką norite pasilikti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diena praeina. Prisilietimas lieka. Susikibkite rankomis ir išsaugokite savo bendros akimirkos formą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bendras vakaras dviese."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skirkite laiko vienas kitam ir sukurkite skulptūrą kartu."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Akimirka su šeima."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite kompoziciją, kuri primins jūsų artumą. Prieš pradėdami patikrinkite rinkinio instrukciją."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dovana, kurią kuriate kartu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Padovanokite progą susitikti ir išsaugoti bendrą prisiminimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Kam kursite prisiminimą?"
         },
         {
@@ -195,42 +231,6 @@
         {
           "type": "paragraph",
           "text": "Medinis pagrindas pasirenkamas atskirai už 10 €. Priedų prieinamumą patikrinkite produkto puslapyje."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ką norite pasilikti?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Diena praeina. Prisilietimas lieka. Susikibkite rankomis ir išsaugokite savo bendros akimirkos formą."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Bendras vakaras dviese."
-        },
-        {
-          "type": "paragraph",
-          "text": "Skirkite laiko vienas kitam ir sukurkite skulptūrą kartu."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Akimirka su šeima."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pasirinkite kompoziciją, kuri primins jūsų artumą. Prieš pradėdami patikrinkite rinkinio instrukciją."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Dovana, kurią kuriate kartu."
-        },
-        {
-          "type": "paragraph",
-          "text": "Padovanokite progą susitikti ir išsaugoti bendrą prisiminimą."
         },
         {
           "type": "heading",
@@ -540,11 +540,11 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "bad4bc6e591e5c8d34dbfd5a5fc7da51715b48f69a4f169811d5607aa30c3c14",
+      "revisionHash": "af4b3cab918a720e67bcaa86bf349760454c3e9c2d21edcf9788b80795882d81",
       "approval": {
         "status": "approved",
-        "revisionHash": "bad4bc6e591e5c8d34dbfd5a5fc7da51715b48f69a4f169811d5607aa30c3c14",
-        "approvedAt": "2026-10-13T09:27:24.863Z",
+        "revisionHash": "af4b3cab918a720e67bcaa86bf349760454c3e9c2d21edcf9788b80795882d81",
+        "approvedAt": "2026-10-13T10:28:21.034Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -8529,5 +8529,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T09:27:24.916Z"
+  "generatedAt": "2026-10-13T10:28:21.082Z"
 }

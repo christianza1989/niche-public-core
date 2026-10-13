@@ -1,5 +1,5 @@
 {
-  "source": "Owner-selected memory-casting-share-20261013 public package",
+  "source": "Owner-selected prototype assets plus owner-requested imagegen zoomed-out hero v3, imported through canonical responsive-webp-v1",
   "assets": [
     {
       "path": "/memocasting-homepage/v1/fonts/manrope-400.ttf",
@@ -113,6 +113,36 @@
       "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-6.webp",
       "bytes": 12296,
       "sha256": "2e25cc2bf0c48b46876d8e24fd7268ed0c9827847b5bdf854cbfa3d4ead32815",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-1600.webp",
+      "bytes": 28762,
+      "sha256": "2a91c81fdb24f8d7a5c6d86403a20b157abce5aa0b4a75c667731431c4e50334",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-1200.webp",
+      "bytes": 19208,
+      "sha256": "4a64271e107ea845a624e5b97daae6668897b2562fcb555c13143fdc6880e51f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-800.webp",
+      "bytes": 10480,
+      "sha256": "ad0dd3fc0a8d559302e8bcb53fdd783b1eb5036bfa65589f7725b81a7c3f0551",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-640.webp",
+      "bytes": 7510,
+      "sha256": "3c5dda4305b240d90425efa437205cdc2b6011ea4387b0b0c0832843afe0f8e7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-360.webp",
+      "bytes": 3338,
+      "sha256": "be068c28b93d0d5c404643cbdd6579d342db8ed1737fa6ee9267b15542da3e70",
       "type": "image/webp"
     }
   ]
