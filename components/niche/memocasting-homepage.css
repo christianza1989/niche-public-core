@@ -51,7 +51,7 @@
 @media(min-width:701px){
  .memo-homepage .site-header{top:20px}.memo-homepage .brand{width:190px}
  .memo-homepage .hero{height:100svh;min-height:0}
- .memo-homepage .hero-visual{inset:auto 2.5% 86px auto;width:min(66vw,calc((100svh - 130px)*1.5));height:auto;aspect-ratio:3/2;transform-origin:50% 80%}
+ .memo-homepage .hero-visual{inset:auto 5% 86px auto;width:min(61vw,calc((100svh - 130px)*1.38));height:auto;aspect-ratio:3/2;transform-origin:50% 80%}
  .memo-homepage .hero-image{object-fit:contain;object-position:center}
  .memo-homepage .hero-copy{left:var(--gutter);top:42%;width:44%;max-width:620px}
  .memo-homepage h1{font-size:clamp(2.5rem,3.75vw,3.375rem);line-height:1.05}
@@ -95,7 +95,7 @@
 }
 @media(max-width:700px){
  .memo-homepage .meaning{padding-block:75px}.memo-homepage .meaning-inner{grid-template-columns:1fr;gap:35px}
- .memo-homepage .hero-image{object-fit:contain;object-position:center}
+ .memo-homepage .hero-image{width:92%;margin-inline:auto;object-fit:contain;object-position:center}
  .memo-homepage .hero-copy{padding-top:110px}.memo-homepage .hero-visual{height:clamp(300px,40svh,400px)}
  .memo-homepage .product-visual img{width:76%}.memo-homepage .sculpture-showroom{padding-block:75px}
  .memo-homepage .sculpture-stage img{height:360px}.memo-homepage .closing{padding-block:85px}
