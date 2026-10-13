@@ -48,7 +48,7 @@ async function download(request,env,key){
  return new Response(stream,{status,headers});
 }
 async function sendMail(env,mail){
-  if(env.HOSTINGER_MAIL_API_KEY)return sendHostingerMail(env,mail);
+  if(env.HOSTINGER_MAIL_API_KEY)return sendHostingerMail(env,{...mail,displayName:'PhoneBridger'});
   if(env.LEAD_SMTP_ENABLED!=='1'||!env.LEAD_SMTP_USER||!env.LEAD_SMTP_PASSWORD)return false;
   const socket=connect({hostname:'smtp.hostinger.com',port:465},{secureTransport:'on',allowHalfOpen:false});socket.closed.catch(()=>{});
   await smtpSession(socket,{user:env.LEAD_SMTP_USER,password:env.LEAD_SMTP_PASSWORD,timeoutMs:12000},mail);return true;
@@ -104,7 +104,7 @@ export default {
       else if(url.pathname==='/robots.txt')result=txt(nicheRobotsTextCore(pkg,local,home));
       else if(url.pathname==='/sitemap.xml')result=txt(nicheSitemapXmlCore(pkg,live),'application/xml; charset=utf-8');
       else if(url.pathname==='/llms.txt')result=txt(nicheLlmsIndexCore(pkg,live));
-      else if(url.pathname==='/llms-full.txt')result=txt(nicheLlmsFullCore(pkg,live,settings.operatorName));
+      else if(url.pathname==='/llms-full.txt')result=txt(nicheLlmsFullCore(pkg,live,commercePolicy.seller));
       else {
         const slug=url.pathname.replace(/^\/+|\/+$/g,'');
         const page=live.find(p=>p.slug===slug),isPrivate=privatePages.has(slug)||accountRoute(slug);
