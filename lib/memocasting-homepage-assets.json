@@ -468,6 +468,66 @@
       "bytes": 6756,
       "sha256": "23622a3c6cd8f5446b103e24f5374e19c0544f836ddd5e1dfc3f49d61d4462fe",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-1536.webp",
+      "bytes": 142082,
+      "sha256": "80261abd6b4b94552e011a6b3203e7aba34d4145deb6edb33ede4ef96a4b3431",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-1200.webp",
+      "bytes": 116484,
+      "sha256": "611b926a222ca2171112e00a906117751206f9047d733544204c194a96e4653e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-800.webp",
+      "bytes": 62126,
+      "sha256": "7b0974cff88dab9681dee920b71807110a7ce64b5b2471fe9bea9a805a5d7c71",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-640.webp",
+      "bytes": 45580,
+      "sha256": "9256d72fa73662c5a4d141b8786f9144213c06cad6c81a4d3ce8a2325e6921ce",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-360.webp",
+      "bytes": 20588,
+      "sha256": "992063fe02378bf6f248e2ba47e5ecbc86aa943e349487651323c5cd3a72c5b8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-1600.webp",
+      "bytes": 4476,
+      "sha256": "7b82291c569eb9bd4c3951f5f91d7058ac92daa61e397266d8c90d599af1fd13",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-1200.webp",
+      "bytes": 2700,
+      "sha256": "c7e05fd25aaf14c7dc66d32a59647cfed1bb0a335ca5c7419590b61aee88de0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-800.webp",
+      "bytes": 1376,
+      "sha256": "4db0f1b771e66a27b84d4ca99929beb9252f2cc7990e5abec72839a858ad644e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-640.webp",
+      "bytes": 956,
+      "sha256": "5edfe17951a4f5a170a02ae97635166f4f00ad8d3a879cd10a46532c205d9758",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-360.webp",
+      "bytes": 436,
+      "sha256": "d9364237d33c83e0dc01e82ade36046e796852cac40dd4546f2b2e231a7c7595",
+      "type": "image/webp"
     }
   ]
 }
