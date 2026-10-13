@@ -11,6 +11,7 @@ import commercePolicy from './commerce-policy.json';
 import commerceContract from '../../.sites-runtime/phonebridger-production/commerce-contract.json';
 import {accountWorkspace} from '../../lib/phonebridger-account-workspace.mjs';
 import {creatorApi,referralRedirect} from '../../lib/phonebridger-affiliate.mjs';
+import {referralPreferences} from '../../lib/phonebridger-referral-choice.mjs';
 import {accountRoute} from './account-routes.mjs';
 import {accountSecurity,securityActions,emailVerified,securityDeletionStatements} from '../../lib/phonebridger-account-security.mjs';
 import {serviceMailMaintenance} from '../../lib/phonebridger-notifications.mjs';
@@ -93,7 +94,8 @@ export default {
       else if(url.pathname.startsWith('/api/workspace/'))result=await accountWorkspace(request,env,url.pathname.slice('/api/workspace/'.length),release.downloads,ctx);
       else if(url.pathname.startsWith('/api/creator/provider/'))result=await creatorPayoutProvider(request,env,url.pathname.slice('/api/creator/provider/'.length));
       else if(url.pathname.startsWith('/api/creator/'))result=await creatorApi(request,env,url.pathname.slice('/api/creator/'.length));
-      else if(/^\/r\/[a-f0-9]{32}$/.test(url.pathname)&&request.method==='GET')result=await referralRedirect(request,env,url.pathname.split('/').pop());
+      else if(url.pathname==='/referral-preferences')result=await referralPreferences(request);
+      else if(/^\/r\/[a-f0-9]{32}$/.test(url.pathname))result=await referralRedirect(request,env,url.pathname.split('/').pop());
       else if(url.pathname.startsWith('/api/shop/')&&live.some(p=>p.slug==='shop'))result=await commerce(request,env,policyFor(env,local),url.pathname.slice('/api/shop/'.length));
       else if(url.pathname==='/api/contact')result=await lead(request,env,live);
       else if(url.pathname==='/ivykius')result=await interest(request,env,live);
@@ -121,7 +123,7 @@ export default {
     }
     const headers=new Headers(result.headers);if(env.PLAYGROUND==='1')headers.set('X-PhoneBridger-Environment','playground');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.set('Content-Security-Policy',"frame-ancestors 'none'; base-uri 'self'; object-src 'none'");
     if(!local)headers.set('Strict-Transport-Security','max-age=31536000');
-    if(local||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||accountRoute(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||url.pathname.startsWith('/r/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
+    if(local||url.pathname==='/referral-preferences'||privatePages.has(url.pathname.replace(/^\/+|\/+$/g,''))||accountRoute(url.pathname.replace(/^\/+|\/+$/g,''))||url.pathname.startsWith('/api/')||url.pathname.startsWith('/r/')||result.status>=400){headers.set('X-Robots-Tag','noindex, nofollow');headers.set('Cache-Control','private, no-store');}
     else if(headers.get('Content-Type')?.includes('text/html'))headers.set('Cache-Control','no-cache');
     return new Response(request.method==='HEAD'?null:result.body,{status:result.status,headers});
   },

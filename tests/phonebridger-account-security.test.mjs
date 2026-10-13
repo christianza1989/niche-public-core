@@ -45,8 +45,10 @@ test('account deletion atomically disables outstanding security links, queued ma
  const r=await customerAccount(api('register',{email,password},{Cookie:''}),env,'register',{minimumPasswordLength:6}),cookie=r.headers.get('set-cookie').split(';')[0],user=db.sql.prepare('SELECT id FROM customer_users WHERE email=?').get(email);
  db.sql.prepare("INSERT INTO creator_partners VALUES ('delete-partner',?,'DELETECODE','approved',NULL,?)").run(user.id,Date.now());db.sql.prepare('INSERT INTO account_security_tokens VALUES (?,?,?,?,NULL,?)').run(digest('delete-token'),user.id,'reset',Date.now()+60000,Date.now());
  const id=await queueAccountMail(db,env,{userId:user.id,kind:'test',message:{to:email,subject:'Fixture',text:'Fixture'}});
+ await accountWorkspace(request('/api/workspace/profile',{name:'Disposable personal profile',setup:[],notifications:false},{Cookie:cookie}),env,'profile');
  assert.equal((await customerAccount(api('delete',{email,password},{Cookie:cookie}),env,'delete',{deleteExtra:securityDeletionStatements})).status,200);
  assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM account_security_tokens WHERE user_id=?').get(user.id).n,0);assert.equal(db.sql.prepare('SELECT status FROM account_mail_outbox WHERE id=?').get(id).status,'expired');assert.equal(db.sql.prepare("SELECT status FROM creator_partners WHERE id='delete-partner'").get().status,'suspended');
+ assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM account_profiles WHERE user_id=?').get(user.id).n,0);
 });
 test('support notification is idempotent; reply mail respects verified email and explicit preference',async()=>{
  const db=database(),env=envOf(db),d={subject:'Unit support',message:'This is a saved support fixture.',requestId:crypto.randomUUID()};

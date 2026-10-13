@@ -12,6 +12,11 @@ test('English machine-readable summaries use the supplied projection and localiz
  assert.equal(nicheBreadcrumbs(pkg,page,pages)[1].name,'Guides');
  assert.equal(nicheBreadcrumbs(pkg,page,[page]).length,2);
 });
+test('English guide index retains current-main CollectionPage semantics without future inventory',()=>{
+ const hub={...page,id:'hub',slug:'guides',type:'faq',title:'Guides'};
+ const entity=nicheSchemaGraph({...pkg,pages:[hub,page,{...page,slug:'future'}]},hub,[hub,page],'MB Pinet')['@graph'].find(x=>x['@type']==='CollectionPage');
+ assert.equal(entity.url,'https://example.com/guides');assert.deepEqual(entity.hasPart,[{'@type':'WebPage',name:page.title,url:'https://example.com/guides/start'}]);
+});
 test('preview robots close crawling; sitemap escapes XML without inventing pages',()=>{
  assert.equal(nicheRobotsTextCore(pkg,true,true),'User-agent: *\nDisallow: /\n');
  assert.equal(nicheRobotsTextCore(pkg,false,false),nicheRobotsTextCore(pkg,true,true));

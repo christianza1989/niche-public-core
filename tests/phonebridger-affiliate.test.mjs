@@ -55,14 +55,15 @@ test('approved creators can own links, archive only their links and copy server 
  db.sql.prepare('INSERT INTO affiliate_links VALUES (?,?,?,1,?)').run('f'.repeat(32),'foreign','Private channel',Date.now());
  assert.equal((await creatorApi(api('links',{archive:'f'.repeat(32)}),env,'links')).status,404);
  const own=await(await creatorApi(api('links'),env,'links')).json();assert.equal(own.links.length,1);assert.ok(!JSON.stringify(own).includes('Private channel'));
- const redirect=await referralRedirect(request('/r/'+created.id),env,created.id);assert.equal(redirect.status,302);assert.equal(redirect.headers.get('location'),'/shop');assert.match(redirect.headers.get('set-cookie'),/HttpOnly; SameSite=Lax/);
+ const choice=await referralRedirect(request('/r/'+created.id),env,created.id);assert.equal(choice.status,200);assert.equal(choice.headers.get('set-cookie'),null);assert.equal(db.sql.prepare('SELECT COUNT(*) n FROM affiliate_clicks').get().n,0);
+ const redirect=await referralRedirect(new Request('https://phonebridger.com/r/'+created.id,{method:'POST',headers:{Origin:'https://phonebridger.com','Content-Type':'application/x-www-form-urlencoded'},body:'choice=allow'}),env,created.id);assert.equal(redirect.status,302);assert.equal(redirect.headers.get('location'),'/shop');assert.match(redirect.headers.get('set-cookie'),/HttpOnly; SameSite=Lax/);
  assert.equal((await creatorApi(api('links',{archive:created.id}),env,'links')).status,200);assert.equal((await referralRedirect(request('/r/'+created.id),env,created.id)).status,404);
 });
 test('coupon precedence, server-owned cookie, direct return, window, new customer and self-referral rules',async()=>{
  const db=database(),env=envOf(db);partner(db);partner(db,'link-partner','third','LINKCODE');
  db.sql.prepare('INSERT INTO affiliate_links VALUES (?,?,?,1,?)').run('f'.repeat(32),'link-partner','Video',Date.now());
  db.sql.prepare('INSERT INTO affiliate_clicks VALUES (?,?,?,?)').run('e'.repeat(32),'f'.repeat(32),'visitor',Date.now());
- const req=request('/api/shop/checkout',{}, {Cookie:'__Host-pb_session='+ 'a'.repeat(64)+'; pb_ref='+ 'e'.repeat(32)});
+ const req=request('/api/shop/checkout',{}, {Cookie:'__Host-pb_session='+ 'a'.repeat(64)+'; pb_ref_choice=allow; pb_ref='+ 'e'.repeat(32)});
  const link=await checkoutAttribution(req,env,db,{id:'buyer'},undefined,2900,'usd');assert.equal(link.partnerId,'link-partner');assert.equal(link.discount,0);
  assert.equal((await checkoutAttribution(req,env,db,{id:'buyer'},'TESTCODE',2900,'usd')).partnerId,'partner');assert.equal((await checkoutAttribution(req,env,db,{id:'buyer'},'TESTCODE',2900,'usd')).basis,2755);
  assert.equal(await checkoutAttribution(req,env,db,{id:'other'},'TESTCODE',2900,'usd'),null);

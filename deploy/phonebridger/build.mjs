@@ -8,6 +8,7 @@ import settings from '../../config/niche-network.json' with {type:'json'};
 import {nicheSchemaGraph} from '../../lib/niche-schema-core.mjs';
 import {nichePageUrlCore} from '../../lib/niche-seo-core.mjs';
 import {accountRoutes} from './account-routes.mjs';
+import {bundleHomeStyles} from './home-styles.mjs';
 const core=path.resolve(import.meta.dirname,'../..');
 const companion=path.resolve(process.argv[2]||path.join(core,'../nisiniai_puslapiai_monetizavimui'));
 const appInput=process.argv[3]||process.env.PHONEBRIDGER_APP_ROOT;
@@ -21,6 +22,7 @@ const decode=text=>text.replace(/<[^>]*>/g,' ').replaceAll('&amp;','&').replaceA
 const {transform}=await import(pathToFileURL(path.join(project,'production/transform.mjs')));
 const {productionSource,shopAssetFiles,shellAssetFiles,reviewAssetFiles}=await import(pathToFileURL(path.join(project,'production/source.mjs')));
 const {purchaseTerms,purchaseVersion}=await import(pathToFileURL(path.join(project,'production/purchase-terms.mjs')));
+const {performanceAssetFiles}=await import(pathToFileURL(path.join(project,'production/performance.mjs')));
 const commercePolicy=JSON.parse(await readFile(path.join(import.meta.dirname,'commerce-policy.json'),'utf8'));
 if(commercePolicy.version!==purchaseVersion)throw Error('The accepted purchase edition and commerce policy must share a version.');
 const manifest=JSON.parse(await readFile(path.join(prototype,'manifest.json'),'utf8'));
@@ -29,17 +31,20 @@ for(const entry of manifest.files){
  const original=await readFile(path.join(prototype,entry.path));
  if(original.length!==entry.bytes||sha(original)!==entry.sha256)throw Error('Prototype attestation failed: '+entry.path);
  if(entry.path.startsWith('tests/')||/preview\.html$|\.test\.|^robots.txt$|^sitemap.xml$|^llms/.test(entry.path))continue;
- transformed.set(entry.path,/\.(html|js)$/.test(entry.path)?Buffer.from(transform(entry.path,await productionSource(entry.path,original.toString()))):original);
+ transformed.set(entry.path,/\.(html|js|css)$/.test(entry.path)?Buffer.from(transform(entry.path,await productionSource(entry.path,original.toString()))):original);
 }
 for(const file of shopAssetFiles)transformed.set('assets/shop-v2/'+file,await readFile(path.join(project,'shop-v2',file)));
 for(const file of shellAssetFiles)transformed.set('assets/shared-shell/'+file,await readFile(path.join(project,'production/shared-shell',file)));
 // Repair owner-selected interactions without changing the attested prototype.
 for(const file of reviewAssetFiles)transformed.set('assets/reviews-v1/'+file,await readFile(path.join(project,'production/reviews-v2',file)));
+for(const file of performanceAssetFiles)transformed.set('assets/performance/'+file,await readFile(path.join(project,'production/performance',file)));
 for(const file of ['workspace.css','workspace.js'])transformed.set('assets/account-workspace/'+file,await readFile(path.join(project,'account-workspace',file)));
 transformed.set('account/index.html',await readFile(path.join(project,'account-workspace/index.html')));
 transformed.set('assets/account-security/security.js',await readFile(path.join(project,'account-security/security.js')));
 for(const slug of ['recover','verify'])transformed.set(slug+'/index.html',await readFile(path.join(project,'account-security/index.html')));
 transformed.set('checkout/index.html',Buffer.from(transform('checkout/index.html',await productionSource('checkout/index.html',await readFile(path.join(prototype,'shop/index.html'),'utf8')))));
+const bundled=bundleHomeStyles(transformed.get('index.html').toString(),transformed);
+transformed.set('index.html',Buffer.from(bundled.html));transformed.set(bundled.file,bundled.bytes);
 // Builds consume the committed reviewed edition; deployment never manufactures approval.
 const pkg=JSON.parse(await readFile(path.join(project,'production/package/content-package.json'),'utf8'));validateContentPackage(pkg);
 const pages=projectPublicPages(pkg,[pkg],settings);if(pages.length!==14)throw Error('Expected 14 due exact approved public pages.');

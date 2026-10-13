@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {bundleHomeStyles} from '../deploy/phonebridger/home-styles.mjs';
+test('homepage stylesheet bundling preserves cascade order, relative media meaning and literal inline masks',()=>{
+ const files=new Map([['styles.css',Buffer.from('.first{color:red;background:url(assets/picture.webp)}')],['assets/demo/demo.css',Buffer.from('.first{color:blue;src:url("../font.woff2?v=1#font");mask:url(#mask);background:url("data:image/svg+xml,%3Csvg%3E")}')]]);
+ const r=bundleHomeStyles('<head><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="assets/demo/demo.css"></head>',files),css=r.bytes.toString();assert.equal((r.html.match(/rel="stylesheet"/g)||[]).length,1);assert.ok(css.indexOf('color:red')<css.indexOf('color:blue'));assert.match(css,/url\("\/assets\/picture.webp"\)/);assert.match(css,/url\("\/assets\/font.woff2\?v=1#font"\)/);assert.match(css,/url\(#mask\)/);assert.match(css,/data:image\/svg\+xml,%3Csvg%3E/);
+ assert.throws(()=>bundleHomeStyles('<link rel="stylesheet" href="missing.css">',files),/Missing/);assert.throws(()=>bundleHomeStyles('<link rel="stylesheet" href="styles.css" media="print">',files),/conditional/);
+});
