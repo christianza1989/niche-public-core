@@ -2,6 +2,9 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
+  "publicationCutoffsBySite": {
+    "parasoplansetes": "2026-10-13T19:26:19.387Z"
+  },
   "contactsBySite": {
     "parasoplansetes": {
       "operatorName": "Parašo planšetės.lt",

@@ -1,6 +1,6 @@
 import rawPackages from "@/lib/generated/content-packages.json";
 import { env } from "cloudflare:workers";
-import { dueRevision, projectPublicPages } from "./niche-links.mjs";
+import { dueRevision, projectPublicPages, publicationTime } from "./niche-links.mjs";
 import networkSettings from "@/config/niche-network.json";
 
 export type NicheBlock =
@@ -75,7 +75,7 @@ export function nicheSiteByHost(host: string | null | undefined): NichePackage |
 }
 
 export function isPublicNichePage(page: NichePage, now = Date.now()): boolean {
-  return dueRevision(page, now);
+  return dueRevision(page, publicationTime(page.siteId, networkSettings, now));
 }
 
 export function publicNichePages(pkg: NichePackage, now = Date.now()): NichePage[] {
