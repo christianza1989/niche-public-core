@@ -130,7 +130,13 @@ test('guide schema, visible authors/dates/contact use approved facts and real pu
   assert.deepEqual(Array.from(schema[1].itemListElement, crumb => new URL(crumb.item).pathname), ['/', '/gidai', '/gidai/dabartinis']);
   const contact = html(pkg, 'contact', boundary - 1);
   assert.match(contact, /mailto:nativeqa@example\.org/); assert.match(contact, /Bandymo organizacija/);
-  assert.doesNotMatch(contact, /MB Pinet|info@pinet|<form|Užklausa gauta|__nicheInterest/);
+  assert.doesNotMatch(contact, /MB Pinet|info@pinet|Užklausa gauta/);
+  assert.match(contact, /<form[^>]*action="\/uzklausa"/);
+  assert.match(contact, /href="\/privatumas"/);
+  assert.match(contact, /__nicheInterest/);
+  const withheld=structuredClone(pkg);withheld.pages.find(p=>p.id==='privacy').publishAt='2035-01-01T00:00:00.000Z';approveFixture(withheld);
+  assert.doesNotMatch(html(withheld,'contact',boundary-1),/<form|__nicheInterest/);
+  assert.doesNotMatch(html(pkg,'current',boundary-1),/<form/);
   assert.equal(renderToStaticMarkup(createElement(NativeContentSite, { pkg: { ...pkg, site: { ...pkg.site, renderer: 'gift' } }, page, livePages: pages })), '');
 });
 test('new immutable release removes retired page and leaves originals and unrelated hosts intact', () => {
