@@ -464,100 +464,108 @@
       "type": "guide",
       "slug": "gidai/iso-moduliu-sistema",
       "title": "ISO modulių sistema: kaip suderinti laikymą ir transportavimą",
-      "description": "Kaip suderinti modulinius krepšius (ISO 60-40), kreipiančiąsias, spintas, vežimėlius ir stelažus ligoninės logistikos grandinėje.",
-      "intent": "Kaip sukurti vieningą ir suderinamą modulinę medicinos priemonių laikymo ir transportavimo sistemą?",
+      "description": "Klaro STANDARD ir MINI krepšių formatai, bėgelių variantai ir UNI-TRANS UT5201 komplektacija. Kaip derinti laikymo ir transportavimo įrangą.",
+      "intent": "Kaip suderinti konkrečių krepšių formatą, bėgelius, spintas ir transportavimo vežimėlį pagal dokumentuotą komplektaciją?",
       "body": [
         {
           "type": "paragraph",
-          "text": "Ligoninės logistikos efektyvumas priklauso nuo to, kaip sklandžiai medicinos priemonės keliauja nuo centrinio sandėlio iki procedūrinio kabineto ar paciento lovos. Standartizuota ISO modulių sistema (ISO 60-40) panaikina poreikį rankiniu būdu perrinkti tvarsčius, švirkštus ar kateterius: visas krepšys su priemonėmis tiesiog perkeliamas iš sandėliavimo spintos į transportavimo vežimėlį, o iš jo – į procedūrinį vežimėlį. Visą suderinamą asortimentą galite peržiūrėti Klaro produktų kataloge."
+          "text": "Planuojant medicininių priemonių laikymą ir pervežimą, Klaro ISO modulių sistema leidžia sujungti daugiafunkces spintas, stelažus, modulinius krepšius ir UNI-TRANS transportavimo vežimėlius. Galimybė tą patį krepšį naudoti tiek spintoje, tiek vežimėlyje priklauso nuo pasirinktų gaminių suderinamumo: krepšio formato, bėgelių ir konkretaus įrenginio komplektacijos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Tarptautinis ISO 60-40 formatas"
+          "text": "Krepšių formatai ir matmenys"
         },
         {
           "type": "paragraph",
-          "text": "Sistemos pagrindas – standartizuoti 600 × 400 mm išorinių matmenų moduliniai krepšiai ir padėklai iš smūgiams atsparaus ABS plastiko arba skaidraus polikarbonato. Jie gaminami trijų standartinių gylių: 50 mm (negilūs), 100 mm (vidutiniai) ir 200 mm (gilūs). Matmenų suderinamumo detales nagrinėja gidas ISO modulių matmenys: nominalus formatas ir realus įdėjimo tarpas."
+          "text": "„Klaro“ modulinių krepšių kataloge pateikti STANDARD ir MINI modeliai. Jie skiriasi pagrindo matmenimis ir aukščiu."
+        },
+        {
+          "type": "paragraph",
+          "text": "STANDARD grupės krepšių pagrindas yra 60 × 40 cm. Šio formato modelis 11419 yra 5 cm aukščio, 11420 — 10 cm, o 11421 — 20 cm aukščio. Mažesnės MINI grupės krepšiai yra 33 × 23 cm pagrindo: modelio 11416 aukštis siekia 5 cm, 11417 — 10 cm, 11418 — 20 cm. Ar konkretus baldas arba vežimėlis gali priimti tam tikro formato ir aukščio krepšius, tikrinama pagal paties įrenginio ir jo bėgelių duomenis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Minėtų STANDARD krepšių (11419, 11420 ir 11421) aprašuose patvirtinta, kad jie gaminami iš ABS plastiko, o 5 cm aukščio modeliui 11419 siūlomas atskirai užsakomas plastikinis turinio žymėjimo etiketės laikiklis."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Vientisa logistikos grandinė"
+          "text": "Krepšių bėgelių pavyzdžiai"
         },
         {
           "type": "paragraph",
-          "text": "Klaro ISO sistema apima visus logistikos etapus:"
+          "text": "Spintose ir stelažuose krepšiai laikomi ant bėgelių. Kaip konkrečius pavyzdžius gamintojo asortimente galima išskirti horizontalių 40 cm bėgelių porą (11428A) ir pakreiptų 40 cm bėgelių porą (11429A), skirtą STANDARD krepšiams."
         },
         {
-          "type": "list",
-          "items": [
-            "Stacionarus sandėliavimas: daugiafunkcės medicininės spintos ir stelažai su integruotomis šoninėmis kreipiančiosiomis.",
-            "Vidinis transportavimas tarp korpusų ar skyrių: pavyzdžiui, Universalus transportavimo vežimėlis UNI-TRANS – UT5201, kuriame krepšiai saugiai fiksuojami transportavimo metu.",
-            "Procedūrinis darbas skyriuje: procedūriniai ir slaugos vežimėliai, priimantys tuos pačius ISO krepšius tiesiai į stalčių ar korpuso rėmą."
-          ]
+          "type": "paragraph",
+          "text": "Šių modelių aprašuose gamintojas nurodo bėgelių tipą, 40 cm ilgį ir tai, kad jie komplektuojami poromis. Pritaikymas konkrečiam krepšiui ir baldui priklauso nuo pasirenkamos įrenginio komplektacijos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Tiesiosios ir pakreipiamosios kreipiančiosios"
+          "text": "Transportavimo vežimėlio UT5201 duomenys"
         },
         {
           "type": "paragraph",
-          "text": "Klaro kreipiančiosios turi specialius fiksatorius, neleidžiančius krepšiui netyčia iškristi jį pilnai ištraukus. Siūlomos ir pakreipiamosios kreipiančiosios (tilt runners), kurios leidžia ištrauktą viršutinį krepšį pakreipti kampu žemyn – tai užtikrina puikų smulkių priemonių matomumą net aukštose spintose."
+          "text": "Derinant spintose laikomus krepšius su pervežimo įranga, vertinami konkretaus vežimėlio parametrai. Pavyzdžiui, daugiafunkcio medicininio vežimėlio UNI-TRANS BASIC UT5201 išoriniai matmenys, nurodyti ir gamintojo specifikacijoje (UT5201), yra 74 cm plotis, 54 cm gylis ir 114 cm aukštis. Lyginant šiuos duomenis su kitais modeliais, papildomai praverčia ir medicininio vežimėlio pasirinkimo gidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame modelyje įrengti horizontalūs plastikiniai bėgeliai su 6 pozicijomis. Gamintojo apraše konkrečiam UT5201 vežimėliui nurodyta 10 kg krepšio apkrova bei galimybė MS krepšius suskirstyti pertvaromis. Taip pat svarbu atkreipti dėmesį į komplektaciją: STANDARD MS krepšiai į vežimėlio UT5201 komplektaciją neįeina."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Planavimas ir užsakymas"
+          "text": "Komplektacijos derinimas ir užklausa"
         },
         {
           "type": "paragraph",
-          "text": "Derinant vežimėlius prie modulių, naudinga perskaityti vadovą Kaip pasirinkti medicininį vežimėlį įstaigai. Parengti tikslią specifikaciją padeda patarimai, kaip parengti įrangos pirkimo užklausą. Taip pat kiti naudingi pasirinkimo gidai padės optimaliai suplanuoti visos įstaigos priemonių laikymo ūkį."
+          "text": "Daugiau medicininės įrangos ir baldų gydymo įstaigoms rasite PROMEDICAL kataloge. Norėdami suderinti konkrečią spintų, krepšių ir vežimėlių komplektaciją bei tiekimo sąlygas, susisiekite kontaktų puslapyje nurodytais duomenimis: el. paštu info@promedical.lt arba telefonu +370 686 88369."
         }
       ],
       "publishAt": "2026-10-13T07:00:00.000Z",
       "media": [
         {
-          "id": "fc33c70e-64c5-4380-b28e-c432a17c32b6",
-          "src": "/content-assets/promedical/fc33c70e-64c5-4380-b28e-c432a17c32b6.webp",
-          "alt": "Iliustracinė skirtingų krepšių, kreipiklio ir matavimo priemonių patikra",
+          "id": "b000c131-0838-4386-8a4a-0ff2b1f3230d",
+          "src": "/content-assets/promedical/b000c131-0838-4386-8a4a-0ff2b1f3230d.webp",
+          "alt": "Iliustracinė skirtingų krepšių, bėgelio ir matavimo priemonių patikra",
           "width": 1536,
           "height": 1024,
           "credit": "",
           "rights": "Originali šiam projektui sukurta iliustracija; vaizduojama bendro pobūdžio aplinka, ne konkretaus Klaro modelio fotografija."
         },
         {
-          "id": "3cb14944-9a4d-4dd4-8385-cf74ea9701cf",
-          "src": "/content-assets/promedical/3cb14944-9a4d-4dd4-8385-cf74ea9701cf.webp",
-          "alt": "Iliustracinė skirtingų krepšių, kreipiklio ir matavimo priemonių patikra",
+          "id": "e2045105-9135-4c62-87c7-a7f5e3dba216",
+          "src": "/content-assets/promedical/e2045105-9135-4c62-87c7-a7f5e3dba216.webp",
+          "alt": "Iliustracinė skirtingų krepšių, bėgelio ir matavimo priemonių patikra",
           "width": 1200,
           "height": 800,
           "credit": "",
           "rights": "Originali šiam projektui sukurta iliustracija; vaizduojama bendro pobūdžio aplinka, ne konkretaus Klaro modelio fotografija."
         },
         {
-          "id": "3502f5a0-0ea1-4478-b8e3-84117afc5752",
-          "src": "/content-assets/promedical/3502f5a0-0ea1-4478-b8e3-84117afc5752.webp",
-          "alt": "Iliustracinė skirtingų krepšių, kreipiklio ir matavimo priemonių patikra",
+          "id": "8196e8cf-39c5-4290-bdb2-6158e7afc59f",
+          "src": "/content-assets/promedical/8196e8cf-39c5-4290-bdb2-6158e7afc59f.webp",
+          "alt": "Iliustracinė skirtingų krepšių, bėgelio ir matavimo priemonių patikra",
           "width": 800,
           "height": 533,
           "credit": "",
           "rights": "Originali šiam projektui sukurta iliustracija; vaizduojama bendro pobūdžio aplinka, ne konkretaus Klaro modelio fotografija."
         },
         {
-          "id": "3a340e91-3b11-46f5-9505-187cc4d64d8f",
-          "src": "/content-assets/promedical/3a340e91-3b11-46f5-9505-187cc4d64d8f.webp",
-          "alt": "Iliustracinė skirtingų krepšių, kreipiklio ir matavimo priemonių patikra",
+          "id": "b4126b8f-c376-4f4c-9695-180bab89ef62",
+          "src": "/content-assets/promedical/b4126b8f-c376-4f4c-9695-180bab89ef62.webp",
+          "alt": "Iliustracinė skirtingų krepšių, bėgelio ir matavimo priemonių patikra",
           "width": 640,
           "height": 427,
           "credit": "",
           "rights": "Originali šiam projektui sukurta iliustracija; vaizduojama bendro pobūdžio aplinka, ne konkretaus Klaro modelio fotografija."
         },
         {
-          "id": "b432fff9-99e5-4e5c-8276-2dbe72b3735f",
-          "src": "/content-assets/promedical/b432fff9-99e5-4e5c-8276-2dbe72b3735f.webp",
-          "alt": "Iliustracinė skirtingų krepšių, kreipiklio ir matavimo priemonių patikra",
+          "id": "8d1cf8eb-340b-4e3a-a75c-9a8ac78b1075",
+          "src": "/content-assets/promedical/8d1cf8eb-340b-4e3a-a75c-9a8ac78b1075.webp",
+          "alt": "Iliustracinė skirtingų krepšių, bėgelio ir matavimo priemonių patikra",
           "width": 360,
           "height": 240,
           "credit": "",
@@ -593,68 +601,71 @@
       ],
       "links": [
         {
-          "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
-          "label": "Klaro produktų kataloge"
+          "targetPageId": "57cee606-562c-498f-8be0-2cca353f4d87",
+          "label": "UNI-TRANS BASIC UT5201"
         },
         {
           "targetPageId": "a4a35108-c881-401b-a598-d2d0c800b7d3",
-          "label": "Kaip pasirinkti medicininį vežimėlį įstaigai"
+          "label": "medicininio vežimėlio pasirinkimo gidas"
         },
         {
-          "targetPageId": "eb1e5df2-c357-436b-87af-642802724ce9",
-          "label": "įrangos pirkimo užklausą"
+          "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
+          "label": "PROMEDICAL kataloge"
         },
         {
-          "targetPageId": "be06fde7-be34-4faa-95c2-c99831ca4d99",
-          "label": "pasirinkimo gidai"
-        },
-        {
-          "targetPageId": "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-          "label": "ISO modulių sistema"
-        },
-        {
-          "targetPageId": "57cee606-562c-498f-8be0-2cca353f4d87",
-          "label": "Universalus transportavimo vežimėlis UNI-TRANS – UT5201"
-        },
-        {
-          "targetPageId": "27bb1b7d-18d2-44b0-b28f-f47f700bcd03",
-          "label": "ISO modulių matmenys: nominalus formatas ir realus įdėjimo tarpas"
+          "targetPageId": "040d087a-777f-45ec-bb10-3095d3e2cccf",
+          "label": "kontaktų puslapyje"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.klaro.cz/en/iso-modul-system",
-          "label": "Klaro: ISO modulių sistema",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "label": "Klaro ISO modulių sistema",
+          "reason": "Klaro ISO sistemos gaminių grupės."
         },
         {
           "url": "https://www.klaro.cz/en/iso-skrine-kose",
-          "label": "Klaro: moduliniai krepšiai ir kreipiančiosios",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "label": "modulinių krepšių kataloge",
+          "reason": "STANDARD ir MINI krepšių modeliai bei matmenys."
         },
         {
-          "url": "https://www.klaro.cz/en/iso-skrine-prehled",
-          "label": "Klaro: daugiafunkcės spintos",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "url": "https://www.klaro.cz/en/produkt/11419",
+          "label": "11419",
+          "reason": "STANDARD 11419 krepšio matmenys, ABS medžiaga ir etiketės laikiklio pasirinkimas."
         },
         {
-          "url": "https://www.klaro.cz/en/regalovy-system",
-          "label": "Klaro: stelažų sistema",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "url": "https://www.klaro.cz/en/produkt/11420",
+          "label": "11420",
+          "reason": "STANDARD 11420 krepšio matmenys ir ABS medžiaga."
         },
         {
-          "url": "https://www.klaro.cz/en/navody-pdf-2186",
-          "label": "Klaro: produktų instrukcijų paieška",
-          "reason": "Gamintojo instrukcijų rodyklė. Raskite dokumentą pagal tikslų gaminio kodą ir patikrinkite jo leidimą bei taikymo sritį."
+          "url": "https://www.klaro.cz/en/produkt/11421",
+          "label": "11421",
+          "reason": "STANDARD 11421 krepšio matmenys ir ABS medžiaga."
+        },
+        {
+          "url": "https://www.klaro.cz/en/produkt/11428A",
+          "label": "11428A",
+          "reason": "Horizontalių 40 cm bėgelių pora."
+        },
+        {
+          "url": "https://www.klaro.cz/en/produkt/11429A",
+          "label": "11429A",
+          "reason": "Pakreiptų 40 cm bėgelių pora STANDARD krepšiams."
+        },
+        {
+          "url": "https://www.klaro.cz/produkt/ut5201",
+          "label": "UT5201",
+          "reason": "UNI-TRANS BASIC UT5201 matmenys, bėgelių pozicijos, apkrova ir komplektacija."
         }
       ],
       "id": "eab8457c-da03-420f-a149-33ebbd30953e",
-      "revisionHash": "92d4b89971a44d9007dbc6ee0c5932f630904ef0524e931a3c29236acf54b37f",
+      "revisionHash": "5ef4e64cc467f9c0ca35622a5218d317791c188965605a801e36da52ebfa8239",
       "approval": {
         "status": "approved",
-        "actorId": "promedical-editorial",
-        "approvedAt": "2026-10-10T18:34:01.836Z",
-        "revisionHash": "92d4b89971a44d9007dbc6ee0c5932f630904ef0524e931a3c29236acf54b37f"
+        "revisionHash": "5ef4e64cc467f9c0ca35622a5218d317791c188965605a801e36da52ebfa8239",
+        "approvedAt": "2026-10-14T18:30:36.861Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -54937,7 +54948,7 @@
             "Savybės: Į kainos pasiūlymą įtrauktas brėžinys „CN 15/21“.",
             "Vežimėlio rėmas: nerūdijantysis plienas AISI304.",
             "Savybės: Didžiausia padėklo apkrova 20 kg",
-            "Savybės: Didžiausia kreipiamųjų poros apkrova 20 kg",
+            "Savybės: Didžiausia bėgelių poros apkrova 20 kg",
             "Savybės: Plastikiniai ratukai, skersmuo 75 mm; su stabdžiu – 2 vnt.",
             "Savybės: 4 vnt. kampinių plastikinių buferių."
           ]
@@ -55000,12 +55011,12 @@
         }
       ],
       "id": "4fa604c7-9856-4cad-8f52-d7acf46580f3",
-      "revisionHash": "422fb8b9910ad65e3b64e79fb8845a69ce146d61f68ce9d3fe9c75251da15b4b",
+      "revisionHash": "0c50d8aa4409a0d585692761fc7ad9ad3e3b7303ed81283362c97d96c4dc8af7",
       "approval": {
         "status": "approved",
-        "revisionHash": "422fb8b9910ad65e3b64e79fb8845a69ce146d61f68ce9d3fe9c75251da15b4b",
-        "approvedAt": "2026-10-13T17:21:19.833Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "0c50d8aa4409a0d585692761fc7ad9ad3e3b7303ed81283362c97d96c4dc8af7",
+        "approvedAt": "2026-10-14T18:30:36.866Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -56241,7 +56252,7 @@
             "Savybės: Į kainos pasiūlymą įtrauktas brėžinys „CN 17/21“.",
             "Vežimėlio rėmas: nerūdijantysis plienas AISI304.",
             "Savybės: Didžiausia padėklo apkrova 20 kg",
-            "Savybės: Didžiausia kreipiamųjų poros apkrova 20 kg",
+            "Savybės: Didžiausia bėgelių poros apkrova 20 kg",
             "Savybės: Plastikiniai ratukai, skersmuo 75 mm; su stabdžiu – 2 vnt.",
             "Savybės: 4 vnt. kampinių plastikinių buferių."
           ]
@@ -56304,12 +56315,12 @@
         }
       ],
       "id": "fcf6bc85-7e6d-45b8-a57f-fb5f0a9f4c37",
-      "revisionHash": "aae1aa93f77d44d96e4239bf76fa82f30200b8a385ce7bb80ed74513b28c190a",
+      "revisionHash": "da44c010c784fe64b5c00893de91cb66a0376e47a655a7bcb1b7b301d22f3b52",
       "approval": {
         "status": "approved",
-        "revisionHash": "aae1aa93f77d44d96e4239bf76fa82f30200b8a385ce7bb80ed74513b28c190a",
-        "approvedAt": "2026-10-13T17:21:19.839Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "da44c010c784fe64b5c00893de91cb66a0376e47a655a7bcb1b7b301d22f3b52",
+        "approvedAt": "2026-10-14T18:30:36.867Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -58570,12 +58581,12 @@
       "type": "product",
       "slug": "produktai/medicininis-vezimelis-cn-23-21-vb-23-21-vb",
       "title": "Medicininis vežimėlis CN 23/21 VB",
-      "description": "Medicininis vežimėlis CN 23/21 VB. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, B variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt.",
+      "description": "Medicininis vežimėlis CN 23/21 VB. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, B variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių bėgelių poros – 4 vnt.",
       "intent": "Katalogo kodas: 23-21-VB | Klaro produktas 1607",
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicininis vežimėlis CN 23/21 VB. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, B variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti."
+          "text": "Medicininis vežimėlis CN 23/21 VB. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, B variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių bėgelių poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti."
         },
         {
           "type": "heading",
@@ -58587,7 +58598,7 @@
           "items": [
             "Savybės: Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, B variantas.",
             "Savybės: Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003.",
-            "Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti.",
+            "Dėmesio: plastikinių bėgelių poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti.",
             "Savybės: Brėžinyje pavaizduoti MS moduliniai krepšiai yra tik iliustraciniai; jie neįtraukti į kainos pasiūlymą ir vežimėlio kainą, užsakomi atskirai.",
             "Savybės: Plastikiniai ratukai su minkštu protektoriumi, skersmuo – 100 mm; su stabdžiu – 2 vnt.",
             "Savybės: 4 vnt. kampinių plastikinių buferių."
@@ -58647,12 +58658,12 @@
         }
       ],
       "id": "b6fccacd-0db8-4184-8b1a-818c2670c434",
-      "revisionHash": "99f2dca17bd46fb305fda05816f44fa8eb14b2a0dc4d5c317b0d0d536e9e74d0",
+      "revisionHash": "3530ccaecd9f3d732b2aec00af4b4853f066938534b1c0a599ac94c8f29f0b32",
       "approval": {
         "status": "approved",
-        "revisionHash": "99f2dca17bd46fb305fda05816f44fa8eb14b2a0dc4d5c317b0d0d536e9e74d0",
-        "approvedAt": "2026-10-13T17:21:19.850Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "3530ccaecd9f3d732b2aec00af4b4853f066938534b1c0a599ac94c8f29f0b32",
+        "approvedAt": "2026-10-14T18:30:36.868Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -58660,12 +58671,12 @@
       "type": "product",
       "slug": "produktai/medicininis-vezimelis-cn-23-21-va-23-21-va",
       "title": "Medicininis vežimėlis CN 23/21 VA",
-      "description": "Medicininis vežimėlis CN 23/21 VA. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, A variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt.",
+      "description": "Medicininis vežimėlis CN 23/21 VA. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, A variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių bėgelių poros – 4 vnt.",
       "intent": "Katalogo kodas: 23-21-VA | Klaro produktas 1606",
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicininis vežimėlis CN 23/21 VA. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, A variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti."
+          "text": "Medicininis vežimėlis CN 23/21 VA. Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, A variantas. Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003. Dėmesio: plastikinių bėgelių poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti."
         },
         {
           "type": "heading",
@@ -58677,7 +58688,7 @@
           "items": [
             "Savybės: Į kainos pasiūlymą įtrauktas brėžinys „CN 23/21“, A variantas.",
             "Savybės: Vežimėlio karkasas – įprastas plienas su balta milteline dažų danga, RAL9003.",
-            "Dėmesio: plastikinių kreipiančiųjų poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti.",
+            "Dėmesio: plastikinių bėgelių poros – 4 vnt. – yra vežimėlio komplektacijos dalis, tačiau neįskaičiuotos į vežimėlio kainą; jų kainą būtina pridėti.",
             "Savybės: Brėžinyje pavaizduoti MS moduliniai krepšiai yra tik iliustraciniai; jie neįtraukti į kainos pasiūlymą ir vežimėlio kainą, užsakomi atskirai.",
             "Savybės: Plastikiniai ratukai su minkštu protektoriumi, skersmuo – 100 mm; su stabdžiu – 2 vnt.",
             "Savybės: 4 vnt. kampinių plastikinių buferių."
@@ -58755,12 +58766,12 @@
         }
       ],
       "id": "406f36b2-622f-4de7-8048-cf0124a60541",
-      "revisionHash": "987b04ff3ecbbc891d81b10f357d7b46ff901fd5d9c95ed2940d8da8205615d5",
+      "revisionHash": "18fd711293b22ed22fd6cdbe6cd0482c1d87936ee46ed7026e1e5e065fc8d033",
       "approval": {
         "status": "approved",
-        "revisionHash": "987b04ff3ecbbc891d81b10f357d7b46ff901fd5d9c95ed2940d8da8205615d5",
-        "approvedAt": "2026-10-13T17:21:19.851Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "18fd711293b22ed22fd6cdbe6cd0482c1d87936ee46ed7026e1e5e065fc8d033",
+        "approvedAt": "2026-10-14T18:30:36.869Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -60382,7 +60393,7 @@
             "Savybės: Aukšta viendurė spinta.",
             "Savybės: 3 vnt. L dydžio MS modulinių krepšių (600x400x200 mm) su perstatomomis vidinėmis pertvaromis",
             "Savybės: 5 vnt. M dydžio MS modulinių krepšių (600x400x100 mm) su perstatomomis vidinėmis pertvaromis",
-            "Savybės: MS moduliniai krepšiai įstatomi į plastikines šonines kreipiančiąsias, horizontaliai arba kampu.",
+            "Savybės: MS moduliniai krepšiai įstatomi į plastikinius šoninius bėgelius, horizontaliai arba kampu.",
             "Reguliuojamos padėties nerūdijančiojo plieno lentynos: 1 vnt.",
             "Savybės: Bendras aprašymas.",
             "Medžiaga: ne mažesnio kaip 1 mm storio plienas su milteline dažų danga.",
@@ -60414,31 +60425,31 @@
       "publishAt": "2026-10-09T15:11:10.793Z",
       "media": [
         {
-          "id": "d1a06748-b060-44c4-92f0-587ee5469850",
-          "src": "/content-assets/promedical/d1a06748-b060-44c4-92f0-587ee5469850.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "a9f05fe4-bb22-4d96-b0cc-c17cd1291d31",
+          "src": "/content-assets/promedical/a9f05fe4-bb22-4d96-b0cc-c17cd1291d31.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 708,
           "height": 720,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         },
         {
-          "id": "45efb1a7-ed0c-40c9-9082-78340e1dd761",
-          "src": "/content-assets/promedical/45efb1a7-ed0c-40c9-9082-78340e1dd761.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "f7a1fc04-4aed-4f41-acfa-1c611f9d549b",
+          "src": "/content-assets/promedical/f7a1fc04-4aed-4f41-acfa-1c611f9d549b.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 640,
           "height": 651,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         },
         {
-          "id": "56d41acd-1818-488c-8b5d-0fd80896d0ce",
-          "src": "/content-assets/promedical/56d41acd-1818-488c-8b5d-0fd80896d0ce.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "8f25a4a2-23db-4b97-b0d5-45ab87eb2c5c",
+          "src": "/content-assets/promedical/8f25a4a2-23db-4b97-b0d5-45ab87eb2c5c.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 360,
           "height": 366,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         }
       ],
       "links": [
@@ -60463,12 +60474,12 @@
         }
       ],
       "id": "2aca6e99-8949-4e37-a315-e70923462f35",
-      "revisionHash": "c894903290802c63d0b1a398998db5332113f45b901919bbc47389c12d6d6c51",
+      "revisionHash": "c57ddf98d4bfbd6219401fdc2db10ab971612c335ed58b314916cbe50010edec",
       "approval": {
         "status": "approved",
-        "revisionHash": "c894903290802c63d0b1a398998db5332113f45b901919bbc47389c12d6d6c51",
-        "approvedAt": "2026-10-13T17:21:19.859Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "c57ddf98d4bfbd6219401fdc2db10ab971612c335ed58b314916cbe50010edec",
+        "approvedAt": "2026-10-14T18:30:36.870Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -60493,8 +60504,8 @@
           "items": [
             "Savybės: Į kainos pasiūlymą įtrauktas brėžinys „CN 21/21“, B variantas.",
             "Medžiaga: nerūdijantysis plienas AISI304",
-            "Kreipiamųjų porų maisto padėklams laikyti skaičius: 22. Gaminant būtina pateikti maisto padėklo pavyzdį gamybai.",
-            "Savybės: Didžiausia vienos kreipiamųjų poros apkrova – 15 kg.",
+            "Bėgelių porų maisto padėklams laikyti skaičius: 22. Gaminant būtina pateikti maisto padėklo pavyzdį gamybai.",
+            "Savybės: Didžiausia vienos bėgelių poros apkrova – 15 kg.",
             "Savybės: Kiekvienoje padėklų kolonoje yra fiksatorius, apsaugantis maisto padėklus nuo savaiminio išslydimo.",
             "Savybės: Plastikiniai ratukai, skersmuo Ø125 mm; su stabdžiu – 2 vnt., su krypties fiksatoriumi – 2 vnt.",
             "Savybės: 4 vnt. kampinių plastikinių buferių."
@@ -60562,12 +60573,12 @@
         }
       ],
       "id": "5056c632-a710-4cbb-86db-33bb99f85374",
-      "revisionHash": "3410b674f544decb9b77b98207dde872c3e911ecc6c48a1a5d8f7960ef7a00ec",
+      "revisionHash": "44fcc39189ca965ece7969b28f749ad4131a6480cde5947bf67222989f2fdd08",
       "approval": {
         "status": "approved",
-        "revisionHash": "3410b674f544decb9b77b98207dde872c3e911ecc6c48a1a5d8f7960ef7a00ec",
-        "approvedAt": "2026-10-13T17:21:19.859Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "44fcc39189ca965ece7969b28f749ad4131a6480cde5947bf67222989f2fdd08",
+        "approvedAt": "2026-10-14T18:30:36.871Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -60591,11 +60602,11 @@
           "type": "list",
           "items": [
             "Savybės: Žema vienų durų spinta",
-            "Savybės: 1 vnt. stalčių su M dydžio MS moduliniu krepšiu, teleskopiniais bėgeliais su pritraukimu ir švelniu uždarymu, perstatomomis vidinėmis pertvaromis, be galimybės užrakinti",
+            "Savybės: 1 stalčius su M dydžio MS moduliniu krepšiu, teleskopiniais bėgeliais su pritraukimu ir švelniu uždarymu, perstatomomis vidinėmis pertvaromis, be galimybės užrakinti",
             "Savybės: Rakinamos vienvėrės durys, apsaugotos nuo dulkių",
             "Savybės: 2 vnt. M dydžio MS modulinių krepšių (600x400x100 mm) su vidinėmis pertvaromis",
-            "Savybės: MS moduliniai krepšiai įstatomi į plastikines šonines kreipiančiąsias, horizontaliai arba kampu.",
-            "Savybės: 1 vnt. nerūdijančiojo plieno AISI304 stalviršių, 600x500, su 40 mm galiniu borteliu",
+            "Savybės: MS moduliniai krepšiai įstatomi į plastikinius šoninius bėgelius, horizontaliai arba kampu.",
+            "Savybės: 1 nerūdijančiojo plieno AISI304 stalviršis, 600x500, su 40 mm galiniu borteliu",
             "Savybės: Bendras aprašymas.",
             "Medžiaga: ne mažesnio kaip 1 mm storio plienas su milteline dažų danga.",
             "Savybės: Korpusų, apdailos skydų ir metalinių stalčių spalva – pilka RAL7042, danga antimikrobinė; durų RAL spalva pasirenkama iš siūlomo spalvyno.",
@@ -60626,31 +60637,31 @@
       "publishAt": "2026-10-09T15:11:10.793Z",
       "media": [
         {
-          "id": "d1a06748-b060-44c4-92f0-587ee5469850",
-          "src": "/content-assets/promedical/d1a06748-b060-44c4-92f0-587ee5469850.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "a9f05fe4-bb22-4d96-b0cc-c17cd1291d31",
+          "src": "/content-assets/promedical/a9f05fe4-bb22-4d96-b0cc-c17cd1291d31.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 708,
           "height": 720,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         },
         {
-          "id": "45efb1a7-ed0c-40c9-9082-78340e1dd761",
-          "src": "/content-assets/promedical/45efb1a7-ed0c-40c9-9082-78340e1dd761.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "f7a1fc04-4aed-4f41-acfa-1c611f9d549b",
+          "src": "/content-assets/promedical/f7a1fc04-4aed-4f41-acfa-1c611f9d549b.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 640,
           "height": 651,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         },
         {
-          "id": "56d41acd-1818-488c-8b5d-0fd80896d0ce",
-          "src": "/content-assets/promedical/56d41acd-1818-488c-8b5d-0fd80896d0ce.webp",
-          "alt": "Klaro Antstatinė viendurė spintelė CN 29/21 VD",
+          "id": "8f25a4a2-23db-4b97-b0d5-45ab87eb2c5c",
+          "src": "/content-assets/promedical/8f25a4a2-23db-4b97-b0d5-45ab87eb2c5c.webp",
+          "alt": "Klaro CN 29/21 spintų sistemos brėžinys: VA, VB, VC, VD ir VE modeliai",
           "width": 360,
           "height": 366,
           "credit": "",
-          "rights": "Gamintojo Klaro produkto nuotrauka; naudojama savininko užsakytame atstovaujamo tiekėjo kataloge."
+          "rights": "Gamintojo Klaro CN 29/21 sistemos brėžinys; naudojamas savininko užsakytame atstovaujamo tiekėjo kataloge."
         }
       ],
       "links": [
@@ -60675,12 +60686,12 @@
         }
       ],
       "id": "a5188390-8aea-4d8a-9a15-332a69cfe934",
-      "revisionHash": "22fa9d1e11bbf23b7eb7e2a49d259c0cbaf7559bc6c6d7b1b73b659505634e69",
+      "revisionHash": "581a6fe8adbb88c46f0d135ddee51271c3c2ad1c630102af34216ce1f5e46e60",
       "approval": {
         "status": "approved",
-        "revisionHash": "22fa9d1e11bbf23b7eb7e2a49d259c0cbaf7559bc6c6d7b1b73b659505634e69",
-        "approvedAt": "2026-10-13T17:21:19.860Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "581a6fe8adbb88c46f0d135ddee51271c3c2ad1c630102af34216ce1f5e46e60",
+        "approvedAt": "2026-10-14T18:30:36.871Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -64215,7 +64226,7 @@
           "items": [
             "Savybės: Į pasiūlymą įtrauktas brėžinys „CN 47/21“.",
             "Savybės: Medžiaga – nerūdijantysis plienas AISI304.",
-            "Savybės: Didžiausia vienos skardai laikyti skirtos pozicijos kreipiamųjų apkrova – 8 kg",
+            "Savybės: Didžiausia vienos skardai laikyti skirtos pozicijos bėgelių apkrova – 8 kg",
             "Savybės: Nerūdijančiojo plieno ratukai, skersmuo 100 mm; pasukami – 2 vnt., pasukami su stabdžiu – 2 vnt.; žymių nepaliekantis protektorius, 85 ShD; nurodytas atsparumo temperatūrai intervalas – nuo -40°C iki 300°C",
             "Savybės: Be buferių"
           ]
@@ -64282,12 +64293,12 @@
         }
       ],
       "id": "e55327c1-f647-4fbc-b39a-1f9f16aac61c",
-      "revisionHash": "2e4dbea0a23f477f7a8d497f239b07781e4369fec8e4e4eea74629949bf91331",
+      "revisionHash": "b0f15aaaa94a13d2adfe55df57e2a5ff780db4b6621f246f23dbf8a91bee11bb",
       "approval": {
         "status": "approved",
-        "revisionHash": "2e4dbea0a23f477f7a8d497f239b07781e4369fec8e4e4eea74629949bf91331",
-        "approvedAt": "2026-10-13T17:21:19.874Z",
-        "actorId": "Codex /root URL migration review"
+        "revisionHash": "b0f15aaaa94a13d2adfe55df57e2a5ff780db4b6621f246f23dbf8a91bee11bb",
+        "approvedAt": "2026-10-14T18:30:36.872Z",
+        "actorId": "codex-promedical-rails-iso-review"
       }
     },
     {
@@ -199562,5 +199573,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-14T16:54:24.540Z"
+  "generatedAt": "2026-10-14T18:30:37.762Z"
 }
