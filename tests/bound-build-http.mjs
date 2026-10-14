@@ -1,6 +1,6 @@
 // Owned real Worker transport fixture; no semantic reviews, writes or activation.
 import assert from 'node:assert/strict';
-import {mkdir,writeFile,readFile,symlink,realpath} from 'node:fs/promises';
+import {mkdir,writeFile,readFile,symlink,realpath,copyFile} from 'node:fs/promises';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
@@ -12,10 +12,14 @@ const root=path.resolve(import.meta.dirname,'..'),[command,relative,base='http:/
 const target=path.resolve(root,relative||'');
 assert.ok(target.startsWith(path.join(root,'outputs')+path.sep));
 const marker=path.join(target,'outputs/header-fixture.json'),sha=b=>createHash('sha256').update(b).digest('hex');
-if(command==='prepare'){
+if(['prepare','prepare-untrusted'].includes(command)){
   const source=cleanBuildSource(root);assert.ok(source,'Commit the reviewed source before preparing an exact Git build');
   await mkdir(path.dirname(target),{recursive:true});
-  execFileSync('git',['worktree','add','--detach',target,source],{cwd:root,stdio:'inherit'});
+  if(command==='prepare')execFileSync('git',['worktree','add','--detach',target,source],{cwd:root,stdio:'inherit'});
+  else{
+    await mkdir(target);const files=execFileSync('git',['ls-files','-z'],{cwd:root,encoding:'utf8'}).split('\0').filter(Boolean);
+    for(const file of files){assert.ok(!path.isAbsolute(file)&&!file.split('/').includes('..'));const destination=path.join(target,file);await mkdir(path.dirname(destination),{recursive:true});await copyFile(path.join(root,file),destination);}
+  }
   assert.equal(await realpath(target),target);
   await symlink(path.join(root,'node_modules'),path.join(target,'node_modules'),process.platform==='win32'?'junction':'dir');
   assert.equal(sha(await readFile(path.join(target,'package-lock.json'))),sha(await readFile(path.join(root,'package-lock.json'))));
@@ -35,9 +39,10 @@ if(command==='prepare'){
       siteId:id,canonicalHost:pkg.canonicalHost,renderer:'niche',packageSha256,reviewer:'synthetic build protocol only',acceptedAt:new Date().toISOString()}));
     packages.push({siteId:id,canonicalHost:pkg.canonicalHost,packageSha256});
   }
-  await mkdir(path.dirname(marker),{recursive:true});await writeFile(marker,JSON.stringify({version:1,testOnly:true,source,packages}));
-  assert.equal(cleanBuildSource(target),source);
-  console.log(JSON.stringify({prepared:target,source,testOnly:true}));
+  const provenSource=command==='prepare'?source:null;
+  await mkdir(path.dirname(marker),{recursive:true});await writeFile(marker,JSON.stringify({version:1,testOnly:true,source:provenSource,exportedSource:source,packages}));
+  assert.equal(cleanBuildSource(target),provenSource);
+  console.log(JSON.stringify({prepared:target,source:provenSource,testOnly:true}));
 }else if(command==='check'){
   const state=JSON.parse(await readFile(marker));assert.equal(state.testOnly,true);
   const origin=new URL(base);assert.equal(origin.protocol,'http:');assert.ok(['127.0.0.1','localhost'].includes(origin.hostname));assert.ok(origin.port);
@@ -49,11 +54,11 @@ if(command==='prepare'){
   try{
     const preview=state.packages.find(p=>p.siteId==='headerpreview'),fixture=state.packages.find(p=>p.siteId==='headerfixture');
     for(const [route,status]of [['/',200],['/robots.txt',200],['/sitemap.xml',200],['/llms.txt',200],['/llms-full.txt',200],['/favicon.svg',200],['/content-assets/headerpreview/current-640.webp',200],['/content-assets/headerpreview/future.webp',404],['/content-package.json',404],['/release-manifest.json',404],['/niche/headerpreview',404],['/api/anything',404]]){
-      const row=await get(route);assert.equal(row.status,status,route);assert.equal(row.headers['x-niche-package-sha256'],preview.packageSha256,route);assert.equal(row.headers['x-niche-source-revision'],state.source,route);
+      const row=await get(route);assert.equal(row.status,status,route);assert.equal(row.headers['x-niche-package-sha256'],state.source?preview.packageSha256:undefined,route);assert.equal(row.headers['x-niche-source-revision'],state.source||undefined,route);
     }
     for(const host of [preview.canonicalHost,'foreign.example','preview.vercel.app']){const row=await get('/',host);assert.equal(row.status,404,host);assert.equal(row.headers['x-niche-package-sha256'],undefined);assert.equal(row.headers['x-niche-source-revision'],undefined);}
-    const row=await get('/',fixture.canonicalHost);assert.equal(row.status,200);assert.equal(row.headers['x-niche-package-sha256'],fixture.packageSha256);assert.equal(row.headers['x-niche-source-revision'],state.source);assert.match(row.headers['x-robots-tag'],/noindex/);
+    const row=await get('/',fixture.canonicalHost);assert.equal(row.status,200);assert.equal(row.headers['x-niche-package-sha256'],state.source?fixture.packageSha256:undefined);assert.equal(row.headers['x-niche-source-revision'],state.source||undefined);assert.match(row.headers['x-robots-tag'],/noindex/);
     await writeFile(path.join(target,'outputs/header-http-'+Date.now()+'.json'),JSON.stringify({result:'PASS',testOnly:true,source:state.source,results},null,2));
     console.log(JSON.stringify({result:'PASS',testOnly:true,requests:results.length,source:state.source}));
   }catch(error){await writeFile(path.join(target,'outputs/header-http-FAIL-'+Date.now()+'.json'),JSON.stringify({result:'FAIL',testOnly:true,source:state.source,results,error:String(error)}));throw error;}
-}else throw Error('Use prepare/check with a new owned outputs path');
+}else throw Error('Use prepare/prepare-untrusted/check with a new owned outputs path');
