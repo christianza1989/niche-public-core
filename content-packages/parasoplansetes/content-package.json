@@ -541,54 +541,104 @@
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "gidai/kaip-pasirinkti-paraso-plansete",
-      "title": "Kaip išsirinkti parašo planšetę: nuo dokumento iki darbo vietos",
-      "description": "Sužinokite, kaip pasirinkti tinkamą parašo planšetę ir programinę įrangą pagal dokumentų tipą, darbo vietą bei techninę infrastruktūrą.",
+      "title": "Kaip pasirinkti parašo planšetę verslui",
+      "description": "Kaip išsirinkti StepOver parašo planšetę pagal dokumentą, USB ar tinklo prijungimą, naudojamas programas ir pasirašyto PDF išsaugojimą.",
       "intent": "Surinkti tinkamus reikalavimus parašo planšetės ir programinės įrangos komplekto užklausai.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Tinkamos parašo planšetės paiešką verta pradėti ne nuo techninių parametrų lentelės, o nuo jūsų įmonėje dažniausiai pasirašomo dokumento. Sutarčių apimtis, lentelių sudėtingumas ir esamas dokumentų ruošimo būdas nulemia, kokių savybių iš tiesų reikės įrangai. Teisingai parinktas komplektas užtikrina, kad pasirašymo procesas būtų patogus klientui ir sklandžiai įsilietų į darbuotojų kasdienybę."
+          "text": "Parašo planšetės atranką pradėkite nuo vieno tikro savo įmonės dokumento ir patikrinkite visą jo kelią: kaip darbuotojo programa perduoda paruoštą sutartį ar aktą į ekraną, ar klientui patogu jį perskaityti ir kur išsaugomas pasirašytas PDF failas. Kiekviename šios eigos žingsnyje išryškėja sprendimui svarbios detalės — nuo to, kur klientas pasirašo, iki to, kaip įrenginys jungiamas prie darbo vietos ir jūsų dokumentų sistemos. Peržiūrėję šiuos etapus iš eilės, lengviau įvertinsite, kokio modelio ir programinio sprendimo reikia jūsų kasdieniam darbui."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kur pasirašantysis skaitys dokumento tekstą?"
+          "text": "Pasirašymas vietoje ir nuotoliu"
         },
         {
           "type": "paragraph",
-          "text": "Pirmiausia įvertinkite, ar klientui pakanka matyti dokumentą jūsų kompiuterio ekrane, ar jis privalo visą tekstą perskaityti pačioje planšetėje. Jei klientas tekstą peržiūri monitoriuje, pakanka kompaktiškos planšetės, skirtos tik parašo laukui įvesti. Tačiau jei norite, kad žmogus visą sutartį patogiai perskaitytų pačiame įrenginyje, verta rinktis didesnį, 10 colių ekraną turintį modelį. Renkantis svarbu patikrinti ne tik ekrano įstrižainę, bet ir tai, kaip patogiai valdomas teksto slinkimas bei puslapių vertimas."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip dokumentas paruošiamas ir perduodamas pasirašymui?"
+          "text": "StepOver siūlo sprendimus dokumentams pasirašyti tiek aptarnavimo vietoje, tiek nuotoliniu būdu. Kai klientas atvyksta į jūsų patalpas, galima naudoti parašo planšetę: darbuotojas perduoda dokumentą į įrenginį, o klientas pasirašo jo ekrane."
         },
         {
           "type": "paragraph",
-          "text": "Parašo planšetė neveikia viena – jai reikalinga programinė įranga, kuri atveria PDF dokumentą, valdo pasirašymo procesą ir įrašo biometrinius duomenis į failą. Įvertinkite, kur rengiate dokumentus: „Microsoft Office“ programomis, buhalterinės apskaitos sistema ar specializuota klientų valdymo platforma. Priklausomai nuo to, ar jūsų sistema geba eksportuoti PDF failus, galima naudoti atskirą pasirašymo programą, virtualų spausdintuvą „Print2NG“ arba integruoti įrenginį tiesiogiai per gamintojo API. Išsamiau šiuos skirtumus pristatome mūsų programinės įrangos apžvalgoje."
+          "text": "Jei klientas turi pasirašyti iš namų ar kitos vietos, dokumentą jam reikia pateikti internetu. Tam galima naudoti webSignatureOffice: klientui išsiunčiama nuoroda, kurią atidaręs jis gali peržiūrėti ir pasirašyti dokumentą savo naršyklėje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Darbo aplinkos ir techninės infrastruktūros reikalavimai"
+          "text": "Ką klientas skaito ekrane"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aptarnavimo vietoje klientas prieš pasirašydamas dažniausiai peržiūri sutarties sąlygas, sąmatą ar perdavimo aktą. Daugelyje klasikinių StepOver modelių dokumentą galima rodyti ekrane, tačiau skirtingi modeliai jį atvaizduoja nevienodai (StepOver sprendimų apžvalga)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ekrano dydį rinkitės pagal savo realaus dokumento skaitomumą ir vietą ant darbuotojo stalo — nėra vienos visiems tinkančios įstrižainės ar dokumentų skaičiaus per dieną ribos. Kai klientui reikia peržiūrėti daugiau teksto, vienas iš atrankos kandidatų gali būti 10 colių įstrižainės duraSign Pad NG 10, tačiau didesnė įstrižainė savaime negarantuoja, kad bet koks puslapis ar smulkus tekstas bus patogiai įskaitomas. Prieš užsakant įrangą, verta atlikti bandomąjį pasirašymą su savo dokumentu: patikrinti, kaip skaitomas tekstas, ar parašas atsiduria tiksliai jam skirtoje vietoje ir ar teisingai suformuojamas, perduodamas bei išsaugomas galutinis failas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klasikinės ir NG serijos planšetės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klasikinės ir NG (Next Generation) serijos planšetės skiriasi tuo, kur vyksta dokumento apdorojimas ir kokių programinių sprendimų reikia darbo vietoje:"
         },
         {
           "type": "list",
           "items": [
-            "Klientų aptarnavimo vieta biure: įvertinkite, kiek laisvos vietos yra ant stalo, kurioje pusėje patogiausia padėti įrenginį ir kaip saugiai nutiesti USB kabelį.",
-            "Kelių darbo vietų tinklas: suskaičiuokite ne tik reikiamą įrenginių kiekį, bet ir darbo vietoms reikalingas programinės įrangos licencijas.",
-            "Darbas išvykose ir pas klientus: pasirūpinkite įrenginio apsauga transportuojant ir apgalvokite, kaip pasirašyti failai bus perduodami atgal į centrinę sistemą.",
-            "Nuotoliniai darbalaukiai ir terminaliniai serveriai: jei dirbate per RDP ar „Citrix“ aplinką, būtina iš anksto patikrinti, ar serverio sesija sklandžiai pasiekia prie vietinio kompiuterio prijungtą USB įrenginį."
+            "Klasikinės StepOver planšetės jungiamos per USB ir reikalauja papildomo programinio sprendimo kompiuteryje (StepOver sprendimų apžvalga). Daugelyje šios serijos modelių galima rodyti dokumentą, kol klientas deda parašą rašikliu, tačiau pačiam pasirašymo procesui valdyti būtina kompiuteryje veikianti programa arba integracijos komponentas.",
+            "NG serijos planšetė duraSign Pad NG 10 dokumento atvaizdavimą, parašo įrašymą, šifravimą ir pasirašyto dokumento sukūrimą atlieka pačiame įrenginyje. Dokumentus į šią planšetę darbuotojas gali perduoti tiesiog per naršyklę."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Išbandykite sprendimą su tikru įmonės šablonu"
+          "text": "USB laidas ar vietinis tinklas"
         },
         {
           "type": "paragraph",
-          "text": "Prieš priimant galutinį sprendimą, atrinktus StepOver parašo planšečių modelius rekomenduojama išbandyti su realiu, nuasmenintu jūsų įmonės dokumentu. Paprašykite kolegų atlikti kliento vaidmenį: ar tekstas aiškiai įskaitomas, ar patogu pasirašyti rašikliu, ar nekyla klausimų dėl sutikimo žymėjimo. Tuo pat metu darbuotojas turėtų įsitikinti, ar pasirašytas PDF dokumentas tvarkingai išsisaugo reikalaujamoje vietoje. Jei norite pasitarti dėl įrangos suderinamumo su jūsų infrastruktūra, susisiekite su mumis."
+          "text": "Klasikinės planšetės per USB jungiamos prie konkretaus kompiuterio. Tuo tarpu duraSign Pad NG 10 gali veikti tiek per USB, tiek vietiniame tinkle. Prijungus NG 10 per USB, įrenginys valdomas to kompiuterio naršykle. Jei planšetę norite prijungti prie vietinio tinklo, reikės papildomo Ethernet Connection Kit rinkinio — tuomet keli naudotojai galės pasiekti įrenginį tinkle ir naudoti jį paeiliui. Tai nereiškia, kad įrenginys turi belaidį ryšį arba kad keli žmonės gali pasirašyti tame pačiame įrenginyje vienu metu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įsivaizduokite iliustracinę situaciją registratūroje, kurioje prie gretimų stalų dirba du administratoriai, o klientai pasirašo paslaugų sutartis. Jei pasirenkama klasikinė USB planšetė, ji laidu prijungiama prie pirmojo darbuotojo kompiuterio. Kai pasirašyti prireikia antrojo darbuotojo klientui, tenka arba persiųsti failą kolegai, arba perjungti laidą ir abiejuose kompiuteriuose turėti reikiamą programinį sprendimą. Pasirinkus NG 10 su Ethernet Connection Kit, planšetė pastatoma tarp darbo vietų ir įjungiama į vietinį tinklą. Pirmasis administratorius per savo naršyklę perduoda sutartį, klientas pasirašo, o darbuotojas išsisaugo sukurtą PDF. Kai įrenginys atsilaisvina, jį iš savo kompiuterio naršyklės pasiekia antrasis administratorius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Programos ir sąsaja su jūsų dokumentų sistema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net kai NG serijos įrenginys pasirašytą failą sukuria pats, dokumentą vis tiek reikia perduoti į planšetę, o pasirašytą rezultatą — grąžinti ir išsaugoti įmonės dokumentų sistemoje ar archyve. Priklausomai nuo jūsų darbo eigos, naudojami trys sprendimai:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Darbas su PDF pasirašymo programa kompiuteryje. eSignatureOffice yra PDF pasirašymo programinis sprendimas, skirtas Windows aplinkai. Tai vienas iš programinių variantų, kurį galima pasirinkti klasikinėms planšetėms valdyti. Nors NG serijos įrenginys gali veikti savarankiškai, jį taip pat galima naudoti kartu su programine įranga, kai to reikia jūsų procesui.",
+            "Klasikinių planšečių jungimas prie internetinių programų. Jei darbuotojai dirba per naršyklę pasiekiamoje sistemoje ir naudoja klasikines USB planšetes, kliento kompiuteryje diegiamas Pad Connector. Jo Standard versija įrašo parašo duomenis, o Pro papildomai įterpia parašą į PDF ir jį skaitmeniškai pasirašo. Pad Connector nėra skirtas NG serijos įrenginiams.",
+            "NG serijos įrenginių jungimas prie įmonės sistemos. NG serijos planšetėms integruoti skirta NextGen API, turinti .NET ir REST sąsajas. Ji leidžia rasti įrenginį tinkle, perduoti dokumentus, valdyti pasirašymą ir gauti pasirašytus failus. Vis dėlto pats sąsajos buvimas dar nereiškia, kad įrenginys jau yra sujungtas su jūsų įmonės sistema — prieš perkant reikia patikrinti, kokias integracijos galimybes palaiko jūsų naudojama programa."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasiruošti prieš užklausą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kad įrangos atranka būtų tiksli, trumpai aprašykite savo darbo procesą ir nusiųskite jį el. paštu sales@parasoplansetes.lt. Laiške nurodykite:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasirašymo būdą: ar klientai pasirašo tik atvykę į vietą, ar reikalingas ir nuotolinis pasirašymas nuoroda.",
+            "Dokumento pavyzdį: kokį failą klientas skaito prieš pasirašydamas ir kiek vietos įrenginiui galite skirti ant stalo (tai padės įvertinti, kokiuose modeliuose ir kaip šį dokumentą išbandyti).",
+            "Darbo vietų skaičių ir prijungimą: ar planšetė per USB bus prijungta prie vieno kompiuterio, ar ja per vietinį tinklą paeiliui naudosis keli darbuotojai.",
+            "Kompiuterių aplinką: kokia operacinė sistema naudojama darbo vietose ir ar darbuotojai dirba su kompiuteryje įdiegta programa, ar per interneto naršyklę.",
+            "Failo išsaugojimą: ar pasirašytą PDF darbuotojas išsaugo rankiniu būdu, ar dokumentas turi tiesiogiai grįžti į jūsų dokumentų valdymo sistemą. Pastaruoju atveju pažymėkite, ar jūsų sistema jau turi paruoštą sąsają, ar planuojate ją derinti per Pad Connector (klasikinėms planšetėms) arba NextGen API (NG serijai)."
+          ]
         }
       ],
       "publishAt": "2026-10-08T15:47:01.529Z",
@@ -641,42 +691,57 @@
       ],
       "links": [
         {
-          "targetPageId": "9b93ad4b-8566-4c67-a7d1-b31f74966210",
-          "label": "StepOver parašo planšečių modelius"
+          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+          "label": "pasirašytą PDF"
         },
         {
-          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "programinės įrangos apžvalgoje"
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "integracijos galimybes"
         },
         {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "susisiekite su mumis"
+          "targetPageId": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
+          "label": "PDF pasirašymo programa kompiuteryje"
         }
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/en/overview-of-signature-solutions/",
+          "label": "siūlo sprendimus dokumentams pasirašyti tiek aptarnavimo vietoje, tiek nuotoliniu būdu",
+          "reason": "Gamintojo apžvalga: klasikinės USB ir NG planšetės, papildoma programinė įranga bei pasirašymas internetu."
+        },
+        {
+          "url": "https://stepover.com/en/overview-of-signature-solutions/",
+          "label": "StepOver sprendimų apžvalga",
+          "reason": "Gamintojo apžvalga: klasikinės USB ir NG planšetės, papildoma programinė įranga bei pasirašymas internetu."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "duraSign Pad NG 10",
+          "reason": "NG 10 dokumento apdorojimas, naršyklės valdymas, USB ir LAN su papildomu Ethernet Connection Kit, naudotojai paeiliui."
+        },
+        {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
           "label": "eSignatureOffice",
-          "reason": "PDF pasirašymas kompiuteryje ir programos funkcijos."
+          "reason": "eSignatureOffice Windows PDF/A, parašo laukai, makrokomandos ir integracijos galimybės."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5",
-          "reason": "Alternatyvus veikimo principas, kai dokumentą apdoroja pati NG planšetė."
+          "url": "https://stepover.com/en/products/developer/pad-connector/",
+          "label": "Pad Connector",
+          "reason": "Klasikinių USB planšečių WebSocket ryšys; Standard duomenų surinkimas ir Pro PDF pasirašymas. NG nepalaikoma."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/",
-          "label": "StepOver modelių apžvalga",
-          "reason": "Gamintojo modelių paskirtys ir nuorodos į jų techninius duomenis."
+          "url": "https://stepover.com/en/products/developer/nextgen-api/",
+          "label": "NextGen API",
+          "reason": "NG .NET ir REST integracijos sąsajos dokumentui perduoti, pasirašymui valdyti ir rezultatui gauti."
         }
       ],
       "id": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
-      "revisionHash": "4cf45270254c86b17396b0b1ac56d7e8231da6049841c420aeff1d12d63e57dc",
+      "revisionHash": "580d0bc6fa8761b421b471e9b0c97d49d587e47ddab991f0304167a8b0dc4e7f",
       "approval": {
         "status": "approved",
-        "revisionHash": "4cf45270254c86b17396b0b1ac56d7e8231da6049841c420aeff1d12d63e57dc",
-        "approvedAt": "2026-10-13T14:38:21.214Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "580d0bc6fa8761b421b471e9b0c97d49d587e47ddab991f0304167a8b0dc4e7f",
+        "approvedAt": "2026-10-14T10:34:53.962Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
@@ -1928,43 +1993,137 @@
       "type": "guide",
       "slug": "gidai/pdf-pasirasymas-plansete",
       "title": "Kaip pasirašyti PDF dokumentą parašo planšete",
-      "description": "Praktinis gidas, kaip sklandžiai organizuoti PDF sutarčių pasirašymą: nuo failo paruošimo iki biometrinio parašo įrašymo ir kopijos perdavimo.",
+      "description": "Kaip paruošti dokumentą, pasirašyti PDF su klasikine ar NG parašo planšete, patikrinti rezultatą ir išsaugoti jį įmonės archyve.",
       "intent": "Parengti ir patikrinti dokumento pasirašymo eigą, ne tik užfiksuoti parašo vaizdą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Parašo planšetė leidžia pasirašyti PDF sutartis, perdavimo aktus ir sutikimus jų nespausdinant. Prieš pradedant svarbu parinkti programą, numatyti dokumento peržiūrą ir nuspręsti, kur bus saugomas pasirašytas failas."
+          "text": "Kad klientas pasirašytų jūsų įmonės paruoštą PDF dokumentą, darbuotojas atidaro failą pasirinktu būdu, klientas pasirašo parašo planšetės ekrane, o gautas pasirašytas PDF išsaugomas įmonės kompiuteryje ar tinkle. Tai, kaip tiksliai perduodate failą į planšetę ir kur sukuriamas galutinis dokumentas, priklauso nuo pasirinktos įrangos — klasikinės USB planšetės su kompiuterio programa arba savarankiško „NG“ serijos įrenginio (StepOver sprendimų apžvalga)."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "1. Dokumento paruošimas ir parašo vietos nustatymas"
+          "text": "Dokumento paruošimas prieš kviečiant klientą"
         },
         {
           "type": "paragraph",
-          "text": "Prieš pradedant pasirašymą, dokumentas turi būti sugeneruotas galutiniu PDF formatu. Pasirašymo programoje nurodoma tiksli vieta, kurioje turi atsirasti parašas, data bei pasirašančio asmens rekvizitai. Tai galima atlikti rankiniu būdu arba automatizuoti pagal iš anksto paruoštus šablonus."
+          "text": "Parašo planšetė pati neparašo jūsų įmonės sutarties, akto ar anketos turinio. Darbuotojas pirmiausia paruošia tekstą įprastoje įmonės programoje, užpildo kliento duomenis ir suformuoja dokumentą pasirašymui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbui dažnai naudojamas PDF/A formatas — ilgalaikiam saugojimui pritaikyta PDF atmaina. Jei jūsų vidaus tvarka reikalauja saugoti būtent PDF/A failus, pasirūpinkite, kad tokį formatą įkeltumėte jau proceso pradžioje: pavyzdžiui, „eSignatureOffice“ apraše gamintojas nurodo PDF/A išvestį tuo atveju, kai į programą įkeliamas PDF/A dokumentas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dirbate su „eSignatureOffice“, pasirašymo vietas ir veiksmus galite automatizuoti iš anksto parengta šios programos parašų šablono konfigūracija bei konfigūruojamomis makrokomandomis. Kai dokumente jau yra įterpti parašo laukai arba nustatyti paieškos žodžiai, darbuotojui nereikia kaskart rankiniu būdu žymėti, kurioje puslapio vietoje klientas turi pasirašyti."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "2. Kliento supažindinimas ir parašo fiksavimas"
+          "text": "Dokumento perdavimas ir pasirašymas"
         },
         {
           "type": "paragraph",
-          "text": "Priklausomai nuo naudojamos planšetės modelio, klientas skaito dokumentą kompiuterio monitoriuje arba tiesiogiai dideliame 10 colių planšetės ekrane. Specialiu rašikliu pasirašant ant jutiklinio paviršiaus, įrenginys užfiksuoja ne tik vizualų parašo vaizdą, bet ir biometrinius parametrus: rašymo greitį, pagreitį, koordinates ir spaudimo kreivę."
+          "text": "Paruoštą dokumentą darbuotojas pateikia klientui pasirašyti. Klasikiniai USB modeliai ir „NG“ serijos planšetės šį veiksmą atlieka skirtingai."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Klasikinė USB planšetė ir „eSignatureOffice“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klasikinei USB parašo planšetei būtina kompiuteryje veikianti pasirašymo programa, kuri atidaro dokumentą ir po pasirašymo suformuoja galutinį PDF failą. Vienas iš tokių „StepOver“ siūlomų sprendimų „Windows“ kompiuteriams yra eSignatureOffice programa (klasikiniams modeliams gali būti naudojami ir kiti programiniai variantai)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dirbant su „eSignatureOffice“, darbuotojas ir klientas atlieka šiuos veiksmus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Atidarymas ir laukų pildymas: darbuotojas „Windows“ kompiuteryje atidaro PDF/A dokumentą, jį peržiūri ir, jei dokumente yra formos laukai, juos užpildo bei išsaugo.",
+            "Parašo vietų parinkimas: pagal iš anksto parengtą šablono konfigūraciją programa nukreipia į dokumente jau esančius parašo laukus arba suranda pasirašymo vietas pagal paieškos žodžius.",
+            "Pasirašymas: programa skiria privalomus ir neprivalomus parašus, todėl darbuotojas mato, kuriuos laukus klientas privalo pasirašyti, o kuriuos gali praleisti (pavyzdžiui, papildomą sutikimą). Klientui pasirašius planšetėje, programa išsaugo pasirašytą PDF/A failą kompiuteryje."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "„NG“ serijos planšetė"
+        },
+        {
+          "type": "paragraph",
+          "text": "„NG“ serijos planšetė dokumentą apdoroja pačiame įrenginyje: planšetė savo ekrane atvaizduoja dokumentą, fiksuoja žmogaus parašą, jį užšifruoja ir sukuria pasirašytą PDF failą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojant duraSign Pad NG 10 modelį, dokumentą pasirašymui galima pateikti dviem būdais:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Per naršyklę: kai „NG 10“ prijungta per USB, ją valdo to kompiuterio interneto naršyklė (o naudojant papildomą „Ethernet Connection Kit“ priedą vietiniame LAN tinkle, tuo pačiu įrenginiu keli darbuotojai gali naudotis paeiliui). Darbuotojas naršyklės lange įkelia PDF/A failą, klientas pasirašo planšetėje, ir įrenginys grąžina pasirašytą dokumentą.",
+            "Per „Print2NG“ iš spausdinančios programos: „NG“ serijos planšetėms (šis įrankis neskirtas klasikiniams modeliams) galima naudoti Print2NG programą. Darbuotojas savo darbo programoje pasirenka spausdinimą, „Print2NG“ perduoda dokumentą į „NG“ planšetę, o pasirašytą failą leidžia atsisiųsti arba išsaugoti iš anksto nustatytame aplanke."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "3. Kriptografinis parašo apsaugojimas ir saugojimas"
+          "text": "Kaip nepamesti pasirašyto failo"
         },
         {
           "type": "paragraph",
-          "text": "Pasirašymo sprendimas užšifruoja surinktus parašo duomenis ir susieja juos su PDF dokumentu. Parašo patikra padeda nustatyti, ar pasirašytas turinys vėliau buvo pakeistas. Laiko žymos naudojimas ir jos rūšis priklauso nuo pasirinktos programos bei paslaugos: ji nėra savaime suteikiama kiekvienam planšete atliktam parašui. Daugiau apie naudojamus įrankius sužinosite apžvalgoje apie programinę įrangą."
+          "text": "Pati parašo planšetė nesukuria jūsų įmonės archyvo tvarkos ir automatiškai neįkelia failo į vidaus dokumentų sistemą. Jei iš anksto nesusitariate, kur darbuotojas deda grąžintą PDF, failai lieka atskiruose kompiuteriuose ir prireikus jų nepavyksta greitai rasti."
         },
         {
           "type": "paragraph",
-          "text": "Jeigu norite, kad šis procesas vyktų automatiškai tiesiai iš jūsų verslo valdymo sistemos, verta apsvarstyti prijungimą prie esamos sistemos. Norėdami aptarti jūsų procesą, galite tiesiogiai pasitarti dėl PDF pasirašymo su mūsų komanda."
+          "text": "Štai iliustracinis pavyzdys, kaip tai nutinka kasdieniame darbe. Priimamojo darbuotoja per naršyklę įkelia kliento sutartį į „NG 10“ planšetę, klientas pasirašo, o įrenginys grąžina pasirašytą PDF. Naršyklė failą įrašo į darbuotojos kompiuterio „Downloads“ (Atsisiuntimų) aplanką bendru pavadinimu sutartis.pdf. Vėliau ateina kitas klientas, ir naujas failas išsaugomas tame pačiame asmeniniame aplanke. Kai po kelių savaičių kolegai prireikia pirmojo kliento sutarties, bendrame įmonės archyve jos nėra, o darbuotojos kompiuteryje sunku atskirti, kuris failas kuriam klientui priklauso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kad kiekvienas pasirašytas dokumentas atsidurtų savo vietoje:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jei su „NG“ planšete naudojate „Print2NG“, iš anksto nustatykite konkretų aplanką, į kurį programa išsaugos pasirašytus failus.",
+            "Jei failą atsisiunčiate per naršyklę arba išsaugote „eSignatureOffice“ programoje, nustatykite aiškią taisyklę, į kurį bendrą įmonės aplanką darbuotojas jį išsaugo ir kaip pervadina (pavyzdžiui, įrašydamas kliento ar sutarties numerį)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip patikrinti gautą PDF"
+        },
+        {
+          "type": "paragraph",
+          "text": "Atidarę išsaugotą dokumentą, puslapyje matysite parašo vaizdą, tačiau vien parašo piešinys PDF faile nieko nepasako apie skaitmeninio parašo techninę būklę. Patikrinti PDF skaitmeninius parašus — ar parašo duomenys įrašyti tvarkingai ir ar dokumentas po pasirašymo nebuvo pakeistas — galite standartinėmis programomis, pavyzdžiui, „Adobe Acrobat Reader“."
+        },
+        {
+          "type": "paragraph",
+          "text": "Atkreipkite dėmesį, kad nei matomas parašo vaizdas, nei techninė patikra „Reader“ programoje nėra išvada apie kvalifikuotą elektroninį parašą ir savaime neįrodo viso jūsų įmonės proceso teisinio tinkamumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rekomenduojama patikra prieš pradedant darbą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pradėdami pasirašinėti dokumentus su klientais, rekomenduojame išbandyti visą kelią su vienu galutiniu nuasmenintu jūsų įmonės dokumentu:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pateikite ir pasirašykite bandymo dokumentą: įkelkite nuasmenintą šabloną pasirinktu būdu ir pasirašykite visose numatytose vietose.",
+            "Patikrinkite vaizdą ir parašo būseną per „Adobe Acrobat Reader“: įsitikinkite, kad failas atsidaro, puslapiai įskaitomi, o parašai yra reikiamose vietose. Tada „Reader“ parašų skydelyje patikrinkite skaitmeninio parašo būseną bei dokumento vientisumą po pasirašymo, o jei programa rodo klaidas ar įspėjimus — išsiaiškinkite jų priežastį prieš priimdami tokį rezultatą darbui.",
+            "Suraskite failą archyve: patikrinkite, ar kitas darbuotojas pagal jūsų sutartą pavadinimą iš karto randa šį dokumentą numatytame įmonės aplanke."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite pasitarti, kuris dokumento perdavimo ir pasirašymo būdas geriausiai tinka jūsų darbo vietai, parašykite mums adresu sales@parasoplansetes.lt ir trumpai nurodykite, kokioje programoje ruošiate dokumentus bei kiek parašų renkate viename PDF faile."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.124Z",
@@ -2017,82 +2176,171 @@
       ],
       "links": [
         {
-          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "programinę įrangą"
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "klasikinės USB planšetės"
         },
         {
           "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
-          "label": "prijungimą prie esamos sistemos"
+          "label": "vidaus dokumentų sistemą"
         },
         {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "pasitarti dėl PDF pasirašymo"
+          "targetPageId": "50251039-f206-4fc9-95dc-7b80268f57a8",
+          "label": "kvalifikuotą elektroninį parašą"
         }
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/en/overview-of-signature-solutions/",
+          "label": "StepOver sprendimų apžvalga",
+          "reason": "Gamintojo apžvalga: klasikinės USB ir NG planšetės, papildoma programinė įranga bei pasirašymas internetu."
+        },
+        {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "PDF peržiūros, pasirašymo ir išsaugojimo funkcijos."
+          "label": "eSignatureOffice programa",
+          "reason": "eSignatureOffice Windows PDF/A, parašo laukai, makrokomandos ir integracijos galimybės."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5",
-          "reason": "PDF apdorojimas ir pasirašyto dokumento parengimas NG įrenginyje."
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "duraSign Pad NG 10",
+          "reason": "NG 10 dokumento apdorojimas, naršyklės valdymas, USB ir LAN su papildomu Ethernet Connection Kit, naudotojai paeiliui."
         },
         {
-          "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/880312429/eSignature+FAQ",
-          "label": "Europos Komisijos paaiškinimai apie e. parašą",
-          "reason": "Parašų lygių skirtumai ir kvalifikuoto parašo reikalavimai."
+          "url": "https://stepover.com/en/products/software/print2ng/",
+          "label": "Print2NG programą",
+          "reason": "Print2NG virtualus spausdintuvas NG planšetėms, stebėjimas, failo išsaugojimas ir OS reikalavimai."
         }
       ],
       "id": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
-      "revisionHash": "d5fce3d9d70c741dc5f3f2619080cec4615441195e4816c2c94ed921ff6f6f81",
+      "revisionHash": "cf58b853a5c9c131ef54de99a428c8aac6e56368c5b8bda08a2d7742806b7188",
       "approval": {
         "status": "approved",
-        "revisionHash": "d5fce3d9d70c741dc5f3f2619080cec4615441195e4816c2c94ed921ff6f6f81",
-        "approvedAt": "2026-10-13T14:38:22.021Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "cf58b853a5c9c131ef54de99a428c8aac6e56368c5b8bda08a2d7742806b7188",
+        "approvedAt": "2026-10-14T10:34:54.015Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "gidai/paraso-plansetes-integracija",
-      "title": "Ką paruošti parašo planšetės integracijai į įmonės sistemas",
-      "description": "Kontrolinis klausimų sąrašas IT komandai: nuo dokumentų formatų ir darbo vietų skaičiaus iki tinklo ryšio ir API pasirinkimo.",
+      "title": "Kaip prijungti parašo planšetę prie įmonės sistemos",
+      "description": "Pad Connector, NextGen API ir eSignatureOffice galimybės: kaip perduoti PDF į parašo planšetę, grąžinti pasirašytą failą ir patikrinti integraciją.",
       "intent": "Parengti integracijos reikalavimus ir atsakomybes prieš pasirenkant API ar diegimo apimtį.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Sklandus parašo planšečių diegimas prasideda nuo aiškaus dokumentų judėjimo plano. Prieš pradedant IT integraciją, būtina atsakyti į pagrindinius klausimus: iš kur atkeliauja dokumentas, kur pasirašoma ir kaip grąžinamas galutinis pasirašytas PDF failas."
+          "text": "Kad dokumentas iš jūsų įmonės sistemos patektų į parašo planšetę ir po pasirašymo grįžtų atgal į kliento kortelę ar archyvą, jūsų programa turi perduoti paruoštą PDF pasirinktam StepOver programiniam komponentui ir priimti iš jo pasirašytą failą. StepOver siūlo sprendimus tiek klasikinėms USB planšetėms, tiek „NG“ serijos įrenginiams, tačiau ne kiekvienas įrankis tinka abiem šeimoms: pavyzdžiui, naršyklės ryšiui skirtas „Pad Connector“ nepalaiko „NG“ serijos, o „NG“ integracijai tinkle skirta „NextGen API“. Pasirinkimas priklauso nuo to, kokį planšetės modelį naudojate, ar darbuotojai dirba naršyklėje, ar „Windows“ kompiuteryje įdiegtoje programoje, ir ar įrenginys jungiamas prie vieno kompiuterio per USB, ar pasiekiamas per tinklą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "1. Dokumento kilmė ir formatas"
+          "text": "Atsisiuntimas ranka ir sistemos automatizacija"
         },
         {
           "type": "paragraph",
-          "text": "Nustatykite, kurioje sistemoje rengiamas dokumentas (ERP, CRM, apskaitos programa ar atskira dokumentų valdymo sistema). Svarbu, ar sistema gali sugeneruoti PDF failą, ar dokumentą teks siųsti per virtualų spausdintuvą („Print2NG“). Išsamią techninių metodų santrauką rasite prijungimo galimybių apžvalgoje."
+          "text": "Paimkime iliustracinį pavyzdį: administratorė priima klientą, o įmonės sistema sugeneruoja paslaugų sutarties PDF."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai procesas neautomatizuotas, darbuotoja išsaugo PDF kompiuteryje, atidaro jį pasirašyti, po kliento parašo išsaugo naują failą, vėl grįžta į įmonės sistemą ir ranka prisega dokumentą prie kliento kortelės. Net ir naudojant „duraSign Pad NG 10“ parašo planšetę, kuri gali būti valdoma tiesiai per naršyklę, dokumento grąžinimas atsisiųsti į kompiuterį ir jo įrašymas į įmonės sistemą yra du skirtingi žingsniai. Kiekvienas rankinis failo perkėlimas palieka riziką prisegti ne to kliento sutartį arba pamiršti dokumentą darbuotojo kompiuteryje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Suprojektavus automatizuotą procesą, darbuotoja įmonės sistemoje tik inicijuoja pasirašymą. Sistema pati perduoda paruoštą PDF ir parašo vietos instrukcijas tarpiniam komponentui, šis nukreipia dokumentą į planšetę, o klientui pasirašius grąžina pasirašytą PDF tiesiai į įmonės sistemą. Darbuotojai nereikia atsisiųsti ar kilnoti tarpinių failų."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "2. Darbo vietų architektūra ir operacinės sistemos"
+          "text": "Darbas naršyklėje su klasikinėmis USB planšetėmis"
         },
         {
           "type": "paragraph",
-          "text": "Įvertinkite, ar darbuotojai dirba su vietiniais Windows kompiuteriais, ar naudojamas nuotolinis darbalaukis (RDP / Citrix). Jei naudojamas terminalinis serveris, ryšiui su USB planšete reikės specialių nukreipimo modulių arba tinklinių NG modelių."
+          "text": "Jei darbuotojai dirba internetinėje programoje per naršyklę ir naudoja prie kompiuterio prijungtą klasikinę USB planšetę, ryšiui su įrenginiu palaikyti skirtas „Pad Connector“ komponentas."
+        },
+        {
+          "type": "paragraph",
+          "text": "„Pad Connector“ yra kliento kompiuteryje diegiama „WebSocket“ tarnyba — vietinis ryšio kanalas, leidžiantis naršyklei pasiekti vietinę USB StepOver planšetę. Šis komponentas nepalaiko „NG“ serijos įrenginių. Pagal tai, kur bus formuojamas galutinis pasirašytas PDF, galimi du variantai:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Pad Connector Standard“ iš planšetės gauna tik parašo vaizdą ir užšifruotus biometrinius duomenis. Šis variantas tinka tada, kai jūsų sistema pati apdoroja gautus duomenis ir atlieka dokumento pasirašymą.",
+            "„Pad Connector Pro“ įterpia parašo vaizdą ir užšifruotus biometrinius duomenis kartu su skaitmeniniu parašu tiesiai į jūsų pateiktą PDF. Dirbant su „Pro“, jūsų internetinė programa perduoda XML duomenų paketą, kuriame yra įmonės sistemos paruoštas PDF ir nurodyta parašo vieta; po pasirašymo „Pro“ grąžina pasirašytą PDF atgal internetinei programai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "„Pad Connector Pro“ nėra savaime jau įdiegta integracija su bet kuria dokumentų valdymo sistema (DVS) — jūsų IT komanda turi realizuoti XML paketo perdavimą iš įmonės sistemos ir grąžinto PDF priėmimą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "3. Dokumento išsaugojimas ir saugumas"
+          "text": "Integracija per „eSignatureOffice“"
         },
         {
           "type": "paragraph",
-          "text": "Suplanuokite, kur grįš pasirašytas PDF failas: į tam tikrą tinklo aplanką, tiesiai į duomenų bazę per API, ar bus išsiunčiamas klientui el. paštu. Taip pat numatykite, kas nutiks, jei pasirašymo procesas bus nutrauktas. Nurodykite šias detales savo integracijos užklausoje, kad galėtume paruošti tikslų techninį planą."
+          "text": "Kai kompiuteryje naudojama „Windows“ aplinkai skirta „eSignatureOffice“ programinė įranga, ji gali būti vienas iš programinių variantų dokumentų pasirašymui organizuoti ir automatizuoti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jūsų įmonės programa gali paleisti „eSignatureOffice“ su komandinės eilutės parametrais ir konfigūracijos failais. Naudojant makrokomandas, galima automatizuoti pasirašyto dokumento išsaugojimą, failo pavadinimo suteikimą ir perdavimą toliau. Jei reikalinga gilesnė integracija su įmonės programa, siūlomas OCX komponentas (programinis valdiklis, leidžiantis pasirašymo funkcijas integruoti į darbalaukio sistemą). Vis dėlto pati komandinės eilutės, makrokomandų ar OCX galimybė nėra pažadas, kad jūsų konkrečiai sistemai nereikės pasiruošimo ar programavimo darbų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "„NG“ serijos planšetės ir darbas tinkle"
+        },
+        {
+          "type": "paragraph",
+          "text": "„NG“ serijos įrenginių integracijai skirta „NextGen API“ programavimo sąsaja. Ji leidžia įmonės sistemai rasti ir pasirinkti „NG“ įrenginį tinkle, perduoti jam dokumentą arba XML su PDF ir parašo vietų instrukcijomis, valdyti pasirašymą ir gauti atgal pasirašytą dokumentą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sujungimui su įmonės sistema siūlomos „.NET“ ir „REST“ sąsajos (standartizuoti programų tarpusavio ryšio būdai). Gamintojo nurodyta nepriklausomybė nuo operacinės sistemos nėra garantija, kad sprendimas be papildomo pritaikymo veiks su bet kuria įmonės sistema."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei „NG 10“ planšetę planuojate jungti į vietinį tinklą (LAN), tam reikalingas papildomas „Ethernet Connection Kit“ priedas. Tokiu būdu tinkle prijungtą įrenginį keli naudotojai gali pasiekti ir naudoti paeiliui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką patikrinti bandomojo proceso metu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Techninis failo perdavimas į planšetę dar nereiškia, kad įmonės sistema teisingai suvaldo visas kasdienes situacijas. Prieš pradedant dirbti su klientais, rekomenduojame suprojektuoti ir atlikti priėmimo testą. Toliau išvardyti patikrinimai yra jūsų sistemoje projektuojami testai, o ne automatiškai pačios planšetės turimos verslo funkcijos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Teisingas dokumento ir kliento susiejimas: ar grąžintas PDF įrašomas būtent į to kliento bylą, kuriam buvo sugeneruotas, ypač kai keli darbuotojai paeiliui naudoja tą patį tinklo įrenginį.",
+            "Privalomi parašai: ar procesas neleidžia išsaugoti dokumento kaip baigto, kol neužpildytos visos privalomos parašo vietos.",
+            "Atsisakymas pasirašyti: kaip įmonės sistema apdoroja situaciją, kai klientas nusprendžia nepasirašyti dokumento ir procesas nutraukiamas.",
+            "Ryšio nutrūkimas ir pakartotinis bandymas: kas įvyksta sutrikus kompiuterio ar tinklo ryšiui pasirašymo metu ir ar darbuotojas gali saugiai pakartoti siuntimą.",
+            "Archyvo failo patikra: ar įmonės archyvas tikrai gavo galutinį pasirašytą failą, o ne pradinį dokumento ruošinį."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kitas žingsnis: duomenys IT užduočiai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ruošdami užduotį savo IT komandai arba kreipdamiesi dėl įrangos, vienoje vietoje surinkite šią informaciją:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nuasmenintas PDF ir jo šaltinis: paruoškite pavyzdinį PDF failą be asmens duomenų ir nurodykite, kurioje sistemoje jis ruošiamas bei kur jame numatytos parašo vietos.",
+            "Darbo vietų aplinka: įvardykite kompiuterių operacinę sistemą ir naršyklę, bendrą darbo vietų bei planuojamų įrenginių skaičių.",
+            "Modelis ir failo grąžinimas: nurodykite pasirinktą planšetės modelį ir tikslią vietą, kur po pasirašymo turi grįžti failas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuos duomenis ir nuasmenintą PDF pavyzdį galite atsiųsti adresu sales@parasoplansetes.lt."
         }
       ],
       "publishAt": "2026-10-08T16:03:32.125Z",
@@ -2145,77 +2393,140 @@
       ],
       "links": [
         {
-          "targetPageId": "e522e382-e7f1-493d-9323-e3e5d2c5b705",
-          "label": "prijungimo galimybių apžvalgoje"
+          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+          "label": "dokumento grąžinimas atsisiųsti į kompiuterį"
         },
         {
-          "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
-          "label": "terminalinis serveris"
+          "targetPageId": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
+          "label": "„eSignatureOffice“ programinė įranga"
         },
         {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "integracijos užklausoje"
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "pasirinktą planšetės modelį"
         }
       ],
       "externalLinks": [
         {
-          "url": "https://stepover.com/en/products/developer/",
-          "label": "StepOver kūrėjų sąsajos",
-          "reason": "Galimi įrenginio valdymo ir elektroninio pasirašymo integracijos komponentai."
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "„duraSign Pad NG 10“ parašo planšetę",
+          "reason": "NG 10 dokumento apdorojimas, naršyklės valdymas, USB ir LAN su papildomu Ethernet Connection Kit, naudotojai paeiliui."
         },
         {
-          "url": "https://stepover.com/en/products/signature-pads/nextgen-pad-5/",
-          "label": "nextGen Pad 5",
-          "reason": "Dokumento perdavimas į savarankiškai veikiantį NG įrenginį."
+          "url": "https://stepover.com/en/products/developer/pad-connector/",
+          "label": "„Pad Connector“ komponentas",
+          "reason": "Klasikinių USB planšečių WebSocket ryšys; Standard duomenų surinkimas ir Pro PDF pasirašymas. NG nepalaikoma."
         },
         {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice",
-          "reason": "Programos paleidimo ir dokumentų apdorojimo automatizavimo galimybės."
+          "label": "„eSignatureOffice“ programinė įranga",
+          "reason": "eSignatureOffice Windows PDF/A, parašo laukai, makrokomandos ir integracijos galimybės."
+        },
+        {
+          "url": "https://stepover.com/en/products/developer/nextgen-api/",
+          "label": "„NextGen API“ programavimo sąsaja",
+          "reason": "NG .NET ir REST integracijos sąsajos dokumentui perduoti, pasirašymui valdyti ir rezultatui gauti."
         }
       ],
       "id": "56845903-0cbb-4648-85a5-3ee3356913ac",
-      "revisionHash": "a855d8dc6fc127fa78ec25147a04030c7630f22066ccf6d236570f5340414df8",
+      "revisionHash": "fb76e754d47c49d231516822b0858a062bb0ba897eb4ee0f0469fff5c81a2810",
       "approval": {
         "status": "approved",
-        "revisionHash": "a855d8dc6fc127fa78ec25147a04030c7630f22066ccf6d236570f5340414df8",
-        "approvedAt": "2026-10-13T14:38:22.066Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "fb76e754d47c49d231516822b0858a062bb0ba897eb4ee0f0469fff5c81a2810",
+        "approvedAt": "2026-10-14T10:34:54.063Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "gidai/terminalinis-serveris-paraso-plansete",
-      "title": "Parašo planšetė nuotolinio darbalaukio aplinkoje (RDP / Citrix)",
-      "description": "Kaip prijungti StepOver parašo planšetes terminaliniuose serveriuose: sesijų valdymas, USB nukreipimas, TCP moduliai ir licencijavimas.",
+      "title": "Parašo planšetė RDP ir Citrix aplinkoje",
+      "description": "Ką patikrinti, kai pasirašymo programa veikia RDP ar Citrix serverio sesijoje, o parašo planšetė prijungta prie darbuotojo kompiuterio.",
       "intent": "Parengti nuotolinio darbalaukio / terminal server piloto bandymą.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Darbui terminalinėse aplinkose (Microsoft Remote Desktop Services, Citrix Virtual Apps ir pan.) reikalinga specifinė konfigūracija. Kadangi verslo valdymo programa veikia serveryje, o planšetė fiziškai prijungta prie darbuotojo kompiuterio, būtina užtikrinti sklandų duomenų ir parašo nukreipimą tarp šių dviejų aplinkų."
+          "text": "Kai pasirašymo programa veikia centrinio serverio sesijoje (per RDP ar „Citrix“), o parašo planšetė prijungta prie darbuotojo vietinio kompiuterio, vien prijungto USB laido ar standartinio programos diegimo nepakanka. Serverio sesija turi tiksliai žinoti, į kurį fizinį įrenginį nukreipti pasirašymo užduotį ir iš kurio priimti parašo duomenis. Prieš diegiant įrangą tokiai darbo vietai, verta aiškiai atskirti, kas vyksta serveryje, kas — vietiniame kompiuteryje, ir patikrinti šį ryšį bandomojoje sesijoje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "USB nukreipimas ir StepOver TCP moduliai"
+          "text": "Kur veikia programa ir kur prijungtas įrenginys"
         },
         {
           "type": "paragraph",
-          "text": "StepOver siūlo TCP ir Citrix modulius darbui su „eSignatureOffice“ terminalinėje aplinkoje. Juos reikia parinkti pagal naudojamą serverį ir darbo vietų konfigūraciją. Ryšio veikimą bei pasirašymo spartą patikrinkite tikroje savo aplinkoje. Kitos galimybės aprašytos mūsų pasirašymo programų apžvalgoje."
+          "text": "Įprastoje darbo vietoje viskas vyksta viename kompiuteryje: darbuotojas atidaro PDF failą, paspaudžia pasirašymo mygtuką, o programa per USB laidą perduoda pasirašymo užduotį prijungtai planšetei. Ar planšetės ekrane rodomas visas dokumentas, ar tik parašo laukas, priklauso nuo pasirinkto įrenginio modelio ir naudojamos programos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Terminalinio serverio aplinkoje šis kelias persiskiria, kai pasirašymo programa paleidžiama ne vietiniame kompiuteryje, o serverio sesijoje. Darbuotojas savo ekrane mato serverio transliuojamą programos langą, tačiau klientas stovi prie darbuotojo stalo ir pasirašo planšetėje, kuri fiziškai įjungta į vietinį kompiuterį ar plonąjį klientą (angl. thin client)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis darbo būdas nėra kliento pasirašymas internetu iš namų. Dirbant su nuotoliniu darbalaukiu, klientas ir darbuotojas yra tame pačiame kabinete ar prie to paties aptarnavimo langelio, o darbuotojo kompiuteris perduoda signalą tarp stalo įrenginio ir įmonės serverio."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Darbo vietų licencijavimas ir failų saugojimas"
+          "text": "Kaip „StepOver“ sprendimai pasiekia planšetę"
         },
         {
           "type": "paragraph",
-          "text": "Rengiant licencijų pasiūlymą reikia nurodyti darbo vietų, planšečių ir vienu metu dirbančių naudotojų skaičių. Taikomos sąlygos tikrinamos pagal konkrečius programos bei papildomų modulių variantus. Taip pat sutarkite, ar galutinis PDF bus saugomas darbuotojo kompiuteryje, ar serverio diske. Failų kelių pasirinkimą aptariame pasirengimo integracijai gide."
+          "text": "Gamintojas „StepOver“ siūlo sprendimus tiek USB laidu, tiek tinkle jungiamiems įrenginiams, todėl ryšio su serveriu principas priklauso nuo pasirinktos įrangos."
         },
         {
           "type": "paragraph",
-          "text": "Prieš diegiant sprendimą visoje organizacijoje, rekomenduojama atlikti testą su keliais vartotojais vienu metu, kad įsitikintumėte sesijų izoliacija. Kviečiame aptarti serverio aplinką su mūsų komanda."
+          "text": "Klasikinės parašo planšetės fiziškai jungiamos per USB ir reikalauja papildomo programinio sprendimo, kaip nurodoma bendrojoje „StepOver“ sprendimų apžvalgoje. Naudojant „eSignatureOffice“ programinę įrangą, gamintojas nurodo terminalinio serverio aplinkų palaikymą kartu su TCP ir „Citrix“ moduliais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitas variantas — tinklinė planšetė „duraSign Pad NG 10“. Prijungus ją tiesiai per USB, įrenginį valdo tik to paties kompiuterio interneto naršyklė. Naudojant papildomą tinklo priedą („Ethernet Connection Kit“), „NG 10“ tampa pasiekiamas vietiniame tinkle (LAN) per naršyklę, todėl vienu įrenginiu keli naudotojai gali naudotis paeiliui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nors gamintojas nurodo TCP ir „Citrix“ modulius bei tinklo priedą, suderinamumą su konkrečia jūsų terminalo kliento ir serverio versija bei įmonės tinklo ir ugniasienės taisyklėmis būtina patikrinti praktiškai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką patikrinti bandomojoje sesijoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įsivaizduokite iliustracinį pavyzdį: klientų aptarnavimo skyriuje vienu metu dirba keli darbuotojai. Kiekvienas savo kompiuteryje atsidaro RDP arba „Citrix“ sesiją ir serveryje paleidžia pasirašymo programą. Kai pirmas darbuotojas inicijuoja sutarties pasirašymą, programa turi perduoti pasirašymo užduotį būtent ant jo stalo esančiai planšetei, o ne kolegos įrenginiui prie gretimo langelio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rekomenduojame bandomojo proceso metu patikrinti tris praktinius žingsnius:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sesijos ir įrenginio susiejimas. Atidarykite kelias darbuotojų sesijas vienu metu ir įsitikinkite, kad kiekviena sesija perduoda pasirašymo užduotį tik jai skirtai planšetei ir negauna kito darbuotojo dokumento.",
+            "Dokumento išsaugojimas. Klientui pasirašius tinkamame įrenginyje, patikrinkite, ar pasirašytas failas tvarkingai išsaugomas sutartoje serverio ar dokumentų sistemos vietoje.",
+            "Atsijungimas ir pakartotinis prisijungimas. Užbaikite arba trumpam atjunkite darbuotojo RDP ar „Citrix“ sesiją ir prisijunkite iš naujo — patikrinkite, ar sesija vėl sklandžiai susisieja su ta pačia planšete."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką paruošti prieš kreipiantis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš priimdami sprendimą kartu su savo IT komanda pasižymėkite pagrindinius savo aplinkos duomenis:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kur veikia „eSignatureOffice“ ar kita pasirašymo programa: vietiniame kompiuteryje ar serverio sesijoje.",
+            "Kur fiziškai prijungta planšetė (vietiniame kompiuteryje per USB ar vietiniame tinkle su „Ethernet Connection Kit“) ir koks jos modelis.",
+            "Kokį RDP ar „Citrix“ klientą, jo versiją bei operacinę sistemą naudojate."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuos duomenis galite atsiųsti adresu sales@parasoplansetes.lt."
         }
       ],
       "publishAt": "2026-10-08T16:45:49.664Z",
@@ -2268,32 +2579,42 @@
       ],
       "links": [
         {
-          "targetPageId": "af94fcfd-72b6-49fe-833b-7ff35e5bdc8a",
-          "label": "pasirašymo programų apžvalgoje"
+          "targetPageId": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
+          "label": "„eSignatureOffice“ programinę įrangą"
         },
         {
           "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
-          "label": "pasirengimo integracijai gide"
+          "label": "ryšio su serveriu principas"
         },
         {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "aptarti serverio aplinką"
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "pasirinktos įrangos"
         }
       ],
       "externalLinks": [
         {
+          "url": "https://stepover.com/en/overview-of-signature-solutions/",
+          "label": "bendrojoje „StepOver“ sprendimų apžvalgoje",
+          "reason": "Gamintojo apžvalga: klasikinės USB ir NG planšetės, papildoma programinė įranga bei pasirašymas internetu."
+        },
+        {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "eSignatureOffice: serverio aplinkos",
-          "reason": "Gamintojo nurodomi TCP ir Citrix moduliai bei jų dokumentacijos nuorodos."
+          "label": "„eSignatureOffice“ programinę įrangą",
+          "reason": "eSignatureOffice Windows PDF/A, parašo laukai, makrokomandos ir integracijos galimybės."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "„duraSign Pad NG 10“",
+          "reason": "NG 10 dokumento apdorojimas, naršyklės valdymas, USB ir LAN su papildomu Ethernet Connection Kit, naudotojai paeiliui."
         }
       ],
       "id": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
-      "revisionHash": "8b70b7bfa38385c479a14e940a086a4ef80b32d8a307378a8326cbb82e1b91e5",
+      "revisionHash": "87324e53de7d91e82d9bd33a0228522dc4bddf65c55fd26d6f0ddb672aedb2e8",
       "approval": {
         "status": "approved",
-        "revisionHash": "8b70b7bfa38385c479a14e940a086a4ef80b32d8a307378a8326cbb82e1b91e5",
-        "approvedAt": "2026-10-13T14:38:22.141Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "87324e53de7d91e82d9bd33a0228522dc4bddf65c55fd26d6f0ddb672aedb2e8",
+        "approvedAt": "2026-10-14T10:34:54.129Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
@@ -3216,50 +3537,87 @@
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "programine-iranga/print2ng",
-      "title": "Print2NG – tiesioginis dokumentų siuntimas į NextGen planšetes",
-      "description": "Print2NG siunčia dokumentus iš spausdinimo funkciją turinčių programų į StepOver NG planšetes. Windows, macOS ir Linux reikalavimai bei apribojimai.",
+      "title": "Print2NG: dokumento siuntimas į NG parašo planšetę",
+      "description": "Print2NG siunčia dokumentą iš spausdinančios programos į NG parašo planšetę. Pasirašymo eiga, failo išsaugojimas ir Windows, macOS bei Linux reikalavimai.",
       "intent": "Print2NG kelias svarstomas, kai programa gali spausdinti dokumentą ir naudojama tinkama NG įranga.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„Print2NG“ – virtualaus spausdintuvo tvarkyklė, skirta siųsti dokumentus tiesiogiai į „NextGen“ šeimos parašo planšetes. Bet kurioje taikomojoje programoje pasirinkus spausdinimo komandą, dokumentas perduodamas į NG įrenginį, klientas pasirašo jo ekrane, o pasirašytas failas grąžinamas į kompiuterį. Tai leidžia inicijuoti pasirašymo procesą tiesiai iš „Word“, „Excel“ ar bet kurios kitos spausdinimo funkciją palaikančios programos."
+          "text": "Jei dokumentus ruošiate „Word“, „Excel“ ar kitoje programoje ir norite juos pasirašyti be tarpinio PDF eksportavimo, „StepOver“ siūlo „Print2NG“ virtualaus spausdintuvo tvarkyklę. Darbuotojas programoje pasirenka įprastą spausdinimo komandą, dokumentas atsidaro „NextGen“ (NG) serijos parašo planšetėje, o žmogui pasirašius ranka, pasirašytas failas grąžinamas į kompiuterį atsisiųsti. Šis sprendimas veikia tik su NG serijos įrenginiais, tokiais kaip „duraSign Pad NG 10“, ir nėra skirtas klasikiniams „naturaSign“ ar „duraSign“ modeliams."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Techniniai reikalavimai"
+          "text": "Kas vyksta pasirašymo metu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbas su „Print2NG“ atkartoja įprastą spausdinimą, tik popieriaus lapą pakeičia parašo planšetės ekranas. Pagal oficialų „StepOver Print2NG“ produkto aprašymą, procesas nuo dokumento paruošimo iki išsaugojimo vyksta keliais aiškiais žingsniais:"
         },
         {
           "type": "list",
           "items": [
-            "Windows: 10 / 11; tik x86 arba x64",
-            "Windows ARM: ARM32 ir ARM64 nepalaikomi",
-            "macOS: Nuo 13.2",
-            "Linux: Gamintojas nurodo Linux palaikymą; konkrečią distribuciją reikia suderinti.",
-            "Procesorius: Dviejų branduolių: min. 1 GHz, rekomenduojama 2 GHz",
-            "RAM: 2 GB",
-            "Laisva disko vieta: 300 MB, įskaitant laikinuosius duomenis",
-            "Ekranas: Bent 1024 × 768; 16 bitų spalvos",
-            "Planšetės: nextGen Pad 5 ir duraSign Pad NG 10"
+            "Dokumento išsiuntimas. Darbuotojas savo programoje atidaro dokumentą, spaudžia „Spausdinti“ ir iš spausdintuvų sąrašo pasirenka „Print2NG“ virtualią tvarkyklę – programą, kuri kompiuteryje veikia kaip spausdintuvas, bet vietoj popieriaus paruoštą vaizdą perduoda į planšetę.",
+            "Peržiūra ir stebėjimas. Dokumentas atvaizduojamas NG planšetėje ir tuo pačiu metu parodomas darbuotojo kompiuterio ekrane. Darbuotojas mato, kurioje dokumento vietoje yra klientas, ir gali iš savo kompiuterio paspausti planšetės valdymo mygtukus, jei žmogui prie langelio reikia pagalbos. Šis dvigubas vaizdas skirtas procesui stebėti ir valdyti, tačiau neleidžia keliems žmonėms pasirašyti dokumento vienu metu.",
+            "Pasirašymas. Klientas arba darbuotojas perskaito dokumentą planšetės ekrane ir pasirašo ranka.",
+            "Failo išsaugojimas. Užbaigtą dokumentą galima atsisiųsti paspaudus atsisiuntimo mygtuką pačioje planšetėje arba darbuotojo kompiuterio lange. Kaip išsaugomas failas, priklauso nuo pasirinktų nustatymų: galite kaskart įrašyti jį per „Išsaugoti kaip“ (Save as) dialogą arba nurodyti iš anksto parinktą aplanką. Po išsaugojimo „Print2NG“ langas gali pats užsidaryti arba susimažinti, kad netrukdytų toliau dirbti."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Iliustracinis pavyzdys: priėmimo skyriaus darbuotojas „Excel“ lentelėje užpildo įrangos perdavimo aktą ir pasirenka spausdinti per „Print2NG“. Klientas prieš save esančioje „duraSign Pad NG 10“ planšetėje peržiūri sąrašą, pasirašo, o darbuotojo kompiuteris pagal nustatymus įrašo pasirašytą failą į nurodytą dienos dokumentų aplanką ir suskleidžia programos langą. Vien failo įrašymas į kompiuterio aplanką dar neįkelia jo į reikiamą įmonės apskaitos ar archyvo bylą – tokiam perdavimui reikalingas atskiras sistemų susiejimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada rinktis Print2NG, o kada — kitus sprendimus"
+        },
+        {
+          "type": "paragraph",
+          "text": "„StepOver“ siūlo kelis skirtingus darbo su dokumentais būdus, todėl pasirinkimas priklauso nuo to, kokia programa pradedate procesą ir kaip tvarkote pasirašytus failus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Print2NG virtualus spausdintuvas tinka tada, kai darbuotojai dokumentus kuria įvairiose spausdinti gebančiose programose ir nori juos vienu mygtuku perduoti į NG serijos planšetę, o grąžintą failą išsisaugoti kompiuteryje.",
+            "PDF pasirašymo programa (pavyzdžiui, vienas iš variantų – „eSignatureOffice“) pasirenkama tada, kai dirbate su paruoštais PDF failais, naudojate klasikinius USB parašo įrenginius arba norite automatizuoti parašo laukų paiešką bei šablonus pačiame PDF dokumente.",
+            "Integracijos sąsajos (API) reikalingos tada, kai pasirašymo veiksmas turi vykti tiesiai jūsų verslo valdymo, medicinos ar klientų aptarnavimo sistemos viduje, be darbuotojo rankinio spausdinimo ir failų kilnojimo tarp aplankų."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirašymo stebėjimas ir išsaugojimas"
+          "text": "Reikalavimai kompiuteriui ir įrenginio ryšiui"
         },
         {
           "type": "paragraph",
-          "text": "Kompiuterio ekrane darbuotojas realiuoju laiku mato planšetėje vykstantį pasirašymo vaizdą. Tai leidžia stebėti proceso eigą ir valdyti planšetės mygtukus. Failas išsaugomas naudojant standartinį langą „Išsaugoti kaip“ arba automatiškai nukreipiamas į iš anksto nustatytą aplanką. Išsaugojus dokumentą, programa gali automatiškai užsidaryti arba likti fone."
+          "text": "Prieš priimdami sprendimą, patikrinkite, ar darbuotojų kompiuteriai ir tinklo įranga atitinka technines sąlygas. Nors pati NG planšetė yra nepriklausoma nuo operacinės sistemos, „Print2NG“ tvarkyklė diegiama į konkretų kompiuterį ir turi šiuos reikalavimus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Operacinė sistema ir architektūra. „Windows 10“ ir „Windows 11“ palaikomos tik su x86 arba x64 procesorių architektūra – kompiuteriuose su ARM32 ar ARM64 procesoriais „Print2NG“ neveiks. „macOS“ sistemose reikalinga bent 13.2 versija. Gamintojas taip pat nurodo „Linux“ palaikymą, tačiau konkrečių distribucijų ar versijų šiame produkto puslapyje nepateikia.",
+            "Procesorius, atmintis ir ekranas. Minimalūs reikalavimai yra dviejų branduolių 1 GHz procesorius ir 2 GB RAM, tačiau rekomenduojamas dviejų branduolių 2 GHz procesorius ir 2 GB RAM. Kietajame diske reikia bent 300 MB laisvos vietos (įskaitant laikinuosius duomenis), o kompiuterio ekranas turi palaikyti bent 1024 × 768 raišką ir 16 bitų spalvas.",
+            "Planšetės prijungimas. Kaip nurodoma „duraSign Pad NG 10“ techninėje specifikacijoje, prijungus įrenginį per USB, jis valdomas per to konkretaus kompiuterio naršyklę. Jei planšetę norite prijungti prie vietinio tinklo (LAN), „duraSign Pad NG 10“ modeliui būtinas papildomas „Ethernet Connection Kit“ priedas."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Toliau renkantis sprendimą"
+          "text": "Ką paruošti prieš sprendžiant"
         },
         {
           "type": "paragraph",
-          "text": "„Print2NG“ veikia su NG šeimos įrenginiais, pavyzdžiui, duraSign Pad NG 10. Jei naudojate klasikinę planšetę, palyginkite eSignatureOffice galimybes. Dėl diegimo ir licencijos galite teirautis dėl Print2NG."
+          "text": "Prieš priimant sprendimą, rekomenduojame patikrinti programos ir dokumento atvaizdavimą su nuasmenintu realiu pavyzdžiu. Jei rašysite užklausą adresu sales@parasoplansetes.lt, nurodykite:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Programą: iš kokios programos (pvz., „Word“, „Excel“ ar kitos sistemos) darbuotojai siųs dokumentus spausdinti.",
+            "Kompiuterio aplinką: kokią operacinę sistemą ir procesoriaus architektūrą (x86/x64, macOS versiją ar Linux aplinką) naudojate darbo vietose.",
+            "Įrenginį ir ryšį: kurį NG serijos modelį (pvz., „duraSign Pad NG 10“) planuojate naudoti ir kaip jį jungsite – per USB ar per vietinį tinklą (LAN) su „Ethernet Connection Kit“.",
+            "Failų saugojimo vietą: ar pasirašytą failą darbuotojas kaskart išsaugos per „Išsaugoti kaip“, ar jam reikia iš anksto nustatyto aplanko kompiuteryje."
+          ]
         }
       ],
       "publishAt": "2026-10-10T07:00:00.000Z",
@@ -3312,32 +3670,37 @@
       ],
       "links": [
         {
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "NG serijos įrenginiais"
+        },
+        {
           "targetPageId": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
-          "label": "eSignatureOffice galimybes"
+          "label": "„eSignatureOffice“"
         },
         {
-          "targetPageId": "d60d6eb9-35e6-4778-b7e5-136827efc61d",
-          "label": "duraSign Pad NG 10"
-        },
-        {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "teirautis dėl Print2NG"
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "atskiras sistemų susiejimas"
         }
       ],
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/print2ng/",
-          "label": "StepOver Print2NG – tiesioginis dokumentų siuntimas į NextGen planšetes",
-          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+          "label": "oficialų „StepOver Print2NG“ produkto aprašymą",
+          "reason": "Print2NG virtualus spausdintuvas NG planšetėms, stebėjimas, failo išsaugojimas ir OS reikalavimai."
+        },
+        {
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "„duraSign Pad NG 10“ techninėje specifikacijoje",
+          "reason": "NG 10 dokumento apdorojimas, naršyklės valdymas, USB ir LAN su papildomu Ethernet Connection Kit, naudotojai paeiliui."
         }
       ],
       "id": "265c5f13-24f2-48aa-b4b6-ad1e52e116f1",
-      "revisionHash": "0d507bdd3b8cec39e7b333c4eeb592e3631141728d6b287e27d49a36a5e9a59f",
+      "revisionHash": "c8ed24b803aadca1780fdab8fc67849dc7265237a212c055e3b3fb8652bde984",
       "approval": {
         "status": "approved",
-        "revisionHash": "0d507bdd3b8cec39e7b333c4eeb592e3631141728d6b287e27d49a36a5e9a59f",
-        "approvedAt": "2026-10-13T16:22:47.398Z",
-        "actorId": "Codex owner-authorized technical-description adoption"
+        "revisionHash": "c8ed24b803aadca1780fdab8fc67849dc7265237a212c055e3b3fb8652bde984",
+        "approvedAt": "2026-10-14T10:34:54.186Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
@@ -5943,5 +6306,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T16:33:15.215Z"
+  "generatedAt": "2026-10-14T10:34:54.332Z"
 }
