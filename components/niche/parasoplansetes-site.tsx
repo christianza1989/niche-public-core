@@ -162,7 +162,7 @@ export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
     <InterestTracking />
     <a className={styles.skip} href="#turinys">Pereiti prie turinio</a>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: nicheJsonLd(pkg, page) }} />
-    {!isHome && <div className={styles.utility}><span>StepOver pasirašymo sprendimai verslui</span><a href={`mailto:${pkg.site.contact.email}`}>{pkg.site.contact.email}</a></div>}
+
     <header className={styles.header}><Brand /><nav className={styles.desktopNav} aria-label="Pagrindinė navigacija">{navigation}</nav><a className={styles.headerAction} href={isHome || page.slug === "kontaktai" ? "#kontaktai" : "/kontaktai"}>Susisiekite <Arrow /></a><details className={styles.mobileMenu}><summary>Meniu <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.7" /></svg></summary><nav aria-label="Mobilioji navigacija">{navigation}<a href="/kontaktai">Susisiekite <Arrow /></a></nav></details></header>
     <main id="turinys" tabIndex={-1}>
       {!isHome && <nav className={styles.crumbs} aria-label="Puslapio kelias" data-niche-breadcrumbs>{nicheBreadcrumbs(pkg, page, livePages).map((item: { name: string; path: string }, i: number, all: {name:string;path:string}[]) => <span key={item.path}>{i > 0 && <span aria-hidden="true"> / </span>}{i === all.length - 1 ? <span aria-current="page">{item.name}</span> : <a href={item.path}>{item.name}</a>}</span>)}</nav>}
@@ -180,13 +180,13 @@ export function ParasoplansetesSite({ pkg, page, livePages }: Props) {
       </> : <>
         {isGuide && <div className={styles.articlePicture}><Picture page={page} eager /></div>}
         {isCatalog && <section className={styles.catalogSection} aria-label="Modelių palyginimas"><Catalog pages={livePages} /></section>}
-        {page.slug === "kontaktai" && <Inquiry pkg={pkg} />}
+        {page.slug === "kontaktai" && <div className={styles.inquiryBand}><Inquiry pkg={pkg} /></div>}
         <div className={isGuide ? styles.articleLayout : styles.contentLayout}>
           {isGuide && <aside className={styles.contents}><details open><summary>Šiame gide</summary><ol>{page.body.map((block, i) => block.type === "heading" && block.level === 2 ? <li key={i}><a href={`#section-${i}`}>{block.text}</a></li> : null)}</ol></details></aside>}
           <div><Body page={page} livePages={livePages} skipIntro /><Sources page={page} livePages={livePages} /></div>
         </div>
         {isHub && <section className={styles.guideSection}><Guides pages={livePages} /></section>}
-        {isCatalog ? <Inquiry pkg={pkg} /> : page.slug !== "kontaktai" && <div className={styles.nextAction}><p>Norite aptarti savo įmonės poreikį?</p><a className={styles.primary} href="/kontaktai">Susisiekite <Arrow /></a></div>}
+        {isCatalog ? <div className={styles.inquiryBand}><Inquiry pkg={pkg} /></div> : page.slug !== "kontaktai" && <div className={styles.nextAction}><p>Norite aptarti savo įmonės poreikį?</p><a className={styles.primary} href="/kontaktai">Susisiekite <Arrow /></a></div>}
       </>}
     </main>
     {(voiceWidgetEnabled(pkg) || chatWidgetEnabled(pkg)) && <VoiceWidget title="StepOver DI konsultantas" appearance="stepover" chatAvailable={chatWidgetEnabled(pkg)} voiceAvailable={voiceWidgetEnabled(pkg)} />}
