@@ -24,6 +24,12 @@ export type ProjectedContentPageV2=Omit<ContentPageV2,'body'|'externalLinks'>&{u
 export const contentPackagesV2=(compiled as unknown as ContentPackageV2[]).filter(p=>p.schemaVersion===2);
 export const contentPackageBySiteId=(id:string)=>contentPackagesV2.find(p=>p.siteId===id)||null;
 export function contentAdmissionScope(pkg:ContentPackageV2){return (admissions as Record<string,{scope:string}>)[pkg.siteId]?.scope;}
+/** Optional compiler-derived identity; never inferred from request/env or filtered pages. */
+export function contentBuildProof(pkg:ContentPackageV2){
+  const value=(admissions as Record<string,{packageSha256?:string;buildSourceRevision?:string}>)[pkg.siteId];
+  return value&&/^[a-f0-9]{64}$/.test(value.packageSha256||'')&&/^[a-f0-9]{40}$/.test(value.buildSourceRevision||'')
+    ? {packageSha256:value.packageSha256!,sourceRevision:value.buildSourceRevision!}:null;
+}
 export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview'].includes(contentAdmissionScope(pkg)||'');}
 export function hasLocalPreviewContent(){return contentPackagesV2.some(pkg=>contentAdmissionScope(pkg)==='local-preview');}
 export const contentPackageByHost=(host:string|null|undefined)=>{

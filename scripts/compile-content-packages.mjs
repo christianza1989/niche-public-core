@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateContentPackage } from "./content-package-core.mjs";
 import { validateV2Admission, assertPreviewSandbox } from './content-v2-admission.mjs';
+import { cleanBuildSource } from './content-build-proof.mjs';
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const packagesRoot = path.join(root, "content-packages");
@@ -13,6 +14,8 @@ const entries = await readdir(packagesRoot, { withFileTypes: true });
 const packages = [];
 const hosts = new Set();
 const admissions = {};
+const acceptanceReceipts = {};
+const sourceBefore=cleanBuildSource(root);
 
 for (const entry of entries) {
   if (!entry.isDirectory()) continue;
@@ -25,6 +28,7 @@ for (const entry of entries) {
     catch{throw new Error('V2 active compile is gated until renderer/host cutover acceptance; use content-staging');}
     assertPreviewSandbox(root,receipt);
     admissions[pkg.siteId]=validateV2Admission(pkg,bytes,receipt);
+    acceptanceReceipts[pkg.siteId]=receipt;
   }
   if (pkg.siteId !== entry.name) throw new Error(`Package directory does not match siteId: ${entry.name}`);
   if (hosts.has(pkg.canonicalHost)) throw new Error(`Duplicate canonicalHost: ${pkg.canonicalHost}`);
@@ -49,6 +53,17 @@ for (const entry of entries) {
 }
 
 packages.sort((a, b) => a.siteId.localeCompare(b.siteId));
+// Proof identifies original imported bytes, not the serialized/projected registry.
+// Mutable content inputs are separate from the clean execution graph.
+const sourceAfter=cleanBuildSource(root);
+if(sourceBefore&&sourceBefore===sourceAfter){
+  for(const pkg of packages.filter(p=>p.schemaVersion===2)){
+    const raw=await readFile(path.join(packagesRoot,pkg.siteId,'content-package.json'),'utf8');
+    const bound=validateV2Admission(pkg,raw,acceptanceReceipts[pkg.siteId]);
+    admissions[pkg.siteId]={...bound,buildSourceRevision:sourceAfter};
+  }
+}
+if(cleanBuildSource(root)!==sourceBefore)for(const value of Object.values(admissions))delete value.buildSourceRevision;
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(packages)}\n`, "utf8");
 await writeFile(path.join(root,'lib/generated/content-admissions.json'),`${JSON.stringify(admissions)}\n`,'utf8');
