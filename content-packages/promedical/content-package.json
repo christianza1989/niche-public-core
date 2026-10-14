@@ -274,109 +274,65 @@
       "type": "guide",
       "slug": "gidai/medicininio-vezimelio-pasirinkimas",
       "title": "Kaip pasirinkti medicininį vežimėlį įstaigai",
-      "description": "Kaip parinkti medicininio vežimėlio paskirtį, BASIC ar PROFI korpusą, stalčius, ratukus ir priedus pagal gydymo įstaigos darbo sąlygas.",
-      "intent": "Pagal kokius techninius ir ergonominius kriterijus parinkti medicininį vežimėlį gydymo įstaigos skyriui?",
+      "description": "Kaip palyginti medicininius vežimėlius pagal įstaigos reikalavimus: korpuso ir stalviršio medžiagos, stalčiai, MS krepšiai, apkrovos ir matmenys su priedais.",
+      "intent": "Padėti įrangos pirkėjui palyginti medicininių vežimėlių modelius ir siūlomą komplektaciją su jau nustatytais įstaigos reikalavimais.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicininis vežimėlis yra viena intensyviausiai naudojamų gydymo įstaigos darbo priemonių. Tinkamai parinktas modelis padeda patogiai išdėstyti priemones, taupyti personalo laiką ir laikytis skyriaus higienos bei medikamentų laikymo tvarkos. Norint išvengti klaidų, vežimėlio atranką verta pradėti nuo konkrečių procedūrų ir judėjimo maršruto analizės, o visus galimus modelių variantus galima išsamiai apžiūrėti Klaro produktų kataloge."
+          "text": "Du iš pirmo žvilgsnio panašūs medicininiai vežimėliai gali iš esmės skirtis savo korpuso medžiaga, vidine stalčių konstrukcija ir leistina atskirų dalių apkrova. Pavyzdžiui, „Klaro“ modulinių vežimėlių asortimente (kuriame yra modelių su stalčiais, lentynomis, stalčiais dokumentams ir žaliuzėmis) „METAL LINE BASIC“ ir „METAL LINE PROFI“ grupės skiriasi korpuso medžiaga: „BASIC“ grupės korpusas yra dažytas, o „PROFI“ — nerūdijančiojo plieno. Renkantis konkretų modelį, šiuos konstrukcijos skirtumus patogiausia lyginti ne pagal bendrą grupės pavadinimą, o pagal atskirų vežimėlio dalių duomenis."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "1. Nustatykite vežimėlio pagrindinę funkcinę paskirtį"
+          "text": "Korpuso ir stalviršio medžiagos"
         },
         {
           "type": "paragraph",
-          "text": "Rinkdamiesi iš „Klaro“ asortimento, pagal darbo paskirtį įvertinkite šias galimas komplektacijas. Konkretaus modelio įrangą sutikrinkite su jo kortele:"
+          "text": "Grupės pavadinimas nusako korpuso tipą, tačiau korpuso ir darbo paviršiaus medžiagos gaminio apraše nurodomos atskirai. Tai aiškiai matyti aukštojo modelio „METAL LINE BASIC ZV1253N/PZ“ (katalogo kodas ZV1253N-PZ) techniniuose duomenyse: jo korpusas pagamintas iš pilka milteline danga dažyto plieno, o darbo paviršius — iš AISI 304 nerūdijančiojo plieno. Šio modelio stalviršis atitinka nerūdijančiojo plieno medžiagos reikalavimą, tačiau jo dažytas korpusas netinka, jei reikalavimas taikomas ir korpusui. „METAL LINE PROFI“ grupėje nurodyti nerūdijančiojo plieno korpusai; kitų dalių medžiagos priklauso nuo konkretaus modelio."
         },
         {
-          "type": "list",
-          "items": [
-            "Procedūriniai ir perrišimų vežimėliai: turi erdvų viršutinį darbinį paviršių su paaukštintais kraštais (apsaugančiais nuo skysčių nutekėjimo), teleskopinius stalčius su pertvaromis tvarsliavai bei integruotus aštrių atliekų ir dezinfekanto laikiklius.",
-            "Anesteziologiniai vežimėliai: komplektuojami su paaukštinta viršutine lentynėle monitoriui, skaidriomis atverčiamomis dėžutėmis ampulėms bei centriniu raktiniu užraktu medikamentų saugumui.",
-            "Vaistų paskirstymo vežimėliai: pasižymi modulinėmis kasetėmis arba stalčiais su individualiais skyriais kiekvienam pacientui ir patikimu užraktu (raktiniu arba elektroniniu kodiniu).",
-            "Reanimacijos ir skubiosios pagalbos vežimėliai: lengvai atpažįstami iš ryškių raudonų korpuso elementų, turi pasukamą lentynėlę defibriliatoriui, infuzijų stovą, deguonies baliono tvirtinimą, širdies masažo (CPR) lentą bei vienkartinį plombuojamą užraktą, užtikrinantį greitą prieigą kritiniu momentu.",
-            "Vizitų vežimėliai: pritaikyti ligos istorijoms, medicininei dokumentacijai arba planšetiniams bei nešiojamiesiems kompiuteriams saugiai pervežti ir pildyti vizitacijos metu."
-          ]
+          "type": "paragraph",
+          "text": "Darbo paviršiaus plieno markė kartu parodo ir pagrindinę valymo ribą. Gamintojas AISI 304 nerūdijančiojo plieno apraše nurodo šiam paviršiui nenaudoti chloro turinčių priemonių. Dėl detalesnių konkretaus vežimėlio priežiūros sąlygų visada reikalingas būtent to modelio priežiūros dokumentas, kurio galima paprašyti derinant užsakymą arba ieškoti pagal modelį gamintojo instrukcijų puslapyje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "2. Įvertinkite korpuso medžiagą: BASIC ar PROFI (AISI 304)"
+          "text": "Stalčių tipai ir krepšių suderinamumas"
         },
         {
           "type": "paragraph",
-          "text": "Klaro siūlo du pagrindinius konstrukcijos tipus, kuriuos lemia skyriaus higienos reikalavimai ir naudojamos dezinfekcijos priemonės:"
+          "text": "Išsirinkus tinkamą korpusą, toliau lyginama vidinė stalčių konstrukcija. Minėtame ZV1253N-PZ modelyje montuojami penki M dydžio (12 cm aukščio) stalčiai su pilno ištraukimo teleskopiniais rutuliniais bėgeliais ir centriniu užraktu, tačiau pats stalčius gali būti dviejų tipų — skardinis arba MS krepšio. MS krepšius galima suskirstyti pertvaromis."
         },
         {
-          "type": "list",
-          "items": [
-            "PROFI serija (nerūdijantysis plienas AISI 304): nerūdijančiojo plieno konstrukcija, kurios priežiūrą reikia derinti su konkretaus modelio instrukcija. „Klaro“ AISI 304 paviršiams nurodo nenaudoti chloro turinčių priemonių. Komplektaciją operacinei, reanimacijai ar sterilizavimo skyriui parinkite pagal skyriaus darbo ir higienos reikalavimus.",
-            "BASIC serija (dažytas plienas): plieninis karkasas padengtas aukštos kokybės poliesterio milteline danga, o kampai apsaugoti smūgiams atspariais ABS plastiko profiliais. Tai ekonomiškas, estetiškas ir patvarus pasirinkimas poliklinikoms, bendriesiems stacionaro skyriams bei slaugos postams."
-          ]
+          "type": "paragraph",
+          "text": "Kai tuos pačius krepšius planuojama perkelti iš vežimėlio tiesiai į medicinines spintas, prieš užsakant būtina patikrinti, ar tarpusavyje dera konkretus krepšys, vežimėlio bėgeliai ir spintos sistema. Kaip veikia toks standartizuotas priemonių perkėlimas, išsamiau paaiškinta ISO modulių sistemos gide, tačiau vien „MS krepšio“ įrašas ZV1253N-PZ kortelėje konkrečių krepšio matmenų ar suderinamumo su kitomis spintomis nenurodo."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "3. Išmatuokite visą judėjimo maršrutą ir durų angas"
+          "text": "Bendra ir atskirų dalių apkrova"
         },
         {
           "type": "paragraph",
-          "text": "Rinkdamiesi matmenis, atsižvelkite ne tik į vežimėlio korpuso plotį, bet ir į išsikišančius priedus: stūmimo rankenas, šoninius krepšius ar atlenkiamą staliuką. Rekomenduojame patikrinti:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Siauriausias durų angas pakeliui (ypač senesnės statybos korpusuose) ir lifto durų plotį.",
-            "Patalpos, kurioje vežimėlis stovės nenaudojamas, išplanavimą – ar bus galima iki galo ištraukti stalčius nekliudant kitų baldų?",
-            "Manevravimo erdvę palatoje tarp funkcinės lovos, infuzijos stovo ir sienos."
-          ]
+          "text": "Kitas tiksliai palyginamas rodiklis yra leistinas svoris, kurį techniniuose duomenyse sudaro kelios atskiros ribos. Modelio ZV1253N-PZ bendroji leistina apkrova siekia 150 kg, tačiau vieno stalčiaus leistina apkrova yra 20 kg, o viršutinio darbo paviršiaus — taip pat 20 kg. 20 kg riba taikoma visų viename stalčiuje sudėtų daiktų bendrai apkrovai; atskira 20 kg riba — visų ant stalviršio padėtų daiktų bendrai apkrovai. Šių ribų negalima viršyti ir tuomet, kai bendroji vežimėlio apkrova nesiekia 150 kg."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "4. Suplanuokite stalčių talpą, išdėstymą ir užraktus"
+          "text": "Matmenys be priedų ir visa komplektacija"
         },
         {
           "type": "paragraph",
-          "text": "Pasirinkto modelio kortelėje patikrinkite stalčių vidinius matmenis, apkrovą, ištraukimo eigą ir uždarymo mechanizmą. Pertvaras parinkite pagal laikomų ampulių, švirkštų ir tvarsčių pakuočių dydį. Jeigu įstaigoje naudojamas standartizuotas priemonių tiekimas, patikrinkite, ar vežimėlyje integruota ISO modulių sistema, leidžianti krepšius perkelti tiesiai iš sandėlio spintos be priemonių perrinkimo."
+          "text": "Gamintojo kataloge baziniai modeliai ir variantai su priedais pateikiami atskirai, todėl jų matmenys lyginami pagal nurodytą komplektaciją. Pavyzdžiui, ZV1253N-PZ kortelėje nurodytas 83 cm plotis, 57 cm gylis ir 105 cm aukštis yra tik šio modelio matmenys be priedų. Pasirinkti išoriniai priedai ir jų tvirtinimo būdas gali pakeisti bendrus vežimėlio gabaritus. Galutinių matmenų palyginimui reikia visos siūlomos komplektacijos duomenų; vien modelio matmenys be priedų jų nepatvirtina."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "5. Ratukų skersmuo ir važiuoklės stabilumas"
+          "text": "Komplektacijos derinimas ir užklausa"
         },
         {
           "type": "paragraph",
-          "text": "Medicininio vežimėlio eigos sklandumas ir triukšmo lygis tiesiogiai priklauso nuo ratukų kokybės. Ratukų gamintoją, skersmenį ir stabdžių konstrukciją patikrinkite pasirinkto modelio dokumentuose. Vertinkite šias savybes:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Skersmuo: rekomenduojamas 100 mm arba 125 mm skersmuo. Didesnio skersmens ratukai lengviau įveikia grindų slenksčius ir lifto sujungimus.",
-            "Protektorius: netepanti termoplastinė guma, nepaliekanti žymių ant polimerinių ar linoleumo grindų dangų.",
-            "Guolių apsauga: patikrinkite, ar ratukai turi šonines apsaugas nuo siūlų ir plaukų apsivyniojimo.",
-            "Stabdžiai: sutikrinkite ratukų su stabdžiais skaičių ir blokavimo veikimą. Visiško blokavimo stabdys („total stop“) fiksuoja riedėjimą ir ratuko pasisukimą. Jei skyriui reikia antistatinės komplektacijos, ją nurodykite užklausoje ir patvirtinkite konkrečiam modeliui."
-          ]
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "6. Standartiniai Euro-rail bėgeliai (25 × 10 mm) ir priedai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei priedus tvirtinsite prie Euro-rail bėgelio, sutikrinkite jo 25 × 10 mm profilį, vietą ir leistiną apkrovą su pasirinktu modeliu bei laikikliu. Pagal poreikį galima derinti šiuos priedus: reguliuojamo aukščio infuzijų stovą su 2 arba 4 kabliukais, atliekų dėžę su rankiniu arba pedalo atidarymu, aštrių medicininių atliekų konteinerio laikiklį, pirštinių dėžučių laikiklius ar atlenkiamą staliuką papildomam darbiniam plotui."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip parengti tikslią užklausą"
-        },
-        {
-          "type": "paragraph",
-          "text": "Prieš kreipdamiesi dėl pasiūlymo, nurodykite skyriaus pavadinimą, pageidaujamą vežimėlio tipą (BASIC ar PROFI AISI 304), reikalingų stalčių skaičių bei būtinus priedus. Išsamesnius patarimus, kaip suformuluoti techninę specifikaciją viešajam pirkimui ar tiesioginiam užsakymui, rasite atskirame gide, kuriame paaiškinama, kaip parengti įrangos pirkimo užklausą. Taip pat peržiūrėkite, kokie kiti naudingi pasirinkimo gidai padės suderinti visą skyriaus medicinos baldų ūkį."
+          "text": "Norint palyginti kitus modelius ar pasitikslinti, kaip pasirinkti stalčiai ir priedai pakeis galutinę vežimėlio komplektaciją, visą medicininės įrangos bei baldų gydymo įstaigoms asortimentą galima peržiūrėti „Promedical“ produktų kataloge. Dėl konkretaus modelio parinkimo ir tiekimo sąlygų kreipkitės el. paštu info@promedical.lt, telefonu +370 686 88369 arba per kontaktų puslapį."
         }
       ],
       "publishAt": "2026-10-12T07:00:00.000Z",
@@ -456,51 +412,51 @@
       ],
       "links": [
         {
-          "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
-          "label": "Klaro produktų kataloge"
+          "targetPageId": "ef1f0c4a-db01-42c3-a29c-63cfa02089f8",
+          "label": "„METAL LINE BASIC ZV1253N/PZ“"
         },
         {
           "targetPageId": "eab8457c-da03-420f-a149-33ebbd30953e",
-          "label": "ISO modulių sistema"
+          "label": "ISO modulių sistemos gide"
         },
         {
-          "targetPageId": "eb1e5df2-c357-436b-87af-642802724ce9",
-          "label": "įrangos pirkimo užklausą"
+          "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
+          "label": "produktų kataloge"
         },
         {
-          "targetPageId": "be06fde7-be34-4faa-95c2-c99831ca4d99",
-          "label": "pasirinkimo gidai"
+          "targetPageId": "040d087a-777f-45ec-bb10-3095d3e2cccf",
+          "label": "kontaktų puslapį"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.klaro.cz/en/zakladni-voziky",
-          "label": "Klaro: moduliniai vežimėliai",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "label": "„METAL LINE BASIC“ ir „METAL LINE PROFI“ grupės",
+          "reason": "METAL LINE BASIC ir PROFI grupės bei jų korpusų medžiagos."
         },
         {
-          "url": "https://www.klaro.cz/en/voziky-s-prislusenstvim",
-          "label": "Klaro: vežimėliai su priedais",
-          "reason": "Klaro gamintojo informacija apie šį gaminį ar sistemą. Lygindami modelius sutikrinkite tikslų kodą, komplektaciją ir nurodytų duomenų taikymo ribas."
+          "url": "https://www.klaro.cz/produkt/zv1253n-pz",
+          "label": "ZV1253N-PZ",
+          "reason": "ZV1253N-PZ medžiagos, stalčių variantai, apkrovos ir matmenys be priedų."
         },
         {
           "url": "https://www.klaro.cz/en/druhy-nerezove-oceli",
-          "label": "Klaro: nerūdijančio plieno rūšys",
-          "reason": "Gamintojo paaiškinimas apie nerūdijančiojo plieno rūšis. Medžiagos žymėjimas nepakeičia konkretaus gaminio priežiūros dokumentų."
+          "label": "AISI 304 nerūdijančiojo plieno apraše",
+          "reason": "Nerūdijančiojo plieno rūšys ir AISI 304 priežiūros apribojimai."
         },
         {
           "url": "https://www.klaro.cz/en/navody-pdf-2186",
-          "label": "Klaro: produktų instrukcijų paieška",
-          "reason": "Gamintojo instrukcijų rodyklė. Raskite dokumentą pagal tikslų gaminio kodą ir patikrinkite jo leidimą bei taikymo sritį."
+          "label": "gamintojo instrukcijų puslapyje",
+          "reason": "Klaro instrukcijų paieška pagal gaminio katalogo numerį."
         }
       ],
       "id": "a4a35108-c881-401b-a598-d2d0c800b7d3",
-      "revisionHash": "2ed6f3052bd6f2b6116a968df050285aada4cd150fa8c345a5b2e25447969700",
+      "revisionHash": "22302fd46ef11bfe46edc1d0c20a72a7a423bc56929f2a43bae788cfe178a4ab",
       "approval": {
         "status": "approved",
-        "actorId": "codex-promedical-publisher",
-        "approvedAt": "2026-10-10T20:10:27.409Z",
-        "revisionHash": "2ed6f3052bd6f2b6116a968df050285aada4cd150fa8c345a5b2e25447969700"
+        "revisionHash": "22302fd46ef11bfe46edc1d0c20a72a7a423bc56929f2a43bae788cfe178a4ab",
+        "approvedAt": "2026-10-14T16:54:23.754Z",
+        "actorId": "codex-promedical-private-preview-review"
       }
     },
     {
@@ -199606,5 +199562,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-13T17:21:29.723Z"
+  "generatedAt": "2026-10-14T16:54:24.540Z"
 }
