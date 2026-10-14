@@ -28,4 +28,16 @@
 .footer { border-top: 1px solid #d9e2de; font-size: .9rem; }
 .skip { position: absolute; left: 20px; top: -100px; padding: 12px; background: white; z-index: 10; }
 .skip:focus { top: 12px; }
+.inquiry { margin-block: 32px; max-width: 42rem; }
+.inquiryForm { display: grid; gap: 16px; }
+.inquiryForm label { display: grid; gap: 6px; font-weight: 600; }
+.inquiryForm :is(input:not([type=checkbox]),textarea) { width: 100%; min-width: 0; padding: 10px 12px; font: inherit; color: inherit; border: 1px solid #81958b; border-radius: 6px; background: #fff; min-height: 44px; }
+.inquiryForm textarea { resize: vertical; }
+.inquiryForm :is(input,textarea,button):focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.inquiryForm .inquiryConsent { display: flex; align-items: flex-start; gap: 10px; font-weight: 400; min-height: 44px; }
+.inquiryConsent input { flex-shrink: 0; width: 20px; height: 20px; margin-top: 4px; }
+.inquiryForm button { justify-self: start; min-height: 44px; padding: 10px 20px; font: inherit; font-weight: 600; color: #fff; background: #31554a; border: 1px solid #31554a; border-radius: 6px; cursor: pointer; }
+.inquiryForm button:hover { background: #243f36; }
+.inquiryForm p { margin: 0; }
+.honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 @media (max-width: 760px) { .header, .main, .footer { padding-inline: 20px; } .header { align-items: flex-start; flex-direction: column; gap: 16px; } .main { padding-top: 32px; } .grid { grid-template-columns: 1fr; } }

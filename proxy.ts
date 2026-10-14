@@ -41,11 +41,12 @@ export function proxy(request: NextRequest) {
       const response=NextResponse.redirect(target,307);response.headers.set('Cache-Control','private, no-store');return response;
     }
     if(path.startsWith('/_next/')||path.startsWith('/fonts/'))return NextResponse.next();
-    if(content.site.renderer==='niche' && !['GET','HEAD'].includes(request.method)) return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store'}});
+    const inquiryPost=request.method==='POST' && (path==='/uzklausa'||path==='/ivykius');
+    if(content.site.renderer==='niche' && !['GET','HEAD'].includes(request.method) && !inquiryPost) return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store'}});
     const destination=request.nextUrl.clone();
     const seo:Record<string,string>={'/robots.txt':'robots','/sitemap.xml':'sitemap','/llms.txt':'llms','/llms-full.txt':'llms-full','/favicon.svg':'favicon','/favicon.ico':'favicon'};
     const renderer=content.site.renderer;
-    destination.pathname=seo[path]?`/${renderer}/${content.siteId}/seo/${seo[path]}`:renderer==='gift'&&path==='/uzklausa'&&request.method==='POST'?`/niche/${content.siteId}/lead`:renderer==='gift'&&path==='/ivykius'&&request.method==='POST'?`/niche/${content.siteId}/interest`:`/${renderer}/${content.siteId}${path==='/'?'':path}`;
+    destination.pathname=seo[path]?`/${renderer}/${content.siteId}/seo/${seo[path]}`:path==='/uzklausa'&&request.method==='POST'?`/niche/${content.siteId}/lead`:path==='/ivykius'&&request.method==='POST'?`/niche/${content.siteId}/interest`:`/${renderer}/${content.siteId}${path==='/'?'':path}`;
     const requestHeaders=new Headers(request.headers);requestHeaders.set('x-gift-original-path',path);
     requestHeaders.set('x-gift-filtered',path==='/straipsniai' && Boolean(request.nextUrl.searchParams.get('tema')?.trim())?'1':'0');
     const response=NextResponse.rewrite(destination,{request:{headers:requestHeaders}});

@@ -4,6 +4,8 @@ import { RichContent, ContentImage } from '@/components/content/rich-content';
 import { contentPath, contentFeaturedImage, contentAuthorPage, contentDate, contentArticles } from '@/lib/content-presentation';
 import { contentSchemas, contentJsonLd } from '@/lib/content-page-seo';
 import styles from './native-content-site.module.css';
+import {NativeContactForm} from './native-contact-form';
+import {InterestTracking} from './interest-tracking';
 
 type Props = { pkg: ContentPackageV2; page: ProjectedContentPageV2; livePages: ProjectedContentPageV2[] };
 const editorialTypes = ['article', 'guide'];
@@ -17,6 +19,8 @@ export function NativeContentSite({ pkg, page, livePages }: Props) {
     .sort((a, b) => b.slug.length - a.slug.length)[0];
   const navigation = livePages.filter(item => ['index', 'service', 'about', 'contact'].includes(item.type)).slice(0, 6);
   const information = livePages.filter(item => ['policy', 'about', 'contact', 'author'].includes(item.type));
+  const privacy=livePages.find(item=>item.slug==='privatumas'&&item.type==='policy');
+  const contact=livePages.find(item=>item.slug==='kontaktai'&&item.type==='contact');
   const image = contentFeaturedImage(page);
   const relatedIds = [...new Set([...page.links.map(link => link.targetPageId), ...page.editorial.relatedPageIds])];
   const related = relatedIds.flatMap(id => livePages.find(item => item.id === id && item.id !== page.id) ?? []);
@@ -33,6 +37,7 @@ export function NativeContentSite({ pkg, page, livePages }: Props) {
         {image && <figure className={styles.hero}><ContentImage asset={image} media={page.media} priority sizes="(max-width: 760px) calc(100vw - 40px), 900px" />{image.credit && <figcaption>{image.credit}</figcaption>}</figure>}
         <div className={styles.copy}><RichContent body={page.body.filter(block => block.type !== 'image' || block.assetId !== image?.id)} media={page.media} canonicalUrl={page.url} /></div>
         {page.type === 'contact' && site.contact.email && <p className={styles.contact}>El. paštas: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a></p>}
+        {page.type==='contact'&&page.id===contact?.id&&privacy&&<NativeContactForm privacyHref={contentPath(privacy)}/>}
         {page.editorial.authors.length > 0 && page.type === 'author' && page.editorial.authors.map(author => <section key={author.id}><h2>{author.name}</h2><p>{author.role}</p><p>{author.bio}</p></section>)}
         {page.editorial.sources.length > 0 && <section className={styles.sources}><h2>Šaltiniai</h2><ul>{page.editorial.sources.map(source => <li key={source.id}><a href={source.url} rel="noopener noreferrer">{source.title}</a> — {source.publisher}; peržiūrėta <time dateTime={source.accessedAt}>{contentDate(source.accessedAt, pkg.locale, site.timezone)}</time>.</li>)}</ul></section>}
         {page.editorial.productRecommendation && page.editorial.commerceTargets.map(target => <aside className={styles.recommendation} key={target.id}><h2>{target.label}</h2><p>{target.relationship}</p><a href={target.url} rel="noopener noreferrer">Peržiūrėti informaciją</a></aside>)}
@@ -41,6 +46,7 @@ export function NativeContentSite({ pkg, page, livePages }: Props) {
       {related.length > 0 && <section className={styles.related}><h2>Skaitykite toliau</h2><ul>{related.map(item => <li key={item.id}><a href={contentPath(item)}>{item.title}</a></li>)}</ul></section>}
     </main>
     <footer className={styles.footer}><p>{site.operatorName}</p><nav aria-label="Svetainės informacija">{information.map(item => <a key={item.id} href={contentPath(item)}>{item.title}</a>)}</nav><p>Mūsų verslas automatizuotas su verslomatika.lt</p></footer>
+    {privacy&&<InterestTracking/>}
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: contentJsonLd(contentSchemas(pkg, page, livePages, { articleIndexSlug: index?.slug ?? '', articleIndexLabel: index?.title ?? '', articleTypes: editorialTypes, authorProfileAnySlug: true })) }} />
   </div>;
 }
