@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { nicheSiteByHost, normalizedHost, publicNichePages } from "@/lib/niche-sites";
 import { SITE_CONFIGS } from "@/lib/site-config";
-import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
+import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent, contentBuildProof } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 
@@ -24,25 +24,30 @@ export function proxy(request: NextRequest) {
   const content = !niche ? contentPackageByHost(host) : null;
   if (content) {
     if(contentAdmissionScope(content)==='local-preview' && host!=='localhost' && host!=='127.0.0.1') return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
+    const proof=typeof contentBuildProof==='function'?contentBuildProof(content):null;
+    const bound=<T extends Response>(response:T):T=>{
+      if(proof){response.headers.set('x-niche-package-sha256',proof.packageSha256);response.headers.set('x-niche-source-revision',proof.sourceRevision);}
+      return response;
+    };
     if (!['gift', 'niche'].includes(content.site.renderer)) return new Response('Unsupported content renderer', { status: 404 });
-    if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return new Response('Not found', { status: 404 });
+    if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return bound(new Response('Not found', { status: 404 }));
     if (!isPreview(host) && host !== content.canonicalHost) {
       const destination=request.nextUrl.clone();destination.hostname=content.canonicalHost;destination.protocol='https:';destination.port='';
       return NextResponse.redirect(destination,308);
     }
     const live=publicContentPages(content);
-    if (!live.some(page=>page.type==='home'&&page.slug==='')) return new Response('Not found',{status:404});
-    if(path.startsWith('/content-assets/'))return live.some(page=>page.media.some(media=>media.src===path))?NextResponse.next():new Response('Not found',{status:404});
+    if (!live.some(page=>page.type==='home'&&page.slug==='')) return bound(new Response('Not found',{status:404}));
+    if(path.startsWith('/content-assets/'))return bound(live.some(page=>page.media.some(media=>media.src===path))?NextResponse.next():new Response('Not found',{status:404}));
     // Old article originals must not bypass the new publication/media gate.
     if(path.startsWith('/images/')){
       const asset=visibleMediaAlias(content,live,mediaAliases,path);
-      if(!asset)return new Response('Not found',{status:404});
+      if(!asset)return bound(new Response('Not found',{status:404}));
       const target=request.nextUrl.clone();target.pathname=asset;target.search='';
-      const response=NextResponse.redirect(target,307);response.headers.set('Cache-Control','private, no-store');return response;
+      const response=NextResponse.redirect(target,307);response.headers.set('Cache-Control','private, no-store');return bound(response);
     }
     if(path.startsWith('/_next/')||path.startsWith('/fonts/'))return NextResponse.next();
     const inquiryPost=request.method==='POST' && (path==='/uzklausa'||path==='/ivykius');
-    if(content.site.renderer==='niche' && !['GET','HEAD'].includes(request.method) && !inquiryPost) return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store'}});
+    if(content.site.renderer==='niche' && !['GET','HEAD'].includes(request.method) && !inquiryPost) return bound(new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store'}}));
     const destination=request.nextUrl.clone();
     const seo:Record<string,string>={'/robots.txt':'robots','/sitemap.xml':'sitemap','/llms.txt':'llms','/llms-full.txt':'llms-full','/favicon.svg':'favicon','/favicon.ico':'favicon'};
     const renderer=content.site.renderer;
@@ -52,7 +57,7 @@ export function proxy(request: NextRequest) {
     const response=NextResponse.rewrite(destination,{request:{headers:requestHeaders}});
     response.headers.set('Cache-Control','private, no-store');
     if(isPreview(host)||localContentAdmission(content))response.headers.set('X-Robots-Tag','noindex, nofollow');
-    return response;
+    return bound(response);
   }
 
   if (niche) {
