@@ -3278,40 +3278,115 @@
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "gidai/paraso-galiojimas",
-      "title": "Parašo planšetėje teisinis galiojimas ir eIDAS reglamentas",
-      "description": "Kuo skiriasi biometrinis parašas planšetėje nuo kvalifikuoto elektroninio parašo: teisinis statusas pagal eIDAS 25 ir 26 straipsnius.",
+      "title": "Ar parašas planšetėje galioja? eIDAS reikalavimai",
+      "description": "Ką eIDAS numato parašui planšetėje: paprastojo, pažangiojo ir kvalifikuoto parašo skirtumai, dokumento pakeitimų aptikimas ir duomenų apsauga.",
       "intent": "Parašo planšetė savaime neįrodo, kad sukurtas kvalifikuotas elektroninis parašas.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Ranka planšetėje atliktas parašas gali būti naudojamas elektroniniams dokumentams pasirašyti. Ar pasirinktas būdas tinka konkrečiam dokumentui, priklauso nuo viso pasirašymo sprendimo ir tam dokumentui taikomų reikalavimų. Vien įrenginio modelis parašo teisinio lygio nenustato."
+          "text": "Pagal eIDAS reglamento 25 straipsnio 1 dalį elektroniniam parašui negalima paneigti teisinės galios ir priimtinumo kaip įrodymo teismo procese vien dėl to, kad jis yra elektroninės formos arba neatitinka kvalifikuoto elektroninio parašo reikalavimų. Vis dėlto tai nereiškia, kad konkretus parašas planšetėje automatiškai tinka kiekvienam dokumentui, o ranka rašytam parašui lygiavertę teisinę galią pagal 25 straipsnio 2 dalį turi tik kvalifikuotas elektroninis parašas. Kai renkatės parašo planšetę, perkate įrenginį duomenims surinkti, tačiau rezultatą lemia visa pasirašymo eiga: kaip žmogus susipažįsta su tekstu, kokia programa apdoroja duomenis ir kaip galutinis failas susiejamas su parašu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "eIDAS 25 straipsnis: teisinė galia ir pripažinimas"
+          "text": "Ką daro įrenginys, o ką – programa"
         },
         {
           "type": "paragraph",
-          "text": "eIDAS 25 straipsnis nustato, kad elektroninio parašo teisinė galia ir jo priimtinumas kaip įrodymo negali būti atmesti vien dėl elektroninės formos ar dėl to, kad parašas nėra kvalifikuotas. Tai savaime nereiškia, kad bet kuris pasirašymo būdas atitinka kiekvienai sutarčiai taikomus reikalavimus."
+          "text": "Kai darbuotojas perduoda klientui dokumentą, o žmogus jį perskaito ir pasirašo parašo planšetės ekrane, matomas parašo vaizdas PDF faile yra tik išorinė rezultato dalis. Pagal eIDAS reglamento 3 straipsnio 10 punktą elektroninis parašas yra elektroniniai duomenys, pridėti prie kitų elektroninių duomenų arba logiškai susieti su jais, kuriuos pasirašantysis naudoja pasirašyti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skirtumą tarp matomo parašo vaizdo ir duomenų susiejimo su dokumentu parodo programinės įrangos veikimas. Gamintojas „StepOver“ siūlo sprendimus su skirtingais programiniais įrankiais: „Pad Connector Standard“ surenka parašo vaizdą ir duomenis, o „Pro“ versija į PDF failą įterpia parašą ir skaitmeninį parašą. Skaitmeninis parašas techniškai susieja pasirašymo duomenis su konkrečiu PDF failu taip, kad patikrinus dokumentą būtų galima aptikti bet kokį po pasirašymo atliktą duomenų pakeitimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įsivaizduokite iliustracinį pavyzdį: klientas salone perskaito įrangos perdavimo aktą ir pasirašo planšetėje. Jeigu jūsų naudojama sistema į dokumentą įkelia tik parašo paveikslėlį, pats parašo paveikslėlis nesusieja pasirašymo su nekintamu dokumento turiniu ir neparodo vėlesnių teksto pakeitimų, todėl tam reikalingas tinkamas dokumento bei parašo susiejimas ir patikrinimas."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pažangusis elektroninis parašas (eIDAS 26 straipsnis)"
+          "text": "Trys eIDAS parašo lygiai ir jūsų pasirinkimas"
         },
         {
           "type": "paragraph",
-          "text": "Pažangusis elektroninis parašas turi atitikti eIDAS 26 straipsnio reikalavimus: būti susietas su pasirašančiuoju, leisti nustatyti jo tapatybę, būti sukurtas jo kontroliuojamais parašo kūrimo duomenimis ir susietas su dokumentu taip, kad pakeitimai būtų aptinkami. Ar konkretus diegimas šiuos reikalavimus atitinka, vertinama pagal visą procesą, įskaitant tapatybės nustatymą ir duomenų apsaugą."
+          "text": "Planšetės ir programinės įrangos derinys gali dalyvauti skirtingo lygio pasirašymo procese, todėl prieš pirkdami įsivertinkite tris eIDAS apibrėžtus elektroninio parašo lygius."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Paprastasis elektroninis parašas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai bazinis lygis, kai elektroniniai duomenys pridedami prie kitų elektroninių duomenų arba logiškai su jais susiejami ir naudojami pasirašyti (3 str. 10 p.). Tokiam parašui negalima paneigti teisinės galios ar priimtinumo teisme vien dėl elektroninės formos ar nekvalifikuoto lygio (25 str. 1 d.). Naudojant šį lygį, įmonei rekomenduojama išsaugoti duomenis, kurie aiškiai parodo, kas ir kokį konkretų dokumentą pasirašė."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pažangusis elektroninis parašas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal eIDAS 3 straipsnio 11 punktą ir 26 straipsnio 1 dalį pažangusis elektroninis parašas privalo kartu atitikti visas keturias sąlygas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "būti unikaliai susietas su pasirašančiuoju;",
+            "sudaryti galimybę nustatyti pasirašančiojo tapatybę;",
+            "būti sukurtas naudojant elektroninio parašo kūrimo duomenis, kuriuos pasirašantysis gali su dideliu patikimumu naudoti tik savo kontrolėje;",
+            "būti susietas su tais pasirašytais duomenimis taip, kad bet koks vėlesnis tų duomenų pakeitimas būtų aptinkamas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vien įrašytas parašo atvaizdas ar biometriniai duomenys nereiškia, kad šios keturios sąlygos automatiškai įvykdytos. Gamintojas programą „eSignatureOffice“ pristato paprasto ir pažangiojo elektroninio pasirašymo sistemoms, tačiau vien produkto aprašymas nesertifikuoja kiekvieno kliento proceso. Įmonė savo eigoje turi užtikrinti tiek pasirašančio žmogaus tapatybės nustatymą, tiek techninį duomenų susiejimą, leidžiantį aptikti vėlesnius pakeitimus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kvalifikuotas elektroninis parašas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal 3 straipsnio 12 punktą kvalifikuotas elektroninis parašas yra pažangusis elektroninis parašas, sukurtas kvalifikuotu elektroninio parašo kūrimo įtaisu ir pagrįstas kvalifikuotu elektroninio parašo sertifikatu. Tik šis parašas pagal 25 straipsnio 2 dalį turi ranka rašytam parašui lygiavertę teisinę galią. Kvalifikuotas parašas nėra standartinė visų parašo planšečių savybė, todėl šios lygybės negalima priskirti kiekvienam planšetėje užfiksuotam parašui."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kada reikalingas kvalifikuotas elektroninis parašas (QES)?"
+          "text": "Dokumentų formos reikalavimai ir asmens duomenų apsauga"
         },
         {
           "type": "paragraph",
-          "text": "Pagal eIDAS kvalifikuotas elektroninis parašas turi ranka rašytam parašui lygiavertę teisinę galią. Parašas planšetėje savaime nėra kvalifikuotas. Prieš diegiant sprendimą reikia patikrinti konkrečių dokumentų formos ir pasirašymo reikalavimus. Techninius aspektus aptariame PDF parašo patikros gide, o duomenų apsaugą – parašo duomenų ir privatumo gide."
+          "text": "Pagal eIDAS reglamento 2 straipsnio 3 dalį šis reglamentas nepakeičia ES ar nacionalinės teisės taisyklių dėl sutarčių sudarymo ir galiojimo ar kitų teisinių arba procedūrinių pareigų, susijusių su dokumentų forma, taip pat sektoriaus reikalavimų. Dėl šios priežasties konkrečią jūsų įmonės dokumento rūšį ir pasirinktą pasirašymo eigą turi įvertinti už ją atsakingas žmogus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinktas eIDAS parašo lygis savaime nepatvirtina atitikties Bendrajam duomenų apsaugos reglamentui (BDAR). Ne kiekvienas parašo vaizdas automatiškai laikomas specialios kategorijos duomenimis, tačiau konkrečiu techniniu apdorojimu gaunami biometriniai duomenys, tvarkomi siekiant unikaliai identifikuoti fizinį asmenį (BDAR 4 str. 14 p. ir 9 str. 1 d.), reikalauja atskiro vertinimo pagal 9 straipsnio išimtis bei bendro teisėto tvarkymo pagrindo, o sutikimas nėra vienintelis visoms situacijoms taikomas pagrindas. Duomenų tvarkymo tikslas, būtinumas, saugojimo trukmė, pasirašančio žmogaus informavimas ir techninės bei organizacinės apsaugos priemonės vertinami atskirai (5, 6, 13 ir 32 str.)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasiruošti įrangos pasirinkimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš įsigydami parašo planšetes ir programinę įrangą, pagal mūsų rekomendaciją įsivertinkite penkis praktinius žingsnius:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dokumento rūšis. Nustatykite, kokius dokumentus duosite pasirašyti klientams ar darbuotojams ir kokie formos reikalavimai jiems taikomi.",
+            "Reikiamas parašo lygis. Nuspręskite, kurio eIDAS parašo lygio reikia jūsų numatytiems dokumentams.",
+            "Asmens identifikavimas. Numatykite, kaip darbuotojas prieš pateikdamas planšetę patikrins pasirašančio asmens tapatybę ir kaip tai bus užfiksuota.",
+            "Pakeitimų aptinkamumas. Patikrinkite, ar pasirinkta programa įterpia skaitmeninį parašą į PDF, kad vėlesnis pasirašytų duomenų pakeitimas būtų aptinkamas.",
+            "Dokumentų ir duomenų saugojimas. Nuspręskite, kur saugosite pasirašytus PDF failus, kas turės prieigą prie parašo duomenų ir kiek laiko juos laikysite."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite pateikti užklausą dėl „StepOver“ parašo planšečių ar programinės įrangos, adresu sales@parasoplansetes.lt atsiųskite dominančius įrangos ar programų pavadinimus, reikiamą įrenginių kiekį ir trumpą savo darbo aplinkos aprašymą."
         }
       ],
       "publishAt": "2026-10-10T07:00:00.000Z",
@@ -3364,90 +3439,151 @@
       ],
       "links": [
         {
-          "targetPageId": "1037c044-3f39-47ac-9221-5b001466f4c6",
-          "label": "parašo duomenų ir privatumo gide"
+          "targetPageId": "02bdd2e3-be1e-496f-9d4d-9874746c5c05",
+          "label": "parašo planšetę"
         },
         {
-          "targetPageId": "fcbe4540-a85c-41d6-bcdd-2a857f728a02",
-          "label": "PDF parašo patikros gide"
+          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
+          "label": "PDF failą"
+        },
+        {
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "visa pasirašymo eiga"
         }
       ],
       "externalLinks": [
         {
           "url": "https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/eng",
-          "label": "eIDAS reglamentas, 3, 25 ir 26 straipsniai",
-          "reason": "Elektroninių parašų apibrėžtys, teisinė galia ir pažangiojo parašo reikalavimai."
+          "label": "eIDAS reglamento",
+          "reason": "Pirminis konsoliduotas eIDAS:2/3/25/26/46, elektroninių parašų apibrėžimai, teisinis poveikis ir dokumentų formos taikymo ribos; tikras tekstas perskaitytas Chrome."
+        },
+        {
+          "url": "https://stepover.com/en/products/developer/pad-connector/",
+          "label": "Pad Connector",
+          "reason": "Gamintojo Pad Connector: Standard parašo duomenų surinkimas ir Pro įterpimas bei skaitmeninis PDF pasirašymas."
+        },
+        {
+          "url": "https://stepover.com/en/products/software/esignatureoffice/",
+          "label": "eSignatureOffice",
+          "reason": "Gamintojo eSignatureOffice Windows, PDF/A, parašo vietų šablonai, makrokomandos, sistemų sąsajos ir techniniai reikalavimai."
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+          "label": "Bendrajam duomenų apsaugos reglamentui (BDAR)",
+          "reason": "Pirminis BDAR:4/5/6/9/13/32, biometrinių duomenų paskirtis, teisėtas pagrindas, informavimas, saugojimas ir apsauga; tikras tekstas perskaitytas Chrome."
         }
       ],
       "id": "50251039-f206-4fc9-95dc-7b80268f57a8",
-      "revisionHash": "897f72f028cbe5c1c910b6a75b17b66ae1afd5e8fa2e5632fd446f55f7750d7a",
+      "revisionHash": "7c077163603d3ccf6c68ca669765df6b02df80f5f28c4782e22ecaa4c6541397",
       "approval": {
         "status": "approved",
-        "revisionHash": "897f72f028cbe5c1c910b6a75b17b66ae1afd5e8fa2e5632fd446f55f7750d7a",
-        "approvedAt": "2026-10-13T14:38:22.892Z",
-        "actorId": "Codex owner-authorized public identity update"
+        "revisionHash": "7c077163603d3ccf6c68ca669765df6b02df80f5f28c4782e22ecaa4c6541397",
+        "approvedAt": "2026-10-14T14:35:58.032Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
       "siteId": "parasoplansetes",
       "type": "guide",
       "slug": "programine-iranga/esignatureoffice",
-      "title": "eSignatureOffice – PDF pasirašymo programa",
-      "description": "eSignatureOffice funkcijos ir techniniai reikalavimai: PDF/A pasirašymas Windows aplinkoje, formos, makrokomandos ir integracija į įmonės sistemas.",
+      "title": "eSignatureOffice: PDF pasirašymas ir failo išsaugojimas",
+      "description": "Kaip eSignatureOffice paruošia PDF pasirašymui, randa parašo vietas ir išsaugo failą. Windows reikalavimai, makrokomandos ir sistemų sąsajos.",
       "intent": "eSignatureOffice yra atskiras PDF darbo eigos kelias, kurį reikia parinkti pagal aplinką ir licenciją.",
       "body": [
         {
           "type": "paragraph",
-          "text": "„eSignatureOffice“ – „Windows“ operacinei sistemai skirta programinė įranga PDF/A dokumentams peržiūrėti, formoms pildyti ir biometriniam parašui fiksuoti. Ji pritaikyta stacionarioms darbo vietoms, kuriose darbuotojas pateikia dokumentą klientui, o pasirašytą failą reikia išsaugoti arba perduoti tolesniam apdorojimui įmonės sistemoje. Parašas įterpiamas tiesiai į PDF dokumentą."
+          "text": "„eSignatureOffice“ yra „Windows 10“ ir „Windows 11“ kompiuteriams skirta programa, kurioje darbuotojas atidaro dokumentą, užpildo formos laukus, perduoda jį klientui pasirašyti prijungtoje planšetėje ir išsaugo užbaigtą failą. Šį programinį variantą verta rinktis tada, kai prie kompiuterio prijungtai parašo planšetei reikia darbuotojo valdomos pasirašymo aplinkos su parašo vietų paieška, šablonais ir automatizuotu failo išsaugojimu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Techniniai reikalavimai"
+          "text": "Kaip vyksta dokumento peržiūra ir pasirašymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbuotojas kompiuteryje atidaro dokumentą, prireikus užpildo arba išsaugo jame esančius formos laukus ir paleidžia pasirašymą. Jei į programą įkeliamas PDF/A (ilgalaikiam archyvavimui pritaikyto PDF standarto) dokumentas, pasirašytas failas taip pat išsaugomas PDF/A formatu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Programa naudojama su „StepOver“ planšetėmis „naturaSign Pad Classic“ bei „duraSign Pad 4.3“, „5.0“ ir „10.0“ („eSignatureOffice“ produkto aprašymas). Tai, kaip dokumentas rodomas pačiame įrenginyje, priklauso nuo konkretaus planšetės modelio ir programos nustatymų. Kadangi net ir didesnis ekranas savaime negarantuoja bet kokio dokumento įskaitomumo, teksto matomumą rekomenduojama iš anksto patikrinti su jūsų naudojamu dokumento maketu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Parašo vietos ir veiksmai po pasirašymo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kad darbuotojui nereikėtų kiekvieną kartą ranka žymėti, kur klientas turi pasirašyti, programoje paruošiamas parašų šablonas. Pagal jį programa dokumente suranda parašo vietas remdamasi iš anksto nurodytais paieškos žodžiais arba esamais PDF parašo laukais. Šablone taip pat galima nustatyti, kurios parašo vietos yra privalomos, o kurios — neprivalomos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Veiksmams po pasirašymo sukonfigūruojamos makrokomandos — iš anksto aprašytos komandų sekos. Jos automatizuoja pasirašyto failo pervadinimą, išsaugojimą nurodytame aplanke, spausdinimą ir perdavimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip atrodo sukonfigūruota darbo eiga, parodo iliustracinis pavyzdys. Darbuotojas kompiuteryje atidaro sutartį, kurioje programa pagal paruoštą šabloną suranda raktinius žodžius ir pažymi vieną privalomą bei vieną neprivalomą parašo vietą. Klientas „duraSign Pad 5.0“ ekrane pasirašo privalomame lauke, praleidžia neprivalomą sutikimą ir patvirtina parašą. Tada makrokomanda pervadina pasirašytą PDF failą ir įrašo jį į nurodytą įmonės aplanką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada rinktis kitą darbo būdą"
+        },
+        {
+          "type": "paragraph",
+          "text": "„StepOver“ siūlo kelis sprendimus, todėl „eSignatureOffice“ nėra būtina visiems „NG“ serijos modeliams ar kiekvienai klasikinei sistemai:"
         },
         {
           "type": "list",
           "items": [
-            "Operacinė sistema: Windows 10 / 11",
-            "Minimalus procesorius: Dviejų branduolių, 1 GHz",
-            "Rekomenduojamas procesorius: Dviejų branduolių, 2 GHz",
-            "RAM: Min. 1 GB; rekomenduojama 2 GB",
-            "Disko vieta: 150 MB, įskaitant laikinuosius duomenis",
-            "Ekranas: Bent 1024 × 768, 16 bitų spalvos",
-            "Dokumentai: PDF/A; formų ir parašo laukai",
-            "Duomenų apsauga: Biometrinių duomenų RSA šifravimas iki 4096 bitų"
+            "Savarankiškas „duraSign Pad NG 10“ darbas arba derinimas su programa. „NG 10“ pagrindinį pasirašymą geba atlikti pačiame įrenginyje per naršyklę, todėl baziniam darbui atskira kompiuterio programa nebūtina („duraSign Pad NG 10“ aprašymas). Kai procesui reikia papildomos automatizacijos, „NG 10“ gali būti naudojamas kartu su „eSignatureOffice“.",
+            "Dokumentų siuntimas per „Print2NG“. Jei dokumentą formuojate kitoje programoje ir norite jį tiesiai perduoti į „NG“ serijos planšetę (pavyzdžiui, „NG 10“ jungiant per USB arba įsigijus papildomą „Ethernet Connection Kit“ — per vietinį tinklą LAN) be dokumento peržiūros ir laukų pildymo „eSignatureOffice“ lange, naudojamas „Print2NG“ sprendimas."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dokumentų apdorojimas ir integracija"
+          "text": "Sąsajos su jūsų sistemomis ir techniniai reikalavimai"
         },
         {
           "type": "paragraph",
-          "text": "Parašo laukus galima nustatyti pagal ieškomus teksto raktinius žodžius arba pagal iš anksto parengtus PDF laukus. Programa leidžia atskirti privalomus ir pasirenkamus parašus, pildyti formas, patogiai slinkti dokumentą ir keisti mastelį. Naudojant makrokomandas galima automatizuoti failo pervadinimą, išsaugojimą, spausdinimą ir perdavimą."
+          "text": "Jei „eSignatureOffice“ norite įjungti į esamą darbo eigą, programą galima valdyti paleidimo parametrais ir konfigūracijos failais. Gilesniam pasirašymo funkcijų įterpimui į jūsų programinę įrangą skirtas OCX komponentas — įterpiamas programinis valdiklis „Windows“ aplinkai („eSignatureOffice“ techninė informacija)."
         },
         {
           "type": "paragraph",
-          "text": "Integracijai į įmonės sistemas naudojami paleidimo parametrai, XML bei konfigūracijos failai; galima integruoti OCX komponentą. Dokumentai gaunami ir perduodami HTTP(S) ar FTP protokolais, o rezultatus galima automatiškai siųsti el. paštu. Sukurtą konfigūraciją galima eksportuoti į .scs failą kitoms darbo vietoms. Terminalinėms aplinkoms skirti specialūs TCP ir „Citrix“ moduliai. Pasirašant PDF/A dokumentą, programa išsaugo jo atitiktį PDF/A standartui."
+          "text": "Programa turi HTTP(S), FTP ir el. pašto galimybes failams perduoti. Vis dėlto šie kanalai nėra automatinis susiejimas su bet kuria dokumentų valdymo sistema (DVS) — tokiai sąsajai reikia suderinimo su konkrečia jūsų įmonės sistema. Gamintojo puslapyje šiam sprendimui taip pat siūloma metinė prenumerata."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reikalavimai darbuotojo kompiuteriui ir aplinkai:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Operacinė sistema: „Windows 10“ arba „Windows 11“.",
+            "Procesorius ir atmintis: minimaliai — dviejų branduolių 1 GHz procesorius ir 1 GB RAM; rekomenduojamas dviejų branduolių 2 GHz procesorius ir 2 GB RAM.",
+            "Vieta diske: 150 MB laisvos vietos, įskaitant laikinuosius duomenis.",
+            "Ekranas: bent 1024 × 768 raiška, 16 bitų spalvos.",
+            "Terminaliniai serveriai: dirbant terminalinių serverių aplinkose, naudojami TCP arba „Citrix“ moduliai."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Suderinamumas ir licencijavimas"
+          "text": "Duomenys užklausai"
         },
         {
           "type": "paragraph",
-          "text": "Gamintojo produkto puslapyje nurodytas suderinamumas su „naturaSign Pad Classic“, „duraSign Pad 4.3“, „5.0“ ir „10.0“. NG modelių techniniuose lapuose nurodoma „eSignatureOffice“ 7.X ar naujesnė versija, tačiau konkreti darbo eiga su NG modeliu tikrinama atskirai. Gamintojas siūlo metinę prenumeratą su programinės įrangos atnaujinimais ir pagalba."
+          "text": "Rekomenduojamai patikrai prieš priimant sprendimą parašykite el. paštu sales@parasoplansetes.lt ir nurodykite:"
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Toliau renkantis sprendimą"
-        },
-        {
-          "type": "paragraph",
-          "text": "Kaip dokumentas pateikiamas ir pasirašomas, paaiškina PDF pasirašymo gidas. Programos tinkamumą jūsų aplinkai padeda įvertinti bandomasis diegimas. Dėl licencijos ir papildomų modulių galite teirautis dėl eSignatureOffice."
+          "type": "list",
+          "items": [
+            "kokią operacinę sistemą („Windows 10“ ar „Windows 11“) ir kokią darbo aplinką (vietinį kompiuterį ar terminalinį serverį) naudojate;",
+            "kurį parašo planšetės modelį turite arba planuojate rinktis;",
+            "kokiose dokumento vietose dedami privalomi ir neprivalomi parašai (prisekite nuasmenintą dokumento pavyzdį be tikrų asmens duomenų);",
+            "kur ir kaip po pasirašymo turi būti išsaugomas arba perduodamas PDF failas."
+          ]
         }
       ],
       "publishAt": "2026-10-10T07:00:00.000Z",
@@ -3500,37 +3636,42 @@
       ],
       "links": [
         {
-          "targetPageId": "c63ae7ee-761b-41a4-b84e-3a81d95deb4d",
-          "label": "PDF pasirašymo gidas"
+          "targetPageId": "265c5f13-24f2-48aa-b4b6-ad1e52e116f1",
+          "label": "„Print2NG“ sprendimas"
         },
         {
-          "targetPageId": "a66d33ec-9943-49f1-b2a9-21d285905218",
-          "label": "bandomasis diegimas"
+          "targetPageId": "56845903-0cbb-4648-85a5-3ee3356913ac",
+          "label": "dokumentų valdymo sistema"
         },
         {
-          "targetPageId": "874d6fea-8071-48d4-bc07-ea1004302e7e",
-          "label": "teirautis dėl eSignatureOffice"
+          "targetPageId": "baa2c200-0432-4568-9cc3-b559cf9b9c80",
+          "label": "Terminaliniai serveriai"
         }
       ],
       "externalLinks": [
         {
           "url": "https://stepover.com/en/products/software/esignatureoffice/",
-          "label": "StepOver eSignatureOffice – PDF pasirašymo programa",
-          "reason": "Gamintojo pateikta produkto paskirtis, funkcijos ir suderinamumo sąlygos."
+          "label": "„eSignatureOffice“ produkto aprašymas",
+          "reason": "Gamintojo eSignatureOffice Windows, PDF/A, parašo vietų šablonai, makrokomandos, sistemų sąsajos ir techniniai reikalavimai."
         },
         {
-          "url": "https://stepover.com/wp-content/uploads/Flyer-eSignatureOffice-EN.pdf",
-          "label": "eSignatureOffice – gamintojo brošiūra (2021 m.)",
-          "reason": "2021 m. brošiūra: papildomas funkcijų aprašymas; netaikoma dabartinei programos versijai nustatyti."
+          "url": "https://stepover.com/en/products/signature-pads/durasign-pad-ng-10/",
+          "label": "„duraSign Pad NG 10“ aprašymas",
+          "reason": "Gamintojo NG10 naršyklės darbas, savarankiškas PDF apdorojimas ir LAN tik su papildomu Ethernet Connection Kit."
+        },
+        {
+          "url": "https://stepover.com/en/products/software/esignatureoffice/",
+          "label": "„eSignatureOffice“ techninė informacija",
+          "reason": "Gamintojo eSignatureOffice Windows, PDF/A, parašo vietų šablonai, makrokomandos, sistemų sąsajos ir techniniai reikalavimai."
         }
       ],
       "id": "f9a76c07-c828-46b9-a31f-d8e5d997d464",
-      "revisionHash": "2a86c56e39013483404f828403d0d52ed127156d6caabdf7cf8cafc4671615a1",
+      "revisionHash": "b3c1ea9df5fe06b08c68f1d8436e740227e66d67a523f8daeed570f3c0c888fd",
       "approval": {
         "status": "approved",
-        "revisionHash": "2a86c56e39013483404f828403d0d52ed127156d6caabdf7cf8cafc4671615a1",
-        "approvedAt": "2026-10-13T16:22:47.375Z",
-        "actorId": "Codex owner-authorized technical-description adoption"
+        "revisionHash": "b3c1ea9df5fe06b08c68f1d8436e740227e66d67a523f8daeed570f3c0c888fd",
+        "approvedAt": "2026-10-14T14:35:58.093Z",
+        "actorId": "codex-parasoplansetes-20261014"
       }
     },
     {
@@ -6306,5 +6447,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-14T10:34:54.332Z"
+  "generatedAt": "2026-10-14T14:35:58.234Z"
 }
