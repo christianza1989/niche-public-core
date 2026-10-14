@@ -2,7 +2,15 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
-  "contactsBySite": {},
+  "publicationCutoffsBySite": {
+    "parasoplansetes": "2026-10-13T19:26:19.387Z"
+  },
+  "contactsBySite": {
+    "parasoplansetes": {
+      "operatorName": "Parašo planšetės.lt",
+      "email": "sales@parasoplansetes.lt"
+    }
+  },
   "networkDomains": [
     "akmenas.lt",
     "apartmentstrakai.lt",
@@ -23,9 +31,11 @@
     "miniekskavatoriai.lt",
     "mtaisykla.lt",
     "namudekoravimas.lt",
+    "parasoplansetes.lt",
     "pliusstatyba.lt",
     "rentbook.lt",
     "roletaiklaipedoje.lt",
+    "signaturepads.lt",
     "smulkusurmas.lt",
     "storyline.lt",
     "tiknamams.lt",
@@ -53,9 +63,11 @@
     "www.miniekskavatoriai.lt",
     "www.mtaisykla.lt",
     "www.namudekoravimas.lt",
+    "www.parasoplansetes.lt",
     "www.pliusstatyba.lt",
     "www.rentbook.lt",
     "www.roletaiklaipedoje.lt",
+    "www.signaturepads.lt",
     "www.smulkusurmas.lt",
     "www.storyline.lt",
     "www.tiknamams.lt",

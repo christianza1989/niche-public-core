@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { projectPublicPages, contextualParts } from '../lib/niche-links.mjs';
+import { projectPublicPages, contextualParts, publicationTime } from '../lib/niche-links.mjs';
 const now = Date.now();
 const page = (id, slug, date = now - 1000) => ({ id, slug, publishAt: new Date(date).toISOString(), revisionHash: id,
   approval: { status: 'approved', revisionHash: id }, links: [] });
@@ -15,6 +15,9 @@ test('cross-domain targets share approval/time/deployment guards and raw approva
   assert.equal(projectPublicPages(source, [source,b], settings, now)[0].externalLinks.length, 1);
   assert.equal(projectPublicPages(source, [source,b], settings, now)[0].links.length, 0);
   assert.equal(projectPublicPages(source, [source,b], settings, now+2000)[0].externalLinks.length, 2);
+  const paused = { ...settings, publicationCutoffsBySite: { b: new Date(now).toISOString() } };
+  assert.equal(publicationTime('b', paused, now+2000), now);
+  assert.equal(projectPublicPages(source, [source,b], paused, now+2000)[0].externalLinks.length, 1);
   assert.equal(projectPublicPages(source, [source,b], { ...settings, networkLiveDomains: [] }, now+2000)[0].externalLinks.length, 1);
   const revoked = structuredClone(b); revoked.pages[0].approval.status = 'revoked';
   assert.equal(projectPublicPages(source, [source,revoked], settings, now+2000)[0].externalLinks.length, 1);

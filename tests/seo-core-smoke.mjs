@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import { request as httpRequest } from "node:http";
 import { request as httpsRequest } from "node:https";
 import { projectPublicPages } from "../lib/niche-links.mjs";
+import { nicheReadingBody } from "../lib/niche-reading-core.mjs";
 
 const siteId = process.env.SEO_SMOKE_SITE_ID || "greitossvetaines";
 const base = process.env.SEO_SMOKE_BASE_URL || "http://127.0.0.1:8787";
@@ -66,6 +67,7 @@ for (const path of ["/llms.txt", "/llms-full.txt"]) {
   assert.match(response.headers["content-type"] || "", /text\/markdown/);
   for (const page of live) assert.ok(body.includes(`${origin}${page.slug ? `/${page.slug}` : "/"}`), `${path}: ${page.slug}`);
   if (path === '/llms-full.txt') for (const page of live) for (const link of page.externalLinks ?? []) assert.ok(body.includes(link.url), `LLM sources: ${link.url}`);
+  if (path === '/llms-full.txt') for (const page of live) for (const answer of nicheReadingBody(siteId, page)) assert.ok(body.includes(answer), `LLM visible body: ${page.slug || '/'}: ${answer.slice(0, 80)}`);
 }
 
 const missing = await get("/__seo_smoke_missing__");

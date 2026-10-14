@@ -7,7 +7,7 @@ async function handle(request: Request, { params }: { params: Params }) {
   const { siteId, action } = await params;
   const pkg = nicheSiteByHost(request.headers.get("host"));
   if (!pkg || pkg.siteId !== siteId || !publicNichePage(pkg, "")) return new Response("Not found", { status: 404 });
-  const methods: Record<string, string> = { sesija: "POST", busena: "GET", kontaktas: "POST", baigti: "POST", ui: "POST", atmintis: "GET", pamirsti: "POST", zinios: "POST", manifestas: "GET" };
+  const methods: Record<string, string> = { sesija: "POST", busena: "GET", kontaktas: "POST", baigti: "POST", ui: "POST", atmintis: "GET", pamirsti: "POST", zinios: "POST", manifestas: "GET", zinute: "POST" };
   if (methods[action] !== request.method) return new Response("Method not allowed", { status: 405 });
   if (action === "manifestas") return voiceManifestResponse(pkg, request);
   if (request.method !== "GET" && request.headers.get("origin") !== new URL(request.url).origin) {
@@ -26,7 +26,7 @@ async function handle(request: Request, { params }: { params: Params }) {
     while (true) {
       const { done, value } = await reader.read(); if (done) break;
       size += value.byteLength;
-      if (size > 3000) { await reader.cancel(); return Response.json({ error: "request_too_large" }, { status: 413 }); }
+      if (size > 6000) { await reader.cancel(); return Response.json({ error: "request_too_large" }, { status: 413 }); }
       parts.push(value);
     }
     const bytes = new Uint8Array(size); let offset = 0;

@@ -12,6 +12,7 @@ export default async function NichePageView({ params }: { params: Params }) {
   const page = publicNichePage(pkg, slug.join("/"));
   if (!page) notFound();
   const props = { pkg, page, livePages: publicNichePages(pkg) };
+  if (siteId === "parasoplansetes") { const { ParasoplansetesSite } = await import("@/components/niche/parasoplansetes-site"); return <ParasoplansetesSite {...props} />; }
   if (siteId === "traktoriupadangos") {
     const { TractorSite } = await import("@/components/niche/tractor-site");
     const enabled = voiceWidgetEnabled(pkg);
@@ -28,4 +29,3 @@ export default async function NichePageView({ params }: { params: Params }) {
   const { GenericNicheSite } = await import("@/components/niche/generic-site");
   return <GenericNicheSite {...props} />;
 }
-
