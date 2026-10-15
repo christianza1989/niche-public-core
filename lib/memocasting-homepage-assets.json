@@ -528,6 +528,96 @@
       "bytes": 436,
       "sha256": "d9364237d33c83e0dc01e82ade36046e796852cac40dd4546f2b2e231a7c7595",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1254.webp",
+      "bytes": 65032,
+      "sha256": "3c59d4dd3817f0d7c6cf51c0f78ce36d8a4fd070d555b81fdae04df2326a8744",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1200.webp",
+      "bytes": 60032,
+      "sha256": "cffe928c370db4651f570780ecb0129c551cd19d37559acc2b6a14ac32d3f8f1",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-800.webp",
+      "bytes": 35386,
+      "sha256": "042d64c5d5e244a46399a37899bbf2a4d4f875ba879617d20526dfda265ec858",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-640.webp",
+      "bytes": 26372,
+      "sha256": "bcd629e89a026701d4d34732be0ed70a92875ede2f662523d20e982f8b4d269b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-360.webp",
+      "bytes": 12666,
+      "sha256": "7edbf7db6235290307b99d72d95f38cd9f8adb587bd3d95c4160813fc57155cf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1254.webp",
+      "bytes": 79690,
+      "sha256": "7d69e726714d792d9574312d9a0a052775a4efb6827302b46acba09a7f6df659",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1200.webp",
+      "bytes": 73876,
+      "sha256": "c2ab9bdb9915ca40eb5ce782ce60b2665f2d86fa3b307e0cb483b62eaacad7d5",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-800.webp",
+      "bytes": 39344,
+      "sha256": "bf20f0a02b604084546d900537584b0d33fd7d6abfc7bb1622d52cb5f2a24d05",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-640.webp",
+      "bytes": 27262,
+      "sha256": "9a16fad0969e53d52dc806231e6038e84b82a29bc0511213fb2ce79e7578f3b0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-360.webp",
+      "bytes": 10828,
+      "sha256": "09775a50f014915f7c05d829f64b22fc8d58288cd157d8ebc1d42b6fc6013816",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1254.webp",
+      "bytes": 71370,
+      "sha256": "8cab7b7f607af215811132e775ba0549868fac4148a9fb2a49965eb8ecf2b00a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1200.webp",
+      "bytes": 66162,
+      "sha256": "ab6565f53649f72fd18010650f5b8b101f2633493dc49288378e2eb56902178a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-800.webp",
+      "bytes": 36258,
+      "sha256": "7c5b2a2a952cd9c30ce345eddde752676641c5d9dd7c84fc401944da0bfbd87b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-640.webp",
+      "bytes": 26742,
+      "sha256": "193497aa891e77714551899f4899a1d73488cafb2701bd78239ab7399f24cc95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-360.webp",
+      "bytes": 12428,
+      "sha256": "ba5b08211db8143a10593fde1e8d53f91645c81ae2c11b17d137ee52aced280d",
+      "type": "image/webp"
     }
   ]
 }

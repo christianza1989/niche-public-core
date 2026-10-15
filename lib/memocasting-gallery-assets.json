@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": "family",
+      "category": "family",
+      "title": "Šeimos prisilietimas",
+      "description": "Trijų rankų kompozicija",
+      "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-360.webp",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-640.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-800.webp",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1200.webp",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1254.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "promise",
+      "category": "couple",
+      "title": "Pažadas",
+      "description": "Susikabinusių mažųjų pirštų skulptūra",
+      "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-360.webp",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-640.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-800.webp",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1200.webp",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1254.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "category": "couple",
+      "title": "Dviese",
+      "description": "Rankomis suformuota širdis",
+      "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-360.webp",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-640.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-800.webp",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1200.webp",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1254.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    }
+  ]
+}

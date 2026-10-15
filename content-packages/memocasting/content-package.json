@@ -239,31 +239,42 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Detalės, kurios priklauso jums."
+          "text": "Prisiminimai, įgavę formą."
         },
         {
           "type": "paragraph",
-          "text": "Pažįstamas gestas. Vis naujas būdas jį pamatyti."
+          "text": "Vienas gestas. Tūkstančiai istorijų."
         },
         {
           "type": "paragraph",
-          "text": "Iliustraciniai vaizdai. Jie nerodo patvirtintų klientų darbų ar visos rinkinių komplektacijos."
+          "text": "Įkvėpimo iliustracijos. Jos nerodo klientų darbų ar tikslios rinkinių komplektacijos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Šeimos prisilietimas"
         },
         {
           "type": "paragraph",
-          "text": "Vieta jūsų akimirkai."
+          "text": "Trijų rankų kompozicija"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pažadas"
         },
         {
           "type": "paragraph",
-          "text": "Mažos rankos. Didelis ryšys."
+          "text": "Susikabinusių mažųjų pirštų skulptūra"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dviese"
         },
         {
           "type": "paragraph",
-          "text": "Kiekvienas prisilietimas savas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Viskas prasideda nuo jūsų."
+          "text": "Rankomis suformuota širdis"
         },
         {
           "type": "heading",
@@ -505,6 +516,141 @@
           "height": 254,
           "credit": "Rinkinio ir liejinio vaizdas. Komplektaciją tikrinkite pasirinkto produkto apraše.",
           "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+        },
+        {
+          "id": "c0fbf4f7-21d6-4410-b1df-e5cf26ef9186",
+          "src": "/content-assets/memocasting/c0fbf4f7-21d6-4410-b1df-e5cf26ef9186.webp",
+          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "width": 1254,
+          "height": 1254,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "128d64a8-ba28-4eb3-b073-8f1a4a12b2e4",
+          "src": "/content-assets/memocasting/128d64a8-ba28-4eb3-b073-8f1a4a12b2e4.webp",
+          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "width": 1200,
+          "height": 1200,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "fc72d465-19a9-4aea-a36c-05f5a03a6fd1",
+          "src": "/content-assets/memocasting/fc72d465-19a9-4aea-a36c-05f5a03a6fd1.webp",
+          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "cbe675de-b08b-4536-8607-e1d6c54dde42",
+          "src": "/content-assets/memocasting/cbe675de-b08b-4536-8607-e1d6c54dde42.webp",
+          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "b7e855b0-0fbc-4388-ae36-118359d79333",
+          "src": "/content-assets/memocasting/b7e855b0-0fbc-4388-ae36-118359d79333.webp",
+          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "ce68002b-7fc1-49bf-a1e5-e9b7d1fecd60",
+          "src": "/content-assets/memocasting/ce68002b-7fc1-49bf-a1e5-e9b7d1fecd60.webp",
+          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "width": 1254,
+          "height": 1254,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "7ec00eb4-b09c-4ab9-9178-f679c92a3336",
+          "src": "/content-assets/memocasting/7ec00eb4-b09c-4ab9-9178-f679c92a3336.webp",
+          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "width": 1200,
+          "height": 1200,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "b0c2b138-733b-475f-9460-4765dc89c56b",
+          "src": "/content-assets/memocasting/b0c2b138-733b-475f-9460-4765dc89c56b.webp",
+          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "47874080-b829-4389-9576-70c1a76cff37",
+          "src": "/content-assets/memocasting/47874080-b829-4389-9576-70c1a76cff37.webp",
+          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "c001c2cf-1d5e-4134-9e91-de169aadb92e",
+          "src": "/content-assets/memocasting/c001c2cf-1d5e-4134-9e91-de169aadb92e.webp",
+          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "c06f14e0-18be-4620-9956-4ce275cfba2c",
+          "src": "/content-assets/memocasting/c06f14e0-18be-4620-9956-4ce275cfba2c.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "width": 1254,
+          "height": 1254,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "cc20f147-8063-49e6-b492-594b198f9ef0",
+          "src": "/content-assets/memocasting/cc20f147-8063-49e6-b492-594b198f9ef0.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "width": 1200,
+          "height": 1200,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "44487506-3ae3-408d-be7c-ce518d2f966a",
+          "src": "/content-assets/memocasting/44487506-3ae3-408d-be7c-ce518d2f966a.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "decfe6a9-3b2f-4e9d-ab28-6e59215425a2",
+          "src": "/content-assets/memocasting/decfe6a9-3b2f-4e9d-ab28-6e59215425a2.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+        },
+        {
+          "id": "b8eb50e8-b4e0-4162-9892-0ed88b6f12c7",
+          "src": "/content-assets/memocasting/b8eb50e8-b4e0-4162-9892-0ed88b6f12c7.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
         }
       ],
       "links": [
@@ -544,12 +690,12 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "4ff46946b1ba154a8116102333b1c25a69e2b7e9586a7bf03296b328a99300fa",
+      "revisionHash": "fede0c8298bb95f53d07421023405766c1baf41cf83a8fd8deb9deae8c533935",
       "approval": {
         "status": "approved",
-        "revisionHash": "4ff46946b1ba154a8116102333b1c25a69e2b7e9586a7bf03296b328a99300fa",
-        "approvedAt": "2026-10-13T21:29:04.481Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "fede0c8298bb95f53d07421023405766c1baf41cf83a8fd8deb9deae8c533935",
+        "approvedAt": "2026-10-15T10:44:26.376Z",
+        "actorId": "codex-memocasting-gallery-20261015"
       }
     },
     {
@@ -26605,5 +26751,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-15T08:45:48.229Z"
+  "generatedAt": "2026-10-15T10:44:26.534Z"
 }
