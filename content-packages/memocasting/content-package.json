@@ -2086,7 +2086,7 @@
           "text": "Jei rinkinio dar neturite, rankų liejimo rinkinys porai ir rankų liejimo rinkinys šeimai padės palyginti aprašytą komplektaciją. Pirmiausia įvertinkite, ar artimieji nori patys dalyvauti kuriant prisiminimą. Jei abejojate, gidas „Rankų liejimo rinkinys ar paruošta dovana?“ padės apsispręsti pagal dovanos gavėjų lūkesčius."
         }
       ],
-      "publishAt": "2026-10-26T08:00:00.000Z",
+      "publishAt": "2026-10-26T14:00:00.000Z",
       "media": [
         {
           "id": "66155eda-36c0-4839-a37d-251b5364fb80",
@@ -2153,12 +2153,12 @@
         }
       ],
       "id": "a15a13a1-71e4-484d-a031-37954cb760b9",
-      "revisionHash": "0b3fcf2d0fa1cbf4960da68125ad385c4591675a965893786be607bd22711d27",
+      "revisionHash": "fae86165af3cf5fdb2b7200e9dc325530893a8911e96ca88ad5e3a4f68b70c0f",
       "approval": {
         "status": "approved",
-        "revisionHash": "0b3fcf2d0fa1cbf4960da68125ad385c4591675a965893786be607bd22711d27",
-        "approvedAt": "2026-10-14T20:18:17.075Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "fae86165af3cf5fdb2b7200e9dc325530893a8911e96ca88ad5e3a4f68b70c0f",
+        "approvedAt": "2026-10-15T08:45:47.268Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -3122,7 +3122,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-15T07:00:00.000Z",
+      "publishAt": "2026-10-15T08:45:40.713Z",
       "media": [
         {
           "id": "57b1ba6d-7587-40fb-8137-4c57215d48ab",
@@ -3185,12 +3185,12 @@
         }
       ],
       "id": "ac6caea7-95af-4e5c-b13c-d060f7c064ae",
-      "revisionHash": "721f047448057607c567dd61003e727e9df5e690c6d375095d51bd42308a5006",
+      "revisionHash": "c1f3929c70c73e9daac0749c9ef9cc2f2771541d57c797d3b6fcbc4840ae35fd",
       "approval": {
         "status": "approved",
-        "revisionHash": "721f047448057607c567dd61003e727e9df5e690c6d375095d51bd42308a5006",
-        "approvedAt": "2026-10-14T20:18:14.203Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "c1f3929c70c73e9daac0749c9ef9cc2f2771541d57c797d3b6fcbc4840ae35fd",
+        "approvedAt": "2026-10-15T08:45:45.921Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -3318,7 +3318,7 @@
           "text": "Jei šeima dar neapsisprendė, nuo ko pradėti, pravers dovanų idėjos pagal žmogų, progą ir biudžetą. O konkretų rinkinį rinkitės tuomet, kai jau aišku, kad gavėjai nori kurti kartu ir jo naudojimo sąlygos jiems tinka."
         }
       ],
-      "publishAt": "2026-10-18T07:00:00.000Z",
+      "publishAt": "2026-10-18T13:00:00.000Z",
       "media": [
         {
           "id": "d6dfcf7c-c286-4af0-ad32-65362b942413",
@@ -3389,12 +3389,12 @@
         }
       ],
       "id": "52239986-e4fd-4b2c-bab4-496387a49216",
-      "revisionHash": "a55fa31dd66acca7980b748f5aef838a2660118200d88333b74625ed88ad1ebc",
+      "revisionHash": "dc7b4a3a36d2f7e7e99be559cd56d8e9577599b87296efdbe8725e4b03a527ce",
       "approval": {
         "status": "approved",
-        "revisionHash": "a55fa31dd66acca7980b748f5aef838a2660118200d88333b74625ed88ad1ebc",
-        "approvedAt": "2026-10-14T20:18:14.416Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "dc7b4a3a36d2f7e7e99be559cd56d8e9577599b87296efdbe8725e4b03a527ce",
+        "approvedAt": "2026-10-15T08:45:46.302Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -9655,7 +9655,7 @@
           "text": "Jei dar dvejojate dėl dovanos krypties, pradėti padės Dovanų idėjos pagal žmogų, progą ir biudžetą. Išsirinkite kelias tinkamas galimybes ir palyginkite jas pagal tai, ką iš tiesų žinote apie gavėją."
         }
       ],
-      "publishAt": "2026-10-15T07:00:00.000Z",
+      "publishAt": "2026-10-15T13:00:00.000Z",
       "media": [
         {
           "id": "d8088113-1d56-42bb-94ad-e0bb9281235f",
@@ -9718,12 +9718,12 @@
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "cd146fca508767b4b3a664e16ed4cf6e5adf8f461071f89319bb9bb297fb2a6e",
+      "revisionHash": "0db521d4af0ff786662272fa5ba57d39242dfb202a8770e520119af2d7708eb4",
       "approval": {
         "status": "approved",
-        "revisionHash": "cd146fca508767b4b3a664e16ed4cf6e5adf8f461071f89319bb9bb297fb2a6e",
-        "approvedAt": "2026-10-14T20:18:13.022Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "0db521d4af0ff786662272fa5ba57d39242dfb202a8770e520119af2d7708eb4",
+        "approvedAt": "2026-10-15T08:45:45.979Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -9835,7 +9835,7 @@
           "text": "Jei liko dvi panašiai tinkamos idėjos, rinkitės tą, kuriai turite aiškesnį gavėjos noro patvirtinimą. Platesnį pasirinkimo planą rasite gide apie kalėdines dovanas, o kitoms progoms pravers dovanos moterims pagal pomėgius ir poreikius."
         }
       ],
-      "publishAt": "2026-10-15T13:00:00.000Z",
+      "publishAt": "2026-10-16T07:00:00.000Z",
       "media": [
         {
           "id": "957c5f93-3af9-4f50-b329-e6dc4a15078b",
@@ -9902,12 +9902,12 @@
         }
       ],
       "id": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
-      "revisionHash": "df142caf1a3973546a88527cf117e54ec4d906b608bcd06c10fe17d261c3611c",
+      "revisionHash": "99cdbaa378b5013b80656a8915146fc57078cfaa92598ea0d9fee54235eedfee",
       "approval": {
         "status": "approved",
-        "revisionHash": "df142caf1a3973546a88527cf117e54ec4d906b608bcd06c10fe17d261c3611c",
-        "approvedAt": "2026-10-14T20:18:13.100Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "99cdbaa378b5013b80656a8915146fc57078cfaa92598ea0d9fee54235eedfee",
+        "approvedAt": "2026-10-15T08:45:46.041Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10025,7 +10025,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-16T07:00:00.000Z",
+      "publishAt": "2026-10-16T13:00:00.000Z",
       "media": [
         {
           "id": "0acda289-49d0-43fe-99d6-420040207ed1",
@@ -10092,12 +10092,12 @@
         }
       ],
       "id": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-      "revisionHash": "b317d1f69fbbb1326fc6b459db1fb0007ed6975c0a4c694a33cac6a952414fca",
+      "revisionHash": "b91cba7c19a70d60b880fa9b2a865f2a85a64b0af1ab105737a24abce2f807e3",
       "approval": {
         "status": "approved",
-        "revisionHash": "b317d1f69fbbb1326fc6b459db1fb0007ed6975c0a4c694a33cac6a952414fca",
-        "approvedAt": "2026-10-14T20:18:13.198Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "b91cba7c19a70d60b880fa9b2a865f2a85a64b0af1ab105737a24abce2f807e3",
+        "approvedAt": "2026-10-15T08:45:46.089Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10204,7 +10204,7 @@
           "text": "Prie dovanos parašykite, kodėl ją išrinkote. Pavyzdžiui: „Prisimenu, kaip pasakojai norintis vėl daugiau fotografuoti, todėl norėčiau kartu suplanuoti tam skirtą dieną.“ Toks palinkėjimas susieja dovaną su tuo, ką išgirdote, ir palieka gavėjui laisvę susitarti dėl jam tinkamo laiko."
         }
       ],
-      "publishAt": "2026-10-16T13:00:00.000Z",
+      "publishAt": "2026-10-17T07:00:00.000Z",
       "media": [
         {
           "id": "75764403-ea51-434d-afcf-3448d6239ac0",
@@ -10271,12 +10271,12 @@
         }
       ],
       "id": "9bd829a9-fd02-4762-bf8b-3a6e0559c4e9",
-      "revisionHash": "24354959c03d557c6f0a61dc381f73ac1c2f6d2584258481f41102a6e61b5876",
+      "revisionHash": "2f929b7d9348a149e0f55a651cfb79bb2c9b1a53677d2c516ac32af29a430f70",
       "approval": {
         "status": "approved",
-        "revisionHash": "24354959c03d557c6f0a61dc381f73ac1c2f6d2584258481f41102a6e61b5876",
-        "approvedAt": "2026-10-14T20:18:13.290Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "2f929b7d9348a149e0f55a651cfb79bb2c9b1a53677d2c516ac32af29a430f70",
+        "approvedAt": "2026-10-15T08:45:46.146Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10395,7 +10395,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-17T07:00:00.000Z",
+      "publishAt": "2026-10-17T13:00:00.000Z",
       "media": [
         {
           "id": "6cd1fdc1-8f70-4e42-96be-5ae3a0b3a470",
@@ -10466,12 +10466,12 @@
         }
       ],
       "id": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-      "revisionHash": "45230a1eab30b4e43049830f0931e873fd1d3364ac4f17b600c796fca2426e97",
+      "revisionHash": "290a9b8ea4d35aaca910619fb092997ca29c428e7c6e68d4637bbccdd9f754e6",
       "approval": {
         "status": "approved",
-        "revisionHash": "45230a1eab30b4e43049830f0931e873fd1d3364ac4f17b600c796fca2426e97",
-        "approvedAt": "2026-10-14T20:18:13.366Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "290a9b8ea4d35aaca910619fb092997ca29c428e7c6e68d4637bbccdd9f754e6",
+        "approvedAt": "2026-10-15T08:45:46.201Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10585,7 +10585,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-17T13:00:00.000Z",
+      "publishAt": "2026-10-18T07:00:00.000Z",
       "media": [
         {
           "id": "47ffb82c-29a6-49ec-8e98-ed64d0551b68",
@@ -10656,12 +10656,12 @@
         }
       ],
       "id": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-      "revisionHash": "2f3c8e192a2339d464f047ac76a18abeebe472da07c332587bea0bad9ac93613",
+      "revisionHash": "981b99517e13ed40f4e582f7bcad95b44651a200648f91e5ee618c936b2bcab5",
       "approval": {
         "status": "approved",
-        "revisionHash": "2f3c8e192a2339d464f047ac76a18abeebe472da07c332587bea0bad9ac93613",
-        "approvedAt": "2026-10-14T20:18:13.427Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "981b99517e13ed40f4e582f7bcad95b44651a200648f91e5ee618c936b2bcab5",
+        "approvedAt": "2026-10-15T08:45:46.248Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10782,7 +10782,7 @@
           "text": "Paklauskite savęs: „Ar kiekvienas iš tėvų šioje dovanoje atpažins savo norą?“ Jei atsakymas apie abu aiškus, bendra dovana turi pagrindą. Jei apie vieną dar tik spėliojate, pasitikslinkite arba rinkitės atskirai. Platesnių atrankos klausimų rasite gide „Kalėdinės dovanos: kaip išrinkti tinkamą“."
         }
       ],
-      "publishAt": "2026-10-18T13:00:00.000Z",
+      "publishAt": "2026-10-19T07:00:00.000Z",
       "media": [
         {
           "id": "b56fef4b-4c0a-43be-a795-5411e2d5cab5",
@@ -10849,12 +10849,12 @@
         }
       ],
       "id": "9540b7b3-3c05-429f-89b8-55db019f8577",
-      "revisionHash": "2299e371bf5e3253a38a35e262a1be95e83840b7c21694a7614aedb72b1ab649",
+      "revisionHash": "9bc697ba87a2442c541f9691c127bdde2337665c78d9874fdf90e993e22475ec",
       "approval": {
         "status": "approved",
-        "revisionHash": "2299e371bf5e3253a38a35e262a1be95e83840b7c21694a7614aedb72b1ab649",
-        "approvedAt": "2026-10-14T20:18:13.487Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "9bc697ba87a2442c541f9691c127bdde2337665c78d9874fdf90e993e22475ec",
+        "approvedAt": "2026-10-15T08:45:46.353Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -10977,7 +10977,7 @@
           "text": "Jei lyginate kelias idėjas, pirmiausia atmeskite tas, kurių tinkamumas priklauso nuo nepatikrinto modelio ar gavėjo noro. Iš likusių rinkitės tą, kurią galite aiškiai susieti su tėčiu ir įteikti nesukurdami jam papildomų rūpesčių."
         }
       ],
-      "publishAt": "2026-10-19T07:00:00.000Z",
+      "publishAt": "2026-10-19T13:00:00.000Z",
       "media": [
         {
           "id": "fb6e2066-6760-4f35-a6b6-55ec9b042000",
@@ -11044,12 +11044,12 @@
         }
       ],
       "id": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
-      "revisionHash": "d1d48c6722e930bcab3d3d389c31b71f8f74b43e3c1f1f7a3c6fcd6ecb525fed",
+      "revisionHash": "efb9c80a7d63f11b526784521b0431493d4060cc9e17cf71ab9647a7a06b1088",
       "approval": {
         "status": "approved",
-        "revisionHash": "d1d48c6722e930bcab3d3d389c31b71f8f74b43e3c1f1f7a3c6fcd6ecb525fed",
-        "approvedAt": "2026-10-14T20:18:13.558Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "efb9c80a7d63f11b526784521b0431493d4060cc9e17cf71ab9647a7a06b1088",
+        "approvedAt": "2026-10-15T08:45:46.399Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -11164,7 +11164,7 @@
           "text": "Prieš galutinai apsispręsdami užbaikite sakinį: „Dovanoju tai, nes žinau, kad jie nori…, o dėl gavimo ir naudojimo pasirūpinsiu…“ Jei negalite įvardyti noro arba savo pagalbos, dar pasikalbėkite su seneliais. Platesnes idėjas padės palyginti gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“."
         }
       ],
-      "publishAt": "2026-10-19T13:00:00.000Z",
+      "publishAt": "2026-10-20T07:00:00.000Z",
       "media": [
         {
           "id": "e40f206a-e3da-435a-9495-84076c0bc00b",
@@ -11231,12 +11231,12 @@
         }
       ],
       "id": "3c7cb521-1100-4b96-9d21-6beb78135f89",
-      "revisionHash": "47f781930cb29b535c24103e87d2d14611f75f71d5533494d5bb40f0034b1606",
+      "revisionHash": "55d2349c2dc7c7e110f515abfb165d17a2a3f2f1aecca7194d58808563581b12",
       "approval": {
         "status": "approved",
-        "revisionHash": "47f781930cb29b535c24103e87d2d14611f75f71d5533494d5bb40f0034b1606",
-        "approvedAt": "2026-10-14T20:18:13.617Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "55d2349c2dc7c7e110f515abfb165d17a2a3f2f1aecca7194d58808563581b12",
+        "approvedAt": "2026-10-15T08:45:46.450Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -11354,7 +11354,7 @@
           "text": "Jei abejojate tarp kelių idėjų, paklauskite, ko ji labiau norėtų: daikto, bendros veiklos ar galimybės pasirinkti pačiai. Platesnius atrankos kriterijus rasite gide „Kalėdinės dovanos: kaip išrinkti tinkamą“."
         }
       ],
-      "publishAt": "2026-10-20T07:00:00.000Z",
+      "publishAt": "2026-10-20T13:00:00.000Z",
       "media": [
         {
           "id": "53c8e4a9-441a-4a87-b62c-1bcc022a9c9d",
@@ -11421,12 +11421,12 @@
         }
       ],
       "id": "d1fb6182-6fe1-4823-825a-9db049ff0997",
-      "revisionHash": "84e91b237913f109a5f7af3aac71e62f81ed369bec28fc8860326c20f620d5c3",
+      "revisionHash": "dd7484289fea2c2fe9b24d428de04633bf2ac5f424f49f017e74d4b8f5a26d6a",
       "approval": {
         "status": "approved",
-        "revisionHash": "84e91b237913f109a5f7af3aac71e62f81ed369bec28fc8860326c20f620d5c3",
-        "approvedAt": "2026-10-14T20:18:13.665Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "dd7484289fea2c2fe9b24d428de04633bf2ac5f424f49f017e74d4b8f5a26d6a",
+        "approvedAt": "2026-10-15T08:45:46.503Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -11537,7 +11537,7 @@
           "text": "Jeigu visos idėjos remiasi vien jūsų nuojauta, pokalbis bus naudingesnis už dar ilgesnį prekių sąrašą. Platesnius kriterijus rasite gide „Kalėdinės dovanos: kaip išrinkti tinkamą“, o kitoms progoms pravers „Dovanos vaikinui: nuo pomėgio iki bendros patirties“."
         }
       ],
-      "publishAt": "2026-10-20T13:00:00.000Z",
+      "publishAt": "2026-10-21T07:00:00.000Z",
       "media": [
         {
           "id": "18e94abb-04dd-4e39-be51-6a241c89fc96",
@@ -11600,12 +11600,12 @@
         }
       ],
       "id": "6c78ff90-2f9c-48c6-9b64-f97276e471a2",
-      "revisionHash": "7d3f979e85fe93c38e1b145f4fc552c5c6e5c49ace90518d1adf70b24e285937",
+      "revisionHash": "190c433fca133a33aa8aed10c165a853b7f16ac1e244fa56bae88446addd4eec",
       "approval": {
         "status": "approved",
-        "revisionHash": "7d3f979e85fe93c38e1b145f4fc552c5c6e5c49ace90518d1adf70b24e285937",
-        "approvedAt": "2026-10-14T20:18:13.720Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "190c433fca133a33aa8aed10c165a853b7f16ac1e244fa56bae88446addd4eec",
+        "approvedAt": "2026-10-15T08:45:46.562Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -11725,7 +11725,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-21T07:00:00.000Z",
+      "publishAt": "2026-10-21T13:00:00.000Z",
       "media": [
         {
           "id": "696dcac5-3bc7-4cf8-bd3b-c537f692ff9e",
@@ -11792,12 +11792,12 @@
         }
       ],
       "id": "a74780e9-7b58-4526-bc4a-32bc606e07d2",
-      "revisionHash": "4bce087cffe5f95b06d397f3eab36788f4b35be998cdb19173c1c4fee7156f25",
+      "revisionHash": "1399d07a79e53f64ae623b531596c0a8a45dc30f6ea69c3b4889fd4e6ab1d302",
       "approval": {
         "status": "approved",
-        "revisionHash": "4bce087cffe5f95b06d397f3eab36788f4b35be998cdb19173c1c4fee7156f25",
-        "approvedAt": "2026-10-14T20:18:13.759Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "1399d07a79e53f64ae623b531596c0a8a45dc30f6ea69c3b4889fd4e6ab1d302",
+        "approvedAt": "2026-10-15T08:45:46.619Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -11899,7 +11899,7 @@
           ]
         }
       ],
-      "publishAt": "2026-10-21T13:00:00.000Z",
+      "publishAt": "2026-10-22T07:00:00.000Z",
       "media": [
         {
           "id": "6f997fca-6b10-4f8c-8cf0-2aedd68da307",
@@ -11966,12 +11966,12 @@
         }
       ],
       "id": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
-      "revisionHash": "8171222fe0a5fb2a8204e283ed1410ceccd39a2c1bf05c0c4a3c1a5dd9b02eda",
+      "revisionHash": "1081b249e27729561a66568a44eed48734018e3df9089243bb3947671e3854e1",
       "approval": {
         "status": "approved",
-        "revisionHash": "8171222fe0a5fb2a8204e283ed1410ceccd39a2c1bf05c0c4a3c1a5dd9b02eda",
-        "approvedAt": "2026-10-14T20:18:13.815Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "1081b249e27729561a66568a44eed48734018e3df9089243bb3947671e3854e1",
+        "approvedAt": "2026-10-15T08:45:46.676Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -12128,7 +12128,7 @@
           "text": "Prieš įteikimą dar kartą palyginkite gautus kiekius su gavėjų sąrašu ir patikrinkite, ar numatėte atskirą įteikimą nedalyvaujantiems. Jei dar renkatės dovanos pobūdį, tęskite nuo gido „Kalėdinės dovanos: kaip išrinkti tinkamą“."
         }
       ],
-      "publishAt": "2026-10-22T07:00:00.000Z",
+      "publishAt": "2026-10-22T13:00:00.000Z",
       "media": [
         {
           "id": "c3231cdd-6f54-41f8-adae-8f81a6e01362",
@@ -12187,12 +12187,12 @@
         }
       ],
       "id": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
-      "revisionHash": "4f69f3c13ef9a75ba3b8facb81a2734455f48074eac8d93569d56a8528455526",
+      "revisionHash": "41cb0eeba95d0fd358f0a3a8735d9c8f98e33c803bbef2a603fb616253e07753",
       "approval": {
         "status": "approved",
-        "revisionHash": "4f69f3c13ef9a75ba3b8facb81a2734455f48074eac8d93569d56a8528455526",
-        "approvedAt": "2026-10-14T20:18:13.875Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "41cb0eeba95d0fd358f0a3a8735d9c8f98e33c803bbef2a603fb616253e07753",
+        "approvedAt": "2026-10-15T08:45:46.732Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -12337,7 +12337,7 @@
           "text": "Jei dar renkatės dovanos formatą, tęskite nuo bendro gido „Kalėdinės dovanos: kaip išrinkti tinkamą“. Pasirinkimą kitoms progoms padės apgalvoti „Dovanos vaikams: amžius, interesai ir naudojimo sąlygos“."
         }
       ],
-      "publishAt": "2026-10-22T13:00:00.000Z",
+      "publishAt": "2026-10-23T07:00:00.000Z",
       "media": [
         {
           "id": "12831a54-4a10-4d20-b7a5-6b5418b147e5",
@@ -12396,12 +12396,12 @@
         }
       ],
       "id": "127fe08d-856c-4488-ba89-8196b17572fe",
-      "revisionHash": "32e4942ae67415819dcd57ced0db668c71b90f2a9bfd6a18ef6f3066b0c0ea92",
+      "revisionHash": "1f030edafa8e05235debe9a178bc61efbc29c5e797cf0b760c1283e8d588f9db",
       "approval": {
         "status": "approved",
-        "revisionHash": "32e4942ae67415819dcd57ced0db668c71b90f2a9bfd6a18ef6f3066b0c0ea92",
-        "approvedAt": "2026-10-14T20:18:13.921Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "1f030edafa8e05235debe9a178bc61efbc29c5e797cf0b760c1283e8d588f9db",
+        "approvedAt": "2026-10-15T08:45:46.794Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -12521,7 +12521,7 @@
           "text": "Jei pristatymas iki šventės nepatvirtintas, nežadėkite, kad daiktas bus po eglute. Galite iš anksto susitarti dėl vėlesnio įteikimo arba kartu pasirinkti tai, ką realiai galima paruošti. Platesnius atrankos klausimus rasite gide „Kalėdinės dovanos: kaip išrinkti tinkamą“, o pasirinkimą kitoms progoms aptaria „Dovanos paaugliams pagal jų pačių norus“."
         }
       ],
-      "publishAt": "2026-10-23T07:00:00.000Z",
+      "publishAt": "2026-10-23T13:00:00.000Z",
       "media": [
         {
           "id": "6f92c9b8-dcdb-4fe7-92f1-5484a913fd2e",
@@ -12580,12 +12580,12 @@
         }
       ],
       "id": "fc1745b3-f2a4-4dc3-b865-fa694a4d44b4",
-      "revisionHash": "cebd28e504d27aec6f6013e30fe9531a14d5df1388c00d6bc00cfddef36412d5",
+      "revisionHash": "0a5023f47e6fdf62653873fbff0409d61122bd25908726a94809ab594a2a2cbf",
       "approval": {
         "status": "approved",
-        "revisionHash": "cebd28e504d27aec6f6013e30fe9531a14d5df1388c00d6bc00cfddef36412d5",
-        "approvedAt": "2026-10-14T20:18:13.974Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "0a5023f47e6fdf62653873fbff0409d61122bd25908726a94809ab594a2a2cbf",
+        "approvedAt": "2026-10-15T08:45:46.862Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -12690,7 +12690,7 @@
           "text": "Prie kiekvienos užrašykite, kodėl ji tinka gavėjui, ką turėsite paruošti jūs ir ko reikės iš jo. Rinkitės tą, kurios asmeninę prasmę galite aiškiai paaiškinti ir kurios pasiruošimą galite užbaigti. Jei dar nesate pasirinkę dovanos tipo, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės palyginti platesnes galimybes."
         }
       ],
-      "publishAt": "2026-10-23T13:00:00.000Z",
+      "publishAt": "2026-10-24T07:00:00.000Z",
       "media": [
         {
           "id": "3934300b-83f3-496f-b2b1-53e8214c5a92",
@@ -12753,12 +12753,12 @@
         }
       ],
       "id": "38f3e27e-0b2c-498e-9cdf-c8adc6014f06",
-      "revisionHash": "6d85e1729aa8099f48cbaf5a44547eafddbac8cdac0b62deaa94e6a663ac3893",
+      "revisionHash": "c71ba7533540db7b9f03c1ea7d9abdbbafb762785f5faa4dd9737de5885ffbc4",
       "approval": {
         "status": "approved",
-        "revisionHash": "6d85e1729aa8099f48cbaf5a44547eafddbac8cdac0b62deaa94e6a663ac3893",
-        "approvedAt": "2026-10-14T20:18:14.020Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "c71ba7533540db7b9f03c1ea7d9abdbbafb762785f5faa4dd9737de5885ffbc4",
+        "approvedAt": "2026-10-15T08:45:46.922Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -12890,7 +12890,7 @@
           "text": "Jei biudžetas netelpa, pirmiausia supaprastinkite pakavimą, atsisakykite nebūtinų priedų arba rinkitės kitą idėją. Platesnius pasirinkimo kriterijus rasite gide Kalėdinės dovanos: kaip išrinkti tinkamą."
         }
       ],
-      "publishAt": "2026-10-24T07:00:00.000Z",
+      "publishAt": "2026-10-24T13:00:00.000Z",
       "media": [
         {
           "id": "67304b8d-d68a-4bd2-b3ce-70fc0980cff4",
@@ -12953,12 +12953,12 @@
         }
       ],
       "id": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-      "revisionHash": "0744941bcd4a784e65ad34be56cd793100b0895ed66ba8cd34a59c7edf6ba434",
+      "revisionHash": "f09095104c4006efef365c9dd2e5f0698db665a857bc6c77552d28cd6ec2a103",
       "approval": {
         "status": "approved",
-        "revisionHash": "0744941bcd4a784e65ad34be56cd793100b0895ed66ba8cd34a59c7edf6ba434",
-        "approvedAt": "2026-10-14T20:18:14.068Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "f09095104c4006efef365c9dd2e5f0698db665a857bc6c77552d28cd6ec2a103",
+        "approvedAt": "2026-10-15T08:45:47.007Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -13318,7 +13318,7 @@
           "text": "Jeigu dovanos dar neišsirinkote, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės pradėti nuo žmogaus norų. Pakavimą planuokite jau žinodami, ką įteiksite ir kaip dovana pasieks gavėją."
         }
       ],
-      "publishAt": "2026-10-24T13:00:00.000Z",
+      "publishAt": "2026-10-25T08:00:00.000Z",
       "media": [
         {
           "id": "eeb0d7b7-4c08-45c8-b282-7401fe7b6eab",
@@ -13481,12 +13481,12 @@
         }
       ],
       "id": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
-      "revisionHash": "45cf1b072be33d1c726fe3e44e148024e1f4d92445ffd0d4182b006c3d0b95d6",
+      "revisionHash": "85d1a6aef912270aeba14a75548c0bee05add4f699a9808714dfa1826152e69a",
       "approval": {
         "status": "approved",
-        "revisionHash": "45cf1b072be33d1c726fe3e44e148024e1f4d92445ffd0d4182b006c3d0b95d6",
-        "approvedAt": "2026-10-14T20:18:14.163Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "85d1a6aef912270aeba14a75548c0bee05add4f699a9808714dfa1826152e69a",
+        "approvedAt": "2026-10-15T08:45:47.075Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -13604,7 +13604,7 @@
           "text": "„Renkuosi šią dovaną, nes ji minėjo arba mėgsta ___, o naudoti ją galės ___.“ Jei tarpus galite užpildyti konkrečiai, turite aiškų pasirinkimo pagrindą. Tuomet patikrinkite visą sumą su pristatymu ir priedais, įteikimo terminą bei tai, ar dovana nereikalaus papildomų pirkinių ar neaptarto gavėjos darbo."
         }
       ],
-      "publishAt": "2026-10-28T14:00:00.000Z",
+      "publishAt": "2026-10-29T08:00:00.000Z",
       "media": [
         {
           "id": "c38c5efd-481f-4a2a-973a-d84a6e082653",
@@ -13671,12 +13671,12 @@
         }
       ],
       "id": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
-      "revisionHash": "3363f5b5887fcaff01a4a43d2223186c472936d7865d9fd31ac4d4aac15271f3",
+      "revisionHash": "a1cb13dd2e2c181d36438e971a58e6021dd4cc5228ac7fa883ecde3c6884ac51",
       "approval": {
         "status": "approved",
-        "revisionHash": "3363f5b5887fcaff01a4a43d2223186c472936d7865d9fd31ac4d4aac15271f3",
-        "approvedAt": "2026-10-14T20:18:14.239Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "a1cb13dd2e2c181d36438e971a58e6021dd4cc5228ac7fa883ecde3c6884ac51",
+        "approvedAt": "2026-10-15T08:45:47.576Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -13813,7 +13813,7 @@
           "text": "Jei negalite atsakyti į pirmąjį klausimą, grįžkite prie pokalbio su gavėju. Platesnę pasirinkimo eigą rasite gide „Dovanų idėjos pagal žmogų, progą ir biudžetą“."
         }
       ],
-      "publishAt": "2026-10-29T08:00:00.000Z",
+      "publishAt": "2026-10-29T14:00:00.000Z",
       "media": [
         {
           "id": "fc222b1f-84bb-4bc4-99f1-cb486fef982b",
@@ -13880,12 +13880,12 @@
         }
       ],
       "id": "482400a7-e1d3-47ad-91a2-c83d1cea971a",
-      "revisionHash": "cb21eca523ee016106104afd212533b5c2f6e009cf1bc253bee304185de61a25",
+      "revisionHash": "5496e29dd6b87f3f18a6b70fcbcab6a8d5df50baedbb3201e2c027c9027da907",
       "approval": {
         "status": "approved",
-        "revisionHash": "cb21eca523ee016106104afd212533b5c2f6e009cf1bc253bee304185de61a25",
-        "approvedAt": "2026-10-14T20:18:14.298Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "5496e29dd6b87f3f18a6b70fcbcab6a8d5df50baedbb3201e2c027c9027da907",
+        "approvedAt": "2026-10-15T08:45:47.637Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -14018,7 +14018,7 @@
           "text": "„Renkuosi šią dovaną, nes mama sakė arba parodė, kad jai svarbu ___. Aš pasirūpinsiu ___, o jai liks pasirinkti ___.“ Jei pirmą tarpą sunku užpildyti, dar kartą jos paklauskite. Jei antrame lieka visas organizavimas, papildykite savo planą. Platesnį pasirinkimą padės apsvarstyti dovanų idėjos pagal žmogų, progą ir biudžetą."
         }
       ],
-      "publishAt": "2026-10-29T14:00:00.000Z",
+      "publishAt": "2026-10-30T08:00:00.000Z",
       "media": [
         {
           "id": "bd382762-5561-4bc6-a344-94cc62ab1d02",
@@ -14085,12 +14085,12 @@
         }
       ],
       "id": "6addee05-19c5-477b-ae4d-d3b310acb4b8",
-      "revisionHash": "cd156f77858dedba0d14248c8ca98d5e2f9030fb39140cb10d349ead6de7f909",
+      "revisionHash": "a032368c15a8f7ed5dba608c729d42d2a2ca889815bd32dd451d816b55a7d1db",
       "approval": {
         "status": "approved",
-        "revisionHash": "cd156f77858dedba0d14248c8ca98d5e2f9030fb39140cb10d349ead6de7f909",
-        "approvedAt": "2026-10-14T20:18:14.336Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "a032368c15a8f7ed5dba608c729d42d2a2ca889815bd32dd451d816b55a7d1db",
+        "approvedAt": "2026-10-15T08:45:47.700Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -14199,7 +14199,7 @@
           "text": "Prieš pirkdami užbaikite sakinį: „Ši dovana tinka mano tėčiui, nes jis…“ Jei galite įvardyti tikrą jo norą ar kasdienį poreikį, turite aiškų pasirinkimo pagrindą. Jei atsakymas lieka „nes tokias dovanas dovanoja tėčiams“, verta dar pasikalbėti. Kitoms kryptims palyginti pravers dovanų idėjos pagal žmogų, progą ir biudžetą."
         }
       ],
-      "publishAt": "2026-10-30T08:00:00.000Z",
+      "publishAt": "2026-10-30T14:00:00.000Z",
       "media": [
         {
           "id": "3b155b1f-319f-4551-8408-5c3ebb761ef3",
@@ -14266,12 +14266,12 @@
         }
       ],
       "id": "ce4fd7f2-afb5-4e73-b376-ea0d93f646c6",
-      "revisionHash": "fc317d372629a7b8719ced09d2b0d8f2ed917d94d9e0d362670535cab35c40af",
+      "revisionHash": "93286f9887970f6aae28a0f9f96a68cd0cf4bb41dae4a4efcda7a0d371d32f4e",
       "approval": {
         "status": "approved",
-        "revisionHash": "fc317d372629a7b8719ced09d2b0d8f2ed917d94d9e0d362670535cab35c40af",
-        "approvedAt": "2026-10-14T20:18:14.378Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "93286f9887970f6aae28a0f9f96a68cd0cf4bb41dae4a4efcda7a0d371d32f4e",
+        "approvedAt": "2026-10-15T08:45:47.771Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -14408,7 +14408,7 @@
           "text": "Jei dar renkatės dovanos tipą, pradėti padės dovanų idėjos pagal žmogų, progą ir biudžetą. Šiame pasirinkime svarbiausia turėti konkretų atsakymą apie kiekvieną gavėją: viena bendra dovana tinka tada, kai abu joje randa ką nors sau."
         }
       ],
-      "publishAt": "2026-10-30T14:00:00.000Z",
+      "publishAt": "2026-10-31T08:00:00.000Z",
       "media": [
         {
           "id": "dc0556f7-e6b5-4bdd-892c-39534d26d338",
@@ -14479,12 +14479,12 @@
         }
       ],
       "id": "afdd055b-b5d4-4cb0-89c5-67d4ab620ee4",
-      "revisionHash": "431447901221533663e0de7c5048e28c43d4a127b36e3eba07949437bdd7f58a",
+      "revisionHash": "4b9b6d78074298c3be4978eedba43b90f2154ae66717c4459fbeca7dd496631e",
       "approval": {
         "status": "approved",
-        "revisionHash": "431447901221533663e0de7c5048e28c43d4a127b36e3eba07949437bdd7f58a",
-        "approvedAt": "2026-10-14T20:18:14.466Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "4b9b6d78074298c3be4978eedba43b90f2154ae66717c4459fbeca7dd496631e",
+        "approvedAt": "2026-10-15T08:45:47.829Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -14608,7 +14608,7 @@
           "text": "Jei dar dvejojate dėl dovanos tipo, dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnius pasirinkimus. Šiam sprendimui pakanka aiškiai įvardyti, kuo dovana tiks būtent jūsų seneliams ir kaip pasirūpinsite jos įteikimu."
         }
       ],
-      "publishAt": "2026-10-31T08:00:00.000Z",
+      "publishAt": "2026-10-31T14:00:00.000Z",
       "media": [
         {
           "id": "5f18d290-9026-45ce-b34f-02591d19b9de",
@@ -14675,12 +14675,12 @@
         }
       ],
       "id": "79547728-bcb0-49ff-9e25-6ddfa30e872b",
-      "revisionHash": "1db4299432a23eb88e65180cecbd8db8c9b093a34b3aef138e848bb983eebef0",
+      "revisionHash": "926f4b2fb750fd49190d118522350def398dedb67da0ff4b11eb13ad06438851",
       "approval": {
         "status": "approved",
-        "revisionHash": "1db4299432a23eb88e65180cecbd8db8c9b093a34b3aef138e848bb983eebef0",
-        "approvedAt": "2026-10-14T20:18:14.503Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "926f4b2fb750fd49190d118522350def398dedb67da0ff4b11eb13ad06438851",
+        "approvedAt": "2026-10-15T08:45:47.891Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -15198,7 +15198,7 @@
           "text": "Jei dar renkatės tarp daikto, patirties ir bendro prisiminimo, platesnį pasirinkimą padės apgalvoti Dovanų idėjos pagal žmogų, progą ir biudžetą."
         }
       ],
-      "publishAt": "2026-10-31T14:00:00.000Z",
+      "publishAt": "2026-11-01T08:00:00.000Z",
       "media": [
         {
           "id": "2b1645ef-c25f-4218-b491-77124c3aa8c0",
@@ -15265,12 +15265,12 @@
         }
       ],
       "id": "3db28bf9-e96f-4381-b414-cf70471aca6c",
-      "revisionHash": "e3dcf30ccdf751847821c3ea09f41834b7d44b2eb12229ca890eea7e980ddbdc",
+      "revisionHash": "99962195ea4bbc4ee988c99f6c89498c2897556d2c05970a14ea258c3d75aaf3",
       "approval": {
         "status": "approved",
-        "revisionHash": "e3dcf30ccdf751847821c3ea09f41834b7d44b2eb12229ca890eea7e980ddbdc",
-        "approvedAt": "2026-10-14T20:18:14.655Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "99962195ea4bbc4ee988c99f6c89498c2897556d2c05970a14ea258c3d75aaf3",
+        "approvedAt": "2026-10-15T08:45:47.956Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -15385,7 +15385,7 @@
           "text": "Jei vis dar svarstote tarp kelių krypčių, pradėkite nuo jos noro: daiktas, laikas sau ar bendra patirtis. Dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti šiuos pasirinkimus."
         }
       ],
-      "publishAt": "2026-11-01T08:00:00.000Z",
+      "publishAt": "2026-11-01T14:00:00.000Z",
       "media": [
         {
           "id": "67b43e35-fc16-4501-9a24-c1d050d07a95",
@@ -15452,12 +15452,12 @@
         }
       ],
       "id": "01360d20-de5e-4bdf-bcd2-6409f39835d6",
-      "revisionHash": "28e33adb679303a665a0ba3839255fd4de63a3991d759a3ca0466ecf0160ce4a",
+      "revisionHash": "d7403528d2ceacc9ee40b6956299af0e2aa281aea25c3ff7e6031927d9e63c87",
       "approval": {
         "status": "approved",
-        "revisionHash": "28e33adb679303a665a0ba3839255fd4de63a3991d759a3ca0466ecf0160ce4a",
-        "approvedAt": "2026-10-14T20:18:14.698Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "d7403528d2ceacc9ee40b6956299af0e2aa281aea25c3ff7e6031927d9e63c87",
+        "approvedAt": "2026-10-15T08:45:48.015Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -17520,7 +17520,7 @@
           "text": "Jei pirmojo sakinio užbaigti negalite, pradėkite nuo klausimo gavėjui, o ne nuo pirkimo. Dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnes kryptis. Jei jau pasirinkote rankų liejimo idėją, pirmiausia išsiaiškinkite rinkinio naudojimo sąlygas ir galimybę jį gauti iki numatytos įteikimo dienos."
         }
       ],
-      "publishAt": "2026-10-27T14:00:00.000Z",
+      "publishAt": "2026-10-28T08:00:00.000Z",
       "media": [
         {
           "id": "8b19a454-7259-47b8-bd4d-bc0caab6bf7d",
@@ -17583,12 +17583,12 @@
         }
       ],
       "id": "73c7db89-bc45-445a-8909-6f48c43e5461",
-      "revisionHash": "20c6839875dca39fb3fa3c1ba8adeb3ab0c72cac7cd3e6ae8c12a0bd570d9916",
+      "revisionHash": "a494023d1ca126553803a5e2b2b2a030691427ec258c15d5b18f40333f4cb090",
       "approval": {
         "status": "approved",
-        "revisionHash": "20c6839875dca39fb3fa3c1ba8adeb3ab0c72cac7cd3e6ae8c12a0bd570d9916",
-        "approvedAt": "2026-10-14T20:18:15.320Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "a494023d1ca126553803a5e2b2b2a030691427ec258c15d5b18f40333f4cb090",
+        "approvedAt": "2026-10-15T08:45:47.443Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -17712,7 +17712,7 @@
           "text": "Dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnius pasirinkimus. Vestuvėms galutinį sprendimą grįskite abiejų jaunųjų norais ir aiškiu įteikimo planu."
         }
       ],
-      "publishAt": "2026-10-28T08:00:00.000Z",
+      "publishAt": "2026-10-28T14:00:00.000Z",
       "media": [
         {
           "id": "58f6eb1c-a438-4c9c-bbf7-3c47ee5fc5ea",
@@ -17779,12 +17779,12 @@
         }
       ],
       "id": "a2102f3e-f796-40dd-932e-e0d7de464a64",
-      "revisionHash": "115560e0e52706a5daf656f18a6be35944d26977395c9dd246bde08551b93a6b",
+      "revisionHash": "3541702b73d8aebde3f3d0da2ee2b83a30d15c2a57fa0b13b076ce36789f826b",
       "approval": {
         "status": "approved",
-        "revisionHash": "115560e0e52706a5daf656f18a6be35944d26977395c9dd246bde08551b93a6b",
-        "approvedAt": "2026-10-14T20:18:15.388Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "3541702b73d8aebde3f3d0da2ee2b83a30d15c2a57fa0b13b076ce36789f826b",
+        "approvedAt": "2026-10-15T08:45:47.507Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -24270,7 +24270,7 @@
           "text": "Dėl Memocasting rinkinio galite pateikti klausimą el. paštu info@memorycasting.lt: nurodykite rinkinį, naudotą apdailą ir ar liejinį ketinate įteikti vietoje, vežti, ar siųsti. Jei dovanos idėja dar tik formuojasi, gidas „Rankų liejimo rinkinys ar paruošta dovana?“ padės apsispręsti, ar gavėjai norėtų dalyvauti ją kuriant."
         }
       ],
-      "publishAt": "2026-10-26T14:00:00.000Z",
+      "publishAt": "2026-10-27T08:00:00.000Z",
       "media": [
         {
           "id": "6fc31434-d952-42b9-b8d7-aa8feff2faec",
@@ -24341,12 +24341,12 @@
         }
       ],
       "id": "e323d3fb-f8d7-4257-959d-bc0a6dbb0e1a",
-      "revisionHash": "1aed767a7975f284fc7b91fa382e8526add564bbf656e347bb5367cdcfcbca5f",
+      "revisionHash": "3707868c073c98be0eb157c1784bceee7869e04fac4c6606331fd98ce2318d02",
       "approval": {
         "status": "approved",
-        "revisionHash": "1aed767a7975f284fc7b91fa382e8526add564bbf656e347bb5367cdcfcbca5f",
-        "approvedAt": "2026-10-14T20:18:17.248Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "3707868c073c98be0eb157c1784bceee7869e04fac4c6606331fd98ce2318d02",
+        "approvedAt": "2026-10-15T08:45:47.329Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -24467,7 +24467,7 @@
           "text": "Jei vakarą norite padovanoti, kvietime įvardykite veiklą ir palikite galimybę kartu pasirinkti datą. Apsispręsti, ar gavėjams tiks pats kūrimas, padės gidas „Rankų liejimo rinkinys ar paruošta dovana?“. Daugiau pasirinkimo krypčių rasite gide „Bendros veiklos ir prisiminimų kūrimas“."
         }
       ],
-      "publishAt": "2026-10-27T08:00:00.000Z",
+      "publishAt": "2026-10-27T14:00:00.000Z",
       "media": [
         {
           "id": "1858c868-4e51-4413-87ab-539ce0825764",
@@ -24534,12 +24534,12 @@
         }
       ],
       "id": "e9000ba9-b877-4ae7-aa5c-c04bd17705c0",
-      "revisionHash": "4ddc069774f2e69392921060e8c7e668e4ea678f46e6493cba391e35865f5dcb",
+      "revisionHash": "349a9e95ce4b620e502db23635f5d741c1085089b930f8687ed21e465297bc20",
       "approval": {
         "status": "approved",
-        "revisionHash": "4ddc069774f2e69392921060e8c7e668e4ea678f46e6493cba391e35865f5dcb",
-        "approvedAt": "2026-10-14T20:18:17.310Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "349a9e95ce4b620e502db23635f5d741c1085089b930f8687ed21e465297bc20",
+        "approvedAt": "2026-10-15T08:45:47.388Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -24836,7 +24836,7 @@
           "text": "Jei bendrą veiklą renkatės kaip dovaną, platesnį pasirinkimą padės apsvarstyti dovanų idėjos pagal žmogų, progą ir biudžetą. Veiklos planą aptarkite su gavėjais: kvietimas praleisti laiką kartu gali palikti jiems laisvę pasirinkti datą ir būdą."
         }
       ],
-      "publishAt": "2026-10-25T14:00:00.000Z",
+      "publishAt": "2026-10-26T08:00:00.000Z",
       "media": [
         {
           "id": "f97e86d7-a553-4c7b-b590-0a679302d4c3",
@@ -24903,12 +24903,12 @@
         }
       ],
       "id": "4ffc7862-ca3b-4d53-8171-f7bd2af4eb49",
-      "revisionHash": "2f29a280f921c09c4123f292ed0f57a455bcd4af53bf25a9cfd0b1d0cfa40e70",
+      "revisionHash": "12f82466249e8037ec9244a2b7f3be136292e323c729669f60a411baabaf4467",
       "approval": {
         "status": "approved",
-        "revisionHash": "2f29a280f921c09c4123f292ed0f57a455bcd4af53bf25a9cfd0b1d0cfa40e70",
-        "approvedAt": "2026-10-14T20:18:17.444Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "12f82466249e8037ec9244a2b7f3be136292e323c729669f60a411baabaf4467",
+        "approvedAt": "2026-10-15T08:45:47.207Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     },
     {
@@ -26533,7 +26533,7 @@
           "text": "Jei gavėjams patinka kurti kartu, viena iš svarstytinų dovanų yra rankų liejimo rinkinys porai arba rankų liejimo rinkinys šeimai. Prieš pasirinkdami peržiūrėkite konkretaus rinkinio komplektaciją ir naudojimo informaciją. Kalendoriuje galite įdėti savo parašytą kvietimą aptarti šią idėją; tai nėra pardavėjo dovanų kuponas ar pažadas liejinį pagaminti tą pačią dieną."
         }
       ],
-      "publishAt": "2026-10-25T08:00:00.000Z",
+      "publishAt": "2026-10-25T14:00:00.000Z",
       "media": [
         {
           "id": "eeeed7e3-b7e4-4a82-9f8f-5008747c6205",
@@ -26596,14 +26596,14 @@
         }
       ],
       "id": "8c33054b-4d4c-4e2c-8b48-2b2c923e9a14",
-      "revisionHash": "79fb572f8e985ebb2518680adbe7762cdbee76b61a248134037328044870c7fc",
+      "revisionHash": "a204a48f69134532f2bf044962d5f9e61ebca683fa4cbc5673dd280293849a62",
       "approval": {
         "status": "approved",
-        "revisionHash": "79fb572f8e985ebb2518680adbe7762cdbee76b61a248134037328044870c7fc",
-        "approvedAt": "2026-10-14T20:18:17.833Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "a204a48f69134532f2bf044962d5f9e61ebca683fa4cbc5673dd280293849a62",
+        "approvedAt": "2026-10-15T08:45:47.143Z",
+        "actorId": "codex-memocasting-date-only-launch-20261015"
       }
     }
   ],
-  "generatedAt": "2026-10-14T20:18:17.957Z"
+  "generatedAt": "2026-10-15T08:45:48.229Z"
 }
