@@ -1,13 +1,16 @@
 import { nicheOrigin, nichePagePath, publicNichePages, type NicheBlock, type NichePackage, type NichePage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
+import {memoSchemaGraph,memoProfilePath} from './memocasting-structure.mjs';
+import { memoIndexablePages } from './memocasting-content.mjs';
+import {memoLabels,memoRoute} from './memocasting-locales.mjs';
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
   return `${nicheOrigin(pkg)}${nichePagePath(page)}`;
 }
 
 export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+  return (pkg.siteId==='memocasting'?memoSchemaGraph:nicheSchemaGraph)(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
 }
 
 export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {
@@ -24,6 +27,7 @@ function escapeXml(value: string): string {
 }
 
 export function nicheSitemapXml(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod></url>`).join("");
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries}</urlset>`;
 }
@@ -36,6 +40,7 @@ function blockText(block: NicheBlock): string {
 }
 
 export function nicheLlmsIndex(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const origin = nicheOrigin(pkg);
   return [
     `# ${pkg.site.name}`,
@@ -50,21 +55,28 @@ export function nicheLlmsIndex(pkg: NichePackage, pages: NichePage[]): string {
 }
 
 export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
+  pages=memoIndexablePages(pkg,pages) as NichePage[];
   const byId = new Map(pages.map(page => [page.id, page]));
   return [
     `# ${pkg.site.name}`,
     `> ${pkg.site.offer}`,
     "",
     "Toliau pateikiami tik šiuo metu vieši puslapiai. Kai pagrindinis puslapis turi atskirą dizaino šabloną, jo santrauką papildo viešas HTML.",
-    ...pages.map((page) => [
+    ...pages.map((page) => {
+      const labels=pkg.siteId==='memocasting'?memoLabels[memoRoute(page).language]:null;
+      const profile=pkg.siteId==='memocasting'?memoProfilePath(page,pages):null;
+      return [
       "",
       `## ${page.title}`,
       `URL: ${nichePageUrl(pkg, page)}`,
       page.description,
-      ...(page.type === "guide" ? [`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`, `Publikavimo data: ${nicheEditorialDates(page).published}`, `Turinio peržiūra: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && pkg.siteId !== "traktoriupadangos" ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
-      ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`Susijęs atsakymas: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
-      ...(page.externalLinks ?? []).map(link => `Šaltinis: [${link.label}](${link.url}) — ${link.reason}`),
-    ].join("\n")),
+      ...(page.type === "guide" ? [
+        labels?`${labels.author}: MB Memocasting${profile?' ('+nicheOrigin(pkg)+profile+')':''}; ${labels.editorial}`:`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`,
+        `${labels?.published??'Publikavimo data'}: ${nicheEditorialDates(page).published}`,
+        `${labels?.reviewed??'Turinio peržiūra'}: ${nicheEditorialDates(page).modified}`] : []),
+      ...(page.type === "home" && !["traktoriupadangos","memocasting"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`${labels?.related??'Susijęs atsakymas'}: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
+      ...(page.externalLinks ?? []).map(link => `${labels?.sources??'Šaltinis'}: [${link.label}](${link.url}) — ${link.reason}`),
+    ].join("\n");}),
   ].join("\n");
 }

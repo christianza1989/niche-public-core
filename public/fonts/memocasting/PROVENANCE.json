@@ -1,0 +1,42 @@
+{
+  "recordedOn": "2026-10-12",
+  "origin": "Existing OFL licensed network assets copied unchanged: Newsreader from auksarankiams, Source Sans3 from fasadopastoliai. Original license copyright notices retained; files self-hosted. License trailing whitespace normalized; copyright and license text preserved.",
+  "files": [
+    {
+      "file": "newsreader-OFL.txt",
+      "sha256": "afdae9053282ba66bbacbc4cb20ad20b12ef46379ac587fd464fe3ff8ce1cd4a"
+    },
+    {
+      "file": "newsreader-regular.woff2",
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    {
+      "file": "source-sans-3-400-latin-ext.woff2",
+      "sha256": "a85a7459bdb3cdc1136751e151a506bae653fc29ada3ca86237477df6f1b59e6"
+    },
+    {
+      "file": "source-sans-3-400-latin.woff2",
+      "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+    },
+    {
+      "file": "source-sans-3-600-latin-ext.woff2",
+      "sha256": "a85a7459bdb3cdc1136751e151a506bae653fc29ada3ca86237477df6f1b59e6"
+    },
+    {
+      "file": "source-sans-3-600-latin.woff2",
+      "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+    },
+    {
+      "file": "sourcesans3-OFL.txt",
+      "sha256": "7fac2f6c6bc47144e2c35e8f41147b3c8c895490d44b46266a5312fe93364d2e"
+    }
+  ],
+  "derivative": {
+    "file": "newsreader-latin-extended.woff2",
+    "sha256": "4668b15f57fa2607449aabf53d638f56501c92f44ebbde6aa2dc944e8a904a43",
+    "bytes": 66348,
+    "source": "newsreader-regular.woff2; original unchanged",
+    "method": "FontTools subset: ASCII/Latin1/LatinExtendedA and punctuation/euro; default kern/liga/clig/calt/locl/mark/mkmk/ccmp features; OFL/name notices retained",
+    "glyphCoverage": "All required LT/PL/LV/ET uppercase/lowercase alphabets checked in actualcmap"
+  }
+}

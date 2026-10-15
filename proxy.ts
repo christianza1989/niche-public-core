@@ -4,6 +4,8 @@ import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
+import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
+import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -16,10 +18,25 @@ function isPreview(host: string): boolean {
 export function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
+  if (host === 'www.memocasting.lt') {
+    const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
+    const memo=nicheSiteByHost('memocasting.lt');
+    const moved=memo?memoRedirectPath(path,publicNichePages(memo),request.method):null;
+    if(moved)destination.pathname=moved;
+    return NextResponse.redirect(destination,moved?301:308);
+  }
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
   const niche = nicheSiteByHost(host);
+  // Run this gate before every legacy/gift fallback as well as niche dispatch.
+  // Otherwise an old legacy host can fall through to the shared ASSETS binding.
+  if(path.startsWith('/memocasting-homepage/')){
+    if(!niche||!memoHomepageAsset(niche,publicNichePages(niche),path))return new Response('Not found',{status:404});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/design-assets/'+path.slice('/memocasting-homepage/'.length);
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');return response;
+  }
 
   const gift = !niche ? contentPackageByHost(host) : null;
   if (gift) {
@@ -53,6 +70,15 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if(niche.siteId==='memocasting'){
+      const moved=memoRedirectPath(path,publicNichePages(niche),request.method);
+      if(moved){const destination=request.nextUrl.clone();destination.pathname=moved;return NextResponse.redirect(destination,301);}
+    }
+    if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
+    if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);
+      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');response.headers.set('Cache-Control','no-store');return response;
+    }
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
     if (path.startsWith("/content-assets/")) {
