@@ -9,7 +9,7 @@ import ts from 'typescript';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createElement } from 'react';
 import * as media from '../lib/niche-media.mjs';
-import { commerceDestination, projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
+import { commerceDestination, projectContentPagesV2, contentArticleHubV2 } from '../lib/content-projection-v2.mjs';
 import { contentSeoV2 } from '../lib/content-seo-v2.mjs';
 import { nativeFixture, retiredFixture, approveFixture } from './fixtures/native-niche-v2.mjs';
 
@@ -106,6 +106,56 @@ test('standalone native guide never gains an unrelated index breadcrumb', () => 
   const rendered = html(pkg, 'standalone', boundary - 1);
   assert.deepEqual(schemasIn(rendered)[1].itemListElement.map(crumb => new URL(crumb.item).pathname), ['/', '/sprendimas']);
   assert.doesNotMatch(breadcrumbIn(rendered), /href="\/gidai"/);
+});
+
+test('an explicit projected index relation covers a stable guide outside its URL prefix', () => {
+  for (const relation of ['attached', 'related', 'richParagraph', 'richHeading', 'richList']) {
+    const pkg = nativeFixture();
+    addPage(pkg, 'current', 'standalone', 'guide', 'sprendimas');
+    const index = pkg.pages.find(page => page.id === 'index');
+    const link = {type:'link',text:'Atskiras bandymo gidas',target:{kind:'page',pageId:'standalone'}};
+    if (relation === 'attached') index.links.push({targetPageId:'standalone',label:link.text});
+    else if (relation === 'related') index.editorial.relatedPageIds.push('standalone');
+    else index.body.push(relation === 'richList' ? {type:'richList',ordered:false,items:[[link]]}
+      : {type:relation,...(relation === 'richHeading' ? {level:2} : {}),content:[link]});
+    approveFixture(pkg);
+    const original = JSON.stringify(pkg), renderedIndex = html(pkg, 'index', boundary - 1);
+    assert.match(renderedIndex, /href="\/sprendimas"/, relation+' actual index discovery');
+    const renderedGuide = html(pkg, 'standalone', boundary - 1);
+    assert.deepEqual(schemasIn(renderedGuide)[1].itemListElement.map(crumb => new URL(crumb.item).pathname),
+      ['/', '/gidai', '/sprendimas'], relation+' semantic breadcrumb');
+    assert.match(breadcrumbIn(renderedGuide), /href="\/gidai">Bandymo puslapis index<\/a>/, relation);
+    assert.equal(JSON.stringify(pkg), original, relation+' immutable input');
+  }
+});
+
+test('semantic hub selection cannot borrow a foreign, hidden, unready or reverse-linked index', () => {
+  const make = () => {
+    const pkg = nativeFixture();
+    const guide = addPage(pkg, 'current', 'standalone', 'guide', 'sprendimas');
+    pkg.pages.find(page => page.id === 'index').links.push({targetPageId:guide.id,label:guide.title});
+    approveFixture(pkg);return pkg;
+  };
+  for (const state of ['future', 'unapproved', 'revoked']) {
+    const pkg = make(), index = pkg.pages.find(page => page.id === 'index');
+    if (state === 'future') { index.publishAt='2040-01-01T00:00:00.000Z';approveFixture(pkg); }
+    else if (state === 'unapproved') delete index.approval;
+    else index.approval.status='revoked';
+    const visible=project(pkg,boundary-1),guide=visible.find(page=>page.id==='standalone');
+    assert.equal(contentArticleHubV2(guide,visible),null,state);
+    assert.doesNotMatch(breadcrumbIn(html(pkg,'standalone',boundary-1)),/href="\/gidai"/,state);
+  }
+  const pkg=make(),visible=project(pkg,boundary-1),guide=visible.find(page=>page.id==='standalone');
+  const foreign=project(nativeFixture({siteId:'foreignqa'}),boundary-1);
+  assert.equal(contentArticleHubV2(guide,[...visible.filter(page=>page.type!=='index'),...foreign]),null,'foreign site cannot supply hub');
+  assert.equal(contentArticleHubV2(guide,visible.filter(page=>page.id!==guide.id)),null,'page itself must be eligible');
+  const wrongHost=visible.map(page=>page.type==='index'?{...page,url:'https://foreignqa.example/gidai'}:page);
+  assert.equal(contentArticleHubV2(guide,wrongHost),null,'foreign host cannot supply hub');
+  const reverse=make(),index=reverse.pages.find(page=>page.id==='index');
+  index.links=[];reverse.pages.find(page=>page.id==='standalone').links.push({targetPageId:index.id,label:'Bandymo indeksas'});
+  approveFixture(reverse);
+  const reversed=project(reverse,boundary-1);
+  assert.equal(contentArticleHubV2(reversed.find(page=>page.id==='standalone'),reversed),null,'reverse edge is insufficient');
 });
 
 test('native rich positions, responsive media and all exports share exact temporal/revocation projection', () => {

@@ -3,6 +3,7 @@ import type { ContentPackageV2, ProjectedContentPageV2 } from '@/lib/content-mod
 import { RichContent, ContentImage } from '@/components/content/rich-content';
 import { contentPath, contentFeaturedImage, contentAuthorPage, contentDate, contentArticles } from '@/lib/content-presentation';
 import { contentSchemas, contentJsonLd } from '@/lib/content-page-seo';
+import { contentArticleHubV2 } from '@/lib/content-projection-v2.mjs';
 import styles from './native-content-site.module.css';
 import {NativeContactForm} from './native-contact-form';
 import {InterestTracking} from './interest-tracking';
@@ -15,8 +16,7 @@ export function NativeContentSite({ pkg, page, livePages }: Props) {
   if (pkg.site.renderer !== 'niche' || page.siteId !== pkg.siteId || !livePages.some(item => item.id === page.id)) return null;
   const site = page.siteSnapshot;
   const home = livePages.find(item => item.type === 'home' && item.slug === '');
-  const index = livePages.filter(item => item.type === 'index' && (item.id === page.id || page.slug.startsWith(item.slug + '/')))
-    .sort((a, b) => b.slug.length - a.slug.length)[0];
+  const index = contentArticleHubV2(page, livePages);
   const navigation = livePages.filter(item => ['index', 'service', 'about', 'contact'].includes(item.type)).slice(0, 6);
   const information = livePages.filter(item => ['policy', 'about', 'contact', 'author'].includes(item.type));
   const privacy=livePages.find(item=>item.slug==='privatumas'&&item.type==='policy');
