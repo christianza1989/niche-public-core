@@ -2,7 +2,7 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
-  "contactsBySite": {},
+  "contactsBySite": { "phonebridger": { "email": "hello@phonebridger.com" } },
   "networkDomains": [
     "akmenas.lt",
     "apartmentstrakai.lt",
@@ -23,6 +23,7 @@
     "miniekskavatoriai.lt",
     "mtaisykla.lt",
     "namudekoravimas.lt",
+    "phonebridger.com",
     "pliusstatyba.lt",
     "rentbook.lt",
     "roletaiklaipedoje.lt",
