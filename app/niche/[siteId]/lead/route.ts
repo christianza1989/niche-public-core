@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { publicSiteByHost, publicSitePage } from "@/lib/public-site";
 import { nicheLeadRecipient } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
+import { readNicheFormBody } from "@/lib/niche-form-body.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -13,31 +14,6 @@ function response(message: string, status: number): Response {
   return new Response(html, { status, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store", "x-robots-tag": "noindex, nofollow", "x-content-type-options": "nosniff" } });
 }
 
-async function limitedForm(request: Request): Promise<URLSearchParams | null> {
-  if (!request.headers.get("content-type")?.startsWith("application/x-www-form-urlencoded")) return null;
-  const declaredSize = request.headers.get("content-length");
-  if (declaredSize && /^\d+$/.test(declaredSize) && Number(declaredSize) > 65536) return null;
-  if (!request.body) return null;
-  const reader = request.body.getReader();
-  const chunks: Uint8Array[] = [];
-  let length = 0;
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    length += value.byteLength;
-    // Retain at most 10 KB. Drain modest rejected bodies without retaining
-    // their bytes so the local proxy can deliver an error and reuse transport.
-    // Stop abusive streams at 64 KB; they never reach parsing or storage.
-    if (length > 65536) { await reader.cancel(); return null; }
-    if (length <= 10000) chunks.push(value);
-  }
-  if (length > 10000) return null;
-  const bytes = new Uint8Array(length);
-  let offset = 0;
-  for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
-  return new URLSearchParams(new TextDecoder().decode(bytes));
-}
-
 export async function POST(request: Request, { params }: { params: Params }): Promise<Response> {
   const { siteId } = await params;
   const host = (await headers()).get("host");
@@ -46,7 +22,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
   // No storage or notification occurs until origin and field checks both pass.
-  const form = await limitedForm(request);
+  const form = await readNicheFormBody(request);
   if(pkg.schemaVersion===2 && (!publicSitePage(pkg,'kontaktai') || publicSitePage(pkg,'privatumas')?.type!=='policy')) return response('Užklausos forma šiuo metu nepasiekiama. Parašykite svetainėje nurodytu el. paštu.',503);
   const origin = request.headers.get("origin");
   const referrer = request.headers.get("referer");

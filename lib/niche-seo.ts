@@ -7,7 +7,8 @@ export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
 }
 
 export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+  const contact = nicheNetworkContact(pkg.siteId);
+  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), contact.operatorName, contact.areaServed);
 }
 
 export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {

@@ -3,6 +3,20 @@ import { test } from 'node:test';
 import { nicheBreadcrumbs, nicheSchemaGraph } from '../lib/niche-schema-core.mjs';
 const pkg = { canonicalHost:'sample.lt', locale:'lt-LT', site:{ name:'Niša', offer:'Informacija', contact:{email:'info@pinet.lt'} } };
 const guide = { slug:'gidas/dydis', type:'guide', title:'Dydis', description:'Kaip skaityti dydį', publishAt:'2026-09-30T08:00:00.000Z', approval:{approvedAt:'2026-09-30T09:00:00.000Z'}, media:[] };
+
+test('confirmed territory reaches Service and Organization without an invented address or offer',()=>{
+  const service={...guide,type:'service',slug:'paslauga'},area={'@type':'City',name:'Vilnius'};
+  const graph=nicheSchemaGraph(pkg,service,[service],'Operatorius',area)['@graph'];
+  for(const type of ['Service','Organization']) assert.deepEqual(graph.find(x=>x['@type']===type).areaServed,area);
+  assert.ok(!graph.some(x=>['LocalBusiness','Offer','Product'].includes(x['@type'])));
+  assert.ok(!JSON.stringify(graph).includes('streetAddress'));
+  for(const absent of [undefined,{'@type':'City',name:''},{'@type':'unsupported',name:'Invented'}]){
+    assert.ok(!JSON.stringify(nicheSchemaGraph(pkg,service,[service],'Operatorius',absent)).includes('areaServed'));
+  }
+  const article=nicheSchemaGraph(pkg,guide,[guide],'Operatorius',area)['@graph'];
+  assert.ok(!article.some(x=>x['@type']==='Service'));
+  assert.deepEqual(article.find(x=>x['@type']==='Organization').areaServed,area);
+});
 test('guide breadcrumb and schema share the actual public hub, not raw future pages', () => {
   const pages = [guide, {slug:'gidai'}];
   const data = nicheSchemaGraph(pkg, guide, pages, 'MB Pinet');
