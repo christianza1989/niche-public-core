@@ -109,7 +109,7 @@ export function validateContentPackage(pkg) {
       if (block.type === "heading" && ![2, 3].includes(block.level)) fail(`page ${id} has an invalid heading level`);
     }
     if (!Array.isArray(page.media) || !Array.isArray(page.links)) fail(`page ${id} media and links must be arrays`);
-    if(page.media.length>60)fail(`page ${id} media exceeds 60 variants`);
+    if(page.media.length>1024)fail(`page ${id} media exceeds 1024 variants`);
     const mediaIds = new Set();
     for (const media of page.media) {
       const assetId = requireString(media.id, `page ${id} media.id`);

@@ -1,0 +1,81 @@
+{
+  "wildtubs-europe": {
+    "default": "en",
+    "locales": {
+      "en": "en-GB",
+      "de": "de-DE",
+      "pl": "pl-PL"
+    },
+    "routes": {
+      "home": {
+        "en": "",
+        "de": "de",
+        "pl": "pl"
+      },
+      "catalogue": {
+        "en": "en/catalogue",
+        "de": "de/produkte",
+        "pl": "pl/produkty"
+      },
+      "tubs": {
+        "en": "en/hot-tubs",
+        "de": "de/badezuber",
+        "pl": "pl/balie"
+      },
+      "saunas": {
+        "en": "en/saunas",
+        "de": "de/saunen",
+        "pl": "pl/sauny"
+      },
+      "guides": {
+        "en": "en/guides",
+        "de": "de/ratgeber",
+        "pl": "pl/poradniki"
+      },
+      "selection": {
+        "en": "en/guides/choose-your-hot-tub",
+        "de": "de/ratgeber/badezuber-auswaehlen",
+        "pl": "pl/poradniki/jak-wybrac-balie"
+      },
+      "delivery": {
+        "en": "en/guides/plan-your-delivery",
+        "de": "de/ratgeber/lieferung-planen",
+        "pl": "pl/poradniki/planowanie-dostawy"
+      },
+      "contact": {
+        "en": "en/contact",
+        "de": "de/kontakt",
+        "pl": "pl/kontakt"
+      },
+      "about": {
+        "en": "en/about",
+        "de": "de/ueber-uns",
+        "pl": "pl/o-nas"
+      },
+      "profile": {
+        "en": "en/editorial",
+        "de": "de/redaktion",
+        "pl": "pl/redakcja"
+      },
+      "privacy": {
+        "en": "en/privacy",
+        "de": "de/datenschutz",
+        "pl": "pl/prywatnosc"
+      },
+      "terms": {
+        "en": "en/enquiry-terms",
+        "de": "de/anfragebedingungen",
+        "pl": "pl/warunki-zapytan"
+      },
+      "sauna": {
+        "en": "en/guides/plan-your-garden-sauna",
+        "de": "de/ratgeber/gartensauna-planen",
+        "pl": "pl/poradniki/planowanie-sauny-ogrodowej"
+      }
+    },
+    "children": [
+      "tubs",
+      "saunas"
+    ]
+  }
+}
