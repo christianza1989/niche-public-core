@@ -3,6 +3,7 @@ declare namespace Cloudflare {
     DB?: D1Database;
     BUCKET?: R2Bucket;
     NICHE_DEV_SITE_ID?: string;
+    NICHE_DEV_INDEXABILITY?: string;
     LEAD_EMAIL?: SendEmail;
     LEAD_SMTP_ENABLED?: string;
     LEAD_SMTP_USER?: string;

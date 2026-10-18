@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
+import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage,nicheIndexingAllowedForHost } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import {publicNichePages} from '@/lib/niche-sites';
 import {pageLanguage,pageAlternates,languageConfig} from '@/lib/niche-languages.mjs';
@@ -54,8 +54,8 @@ export default async function RootLayout({
           </>}
           <title>{page?.title || niche.site.name}</title>
           <meta name="description" content={page?.description || niche.site.offer} />
-          {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
-          {niche.canonicalHost.endsWith('.example')&&<meta name="robots" content="noindex, nofollow"/>}
+          {canonical && <link rel="canonical" href={canonical} />}
+          <meta name="robots" content={page&&nicheIndexingAllowedForHost(niche,host)?'index, follow, max-image-preview:large':'noindex, nofollow'}/>
           {pageAlternates(niche,page,publicNichePages(niche)).map((a:{locale:string,path:string})=><link key={a.locale} rel="alternate" hrefLang={a.locale} href={`${nicheOrigin(niche)}${a.path}`}/>)}
           {defaultAlternate&&<link rel="alternate" hrefLang="x-default" href={`${nicheOrigin(niche)}${defaultAlternate.path}`}/>}
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
