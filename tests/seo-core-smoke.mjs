@@ -35,6 +35,9 @@ for (const page of live) {
   const url = `${origin}${path}`;
   const { response, body } = await get(path);
   assert.equal(response.statusCode, 200, `${path} must be public`);
+  assert.doesNotMatch(String(response.headers['x-robots-tag']||''),/\b(?:noindex|none)\b/i,`${path}: public canonical response must allow indexing`);
+  const robotTags=[...body.matchAll(/<meta\b[^>]*>/gi)].map(m=>m[0]).filter(tag=>/\bname\s*=\s*["'](?:robots|googlebot)["']/i.test(tag));
+  for(const tag of robotTags)assert.doesNotMatch(tag,/\b(?:noindex|none|nofollow)\b/i,`${path}: public search directive ${tag}`);
   assert.ok(body.includes(`<link rel="canonical" href="${url}"`), `${path} canonical`);
   assert.ok(body.includes('type="application/ld+json"'), `${path} JSON-LD`);
   assert.ok(body.includes(page.title.replaceAll("&", "&amp;")), `${path} visible title`);
@@ -53,6 +56,7 @@ for (const path of ['/favicon.svg', '/favicon.ico']) {
 
 const robots = await get("/robots.txt");
 assert.equal(robots.response.statusCode, 200);
+assert.doesNotMatch(robots.body,/^\s*Disallow:\s*\/\s*$/im,'Public robots must not disallow the whole site');
 assert.ok(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`));
 
 const sitemap = await get("/sitemap.xml");

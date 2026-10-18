@@ -2,6 +2,7 @@ import rawPackages from "@/lib/generated/content-packages.json";
 import { env } from "cloudflare:workers";
 import { dueRevision, projectPublicPages } from "./niche-links.mjs";
 import networkSettings from "@/config/niche-network.json";
+import {nicheIndexingAllowed} from './niche-indexability.mjs';
 
 export type NicheBlock =
   | { type: "paragraph"; text: string }
@@ -92,4 +93,8 @@ export function nichePagePath(page: NichePage): string {
 
 export function nicheOrigin(pkg: NichePackage): string {
   return `https://${pkg.canonicalHost}`;
+}
+
+export function nicheIndexingAllowedForHost(pkg:NichePackage,host:string|null|undefined):boolean {
+  return nicheIndexingAllowed(pkg,normalizedHost(host),(env.NICHE_DEV_INDEXABILITY||process.env.NICHE_DEV_INDEXABILITY)==='1');
 }

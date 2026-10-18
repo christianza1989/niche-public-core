@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { nicheSiteByHost, normalizedHost, publicNichePages } from "@/lib/niche-sites";
+import { nicheSiteByHost, normalizedHost, publicNichePages, nicheIndexingAllowedForHost } from "@/lib/niche-sites";
 import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
@@ -91,7 +91,7 @@ export function proxy(request: NextRequest) {
     requestHeaders.set("x-niche-original-path", path);
     const response = NextResponse.rewrite(destination, { request: { headers: requestHeaders } });
     response.headers.set("Cache-Control", "private, no-store");
-    if (isPreview(host)) response.headers.set("X-Robots-Tag", "noindex, nofollow");
+    if (!nicheIndexingAllowedForHost(niche,host)) response.headers.set("X-Robots-Tag", "noindex, nofollow");
     return response;
   }
 

@@ -1,5 +1,5 @@
 import { headers } from "next/headers";
-import { nicheSiteByHost, normalizedHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { nicheSiteByHost, publicNichePage, publicNichePages,nicheIndexingAllowedForHost } from "@/lib/niche-sites";
 import { nicheSitemapXml } from "@/lib/niche-seo";
 
 export const dynamic = "force-dynamic";
@@ -8,8 +8,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sit
   const { siteId } = await params;
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) return new Response("Not found", { status: 404 });
-  const host = normalizedHost((await headers()).get("host"));
-  if (host === "localhost" || host === "127.0.0.1" || host.endsWith(".vercel.app") || !publicNichePage(pkg, "")) {
+  if (!nicheIndexingAllowedForHost(pkg,(await headers()).get("host")) || !publicNichePage(pkg, "")) {
     return new Response("Not found", { status: 404, headers: { "X-Robots-Tag": "noindex" } });
   }
   return new Response(nicheSitemapXml(pkg, publicNichePages(pkg)), {

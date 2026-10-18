@@ -37,13 +37,13 @@ test("approved immutable package passes validation", () => {
   assert.equal(validateContentPackage(fixture()).pages.length, 1);
 });
 
-test("responsive media permits 60 variants and rejects a 61st", () => {
+test("catalogue media permits 1024 variants and rejects a 1025th", () => {
   const pkg=fixture(),page=pkg.pages[0];
-  page.media=Array.from({length:60},(_,i)=>({id:`asset-${i}`,src:`/content-assets/sample-site/asset-${i}.webp`,alt:`Originali kompozicija ${i}`,width:800,height:400,rights:'Synthetic test'}));
+  page.media=Array.from({length:1024},(_,i)=>({id:`asset-${i}`,src:`/content-assets/sample-site/asset-${i}.webp`,alt:`Originali kompozicija ${i}`,width:800,height:400,rights:'Synthetic test'}));
   page.revisionHash=pageRevisionHash(page);page.approval.revisionHash=page.revisionHash;
-  assert.equal(validateContentPackage(pkg).pages[0].media.length,60);
-  page.media.push({...page.media[0],id:'asset-61',src:'/content-assets/sample-site/asset-61.webp'});
-  assert.throws(()=>validateContentPackage(pkg),/exceeds 60/);
+  assert.equal(validateContentPackage(pkg).pages[0].media.length,1024);
+  page.media.push({...page.media[0],id:'asset-1025',src:'/content-assets/sample-site/asset-1025.webp'});
+  assert.throws(()=>validateContentPackage(pkg),/exceeds 1024/);
 });
 
 test("a niche package may publish an email-only contact", () => {
