@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "at": "2026-10-19T07:33:23.475Z",
+  "scope": "GitHub handoff and local recovery; no hosted deployment",
+  "production": {
+    "lastAcceptedVersion": "f68008dd-5ceb-446b-8113-d68bd1631919",
+    "artifactSha256": "384825934db64e4824cfd42517f88d08d89f867f0d03698a640a3755e5ef3833",
+    "packageSha256": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+    "preparedPages": 135,
+    "guides": 131,
+    "assetPaths": 923,
+    "lastAcceptedAt": "2026-10-13",
+    "providerVersionRequeried": false,
+    "publicHttpEvidence": "PUBLIC-STATUS-20261019.json"
+  },
+  "trial": {
+    "lastAcceptedVersion": "bf048234-6008-4b47-96d3-b1f44f0cdb58",
+    "artifactSha256": "d6821bdc0b303b064a9a4156926274694f9509c0ebb83bb088f2d135e7a781e6",
+    "expiresAt": "2026-10-16T21:10:47.982Z",
+    "currentHostedHttpStatus": 410,
+    "sourceArtifactChanged": false
+  },
+  "nextRelease": {
+    "state": "verified-export-not-deployed",
+    "packageSha256": "ee7a92ee36a48c6ba3382882f05c538bdeef43aa6c82cbeb290fdb1acd33ad84",
+    "pages": 141,
+    "guides": 137,
+    "contentWebp": 702,
+    "producerCommit": "19c545847f79828d849c9db987205af62c97e88b",
+    "expectedConsumerAssets": 961,
+    "consumerComplete": false
+  },
+  "contentPlan": {
+    "guides": 295,
+    "writtenAndDeployed": 131,
+    "writtenNotDeployed": 6,
+    "notWritten": 158,
+    "editorialRecords": 299,
+    "writerAutomation": "PAUSED",
+    "existingPublishAtPreserved": true
+  },
+  "media": {
+    "availableOriginalObjects": 191,
+    "oldProfilePngsUnavailableBeforeCleanup": 120,
+    "optimizedProfileVariantsPreserved": true,
+    "oldOriginalLookup": {
+      "libraryPngs": 834,
+      "sizeMatched": 0,
+      "matchedExpectedSha": 0
+    }
+  },
+  "checks": {
+    "sourceAndAssetsVerify": "PASS",
+    "existingPagesDeepEqual135": "PASS",
+    "commonNativeReleaseVerifier141Pages702Assets": "PASS",
+    "localWorkerRecoveryTests": {
+      "state": "PASS",
+      "passed": 2,
+      "failed": 0
+    },
+    "initialFailure": {
+      "scope": "New local trial bridge",
+      "reason": "Used production DO export names for archived trial; trial exports TemporaryTestPlatform",
+      "repair": "Local bindings match immutable trial export; no compiled artifact modified",
+      "finalTestsPassed": 2
+    },
+    "freshGithubClone": "PENDING",
+    "gitSecretScan": "PASS",
+    "localCleanup": "PENDING",
+    "additionalPrivacySelection": {
+      "state": "PASS",
+      "excludedBeforeFirstCommit": 3,
+      "description": "Local preview SQLite auxiliary files and local key excluded; exact staged pattern/local-secret scan plus separate scope review"
+    }
+  },
+  "cleanupScope": {
+    "delete": "Dedicated Madbeauty worktrees, editorial temporary tenants, native test directories, identified generated originals and local Madbeauty downloads after verified upload",
+    "keep": "Shared CORE_SHARED and other project files, global credentials and provider systems; scope explicitly chosen by owner",
+    "clientStateInGit": false,
+    "credentialsInGit": false
+  },
+  "notCompleted": [
+    "SEO metadata/category fixes",
+    "next141 consumer release",
+    "Meta verification/public Facebook login",
+    "groups/events/conferences",
+    "158 unwritten guides",
+    "source build/deploy portability migration",
+    "whole-platform current production acceptance"
+  ],
+  "productionWritesByThisTask": 0,
+  "gitAuthority": {
+    "networkMain": "d0d08be67033e29457367ddcc2ca5eeccdf0230c",
+    "publicBaseMain": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
+    "fetchedAt": "2026-10-19T07:40:30.761Z",
+    "sharedCoreModified": false
+  }
+}

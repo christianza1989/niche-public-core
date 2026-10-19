@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "handoff/reference-captures/madbeauty-app-icon-v1.png",
+      "sha256": "838df1e3a71072de0a8002cbed4fc5ff57b9cdd1082818668f2ca4ba76fc0e49",
+      "bytes": 1693852
+    },
+    {
+      "file": "handoff/reference-captures/screencapture-bandymas-madbeauty-lt-2026-10-11-01_26_49.png",
+      "sha256": "b142f586b40514ddc7ec97ca619bed001cd12086ffcf071222731c258de2caed",
+      "bytes": 7742067
+    },
+    {
+      "file": "handoff/reference-captures/screencapture-madbeauty-lt-paslaugos-2026-10-10-03_15_17.png",
+      "sha256": "36efec27d891a22de6d8e2c8e7957a18c5843b3f30732f9c1338c3c60bc284ff",
+      "bytes": 524666
+    },
+    {
+      "file": "handoff/reference-captures/screencapture-madbeauty-lt-paslaugos-veidas-2026-10-10-22_59_10.png",
+      "sha256": "35aa5472022d4dd88b3a853a0f46e65c9a6558bfd07f98184a6ffb4173fd1766",
+      "bytes": 317141
+    },
+    {
+      "file": "handoff/reference-captures/screencapture-madbeauty-lt-paslaugos-veido-kaukes-2026-10-10-23_00_04.png",
+      "sha256": "6e074473b9ca4328140e74e97a8f886ee5d5b2a4318bc2573ba2e2be2b36df13",
+      "bytes": 333273
+    }
+  ],
+  "scope": "Owner-supplied public UI screenshots and app icon; no customer exports"
+}

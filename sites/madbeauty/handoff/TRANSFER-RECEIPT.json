@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T07:44:19.977Z",
+  "repository": "christianza1989/niche-public-core",
+  "branch": "codex/madbeauty-handoff-20261019",
+  "scope": "Madbeauty site-only archive; no deployment",
+  "sourceFilesAndMedia": "PASS",
+  "immutableArtifacts": "PASS",
+  "localNativeRecovery": "PASS (2/2)",
+  "exactStagedSafety": "PASS",
+  "freshRemoteClone": "PENDING",
+  "localCleanup": "PENDING",
+  "keep": "Shared CORE_SHARED, other project files, common Git roots, global account credentials and live provider systems",
+  "contentAutomation": "PAUSED; never resumed",
+  "privateRuntimeState": "EXCLUDED",
+  "credentials": "EXCLUDED",
+  "ownerAuthorization": "Public source, documentation and future articles; dedicated PC cleanup after restoration test"
+}
