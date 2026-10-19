@@ -5,7 +5,10 @@
     "status": "PAUSED",
     "schedule": "Monday and Thursday 09:00 in configured scheduler",
     "resumeAutomatically": false,
-    "cleanup": "Remove dedicated paused automation after recovery verification"
+    "cleanup": "Remove dedicated paused automation after recovery verification",
+    "configurationBackup": "WRITER-AUTOMATION-PAUSED.toml",
+    "backupIsHistoricalOnly": true,
+    "note": "Old PC paths and lease/activity statements are dated history; current README and fresh provider/Git checks take precedence. Never automatically activate this backup."
   },
   "sharedCore": {
     "id": "core-ir-madbeauty-agent-integracijos-t-stinumas",

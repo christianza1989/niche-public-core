@@ -59520,15 +59520,16 @@
     },
     {
       "file": "sites/madbeauty/CORE_FEEDBACK.md",
-      "bytes": 71182,
-      "sha256": "9ae60f1f17b28bec019269c310a53bf5335e4df454ab9cd09aafcb462167c046",
+      "bytes": 71828,
+      "sha256": "dd37d0dac091cf4a821df5abbda71b9213772ee6349010b63c4e9813a0be11fa",
       "sourceSha256": "9ae60f1f17b28bec019269c310a53bf5335e4df454ab9cd09aafcb462167c046",
       "source": {
         "kind": "tracked-source",
         "checkout": "madbeauty-favicon-20261013",
         "commit": "ce1d3fbae78313b479cf2403358337eccff31c4d",
         "path": "sites/madbeauty/CORE_FEEDBACK.md"
-      }
+      },
+      "handoffUpdate": "Appended observed shared safety fix; historical body preserved"
     },
     {
       "file": "sites/madbeauty/CURRENT_SCOPE.md",
@@ -60355,8 +60356,8 @@
     },
     {
       "file": "sites/madbeauty/handoff/AUTOMATIONS.json",
-      "bytes": 482,
-      "sha256": "4498e8e3559caf2301ef1dc290468341f47baec4ec8061d2358fb7de1c1c10ab",
+      "bytes": 759,
+      "sha256": "08d63daea9a7be367b893b01717fe3bd307e227e992ace5d55e095b4dc1db4e1",
       "source": {
         "kind": "handoff-recovery-metadata"
       }
@@ -105419,6 +105420,14 @@
       "file": "sites/madbeauty/.gitattributes",
       "bytes": 84,
       "sha256": "f4fddf9609750875a2f88f31cb233401e7dc767e93a322d9cea623dc344d8d59",
+      "source": {
+        "kind": "handoff-recovery-metadata"
+      }
+    },
+    {
+      "file": "sites/madbeauty/handoff/WRITER-AUTOMATION-PAUSED.toml",
+      "bytes": 6469,
+      "sha256": "0c24ea1d7f2f97a8e3524642b69bba2f1c6755ccef9af8f5f0d0fb4f91f2d8bc",
       "source": {
         "kind": "handoff-recovery-metadata"
       }

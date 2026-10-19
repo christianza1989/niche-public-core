@@ -90,9 +90,15 @@
   ],
   "productionWritesByThisTask": 0,
   "gitAuthority": {
-    "networkMain": "d0d08be67033e29457367ddcc2ca5eeccdf0230c",
+    "networkMain": "e231fe49",
     "publicBaseMain": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
     "fetchedAt": "2026-10-19T07:40:30.761Z",
-    "sharedCoreModified": false
+    "sharedCoreModified": false,
+    "sharedSafetyFix": {
+      "pr": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/228",
+      "commit": "588c8395ab29b14887e40c98c0f35a80b2ff711e",
+      "status": "merged and fetched on this PC; other PC adoption not claimed",
+      "testsPassed": 5
+    }
   }
 }

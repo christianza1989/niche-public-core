@@ -342,3 +342,8 @@ Existing globals were intentionally fail-closed during initial routing.1e4f9fc n
 ## 2026-10-11 community acceptance lessons
 
 Actual browser exposed HTMLFormElement.id shadowing by hidden input name=id. Submission routing now uses getAttribute(id), regression covers comment/save/edit and uncertain reply intent retention. Native successful IMAGES emulation alone missed absent deployed binding: trial actual upload503, then add IMAGES, require exact config binding and actual native+hosted uploads before acceptance. New OAuth URL secrets motivate scoped Cloudflare query redaction with readback (Wrangler4.92 lacks schema support; provider API patch needed). These are demonstrated Madbeauty gaps, not a claim that other sites are repaired. Shared runtime files were not changed.
+
+
+## 2026-10-19: viešo perdavimo saugumo patikra
+
+Perkėlimo atrankoje bendras repository-safety tikrintuvas nepažymėjo SQLite WAL / SHM ir vietinio .secret rakto. Šie trys failai išimti iki pirmo Madbeauty commit. Kanoninis tikrintuvas ir jo CLI regresijos pataisyti atskirai: [core PR228](https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/228), upgrade-1fca0d8e-1406-434e-9934-f7ff5f41d378. 5/5 testai ir committed upgrade coverage PASS; sujungta į core main e231fe49. Šio PC kanoninis checkout jau fetchintas, kitų PC pritaikymas neteigiamas. Atskirai išlaikoma failų apimties ir klientų duomenų peržiūra.
