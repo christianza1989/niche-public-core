@@ -18,6 +18,21 @@ test('catalogue schema excludes future or revoked products not in the supplied p
   const graph=memoSchemaGraph({...pkg,pages:[hub,product,{...product,slug:'private'}]},hub,[hub,product],'MB Memocasting')['@graph'];
   assert.deepEqual(graph.find(e=>e['@type']==='CollectionPage').hasPart,[{'@type':'WebPage',name:'Porai',url:'https://memocasting.lt/'+product.slug}]);
 });
+
+test('organization return policy follows eligible page at its boundary and after revocation',()=>{
+ const policy={...product,id:'returns',type:'faq',slug:'grazinimas',body:[],links:[],revisionHash:'policy-current',publishAt:'2026-10-19T07:00:00Z',approval:{status:'approved',revisionHash:'policy-current',approvedAt:'2026-10-19T06:00:00Z'}};
+ const source={...pkg,pages:[policy]};
+ for(const [time,expected] of [['2026-10-19T06:59:59Z',false],['2026-10-19T07:00:00Z',true]]){
+  const eligible=projectPublicPages(source,[source],{},Date.parse(time));
+  const graph=memoSchemaGraph(source,product,eligible,'MB Memocasting')['@graph'];
+  const organization=graph.find(e=>e['@type']==='Organization');
+  assert.deepEqual(organization.hasMerchantReturnPolicy,expected?{'@type':'MerchantReturnPolicy',merchantReturnLink:'https://memocasting.lt/grazinimas'}:undefined);
+  assert.ok(!graph.some(e=>e['@type']==='Offer'));
+ }
+ const changed={...source,pages:[{...policy,revisionHash:'edited'}]};
+ const eligible=projectPublicPages(changed,[changed],{},Date.parse('2026-10-19T08:00:00Z'));
+ assert.equal(memoSchemaGraph(changed,product,eligible,'MB Memocasting')['@graph'].find(e=>e['@type']==='Organization').hasMerchantReturnPolicy,undefined);
+});
 test('Lithuanian section identifiers are meaningful and independent of block positions',()=>{
   assert.equal(memoSectionId('Kurių skaičių negalima atspėti?'),'kuriu-skaiciu-negalima-atspeti');
   assert.equal(memoSectionId('Apdailos pasirinkimo lapas'),'apdailos-pasirinkimo-lapas');
