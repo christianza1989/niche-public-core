@@ -1,0 +1,20 @@
+{
+  "siteId": "core",
+  "category": "code",
+  "summary": "Public consumer adopts canonical120-entry page media bound required by22responsive image families",
+  "evidence": [
+    "Original120-entry public consumer test rejected the previous60 bound; failure preserved in gallery-capacity-original-failure-20261019.private.log.",
+    "Native producer upgrade89266b17 and actual115-entry home release require matching consumer validation."
+  ],
+  "paths": [
+    "scripts/content-package-core.mjs",
+    "schemas/content-package.v2.schema.json",
+    "tests/content-package.test.mjs"
+  ],
+  "issue": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/issues/100",
+  "rollback": "Revert consumer content release before lowering bound; do not truncate115entries or change approval hashes.",
+  "id": "upgrade-5b7f0f50-94ec-4d5d-b821-cee278d3ff83",
+  "branch": "codex/memocasting-public-20261012",
+  "baseSha": "59a27dc5c0019dc47ca1854d63cad08580db446e",
+  "createdAt": "2026-10-20T04:59:00.651Z"
+}
