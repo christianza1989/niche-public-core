@@ -1,104 +1,750 @@
 {
   "items": [
     {
-      "id": "family",
+      "id": "poros-rankos-svetaineje",
+      "category": "couple",
+      "title": "Dviese šviesioje svetainėje",
+      "description": "Susikibusios rankos ąžuolinėje lentynoje",
+      "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "trys-rankos-kartu",
+      "category": "family",
+      "title": "Trys rankos kartu",
+      "description": "Šeimos kompozicija jaukiame interjere",
+      "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "sirdis-is-ranku",
+      "category": "couple",
+      "title": "Širdis iš rankų",
+      "description": "Delnais ir pirštais suformuota širdis",
+      "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-360.webp",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-640.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-800.webp",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1200.webp",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1254.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      ]
+    },
+    {
+      "id": "suaugusiojo-ir-kudikio-rankos",
+      "category": "family",
+      "title": "Mažas delnas dideliame",
+      "description": "Suaugusiojo ir kūdikio rankų prisilietimas",
+      "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "suglausti-delnai",
+      "category": "couple",
+      "title": "Delnas prie delno",
+      "description": "Suglaustų delnų kompozicija",
+      "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "seimos-rankos-rausvoje-nisoje",
       "category": "family",
       "title": "Šeimos prisilietimas",
-      "description": "Trijų rankų kompozicija",
-      "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+      "description": "Susikibusios rankos rausvoje nišoje",
+      "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
       "variants": [
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-360.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-360.webp",
           "width": 360,
-          "height": 360
+          "height": 240
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-640.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-640.webp",
           "width": 640,
-          "height": 640
+          "height": 427
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-800.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-800.webp",
           "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1200.webp",
+          "width": 1200,
           "height": 800
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1200.webp",
-          "width": 1200,
-          "height": 1200
-        },
-        {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1254.webp",
-          "width": 1254,
-          "height": 1254
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1536.webp",
+          "width": 1536,
+          "height": 1024
         }
       ]
     },
     {
-      "id": "promise",
-      "category": "couple",
-      "title": "Pažadas",
-      "description": "Susikabinusių mažųjų pirštų skulptūra",
-      "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+      "id": "ranku-ratas-prie-zidinio",
+      "category": "family",
+      "title": "Rankų ratas prie židinio",
+      "description": "Rankų kompozicija ant medinio pagrindo",
+      "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
       "variants": [
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-360.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-360.webp",
           "width": 360,
-          "height": 360
+          "height": 240
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-640.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-640.webp",
           "width": 640,
-          "height": 640
+          "height": 427
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-800.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-800.webp",
           "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1200.webp",
+          "width": 1200,
           "height": 800
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1200.webp",
-          "width": 1200,
-          "height": 1200
-        },
-        {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1254.webp",
-          "width": 1254,
-          "height": 1254
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1536.webp",
+          "width": 1536,
+          "height": 1024
         }
       ]
     },
     {
-      "id": "heart",
-      "category": "couple",
-      "title": "Dviese",
-      "description": "Rankomis suformuota širdis",
-      "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+      "id": "rankos-gestas-bibliotekoje",
+      "category": "detail",
+      "title": "Rankos gestas",
+      "description": "Išraiškinga vienos rankos forma",
+      "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
       "variants": [
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-360.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-360.webp",
           "width": 360,
-          "height": 360
+          "height": 240
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-640.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-640.webp",
           "width": 640,
-          "height": 640
+          "height": 427
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-800.webp",
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-800.webp",
           "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1200.webp",
+          "width": 1200,
           "height": 800
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1200.webp",
-          "width": 1200,
-          "height": 1200
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "poros-rankos-verandoje",
+      "category": "couple",
+      "title": "Dviese šviesioje verandoje",
+      "description": "Susikibusios rankos sodo šviesoje",
+      "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-360.webp",
+          "width": 360,
+          "height": 240
         },
         {
-          "src": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1254.webp",
-          "width": 1254,
-          "height": 1254
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "suaugusiojo-ir-vaiko-rankos",
+      "category": "family",
+      "title": "Kartu jaukiuose namuose",
+      "description": "Suaugusiojo ir vaiko rankų kompozicija",
+      "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "poros-rankos-valgomajame",
+      "category": "couple",
+      "title": "Prisiminimas valgomajame",
+      "description": "Susikibusios rankos tamsaus medžio interjere",
+      "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "kudikio-rankyte-ir-pedute",
+      "category": "family",
+      "title": "Maža rankytė ir pėdutė",
+      "description": "Du maži prisiminimai greta",
+      "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "ranku-skulptura-pajurio-namuose",
+      "category": "couple",
+      "title": "Prisiminimas pajūrio namuose",
+      "description": "Susikibusios rankos šviesiame interjere",
+      "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "ranku-ratas-ant-pufo",
+      "category": "family",
+      "title": "Rankų ratas iš arčiau",
+      "description": "Ratu susikibusios rankos ant riešutmedžio lentos",
+      "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "poros-rankos-ant-palanges",
+      "category": "couple",
+      "title": "Prisilietimas prie lango",
+      "description": "Susikibusios rankos miesto bute",
+      "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "ranku-skulptura-ant-pianino",
+      "category": "couple",
+      "title": "Susikibusios rankos ant pianino",
+      "description": "Prisiminimas tarp natų",
+      "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "susikibusiu-pirstu-detales",
+      "category": "couple",
+      "title": "Prisilietimo detalės",
+      "description": "Susikibusių pirštų reljefas iš arti",
+      "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "seimos-rankos-bibliotekoje",
+      "category": "family",
+      "title": "Šeimos rankos bibliotekoje",
+      "description": "Kelių rankų kompozicija tarp knygų",
+      "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "poros-rankos-prie-arkos",
+      "category": "couple",
+      "title": "Dviese prie arkos",
+      "description": "Susikibusios rankos ant akmens lentynos",
+      "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "susikibusios-rankos-prie-lango",
+      "category": "couple",
+      "title": "Susikibusios rankos prie lango",
+      "description": "Rankų forma švelnioje dienos šviesoje",
+      "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "susikibusios-rankos-namu-nisoje",
+      "category": "couple",
+      "title": "Dviese namų nišoje",
+      "description": "Susikibusios rankos ant ovalaus pagrindo",
+      "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "id": "ranku-skulptura-virtuveje",
+      "category": "couple",
+      "title": "Bendra akimirka namuose",
+      "description": "Susikibusios rankos ant terakotos lentynos",
+      "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-360.webp",
+          "width": 360,
+          "height": 240
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-800.webp",
+          "width": 800,
+          "height": 533
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1200.webp",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1536.webp",
+          "width": 1536,
+          "height": 1024
         }
       ]
     }

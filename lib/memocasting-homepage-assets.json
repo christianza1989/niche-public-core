@@ -618,6 +618,666 @@
       "bytes": 12428,
       "sha256": "ba5b08211db8143a10593fde1e8d53f91645c81ae2c11b17d137ee52aced280d",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1536.webp",
+      "bytes": 96374,
+      "sha256": "9769028d8d52dc7f80ac09f70b28839a1a37d4ced16c0d6babb7ccd7b221de36",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1200.webp",
+      "bytes": 67114,
+      "sha256": "5016b00dd70e0970c6c71b594c9298cb351dfce296b9d1ba4b7fba83defd4e02",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-800.webp",
+      "bytes": 36030,
+      "sha256": "4807d97fd9550a940279986a71f62cd7f2dcdf53f27ae5c44f1aa794a41ecf56",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-640.webp",
+      "bytes": 25256,
+      "sha256": "1d52e1bb356aee0b3ee62ced02c7ccdab957ef5068a8bd3481c71f411ecf8a26",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-360.webp",
+      "bytes": 10810,
+      "sha256": "ffe50e3af79ecd32048cd10424ece67ae6ee2aa0bacfc11d316cd3309d826b81",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1536.webp",
+      "bytes": 58726,
+      "sha256": "9d05ffa0d6be04bbab0bfe35763d8360fd9289dd405e172a8df81a7794a7ec91",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1200.webp",
+      "bytes": 41310,
+      "sha256": "eed9586c53e6e68c7f8b02bb94692c2e60244974822522896baade87c157a65b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-800.webp",
+      "bytes": 22374,
+      "sha256": "1d546b2d81db4ac60bc54c9b70040909e5178dc8454d7d8589277a624b181d7e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-640.webp",
+      "bytes": 16244,
+      "sha256": "8a8eaee7bb138f84a766b804c260a2fa73f00f97cc27bc9c50848a615f6b2690",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-360.webp",
+      "bytes": 7418,
+      "sha256": "e7fb22e268c7887adfa9faab826ed922ba1191745406109fe49e0a43743287ed",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1254.webp",
+      "bytes": 71370,
+      "sha256": "8cab7b7f607af215811132e775ba0549868fac4148a9fb2a49965eb8ecf2b00a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1200.webp",
+      "bytes": 66162,
+      "sha256": "ab6565f53649f72fd18010650f5b8b101f2633493dc49288378e2eb56902178a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-800.webp",
+      "bytes": 36258,
+      "sha256": "7c5b2a2a952cd9c30ce345eddde752676641c5d9dd7c84fc401944da0bfbd87b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-640.webp",
+      "bytes": 26742,
+      "sha256": "193497aa891e77714551899f4899a1d73488cafb2701bd78239ab7399f24cc95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-360.webp",
+      "bytes": 12428,
+      "sha256": "ba5b08211db8143a10593fde1e8d53f91645c81ae2c11b17d137ee52aced280d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1536.webp",
+      "bytes": 63224,
+      "sha256": "87006eac2f5f10e509e545b46a3ac16ab7f016656f08678ace7c0929f1e0c2f4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1200.webp",
+      "bytes": 44784,
+      "sha256": "9cd3ee5b86ff2f6c6ef6271d5e07cf7fc9a27d4ed304ee42b22a6d7da40c3089",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-800.webp",
+      "bytes": 26218,
+      "sha256": "5b0af1e730f563b8fb3278325448cfc00f0a6dd010eb7cd5610107b20fa4f11d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-640.webp",
+      "bytes": 19750,
+      "sha256": "9b138bea6dd62e0c33fb0d683d3b89836e6433959f94d4016f84c00c04de8c5b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-360.webp",
+      "bytes": 9446,
+      "sha256": "67bdbbf23b39fca2d4e6c0fdc7bf090c5a8e5f39ad3b461f492db9ef5353ba5c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1536.webp",
+      "bytes": 77966,
+      "sha256": "8d967b27f0e070e4bfc063ab3ba9e073f618bda737d9168c7a121ad758422bba",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1200.webp",
+      "bytes": 53240,
+      "sha256": "b2497c84052bc9fd1f05cfc128d5a5e4778ab5c53937541c306b8fb7843a8f79",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-800.webp",
+      "bytes": 27838,
+      "sha256": "9d9c61c562bf08b3927cfd78b5a308619d49c18f9026425ebbb28237ce8566d4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-640.webp",
+      "bytes": 20396,
+      "sha256": "77c08f48012fe8f78a009b9ade718f82047fbcfd83640487bafd15ad7c70ba32",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-360.webp",
+      "bytes": 9148,
+      "sha256": "5542488458a0146b1c7c6eb651aa82bc61794eb2f46f9fa92193b5d91bc63c7e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1536.webp",
+      "bytes": 65990,
+      "sha256": "226b586275eb68e7f5681a5759b37a442174974b1dbb61f8185ca61242a6cdb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1200.webp",
+      "bytes": 42326,
+      "sha256": "5626789d10f21ff05f8a15d90acccec02ede665b813c5aedcc5a000038d7447f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-800.webp",
+      "bytes": 21582,
+      "sha256": "f066dbe6b84f2568f12beb81f31c438a81e7831edb150cc036e22e3588eae6b1",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-640.webp",
+      "bytes": 14860,
+      "sha256": "f6a0859afdfac57991cfa613ab0f0d02e99225c221d4bc233728b828e564d9ca",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-360.webp",
+      "bytes": 6844,
+      "sha256": "f0510c6436765dd554acec560e18ab67cbd1f72c9194de8051d919585e5ee275",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1536.webp",
+      "bytes": 121750,
+      "sha256": "6a65b51636cb9694eecb30db59959f7ae3c75494a81f58fa0ced98ddcb63303a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1200.webp",
+      "bytes": 84952,
+      "sha256": "5958c327d2b40ea0bd1185ce8fc43d619d34b61d3ce848c55d1eac4ed1a6be5d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-800.webp",
+      "bytes": 47306,
+      "sha256": "5ef2cf7c5c514f76edd6c83674de556e5844e4998e6dc1be305e2aaf8c410dfb",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-640.webp",
+      "bytes": 33054,
+      "sha256": "763958ad2f6efda452c27483580ae8944bc498266bf132393e28621e25b4f3da",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-360.webp",
+      "bytes": 13890,
+      "sha256": "11ff9ed92d79d31fb04c539e6bc7b0e535f1d59986589f4808fbb753d940e0c5",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1536.webp",
+      "bytes": 55968,
+      "sha256": "ceac8bc567f98ba8f6d19ee6f542fd9c773f0bb712a315353b5260780722a4be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1200.webp",
+      "bytes": 40054,
+      "sha256": "26d5618afb2fca1cdf7daa66051cb709b8913c0e70b11da02c6c251f2f8845be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-800.webp",
+      "bytes": 23598,
+      "sha256": "85dd09c3d962afa3d63ce2f2248f470e5ce0900288f1f243b92fe9e96badfb91",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-640.webp",
+      "bytes": 17684,
+      "sha256": "7e04e4b261833a59c30478f0319681393b47d1ae0496bebf1ae36f350b6e69dc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-360.webp",
+      "bytes": 8476,
+      "sha256": "c0bcb969d0c8c1718e63eacaaf22e8efcf9b3733cfc0943e62d4fc56db09efa0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1536.webp",
+      "bytes": 72898,
+      "sha256": "846332f5a67581849d2349b5e14c5a94dd4807b81ea3dcaa337767dbeb2479df",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1200.webp",
+      "bytes": 50160,
+      "sha256": "0c55fa8eeb37961ae33c32e7d35bab4fd2d1af8c02f113b74d971149298b5230",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-800.webp",
+      "bytes": 27926,
+      "sha256": "66b4927ed95953c1d74e8d943b5a4d8e693c4f2d39019441a705fb0f9c481032",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-640.webp",
+      "bytes": 20428,
+      "sha256": "51a230a4390cc314dde5fa42c940369e6f258d7c5a4c0fb4ee2869c249a71e53",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-360.webp",
+      "bytes": 10012,
+      "sha256": "4160973a54884126df45d2d45b630bcdc6e06fc07c57c2f9710b8c89befefdf7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1536.webp",
+      "bytes": 99402,
+      "sha256": "402e67894f4dcb1318a0cbae566fe6150ca28dafe4056d8443f768a5068487f0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1200.webp",
+      "bytes": 69572,
+      "sha256": "0e2f680a930087d8894fa9abc88257178a92a83b567aebae6fa77f529ae51c60",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-800.webp",
+      "bytes": 38230,
+      "sha256": "13f426b52c9d3d886048945db64110b44f241ebc89acb870f2d5d126da31a420",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-640.webp",
+      "bytes": 27154,
+      "sha256": "db257a89a46f1d86f62a3d379e3d4f2b4aa7587915ddd9a84243db3d40634d88",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-360.webp",
+      "bytes": 11172,
+      "sha256": "1a2471077e11e62633272cfe82ef01affcfc6a244f55a529a422559b2e7260dd",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1536.webp",
+      "bytes": 69346,
+      "sha256": "655c7d9700b65eaa5b031e7c9f9484d32859c93328bd91ab804894ab0490a8a4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1200.webp",
+      "bytes": 45274,
+      "sha256": "f3afb680d2b10cc4fb38339a1d765b2b5d75282e10e225b87cc5a87a01bee3d2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-800.webp",
+      "bytes": 22252,
+      "sha256": "ace6a31d992832641c5e56674d0603431df692799f68d4b99e47c63f22e34cc2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-640.webp",
+      "bytes": 15362,
+      "sha256": "f3db3d2b3985aa5f96959ee304e3aa03871d760c2b721ab0e096cd8b51529bbc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-360.webp",
+      "bytes": 6682,
+      "sha256": "8149327bb76fd156ea3d5fa5a3689f97bc3c86a353506ad05ab62c3713bc73ed",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1536.webp",
+      "bytes": 47088,
+      "sha256": "48909ef2f7c9cddc5de8473972ea25d75ffa0bfd6be87498302183a2f5a6d645",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1200.webp",
+      "bytes": 32052,
+      "sha256": "4c8637a87c67c1320aa1642e9fbdc09d78c70b5c8d972e130bd7ead8cbc21e19",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-800.webp",
+      "bytes": 17130,
+      "sha256": "82eee4c46fa53194975343c0acb87b16040e12a9c700bb99638c5ab52108b408",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-640.webp",
+      "bytes": 12314,
+      "sha256": "fcf620d91dfe2158337a73a5f090c017c05682feb05cb94c8cd62f62a1427e01",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-360.webp",
+      "bytes": 5358,
+      "sha256": "42b2a844fd08953d975afcd4849540e4e30dd5d121d89b9c5f5dfe9384d818b0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1536.webp",
+      "bytes": 111478,
+      "sha256": "7c9d31b6dbbb4c7b9e074f9aabd28f3162192ab8a26cf9f92037c315746bf7b6",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1200.webp",
+      "bytes": 74094,
+      "sha256": "0806da3605d9cb0f986e44f2e4b43fdf17b889a5636bd4e3adf2401e43a0d3a7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-800.webp",
+      "bytes": 37856,
+      "sha256": "f502d02be2cd9ed5973ec59d1e0032c88fd7bf5ff721a07cd4becf1ad218382d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-640.webp",
+      "bytes": 25902,
+      "sha256": "bdd12be5a20364a9baba2eaca2feeeab4d33a6099467e2a047fe290d1c8ce933",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-360.webp",
+      "bytes": 9790,
+      "sha256": "ad2e2ef49bd30c3fd0aa431db2cedbdefec9e786e8150f33dae7a1f5ef1123ad",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1536.webp",
+      "bytes": 134734,
+      "sha256": "88da3706367005731712214a4e125599d9d5e8f578700fc0ea24cbcd4cf9b458",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1200.webp",
+      "bytes": 83482,
+      "sha256": "3e586b5ba8efa54637df0eae13691efa9a8443bce2e90558db399d9a7e672f57",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-800.webp",
+      "bytes": 39098,
+      "sha256": "a8e2601a70c8dba66b052f0a65703cf6b19c16a30351b049952ebb767b2de754",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-640.webp",
+      "bytes": 27220,
+      "sha256": "fa0ea21f82086cffcefea56717b8811c873208c40bee35a65103a189a7612552",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-360.webp",
+      "bytes": 11354,
+      "sha256": "336674da0638f4c430716e3c75a79a2a88a175b94cfbd4f5ff73622b772c87ff",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1536.webp",
+      "bytes": 65694,
+      "sha256": "9288333b9d0a6167b20be1180899ad8b83431443ccde52dfc5d6dce0a0c27136",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1200.webp",
+      "bytes": 43426,
+      "sha256": "263e3cdff8074a6de5622372cb57d6cf58ba701f907a5e3077f1fc9876eb7689",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-800.webp",
+      "bytes": 22054,
+      "sha256": "e1ef3117af4a587636c7eaaedeb3d6aa37d5473ad53f28d6462f3913840ce048",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-640.webp",
+      "bytes": 15258,
+      "sha256": "8f114d868d967e95950340416c4d7e49649316ed2ca2cf326c0996d1d016514f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-360.webp",
+      "bytes": 6752,
+      "sha256": "0191512d855b92a165c5ea22e85ec67c19c8c96f3b3e758a82927a6da14003d4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1536.webp",
+      "bytes": 70738,
+      "sha256": "44552bc10f9d1e2eae688dff5f3929c284057e93a0c600c7e4a39c5aa2abf11c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1200.webp",
+      "bytes": 50168,
+      "sha256": "85737f56b983390a7aee57a22e4b83f855360bf2c3887484f335b68578ac8c50",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-800.webp",
+      "bytes": 27754,
+      "sha256": "19a0bc939e75e4233810dae2139b3f1e9c65a7ec8f81dc8194254738ae64fc2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-640.webp",
+      "bytes": 20394,
+      "sha256": "78500c31cf0368bb224ddcb285c84a0b2f2e3bc43ee677b3597cfe594cceec48",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-360.webp",
+      "bytes": 8690,
+      "sha256": "9372de4df1cc164d64a0b16be991fb576fed344f2ec7377ead8b4660aae95026",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1536.webp",
+      "bytes": 102888,
+      "sha256": "14d42faf9521946a2ca02f4fc5441f18f5f5f44657d8a3bff69ae427d45be1c4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1200.webp",
+      "bytes": 69562,
+      "sha256": "fb227dc77514edf27204ef18180d606c2faa79fb0132d2525d57c132844594ef",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-800.webp",
+      "bytes": 35750,
+      "sha256": "992486c1fff3012b909c00e5f1caf2c40cf7b3f79d122582185413fd6b1c6e3c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-640.webp",
+      "bytes": 24234,
+      "sha256": "0db880317518e669b41ae12d38f012165ef619e7a43948beba7a73a2bc37942b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-360.webp",
+      "bytes": 9220,
+      "sha256": "f320e074d2deb1d3052b031c935177cd83a25540e5830612d4b2467077d6938b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1536.webp",
+      "bytes": 69788,
+      "sha256": "4001791c5459a5f3b933c8ff54b27b7f72165fb0f946af0ba3671509569e2b8d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1200.webp",
+      "bytes": 49482,
+      "sha256": "6302642157c0e572e41c4a790a9dec6790fe6f5629c4330538a6fdfb7ba99928",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-800.webp",
+      "bytes": 27638,
+      "sha256": "f84809b510ad35baf201068ad0696aa7bc60436e94a03e6cd7366bff0073731d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-640.webp",
+      "bytes": 20202,
+      "sha256": "776273aad7d88e346191083f8ed092fc201d3f1957362c55a8d4865a8029ef25",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-360.webp",
+      "bytes": 9118,
+      "sha256": "95d1cd0efb96e60f170324b2c6bb8ce805011b054f685ba8f4f70ea5fb5ddfe2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1536.webp",
+      "bytes": 110432,
+      "sha256": "e0525f8ba696f86f6f4a7a22a58640f996d79adb155c682b2401c025833193e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1200.webp",
+      "bytes": 70844,
+      "sha256": "74348cb29802a70dc9bd71d4cdbe4c105390620ecd20c628facab7c0df72c389",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-800.webp",
+      "bytes": 32790,
+      "sha256": "9bff07573dd6de057ef2b0b5c7dd63ee5466c0d62e01310e5e4033aed17b98b6",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-640.webp",
+      "bytes": 20560,
+      "sha256": "802227067ca1e6533efc28b2c30fc3a2829114fcbb0d606f465a6db245b98548",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-360.webp",
+      "bytes": 7856,
+      "sha256": "c727338afa32c34f4a8db29d89fb65ef937fbe5baf461cd5f92fdbd14fabd63f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1536.webp",
+      "bytes": 73802,
+      "sha256": "f44a48d72b626c8ce717714e1f7079a39c0f5077a503b3151aac710ecada918a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1200.webp",
+      "bytes": 52124,
+      "sha256": "529c1ab4457addab8a5540e65090e602150d8b9cef6f4248427478d90e161d85",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-800.webp",
+      "bytes": 27926,
+      "sha256": "e18e0fe0a4b00d5600062b3068e313ea5a50a2dcd9743a6f2f46b8bb9994b53b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-640.webp",
+      "bytes": 20174,
+      "sha256": "65d59e43d37d140567b50ed18a90b987583cda546f4b6fbfe34fb716452a2c23",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-360.webp",
+      "bytes": 9014,
+      "sha256": "1db29a748dbdf903ca0d0214fd12b0c3f5431d167ccf7cb8f1ccdc5e8c542c03",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1536.webp",
+      "bytes": 48448,
+      "sha256": "717d161f59ef6d4153b67184073abfd9e8739660c313a3795152b2b78136a999",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1200.webp",
+      "bytes": 30178,
+      "sha256": "223846eafc861ca39977bccb581262587c3fb89f7979846ab17ef593581ee0ee",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-800.webp",
+      "bytes": 15472,
+      "sha256": "ba7f1d5f761d72267b4b1f26ec57258bc81575ab883ad02b85d65cba01724d62",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-640.webp",
+      "bytes": 11116,
+      "sha256": "8a5082da89c407c933662756a8ef0ef9402e06947badd541d2b293ab5ea69ca8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-360.webp",
+      "bytes": 5132,
+      "sha256": "6eed8115076e349d0a12e98a0441a72188c8b2122e6a1bd73d8c608276145bfa",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1536.webp",
+      "bytes": 82402,
+      "sha256": "d59ec67672309eb3ffea2a3816fb0b16debf4cde991fab0ab06d52f95bfc923f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1200.webp",
+      "bytes": 54500,
+      "sha256": "d630faa0c91ce62dc238e75e676c3c8dc3516ab77d6c77cba535eef58cfa8680",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-800.webp",
+      "bytes": 26838,
+      "sha256": "e6125e1bbf7d997b68a4dc48c2ac13af1c7bf6cb42297305b31d43b2c16babb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-640.webp",
+      "bytes": 18550,
+      "sha256": "77240e69edd40d2c875120a816526df590b851fd218a2b05868388df36be8a2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-360.webp",
+      "bytes": 7152,
+      "sha256": "4d54c8c2f5f51954ad4a7d50be1d3c9934624cd986705ef2900ddb60fdee2f7f",
+      "type": "image/webp"
     }
   ]
 }

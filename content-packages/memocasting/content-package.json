@@ -250,31 +250,31 @@
           "text": "Įkvėpimo iliustracijos. Jos nerodo klientų darbų ar tikslios rinkinių komplektacijos."
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "Šeimos prisilietimas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Trijų rankų kompozicija"
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Pažadas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Susikabinusių mažųjų pirštų skulptūra"
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Dviese"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankomis suformuota širdis"
+          "type": "list",
+          "items": [
+            "Dviese šviesioje svetainėje — Susikibusios rankos ąžuolinėje lentynoje",
+            "Trys rankos kartu — Šeimos kompozicija jaukiame interjere",
+            "Širdis iš rankų — Delnais ir pirštais suformuota širdis",
+            "Mažas delnas dideliame — Suaugusiojo ir kūdikio rankų prisilietimas",
+            "Delnas prie delno — Suglaustų delnų kompozicija",
+            "Šeimos prisilietimas — Susikibusios rankos rausvoje nišoje",
+            "Rankų ratas prie židinio — Rankų kompozicija ant medinio pagrindo",
+            "Rankos gestas — Išraiškinga vienos rankos forma",
+            "Dviese šviesioje verandoje — Susikibusios rankos sodo šviesoje",
+            "Kartu jaukiuose namuose — Suaugusiojo ir vaiko rankų kompozicija",
+            "Prisiminimas valgomajame — Susikibusios rankos tamsaus medžio interjere",
+            "Maža rankytė ir pėdutė — Du maži prisiminimai greta",
+            "Prisiminimas pajūrio namuose — Susikibusios rankos šviesiame interjere",
+            "Rankų ratas iš arčiau — Ratu susikibusios rankos ant riešutmedžio lentos",
+            "Prisilietimas prie lango — Susikibusios rankos miesto bute",
+            "Susikibusios rankos ant pianino — Prisiminimas tarp natų",
+            "Prisilietimo detalės — Susikibusių pirštų reljefas iš arti",
+            "Šeimos rankos bibliotekoje — Kelių rankų kompozicija tarp knygų",
+            "Dviese prie arkos — Susikibusios rankos ant akmens lentynos",
+            "Susikibusios rankos prie lango — Rankų forma švelnioje dienos šviesoje",
+            "Dviese namų nišoje — Susikibusios rankos ant ovalaus pagrindo",
+            "Bendra akimirka namuose — Susikibusios rankos ant terakotos lentynos"
+          ]
         },
         {
           "type": "heading",
@@ -518,139 +518,994 @@
           "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         },
         {
-          "id": "c0fbf4f7-21d6-4410-b1df-e5cf26ef9186",
-          "src": "/content-assets/memocasting/c0fbf4f7-21d6-4410-b1df-e5cf26ef9186.webp",
-          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "id": "ceec88be-6131-4409-9567-ec5bcba94d93",
+          "src": "/content-assets/memocasting/ceec88be-6131-4409-9567-ec5bcba94d93.webp",
+          "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "aed28d9d-1a3c-41b0-b07d-6aaa569cad52",
+          "src": "/content-assets/memocasting/aed28d9d-1a3c-41b0-b07d-6aaa569cad52.webp",
+          "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "131fa98d-a5d2-41e0-9553-1a2d7085eeca",
+          "src": "/content-assets/memocasting/131fa98d-a5d2-41e0-9553-1a2d7085eeca.webp",
+          "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e0b02102-0670-4527-a0b3-e675f571b1e4",
+          "src": "/content-assets/memocasting/e0b02102-0670-4527-a0b3-e675f571b1e4.webp",
+          "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "27ef182f-bbc9-49db-9495-c422b737c784",
+          "src": "/content-assets/memocasting/27ef182f-bbc9-49db-9495-c422b737c784.webp",
+          "alt": "Balta susikibusių rankų skulptūra ąžuolinėje lentynoje, šviesios svetainės fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "1a92d01e-3452-4651-aeb0-1c9d6dc92989",
+          "src": "/content-assets/memocasting/1a92d01e-3452-4651-aeb0-1c9d6dc92989.webp",
+          "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "caa50bee-5399-42c0-88d4-0b164857535d",
+          "src": "/content-assets/memocasting/caa50bee-5399-42c0-88d4-0b164857535d.webp",
+          "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e6a1cfd2-5291-4c7a-92bf-58a6eced0e85",
+          "src": "/content-assets/memocasting/e6a1cfd2-5291-4c7a-92bf-58a6eced0e85.webp",
+          "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "2b82d239-a317-4b69-bfe7-ccb4a1d921e6",
+          "src": "/content-assets/memocasting/2b82d239-a317-4b69-bfe7-ccb4a1d921e6.webp",
+          "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "65c31ce0-9fae-423a-9c0c-5b0f6466d1fe",
+          "src": "/content-assets/memocasting/65c31ce0-9fae-423a-9c0c-5b0f6466d1fe.webp",
+          "alt": "Balta trijų rankų skulptūra ant melsvos spintelės, gelsvos sienos ir vaikų knygų fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "02ad49e6-5c9e-4446-bdb5-c0cb16c9a9b9",
+          "src": "/content-assets/memocasting/02ad49e6-5c9e-4446-bdb5-c0cb16c9a9b9.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
           "width": 1254,
           "height": 1254,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "128d64a8-ba28-4eb3-b073-8f1a4a12b2e4",
-          "src": "/content-assets/memocasting/128d64a8-ba28-4eb3-b073-8f1a4a12b2e4.webp",
-          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "id": "0591936f-c391-4616-99d4-cb204cf7ece6",
+          "src": "/content-assets/memocasting/0591936f-c391-4616-99d4-cb204cf7ece6.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
           "width": 1200,
           "height": 1200,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "fc72d465-19a9-4aea-a36c-05f5a03a6fd1",
-          "src": "/content-assets/memocasting/fc72d465-19a9-4aea-a36c-05f5a03a6fd1.webp",
-          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "id": "89456958-a707-4117-b89d-236152239cab",
+          "src": "/content-assets/memocasting/89456958-a707-4117-b89d-236152239cab.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
           "width": 800,
           "height": 800,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "cbe675de-b08b-4536-8607-e1d6c54dde42",
-          "src": "/content-assets/memocasting/cbe675de-b08b-4536-8607-e1d6c54dde42.webp",
-          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "id": "fe75ed10-d43a-4b7a-adc5-1dc124e8bfe7",
+          "src": "/content-assets/memocasting/fe75ed10-d43a-4b7a-adc5-1dc124e8bfe7.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
           "width": 640,
           "height": 640,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "b7e855b0-0fbc-4388-ae36-118359d79333",
-          "src": "/content-assets/memocasting/b7e855b0-0fbc-4388-ae36-118359d79333.webp",
-          "alt": "Balta šeimos rankų skulptūra ant medinio pagrindo žaliame interjere, šeima antrame plane",
+          "id": "9fa9fb43-18fe-43a0-b1af-7c6bd8e083b8",
+          "src": "/content-assets/memocasting/9fa9fb43-18fe-43a0-b1af-7c6bd8e083b8.webp",
+          "alt": "Balta širdį sudarančių rankų skulptūra ant medinio paviršiaus, bordo audinio ir žvakės fone.",
           "width": 360,
           "height": 360,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "ce68002b-7fc1-49bf-a1e5-e9b7d1fecd60",
-          "src": "/content-assets/memocasting/ce68002b-7fc1-49bf-a1e5-e9b7d1fecd60.webp",
-          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
-          "width": 1254,
-          "height": 1254,
+          "id": "27540e51-0e69-4e8e-afb6-5bba1d6680ec",
+          "src": "/content-assets/memocasting/27540e51-0e69-4e8e-afb6-5bba1d6680ec.webp",
+          "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
+          "width": 1536,
+          "height": 1024,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "7ec00eb4-b09c-4ab9-9178-f679c92a3336",
-          "src": "/content-assets/memocasting/7ec00eb4-b09c-4ab9-9178-f679c92a3336.webp",
-          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "id": "da9ed01f-33d0-41d6-abcc-75db57c6c340",
+          "src": "/content-assets/memocasting/da9ed01f-33d0-41d6-abcc-75db57c6c340.webp",
+          "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
           "width": 1200,
-          "height": 1200,
-          "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
-        },
-        {
-          "id": "b0c2b138-733b-475f-9460-4765dc89c56b",
-          "src": "/content-assets/memocasting/b0c2b138-733b-475f-9460-4765dc89c56b.webp",
-          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
-          "width": 800,
           "height": 800,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "47874080-b829-4389-9576-70c1a76cff37",
-          "src": "/content-assets/memocasting/47874080-b829-4389-9576-70c1a76cff37.webp",
-          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "id": "e39f1742-9988-41d0-b412-23de694a8375",
+          "src": "/content-assets/memocasting/e39f1742-9988-41d0-b412-23de694a8375.webp",
+          "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "fda8f332-557d-4599-aec4-c31aba6d10bf",
+          "src": "/content-assets/memocasting/fda8f332-557d-4599-aec4-c31aba6d10bf.webp",
+          "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
           "width": 640,
-          "height": 640,
+          "height": 427,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "c001c2cf-1d5e-4134-9e91-de169aadb92e",
-          "src": "/content-assets/memocasting/c001c2cf-1d5e-4134-9e91-de169aadb92e.webp",
-          "alt": "Balta mažaisiais pirštais susikabinusių rankų skulptūra ant travertino postamento",
+          "id": "377628df-7646-4f23-a15a-57d47f032714",
+          "src": "/content-assets/memocasting/377628df-7646-4f23-a15a-57d47f032714.webp",
+          "alt": "Balta suaugusiojo ir kūdikio rankų skulptūra ant medinės lentynos melsvame vaiko kambaryje.",
           "width": 360,
-          "height": 360,
+          "height": 240,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "c06f14e0-18be-4620-9956-4ce275cfba2c",
-          "src": "/content-assets/memocasting/c06f14e0-18be-4620-9956-4ce275cfba2c.webp",
-          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
-          "width": 1254,
-          "height": 1254,
+          "id": "03f80c25-22dd-43b1-8f03-ae91d3fc580a",
+          "src": "/content-assets/memocasting/03f80c25-22dd-43b1-8f03-ae91d3fc580a.webp",
+          "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
+          "width": 1536,
+          "height": 1024,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "cc20f147-8063-49e6-b492-594b198f9ef0",
-          "src": "/content-assets/memocasting/cc20f147-8063-49e6-b492-594b198f9ef0.webp",
-          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "id": "7ae4c727-d569-4f76-9249-d154c1fa6c71",
+          "src": "/content-assets/memocasting/7ae4c727-d569-4f76-9249-d154c1fa6c71.webp",
+          "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
           "width": 1200,
-          "height": 1200,
-          "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
-        },
-        {
-          "id": "44487506-3ae3-408d-be7c-ce518d2f966a",
-          "src": "/content-assets/memocasting/44487506-3ae3-408d-be7c-ce518d2f966a.webp",
-          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
-          "width": 800,
           "height": 800,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "decfe6a9-3b2f-4e9d-ab28-6e59215425a2",
-          "src": "/content-assets/memocasting/decfe6a9-3b2f-4e9d-ab28-6e59215425a2.webp",
-          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "id": "1147441e-9c51-4c8f-903d-4bb40c34afb3",
+          "src": "/content-assets/memocasting/1147441e-9c51-4c8f-903d-4bb40c34afb3.webp",
+          "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "330c3f00-32ee-457e-8d46-4a41e29b1d56",
+          "src": "/content-assets/memocasting/330c3f00-32ee-457e-8d46-4a41e29b1d56.webp",
+          "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
           "width": 640,
-          "height": 640,
+          "height": 427,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         },
         {
-          "id": "b8eb50e8-b4e0-4162-9892-0ed88b6f12c7",
-          "src": "/content-assets/memocasting/b8eb50e8-b4e0-4162-9892-0ed88b6f12c7.webp",
-          "alt": "Balta širdį sudarančių rankų skulptūra bordo audinio ir žvakės fone",
+          "id": "6b51eada-b7f0-4268-b0de-44a8bf7b6914",
+          "src": "/content-assets/memocasting/6b51eada-b7f0-4268-b0de-44a8bf7b6914.webp",
+          "alt": "Balta dviejų suglaustų delnų skulptūra ant tamsios konsolės, rausvos sienos ir veidrodžio fone.",
           "width": 360,
-          "height": 360,
+          "height": 240,
           "credit": "",
-          "rights": "Original owner-authorized built-in ImageGen editorial illustration. Not a customer work, kit capacity or included display-base claim."
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "7bc405d4-ce15-44de-bb19-e475fa2173ed",
+          "src": "/content-assets/memocasting/7bc405d4-ce15-44de-bb19-e475fa2173ed.webp",
+          "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "dbeb20c5-26b8-408c-bdcb-43101633b8db",
+          "src": "/content-assets/memocasting/dbeb20c5-26b8-408c-bdcb-43101633b8db.webp",
+          "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "3eb3b051-4b3c-4858-9a7e-11d442fa4ef6",
+          "src": "/content-assets/memocasting/3eb3b051-4b3c-4858-9a7e-11d442fa4ef6.webp",
+          "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "b62f8115-089a-4703-8696-6c1d79bb599b",
+          "src": "/content-assets/memocasting/b62f8115-089a-4703-8696-6c1d79bb599b.webp",
+          "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "899d72d4-63cc-4f54-a19e-42a6d564cf9f",
+          "src": "/content-assets/memocasting/899d72d4-63cc-4f54-a19e-42a6d564cf9f.webp",
+          "alt": "Balta šeimos rankų skulptūra ant teraco lentynos rausvoje sienos nišoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "79761799-a8cd-42bd-baf3-7442e94b70ac",
+          "src": "/content-assets/memocasting/79761799-a8cd-42bd-baf3-7442e94b70ac.webp",
+          "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e215c012-93f8-42cf-9199-d16de0abf2cf",
+          "src": "/content-assets/memocasting/e215c012-93f8-42cf-9199-d16de0abf2cf.webp",
+          "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "ef034a7a-dd58-4b06-bd1d-1d4b1062bae4",
+          "src": "/content-assets/memocasting/ef034a7a-dd58-4b06-bd1d-1d4b1062bae4.webp",
+          "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "952d9cfb-b432-40b8-aa1a-e9934c4e916a",
+          "src": "/content-assets/memocasting/952d9cfb-b432-40b8-aa1a-e9934c4e916a.webp",
+          "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "153e2ef2-85eb-43e4-9bc2-20472cd432b8",
+          "src": "/content-assets/memocasting/153e2ef2-85eb-43e4-9bc2-20472cd432b8.webp",
+          "alt": "Balta ratu susikibusių rankų skulptūra ant medinio pagrindo, akmeninio židinio ir šiltos svetainės fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "1413ac28-1177-4609-97fe-b8b93f259349",
+          "src": "/content-assets/memocasting/1413ac28-1177-4609-97fe-b8b93f259349.webp",
+          "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "199da89c-b4b6-4a1b-8e4f-4d9598aa4c05",
+          "src": "/content-assets/memocasting/199da89c-b4b6-4a1b-8e4f-4d9598aa4c05.webp",
+          "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "94c3d4d0-c2b6-4502-9b56-74c6315e915d",
+          "src": "/content-assets/memocasting/94c3d4d0-c2b6-4502-9b56-74c6315e915d.webp",
+          "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "39843eff-510d-407e-b1a1-4a919511e559",
+          "src": "/content-assets/memocasting/39843eff-510d-407e-b1a1-4a919511e559.webp",
+          "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "3ba851df-56cb-4389-8520-f446103ca8e4",
+          "src": "/content-assets/memocasting/3ba851df-56cb-4389-8520-f446103ca8e4.webp",
+          "alt": "Balta vienos rankos skulptūra lenktais pirštais ant apvalaus pagrindo tamsioje knygų lentynoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "9ae1f1e7-2006-492c-a012-ecf041bd1e62",
+          "src": "/content-assets/memocasting/9ae1f1e7-2006-492c-a012-ecf041bd1e62.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "13a30448-e2c9-445e-98b3-373bcf77e20c",
+          "src": "/content-assets/memocasting/13a30448-e2c9-445e-98b3-373bcf77e20c.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "d9c217dd-2c29-4be9-bf54-3a4d6c625b87",
+          "src": "/content-assets/memocasting/d9c217dd-2c29-4be9-bf54-3a4d6c625b87.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "df37ed52-756b-4d47-8e7f-0521a48ab8f4",
+          "src": "/content-assets/memocasting/df37ed52-756b-4d47-8e7f-0521a48ab8f4.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "53d067a0-fc0c-433c-9867-0a9bb40a811f",
+          "src": "/content-assets/memocasting/53d067a0-fc0c-433c-9867-0a9bb40a811f.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant melsvos spintelės stiklinėje verandoje, sodo fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "973a393e-9170-411f-ad54-edd813b2f672",
+          "src": "/content-assets/memocasting/973a393e-9170-411f-ad54-edd813b2f672.webp",
+          "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "b4ea4c6d-5821-4da2-9235-6c95c87e68d6",
+          "src": "/content-assets/memocasting/b4ea4c6d-5821-4da2-9235-6c95c87e68d6.webp",
+          "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "b8fccc2b-f50a-4ea8-b498-f10e520e460d",
+          "src": "/content-assets/memocasting/b8fccc2b-f50a-4ea8-b498-f10e520e460d.webp",
+          "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "50445e6b-0826-4ba8-a965-1e6d68adb7f8",
+          "src": "/content-assets/memocasting/50445e6b-0826-4ba8-a965-1e6d68adb7f8.webp",
+          "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "d98e5be5-a4af-40a4-9a45-d3f7ce4b0a66",
+          "src": "/content-assets/memocasting/d98e5be5-a4af-40a4-9a45-d3f7ce4b0a66.webp",
+          "alt": "Balta suaugusiojo ir vaiko rankų skulptūra ant medinės lentynos, šviesių rąstų ir koklinės krosnies fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "ec41743c-2b57-467b-98cd-96e9e467a9d9",
+          "src": "/content-assets/memocasting/ec41743c-2b57-467b-98cd-96e9e467a9d9.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "84d08c24-1d09-4a06-b72a-41f4138ba753",
+          "src": "/content-assets/memocasting/84d08c24-1d09-4a06-b72a-41f4138ba753.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "ec3f811f-3cd6-4937-942d-07cb9c755402",
+          "src": "/content-assets/memocasting/ec3f811f-3cd6-4937-942d-07cb9c755402.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "38599b8b-6fa4-4112-bb56-faa98c9ec3b1",
+          "src": "/content-assets/memocasting/38599b8b-6fa4-4112-bb56-faa98c9ec3b1.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "867aba45-6261-44a9-ad95-cbb935441092",
+          "src": "/content-assets/memocasting/867aba45-6261-44a9-ad95-cbb935441092.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinės indaujos, violetinės sienos ir valgomojo fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "133e3681-0aca-4a86-b6ee-44d88cc5c920",
+          "src": "/content-assets/memocasting/133e3681-0aca-4a86-b6ee-44d88cc5c920.webp",
+          "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "46741860-2a2f-4378-819b-e17b9e083ef5",
+          "src": "/content-assets/memocasting/46741860-2a2f-4378-819b-e17b9e083ef5.webp",
+          "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "3eb83402-a56f-4147-8b26-40ff4c946a9d",
+          "src": "/content-assets/memocasting/3eb83402-a56f-4147-8b26-40ff4c946a9d.webp",
+          "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "472b6a90-3923-4618-9808-7bc2ce11cd72",
+          "src": "/content-assets/memocasting/472b6a90-3923-4618-9808-7bc2ce11cd72.webp",
+          "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "0ae9fefc-e828-46db-8ac7-a6a6abccf9b9",
+          "src": "/content-assets/memocasting/0ae9fefc-e828-46db-8ac7-a6a6abccf9b9.webp",
+          "alt": "Balti kūdikio rankytės ir pėdutės liejiniai ant šviesios medinės lentynos, lovytės fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "cf6c7cdd-24d2-4998-9f6d-90036cb3acb6",
+          "src": "/content-assets/memocasting/cf6c7cdd-24d2-4998-9f6d-90036cb3acb6.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "21991af9-ff4a-44cd-b1d3-0b75a777c1a6",
+          "src": "/content-assets/memocasting/21991af9-ff4a-44cd-b1d3-0b75a777c1a6.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "ac6192cc-be11-433b-8b1b-deabcf1b6741",
+          "src": "/content-assets/memocasting/ac6192cc-be11-433b-8b1b-deabcf1b6741.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "039c9c26-c9bf-41b5-8cd3-177ae02e9edf",
+          "src": "/content-assets/memocasting/039c9c26-c9bf-41b5-8cd3-177ae02e9edf.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "5979a90d-72ab-4f3c-977c-54477a160d28",
+          "src": "/content-assets/memocasting/5979a90d-72ab-4f3c-977c-54477a160d28.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus medinio baldo, melsvos sofos ir terasos fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "58f9bed7-a2db-451a-aac0-c0cb67b7a952",
+          "src": "/content-assets/memocasting/58f9bed7-a2db-451a-aac0-c0cb67b7a952.webp",
+          "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "152ebbfa-fefc-48f2-a843-e4024f7bf805",
+          "src": "/content-assets/memocasting/152ebbfa-fefc-48f2-a843-e4024f7bf805.webp",
+          "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "68a93b5e-025b-419d-a544-6e5cb13a1536",
+          "src": "/content-assets/memocasting/68a93b5e-025b-419d-a544-6e5cb13a1536.webp",
+          "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "b1bf4b84-b18c-4e8d-9346-54a706106c33",
+          "src": "/content-assets/memocasting/b1bf4b84-b18c-4e8d-9346-54a706106c33.webp",
+          "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "45256605-9048-46f8-b597-4ce360df4c2e",
+          "src": "/content-assets/memocasting/45256605-9048-46f8-b597-4ce360df4c2e.webp",
+          "alt": "Balta šešių ratu susikibusių rankų kompozicija ant apvalios medinės lentos ir rusvo odinio pufo.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "a8059767-becf-498c-9864-2bb08366d39e",
+          "src": "/content-assets/memocasting/a8059767-becf-498c-9864-2bb08366d39e.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "283f3f25-8200-40b0-af84-39cdcd8bd932",
+          "src": "/content-assets/memocasting/283f3f25-8200-40b0-af84-39cdcd8bd932.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "992fc0ba-85f9-46fb-843f-9c78c6a3ad2a",
+          "src": "/content-assets/memocasting/992fc0ba-85f9-46fb-843f-9c78c6a3ad2a.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "466e9afe-6e4e-4b6e-8aa9-3a5b4537a9f4",
+          "src": "/content-assets/memocasting/466e9afe-6e4e-4b6e-8aa9-3a5b4537a9f4.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "d5d7e079-a6c0-47b3-b107-9beb5666b25b",
+          "src": "/content-assets/memocasting/d5d7e079-a6c0-47b3-b107-9beb5666b25b.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesios palangės, už lango matomi miesto namai.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "cb18dc8f-d309-4ee1-96a8-da6f50788d3a",
+          "src": "/content-assets/memocasting/cb18dc8f-d309-4ee1-96a8-da6f50788d3a.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "514d4887-ee4c-4117-89e4-b0567f9fe034",
+          "src": "/content-assets/memocasting/514d4887-ee4c-4117-89e4-b0567f9fe034.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "5d0500c6-3fb6-4127-b85a-e0f519db3b0d",
+          "src": "/content-assets/memocasting/5d0500c6-3fb6-4127-b85a-e0f519db3b0d.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "7ccd5f9d-a466-4932-9d6b-18338baac6cf",
+          "src": "/content-assets/memocasting/7ccd5f9d-a466-4932-9d6b-18338baac6cf.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e99aaed5-348d-45e9-86c0-7bc9e7fb8589",
+          "src": "/content-assets/memocasting/e99aaed5-348d-45e9-86c0-7bc9e7fb8589.webp",
+          "alt": "Balta susikibusių rankų skulptūra su žiedo detale ant medinio pianino, natų ir vakarinio lango fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "4d8883e1-8b55-4a9a-b822-543651153409",
+          "src": "/content-assets/memocasting/4d8883e1-8b55-4a9a-b822-543651153409.webp",
+          "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e8e78f6a-3e3c-43af-87fc-1872190402a9",
+          "src": "/content-assets/memocasting/e8e78f6a-3e3c-43af-87fc-1872190402a9.webp",
+          "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e9b162cb-3ba4-418f-a989-b6ef3bc403e6",
+          "src": "/content-assets/memocasting/e9b162cb-3ba4-418f-a989-b6ef3bc403e6.webp",
+          "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "69834aec-ea3f-41af-8228-0f845ab03bd6",
+          "src": "/content-assets/memocasting/69834aec-ea3f-41af-8228-0f845ab03bd6.webp",
+          "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "84539c7d-7eba-4368-9d4a-0a841d939430",
+          "src": "/content-assets/memocasting/84539c7d-7eba-4368-9d4a-0a841d939430.webp",
+          "alt": "Balta susikibusių rankų skulptūra su ryškiomis odos linijomis ant tamsaus baldo, medinių sienelės juostų fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "1697afa2-1f76-4343-85f5-22d75f44b3f3",
+          "src": "/content-assets/memocasting/1697afa2-1f76-4343-85f5-22d75f44b3f3.webp",
+          "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "09eb5865-42e1-4b56-8ce0-6413df09e3c5",
+          "src": "/content-assets/memocasting/09eb5865-42e1-4b56-8ce0-6413df09e3c5.webp",
+          "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "2904d990-2802-4abb-8828-37dd14a54651",
+          "src": "/content-assets/memocasting/2904d990-2802-4abb-8828-37dd14a54651.webp",
+          "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "eb78d558-c76a-4f33-aa1c-11291c9ee364",
+          "src": "/content-assets/memocasting/eb78d558-c76a-4f33-aa1c-11291c9ee364.webp",
+          "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "17a66c41-575f-4a3f-8bdb-7673106964d3",
+          "src": "/content-assets/memocasting/17a66c41-575f-4a3f-8bdb-7673106964d3.webp",
+          "alt": "Balta suaugusiųjų ir vaiko rankų skulptūra ant apvalaus pagrindo bordo spalvos knygų lentynoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "089ac0a8-ac82-4efc-8e9d-2ed0cc31b13f",
+          "src": "/content-assets/memocasting/089ac0a8-ac82-4efc-8e9d-2ed0cc31b13f.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "3eb0d46e-56a1-414b-9e3e-98d74a753f51",
+          "src": "/content-assets/memocasting/3eb0d46e-56a1-414b-9e3e-98d74a753f51.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "b2645031-8ee8-4ca4-8ddd-0e7245da7597",
+          "src": "/content-assets/memocasting/b2645031-8ee8-4ca4-8ddd-0e7245da7597.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "c9685c91-90e4-442c-b871-e463cea58707",
+          "src": "/content-assets/memocasting/c9685c91-90e4-442c-b871-e463cea58707.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "9e3c4c61-7f2a-42da-9fc4-0efb0c2115a6",
+          "src": "/content-assets/memocasting/9e3c4c61-7f2a-42da-9fc4-0efb0c2115a6.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant šviesaus akmens lentynos, arkos ir rusvos sofos fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "7888d931-31fc-42e8-8283-286566ceb56b",
+          "src": "/content-assets/memocasting/7888d931-31fc-42e8-8283-286566ceb56b.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "c765512f-abde-4e3c-98ba-eca13ffb3d10",
+          "src": "/content-assets/memocasting/c765512f-abde-4e3c-98ba-eca13ffb3d10.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "4ce8881b-229c-43ab-a5c9-5ee6e0cc218c",
+          "src": "/content-assets/memocasting/4ce8881b-229c-43ab-a5c9-5ee6e0cc218c.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "d3230a56-8265-4b42-81af-3e211a57c2fe",
+          "src": "/content-assets/memocasting/d3230a56-8265-4b42-81af-3e211a57c2fe.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "0699a04e-b3a0-4130-98ad-e82c39a49716",
+          "src": "/content-assets/memocasting/0699a04e-b3a0-4130-98ad-e82c39a49716.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant žalsvos palangės, languotos pagalvėlės ir sodo fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "36ad91e5-ef21-4417-94fd-39003948daae",
+          "src": "/content-assets/memocasting/36ad91e5-ef21-4417-94fd-39003948daae.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "0254d289-7391-48ab-ab3e-2c753da30610",
+          "src": "/content-assets/memocasting/0254d289-7391-48ab-ab3e-2c753da30610.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "2dd39f7c-0dde-4723-a18b-5a00ef5e1260",
+          "src": "/content-assets/memocasting/2dd39f7c-0dde-4723-a18b-5a00ef5e1260.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "96e7506e-0bb1-4858-831f-7b16ff3207c3",
+          "src": "/content-assets/memocasting/96e7506e-0bb1-4858-831f-7b16ff3207c3.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "5ed24049-f226-4162-ad12-bc2fcf9d5512",
+          "src": "/content-assets/memocasting/5ed24049-f226-4162-ad12-bc2fcf9d5512.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant ovalaus pagrindo medinėje nišoje, laiptų aikštelės fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "31c078d1-1f0e-4439-b664-52268bfb24a1",
+          "src": "/content-assets/memocasting/31c078d1-1f0e-4439-b664-52268bfb24a1.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "9fdfddba-924d-41c8-bd0e-e3c086d9c236",
+          "src": "/content-assets/memocasting/9fdfddba-924d-41c8-bd0e-e3c086d9c236.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "e1e1ebf4-9fd0-4ff6-b9b7-15a2d8ebf345",
+          "src": "/content-assets/memocasting/e1e1ebf4-9fd0-4ff6-b9b7-15a2d8ebf345.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "5fa02e36-b7a0-445d-a4b7-964f77e6ae76",
+          "src": "/content-assets/memocasting/5fa02e36-b7a0-445d-a4b7-964f77e6ae76.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
+        },
+        {
+          "id": "87b09788-aba9-402d-923d-ea2ff18a4fdd",
+          "src": "/content-assets/memocasting/87b09788-aba9-402d-923d-ea2ff18a4fdd.webp",
+          "alt": "Balta susikibusių rankų skulptūra ant terakotos plytelių lentynos, tamsiai žalios virtuvės fone.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Owner-authorized AI-generated inspiration illustration; not a customer commission or kit contents/capacity claim."
         }
       ],
       "links": [
@@ -690,12 +1545,12 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "fede0c8298bb95f53d07421023405766c1baf41cf83a8fd8deb9deae8c533935",
+      "revisionHash": "1aec4f6f16ad58ac0d169653618a1a5e5c01e314601a4eedd6c037a84e484b2c",
       "approval": {
         "status": "approved",
-        "revisionHash": "fede0c8298bb95f53d07421023405766c1baf41cf83a8fd8deb9deae8c533935",
-        "approvedAt": "2026-10-15T10:44:26.376Z",
-        "actorId": "codex-memocasting-gallery-20261015"
+        "revisionHash": "1aec4f6f16ad58ac0d169653618a1a5e5c01e314601a4eedd6c037a84e484b2c",
+        "approvedAt": "2026-10-20T04:31:50.274Z",
+        "actorId": "codex-gallery-20261020"
       }
     },
     {
@@ -26849,5 +27704,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-19T04:56:49.422Z"
+  "generatedAt": "2026-10-20T04:31:50.555Z"
 }

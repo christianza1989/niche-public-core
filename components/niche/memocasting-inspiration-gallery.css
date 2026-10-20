@@ -4,23 +4,23 @@ html:has(.memo-gallery-dialog[open]){overflow:hidden}
 .memo-homepage .memo-gallery-heading h2{font-size:clamp(1.75rem,2.65vw,2.375rem);line-height:1.2;letter-spacing:-.03em}
 .memo-homepage .memo-gallery-heading>p{font-size:1rem;color:var(--muted);padding-bottom:3px;max-width:28ch}
 .memo-homepage .memo-gallery-eyebrow{font-size:.875rem;line-height:1.5;color:var(--rose);letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
-.memo-homepage .memo-gallery-filters{display:flex;gap:28px;margin-bottom:24px}
+.memo-homepage .memo-gallery-filters{display:flex;flex-wrap:wrap;gap:16px 28px;margin-bottom:24px}
 .memo-homepage .memo-gallery-filters button{min-height:44px;padding:8px 2px;background:none;border:0;border-bottom:2px solid transparent;font-size:1rem;color:var(--muted)}
 .memo-homepage .memo-gallery-filters button[aria-pressed=true]{color:var(--rose);border-bottom-color:var(--rose)}
 .memo-homepage .memo-gallery-layout{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:22px;align-items:start}
 .memo-homepage .memo-gallery-selected{min-width:0}
-.memo-homepage .memo-gallery-main{display:block;position:relative;aspect-ratio:1.15;overflow:hidden;background:var(--warm);touch-action:pan-y pinch-zoom;cursor:zoom-in}
-.memo-homepage .memo-gallery-main>img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 52%;transition:transform .5s var(--ease);animation:memo-gallery-arrive .3s ease-out}
+.memo-homepage .memo-gallery-main{display:block;position:relative;aspect-ratio:1.5;overflow:hidden;background:var(--warm);touch-action:pan-y pinch-zoom;cursor:zoom-in}
+.memo-homepage .memo-gallery-main>img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;transition:transform .5s var(--ease);animation:memo-gallery-arrive .3s ease-out}
 .memo-homepage .memo-gallery-main:hover>img{transform:scale(1.015)}
 .memo-homepage .memo-gallery-open{position:absolute;right:20px;bottom:20px;display:flex;gap:9px;align-items:center;padding:11px 15px;min-height:44px;border-radius:30px;background:#fff;color:var(--ink);font-size:.875rem}
 .memo-homepage .memo-gallery-open svg{width:18px;height:18px}
 .memo-homepage .memo-gallery-selected figcaption{padding-top:17px}
 .memo-homepage .memo-gallery-selected h3{font-size:1.25rem;line-height:1.4;letter-spacing:-.02em}
 .memo-homepage .memo-gallery-selected figcaption p{font-size:.9375rem;color:var(--muted);margin-top:3px}
-.memo-homepage .memo-gallery-previews{min-width:0;display:grid;gap:20px}
+.memo-homepage .memo-gallery-previews{min-width:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:18px 14px;max-height:clamp(320px,40vw,600px);overflow-y:auto;overscroll-behavior:contain;padding:4px 10px 8px 4px;scrollbar-color:#b29aa2 #f7f6f4}
 .memo-homepage .memo-gallery-preview{display:block;min-width:0}
-.memo-homepage .memo-gallery-preview-frame{display:block;aspect-ratio:1.82;overflow:hidden;background:var(--warm)}
-.memo-homepage .memo-gallery-preview-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 58%;transition:transform .5s var(--ease)}
+.memo-homepage .memo-gallery-preview-frame{display:block;aspect-ratio:1.5;overflow:hidden;background:var(--warm)}
+.memo-homepage .memo-gallery-preview-frame img{width:100%;height:100%;object-fit:contain;object-position:center;transition:transform .5s var(--ease)}
 .memo-homepage .memo-gallery-preview:hover img{transform:scale(1.025)}
 .memo-homepage .memo-gallery-preview-caption{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:10px 0 0;min-height:44px;font-size:1rem}
 .memo-homepage .memo-gallery-preview-caption svg{width:20px;height:20px}
@@ -60,3 +60,5 @@ html:has(.memo-gallery-dialog[open]){overflow:hidden}
 @media(max-width:760px){.memo-homepage .memo-inspiration-gallery{padding-block:70px}.memo-homepage .memo-gallery-heading{display:block;margin-bottom:16px}.memo-homepage .memo-gallery-heading>p{margin-top:18px;max-width:35ch}.memo-homepage .memo-gallery-eyebrow{font-size:.8125rem;letter-spacing:.1em;margin-bottom:10px}.memo-homepage .memo-gallery-filters{gap:26px;margin-bottom:20px}.memo-homepage .memo-gallery-layout{grid-template-columns:1fr;gap:20px}.memo-homepage .memo-gallery-main,.memo-homepage .memo-gallery-layout[data-single=true] .memo-gallery-main{aspect-ratio:1}.memo-homepage .memo-gallery-main>img{object-fit:contain}.memo-homepage .memo-gallery-open{right:12px;bottom:12px;padding:10px 13px}.memo-homepage .memo-gallery-previews{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 8px;margin:-4px;scrollbar-color:#b29aa2 #f7f6f4;scroll-snap-type:x proximity}.memo-homepage .memo-gallery-preview{flex:0 0 112px;scroll-snap-align:start}.memo-homepage .memo-gallery-preview-frame,.memo-homepage .memo-gallery-previews[data-count="1"] .memo-gallery-preview-frame{aspect-ratio:1}.memo-homepage .memo-gallery-preview-frame img{object-fit:contain}.memo-homepage .memo-gallery-preview-caption{font-size:.875rem;gap:8px;padding-top:5px;min-height:44px}.memo-homepage .memo-gallery-preview-caption svg{width:16px;height:16px}.memo-homepage .memo-gallery-navigation{gap:18px;margin-top:16px}.memo-homepage .memo-gallery-progress{flex:1;max-width:30%}.memo-homepage .memo-gallery-navigation>div{gap:8px}.memo-homepage .memo-gallery-note{margin-top:18px}.memo-homepage .memo-gallery-dialog{width:calc(100vw - 20px);max-height:calc(100dvh - 24px)}.memo-homepage .memo-gallery-dialog-panel{padding:16px 12px}.memo-homepage .memo-gallery-dialog-panel>header{gap:12px}.memo-homepage .memo-gallery-dialog-panel h2{font-size:1.125rem}.memo-homepage .memo-gallery-viewer{height:52dvh;min-height:150px}.memo-homepage .memo-gallery-viewer-tools{gap:12px}.memo-homepage .memo-gallery-viewer-arrows{gap:8px}.memo-homepage .memo-gallery-zoom{gap:2px}.memo-homepage .memo-gallery-zoom output{min-width:46px}.memo-homepage .memo-gallery-viewer-help{font-size:.875rem}}
 @media(prefers-reduced-motion:reduce){.memo-homepage .memo-gallery-main>img,.memo-homepage .memo-gallery-preview-frame img,.memo-homepage .memo-gallery-progress>span{animation:none;transition:none;transform:none}}
 .memo-homepage.motion-off .memo-gallery-main>img,.memo-homepage.motion-off .memo-gallery-preview-frame img{transform:none}
+
+@media(max-width:760px){.memo-homepage .memo-gallery-previews{max-height:none;overflow-y:hidden;overscroll-behavior:auto}.memo-homepage .memo-gallery-filters{row-gap:6px}}

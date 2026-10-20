@@ -16,7 +16,7 @@ function GalleryIcon({kind}:{kind:'left'|'right'|'expand'|'close'|'plus'|'minus'
 }
 function GalleryPhoto({image,main=false}:{image:ImageItem;main?:boolean}){
  const [failed,setFailed]=useState(false);
- return failed?<span className="memo-gallery-image-error">Nuotraukos nepavyko įkelti. Atverkite ją ir bandykite dar kartą.</span>:<img src={image.src} srcSet={image.srcSet} sizes={main?'(max-width: 760px) calc(100vw - 46px), (max-width: 1100px) 60vw, 850px':'(max-width: 760px) 112px, (max-width: 1100px) 33vw, 520px'} width={image.width} height={image.height} alt={main?image.alt:''} loading="lazy" decoding="async" draggable={false} onError={()=>setFailed(true)}/>;
+ return failed?<span className="memo-gallery-image-error">Nuotraukos nepavyko įkelti. Atverkite ją ir bandykite dar kartą.</span>:<img src={image.src} srcSet={image.srcSet} sizes={main?'(max-width: 760px) calc(100vw - 46px), (max-width: 1100px) 60vw, 850px':'(max-width: 760px) 112px, (max-width: 1100px) 18vw, 220px'} width={image.width} height={image.height} alt={image.alt} loading="lazy" decoding="async" draggable={false} onError={()=>setFailed(true)}/>;
 }
 
 export function MemoInspirationGallery(){
@@ -25,7 +25,9 @@ export function MemoInspirationGallery(){
  const {images,index,image}=memoGallerySelection(memoInspirationItems,filter,selected) as {images:ImageItem[];index:number;image:ImageItem|null};
  const [view,setView]=useState({scale:1,x:0,y:0}),[imageState,setImageState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0);
  const dialog=useRef<HTMLDialogElement>(null),closeButton=useRef<HTMLButtonElement>(null),stage=useRef<HTMLDivElement>(null),opener=useRef<HTMLElement|null>(null),gesture=useRef<Gesture|null>(null),suppressClick=useRef(0),drag=useRef<{pointer:number;x:number;y:number}|null>(null);
- const geometry=()=>momentImageGeometry(stage.current?.clientWidth??1,stage.current?.clientHeight??1,image?.width??1,image?.height??1);
+ const dimensions=useRef({width:1,height:1});
+ useEffect(()=>{dimensions.current={width:image?.width??1,height:image?.height??1};},[image?.width,image?.height]);
+ const geometry=()=>momentImageGeometry(stage.current?.clientWidth??1,stage.current?.clientHeight??1,dimensions.current.width,dimensions.current.height);
  const changeView=(next:typeof view)=>setView(constrainMomentView(next,geometry()));
  const select=(next:string)=>{setSelected(next);setView({scale:1,x:0,y:0});setImageState('loading');drag.current=null;};
  const step=(delta:number)=>{const next=memoGalleryStep(memoInspirationItems,filter,selected,delta);if(next)select(next);};
@@ -35,7 +37,7 @@ export function MemoInspirationGallery(){
   if(!open||!dialog.current)return;
   const modal=dialog.current,previousFocus=opener.current;
   modal.showModal();closeButton.current?.focus();
-  const observer=new ResizeObserver(()=>setView(current=>constrainMomentView(current,momentImageGeometry(stage.current?.clientWidth??1,stage.current?.clientHeight??1,1254,1254))));if(stage.current)observer.observe(stage.current);
+  const observer=new ResizeObserver(()=>setView(current=>constrainMomentView(current,momentImageGeometry(stage.current?.clientWidth??1,stage.current?.clientHeight??1,dimensions.current.width,dimensions.current.height))));if(stage.current)observer.observe(stage.current);
   return()=>{observer.disconnect();modal.close();if(previousFocus?.isConnected)previousFocus.focus();};
  },[open]);
  if(!image)return null;
