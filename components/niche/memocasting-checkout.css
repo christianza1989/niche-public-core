@@ -15,6 +15,8 @@
 .memo-checkout .checkout-field input:focus,.memo-checkout .checkout-field select:focus{border-color:#a24f68;box-shadow:0 0 0 3px #a24f6812}
 .memo-checkout .checkout-field-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
 .memo-checkout .checkout-summary{position:sticky;top:108px;padding:20px;background:#f7f6f4;border:1px solid #e6e0dc;border-radius:10px;min-width:0}
+.memo-checkout .checkout-summary .checkout-products{margin:0 0 20px}
+.memo-checkout .checkout-summary .checkout-item:last-child{padding-bottom:16px}
 .memo-checkout .checkout-item{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid #e6e0dc}
 .memo-checkout .checkout-item:first-child{padding-top:0}
 .memo-checkout .checkout-product-image{width:64px;height:88px;object-fit:contain;background:#f7f6f4;border-radius:6px;padding:4px;box-sizing:border-box}
