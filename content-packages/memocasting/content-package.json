@@ -2584,62 +2584,153 @@
       "siteId": "memocasting",
       "type": "service",
       "slug": "kontaktai",
-      "title": "Pagalba prieš ir po pasirinkimo",
-      "description": "Pateikite klausimą apie rinkinį, instrukciją ar užsakymo būseną.",
-      "intent": "Pateikite klausimą apie rinkinį, instrukciją ar užsakymo būseną.",
+      "title": "Pagalba ir kontaktai",
+      "description": "Susisiekite su Memocasting dėl rinkinio, užsakymo, pristatymo ar grąžinimo. El. paštas, telefonas ir rekvizitai.",
+      "intent": "Greitai susisiekti su pardavėju dėl rinkinio ar konkretaus užsakymo.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Klientų aptarnavimo kontaktai: info@memorycasting.lt, +37069108251. Kontaktinis ir grąžinimo adresas: Molynės g. 2C, Vilnius, LT-02211. Šioje vietinėje peržiūroje formos duomenys saugomi testinėje aplinkoje, automatinis laiškų pristatymas išjungtas. Naudokite tik testinius kontaktus; tikras formos laiško gavimas bus priimtas atskiru bandymu."
+          "text": "Dėl rinkinių, užsakymų ir pristatymo rašykite info@memorycasting.lt arba skambinkite +37069108251. Klausime nurodykite rinkinio pavadinimą ir, jei jau užsakėte, užsakymo numerį. Mokėjimo kortelės duomenų, slaptažodžių ar prieigos žetonų nesiųskite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pardavėjo rekvizitai"
         },
         {
           "type": "paragraph",
-          "text": "Klausime nurodykite rinkinio pavadinimą, kokia informacija neaiški ir, jei reikia, užsakymo numerį. Nesiųskite mokėjimo kortelės duomenų, prisijungimo slaptažodžių ar prieigos žetonų. Nuotraukų įkėlimas šioje formoje nepalaikomas."
+          "text": "MB Memocasting, įmonės kodas 306026827. Buveinė: Pupinės g. 10-55, Vilnius, LT-02206. Bendrija nėra PVM mokėtoja. Kontaktinis ir prekių grąžinimo adresas: Molynės g. 2C, Vilnius, LT-02211. Dėl atvykimo susitarkite iš anksto."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kuo galime padėti?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Padėti išsirinkti poros ar šeimos rinkinį.",
+            "Patikrinti išsaugoto užsakymo ir mokėjimo būseną.",
+            "Patikslinti gavėjo duomenis, jei siunta dar neperduota.",
+            "Išnagrinėti klausimą dėl komplektacijos, medžiagų ar grąžinimo."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalbos formoje pateikta žinutė išsaugoma mūsų sistemoje. Jei klausimas skubus, ypač dėl jau apmokėto užsakymo ar konkrečios dovanos datos, susisiekite telefonu arba tiesiogiai el. paštu. Grąžinimo tvarka ir privatumo politika pateiktos atskiruose puslapiuose."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.589Z",
       "media": [],
-      "links": [],
+      "links": [
+        {
+          "targetPageId": "53ac4b89-8168-4762-887f-438c0b5aba21",
+          "label": "Grąžinimo tvarka"
+        },
+        {
+          "targetPageId": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
+          "label": "Privatumo politika"
+        }
+      ],
       "id": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
-      "revisionHash": "70b8dd7612b6b1af3b3e5a5f0266bcdf7caacc5ac5e55e103a92ad7b98f85f44",
+      "revisionHash": "9a157a0ccf314b044e8b236b8f70d5914d7f16b0b2da623e41147f65e7744c10",
       "approval": {
         "status": "approved",
-        "revisionHash": "70b8dd7612b6b1af3b3e5a5f0266bcdf7caacc5ac5e55e103a92ad7b98f85f44",
-        "approvedAt": "2026-10-12T02:09:23.122Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "9a157a0ccf314b044e8b236b8f70d5914d7f16b0b2da623e41147f65e7744c10",
+        "approvedAt": "2026-10-20T16:10:03.988Z",
+        "actorId": "codex-production-launch-20261020"
       }
     },
     {
       "siteId": "memocasting",
       "type": "faq",
       "slug": "pristatymas",
-      "title": "Pristatymo informacija",
-      "description": "Kada parodoma pristatymo suma ir kas dar turi būti patvirtinta prieš tikrą siuntimą.",
-      "intent": "Kada parodoma pristatymo suma ir kas dar turi būti patvirtinta prieš tikrą siuntimą.",
+      "title": "Pristatymas Lietuvoje",
+      "description": "Pristatymas kurjeriu Lietuvoje: kaina pagal adresą ir siuntos duomenis, rinkinių pakuotės ir pagalba dėl užsakymo.",
+      "intent": "Sužinoti, kaip ir už kiek pristatomas pasirinktas rinkinys.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Vietinio bandymo krepšelyje pristatymo suma gaunama iš prekybos serverio. Testinis kurjerio tarifas nėra sutartas komercinis tarifas ar realios pristatymo datos pažadas."
+          "text": "Rankų liejimo rinkinius pristatome kurjeriu Lietuvoje. Šiuo metu krepšelyje galima pasirinkti SmartPosti pristatymą į gavėjo adresą. Siuntas registruojame per SiųskPigiau; mokate tik tą pristatymo sumą, kurią pasirinkote ir patvirtinote prieš apmokėjimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip apskaičiuojama kaina?"
         },
         {
           "type": "paragraph",
-          "text": "Poros siunta: 2 kg, 20 × 20 × 17 cm. Šeimos siunta: 4 kg, 25 × 25 × 20 cm. Šie savininko duomenys skirti bazinių rinkinių pakuotėms; galutinės siuntos su papildomais pasirinkimais duomenys turi būti patikrinti atskirai."
+          "text": "Krepšelyje įveskite gavėjo miestą, pašto kodą ir adresą. Sistema iš vežėjo gauna tuo metu galiojantį pasiūlymą pagal adresą bei siuntos svorį ir matmenis. Dėl to pristatymo kaina gali skirtis tarp užsakymų. Prieš mokėjimą aiškiai matysite prekių sumą, pristatymą ir bendrą mokėtiną sumą. Jei pasiūlymo adresui nėra arba jo galiojimas pasibaigė, pristatymą reikia perskaičiuoti – nepatvirtinta suma nenuskaičiuojama."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rinkinių pakuotės"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Poros rinkinys su baltais dažais: supakuotas svoris 2,2 kg, pakuotė 20 × 20 × 17 cm.",
+            "Šeimos rinkinys su baltais dažais: supakuotas svoris 4,5 kg, pakuotė 25 × 25 × 20 cm."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Siuntėjo adresas — Molynės g. 2C, Vilnius, LT-02211. Bazinių rinkinių pakuotės duomenys pateikti savininko; siuntos su priedais vertinamos atskirai. Tikras vežėjo paslaugų sąrašas, terminai ir galutinės rinkų pristatymo kainos dar nepriimti. LT, PL, LV ir EE struktūra planuojama atskirai; dabartinis vietinis pirkimo bandymas dar nepatvirtina realaus siuntimo šiose šalyse."
+          "text": "Tai siuntimui skirtos uždarytų rinkinių pakuotės, o ne liejimo indo vidiniai matmenys ar galimos skulptūros dydžio garantija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada atkeliaus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakymas pradedamas vykdyti patvirtinus apmokėjimą. Vežėjo pasiūlyme gali būti rodomas orientacinis kelionės laikas; jis neapima laikotarpio iki siuntos perdavimo kurjeriui ir nėra pristatymo konkrečią dieną garantija. Jei dėl kito termino nesusitariame, pristatome ne vėliau kaip per 30 dienų nuo pirkimo sutarties sudarymo. Jei dovanos reikia konkrečiai datai, prieš pirkdami susisiekite ir suderinkite galimybę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Adresas ir siuntos būklė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikite tikslų adresą, pašto kodą ir gavėjo telefoną, kuriuo kurjeris galės susisiekti. Jei reikia patikslinti jau apmokėto užsakymo duomenis, kuo greičiau rašykite info@memorycasting.lt arba skambinkite +37069108251. Po siuntos perdavimo adreso pakeitimą gali reikėti derinti su vežėju."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pastebėję pakuotės ar prekės pažeidimą, praneškite mums ir, jei galite, pridėkite nuotraukų. Siuntos priėmimas nepanaikina teisės kreiptis dėl prekės trūkumų. Grąžinimo tvarka pateikta grąžinimo puslapyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Siuntėjas: MB Memocasting, Molynės g. 2C, Vilnius, LT-02211. Užsakymai į Latviją, Estiją ar Lenkiją šiame krepšelyje kol kas nepriimami."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.594Z",
       "media": [],
-      "links": [],
+      "links": [
+        {
+          "targetPageId": "53ac4b89-8168-4762-887f-438c0b5aba21",
+          "label": "grąžinimo puslapyje"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Susisiekti dėl pristatymo"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://vvtat.lrv.lt/lt/DUK/",
+          "label": "VVTAT: pristatymo terminai",
+          "reason": "Oficialus paaiškinimas apie taikomą terminą, kai kitaip nesusitarta."
+        }
+      ],
       "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
-      "revisionHash": "40619c18dffdca19d7a0bcb1ec2aa6f8628585e5c100c2e42118d2d69f85aa7b",
+      "revisionHash": "30d5ce1f2436c106f89342dc1dc75cc81948ef3d0cba43d7fc681348ed0eee13",
       "approval": {
         "status": "approved",
-        "revisionHash": "40619c18dffdca19d7a0bcb1ec2aa6f8628585e5c100c2e42118d2d69f85aa7b",
-        "approvedAt": "2026-10-12T02:09:23.132Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "30d5ce1f2436c106f89342dc1dc75cc81948ef3d0cba43d7fc681348ed0eee13",
+        "approvedAt": "2026-10-20T16:10:02.702Z",
+        "actorId": "codex-production-launch-20261020"
       }
     },
     {
@@ -2778,89 +2869,232 @@
       "siteId": "memocasting",
       "type": "service",
       "slug": "privatumas",
-      "title": "Vietinio bandymo privatumo informacija",
-      "description": "Kokie testiniai duomenys naudojami krepšelyje, užsakyme ir pagalbos formoje.",
-      "intent": "Kokie testiniai duomenys naudojami krepšelyje, užsakyme ir pagalbos formoje.",
+      "title": "Privatumo politika",
+      "description": "Kaip MB Memocasting tvarko užsakymo, pristatymo ir pagalbos duomenis, kas juos gauna ir kaip pasinaudoti savo teisėmis.",
+      "intent": "Suprasti, kam naudojami pirkėjo duomenys ir kaip kreiptis dėl jų.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Duomenų valdytojas — MB Memocasting, įmonės kodas 306026827. Dėl duomenų tvarkymo galima kreiptis info@memorycasting.lt. Ši peržiūra skirta vietiniam bandymui: naudokite tik testinius vardus, adresus ir kontaktus."
+          "text": "Duomenų valdytojas – MB Memocasting, įmonės kodas 306026827, Pupinės g. 10-55, Vilnius, LT-02206. Dėl privatumo ir savo teisių kreipkitės info@memorycasting.lt arba paštu šiuo adresu. Atnaujinta 2026 m. spalio 20 d."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Krepšelis ir užsakymo prieiga"
+          "text": "Užsakymas ir pristatymas"
         },
         {
           "type": "paragraph",
-          "text": "Krepšelio prekės saugomos naršyklės skirtuko sessionStorage. Prieš siunčiant užsakymą šiame skirtuke išsaugoma užklausos kopija su gavėjo duomenimis, pakartojimo raktu ir prieigos žetonu. Tai leidžia atkurti tą patį užsakymą negavus pirmo atsakymo. Kol atsakymas neatkurtas, ši kopija naudojama iki vienos valandos. Gavus užsakymo atsakymą gavėjo duomenų kopija iš skirtuko pašalinama, o užsakymo numeris, pakartojimo raktas ir prieigos žetonas naudojami iki 30 dienų. Uždarius arba išvalius skirtuką ši prieiga gali būti prarasta. Tai naršyklės kliento terminai, o ne serverio duomenų saugojimo politika."
+          "text": "Rinkiniui užsakyti tvarkome gavėjo vardą ir pavardę, el. paštą, telefoną, pristatymo adresą, pasirinktas prekes, sumas, pristatymo būdą, apmokėjimo ir užsakymo būsenas. Šių duomenų reikia sutarčiai sudaryti ir įvykdyti. Apskaitos dokumentų duomenis tvarkome vykdydami teisines pareigas. Nepateikus užsakymui būtinų kontaktų ar adreso, negalėsime priimti arba pristatyti užsakymo."
         },
         {
           "type": "paragraph",
-          "text": "Užsakymo serveris saugo gavėjo vardą, el. paštą, telefoną, adresą, prekes ir pristatymo pasirinkimą izoliuotoje vietinėje duomenų bazėje. Prieigos žetono reikšmės serveris nesaugo — tik jos hash. Žetonas nesiunčiamas URL ar analitikai."
+          "text": "Mokėjimo duomenis savo saugioje formoje tvarko Stripe. Kortelės numeris ir saugos kodas nepatenka į Memocasting užsakymų duomenų bazę. Gauname mokėjimo būseną, sumą ir mokėjimo identifikatorius, reikalingus apmokėjimui bei pinigų grąžinimui susieti su užsakymu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pagalbos forma"
+          "text": "Duomenų gavėjai"
         },
         {
           "type": "paragraph",
-          "text": "Vardas, el. paštas ir klausimas naudojami užklausai saugoti ir jos atsakymui parengti. Vietiniame bandyme laiškai nesiunčiami. Formos pateikimas nėra rinkodaros prenumerata."
+          "text": "Svetainės, duomenų bazės ir privačių užsakymo dokumentų infrastruktūrą teikia Cloudflare. Pristatymo pasiūlymui ir siuntai parengti reikalingus adresų bei siuntos duomenis perduodame SiųskPigiau / Sendparcel; pristatymą vykdantis pasirinktas vežėjas gauna gavėjo kontaktus ir adresą. Užsakymo pranešimų pašto transportui naudojama Hostinger tarnyba. Duomenis taip pat gali gauti apskaitą tvarkantys įgalioti asmenys ir teisę juos gauti turinčios institucijos, kiek būtina konkrečiam tikslui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojamų paslaugų teikėjai gali tvarkyti dalį duomenų už Europos ekonominės erdvės ribų. Tokiam perdavimui turi būti taikomas Europos Komisijos sprendimas dėl tinkamumo arba kitos BDAR numatytos apsaugos priemonės, pavyzdžiui, standartinės sutarčių sąlygos. Dėl konkretaus perdavimo ir taikomų priemonių kopijos galite kreiptis į mus. Vien infrastruktūros regiono pasirinkimas nereiškia, kad visos paslaugų operacijos vykdomos tik Lietuvoje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Tikro paleidimo sąlygos"
+          "text": "Pagalba ir saugumas"
         },
         {
           "type": "paragraph",
-          "text": "Prieš paleidimą turi būti patvirtinti tikri duomenų gavėjai, saugojimo terminai, duomenų subjektų prašymų vykdymas ir naudojamų paslaugų tvarka. Vietinė peržiūra nepatvirtina šių operacinių procesų. Produkcijos duomenų čia neįveskite."
+          "text": "Kai pateikiate klausimą, tvarkome jūsų kontaktus ir žinutę, kad galėtume atsakyti bei išspręsti situaciją. Pagrindas – veiksmai jūsų prašymu prieš sudarant sutartį arba mūsų teisėtas interesas aptarnauti klientus ir pagrįsti sprendimus. Mokėjimo kortelės duomenų, slaptažodžių ar prieigos žetonų žinutėse nesiųskite. Formos pateikimas ir pirkimas nėra naujienlaiškio prenumerata."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuo piktnaudžiavimo ir neteisėtos prieigos saugome užklausų bei saugumo įrašus. Parduotuvės apsaugai naudojami ribotos trukmės užklausų identifikatoriai ir iš tinklo duomenų sudaryti saugumo požymiai. Jų nenaudojame reklamos profiliams kurti. Prieiga prie administravimo ir privačių dokumentų ribojama įgaliotiems asmenims."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Saugojimo trukmė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sutarties, apmokėjimo ir apskaitos įrodymus saugome tiek, kiek privaloma pagal finansinės apskaitos dokumentų saugojimo reikalavimus ir kiek būtina galimiems reikalavimams pagrįsti. Konkrečiam dokumentui taikomas terminas nustatomas pagal jo rūšį ir privalomą teisės aktuose numatytą terminą; susijusio ginčo atveju – iki jo galutinio išsprendimo ir taikomo reikalavimo termino pabaigos. Su užsakymu nesusijusius pagalbos duomenis saugome iki klausimo išsprendimo ir tiek, kiek būtina sprendimui pagrįsti. Nebereikalingus duomenis pašaliname arba nuasmeniname per periodinę peržiūrą; teisės aktų reikalaujamų dokumentų vien gavę trynimo prašymą nenaikiname."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duomenys jūsų naršyklėje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Krepšelis laikomas naršyklės skirtuko sessionStorage. Neišspręstos užsakymo užklausos kopija, įskaitant pateiktus gavėjo duomenis, naudojama ne ilgiau kaip vieną valandą tam pačiam užsakymui atkurti po ryšio sutrikimo. Gavus atsakymą gavėjo duomenų kopija pašalinama, o užsakymo numeris ir prieigos žetonas gali būti naudojami iki 30 dienų. Uždarius ar išvalius skirtuką prieiga gali būti prarasta. Šie naršyklės terminai nėra visų serverio įrašų saugojimo terminai. Mokėjimo metu Stripe gali naudoti savo saugumui ir mokėjimui būtinus techninius duomenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jūsų teisės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite prašyti susipažinti su duomenimis, gauti jų kopiją, ištaisyti netikslumus, ištrinti duomenis, apriboti tvarkymą, nesutikti su teisėtu interesu grindžiamu tvarkymu ir, kai taikoma, perkelti duomenis. Šios teisės taikomos BDAR nustatytomis sąlygomis. Gavę prašymą galime paprašyti informacijos tapatybei saugiai patvirtinti; neprašome siųsti mokėjimo kortelės duomenų. Atsakome per vieną mėnesį, o įstatymų numatytais sudėtingais atvejais informuojame apie termino pratęsimą. Jei manote, kad jūsų duomenys tvarkomi netinkamai, galite pateikti skundą Valstybinei duomenų apsaugos inspekcijai per vdai.lrv.lt. Sprendimų, sukeliančių teisines ar panašiai reikšmingas pasekmes, vien automatizuotu profiliavimu nepriimame."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.603Z",
       "media": [],
-      "links": [],
+      "links": [
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "Pagalba ir kontaktai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://europa.eu/youreurope/business/governance-and-sustainability/digital-and-data-compliance/data-protection-gdpr/index_en.htm",
+          "label": "Europos Komisija: duomenų apsauga",
+          "reason": "Oficiali informacija apie tikslus, pagrindus, gavėjus ir duomenų subjektų teises."
+        },
+        {
+          "url": "https://vdai.lrv.lt/lt/naujienos/vdai-rekomendacijos-del-internetiniu-parduotuviu-tvarkomu-asmens-duomenu-saugumo-priemoniu/",
+          "label": "VDAI rekomendacijos internetinėms parduotuvėms",
+          "reason": "Duomenų apsaugos priemonių ir saugojimo kontrolės paaiškinimas."
+        }
+      ],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "c5c96e73fe3605ee6f3f6f054ec48fdbf3a77bde211aefb18066eeddb9d829cf",
+      "revisionHash": "18e174289ac271e4979b32da83098fd322bb62f652bce48ef0bac564ae9b5049",
       "approval": {
         "status": "approved",
-        "revisionHash": "c5c96e73fe3605ee6f3f6f054ec48fdbf3a77bde211aefb18066eeddb9d829cf",
-        "approvedAt": "2026-10-12T04:26:14.561Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "18e174289ac271e4979b32da83098fd322bb62f652bce48ef0bac564ae9b5049",
+        "approvedAt": "2026-10-20T16:10:03.407Z",
+        "actorId": "codex-production-launch-20261020"
       }
     },
     {
       "siteId": "memocasting",
       "type": "service",
       "slug": "naudojimo-salygos",
-      "title": "Vietinio bandymo sąlygos",
-      "description": "Kaip vertinti testinį užsakymą ir kokios prekybos sąlygos dar neaktyvuotos.",
-      "intent": "Kaip vertinti testinį užsakymą ir kokios prekybos sąlygos dar neaktyvuotos.",
+      "title": "Pirkimo taisyklės",
+      "description": "Memocasting pirkimo, apmokėjimo, pristatymo ir grąžinimo taisyklės. Pardavėjo rekvizitai ir vartotojo teisės.",
+      "intent": "Sužinoti visas sąlygas prieš užsakant rankų liejimo rinkinį Lietuvoje.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Ši vietinė parduotuvė skirta pirkimo kelio patikrai. Savininko patvirtintos rinkinių kainos — 32 € porai ir 48 € šeimai, įskaitant baltus dažus. Likučiai ir pristatymo tarifas yra testiniai."
+          "text": "Šios taisyklės taikomos internetu memocasting.lt parduodamiems rankų liejimo rinkiniams ir jų pristatymui Lietuvoje. Užsakymui taikoma jo pateikimo metu krepšelyje nurodyta taisyklių versija. Atnaujinta 2026 m. spalio 20 d."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pardavėjas"
         },
         {
           "type": "paragraph",
-          "text": "Užsakymo išsaugojimas sukuria testinį įrašą. Tai nėra tikras prekių pardavimas, apmokėjimo patvirtinimas ar siuntimo įsipareigojimas. Mokėjimo ir vežėjo integracijos dar neprijungtos."
+          "text": "Pardavėjas – MB Memocasting, įmonės kodas 306026827, buveinė Pupinės g. 10-55, Vilnius, LT-02206, Lietuva. Bendrija nėra PVM mokėtoja. Klientų aptarnavimas: info@memorycasting.lt, tel. +37069108251. Kontaktinis, siuntimo ir prekių grąžinimo adresas – Molynės g. 2C, Vilnius, LT-02211. Tai nėra kvietimas atvykti į fizinę parduotuvę be išankstinio susitarimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prekės ir kainos"
         },
         {
           "type": "paragraph",
-          "text": "Galutinės prekybos sąlygos bus pateiktos prieš produkcijos paleidimą kartu su rekvizitais, vežėjo informacija, grąžinimo procedūra ir patvirtinta produkto instrukcija. Šis tekstas nesuteikia leidimo pradėti gyvą prekybą."
+          "text": "Poros rinkinys kainuoja 32 €, šeimos rinkinys – 48 €. Į abiejų rinkinių komplektą įeina balti dažai. Tiksli komplektacija nurodoma konkrečios prekės apraše. Kainos pateikiamos eurais; PVM atskirai neskaičiuojamas, nes pardavėjas nėra PVM mokėtojas. Skulptūrų pavyzdžiai iliustruoja galimas kompozicijas – gatava skulptūra kartu su rinkiniu neparduodama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prekių suma ir pristatymo kaina prieš apmokėjimą pateikiamos krepšelyje. Pristatymas nėra įtrauktas į rinkinio kainą; jis apskaičiuojamas pagal gavėjo adresą ir užsakymo siuntą. Papildoma paslauga ar prekė nepridedama be pirkėjo pasirinkimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užsakymas ir apmokėjimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite rinkinį bei kiekį, pateikite tikrus gavėjo kontaktus ir Lietuvos pristatymo adresą, pasirinkite apskaičiuotą pristatymo pasiūlymą ir susipažinkite su šiomis taisyklėmis. Iki galutinio mokėjimo patvirtinimo galite patikrinti užsakymo sumą ir duomenis. Mokėjimą apdoroja Stripe; galimi būdai rodomi saugioje mokėjimo formoje. Mokėjimo kortelės numerio ir saugos kodo Memocasting sistemoje nesaugome."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakymo išsaugojimas dar nereiškia, kad jis apmokėtas. Pirkimo sutartis sudaroma ir užsakymas priimamas vykdyti, kai mokėjimo paslaugos teikėjas patvirtina sėkmingą apmokėjimą. Užsakymo numerį, sumą ir būseną matysite užsakymo puslapyje. Jei mokėjimo rezultatas neaiškus, pirmiausia patikrinkite to paties užsakymo būseną arba kreipkitės į mus, užuot mokėję dar kartą. Apmokėtam užsakymui išrašoma sąskaita faktūra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatome Lietuvoje į krepšelyje nurodytą adresą per pasirinktą kurjerio paslaugą. Pristatymo informacija paaiškinta pristatymo puslapyje. Vežėjo skaičiuojamas orientacinis kelionės laikas nėra pažadas, kad siunta jau perduota vežėjui. Jei nesusitariame dėl kito termino, prekes pristatome ne vėliau kaip per 30 dienų nuo sutarties sudarymo. Apie aplinkybes, trukdančias įvykdyti užsakymą, informuojame ir sprendžiame jas kartu su pirkėju; tai neriboja įstatymų numatytų teisių."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gavę siuntą patikrinkite jos būklę. Pastebėję pažeidimą ar trūkstamas dalis, praneškite mums; nuotraukos padės įvertinti situaciją. Tai, kad priėmėte siuntą ar pažeidimo iš karto neužfiksavote, savaime nepanaikina jūsų įstatyminių teisių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Atsisakymas, grąžinimas ir prekės kokybė"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vartotojas gali be priežasties atsisakyti nuotolinės sutarties per 14 kalendorinių dienų nuo prekės gavimo, o pranešęs apie atsisakymą – išsiųsti prekę per kitas 14 kalendorinių dienų. Persigalvojus grąžinimo siuntimą apmoka pirkėjas; brokuotos ar klaidingai atsiųstos prekės būtinas grąžinimo išlaidas apmokame mes. Visa procedūra, pranešimo pavyzdys ir pinigų grąžinimo tvarka pateikti grąžinimo puslapyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įstatymų numatyta atsakomybė už prekės neatitiktį galioja nepriklausomai nuo 14 dienų persigalvojimo termino. Rinkinį naudokite pagal kartu pateiktą instrukciją. Skundus dėl medžiagų ar komplektacijos vertiname pagal konkrečias aplinkybes; nesėkmingas liejinys savaime nelaikomas pirkėjo kalte."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagalba ir ginčai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl užsakymo, prekės trūkumo ar kito reikalavimo rašykite info@memorycasting.lt ir nurodykite užsakymo numerį bei problemą. Vartotojo kreipimąsi išnagrinėjame nemokamai; motyvuotą rašytinį atsakymą pateikiame ne vėliau kaip per 14 kalendorinių dienų nuo jo gavimo, kai taikomas įstatymų nustatytas terminas. Jei sprendimas netenkina arba atsakymo negaunate, galite kreiptis į Valstybinę vartotojų teisių apsaugos tarnybą per vtis.lt arba į teismą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asmens duomenų tvarkymas paaiškintas privatumo politikoje. Šios taisyklės neriboja privalomų vartotojo teisių."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.609Z",
       "media": [],
-      "links": [],
+      "links": [
+        {
+          "targetPageId": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
+          "label": "pristatymo puslapyje"
+        },
+        {
+          "targetPageId": "53ac4b89-8168-4762-887f-438c0b5aba21",
+          "label": "grąžinimo puslapyje"
+        },
+        {
+          "targetPageId": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
+          "label": "privatumo politikoje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://vvtat.lrv.lt/lt/DUK/",
+          "label": "VVTAT: vartotojų teisės",
+          "reason": "Patikrinti pristatymo ir atsakymo į skundą terminai."
+        },
+        {
+          "url": "https://vvtat.lrv.lt/lt/kaip-pateikti-prasyma/",
+          "label": "Kaip pateikti prašymą VVTAT",
+          "reason": "Oficialus vartojimo ginčo sprendimo kelias."
+        }
+      ],
       "id": "6db61a25-2056-4a41-a97e-c2bc1794f817",
-      "revisionHash": "0eb607172a0a2661180d450eb15d4b9160a85815bce2d9b307ae5cb4f869f622",
+      "revisionHash": "1ac82535e2a42bff2f1864275e013309afb26e0f6099cd690e254d25125dc685",
       "approval": {
         "status": "approved",
-        "revisionHash": "0eb607172a0a2661180d450eb15d4b9160a85815bce2d9b307ae5cb4f869f622",
-        "approvedAt": "2026-10-13T21:29:04.642Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "1ac82535e2a42bff2f1864275e013309afb26e0f6099cd690e254d25125dc685",
+        "approvedAt": "2026-10-20T16:10:02.114Z",
+        "actorId": "codex-production-launch-20261020"
       }
     },
     {
@@ -27704,5 +27938,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-20T04:31:50.555Z"
+  "generatedAt": "2026-10-20T16:10:04.437Z"
 }

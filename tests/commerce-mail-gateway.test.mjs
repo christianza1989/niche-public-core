@@ -5,7 +5,7 @@ import {readFileSync,mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join,dirname,resolve} from 'node:path';
 import {createCommerceMailGateway,D1CommerceMailLedger} from '../lib/commerce-mail-gateway.mjs';
-import {smtpSession} from '../lib/smtp-protocol.mjs';
+import {smtpSession,smtpMessage} from '../lib/smtp-protocol.mjs';
 const migration=readFileSync(new URL('../workers/commerce-mail/migrations/0001_mail_messages.sql',import.meta.url),'utf8');
 function database(path=':memory:'){
  const db=new DatabaseSync(path);db.exec(migration.replace('CREATE TABLE ','CREATE TABLE IF NOT EXISTS '));
@@ -15,6 +15,20 @@ const config={storeId:'memo-fixture',environment:'sandbox',from:'sender@example.
 const message={schemaVersion:1,environment:'sandbox',storeId:'memo-fixture',id:'notice-123',messageId:'<notice-123@example.test>',from:'sender@example.test',to:'buyer@example.test',replyTo:'info@memorycasting.lt',subject:'Bandomasis užsakymas',text:'Testinis pranešimas; tikras laiškas nesiunčiamas.'};
 const post=(body=message)=>new Request('https://core-mail.internal/commerce/messages/'+body.id,{method:'POST',body:JSON.stringify(body)});
 const get=()=>new Request('https://core-mail.internal/commerce/messages/'+message.id);
+
+test('a commerce brand display name preserves the authenticated From address and rejects header injection',()=>{
+ const input={from:'sender@example.test',to:'buyer@example.test',subject:'Užsakymas',text:'Receipt',id:'brand-test'};
+ assert.match(smtpMessage(input),/^From: MB Pinet <sender@example\.test>/);
+ assert.match(smtpMessage({...input,fromName:'Memocasting'}),/^From: =\?UTF-8\?B\?TWVtb2Nhc3Rpbmc=\?= <sender@example\.test>/);
+ for(const fromName of ['Bad\r\nBcc: victim@example.test','', 'x'.repeat(121)])assert.throws(()=>smtpMessage({...input,fromName}),/SMTP invalid sender name/);
+});
+test('private transport check returns bounded diagnostics without claiming or sending mail',async()=>{
+ let sends=0,checks=0;const gateway=createCommerceMailGateway({config,send:async()=>sends++,checkTransport:async()=>{checks++;return{ready:false,stage:'greeting',reason:'SMTP disconnected',privateValue:'never expose'};}});
+ const response=await gateway(new Request('https://core-mail.internal/commerce/transport-check'));
+ assert.deepEqual(await response.json(),{ready:false,stage:'greeting',reason:'SMTP disconnected'});assert.equal(sends,0);assert.equal(checks,1);
+ assert.equal((await gateway(new Request('https://public.example/commerce/transport-check'))).status,404);
+ assert.equal((await gateway(new Request('https://core-mail.internal/commerce/transport-check',{method:'POST'}))).status,405);
+});
 test('concurrent/restarted requests send once and retain exact SMTP acceptance independently of INBOX',async()=>{
  const directory=mkdtempSync(join(tmpdir(),'commerce-mail-')),path=join(directory,'ledger.sqlite');let db=database(path),calls=0;
  try{
@@ -58,4 +72,7 @@ test('the existing SMTP protocol supplies stable Message-ID and only a positive 
   await smtpSession(socket,{user:config.from,password:'synthetic-fixture-only',timeoutMs:1000},message);
  }});
  try{assert.equal((await (await gateway(post())).json()).status,'accepted');assert.match(wires[7],/Message-ID: <notice-123@example.test>/);assert.match(wires[7],/Reply-To: <info@memorycasting.lt>/);}finally{db.close();}
+});
+test('provider-specific acceptance reference survives replay without inventing an SMTP receipt',async()=>{
+ const db=database();let calls=0;try{const gateway=createCommerceMailGateway({config,ledger:new D1CommerceMailLedger(db),send:async()=>{calls++;return{reference:'hostinger-api-accepted:notice-123'};}});const first=await(await gateway(post())).json();assert.equal(first.status,'accepted');assert.equal(first.reference,'hostinger-api-accepted:notice-123');assert.deepEqual(await(await gateway(post())).json(),first);assert.equal(calls,1);}finally{db.close();}
 });
