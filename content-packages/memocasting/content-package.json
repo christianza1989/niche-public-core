@@ -1596,28 +1596,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinio siuntos svoris — 2 kg, pakuotės matmenys — 20 × 20 × 17 cm. Pristatymo suma parodoma krepšelyje prieš užsakymo išsaugojimą. Vietiniame bandyme naudojamas testinis tarifas; jis nėra viešas komercinis pasiūlymas."
+          "text": "Supakuotas poros rinkinys su baltais dažais sveria 2,2 kg, pakuotės matmenys – 20 × 20 × 17 cm. Rinkinio kaina – 32 €. Pristatymas Lietuvoje apskaičiuojamas atskirai krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Galutinę sumą matysite prieš apmokėjimą."
         },
         {
           "type": "paragraph",
-          "text": "Patikrinkite instrukcijos informaciją ir apgalvokite, ar dovanosite rinkinį, ar planuosite bendrą veiklą. Tikras mokėjimas dar neįjungtas."
+          "text": "Patikrinkite instrukcijos informaciją ir apgalvokite, ar dovanosite rinkinį, ar planuosite bendrą veiklą. Užsakymą galite apmokėti per Stripe krepšelyje."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirenkamas medinis pagrindas"
+          "text": "Papildomi priedai"
         },
         {
           "type": "paragraph",
-          "text": "Medinį pagrindą galima pasirinkti atskirai už 10 €. Jis neįeina į bazinę rinkinio kainą. Pagrindo matmenys ir medžio rūšis dar nepatvirtinti. Nuotraukoje matomas liejinys pateikiamas kaip vaizdo pavyzdys."
-        },
-        {
-          "type": "image",
-          "assetId": "1aae0e50-d485-4f03-b647-e6699d271afe"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nurodytas bazinio rinkinio siuntos svoris ir matmenys neapima nepatvirtintų papildomos komplektacijos pakuotės duomenų. Galutinę siuntą prekybos serveris turi įvertinti pagal konkretų pasirinkimą. Vietiniame pirkimo bandyme šio priedo pasirinkimas bus prijungtas tik prie serverio patvirtintos kainos ir pakuotės."
+          "text": "Medinis pagrindas į bazinį rinkinį neįeina ir šiuo metu svetainėje neparduodamas. Balti dažai jau įtraukti į rinkinio kainą – jų atskirai pridėti nereikia."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.540Z",
@@ -1639,24 +1631,6 @@
           "height": 360,
           "credit": "Rankų liejinio pavyzdys; rinkinio komplektacija aprašyta tekste.",
           "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
-        },
-        {
-          "id": "1aae0e50-d485-4f03-b647-e6699d271afe",
-          "src": "/content-assets/memocasting/1aae0e50-d485-4f03-b647-e6699d271afe.webp",
-          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
-          "width": 400,
-          "height": 400,
-          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
-        },
-        {
-          "id": "8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7",
-          "src": "/content-assets/memocasting/8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7.webp",
-          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
-          "width": 360,
-          "height": 360,
-          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         }
       ],
       "links": [
@@ -1674,12 +1648,12 @@
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "5f2dbc6fe6272b2fc7be7282d632e56f5301c0825da750d237f9cc5536638f25",
+      "revisionHash": "958f769907c1f26a1375f8b874cf67e45bc8af56c850895a6f98b2508de31d42",
       "approval": {
         "status": "approved",
-        "revisionHash": "5f2dbc6fe6272b2fc7be7282d632e56f5301c0825da750d237f9cc5536638f25",
-        "approvedAt": "2026-10-13T21:29:04.509Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "958f769907c1f26a1375f8b874cf67e45bc8af56c850895a6f98b2508de31d42",
+        "approvedAt": "2026-10-20T17:21:08.543Z",
+        "actorId": "codex-product-launch-20261020"
       }
     },
     {
@@ -1724,7 +1698,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Šeimos rinkinio siuntos svoris — 4 kg, matmenys — 25 × 25 × 20 cm. Kaina — 48 €. Pristatymo suma skaičiuojama atskirai; dabartinis vietinis tarifas testinis."
+          "text": "Supakuotas šeimos rinkinys su baltais dažais sveria 4,5 kg, pakuotės matmenys – 25 × 25 × 20 cm. Rinkinio kaina – 48 €. Pristatymas Lietuvoje apskaičiuojamas atskirai krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Galutinę sumą matysite prieš apmokėjimą."
         },
         {
           "type": "paragraph",
@@ -1733,19 +1707,11 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirenkamas medinis pagrindas"
+          "text": "Papildomi priedai"
         },
         {
           "type": "paragraph",
-          "text": "Medinį pagrindą galima pasirinkti atskirai už 10 €. Jis neįeina į bazinę rinkinio kainą. Pagrindo matmenys ir medžio rūšis dar nepatvirtinti. Nuotraukoje matomas liejinys pateikiamas kaip vaizdo pavyzdys."
-        },
-        {
-          "type": "image",
-          "assetId": "1aae0e50-d485-4f03-b647-e6699d271afe"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nurodytas bazinio rinkinio siuntos svoris ir matmenys neapima nepatvirtintų papildomos komplektacijos pakuotės duomenų. Galutinę siuntą prekybos serveris turi įvertinti pagal konkretų pasirinkimą. Vietiniame pirkimo bandyme šio priedo pasirinkimas bus prijungtas tik prie serverio patvirtintos kainos ir pakuotės."
+          "text": "Medinis pagrindas į bazinį rinkinį neįeina ir šiuo metu svetainėje neparduodamas. Balti dažai jau įtraukti į rinkinio kainą – jų atskirai pridėti nereikia."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.545Z",
@@ -1767,24 +1733,6 @@
           "height": 360,
           "credit": "Liejinio pavyzdys; nuotrauka nenustato rinkinio dalyvių skaičiaus.",
           "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
-        },
-        {
-          "id": "1aae0e50-d485-4f03-b647-e6699d271afe",
-          "src": "/content-assets/memocasting/1aae0e50-d485-4f03-b647-e6699d271afe.webp",
-          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
-          "width": 400,
-          "height": 400,
-          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
-        },
-        {
-          "id": "8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7",
-          "src": "/content-assets/memocasting/8a31fd3c-c9a2-493d-99f8-ca4f673b1dd7.webp",
-          "alt": "Rankų liejinys ant apvalaus medinio pagrindo.",
-          "width": 360,
-          "height": 360,
-          "credit": "Medinis pagrindas pasirenkamas atskirai už 10 €. Liejinys vaizde yra pavyzdys.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
         }
       ],
       "links": [
@@ -1802,12 +1750,12 @@
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "30a89945807a968fe1294798505a981eb88d7ca2706f3ede46096daf64768025",
+      "revisionHash": "fef6e0bbaae1e8353645d3dbdadcc127a6784d9ae3e21cacbb495263038beebe",
       "approval": {
         "status": "approved",
-        "revisionHash": "30a89945807a968fe1294798505a981eb88d7ca2706f3ede46096daf64768025",
-        "approvedAt": "2026-10-13T21:29:04.538Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "fef6e0bbaae1e8353645d3dbdadcc127a6784d9ae3e21cacbb495263038beebe",
+        "approvedAt": "2026-10-20T17:21:09.150Z",
+        "actorId": "codex-product-launch-20261020"
       }
     },
     {
@@ -1824,7 +1772,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Poros siunta sveria 2 kg ir yra 20 × 20 × 17 cm. Šeimos siunta sveria 4 kg ir yra 25 × 25 × 20 cm. Siuntos matmenys nėra indo talpos ar tinkamo rankų skaičiaus įrodymas."
+          "text": "Supakuotas poros rinkinys sveria 2,2 kg, jo pakuotės matmenys – 20 × 20 × 17 cm. Šeimos rinkinys sveria 4,5 kg, jo pakuotė – 25 × 25 × 20 cm. Pristatymo Lietuvoje kaina apskaičiuojama krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Pakuotės matmenys nenustato rinkiniui tinkamo rankų skaičiaus."
         },
         {
           "type": "paragraph",
@@ -1832,7 +1780,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Maišymo pagaliukai įeina į poros ir šeimos rinkinius. Medinis pagrindas yra atskirai pasirenkamas priedas už 10 €. Balti dažai įeina į poros ir šeimos rinkinius. Priedų pakuotės duomenys tikrinami atskirai nuo bazinių siuntų."
+          "text": "Maišymo pagaliukai ir balti dažai įeina į poros ir šeimos rinkinius. Medinis pagrindas į bazinį komplektą neįeina ir šiuo metu svetainėje neparduodamas. Pasirinkto rinkinio, pristatymo ir bendrą sumą patikrinkite krepšelyje prieš apmokėjimą."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.550Z",
@@ -1852,12 +1800,12 @@
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "6fba9115d9cb49f4c1a08fdf222c1fe25c8ab88614b774267a2b436dcee39e51",
+      "revisionHash": "d900e2ee4ed1cb2321df114bafc2cdf957f284e844030463f06f35ab3522263c",
       "approval": {
         "status": "approved",
-        "revisionHash": "6fba9115d9cb49f4c1a08fdf222c1fe25c8ab88614b774267a2b436dcee39e51",
-        "approvedAt": "2026-10-13T21:29:04.567Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d900e2ee4ed1cb2321df114bafc2cdf957f284e844030463f06f35ab3522263c",
+        "approvedAt": "2026-10-20T17:21:09.736Z",
+        "actorId": "codex-product-launch-20261020"
       }
     },
     {
@@ -27938,5 +27886,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-20T16:10:04.437Z"
+  "generatedAt": "2026-10-20T17:21:09.964Z"
 }
