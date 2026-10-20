@@ -8,7 +8,7 @@ export function MemoInstagramFeed({fallback}:{fallback:string}){
  const anchor=useRef<HTMLDivElement>(null),[feed,setFeed]=useState<Feed|null>(null),[count,setCount]=useState(12);
  useEffect(()=>{
   const element=anchor.current;if(!element)return;const controller=new AbortController();let started=false;
-  const load=async()=>{if(started)return;started=true;try{const response=await fetch('/social/instagram/feed',{signal:controller.signal});if(!response.ok)return;const data=await response.json();if(data.username!=='memocasting.lt'||!Array.isArray(data.items))return;
+  const load=async()=>{if(started)return;started=true;try{const response=await fetch('/social/instagram/feed',{signal:controller.signal});if(!response.ok)return;const data=await response.json() as Partial<Feed>|null;if(!data||data.username!=='memocasting.lt'||!Array.isArray(data.items)||typeof data.updatedAt!=='string')return;
    const items=data.items.slice(0,48).filter((p:Post)=>/^\d{5,40}$/.test(p.id)&&['IMAGE','VIDEO','CAROUSEL_ALBUM'].includes(p.type)&&/^https:\/\/www\.instagram\.com\/(p|reel|tv)\/[A-Za-z0-9_-]+\/?$/.test(p.href)&&Number.isFinite(Date.parse(p.timestamp))&&typeof p.caption==='string'&&(!p.poster||p.poster===`/social/instagram/media/${p.id}/poster`)&&(!p.video||p.video===`/social/instagram/media/${p.id}/video`));
    if(!controller.signal.aborted)setFeed({username:data.username,updatedAt:data.updatedAt,items});
   }catch{/* Keep the actual approved fallback and profile link during provider outages. */}};

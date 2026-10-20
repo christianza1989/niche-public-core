@@ -1,0 +1,623 @@
+{
+  "source": "24 savininko pateikti video; tikri kadrai, be generuotų scenų.",
+  "items": [
+    {
+      "id": "moment-b8ef55c95632",
+      "title": "Prisilietimas tampa skulptūra",
+      "alt": "Tamsiaplaukė moteris juodais drabužiais pila mišinį į liejimo indą.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632.mp4",
+      "duration": 15.12,
+      "durationLabel": "0:15",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-2e7a942ef0b6",
+      "title": "Mūsų vakaras dviese",
+      "alt": "Pora prie medinio stalo ruošiasi rankų liejimui.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6.mp4",
+      "duration": 80.5,
+      "durationLabel": "1:21",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-933ec44ee453",
+      "title": "Kartu su močiute",
+      "alt": "Vyresnio amžiaus moteris ir jos artimoji prie virtuvės stalviršio.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453.mp4",
+      "duration": 82.94,
+      "durationLabel": "1:23",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-c23ac33c4808",
+      "title": "Mamos ir sūnaus akimirka",
+      "alt": "Besijuokiantys mama ir sūnus kuria rankų skulptūrą.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808.mp4",
+      "duration": 55.26,
+      "durationLabel": "0:55",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-85951efe0525",
+      "title": "Mažos rankos, dideli prisiminimai",
+      "alt": "Du vaikai namuose prie kalėdinių dekoracijų.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525.mp4",
+      "duration": 42.68,
+      "durationLabel": "0:43",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-43da60f33369",
+      "title": "Kūrybiškas vakaras kartu",
+      "alt": "Dvi moterys virtuvėje ruošiasi rankų liejimui.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-43da60f33369.mp4",
+      "duration": 35.96,
+      "durationLabel": "0:36",
+      "width": 360,
+      "height": 638,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-43da60f33369-360.webp",
+          "width": 360,
+          "height": 638
+        }
+      ]
+    },
+    {
+      "id": "moment-3a3fd85f491a",
+      "title": "Pirmas žvilgsnis į skulptūrą",
+      "alt": "Šviesiaplaukė moteris virtuvėje rodo rankų skulptūrą.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a.mp4",
+      "duration": 44.39,
+      "durationLabel": "0:44",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-bc497d1a53cf",
+      "title": "Pirmosios bendros akimirkos",
+      "alt": "Mama su kūdikiu namų kambaryje, knygų lentynų fone.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf.mp4",
+      "duration": 33.16,
+      "durationLabel": "0:33",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-bb2a60639bac",
+      "title": "Dviese nuo pradžios iki galo",
+      "alt": "Pora namuose ruošiasi rankų liejimui.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac.mp4",
+      "duration": 53.84,
+      "durationLabel": "0:54",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-0c0c93d01b2d",
+      "title": "Dovana, kurią kuriame kartu",
+      "alt": "Moteris rausvais drabužiais rodo rankų liejimo rinkinio pakuotę.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d.mp4",
+      "duration": 43.65,
+      "durationLabel": "0:44",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-46a1e43ab04f",
+      "title": "Draugystė, kuri įgauna formą",
+      "alt": "Dvi moterys prie virtuvės stalviršio su liejimo indais.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f.mp4",
+      "duration": 63.74,
+      "durationLabel": "1:04",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-8d674b0d729a",
+      "title": "Prisiminimas po eglute",
+      "alt": "Moteris rausvais drabužiais sėdi prie eglutės su rankų skulptūra.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a.mp4",
+      "duration": 90.14,
+      "durationLabel": "1:30",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-95ee30e4b4bf",
+      "title": "Susikibti ir palaukti",
+      "alt": "Susikibusios rankos panardintos į liejimo mišinį.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf.mp4",
+      "duration": 59.91,
+      "durationLabel": "1:00",
+      "width": 720,
+      "height": 720,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-360.webp",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-640.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-720.webp",
+          "width": 720,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "moment-7199258dc355",
+      "title": "Mūsų mažas šeimos ritualas",
+      "alt": "Moteris ir vaikas kartu leidžia laiką šiltai apšviestoje virtuvėje.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355.mp4",
+      "duration": 59.73,
+      "durationLabel": "1:00",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-d0239a93da38",
+      "title": "Nuo mišinio iki prisiminimo",
+      "alt": "Moteris tamsiu chalatu ruošia rankų liejimo mišinį.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-d0239a93da38.mp4",
+      "duration": 67.66,
+      "durationLabel": "1:08",
+      "width": 360,
+      "height": 640,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-d0239a93da38-360.webp",
+          "width": 360,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "moment-b0b2313d1572",
+      "title": "Šventinis laikas su vaikais",
+      "alt": "Vaikai su raudonais šventiniais drabužiais kuria namuose.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572.mp4",
+      "duration": 56.89,
+      "durationLabel": "0:57",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-b0fac5d16ad6",
+      "title": "Viena idėja. Daug jausmų.",
+      "alt": "Šviesiaplaukė moteris stovi šviesių namų tarpduryje.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6.mp4",
+      "duration": 48.34,
+      "durationLabel": "0:48",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-b0c8222c1a41",
+      "title": "Kuriame savo rankomis",
+      "alt": "Moteris geltonais drabužiais prie rankų liejimo indo.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41.mp4",
+      "duration": 59.35,
+      "durationLabel": "0:59",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-f394fe0ff5e6",
+      "title": "Staigmena artimam žmogui",
+      "alt": "Moteris prie rausvai dengto stalo ruošia dovaną.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6.mp4",
+      "duration": 55.63,
+      "durationLabel": "0:56",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-cc535bb7cdfb",
+      "title": "Bendras šeimos kūrinys",
+      "alt": "Šeima su vaiku prie virtuvės stalviršio šventiškuose namuose.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-cc535bb7cdfb.mp4",
+      "duration": 40.03,
+      "durationLabel": "0:40",
+      "width": 360,
+      "height": 640,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-cc535bb7cdfb-360.webp",
+          "width": 360,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "id": "moment-abe772c9ae78",
+      "title": "Dovana su istorija",
+      "alt": "Rankos laiko nuotraukas ir dovanos pakuotę.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78.mp4",
+      "duration": 46.65,
+      "durationLabel": "0:47",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-912bfcbf4455",
+      "title": "Viskas prasideda nuo pirmo žingsnio",
+      "alt": "Moteris tamsiu chalatu rankose laiko liejimo mišinio pakuotę.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455.mp4",
+      "duration": 42.79,
+      "durationLabel": "0:43",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-95d217580e4c",
+      "title": "Kalėdinė kūrybos akimirka",
+      "alt": "Rankų liejimo priemonės ir šventinės detalės namuose.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c.mp4",
+      "duration": 71.42,
+      "durationLabel": "1:11",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "id": "moment-282d2ce760b0",
+      "title": "Šventė prasideda nuo idėjos",
+      "alt": "Rankų liejimo indas kalėdiškai papuoštuose namuose.",
+      "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0.mp4",
+      "duration": 59,
+      "durationLabel": "0:59",
+      "width": 720,
+      "height": 1280,
+      "variants": [
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-360.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-640.webp",
+          "width": 640,
+          "height": 1138
+        },
+        {
+          "src": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-720.webp",
+          "width": 720,
+          "height": 1280
+        }
+      ]
+    }
+  ]
+}
