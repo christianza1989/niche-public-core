@@ -5,6 +5,8 @@ import {mountCheckout} from '@/vendor/commerce-core/checkout-ui.mjs';
 import s from './memocasting-site.module.css';
 import {memoResolveTerms} from '@/lib/memocasting-checkout-policies.mjs';
 import {memoReadCart,memoWriteCart} from '@/lib/memocasting-cart.mjs';
+import {renderMemoPayment} from '@/lib/memocasting-embedded-checkout.mjs';
+import './memocasting-checkout.css';
 export {memoCartKey} from '@/lib/memocasting-cart.mjs';
 type MemoPolicy={country:string;language:string;policyVersion:string;url:string};
 
@@ -19,14 +21,14 @@ export function MemoNativeCheckout({title,language='lt',country='LT',policies=[]
  const root=useRef<HTMLDivElement>(null),lang=(['lt','pl','lv','et'].includes(language)?language:'lt') as keyof typeof loading;
  const [retry,setRetry]=useState(0),[failed,setFailed]=useState(false);
  const [storageFailed,setStorageFailed]=useState(false);
- useEffect(()=>{let disposed=false;const target=root.current;if(!target)return;const client=memoCommerceClient();
+ useEffect(()=>{let disposed=false;const target=root.current;if(!target)return;const client=memoCommerceClient(),controller=new AbortController();
   setFailed(false);
   // The shared UI owns validation, prices, credentials and order recovery.
   // Caller only supplies same-origin transport, presentation and existing cart lines.
-  mountCheckout(target,{language:lang,country,client,catalogueUrl,termsUrl:(context:{country:string;language:string;policyVersion:string})=>memoResolveTerms(policies,context),initialLines:memoCartLines(),onCartChange:(lines:Array<{sku:string;quantity:number}>)=>{if(disposed)return;try{memoSaveCart(lines);setStorageFailed(false);}catch{setStorageFailed(true);}},title,headingLevel:1,productTitle:(product:{sku:string;title:string})=>memoProductTitle(product,lang)}).catch(()=>{if(disposed)return;target.replaceChildren();const h=document.createElement('h1');h.textContent=title;const p=document.createElement('p');p.setAttribute('role','alert');p.textContent=unavailable[lang];target.appendChild(h);target.appendChild(p);setFailed(true);});
-  return()=>{disposed=true;};
+  mountCheckout(target,{language:lang,country,client,catalogueUrl,layout:'one-page',signal:controller.signal,productImage:(product:{sku:string})=>({couple:'/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-360.webp',family:'/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-360.webp'} as Record<string,string>)[product.sku],renderPayment:(options:Parameters<typeof renderMemoPayment>[0])=>renderMemoPayment({...options,language:lang}),termsUrl:(context:{country:string;language:string;policyVersion:string})=>memoResolveTerms(policies,context),initialLines:memoCartLines(),onCartChange:(lines:Array<{sku:string;quantity:number}>)=>{if(disposed)return;try{memoSaveCart(lines);setStorageFailed(false);}catch{setStorageFailed(true);}},title,headingLevel:1,productTitle:(product:{sku:string;title:string})=>memoProductTitle(product,lang)}).catch(()=>{if(disposed)return;target.replaceChildren();const h=document.createElement('h1');h.textContent=title;const p=document.createElement('p');p.setAttribute('role','alert');p.textContent=unavailable[lang];target.appendChild(h);target.appendChild(p);setFailed(true);});
+  return()=>{disposed=true;controller.abort();};
  },[title,lang,country,policies,catalogueUrl,retry]);
- return <section className={s.commerce}><div ref={root}><h1>{title}</h1><p role="status">{loading[lang]}</p></div>{failed&&<button type="button" onClick={()=>setRetry(n=>n+1)}>{retryText[lang]}</button>}{storageFailed&&<p role="alert">{storageText[lang]}</p>}</section>;
+ return <section className={'memo-checkout '+s.commerce}><div ref={root}><h1>{title}</h1><p role="status">{loading[lang]}</p></div>{failed&&<button type="button" onClick={()=>setRetry(n=>n+1)}>{retryText[lang]}</button>}{storageFailed&&<p role="alert">{storageText[lang]}</p>}</section>;
 }
 const productTitles:Record<string,Record<string,string>>={
  lt:{couple:'Rankų liejimo rinkinys porai',couple_white:'Rankų liejimo rinkinys porai su baltais dažais',family:'Rankų liejimo rinkinys šeimai',white_paint:'Balti dažai',wooden_base:'Medinis pagrindas'},
