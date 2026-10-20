@@ -6,6 +6,8 @@ import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
 import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
+import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
+import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -70,6 +72,11 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if (path.startsWith('/social/instagram/')) {
+      if(niche.siteId!=='memocasting'||!publicNichePages(niche).some(memoHomepageAdmitted)||!instagramAction(path.slice('/social/instagram/'.length)))return new Response('Not found',{status:404});
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/instagram/'+path.slice('/social/instagram/'.length);destination.search='';
+      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');return response;
+    }
     if(niche.siteId==='memocasting'){
       const moved=memoRedirectPath(path,publicNichePages(niche),request.method);
       if(moved){const destination=request.nextUrl.clone();destination.pathname=moved;return NextResponse.redirect(destination,301);}
