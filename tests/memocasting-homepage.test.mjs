@@ -25,7 +25,7 @@ test('all selected design asset bytes match the narrow manifest including both o
  assert.equal(manifest.assets.find(a=>a.path.endsWith('/desktop.mp4')).bytes,8587634);assert.equal(manifest.assets.find(a=>a.path.endsWith('/mobile.mp4')).bytes,3668917);
 });
 test('every responsive sculpture, kit and independently layered hero cutout retains encoded WebP alpha',async()=>{
- for(const role of ['asset-kit/couple-alpha-v2','asset-kit/family-alpha-v2','asset-kit/kit-alpha-v1','hero-layers/hero-objects-alpha-v4']){
+ for(const role of ['asset-kit/couple-alpha-v2','asset-kit/family-alpha-v2','asset-kit/family-reference-white-v1','asset-kit/kit-alpha-v1','hero-layers/hero-objects-alpha-v4']){
   const variants=manifest.assets.filter(x=>x.path.includes('/'+role+'-'));
   assert.ok(variants.length>=4,'missing responsive cutout family '+role);
   for(const asset of variants){const bytes=await fs.readFile(new URL('../public'+asset.path,import.meta.url));assert.equal(bytes.subarray(12,16).toString(),'VP8X');assert.ok(bytes[20]&0x10,'alpha lost '+asset.path);}

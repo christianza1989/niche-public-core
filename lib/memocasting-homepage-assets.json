@@ -1818,6 +1818,30 @@
       "bytes": 7446,
       "sha256": "8fe55142b6534813badfc1c19f96a4454a1627bd5aa89a0b41eec3a8b71718b3",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-1122.webp",
+      "bytes": 97324,
+      "sha256": "c841b6bf1e2878199c874e3808c2af3015863d6e2d0d3fbe6e75407310e69110",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-800.webp",
+      "bytes": 59872,
+      "sha256": "ed74e525d29a0caf175f60ba6aad460fef17e767113b996e6b0a070ec6bf9bc9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-640.webp",
+      "bytes": 42144,
+      "sha256": "4ba20d635cdbb376f9398ece1a65da3462ae40fa9f349a676a02fc57a7d0c35f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-360.webp",
+      "bytes": 18382,
+      "sha256": "85a22733ba660b0355ad36673f189946b8ee1f7a58ef9565b4bf768ed5da6dde",
+      "type": "image/webp"
     }
   ]
 }
