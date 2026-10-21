@@ -1,0 +1,13 @@
+{
+  "siteId": "madbeauty",
+  "sourceCommit": "4afef698d7ba6bdc7f9269a20855b8bf3a0a5eef",
+  "sourcePullRequest": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/54",
+  "destinationThreadId": "01a11268-7ab2-7a23-973c-598322dba15a",
+  "request": "Admit exact package and perform authorized content-only deployment while preserving live services and dates",
+  "packageSha256": "320a8e0f50f1623cfa95e64bf2b3c16d96890cc998f587b114004d52bd581369",
+  "approvedAdditional": 19,
+  "specialistPending": 11,
+  "state": "ACTUAL_DOMAIN_VERIFIED",
+  "actualDomainReceipt": "DOMAIN-ACCEPTANCE.json",
+  "checkedAt": "2026-10-09T19:47:52.803Z"
+}

@@ -1,0 +1,116 @@
+{
+  "at": "2026-10-19T07:40:00.075Z",
+  "checkpoints": [
+    {
+      "checkout": "madbeauty-calendar-20261009",
+      "commit": "fc0f06ebca222149671e6d27959ea25e2ac842c4",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-calendar-20261009"
+    },
+    {
+      "checkout": "madbeauty-calendar-release-20261009",
+      "commit": "6bc5d921554d10591d2b9217a6a60db10455702b",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-autonomous-editorial-20261009"
+    },
+    {
+      "checkout": "madbeauty-content-acceptance-20261013",
+      "commit": "b52ca5b8bac158fb75a404516dfbfef8e96e732c",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-content-acceptance-20261013"
+    },
+    {
+      "checkout": "madbeauty-content-batch30",
+      "commit": "6777e972aee51ee7bd89bca4a118ca4c7617dd81",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-content-batch30-20261007"
+    },
+    {
+      "checkout": "madbeauty-content-release60-20261010",
+      "commit": "0f76a04ad1bc8e93cf87352b60097b403e012da3",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-content-release60-20261010"
+    },
+    {
+      "checkout": "madbeauty-favicon-20261013",
+      "commit": "ce1d3fbae78313b479cf2403358337eccff31c4d",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/codex/madbeauty-favicon-20261013"
+    },
+    {
+      "checkout": "madbeauty-next30-20261009",
+      "commit": "d6f6a29d9a807c52980a4494b86013c9cf3450ca",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-next30-20261009"
+    },
+    {
+      "checkout": "madbeauty-next6-20261012",
+      "commit": "7ef3c72981892716541fb02f6c22e19d0efdde41",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-next6-20261012"
+    },
+    {
+      "checkout": "madbeauty-next6-20261015",
+      "commit": "19c545847f79828d849c9db987205af62c97e88b",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-next6-20261015"
+    },
+    {
+      "checkout": "madbeauty-next60-20261009",
+      "commit": "a48e982cd992c85dbba061f24803ef0a23cbe6e2",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-next60-20261009"
+    },
+    {
+      "checkout": "madbeauty-search-fix",
+      "commit": "c6516b7dacc52b35cd238aec5ce2dff7eca27359",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-search-fix-20261006"
+    },
+    {
+      "checkout": "madbeauty-service-picker-20261010",
+      "commit": "df3a27c61dc15e935a7092bc46b01b2855266373",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/codex/madbeauty-favicon-20261013"
+    },
+    {
+      "checkout": "madbeauty-upgrade-plan",
+      "commit": "9b4bfb66da3fa381699d80540d6b1744c066c08c",
+      "remoteRecoverable": false,
+      "remoteRef": null,
+      "siteSnapshot": "legacy-checkpoint-9b4bfb66/MANIFEST.json",
+      "fullGitHistoryMigrated": false
+    },
+    {
+      "checkout": "madbeauty-calendar-core-20261009",
+      "commit": "63cfd8c2043eb2afa5eb6af638bae4dad9c86d46",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/dovanos-madbeauty-release-20261006"
+    },
+    {
+      "checkout": "madbeauty-content-core-20261013",
+      "commit": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/main"
+    },
+    {
+      "checkout": "madbeauty-editorial-core",
+      "commit": "c7e0c9a5a43e22c74af5da14e61ad403bdc40ee7",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/madbeauty-editorial-schema-20261007"
+    },
+    {
+      "checkout": "madbeauty-favicon-public-core-20261013",
+      "commit": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/main"
+    },
+    {
+      "checkout": "madbeauty-platform-core-20261010",
+      "commit": "5661d5d6907d6f5d11514ae69c0decc6130d65e2",
+      "remoteRecoverable": true,
+      "remoteRef": "refs/heads/ai/dovanos-madbeauty-release-20261006"
+    }
+  ],
+  "note": "Current platform source takes precedence. Older site checkpoint is content-addressed; shared Git roots and other project files remain untouched."
+}

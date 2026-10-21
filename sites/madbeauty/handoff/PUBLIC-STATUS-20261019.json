@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-19T07:15:26.406Z",
+  "mode": "Read-only actual public HTTP; provider version not re-queried",
+  "results": [
+    {
+      "host": "madbeauty.lt",
+      "route": "/",
+      "status": 200,
+      "contentPackage": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509"
+    },
+    {
+      "host": "madbeauty.lt",
+      "route": "/boot.json",
+      "status": 200,
+      "contentPackage": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+      "communityEnabled": true
+    },
+    {
+      "host": "madbeauty.lt",
+      "route": "/content.json",
+      "status": 200,
+      "contentPackage": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+      "eligiblePages": 18,
+      "guides": 14
+    },
+    {
+      "host": "madbeauty.lt",
+      "route": "/sitemap.xml",
+      "status": 200,
+      "contentPackage": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+      "sitemapUrls": 45
+    },
+    {
+      "host": "madbeauty.lt",
+      "route": "/providers.json",
+      "status": 200,
+      "contentPackage": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+      "publicProfiles": 0
+    },
+    {
+      "host": "bandymas.madbeauty.lt",
+      "route": "/",
+      "status": 410,
+      "contentPackage": null
+    },
+    {
+      "host": "bandymas.madbeauty.lt",
+      "route": "/boot.json",
+      "status": 410,
+      "contentPackage": null
+    },
+    {
+      "host": "bandymas.madbeauty.lt",
+      "route": "/content.json",
+      "status": 410,
+      "contentPackage": null
+    },
+    {
+      "host": "bandymas.madbeauty.lt",
+      "route": "/sitemap.xml",
+      "status": 410,
+      "contentPackage": null,
+      "sitemapUrls": 0
+    },
+    {
+      "host": "bandymas.madbeauty.lt",
+      "route": "/providers.json",
+      "status": 410,
+      "contentPackage": null
+    }
+  ]
+}
