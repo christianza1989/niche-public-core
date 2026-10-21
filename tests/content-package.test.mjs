@@ -37,13 +37,13 @@ test("approved immutable package passes validation", () => {
   assert.equal(validateContentPackage(fixture()).pages.length, 1);
 });
 
-test("responsive media permits 160 variants and rejects a 161st without truncation", () => {
+test("responsive media permits 60 variants and rejects a 61st without truncation", () => {
   const pkg=fixture(),page=pkg.pages[0];
-  page.media=Array.from({length:160},(_,i)=>({id:`asset-${i}`,familyId:`family-${Math.floor(i/5)}`,src:`/content-assets/sample-site/asset-${i}.webp`,alt:`Originali kompozicija ${i}`,width:800,height:400,rights:'Synthetic test'}));
+  page.media=Array.from({length:60},(_,i)=>({id:`asset-${i}`,familyId:`family-${Math.floor(i/5)}`,src:`/content-assets/sample-site/asset-${i}.webp`,alt:`Originali kompozicija ${i}`,width:800,height:400,rights:'Synthetic test'}));
   page.revisionHash=pageRevisionHash(page);page.approval.revisionHash=page.revisionHash;
-  assert.equal(validateContentPackage(pkg).pages[0].media.length,160);
-  page.media.push({...page.media[0],id:'asset-161',src:'/content-assets/sample-site/asset-161.webp'});
-  assert.throws(()=>validateContentPackage(pkg),/exceeds 160/);
+  assert.equal(validateContentPackage(pkg).pages[0].media.length,60);
+  page.media.push({...page.media[0],id:'asset-61',src:'/content-assets/sample-site/asset-61.webp'});
+  assert.throws(()=>validateContentPackage(pkg),/exceeds 60/);
 });
 test('family identity is optional, revision bound and cannot carry private paths or URLs',()=>{
  const pkg=fixture(),page=pkg.pages[0];
