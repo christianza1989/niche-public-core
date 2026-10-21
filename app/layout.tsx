@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
 import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -38,7 +39,8 @@ export default async function RootLayout({
     const slug = pathname.replace(/^\/+|\/+$/g, "");
     const page = publicNichePage(niche, slug);
     const canonical = page ? `${nicheOrigin(niche)}${nichePagePath(page)}` : undefined;
-    const hero = page?.media[0];
+    const hero = page && niche.siteId === "promedical" && page.type === "product"
+      ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (
       <html lang={niche.locale.slice(0, 2).toLowerCase()}>
         <head>
@@ -64,7 +66,15 @@ export default async function RootLayout({
             <meta property="og:title" content={page.title} />
             <meta property="og:description" content={page.description} />
             <meta property="og:url" content={canonical} />
-            {hero && <meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />}
+            {hero && <><meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+              {niche.siteId === "promedical" && page.type === "product" && <>
+                <meta property="og:image:width" content={String(hero.width)} />
+                <meta property="og:image:height" content={String(hero.height)} />
+                <meta property="og:image:alt" content={hero.alt} />
+                <meta name="twitter:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+                <meta name="twitter:image:alt" content={hero.alt} />
+              </>}
+            </>}
             <meta name="twitter:card" content={hero ? "summary_large_image" : "summary"} />
           </>}
         </head>
