@@ -31,8 +31,16 @@ the single large image plus collapsed extra images with a discoverable gallery.
   completion check exposes retry/direct link; retry remains available for a
   persistent404 and selecting a working frame removes the error state.
 - [ ] All representative and full candidate galleries after import completes.
-- [ ] Actual200% browser enlargement and user text-spacing override evidence.
-  Current IAB viewport emulation is recorded as narrow reflow, not proof of zoom.
+- [x] Actual320px user text-spacing override: line height1.5, paragraph spacing2em,
+  letter spacing.12em and word spacing.16em. Main/dialog text and controls remain
+  available without horizontal overflow.
+- [x] All ten representative galleries imported; actual browser loading/geometry
+  checks include the single-image product, 12/13-image galleries and shared
+  diagrams. Source434 frame11 stays200x56 in both main and enlarged views;
+  source419 has13 thumbnails at320px without horizontal overflow.
+- [ ] Actual200% browser enlargement remains UNVERIFIED. Current IAB exposes
+  viewport emulation without a verified browser zoom control; narrow reflow and
+  the separate text-spacing fixture are not represented as browser zoom.
 
 `lib/niche-media.mjs` is the single family/responsive source. Optional `familyId`
 is authoritative for new imports; the helper retains legacy alt/aspect fallback
@@ -44,7 +52,7 @@ existing sitemap route still enforces host and public-homepage eligibility.
 No offers, prices, stock, ratings, reviews or fabricated product facts are added.
 
 Source checks: `node --test tests/promedical-gallery.test.mjs
-tests/niche-media.test.mjs` (9 tests), existing schema/link regression (7 tests),
+tests/niche-media.test.mjs` (13 tests), complete public regression (78 tests),
 focused ESLint (new component: no errors), Impeccable detector (empty findings).
 The existing manual font stylesheet warning in `app/layout.tsx` is preserved.
 
@@ -60,3 +68,10 @@ one Product.image entry and one sitemap image. No perceptual deletion is used.
 
 This source delivery is separate from media coverage, content approval,
 release/deployment, production HTTP verification and search indexing.
+
+Private integration evidence is kept outside Git under
+`D:/Core/output/promedical-gallery-execution-20261021`. Its fixed baseline is the
+actual deployed packageSHAe84a27e204e9303258f7fa5e042993170537d745342ba71a6181d1191da98a8c
+and Workera8c1f6c5-604f-4ad3-ab4e-85931d4192cd, including the already-live1402
+product rewrites. No new gallery draft is represented as approved or deployed.
+The owner requested a complete private review before any publication.
