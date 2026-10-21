@@ -2,8 +2,14 @@
   "operatorName": "MB Pinet",
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
-  "contactsBySite": {},
+  "guidePublicationPausedAtBySite": {
+    "promedical": "2026-10-13T19:26:54.000Z"
+  },
+  "contactsBySite": {
+    "promedical": { "email": "info@promedical.lt", "operatorName": "Promedical" }
+  },
   "networkDomains": [
+    "promedical.lt",
     "akmenas.lt",
     "apartmentstrakai.lt",
     "auksarankiams.lt",
@@ -34,6 +40,7 @@
   ],
   "networkLiveDomains": [],
   "ownedAliases": [
+    "www.promedical.lt",
     "www.akmenas.lt",
     "www.apartmentstrakai.lt",
     "www.auksarankiams.lt",

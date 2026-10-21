@@ -4,6 +4,9 @@ import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
+import pathAliases from '@/config/niche-path-aliases.json';
+import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
+const nichePathAliases = indexNichePathAliases(pathAliases);
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -55,6 +58,17 @@ export function proxy(request: NextRequest) {
   if (niche) {
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
+    if (request.method === 'GET' || request.method === 'HEAD') {
+      const legacyDestination = nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
+      if (legacyDestination) {
+        const destination = request.nextUrl.clone();
+        const target = new URL(legacyDestination, destination.origin);
+        destination.pathname = target.pathname; destination.search = target.search;
+        const response = NextResponse.redirect(destination, 301);
+        response.headers.set('Cache-Control', 'private, no-store');
+        return response;
+      }
+    }
     if (path.startsWith("/content-assets/")) {
       const allowed = publicNichePages(niche).some((page) => page.media.some((media) => media.src === path));
       return allowed ? NextResponse.next() : new Response("Not found", { status: 404 });
