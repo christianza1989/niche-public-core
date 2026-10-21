@@ -115,3 +115,44 @@ The owner manifest is `READY_FOR_OWNER_REVIEW_NOT_APPROVED`:41/45 plan actions
 complete. Approve/release/deploy, new production CDN/WAF checks and indexing
 remain outside private acceptance. No new gallery approval or deployment was
 performed; private Studio/media payloads remain outside this source PR.
+
+## Subsequent owner-authorized live publication — 2026-10-21
+
+The owner reviewed the private gallery preview and explicitly authorized live
+publication. The immutable private acceptance above is retained as history.
+The canonical1408-product media release preserves the latest separately
+published70 text corrections, all501 nonproduct pages, F01/F02 behavior,
+Lithuanian URLs/redirects and55 held guides. Published package SHA256:
+`26907ad9a442f8327097a43f74a909b23ad768ec6664fa5152389ba1f2e51237`.
+Active Worker version `1351de1b-50a0-493d-986c-3e3ff275fcb7`, deployment
+`22f961ec-b024-442b-bfd0-ee0750de1320`,100% traffic. Previous version for rollback:
+`56e75e7d-f297-4782-aefc-4f09ecd6f8ca`, preserving the latest text corrections.
+
+Publication uses this source with the final canonical approved package imported
+into an isolated build directory. Run the **complete normal build after import**
+so the framework server's public asset index includes every new media path.
+Data-only compiled-JSON replacement leaves new images404 despite copied files;
+the local Worker canary caught this before deployment. The final normal build
+indexes all9191 release assets. A representative actual local production build
+passes ten product routes/218 images, plus55 held-guide and208 held-media404s.
+Public94 tests and companion Studio62 tests pass.
+
+Exact deployed payloads, canonical approval/release receipts, production HTTP
+and UI evidence remain private under
+`D:/Core/output/promedical-gallery-execution-20261021/live-publication-20261021`.
+This Git source snapshot is not a replacement for that current approved release.
+Future publication must reconcile current production before another overlay;
+shared Studio drafts were not overwritten. The source PR remains draft and
+main was not merged. Actual new-image indexing and AI visibility are separate
+from technical delivery and are not inferred from user-agent probes.
+
+Final actual production HTTPS verification passes all1408 product routes,
+7454 visible image families and8352 unique WebP files with MIME/byte/SHA checks
+and zero failures. Product.image and1854-URL sitemap match visible families;
+existing301 controls pass. All55 held guides and208 exclusive held-media paths
+remain404. Live390/320px selection/dialog/focus/13-frame checks pass. The final
+Cloudflare read confirms the expected100% active version and preserved bindings
+and operational settings. Evidence is `live-gallery-verification.json`,
+`production-http.json`, `browser/live-ui.json` and `browser/live-mobile.jpg`
+under the private publication workspace. Plan44/45 complete:actual new-image
+indexing remains unverified. Actual200% zoom and production CWV are not claimed.
