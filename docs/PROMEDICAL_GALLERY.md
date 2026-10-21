@@ -30,7 +30,8 @@ the single large image plus collapsed extra images with a discoverable gallery.
 - [x] Forced initial image404 plus cached failure before hydration: mounted
   completion check exposes retry/direct link; retry remains available for a
   persistent404 and selecting a working frame removes the error state.
-- [ ] All representative and full candidate galleries after import completes.
+- [x] All1,408 actual candidate routes and8,352 unique WebP files pass private
+  HTTP/MIME/byte/SHA checks after native integrity and final attachment.
 - [x] Actual320px user text-spacing override: line height1.5, paragraph spacing2em,
   letter spacing.12em and word spacing.16em. Main/dialog text and controls remain
   available without horizontal overflow.
@@ -51,7 +52,7 @@ Image indexes accept only this site's eligible public WebP projection under
 existing sitemap route still enforces host and public-homepage eligibility.
 No offers, prices, stock, ratings, reviews or fabricated product facts are added.
 
-Source checks: `node --test tests/promedical-gallery.test.mjs
+Initial source checks: `node --test tests/promedical-gallery.test.mjs
 tests/niche-media.test.mjs` (13 tests), complete public regression (78 tests),
 focused ESLint (new component: no errors), Impeccable detector (empty findings).
 The existing manual font stylesheet warning in `app/layout.tsx` is preserved.
@@ -75,3 +76,42 @@ actual deployed packageSHAe84a27e204e9303258f7fa5e042993170537d745342ba71a6181d1
 and Workera8c1f6c5-604f-4ad3-ab4e-85931d4192cd, including the already-live1402
 product rewrites. No new gallery draft is represented as approved or deployed.
 The owner requested a complete private review before any publication.
+
+## Final private acceptance — 2026-10-21
+
+Tested renderer source:5fd20118327044fe8d0df6ee2280fa85f2a53194, including
+current-main F01 navigation and F02 pagination. The merge preserves catalogue
+canonical handling and the first gallery family's social image. All94 public
+tests, TypeScript with1,024MiB heap, focused lint and normal build pass. One
+pre-existing manual-font-stylesheet warning remains. All ten compiled content
+packages equal the frozen approved baseline. Actual local Worker SEO smoke
+passes1,854 routes;306 pagination probes cover296 later pages and ten controls.
+
+All1,408 manufacturer products were inventoried. After298 proven duplicate
+anchors,7,454 per-product frames map to2,801 immutable source families and8,352
+responsive WebP files. The largest page has46 variants within the unchanged60
+limit. Native verification rechecks hashes, dimensions, canonical records,
+alpha and order. Every actual candidate route and unique variant passes private
+HTTP verification. All23,183 contextual alt values equal the owner's authorized
+existing product title. All1,909 historical published revisions and501
+nonproduct pages remain identical. One missing manufacturer original has a
+genuine200x56 fallback retained without enlargement.
+
+Current functional UI checks cover390/320px reflow,13-frame thumbnails,
+selection, native dialog, Escape/focus return and200x56 main/dialog bounds.
+Actual200% browser zoom remains unverified. The1280px DOM geometry was checked;
+the IAB desktop screenshot captures only the visible left pane. The current
+Lighthouse pair uses the same final UI with single-family versus five-family
+candidate data: scores51/52, LCP16.86/16.39s, CLS approximately0.000013/0.000015.
+These private Vite results include roughly7MB development JavaScript; they are
+not production CWV acceptance or evidence of a causal improvement.
+
+Read-only reconciliation preserves the separately deployed current F02 Worker
+4262d312-9ee9-4324-8344-24ef2e98bf54 with all ten original content packages and
+operational settings unchanged. Initial a8c and intermediate F01 snapshots
+remain historical; no rollback was performed. The exact raw candidate SHA is
+`b81a0f07cb0c7fddd5ce0c868a5f8f71ebd4f219430954f48920f1a02118874c`.
+The owner manifest is `READY_FOR_OWNER_REVIEW_NOT_APPROVED`:41/45 plan actions
+complete. Approve/release/deploy, new production CDN/WAF checks and indexing
+remain outside private acceptance. No new gallery approval or deployment was
+performed; private Studio/media payloads remain outside this source PR.
