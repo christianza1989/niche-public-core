@@ -49,6 +49,14 @@ test('one image has primary enlargement and count; no empty thumbnail rail or em
   assert.equal(renderToStaticMarkup(React.createElement(PromedicalGallery,{media:[],title:page.title})), '');
 });
 
+test('a genuine low-resolution source has native pixel bounds in the actual image element',()=>{
+  const asset={id:'source-thumbnail',familyId:'low-source',src:'/content-assets/promedical/low.webp',alt:page.title,width:200,height:56};
+  const html=renderToStaticMarkup(React.createElement(PromedicalGallery,{media:[asset],title:page.title}));
+  assert.match(html,/<img[^>]+width="200" height="56" style="max-width:200px;max-height:56px"/);
+  assert.ok(html.includes('low.webp 200w'));
+  assert.ok(!html.includes('1600w'));
+});
+
 test('Product.image and sitemap enumerate exactly the same public gallery representatives',()=>{
   const urls=publicGalleryImageUrls(pkg,page);
   assert.equal(urls.length,3);
@@ -58,6 +66,22 @@ test('Product.image and sitemap enumerate exactly the same public gallery repres
   const schema=promedicalProductSchema(pkg,page,'MODEL');
   assert.equal(schema.sku,'MODEL');
   for(const field of ['offers','aggregateRating','review']) assert.ok(!(field in schema));
+});
+
+test('rounded panoramic responsive sizes stay one gallery frame across SSR, Product and sitemap',()=>{
+  const panorama=[[1280,60],[1200,56],[800,38],[640,30],[360,17]].map(([width,height])=>({
+    id:`panorama-${width}`,familyId:'actual-canonical-panorama',src:`/content-assets/promedical/panorama-${width}.webp`,
+    alt:'Patvirtintas produkto pavadinimas',width,height,
+  }));
+  const candidate={...page,media:[...panorama,media[4]]};
+  const html=renderToStaticMarkup(React.createElement(PromedicalGallery,{media:candidate.media,title:candidate.title}));
+  assert.equal((html.match(/class="thumbnail"/g)||[]).length,2);
+  assert.ok(html.includes('Nuotrauka 1 iš 2'));
+  const urls=publicGalleryImageUrls(pkg,candidate);
+  assert.deepEqual(urls,[`https://${pkg.canonicalHost}${panorama[0].src}`,`https://${pkg.canonicalHost}${media[4].src}`]);
+  assert.deepEqual(promedicalProductSchema(pkg,candidate,'MODEL').image,urls);
+  assert.equal((galleryImageSitemapTags(pkg,candidate).match(/<image:loc>/g)||[]).length,2);
+  for(const [width]of [[1280],[1200],[800],[640],[360]])assert.ok(html.includes(`panorama-${width}.webp ${width}w`));
 });
 
 test('public indexes exclude another site and private or noncanonical image sources',()=>{
