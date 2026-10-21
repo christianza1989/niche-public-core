@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T07:44:19.977Z",
+  "at": "2026-10-21T15:21:49.733Z",
   "repository": "christianza1989/niche-public-core",
   "branch": "codex/madbeauty-handoff-20261019",
   "scope": "Madbeauty site-only archive; no deployment",
@@ -7,11 +7,17 @@
   "immutableArtifacts": "PASS",
   "localNativeRecovery": "PASS (2/2)",
   "exactStagedSafety": "PASS",
-  "freshRemoteClone": "PENDING",
-  "localCleanup": "PENDING",
+  "freshRemoteClone": "PASS",
+  "localCleanup": "20 dedicated workspace directories removed and original 196 inventory targets absent; automatic approval review rejected removal of one 7636-byte diagnostic log and the temporary transfer-control metadata folder",
   "keep": "Shared CORE_SHARED, other project files, common Git roots, global account credentials and live provider systems",
-  "contentAutomation": "PAUSED; never resumed",
+  "contentAutomation": "Dedicated paused automation backed up and removed; shared core automation preserved",
   "privateRuntimeState": "EXCLUDED",
   "credentials": "EXCLUDED",
-  "ownerAuthorization": "Public source, documentation and future articles; dedicated PC cleanup after restoration test"
+  "ownerAuthorization": "Public source, documentation and future articles; dedicated PC cleanup after restoration test",
+  "restoredCommit": "50bec5a8045c18fb0b388a967d63f4c075a00b7b",
+  "verifiedHashEntries": 9283,
+  "originalImages": 191,
+  "restoredCurrentScanner": "PASS (9286 files / 0 findings)",
+  "commonReleaseVerifier": "PASS (141 pages / 702 assets)",
+  "cleanupReceipt": "CLEANUP-RECEIPT.json"
 }

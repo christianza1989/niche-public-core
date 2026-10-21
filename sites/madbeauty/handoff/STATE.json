@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "at": "2026-10-19T07:33:23.475Z",
+  "at": "2026-10-21T15:21:49.733Z",
   "scope": "GitHub handoff and local recovery; no hosted deployment",
   "production": {
     "lastAcceptedVersion": "f68008dd-5ceb-446b-8113-d68bd1631919",
@@ -64,9 +64,41 @@
       "repair": "Local bindings match immutable trial export; no compiled artifact modified",
       "finalTestsPassed": 2
     },
-    "freshGithubClone": "PENDING",
-    "gitSecretScan": "PASS",
-    "localCleanup": "PENDING",
+    "freshGithubClone": {
+      "at": "2026-10-21T15:16:00.416Z",
+      "commit": "50bec5a8045c18fb0b388a967d63f4c075a00b7b",
+      "repository": "christianza1989/niche-public-core",
+      "branch": "codex/madbeauty-handoff-20261019",
+      "safety": "PASS",
+      "clone": "PASS",
+      "nativeTests": "PASS",
+      "hashes": "PASS",
+      "recoveredFiles": 9283,
+      "originalImages": 191,
+      "testsPassed": 2,
+      "commonReleaseVerifier": {
+        "pages": 141,
+        "assets": 702,
+        "state": "verified-export-not-deployed"
+      },
+      "initialCloneFailure": "Default clone failed malloc allocation with low available PC memory; original sources were preserved",
+      "successfulCloneOptions": [
+        "pack.threads=1",
+        "core.deltaBaseCacheLimit=4m",
+        "core.packedGitWindowSize=8m",
+        "core.packedGitLimit=32m",
+        "--depth 3"
+      ],
+      "updatedByNetworkPullToCurrentMain": true,
+      "state": "PASS"
+    },
+    "gitSecretScan": {
+      "state": "PASS",
+      "initialExactStagedFiles": 9285,
+      "restoredCurrentScannerFiles": 9286,
+      "findings": 0
+    },
+    "localCleanup": "PARTIAL_LOCAL_DIAGNOSTIC_AND_METADATA_REMAIN",
     "additionalPrivacySelection": {
       "state": "PASS",
       "excludedBeforeFirstCommit": 3,
@@ -90,15 +122,18 @@
   ],
   "productionWritesByThisTask": 0,
   "gitAuthority": {
-    "networkMain": "e231fe49",
-    "publicBaseMain": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
-    "fetchedAt": "2026-10-19T07:40:30.761Z",
-    "sharedCoreModified": false,
+    "networkMain": "3117b379ee780f5fb041915e6466ec3a710a4eec",
+    "publicBaseMain": "be12cd6405cdbee04636ba47b5ffc1f95cd66444",
+    "fetchedAt": "2026-10-21T15:18:37.044Z",
+    "sharedCoreModified": true,
     "sharedSafetyFix": {
       "pr": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/228",
       "commit": "588c8395ab29b14887e40c98c0f35a80b2ff711e",
       "status": "merged and fetched on this PC; other PC adoption not claimed",
       "testsPassed": 5
-    }
-  }
+    },
+    "initialPublicBaseMain": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
+    "sharedChangeScope": "SQLite auxiliary-state filename guard only, merged in core PR228"
+  },
+  "cleanupReceipt": "CLEANUP-RECEIPT.json"
 }
