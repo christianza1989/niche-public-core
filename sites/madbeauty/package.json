@@ -1,0 +1,14 @@
+{
+  "name": "madbeauty-project-handoff",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.22.0" },
+  "scripts": {
+    "verify": "node tools/verify-handoff.mjs",
+    "preview": "node tools/preview.mjs",
+    "preview:trial": "node tools/preview.mjs --trial",
+    "test": "node --test --test-concurrency=1 tools/restore.test.mjs"
+  },
+  "dependencies": { "miniflare": "4.20260515.0" }
+}

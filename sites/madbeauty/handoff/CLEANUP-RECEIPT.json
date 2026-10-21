@@ -1,0 +1,103 @@
+{
+  "state": "PARTIAL_LOCAL_DIAGNOSTIC_AND_METADATA_REMAIN",
+  "at": "2026-10-21T15:21:49.733Z",
+  "scope": "Dedicated Madbeauty copies only; shared CORE_SHARED and other project files preserved as explicitly chosen by owner",
+  "targetsVerifiedAbsent": 196,
+  "groups": {
+    "git-checkout": {
+      "removed": 18,
+      "alreadyAbsent": 0
+    },
+    "dedicated-directory": {
+      "removed": 13,
+      "alreadyAbsent": 0
+    },
+    "native-test-state": {
+      "removed": 0,
+      "alreadyAbsent": 9
+    },
+    "archived-ui-capture": {
+      "removed": 5,
+      "alreadyAbsent": 0
+    },
+    "local-export-excluded-from-git": {
+      "removed": 12,
+      "alreadyAbsent": 0
+    },
+    "identified-original": {
+      "removed": 136,
+      "alreadyAbsent": 0
+    },
+    "handoff-checkout": {
+      "removed": 2,
+      "alreadyAbsent": 0
+    },
+    "verification-clone": {
+      "removed": 1,
+      "alreadyAbsent": 0
+    }
+  },
+  "workspaceDirectoriesRemoved": 20,
+  "editorialTemporaryDirectories": 13,
+  "identifiedOriginalFiles": 136,
+  "localDownloadFiles": 17,
+  "dedicatedAutomation": "deleted after its paused configuration was archived",
+  "sharedAutomation": "preserved",
+  "controlFolderVerifiedAbsent": false,
+  "sourceDirectories": [
+    "madbeauty-calendar-20261009",
+    "madbeauty-calendar-core-20261009",
+    "madbeauty-calendar-release-20261009",
+    "madbeauty-content-acceptance-20261013",
+    "madbeauty-content-batch30",
+    "madbeauty-content-core-20261013",
+    "madbeauty-content-release60-20261010",
+    "madbeauty-editorial-core",
+    "madbeauty-favicon-20261013",
+    "madbeauty-favicon-public-core-20261013",
+    "madbeauty-next30-20261009",
+    "madbeauty-next6-20261012",
+    "madbeauty-next6-20261015",
+    "madbeauty-next60-20261009",
+    "madbeauty-platform-core-20261010",
+    "madbeauty-search-fix",
+    "madbeauty-service-picker-20261010",
+    "madbeauty-upgrade-plan",
+    "madbeauty-autonomous11-20261009",
+    "madbeauty-batch30-render-review-20261007",
+    "madbeauty-calendar-20261009",
+    "madbeauty-luna-20261007",
+    "madbeauty-luna-revision-20261007",
+    "madbeauty-next30-20261009",
+    "madbeauty-next6-20261012",
+    "madbeauty-next6-20261015",
+    "madbeauty-next60-20261009",
+    "madbeauty-public-target-review-20261007",
+    "madbeauty-seo-live-refresh-20261007",
+    "madbeauty-seo-review-20261007",
+    "madbeauty-writing-studio-20261007"
+  ],
+  "handoffDirectories": [
+    "madbeauty-github-handoff-20261019",
+    "handoff-authority-20261019",
+    "madbeauty-restore-20261019"
+  ],
+  "sharedGitRootsPresent": 2,
+  "credentialsAndProviderSystems": "preserved",
+  "privateClientExports": "excluded from Git; local copies deleted",
+  "productionDeployment": false,
+  "remainingLocalFiles": [
+    {
+      "name": "madbeauty-verification-20261006.log",
+      "bytes": 7636,
+      "reason": "Automatic approval review rejected deletion with blocked by policy; no alternate deletion attempted"
+    }
+  ],
+  "remainingLocalFolders": [
+    {
+      "name": "pinet-transfer-20261019",
+      "purpose": "Temporary transfer-control metadata, inventory and publisher scripts",
+      "reason": "Automatic approval review rejected removal with blocked by policy; no alternate deletion attempted"
+    }
+  ]
+}
