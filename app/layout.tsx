@@ -1,3 +1,4 @@
+import {memoPublishedProductPage} from '@/lib/memocasting-product-server';
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
@@ -38,7 +39,8 @@ export default async function RootLayout({
     const { NicheStyles } = await import("@/components/niche/niche-styles");
     const pathname = (await headers()).get("x-niche-original-path") || "/";
     const slug = pathname.replace(/^\/+|\/+$/g, "");
-    const page = publicNichePage(niche, slug);
+    const originalPage = publicNichePage(niche, slug);
+    const page = niche.siteId==='memocasting'?await memoPublishedProductPage(originalPage,host):originalPage;
     const canonical = page ? `${nicheOrigin(niche)}${nichePagePath(page)}` : undefined;
     const hero = page?.media[0];
     return (
@@ -56,8 +58,8 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
-          <title>{page?.title || niche.site.name}</title>
-          <meta name="description" content={page?.description || niche.site.offer} />
+          <title>{(page as typeof page & {seoTitle?:string})?.seoTitle || page?.title || niche.site.name}</title>
+          <meta name="description" content={(page as typeof page & {seoDescription?:string})?.seoDescription || page?.description || niche.site.offer} />
           {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
           {page && memoFunctionalPage(niche,page) && <meta name="robots" content="noindex, nofollow" />}
           {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}

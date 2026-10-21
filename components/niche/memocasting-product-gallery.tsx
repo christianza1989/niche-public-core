@@ -9,9 +9,9 @@ const Icon=({kind}:{kind:'plus'|'minus'|'close'|'reset'})=><svg viewBox="0 0 24 
 const subscribeToBrowser=()=>()=>{};
 const browserHasDialog=()=>typeof HTMLDialogElement!=='undefined'&&typeof HTMLDialogElement.prototype.showModal==='function';
 const serverHasDialog=()=>false;
-export function MemoProductGallery({images,language}:{images:Image[];language:string}){
+export function MemoProductGallery({images,language,selectedImageId}:{images:Image[];language:string;selectedImageId?:string}){
  const text=memoStoreLabels[language as keyof typeof memoStoreLabels]??memoStoreLabels.lt;
- const id=useId(),[selected,setSelected]=useState(0),enhanced=useSyncExternalStore(subscribeToBrowser,browserHasDialog,serverHasDialog),[open,setOpen]=useState(false),[imageState,setImageState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[view,setView]=useState({scale:1,x:0,y:0});
+ const id=useId(),[selected,setSelected]=useState(()=>Math.max(0,images.findIndex(m=>m.id===selectedImageId))),enhanced=useSyncExternalStore(subscribeToBrowser,browserHasDialog,serverHasDialog),[open,setOpen]=useState(false),[imageState,setImageState]=useState<'loading'|'ready'|'error'>('loading'),[retry,setRetry]=useState(0),[view,setView]=useState({scale:1,x:0,y:0});
  const dialog=useRef<HTMLDialogElement>(null),stage=useRef<HTMLDivElement>(null),opener=useRef<HTMLButtonElement>(null),closeButton=useRef<HTMLButtonElement>(null),drag=useRef<{pointer:number;x:number;y:number}|null>(null),image=images[selected]??images[0];
  const geometry=()=>momentImageGeometry(stage.current?.clientWidth??1,stage.current?.clientHeight??1,image.width,image.height);
  const change=(next:typeof view)=>setView(constrainMomentView(next,geometry()));

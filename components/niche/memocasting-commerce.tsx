@@ -3,7 +3,10 @@ import {useEffect,useState} from 'react';
 import {memoCartLines,memoSaveCart,memoCommerceClient} from './memocasting-native-checkout';
 import {memoAvailableExtra,memoAvailableProduct,memoMarketCurrency} from '@/lib/memocasting-catalog-options.mjs';
 import {memoSelectionTotal,memoStoreLabels,memoComparisonLabels} from '@/lib/memocasting-storefront.mjs';
+import {resolveCatalogSelection,selectionKey} from '@/vendor/commerce-core/commerce-client.mjs';
 import s from './memocasting-site.module.css';
+export type ProductImage={id:string;src:string;alt:string;width:number;height:number};
+type CatalogProduct={sku:string;enabled:boolean;available:number;prices:Record<string,number>;addonFor?:string[];package:{weightGrams:number;dimensionsMm:number[]};content?:{images:Array<{id:string;src:string;alt:string;width:number;height:number}>};optionGroups?:Array<{id:string;label:string;defaultValue:string;values:Array<{id:string;label:string;enabled:boolean;prices:Record<string,number>;color?:string;imageId?:string}>}>};
 const labels={
  lt:{included:'Balti dažai įeina į rinkinį.',wood:'Pridėti medinį pagrindą',preparing:' — pasirinkimas dar ruošiamas',quantity:'Kiekis',add:'Įdėti į krepšelį',limit:'Pasirinkite sveiką kiekį nuo 1 iki 100. Galutinį likutį ir sumą patikrins prekybos serveris.',storage:'Naršyklė neleidžia išsaugoti krepšelio. Įjunkite šio skirtuko saugyklą.'},
  pl:{included:'Biała farba jest wliczona w cenę zestawu.',wood:'Dodaj drewnianą podstawę',preparing:' — opcja jest przygotowywana',quantity:'Ilość',add:'Dodaj do koszyka',limit:'Wybierz liczbę całkowitą od 1 do 100. Ostateczną dostępność i kwotę sprawdzi serwer sklepu.',storage:'Przeglądarka nie pozwala zapisać koszyka. Włącz pamięć dla tej karty.'},
@@ -17,7 +20,7 @@ const availability={
  et:{loading:'Kontrollime toote saadavust…',unavailable:'See komplekt pole praegu saadaval. Proovige hiljem uuesti või võtke meiega ühendust.',retry:'Kontrolli uuesti',error:'Toote saadavust ei õnnestunud kontrollida. Proovige uuesti.',stock:'Valitud kogus ületab saadaoleva laovaru.'}
 };
 const priceLabels={lt:'Rinkinio kaina',pl:'Cena zestawu',lv:'Komplekta cena',et:'Komplekti hind'};
-export function MemoAdd({sku,language='lt',country='LT',cartPath='/cart'}:{sku:string;language?:string;country?:string;cartPath?:string}){
+export function MemoAdd({sku,language='lt',country='LT',cartPath='/cart',onImageChange,onImagesChange}:{sku:string;language?:string;country?:string;cartPath?:string;onImageChange?:(id?:string)=>void;onImagesChange?:(images?:ProductImage[])=>void}){
  const text=labels[language as keyof typeof labels]??labels.lt;
  const stateText=availability[language as keyof typeof availability]??availability.lt;
  const storeText=memoStoreLabels[language as keyof typeof memoStoreLabels]??memoStoreLabels.lt;
@@ -25,30 +28,39 @@ export function MemoAdd({sku,language='lt',country='LT',cartPath='/cart'}:{sku:s
  const [markets,setMarkets]=useState<unknown>(null);
  const [requestState,setLoadState]=useState<'loading'|'ready'|'error'>('loading'),[loadedCountry,setLoadedCountry]=useState(''),[retry,setRetry]=useState(0);
  const loadState=loadedCountry===country?requestState:'loading';
- const [catalog,setCatalog]=useState<Array<{sku:string;enabled:boolean;available:number;prices:Record<string,number>;addonFor?:string[];package:{weightGrams:number;dimensionsMm:number[]}}>>([]),[currency,setCurrency]=useState(""),[wood,setWood]=useState(false),[qty,setQty]=useState(1),[error,setError]=useState('');
- useEffect(()=>{let cancelled=false;const client=memoCommerceClient();Promise.all([client.request('/api/catalog'),client.request('/api/markets')]).then(([items,markets])=>{if(!cancelled){setCatalog(items);setMarkets(markets);setCurrency(memoMarketCurrency(markets,country));setLoadedCountry(country);setWood(false);setLoadState('ready');}}).catch(()=>{if(!cancelled){setLoadedCountry(country);setLoadState('error');}});return()=>{cancelled=true;};},[country,retry]);
+ const [catalog,setCatalog]=useState<CatalogProduct[]>([]),[currency,setCurrency]=useState(""),[wood,setWood]=useState(false),[qty,setQty]=useState(1),[error,setError]=useState('');
+ const [choices,setChoices]=useState<Record<string,string>>({});
+ useEffect(()=>{let cancelled=false;const client=memoCommerceClient();Promise.all([client.request('/api/catalog'),client.request('/api/markets')]).then(([items,markets])=>{if(!cancelled){setCatalog(items);setMarkets(markets);setCurrency(memoMarketCurrency(markets,country));setLoadedCountry(country);setWood(false);setChoices({});setLoadState('ready');}}).catch(()=>{if(!cancelled){setLoadedCountry(country);setLoadState('error');}});return()=>{cancelled=true;};},[country,retry]);
  const baseItem=loadState==='ready'&&currency?memoAvailableProduct(catalog,sku,country):null;
+ useEffect(()=>{onImagesChange?.((baseItem as CatalogProduct|null)?.content?.images);},[baseItem,onImagesChange]);
  const woodItem=loadState==='ready'&&currency?memoAvailableExtra(catalog,'wooden_base',sku,country):null;
  const price=(item:{prices:Record<string,number>}|null)=>item?' (+'+new Intl.NumberFormat(language,{style:'currency',currency}).format(item.prices[country]/100)+')':text.preparing;
- const total=loadState==='ready'?memoSelectionTotal(catalog,markets,sku,country,qty,[...(wood?['wooden_base']:[])]):null;
+ let configured:{amount:number;image?:{id:string};labels:string[]}|null=null;
+ try{if(baseItem)configured=resolveCatalogSelection(baseItem,country,choices);}catch{}
+ const selectedImageId=configured?.image?.id;
+ useEffect(()=>{onImageChange?.(selectedImageId);},[selectedImageId,onImageChange]);
+ const originalTotal=loadState==='ready'?memoSelectionTotal(catalog,markets,sku,country,qty,[...(wood?['wooden_base']:[])]):null;
+ const total=originalTotal&&configured?{...originalTotal,cents:originalTotal.cents+(configured.amount-baseItem.prices[country])*qty}:null;
  return <form className={s.add} onSubmit={e=>{
   e.preventDefault();setError('');
   if(!Number.isInteger(qty)||qty<1||qty>100){setError(text.limit);return;}
   if(loadState!=='ready'||!baseItem){setError(stateText.unavailable);return;}
   try{
-   const selected=[sku,...(wood&&woodItem?['wooden_base']:[])],lines=memoCartLines();
-   for(const selectedSku of selected){const line=lines.find(l=>l.sku===selectedSku);if((line?.quantity??0)+qty>100){setError(text.limit);return;}}
-   for(const selectedSku of selected){const item=catalog.find(p=>p?.sku===selectedSku),line=lines.find(l=>l.sku===selectedSku);if(!item||(line?.quantity??0)+qty>item.available){setError(stateText.stock);return;}}
-   for(const selectedSku of selected){const line=lines.find(l=>l.sku===selectedSku);if(line)line.quantity+=qty;else lines.push({sku:selectedSku,quantity:qty});}
+   if(!configured){setError(stateText.unavailable);return;}
+   const finalChoices=Object.fromEntries(((baseItem as CatalogProduct).optionGroups??[]).filter(g=>g.values.some(v=>v.id===g.defaultValue&&Number.isSafeInteger(v.prices[country]))).map(g=>[g.id,choices[g.id]??g.defaultValue]));
+   const selected=[{sku,quantity:qty,...(Object.keys(finalChoices).length?{choices:finalChoices}:{})},...(wood&&woodItem?[{sku:'wooden_base',quantity:qty}]:[])],lines=memoCartLines();
+   for(const chosen of selected){const count=lines.filter(l=>l.sku===chosen.sku).reduce((n,l)=>n+l.quantity,0),item=catalog.find(p=>p.sku===chosen.sku);if(count+qty>100){setError(text.limit);return;}if(!item||count+qty>item.available){setError(stateText.stock);return;}}
+   for(const chosen of selected){const line=lines.find(l=>selectionKey(l)===selectionKey(chosen));if(line)line.quantity+=qty;else lines.push(chosen);}
    memoSaveCart(lines);
    window.location.assign(cartPath);
   }catch{setError(text.storage);}
  }}>
-  <div className={s.purchasePrice}>{baseItem?<><span>{priceLabels[language as keyof typeof priceLabels]??priceLabels.lt}</span><p className={s.price}>{new Intl.NumberFormat(language,{style:'currency',currency}).format(baseItem.prices[country]/100)}</p></>:loadState==='loading'?<p className={s.priceStatus} role="status">{storeText.checking}</p>:null}</div>
-  <p className={s.purchaseHint}>{text.included}</p>
+  <div className={s.purchasePrice}>{baseItem?<><span>{priceLabels[language as keyof typeof priceLabels]??priceLabels.lt}</span><p className={s.price}>{new Intl.NumberFormat(language,{style:'currency',currency}).format((configured?.amount??baseItem.prices[country])/100)}</p></>:loadState==='loading'?<p className={s.priceStatus} role="status">{storeText.checking}</p>:null}</div>
+  <p className={s.purchaseHint}>{country==='LT'&&(baseItem as CatalogProduct|null)?.optionGroups?.some(g=>g.id==='finish')?('Pasirinkta dažų spalva: '+(baseItem as CatalogProduct).optionGroups!.find(g=>g.id==='finish')!.values.find(v=>v.id===(choices.finish??(baseItem as CatalogProduct).optionGroups!.find(g=>g.id==='finish')!.defaultValue))?.label+'.'):text.included}</p>
   <fieldset className={s.options}><legend>{optionsText.options}</legend>
 
-  <label className={s.check}><input type="checkbox" checked={wood} disabled={!woodItem} onChange={e=>setWood(e.target.checked)}/>{text.wood}{price(woodItem)}</label>
+  {(baseItem as CatalogProduct|null)?.optionGroups?.filter(g=>g.values.some(v=>v.id===g.defaultValue&&Number.isSafeInteger(v.prices[country]))&&g.values.filter(v=>v.enabled&&Number.isSafeInteger(v.prices[country])).length>1).map(g=><fieldset key={g.id} className={s.finishOptions}><legend>{g.label}</legend><div>{g.values.filter(v=>v.enabled&&Number.isSafeInteger(v.prices[country])).map(v=><label key={v.id} className={s.finishChoice} data-selected={(choices[g.id]??g.defaultValue)===v.id}><input type="radio" name={g.id} value={v.id} checked={(choices[g.id]??g.defaultValue)===v.id} disabled={!v.enabled||!Number.isSafeInteger(v.prices[country])} onChange={()=>{setChoices(c=>({...c,[g.id]:v.id}));setError('');}}/>{v.color&&<span aria-hidden="true" style={{background:v.color}}/>}{v.label}{v.prices[country]>0?' (+'+new Intl.NumberFormat(language,{style:'currency',currency}).format(v.prices[country]/100)+')':''}</label>)}</div></fieldset>)}
+  {!(baseItem as CatalogProduct|null)?.optionGroups?.some(g=>g.id==='base')&&<label className={s.check}><input type="checkbox" checked={wood} disabled={!woodItem} onChange={e=>setWood(e.target.checked)}/>{text.wood}{price(woodItem)}</label>}
   </fieldset>
   <div className={s.purchaseActions}>
   <label>{text.quantity}<input type="number" min={1} max={100} step={1} value={qty} onChange={e=>{setQty(Number(e.target.value));setError('');}} required/></label>

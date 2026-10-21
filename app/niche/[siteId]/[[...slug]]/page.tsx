@@ -1,3 +1,4 @@
+import {memoPublishedProductPage,memoPublishedProductPages} from '@/lib/memocasting-product-server';
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
@@ -9,9 +10,12 @@ export default async function NichePageView({ params }: { params: Params }) {
   const { siteId, slug = [] } = await params;
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) notFound();
-  const page = publicNichePage(pkg, slug.join("/"));
+  const originalPage = publicNichePage(pkg, slug.join("/"));
+  const page = siteId==='memocasting'?await memoPublishedProductPage(originalPage,(await headers()).get("host")):originalPage;
   if (!page) notFound();
-  const props = { pkg, page, livePages: publicNichePages(pkg) };
+  const originalPages=publicNichePages(pkg);
+  const livePages=siteId==='memocasting'&&['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
+  const props = { pkg, page, livePages };
   if (siteId === "memocasting") { const { MemocastingSite } = await import("@/components/niche/memocasting-site"); return <MemocastingSite {...props} />; }
   if (siteId === "traktoriupadangos") {
     const { TractorSite } = await import("@/components/niche/tractor-site");
@@ -29,4 +33,3 @@ export default async function NichePageView({ params }: { params: Params }) {
   const { GenericNicheSite } = await import("@/components/niche/generic-site");
   return <GenericNicheSite {...props} />;
 }
-

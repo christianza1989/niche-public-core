@@ -7,7 +7,7 @@ import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memo
 import {imageSrcSet,visibleImageCredit} from '@/lib/niche-media.mjs';
 import {LinkedText} from './linked-text';
 import {MemoAdd} from './memocasting-commerce';
-import {MemoProductGallery} from './memocasting-product-gallery';
+import {MemoProductConfigurator} from './memocasting-product-configurator';
 import {MemoCataloguePrice} from './memocasting-catalogue';
 import {memoGalleryImages,memoStoreLabels} from '@/lib/memocasting-storefront.mjs';
 import {MemoNativeCheckout} from './memocasting-native-checkout';
@@ -79,10 +79,9 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  {product&&<>
   <section className={s.productHero} aria-labelledby="product-title">
    <div className={s.productHeading}><h1 id="product-title">{page.title}</h1><p className={s.intro}>{labels.tagline}</p></div>
-   <MemoProductGallery images={memoGalleryImages(page.media)} language={route.language}/>
-   <div className={s.purchase}><MemoAdd key={route.country+':'+route.baseSlug} sku={route.baseSlug===productSlugs[0]?'couple':'family'} language={route.language} country={route.country} cartPath={path('cart')}/>
+   <MemoProductConfigurator images={memoGalleryImages(page.media)} key={route.country+':'+route.baseSlug} sku={route.baseSlug===productSlugs[0]?'couple':'family'} language={route.language} country={route.country} cartPath={path('cart')}>
     <nav className={s.purchaseLinks} aria-label={labels.information}>{[['pristatymas',labels.delivery],['grazinimas',labels.returns],['kontaktai',labels.contact]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}</a>)}</nav>
-   </div>
+   </MemoProductConfigurator>
   </section>
   <nav className={s.productSections} aria-label={storeText.productInfo}>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<a key={i} href={'#'+memoSectionId(b.text)}>{b.text}</a>]:[])}</nav>
   <div className={s.productDetail}><div><p className={s.productDescription}>{page.description}</p><Body page={page} pages={livePages}/></div><aside className={s.productHelp}><h2>{storeText.documents}</h2><nav>{[['pages/instrukcija',labels.instruction],['pagalba',labels.help],['gidai',labels.guides]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>)}</nav></aside></div>
