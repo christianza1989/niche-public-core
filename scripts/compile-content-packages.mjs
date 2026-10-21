@@ -5,6 +5,8 @@ import { validateContentPackage } from "./content-package-core.mjs";
 import { validateV2Admission, assertPreviewSandbox } from './content-v2-admission.mjs';
 import { validateNichePathAliases } from '../lib/niche-path-aliases.mjs';
 import { validateGuidePublicationPauses } from '../lib/niche-links.mjs';
+import { validateProductCatalogue } from '../lib/product-navigation.mjs';
+import promedicalCatalogue from '../config/promedical-catalogue.json' with { type: 'json' };
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const packagesRoot = path.join(root, "content-packages");
@@ -51,6 +53,7 @@ for (const entry of entries) {
 }
 
 packages.sort((a, b) => a.siteId.localeCompare(b.siteId));
+for (const pkg of packages) if (pkg.siteId === promedicalCatalogue.siteId) validateProductCatalogue(promedicalCatalogue, pkg);
 validateGuidePublicationPauses(JSON.parse(await readFile(path.join(root,'config/niche-network.json'),'utf8')),packages);
 validateNichePathAliases(JSON.parse(await readFile(path.join(root,'config/niche-path-aliases.json'),'utf8')),packages);
 await mkdir(path.dirname(outputPath), { recursive: true });
