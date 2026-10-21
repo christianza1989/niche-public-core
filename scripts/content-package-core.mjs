@@ -109,7 +109,7 @@ export function validateContentPackage(pkg) {
       if (block.type === "heading" && ![2, 3].includes(block.level)) fail(`page ${id} has an invalid heading level`);
     }
     if (!Array.isArray(page.media) || !Array.isArray(page.links)) fail(`page ${id} media and links must be arrays`);
-    if(page.media.length>60)fail(`page ${id} media exceeds 60 variants`);
+    if(page.media.length>160)fail(`page ${id} media exceeds 160 variants`);
     const mediaIds = new Set();
     for (const media of page.media) {
       const assetId = requireString(media.id, `page ${id} media.id`);
@@ -118,6 +118,7 @@ export function validateContentPackage(pkg) {
       if (!new RegExp(`^/content-assets/${pkg.siteId}/[a-zA-Z0-9._-]+\\.(?:webp|avif)$`).test(media.src)) fail(`page ${id} has unsafe media src`);
       requireString(media.alt, `page ${id} media.alt`);
       requireString(media.rights, `page ${id} media.rights`);
+      if(media.familyId!==undefined && (typeof media.familyId!=='string' || !/^[a-zA-Z0-9][a-zA-Z0-9._-]{0,127}$/.test(media.familyId))) fail(`page ${id} has invalid media familyId`);
       if (!Number.isInteger(media.width) || media.width <= 0 || !Number.isInteger(media.height) || media.height <= 0) fail(`page ${id} has invalid image dimensions`);
     }
     for (const block of page.body) if (block.type === "image" && !mediaIds.has(block.assetId)) fail(`page ${id} references missing asset ${block.assetId}`);
