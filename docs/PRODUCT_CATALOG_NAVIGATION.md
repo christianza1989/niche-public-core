@@ -16,6 +16,10 @@ projection cannot reuse an older request's eligible targets.
 
 Selection is deterministic:
 
+Catalog category order preserves an owner's adjudicated primary classification.
+A cabinet on wheels remains primarily a cabinet, even when its manufacturer also
+lists it as STJ/STE transport equipment. Secondary valid memberships stay intact.
+
 - Prefer the first registered category with at least two other public products.
   A sparse leaf can use its real catalog parent; if every group is sparse, retain
   the first eligible category and show only available siblings. Current public

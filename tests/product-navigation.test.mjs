@@ -139,4 +139,11 @@ test('all production catalog IDs validate and default breadcrumb matches its JSO
   assert.equal(trail.length,3);assert.ok(trail[1].path.startsWith('/kategorijos/'));
   const schema=nicheSchemaGraph(pkg,page,pages,'Promedical')['@graph'].find(x=>x['@type']==='BreadcrumbList');
   assert.deepEqual(schema.itemListElement.map(x=>new URL(x.item).pathname),trail.map(x=>x.path));
+  // Owner-adjudicated cabinets remain cabinets even when also registered as
+  // mobile STJ/STE transport equipment. Mobility is not the primary category.
+  for (const [id,slug] of [
+    ['f9f2d0d2-f809-4de6-a1ee-79fd13b7aa42','kategorijos/spintos/nerudijanciojo-plieno-spintos'],
+    ['a519b610-25af-4c49-b041-6ffc5173f5f2','kategorijos/gamyba-pagal-individualu-poreiki/individualiai-suprojektuoti-gaminiai/spintos'],
+    ['d162e533-4f1b-472e-ab04-395bdf21919e','kategorijos/gamyba-pagal-individualu-poreiki/individualiai-suprojektuoti-gaminiai/spintos'],
+  ]) assert.equal(productNavigation(pkg,pages.find(p=>p.id===id),pages).category.slug,slug);
 });
