@@ -2,6 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {relayMemoBuyer} from '../lib/memocasting-commerce-bridge.mjs';
 const source=(path='orders',headers={})=>new Request('https://memocasting.lt/prekyba/'+path,{method:'POST',headers:{origin:'https://memocasting.lt','cf-connecting-ip':'203.0.113.12','content-type':'application/json',...headers},body:'{}'});
+
+test('carrier quote survives a paced response beyond the ordinary ten-second bridge deadline',async()=>{
+ const service={fetch:request=>new Promise((resolve,reject)=>{
+  const timer=setTimeout(()=>resolve(Response.json({id:'paced-quote',amount:524})),11000);
+  request.signal.addEventListener('abort',()=>{clearTimeout(timer);reject(request.signal.reason);},{once:true});
+ })};
+ const response=await relayMemoBuyer(source('delivery-quotes'),'delivery-quotes',{siteId:'memocasting',host:'memocasting.lt',service,cfTrusted:true});
+ assert.equal(response.status,200);assert.equal((await response.json()).amount,524);
+});
 test('private production binding preserves admitted URL/origin and only buyer headers',async()=>{
  let called;const service={fetch:async request=>{called=request;return Response.json({productionReady:false,publishOffers:false});}};
  const response=await relayMemoBuyer(source('orders',{'authorization':'Bearer synthetic-buyer','idempotency-key':'synthetic-key','order-access-token':'synthetic-access','x-forwarded-host':'evil.example','cookie':'private-cookie','x-operator-token':'must-not-forward'}),'orders',{siteId:'memocasting',host:'memocasting.lt',service,cfTrusted:true});
