@@ -2,6 +2,7 @@ import rawPackages from "@/lib/generated/content-packages.json";
 import { env } from "cloudflare:workers";
 import { dueRevision, projectPublicPages } from "./niche-links.mjs";
 import networkSettings from "@/config/niche-network.json";
+import { cache } from "react";
 
 export type NicheBlock =
   | { type: "paragraph"; text: string }
@@ -78,11 +79,17 @@ export function isPublicNichePage(page: NichePage, now = Date.now()): boolean {
   return dueRevision(page, now);
 }
 
-export function publicNichePages(pkg: NichePackage, now = Date.now()): NichePage[] {
-  return projectPublicPages(pkg, rawPackages, networkSettings, now) as NichePage[];
+// React owns this cache for one server render and clears it between requests.
+// Explicit clocks and non-component callers retain the pure time-aware path.
+const renderedPublicPages = cache((pkg: NichePackage) =>
+  projectPublicPages(pkg, rawPackages, networkSettings, Date.now()) as NichePage[]);
+
+export function publicNichePages(pkg: NichePackage, now?: number): NichePage[] {
+  return now === undefined ? renderedPublicPages(pkg)
+    : projectPublicPages(pkg, rawPackages, networkSettings, now) as NichePage[];
 }
 
-export function publicNichePage(pkg: NichePackage, slug: string, now = Date.now()): NichePage | undefined {
+export function publicNichePage(pkg: NichePackage, slug: string, now?: number): NichePage | undefined {
   return publicNichePages(pkg, now).find((page) => page.slug === slug);
 }
 

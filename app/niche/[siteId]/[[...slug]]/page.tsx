@@ -5,13 +5,19 @@ import { voiceWidgetEnabled } from "@/lib/niche-voice";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 type Params = Promise<{ siteId: string; slug?: string[] }>;
-export default async function NichePageView({ params }: { params: Params }) {
+export default async function NichePageView({ params, searchParams }: { params: Params; searchParams?: Promise<Record<string, string | string[] | undefined>> }) {
   const { siteId, slug = [] } = await params;
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) notFound();
   const page = publicNichePage(pkg, slug.join("/"));
   if (!page) notFound();
   const props = { pkg, page, livePages: publicNichePages(pkg) };
+  if (siteId === "promedical") {
+    const { PromedicalSite } = await import("@/components/niche/promedical-site");
+    const query = await searchParams || {};
+    const value = (key: string) => typeof query[key] === "string" ? query[key] as string : undefined;
+    return <PromedicalSite {...props} query={{ q: value("q"), category: value("category"), p: value("p") }} />;
+  }
   if (siteId === "traktoriupadangos") {
     const { TractorSite } = await import("@/components/niche/tractor-site");
     const enabled = voiceWidgetEnabled(pkg);
@@ -28,4 +34,3 @@ export default async function NichePageView({ params }: { params: Params }) {
   const { GenericNicheSite } = await import("@/components/niche/generic-site");
   return <GenericNicheSite {...props} />;
 }
-
