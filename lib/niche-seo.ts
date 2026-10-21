@@ -1,17 +1,18 @@
 import { nicheOrigin, nichePagePath, publicNichePages, type NicheBlock, type NichePackage, type NichePage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
+import { productNavigationText } from "./product-navigation.mjs";
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
   return `${nicheOrigin(pkg)}${nichePagePath(page)}`;
 }
 
-export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return nicheSchemaGraph(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+export function nicheStructuredData(pkg: NichePackage, page: NichePage, pages = publicNichePages(pkg)) {
+  return nicheSchemaGraph(pkg, page, pages, nicheNetworkContact(pkg.siteId).operatorName);
 }
 
-export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {
-  return JSON.stringify(nicheStructuredData(pkg, page)).replace(/</g, "\\u003c");
+export function nicheJsonLd(pkg: NichePackage, page: NichePage, pages?: NichePage[]): string {
+  return JSON.stringify(nicheStructuredData(pkg, page, pages)).replace(/</g, "\\u003c");
 }
 
 export function nicheRobotsText(pkg: NichePackage, preview: boolean, hasHomepage: boolean): string {
@@ -62,8 +63,9 @@ export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
       `URL: ${nichePageUrl(pkg, page)}`,
       page.description,
       ...(page.type === "guide" ? [`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`, `Publikavimo data: ${nicheEditorialDates(page).published}`, `Turinio peržiūra: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && pkg.siteId !== "traktoriupadangos" ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
-      ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`Susijęs atsakymas: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
+      ...(page.type === "home" && !["traktoriupadangos", "promedical"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...productNavigationText(pkg, page, pages),
+      ...(pkg.siteId === "promedical" && page.type === "product" ? [] : page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`Susijęs atsakymas: [${link.label}](${nichePageUrl(pkg, target)})`] : []; })),
       ...(page.externalLinks ?? []).map(link => `Šaltinis: [${link.label}](${link.url}) — ${link.reason}`),
     ].join("\n")),
   ].join("\n");

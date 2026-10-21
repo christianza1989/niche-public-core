@@ -1,7 +1,7 @@
 import { env } from "cloudflare:workers";
 import { headers } from "next/headers";
 import { publicSiteByHost, publicSitePage } from "@/lib/public-site";
-import { nicheLeadRecipient } from "@/lib/niche-network";
+import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
 
 export const dynamic = "force-dynamic";
@@ -84,17 +84,19 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       const mail = {
         id: leadId,
         to: nicheLeadRecipient(siteId, pkg.site.contact.email),
+        from: `uzklausos@${pkg.canonicalHost}`,
+        fromName: nicheNetworkContact(siteId).operatorName,
         replyTo: email,
         subject: `[${pkg.canonicalHost}] Poreikio užklausa ${leadId.slice(0, 8)}`,
         text: `Nauja svetainės užklausa\n\nSvetainė: ${pkg.canonicalHost}\nPuslapis: ${sourcePath}\nUžklausos ID: ${leadId}\nVardas: ${name}\nEl. paštas: ${email}\n\nŽinutė:\n${message}\n`,
       };
       notified = await sendNicheLeadMail(env, mail);
-      if (!notified && env.LEAD_EMAIL) { await env.LEAD_EMAIL.send({ ...mail, from: `uzklausos@${pkg.canonicalHost}` }); notified = true; }
       if (!notified) throw new Error("mail not configured");
       await env.DB.prepare("UPDATE niche_leads SET status = 'notified' WHERE id = ? AND site_id = ?")
         .bind(leadId, siteId).run();
+      console.log(JSON.stringify({ event: "niche_lead_notified", siteId, leadId, transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
     } catch {
-      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "smtp_failed" }));
+      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
     }
   }
   return response(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."
