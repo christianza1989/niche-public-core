@@ -103,6 +103,9 @@ export function proxy(request: NextRequest) {
     destination.pathname = `/niche/${niche.siteId}${path === "/" ? "" : path}`;
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-niche-original-path", path);
+    // Overwrite any client-supplied value before forwarding the raw query to
+    // the authoritative SSR canonical/list projection.
+    requestHeaders.set("x-niche-original-query", request.nextUrl.search);
     const response = NextResponse.rewrite(destination, { request: { headers: requestHeaders } });
     response.headers.set("Cache-Control", "private, no-store");
     if (isPreview(host)) response.headers.set("X-Robots-Tag", "noindex, nofollow");
