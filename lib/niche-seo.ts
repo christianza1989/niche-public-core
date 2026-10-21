@@ -1,6 +1,7 @@
 import { nicheOrigin, nichePagePath, publicNichePages, type NicheBlock, type NichePackage, type NichePage } from "@/lib/niche-sites";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
+import { galleryImageSitemapTags } from "./niche-gallery.mjs";
 import { productNavigationText } from "./product-navigation.mjs";
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
@@ -25,8 +26,8 @@ function escapeXml(value: string): string {
 }
 
 export function nicheSitemapXml(pkg: NichePackage, pages: NichePage[]): string {
-  const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod></url>`).join("");
-  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries}</urlset>`;
+  const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod>${galleryImageSitemapTags(pkg, page)}</url>`).join("");
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${entries}</urlset>`;
 }
 
 function blockText(block: NicheBlock): string {

@@ -10,7 +10,7 @@ const a = make('a','product','produktai/a','Vežimėlis ZV2234N/PZ');
 const cat = make('cat','faq','kategorijos/vezimeliai');
 const sibling = (id, title=id) => make(id,'product',`produktai/${id}`,title);
 const guide = (id, extra={}) => make(id,'guide',`gidai/${id}`,id,{links:[{targetPageId:a.id,label:a.title}],...extra});
-const pkgFor = pages => ({ siteId:'promedical',canonicalHost:'promedical.lt',locale:'lt-LT',site:{name:'Promedical',offer:'Įranga',contact:{email:'test@example.com'}},pages });
+const pkgFor = pages => ({ schemaVersion:1,siteId:'promedical',canonicalHost:'promedical.lt',locale:'lt-LT',site:{name:'Promedical',offer:'Įranga',contact:{email:'test@example.com'}},pages });
 const registry = (products, more={}) => ({ version:1, siteId:'promedical',sourceSha256:'a'.repeat(64), products:Object.fromEntries(products.map(p=>[p.id,{model:p.id==='a'?'ZV2234N-PZ':p.id==='variant'?'ZV2234N':p.id==='near'?'ZV2235N':p.id,categoryIds:['cat']}])) ,...more});
 const project = (pkg,time=now,settings={}) => projectPublicPages(pkg,[pkg],settings,time);
 

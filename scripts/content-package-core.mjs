@@ -118,6 +118,7 @@ export function validateContentPackage(pkg) {
       if (!new RegExp(`^/content-assets/${pkg.siteId}/[a-zA-Z0-9._-]+\\.(?:webp|avif)$`).test(media.src)) fail(`page ${id} has unsafe media src`);
       requireString(media.alt, `page ${id} media.alt`);
       requireString(media.rights, `page ${id} media.rights`);
+      if(media.familyId!==undefined && (typeof media.familyId!=='string' || !/^[a-zA-Z0-9][a-zA-Z0-9._-]{0,127}$/.test(media.familyId))) fail(`page ${id} has invalid media familyId`);
       if (!Number.isInteger(media.width) || media.width <= 0 || !Number.isInteger(media.height) || media.height <= 0) fail(`page ${id} has invalid image dimensions`);
     }
     for (const block of page.body) if (block.type === "image" && !mediaIds.has(block.assetId)) fail(`page ${id} references missing asset ${block.assetId}`);

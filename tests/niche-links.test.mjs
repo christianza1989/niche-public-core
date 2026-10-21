@@ -33,7 +33,7 @@ test('contextual links use literal natural anchors, preserve text and cannot lin
 
 test('guide pause retains published pages and freezes future discovery across tenants until explicitly removed', () => {
   const guide=(id,date)=>({...page(id,id,date),type:'guide'});
-  const paused={siteId:'a',canonicalHost:'a.lt',pages:[guide('published',now-2000),guide('future',now+1000),{...page('product','product',now+1000),type:'product'}]};
+  const paused={schemaVersion:1,siteId:'a',canonicalHost:'a.lt',pages:[guide('published',now-2000),guide('future',now+1000),{...page('product','product',now+1000),type:'product'}]};
   paused.pages[0].links=[{targetPageId:'future',label:'Future'}];
   const reader={siteId:'b',canonicalHost:'b.lt',pages:[{...page('reader',''),externalLinks:[{url:'https://a.lt/future',label:'Future'}]}]};
   const config={...settings,networkLiveDomains:['a.lt'],guidePublicationPausedAtBySite:{a:new Date(now).toISOString()}};

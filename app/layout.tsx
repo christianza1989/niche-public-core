@@ -4,6 +4,7 @@ import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/l
 import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -40,7 +41,8 @@ export default async function RootLayout({
     const page = publicNichePage(niche, slug);
     const query = (await headers()).get("x-niche-original-query") || "";
     const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
-    const hero = page?.media[0];
+    const hero = page && niche.siteId === "promedical" && page.type === "product"
+      ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (
       <html lang={niche.locale.slice(0, 2).toLowerCase()}>
         <head>
@@ -66,7 +68,15 @@ export default async function RootLayout({
             <meta property="og:title" content={page.title} />
             <meta property="og:description" content={page.description} />
             <meta property="og:url" content={canonical} />
-            {hero && <meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />}
+            {hero && <><meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+              {niche.siteId === "promedical" && page.type === "product" && <>
+                <meta property="og:image:width" content={String(hero.width)} />
+                <meta property="og:image:height" content={String(hero.height)} />
+                <meta property="og:image:alt" content={hero.alt} />
+                <meta name="twitter:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+                <meta name="twitter:image:alt" content={hero.alt} />
+              </>}
+            </>}
             <meta name="twitter:card" content={hero ? "summary_large_image" : "summary"} />
           </>}
         </head>

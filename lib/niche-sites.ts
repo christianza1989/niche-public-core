@@ -12,6 +12,7 @@ export type NicheBlock =
 
 export type NicheMedia = {
   id: string;
+  familyId?: string;
   src: string;
   alt: string;
   width: number;
