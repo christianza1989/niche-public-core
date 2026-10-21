@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
+import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
@@ -38,7 +39,8 @@ export default async function RootLayout({
     const pathname = (await headers()).get("x-niche-original-path") || "/";
     const slug = pathname.replace(/^\/+|\/+$/g, "");
     const page = publicNichePage(niche, slug);
-    const canonical = page ? `${nicheOrigin(niche)}${nichePagePath(page)}` : undefined;
+    const query = (await headers()).get("x-niche-original-query") || "";
+    const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
     const hero = page && niche.siteId === "promedical" && page.type === "product"
       ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (

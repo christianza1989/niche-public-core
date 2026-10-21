@@ -4,7 +4,8 @@ import { nichePagePath } from "@/lib/niche-sites";
 import { nicheJsonLd } from "@/lib/niche-seo";
 import { nicheNetworkContact } from "@/lib/niche-network";
 import { nicheBreadcrumbs } from "@/lib/niche-schema-core.mjs";
-import { productCatalogue, productNavigation } from "@/lib/product-navigation.mjs";
+import { productNavigation } from "@/lib/product-navigation.mjs";
+import { catalogueQuery, catalogueSku as sku } from "@/lib/product-catalogue-query.mjs";
 import { imageSrcSet, responsiveImageVariants, visibleImageCredit } from "@/lib/niche-media.mjs";
 import { LinkedText } from "./linked-text";
 import { ArticleMeta } from "./article-meta";
@@ -23,7 +24,6 @@ function Arrow() { return <svg viewBox="0 0 24 24" width="20" height="20" fill="
 function SearchIcon() { return <svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" strokeWidth="1.7"/><path d="m16 16 4 4" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round"/></svg>; }
 function Brand() { return <a href="/" className={s.brand} aria-label="Promedical – pradinis puslapis"><img className={s.brandLogo} src="/brand/promedical/logo-v2-360.webp" srcSet="/brand/promedical/logo-v2-360.webp 360w, /brand/promedical/logo-v2-640.webp 640w" sizes="(max-width: 720px) 205px, 244px" width="640" height="213" alt="Promedical" decoding="async"/></a>; }
 function Photo({ page, asset = page.media[0], eager = false, alt, sizes = "(max-width: 720px) calc(100vw - 40px), 380px" }: { page: NichePage; asset?: NicheMedia; eager?: boolean; alt?: string; sizes?: string }) { return asset ? <img src={asset.src} srcSet={imageSrcSet(page.media, asset)} sizes={sizes} alt={alt ?? asset.alt} width={asset.width} height={asset.height} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} decoding="async"/> : null; }
-function sku(page: NichePage) { return page.intent.startsWith("Katalogo kodas: ") ? page.intent.split(" | ")[0].slice("Katalogo kodas: ".length) : page.slug.split("/").at(-1)?.toUpperCase() || ""; }
 function isCategory(p: NichePage) { return p.slug.startsWith("kategorijos/"); }
 function isProduct(p: NichePage) { return p.type === "product" && p.slug.startsWith("produktai/"); }
 function groupPages(pages: NichePage[]) { const cats = pages.filter(isCategory); return primaryGroups.map(id => cats.find(p => p.id === id)).filter(Boolean) as NichePage[]; }
@@ -54,12 +54,7 @@ function Home({ page, pages }: { page: NichePage; pages: NichePage[] }) {
   </>;
 }
 function Catalog({ pkg, page, pages, query }: { pkg: NichePackage; page: NichePage; pages: NichePage[]; query: Query }) {
-  const allProducts = pages.filter(isProduct); const categories = pages.filter(isCategory); const selected = isCategory(page) ? page : categories.find(c => c.slug.slice("kategorijos/".length) === query.category);
-  const catalogue = productCatalogue(pkg, pages);
-  const selectedProducts = new Set((selected ? catalogue?.byCategory.get(selected.id) || [] : []).map((p: NichePage) => p.id));
-  const normalize = (v:string) => v.toLocaleLowerCase("lt-LT").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); const term = normalize((query.q || "").slice(0,100));
-  const filtered = allProducts.filter(p => (!selected || selectedProducts.has(p.id)) && (!term || normalize(`${p.title} ${sku(p)} ${p.description}`).includes(term)));
-  const requested = Number(query.p); const totalPages = Math.max(1, Math.ceil(filtered.length / 24)); const current = Number.isInteger(requested) ? Math.max(1,Math.min(totalPages,requested)) : 1; const shown = filtered.slice((current - 1)*24,current*24);
+  const { allProducts, categories, selected, filtered, current, totalPages, shown } = catalogueQuery(pkg, page, pages, query);
   function url(p:number) { const v = new URLSearchParams(); if(query.q)v.set("q",query.q); if(query.category && !isCategory(page))v.set("category",query.category); if(p>1)v.set("p",String(p)); return nichePagePath(page)+(v.size ? `?${v}` : ""); }
   const subgroup = selected ? categories.filter(c=>c.links.some(l=>l.targetPageId===selected.id)) : [];
   const categoryIds = new Set(categories.map(c => c.id)); const rootGroups=categories.filter(c=>!c.links.some(l=>categoryIds.has(l.targetPageId)));
