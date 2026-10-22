@@ -33,3 +33,4 @@
 
 .site .finishChoice {flex-direction:row;align-items:center;margin:0;gap:.5rem}
 .site .finishChoice input {width:1rem;height:1rem;min-height:1rem;padding:0;margin:0;flex:none}
+.toc summary{cursor:pointer;font-weight:600;min-height:24px}.toc summary:focus-visible{outline:2px solid var(--accent);outline-offset:6px}.toc[open] summary{margin-bottom:14px}

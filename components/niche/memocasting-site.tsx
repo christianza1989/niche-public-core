@@ -3,7 +3,7 @@ import type {NicheBlock,NicheMedia,NichePackage,NichePage} from '@/lib/niche-sit
 import {memoRoute,memoPath,memoLabels,memoLanguageLinks} from '@/lib/memocasting-locales.mjs';
 import {nicheEditorialDates} from '@/lib/niche-schema-core.mjs';
 import {nicheJsonLd} from '@/lib/niche-seo';
-import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoCompany,memoProfilePath} from '@/lib/memocasting-structure.mjs';
+import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoCompany,memoProfilePath,memoGuideBodyParts} from '@/lib/memocasting-structure.mjs';
 import {imageSrcSet,visibleImageCredit} from '@/lib/niche-media.mjs';
 import {LinkedText} from './linked-text';
 import {MemoAdd} from './memocasting-commerce';
@@ -74,8 +74,9 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  {!cart&&!product&&<div className={catalogue?s.catalogHeading:s.pageHeading}><h1>{page.title}</h1><p className={s.intro}>{page.description}</p></div>}
  {cart&&<MemoNativeCheckout title={page.title} language={route.language} country={route.country} policies={memoCheckoutPolicies(livePages)} catalogueUrl={exists('collections/all')?path('collections/all'):undefined}/>}
  {page.type==='guide'&&<MemoArticleMeta pkg={pkg} page={page} pages={livePages} className={s.meta}/>}
+ {page.type==='guide'&&<Body page={{...page,body:memoGuideBodyParts(page).lead}} pages={livePages}/>}
  {page.media[0]&&!product&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}
- {page.type==='guide'&&<nav className={s.toc} aria-label={labels.contents}><strong>{labels.contents}</strong><ul>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<li key={i}><a href={'#'+memoSectionId(b.text)}>{b.text}</a></li>]:[])}</ul></nav>}
+ {page.type==='guide'&&<details className={s.toc}><summary>{labels.contents}</summary><nav aria-label={labels.contents}><ul>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<li key={i}><a href={'#'+memoSectionId(b.text)}>{b.text}</a></li>]:[])}</ul></nav></details>}
  {product&&<>
   <section className={s.productHero} aria-labelledby="product-title">
    <div className={s.productHeading}><h1 id="product-title">{page.title}</h1><p className={s.intro}>{labels.tagline}</p></div>
@@ -86,7 +87,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
   <nav className={s.productSections} aria-label={storeText.productInfo}>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<a key={i} href={'#'+memoSectionId(b.text)}>{b.text}</a>]:[])}</nav>
   <div className={s.productDetail}><div><p className={s.productDescription}>{page.description}</p><Body page={page} pages={livePages}/></div><aside className={s.productHelp}><h2>{storeText.documents}</h2><nav>{[['pages/instrukcija',labels.instruction],['pagalba',labels.help],['gidai',labels.guides]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>)}</nav></aside></div>
  </>}
- {!cart&&!product&&!catalogue&&<Body page={page} pages={livePages}/>}
+ {!cart&&!product&&!catalogue&&<Body page={page.type==='guide'?{...page,body:memoGuideBodyParts(page).body}:page} pages={livePages}/>}
  {catalogue&&<>
   <Products pages={localPages} headingLevel={2}/>
   <section className={s.comparison} aria-labelledby="kit-comparison"><h2 id="kit-comparison">{storeText.comparison}</h2><table className={s.comparisonTable}><caption>{storeText.contents}</caption><thead><tr><th scope="col">{labels.catalogue}</th>{localPages.filter(p=>productSlugs.includes(memoRoute(p).baseSlug)).map(p=><th scope="col" key={p.id}><a href={'/'+p.slug} aria-label={p.title}>{memoRoute(p).baseSlug===productSlugs[0]?labels.pair:labels.family}</a></th>)}</tr></thead><tbody><tr><th scope="row">{storeText.contents}</th>{localPages.filter(p=>productSlugs.includes(memoRoute(p).baseSlug)).map(p=><td key={p.id}><ul>{p.body.filter((b):b is Extract<NicheBlock,{type:'list'}>=>b.type==='list')[0]?.items.map((item,i)=><li key={i}>{item}</li>)}</ul></td>)}</tr></tbody></table></section>
