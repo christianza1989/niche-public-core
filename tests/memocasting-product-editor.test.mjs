@@ -28,3 +28,13 @@ test('published image proxy preserves WebP type and refuses private editor/image
  assert.equal((await relayMemoBuyer(request,'operator/catalog-drafts',options)).status,404);
  assert.equal((await relayMemoBuyer(new Request(request,{method:'POST'}),'catalog-media/img_1',options)).status,405);
 });
+test('published image HEAD uses its GET representation and cancels the unused body',async()=>{
+ let method,cancelled=false;
+ const options={siteId:'memocasting',host:'memocasting.lt',cfTrusted:true,service:{fetch:async request=>{
+  method=request.method;if(method!=='GET')return new Response(null,{status:404});
+  return new Response(new ReadableStream({cancel(){cancelled=true;}}),{headers:{'content-type':'image/webp'}});
+ }}};
+ const request=new Request('https://memocasting.lt/prekyba/catalog-media/img_1',{method:'HEAD',headers:{'cf-connecting-ip':'203.0.113.1'}});
+ const response=await relayMemoBuyer(request,'catalog-media/img_1',options);
+ assert.equal(method,'GET');assert.equal(response.status,200);assert.equal(response.headers.get('content-type'),'image/webp');assert.equal(response.body,null);assert.equal(cancelled,true);
+});
