@@ -4,7 +4,7 @@ import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
-import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
+import {memoRedirectUrl} from '@/lib/memocasting-routes.mjs';
 import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
 import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
@@ -26,9 +26,8 @@ export function proxy(request: NextRequest) {
   if (host === 'www.memocasting.lt') {
     const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
     const memo=nicheSiteByHost('memocasting.lt');
-    const moved=memo?memoRedirectPath(path,publicNichePages(memo),request.method):null;
-    if(moved)destination.pathname=moved;
-    return NextResponse.redirect(destination,moved?301:308);
+    const moved=memo?memoRedirectUrl(destination,publicNichePages(memo),request.method):null;
+    return NextResponse.redirect(moved??destination,moved?301:308);
   }
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
@@ -81,8 +80,8 @@ export function proxy(request: NextRequest) {
       const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');return response;
     }
     if(niche.siteId==='memocasting'){
-      const moved=memoRedirectPath(path,publicNichePages(niche),request.method);
-      if(moved){const destination=request.nextUrl.clone();destination.pathname=moved;return NextResponse.redirect(destination,301);}
+      const moved=memoRedirectUrl(request.nextUrl,publicNichePages(niche),request.method);
+      if(moved)return NextResponse.redirect(moved,301);
     }
     if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
     if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
