@@ -4,13 +4,16 @@
   "mailRecipientsBySite": {
     "memocasting": "info@memorycasting.lt"
   },
+  "guidePublicationPausedAtBySite": {"promedical":"2026-10-13T19:26:54.000Z"},
   "contactsBySite": {
+    "promedical":{"email":"info@promedical.lt","operatorName":"Promedical"},
     "memocasting": {
       "operatorName": "MB Memocasting",
       "email": "info@memorycasting.lt"
     }
   },
   "networkDomains": [
+    "promedical.lt",
     "akmenas.lt",
     "apartmentstrakai.lt",
     "auksarankiams.lt",
@@ -41,6 +44,7 @@
   ],
   "networkLiveDomains": [],
   "ownedAliases": [
+    "www.promedical.lt",
     "www.akmenas.lt",
     "www.apartmentstrakai.lt",
     "www.auksarankiams.lt",

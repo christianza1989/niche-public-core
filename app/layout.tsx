@@ -6,6 +6,8 @@ import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage, publicNic
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
+import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
+import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -41,12 +43,19 @@ export default async function RootLayout({
     const slug = pathname.replace(/^\/+|\/+$/g, "");
     const originalPage = publicNichePage(niche, slug);
     const page = niche.siteId==='memocasting'?await memoPublishedProductPage(originalPage,host):originalPage;
-    const canonical = page ? `${nicheOrigin(niche)}${nichePagePath(page)}` : undefined;
-    const hero = page?.media[0];
+        const query = (await headers()).get("x-niche-original-query") || "";
+    const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
+    const hero = page && niche.siteId === "promedical" && page.type === "product"
+      ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (
       <html lang={niche.siteId==='memocasting'&&page?memoRoute(page).language:niche.locale.slice(0, 2).toLowerCase()}>
         <head>
           <NicheStyles />
+          {niche.siteId === "promedical" && <>
+            <link rel="stylesheet" href="/fonts/promedical/font.css" />
+            <link rel="preload" href="/fonts/promedical/_Xms-HUzqDCFdgfMm4q9DbZs.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/promedical/_Xms-HUzqDCFdgfMm4S9DQ.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          </>}
           {niche.siteId === "traktoriupadangos" && <>
             <link rel="preload" href="/fonts/traktoriupadangos/barlow-condensed-latin-3787a5a41917.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/traktoriupadangos/barlow-condensed-latin-ext-9d351bd9222b.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
@@ -71,8 +80,15 @@ export default async function RootLayout({
             <meta property="og:description" content={page.description} />
             {niche.siteId==='memocasting'&&<meta property="og:locale" content={memoRoute(page).locale.replace('-','_')} />}
             <meta property="og:url" content={canonical} />
-            {hero && <meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />}
-            {niche.siteId==='memocasting'&&hero&&<meta property="og:image:alt" content={hero.alt} />}
+            {hero && <><meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+              {["promedical","memocasting"].includes(niche.siteId) && page.type === "product" && <>
+                <meta property="og:image:width" content={String(hero.width)} />
+                <meta property="og:image:height" content={String(hero.height)} />
+                <meta property="og:image:alt" content={hero.alt} />
+                <meta name="twitter:image" content={`${nicheOrigin(niche)}${hero.src}`} />
+                <meta name="twitter:image:alt" content={hero.alt} />
+              </>}
+            </>}
             <meta name="twitter:card" content={hero ? "summary_large_image" : "summary"} />
           </>}
         </head>

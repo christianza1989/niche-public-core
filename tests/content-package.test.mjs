@@ -45,6 +45,17 @@ test("responsive media permits 120 variants and rejects a 121st", () => {
   page.media.push({...page.media[0],id:'asset-121',src:'/content-assets/sample-site/asset-121.webp'});
   assert.throws(()=>validateContentPackage(pkg),/exceeds 120/);
 });
+test('family identity is optional, revision bound and cannot carry private paths or URLs',()=>{
+ const pkg=fixture(),page=pkg.pages[0];
+ page.media=[{id:'image',familyId:'stable-frame-1',src:'/content-assets/sample-site/image.webp',alt:'Product frame',width:800,height:600,rights:'Synthetic test'}];
+ page.revisionHash=pageRevisionHash(page);page.approval.revisionHash=page.revisionHash;
+ validateContentPackage(pkg);
+ page.media[0].familyId='different-frame';
+ assert.throws(()=>validateContentPackage(pkg),/revision hash mismatch/);
+ for(const familyId of ['',null,123,'https://private.example/source','../private','a'.repeat(129)]){
+  page.media[0].familyId=familyId;assert.throws(()=>validateContentPackage(pkg),/familyId/);
+ }
+});
 
 test("a niche package may publish an email-only contact", () => {
   const pkg = fixture();

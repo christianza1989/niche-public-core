@@ -8,6 +8,9 @@ import {memoRedirectPath} from '@/lib/memocasting-routes.mjs';
 import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
 import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
+import pathAliases from '@/config/niche-path-aliases.json';
+import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
+const nichePathAliases = indexNichePathAliases(pathAliases);
 
 const legacyHosts = new Map(
   Object.values(SITE_CONFIGS).flatMap((site) => site.domains.map((host) => [host, site.domains[0]] as const)),
@@ -88,6 +91,17 @@ export function proxy(request: NextRequest) {
     }
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
+    if (request.method === 'GET' || request.method === 'HEAD') {
+      const legacyDestination = nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
+      if (legacyDestination) {
+        const destination = request.nextUrl.clone();
+        const target = new URL(legacyDestination, destination.origin);
+        destination.pathname = target.pathname; destination.search = target.search;
+        const response = NextResponse.redirect(destination, 301);
+        response.headers.set('Cache-Control', 'private, no-store');
+        return response;
+      }
+    }
     if (path.startsWith("/content-assets/")) {
       const allowed = publicNichePages(niche).some((page) => page.media.some((media) => media.src === path));
       return allowed ? NextResponse.next() : new Response("Not found", { status: 404 });
@@ -122,6 +136,9 @@ export function proxy(request: NextRequest) {
     destination.pathname = `/niche/${niche.siteId}${path === "/" ? "" : path}`;
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-niche-original-path", path);
+    // Overwrite any client-supplied value before forwarding the raw query to
+    // the authoritative SSR canonical/list projection.
+    requestHeaders.set("x-niche-original-query", request.nextUrl.search);
     const response = NextResponse.rewrite(destination, { request: { headers: requestHeaders } });
     response.headers.set("Cache-Control", "private, no-store");
     if (isPreview(host)) response.headers.set("X-Robots-Tag", "noindex, nofollow");

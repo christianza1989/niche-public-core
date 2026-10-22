@@ -4,17 +4,19 @@ import { nicheSchemaGraph, nicheEditorialDates } from "./niche-schema-core.mjs";
 import {memoSchemaGraph,memoProfilePath} from './memocasting-structure.mjs';
 import { memoIndexablePages } from './memocasting-content.mjs';
 import {memoLabels,memoRoute} from './memocasting-locales.mjs';
+import { galleryImageSitemapTags } from "./niche-gallery.mjs";
+import { productNavigationText } from "./product-navigation.mjs";
 
 export function nichePageUrl(pkg: NichePackage, page: NichePage): string {
   return `${nicheOrigin(pkg)}${nichePagePath(page)}`;
 }
 
-export function nicheStructuredData(pkg: NichePackage, page: NichePage) {
-  return (pkg.siteId==='memocasting'?memoSchemaGraph:nicheSchemaGraph)(pkg, page, publicNichePages(pkg), nicheNetworkContact(pkg.siteId).operatorName);
+export function nicheStructuredData(pkg: NichePackage, page: NichePage, pages = publicNichePages(pkg)) {
+  return (pkg.siteId==='memocasting'?memoSchemaGraph:nicheSchemaGraph)(pkg, page, pages, nicheNetworkContact(pkg.siteId).operatorName);
 }
 
-export function nicheJsonLd(pkg: NichePackage, page: NichePage): string {
-  return JSON.stringify(nicheStructuredData(pkg, page)).replace(/</g, "\\u003c");
+export function nicheJsonLd(pkg: NichePackage, page: NichePage, pages?: NichePage[]): string {
+  return JSON.stringify(nicheStructuredData(pkg, page, pages)).replace(/</g, "\\u003c");
 }
 
 export function nicheRobotsText(pkg: NichePackage, preview: boolean, hasHomepage: boolean): string {
@@ -28,8 +30,8 @@ function escapeXml(value: string): string {
 
 export function nicheSitemapXml(pkg: NichePackage, pages: NichePage[]): string {
   pages=memoIndexablePages(pkg,pages) as NichePage[];
-  const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod></url>`).join("");
-  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries}</urlset>`;
+  const entries = pages.map((page) => `<url><loc>${escapeXml(nichePageUrl(pkg, page))}</loc><lastmod>${escapeXml(nicheEditorialDates(page).modified)}</lastmod>${galleryImageSitemapTags(pkg, page)}</url>`).join("");
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${entries}</urlset>`;
 }
 
 function blockText(block: NicheBlock): string {
@@ -74,7 +76,8 @@ export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
         labels?`${labels.author}: MB Memocasting${profile?' ('+nicheOrigin(pkg)+profile+')':''}; ${labels.editorial}`:`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`,
         `${labels?.published??'Publikavimo data'}: ${nicheEditorialDates(page).published}`,
         `${labels?.reviewed??'Turinio peržiūra'}: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && !["traktoriupadangos","memocasting"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...(page.type === "home" && !["traktoriupadangos","memocasting","promedical"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...productNavigationText(pkg,page,pages),
       ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`${labels?.related??'Susijęs atsakymas'}: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
       ...(page.externalLinks ?? []).map(link => `${labels?.sources??'Šaltinis'}: [${link.label}](${link.url}) — ${link.reason}`),
     ].join("\n");}),

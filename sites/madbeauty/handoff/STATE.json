@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "at": "2026-10-21T15:21:49.733Z",
+  "scope": "GitHub handoff and local recovery; no hosted deployment",
+  "production": {
+    "lastAcceptedVersion": "f68008dd-5ceb-446b-8113-d68bd1631919",
+    "artifactSha256": "384825934db64e4824cfd42517f88d08d89f867f0d03698a640a3755e5ef3833",
+    "packageSha256": "86c7595036970f905cec196d9090d712bfa11c113f09e4cd645c25611ed47509",
+    "preparedPages": 135,
+    "guides": 131,
+    "assetPaths": 923,
+    "lastAcceptedAt": "2026-10-13",
+    "providerVersionRequeried": false,
+    "publicHttpEvidence": "PUBLIC-STATUS-20261019.json"
+  },
+  "trial": {
+    "lastAcceptedVersion": "bf048234-6008-4b47-96d3-b1f44f0cdb58",
+    "artifactSha256": "d6821bdc0b303b064a9a4156926274694f9509c0ebb83bb088f2d135e7a781e6",
+    "expiresAt": "2026-10-16T21:10:47.982Z",
+    "currentHostedHttpStatus": 410,
+    "sourceArtifactChanged": false
+  },
+  "nextRelease": {
+    "state": "verified-export-not-deployed",
+    "packageSha256": "ee7a92ee36a48c6ba3382882f05c538bdeef43aa6c82cbeb290fdb1acd33ad84",
+    "pages": 141,
+    "guides": 137,
+    "contentWebp": 702,
+    "producerCommit": "19c545847f79828d849c9db987205af62c97e88b",
+    "expectedConsumerAssets": 961,
+    "consumerComplete": false
+  },
+  "contentPlan": {
+    "guides": 295,
+    "writtenAndDeployed": 131,
+    "writtenNotDeployed": 6,
+    "notWritten": 158,
+    "editorialRecords": 299,
+    "writerAutomation": "PAUSED",
+    "existingPublishAtPreserved": true
+  },
+  "media": {
+    "availableOriginalObjects": 191,
+    "oldProfilePngsUnavailableBeforeCleanup": 120,
+    "optimizedProfileVariantsPreserved": true,
+    "oldOriginalLookup": {
+      "libraryPngs": 834,
+      "sizeMatched": 0,
+      "matchedExpectedSha": 0
+    }
+  },
+  "checks": {
+    "sourceAndAssetsVerify": "PASS",
+    "existingPagesDeepEqual135": "PASS",
+    "commonNativeReleaseVerifier141Pages702Assets": "PASS",
+    "localWorkerRecoveryTests": {
+      "state": "PASS",
+      "passed": 2,
+      "failed": 0
+    },
+    "initialFailure": {
+      "scope": "New local trial bridge",
+      "reason": "Used production DO export names for archived trial; trial exports TemporaryTestPlatform",
+      "repair": "Local bindings match immutable trial export; no compiled artifact modified",
+      "finalTestsPassed": 2
+    },
+    "freshGithubClone": {
+      "at": "2026-10-21T15:16:00.416Z",
+      "commit": "50bec5a8045c18fb0b388a967d63f4c075a00b7b",
+      "repository": "christianza1989/niche-public-core",
+      "branch": "codex/madbeauty-handoff-20261019",
+      "safety": "PASS",
+      "clone": "PASS",
+      "nativeTests": "PASS",
+      "hashes": "PASS",
+      "recoveredFiles": 9283,
+      "originalImages": 191,
+      "testsPassed": 2,
+      "commonReleaseVerifier": {
+        "pages": 141,
+        "assets": 702,
+        "state": "verified-export-not-deployed"
+      },
+      "initialCloneFailure": "Default clone failed malloc allocation with low available PC memory; original sources were preserved",
+      "successfulCloneOptions": [
+        "pack.threads=1",
+        "core.deltaBaseCacheLimit=4m",
+        "core.packedGitWindowSize=8m",
+        "core.packedGitLimit=32m",
+        "--depth 3"
+      ],
+      "updatedByNetworkPullToCurrentMain": true,
+      "state": "PASS"
+    },
+    "gitSecretScan": {
+      "state": "PASS",
+      "initialExactStagedFiles": 9285,
+      "restoredCurrentScannerFiles": 9286,
+      "findings": 0
+    },
+    "localCleanup": "PARTIAL_LOCAL_DIAGNOSTIC_AND_METADATA_REMAIN",
+    "additionalPrivacySelection": {
+      "state": "PASS",
+      "excludedBeforeFirstCommit": 3,
+      "description": "Local preview SQLite auxiliary files and local key excluded; exact staged pattern/local-secret scan plus separate scope review"
+    }
+  },
+  "cleanupScope": {
+    "delete": "Dedicated Madbeauty worktrees, editorial temporary tenants, native test directories, identified generated originals and local Madbeauty downloads after verified upload",
+    "keep": "Shared CORE_SHARED and other project files, global credentials and provider systems; scope explicitly chosen by owner",
+    "clientStateInGit": false,
+    "credentialsInGit": false
+  },
+  "notCompleted": [
+    "SEO metadata/category fixes",
+    "next141 consumer release",
+    "Meta verification/public Facebook login",
+    "groups/events/conferences",
+    "158 unwritten guides",
+    "source build/deploy portability migration",
+    "whole-platform current production acceptance"
+  ],
+  "productionWritesByThisTask": 0,
+  "gitAuthority": {
+    "networkMain": "3117b379ee780f5fb041915e6466ec3a710a4eec",
+    "publicBaseMain": "be12cd6405cdbee04636ba47b5ffc1f95cd66444",
+    "fetchedAt": "2026-10-21T15:18:37.044Z",
+    "sharedCoreModified": true,
+    "sharedSafetyFix": {
+      "pr": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/pull/228",
+      "commit": "588c8395ab29b14887e40c98c0f35a80b2ff711e",
+      "status": "merged and fetched on this PC; other PC adoption not claimed",
+      "testsPassed": 5
+    },
+    "initialPublicBaseMain": "ec8a9c032fe926d1d9722802d8eb26fa8bd02937",
+    "sharedChangeScope": "SQLite auxiliary-state filename guard only, merged in core PR228"
+  },
+  "cleanupReceipt": "CLEANUP-RECEIPT.json"
+}

@@ -6,6 +6,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sit
   const pkg = nicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) return new Response("Not found", { status: 404 });
   if (pkg.siteId === 'memocasting') return new Response('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="3" fill="#fbf8f3"/><path d="M7 18c3-10 9-10 13-3 4-7 10-7 13 3-4 7-9 12-13 15-4-3-9-8-13-15Z" fill="none" stroke="#97452f" stroke-width="2.5"/></svg>',{headers:{'content-type':'image/svg+xml','cache-control':'public, max-age=3600','x-content-type-options':'nosniff'}});
+  if (pkg.siteId === "promedical") {
+    const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill="#c8323d" fill-rule="evenodd" d="M8 4h22c17 0 28 10 28 24S47 51 30 51H20v9H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4Zm18 9h8v10h10v8H34v10h-8V31H16v-8h10Z"/></svg>';
+    return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });
+  }
   if (pkg.siteId === "fasadopastoliai") {
     const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38"><rect width="38" height="38" fill="#d4e84c"/><path d="M6 33V5h26v28M6 14h26M6 24h26M19 5v28M6 5l13 9 13-9M6 24l13 9 13-9" fill="none" stroke="#182d31" stroke-width="2.4"/></svg>';
     return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });
