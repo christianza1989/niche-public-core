@@ -1,3 +1,4 @@
+import {memoFaviconHref} from '@/lib/memocasting-favicon.mjs';
 import {memoPublishedProductPage} from '@/lib/memocasting-product-server';
 import type { Metadata } from "next";
 import { headers } from "next/headers";
@@ -72,7 +73,7 @@ export default async function RootLayout({
           {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
           {page && memoFunctionalPage(niche,page) && <meta name="robots" content="noindex, nofollow" />}
           {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}
-          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link rel="icon" type="image/svg+xml" href={niche.siteId==='memocasting'?memoFaviconHref:'/favicon.svg'} />
           {page && <>
             <meta property="og:site_name" content={niche.site.name} />
             <meta property="og:type" content={page.type === "guide" ? "article" : "website"} />
