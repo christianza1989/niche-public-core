@@ -2594,12 +2594,21 @@
       "type": "faq",
       "slug": "pristatymas",
       "title": "Pristatymas Lietuvoje",
-      "description": "Pristatymas kurjeriu Lietuvoje: kaina pagal adresą ir siuntos duomenis, rinkinių pakuotės ir pagalba dėl užsakymo.",
+      "description": "Pristatymas į Omniva paštomatus arba SmartPosti kurjeriu Lietuvoje. Kaina apskaičiuojama krepšelyje pagal pristatymo vietą ir siuntą.",
       "intent": "Sužinoti, kaip ir už kiek pristatomas pasirinktas rinkinys.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinius pristatome kurjeriu Lietuvoje. Šiuo metu krepšelyje galima pasirinkti SmartPosti pristatymą į gavėjo adresą. Siuntas registruojame per SiųskPigiau; mokate tik tą pristatymo sumą, kurią pasirinkote ir patvirtinote prieš apmokėjimą."
+          "text": "Rankų liejimo rinkinius Lietuvoje pristatome į pasirinktą Omniva paštomatą arba SmartPosti kurjeriu į gavėjo adresą. Siuntas registruojame per SiųskPigiau. Prieš apmokėjimą krepšelyje matysite pasirinktą pristatymo būdą ir galutinę kainą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pristatymas į paštomatą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkę Omniva pristatymą, raskite paštomatą pagal miestą, pavadinimą ar adresą ir pasirinkite jį iš sąrašo. Nurodykite teisingą gavėjo telefoną ir el. paštą, kad vežėjas galėtų pranešti apie siuntos atvykimą. Vienas rinkinys siunčiamas vienoje pakuotėje. Keliems atskirai supakuotiems rinkiniams krepšelyje rinkitės kurjerį."
         },
         {
           "type": "heading",
@@ -2608,7 +2617,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Krepšelyje įveskite gavėjo miestą, pašto kodą ir adresą. Sistema iš vežėjo gauna tuo metu galiojantį pasiūlymą pagal adresą bei siuntos svorį ir matmenis. Dėl to pristatymo kaina gali skirtis tarp užsakymų. Prieš mokėjimą aiškiai matysite prekių sumą, pristatymą ir bendrą mokėtiną sumą. Jei pasiūlymo adresui nėra arba jo galiojimas pasibaigė, pristatymą reikia perskaičiuoti – nepatvirtinta suma nenuskaičiuojama."
+          "text": "Kurjeriui nurodykite gavėjo adresą, miestą ir pašto kodą; pristatant į paštomatą pasirinkite konkretų paštomatą. Sistema iš vežėjo gauna tuo metu galiojantį pasiūlymą pagal pristatymo vietą bei pasirinktos siuntos svorį ir matmenis. Dėl to pristatymo kaina gali skirtis tarp užsakymų. Prieš mokėjimą matysite prekių sumą, pristatymą ir bendrą mokėtiną sumą. Pasikeitus prekėms ar pristatymo vietai, kaina perskaičiuojama."
         },
         {
           "type": "heading",
@@ -2625,6 +2634,10 @@
         {
           "type": "paragraph",
           "text": "Tai siuntimui skirtos uždarytų rinkinių pakuotės, o ne liejimo indo vidiniai matmenys ar galimos skulptūros dydžio garantija."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkus medinį padėklą, siuntos svoris padidėja 300 g, o dėžės aukštis – 5 cm. Pristatymo kaina apskaičiuojama pagal pasirinktą komplektaciją."
         },
         {
           "type": "heading",
@@ -2673,12 +2686,12 @@
         }
       ],
       "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
-      "revisionHash": "30d5ce1f2436c106f89342dc1dc75cc81948ef3d0cba43d7fc681348ed0eee13",
+      "revisionHash": "7d78e08bf0f6276c041035e7048f9960dd64372dc1c29b257e0a8e0bf3b700b2",
       "approval": {
         "status": "approved",
-        "revisionHash": "30d5ce1f2436c106f89342dc1dc75cc81948ef3d0cba43d7fc681348ed0eee13",
-        "approvedAt": "2026-10-20T16:10:02.702Z",
-        "actorId": "codex-production-launch-20261020"
+        "revisionHash": "7d78e08bf0f6276c041035e7048f9960dd64372dc1c29b257e0a8e0bf3b700b2",
+        "approvedAt": "2026-10-22T09:29:34.562Z",
+        "actorId": "codex-locker-integration-20261022"
       }
     },
     {
@@ -27886,5 +27899,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-20T17:21:09.964Z"
+  "generatedAt": "2026-10-22T09:29:34.708Z"
 }

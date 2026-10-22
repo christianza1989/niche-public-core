@@ -20,7 +20,7 @@ test('a commerce brand display name preserves the authenticated From address and
  const input={from:'sender@example.test',to:'buyer@example.test',subject:'Užsakymas',text:'Receipt',id:'brand-test'};
  assert.match(smtpMessage(input),/^From: MB Pinet <sender@example\.test>/);
  assert.match(smtpMessage({...input,fromName:'Memocasting'}),/^From: =\?UTF-8\?B\?TWVtb2Nhc3Rpbmc=\?= <sender@example\.test>/);
- for(const fromName of ['Bad\r\nBcc: victim@example.test','', 'x'.repeat(121)])assert.throws(()=>smtpMessage({...input,fromName}),/SMTP invalid sender name/);
+ for(const fromName of ['Bad\r\nBcc: victim@example.test','', 'x'.repeat(121)])assert.throws(()=>smtpMessage({...input,fromName}),/SMTP invalid header/);
 });
 test('private transport check returns bounded diagnostics without claiming or sending mail',async()=>{
  let sends=0,checks=0;const gateway=createCommerceMailGateway({config,send:async()=>sends++,checkTransport:async()=>{checks++;return{ready:false,stage:'greeting',reason:'SMTP disconnected',privateValue:'never expose'};}});
