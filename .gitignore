@@ -58,6 +58,7 @@ next-env.d.ts
 .vercel
 
 # Clean multi-machine source snapshot; local state excluded.
+/.local/
 node_modules/
 output/
 outputs/
