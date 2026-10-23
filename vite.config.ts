@@ -16,6 +16,13 @@ try {
   if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
 }
 const { d1, r2 } = hostingConfig;
+const memoProduction = process.env.MEMO_DEPLOYMENT === "production";
+if (memoProduction && (process.env.NICHE_DEV_SITE_ID || process.env.MEMO_COMMERCE_ORIGIN)) {
+  throw new Error("Memocasting production must not use local preview overrides");
+}
+const memoProductionConfig = memoProduction
+  ? JSON.parse(readFileSync(new URL("./config/memocasting-worker.json", import.meta.url), "utf8"))
+  : {};
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
@@ -26,7 +33,7 @@ const localBindingConfig = {
   compatibility_flags: ["nodejs_compat"],
   // Niche media and favicons require proxy.ts before static asset serving;
   // otherwise Workers bypass publication checks or show a shared brand icon.
-  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/favicon.svg", "/favicon.ico"] },
+  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/favicon.svg", "/favicon.ico"] },
   ...(process.env.NICHE_DEV_SITE_ID ? { vars: { NICHE_DEV_SITE_ID: process.env.NICHE_DEV_SITE_ID } } : {}),
   ...(process.env.LEAD_EMAIL_ENABLED === "1" ? {
     send_email: [{
@@ -52,6 +59,7 @@ const localBindingConfig = {
         },
       ]
     : [],
+  ...memoProductionConfig,
 };
 
 export default defineConfig(async () => {
