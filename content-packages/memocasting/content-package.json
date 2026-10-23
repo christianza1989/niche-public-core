@@ -1558,102 +1558,160 @@
       "type": "product",
       "slug": "rinkinys-porai",
       "title": "Rankų liejimo rinkinys porai",
-      "description": "Rinkinys porai — 32 €. Balti dažai įeina į komplektą. Bendrai veiklai ir asmeniškam prisiminimui.",
-      "intent": "Rinkinys porai — 32 €. Balti dažai įeina į komplektą. Bendrai veiklai ir asmeniškam prisiminimui.",
+      "description": "Sukurkite savo susikibusių rankų skulptūrą ir išsaugokite bendrą akimirką. Rinkinyje yra alginatas, 1 200 g gipso ir balti dažai.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
       "body": [
         {
           "type": "heading",
           "level": 2,
-          "text": "Kas yra rinkinyje?"
+          "text": "Jūsų rankos, jūsų prisiminimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys porai skirtas susikibusių rankų liejiniui sukurti namuose. Pasirinkta rankų padėtis, pirštų linkiai ir odos reljefas suteikia skulptūrai asmeniškumo: ją kuriate iš savo rankų formos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai gali būti bendra veikla dviese, dovana vestuvėms, metinėms ar įkurtuvėms. Dovanodami rinkinį dovanojate ir progą skirti laiko vienas kitam. Nuotraukose matote galimo rezultato bei apdailos pavyzdžius; įsigyjate medžiagų rinkinį savo liejiniui, o ne jau pagamintą skulptūrą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip gimsta rankų liejinys?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pirmiausia perskaitykite rinkinio instrukciją ir pasiruoškite darbo vietą. Dar prieš maišydami medžiagas išbandykite, kaip patogiai laikysite rankas inde.",
+            "Pagal instrukciją sumaišykite alginatą su vandeniu. Jame suformuojamas rankų atspaudas; mišiniui sustingus rankos atsargiai ištraukiamos.",
+            "Paruoškite gipso mišinį ir supilkite jį į susidariusią formą. Maišymo proporcijas ir stingimo laiką rinkitės pagal pridėtą instrukciją.",
+            "Gipsui sustingus nuimkite alginato formą. Išvalykite liejinio paviršių ir prieš dažydami leiskite jam išdžiūti taip, kaip nurodyta instrukcijoje."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasiruošti prieš pradedant?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite vietą, kur abu galėsite patogiai sėdėti ir išlaikyti sutartą rankų padėtį. Uždenkite darbo paviršių, pasiruoškite vandens ir instrukcijoje nurodytus papildomus reikmenis. Medžiagas atidarykite tik tada, kai būsite pasirengę pradėti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neskubėkite keisti rankų padėties mišiniui stingstant. Jei abejojate pasirinkta poza ar darbo eiga, prieš pradėdami peržiūrėkite liejimo instrukciją arba susisiekite su mumis. Bendras proceso aprašas šiame puslapyje nepakeičia rinkinio instrukcijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Balta ar kita apdailos spalva?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Balti dažai jau įeina į bazinį komplektą, todėl jų atskirai pirkti nereikia. Jei norite kitos išvaizdos, prie prekės pasirinkite vieną iš tuo metu siūlomų dažų spalvų. Pasirinkimo priemoką ir atnaujintą rinkinio kainą matysite prieš įdėdami prekę į krepšelį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spalvotos skulptūros nuotrauka padeda įsivaizduoti apdailą. Tikras atspalvis gali skirtis dėl apšvietimo, ekrano nustatymų ir dažymo būdo. Išdžiovintas uosinis padėklas šiuo metu išparduotas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip laikyti baigtą skulptūrą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite stabilią, sausą vietą, kur liejinys nebus lengvai numestas ar aptaškytas. Dulkes šalinkite švelniai, nebrūžindami smulkių detalių. Dažykite tik išdžiūvusį paviršių ir vadovaukitės dažų naudojimo nurodymais."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Užsakymas ir pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prekės kainą, pasirinktų priedų priemokas ir pristatymo kainą matysite krepšelyje prieš apmokėjimą. Lietuvoje rinkitės iš tuo metu siūlomų pristatymo būdų. Jei renkatės dovaną konkrečiai datai, dėl išsiuntimo pasitikslinkite prieš užsakydami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas įeina į rinkinį?"
         },
         {
           "type": "list",
           "items": [
             "Vienas alginato pakelis.",
             "1 200 g gipso.",
-            "Kibiras.",
+            "Kibiras liejimo formai paruošti.",
             "Maišymo pagaliukai.",
-            "Balti dažai."
+            "Balti dažai arba pasirinkta kita dažų spalva."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Balti dažai įeina į rinkinį ir yra įskaičiuoti į 32 € kainą. Dažų tūris ir naudojimo instrukcija dar tikslinami."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ką patikrinti prieš pasirinkimą?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rinkinys skirtas poros rankų liejinio idėjai. Konkreti poza, rankų dydžiai ir indo talpa turi būti vertinami pagal patvirtintą instrukciją. Nežadame, kad bet kokia rankų padėtis ar dydis tilps."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Pakuotė ir pristatymas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Supakuotas poros rinkinys su baltais dažais sveria 2,2 kg, pakuotės matmenys – 20 × 20 × 17 cm. Rinkinio kaina – 32 €. Pristatymas Lietuvoje apskaičiuojamas atskirai krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Galutinę sumą matysite prieš apmokėjimą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Patikrinkite instrukcijos informaciją ir apgalvokite, ar dovanosite rinkinį, ar planuosite bendrą veiklą. Užsakymą galite apmokėti per Stripe krepšelyje."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Papildomi priedai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Medinis pagrindas į bazinį rinkinį neįeina ir šiuo metu svetainėje neparduodamas. Balti dažai jau įtraukti į rinkinio kainą – jų atskirai pridėti nereikia."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.540Z",
       "media": [
         {
-          "id": "665e2e7c-aaad-439c-bb4d-fa798a0d26ef",
-          "src": "/content-assets/memocasting/665e2e7c-aaad-439c-bb4d-fa798a0d26ef.webp",
-          "alt": "Baltas susikibusių poros rankų liejinys rožiniame ir žydrame fone.",
-          "width": 533,
-          "height": 533,
-          "credit": "Rankų liejinio pavyzdys; rinkinio komplektacija aprašyta tekste.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "id": "428addc4-5aa8-48fb-8d00-17a99f971d4b",
+          "src": "/content-assets/memocasting/428addc4-5aa8-48fb-8d00-17a99f971d4b.webp",
+          "alt": "Baltas susikibusių poros rankų liejinio pavyzdys.",
+          "width": 1122,
+          "height": 1402,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "b6e9f4e6-b3e9-4c1f-9e99-ed40a8b73a2d"
         },
         {
-          "id": "e772a569-61f8-4162-87ab-e40d8414f178",
-          "src": "/content-assets/memocasting/e772a569-61f8-4162-87ab-e40d8414f178.webp",
-          "alt": "Baltas susikibusių poros rankų liejinys rožiniame ir žydrame fone.",
+          "id": "af94e309-133a-4f51-a675-7f2a1ff6f480",
+          "src": "/content-assets/memocasting/af94e309-133a-4f51-a675-7f2a1ff6f480.webp",
+          "alt": "Baltas susikibusių poros rankų liejinio pavyzdys.",
+          "width": 800,
+          "height": 1000,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "b6e9f4e6-b3e9-4c1f-9e99-ed40a8b73a2d"
+        },
+        {
+          "id": "45c99472-3ac9-4c2b-970c-bba09085e1b2",
+          "src": "/content-assets/memocasting/45c99472-3ac9-4c2b-970c-bba09085e1b2.webp",
+          "alt": "Baltas susikibusių poros rankų liejinio pavyzdys.",
+          "width": 640,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "b6e9f4e6-b3e9-4c1f-9e99-ed40a8b73a2d"
+        },
+        {
+          "id": "eadf98ea-c44c-4bbe-bc7c-4bdbcf802943",
+          "src": "/content-assets/memocasting/eadf98ea-c44c-4bbe-bc7c-4bdbcf802943.webp",
+          "alt": "Baltas susikibusių poros rankų liejinio pavyzdys.",
           "width": 360,
-          "height": 360,
-          "credit": "Rankų liejinio pavyzdys; rinkinio komplektacija aprašyta tekste.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "height": 450,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "b6e9f4e6-b3e9-4c1f-9e99-ed40a8b73a2d"
         }
       ],
       "links": [
         {
+          "targetPageId": "0b3a627b-bbd5-44bd-bb76-116a3b4d7663",
+          "label": "Išdžiovintas uosinis padėklas"
+        },
+        {
           "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
-          "label": "instrukcijos informaciją"
+          "label": "liejimo instrukciją"
         },
         {
-          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
-          "label": "dovanosite rinkinį"
-        },
-        {
-          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "Šeimos rinkinys"
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "958f769907c1f26a1375f8b874cf67e45bc8af56c850895a6f98b2508de31d42",
+      "revisionHash": "361e52e8a411f9a061f7753b4640e9718dfd7c70047fdfdcdb20ce3dacbcad7b",
       "approval": {
         "status": "approved",
-        "revisionHash": "958f769907c1f26a1375f8b874cf67e45bc8af56c850895a6f98b2508de31d42",
-        "approvedAt": "2026-10-20T17:21:08.543Z",
-        "actorId": "codex-product-launch-20261020"
+        "revisionHash": "361e52e8a411f9a061f7753b4640e9718dfd7c70047fdfdcdb20ce3dacbcad7b",
+        "approvedAt": "2026-10-23T07:09:29.767Z",
+        "actorId": "codex-catalogue-20261023"
       }
     },
     {
@@ -1661,101 +1719,164 @@
       "type": "product",
       "slug": "seimos-rinkinys",
       "title": "Rankų liejimo rinkinys šeimai",
-      "description": "Šeimos rinkinys su baltais dažais — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
-      "intent": "Šeimos rinkinys su baltais dažais — 48 €. Du alginato ir du gipso pakeliai bendram šeimos prisiminimui.",
+      "description": "Bendra šeimos veikla ir jūsų rankų formą išsauganti skulptūra. Šeimos rinkinyje yra po du alginato bei gipso pakelius ir balti dažai.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
       "body": [
         {
           "type": "heading",
           "level": 2,
-          "text": "Patvirtinta komplektacija"
+          "text": "Šeimos akimirka, kuri įgauna formą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys šeimai padeda sukurti bendrą rankų skulptūrą ir išsaugoti prisilietimo formą. Mažesnių ir didesnių rankų derinys, pirštų padėtis bei odos reljefas paverčia liejinį jūsų šeimos prisiminimu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinį galite pasirinkti bendrai veiklai namuose arba dovanoti šeimai, tėvams ar seneliams. Iš anksto sutarkite, kada kursite skulptūrą: pasiruošimas ir pati veikla tampa dovanos dalimi. Nuotraukose pateikiami liejinių pavyzdžiai; įsigyjate rinkinį savo skulptūrai sukurti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kuo šeimos rinkinys skiriasi nuo poros rinkinio?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šeimos komplekte yra du alginato ir du gipso pakeliai. Poros rinkinyje yra vienas alginato pakelis ir 1 200 g gipso. Abiejuose rinkiniuose balti dažai jau įskaičiuoti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų išdėstymas priklauso nuo jų dydžio ir pasirinktos pozos. Prieš pradėdami patikrinkite, ar visi dalyviai gali patogiai laikyti rankas inde pagal rinkinio instrukciją. Jei nesate tikri, kuris rinkinys tiks jūsų sumanymui, parašykite mums ir apibūdinkite norimą kompoziciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasiruošti veiklai kartu?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Iš anksto perskaitykite visą instrukciją ir paskirstykite užduotis: kas ruoš mišinį, kas padės išlaikyti rankų padėtį, kas pasirūpins darbo vieta.",
+            "Prieš atidarydami medžiagas pasipraktikuokite pasirinktą rankų pozą tuščiame inde. Niekas neturėtų laikyti rankų nepatogiai ar per jėgą.",
+            "Pasiruoškite vandens, uždenkite darbo paviršių ir susidėkite instrukcijoje nurodytus reikmenis. Vaikams dalyvaujant veiklą turi prižiūrėti suaugęs žmogus.",
+            "Maišymo proporcijų, vandens temperatūros ir stingimo laiko nekeiskite spėliodami: vadovaukitės konkretaus rinkinio instrukcija."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo atspaudo iki skulptūros"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alginato mišinys pirmiausia užfiksuoja rankų formą. Jam sustingus rankos atsargiai ištraukiamos, o į likusią formą pilamas paruoštas gipso mišinys. Gipsui sustingus alginato forma nuimama, liejinys išvalomas ir paliekamas džiūti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Darbo eigą planuokite ramiai. Neatidarykite medžiagų, kol visi dalyviai nėra pasiruošę, ir neskubėkite nuimti formos anksčiau, nei nurodyta instrukcijoje. Jei kyla klausimų, pasitikslinkite prieš maišydami medžiagas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Balti dažai jau komplekte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Išdžiūvusį liejinį galėsite nudažyti rinkinyje esančiais baltais dažais. Prieš dažydami pašalinkite likusius formos gabalėlius ir vadovaukitės dažų naudojimo nurodymais. Kitų apdailos spalvų prieinamumas rodomas prekės pasirinkimuose."
+        },
+        {
+          "type": "paragraph",
+          "text": "Išdžiovintas uosinis padėklas šiuo metu išparduotas. Baigtai skulptūrai parinkite stabilų paviršių, saugokite ją nuo kritimo bei drėgmės, o dulkes valykite švelniai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dovana šeimai ir pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei rinkinį dovanojate, prie jo galite pridėti savo pasiūlytą bendros veiklos datą ir trumpą žinutę, kieno rankas norėtumėte įamžinti. Taip dovanos gavėjams bus lengviau suplanuoti vakarą kartu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Galutinė prekės ir pristatymo suma pateikiama krepšelyje prieš apmokėjimą. Pristatymo būdą rinkitės iš tuo metu rodomų pasiūlymų. Dėl užsakymo konkrečiai progai ar tinkamo rinkinio pasirinkimo susisiekite su mumis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kas įeina į rinkinį?"
         },
         {
           "type": "list",
           "items": [
             "Du alginato pakeliai.",
             "Du gipso pakeliai.",
+            "Kibiras liejimo formai paruošti.",
             "Maišymo pagaliukai.",
             "Balti dažai."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Tikslūs pakelių svoriai ir šeimos rinkinio indo duomenys dar tikslinami. Suaugusiųjų ir vaikų rankų skaičiaus nenurodome, kol jo nepatvirtina realus rinkinio bandymas ir instrukcija."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Šeimos veiklą suplanuokite iš anksto"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pirmiausia sutarkite, kas dalyvaus. Patikrinkite konkrečiam rinkiniui taikomą tinkamumą ir rankų padėties ribas. Šeimos pavadinimas savaime nepatvirtina tinkamumo kūdikiams ar bet kokiam dalyvių skaičiui."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Pakuotė ir pristatymas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Supakuotas šeimos rinkinys su baltais dažais sveria 4,5 kg, pakuotės matmenys – 25 × 25 × 20 cm. Rinkinio kaina – 48 €. Pristatymas Lietuvoje apskaičiuojamas atskirai krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Galutinę sumą matysite prieš apmokėjimą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Rinkinių palyginimas padės patikrinti žinomus skirtumus. Instrukcijos puslapyje rasite pasiruošimo ribas; tikslūs medžiagų parametrai bus pridėti po patvirtinimo."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Papildomi priedai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Medinis pagrindas į bazinį rinkinį neįeina ir šiuo metu svetainėje neparduodamas. Balti dažai jau įtraukti į rinkinio kainą – jų atskirai pridėti nereikia."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.545Z",
       "media": [
         {
-          "id": "c6bb0722-4dcd-49ef-a1ba-0290ae2a597d",
-          "src": "/content-assets/memocasting/c6bb0722-4dcd-49ef-a1ba-0290ae2a597d.webp",
-          "alt": "Kelių susikibusių rankų liejinys rožiniame ir žydrame fone.",
-          "width": 533,
-          "height": 533,
-          "credit": "Liejinio pavyzdys; nuotrauka nenustato rinkinio dalyvių skaičiaus.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "id": "ed9c54e9-9930-427f-8fd6-57580e3d563b",
+          "src": "/content-assets/memocasting/ed9c54e9-9930-427f-8fd6-57580e3d563b.webp",
+          "alt": "Baltas kelių susikibusių rankų liejinio pavyzdys.",
+          "width": 1122,
+          "height": 1402,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bb791be5-3e2b-4530-b1a5-cb6fedc0cb98"
         },
         {
-          "id": "46879fea-b147-40cb-9e4c-42a455f94c0a",
-          "src": "/content-assets/memocasting/46879fea-b147-40cb-9e4c-42a455f94c0a.webp",
-          "alt": "Kelių susikibusių rankų liejinys rožiniame ir žydrame fone.",
+          "id": "11b82bc3-999f-47c1-8940-9f02f723204c",
+          "src": "/content-assets/memocasting/11b82bc3-999f-47c1-8940-9f02f723204c.webp",
+          "alt": "Baltas kelių susikibusių rankų liejinio pavyzdys.",
+          "width": 800,
+          "height": 1000,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bb791be5-3e2b-4530-b1a5-cb6fedc0cb98"
+        },
+        {
+          "id": "3f81f7c6-d682-4072-b6c0-700897cb2957",
+          "src": "/content-assets/memocasting/3f81f7c6-d682-4072-b6c0-700897cb2957.webp",
+          "alt": "Baltas kelių susikibusių rankų liejinio pavyzdys.",
+          "width": 640,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bb791be5-3e2b-4530-b1a5-cb6fedc0cb98"
+        },
+        {
+          "id": "72bd1dd7-ebfa-47d1-b6bb-217145369c33",
+          "src": "/content-assets/memocasting/72bd1dd7-ebfa-47d1-b6bb-217145369c33.webp",
+          "alt": "Baltas kelių susikibusių rankų liejinio pavyzdys.",
           "width": 360,
-          "height": 360,
-          "credit": "Liejinio pavyzdys; nuotrauka nenustato rinkinio dalyvių skaičiaus.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "height": 450,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bb791be5-3e2b-4530-b1a5-cb6fedc0cb98"
         }
       ],
       "links": [
         {
-          "targetPageId": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-          "label": "Rinkinių palyginimas"
+          "targetPageId": "0b3a627b-bbd5-44bd-bb76-116a3b4d7663",
+          "label": "Išdžiovintas uosinis padėklas"
         },
         {
-          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
-          "label": "Instrukcijos puslapyje"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rinkinys porai"
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "fef6e0bbaae1e8353645d3dbdadcc127a6784d9ae3e21cacbb495263038beebe",
+      "revisionHash": "2f7cfa9292aa06bdb40b960aa845ff89d8ffd22281cc7c3107f74a83b8b1025c",
       "approval": {
         "status": "approved",
-        "revisionHash": "fef6e0bbaae1e8353645d3dbdadcc127a6784d9ae3e21cacbb495263038beebe",
-        "approvedAt": "2026-10-20T17:21:09.150Z",
-        "actorId": "codex-product-launch-20261020"
+        "revisionHash": "2f7cfa9292aa06bdb40b960aa845ff89d8ffd22281cc7c3107f74a83b8b1025c",
+        "approvedAt": "2026-10-23T07:09:29.892Z",
+        "actorId": "codex-catalogue-20261023"
       }
     },
     {
@@ -1763,24 +1884,26 @@
       "type": "faq",
       "slug": "ranku-liejimo-rinkiniai",
       "title": "Rankų liejimo rinkiniai: porai ar šeimai?",
-      "description": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
+      "description": "Rankų liejimo rinkiniai porai ir šeimai, alginato papildymai bei prisiminimų priedai. Peržiūrėkite komplektaciją ir kiekvienos prekės prieinamumą.",
       "intent": "Poros ir šeimos rinkinių palyginimas: patvirtintos kainos, komplektacija ir pasirinkimo ribos.",
       "body": [
         {
-          "type": "paragraph",
-          "text": "Porai: 32 €, vienas alginato pakelis, 1 200 g gipso, kibiras ir maišymo pagaliukai. Balti dažai įeina į abu rinkinius. Šeimai: 48 €, du alginato ir du gipso pakeliai."
+          "type": "heading",
+          "level": 2,
+          "text": "Rinkinys ar papildymas?"
         },
         {
           "type": "paragraph",
-          "text": "Supakuotas poros rinkinys sveria 2,2 kg, jo pakuotės matmenys – 20 × 20 × 17 cm. Šeimos rinkinys sveria 4,5 kg, jo pakuotė – 25 × 25 × 20 cm. Pristatymo Lietuvoje kaina apskaičiuojama krepšelyje pagal gavėjo adresą ir užsakymo siuntą. Pakuotės matmenys nenustato rinkiniui tinkamo rankų skaičiaus."
+          "text": "Pirmajam liejiniui rinkitės pilną rinkinį. Jei dalį priemonių jau turite, papildymo puslapyje pasitikrinkite jo paskirtį ir suderinamumą. Kiekvienos prekės puslapyje rasite aprašymą ir dabartinę įsigijimo būseną."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pristatymas ir apmokėjimas"
         },
         {
           "type": "paragraph",
-          "text": "Rinkitės pagal žmones ir konkrečiam rinkiniui patvirtintą instrukciją. Šeimos pakelių svoriai ir dalyvių ribos dar tikslinami. Rinkinių vaizdus pateikė savininkas; juose matomi pavyzdžiai nepatvirtina neaprašytų savybių. Kūdikio pėdutės ar alginato papildymas šiuo metu neparduodami."
-        },
-        {
-          "type": "paragraph",
-          "text": "Maišymo pagaliukai ir balti dažai įeina į poros ir šeimos rinkinius. Medinis pagrindas į bazinį komplektą neįeina ir šiuo metu svetainėje neparduodamas. Pasirinkto rinkinio, pristatymo ir bendrą sumą patikrinkite krepšelyje prieš apmokėjimą."
+          "text": "Prekių bei pristatymo kainą matysite krepšelyje prieš apmokėjimą. Išparduotos prekės negali būti įdėtos į krepšelį. Jei prie prekės prašoma susisiekti, dėl konkretaus pasiūlymo parašykite Memocasting."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.550Z",
@@ -1788,24 +1911,44 @@
       "links": [
         {
           "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Poros rinkinys"
+          "label": "Rankų liejimo rinkinys porai"
         },
         {
           "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "Šeimos rinkinys"
+          "label": "Rankų liejimo rinkinys šeimai"
         },
         {
-          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
-          "label": "instrukciją"
+          "targetPageId": "abe335fd-2dd1-4ce3-8dee-1f4fb1f4346a",
+          "label": "Mamos ir vaiko rankų liejimo rinkinys"
+        },
+        {
+          "targetPageId": "ef4ab657-b8db-4c57-abe0-3f5c395be67e",
+          "label": "Kūdikio pėdučių liejimo rinkinys"
+        },
+        {
+          "targetPageId": "0b3a627b-bbd5-44bd-bb76-116a3b4d7663",
+          "label": "Išdžiovintas uosinis padėklas"
+        },
+        {
+          "targetPageId": "6138f9e6-1112-4c97-8354-e007633f3675",
+          "label": "Kūdikio įspaudų rinkinys su rėmeliu"
+        },
+        {
+          "targetPageId": "330139f8-8078-4d03-b859-6602d4745f13",
+          "label": "Alginato papildymas poros rinkiniui"
+        },
+        {
+          "targetPageId": "cb5a2fef-bfb5-430e-a141-612b007bce57",
+          "label": "Alginato papildymas šeimos rinkiniui"
         }
       ],
       "id": "11bb6bb7-3113-4532-adf7-8cec5deb8194",
-      "revisionHash": "d900e2ee4ed1cb2321df114bafc2cdf957f284e844030463f06f35ab3522263c",
+      "revisionHash": "ee8d20b024cab6b2a2382153d8f5af3ef5ddafa3410753a23f299702853026c7",
       "approval": {
         "status": "approved",
-        "revisionHash": "d900e2ee4ed1cb2321df114bafc2cdf957f284e844030463f06f35ab3522263c",
-        "approvedAt": "2026-10-20T17:21:09.736Z",
-        "actorId": "codex-product-launch-20261020"
+        "revisionHash": "ee8d20b024cab6b2a2382153d8f5af3ef5ddafa3410753a23f299702853026c7",
+        "approvedAt": "2026-10-23T07:09:30.730Z",
+        "actorId": "codex-catalogue-20261023"
       }
     },
     {
@@ -3085,189 +3228,340 @@
     },
     {
       "siteId": "memocasting",
-      "type": "faq",
+      "type": "product",
       "slug": "products/alginato-papildymas-650g-dvieju-ranku-rinkiniui",
-      "title": "Alginato papildymas: ką patikrinti prieš papildant rinkinį?",
-      "description": "Papildymo suderinamumo patikra: medžiagos žymėjimas, instrukcija ir likusi rinkinio dalis. Dabartinis Memocasting papildymo pasiūlymas dar nepatvirtintas.",
-      "intent": "Patikrinti ankstesnio papildymo pasiūlymo dabartinę informaciją ir pasiruošti klausimą apie konkretų rinkinį.",
+      "title": "Alginato papildymas poros rinkiniui",
+      "description": "Alginato papildymas naujai rankų atspaudo formai paruošti. Dėl kiekio, kainos ir įsigijimo susisiekite su Memocasting.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
       "body": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Papildymas naujai formai"
+        },
+        {
           "type": "paragraph",
-          "text": "Šis adresas išsaugotas žmonėms, ieškantiems ankstesnio Memocasting alginato papildymo. Dabartinė papildymo komplektacija, kaina ir galimybė jį užsisakyti dar nepatvirtintos. Adrese esantis „650g“ yra istorinio adreso dalis; jis nėra šiandien parduodamo pakelio svorio ar tinkamumo jūsų rinkiniui patvirtinimas."
+          "text": "Alginato papildymas poros rinkiniui skirtas naujai rankų atspaudo formai paruošti. Tai papildymo prekė, todėl jos nereikėtų painioti su visu rankų liejimo rinkiniu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jau turite rinkinį ir norite bandyti dar kartą, pirmiausia patikrinkite, kokių medžiagų liko. Vien naujo alginato nepakaks, jei neturite reikiamo gipso ir kitų instrukcijoje numatytų priemonių."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Papildymas nėra visas naujas rinkinys"
-        },
-        {
-          "type": "paragraph",
-          "text": "Prieš ieškodami vienos medžiagos, surašykite, ką jau turite: rinkinio pavadinimą, alginato ir gipso pakelių žymėjimą, indą bei naudojimo instrukciją. Atskiras papildymas neatsako, ar likusi rinkinio dalis pakankama naujam sumanymui. Šiuo puslapiu nepatvirtiname bandymų skaičiaus ar galimybės pakartotinai naudoti jau panaudotas medžiagas."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Suderinamumo klausimų lapas"
+          "text": "Ką patikslinti prieš užsakant?"
         },
         {
           "type": "list",
           "items": [
-            "Kokio rinkinio ir kokios medžiagos papildymo ieškote? Užrašykite tikslų pavadinimą.",
-            "Ar turite konkrečiam pakeliui skirtą instrukciją ir jo žymėjimą?",
-            "Ar ketinate papildyti neatidarytas atsargas, ar kartoti jau atliktą darbą? Tai skirtingi klausimai.",
-            "Kokios kitos rinkinio dalys liko ir kokia jų būklė?",
-            "Kuri informacija turi būti patvirtinta prieš pasirenkant papildymą: kiekis, suderinamumas, galiojimas ar naudojimo eiga?"
+            "Nurodykite, kokį Memocasting rinkinį turite ir kokią rankų kompoziciją norite sukurti.",
+            "Patikrinkite, ar turite liejimui reikalingo gipso, tinkamą indą ir naudojimo instrukciją.",
+            "Dėl šiuo metu siūlomo alginato kiekio, kainos ir pristatymo susisiekite prieš pirkdami."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kiekio neatspėkite iš seno adreso"
+          "text": "Kaip naudoti papildymą?"
         },
         {
           "type": "paragraph",
-          "text": "Vandens santykiai, darbo laikas ir reikalingas medžiagų kiekis turi būti susieti su konkrečiu gaminiu bei jo naudojimo dokumentais. Seno prekės pavadinimo, panašios pakuotės ar kito pardavėjo instrukcijos tam nepakanka. Jei savo rinkinio parametrų neturite, instrukcijos puslapis padės suprasti, kurių duomenų ieškoti prieš darbą."
+          "text": "Naudokite konkrečioms medžiagoms skirtą instrukciją. Maišymo proporcijų ir stingimo laiko nenustatykite pagal seną prekės adresą ar kito gamintojo aprašą. Prieš atidarydami pakuotę pasiruoškite darbo vietą ir išbandykite pasirinktą rankų padėtį."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip tiksliai pateikti klausimą"
+          "text": "Reikia viso rinkinio?"
         },
         {
           "type": "paragraph",
-          "text": "Pagalbos aprašymo gide rasite informacijos rinkimo lapą. Klausime atskirkite turimus faktus nuo lūkesčio: pavyzdžiui, „turiu šį rinkinį ir noriu patikrinti, ar jam siūlomas papildymas“, o ne „man tikrai pakaks vieno pakelio“. Nurodykite žymėjimą ir turimas instrukcijas; viešai neskelbkite užsakymo prieigos duomenų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kontaktų puslapyje galite pateikti surinktą klausimą. Dabartinėje vietinėje peržiūroje forma naudojama bandymui, tikras pagalbos laiškų gavimas dar nepriimtas. Kai papildymo produkto duomenys bus patvirtinti, šiame pačiame adrese bus galima pateikti konkretų pasiūlymą. Iki tol čia nėra pirkimo mygtuko ar nepatvirtintos prekės kainos."
+          "text": "Jei pradedate pirmą kartą, peržiūrėkite poros rinkinį: jo apraše nurodyta dabartinė komplektacija, o galimi pasirinkimai ir galutinė kaina rodomi prieš užsakymą."
         }
       ],
       "publishAt": "2026-10-12T01:37:37.151Z",
-      "media": [],
-      "links": [
+      "media": [
         {
-          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
-          "label": "instrukcijos puslapis"
+          "id": "192b71f5-02fe-47f3-9848-0679685ca0b3",
+          "src": "/content-assets/memocasting/192b71f5-02fe-47f3-9848-0679685ca0b3.webp",
+          "alt": "Alginato papildymo poros rinkiniui balta pakuotė.",
+          "width": 1083,
+          "height": 1083,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d70ec941-f743-4a94-9acc-e764fc07edfe"
         },
         {
-          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
-          "label": "Pagalbos aprašymo gide"
+          "id": "f5ecc8f6-8c3d-4746-a752-50641162d7bc",
+          "src": "/content-assets/memocasting/f5ecc8f6-8c3d-4746-a752-50641162d7bc.webp",
+          "alt": "Alginato papildymo poros rinkiniui balta pakuotė.",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d70ec941-f743-4a94-9acc-e764fc07edfe"
+        },
+        {
+          "id": "b19621b5-fef1-4ad0-a654-ea6271037f38",
+          "src": "/content-assets/memocasting/b19621b5-fef1-4ad0-a654-ea6271037f38.webp",
+          "alt": "Alginato papildymo poros rinkiniui balta pakuotė.",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d70ec941-f743-4a94-9acc-e764fc07edfe"
+        },
+        {
+          "id": "a4313672-473b-47b4-bd46-1d158244634c",
+          "src": "/content-assets/memocasting/a4313672-473b-47b4-bd46-1d158244634c.webp",
+          "alt": "Alginato papildymo poros rinkiniui balta pakuotė.",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d70ec941-f743-4a94-9acc-e764fc07edfe"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "poros rinkinį"
         },
         {
           "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
-          "label": "Kontaktų puslapyje"
+          "label": "susisiekite"
         }
       ],
       "id": "330139f8-8078-4d03-b859-6602d4745f13",
-      "revisionHash": "7fe63104ffea420db13781571dcbc40811159ff919a2eea75e30b38b111eae8b",
+      "revisionHash": "d7ed10cd44508c617eaa7ff817cac2eb0ef06620e18c305bf2cbc22de24ca2f6",
       "approval": {
         "status": "approved",
-        "revisionHash": "7fe63104ffea420db13781571dcbc40811159ff919a2eea75e30b38b111eae8b",
-        "approvedAt": "2026-10-12T01:38:30.417Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d7ed10cd44508c617eaa7ff817cac2eb0ef06620e18c305bf2cbc22de24ca2f6",
+        "approvedAt": "2026-10-23T07:09:30.502Z",
+        "actorId": "codex-catalogue-20261023"
       }
     },
     {
       "siteId": "memocasting",
-      "type": "faq",
+      "type": "product",
       "slug": "products/kudikio-pedutes",
-      "title": "Pėdučių liejiniai: kokios produkto informacijos reikia?",
-      "description": "Ankstesnio pėdučių rinkinio adresas ir dokumentų patikros lapas. Dabartinė komplektacija, kaina bei tinkamumo vaikams duomenys dar nepatvirtinti.",
-      "intent": "Suprasti, kokių konkretaus pėdučių rinkinio dokumentų ir pasiūlymo faktų trūksta, nepakeičiant jų bendrais saugos pažadais.",
+      "title": "Kūdikio pėdučių liejimo rinkinys",
+      "description": "Kūdikio pėdučių formai išsaugoti skirtas liejimo rinkinys. Šiuo metu išparduota.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
       "body": [
         {
+          "type": "heading",
+          "level": 2,
+          "text": "Mažų pėdučių prisiminimas"
+        },
+        {
           "type": "paragraph",
-          "text": "Pėdučių liejinys gali būti prisiminimo idėja, tačiau jo vaizdas nepasako, kokios medžiagos buvo naudotos ir kam jos tinkamos. Šiame sename Memocasting adrese pateikiame informacijos patikros lapą. Dabartinis kūdikio pėdučių rinkinys, jo kaina, komplektacija ir naudojimo amžiaus ribos dar nepatvirtinti; pirkimo šiame puslapyje nėra."
+          "text": "Kūdikio pėdučių liejimo rinkinys skirtas erdviniam pėdučių liejiniui sukurti. Jis išsaugo pėdos formą ir paviršiaus reljefą — kitokį prisiminimą nei nuotrauka ar plokščias atspaudas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši prekė šiuo metu išparduota. Puslapį ir ankstesnio katalogo nuotraukas palikome, kad galėtumėte susipažinti su gaminiu. Dėl galimo papildymo susisiekite su mumis; konkreti grįžimo į prekybą data nepaskelbta."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Nuotrauka ir produkto dokumentai atsako skirtingus klausimus"
+          "text": "Kaip veikia liejimas?"
         },
         {
           "type": "paragraph",
-          "text": "Savininko pateiktame vaizde matomi du pėdučių liejiniai. Vaizdas padeda suprasti prisiminimo išvaizdos idėją, tačiau nepatvirtina naudojimo būdo, medžiagų sudėties, bandymo ar produkto tinkamumo kūdikiui. Nuotrauka nėra saugos instrukcija ar konkretaus kliento istorija."
+          "text": "Alginato mišinyje sukuriama pėdutės forma, į kurią vėliau pilamas paruoštas gipso mišinys. Jam sustingus forma nuimama, o liejinys atsargiai išvalomas ir išdžiovinamas. Visus kiekius, temperatūrą ir laiką reikia rinktis pagal konkretaus rinkinio instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pradedant būtina įvertinti rinkinio tinkamumą ir medžiagų naudojimo nurodymus. Veiklą atlieka ir prižiūri suaugęs žmogus; pėdutės negalima laikyti nepatogiai ar per jėgą. Kilus klausimų dėl naudojimo, pasitikslinkite prieš pradėdami."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Ką turi paaiškinti konkretaus gaminio informacija?"
+          "text": "Liejinys ar įspaudas rėmelyje?"
         },
         {
-          "type": "list",
-          "items": [
-            "Tikslų rinkinio pavadinimą ir medžiagų žymėjimą.",
-            "Kuriam naudojimui gaminys skirtas ir kokios jo amžiaus bei kitų naudojimo ribos.",
-            "Kokie dokumentai paaiškina kontaktą su oda ir atsargumo priemones.",
-            "Kokia instrukcija taikoma būtent šioms medžiagoms ir kiekiams.",
-            "Kokiais patvirtintais duomenimis remiasi pažadai apie rezultatą ar dalyvių skaičių."
-          ]
+          "type": "paragraph",
+          "text": "Pėdučių liejinys yra erdvinė figūra. Kūdikio įspaudų rinkinys su rėmeliu skirtas plokščiam rankytės ar pėdutės įspaudui ir nuotraukoms eksponuoti. Tai skirtingi gaminiai, todėl rinkitės pagal norimą rezultatą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Šeimos pavadinimas nėra atsakymas apie kūdikį"
+          "text": "Kaip saugoti prisiminimą?"
         },
         {
           "type": "paragraph",
-          "text": "Memocasting turi atskirą šeimos rinkinio aprašą, tačiau vien pavadinimas „šeimai“ nepatvirtina, kad rinkinys tinka kūdikio pėdutėms. Neperkeliame poros ar šeimos rinkinio naudojimo į šį puslapį ir nenustatome tinkamumo pagal nuotraukoje matomą liejinio dydį. Šių klausimų turi pakakti konkretaus produkto informacijai patikrinti, o ne naudojimo būdui išgalvoti."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Klausimą susiekite su turimu gaminiu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei jau turite rinkinį, pasižymėkite pavadinimą, pakelių žymėjimą ir instrukcijos versiją. Instrukcijos puslapis padės atskirti produkto dokumentus nuo bendro internetinio vaizdo įrašo. Nepavykusio liejinio pagalbos aprašas skirtas pastebėjimams surinkti; jis taip pat nepakeičia tinkamumo ar saugos dokumentų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kontaktų puslapyje nurodykite, kokio konkretaus gaminio informaciją norite patikrinti. Dabartinė vietinė forma skirta bandymui, tikras pagalbos laiškų gavimas dar nepriimtas. Kai turėsime patvirtintą pėdučių rinkinio pasiūlymą ir jo dokumentus, šiame adrese galėsime aiškiai pateikti faktus. Kol jų nėra, nežadame nei prekės prieinamumo, nei naudojimo tinkamumo."
+          "text": "Baigtą, išdžiūvusį liejinį laikykite ant stabilaus paviršiaus, sausoje vietoje. Saugokite nuo kritimo ir smūgių. Jei planuojate dažyti, vadovaukitės liejimo medžiagų ir dažų naudojimo instrukcijomis."
         }
       ],
       "publishAt": "2026-10-12T01:37:37.158Z",
       "media": [
         {
-          "id": "80ee3c1a-88a2-445b-9aef-e01f7870f223",
-          "src": "/content-assets/memocasting/80ee3c1a-88a2-445b-9aef-e01f7870f223.webp",
-          "alt": "Du pėdučių liejiniai rožiniame ir žydrame fone.",
-          "width": 533,
-          "height": 533,
-          "credit": "Liejinių pavyzdys; produkto tinkamumas ir pardavimo duomenys dar nepatvirtinti.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "id": "1ae0d0cf-a5b5-4045-85d9-98942ee4c65f",
+          "src": "/content-assets/memocasting/1ae0d0cf-a5b5-4045-85d9-98942ee4c65f.webp",
+          "alt": "Balti kūdikio pėdučių liejiniai ant tamsaus paviršiaus.",
+          "width": 600,
+          "height": 600,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "2569abae-db2f-475b-a9ca-0c55cc4152de"
         },
         {
-          "id": "7a7f154b-a4ee-43b1-a0bf-a236766e384a",
-          "src": "/content-assets/memocasting/7a7f154b-a4ee-43b1-a0bf-a236766e384a.webp",
-          "alt": "Du pėdučių liejiniai rožiniame ir žydrame fone.",
+          "id": "506abfd1-a150-4ab3-a521-0bbf60433e25",
+          "src": "/content-assets/memocasting/506abfd1-a150-4ab3-a521-0bbf60433e25.webp",
+          "alt": "Balti kūdikio pėdučių liejiniai ant tamsaus paviršiaus.",
           "width": 360,
           "height": 360,
-          "credit": "Liejinių pavyzdys; produkto tinkamumas ir pardavimo duomenys dar nepatvirtinti.",
-          "rights": "Savininko pateiktas vaizdas ir tiesioginis leidimas naudoti svetainės pamatui 2026-10-12; ne kliento atsiliepimo ar nepriklausomo produkto bandymo įrodymas."
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "2569abae-db2f-475b-a9ca-0c55cc4152de"
         }
       ],
       "links": [
         {
-          "targetPageId": "29842385-77b0-432e-9dea-fc4106ed630f",
-          "label": "Instrukcijos puslapis"
-        },
-        {
-          "targetPageId": "23796e2f-040d-40a5-86fa-9630580f1fc7",
-          "label": "pagalbos aprašas"
+          "targetPageId": "6138f9e6-1112-4c97-8354-e007633f3675",
+          "label": "Kūdikio įspaudų rinkinys su rėmeliu"
         },
         {
           "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
-          "label": "Kontaktų puslapyje"
+          "label": "susisiekite"
         }
       ],
       "id": "ef4ab657-b8db-4c57-abe0-3f5c395be67e",
-      "revisionHash": "7ac7dfe371c95f75bdc1056a03f677ed222f48f288066e3f0ce70ac5c9be2b74",
+      "revisionHash": "aa8a2115d34b5e67f54b7cf88c9b068e2c88e1148a6b4821429a879932d981f8",
       "approval": {
         "status": "approved",
-        "revisionHash": "7ac7dfe371c95f75bdc1056a03f677ed222f48f288066e3f0ce70ac5c9be2b74",
-        "approvedAt": "2026-10-12T01:38:30.423Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "aa8a2115d34b5e67f54b7cf88c9b068e2c88e1148a6b4821429a879932d981f8",
+        "approvedAt": "2026-10-23T07:09:30.174Z",
+        "actorId": "codex-catalogue-20261023"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/seimos-rinkinys",
+      "title": "Mamos ir vaiko rankų liejimo rinkinys",
+      "description": "Mamos ir vaiko rankų kompozicijai skirtas rinkinys, išsaugantis jūsų prisilietimo formą. Dėl šio rinkinio įsigijimo susisiekite su mumis.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mamos ir vaiko prisilietimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mamos ir vaiko rinkinys skirtas bendram rankų liejiniui sukurti. Suaugusio žmogaus ir mažesnės rankos kompozicija tampa asmenišku šeimos prisiminimu, kurį galima laikyti namuose ar padovanoti artimajam."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotraukose matote šios prekės ir liejinių pavyzdžius iš ankstesnio Memocasting katalogo. Dėl šiuo metu siūlomos komplektacijos ir įsigijimo susisiekite su mumis prieš planuodami veiklą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip kuriama kompozicija?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia pasirenkama patogi rankų padėtis. Alginato mišinyje suformuojamas rankų atspaudas, o rankas ištraukus į formą pilamas paruoštas gipso mišinys. Sustingęs liejinys išimamas, išvalomas ir paliekamas džiūti pagal konkretaus rinkinio instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pradėdami perskaitykite instrukciją, pasiruoškite darbo vietą ir išbandykite pozą be mišinio. Vaiko dalyvavimą turi prižiūrėti suaugęs žmogus. Rankų padėtis turi būti patogi; rankos neturėtų būti laikomos per jėgą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išsirinkti tinkamą rinkinį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinio tinkamumas priklauso nuo dalyvių rankų dydžio ir norimos kompozicijos. Parašykite, kokį liejinį įsivaizduojate, ir padėsime pasirinkti iš šiuo metu siūlomų rinkinių. Prieš pirkdami taip pat galite palyginti poros rinkinį ir šeimos rinkinį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Baigto liejinio apdaila"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liejinį dažykite tik jam išdžiūvus. Spalvą ir priemones rinkitės pagal naudojamų medžiagų instrukciją. Skulptūrai parinkite stabilų, sausą paviršių ir saugokite smulkias detales nuo smūgių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Norite užsisakyti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėl šio rinkinio kainos, komplektacijos ir pristatymo susisiekite su Memocasting. Šiame puslapyje mokėjimas nepriimamas, kol nepateiktas konkretus dabartinis pasiūlymas."
+        }
+      ],
+      "publishAt": "2026-10-11T23:02:08.709Z",
+      "media": [
+        {
+          "id": "044ef938-b3f8-44ff-b507-540df7fc3d2c",
+          "src": "/content-assets/memocasting/044ef938-b3f8-44ff-b507-540df7fc3d2c.webp",
+          "alt": "Ankstesnio mamos ir vaiko rinkinio pakuotės ir liejimo reikmenys.",
+          "width": 960,
+          "height": 958,
+          "credit": "Ankstesnės komplektacijos nuotrauka; dabartinį pasiūlymą patikslinkite prieš užsakymą.",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d3503d25-4fbe-4312-8fcb-0bf7588e0e30"
+        },
+        {
+          "id": "97a2748b-dc99-4f8e-865f-c9277fe84c18",
+          "src": "/content-assets/memocasting/97a2748b-dc99-4f8e-865f-c9277fe84c18.webp",
+          "alt": "Ankstesnio mamos ir vaiko rinkinio pakuotės ir liejimo reikmenys.",
+          "width": 800,
+          "height": 798,
+          "credit": "Ankstesnės komplektacijos nuotrauka; dabartinį pasiūlymą patikslinkite prieš užsakymą.",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d3503d25-4fbe-4312-8fcb-0bf7588e0e30"
+        },
+        {
+          "id": "0871bcc5-bdfd-4056-8554-f0eb0fd0c455",
+          "src": "/content-assets/memocasting/0871bcc5-bdfd-4056-8554-f0eb0fd0c455.webp",
+          "alt": "Ankstesnio mamos ir vaiko rinkinio pakuotės ir liejimo reikmenys.",
+          "width": 640,
+          "height": 639,
+          "credit": "Ankstesnės komplektacijos nuotrauka; dabartinį pasiūlymą patikslinkite prieš užsakymą.",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d3503d25-4fbe-4312-8fcb-0bf7588e0e30"
+        },
+        {
+          "id": "d51cd295-e67e-46b9-867d-ffc071afad37",
+          "src": "/content-assets/memocasting/d51cd295-e67e-46b9-867d-ffc071afad37.webp",
+          "alt": "Ankstesnio mamos ir vaiko rinkinio pakuotės ir liejimo reikmenys.",
+          "width": 360,
+          "height": 359,
+          "credit": "Ankstesnės komplektacijos nuotrauka; dabartinį pasiūlymą patikslinkite prieš užsakymą.",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "d3503d25-4fbe-4312-8fcb-0bf7588e0e30"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "poros rinkinį"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "šeimos rinkinį"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
+        }
+      ],
+      "id": "abe335fd-2dd1-4ce3-8dee-1f4fb1f4346a",
+      "revisionHash": "75eb07c14430338747ce177ee82dccfc70bdf791ecbc50329dba0f8dfcd6a56e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "75eb07c14430338747ce177ee82dccfc70bdf791ecbc50329dba0f8dfcd6a56e",
+        "approvedAt": "2026-10-23T07:09:30.039Z",
+        "actorId": "codex-catalogue-20261023"
       }
     },
     {
@@ -28883,7 +29177,324 @@
         "approvedAt": "2026-10-15T08:45:47.143Z",
         "actorId": "codex-memocasting-date-only-launch-20261015"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/isdziovintas-uosinis-padeklas",
+      "title": "Išdžiovintas uosinis padėklas",
+      "description": "Natūralaus uosio padėklas rankų liejiniui eksponuoti. Šiuo metu išparduota.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Natūralaus medžio pagrindas jūsų liejiniui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Išdžiovintas uosinis padėklas skirtas rankų skulptūrai eksponuoti. Natūralus medienos raštas ir netaisyklingas kraštas papildo liejinį, o kiekvienas medžio pjūvis skiriasi savo išvaizda."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši prekė šiuo metu išparduota ir jos pridėti prie rinkinio negalima. Nuotraukose parodytas padėklo naudojimo pavyzdys su skulptūra; pati skulptūra nėra atskirai parduodamo padėklo dalis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dydis ir išvaizda"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ankstesniame šios prekės apraše nurodytas maždaug 21–24 cm skersmuo. Kadangi tai natūralus medienos gaminys, pjūvio forma ir raštas nėra vienodi. Jei prekė grįš į prekybą, prieš užsakymą patikrinkite aktualius konkretaus padėklo matmenis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Medienos priežiūra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Padėklą laikykite sausoje vidaus patalpoje. Staigūs drėgmės ir temperatūros pokyčiai gali paveikti natūralią medieną: ji gali keisti formą ar skilti. Venkite mirkymo ir tiesioginio karščio, dulkes valykite švelniai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš statydami skulptūrą įsitikinkite, kad ir padėklas, ir liejinys stabiliai remiasi į paviršių. Dėl šios prekės papildymo galite susisiekti su Memocasting."
+        }
+      ],
+      "publishAt": "2026-10-23T07:04:50.346Z",
+      "media": [
+        {
+          "id": "f7f47e57-87bd-4570-9710-29c55916bd2c",
+          "src": "/content-assets/memocasting/f7f47e57-87bd-4570-9710-29c55916bd2c.webp",
+          "alt": "Baltas rankų liejinys ant apvalaus uosinio padėklo su žievės kraštu.",
+          "width": 900,
+          "height": 900,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "a4a2ff59-cdd8-4599-a3c9-0ef4d35a6695"
+        },
+        {
+          "id": "87789e2a-fb8f-4a48-861e-22ff0ebd517a",
+          "src": "/content-assets/memocasting/87789e2a-fb8f-4a48-861e-22ff0ebd517a.webp",
+          "alt": "Baltas rankų liejinys ant apvalaus uosinio padėklo su žievės kraštu.",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "a4a2ff59-cdd8-4599-a3c9-0ef4d35a6695"
+        },
+        {
+          "id": "7f5b3480-99d7-4c53-9b01-de56ee6f33bd",
+          "src": "/content-assets/memocasting/7f5b3480-99d7-4c53-9b01-de56ee6f33bd.webp",
+          "alt": "Baltas rankų liejinys ant apvalaus uosinio padėklo su žievės kraštu.",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "a4a2ff59-cdd8-4599-a3c9-0ef4d35a6695"
+        },
+        {
+          "id": "bac16dec-df62-45ec-b776-5ad1714e50e0",
+          "src": "/content-assets/memocasting/bac16dec-df62-45ec-b776-5ad1714e50e0.webp",
+          "alt": "Baltas rankų liejinys ant apvalaus uosinio padėklo su žievės kraštu.",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "a4a2ff59-cdd8-4599-a3c9-0ef4d35a6695"
+        }
+      ],
+      "links": [],
+      "id": "0b3a627b-bbd5-44bd-bb76-116a3b4d7663",
+      "revisionHash": "e094bd15046f749862326837444dddf179bdc713f3a0776773ac6fa94df73a21",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e094bd15046f749862326837444dddf179bdc713f3a0776773ac6fa94df73a21",
+        "approvedAt": "2026-10-23T07:09:30.282Z",
+        "actorId": "codex-catalogue-20261023"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/kudiko-ispaudu-rinkinys-su-remeliu",
+      "title": "Kūdikio įspaudų rinkinys su rėmeliu",
+      "description": "Kūdikio rankytės ar pėdutės įspaudas ir nuotraukos viename rėmelyje. Šiuo metu išparduota.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Įspaudas ir nuotraukos vienoje vietoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kūdikio įspaudų rinkinys su rėmeliu skirtas rankytės ar pėdutės įspaudui išsaugoti ir derinti su vaiko nuotraukomis. Tai plokščio įspaudo gaminys, besiskiriantis nuo erdvinės gipso skulptūros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuo metu rinkinys išparduotas. Nuotraukose pateikiama ankstesnio katalogo prekė ir jos naudojimo pavyzdys. Dėl papildymo susisiekite su Memocasting; grįžimo į prekybą data nepaskelbta."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sukuriamas prisiminimas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal konkretaus rinkinio instrukciją paruošiama įspaudų masė ir išlyginamas jos paviršius. Tuomet suaugęs žmogus padeda padaryti rankytės ar pėdutės įspaudą. Masei išdžiūvus sudedamas rėmelis ir pridedamos jam tinkamo dydžio nuotraukos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš naudojimą perskaitykite medžiagų nurodymus ir įvertinkite jų tinkamumą. Neskubėkite surinkti rėmelio, kol įspaudas nėra išdžiūvęs. Naudojimo ir džiūvimo laiką tikrinkite konkretaus rinkinio instrukcijoje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasiruošti nuotraukas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Išsirinkite aiškias, jums svarbias nuotraukas ir prieš spausdindami patikrinkite rėmelio angų dydį. Įspaudas ir nuotraukos gali priminti tą patį kūdikystės laikotarpį, pavyzdžiui, pirmą bendrą šeimos fotosesiją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur laikyti rėmelį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parinkite stabilią vietą, kur rėmelis nenukris ir nesušlaps. Surinkite jį pagal instrukciją, o paviršių valykite tausodami įspaudą bei nuotraukas. Jei ieškote erdvinio rezultato, peržiūrėkite kūdikio pėdučių liejimo rinkinį."
+        }
+      ],
+      "publishAt": "2026-10-23T07:04:50.429Z",
+      "media": [
+        {
+          "id": "24253862-bc46-403d-8569-36ae7f0fa8fa",
+          "src": "/content-assets/memocasting/24253862-bc46-403d-8569-36ae7f0fa8fa.webp",
+          "alt": "Baltas rėmelis su rankytės ir pėdutės įspaudais bei kūdikio nuotraukomis.",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bc4ad31b-ec67-490e-ad3e-55e1dec765cc"
+        },
+        {
+          "id": "03c37f74-5ab9-42b6-a2a0-f46210d797fa",
+          "src": "/content-assets/memocasting/03c37f74-5ab9-42b6-a2a0-f46210d797fa.webp",
+          "alt": "Baltas rėmelis su rankytės ir pėdutės įspaudais bei kūdikio nuotraukomis.",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bc4ad31b-ec67-490e-ad3e-55e1dec765cc"
+        },
+        {
+          "id": "d20961fc-8657-4fb6-a801-933cd7c9abfc",
+          "src": "/content-assets/memocasting/d20961fc-8657-4fb6-a801-933cd7c9abfc.webp",
+          "alt": "Baltas rėmelis su rankytės ir pėdutės įspaudais bei kūdikio nuotraukomis.",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "bc4ad31b-ec67-490e-ad3e-55e1dec765cc"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
+        }
+      ],
+      "id": "6138f9e6-1112-4c97-8354-e007633f3675",
+      "revisionHash": "e3e8ac99cbf930d9ae938b7bd231e737a3c03f58de1fca977ca230efe34e865d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e3e8ac99cbf930d9ae938b7bd231e737a3c03f58de1fca977ca230efe34e865d",
+        "approvedAt": "2026-10-23T07:09:30.393Z",
+        "actorId": "codex-catalogue-20261023"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "product",
+      "slug": "products/alginato-papildymas-1100g-keturiu-ranku-rinkiniui",
+      "title": "Alginato papildymas šeimos rinkiniui",
+      "description": "Alginato papildymas šeimos rankų kompozicijos formai. Prieš užsakymą patikslinkite turimą rinkinį ir reikalingas medžiagas.",
+      "intent": "Konkrečios prekės paskirtis, pasirinkimas, paruošimas ir dabartinė įsigijimo būsena.",
+      "body": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Naujas bandymas su šeimos rinkiniu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alginato papildymas šeimos rinkiniui skirtas naujai rankų atspaudo formai sukurti. Jis gali būti aktualus planuojant kitą kompoziciją arba kartojant liejimą su jau turimu rinkiniu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Papildymas nėra visas šeimos rinkinys. Prieš užsakydami įvertinkite, ar turite gipso, tinkamą indą bei visas kitas konkretaus liejimo instrukcijoje nurodytas priemones."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti tinkamą papildymą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parašykite, kurį rinkinį turite ir kokį liejinį planuojate. Skirtingų dydžių rankos bei jų padėtis užima skirtingą vietą, todėl vien dalyvių skaičiaus nepakanka reikalingam medžiagų kiekiui nustatyti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pirkdami susisiekite su Memocasting dėl dabartinio papildymo kiekio, kainos ir pristatymo. Senasis puslapio adresas išsaugotas, tačiau jame esantys skaičiai nėra dabartinės komplektacijos patvirtinimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasiruošimas liejimui"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Išbandykite kompoziciją be mišinio ir įsitikinkite, kad dalyviams patogu.",
+            "Patikrinkite turimo gipso bei kitų reikmenų kiekį ir pasiruoškite darbo vietą.",
+            "Vadovaukitės naudojamoms medžiagoms skirta instrukcija. Kitų rinkinių proporcijų ar stingimo laiko neperkelkite automatiškai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada rinktis pilną komplektą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei reikia visų pagrindinių medžiagų, peržiūrėkite šeimos rinkinį. Jame yra po du alginato ir gipso pakelius, kibiras, maišymo pagaliukai bei balti dažai. Dabartinę kainą ir galimus pasirinkimus matysite prekės puslapyje."
+        }
+      ],
+      "publishAt": "2026-10-23T07:04:50.533Z",
+      "media": [
+        {
+          "id": "d289dd53-afdc-4c07-a9ff-c87884ce21af",
+          "src": "/content-assets/memocasting/d289dd53-afdc-4c07-a9ff-c87884ce21af.webp",
+          "alt": "Dvi baltos alginato papildymo šeimos rinkiniui pakuotės.",
+          "width": 1148,
+          "height": 1148,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "ac414787-db4e-43d9-9116-f7d5c0ad7fd0"
+        },
+        {
+          "id": "7206c4c2-eae5-477e-bcc4-5b2856269c75",
+          "src": "/content-assets/memocasting/7206c4c2-eae5-477e-bcc4-5b2856269c75.webp",
+          "alt": "Dvi baltos alginato papildymo šeimos rinkiniui pakuotės.",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "ac414787-db4e-43d9-9116-f7d5c0ad7fd0"
+        },
+        {
+          "id": "1210a30b-c74c-45b5-85e1-f8e8fe10b054",
+          "src": "/content-assets/memocasting/1210a30b-c74c-45b5-85e1-f8e8fe10b054.webp",
+          "alt": "Dvi baltos alginato papildymo šeimos rinkiniui pakuotės.",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "ac414787-db4e-43d9-9116-f7d5c0ad7fd0"
+        },
+        {
+          "id": "283602ff-eb3f-4fc0-8383-d36234f70efd",
+          "src": "/content-assets/memocasting/283602ff-eb3f-4fc0-8383-d36234f70efd.webp",
+          "alt": "Dvi baltos alginato papildymo šeimos rinkiniui pakuotės.",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Savininko pateiktos Memocasting prekės nuotraukos ir jo užsakytas atkūrimas 2026-10-23. Ankstesnio katalogo vaizdas nėra naujas atsiliepimas ar naudojimo bandymas.",
+          "familyId": "ac414787-db4e-43d9-9116-f7d5c0ad7fd0"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "šeimos rinkinį"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
+        }
+      ],
+      "id": "cb5a2fef-bfb5-430e-a141-612b007bce57",
+      "revisionHash": "909d5e47c77dd39b710260cf601bb873e1c90db01829012d7fc59d803e6fe4d0",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "909d5e47c77dd39b710260cf601bb873e1c90db01829012d7fc59d803e6fe4d0",
+        "approvedAt": "2026-10-23T07:09:30.608Z",
+        "actorId": "codex-catalogue-20261023"
+      }
     }
   ],
-  "generatedAt": "2026-10-22T19:21:48.915Z"
+  "generatedAt": "2026-10-23T07:09:30.963Z"
 }

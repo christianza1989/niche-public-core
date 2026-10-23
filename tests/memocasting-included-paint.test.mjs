@@ -3,7 +3,9 @@ import {memoHomepageAdmitted,memoHomepageStory} from '../lib/memocasting-homepag
 test('both approved kits in all four languages include paint and the active homepage matches its unchanged structure',()=>{
  const labels={lt:'Balti dažai.',pl:'Biała farba.',lv:'Balta krāsa.',et:'Valge värv.'};let count=0;
  for(const page of pkg.pages){const language=/^(pl|lv|et)(?:\/|$)/.exec(page.slug)?.[1]??'lt';if(!/^(?:pl\/|lv\/|et\/)?(?:rinkinys-porai|seimos-rinkinys|products\/liejimo-rinkinys-porai|products\/seimos-rinkinys-1)$/.test(page.slug))continue;
-  const items=page.body.find(b=>b.type==='list').items;assert.equal(items.filter(x=>x===labels[language]).length,1,page.slug);count++;
+  // A process checklist may precede the contents. Check the included paint
+  // across lists without treating whichever list comes first as a bill of materials.
+  const items=page.body.flatMap(b=>b.type==='list'?b.items:[]);assert.equal(items.filter(x=>x===labels[language]||(language==='lt'&&x==='Balti dažai arba pasirinkta kita dažų spalva.')).length,1,page.slug);count++;
  }
  assert.equal(count,8);assert.ok(memoHomepageAdmitted(pkg.pages.find(p=>p.slug==='')));
  assert.ok(memoHomepageStory.includes('Balti dažai įeina į poros ir šeimos rinkinius.'));
