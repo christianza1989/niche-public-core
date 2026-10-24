@@ -8081,12 +8081,12 @@
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/mini",
       "title": "BASIC MINI medicininiai vežimėliai",
-      "description": "BASIC MINI medicininiai vežimėliai gydymo ir slaugos įstaigoms: žemi ir aukšti modeliai, stalčių rinkiniai, dokumentų stalčiai bei variantai su rolete.",
+      "description": "BASIC MINI medicininiai vežimėliai gydymo ir slaugos įstaigoms: žemi ir aukšti modeliai, stalčių rinkiniai, dokumentų stalčiai bei variantai su ritininėmis durelėmis.",
       "intent": "Klaro produktų grupė: MINI serija",
       "body": [
         {
           "type": "paragraph",
-          "text": "MINI medicininiai vežimėliai iš BASIC MINI kategorijos apima žemus ir aukštus modelius su skirtingais stalčių rinkiniais, specialiu dokumentų stalčiumi arba rakinama rolete."
+          "text": "MINI medicininiai vežimėliai iš BASIC MINI kategorijos apima žemus ir aukštus modelius su skirtingais stalčių rinkiniais, specialiu dokumentų stalčiumi arba rakinamomis ritininėmis durelėmis."
         },
         {
           "type": "heading",
@@ -8112,7 +8112,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Stalčių išdėstymas, dokumentų laikymas ir roletės"
+          "text": "Stalčių išdėstymas, dokumentų laikymas ir ritininės durelės"
         },
         {
           "type": "paragraph",
@@ -8123,7 +8123,7 @@
           "items": [
             "Stalčiai ir atvira apatinė lentyna: žemas ZV3200N/PZ ir aukštas ZV3250N/PZ modeliai turi po vieną 3/4 M ir 3/4 L dydžio stalčių bei vieną stacionarią apatinę lentyną (dugną), kurios leistina apkrova yra 30 kg.",
             "Komplektacija su dokumentų stalčiumi: ZV3263N/PZ modelyje yra po vieną 3/4 M, L ir XL dydžio stalčių, o dokumentų skirstymui XL stalčius turi išimamas pertvaras.",
-            "Variantai su rakinama rolete: ZV3270N/PZ ir ZV3271N/PZ modeliai turi rakinamą ABS plastiko roletę ir dvi stacionarias lentynas. Šie du vežimėliai tarpusavyje skiriasi stalčių deriniu: ZV3270N/PZ turi po vieną M ir L dydžio stalčių, o ZV3271N/PZ – du vienodus M dydžio stalčius."
+            "Variantai su rakinamomis ritininėmis durelėmis: ZV3270N/PZ ir ZV3271N/PZ modeliai turi rakinamas ABS plastiko ritinines dureles ir dvi stacionarias lentynas. Šie du vežimėliai tarpusavyje skiriasi stalčių deriniu: ZV3270N/PZ turi po vieną M ir L dydžio stalčių, o ZV3271N/PZ – du vienodus M dydžio stalčius."
           ]
         }
       ],
@@ -8191,12 +8191,12 @@
         }
       ],
       "id": "f184baae-7b30-48e1-9478-07734f3c2c82",
-      "revisionHash": "a2642dd28247929d979376a822977c6d9c249892f7fa3568e64e0c299d687a03",
+      "revisionHash": "7022c1f5b7cc306f4a829cd218fb53efec52f77f9fcac42db2ce252252a7cdee",
       "approval": {
         "status": "approved",
-        "revisionHash": "a2642dd28247929d979376a822977c6d9c249892f7fa3568e64e0c299d687a03",
-        "approvedAt": "2026-10-24T15:46:40.233Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "7022c1f5b7cc306f4a829cd218fb53efec52f77f9fcac42db2ce252252a7cdee",
+        "approvedAt": "2026-10-24T19:54:27.477Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -8876,8 +8876,8 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic-komplektacijos/mini/aukstas-105-cm",
-      "title": "Aukšti MINI vežimėliai",
-      "description": "Aukšti MINI vežimėliai (63×52×105 cm) su 3/4 stalčiais gydymo įstaigoms.",
+      "title": "Aukštų BASIC MINI vežimėlių komplektacijų pavyzdžiai",
+      "description": "Aukšti BASIC MINI vežimėliai (63×52×105 cm) su 3/4 stalčiais gydymo įstaigoms.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105 cm)",
       "body": [
         {
@@ -8995,20 +8995,20 @@
         }
       ],
       "id": "771c3979-901d-475c-8fa3-3cab8480bf1b",
-      "revisionHash": "6f9cda791644faae44d6fd8a343150f4b84436a1b9a30347d678e4a13b4eaa15",
+      "revisionHash": "63430b3a2b35fee7d94491cefbac6963916b08a0209bd34bc9ff1d4d849be287",
       "approval": {
         "status": "approved",
-        "revisionHash": "6f9cda791644faae44d6fd8a343150f4b84436a1b9a30347d678e4a13b4eaa15",
-        "approvedAt": "2026-10-24T15:45:39.546Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "63430b3a2b35fee7d94491cefbac6963916b08a0209bd34bc9ff1d4d849be287",
+        "approvedAt": "2026-10-24T19:54:26.436Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/mini/aukstas-105-cm",
-      "title": "Aukšti MINI vežimėliai – 105 cm modelių stalčių komplektacijos",
-      "description": "Aukšti MINI vežimėliai (105 cm) gydymo ir slaugos įstaigoms. Palyginkite vienodų bei mišrių 3/4 stalčių rinkinius, skardinius stalčius ir MS krepšius.",
+      "title": "Aukšti BASIC MINI vežimėliai (105 cm) – bazinė medicininių vežimėlių grupė",
+      "description": "Aukšti BASIC MINI vežimėliai (105 cm) gydymo ir slaugos įstaigoms. Palyginkite vienodų bei mišrių 3/4 stalčių rinkinius, skardinius stalčius ir MS krepšius.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105 cm)",
       "body": [
         {
@@ -9116,12 +9116,12 @@
         }
       ],
       "id": "ada58b55-baaf-406b-8265-d2d9088127bb",
-      "revisionHash": "f9b06e032c1cc6ae117ad9e27149fc9fb344463a74910b250ced8f5fe78cbe36",
+      "revisionHash": "93dc480d8af4bd085e317397591d9c47ea22942eb563e2eacfa06dff8612a3a4",
       "approval": {
         "status": "approved",
-        "revisionHash": "f9b06e032c1cc6ae117ad9e27149fc9fb344463a74910b250ced8f5fe78cbe36",
-        "approvedAt": "2026-10-24T15:46:41.904Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "93dc480d8af4bd085e317397591d9c47ea22942eb563e2eacfa06dff8612a3a4",
+        "approvedAt": "2026-10-24T19:54:28.334Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -10854,8 +10854,8 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic-komplektacijos/mini",
-      "title": "MINI medicininiai vežimėliai",
-      "description": "MINI medicininiai vežimėliai su 63×52 cm baze ir 3/4 formato stalčiais.",
+      "title": "MINI BASIC medicininiai vežimėliai",
+      "description": "MINI BASIC medicininiai vežimėliai su 63×52 cm baze ir 3/4 formato stalčiais.",
       "intent": "Klaro produktų grupė: mini serija",
       "body": [
         {
@@ -10970,12 +10970,12 @@
         }
       ],
       "id": "04841cbf-9521-4fe6-931f-0658010902ec",
-      "revisionHash": "0f943c5e4a2393aa02514baac94de6fe642a6b11c8c712aaf2837e5224514510",
+      "revisionHash": "d3a5293276000bb631d46fb8545763f117912d39a4b3fe521d277c5eb27eab34",
       "approval": {
         "status": "approved",
-        "revisionHash": "0f943c5e4a2393aa02514baac94de6fe642a6b11c8c712aaf2837e5224514510",
-        "approvedAt": "2026-10-24T15:45:37.758Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "d3a5293276000bb631d46fb8545763f117912d39a4b3fe521d277c5eb27eab34",
+        "approvedAt": "2026-10-24T19:54:25.704Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -11723,7 +11723,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "BASIC STANDARD vežimėliai su ritininėmis durelėmis – rakinami medicininiai vežimėliai su ABS roletu, skirti gydymo ir slaugos įstaigoms, kurioms reikia uždaros daiktų ir dokumentacijos laikymo erdvės."
+          "text": "BASIC STANDARD vežimėliai su ritininėmis durelėmis – rakinami medicininiai vežimėliai su ABS ritininėmis durelėmis, skirti gydymo ir slaugos įstaigoms, kurioms reikia uždaros daiktų ir dokumentacijos laikymo erdvės."
         },
         {
           "type": "heading",
@@ -11821,12 +11821,12 @@
         }
       ],
       "id": "2eba143b-7092-4226-8bec-3711a62db563",
-      "revisionHash": "43fb9151fdeedd096490f1425a93204933b073d7d9c0bdcc8ca7b6ccc7ce94df",
+      "revisionHash": "8001064903bcc04b8af77a9779312f39af9dcd0965e99ca13859a8371d2ee6d2",
       "approval": {
         "status": "approved",
-        "revisionHash": "43fb9151fdeedd096490f1425a93204933b073d7d9c0bdcc8ca7b6ccc7ce94df",
-        "approvedAt": "2026-10-24T15:47:28.870Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "8001064903bcc04b8af77a9779312f39af9dcd0965e99ca13859a8371d2ee6d2",
+        "approvedAt": "2026-10-24T19:54:29.664Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -12635,8 +12635,8 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-vieta-dokumentams/aukstas-105-108-cm",
-      "title": "Aukšti STANDARD vežimėliai dokumentams",
-      "description": "Aukšti STANDARD vežimėliai dokumentams (105 ir 108 cm): palyginkite versijas su XL stalčiais, rakinama ABS žaliuze ar durelėmis bei S, M, L komplektacijomis.",
+      "title": "Aukšti BASIC linijos STANDARD vežimėliai dokumentams",
+      "description": "Aukšti BASIC linijos STANDARD vežimėliai dokumentams (105 ir 108 cm): palyginkite versijas su XL stalčiais, rakinama ABS žaliuze ar durelėmis bei S, M, L komplektacijomis.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105/108 cm)",
       "body": [
         {
@@ -12734,12 +12734,12 @@
         }
       ],
       "id": "370c48f8-ad40-45c0-8664-f338449b77bf",
-      "revisionHash": "8bd8948af219e2d54a52f886b3f9c5228572bd4cda85787f5359cc972f934dbc",
+      "revisionHash": "9c56af36c65838c66abe16829eb93e6735c0c28cdeb27f5cd18ecc022f6e899a",
       "approval": {
         "status": "approved",
-        "revisionHash": "8bd8948af219e2d54a52f886b3f9c5228572bd4cda85787f5359cc972f934dbc",
-        "approvedAt": "2026-10-24T15:47:38.211Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "9c56af36c65838c66abe16829eb93e6735c0c28cdeb27f5cd18ecc022f6e899a",
+        "approvedAt": "2026-10-24T19:54:32.226Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -12838,7 +12838,7 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-lentynomis/aukstas-105-cm",
-      "title": "Aukšti vežimėliai su lentynomis",
+      "title": "Aukšti vežimėliai su lentynomis BASIC",
       "description": "105 cm aukščio BASIC STANDARD aukšti vežimėliai su lentynomis: palyginkite komplektacijas su 2–5 fiksuotomis lentynomis ir durelių tipais.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105 cm)",
       "body": [
@@ -12932,20 +12932,20 @@
         }
       ],
       "id": "81f45da1-3595-4297-a5b8-3d9788dc6088",
-      "revisionHash": "ddbbfffe54ab634adb4a8d59d3b551b4da2bd2db8f2bb55c967a162cfe8a0998",
+      "revisionHash": "626e69544d5c89014bdc3f80ad808373b0beb23aca8a852af3ab3a2b2d2e1ceb",
       "approval": {
         "status": "approved",
-        "revisionHash": "ddbbfffe54ab634adb4a8d59d3b551b4da2bd2db8f2bb55c967a162cfe8a0998",
-        "approvedAt": "2026-10-24T15:47:24.806Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "626e69544d5c89014bdc3f80ad808373b0beb23aca8a852af3ab3a2b2d2e1ceb",
+        "approvedAt": "2026-10-24T19:54:29.047Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-ritininemis-durelemis/zemas-89-cm",
-      "title": "Žemi vežimėliai su ritininėmis durelėmis",
-      "description": "89 cm aukščio žemi vežimėliai su ritininėmis durelėmis gydymo ir slaugos įstaigoms. Palyginkite 5 komplektacijas pagal stalčių dydžius ir kreipiamųjų pozicijas.",
+      "title": "BASIC linijos žemi vežimėliai su ritininėmis durelėmis",
+      "description": "89 cm aukščio BASIC linijos žemi vežimėliai su ritininėmis durelėmis gydymo ir slaugos įstaigoms. Palyginkite 5 komplektacijas pagal stalčių dydžius ir kreipiamųjų pozicijas.",
       "intent": "Klaro produktų grupė: Žemas variantas (aukštis 89 cm)",
       "body": [
         {
@@ -13033,19 +13033,19 @@
         }
       ],
       "id": "d1eb50ae-3cc3-4148-9597-64dbcff270ac",
-      "revisionHash": "547e0f04370b626f64f68c497bec1db4497d2b3b59bf5f7f478c9ad82975b4de",
+      "revisionHash": "38eed824add7e5de929d68839d77b00a90fa112cf6d56257d4fcd4cc66a4ff1b",
       "approval": {
         "status": "approved",
-        "revisionHash": "547e0f04370b626f64f68c497bec1db4497d2b3b59bf5f7f478c9ad82975b4de",
-        "approvedAt": "2026-10-24T15:47:32.623Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "38eed824add7e5de929d68839d77b00a90fa112cf6d56257d4fcd4cc66a4ff1b",
+        "approvedAt": "2026-10-24T19:54:31.096Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-ritininemis-durelemis/aukstas-105-cm",
-      "title": "Aukšti vežimėliai su ritininėmis durelėmis",
+      "title": "BASIC linijos aukšti vežimėliai su ritininėmis durelėmis",
       "description": "105 cm aukščio BASIC STANDARD vežimėliai su rakinamomis ABS ritininėmis durelėmis: palyginkite vidaus komplektacijas su stalčiais, kreipiamosiomis ar lentynomis.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105 cm)",
       "body": [
@@ -13154,12 +13154,12 @@
         }
       ],
       "id": "619e7e12-a94e-410b-8a02-ea9b44fb7c6a",
-      "revisionHash": "46e9d1de6f55caa6aebccc264e260bb2623cc120bb02dca07997757371487e2d",
+      "revisionHash": "3ee921bae444f4e74e6363be0b4fe1d40137cb447da80455655310a4b861f06f",
       "approval": {
         "status": "approved",
-        "revisionHash": "46e9d1de6f55caa6aebccc264e260bb2623cc120bb02dca07997757371487e2d",
-        "approvedAt": "2026-10-24T15:47:30.745Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "3ee921bae444f4e74e6363be0b4fe1d40137cb447da80455655310a4b861f06f",
+        "approvedAt": "2026-10-24T19:54:30.344Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -16226,7 +16226,7 @@
       "type": "faq",
       "slug": "kategorijos/infuflex-sulankstomas-infuziju-stovas",
       "title": "Sulankstomas infuzijų stovas InfuFlex išvažiuojamosioms paslaugoms ir gelbėtojams",
-      "description": "Pernešamas sulankstomas infuzijų stovas InfuFlex (NEREZ1006*): 197 cm aukštis darbinėje būsenoje, 76 x 13 x 13 cm sulankstytas, 5 kg su dėklu.",
+      "description": "Pernešamas sulankstomas infuzijų stovas InfuFlex (NEREZ1006): 197 cm aukštis darbinėje būsenoje, 76 x 13 x 13 cm sulankstytas, 5 kg su dėklu.",
       "intent": "Klaro produktų grupė: InfuFlex – sulankstomas infuzijų stovas gelbėjimo tarnyboms ir išvažiuojamųjų paslaugų darbuotojams",
       "body": [
         {
@@ -16240,7 +16240,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pagrindinis šios kategorijos sprendimas – išardoma konstrukcija, kurią po procedūros galima kompaktiškai supakuoti į komplekte esantį laikymo dėklą. Vertinant, kaip įranga tilps transporto priemonėje ar sandėliavimo vietoje ir koks bus jos aukštis naudojimo metu, svarbu palyginti NEREZ1006* modelio parametrus abiejose būsenose:"
+          "text": "Pagrindinis šios kategorijos sprendimas – išardoma konstrukcija, kurią po procedūros galima kompaktiškai supakuoti į komplekte esantį laikymo dėklą. Vertinant, kaip įranga tilps transporto priemonėje ar sandėliavimo vietoje ir koks bus jos aukštis naudojimo metu, svarbu palyginti NEREZ1006 modelio parametrus abiejose būsenose:"
         },
         {
           "type": "list",
@@ -16314,12 +16314,12 @@
         }
       ],
       "id": "f5c15774-f5a8-406d-bd92-8be52105a5da",
-      "revisionHash": "2960053ab5b4c0ba59cdeb38080f0cbd33e9705f46697d8327b85ecaa8a6fb7d",
+      "revisionHash": "0c52f13923fe95e8da4a0669d570e8d7c3612a3f6e7b649c48dbdaa5298870b5",
       "approval": {
         "status": "approved",
-        "revisionHash": "2960053ab5b4c0ba59cdeb38080f0cbd33e9705f46697d8327b85ecaa8a6fb7d",
-        "approvedAt": "2026-10-24T15:44:00.774Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "0c52f13923fe95e8da4a0669d570e8d7c3612a3f6e7b649c48dbdaa5298870b5",
+        "approvedAt": "2026-10-24T19:54:22.883Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -16457,10 +16457,10 @@
         {
           "type": "list",
           "items": [
-            "Pakėlimo būdu ir darbiniu aukščiu. Galima rinktis rankinį, pneumatinį (pavyzdžiui, NEREZ 1130) arba hidraulinį aukščio reguliavimą. Septynių modelių darbinis aukštis reguliuojamas 90–130 cm intervale. Išimtis yra rankinio pakėlimo NEREZ 1101, kurio darbinis aukštis siekia 65–100 cm.",
-            "Vidiniais padėklo matmenimis. Pagal poreikį pasirenkamas 58×42 cm (pavyzdžiui, NEREZ 1120 ar rankinio pakėlimo NEREZ 1135), didesnis 65×48 cm (pavyzdžiui, NEREZ 1121) arba didžiausias 100×57 cm vidinių matmenų nuimamas padėklas, kurį turi NEREZ 1125 modelis.",
+            "Pakėlimo būdu ir darbiniu aukščiu. Galima rinktis rankinį, pneumatinį (pavyzdžiui, NEREZ1130) arba hidraulinį aukščio reguliavimą. Septynių modelių darbinis aukštis reguliuojamas 90–130 cm intervale. Išimtis yra rankinio pakėlimo NEREZ1101, kurio darbinis aukštis siekia 65–100 cm.",
+            "Vidiniais padėklo matmenimis. Pagal poreikį pasirenkamas 58×42 cm (pavyzdžiui, NEREZ 1120 ar rankinio pakėlimo NEREZ1135), didesnis 65×48 cm (pavyzdžiui, NEREZ 1121) arba didžiausias 100×57 cm vidinių matmenų nuimamas padėklas, kurį turi NEREZ 1125 modelis.",
             "Padėklo pasukimu. Daugumos 90–130 cm aukščio modelių nuimamas padėklas sukasi 360° kampu ir turi fiksavimo funkciją. Jei reikalingas kitoks pasukimo kampas, NEREZ 1114 modelio nuimamas padėklas sukamas 90° kampu į abi puses.",
-            "Važiuoklės forma. Priklausomai nuo to, kaip stalelį planuojama pastatyti prie kitos įrangos, pasirenkama bazės konstrukcija. Dauguma modelių turi X tipo važiuoklę, žemesnis NEREZ 1101 gaminamas su U tipo, NEREZ 1113 – su Y tipo, o NEREZ 1114 – su T tipo važiuokle."
+            "Važiuoklės forma. Priklausomai nuo to, kaip stalelį planuojama pastatyti prie kitos įrangos, pasirenkama bazės konstrukcija. Dauguma modelių turi X tipo važiuoklę, žemesnis NEREZ1101 gaminamas su U tipo, NEREZ 1113 – su Y tipo, o NEREZ 1114 – su T tipo važiuokle."
           ]
         },
         {
@@ -16470,7 +16470,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Renkantis stalelį skyriui, pirmiausia įvertinkite reikiamą darbinį aukštį: jei reikalingas žemesnis variantas (65–100 cm) su U tipo važiuokle, tiks NEREZ 1101. Kiti septyni modeliai dirba 90–130 cm aukštyje, todėl juos rinkitės pagal tai, kokio pločio nuimamo padėklo reikia (58×42 cm, 65×48 cm ar 100×57 cm) ir koks kėlimo mechanizmas – hidraulinis, pneumatinis ar rankinis – geriausiai atitinka skyriaus poreikius. Galiausiai suderinkite važiuoklės tipą (X, Y arba T) ir padėklo pasukimo būdą."
+          "text": "Renkantis stalelį skyriui, pirmiausia įvertinkite reikiamą darbinį aukštį: jei reikalingas žemesnis variantas (65–100 cm) su U tipo važiuokle, tiks NEREZ1101. Kiti septyni modeliai dirba 90–130 cm aukštyje, todėl juos rinkitės pagal tai, kokio pločio nuimamo padėklo reikia (58×42 cm, 65×48 cm ar 100×57 cm) ir koks kėlimo mechanizmas – hidraulinis, pneumatinis ar rankinis – geriausiai atitinka skyriaus poreikius. Galiausiai suderinkite važiuoklės tipą (X, Y arba T) ir padėklo pasukimo būdą."
         }
       ],
       "publishAt": "2026-10-09T15:11:10.793Z",
@@ -16552,12 +16552,12 @@
         }
       ],
       "id": "ee23a960-e033-4e75-a3e4-6dcb5f0316b3",
-      "revisionHash": "41812668cdaefb1e84ea9c33e7788e1bf24602521bafe28d86b3b007b35c465a",
+      "revisionHash": "ebd0c3b3466a9ce69cda9810189865e0bfb6a0f243f99ef9e17af01742a44452",
       "approval": {
         "status": "approved",
-        "revisionHash": "41812668cdaefb1e84ea9c33e7788e1bf24602521bafe28d86b3b007b35c465a",
-        "approvedAt": "2026-10-24T15:44:04.614Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "ebd0c3b3466a9ce69cda9810189865e0bfb6a0f243f99ef9e17af01742a44452",
+        "approvedAt": "2026-10-24T19:54:23.675Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -16565,12 +16565,12 @@
       "type": "faq",
       "slug": "kategorijos/spintos/iso-moduliniu-spintu-apzvalga",
       "title": "ISO modulinės spintos",
-      "description": "ISO modulinės spintos gydymo ir slaugos įstaigoms: pilko dažyto plieno BASIC, AISI 304 nerūdijančio plieno PROFI modeliai bei mobilios CN spintos su roletėmis.",
+      "description": "ISO modulinės spintos gydymo ir slaugos įstaigoms: pilko dažyto plieno BASIC, AISI 304 nerūdijančio plieno PROFI modeliai bei mobilios CN spintos su ritininėmis durelėmis.",
       "intent": "Klaro produktų grupė: ISO modulinių spintų apžvalga",
       "body": [
         {
           "type": "paragraph",
-          "text": "ISO modulinės spintos šioje kategorijoje skirtos priemonių laikymui gydymo ir slaugos įstaigose. Asortimentą sudaro dviejų linijų ir trijų aukščių stacionarios ZS serijos spintos su varstomomis durelėmis bei du mobilūs CN modeliai su roletėmis."
+          "text": "ISO modulinės spintos šioje kategorijoje skirtos priemonių laikymui gydymo ir slaugos įstaigose. Asortimentą sudaro dviejų linijų ir trijų aukščių stacionarios ZS serijos spintos su varstomomis durelėmis bei du mobilūs CN modeliai su ritininėmis durelėmis."
         },
         {
           "type": "heading",
@@ -16612,11 +16612,11 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Mobilios CN spintos su roletėmis"
+          "text": "Mobilios CN spintos su ritininėmis durelėmis"
         },
         {
           "type": "paragraph",
-          "text": "Atskiriems mobiliems spintų su roletėmis grupės modeliams CN 232_22 VB ir CN 232_22 VC būdinga AISI 304 nerūdijančio plieno konstrukcija bei viena arba dvi rakinamos ABS roletės."
+          "text": "Atskiriems mobiliems spintų su ritininėmis durelėmis grupės modeliams CN 232_22 VB ir CN 232_22 VC būdinga AISI 304 nerūdijančio plieno konstrukcija bei vienas arba du rakinami ABS ritininių durelių komplektai."
         },
         {
           "type": "heading",
@@ -16714,12 +16714,12 @@
         }
       ],
       "id": "85fd4ea3-a6a1-4dd2-9a8b-7b8aa60fc29c",
-      "revisionHash": "41f1310771013b3eb57f28ffc6d10142e70a1c47d38163bac51dbd95a3482c10",
+      "revisionHash": "d73a0d227a2508e0e9d9543eb97a7316f4fd339368eee5ad9ce65c9411a45716",
       "approval": {
         "status": "approved",
-        "revisionHash": "41f1310771013b3eb57f28ffc6d10142e70a1c47d38163bac51dbd95a3482c10",
-        "approvedAt": "2026-10-24T15:50:46.224Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "d73a0d227a2508e0e9d9543eb97a7316f4fd339368eee5ad9ce65c9411a45716",
+        "approvedAt": "2026-10-24T19:54:35.049Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -18969,8 +18969,8 @@
         {
           "type": "list",
           "items": [
-            "Kompaktiškesnis 75 cm pločio, 55 cm gylio ir 89 cm aukščio variantas (pavyzdžiui, baziniai modeliai ZV2211N* arba ZV2311N*) turi nerūdijančio plieno AISI304 darbinį paviršių su 1,2 cm įspaudu. Jo stalčiuose derinami dviejų dydžių MS krepšiai: STANDARD (20 kg apkrova) ir pusės pločio 1/2 MINI (10 kg apkrova) – pavyzdžiui, išdėstant du 6 cm aukščio S dydžio, tris 6,5 cm aukščio 1/2 S dydžio ir tris 20 cm aukščio 1/2 L dydžio stalčius.",
-            "Platesnis 102 cm pločio, 50 cm gylio ir 89 cm aukščio variantas (pavyzdžiui, ZV4205N* arba ZV4305N*) pasižymi darbastaliu su švelniu įspaudu ir yra pritaikytas 3/4 pločio MS krepšiams MINI (10 kg apkrova). Jame išdėstomi du 12 cm aukščio 3/4 M dydžio ir keturi 20 cm aukščio 3/4 L dydžio stalčiai."
+            "Kompaktiškesnis 75 cm pločio, 55 cm gylio ir 89 cm aukščio variantas (pavyzdžiui, baziniai modeliai ZV2211N arba ZV2311N) turi nerūdijančio plieno AISI304 darbinį paviršių su 1,2 cm įspaudu. Jo stalčiuose derinami dviejų dydžių MS krepšiai: STANDARD (20 kg apkrova) ir pusės pločio 1/2 MINI (10 kg apkrova) – pavyzdžiui, išdėstant du 6 cm aukščio S dydžio, tris 6,5 cm aukščio 1/2 S dydžio ir tris 20 cm aukščio 1/2 L dydžio stalčius.",
+            "Platesnis 102 cm pločio, 50 cm gylio ir 89 cm aukščio variantas (pavyzdžiui, ZV4205N arba ZV4305N) pasižymi darbastaliu su švelniu įspaudu ir yra pritaikytas 3/4 pločio MS krepšiams MINI (10 kg apkrova). Jame išdėstomi du 12 cm aukščio 3/4 M dydžio ir keturi 20 cm aukščio 3/4 L dydžio stalčiai."
           ]
         },
         {
@@ -19040,12 +19040,12 @@
         }
       ],
       "id": "c03b9283-ab4f-4904-8e22-5a29a14d964e",
-      "revisionHash": "6827493092ea324b710a12c6676e693df10387510e8922906f9592b0d055269b",
+      "revisionHash": "29dc1adfeba4287a3df5d4d734799f43a703a9f397313cee4115ba3d8993f351",
       "approval": {
         "status": "approved",
-        "revisionHash": "6827493092ea324b710a12c6676e693df10387510e8922906f9592b0d055269b",
-        "approvedAt": "2026-10-24T15:55:06.658Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "29dc1adfeba4287a3df5d4d734799f43a703a9f397313cee4115ba3d8993f351",
+        "approvedAt": "2026-10-24T19:54:39.762Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -22722,7 +22722,7 @@
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-profi/mini",
       "title": "PROFI MINI vežimėliai – komplektacijų ir matmenų pasirinkimas",
-      "description": "Daugiafunkciai PROFI MINI vežimėliai gydymo ir slaugos įstaigoms. 89 cm arba 105 cm aukštis, AISI 304 plieno konstrukcija, stalčiai, lentynos ir ABS roletai.",
+      "description": "Daugiafunkciai PROFI MINI vežimėliai gydymo ir slaugos įstaigoms. 89 cm arba 105 cm aukštis, AISI 304 plieno konstrukcija, stalčiai, lentynos ir ABS ritininės durelės.",
       "intent": "Klaro produktų grupė: MINI serija",
       "body": [
         {
@@ -22752,7 +22752,7 @@
           "items": [
             "Žemi modeliai (89 cm aukščio) su atvira lentyna arba dokumentų skyriumi. Modelis ZV3300N turi du stalčius – vieną M dydžio (12 cm aukščio) ir vieną L dydžio (20 cm aukščio), o apačioje įrengta viena fiksuota lentyna (dugnas), išlaikanti iki 30 kg. To paties 89 cm aukščio modelis ZV3309N vietoje apatinės lentynos turi tris stalčius: vieną S dydžio (6 cm), vieną M dydžio (12 cm) ir vieną gilų XL dydžio (36 cm) stalčių su dokumentų skyriumi. Jame išimamomis pertvaromis suformuojama nuo 4 iki 8 skyrelių (2–5 cm pločio).",
             "Aukštas modelis (105 cm aukščio) su atvira apatine dalimi. Modelyje ZV3350N montuojami du stalčiai – vienas M dydžio (12 cm) ir vienas L dydžio (20 cm) – bei viena fiksuota apatinė lentyna (30 kg apkrova).",
-            "Aukšti modeliai (105 cm aukščio) su užrakinamu ABS roletu. Kai laikomas priemones reikia uždaryti, tinka modifikacijos su dviem fiksuotomis lentynomis ir užrakinamu ABS roletu. Šie du pavyzdžiai skiriasi stalčių deriniu: ZV3370N turi vieną M (12 cm) ir vieną L (20 cm) stalčių, o ZV3371N komplektuojamas su dviem vienodais M dydžio (12 cm) stalčiais."
+            "Aukšti modeliai (105 cm aukščio) su užrakinamomis ABS ritininėmis durelėmis. Kai laikomas priemones reikia uždaryti, tinka modifikacijos su dviem fiksuotomis lentynomis ir užrakinamomis ABS ritininėmis durelėmis. Šie du pavyzdžiai skiriasi stalčių deriniu: ZV3370N turi vieną M (12 cm) ir vieną L (20 cm) stalčių, o ZV3371N komplektuojamas su dviem vienodais M dydžio (12 cm) stalčiais."
           ]
         }
       ],
@@ -22832,12 +22832,12 @@
         }
       ],
       "id": "7f6781c6-231d-4e3b-8194-649863870369",
-      "revisionHash": "3da93cb3d81c61166eac8092c02c5d9a790bb9f03b2d00b04c8679dca965a7a8",
+      "revisionHash": "09586f3b1c1b69fed4a7b5f5b0c6d91296f41b529210c1738e206352e0bcf873",
       "approval": {
         "status": "approved",
-        "revisionHash": "3da93cb3d81c61166eac8092c02c5d9a790bb9f03b2d00b04c8679dca965a7a8",
-        "approvedAt": "2026-10-24T15:48:28.777Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "09586f3b1c1b69fed4a7b5f5b0c6d91296f41b529210c1738e206352e0bcf873",
+        "approvedAt": "2026-10-24T19:54:33.226Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -26708,7 +26708,7 @@
           "type": "list",
           "items": [
             "Stacionarios ZS serijos spintos gaminamos 81 cm, 146 cm arba 211 cm aukščio ir turi atitinkamai 12, 25 arba 38 pozicijas MS krepšiams. Šie modeliai turi nuo dulkių apsaugotas rakinamas dureles – skaidraus organinio stiklo arba pilnas, o ieškantiems tokio tipo sistemų taip pat aktualios ir kitos PROFI modulinės spintos.",
-            "Mobilūs modeliai su rakinamomis ABS roletėmis: CN 232_22 VB turi vieną roletę ir vieną 25 pozicijų grupę MS krepšiams, o CN 232_22 VC – dvi roletes ir dvi atskiras grupes po 25 pozicijas. Daugiau panašių sprendimų vienoje vietoje apima medicininės spintos su roletėmis."
+            "Mobilūs modeliai su rakinamomis ABS ritininėmis durelėmis: CN 232_22 VB turi vienerias ritinines dureles ir vieną 25 pozicijų grupę MS krepšiams, o CN 232_22 VC – dvejas ritinines dureles ir dvi atskiras grupes po 25 pozicijas. Daugiau panašių sprendimų vienoje vietoje apima medicininės spintos su ritininėmis durelėmis."
           ]
         },
         {
@@ -26818,12 +26818,12 @@
         }
       ],
       "id": "c3f1475c-f4ea-4133-b425-2e1dccedb9ed",
-      "revisionHash": "20e086ed656089d5a268e69c3b55bf67646b01d1a43f257e425667b7011c5541",
+      "revisionHash": "7e126b5701f0566a999eddbf484def5800a33268cd89c69a574cf9d074aad8da",
       "approval": {
         "status": "approved",
-        "revisionHash": "20e086ed656089d5a268e69c3b55bf67646b01d1a43f257e425667b7011c5541",
-        "approvedAt": "2026-10-24T15:50:55.079Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "7e126b5701f0566a999eddbf484def5800a33268cd89c69a574cf9d074aad8da",
+        "approvedAt": "2026-10-24T19:54:35.929Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -29804,7 +29804,7 @@
       "type": "faq",
       "slug": "kategorijos/spintos/nerudijanciojo-plieno-spintos-su-ratukais",
       "title": "Nerūdijančiojo plieno spintos su ratukais",
-      "description": "Nerūdijančiojo plieno spintos su ratukais iš AISI 304 plieno: ZV modeliai su dulkėms nepralaidžiomis durelėmis bei CN spintos su rakinamomis ABS roletėmis.",
+      "description": "Nerūdijančiojo plieno spintos su ratukais iš AISI 304 plieno: ZV modeliai su dulkėms nepralaidžiomis durelėmis bei CN spintos su rakinamomis ABS ritininėmis durelėmis.",
       "intent": "Klaro produktų grupė: Nerūdijančiojo plieno spintos su ratukais",
       "body": [
         {
@@ -29825,7 +29825,7 @@
           "items": [
             "ZV modeliai su fiksuotomis lentynomis ir darbastaliu. Tai septyni spintos-vežimėlio tipo gaminiai su rakinamomis, dulkėms atspariomis durelėmis, viršuje įrengtu darbiniu paviršiumi ir nuo 2 iki 5 fiksuotų lentynų viduje. Daugiau informacijos apie šiuos gaminius pateikiama PROFI STANDARD vežimėlių su lentynomis puslapyje.",
             "ZV modelis su krepšių pozicijomis ir darbastaliu (ZV1395N). Tai mobilus modelis su rakinamomis durelėmis ir darbiniu paviršiumi, kurio viduje vietoje lentynų įrengta 14 pozicijų MS krepšiams įstatyti.",
-            "Aukštos CN spintos su roletėmis. Modelis CN 232_22 VB turi vieną rakinamą ABS roletę ir vieną 25 pozicijų grupę MS krepšiams, o CN 232_22 VC – dvi roletes ir dvi atskiras grupes po 25 MS krepšių pozicijas. Išsamiau šie gaminiai pristatomi medicininių spintų su roletėmis puslapyje."
+            "Aukštos CN spintos su ritininėmis durelėmis. Modelis CN 232_22 VB turi vieną rakinamų ABS ritininių durelių komplektą ir vieną 25 pozicijų grupę MS krepšiams, o CN 232_22 VC – du ritininių durelių komplektus ir dvi atskiras grupes po 25 MS krepšių pozicijas. Išsamiau šie gaminiai pristatomi medicininių spintų su ritininėmis durelėmis puslapyje."
           ]
         },
         {
@@ -29909,12 +29909,12 @@
         }
       ],
       "id": "aed388ab-0936-4503-8d87-ba17b6faf64c",
-      "revisionHash": "674decc93ad57b0866c00d8303b597cedfa11912ae29391760449ce63411bc4d",
+      "revisionHash": "0fbb8f3cbac917b3729b0c1893517f00857ac6a086d219bdf94fec558a78d21f",
       "approval": {
         "status": "approved",
-        "revisionHash": "674decc93ad57b0866c00d8303b597cedfa11912ae29391760449ce63411bc4d",
-        "approvedAt": "2026-10-24T15:50:56.867Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "0fbb8f3cbac917b3729b0c1893517f00857ac6a086d219bdf94fec558a78d21f",
+        "approvedAt": "2026-10-24T19:54:36.890Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -29922,7 +29922,7 @@
       "type": "faq",
       "slug": "kategorijos/spintos/spintos-su-lentynomis-ir-ratukais",
       "title": "Spintos su lentynomis ir ratukais",
-      "description": "Spintos su lentynomis ir ratukais gydymo ir slaugos įstaigoms: BASIC dažyto plieno ir PROFI AISI 304 plieno korpusai, rakinamos durelės arba ABS roletė.",
+      "description": "Spintos su lentynomis ir ratukais gydymo ir slaugos įstaigoms: BASIC dažyto plieno ir PROFI AISI 304 plieno korpusai, rakinamos durelės arba ABS ritininės durelės.",
       "intent": "Klaro produktų grupė: Spintos su lentynomis ir ratukais",
       "body": [
         {
@@ -29937,7 +29937,7 @@
           "type": "list",
           "items": [
             "Korpuso medžiaga: BASIC linijos korpusai gaminami iš milteliniu būdu dažyto plieno su antimikrobiniu paviršiumi, o PROFI linijos korpusai – iš nerūdijančiojo plieno AISI 304.",
-            "Priekinės dalies uždarymas: dalis modelių turi rakinamas, nuo dulkių apsaugotas dureles, o ZV1290N ir ZV1390N turi rakinamą ABS roletę ir po dvi fiksuotas lentynas."
+            "Priekinės dalies uždarymas: dalis modelių turi rakinamas, nuo dulkių apsaugotas dureles, o ZV1290N ir ZV1390N turi rakinamas ABS ritinines dureles ir po dvi fiksuotas lentynas."
           ]
         },
         {
@@ -30016,12 +30016,12 @@
         }
       ],
       "id": "eae5bd7b-29ca-4da7-92bc-88019eea88b0",
-      "revisionHash": "ef983273ec74f4f727db9709daa07d03f608d58df13fd1e40e599997ad48eec3",
+      "revisionHash": "c8905ab910d9ddd4cc93df51743dc0b43026f178a04dfdd4fda8ec2c59b7e6de",
       "approval": {
         "status": "approved",
-        "revisionHash": "ef983273ec74f4f727db9709daa07d03f608d58df13fd1e40e599997ad48eec3",
-        "approvedAt": "2026-10-24T15:51:00.541Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "c8905ab910d9ddd4cc93df51743dc0b43026f178a04dfdd4fda8ec2c59b7e6de",
+        "approvedAt": "2026-10-24T19:54:37.558Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -30238,8 +30238,8 @@
           "items": [
             "Valymas ir medžiagų pasirinkimas. Gidas skiriamas planuojantiems įrangos įsigijimą pagal įstaigoje jau naudojamas dezinfekavimo priemones. Jame apžvelgiama, kaip kasdienis valymas veikia apsauginį plieno paviršiaus sluoksnį ir kaip konstrukciniai sprendimai lemia prieigą prie valomų dalių.",
             "Nerūdijančio plieno markės. Tekste lyginamos AISI 304, AISI 316 ir AISI 430 plieno markės pagal jų cheminę aplinką ir atsparumo ribas, padedant įvertinti medžiagų savybes realiose eksploatavimo sąlygose.",
-            "INSTRUMAN naudojimas ir priežiūra. Šioje temoje pagal konkrečių modelių (pavyzdžiui, NEREZ 1101, NEREZ 1130 ir NEREZ 1135) instrukciją nagrinėjama judančių dalių, aukščio reguliavimo mechanizmų, važiuoklės bei nuimamų ar fiksuotų stalviršių kasdienė priežiūra.",
-            "Mayo staliuko pasirinkimas. Praktinis palyginimas ieškantiems konkretaus instrumentinio staliuko (pavyzdžiui, NEREZ 1101, NEREZ 1135 ar NEREZ 1120) pagal rankinį ar hidraulinį kėlimo būdą, darbinį aukštį, leistiną padėklo apkrovą ir važiuoklės formą."
+            "INSTRUMAN naudojimas ir priežiūra. Šioje temoje pagal konkrečių modelių (pavyzdžiui, NEREZ1101, NEREZ1130 ir NEREZ1135) instrukciją nagrinėjama judančių dalių, aukščio reguliavimo mechanizmų, važiuoklės bei nuimamų ar fiksuotų stalviršių kasdienė priežiūra.",
+            "Mayo staliuko pasirinkimas. Praktinis palyginimas ieškantiems konkretaus instrumentinio staliuko (pavyzdžiui, NEREZ1101, NEREZ1135 ar NEREZ 1120) pagal rankinį ar hidraulinį kėlimo būdą, darbinį aukštį, leistiną padėklo apkrovą ir važiuoklės formą."
           ]
         }
       ],
@@ -30292,12 +30292,12 @@
         }
       ],
       "id": "6d22a505-c8fa-4d56-9793-ba473af6ad2f",
-      "revisionHash": "7d74270e484bf2b04b03690a0c27070ba68a6a30ee27329d2de4595331a180ea",
+      "revisionHash": "54235759b6faa6656144ee5c2211da9ecc4d7f04bcb746045d8c9b438d44f05d",
       "approval": {
         "status": "approved",
-        "revisionHash": "7d74270e484bf2b04b03690a0c27070ba68a6a30ee27329d2de4595331a180ea",
-        "approvedAt": "2026-10-24T15:43:58.966Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "54235759b6faa6656144ee5c2211da9ecc4d7f04bcb746045d8c9b438d44f05d",
+        "approvedAt": "2026-10-24T19:54:21.835Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -31181,8 +31181,8 @@
         {
           "type": "list",
           "items": [
-            "Pirmasis pavyzdys (baziniai korpusai ZV1206N*, ZV1206NPZ* arba ZV1306N*) turi 2 S ir 2 L dydžio stalčius. Šioje iliustracinėje komplektacijoje sumontuota nerūdijančio plieno spintelė (5773*) ir lentyna (5782*), 2 kg deguonies baliono laikiklis (5758*), panaudotų adatų konteinerio laikiklis (5757*) bei atsiurbimo kateterių dėklas (5780*).",
-            "Antrasis pavyzdys (baziniai korpusai ZV1201N*, ZV1201NPZ* arba ZV1301N*) turi 4 S ir 2 M dydžio stalčius. Jo pavyzdinę įrangą sudaro infuzinis laikiklis (5761*), 10 atverčiamų plastikinių dėžučių blokas (5771*), nerūdijančio plieno laikiklis 100 pirštinių (5781*), atverčiamos šoninės kišenės (5790*), panaudotų adatų konteinerio laikiklis (5757*) ir nerūdijančio plieno atsiurbimo kateterių dėklas (5780*)."
+            "Pirmasis pavyzdys (baziniai korpusai ZV1206N, ZV1206NPZ arba ZV1306N) turi 2 S ir 2 L dydžio stalčius. Šioje iliustracinėje komplektacijoje sumontuota nerūdijančio plieno spintelė (5773) ir lentyna (5782), 2 kg deguonies baliono laikiklis (5758), panaudotų adatų konteinerio laikiklis (5757) bei atsiurbimo kateterių dėklas (5780).",
+            "Antrasis pavyzdys (baziniai korpusai ZV1201N, ZV1201NPZ arba ZV1301N) turi 4 S ir 2 M dydžio stalčius. Jo pavyzdinę įrangą sudaro infuzinis laikiklis (5761), 10 atverčiamų plastikinių dėžučių blokas (5771), nerūdijančio plieno laikiklis 100 pirštinių (5781), atverčiamos šoninės kišenės (5790), panaudotų adatų konteinerio laikiklis (5757) ir nerūdijančio plieno atsiurbimo kateterių dėklas (5780)."
           ]
         },
         {
@@ -31271,12 +31271,12 @@
         }
       ],
       "id": "c8f9df62-921d-43bb-aa46-36e7fb0d83b3",
-      "revisionHash": "1d9624f74651b2806f3af3c4114c55446b8f8232d8ea3404918219f1b0e9912b",
+      "revisionHash": "1698f9e4dc84d5df78b068a7786780b0d4c3ac329c574d17d417ed896db38bf4",
       "approval": {
         "status": "approved",
-        "revisionHash": "1d9624f74651b2806f3af3c4114c55446b8f8232d8ea3404918219f1b0e9912b",
-        "approvedAt": "2026-10-24T15:54:58.959Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "1698f9e4dc84d5df78b068a7786780b0d4c3ac329c574d17d417ed896db38bf4",
+        "approvedAt": "2026-10-24T19:54:38.462Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -39020,9 +39020,9 @@
         {
           "type": "list",
           "items": [
-            "Pagal plotį: A žymėjimo lankų plotis yra 67 cm (pavyzdžiui, ZR2231KAL*), o B žymėjimo – 47 cm (pavyzdžiui, ZR2231KBL*). Nurodytas matmuo yra vieno šoninio lanko dydis, o ne pilnai surinkto stelažo gabaritas.",
-            "Pagal medžiagą: gaminami iš plieno, dengto antimikrobiniu laku (RAL 7042), arba iš nerūdijančio plieno (AISI304, pavyzdžiui, ZR2331KAP*).",
-            "Pagal atramos tipą: lankai komplektuojami su stacionariomis kojomis (pavyzdžiui, ZR2231NAL*) arba su ratukais. Kiekvienas lankas su ratukais turi po du 75 mm skersmens ratukus, iš kurių vienas yra su stabdžiu."
+            "Pagal plotį: A žymėjimo lankų plotis yra 67 cm (pavyzdžiui, ZR2231KAL), o B žymėjimo – 47 cm (pavyzdžiui, ZR2231KBL). Nurodytas matmuo yra vieno šoninio lanko dydis, o ne pilnai surinkto stelažo gabaritas.",
+            "Pagal medžiagą: gaminami iš plieno, dengto antimikrobiniu laku (RAL 7042), arba iš nerūdijančio plieno (AISI304, pavyzdžiui, ZR2331KAP).",
+            "Pagal atramos tipą: lankai komplektuojami su stacionariomis kojomis (pavyzdžiui, ZR2231NAL) arba su ratukais. Kiekvienas lankas su ratukais turi po du 75 mm skersmens ratukus, iš kurių vienas yra su stabdžiu."
           ]
         },
         {
@@ -39037,8 +39037,8 @@
         {
           "type": "list",
           "items": [
-            "A tipo skersinių ilgis yra 42 cm (pavyzdžiui, ZR2232A* arba ZR2332A*).",
-            "B tipo skersinių ilgis yra 62 cm (pavyzdžiui, ZR2232B* arba ZR2332B*)."
+            "A tipo skersinių ilgis yra 42 cm (pavyzdžiui, ZR2232A arba ZR2332A).",
+            "B tipo skersinių ilgis yra 62 cm (pavyzdžiui, ZR2232B arba ZR2332B)."
           ]
         },
         {
@@ -39053,8 +39053,8 @@
         {
           "type": "list",
           "items": [
-            "Stelažui A skirtas ištraukimo elementas yra 67 cm ilgio (ZRVYSUVA*).",
-            "Stelažui B skirtas ištraukimo elementas yra 47 cm ilgio (ZRVYSUVB*)."
+            "Stelažui A skirtas ištraukimo elementas yra 67 cm ilgio (ZRVYSUVA).",
+            "Stelažui B skirtas ištraukimo elementas yra 47 cm ilgio (ZRVYSUVB)."
           ]
         }
       ],
@@ -39141,12 +39141,12 @@
         }
       ],
       "id": "9c5949ff-571c-4b70-8d31-9577a2d9fb67",
-      "revisionHash": "4f485d05b05479230f87da5e1379a63eb1d674c720fa2beb08d076dca26d9b13",
+      "revisionHash": "be93c6f345097cc9843141ed24affa2c2edb85970a135fd32e91d3716a5c1aac",
       "approval": {
         "status": "approved",
-        "revisionHash": "4f485d05b05479230f87da5e1379a63eb1d674c720fa2beb08d076dca26d9b13",
-        "approvedAt": "2026-10-24T15:44:35.169Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "be93c6f345097cc9843141ed24affa2c2edb85970a135fd32e91d3716a5c1aac",
+        "approvedAt": "2026-10-24T19:54:24.686Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -40337,13 +40337,13 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/spintos",
-      "title": "Medicininės spintos su roletėmis",
-      "description": "Mobilios AISI 304 nerūdijančio plieno medicininės spintos su rakinamomis ABS roletėmis. Palyginkite vienos ir dviejų sekcijų modelius MS krepšiams.",
+      "title": "Medicininės spintos su ritininėmis durelėmis",
+      "description": "Mobilios AISI 304 nerūdijančio plieno medicininės spintos su rakinamomis ABS ritininėmis durelėmis. Palyginkite vienos ir dviejų sekcijų modelius MS krepšiams.",
       "intent": "Klaro produktų grupė: Spintos",
       "body": [
         {
           "type": "paragraph",
-          "text": "Medicininės spintos su rakinamomis ABS roletėmis šioje kategorijoje skirtos gydymo bei slaugos įstaigoms, kurioms reikalingas mobilus sprendimas su vidinėmis plastikinėmis sienelėmis MS krepšiams išdėstyti. Jų rėmas gaminamas iš nerūdijančio plieno AISI 304."
+          "text": "Medicininės spintos su rakinamomis ABS ritininėmis durelėmis šioje kategorijoje skirtos gydymo bei slaugos įstaigoms, kurioms reikalingas mobilus sprendimas su vidinėmis plastikinėmis sienelėmis MS krepšiams išdėstyti. Jų rėmas gaminamas iš nerūdijančio plieno AISI 304."
         },
         {
           "type": "heading",
@@ -40353,8 +40353,8 @@
         {
           "type": "list",
           "items": [
-            "Vienos sekcijos variantas, pavyzdžiui, modelis CN 232_22 VB, yra 790×600×1700 mm matmenų. Jis turi vieną rakinamą ABS roletę ir vieną vidinę 25 pozicijų grupę MS krepšiams.",
-            "Dviejų sekcijų variantas, pavyzdžiui, modelis CN 232_22 VC, yra 1050×800×1700 mm matmenų. Šioje konstrukcijoje įrengtos dvi rakinamos ABS roletės ir dvi atskiros po 25 pozicijas turinčios grupės MS krepšiams."
+            "Vienos sekcijos variantas, pavyzdžiui, modelis CN 232_22 VB, yra 790×600×1700 mm matmenų. Jis turi vieną rakinamų ABS ritininių durelių komplektą ir vieną vidinę 25 pozicijų grupę MS krepšiams.",
+            "Dviejų sekcijų variantas, pavyzdžiui, modelis CN 232_22 VC, yra 1050×800×1700 mm matmenų. Šioje konstrukcijoje įrengti du rakinamų ABS ritininių durelių komplektai ir dvi atskiros po 25 pozicijas turinčios grupės MS krepšiams."
           ]
         },
         {
@@ -40432,12 +40432,12 @@
         }
       ],
       "id": "8b824a50-5649-467a-bab0-348b50b3f0e1",
-      "revisionHash": "eb630b9030bb1469647a196b01a97a079b51d12d01cc43083d4beb08a817d6ec",
+      "revisionHash": "f0340f66e389eda82d53f220de18f0354d209ea6678df5c55f20fed37c92c88a",
       "approval": {
         "status": "approved",
-        "revisionHash": "eb630b9030bb1469647a196b01a97a079b51d12d01cc43083d4beb08a817d6ec",
-        "approvedAt": "2026-10-24T15:50:44.245Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "f0340f66e389eda82d53f220de18f0354d209ea6678df5c55f20fed37c92c88a",
+        "approvedAt": "2026-10-24T19:54:34.168Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -416950,7 +416950,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Visi trys vaistų vežimėlio komplektacijos pavyzdžiai – vaistų vežimėlis 01 (katalogo kodai ZV1205N*, ZV1205NPZ*, ZV1305N*), vaistų vežimėlis 02 (ZV1202N*, ZV1202NPZ*, ZV1302N*) bei 03 (ZV1200N*, ZV1200NPZ*, ZV1300N*) – turi tokią pačią žemos versijos bazę be priedų:"
+          "text": "Visi trys vaistų vežimėlio komplektacijos pavyzdžiai – vaistų vežimėlis 01 (katalogo kodai ZV1205N, ZV1205NPZ, ZV1305N), vaistų vežimėlis 02 (ZV1202N, ZV1202NPZ, ZV1302N) bei 03 (ZV1200N, ZV1200NPZ, ZV1300N) – turi tokią pačią žemos versijos bazę be priedų:"
         },
         {
           "type": "list",
@@ -417019,9 +417019,9 @@
         {
           "type": "list",
           "items": [
-            "10 atlenkiamų plastikinių dėžučių blokas (5771*) virš stalviršio smulkiems vaistams ar priemonėms pasiekti neatidarant stalčių.",
-            "Išimamas plastikinis ampulių atidarytuvas (5763P*).",
-            "Plastikinis šiukšlių krepšys (5754C*) tuščioms pakuotėms."
+            "10 atlenkiamų plastikinių dėžučių blokas (5771) virš stalviršio smulkiems vaistams ar priemonėms pasiekti neatidarant stalčių.",
+            "Išimamas plastikinis ampulių atidarytuvas (5763P).",
+            "Plastikinis šiukšlių krepšys (5754C) tuščioms pakuotėms."
           ]
         },
         {
@@ -417031,15 +417031,15 @@
         {
           "type": "list",
           "items": [
-            "Nerūdijančio plieno D profilio stovas (5785*), ant kurio tvirtinama papildoma įranga neužimant stalviršio.",
-            "Nerūdijančio plieno išimamas laikiklis 100 vienetų pirštinių dėžutei (5781*).",
-            "Konteinerio panaudotoms adatoms laikiklis (5757*) ir išimamas nerūdijančio plieno ampulių atidarytuvas (5763*).",
-            "Nerūdijančio plieno dėklas dokumentams (5755*)."
+            "Nerūdijančio plieno D profilio stovas (5785), ant kurio tvirtinama papildoma įranga neužimant stalviršio.",
+            "Nerūdijančio plieno išimamas laikiklis 100 vienetų pirštinių dėžutei (5781).",
+            "Konteinerio panaudotoms adatoms laikiklis (5757) ir išimamas nerūdijančio plieno ampulių atidarytuvas (5763).",
+            "Nerūdijančio plieno dėklas dokumentams (5755)."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Jei darbo metu prie lovos ar procedūriniame kabinete pritrūksta vietos pasiruošti priemones, pavyzdinis modelis 03 komplektuojamas su nerūdijančio plieno atlenkiamu staliuku su įgilinimu (5753ZN*) ir nerūdijančio plieno išimamu dėklu dokumentams (5755*)."
+          "text": "Jei darbo metu prie lovos ar procedūriniame kabinete pritrūksta vietos pasiruošti priemones, pavyzdinis modelis 03 komplektuojamas su nerūdijančio plieno atlenkiamu staliuku su įgilinimu (5753ZN) ir nerūdijančio plieno išimamu dėklu dokumentams (5755)."
         },
         {
           "type": "heading",
@@ -417140,12 +417140,12 @@
         }
       ],
       "id": "9e46f186-582e-4eda-a6d8-30c5e6c903fe",
-      "revisionHash": "69cd96413e5e2e8711e15091d796669804d013745c2b985aee48c05c1d421af8",
+      "revisionHash": "f0ea2ff1921f98bf857b2778220a589aed543de12209022fcbe0dc83c857ad7c",
       "approval": {
         "status": "approved",
-        "revisionHash": "69cd96413e5e2e8711e15091d796669804d013745c2b985aee48c05c1d421af8",
-        "approvedAt": "2026-10-24T15:59:07.852Z",
-        "actorId": "Rokas direct600 publication499; actual first-publication date"
+        "revisionHash": "f0ea2ff1921f98bf857b2778220a589aed543de12209022fcbe0dc83c857ad7c",
+        "approvedAt": "2026-10-24T19:54:41.929Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -418295,7 +418295,7 @@
         },
         {
           "type": "paragraph",
-          "text": "AISI 304 (standartinis, vadinamasis maistinis plienas). Pagal bendrą gamintojo aprašą, šis plienas yra legiruotas chromu ir nikeliu, turi mažai anglies, nėra magnetinis bei atlaiko vandenį, vandens garus, oro drėgmę, maistines bei silpnas organines ir neorganines rūgštis, taip pat silpnus šarmus. Nors tai yra bendrosios pačios žaliavos savybės, konkrečių gaminių priežiūrą apibrėžia jų techniniai dokumentai: pavyzdžiui, N0011 instrukcijoje modeliams NEREZ 1101, NEREZ 1130 ir NEREZ 1135 nurodyta, kad visoms šių gaminių dalims griežtai negalima naudoti jokių dezinfekantų ar valiklių, turinčių chloro bei jo junginių."
+          "text": "AISI 304 (standartinis, vadinamasis maistinis plienas). Pagal bendrą gamintojo aprašą, šis plienas yra legiruotas chromu ir nikeliu, turi mažai anglies, nėra magnetinis bei atlaiko vandenį, vandens garus, oro drėgmę, maistines bei silpnas organines ir neorganines rūgštis, taip pat silpnus šarmus. Nors tai yra bendrosios pačios žaliavos savybės, konkrečių gaminių priežiūrą apibrėžia jų techniniai dokumentai: pavyzdžiui, N0011 instrukcijoje modeliams NEREZ1101, NEREZ1130 ir NEREZ1135 nurodyta, kad visoms šių gaminių dalims griežtai negalima naudoti jokių dezinfekantų ar valiklių, turinčių chloro bei jo junginių."
         },
         {
           "type": "paragraph",
@@ -418312,7 +418312,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Be pačios medžiagos, kasdienį valymą labai palengvina arba apsunkina gaminio konstrukcija ir prieiga prie darbinio padėklo bei rėmo po juo. Pavyzdžiui, pagal N0011 instrukciją, „Klaro“ instrumentų staliukai „Instruman“, skirti operacinėms ir ambulatoriniams skyriams bei pritaikyti naudoti trumpais atstumais lygiose patalpose be slenksčių (nuo 15 iki 50 °C temperatūroje), gaminami trijų konkrečių modifikacijų: NEREZ 1101 turi rankinį aukščio reguliavimą ir fiksuotą, nenuimamą padėklą (maksimali tolygiai paskirstyta apkrova siekia 10 kg, o pats modelis gali būti naudojamas ir kaip pristumiamas stalelis prie lovos, kai darbinio paviršiaus nereikia nuiminėti atskiram plovimui), NEREZ 1130 pasižymi pneumatiniu aukščio reguliavimu ir nuimamu padėklu (maksimali tolygiai paskirstyta apkrova – 20 kg, o pakeliant – ne daugiau kaip 10 kg), o NEREZ 1135 derina rankinį aukščio reguliavimą su nuimamu padėklu (išlaiko iki 20 kg tolygiai paskirstytą apkrovą), todėl pastaruosiuose dviejuose modeliuose nuimamas padėklas leidžia lengviau pasiekti ir nuvalyti tiek patį paviršių, tiek rėmo konstrukciją."
+          "text": "Be pačios medžiagos, kasdienį valymą labai palengvina arba apsunkina gaminio konstrukcija ir prieiga prie darbinio padėklo bei rėmo po juo. Pavyzdžiui, pagal N0011 instrukciją, „Klaro“ instrumentų staliukai „Instruman“, skirti operacinėms ir ambulatoriniams skyriams bei pritaikyti naudoti trumpais atstumais lygiose patalpose be slenksčių (nuo 15 iki 50 °C temperatūroje), gaminami trijų konkrečių modifikacijų: NEREZ1101 turi rankinį aukščio reguliavimą ir fiksuotą, nenuimamą padėklą (maksimali tolygiai paskirstyta apkrova siekia 10 kg, o pats modelis gali būti naudojamas ir kaip pristumiamas stalelis prie lovos, kai darbinio paviršiaus nereikia nuiminėti atskiram plovimui), NEREZ1130 pasižymi pneumatiniu aukščio reguliavimu ir nuimamu padėklu (maksimali tolygiai paskirstyta apkrova – 20 kg, o pakeliant – ne daugiau kaip 10 kg), o NEREZ1135 derina rankinį aukščio reguliavimą su nuimamu padėklu (išlaiko iki 20 kg tolygiai paskirstytą apkrovą), todėl pastaruosiuose dviejuose modeliuose nuimamas padėklas leidžia lengviau pasiekti ir nuvalyti tiek patį paviršių, tiek rėmo konstrukciją."
         },
         {
           "type": "heading",
@@ -418321,7 +418321,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Renkantis įrangą pagal jos priežiūros suderinamumą, vien plieno markės negalima laikyti leidimu bet kokiam valymo būdui – būtina vadovautis konkretaus gaminio dokumentais. Pavyzdžiui, N0011 instrukcijoje modeliams NEREZ 1101, NEREZ 1130 ir NEREZ 1135 nustatyti aiškūs apribojimai: visoms šių gaminių dalims draudžiama naudoti chloro ir jo junginių turinčias priemones, taip pat abrazyvinius valiklius ar plieninius šveistukus, galinčius pažeisti paviršių ir sukelti koroziją, o leidžiamos valymo bei dezinfekavimo priemonės turi būti taikomos griežtai pagal jų ir pačios įrangos gamintojų nurodymus."
+          "text": "Renkantis įrangą pagal jos priežiūros suderinamumą, vien plieno markės negalima laikyti leidimu bet kokiam valymo būdui – būtina vadovautis konkretaus gaminio dokumentais. Pavyzdžiui, N0011 instrukcijoje modeliams NEREZ1101, NEREZ1130 ir NEREZ1135 nustatyti aiškūs apribojimai: visoms šių gaminių dalims draudžiama naudoti chloro ir jo junginių turinčias priemones, taip pat abrazyvinius valiklius ar plieninius šveistukus, galinčius pažeisti paviršių ir sukelti koroziją, o leidžiamos valymo bei dezinfekavimo priemonės turi būti taikomos griežtai pagal jų ir pačios įrangos gamintojų nurodymus."
         }
       ],
       "publishAt": "2026-10-24T15:30:48.001Z",
@@ -418387,12 +418387,12 @@
         }
       ],
       "id": "1f166ace-c55b-4d5f-8502-b7e72bc84522",
-      "revisionHash": "382458041338b6eb9b8b5bd1d8954479f5314c31c1ab039cfba89de3ed68c2a8",
+      "revisionHash": "1a8c1ee31d8bcbefad888f04896802d82f38d44c3c29e009bca42df142df6e86",
       "approval": {
         "status": "approved",
-        "revisionHash": "382458041338b6eb9b8b5bd1d8954479f5314c31c1ab039cfba89de3ed68c2a8",
-        "approvedAt": "2026-10-24T15:57:05.190Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "1a8c1ee31d8bcbefad888f04896802d82f38d44c3c29e009bca42df142df6e86",
+        "approvedAt": "2026-10-24T19:54:43.900Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -419079,7 +419079,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Kasdienė medicininių baldų priežiūra tiesiogiai priklauso nuo priežiūrai reikšmingų konstrukcinių sprendimų ir konkretaus gamintojo nustatytų naudojimo ribų. Vertinant Čekijos gamintojo KLARO instrumentinius staliukus INSTRUMAN NEREZ 1101, 1130 ir 1135 pagal jiems taikomą N0011 instrukciją, matyti, kaip skirtingas kėlimo būdas ir stalviršio tvirtinimas apibrėžia kasdienio naudojimo bei valymo taisykles."
+          "text": "Kasdienė medicininių baldų priežiūra tiesiogiai priklauso nuo priežiūrai reikšmingų konstrukcinių sprendimų ir konkretaus gamintojo nustatytų naudojimo ribų. Vertinant Čekijos gamintojo KLARO instrumentinius staliukus INSTRUMAN NEREZ1101, 1130 ir 1135 pagal jiems taikomą N0011 instrukciją, matyti, kaip skirtingas kėlimo būdas ir stalviršio tvirtinimas apibrėžia kasdienio naudojimo bei valymo taisykles."
         },
         {
           "type": "heading",
@@ -419097,9 +419097,9 @@
         {
           "type": "list",
           "items": [
-            "Modelis INSTRUMAN NEREZ 1130 turi pneumatinį aukščio reguliavimo mechanizmą ir nuimamą stalviršį. Pagal N0011 instrukciją, gaminiui ilgai pabuvus šaltyje galimas pneumatinio stūmoklio veikimo sutrikimas, todėl prieš pradedant naudoti staliuką būtina palaukti, kol jis prisitaikys prie kambario temperatūros.",
-            "Modelio INSTRUMAN NEREZ 1135 aukštis reguliuojamas rankiniu būdu, o jo stalviršis taip pat yra nuimamas. Pagal N0011 instrukciją, prieš atleidžiant aukščio fiksatorių būtina prilaikyti stalviršio laikiklį, o ne pačią nuimamą plokštę.",
-            "Modelio INSTRUMAN NEREZ 1101 aukštis reguliuojamas rankiniu būdu, tačiau jo stalviršis yra pritvirtintas ir nenuimamas. Pagal N0011 instrukciją, prieš atleidžiant šio modelio aukščio fiksatorių būtina prilaikyti viršutinę ištraukiamą dalį."
+            "Modelis INSTRUMAN NEREZ1130 turi pneumatinį aukščio reguliavimo mechanizmą ir nuimamą stalviršį. Pagal N0011 instrukciją, gaminiui ilgai pabuvus šaltyje galimas pneumatinio stūmoklio veikimo sutrikimas, todėl prieš pradedant naudoti staliuką būtina palaukti, kol jis prisitaikys prie kambario temperatūros.",
+            "Modelio INSTRUMAN NEREZ1135 aukštis reguliuojamas rankiniu būdu, o jo stalviršis taip pat yra nuimamas. Pagal N0011 instrukciją, prieš atleidžiant aukščio fiksatorių būtina prilaikyti stalviršio laikiklį, o ne pačią nuimamą plokštę.",
+            "Modelio INSTRUMAN NEREZ1101 aukštis reguliuojamas rankiniu būdu, tačiau jo stalviršis yra pritvirtintas ir nenuimamas. Pagal N0011 instrukciją, prieš atleidžiant šio modelio aukščio fiksatorių būtina prilaikyti viršutinę ištraukiamą dalį."
           ]
         },
         {
@@ -419113,7 +419113,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pagal N0011 instrukciją, valymo priemonės turi būti naudojamos laikantis jų gamintojo nurodymų, o po švelnaus valymo paviršius būtina nuplauti ir nusausinti. Jokiai gaminio daliai negalima naudoti abrazyvų, plieninių šveitimo kempinių ar chloro ir jo junginių turinčių medžiagų. Planuojant valymą taip pat verta įvertinti konstrukcinį skirtumą: NEREZ 1130 ir 1135 modelių stalviršiai yra nuimami, o NEREZ 1101 stalviršis – nenuimamas."
+          "text": "Pagal N0011 instrukciją, valymo priemonės turi būti naudojamos laikantis jų gamintojo nurodymų, o po švelnaus valymo paviršius būtina nuplauti ir nusausinti. Jokiai gaminio daliai negalima naudoti abrazyvų, plieninių šveitimo kempinių ar chloro ir jo junginių turinčių medžiagų. Planuojant valymą taip pat verta įvertinti konstrukcinį skirtumą: NEREZ1130 ir 1135 modelių stalviršiai yra nuimami, o NEREZ1101 stalviršis – nenuimamas."
         },
         {
           "type": "heading",
@@ -419129,7 +419129,7 @@
           "items": [
             "Ratukų apsauga nuo smūgių: vežimėlių negalima stumdyti per labai nelygius paviršius, pavyzdžiui, aukštus durų slenksčius.",
             "Stabdžių paskirtis: ratukų stabdžiai skirti tik tam, kad staliukas nepajudėtų stovėdamas ant horizontalaus paviršiaus – jie nėra pritaikyti sulaikyti vežimėlį ant nuožulnių grindų ar rampų.",
-            "Kasdieniam naudojimui svarbu tiksliai laikytis N0011 instrukcijoje nurodytų apkrovos ribų, svorį tolygiai paskirstant per visą paviršių: NEREZ 1101 stalviršio riba yra 10 kg, o NEREZ 1130 ir 1135 modelių – 20 kg, tačiau NEREZ 1130 kėlimo metu leidžiama ne didesnė kaip 10 kg apkrova. Gamintojas nenustato reguliaraus ratukų ar kitų mazgų tikrinimo ir keitimo pagal kalendorių grafiko, todėl šios apkrovos taisyklės apibrėžia tinkamą staliukų naudojimą, o ne periodinės techninės priežiūros intervalus."
+            "Kasdieniam naudojimui svarbu tiksliai laikytis N0011 instrukcijoje nurodytų apkrovos ribų, svorį tolygiai paskirstant per visą paviršių: NEREZ1101 stalviršio riba yra 10 kg, o NEREZ1130 ir 1135 modelių – 20 kg, tačiau NEREZ1130 kėlimo metu leidžiama ne didesnė kaip 10 kg apkrova. Gamintojas nenustato reguliaraus ratukų ar kitų mazgų tikrinimo ir keitimo pagal kalendorių grafiko, todėl šios apkrovos taisyklės apibrėžia tinkamą staliukų naudojimą, o ne periodinės techninės priežiūros intervalus."
           ]
         },
         {
@@ -419190,12 +419190,12 @@
         }
       ],
       "id": "bba2cd58-1c98-48a6-ad58-fb23033af2bf",
-      "revisionHash": "ebc34bf55ddd2ff432fb0699ca1d160177b8fd62c938f2635337ca01d7429d49",
+      "revisionHash": "c53bb1aa2dc52efde943011c150448f5e947eb271c6ebdcb99e2f7db75cb9ea3",
       "approval": {
         "status": "approved",
-        "revisionHash": "ebc34bf55ddd2ff432fb0699ca1d160177b8fd62c938f2635337ca01d7429d49",
-        "approvedAt": "2026-10-24T15:57:31.803Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "c53bb1aa2dc52efde943011c150448f5e947eb271c6ebdcb99e2f7db75cb9ea3",
+        "approvedAt": "2026-10-24T19:54:47.334Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -419465,7 +419465,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Skirtinguose skyriuose naudojamų tvarsliavos, antiseptikų ir instrumentų apimtys skiriasi, todėl gamintojas Klaro siūlo sprendimus, kuriuos galima pritaikyti pagal realų poreikį. Kaip praktiškas atskaitos taškas gali būti nagrinėjamas METAL LINE BASIC COMBI serijos modelis ZV2263N* (1 komplektacijos pavyzdys), kuris yra aukštos versijos – jo baziniai matmenys be papildomų priedų siekia 83 cm plotį, 57 cm gylį ir 105 cm aukštį, o bendra konstrukcijos keliamoji galia yra 150 kg."
+          "text": "Skirtinguose skyriuose naudojamų tvarsliavos, antiseptikų ir instrumentų apimtys skiriasi, todėl gamintojas Klaro siūlo sprendimus, kuriuos galima pritaikyti pagal realų poreikį. Kaip praktiškas atskaitos taškas gali būti nagrinėjamas METAL LINE BASIC COMBI serijos modelis ZV2263N (1 komplektacijos pavyzdys), kuris yra aukštos versijos – jo baziniai matmenys be papildomų priedų siekia 83 cm plotį, 57 cm gylį ir 105 cm aukštį, o bendra konstrukcijos keliamoji galia yra 150 kg."
         },
         {
           "type": "paragraph",
@@ -419480,7 +419480,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Renkantis šį modelį (priklausomai nuo modifikacijos ZV2263N*, ZV2263NPZ* ar ZV2363N*), galima rinktis iš dviejų nuo dulkių apsaugotų stalčių tipų su kompaktiškais ABS plastiko priekiais:"
+          "text": "Renkantis šį modelį (priklausomai nuo modifikacijos ZV2263N, ZV2263NPZ ar ZV2363N), galima rinktis iš dviejų nuo dulkių apsaugotų stalčių tipų su kompaktiškais ABS plastiko priekiais:"
         },
         {
           "type": "list",
@@ -419513,14 +419513,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Pats tvarstymo vežimėlis ZV2263N* turi AISI304 nerūdijančio plieno darbinį stalviršį su 1,2 cm įspaudu kraštuose ir apsauginiais kampais, kurio leistina apkrova yra 20 kg. Kad šis plotas nebūtų apkrautas kasdienėmis smulkmenomis ar atliekų talpomis, 1 komplektacijos pavyzdyje numatyti konkretūs vežimėlių priedai, montuojami išorėje:"
+          "text": "Pats tvarstymo vežimėlis ZV2263N turi AISI304 nerūdijančio plieno darbinį stalviršį su 1,2 cm įspaudu kraštuose ir apsauginiais kampais, kurio leistina apkrova yra 20 kg. Kad šis plotas nebūtų apkrautas kasdienėmis smulkmenomis ar atliekų talpomis, 1 komplektacijos pavyzdyje numatyti konkretūs vežimėlių priedai, montuojami išorėje:"
         },
         {
           "type": "list",
           "items": [
-            "Devynių plastikinių atverčiamų dėžučių blokas (kodas 5770*), kuriame po ranka galima laikyti dažniausiai imamas smulkias priemones, neatitraukiant pagrindinių stalčių.",
-            "Nerūdijančio plieno atlenkiamas staliukas su įspaudu (kodas 5753ZN*), leidžiantis prireikus praplėsti darbinį plotą procedūros metu ir nuleisti jį, kai vežimėlį reikia pastatyti į siauresnę vietą.",
-            "Laikiklis panaudotų adatų konteineriui (kodas 5757*) ir atskiras plastikinis atliekų krepšys (kodas 5754C*), kurie tvirtinami vežimėlio išorėje ir neužima vietos ant viršutinio stalviršio."
+            "Devynių plastikinių atverčiamų dėžučių blokas (kodas 5770), kuriame po ranka galima laikyti dažniausiai imamas smulkias priemones, neatitraukiant pagrindinių stalčių.",
+            "Nerūdijančio plieno atlenkiamas staliukas su įspaudu (kodas 5753ZN), leidžiantis prireikus praplėsti darbinį plotą procedūros metu ir nuleisti jį, kai vežimėlį reikia pastatyti į siauresnę vietą.",
+            "Laikiklis panaudotų adatų konteineriui (kodas 5757) ir atskiras plastikinis atliekų krepšys (kodas 5754C), kurie tvirtinami vežimėlio išorėje ir neužima vietos ant viršutinio stalviršio."
           ]
         },
         {
@@ -419634,12 +419634,12 @@
         }
       ],
       "id": "09b019e6-dab0-4b50-a254-aa3892f89017",
-      "revisionHash": "2109fc6623d7f2c6cb438d05d8c20dcb854d727d7d37d859e1192b89101dff82",
+      "revisionHash": "3ae10381259cae2502641f6654747dc3c405d5439ad199da1a42181d5b0d3225",
       "approval": {
         "status": "approved",
-        "revisionHash": "2109fc6623d7f2c6cb438d05d8c20dcb854d727d7d37d859e1192b89101dff82",
-        "approvedAt": "2026-10-24T15:59:38.239Z",
-        "actorId": "Rokas direct600 publication499; actual first-publication date"
+        "revisionHash": "3ae10381259cae2502641f6654747dc3c405d5439ad199da1a42181d5b0d3225",
+        "approvedAt": "2026-10-24T19:54:48.304Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -421056,10 +421056,10 @@
         {
           "type": "list",
           "items": [
-            "Nerūdijančiojo plieno spintelė (5773*) ir nerūdijančiojo plieno lentyna (5782*) virš stalviršio.",
-            "2 kg deguonies (O2) baliono laikiklis (5758*).",
-            "Naudotų adatų konteinerio laikiklis (5757*).",
-            "Nerūdijančiojo plieno dėklas (tūta) atsiurbimo kateteriams (5780*)."
+            "Nerūdijančiojo plieno spintelė (5773) ir nerūdijančiojo plieno lentyna (5782) virš stalviršio.",
+            "2 kg deguonies (O2) baliono laikiklis (5758).",
+            "Naudotų adatų konteinerio laikiklis (5757).",
+            "Nerūdijančiojo plieno išimamas dėklas atsiurbimo kateteriams (5780)."
           ]
         },
         {
@@ -421069,11 +421069,11 @@
         {
           "type": "list",
           "items": [
-            "Infuzinis stovas (5761*).",
-            "10 plastikinių atverčiamų dėžučių blokas (5771*).",
-            "Nerūdijančiojo plieno laikiklis 100 vienetų pirštinių dėžutei (5781*).",
-            "Atverčiamos šoninės kišenės (5790*).",
-            "Naudotų adatų konteinerio laikiklis (5757*) ir dėklas atsiurbimo kateteriams (5780*)."
+            "Infuzinis stovas (5761).",
+            "10 plastikinių atverčiamų dėžučių blokas (5771).",
+            "Nerūdijančiojo plieno laikiklis 100 vienetų pirštinių dėžutei (5781).",
+            "Atverčiamos šoninės kišenės (5790).",
+            "Naudotų adatų konteinerio laikiklis (5757) ir dėklas atsiurbimo kateteriams (5780)."
           ]
         },
         {
@@ -421083,9 +421083,9 @@
         {
           "type": "list",
           "items": [
-            "14 plastikinių atverčiamų dėžučių blokas (5772*).",
-            "Nerūdijančiojo plieno dėklas atsiurbimo kateteriams (5780*) ir pirštinių laikiklis (5781).",
-            "Mažas (5764*) ir didelis (5765*) nerūdijančiojo plieno vieliniai krepšiai šonuose."
+            "14 plastikinių atverčiamų dėžučių blokas (5772).",
+            "Nerūdijančiojo plieno dėklas atsiurbimo kateteriams (5780) ir pirštinių laikiklis (5781).",
+            "Mažas (5764) ir didelis (5765) nerūdijančiojo plieno vieliniai krepšiai šonuose."
           ]
         },
         {
@@ -421201,12 +421201,12 @@
         }
       ],
       "id": "be0923a8-c3de-4174-b643-98739ab43e0b",
-      "revisionHash": "9cffcdd9416ea15e14a7d1065edbacc0104b7dff1185a91733a3afe0a2ab5a6f",
+      "revisionHash": "869046bf7417b2db3a2a4ed4189c26de5180a92e190f79e269bb530f6cfebe7f",
       "approval": {
         "status": "approved",
-        "revisionHash": "9cffcdd9416ea15e14a7d1065edbacc0104b7dff1185a91733a3afe0a2ab5a6f",
-        "approvedAt": "2026-10-24T15:59:04.567Z",
-        "actorId": "Rokas direct600 publication499; actual first-publication date"
+        "revisionHash": "869046bf7417b2db3a2a4ed4189c26de5180a92e190f79e269bb530f6cfebe7f",
+        "approvedAt": "2026-10-24T19:54:40.886Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -422817,7 +422817,7 @@
       "type": "guide",
       "slug": "gidai/medicinines-spintos-uzrakto-patikra",
       "title": "Rakinamos medicininės spintos: kaip išsirinkti skyriui",
-      "description": "Rakinama medicininė spinta gydymo įstaigai: kuo skiriasi pleksiglaso, plieno durys ir roletai, vidinis išdėstymas, dydžiai bei konstrukcija.",
+      "description": "Rakinama medicininė spinta gydymo įstaigai: kuo skiriasi pleksiglaso, plieno durys ir ritininės durelės, vidinis išdėstymas, dydžiai bei konstrukcija.",
       "intent": "Kokį užrakto tipą pasirinkti medicininei spintai vaistų ir dokumentų saugumui užtikrinti?",
       "body": [
         {
@@ -422838,7 +422838,7 @@
           "items": [
             "Skaidrios pleksiglaso durys. Toks sprendimas naudojamas žemoje spintoje ZS1211.",
             "Nerūdijančio plieno durys su apsauga nuo dulkių. Mobilioje spintoje ZV1392N montuojamos rakinamos durys iš AISI 304 markės nerūdijančio plieno.",
-            "Rakinamas ABS plastiko roletas. Modeliuose CN 232_22 VB (su vienu roletu) ir CN 232_22 VC (su dviem roletais) vietoj varstomų durų naudojamas susukamas roletas."
+            "Rakinamos ABS plastiko ritininės durelės. Modeliuose CN 232_22 VB (su vieneriomis ritininėmis durelėmis) ir CN 232_22 VC (su dvejomis ritininėmis durelėmis) vietoj varstomų durų naudojamos susukamos ritininės durelės."
           ]
         },
         {
@@ -422861,7 +422861,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kai reikia didelio tūrio talpyklos su roletu, modelis CN 232_22 VB turi vidines plastikines sieneles su 25 pozicijomis vienoje sekcijoje, o platesnis dviejų roletų modelis CN 232_22 VC talpina net dvi sekcijas po 25 pozicijas. Renkantis šiuos modelius svarbu įvertinti, kad patys krepšiai į spintos komplektaciją neįeina ir yra užsakomi atskirai pagal skyriaus poreikius."
+          "text": "Kai reikia didelio tūrio talpyklos su ritininėmis durelėmis, modelis CN 232_22 VB turi vidines plastikines sieneles su 25 pozicijomis vienoje sekcijoje, o platesnis dvejų ritininių durelių modelis CN 232_22 VC talpina net dvi sekcijas po 25 pozicijas. Renkantis šiuos modelius svarbu įvertinti, kad patys krepšiai į spintos komplektaciją neįeina ir yra užsakomi atskirai pagal skyriaus poreikius."
         },
         {
           "type": "heading",
@@ -422918,7 +422918,7 @@
           "type": "list",
           "items": [
             "Mobili spinta su darbastaliu ZV1392N (83 cm plotis, 59 cm gylis, 105 cm aukštis, neskaičiuojant priedų). Šis aukštos versijos modelis atlieka dvigubą funkciją: viduje už rakinamų durų yra 3 lentynos, o viršuje įrengtas nerūdijančio plieno darbastalis su 1,2 cm įgilinimu ir apsauginiais kampais. Darbastalio leistina apkrova yra 20 kg, o bendra viso vežimėlio-spintos apkrova siekia 150 kg.",
-            "Mobilios spintos su roletais CN 232_22 VB ir CN 232_22 VC. Abi spintos yra 1700 mm (170 cm) aukščio ir turi po dvi nerūdijančio plieno stūmimo rankenas, tačiau skiriasi pločiu ir gyliu. Vienos sekcijos modelis CN 232_22 VB yra 790 mm pločio ir 600 mm gylio (25 pozicijos krepšiams), o dviejų sekcijų CN 232_22 VC siekia 1050 mm plotį ir 800 mm gylį (2x 25 pozicijos)."
+            "Mobilios spintos su ritininėmis durelėmis CN 232_22 VB ir CN 232_22 VC. Abi spintos yra 1700 mm (170 cm) aukščio ir turi po dvi nerūdijančio plieno stūmimo rankenas, tačiau skiriasi pločiu ir gyliu. Vienos sekcijos modelis CN 232_22 VB yra 790 mm pločio ir 600 mm gylio (25 pozicijos krepšiams), o dviejų sekcijų CN 232_22 VC siekia 1050 mm plotį ir 800 mm gylį (2x 25 pozicijos)."
           ]
         }
       ],
@@ -422990,12 +422990,12 @@
         }
       ],
       "id": "6f1f2454-7763-40fb-817f-cb14334af75b",
-      "revisionHash": "07fb853e23c56be99fc4a9c0ff737601932bc1606a5c80757142c68288e82af1",
+      "revisionHash": "44b2c580e7b5584d1470ad31cd0bdaaccf00a57234155582ae596843001a6324",
       "approval": {
         "status": "approved",
-        "revisionHash": "07fb853e23c56be99fc4a9c0ff737601932bc1606a5c80757142c68288e82af1",
-        "approvedAt": "2026-10-24T15:57:14.137Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "44b2c580e7b5584d1470ad31cd0bdaaccf00a57234155582ae596843001a6324",
+        "approvedAt": "2026-10-24T19:54:44.675Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -423763,7 +423763,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Planuojant gydymo ar slaugos įstaigos pagalbines patalpas bei sandėlius ir vertinant NEREZ 2201 stelažą, svarbu atsižvelgti į du jo techninius rodiklius: didžiausią vienos lentynos tolygiai paskirstytą 50 kg apkrovą ir bendrą visos konstrukcijos 250 kg laikomąją galią. Renkantis ir naudojant šią įrangą, abi nurodytos ribos turi būti vertinamos kartu. Bendra 250 kg riba nurodo maksimalią leistinos apkrovos sumą visam stelažui, o 50 kg rodiklis apibrėžia, kokį didžiausią svorį gali išlaikyti viena lentyna, kai priemonės išdėstomos tolygiai per jos paviršių."
+          "text": "Planuojant gydymo ar slaugos įstaigos pagalbines patalpas bei sandėlius ir vertinant NEREZ2201 stelažą, svarbu atsižvelgti į du jo techninius rodiklius: didžiausią vienos lentynos tolygiai paskirstytą 50 kg apkrovą ir bendrą visos konstrukcijos 250 kg laikomąją galią. Renkantis ir naudojant šią įrangą, abi nurodytos ribos turi būti vertinamos kartu. Bendra 250 kg riba nurodo maksimalią leistinos apkrovos sumą visam stelažui, o 50 kg rodiklis apibrėžia, kokį didžiausią svorį gali išlaikyti viena lentyna, kai priemonės išdėstomos tolygiai per jos paviršių."
         },
         {
           "type": "heading",
@@ -423789,7 +423789,7 @@
         },
         {
           "type": "paragraph",
-          "text": "NEREZ 2201 techniniuose duomenyse prie vienos lentynos laikomosios galios nurodoma tolygaus apkrovimo sąlyga. Tai reiškia, kad šio 70 x 50 x 180 cm bendrų matmenų stelažo kiekvienoje lentynoje maksimalus 50 kg svoris turi būti paskirstytas tolygiai per lentynos paviršių, o ne sutelktas viename taške."
+          "text": "NEREZ2201 techniniuose duomenyse prie vienos lentynos laikomosios galios nurodoma tolygaus apkrovimo sąlyga. Tai reiškia, kad šio 70 x 50 x 180 cm bendrų matmenų stelažo kiekvienoje lentynoje maksimalus 50 kg svoris turi būti paskirstytas tolygiai per lentynos paviršių, o ne sutelktas viename taške."
         },
         {
           "type": "paragraph",
@@ -423883,12 +423883,12 @@
         }
       ],
       "id": "9f659d54-95cd-407c-9e73-4f0784b46a95",
-      "revisionHash": "a1f294e6aefec64631b24f750e761ed975f5b07f944484fc1d72037ba397bec1",
+      "revisionHash": "7fc253d8c445c6c947bd1fdec93d5657e9567b17a00df40301bfde6cd0bb569c",
       "approval": {
         "status": "approved",
-        "revisionHash": "a1f294e6aefec64631b24f750e761ed975f5b07f944484fc1d72037ba397bec1",
-        "approvedAt": "2026-10-24T15:57:18.548Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "7fc253d8c445c6c947bd1fdec93d5657e9567b17a00df40301bfde6cd0bb569c",
+        "approvedAt": "2026-10-24T19:54:45.641Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -424455,7 +424455,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kiekvienas medicininis baldas ar vežimėlis yra suprojektuotas konkrečioms užduotims ir apkrovoms, todėl įrangą svarbu rinktis atsižvelgiant į tikrąjį skyriaus darbo pobūdį. Pavyzdžiui, pneumatiniu arba rankiniu būdu reguliuojamiems „Klaro“ instrumentų staleliams „Instruman“ (modeliams NEREZ1101*, NEREZ1130* ir NEREZ1135*, kuriems taikoma gamintojo instrukcija N0011) yra nustatytos konkrečios techninės naudojimo ir apkrovos ribos. Šie N0011 duomenys galioja tik joje nurodytiems modeliams, todėl kasdieniame darbe stalelis turi būti naudojamas pagal tiesioginę paskirtį ir neviršijant šių ribų."
+          "text": "Kiekvienas medicininis baldas ar vežimėlis yra suprojektuotas konkrečioms užduotims ir apkrovoms, todėl įrangą svarbu rinktis atsižvelgiant į tikrąjį skyriaus darbo pobūdį. Pavyzdžiui, pneumatiniu arba rankiniu būdu reguliuojamiems „Klaro“ instrumentų staleliams „Instruman“ (modeliams NEREZ1101, NEREZ1130 ir NEREZ1135, kuriems taikoma gamintojo instrukcija N0011) yra nustatytos konkrečios techninės naudojimo ir apkrovos ribos. Šie N0011 duomenys galioja tik joje nurodytiems modeliams, todėl kasdieniame darbe stalelis turi būti naudojamas pagal tiesioginę paskirtį ir neviršijant šių ribų."
         },
         {
           "type": "heading",
@@ -424512,7 +424512,7 @@
           "type": "list",
           "items": [
             "Įvertinkite realią darbo aplinką: kokia grindų danga vyrauja maršrutuose, kuriais bus stumdomi vežimėliai (pavyzdžiui, ar reikės ratukų kietam paviršiui, ar kiliminei dangai), ir ar reikalingi pasukami, ar fiksuoti ratukai.",
-            "Patikrinkite konkretaus modelio ribas: jei renkatės specifinę įrangą, pavyzdžiui, pneumatinius ar rankinius „Instruman“ stalelius (NEREZ1101*, NEREZ1130*, NEREZ1135*), iš anksto susipažinkite su būtent tiems modeliams skirta N0011 instrukcija ir joje nurodytais naudojimo parametrais.",
+            "Patikrinkite konkretaus modelio ribas: jei renkatės specifinę įrangą, pavyzdžiui, pneumatinius ar rankinius „Instruman“ stalelius (NEREZ1101, NEREZ1130, NEREZ1135), iš anksto susipažinkite su būtent tiems modeliams skirta N0011 instrukcija ir joje nurodytais naudojimo parametrais.",
             "Atskirkite sprendimo etapus: renkantis baldą pirmiausia įvertinkite pačios konstrukcijos tinkamumą jūsų apkrovoms, o kasdienio valymo, periodinės priežiūros ir atsarginių dalių užsakymo tvarką planuokite pagal jau pasirinkto modelio techninius reikalavimus."
           ]
         }
@@ -424589,12 +424589,12 @@
         }
       ],
       "id": "3aad033e-b626-4fb3-949c-33b7a417b413",
-      "revisionHash": "e3e9603ec13373aedb97770714e181e407178b41e55bde8cc9625c42822522c0",
+      "revisionHash": "e32a83f33a2124ce34026b32e27430814ceeaa50e9b020e25975afb35eea2ce7",
       "approval": {
         "status": "approved",
-        "revisionHash": "e3e9603ec13373aedb97770714e181e407178b41e55bde8cc9625c42822522c0",
-        "approvedAt": "2026-10-24T15:57:28.191Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "e32a83f33a2124ce34026b32e27430814ceeaa50e9b020e25975afb35eea2ce7",
+        "approvedAt": "2026-10-24T19:54:46.441Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -426105,7 +426105,7 @@
           "items": [
             "Kietoms grindims skirti ratai montuojami modeliuose HV1001, HV1001D, HV2001 ir HV2001D.",
             "Minkštoms grindims (pavyzdžiui, kiliminei dangai) skirti ratai montuojami atviruose modeliuose HV1002 ir HV2002.",
-            "Prireikus uždaro modelio minkštoms grindims, gamintojas prie HV1001D ir HV2001D aprašymų nurodo galimybę užsakyti versijas su ratais minkštoms grindims, žymimas atitinkamai katalogo numeriais HV1002D* ir HV2002D."
+            "Prireikus uždaro modelio minkštoms grindims, gamintojas prie HV1001D ir HV2001D aprašymų nurodo galimybę užsakyti versijas su ratais minkštoms grindims, žymimas atitinkamai katalogo numeriais HV1002D ir HV2002D."
           ]
         },
         {
@@ -426291,12 +426291,12 @@
         }
       ],
       "id": "dfb4e63e-6578-463e-a4af-ed96e8aa0f15",
-      "revisionHash": "2f47daf146cd7d83b02e82c595bd8ccd82d6c275b76c52aca47deb2f51ab0500",
+      "revisionHash": "019a0897a9c8ca2c044cab0b4c01423ad0a3c57b6ac8eb5082d1332cfb87159d",
       "approval": {
         "status": "approved",
-        "revisionHash": "2f47daf146cd7d83b02e82c595bd8ccd82d6c275b76c52aca47deb2f51ab0500",
-        "approvedAt": "2026-10-24T15:56:54.177Z",
-        "actorId": "Rokas direct2026-10-24 + ROKO SPRENDIMAS600; executor Codex"
+        "revisionHash": "019a0897a9c8ca2c044cab0b4c01423ad0a3c57b6ac8eb5082d1332cfb87159d",
+        "approvedAt": "2026-10-24T19:54:42.960Z",
+        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
       }
     },
     {
@@ -426805,5 +426805,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-24T16:23:42.416Z"
+  "generatedAt": "2026-10-24T19:54:53.508Z"
 }
