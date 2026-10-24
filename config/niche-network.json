@@ -3,10 +3,13 @@
   "defaultEmail": "info@pinet.lt",
   "mailRecipientsBySite": {},
   "guidePublicationPausedAtBySite": {
-    "promedical": "2026-10-13T19:26:54.000Z"
+    "promedical": "2026-10-24T16:23:42.797Z"
   },
   "contactsBySite": {
-    "promedical": { "email": "info@promedical.lt", "operatorName": "Promedical" }
+    "promedical": {
+      "email": "sales@azprekyba.lt",
+      "operatorName": "Promedical"
+    }
   },
   "networkDomains": [
     "promedical.lt",
