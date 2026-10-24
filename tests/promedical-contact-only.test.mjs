@@ -40,7 +40,7 @@ test('Promedical renders contact-only navigation across page families while pres
       assert.ok(html.includes(`href="tel:${pkg.site.contact.phone.replace(/\s/g,'')}"`));
       assert.match(html,/type="application\/ld\+json"/);
       assert.match(html,/role="search"/);
-      if(page.type==='home')assert.doesNotMatch(html,/Nuo vieno vežimėlio|Nurodykite kiekius ir reikalavimus|Aptarkime komplektaciją/);
+      if(page.type==='home')assert.doesNotMatch(html,/Nuo vieno vežimėlio|Nurodykite kiekius ir reikalavimus|Aptarkime komplektaciją|gidai\/irangos-pirkimo-uzklausa|Praktiniai gidai prieš rengiant įrangos užklausą/);
       if(page.type==='guide'){
         assert.doesNotMatch(html,/rengiamas su AI/);
         assert.match(html,/Parengė /);
