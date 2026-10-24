@@ -40,8 +40,18 @@ test('Promedical renders contact-only navigation across page families while pres
       assert.ok(html.includes(`href="tel:${pkg.site.contact.phone.replace(/\s/g,'')}"`));
       assert.match(html,/type="application\/ld\+json"/);
       assert.match(html,/role="search"/);
+      if(page.type==='home')assert.doesNotMatch(html,/Nuo vieno vežimėlio|Nurodykite kiekius ir reikalavimus|Aptarkime komplektaciją/);
+      if(page.type==='guide'){
+        assert.doesNotMatch(html,/rengiamas su AI/);
+        assert.match(html,/Parengė /);
+        assert.match(html,/Publikavimo data <time/);
+        const otherSite=renderToStaticMarkup(React.createElement(PromedicalSite,{pkg:{...pkg,siteId:'other-site'},page,livePages:pages}));
+        assert.match(otherSite,/rengiamas su AI/,'the shared ArticleMeta disclosure is unchanged for other sites');
+      }
       if(page.slug==='kontaktai')assert.equal((html.match(/<form\b/g)||[]).length,1,'only catalogue search remains');
       if(page.type==='product'){
+        assert.doesNotMatch(html,/Ruošiate įstaigos pirkimą|Pirkimo užklausos gidas|Norimą komplektaciją, priedus ir spalvas nurodykite užklausoje/);
+        assert.match(html,/Produktų vaizdai gali rodyti papildomus priedus/);
         assert.match(html,/Katalogo kodas/);
         assert.match(html,/"@type":"Product"/);
         assert.ok(html.includes(page.media[0].src));
