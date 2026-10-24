@@ -5181,8 +5181,8 @@
         },
         {
           "from": "/produktai/nerez1042-vyprodej",
-          "to": "/produktai/nerudijanciojo-plieno-dvieju-pakopu-laipteliai-nerez1042-variantas",
-          "targetPageId": "f8b78b9e-f212-47c3-9486-4a6c59b0ad11"
+          "to": "/produktai/nerudijanciojo-plieno-dvieju-pakopu-laipteliai-nerez1042",
+          "targetPageId": "54e77253-e667-4d4c-a1c6-4c8149c3d8cc"
         },
         {
           "from": "/produktai/nerez1043",
@@ -9228,6 +9228,11 @@
           "from": "/produktai/zv4252npz-modry-vyprodej",
           "to": "/produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-maxi-su-apsauginiu-borteliu-zv4252npz-melynas-variantas",
           "targetPageId": "cb434598-c368-4110-8eb9-952b881e6234"
+        },
+        {
+          "from": "/produktai/nerudijanciojo-plieno-dvieju-pakopu-laipteliai-nerez1042-variantas",
+          "to": "/produktai/nerudijanciojo-plieno-dvieju-pakopu-laipteliai-nerez1042",
+          "targetPageId": "54e77253-e667-4d4c-a1c6-4c8149c3d8cc"
         }
       ]
     }
