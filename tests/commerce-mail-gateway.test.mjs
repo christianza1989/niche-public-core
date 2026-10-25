@@ -15,6 +15,17 @@ const config={storeId:'memo-fixture',environment:'sandbox',from:'sender@example.
 const message={schemaVersion:1,environment:'sandbox',storeId:'memo-fixture',id:'notice-123',messageId:'<notice-123@example.test>',from:'sender@example.test',to:'buyer@example.test',replyTo:'info@memorycasting.lt',subject:'Bandomasis užsakymas',text:'Testinis pranešimas; tikras laiškas nesiunčiamas.'};
 const post=(body=message)=>new Request('https://core-mail.internal/commerce/messages/'+body.id,{method:'POST',body:JSON.stringify(body)});
 const get=()=>new Request('https://core-mail.internal/commerce/messages/'+message.id);
+test('HTML is preserved in the immutable mail fingerprint; changed HTML cannot replay a send',async()=>{
+ const db=database();let sends=0;
+ const gateway=createCommerceMailGateway({config,ledger:new D1CommerceMailLedger(db),send:async value=>{sends++;assert.equal(value.html,'<p>Fixture button</p>');return{reference:'fixture-accepted'};}});
+ try{
+  const html={...message,html:'<p>Fixture button</p>'};
+  assert.equal((await gateway(post(html))).status,200);
+  assert.equal((await gateway(post({...html,html:'<p>Changed</p>'}))).status,409);
+  assert.equal((await gateway(post({...html,html:{unsafe:true}}))).status,400);
+  assert.equal(sends,1);
+ }finally{db.close();}
+});
 
 test('a commerce brand display name preserves the authenticated From address and rejects header injection',()=>{
  const input={from:'sender@example.test',to:'buyer@example.test',subject:'Užsakymas',text:'Receipt',id:'brand-test'};

@@ -1,5 +1,7 @@
 # Private commerce mail service
 
+2026-10-25 maintained sender migration: the owner's approved primary mailbox is info@memorycasting.lt. Use its exact authenticated API identity; a display-name/Reply-To change alone is insufficient. Optional bounded HTML and its text alternative share the durable immutable fingerprint. Preserve all old claims, including unknown sends, when changing provider bindings. Canonical procedure: companion `commerce-core/docs/PAYMENT_RECOVERY.md`; actual activation and inbox acceptance are recorded separately in `sites/memocasting/PAYMENT_RECOVERY_2026_10_25.md`. The source below retains the original integration's historical disabled-state context; source changes alone do not prove deployment.
+
 Disabled standalone service-binding Worker using the existing shared SMTP protocol and authenticated Hostinger sender. No public route, new provider, credentials, production resource or live mail is created by this source.
 
 The canonical integration/acceptance receipt is in companion `sites/memocasting/COMMERCE_MAIL_INTEGRATION.md` (core PR101), linked with public PR31. The parent commerce adapter uses the `COMMERCE_MAIL` binding; do not connect it to the storefront's public `/prekyba` gateway.
