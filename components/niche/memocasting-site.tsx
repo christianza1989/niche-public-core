@@ -23,6 +23,8 @@ import {MemoVideoCarousel} from './memocasting-video-carousel';
 import {memoInstagramPlacement} from '@/lib/memocasting-instagram-bridge.mjs';
 import {memoProductForSlug,memoProducts} from '@/lib/memocasting-products.mjs';
 import {memoProductContents} from '@/lib/memocasting-product-content.mjs';
+import {memoInstructionKind} from '@/lib/memocasting-instructions.mjs';
+import {MemoInstructions} from './memocasting-instructions';
 function MemoArticleMeta({pkg,page,pages,className}:{pkg:NichePackage;page:NichePage;pages:NichePage[];className:string}){const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],dates=nicheEditorialDates(page),profile=memoProfilePath(page,pages),format=(d:string)=>new Intl.DateTimeFormat(route.locale,{dateStyle:'medium',timeZone:pkg.site.timezone}).format(new Date(d));return <div className={className}><p>{labels.author} {profile?<a href={profile} rel='author'>MB Memocasting</a>:'MB Memocasting'} · {labels.editorial}</p><p>{labels.published} <time dateTime={dates.published}>{format(dates.published)}</time> · {labels.reviewed} <time dateTime={dates.modified}>{format(dates.modified)}</time></p></div>;}
 const productSlugs=memoProducts.map(p=>p.logicalSlug);
 const mainKitSlugs=['products/liejimo-rinkinys-porai','products/seimos-rinkinys-1'];
@@ -46,6 +48,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  const company=memoCompany(pkg,livePages),languages=memoLanguageLinks(page,livePages),languageLabel=({lt:'Svetainės kalba',pl:'Język strony',lv:'Vietnes valoda',et:'Veebilehe keel'} as Record<string,string>)[route.language];
  const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language}/>;
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
+ const instruction=memoInstructionKind(page);
  const related=page.links.flatMap(l=>{const p=livePages.find(p=>p.id===l.targetPageId);return p?[{page:p,label:l.label}]:[];});
  if(home&&route.language==='lt'&&memoHomepageAdmitted(page)){
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
@@ -61,7 +64,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
   const intro=memoHomepageIntro.replace('</nav>',cartLink+'</nav>');
   return <MemoHomepageMotion><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/><div dangerouslySetInnerHTML={{__html:intro}}/><main id="turinys"><div dangerouslySetInnerHTML={{__html:beforeVideos}}/><MemoVideoCarousel/><div dangerouslySetInnerHTML={{__html:afterVideos}}/><MemoInspirationGallery/><div dangerouslySetInnerHTML={{__html:social.before}}/><div dangerouslySetInnerHTML={{__html:social.after}}/><details className="home-information"><summary>Rinkinių informacija ir naudingi gidai</summary><Body page={{...page,body:page.body.slice(memoHomepageBlocks.length)}} pages={livePages}/>{exists('gidai')&&<p><a href={path('gidai')}>{labels.allGuides}</a></p>}</details></main>{footer}</MemoHomepageMotion>;
  }
- return <div className={s.site}><a className={s.skip} href="#turinys">{labels.skip}</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/>
+ return <div className={s.site} data-memo-instructions={instruction||undefined}><a className={s.skip} href="#turinys">{labels.skip}</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/>
  <header className={s.header}>
   <a href={path()} className={s.logo} aria-label={labels.home}><img src="/memocasting-homepage/v1/media/logo.webp" width="1000" height="300" alt="Memory Casting"/></a>
   <nav className={s.desktopNav} aria-label={labels.menu}>{nav.filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)} aria-current={route.baseSlug===slug?'page':undefined}>{({Rinkiniai:labels.catalogue,Instrukcija:labels.instruction,Dovanos:labels.gifts,Gidai:labels.guides,Kontaktai:labels.contact} as Record<string,string>)[label]}</a>)}</nav>
@@ -74,12 +77,13 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  <main id="turinys" className={s.main}>
  {!home&&<nav className={'niche-breadcrumbs '+s.crumbs} data-niche-breadcrumbs aria-label={labels.trail}>{nicheBreadcrumbs(pkg,page,livePages).map((b:{name:string;path:string},i:number)=><span key={b.path}>{i>0&&<span aria-hidden="true"> / </span>}{i<nicheBreadcrumbs(pkg,page,livePages).length-1?<a href={b.path}>{b.name}</a>:<span aria-current="page">{b.name}</span>}</span>)}</nav>}
  {home?<><section className={s.hero}><div><h1>{page.title}</h1><p className={s.intro}>{page.description}</p><div className={s.actions}>{exists('collections/all')&&<a href={path("collections/all")} className={s.button}>{labels.choose}</a>}{exists('pages/instrukcija')&&<a href={path("pages/instrukcija")}>{labels.start}</a>}</div></div>{page.media[0]&&<Photo asset={page.media[0]} media={page.media} hero/>}</section><section className={s.selection}><h2>{labels.selection}</h2><Products pages={localPages}/></section><div className={s.homeBody}><Body page={page} pages={livePages}/></div>{exists('gidai')&&<section className={s.guideSection}><div className={s.sectionHead}><h2>{labels.ideas}</h2><a href={path("gidai")}>{labels.allGuides}</a></div><Guides pages={localPages}/></section>}</>:<>
- {!cart&&!product&&<div className={catalogue?s.catalogHeading:s.pageHeading}><h1>{page.title}</h1><p className={s.intro}>{page.description}</p></div>}
+ {!cart&&!product&&!instruction&&<div className={catalogue?s.catalogHeading:s.pageHeading}><h1>{page.title}</h1><p className={s.intro}>{page.description}</p></div>}
+ {instruction&&<MemoInstructions page={page} pages={livePages}/>}
  {cart&&<MemoNativeCheckout title={page.title} language={route.language} country={route.country} policies={memoCheckoutPolicies(livePages)} catalogueUrl={exists('collections/all')?path('collections/all'):undefined}/>}
- {page.type==='guide'&&<MemoArticleMeta pkg={pkg} page={page} pages={livePages} className={s.meta}/>}
- {page.type==='guide'&&<Body page={{...page,body:memoGuideBodyParts(page).lead}} pages={livePages}/>}
- {page.media[0]&&!product&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}
- {page.type==='guide'&&<details className={s.toc}><summary>{labels.contents}</summary><nav aria-label={labels.contents}><ul>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<li key={i}><a href={'#'+memoSectionId(b.text)}>{b.text}</a></li>]:[])}</ul></nav></details>}
+ {page.type==='guide'&&!instruction&&<MemoArticleMeta pkg={pkg} page={page} pages={livePages} className={s.meta}/>}
+ {page.type==='guide'&&!instruction&&<Body page={{...page,body:memoGuideBodyParts(page).lead}} pages={livePages}/>}
+ {page.media[0]&&!product&&!instruction&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}
+ {page.type==='guide'&&!instruction&&<details className={s.toc}><summary>{labels.contents}</summary><nav aria-label={labels.contents}><ul>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<li key={i}><a href={'#'+memoSectionId(b.text)}>{b.text}</a></li>]:[])}</ul></nav></details>}
  {product&&<>
   <section className={s.productHero} aria-labelledby="product-title">
    <div className={s.productHeading}><h1 id="product-title">{page.title}</h1><p className={s.intro}>{labels.tagline}</p></div>
@@ -90,7 +94,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
   <nav className={s.productSections} aria-label={storeText.productInfo}>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<a key={i} href={'#'+memoSectionId(b.text)}>{b.text}</a>]:[])}</nav>
   <div className={s.productDetail}><div><p className={s.productDescription}>{page.description}</p><Body page={page} pages={livePages}/></div><aside className={s.productHelp}><h2>{storeText.documents}</h2><nav>{[['pages/instrukcija',labels.instruction],['pagalba',labels.help],['gidai',labels.guides]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>)}</nav></aside></div>
  </>}
- {!cart&&!product&&!catalogue&&<Body page={page.type==='guide'?{...page,body:memoGuideBodyParts(page).body}:page} pages={livePages}/>}
+ {!cart&&!product&&!catalogue&&!instruction&&<Body page={page.type==='guide'?{...page,body:memoGuideBodyParts(page).body}:page} pages={livePages}/>}
  {catalogue&&<>
   <Products pages={localPages} headingLevel={2}/>
   <section className={s.comparison} aria-labelledby="kit-comparison"><h2 id="kit-comparison">{storeText.comparison}</h2><table className={s.comparisonTable}><caption>{storeText.contents}</caption><thead><tr><th scope="col">{labels.catalogue}</th>{localPages.filter(p=>mainKitSlugs.includes(memoRoute(p).baseSlug)).map(p=><th scope="col" key={p.id}><a href={'/'+p.slug} aria-label={p.title}>{memoRoute(p).baseSlug===productSlugs[0]?labels.pair:labels.family}</a></th>)}</tr></thead><tbody><tr><th scope="row">{storeText.contents}</th>{localPages.filter(p=>mainKitSlugs.includes(memoRoute(p).baseSlug)).map(p=><td key={p.id}><ul>{memoProductContents(p).map((item:string,i:number)=><li key={i}>{item}</li>)}</ul></td>)}</tr></tbody></table></section>
