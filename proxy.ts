@@ -6,6 +6,8 @@ import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
+import networkSettings from '@/config/niche-network.json';
+import { pageWithdrawalDestination } from '@/lib/niche-withdrawals.mjs';
 const nichePathAliases = indexNichePathAliases(pathAliases);
 
 const legacyHosts = new Map(
@@ -59,7 +61,8 @@ export function proxy(request: NextRequest) {
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
     if (request.method === 'GET' || request.method === 'HEAD') {
-      const legacyDestination = nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
+      const legacyDestination = pageWithdrawalDestination(niche, networkSettings, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search)
+        || nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
       if (legacyDestination) {
         const destination = request.nextUrl.clone();
         const target = new URL(legacyDestination, destination.origin);

@@ -6,7 +6,10 @@
     "promedical": "2026-10-13T19:26:54.000Z"
   },
   "contactsBySite": {
-    "promedical": { "email": "info@promedical.lt", "operatorName": "Promedical" }
+    "promedical": {
+      "email": "info@promedical.lt",
+      "operatorName": "Promedical"
+    }
   },
   "networkDomains": [
     "promedical.lt",
@@ -68,5 +71,29 @@
     "www.tiknamams.lt",
     "www.traktoriupadangos.lt",
     "www.tvirti-pamatai.lt"
-  ]
+  ],
+  "pageWithdrawalsBySite": {
+    "promedical": {
+      "canonicalHost": "promedical.lt",
+      "redirectTo": "/produktai",
+      "pages": [
+        {
+          "pageId": "3ebd53df-6425-4459-89c7-efc80aa90517",
+          "path": "/kategorijos/specialiuju-pasiulymu-asortimentas"
+        },
+        {
+          "pageId": "8ebc04dd-bcf8-43c7-8023-7493b622ee32",
+          "path": "/kategorijos/ispardavimo-asortimentas"
+        },
+        {
+          "pageId": "95b1fd35-0785-49f8-bd91-4f173ec64497",
+          "path": "/kategorijos/specialiuju-pasiulymu-asortimentas/ispardavimas"
+        },
+        {
+          "pageId": "dad92f0f-0632-495d-a799-9e6eb85be5f2",
+          "path": "/kategorijos/ispardavimo-asortimentas/sandelio-atsargu-ispardavimas"
+        }
+      ]
+    }
+  }
 }
