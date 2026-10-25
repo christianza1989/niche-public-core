@@ -4,7 +4,7 @@ import {memoBrandName,memoSeoMetadata} from '@/lib/memocasting-seo-metadata.mjs'
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nichePagePath, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
@@ -67,9 +67,8 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-ext-3911b66d9f2e.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
           {niche.siteId === "memocasting" && <>
-            <link rel="preload" href="/fonts/memocasting/newsreader-latin-extended.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/memocasting-homepage/v1/fonts/manrope-400.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
+            <link rel="preload" href="/memocasting-homepage/v1/fonts/manrope-600.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
           </>}
           <title>{memoMetadata?.title || (page as typeof page & {seoTitle?:string})?.seoTitle || page?.title || niche.site.name}</title>
           <meta name="description" content={memoMetadata?.description || (page as typeof page & {seoDescription?:string})?.seoDescription || page?.description || niche.site.offer} />
