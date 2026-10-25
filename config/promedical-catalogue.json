@@ -4350,17 +4350,6 @@
       ],
       "model": "NEREZ2703"
     },
-    "7f44e4cf-f05b-4267-8e2d-b0180628e6a2": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2722"
-    },
     "48774674-bd80-45b0-86f2-3b29ed02c6c5": {
       "categoryIds": [
         "1ac75e8f-49d2-4b37-bf7d-3ea9f0b871ca",
@@ -4371,17 +4360,6 @@
         "e139853c-23fd-45f3-8808-16645bf71c24"
       ],
       "model": "NEREZ2722NZ"
-    },
-    "e0c38fbe-63ac-4f89-a8ff-8c68a3bd233e": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2724"
     },
     "98b7d568-f4f0-418d-ba93-a9549102ba02": {
       "categoryIds": [
@@ -4471,17 +4449,6 @@
       ],
       "model": "NEREZ2733"
     },
-    "625c21ad-6190-4120-b694-c60fbb7613eb": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2734"
-    },
     "dbddab4e-82d2-41e3-b3dc-e2659e646a55": {
       "categoryIds": [
         "a8c37f85-842f-4947-aadb-f7c181c237c6",
@@ -4514,17 +4481,6 @@
         "e139853c-23fd-45f3-8808-16645bf71c24"
       ],
       "model": "NEREZ2737"
-    },
-    "6f6b3693-708d-482f-8445-0763cfd9b203": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2738"
     },
     "1bb43194-9d48-479d-bb43-d936888f65ab": {
       "categoryIds": [
@@ -4603,17 +4559,6 @@
       ],
       "model": "NEREZ2745"
     },
-    "71678a0d-2466-46d8-99f7-000b1b2405e0": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2760"
-    },
     "e7f1f624-8cf2-406f-b581-a3a417182b0e": {
       "categoryIds": [
         "d1aced6f-7ef6-41c9-be3c-e8054a8ede68",
@@ -4691,17 +4636,6 @@
       ],
       "model": "NEREZ2765"
     },
-    "17785b91-6f66-4c94-8a0f-a667c6483683": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2767"
-    },
     "dac2854e-c449-4bff-abf4-a82ea19d0b0a": {
       "categoryIds": [
         "a8c37f85-842f-4947-aadb-f7c181c237c6",
@@ -4746,17 +4680,6 @@
       ],
       "model": "NEREZ2773"
     },
-    "83c8efca-45ef-4ed2-82a3-a172703ca297": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2820"
-    },
     "b4763716-9ad5-4746-9e22-b420ebbc80e4": {
       "categoryIds": [
         "4cefd086-e2e6-444a-b4f4-d0ad4194af69",
@@ -4778,17 +4701,6 @@
         "e139853c-23fd-45f3-8808-16645bf71c24"
       ],
       "model": "NEREZ2821"
-    },
-    "c578d170-f64e-4eb1-ae5a-71b9facf9e0e": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2822"
     },
     "7b2add52-8fad-49e3-9f6d-f652e0858b1a": {
       "categoryIds": [
@@ -4900,17 +4812,6 @@
       ],
       "model": "NEREZ2835"
     },
-    "ae155b10-ea44-4c14-a907-2b491a7c6895": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2838"
-    },
     "88ea4dbe-25ed-4b0c-945e-cafd4c7a84fb": {
       "categoryIds": [
         "a8c37f85-842f-4947-aadb-f7c181c237c6",
@@ -4976,17 +4877,6 @@
         "e139853c-23fd-45f3-8808-16645bf71c24"
       ],
       "model": "NEREZ2843"
-    },
-    "e44ab931-0040-46e1-9b99-d4c7cf552f14": {
-      "categoryIds": [
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2842"
     },
     "584a2885-04a4-425b-8a8d-0c3d48222d8e": {
       "categoryIds": [
@@ -6206,19 +6096,6 @@
       ],
       "model": "NEREZ2700"
     },
-    "19583f01-3d41-49bd-8904-81d6fe8876af": {
-      "categoryIds": [
-        "f6b5f722-8f1c-4edd-a2c5-34ace534f6fe",
-        "42a00767-ec9e-4be1-bc9a-e93c62a16075",
-        "0b0bb287-6e8c-4d3b-bae4-33ec7801d253",
-        "b70cac62-5b36-42fa-a397-56abdf22675a",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "ef4a9fc6-c3ad-4bac-8033-7530b967a60d",
-        "e139853c-23fd-45f3-8808-16645bf71c24",
-        "bf8729fe-4360-43b7-8507-548f925cb1d4"
-      ],
-      "model": "NEREZ2701"
-    },
     "c6693229-7e88-4d99-9a7e-d5c097c9a997": {
       "categoryIds": [
         "0b0bb287-6e8c-4d3b-bae4-33ec7801d253",
@@ -6300,17 +6177,6 @@
         "e139853c-23fd-45f3-8808-16645bf71c24"
       ],
       "model": "NEREZ2732"
-    },
-    "f0ea34fa-a4f2-4c4f-a656-557a9a0ab899": {
-      "categoryIds": [
-        "09731f12-e1ad-4e55-af3e-bddb64c16b55",
-        "a37bd56e-e0e1-4642-98c9-380c7fe2fe1a",
-        "a8c37f85-842f-4947-aadb-f7c181c237c6",
-        "cdfb0b69-081d-4675-8be4-5d26bef18be5",
-        "6df5edf3-50fd-432e-87db-5d68e097d14f",
-        "e139853c-23fd-45f3-8808-16645bf71c24"
-      ],
-      "model": "NEREZ2742"
     },
     "db83b0dc-5e59-4f4e-8f0a-02822d8724db": {
       "categoryIds": [
