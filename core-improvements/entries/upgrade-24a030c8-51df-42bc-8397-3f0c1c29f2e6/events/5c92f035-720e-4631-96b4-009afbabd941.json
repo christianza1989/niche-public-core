@@ -1,0 +1,24 @@
+{
+  "status": "local-verified",
+  "note": "Host/current-home scoped read bridge and semantic fallback insertion;122publictests/scopedESLint/productionbuild pass. Real desktop1280/mobile390/320 inspected with isolated24post fixture (never public):12then24 loadmore, image/album labels, actual local20s video decoded/played toend, nooverflow. Genuine account feed not yet connected; required ownerInstagramlogin pending.",
+  "checks": [
+    {
+      "command": "node --test --test-concurrency=1 tests/*.test.mjs",
+      "result": "PASS",
+      "evidence": "122pass/0fail; qa/instagram-public-tests-final-20261020.private.log; originalwrongcwdfixturefailure retainedseparately."
+    },
+    {
+      "command": "ScopedESLint and MEMO_DEPLOYMENT=production npm run build",
+      "result": "PASS",
+      "evidence": "qa/instagram-build-20261020.private.log and scopedESLint exit0; nativecontent unchanged3367ef65."
+    },
+    {
+      "command": "Actual desktop/mobile isolated fixture browser review",
+      "result": "PASS",
+      "evidence": "qa/instagram-desktop-fixture-20261020.png;instagram-mobile-fixture-20261020.png;1280/390/320 nooverflow;12->24loadmore/video20splayback. Fixture notInstagramAPIacceptance."
+    }
+  ],
+  "eventId": "5c92f035-720e-4631-96b4-009afbabd941",
+  "sequence": 2,
+  "at": "2026-10-20T05:52:10.967Z"
+}
