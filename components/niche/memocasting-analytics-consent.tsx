@@ -20,16 +20,16 @@ export function MemoAnalyticsConsent({config,privacyPath}:{config:Config;privacy
   return ()=>{instance.dispose();controller.current=null;};
  },[config]);
  useEffect(()=>{controller.current?.checkLocation();},[pathname]);
- const shown=!!state&&(open||state.choice==='unknown');
+ const shown=!!state&&(open||(config.track&&state.choice==='unknown'));
  function close(){setOpen(false);setManual(false);trigger.current?.focus();}
  function choose(choice:string){const saved=controller.current?.choose(choice);if(saved||choice==='denied')close();}
  return <>
   <button ref={trigger} className={s.trigger} type="button" onClick={()=>{setManual(true);setOpen(true);requestAnimationFrame(()=>heading.current?.focus());}} aria-expanded={shown} aria-controls={shown?'memo-analytics-choice':undefined}>{t.settings}</button>
-  {shown&&createPortal(<section id="memo-analytics-choice" className={s.panel} role="region" aria-labelledby="memo-analytics-title" onKeyDown={event=>{if(event.key==='Escape'&&state.choice!=='unknown'){event.preventDefault();close();}}}>
+  {shown&&createPortal(<section id="memo-analytics-choice" className={s.panel} role="region" aria-labelledby="memo-analytics-title" onKeyDown={event=>{if(event.key==='Escape'&&(!config.track||state.choice!=='unknown')){event.preventDefault();close();}}}>
    <div className={s.content}><h2 id="memo-analytics-title" ref={heading} tabIndex={-1}>{t.title}</h2><p>{t.body} {privacyPath&&<a href={privacyPath}>{t.privacy}</a>}</p>
     {state.choice!=='unknown'&&<p className={s.status} role="status">{state.choice==='granted'?t.granted:t.denied}</p>}
     {!state.available&&<p className={s.error} role="status">{t.unavailable}</p>}
-   </div><div className={s.actions}><button type="button" onClick={()=>choose('granted')}>{t.accept}</button><button type="button" onClick={()=>choose('denied')}>{t.reject}</button>{manual&&state.choice!=='unknown'&&<button type="button" className={s.close} onClick={close}>{t.close}</button>}</div>
+   </div><div className={s.actions}><button type="button" onClick={()=>choose('granted')}>{t.accept}</button><button type="button" onClick={()=>choose('denied')}>{t.reject}</button>{manual&&(!config.track||state.choice!=='unknown')&&<button type="button" className={s.close} onClick={close}>{t.close}</button>}</div>
   </section>,document.body)}
  </>;
 }
