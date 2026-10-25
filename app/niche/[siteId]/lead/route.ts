@@ -1,6 +1,6 @@
 import { env } from "cloudflare:workers";
 import { headers } from "next/headers";
-import { publicSiteByHost, publicSitePage, publicSitePages } from "@/lib/public-site";
+import { loadPublicSiteByHost, publicSitePage, publicSitePages } from "@/lib/public-site";
 import {memoLeadContext,memoLeadText} from '@/lib/memocasting-lead-response.mjs';
 import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
@@ -45,7 +45,7 @@ async function limitedForm(request: Request, retainedLimit = 10000): Promise<URL
 export async function POST(request: Request, { params }: { params: Params }): Promise<Response> {
   const { siteId } = await params;
   const host = (await headers()).get("host");
-  const pkg = publicSiteByHost(host);
+  const pkg = await loadPublicSiteByHost(host);
   if (!pkg || pkg.siteId !== siteId || !publicSitePage(pkg, "")) return response("Ši svetainė nepasiekiama.", 404);
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
