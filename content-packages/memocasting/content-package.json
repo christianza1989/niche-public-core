@@ -3158,6 +3158,23 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Nebaigto apmokėjimo priminimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai pateikiate užsakymą ir pradedate apmokėjimą, tačiau jo neužbaigiate, po 12 valandų galime atsiųsti vieną neutralų priminimą pateiktu el. paštu. Prieš siųsdami patikriname mokėjimo ir užsakymo būseną. Priminimo nesiunčiame už apmokėtą, atšauktą ar pasibaigusį užsakymą. Jame nėra nuolaidų, papildomų pasiūlymų ar reklaminio sekimo; daugiau priminimų dėl šio užsakymo nesiunčiame. Vien el. pašto įvedimas nepateikus užsakymo priminimo neįjungia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Priminimui naudojame užsakymo identifikatorių, el. paštą ir techninę apmokėjimo būseną. Pagrindas – mūsų teisėtas interesas padėti užbaigti jūsų pradėtą užsakymą. Apie vieną priminimą informuojame užsakymo formoje. Tai nėra naujienlaiškio prenumerata ar sutikimas rinkodarai. Dėl tokio tvarkymo galite nesutikti kreipdamiesi info@memorycasting.lt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naujo užsakymo apmokėjimo ir prekių rezervavimo laikas – 24 valandos. Laiško nuoroda gali galioti iki 30 dienų, tačiau ji nepratęsia rezervacijos. Pasibaigus apmokėjimo laikui, nuoroda gali padėti atkurti krepšelį: prieš naują užsakymą iš naujo tikrinami likučiai, kainos ir pristatymas, o pirkimo sąlygas patvirtinate patys. Nuoroda suteikia ribotą prieigą prie užsakymo, todėl nesidalykite ja su kitais. Kortelės duomenų laišku neprašome."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Duomenų gavėjai"
         },
         {
@@ -3283,12 +3300,12 @@
         }
       ],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "a027f426575326f6e7deeeccc57e3864baa5ab199d0d0bc8e98c269f7209a15e",
+      "revisionHash": "563376e93db143d7653962d84398aacfd61eea7f98e4726b3d39ef56218ed6a3",
       "approval": {
         "status": "approved",
-        "revisionHash": "a027f426575326f6e7deeeccc57e3864baa5ab199d0d0bc8e98c269f7209a15e",
-        "approvedAt": "2026-10-25T10:51:00.711Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "563376e93db143d7653962d84398aacfd61eea7f98e4726b3d39ef56218ed6a3",
+        "approvedAt": "2026-10-25T18:51:50.966Z",
+        "actorId": "payment-recovery-editor-20261025"
       }
     },
     {
@@ -30876,5 +30893,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T16:55:44.355Z"
+  "generatedAt": "2026-10-25T18:51:51.135Z"
 }
