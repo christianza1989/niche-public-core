@@ -134,7 +134,7 @@ test('all production catalog IDs validate and default breadcrumb matches its JSO
   const catalog=JSON.parse(readFileSync(new URL('../config/promedical-catalogue.json',import.meta.url)));
   validateProductCatalogue(catalog,pkg);
   const pages=project(pkg),page=pages.find(p=>p.id==='f029fd54-1671-4255-bc25-bbf009b41dfa');
-  assert.equal(Object.keys(catalog.products).length,1408);
+  assert.equal(Object.keys(catalog.products).length,1407);
   const trail=nicheBreadcrumbs(pkg,page,pages);
   assert.equal(trail.length,3);assert.ok(trail[1].path.startsWith('/kategorijos/'));
   const schema=nicheSchemaGraph(pkg,page,pages,'Promedical')['@graph'].find(x=>x['@type']==='BreadcrumbList');
