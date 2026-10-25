@@ -8,14 +8,14 @@ const config=JSON.parse(await fs.readFile(new URL('../config/niche-path-aliases.
 const pkg=JSON.parse(await fs.readFile(new URL('../content-packages/promedical/content-package.json',import.meta.url)));
 const index=indexNichePathAliases(config),aliases=config.sites.promedical.redirects;
 const all=()=>projectPublicPages(pkg,[pkg],{},Date.parse('2027-01-01T00:00:00Z'));
-test('all1846 catalogue and retired duplicate paths point directly to their approved Lithuanian target and remain outside canonical inventory',()=>{
- validateNichePathAliases(config,[pkg]);assert.equal(aliases.length,1846);
- assert.equal(pkg.pages.filter(p=>p.type==='product').length,1407);
+test('all1858 catalogue and retired product paths point directly to their approved Lithuanian target and remain outside canonical inventory',()=>{
+ validateNichePathAliases(config,[pkg]);assert.equal(aliases.length,1858);
+ assert.equal(pkg.pages.filter(p=>p.type==='product').length,1395);
  assert.equal(pkg.pages.filter(p=>p.slug.startsWith('kategorijos/')).length,436);
- assert.equal(pkg.pages.length,1908);
+ assert.equal(pkg.pages.length,1896);
  const destinations=new Set();
  for(const a of aliases){assert.equal(nichePathAliasDestination(pkg,index,all,a.from),a.to);assert.equal(nichePathAliasDestination(pkg,index,all,a.from+'/'),a.to);assert.equal(nichePathAliasDestination(pkg,index,all,a.to),null);destinations.add(a.to);assert.ok(a.to.length<=151);assert.doesNotMatch(a.to,/(?:^|[/-])(?:infuzni|voziky|zakladni|prislusenstvi|skrine|vyprodej|ukazka|zasuvka|modry|prevazovy|siti|pruhy)(?:[/-]|$)/);}
- assert.equal(destinations.size,1843);
+ assert.equal(destinations.size,1831);
 });
 test('redirects retain query values, translate old category filters and never expose future/revoked/foreign targets',()=>{
  const product=aliases.find(a=>a.from==='/produktai/nerez1002is'),category=aliases.find(a=>a.from==='/kategorijos/infuzni-stojany');
@@ -38,7 +38,7 @@ test('registry validation rejects unsafe paths, canonical collisions, duplicate 
  }
 });
 test('saved inquiry paths migrate without duplicate items or mixing distinct variants with the same SKU',()=>{
- const paths=legacyProductPaths(pkg,all(),index);assert.equal(Object.keys(paths).length,1409);
+ const paths=legacyProductPaths(pkg,all(),index);assert.equal(Object.keys(paths).length,1397);
  const a=aliases.find(a=>a.from==='/produktai/nerez1002is'),item={sku:'NEREZ1002IS',title:'Infuzijų stovas',path:a.from,quantity:2};
  const inputs=[item,{...item,path:a.to,quantity:3,title:'Current title'},{...item,path:'/produktai/distinct-variant',quantity:1}];
  const original=structuredClone(inputs),out=migrateInquiryItems(inputs,paths);
