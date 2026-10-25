@@ -1,9 +1,12 @@
-import { nicheSiteByHost, publicNichePages, type NichePackage } from './niche-sites';
+import { nicheSiteByHost, loadNicheSiteByHost, publicNichePages, type NichePackage } from './niche-sites';
 import { contentPackageByHost, publicContentPages, type ContentPackageV2 } from './content-model-v2';
 
 // Forms and measurement consume the same host and publication projection as HTML.
 export function publicSiteByHost(host: string | null | undefined): NichePackage | ContentPackageV2 | null {
   return nicheSiteByHost(host) || contentPackageByHost(host);
+}
+export async function loadPublicSiteByHost(host: string | null | undefined): Promise<NichePackage | ContentPackageV2 | null> {
+  return await loadNicheSiteByHost(host) || contentPackageByHost(host);
 }
 export function publicSitePages(pkg: NichePackage | ContentPackageV2, now = Date.now()) {
   return pkg.schemaVersion === 2 ? publicContentPages(pkg, now) : publicNichePages(pkg, now);

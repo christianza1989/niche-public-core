@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { nicheOrigin, loadNicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
-  const niche = nicheSiteByHost(host);
+  const niche = await loadNicheSiteByHost(host);
   if (niche) {
     return { metadataBase: new URL(nicheOrigin(niche)) };
   }
@@ -33,7 +33,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const host = (await headers()).get("host");
-  const niche = nicheSiteByHost(host);
+  const niche = await loadNicheSiteByHost(host);
   if (niche) {
     const { NicheStyles } = await import("@/components/niche/niche-styles");
     const pathname = (await headers()).get("x-niche-original-path") || "/";
