@@ -24,7 +24,7 @@ const items=output=>output.match(/<item>[\s\S]*?<\/item>/g)??[];
 
 test('manufacturer registry assigns two stable MPNs only to white kits without a base',()=>{
  assert.deepEqual(registry.products.map(p=>[p.sku,p.mpn]),[['couple','MC-COUPLE-WHITE'],['family','MC-FAMILY-WHITE']]);
- assert.equal(new Set(registry.products.map(p=>p.mpn)).size,2);assert.equal(registry.brand,'Memocasting');
+ assert.equal(new Set(registry.products.map(p=>p.mpn)).size,2);assert.equal(registry.brand,'Memory Casting');
  for(const entry of registry.products){assert.equal(entry.gtinAssigned,false);assert.deepEqual(entry.choices,{finish:'white',base:'none'});}
 });
 
@@ -37,7 +37,7 @@ test('RSS uses actual native product projection, live prices, selected white ima
   assert.ok(entry.includes('<g:link>https://memocasting.lt/'+expected.slug+'</g:link>'));
   assert.ok(entry.includes('<g:price>'+expected.seoOffer.price+' EUR</g:price>'));
   assert.ok(entry.includes('<g:image_link>https://memocasting.lt/prekyba/catalog-media/'+snapshot.products[index].sku+'_white</g:image_link>'));
-  assert.ok(entry.includes('<g:availability>in_stock</g:availability>'));assert.ok(entry.includes('<g:brand>Memocasting</g:brand>'));assert.ok(entry.includes('<g:condition>new</g:condition>'));
+  assert.ok(entry.includes('<g:availability>in_stock</g:availability>'));assert.ok(entry.includes('<g:brand>Memory Casting</g:brand>'));assert.ok(entry.includes('<g:condition>new</g:condition>'));
  }
  assert.ok(output.includes('<g:shipping_weight>2.2 kg</g:shipping_weight>'));assert.ok(output.includes('<g:shipping_weight>4.5 kg</g:shipping_weight>'));
  assert.ok(!output.includes('99'));assert.ok(!output.includes('_gold'));assert.ok(!output.includes('<g:shipping>'));

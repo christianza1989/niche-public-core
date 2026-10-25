@@ -65,7 +65,7 @@ test('organization uses the verified legal address and homepage identity across 
  const logo=homepageAssets.assets.find(asset=>asset.path==='/memocasting-homepage/v1/media/logo.webp');assert.ok(logo);
  for(const p of [{...page,type:'home',slug:''},{...page,type:'guide',slug:'gidai/dovana-porai'},{...page,type:'service',slug:'pl/privatumas'}]){
   const graph=memoSchemaGraph(pkg,p,[about,p],'MB Memocasting')['@graph'],org=graph.find(e=>e['@type']==='Organization');
-  assert.equal(org.url,'https://memocasting.lt/');assert.equal(org.name,'MB Memocasting');
+  assert.equal(org.url,'https://memocasting.lt/');assert.equal(org.name,'Memory Casting');assert.equal(org.legalName,'MB Memocasting');
   assert.equal(org.logo,`https://memocasting.lt${logo.path}`);
   assert.deepEqual(org.sameAs,['https://www.instagram.com/memocasting.lt/']);
   assert.deepEqual(org.address,{'@type':'PostalAddress',streetAddress:'Pupinės g. 10-55',addressLocality:'Vilnius',postalCode:'LT-02206',addressCountry:'LT'});
