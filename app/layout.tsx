@@ -49,7 +49,7 @@ export default async function RootLayout({
     const page = niche.siteId==='memocasting'?await memoPublishedProductPage(originalPage,host):originalPage;
         const query = (await headers()).get("x-niche-original-query") || "";
     const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
-    const metadataPages=niche.siteId==='memocasting'&&page&&['','pages/instrukcija'].includes(page.slug)?await memoPublishedProductPages(publicNichePages(niche),host):publicNichePages(niche);
+    const metadataPages=niche.siteId==='memocasting'&&page&&page.slug==='pages/instrukcija'?await memoPublishedProductPages(publicNichePages(niche),host):publicNichePages(niche);
     const memoMetadata=memoSeoMetadata(niche,page,metadataPages,canonical);
     const hero = memoMetadata?memoMetadata.image:page && niche.siteId === "promedical" && page.type === "product"
       ? uniqueImageFamilies(page.media)[0] : page?.media[0];

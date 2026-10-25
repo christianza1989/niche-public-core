@@ -29,12 +29,12 @@ const catalog=()=>[{sku:'couple',title:'Rankų liejimo rinkinys porai',enabled:t
 const published=(pages=project(),products=catalog(),shopContext=context)=>pages.map(p=>memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext));
 const metadata=(p,pages=published())=>memoSeoMetadata(pkg,p,pages,p?'https://memocasting.lt/'+p.slug:undefined);
 
-test('homepage plural title and singular description use both actual live offers or no prices',()=>{
+test('homepage keywords and evergreen description do not depend on payment readiness or price changes',()=>{
  const current=metadata(home);
  assert.equal(current.title,'Rankų liejimo rinkiniai porai ir šeimai | Memory Casting');assert.match(current.description,/Rankų liejimo rinkinys porai/);
- assert.match(current.description,/32\s*€/);assert.match(current.description,/48\s*€/);assert.ok(current.description.includes('Balti dažai įeina į abu rinkinius.'));
+ assert.ok(!/\d|€/.test(current.description));assert.ok(current.description.includes('Balti dažai įeina į abu rinkinius.'));
  const changed=catalog();changed[0].prices.LT=3550;changed[1].prices.LT=5100;
- assert.match(metadata(home,published(project(),changed)).description,/35,5\s*€/);assert.match(metadata(home,published(project(),changed)).description,/51\s*€/);
+ assert.equal(metadata(home,published(project(),changed)).description,current.description);
  for(const pages of [published(project().filter(p=>p.slug!=='seimos-rinkinys')),published(project(),catalog(),{...context,paymentEnvironment:'test'}),project()]){
   const fallback=metadata(home,pages);assert.ok(!/\d|€/.test(fallback.description));assert.match(fallback.description,/Rankų liejimo rinkinys porai ar šeimai/);
  }
@@ -87,11 +87,12 @@ test('company registration is extracted only from explicit eligible about-page p
 
 async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext=context}={}){
  const eligible=project(candidate),requestHeaders=new Headers({host:candidate.canonicalHost,'x-niche-original-path':pathname});
+ let shopReads=0;
  const modules={
   '@/lib/memocasting-favicon.mjs':{memoFaviconHref},
   '@/lib/memocasting-homepage-images.mjs':{memoHeroImage},
   '@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted},
-  '@/lib/memocasting-product-server':{memoPublishedProductPage:async p=>p?memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext):p,memoPublishedProductPages:async pages=>published(pages,products,shopContext)},
+  '@/lib/memocasting-product-server':{memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;shopReads++;return memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext);},memoPublishedProductPages:async pages=>{shopReads++;return published(pages,products,shopContext);}},
   '@/lib/memocasting-seo-metadata.mjs':{memoBrandName:'Memory Casting',memoSeoMetadata},
   'next/headers':{headers:async()=>requestHeaders},
   '@/lib/site-config':{resolveSite:()=>{throw Error('Unexpected legacy fallback');}},
@@ -104,9 +105,34 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
  const source=await readFile(new URL('../app/layout.tsx',import.meta.url),'utf8'),javascript=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,exports={};
  runInNewContext(javascript,{exports,require:name=>name in modules?modules[name]:nativeRequire(name),URL,Headers,Intl,Date});
  const tree=await exports.default({children:React.createElement('main',null,'Server-rendered content')});
- return {html:renderToStaticMarkup(tree),generated:await exports.generateMetadata()};
+ return {html:renderToStaticMarkup(tree),generated:await exports.generateMetadata(),shopReads};
 }
 const values=(html,key)=>[...html.matchAll(/<meta\b[^>]*>/g)].map(match=>match[0]).filter(tag=>tag.includes(`name="${key}"`)||tag.includes(`property="${key}"`)).map(tag=>tag.match(/content="([^"]*)"/)?.[1]);
+
+test('actual page renderer never waits for commerce on home, but enriches catalogue and product routes',async()=>{
+ const source=await readFile(new URL('../app/niche/[siteId]/[[...slug]]/page.tsx',import.meta.url),'utf8');
+ const javascript=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+ for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys']){
+  const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
+  const modules={
+   '@/lib/memocasting-product-server':{
+    memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;productReads++;return published([p])[0];},
+    memoPublishedProductPages:async pages=>{bulkReads++;return published(pages);},
+   },
+   'next/headers':{headers:async()=>new Headers({host:'memocasting.lt'})},
+   'next/navigation':{notFound:()=>{throw Error('Unexpected 404');}},
+   '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,publicNichePage:(_p,s)=>eligible.find(p=>p.slug===s),publicNichePages:()=>eligible},
+   '@/lib/niche-voice':{voiceWidgetEnabled:()=>false},
+   '@/components/niche/memocasting-site':{MemocastingSite:()=>null},
+  };
+  runInNewContext(javascript,{exports,require:name=>name in modules?modules[name]:nativeRequire(name)});
+  const result=await exports.default({params:Promise.resolve({siteId:'memocasting',slug:slug?slug.split('/'):[]})});
+  assert.equal(bulkReads,slug?1:0,slug||'home');assert.equal(productReads,['rinkinys-porai','seimos-rinkinys'].includes(slug)?1:0);
+  assert.equal(result.props.page.slug,slug);
+  if(slug==='')assert.equal(result.props.livePages.find(p=>p.slug==='rinkinys-porai').seoOffer,undefined);
+  else assert.equal(result.props.livePages.find(p=>p.slug==='rinkinys-porai').seoOffer.price,'32.00');
+ }
+});
 
 test('actual layout server HTML has one consistent title, description, OG/Twitter image and price without JS',async()=>{
  const {html,generated}=await layout(pkg,{pathname:'/rinkinys-porai'});
@@ -119,10 +145,11 @@ test('actual layout server HTML has one consistent title, description, OG/Twitte
  const changed=catalog();changed[0].prices.LT=3500;assert.deepEqual(values((await layout(pkg,{pathname:'/rinkinys-porai',products:changed})).html,'product:price:amount'),['35.00']);
 });
 
-test('actual home SSR uses live prices and visible hero; unavailable offers and future pages remain honest',async()=>{
+test('actual home SSR skips commerce reads and preloads visible hero; products retain actual prices and future pages stay hidden',async()=>{
  const preload=(await layout()).html.match(/<link\b[^>]*as="image"[^>]*>/)?.[0];assert.ok(preload);assert.equal(preload.match(/imagesrcset="([^"]+)"/i)?.[1],memoHeroImage.srcSet);assert.equal(preload.match(/imagesizes="([^"]+)"/i)?.[1],memoHeroImage.sizes);
- const {html}=await layout();assert.ok(html.includes('<title>Rankų liejimo rinkiniai porai ir šeimai | Memory Casting</title>'));assert.equal(values(html,'og:image:width')[0],'1536');assert.equal(values(html,'og:image:height')[0],'1024');
- assert.deepEqual(values(html,'description'),values(html,'og:description'));assert.deepEqual(values(html,'description'),values(html,'twitter:description'));assert.match(values(html,'description')[0],/32\s*€/);assert.equal(values(html,'product:price:amount').length,0);
+ const {html,shopReads}=await layout();assert.equal(shopReads,0);assert.ok(html.includes('<title>Rankų liejimo rinkiniai porai ir šeimai | Memory Casting</title>'));assert.equal(values(html,'og:image:width')[0],'1536');assert.equal(values(html,'og:image:height')[0],'1024');
+ assert.deepEqual(values(html,'description'),values(html,'og:description'));assert.deepEqual(values(html,'description'),values(html,'twitter:description'));assert.ok(!/€/.test(values(html,'description')[0]));assert.equal(values(html,'product:price:amount').length,0);
+ assert.equal((await layout(pkg,{pathname:'/rinkinys-porai'})).shopReads,1);
  const fallback=(await layout(pkg,{shopContext:{...context,publishOffers:false}})).html;assert.ok(!/€/.test(values(fallback,'description')[0]));
  const future={...page('gidai/private','guide'),title:'SLAPTAS BŪSIMAS TEKSTAS',publishAt:'2030-01-01T00:00:00Z'},candidate={...pkg,pages:[...pkg.pages,future]};
  const hidden=(await layout(candidate,{pathname:'/gidai/private'})).html;assert.ok(!hidden.includes('SLAPTAS'));assert.deepEqual(values(hidden,'robots'),['noindex, nofollow']);assert.equal(values(hidden,'og:image').length,0);assert.ok(!hidden.includes('rel="canonical"'));

@@ -14,7 +14,7 @@ export default async function NichePageView({ params, searchParams }: { params: 
   const page = siteId==='memocasting'?await memoPublishedProductPage(originalPage,(await headers()).get("host")):originalPage;
   if (!page) notFound();
   const originalPages=publicNichePages(pkg);
-  const livePages=siteId==='memocasting'&&['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
+  const livePages=siteId==='memocasting'&&['ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
   const props = { pkg, page, livePages };
   if (siteId === "memocasting") { const { MemocastingSite } = await import("@/components/niche/memocasting-site"); return <MemocastingSite {...props} />; }
   if (siteId === "promedical") {
