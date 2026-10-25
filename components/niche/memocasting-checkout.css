@@ -1,4 +1,4 @@
-.memo-checkout{max-width:1200px!important;margin:20px auto 48px!important;color:#282526}
+.memo-checkout{max-width:1200px!important;margin:20px auto 48px!important;color:#282526;min-height:calc(100vh - 7rem);min-height:calc(100svh - 7rem)}
 .memo-checkout>div>h1{font-size:clamp(28px,2.4vw,34px);line-height:1.15;letter-spacing:-.03em;margin:0 0 20px}
 .memo-checkout .checkout-intro{display:none}
 .memo-checkout [hidden]{display:none!important}
