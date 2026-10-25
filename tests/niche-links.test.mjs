@@ -74,12 +74,12 @@ test('historical Promedical pause retains two guides and leaves all other sites 
   for(const other of packages.filter(p=>p.siteId!=='promedical'))assert.deepEqual(projectPublicPages(other,packages,config,later),projectPublicPages(other,packages,baseline,later));
 });
 
-test('owner-approved Promedical release exposes 57 accepted guides and keeps the retired procurement guide absent', async () => {
+test('owner-approved withdrawal retains two old guides and keeps retired procurement guide absent', async () => {
   const packages=JSON.parse(await readFile(new URL('../lib/generated/content-packages.json',import.meta.url),'utf8'));
   const config=JSON.parse(await readFile(new URL('../config/niche-network.json',import.meta.url),'utf8'));
   const pkg=packages.find(p=>p.siteId==='promedical');
   const pages=projectPublicPages(pkg,packages,config,Date.parse('2026-11-23T00:00:00Z'));
-  assert.equal(pages.filter(p=>p.type==='guide').length,57);
+  assert.equal(pages.filter(p=>p.type==='guide').length,2);
   assert(!pages.some(p=>p.slug==='gidai/irangos-pirkimo-uzklausa'));
   assert.equal(pkg.site.contact.email,'sales@azprekyba.lt');
   assert.equal(pages.filter(p=>p.type==='product').length,1407);
