@@ -92,7 +92,7 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
   '@/lib/memocasting-seo-metadata.mjs':{memoBrandName:'Memory Casting',memoSeoMetadata},
   'next/headers':{headers:async()=>requestHeaders},
   '@/lib/site-config':{resolveSite:()=>{throw Error('Unexpected legacy fallback');}},
-  '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},
+  '@/lib/niche-sites':{loadNicheSiteByHost:async()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},
   '@/lib/content-model-v2':{contentPackageByHost:()=>null},
   '@/lib/memocasting-locales.mjs':{memoRoute,memoAlternates},'@/lib/memocasting-content.mjs':{memoFunctionalPage},
   '@/lib/product-catalogue-query.mjs':{catalogueCanonical},'@/lib/niche-media.mjs':{uniqueImageFamilies},

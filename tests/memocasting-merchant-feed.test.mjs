@@ -145,13 +145,18 @@ test('actual proxy reserves the feed before foreign gift, legacy and preview fal
   '@/lib/memocasting-instagram-bridge.mjs':{instagramAction:()=>false},'@/config/niche-path-aliases.json':[],
   '@/lib/niche-path-aliases.mjs':{indexNichePathAliases:()=>new Map(),nichePathAliasDestination:()=>null},
  };
+ modules['cloudflare:workers']={env:{}};
+ modules['@/config/niche-network.json']={};
+ modules['@/lib/content-admin-api.mjs']={handleContentAdmin:()=>{throw Error('Unexpected admin call');}};
+ modules['@/lib/niche-withdrawals.mjs']={pageWithdrawalDestination:()=>null};
+ modules['@/lib/niche-sites'].loadNicheSiteByHost=async host=>modules['@/lib/niche-sites'].nicheSiteByHost(host);
  const {proxy}=await loadModule('../proxy.ts',modules);
  const incoming=options=>{const req=request(options),nextUrl=new URL(req.url);nextUrl.clone=()=>new URL(nextUrl);req.nextUrl=nextUrl;return req;};
- for(const method of ['GET','HEAD']){const result=proxy(incoming({method}));assert.equal(result.status,200);assert.equal(result.headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');}
- assert.equal(proxy(incoming({url:'https://memocasting.lt/prekiu-srautas.xml?country=PL&draft=1'})).headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');
- assert.equal(proxy(incoming({url:'https://memocasting.lt/niche/memocasting/merchant-feed'})).status,404,'internal route has no public bypass');
- for(const host of ['other.lt','legacy.test','gift.test','unknown.test','localhost','memocasting.lt:444'])assert.equal(proxy(incoming({host})).status,404,host);
- assert.equal(proxy(incoming({method:'POST'})).status,405);assert.equal(proxy(incoming({headers:{host:'other.lt'}})).status,404);
- assert.equal(proxy(incoming({url:'http://memocasting.lt/prekiu-srautas.xml'})).status,404);
- const www=proxy(incoming({host:'www.memocasting.lt'}));assert.equal(www.status,308);assert.equal(www.headers.get('Location'),'https://memocasting.lt/prekiu-srautas.xml');
+ for(const method of ['GET','HEAD']){const result=(await proxy(incoming({method})));assert.equal(result.status,200);assert.equal(result.headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');}
+ assert.equal((await proxy(incoming({url:'https://memocasting.lt/prekiu-srautas.xml?country=PL&draft=1'}))).headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');
+ assert.equal((await proxy(incoming({url:'https://memocasting.lt/niche/memocasting/merchant-feed'}))).status,404,'internal route has no public bypass');
+ for(const host of ['other.lt','legacy.test','gift.test','unknown.test','localhost','memocasting.lt:444'])assert.equal((await proxy(incoming({host}))).status,404,host);
+ assert.equal((await proxy(incoming({method:'POST'}))).status,405);assert.equal((await proxy(incoming({headers:{host:'other.lt'}}))).status,404);
+ assert.equal((await proxy(incoming({url:'http://memocasting.lt/prekiu-srautas.xml'}))).status,404);
+ const www=(await proxy(incoming({host:'www.memocasting.lt'})));assert.equal(www.status,308);assert.equal(www.headers.get('Location'),'https://memocasting.lt/prekiu-srautas.xml');
 });

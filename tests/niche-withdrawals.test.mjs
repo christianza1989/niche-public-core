@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {projectPublicPages} from '../lib/niche-links.mjs';
-import {validatePageWithdrawals,pageWithdrawalDestination} from '../lib/niche-withdrawals.mjs';
+import {validatePageWithdrawals,pageWithdrawalDestination,withdrawnPage} from '../lib/niche-withdrawals.mjs';
 import {indexNichePathAliases} from '../lib/niche-path-aliases.mjs';
 const packages=JSON.parse(await readFile(new URL('../lib/generated/content-packages.json',import.meta.url)));
 const settings=JSON.parse(await readFile(new URL('../config/niche-network.json',import.meta.url)));
@@ -10,6 +10,10 @@ const aliases=indexNichePathAliases(JSON.parse(await readFile(new URL('../config
 const pkg=packages.find(p=>p.siteId==='promedical'),rule=settings.pageWithdrawalsBySite.promedical;
 const beforeSettings={...settings};delete beforeSettings.pageWithdrawalsBySite;
 const before=projectPublicPages(pkg,packages,beforeSettings),live=()=>projectPublicPages(pkg,packages,settings);
+
+test('unconfigured sites without a canonical host are not withdrawn',()=>{
+ assert.equal(withdrawnPage({siteId:'other'},{id:'unrelated'},{}),false);
+});
 
 test('four withdrawn categories disappear from the shared projection and incoming links without changing raw records',()=>{
  const original=JSON.stringify(packages),ids=new Set(rule.pages.map(p=>p.pageId));
