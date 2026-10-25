@@ -13,7 +13,7 @@ test('Promedical renders contact-only navigation across page families while pres
   const bundle = await build({
     entryPoints:[fileURLToPath(new URL('../components/niche/promedical-site.tsx',import.meta.url))],
     outfile:fileURLToPath(output), bundle:true, format:'esm', platform:'node', metafile:true,
-    external:['react','react-dom'], loader:{'.css':'empty'}, jsx:'automatic',
+    external:['react','react-dom'], loader:{'.css':'empty','.module.css':'empty'}, jsx:'automatic',
     tsconfig:fileURLToPath(new URL('../tsconfig.json',import.meta.url)), plugins:[{
       name:'local-binding',setup(b){
         b.onResolve({filter:/^cloudflare:workers$/},()=>({path:'binding',namespace:'test'}));
@@ -40,6 +40,9 @@ test('Promedical renders contact-only navigation across page families while pres
       assert.ok(html.includes(`href="tel:${pkg.site.contact.phone.replace(/\s/g,'')}"`));
       assert.match(html,/type="application\/ld\+json"/);
       assert.match(html,/role="search"/);
+      assert.doesNotMatch(html.match(/<header[\s\S]*?<\/header>/)?.[0] || '', /href="\/gidai"/);
+      assert.match(html.match(/<footer[\s\S]*?<\/footer>/)?.[0] || '', /href="\/gidai"/);
+      assert.match(html,/\/brand\/promedical\/homepage\/logo-sharp-640\.webp/);
       if(page.type==='home')assert.doesNotMatch(html,/Nuo vieno vežimėlio|Nurodykite kiekius ir reikalavimus|Aptarkime komplektaciją|gidai\/irangos-pirkimo-uzklausa|Praktiniai gidai prieš rengiant įrangos užklausą/);
       if(page.type==='guide'){
         assert.doesNotMatch(html,/rengiamas su AI/);
