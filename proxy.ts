@@ -1,5 +1,8 @@
+import { env } from 'cloudflare:workers';
+import { handleContentAdmin } from '@/lib/content-admin-api.mjs';
+import networkSettings from '@/config/niche-network.json';
 import { NextResponse, type NextRequest } from "next/server";
-import { nicheSiteByHost, normalizedHost, publicNichePages } from "@/lib/niche-sites";
+import { nicheSiteByHost, loadNicheSiteByHost, normalizedHost, publicNichePages, projectNichePackage } from "@/lib/niche-sites";
 import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
@@ -18,13 +21,21 @@ function isPreview(host: string): boolean {
   return host === "localhost" || host === "127.0.0.1" || host.endsWith(".vercel.app");
 }
 
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
-  const niche = nicheSiteByHost(host);
+  const baseNiche = nicheSiteByHost(host);
+  if (path === '/admin' || path.startsWith('/admin/')) {
+    if (!baseNiche || baseNiche.siteId !== 'promedical') return new Response('Not found', {status:404, headers:{'X-Robots-Tag':'noindex'}});
+    return handleContentAdmin(request, baseNiche, env, projectNichePackage, networkSettings);
+  }
+  let niche;
+  try { niche = await loadNicheSiteByHost(host); }
+  catch { return new Response('Temporarily unavailable', {status:503, headers:{'Cache-Control':'no-store','Retry-After':'60'}}); }
+
 
   const gift = !niche ? contentPackageByHost(host) : null;
   if (gift) {
