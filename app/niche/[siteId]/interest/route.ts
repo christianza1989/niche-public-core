@@ -27,6 +27,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ sit
   }
   if (length > 512) return empty(413);
   input += decoder.decode();
+  // Drain the bounded body before the disabled-state reply, preserving the
+  // local transport. Current Memo contains no collector or event admission.
+  if(siteId==='memocasting'&&(!('MEMO_INTEREST_ENABLED' in env)||env.MEMO_INTEREST_ENABLED!=='1'))return empty(503);
   if(pkg.schemaVersion===2 && publicSitePage(pkg,'privatumas')?.type!=='policy') return empty(503);
   const origin = new URL(request.url).origin;
   const incomingOrigin = request.headers.get("origin");

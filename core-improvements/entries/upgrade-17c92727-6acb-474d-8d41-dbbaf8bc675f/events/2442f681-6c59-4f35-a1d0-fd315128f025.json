@@ -1,0 +1,9 @@
+{
+  "status": "adopted",
+  "note": "Native3367ef65 release and PUBLIC7254055 deployed to memocasting.lt frontend7980a6a0 at2026-10-20T05:00:16Z. Hosted22titles/alts and110exact SHA assets PASS; desktop/mobile/filter/wrap/zoom/Escape PASS. Actual bindings/observability unchanged; future page and5media404. Branch delivery, not main merge.",
+  "pr": "https://github.com/christianza1989/niche-public-core/pull/31",
+  "commit": "7254055a9c8284cd55610d43cced8a711e495412",
+  "eventId": "2442f681-6c59-4f35-a1d0-fd315128f025",
+  "sequence": 4,
+  "at": "2026-10-20T05:03:16.555Z"
+}

@@ -1,0 +1,29 @@
+{
+  "siteId": "memocasting",
+  "category": "code",
+  "summary": "Admit and present22 owner-selected gallery images with semantic captions, responsive derivatives and bounded desktop/mobile navigation",
+  "evidence": [
+    "Current3-photo layout renders every preview in an unbounded desktop column;22selection would greatly extend homepage.",
+    "Viewer ResizeObserver uses1254x1254 rather than current photo dimensions, incompatible with new1536x1024 figures.",
+    "Shared public validator/schema60 limit rejects native115-entry responsive gallery."
+  ],
+  "paths": [
+    "scripts/content-package-core.mjs",
+    "schemas/content-package.v2.schema.json",
+    "tests/content-package.test.mjs",
+    "lib/memocasting-gallery-assets.json",
+    "lib/memocasting-inspiration-gallery.mjs",
+    "lib/memocasting-homepage-assets.json",
+    "lib/memocasting-homepage-markup.mjs",
+    "components/niche/memocasting-inspiration-gallery.tsx",
+    "components/niche/memocasting-inspiration-gallery.css",
+    "tests/memocasting-inspiration-gallery.test.mjs",
+    "public/memocasting-homepage/v1/media/gallery-20261019"
+  ],
+  "issue": "https://github.com/christianza1989/niche-public-core/issues/30",
+  "rollback": "Restore previous frontend code and exact content release together; retain immutable old/new assets, production backend/Stripe/D1/mail/DNS and92article dates.",
+  "id": "upgrade-17c92727-6acb-474d-8d41-dbbaf8bc675f",
+  "branch": "codex/memocasting-public-20261012",
+  "baseSha": "6b3762bd510122f124c702c625b531bffcb86234",
+  "createdAt": "2026-10-19T07:54:45.156Z"
+}

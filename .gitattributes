@@ -13,3 +13,6 @@
 *.jpg binary
 *.woff2 binary
 *.ttf binary
+# Keep the imported license's manifest bytes stable with Windows autocrlf.
+public/memocasting-homepage/v1/fonts/OFL.txt -text
+public/memocasting-homepage/v1/media/white-film-v1/*.mp4 binary

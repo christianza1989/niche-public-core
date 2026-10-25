@@ -1,0 +1,11 @@
+{
+ "$schema":"../../node_modules/wrangler/config-schema.json",
+ "name":"core-commerce-mail-disabled",
+ "main":"index.mjs",
+ "compatibility_date":"2026-10-12",
+ "workers_dev":false,
+ "preview_urls":false,
+ "observability":{"enabled":true,"logs":{"enabled":true,"head_sampling_rate":1},"traces":{"enabled":true,"head_sampling_rate":0.01}},
+ "vars":{"COMMERCE_MAIL_ENABLED":"0","COMMERCE_ENVIRONMENT":"sandbox","COMMERCE_STORE_ID":"not-configured","COMMERCE_TEST_RECIPIENTS":""},
+ "d1_databases":[{"binding":"COMMERCE_MAIL_DB","database_name":"commerce-mail-local-only","database_id":"00000000-0000-4000-8000-000000000827","migrations_dir":"migrations"}]
+}

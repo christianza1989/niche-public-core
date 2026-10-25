@@ -1,0 +1,24 @@
+{
+  "status": "local-verified",
+  "note": "Exact22 selected photos imported as110 responsive WebP; native release3367ef65 preserves180other pages and92dates. Desktop1265/mobile390 inspected:22images, no missing alt/broken image/overflow; filters, modal,125%zoom/reset/Escape work.",
+  "checks": [
+    {
+      "command": "node --test --test-concurrency=1 tests/*.test.mjs",
+      "result": "PASS",
+      "evidence": "120tests/0fail; qa/gallery-public-tests-20261020-retry.private.log"
+    },
+    {
+      "command": "MEMO_DEPLOYMENT=production npm run build",
+      "result": "PASS",
+      "evidence": "qa/gallery-build-20261020.private.log"
+    },
+    {
+      "command": "Browser desktop/mobile gallery acceptance",
+      "result": "PASS",
+      "evidence": "Actual local8817 gallery22photos; meaningful UI interactions and screenshot inspection2026-10-20."
+    }
+  ],
+  "eventId": "934a39df-6507-475a-b238-d9d19ade1b0c",
+  "sequence": 2,
+  "at": "2026-10-20T04:55:16.775Z"
+}
