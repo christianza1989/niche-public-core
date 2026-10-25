@@ -42,6 +42,10 @@ canonical package validation still apply. Guide publication remains paused at
 the pre-existing cutoff until the owner deliberately resumes. Resume displays
 how many versions become due immediately and requires an exact typed phrase;
 concurrent approvals invalidate its policy version.
+Repeating a pause preserves its original cutoff; it cannot act as an unconfirmed
+resume. If a session expires during editing, the unsaved fields remain in memory;
+the owner signs in in a separate tab, then retries save with a refreshed CSRF
+token. The editor does not persist private text in browser local storage.
 
 Before an independent compiled content deployment, export/back up editorial
 tables and compare base revisions. A conflicting compiled base is authoritative
