@@ -1,14 +1,14 @@
 import {memoPublishedProductPage,memoPublishedProductPages} from '@/lib/memocasting-product-server';
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
-import { nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { loadNicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { voiceWidgetEnabled } from "@/lib/niche-voice";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 type Params = Promise<{ siteId: string; slug?: string[] }>;
 export default async function NichePageView({ params, searchParams }: { params: Params; searchParams?: Promise<Record<string, string | string[] | undefined>> }) {
   const { siteId, slug = [] } = await params;
-  const pkg = nicheSiteByHost((await headers()).get("host"));
+  const pkg = await loadNicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) notFound();
   const originalPage = publicNichePage(pkg, slug.join("/"));
   const page = siteId==='memocasting'?await memoPublishedProductPage(originalPage,(await headers()).get("host")):originalPage;

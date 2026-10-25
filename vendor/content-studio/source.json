@@ -1,0 +1,38 @@
+{
+  "kind": "canonical-studio-pure-authoring",
+  "artifactSha256": "64d1c7ea04321150ee6e726fc13b7300573bed6239d88c5e2d149dfb44df0d64",
+  "files": [
+    {
+      "path": "content-studio/schemas/content-package.v2.schema.json",
+      "sha256": "11e531149d50f4fa5b926e792b32aaaea8df20bad5cda35e11ef6760c11518e0"
+    },
+    {
+      "path": "content-studio/src/content-package-v2.mjs",
+      "sha256": "4f0e0ffb168064d36268cbb107f1e0980c9c8599af93f5521c7910df23b2c43c"
+    },
+    {
+      "path": "content-studio/src/minimum-content.mjs",
+      "sha256": "d3c900e63f53642e75a3628e155c129021af6c322c9747be4c954d17cb45c230"
+    },
+    {
+      "path": "content-studio/src/network-links.mjs",
+      "sha256": "69a58b8dde70ab7e4cc1974056cca02dc9b1630c6d3f0da9ad6e0306e6f0296e"
+    },
+    {
+      "path": "content-studio/src/authoring-core.mjs",
+      "sha256": "5380954762ee26febaa460a63b5a74de8cc83352d5572fa9a8003ad9cae74d08"
+    },
+    {
+      "path": "content-studio/src/content-schedule.mjs",
+      "sha256": "302aa2122b6b6c2a67f43cff9d9fc4368656b535a1cf2133517a63189453e0b6"
+    },
+    {
+      "path": "content-studio/src/content-workflow.mjs",
+      "sha256": "897fe00df9082a66fcb497a993a4deed7dcf059f74ab53a62d29a31683e15aab"
+    },
+    {
+      "path": "content-studio/src/hosted-authoring.mjs",
+      "sha256": "1e86741b855078d6a3275fe8ec2a0f8db636e57bfadad35410d843536f56d8cc"
+    }
+  ]
+}
