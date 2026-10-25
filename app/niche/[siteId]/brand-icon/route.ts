@@ -1,3 +1,4 @@
+import {memoFaviconSvg} from '@/lib/memocasting-favicon.mjs';
 import { headers } from "next/headers";
 import { loadNicheSiteByHost } from "@/lib/niche-sites";
 
@@ -5,6 +6,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ sit
   const { siteId } = await params;
   const pkg = await loadNicheSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId) return new Response("Not found", { status: 404 });
+  if (pkg.siteId === 'memocasting') return new Response(memoFaviconSvg,{headers:{'content-type':'image/svg+xml','cache-control':'public, max-age=3600','x-content-type-options':'nosniff'}});
   if (pkg.siteId === "promedical") {
     const svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill="#c8323d" fill-rule="evenodd" d="M8 4h22c17 0 28 10 28 24S47 51 30 51H20v9H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4Zm18 9h8v10h10v8H34v10h-8V31H16v-8h10Z"/></svg>';
     return new Response(svg, { headers: { "content-type": "image/svg+xml", "cache-control": "public, max-age=3600", "x-content-type-options": "nosniff" } });

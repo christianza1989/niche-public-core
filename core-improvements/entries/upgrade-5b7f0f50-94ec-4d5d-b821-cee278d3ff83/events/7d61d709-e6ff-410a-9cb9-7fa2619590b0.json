@@ -1,0 +1,19 @@
+{
+  "status": "local-verified",
+  "note": "Canonical companion consumer parity, full120tests and actual181page/759asset import/build pass; no120plus overflow accepted.",
+  "checks": [
+    {
+      "command": "node --test --test-concurrency=1 tests/*.test.mjs",
+      "result": "PASS",
+      "evidence": "120pass/0fail; gallery-public-tests-20261020-retry.private.log; includes120accept121reject."
+    },
+    {
+      "command": "content package import and production build",
+      "result": "PASS",
+      "evidence": "Native3367ef65 imported115home media; gallery-build-final-retry-20261020.private.log."
+    }
+  ],
+  "eventId": "7d61d709-e6ff-410a-9cb9-7fa2619590b0",
+  "sequence": 2,
+  "at": "2026-10-20T04:59:00.683Z"
+}
