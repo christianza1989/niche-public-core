@@ -816,7 +816,7 @@
     --photo-width: min(100cqw, calc((var(--hero-base-height) - var(--header-height)) * 3));
   }
   .root :global(.pm-home .page-width-frame .hero-copy) {
-    left: max(clamp(56px, 8cqw, 112px), calc((100% - 1440px) / 2 + 112px));
+    left: 0;
   }
 }
 @container (min-width: 641px) and (max-width: 1080px) {
