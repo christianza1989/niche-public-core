@@ -3111,19 +3111,23 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Pasirinktinė lankomumo analitika"
+          "text": "Pasirinktinė lankomumo ir pirkimų analitika"
         },
         {
           "type": "paragraph",
-          "text": "Lietuviškuose „Memory Casting“ puslapiuose naudojame „Google Analytics 4“, jei sutinkate su pasirinktine analitika. Ji padeda suprasti, kurie produktų aprašymai, instrukcijos ir gidai skaitomi. Iki sutikimo ir atsisakius analitikos mūsų analitikos kodas neįkelia „Google“ žymos ir nesiunčia matavimo užklausų. Atsisakymas netrukdo naudotis svetaine ar pirkti."
+          "text": "Lietuviškuose „Memory Casting“ puslapiuose naudojame „Google Analytics 4“, jei sutinkate su pasirinktine analitika. Ji padeda suprasti, iš kur atvyksta lankytojai, kurie produktų aprašymai, instrukcijos ir gidai skaitomi, kiek užsakymų apmokama ir kokia jų vertė. Iki sutikimo ir atsisakius analitikos mūsų analitikos kodas neįkelia „Google“ žymos ir nesiunčia matavimo užklausų. Atsisakymas netrukdo naudotis svetaine ar pirkti. Ankstesnis sutikimas tik turinio peržiūrų matavimui automatiškai neišplečiamas – naujo pasirinkimo paprašoma atskirai."
         },
         {
           "type": "paragraph",
-          "text": "Gavus sutikimą, analitikos paslaugai perduodamas peržiūrėto turinio puslapio adresas be užklausos parametrų ir adreso fragmento, jo pavadinimas, slapuko identifikatorius bei techniniai naršyklės ir įrenginio duomenys. Duomenų tvarkymo pagrindas – jūsų sutikimas. Paslaugą teikia „Google Ireland Limited“ ir jos pasitelkti duomenų tvarkytojai; daugiau paaiškina „Google“ privatumo politika ir duomenų apdorojimo sąlygos. Duomenų perdavimams už EEE taikoma pirmiau aprašyta informacija apie gavėjus ir apsaugos priemones."
+          "text": "Gavus sutikimą, analitikos paslaugai perduodamas turinio puslapio adresas be užklausos parametrų ir adreso fragmento, jo pavadinimas, analitikos naršyklės bei apsilankymo identifikatoriai ir techniniai naršyklės bei įrenginio duomenys. Atėjimo šaltiniui nustatyti gali būti perduodamas ankstesnės išorinės svetainės domenas be jos kelio ar užklausos parametrų ir atrinkti reklamos kampanijos žymėjimai, pavyzdžiui, „utm_source“, „utm_medium“ ir „utm_campaign“. Laisvo teksto paieškos frazės, kiti adreso parametrai bei fragmentai neperduodami. Kampanijų duomenys šiame naršyklės skirtuke gali būti saugomi iki 30 minučių."
         },
         {
           "type": "paragraph",
-          "text": "Į analitikos įvykius neįtraukiame pirkėjo vardo, el. pašto, telefono, pristatymo adreso, mokėjimo kortelės duomenų ar užsakymo prieigos žetonų. Reklamos suasmeninimas ir „Google Signals“ šiai jungčiai išjungti. Šiame etape matuojamos turinio peržiūros: krepšelio ir atsiskaitymo puslapių peržiūrų bei pirkimo įvykių ši jungtis nesiunčia. Kitų kalbų svetainės versijose ši analitika neįjungiama."
+          "text": "Jei sutikę pateikiate užsakymą, analitikos apsilankymą susiejame su atskiru techniniu sandorio identifikatoriumi. Tik serveriui patvirtinus apmokėjimą siunčiamas pirkimo įvykis: prekių kodai ir pasirinkti variantai, kiekiai, prekių vertė, pristatymo suma bei valiuta. Analogiškai gali būti matuojamos serverio patvirtintos grąžintos sumos. Neapmokėtas užsakymas nelaikomas pardavimu. Šie įvykiai gali būti perduoti ir uždarius mokėjimo puslapį, kol galioja suteiktas sutikimas. Identifikatoriai, reikalingi šiam susiejimui, mūsų serveryje saugomi ne ilgiau kaip 60 dienų arba iki sutikimo galiojimo pabaigos, jei ji ankstesnė."
+        },
+        {
+          "type": "paragraph",
+          "text": "Į analitikos įvykius neįtraukiame pirkėjo vardo, el. pašto, telefono, pristatymo adreso, mokėjimo kortelės duomenų, mokėjimo paslapčių ar užsakymo prieigos žetonų. Duomenų tvarkymo pagrindas – jūsų sutikimas. Paslaugą teikia „Google Ireland Limited“ ir jos pasitelkti duomenų tvarkytojai; daugiau paaiškina „Google“ privatumo politika ir duomenų apdorojimo sąlygos. Duomenų perdavimams už EEE taikoma pirmiau aprašyta informacija apie gavėjus ir apsaugos priemones. Reklamos suasmeninimas ir „Google Signals“ šiai jungčiai išjungti. Kitų kalbų svetainės versijose ši analitika neįjungiama."
         },
         {
           "type": "heading",
@@ -3132,7 +3136,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Jūsų pasirinkimą priimti arba atmesti analitiką naršyklėje išsaugome iki 180 dienų. Įraše „memo_analytics_consent_v1“ laikomas pasirinkimas, jo laikas ir nustatymo versija; pirkėjo kontaktų jame nėra. Atsisakymo saugiklis „memo_analytics_block_v1“ saugomas atskirai iki naršyklės kortelės sesijos pabaigos. Jis padeda išlaikyti analitiką išjungtą, jei pasirinkimo išsaugojimas sutriktų. Jei sutikimo išsaugoti nepavyksta, analitika neįjungiama. Išvalius naršyklės saugyklą arba pasibaigus pasirinkimo galiojimui, sutikimo klausiama iš naujo."
+          "text": "Jūsų pasirinkimą priimti arba atmesti analitiką naršyklėje išsaugome iki 180 dienų. Įraše „memo_analytics_consent_v2“ laikomas pasirinkimas, jo laikas ir nustatymo versija; pirkėjo kontaktų jame nėra. Atsisakymo saugiklis „memo_analytics_block_v1“ saugomas atskirai iki naršyklės skirtuko sesijos pabaigos. Jei sutikimo išsaugoti nepavyksta, analitika neįjungiama. Išvalius naršyklės saugyklą arba pasibaigus pasirinkimo galiojimui, sutikimo klausiama iš naujo."
         },
         {
           "type": "paragraph",
@@ -3140,7 +3144,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasirinkimą bet kada galite pakeisti ar sutikimą atšaukti per nuorodą svetainės apačioje. Atšaukus mūsų analitikos žyma išjungiama, šios jungties analitikos slapukai pašalinami. Sėkmingai išsaugojus atsisakymą, puslapis perkraunamas; jei išsaugoti nepavyksta, šioje kortelėje analitika sustabdoma ir parodomas pranešimas. Atšaukimas nedaro įtakos iki jo atlikto duomenų tvarkymo teisėtumui ir savaime neištrina anksčiau sukauptų ataskaitų. Dėl prieigos prie duomenų ir kitų savo teisių kreipkitės info@memorycasting.lt."
+          "text": "Pasirinkimą bet kada galite pakeisti ar sutikimą atšaukti per nuorodą svetainės apačioje. Atšaukus mūsų analitikos žyma išjungiama, šios jungties analitikos slapukai ir kampanijos įrašas pašalinami. Jei šiame skirtuke yra pradėtas užsakymas, jo dar neišsiųstų analitikos įvykių atšaukimas perduodamas serveriui. Sėkmingai išsaugojus atsisakymą, puslapis perkraunamas; jei išsaugoti nepavyksta, šioje kortelėje analitika sustabdoma ir parodomas pranešimas. Jau išsiųstų užklausų atšaukti negalime. Atšaukimas nedaro įtakos iki jo atlikto duomenų tvarkymo teisėtumui ir savaime neištrina anksčiau sukauptų ataskaitų. Dėl savo teisių ar anksčiau su užsakymu susietų duomenų kreipkitės info@memorycasting.lt."
         },
         {
           "type": "heading",
@@ -3188,11 +3192,11 @@
         }
       ],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "f7aa47a025041fd634af1353a45a03bad34ce497ab8f7ba4d586114b288f0ad4",
+      "revisionHash": "a027f426575326f6e7deeeccc57e3864baa5ab199d0d0bc8e98c269f7209a15e",
       "approval": {
         "status": "approved",
-        "revisionHash": "f7aa47a025041fd634af1353a45a03bad34ce497ab8f7ba4d586114b288f0ad4",
-        "approvedAt": "2026-10-25T08:45:11.931Z",
+        "revisionHash": "a027f426575326f6e7deeeccc57e3864baa5ab199d0d0bc8e98c269f7209a15e",
+        "approvedAt": "2026-10-25T10:51:00.711Z",
         "actorId": "memocasting-editorial-agent"
       }
     },
@@ -30284,5 +30288,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T08:45:12.326Z"
+  "generatedAt": "2026-10-25T10:51:00.867Z"
 }

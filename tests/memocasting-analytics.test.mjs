@@ -8,17 +8,17 @@ import {memoAnalyticsConfig,memoAnalyticsPage,memoReadConsent,createMemoAnalytic
 const values={MEMO_GA4_ENABLED:'1',MEMO_GA4_MEASUREMENT_ID:'G-TEST000001'};
 const page={host:'memocasting.lt',siteId:'memocasting',path:'/gidai/dovana-mamai',title:'Dovana mamai',language:'lt'};
 const config=memoAnalyticsConfig(values,page),time=1792900000000;
-function fixture({href='https://memocasting.lt/gidai/dovana-mamai?email=private%40example.test&client_secret=secret#private',stored,storageFails=false,storageGetterFails=false,sessionFails=false,sessionBlocked=false}={}){
+function fixture({href='https://memocasting.lt/gidai/dovana-mamai?email=private%40example.test&client_secret=secret#private',stored,storageFails=false,storageGetterFails=false,sessionFails=false,sessionBlocked=false,configOverride=config}={}){
  const map=new Map(stored?[[MEMO_CONSENT_KEY,stored]]:[]),session=new Map(sessionBlocked?[[MEMO_CONSENT_BLOCK_KEY,'1']]:[]),listeners=new Map(),requests=[],cookieWrites=[],timers=new Map();
  const storage={getItem:key=>{if(storageFails)throw Error('unavailable');return map.get(key)??null;},setItem:(key,value)=>{if(storageFails)throw Error('unavailable');map.set(key,value);},removeItem:key=>{if(storageFails)throw Error('unavailable');map.delete(key);}};
  const document={visibilityState:'visible',addEventListener:(key,fn)=>listeners.set(key,fn),removeEventListener:key=>listeners.delete(key),createElement:()=>({remove(){this.removed=true;}}),head:{appendChild:script=>requests.push(script)},get cookie(){return '_ga=old; _ga_TEST000001=old; essential_cart=keep';},set cookie(value){cookieWrites.push(value);}};
  let reloads=0,clock=time,timerId=0;
  const browser={location:{href,reload:()=>reloads++},addEventListener:(key,fn)=>listeners.set(key,fn),removeEventListener:key=>listeners.delete(key),setTimeout:(fn,delay)=>{timers.set(++timerId,{fn,delay});return timerId;},clearTimeout:id=>timers.delete(id),sessionStorage:{getItem:key=>{if(sessionFails)throw Error('blocked');return session.get(key)??null;},setItem:(key,value)=>{if(sessionFails)throw Error('blocked');session.set(key,value);},removeItem:key=>{if(sessionFails)throw Error('blocked');session.delete(key);}}};
  Object.defineProperty(browser,'localStorage',{get(){if(storageGetterFails)throw Error('blocked');return storage;}});
- const states=[],instance=createMemoAnalytics({browser,document,config,now:()=>clock,onChange:state=>states.push(state)});
+ const states=[],instance=createMemoAnalytics({browser,document,config:configOverride,now:()=>clock,onChange:state=>states.push(state)});
  return {browser,document,map,session,storage,requests,cookieWrites,states,instance,listeners,timers,setClock:value=>clock=value,reloads:()=>reloads};
 }
-const stored=(choice,at=time)=>JSON.stringify({version:1,choice,at});
+const stored=(choice,at=time)=>JSON.stringify({version:2,choice,at});
 test('React19 hoists the nested server referrer metadata into the real head before the body',()=>{
  const h=React.createElement,html=renderToStaticMarkup(h('html',null,h('head',null,h('title',null,'Approved public title')),h('body',null,h('footer',null,h('meta',{name:'referrer',content:'no-referrer'})))));
  const head=html.match(/<head>([\s\S]*?)<\/head>/)?.[1],body=html.match(/<body>([\s\S]*?)<\/body>/)?.[1];
@@ -59,6 +59,15 @@ test('foreign host, HTTP and mismatched route never load even with stored grant'
 });
 test('functional routes keep preference control but cannot produce pageview',()=>{
  for(const path of ['/cart','/checkout','/uzsakymas']){const c=memoAnalyticsConfig(values,{...page,path});assert.equal(c.track,false);assert.equal(memoAnalyticsPage(c,{href:'https://memocasting.lt'+path}),null);}
+});
+test('new ecommerce purpose never inherits the old content-only consent',()=>{
+ const f=fixture({stored:JSON.stringify({version:1,choice:'granted',at:time})});assert.equal(f.requests.length,0);assert.equal(f.instance.snapshot().choice,'unknown');
+});
+test('consented cart initializes sanitized context without any page_view or customer parameters',async()=>{
+ const c=memoAnalyticsConfig(values,{...page,path:'/cart',title:'Jūsų krepšelis'}),f=fixture({href:'https://memocasting.lt/cart?client_secret=private',stored:stored('granted'),configOverride:c});
+ assert.equal(f.requests.length,1);assert.equal(f.browser.dataLayer.some(args=>args[0]==='event'),false);
+ const result=f.instance.context();const gets=f.browser.dataLayer.filter(args=>args[0]==='get');assert.equal(gets.length,2);gets.find(args=>args[2]==='client_id')[3]('123.456');gets.find(args=>args[2]==='session_id')[3](1792900000);
+ const context=await result;assert.equal(context.version,2);assert.equal(context.clientId,'123.456');assert.equal(context.measurementId,values.MEMO_GA4_MEASUREMENT_ID);assert.equal(context.at,time);assert.equal(context.expiresAt,time+180*86400000);assert.doesNotMatch(JSON.stringify(context),/private|client_secret|order|customer/);f.instance.dispose();
 });
 test('other locales have no configuration or loader even after a Lithuanian grant',()=>{
  for(const language of ['pl','lv','et','unknown',undefined])assert.equal(memoAnalyticsConfig(values,{...page,language}),null);

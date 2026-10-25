@@ -5,7 +5,7 @@ import {usePathname} from 'next/navigation';
 import {createMemoAnalytics} from '@/lib/memocasting-analytics.mjs';
 import s from './memocasting-analytics-consent.module.css';
 
-const copy={settings:'Slapukų pasirinkimas',title:'Ar galime matuoti lankomumą?',body:'Su jūsų sutikimu naudosime „Google Analytics“ statistikai apie lankomus puslapius. Analitikos slapukai ir jūsų pasirinkimas saugomi iki 180 dienų. Reklamos funkcijų nejungiame. Atsiskaitymo puslapių nematuojame.',privacy:'Privatumo informacija',accept:'Leisti analitiką',reject:'Nenaudoti analitikos',close:'Uždaryti',granted:'Analitika leidžiama. Pasirinkimą galite bet kada atšaukti.',denied:'Analitika išjungta.',unavailable:'Nepavyko išsaugoti pasirinkimo naršyklėje. Analitika lieka išjungta.'};
+const copy={settings:'Slapukų pasirinkimas',title:'Ar galime matuoti lankomumą ir pirkimus?',body:'Su jūsų sutikimu naudosime „Google Analytics“, kad suprastume, iš kur atvyksta lankytojai, kokį turinį skaito ir ką perka. Perduodamos prekių sumos ir kiekiai, bet ne jūsų kontaktai ar kortelės duomenys. Analitikos slapukai ir pasirinkimas saugomi iki 180 dienų. Reklamos suasmeninimo nejungiame.',privacy:'Privatumo informacija',accept:'Leisti analitiką',reject:'Nenaudoti analitikos',close:'Uždaryti',granted:'Analitika leidžiama. Pasirinkimą galite bet kada atšaukti.',denied:'Analitika išjungta.',unavailable:'Nepavyko išsaugoti pasirinkimo naršyklėje. Analitika lieka išjungta.'};
 type Config={id:string;path:string;title:string;language:string;track:boolean};
 type State={choice:string;available:boolean;active:boolean};
 type Controller={choose:(choice:string)=>boolean;checkLocation:()=>void;dispose:()=>void};
