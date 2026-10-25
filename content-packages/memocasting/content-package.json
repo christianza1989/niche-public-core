@@ -3049,7 +3049,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Duomenų valdytojas – MB Memocasting, įmonės kodas 306026827, Pupinės g. 10-55, Vilnius, LT-02206. Dėl privatumo ir savo teisių kreipkitės info@memorycasting.lt arba paštu šiuo adresu. Atnaujinta 2026 m. spalio 20 d."
+          "text": "Duomenų valdytojas – MB Memocasting, įmonės kodas 306026827, Pupinės g. 10-55, Vilnius, LT-02206. Dėl privatumo ir savo teisių kreipkitės info@memorycasting.lt arba paštu šiuo adresu. Atnaujinta 2026 m. spalio 25 d."
         },
         {
           "type": "heading",
@@ -3111,6 +3111,40 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Pasirinktinė lankomumo analitika"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lietuviškuose „Memory Casting“ puslapiuose naudojame „Google Analytics 4“, jei sutinkate su pasirinktine analitika. Ji padeda suprasti, kurie produktų aprašymai, instrukcijos ir gidai skaitomi. Iki sutikimo ir atsisakius analitikos mūsų analitikos kodas neįkelia „Google“ žymos ir nesiunčia matavimo užklausų. Atsisakymas netrukdo naudotis svetaine ar pirkti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gavus sutikimą, analitikos paslaugai perduodamas peržiūrėto turinio puslapio adresas be užklausos parametrų ir adreso fragmento, jo pavadinimas, slapuko identifikatorius bei techniniai naršyklės ir įrenginio duomenys. Duomenų tvarkymo pagrindas – jūsų sutikimas. Paslaugą teikia „Google Ireland Limited“ ir jos pasitelkti duomenų tvarkytojai; daugiau paaiškina „Google“ privatumo politika ir duomenų apdorojimo sąlygos. Duomenų perdavimams už EEE taikoma pirmiau aprašyta informacija apie gavėjus ir apsaugos priemones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Į analitikos įvykius neįtraukiame pirkėjo vardo, el. pašto, telefono, pristatymo adreso, mokėjimo kortelės duomenų ar užsakymo prieigos žetonų. Reklamos suasmeninimas ir „Google Signals“ šiai jungčiai išjungti. Šiame etape matuojamos turinio peržiūros: krepšelio ir atsiskaitymo puslapių peržiūrų bei pirkimo įvykių ši jungtis nesiunčia. Kitų kalbų svetainės versijose ši analitika neįjungiama."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Analitikos slapukai ir pasirinkimo saugojimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jūsų pasirinkimą priimti arba atmesti analitiką naršyklėje išsaugome iki 180 dienų. Įraše „memo_analytics_consent_v1“ laikomas pasirinkimas, jo laikas ir nustatymo versija; pirkėjo kontaktų jame nėra. Atsisakymo saugiklis „memo_analytics_block_v1“ saugomas atskirai iki naršyklės kortelės sesijos pabaigos. Jis padeda išlaikyti analitiką išjungtą, jei pasirinkimo išsaugojimas sutriktų. Jei sutikimo išsaugoti nepavyksta, analitika neįjungiama. Išvalius naršyklės saugyklą arba pasibaigus pasirinkimo galiojimui, sutikimo klausiama iš naujo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tik sutikus gali būti naudojami pirmosios šalies „_ga“ ir „_ga_…“ analitikos slapukai, padedantys atskirti naršykles ir apsilankymus. Jų galiojimą nustatome iki 180 dienų; nauji apsilankymai šio termino automatiškai nepratęsia. „Google Analytics“ naudotojo ir įvykių duomenų saugojimo nuosavybėje trukmė nustatyta 2 mėnesiams. Bendrosioms apibendrintoms statistinėms ataskaitoms šis terminas netaikomas, todėl jos gali išlikti ilgiau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkimą bet kada galite pakeisti ar sutikimą atšaukti per nuorodą svetainės apačioje. Atšaukus mūsų analitikos žyma išjungiama, šios jungties analitikos slapukai pašalinami. Sėkmingai išsaugojus atsisakymą, puslapis perkraunamas; jei išsaugoti nepavyksta, šioje kortelėje analitika sustabdoma ir parodomas pranešimas. Atšaukimas nedaro įtakos iki jo atlikto duomenų tvarkymo teisėtumui ir savaime neištrina anksčiau sukauptų ataskaitų. Dėl prieigos prie duomenų ir kitų savo teisių kreipkitės info@memorycasting.lt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Jūsų teisės"
         },
         {
@@ -3136,15 +3170,30 @@
           "url": "https://vdai.lrv.lt/lt/naujienos/vdai-rekomendacijos-del-internetiniu-parduotuviu-tvarkomu-asmens-duomenu-saugumo-priemoniu/",
           "label": "VDAI rekomendacijos internetinėms parduotuvėms",
           "reason": "Duomenų apsaugos priemonių ir saugojimo kontrolės paaiškinimas."
+        },
+        {
+          "url": "https://policies.google.com/privacy",
+          "label": "„Google“ privatumo politika",
+          "reason": "Analitikos paslaugos teikėjo informacija apie tvarkomus duomenis, gavėjus ir naudotojo pasirinkimus."
+        },
+        {
+          "url": "https://www.google.com/analytics/terms/dpa/dataprocessingamendment_20200816.html",
+          "label": "duomenų apdorojimo sąlygos",
+          "reason": "Savininko priimtos „Google Analytics“ duomenų apdorojimo sąlygos ir perdavimo apsaugos priemonės."
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/7667196?hl=en",
+          "label": "„Google Analytics“ duomenų saugojimo informacija",
+          "reason": "Naudotojo / įvykių saugojimo termino ir ilgiau išliekančių apibendrintų ataskaitų atskyrimas."
         }
       ],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "18e174289ac271e4979b32da83098fd322bb62f652bce48ef0bac564ae9b5049",
+      "revisionHash": "f7aa47a025041fd634af1353a45a03bad34ce497ab8f7ba4d586114b288f0ad4",
       "approval": {
         "status": "approved",
-        "revisionHash": "18e174289ac271e4979b32da83098fd322bb62f652bce48ef0bac564ae9b5049",
-        "approvedAt": "2026-10-20T16:10:03.407Z",
-        "actorId": "codex-production-launch-20261020"
+        "revisionHash": "f7aa47a025041fd634af1353a45a03bad34ce497ab8f7ba4d586114b288f0ad4",
+        "approvedAt": "2026-10-25T08:45:11.931Z",
+        "actorId": "memocasting-editorial-agent"
       }
     },
     {
@@ -30235,5 +30284,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T07:50:02.269Z"
+  "generatedAt": "2026-10-25T08:45:12.326Z"
 }
