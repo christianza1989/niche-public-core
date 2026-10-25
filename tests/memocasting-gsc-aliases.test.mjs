@@ -49,9 +49,31 @@ test('17 GSC forms are exact, single-target aliases to current public pages or t
    assert.equal(moved?.pathname,target,source);
    assert.equal(memoRedirectPath(target,live,method),null,source+' has no second alias hop');
    if(target==='/sitemap.xml')assert.equal(moved.search,'','old Shopify sitemap range must not survive');
+   else if(['/ranku-liejimo-rinkiniai','/gidai'].includes(target))assert.equal(moved.search,'','old index pagination must not survive');
    else assert.ok(live.some(p=>'/'+p.slug===target),source+' public target');
   }
  }
+});
+
+test('known index aliases drop only obsolete page while preserving attribution and other query meanings',()=>{
+ const live=visible();
+ for(const source of ['/products','/collections/all','/en/collections','/en/collections/all','/blogs/news','/en/blogs/news']){
+  for(const method of ['GET','HEAD']){
+   const moved=memoRedirectUrl('https://memocasting.lt'+source+'?utm_source=gift%20guide&page=3&utm_campaign=Christmas%202026&page=10&ref=partner%2Bfriend&Page=keep',live,method);
+   assert.ok(moved,source);
+   assert.equal(moved.searchParams.has('page'),false,source+' removes all old pagination values');
+   assert.deepEqual([...moved.searchParams],[['utm_source','gift guide'],['utm_campaign','Christmas 2026'],['ref','partner+friend'],['Page','keep']],source+' preserves other parameters and values');
+   assert.equal(memoRedirectUrl('https://memocasting.lt'+source+'?utm_source=gift%20guide&ref=a%2Bb',live,method).search,'?utm_source=gift%20guide&ref=a%2Bb',source+' query without page stays byte-for-byte');
+  }
+ }
+ for(const source of ['/products/liejimo-rinkinys-porai','/en/products/seimos-rinkinys-1','/en/collections/dovanos-poroms']){
+  const moved=memoRedirectUrl('https://memocasting.lt'+source+'?page=3&utm_source=gift',live);
+  assert.equal(moved?.search,'?page=3&utm_source=gift',source+' is not an index alias');
+ }
+ for(const source of ['/ranku-liejimo-rinkiniai','/gidai'])assert.equal(memoRedirectUrl('https://memocasting.lt'+source+'?page=3&utm_source=gift',live),null,'native query handling is not replaced');
+ const slug='gidai/dovanos-valentino-dienai',at=Date.parse(pkg.pages.find(p=>p.slug===slug).publishAt);
+ assert.equal(memoRedirectUrl('https://memocasting.lt/en/blogs/dovanos-valentino-dienai?page=4&utm_source=gift',visible(at-1)),null);
+ assert.equal(memoRedirectUrl('https://memocasting.lt/en/blogs/dovanos-valentino-dienai?page=4&utm_source=gift',visible(at)).search,'?page=4&utm_source=gift','scheduled article semantics are unchanged');
 });
 
 test('all 11 reported scheduled forms activate only at their actual target publication boundary',()=>{
@@ -100,12 +122,15 @@ test('HTTP contract: 17 current forms reach 200; 11 future forms are 404 before 
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  const base='http://127.0.0.1:'+server.address().port;
  try{
-  const follow=async source=>{
+  const follow=async(source,expected)=>{
    const first=await fetch(base+source,{redirect:'manual'});assert.equal(first.status,301,source);
    const destination=first.headers.get('location');assert.ok(destination?.startsWith('/')&&!destination.startsWith('//'));
+   if(expected)assert.equal(destination,expected,source+' exact redirect destination');
    const second=await fetch(base+destination,{redirect:'manual'});assert.equal(second.status,200,source+' target');
   };
-  for(const [source] of immediate)await follow(source);
+  for(const [source,target] of immediate)await follow(source,target);
+  await follow('/products?page=3&utm_source=gift','/ranku-liejimo-rinkiniai?utm_source=gift');
+  await follow('/en/blogs/news?utm_source=gift&page=10','/gidai?utm_source=gift');
   for(const [source,slug] of scheduled){
    const at=Date.parse(pkg.pages.find(p=>p.slug===slug).publishAt);clock=at-1;
    assert.equal((await fetch(base+source,{redirect:'manual'})).status,404,source+' before');
