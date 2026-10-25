@@ -7,6 +7,7 @@ import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 import {memoRedirectUrl} from '@/lib/memocasting-routes.mjs';
 import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
+import {memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawDocumentPath} from '@/lib/memocasting-instruction-documents.mjs';
 import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
@@ -23,6 +24,7 @@ function isPreview(host: string): boolean {
 export function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
+  if(memoInstructionRawDocumentPath(path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
   if (host === 'www.memocasting.lt') {
     const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
     const memo=nicheSiteByHost('memocasting.lt');
@@ -33,6 +35,13 @@ export function proxy(request: NextRequest) {
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
   const niche = nicheSiteByHost(host);
+  // Document aliases must be admitted before gift/legacy/static fallbacks.
+  if(memoInstructionDocumentAlias(path)){
+    if(!niche||!memoInstructionDocument(niche,publicNichePages(niche),path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','X-Robots-Tag':'noindex','Cache-Control':'private, no-store'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/instruction-documents/'+path.slice('/dokumentai/'.length);destination.search='';
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');response.headers.set('X-Robots-Tag','noindex');return response;
+  }
   // Run this gate before every legacy/gift fallback as well as niche dispatch.
   // Otherwise an old legacy host can fall through to the shared ASSETS binding.
   if(path.startsWith('/memocasting-homepage/')){

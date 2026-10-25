@@ -1,0 +1,24 @@
+{
+  "siteId": "memocasting",
+  "canonicalHost": "memocasting.lt",
+  "source": "Unmodified owner-supplied Lithuanian instruction PDFs, verified 2026-10-25",
+  "rawPrefix": "/memocasting-homepage/v1/documents/",
+  "documents": [
+    {
+      "alias": "/dokumentai/poros-rinkinio-instrukcija.pdf",
+      "pageSlug": "instrukcijos/poros-rinkiniui",
+      "path": "/memocasting-homepage/v1/documents/poros-rinkinio-instrukcija-4dc1623fb536.pdf",
+      "filename": "dvieju ranku receptas Lithuanian.pdf",
+      "bytes": 80498,
+      "sha256": "4dc1623fb5367065c2136296b6a14c44f07e2cb61a4c38f898fb04e36eaf9cfe"
+    },
+    {
+      "alias": "/dokumentai/seimos-rinkinio-instrukcija.pdf",
+      "pageSlug": "instrukcijos/seimos-rinkiniui",
+      "path": "/memocasting-homepage/v1/documents/seimos-rinkinio-instrukcija-8113f91dcad9.pdf",
+      "filename": "Šeimos ranku receptas (2) (1).pdf",
+      "bytes": 78109,
+      "sha256": "8113f91dcad9490a4d5eebfcf01e0f5acd593971bafadf82b19647c6f29fd07c"
+    }
+  ]
+}
