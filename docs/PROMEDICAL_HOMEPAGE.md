@@ -24,8 +24,20 @@ renderer until the new exact revision is reviewed and approved through Studio.
 - Tracking uses the existing single first-party component. Private QA replaces
   that component with a no-transmission adapter.
 
-Before deploying, complete the ordinary vinext/Cloudflare build and
-exact-candidate runtime acceptance. A separate optimized Vite SSR review is not
-evidence that the framework production build passed. No compiled registry or
-approval hash may be patched to activate this draft. Refresh the actual live
-package, other nine packages and runtime settings before any later release.
+Published on2026-10-25 as Worker version
+`393144b7-77d5-458e-8348-05ba2cccd81e` at100%, deployment
+`a51bf9a2-e30b-402c-a0ea-0525370662a4`. The ordinary vinext build and exact
+candidate acceptance passed before activation. Native Studio approval/release
+produced package SHA256
+`626bb42b68a583b14793393b6abb7a43de08c266417d5cc964b3cd632c0e74b5`.
+
+Acceptance covers1853 public routes,1407 products/galleries,3096 extra links,
+9227 media files (9071 public and156 correctly gated), aliases, metadata,
+sitemap/LLM outputs and actual desktop/mobile search/gallery interaction.
+The deployed registry equals the release; other nine packages and runtime settings
+are unchanged. Native200% browser zoom, field Core Web Vitals and actual Google
+indexing remain unverified. Private evidence: companion execution
+`output/promedical-homepage-execution-20261025/live-release/`.
+
+No compiled registry or approval hash was patched. Refresh the actual live package,
+other nine packages and runtime settings before any later release.
