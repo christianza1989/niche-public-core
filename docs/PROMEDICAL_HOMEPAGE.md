@@ -41,3 +41,13 @@ indexing remain unverified. Private evidence: companion execution
 
 No compiled registry or approval hash was patched. Refresh the actual live package,
 other nine packages and runtime settings before any later release.
+
+Owner-requested follow-up on2026-10-25: desktop hero copy/buttons now align with
+the lower-section left edge; all32 existing catalogue sidebar groups display
+directly, without the extra disclosure. Current Worker version
+`bd3fef07-121f-4ccc-aed2-9e29c60c2c05`, deployment
+`e7a7958d-f1f0-4702-8143-230038ac37ce` at100%. Ordinary build,6 focused tests,
+candidate/live desktop/mobile geometry checks,8 representative routes,94 resources
+and all33 sidebar targets passed. Content packages, metadata, photo geometry and
+runtime settings remain unchanged. Private proof:
+`output/promedical-hero-align-20261025/DEPLOYED_VERIFIED.json`.
