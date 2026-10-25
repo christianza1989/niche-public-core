@@ -17,14 +17,14 @@ const readPublicShop=cache(async(host:string|null,path:'catalog'|'storefront-con
   return await response.json();
  }catch{return null;}
 });
-const loadCatalog=cache(async(host:string|null)=>{
+export const memoPublishedCatalog=cache(async(host:string|null)=>{
  const [products,context]=await Promise.all([readPublicShop(host,'catalog'),readPublicShop(host,'storefront-context')]);
  return Array.isArray(products)?{products:products as Array<{sku:string}>,context}:null;
 });
 export async function memoPublishedProductPage(page:NichePage|undefined,host:string|null):Promise<(NichePage & {seoTitle?:string;seoDescription?:string})|undefined>{
  const sku=memoProductSku(page);if(!sku||!page)return page;
- const shop=await loadCatalog(host);return shop?memoApplyProductContent(page,shop.products.find(p=>p.sku===sku),shop.context):page;
+ const shop=await memoPublishedCatalog(host);return shop?memoApplyProductContent(page,shop.products.find(p=>p.sku===sku),shop.context):page;
 }
 export async function memoPublishedProductPages(pages:NichePage[],host:string|null):Promise<NichePage[]>{
- const shop=await loadCatalog(host);return shop?pages.map(page=>memoApplyProductContent(page,shop.products.find(p=>p.sku===memoProductSku(page)),shop.context)):pages;
+ const shop=await memoPublishedCatalog(host);return shop?pages.map(page=>memoApplyProductContent(page,shop.products.find(p=>p.sku===memoProductSku(page)),shop.context)):pages;
 }

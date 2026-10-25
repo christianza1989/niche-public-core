@@ -35,6 +35,14 @@ export function proxy(request: NextRequest) {
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
   const niche = nicheSiteByHost(host);
+  // Reserve the merchant endpoint before every gift/legacy fallback. Only the
+  // exact production host may reach the dynamic live-catalog feed handler.
+  if(path==='/prekiu-srautas.xml'){
+    if(niche?.siteId!=='memocasting'||niche.canonicalHost!=='memocasting.lt'||request.headers.get('host')!=='memocasting.lt'||request.nextUrl.host!=='memocasting.lt'||request.nextUrl.protocol!=='https:')return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/merchant-feed';destination.search='';
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');response.headers.set('X-Robots-Tag','noindex');return response;
+  }
   // Document aliases must be admitted before gift/legacy/static fallbacks.
   if(memoInstructionDocumentAlias(path)){
     if(!niche||!memoInstructionDocument(niche,publicNichePages(niche),path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});

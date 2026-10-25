@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "siteId": "memocasting",
+  "canonicalHost": "memocasting.lt",
+  "brand": "Memocasting",
+  "products": [
+    {"sku": "couple", "mpn": "MC-COUPLE-WHITE", "gtinAssigned": false, "choices": {"finish": "white", "base": "none"}},
+    {"sku": "family", "mpn": "MC-FAMILY-WHITE", "gtinAssigned": false, "choices": {"finish": "white", "base": "none"}}
+  ]
+}
