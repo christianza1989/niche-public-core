@@ -2,7 +2,7 @@
 
 Owner-requested extension; default guide list and separate Other texts tab.
 The existing public homepage has no login link. `/admin` is a private noindex
-application shell; `/admin/api/*` requires a server-authenticated session before
+application shell; owner `/admin/api/*` routes require a server-authenticated session before
 returning text, private media or settings. Other tenants return404.
 The guide list includes lazy thumbnails. Reading preview shows its cover and
 all assigned image families, with responsive sizes deduplicated. Publication
@@ -68,3 +68,53 @@ Tests: server auth/expiry/CSRF/origin/rate limits, one-use setup, real SQLite
 persistence/CAS/audit, canonical approval, future/history/pause projection, and
 full HTTP login/read/save/reload/logout. Actual workerd+D1 and framework/host
 acceptance are separate runtime evidence; a Node unit PASS is not deployment.
+
+## Draft-only automation (separate capability)
+
+`GET /admin/api/drafts/{id}` reads the draft text, date, CAS etag and conflict
+state. `POST` to that exact path accepts only `{etag, changes}`; changes may
+contain only `title`, `description` and `body`. Existing canonical `saveDraft`
+validation, revision hashing, history and atomic CAS are reused. The actor is
+`automation:codex-drafts`, never the human owner. Only guides and categories
+are eligible; products, home and other page types return 404. Approved/live
+revisions, review evidence, dates, URLs, links, media and publication policy
+cannot be changed through this capability. H2/H3 structure is retained.
+
+The endpoint is disabled unless the Worker has `CONTENT_ADMIN_DRAFT_TOKEN`
+as a secret containing 32 cryptographically random bytes encoded as base64url
+(43 characters). Provision through the authorized secret-management operation;
+never put its value in Git, Drive, a message, a command argument or a log.
+Use the same secret from the client's secret manager through its environment.
+Replace the secret to rotate access; remove it to revoke access. No database
+migration or owner password is needed. Provisioning/deployment is a separate
+operator action; a source PR does not enable the endpoint.
+
+Send `Authorization: Bearer …` only to the configured canonical HTTPS host.
+No query string, cookie, Origin or browser Fetch Metadata is accepted. Browser
+owner routes reject Authorization headers even alongside a valid cookie; the
+machine key cannot invoke save/publish/restore/policy/enrollment/login there.
+Requests remain bounded to 512 KiB and responses are private/no-store/noindex.
+Token hashes are compared at fixed length with constant-time comparison.
+
+After deployment and authorized secret provisioning:
+
+1. `node scripts/content-admin-draft.mjs read PAGE_ID` retrieves the current text
+   and etag. Inspect any existing draft before changing it.
+2. Prepare a private JSON file containing `id`, that exact `etag` and the
+   intended `changes`. Do not submit a historical full page object.
+3. `node scripts/content-admin-draft.mjs save INPUT.json` saves only the draft.
+   The client has a fixed Promedical HTTPS destination, rejects redirects and
+   does not retry errors. On 409, read and reconcile the fresh revision; never
+   refresh an etag blindly. Compiled-base conflicts still require the existing
+   editorial backup and reconciliation procedure.
+4. Read again and compare the saved fields. The owner reviews and publishes
+   the exact final revision in `/admin`; dates do not grant publishing rights.
+
+The editor can add empty paragraph/H2/H3/list blocks without throwing, and an
+unchanged date is omitted from draft saves so timestamp precision survives.
+Browser regression: `tests/browser/content-admin-editor.mjs` accepts an isolated
+Playwright Page, current admin JS/CSS strings and a screenshot directory. It
+fulfills fixture requests locally and exercises add/save/reload/mobile layout.
+
+References: [Worker secrets](https://developers.cloudflare.com/workers/configuration/secrets/)
+and [constant-time Web Crypto comparisons](https://developers.cloudflare.com/workers/runtime-apis/web-crypto/).
