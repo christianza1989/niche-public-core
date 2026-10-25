@@ -2,7 +2,7 @@
 
 Rokas decision 646 on 2026-10-25 withdraws category IDs 076, 077, 264 and 265. Their canonical and historical paths return HTTP 301 to `/produktai`. This source change is separate from production acceptance.
 
-`pageWithdrawalsBySite` in the network configuration names the canonical host, exact stable page IDs and original category paths. Compilation rejects unknown sites, mismatched hosts/paths, duplicate entries, product identities and unsupported destinations. The virtual catalogue destination is explicitly limited to the Promedical renderer.
+`pageWithdrawalsBySite` in the network configuration names the canonical host, exact stable page IDs, original category paths and the existing catalogue service page ID. Compilation rejects unknown sites, mismatched hosts/paths, duplicate entries, product identities and unsupported destinations. The destination must remain publicly eligible.
 
 The shared public projection removes these identities and incoming editorial links before HTML, schema, sitemap, media and LLM output. It preserves the immutable approved package and all other content. The existing guide publication cutoff is unchanged. Later hosted edits cannot revive withdrawn IDs; restoring an identity requires an explicit configuration change. Product classification is owned by the separate product workflow (issue72), and this patch does not edit it.
 

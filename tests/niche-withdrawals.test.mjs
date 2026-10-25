@@ -36,6 +36,7 @@ test('current, trailing-slash and legacy routes redirect to catalogue; category 
  assert.equal(pageWithdrawalDestination(pkg,settings,aliases,live,'/kategorijos/unknown'),null);
  assert.equal(pageWithdrawalDestination({...pkg,canonicalHost:'other.lt'},settings,aliases,live,rule.pages[0].path),null);
  assert.equal(pageWithdrawalDestination(pkg,settings,aliases,()=>[],rule.pages[0].path),null);
+ assert.equal(pageWithdrawalDestination(pkg,settings,aliases,()=>live().filter(p=>p.id!==rule.targetPageId),rule.pages[0].path),null);
 });
 
 test('withdrawal configuration rejects unknown identities, host mismatches, product targets and unsafe destinations',()=>{

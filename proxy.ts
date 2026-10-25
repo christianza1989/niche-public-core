@@ -9,7 +9,6 @@ import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
-import networkSettings from '@/config/niche-network.json';
 import { pageWithdrawalDestination } from '@/lib/niche-withdrawals.mjs';
 const nichePathAliases = indexNichePathAliases(pathAliases);
 

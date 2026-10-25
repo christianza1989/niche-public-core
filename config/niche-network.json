@@ -76,6 +76,7 @@
     "promedical": {
       "canonicalHost": "promedical.lt",
       "redirectTo": "/produktai",
+      "targetPageId": "a5827907-f6ad-46d7-ba16-d3821da57ec1",
       "pages": [
         {
           "pageId": "3ebd53df-6425-4459-89c7-efc80aa90517",
