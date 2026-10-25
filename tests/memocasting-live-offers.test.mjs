@@ -72,6 +72,6 @@ test('organization uses the verified legal address and homepage identity across 
   assert.equal(org.identifier.value,'306026827');assert.ok(!JSON.stringify(org.address).includes('Molynės'));
   assert.ok(!graph.some(e=>e['@type']==='Person'));
   const article=graph.find(e=>e['@type']==='Article');
-  if(article){assert.equal(article.author.name,'MB Memocasting');assert.equal(article.publisher['@id'],org['@id']);assert.equal(article.datePublished,p.publishAt);assert.equal(article.mainEntityOfPage['@id'],'https://memocasting.lt/gidai/dovana-porai#webpage');}
+  if(article){assert.deepEqual(article.author,{'@id':org['@id']});assert.equal(org.legalName,'MB Memocasting');assert.equal(article.publisher['@id'],org['@id']);assert.equal(article.datePublished,p.publishAt);assert.equal(article.mainEntityOfPage['@id'],'https://memocasting.lt/gidai/dovana-porai#webpage');}
  }
 });

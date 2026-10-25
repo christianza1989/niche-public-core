@@ -22,7 +22,7 @@
     "COMMERCE_ENVIRONMENT": "production",
     "COMMERCE_STORE_ID": "store_memocasting",
     "COMMERCE_TEST_RECIPIENTS": "",
-    "SMTP_SENDER_NAME": "Memocasting",
+    "SMTP_SENDER_NAME": "Memory Casting",
     "COMMERCE_MAIL_TRANSPORT": "hostinger_api"
   },
   "d1_databases": [

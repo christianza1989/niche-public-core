@@ -14,3 +14,9 @@ test('Hostinger timeout, redirect or non204 never retries or falls back to SMTP'
  let calls=0;await assert.rejects(sendHostingerCommerceMail(config,message,async()=>{calls++;throw Error('timeout');}),/timeout/);assert.equal(calls,1);
  calls=0;await assert.rejects(sendHostingerCommerceMail(config,{...message,from:'other@example.test'},async()=>{calls++;}),/message_invalid/);assert.equal(calls,0);
 });
+test('HTML button and plain-text alternative use the documented Hostinger payload together, without tracking or retries',async()=>{
+ let calls=0;
+ await sendHostingerCommerceMail(config,{...message,html:'<p>Užsakymas</p><a href="https://memocasting.lt/cart">Tęsti apmokėjimą</a>'},async(_url,options)=>{calls++;const body=JSON.parse(options.body);assert(body.text.includes(message.text));assert(body.html.includes('Tęsti apmokėjimą'));return new Response(null,{status:204});});
+ assert.equal(calls,1);
+ await assert.rejects(sendHostingerCommerceMail(config,{...message,html:'x'.repeat(40001)},async()=>{throw Error('must not send');}),/message_invalid/);
+});
