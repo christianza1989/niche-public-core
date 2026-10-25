@@ -4,6 +4,11 @@ Owner-requested extension; default guide list and separate Other texts tab.
 The existing public homepage has no login link. `/admin` is a private noindex
 application shell; `/admin/api/*` requires a server-authenticated session before
 returning text, private media or settings. Other tenants return404.
+The guide list includes lazy thumbnails. Reading preview shows its cover and
+all assigned image families, with responsive sizes deduplicated. Publication
+date/time, Save date and Publish are directly available above the reading view;
+publication still requires the exact saved revision's human review and obeys
+the existing pause. These controls do not resume the whole guide queue.
 
 ## Sources and persistence
 
@@ -35,6 +40,9 @@ Writes require exact Origin and session-bound CSRF. Login has persisted IP/accou
 limits and scrypt N16384/r8/p5 with independent random salts. No password/email
 transport dependency or open self-registration. `CONTENT_ADMIN_DEV_ORIGIN`
 exists only for isolated loopback QA; never set it in production.
+POST payloads are bounded and consumed before an Origin/auth rejection. This
+preserves the next HTTP keep-alive request in the local Workers proxy; regression
+coverage includes rejected CSRF/Origin followed by successful logout in workerd.
 
 Saving preserves a private draft. The authenticated human reads the final text,
 checks six review areas and explicitly approves the saved revision. Media and
