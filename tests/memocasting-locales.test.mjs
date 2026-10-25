@@ -30,7 +30,7 @@ test('localized policy is informational and the author profile follows eligible 
  const ltProfile=page('redakcija','service'),plProfile=page('pl/redakcija','service'),policy=page('pl/privatumas','service');
  assert.equal(memoProfilePath(policy,[ltProfile]),'/redakcija');assert.equal(memoProfilePath(policy,[ltProfile,plProfile]),'/pl/redakcija');
  const graph=memoSchemaGraph(pkg,policy,[ltProfile,plProfile,policy],'MB Memocasting')['@graph'];
- assert.ok(!graph.some(e=>e['@type']==='Service'));assert.equal(graph.find(e=>e['@type']==='Organization').url,'https://memocasting.lt/pl/redakcija');
+ assert.ok(!graph.some(e=>e['@type']==='Service'));assert.equal(graph.find(e=>e['@type']==='Organization').url,'https://memocasting.lt/');
  const profileGraph=memoSchemaGraph(pkg,plProfile,[ltProfile,plProfile],'MB Memocasting')['@graph'];
  assert.equal(profileGraph.find(e=>e['@type']==='ProfilePage').mainEntity['@id'],'https://memocasting.lt/#organization');
 });
