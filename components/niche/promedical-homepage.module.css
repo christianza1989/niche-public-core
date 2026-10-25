@@ -924,3 +924,15 @@
 .root :global(.pm-home a:focus-visible), .root :global(.pm-home button:focus-visible), .root :global(.pm-home input:focus-visible) { outline: 3px solid var(--ink); outline-offset: 4px; }
 .root :global(.pm-home .institution-heading a:hover) { color: var(--red); }
 @media (max-width: 640px) { .root :global(.pm-home .hero-room-background) { display: none; } }
+
+/* Shared selected chrome; standalone pages keep the same width and navigation. */
+.root :global(.pm-home .header-standalone){position:relative;inset:auto;background:#fff;border-bottom:1px solid #e2e5e8;width:calc(100% - clamp(24px,2.2vw,36px)*2);margin-inline:auto}
+.root :global(.pm-home .header-standalone .search){border:1px solid #e2e5e8;background:#f8f9fa}
+.root :global(.pm-home .brand){width:192px;flex-basis:192px;height:35px}
+.root :global(.pm-home .footer-main){grid-template-columns:192px 1fr auto}
+@media(max-width:1150px){.root :global(.pm-home .footer-main){grid-template-columns:192px 1fr}}
+@media(min-width:641px) and (max-width:1000px){.root :global(.pm-home .header){grid-template-columns:192px 1fr auto}}
+@container (min-width:641px) and (max-width:1080px){.root :global(.pm-home .header){grid-template-columns:192px 1fr auto}}
+@media(max-width:700px){.root :global(.pm-home .footer-main){grid-template-columns:1fr}.root :global(.pm-home .header-standalone){width:100%}}
+@media(max-width:640px){.root :global(.pm-home .brand){width:165px;height:31px;flex-basis:165px}}
+@media(max-width:360px){.root :global(.pm-home .brand){width:145px;height:28px;flex-basis:145px}}

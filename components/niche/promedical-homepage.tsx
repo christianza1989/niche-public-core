@@ -10,11 +10,11 @@ const brand = '/brand/promedical/homepage/';
 export function promedicalHomepageJsonLd(pkg: NichePackage, page: NichePage, pages: NichePage[]) {
   const graph = JSON.parse(nicheJsonLd(pkg, page, pages));
   const organization = graph['@graph'].find((item: { '@type': string }) => item['@type'] === 'Organization');
-  if (organization) organization.logo = { '@type': 'ImageObject', url: `https://${pkg.canonicalHost}${brand}logo-640.webp`, width: 640, height: 213 };
+  if (organization) organization.logo = { '@type': 'ImageObject', url: `https://${pkg.canonicalHost}${brand}logo-sharp-640.webp`, width: 640, height: 213 };
   return JSON.stringify(graph).replace(/</g, '\\u003c');
 }
 function Icon({ name, size = 20 }: { name: string; size?: number }) { return <img src={`${brand}${name}.svg`} width={size} height={size} alt="" aria-hidden="true"/>; }
-function Brand() { return <a className="brand" href="/" aria-label="Promedical – pradinis puslapis"><img src={`${brand}logo-360.webp`} srcSet={`${brand}logo-360.webp 360w, ${brand}logo-640.webp 640w`} sizes="176px" width={640} height={213} alt="Promedical"/></a>; }
+function Brand() { return <a className="brand" href="/" aria-label="Promedical – pradinis puslapis"><img src={`${brand}logo-sharp-640.webp`} srcSet={`${brand}logo-sharp-640.webp 640w, ${brand}logo-sharp-1280.webp 1280w`} sizes="(max-width: 360px) 145px, (max-width: 640px) 165px, 192px" width={640} height={213} alt="Promedical"/></a>; }
 function Lines({ text, after }: { text: string; after: number }) { const words = text.split(' '); return after > 0 && words.length > after ? <>{words.slice(0, after).join(' ')}<br/>{words.slice(after).join(' ')}</> : <>{text}</>; }
 function Photo({ page, asset, className, sizes, decorative = false, eager = false }: { page: NichePage; asset: NicheMedia; className?: string; sizes: string; decorative?: boolean; eager?: boolean }) {
   return <img className={className} src={asset.src} srcSet={imageSrcSet(page.media, asset)} sizes={sizes} width={asset.width} height={asset.height} alt={decorative ? '' : asset.alt} aria-hidden={decorative || undefined} loading={eager ? 'eager' : 'lazy'} fetchPriority={eager ? 'high' : undefined} decoding="async"/>;
@@ -22,15 +22,8 @@ function Photo({ page, asset, className, sizes, decorative = false, eager = fals
 function RoomPhoto({ page, asset }: { page: NichePage; asset: NicheMedia }) {
   return <picture><source media="(min-width: 641px)" srcSet={imageSrcSet(page.media, asset)} sizes="(max-width: 1520px) 145vw, 2100px"/><img className="hero-room-background" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width={asset.width} height={asset.height} alt="" aria-hidden="true" fetchPriority="low" decoding="async"/></picture>;
 }
-export function PromedicalHomepage({ pkg, page, model: m }: { pkg: NichePackage; page: NichePage; model: Model }) {
-  const contact = pkg.site.contact;
-  return <div className={styles.root}><div className="pm-home">
-    <a className="skip-link" href="#turinys">Pereiti prie turinio</a>
-    <div className="page-width-frame" data-width-variant="1440" style={{ '--preview-max-width': '1440px', '--preview-side-gap': '40px' } as React.CSSProperties}>
-      <div className="masthead">
-        <RoomPhoto page={page} asset={m.room}/>
-        <Photo page={page} asset={m.hero} className="hero-image" sizes="(max-width: 640px) 230vw, (max-width: 1520px) calc(100vw - 140px), 1370px" decorative eager/>
-        <header className="header" aria-label="Svetainės antraštė">
+
+function HeaderContent({ q, standalone = false }: { q?: string; standalone?: boolean }) { return <header className={`header${standalone ? ' header-standalone' : ''}`} aria-label="Svetainės antraštė">
           <Brand/>
           <nav className="navigation" aria-label="Pagrindinė navigacija">
             <a className="nav-item products" href="/produktai">Produktai</a>
@@ -39,11 +32,26 @@ export function PromedicalHomepage({ pkg, page, model: m }: { pkg: NichePackage;
           </nav>
           <form className="search" role="search" action="/produktai" method="get">
             <label className="sr-only" htmlFor="equipment-search">Ieškoti įrangos</label>
-            <input type="search" id="equipment-search" name="q" placeholder="Ieškoti įrangos…" autoComplete="off" maxLength={100}/>
+            <input type="search" id="equipment-search" name="q" defaultValue={q || ''} placeholder="Ieškoti įrangos…" autoComplete="off" maxLength={100}/>
             <button className="search-button" type="submit" aria-label="Ieškoti"><Icon name="search" size={21}/></button>
           </form>
           <a className="button button-primary header-request" href="/kontaktai">Pateikti užklausą</a>
-        </header>
+        </header>; }
+function FooterContent({ pkg }: { pkg: NichePackage }) { const contact = pkg.site.contact; return <footer className="preview-footer" aria-label="Svetainės poraštė"><div className="footer-main"><Brand/><nav className="footer-navigation" aria-label="Poraštės navigacija"><a href="/produktai">Produktai</a><a href="/gidai">Gidai</a><a href="/apie-projekta">Apie mus</a><a href="/kontaktai">Kontaktai</a></nav><address className="footer-contacts"><a href={`mailto:${contact.email}`} data-interest="email_click">{contact.email}</a>{contact.phone && <a href={`tel:${contact.phone.replace(/\s/g, '')}`} data-interest="phone_click">{contact.phone.replace(/^(\+370)(\d{3})(\d+)$/, '$1 $2 $3')}</a>}</address></div>
+        <div className="footer-bottom"><small>© 2026 Promedical.</small><div className="footer-legal"><a href="/privatumas">Privatumas</a><a href="/naudojimo-salygos">Naudojimo sąlygos</a></div></div>
+      </footer>; }
+function ChromeFrame({ children }: { children: React.ReactNode }) { return <div className={styles.root}><div className="pm-home"><div className="page-width-frame" data-width-variant="1440" style={{ '--preview-max-width': '1440px', '--preview-side-gap': '40px' } as React.CSSProperties}>{children}</div></div></div>; }
+export function PromedicalHeader({ q }: { q?: string }) { return <ChromeFrame><a className="skip-link" href="#turinys">Pereiti prie turinio</a><HeaderContent q={q} standalone/></ChromeFrame>; }
+export function PromedicalFooter({ pkg }: { pkg: NichePackage }) { return <ChromeFrame><FooterContent pkg={pkg}/></ChromeFrame>; }
+
+export function PromedicalHomepage({ pkg, page, model: m }: { pkg: NichePackage; page: NichePage; model: Model }) {
+  return <div className={styles.root}><div className="pm-home">
+    <a className="skip-link" href="#turinys">Pereiti prie turinio</a>
+    <div className="page-width-frame" data-width-variant="1440" style={{ '--preview-max-width': '1440px', '--preview-side-gap': '40px' } as React.CSSProperties}>
+      <div className="masthead">
+        <RoomPhoto page={page} asset={m.room}/>
+        <Photo page={page} asset={m.hero} className="hero-image" sizes="(max-width: 640px) 230vw, (max-width: 1520px) calc(100vw - 140px), 1370px" decorative eager/>
+        <HeaderContent/>
         <div className="hero-stage"><section className="hero" aria-labelledby="hero-heading"><div className="hero-copy">
           <h1 id="hero-heading">{page.title.split(' ir ')[0]}<br/> ir {page.title.split(' ir ').slice(1).join(' ir ')}</h1>
           <p className="hero-description">{page.description}</p>
@@ -76,9 +84,7 @@ export function PromedicalHomepage({ pkg, page, model: m }: { pkg: NichePackage;
           <span className="process-number" aria-hidden="true">{i + 1}</span><div className="process-content"><img className="process-icon" src={`${brand}${['process-trolley', 'process-document', 'process-conversation'][i]}.svg`} width={48} height={48} alt=""/><h3>{card.title}</h3><p>{card.paragraphs[0]}</p></div>{i < 2 && <img className="process-connector" src={`${brand}process-chevron.svg`} width={28} height={56} alt=""/>}
         </li>)}</ol></div></section>
       </main>
-      <footer className="preview-footer" aria-label="Svetainės poraštė"><div className="footer-main"><Brand/><nav className="footer-navigation" aria-label="Poraštės navigacija"><a href="/produktai">Produktai</a><a href="/gidai">Gidai</a><a href="/apie-projekta">Apie mus</a><a href="/kontaktai">Kontaktai</a></nav><address className="footer-contacts"><a href={`mailto:${contact.email}`} data-interest="email_click">{contact.email}</a>{contact.phone && <a href={`tel:${contact.phone.replace(/\s/g, '')}`} data-interest="phone_click">{contact.phone.replace(/^(\+370)(\d{3})(\d+)$/, '$1 $2 $3')}</a>}</address></div>
-        <div className="footer-bottom"><small>© 2026 Promedical.</small><div className="footer-legal"><a href="/privatumas">Privatumas</a><a href="/naudojimo-salygos">Naudojimo sąlygos</a></div></div>
-      </footer>
+      <FooterContent pkg={pkg}/>
     </div>
   </div></div>;
 }
