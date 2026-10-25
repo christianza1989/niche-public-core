@@ -12635,8 +12635,8 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-vieta-dokumentams/aukstas-105-108-cm",
-      "title": "Aukšti BASIC linijos STANDARD vežimėliai dokumentams",
-      "description": "Aukšti BASIC linijos STANDARD vežimėliai dokumentams (105 ir 108 cm): palyginkite versijas su XL stalčiais, rakinama ABS žaliuze ar durelėmis bei S, M, L komplektacijomis.",
+      "title": "Aukšti BASIC vežimėliai dokumentams",
+      "description": "Aukšti BASIC linijos STANDARD vežimėliai dokumentams (105 ir 108 cm): palyginkite versijas su XL stalčiais, rakinamomis ABS ritininėmis durelėmis ar durelėmis bei S, M, L komplektacijomis.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105/108 cm)",
       "body": [
         {
@@ -12734,12 +12734,12 @@
         }
       ],
       "id": "370c48f8-ad40-45c0-8664-f338449b77bf",
-      "revisionHash": "9c56af36c65838c66abe16829eb93e6735c0c28cdeb27f5cd18ecc022f6e899a",
+      "revisionHash": "0623a29b4b87cfd53dba10e152df015a91a374b8381ff7f3f97c1c18fae0a3fd",
       "approval": {
         "status": "approved",
-        "revisionHash": "9c56af36c65838c66abe16829eb93e6735c0c28cdeb27f5cd18ecc022f6e899a",
-        "approvedAt": "2026-10-24T19:54:32.226Z",
-        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
+        "revisionHash": "0623a29b4b87cfd53dba10e152df015a91a374b8381ff7f3f97c1c18fae0a3fd",
+        "approvedAt": "2026-10-25T05:13:34.413Z",
+        "actorId": "ROKO SPRENDIMAS616; Claude622 GERAI158/165; Codex execution"
       }
     },
     {
@@ -12838,7 +12838,7 @@
       "siteId": "promedical",
       "type": "faq",
       "slug": "kategorijos/moduliniai-vezimeliai/metal-line-basic/standard/vezimeliai-su-lentynomis/aukstas-105-cm",
-      "title": "Aukšti vežimėliai su lentynomis BASIC",
+      "title": "Aukšti BASIC vežimėliai su lentynomis",
       "description": "105 cm aukščio BASIC STANDARD aukšti vežimėliai su lentynomis: palyginkite komplektacijas su 2–5 fiksuotomis lentynomis ir durelių tipais.",
       "intent": "Klaro produktų grupė: Aukšta versija (aukštis 105 cm)",
       "body": [
@@ -12932,12 +12932,12 @@
         }
       ],
       "id": "81f45da1-3595-4297-a5b8-3d9788dc6088",
-      "revisionHash": "626e69544d5c89014bdc3f80ad808373b0beb23aca8a852af3ab3a2b2d2e1ceb",
+      "revisionHash": "8e7708c48570f290f9cb278bb42be02692998305622802f347f09a93f75cc725",
       "approval": {
         "status": "approved",
-        "revisionHash": "626e69544d5c89014bdc3f80ad808373b0beb23aca8a852af3ab3a2b2d2e1ceb",
-        "approvedAt": "2026-10-24T19:54:29.047Z",
-        "actorId": "ROKO SPRENDIMAS607 2026-10-24 19:19; Claude613 accepted; executor Codex"
+        "revisionHash": "8e7708c48570f290f9cb278bb42be02692998305622802f347f09a93f75cc725",
+        "approvedAt": "2026-10-25T05:13:33.324Z",
+        "actorId": "ROKO SPRENDIMAS616; Claude622 GERAI158/165; Codex execution"
       }
     },
     {
@@ -56418,7 +56418,7 @@
       "type": "product",
       "slug": "produktai/nerudijanciojo-plieno-spinta-su-ritininemis-durelemis-cn-232-22-vb",
       "title": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VB",
-      "description": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VB. AISI 304 plienas, ABS roletinės durelės, 25 pozicijos MS krepšiams.",
+      "description": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VB. AISI 304 plienas, ABS ritininės durelės, 25 pozicijos MS krepšiams.",
       "intent": "Katalogo kodas: cn 232_22 VB | Klaro produktas 1727",
       "body": [
         {
@@ -56428,7 +56428,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Spintos konstrukcija pagaminta iš nerūdijančiojo plieno AISI 304. Gaminio matmenys: 790 x 600 x 1700 mm. Spinta uždaroma viena rakinama ABS ritinine žaliuze."
+          "text": "Spintos konstrukcija pagaminta iš nerūdijančiojo plieno AISI 304. Gaminio matmenys: 790 x 600 x 1700 mm. Spinta uždaroma vienomis rakinamomis ABS ritininėmis durelėmis."
         },
         {
           "type": "paragraph",
@@ -56449,7 +56449,7 @@
             "Modelio žymėjimas: CN 232_22 VB",
             "Matmenys: 790 x 600 x 1700 mm",
             "Konstrukcijos medžiaga: nerūdijantysis plienas AISI 304",
-            "Durys: 1 rakinama ABS ritininė žaliuzė",
+            "Durys: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinė įranga: plastikinės šoninės sienelės MS krepšiams (1 x 25 pozicijos)",
             "Komplektacija: MS krepšiai į komplektą neįeina, užsakomi atskirai",
             "Stūmimo rankenos: 2 nerūdijančiojo plieno stūmimo rankenos",
@@ -56636,12 +56636,12 @@
         }
       ],
       "id": "f25bdf02-bac5-4896-9af6-4e67df5b2dff",
-      "revisionHash": "2fcdf2f93ea949b170033a918c9efb54014db41171c5266deb40675410f6c087",
+      "revisionHash": "c6ac9c7cff87a5daa4179a1b89dfac0eb5f1834d94a260e47f2de300095c7ea3",
       "approval": {
         "status": "approved",
-        "revisionHash": "2fcdf2f93ea949b170033a918c9efb54014db41171c5266deb40675410f6c087",
-        "approvedAt": "2026-10-24T11:34:36.465Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "c6ac9c7cff87a5daa4179a1b89dfac0eb5f1834d94a260e47f2de300095c7ea3",
+        "approvedAt": "2026-10-25T04:06:31.882Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -56649,7 +56649,7 @@
       "type": "product",
       "slug": "produktai/nerudijanciojo-plieno-spinta-su-ritininemis-durelemis-cn-232-22-vc",
       "title": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VC",
-      "description": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VC, dviem rakinamomis ABS žaliuzėmis ir šoninėmis sienelėmis MS krepšiams.",
+      "description": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VC, dviem rakinamomis ABS ritininėmis durelėmis ir šoninėmis sienelėmis MS krepšiams.",
       "intent": "Katalogo kodas: Cn 232_22 VC | Klaro produktas 1729",
       "body": [
         {
@@ -56659,7 +56659,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VC yra AISI 304 nerūdijančiojo plieno konstrukcija, kurios matmenys yra 1050 x 800 x 1700 mm. Spintoje įrengtos dvi rakinamos ABS ritininės durelės (žaliuzės)."
+          "text": "Nerūdijančiojo plieno spinta su ritininėmis durelėmis CN 232_22 VC yra AISI 304 nerūdijančiojo plieno konstrukcija, kurios matmenys yra 1050 x 800 x 1700 mm. Spintoje įrengtos dvi rakinamos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -56681,7 +56681,7 @@
             "Katalogo kodas: CN 232_22 VC",
             "Matmenys: 1050 x 800 x 1700 mm",
             "Konstrukcijos medžiaga: nerūdijantysis plienas AISI 304",
-            "Durelės: 2 rakinamos ABS ritininės žaliuzės",
+            "Durelės: 2 rakinamos ABS ritininės durelės",
             "Krepšių kreipiančiosios: vidinės plastikinės šoninės sienelės, 2 x 25 padėtys",
             "Komplektacija: MS krepšiai į kainą neįeina, užsakomi atskirai",
             "Stūmimo rankenos: 2 nerūdijančiojo plieno rankenos",
@@ -56868,12 +56868,12 @@
         }
       ],
       "id": "7cde217d-56b6-4132-9abd-31ca218ea906",
-      "revisionHash": "2cbfbc49a1bedda878b3afae54f68af681d4d32a6d1f3a65e38598eab80cfdd2",
+      "revisionHash": "e9c79edfd0177979ec67d8fa81e6b6671b95175e25759192a69bbf239f0433e3",
       "approval": {
         "status": "approved",
-        "revisionHash": "2cbfbc49a1bedda878b3afae54f68af681d4d32a6d1f3a65e38598eab80cfdd2",
-        "approvedAt": "2026-10-21T17:14:14.567Z",
-        "actorId": "Rokas-direct-gallery-publication-20261021"
+        "revisionHash": "e9c79edfd0177979ec67d8fa81e6b6671b95175e25759192a69bbf239f0433e3",
+        "approvedAt": "2026-10-25T04:06:33.384Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -118250,7 +118250,7 @@
       "type": "product",
       "slug": "produktai/nestandartinis-daugiafunkcis-vezimelis-mini-atypk254",
       "title": "Nestandartinis daugiafunkcis vežimėlis MINI – CN 196/18 VA",
-      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK254. Rakinama ABS žaliuzė, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
+      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK254. Rakinamos ABS ritininės durelės, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
       "intent": "Katalogo kodas: ATYPK254 | Klaro produktas 1388",
       "body": [
         {
@@ -118264,7 +118264,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuota rakinama ABS plastiko žaliuzė. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu. Bendra leistina vežimėlio apkrova yra 150 kg."
+          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuotos rakinamos ABS plastiko ritininės durelės. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu. Bendra leistina vežimėlio apkrova yra 150 kg."
         },
         {
           "type": "paragraph",
@@ -118283,7 +118283,7 @@
             "Korpuso medžiaga: dažytas plienas",
             "Stalčiai: 2 vnt. M dydžio (12 cm) ir 1 vnt. L dydžio (20 cm), leistina apkrova 10 kg vienam stalčiui",
             "Stalčių užrakinimas: centrinis užraktas",
-            "Žaliuzė: rakinama ABS žaliuzė",
+            "Durelės: rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotų lentynų (leistina apkrova 30 kg vienai lentynai)",
             "Darbastalis: darbastalis su borteliu",
             "Atlenkiamas staliukas: atlenkiamas staliukas su borteliu",
@@ -118393,12 +118393,12 @@
         }
       ],
       "id": "21b77ae9-8541-46c6-af79-55a7fc78e4a7",
-      "revisionHash": "8a6132c0217668e4855efd6f8c7b4d850d5096b59626a58bce057b19ca2e4ef4",
+      "revisionHash": "840c288d55f0180035145f6dbaa2a0ec823fdd4ed056d96a9eb4730913b1ab63",
       "approval": {
         "status": "approved",
-        "revisionHash": "8a6132c0217668e4855efd6f8c7b4d850d5096b59626a58bce057b19ca2e4ef4",
-        "approvedAt": "2026-10-24T11:37:00.871Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "840c288d55f0180035145f6dbaa2a0ec823fdd4ed056d96a9eb4730913b1ab63",
+        "approvedAt": "2026-10-25T04:06:35.076Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -118406,7 +118406,7 @@
       "type": "product",
       "slug": "produktai/nestandartinis-daugiafunkcis-vezimelis-mini-atypk252",
       "title": "Nestandartinis daugiafunkcis vežimėlis MINI – CN 154/18 VC",
-      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK252. Rakinama ABS žaliuzė, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
+      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK252. Rakinamos ABS ritininės durelės, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
       "intent": "Katalogo kodas: ATYPK252 | Klaro produktas 1387",
       "body": [
         {
@@ -118420,7 +118420,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuota rakinama ABS plastiko žaliuzė. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), darbastalio paviršius turi smulkų įspaudą ir apsauginius kampus; taip pat yra atlenkiamas staliukas su įspaudu. Bendra leistina vežimėlio apkrova yra 150 kg."
+          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuotos rakinamos ABS plastiko ritininės durelės. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), darbastalio paviršius turi smulkų įspaudą ir apsauginius kampus; taip pat yra atlenkiamas staliukas su įspaudu. Bendra leistina vežimėlio apkrova yra 150 kg."
         },
         {
           "type": "paragraph",
@@ -118439,7 +118439,7 @@
             "Korpuso medžiaga: dažytas plienas",
             "Stalčiai: 2 vnt. M dydžio (12 cm) ir 1 vnt. L dydžio (20 cm), leistina apkrova 10 kg vienam stalčiui",
             "Stalčių užrakinimas: centrinis užraktas",
-            "Žaliuzė: rakinama ABS žaliuzė",
+            "Durelės: rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotų lentynų (leistina apkrova 30 kg vienai lentynai)",
             "Darbastalis: smulkus įspaudas ir apsauginiai kampai",
             "Atlenkiamas staliukas: atlenkiamas staliukas su įspaudu",
@@ -118519,12 +118519,12 @@
         }
       ],
       "id": "50e7597c-f5d3-4c22-8086-ecf4a9b90461",
-      "revisionHash": "b5131d89ddce7f6cacafedfb14f66c71f7d6bda8abd03729b1af13e346685386",
+      "revisionHash": "4383ef4a0b987e02c189017af62383b1b29a899dd3eea852086de077b3165dc5",
       "approval": {
         "status": "approved",
-        "revisionHash": "b5131d89ddce7f6cacafedfb14f66c71f7d6bda8abd03729b1af13e346685386",
-        "approvedAt": "2026-10-24T11:37:02.577Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "4383ef4a0b987e02c189017af62383b1b29a899dd3eea852086de077b3165dc5",
+        "approvedAt": "2026-10-25T04:06:36.542Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -118532,7 +118532,7 @@
       "type": "product",
       "slug": "produktai/nestandartinis-daugiafunkcis-vezimelis-mini-atypk255",
       "title": "Nestandartinis daugiafunkcis vežimėlis MINI – CN 196/18 VB",
-      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK255. Rakinama ABS žaliuzė, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
+      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK255. Rakinamos ABS ritininės durelės, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
       "intent": "Katalogo kodas: ATYPK255 | Klaro produktas 1389",
       "body": [
         {
@@ -118546,7 +118546,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuota rakinama ABS plastiko žaliuzė. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu ir vienas vielinis krepšys. Bendra leistina vežimėlio apkrova yra 150 kg."
+          "text": "Gaminyje įrengti du M dydžio stalčiai (aukštis 12 cm) ir vienas L dydžio stalčius (aukštis 20 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuotos rakinamos ABS plastiko ritininės durelės. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu ir vienas vielinis krepšys. Bendra leistina vežimėlio apkrova yra 150 kg."
         },
         {
           "type": "paragraph",
@@ -118565,7 +118565,7 @@
             "Korpuso medžiaga: dažytas plienas",
             "Stalčiai: 2 vnt. M dydžio (12 cm) ir 1 vnt. L dydžio (20 cm), leistina apkrova 10 kg vienam stalčiui",
             "Stalčių užrakinimas: centrinis užraktas",
-            "Žaliuzė: rakinama ABS žaliuzė",
+            "Durelės: rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotų lentynų (leistina apkrova 30 kg vienai lentynai)",
             "Darbastalis: darbastalis su borteliu",
             "Atlenkiamas staliukas: atlenkiamas staliukas su borteliu",
@@ -118646,12 +118646,12 @@
         }
       ],
       "id": "3afb4d9c-878c-4bbb-8ede-29eb4c320794",
-      "revisionHash": "f0d8974bc4e312ea8f01d10623bd550e15d5fbef877351e3ee8f5476ede74138",
+      "revisionHash": "27275b2af970b30cbb1be6ad7205e1b9e0e376d447a20b28b5168ca92ab30b01",
       "approval": {
         "status": "approved",
-        "revisionHash": "f0d8974bc4e312ea8f01d10623bd550e15d5fbef877351e3ee8f5476ede74138",
-        "approvedAt": "2026-10-24T11:37:04.112Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "27275b2af970b30cbb1be6ad7205e1b9e0e376d447a20b28b5168ca92ab30b01",
+        "approvedAt": "2026-10-25T04:06:38.040Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -118783,7 +118783,7 @@
       "type": "product",
       "slug": "produktai/nestandartinis-daugiafunkcis-vezimelis-mini-atypk256",
       "title": "Nestandartinis daugiafunkcis vežimėlis MINI – CN 196/18 VC",
-      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK256. Rakinama ABS žaliuzė, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
+      "description": "Nestandartinis daugiafunkcis vežimėlis MINI ATYPK256. Rakinamos ABS ritininės durelės, stalčiai, 2 fiksuotos lentynos, 150 kg bendra apkrova.",
       "intent": "Katalogo kodas: ATYPK256 | Klaro produktas 1390",
       "body": [
         {
@@ -118797,7 +118797,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gaminyje įrengti vienas M dydžio stalčius (aukštis 12 cm), vienas L dydžio stalčius (aukštis 20 cm) ir vienas XL dydžio stalčius (aukštis 36 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuota rakinama ABS plastiko žaliuzė. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu. Bendra leistina vežimėlio apkrova yra 150 kg."
+          "text": "Gaminyje įrengti vienas M dydžio stalčius (aukštis 12 cm), vienas L dydžio stalčius (aukštis 20 cm) ir vienas XL dydžio stalčius (aukštis 36 cm), kurių vieno leistina apkrova siekia 10 kg. Stalčiai turi centrinį užraktą. Sumontuotos rakinamos ABS plastiko ritininės durelės. Konstrukcijoje taip pat yra dvi fiksuotos lentynos (vienos leistina apkrova – 30 kg), viršutinis darbastalis turi apsauginį bortelį; taip pat yra atlenkiamas staliukas su borteliu. Bendra leistina vežimėlio apkrova yra 150 kg."
         },
         {
           "type": "paragraph",
@@ -118816,7 +118816,7 @@
             "Korpuso medžiaga: dažytas plienas",
             "Stalčiai: 1 vnt. M dydžio (12 cm), 1 vnt. L dydžio (20 cm) ir 1 vnt. XL dydžio (36 cm), leistina apkrova 10 kg vienam stalčiui",
             "Stalčių užrakinimas: centrinis užraktas",
-            "Žaliuzė: rakinama ABS žaliuzė",
+            "Durelės: rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotų lentynų (leistina apkrova 30 kg vienai lentynai)",
             "Darbastalis: darbastalis su borteliu",
             "Atlenkiamas staliukas: atlenkiamas staliukas su borteliu",
@@ -118926,12 +118926,12 @@
         }
       ],
       "id": "7fb8b6e0-a9f4-4557-a331-7e67e8cef2dc",
-      "revisionHash": "b98d2dc8d121a68c123c6aecf591ead8abca856aefb6aad9593b23edbef7f523",
+      "revisionHash": "47bcb16d1488a840e58baeeda10c0f458ecbe552d131baf6bed8d353a325575a",
       "approval": {
         "status": "approved",
-        "revisionHash": "b98d2dc8d121a68c123c6aecf591ead8abca856aefb6aad9593b23edbef7f523",
-        "approvedAt": "2026-10-24T11:37:05.315Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "47bcb16d1488a840e58baeeda10c0f458ecbe552d131baf6bed8d353a325575a",
+        "approvedAt": "2026-10-25T04:06:39.554Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -141507,7 +141507,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1272n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1272N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1272N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1272N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1272N-PZ | Klaro produktas 384",
       "body": [
         {
@@ -141521,7 +141521,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra du S dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 9 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra du S dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 9 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -141569,7 +141569,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -141865,12 +141865,12 @@
         }
       ],
       "id": "374e9346-40ca-43b1-b6ae-99c1d3b6c1cc",
-      "revisionHash": "080207376037acb995f64e4a21b4a6f72f94d0e9a3288fbf165b5981b9bc0f00",
+      "revisionHash": "39384bb4e0de31554b58df9697ff947da4eb4b82d0c3d3fb5c5db2b38b289a14",
       "approval": {
         "status": "approved",
-        "revisionHash": "080207376037acb995f64e4a21b4a6f72f94d0e9a3288fbf165b5981b9bc0f00",
-        "approvedAt": "2026-10-24T11:37:11.143Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "39384bb4e0de31554b58df9697ff947da4eb4b82d0c3d3fb5c5db2b38b289a14",
+        "approvedAt": "2026-10-25T04:06:41.089Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -249521,7 +249521,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1211n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1211N/PZ su ritininėmis durelėmis – žema versija",
-      "description": "Žemas vežimėlis ZV1211N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Žemas vežimėlis ZV1211N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1211N-PZ | Klaro produktas 376",
       "body": [
         {
@@ -249535,7 +249535,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -249583,7 +249583,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -250020,12 +250020,12 @@
         }
       ],
       "id": "c4d0a43f-a99e-4892-b10e-e3bc7f7d667e",
-      "revisionHash": "e2a75342a828f79249c79c62021e546719e05ee6a34594049caa041fe21c55ac",
+      "revisionHash": "feba823ff5f21621b1f45723e9fc736b9f7c79301146f42b3155097d7367d6e0",
       "approval": {
         "status": "approved",
-        "revisionHash": "e2a75342a828f79249c79c62021e546719e05ee6a34594049caa041fe21c55ac",
-        "approvedAt": "2026-10-24T11:39:18.770Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "feba823ff5f21621b1f45723e9fc736b9f7c79301146f42b3155097d7367d6e0",
+        "approvedAt": "2026-10-25T04:06:42.547Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -250033,7 +250033,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-su-ritininemis-durelemis-zv1212n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1212N su ritininėmis durelėmis – žema versija",
-      "description": "Žemas vežimėlis ZV1212N su rakinamomis ABS roletinėmis durelėmis ir 9 pozicijomis MS krepšiams. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Žemas vežimėlis ZV1212N su rakinamomis ABS ritininėmis durelėmis ir 9 pozicijomis MS krepšiams. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1212N | Klaro produktas 377",
       "body": [
         {
@@ -250047,7 +250047,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės ir vidinės šoninės sienelės su devyniomis pozicijomis moduliniams MS krepšiams. Moduliniai krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės ir vidinės šoninės sienelės su devyniomis pozicijomis moduliniams MS krepšiams. Moduliniai krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
         },
         {
           "type": "paragraph",
@@ -250087,7 +250087,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -250308,12 +250308,12 @@
         }
       ],
       "id": "4a48b74d-4c4c-4e7a-8a2b-c70f9f60bf1c",
-      "revisionHash": "eb40b30cf750d44a54c168b5594150bbf89f017b2589b9fcf1747dad2c5c7579",
+      "revisionHash": "febeaf25c77483efef2ad49281eb6b494e79346baa30eb2b18ef2fcd600b260f",
       "approval": {
         "status": "approved",
-        "revisionHash": "eb40b30cf750d44a54c168b5594150bbf89f017b2589b9fcf1747dad2c5c7579",
-        "approvedAt": "2026-10-24T11:40:01.949Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "febeaf25c77483efef2ad49281eb6b494e79346baa30eb2b18ef2fcd600b260f",
+        "approvedAt": "2026-10-25T04:06:43.768Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -250321,7 +250321,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1213n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1213N/PZ su ritininėmis durelėmis – žema versija",
-      "description": "Žemas vežimėlis ZV1213N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Žemas vežimėlis ZV1213N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1213N-PZ | Klaro produktas 378",
       "body": [
         {
@@ -250335,7 +250335,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra vienas L dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 5 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra vienas L dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 5 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -250383,7 +250383,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 5 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -250760,12 +250760,12 @@
         }
       ],
       "id": "4ff5b83f-59fb-4719-9f92-1c8ab0b890e8",
-      "revisionHash": "b527627fcd6af9c2d5815de793646003616b6f892fe954f30308bc4839147514",
+      "revisionHash": "bc840deb4f352983b04c9db58c0a47097cb62b70a87588e4c4866ecb880d5b7e",
       "approval": {
         "status": "approved",
-        "revisionHash": "b527627fcd6af9c2d5815de793646003616b6f892fe954f30308bc4839147514",
-        "approvedAt": "2026-10-24T11:40:03.143Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "bc840deb4f352983b04c9db58c0a47097cb62b70a87588e4c4866ecb880d5b7e",
+        "approvedAt": "2026-10-25T04:06:44.940Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -250773,7 +250773,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1214n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1214N/PZ su ritininėmis durelėmis – žema versija",
-      "description": "Žemas vežimėlis ZV1214N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Žemas vežimėlis ZV1214N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1214N-PZ | Klaro produktas 379",
       "body": [
         {
@@ -250787,7 +250787,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra vienas S dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 8 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra vienas S dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 8 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -250835,7 +250835,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 8 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -251212,12 +251212,12 @@
         }
       ],
       "id": "220d3b8b-26e4-4731-adcc-d4ebd33adb49",
-      "revisionHash": "0f76e722dc15d3616a5b42802b52a352a1de74d16599498ae627791a0bfca8ec",
+      "revisionHash": "45079f654c0bb5ddf063074b00fed96e2e52aa503657efa9da614b8e427c2449",
       "approval": {
         "status": "approved",
-        "revisionHash": "0f76e722dc15d3616a5b42802b52a352a1de74d16599498ae627791a0bfca8ec",
-        "approvedAt": "2026-10-24T11:40:04.944Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "45079f654c0bb5ddf063074b00fed96e2e52aa503657efa9da614b8e427c2449",
+        "approvedAt": "2026-10-25T04:06:46.396Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -251225,7 +251225,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1215n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1215N/PZ su ritininėmis durelėmis – žema versija",
-      "description": "Žemas vežimėlis ZV1215N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Žemas vežimėlis ZV1215N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1215N-PZ | Klaro produktas 380",
       "body": [
         {
@@ -251239,7 +251239,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra du S dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra du S dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -251287,7 +251287,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -251664,12 +251664,12 @@
         }
       ],
       "id": "985aeacb-aeb3-456c-932b-ca0fb9126698",
-      "revisionHash": "8e4db4793019e31a29ff3d4e225ba0bca62c7a9c066cb86bc1bed9921906d998",
+      "revisionHash": "eaf621402bdbb32a0b4922fd1b3fc78265199b8be339e05522d0a0efc5e4dd10",
       "approval": {
         "status": "approved",
-        "revisionHash": "8e4db4793019e31a29ff3d4e225ba0bca62c7a9c066cb86bc1bed9921906d998",
-        "approvedAt": "2026-10-24T11:40:06.337Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "eaf621402bdbb32a0b4922fd1b3fc78265199b8be339e05522d0a0efc5e4dd10",
+        "approvedAt": "2026-10-25T04:06:47.975Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -261641,7 +261641,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1267n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1267N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1267N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1267N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1267N-PZ | Klaro produktas 381",
       "body": [
         {
@@ -261655,7 +261655,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 9 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 9 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -261703,7 +261703,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -262080,12 +262080,12 @@
         }
       ],
       "id": "7d0d1e18-0cd0-4f46-a449-f07722521bd1",
-      "revisionHash": "8e69b369ec58fad3258de871ae4d8b4ef33e4f6d33fc40e581c33c90d5f02c82",
+      "revisionHash": "3178806ea5bb80265b7ec2747756d7a9d6be8add5f5bfb0d33267f08a3394b24",
       "approval": {
         "status": "approved",
-        "revisionHash": "8e69b369ec58fad3258de871ae4d8b4ef33e4f6d33fc40e581c33c90d5f02c82",
-        "approvedAt": "2026-10-24T11:40:09.298Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "3178806ea5bb80265b7ec2747756d7a9d6be8add5f5bfb0d33267f08a3394b24",
+        "approvedAt": "2026-10-25T04:06:49.344Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -262093,7 +262093,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1269n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1269N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1269N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1269N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1269N-PZ | Klaro produktas 382",
       "body": [
         {
@@ -262107,7 +262107,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje derinami skirtingo dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 8 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje derinami skirtingo dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 8 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -262155,7 +262155,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 8 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -262542,12 +262542,12 @@
         }
       ],
       "id": "81a0aa82-423d-47d3-a55f-1f17d34c1975",
-      "revisionHash": "2b5da9761869d0e5ad295ddbd263d36a689b73bcc9ec067f07d8d75d0a598a07",
+      "revisionHash": "fb74d44eeb4c50ae904d29e2254dba98dc74d3de7089f6c2444039fb01ad48b3",
       "approval": {
         "status": "approved",
-        "revisionHash": "2b5da9761869d0e5ad295ddbd263d36a689b73bcc9ec067f07d8d75d0a598a07",
-        "approvedAt": "2026-10-24T11:40:10.565Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "fb74d44eeb4c50ae904d29e2254dba98dc74d3de7089f6c2444039fb01ad48b3",
+        "approvedAt": "2026-10-25T04:06:51.974Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -262555,7 +262555,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-su-ritininemis-durelemis-zv1273n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1273N su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1273N su rakinamomis ABS roletinėmis durelėmis ir 12 pozicijų MS krepšiams. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1273N su rakinamomis ABS ritininėmis durelėmis ir 12 pozicijų MS krepšiams. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1273N | Klaro produktas 385",
       "body": [
         {
@@ -262569,7 +262569,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės ir vidinės šoninės sienelės su dvylika pozicijų moduliniams MS krepšiams. Moduliniai krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės ir vidinės šoninės sienelės su dvylika pozicijų moduliniams MS krepšiams. Moduliniai krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
         },
         {
           "type": "paragraph",
@@ -262605,7 +262605,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 12 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -262826,12 +262826,12 @@
         }
       ],
       "id": "b27d8016-f5ac-4fd2-95db-b94fb056d985",
-      "revisionHash": "320c060964c7acc15de4a754f5ab1bd9ad9857a7874428e85bc0ded879ab0ab0",
+      "revisionHash": "21834cbbb4dd4556d99ef99876817be66669d97b74e527cc8d25c54bc820ad8a",
       "approval": {
         "status": "approved",
-        "revisionHash": "320c060964c7acc15de4a754f5ab1bd9ad9857a7874428e85bc0ded879ab0ab0",
-        "approvedAt": "2026-10-24T11:40:11.723Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "21834cbbb4dd4556d99ef99876817be66669d97b74e527cc8d25c54bc820ad8a",
+        "approvedAt": "2026-10-25T04:06:53.143Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -262839,7 +262839,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1271n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1271N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1271N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1271N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1271N-PZ | Klaro produktas 383",
       "body": [
         {
@@ -262853,7 +262853,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra du M dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS roletinės durelės."
+          "text": "Vežimėlio komplektacijoje yra du M dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Korpuso viduje įrengtos šoninės sienelės su 6 pozicijomis moduliniams MS krepšiams (krepšiai į komplektaciją neįeina). Rakinimui skirtos ABS ritininės durelės."
         },
         {
           "type": "paragraph",
@@ -262901,7 +262901,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -263278,12 +263278,12 @@
         }
       ],
       "id": "b70aa543-b4a0-4bd9-bf20-e2ee226503d0",
-      "revisionHash": "2e37cd45b6818e9e89479dd20e44f7d3933008064db4972a6afdcd56fc0e67c2",
+      "revisionHash": "119b16929bb5dcf9966268eea436ae9f296a0df4fa375250be09558df5c49953",
       "approval": {
         "status": "approved",
-        "revisionHash": "2e37cd45b6818e9e89479dd20e44f7d3933008064db4972a6afdcd56fc0e67c2",
-        "approvedAt": "2026-10-24T11:40:13.399Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "119b16929bb5dcf9966268eea436ae9f296a0df4fa375250be09558df5c49953",
+        "approvedAt": "2026-10-25T04:06:54.399Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -263291,7 +263291,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1280n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1280N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1280N-PZ su ABS roletinėmis durelėmis, lentyna ir organizatoriumi dokumentams. Nerūdijančio plieno stalviršis, 150 kg leistina apkrova.",
+      "description": "Aukštas vežimėlis ZV1280N-PZ su ABS ritininėmis durelėmis, lentyna ir organizatoriumi dokumentams. Nerūdijančio plieno stalviršis, 150 kg leistina apkrova.",
       "intent": "Katalogo kodas: ZV1280N-PZ | Klaro produktas 605",
       "body": [
         {
@@ -263305,7 +263305,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Konstrukcijoje integruotos rakinamos ABS roletinės durelės. Taip pat integruotas organizatorius 10 dokumentų bylų."
+          "text": "Vežimėlio komplektacijoje yra vienas M dydžio stalčius su teleskopiniais bėgeliais ir centriniu užraktu. Konstrukcijoje integruotos rakinamos ABS ritininės durelės. Taip pat integruotas organizatorius 10 dokumentų bylų."
         },
         {
           "type": "paragraph",
@@ -263354,7 +263354,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentyna: 1 stacionari lentyna su organizatoriumi 10 dokumentų bylų"
           ]
         },
@@ -263590,12 +263590,12 @@
         }
       ],
       "id": "3a399c44-1d58-4718-97f7-685b98ed39cd",
-      "revisionHash": "32e96f7db42916d1f7a859aa46e01238fd9ab73122d122c18002f2c0e2a689a0",
+      "revisionHash": "5ddcb4145b456e4b13d39679ae4cd840112c13004642258faf876edfae3e1847",
       "approval": {
         "status": "approved",
-        "revisionHash": "32e96f7db42916d1f7a859aa46e01238fd9ab73122d122c18002f2c0e2a689a0",
-        "approvedAt": "2026-10-24T11:40:14.589Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "5ddcb4145b456e4b13d39679ae4cd840112c13004642258faf876edfae3e1847",
+        "approvedAt": "2026-10-25T04:06:55.600Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -264017,7 +264017,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-pz-su-ritininemis-durelemis-zv1281n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1281N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1281N-PZ su ABS roletinėmis durelėmis ir organizatoriumi 10 bylų. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1281N-PZ su ABS ritininėmis durelėmis ir organizatoriumi 10 bylų. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1281N-PZ | Klaro produktas 1021",
       "body": [
         {
@@ -264031,7 +264031,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio komplektacijoje yra du M dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Konstrukcijoje integruotos rakinamos ABS roletinės durelės. Taip pat integruotas organizatorius 10 dokumentų bylų."
+          "text": "Vežimėlio komplektacijoje yra du M dydžio stalčiai su teleskopiniais bėgeliais ir centriniu užraktu. Konstrukcijoje integruotos rakinamos ABS ritininės durelės. Taip pat integruotas organizatorius 10 dokumentų bylų."
         },
         {
           "type": "paragraph",
@@ -264079,7 +264079,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Dokumentų organizatorius: organizatorius 10 dokumentų bylų"
           ]
         },
@@ -264315,12 +264315,12 @@
         }
       ],
       "id": "236f59eb-56cb-44b8-a123-930b783d06d1",
-      "revisionHash": "1686afd4454fece66148f3e88de3eb28806862edefc09505a75e956752faf4c6",
+      "revisionHash": "2f2f72ec16dafb1a656dd166f41ad1880f889e1764202f04f09439932a269ccf",
       "approval": {
         "status": "approved",
-        "revisionHash": "1686afd4454fece66148f3e88de3eb28806862edefc09505a75e956752faf4c6",
-        "approvedAt": "2026-10-24T11:40:15.769Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "2f2f72ec16dafb1a656dd166f41ad1880f889e1764202f04f09439932a269ccf",
+        "approvedAt": "2026-10-25T04:06:56.902Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -264742,7 +264742,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-su-ritininemis-durelemis-zv1290n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC ZV1290N su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1290N su rakinamomis ABS roletinėmis durelėmis ir 2 stacionariomis lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1290N su rakinamomis ABS ritininėmis durelėmis ir 2 stacionariomis lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1290N | Klaro produktas 1154",
       "body": [
         {
@@ -264756,7 +264756,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės ir dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg)."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės ir dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg)."
         },
         {
           "type": "paragraph",
@@ -264797,7 +264797,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 stacionarios lentynos"
           ]
         },
@@ -265018,12 +265018,12 @@
         }
       ],
       "id": "c0e2acdd-2a9d-48eb-8f82-448ee6492175",
-      "revisionHash": "43158cb752cfbef32cbae47700eb6c53d3f90edd30a5e2c859877a136246068d",
+      "revisionHash": "72ac53bef884cf77bc5992ee73381df19fc2e441848de89508d9808e98f2270d",
       "approval": {
         "status": "approved",
-        "revisionHash": "43158cb752cfbef32cbae47700eb6c53d3f90edd30a5e2c859877a136246068d",
-        "approvedAt": "2026-10-24T11:40:17.178Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "72ac53bef884cf77bc5992ee73381df19fc2e441848de89508d9808e98f2270d",
+        "approvedAt": "2026-10-25T04:06:58.970Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -272408,7 +272408,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1311n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1311N-PZ – žema versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1311N-PZ su rakinamomis ABS roletinėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1311N-PZ su rakinamomis ABS ritininėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1311N-PZ | Klaro produktas 440",
       "body": [
         {
@@ -272422,7 +272422,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -272473,7 +272473,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -272971,12 +272971,12 @@
         }
       ],
       "id": "5d83756c-f628-4e0f-bd31-06a535512308",
-      "revisionHash": "631d4b8d24f0fd29d6af5b41e4140f41d8f24de7d792255089be8c19cc02ef83",
+      "revisionHash": "732afa6a87b0521ac2434ab6dd3d381e2bc242366b8f1b02174c781420f9c99a",
       "approval": {
         "status": "approved",
-        "revisionHash": "631d4b8d24f0fd29d6af5b41e4140f41d8f24de7d792255089be8c19cc02ef83",
-        "approvedAt": "2026-10-24T11:40:18.259Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "732afa6a87b0521ac2434ab6dd3d381e2bc242366b8f1b02174c781420f9c99a",
+        "approvedAt": "2026-10-25T04:07:00.604Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -273466,12 +273466,12 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-su-ritininemis-durelemis-zv1312n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1312N – žema versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1312N (83x57x89 cm) su rakinamomis ABS roletinėmis durelėmis ir 9 MS pozicijomis. Bendra leistina apkrova 150 kg.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1312N (83x57x89 cm) su rakinamomis ABS ritininėmis durelėmis ir 9 MS pozicijomis. Bendra leistina apkrova 150 kg.",
       "intent": "Katalogo kodas: ZV1312N | Klaro produktas 441",
       "body": [
         {
           "type": "paragraph",
-          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1312N yra žemos 89 cm konstrukcijos nerūdijančio plieno vežimėlis su rakinama ABS ritinine žaliuze. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
+          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1312N yra žemos 89 cm konstrukcijos nerūdijančio plieno vežimėlis su rakinamomis ABS ritininėmis durelėmis. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
         },
         {
           "type": "heading",
@@ -273480,7 +273480,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis turi 1 rakinamą ABS ritininę žaliuzę ir vidines šonines sieneles su 9 pozicijomis MS krepšiams. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
+          "text": "Vežimėlis turi 1 vnt. rakinamas ABS ritinines dureles ir vidines šonines sieneles su 9 pozicijomis MS krepšiams. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
         },
         {
           "type": "paragraph",
@@ -273515,7 +273515,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: plastikinė ergonominė stūmimo rankena"
           ]
@@ -273797,12 +273797,12 @@
         }
       ],
       "id": "92132545-4643-4814-9ceb-de3025e1f0cb",
-      "revisionHash": "44a58c4306f424a978f246b7362b73ceb40f2e5481f0265db722b3e6ca9740ee",
+      "revisionHash": "65bf128cccf56ade0cda42702e420d529c511727d0adec34cbaca99329093869",
       "approval": {
         "status": "approved",
-        "revisionHash": "44a58c4306f424a978f246b7362b73ceb40f2e5481f0265db722b3e6ca9740ee",
-        "approvedAt": "2026-10-24T11:40:20.663Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "65bf128cccf56ade0cda42702e420d529c511727d0adec34cbaca99329093869",
+        "approvedAt": "2026-10-25T04:07:01.795Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -273810,7 +273810,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1313n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1313N-PZ – žema versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1313N-PZ su rakinamomis ABS roletinėmis durelėmis, 5 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1313N-PZ su rakinamomis ABS ritininėmis durelėmis, 5 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1313N-PZ | Klaro produktas 442",
       "body": [
         {
@@ -273824,7 +273824,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -273875,7 +273875,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 5 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -274372,12 +274372,12 @@
         }
       ],
       "id": "4c9c5394-22d5-486e-aac8-2f90689b75e6",
-      "revisionHash": "3fadd13980aef8eebc05a405e0316b321f9d31903b332001f5afef11083a6296",
+      "revisionHash": "c391e909fb9048fc88fb13cc999468b37ac313328d1a0d8077c80db3cc9ca748",
       "approval": {
         "status": "approved",
-        "revisionHash": "3fadd13980aef8eebc05a405e0316b321f9d31903b332001f5afef11083a6296",
-        "approvedAt": "2026-10-24T11:40:21.940Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "c391e909fb9048fc88fb13cc999468b37ac313328d1a0d8077c80db3cc9ca748",
+        "approvedAt": "2026-10-25T04:07:03.025Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -274385,7 +274385,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1314n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1314N-PZ – žema versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1314N-PZ su rakinamomis ABS roletinėmis durelėmis, 8 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1314N-PZ su rakinamomis ABS ritininėmis durelėmis, 8 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1314N-PZ | Klaro produktas 443",
       "body": [
         {
@@ -274399,7 +274399,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -274450,7 +274450,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 8 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -274948,12 +274948,12 @@
         }
       ],
       "id": "7c524bba-a9d5-4ed9-ab3d-bdf59f2a9a1e",
-      "revisionHash": "3fa68998ac7fa38caeb0c17da802a7239ab86f0074e2519da501b2bf5f5e2adb",
+      "revisionHash": "a645742448317e0ae8e960726c7be84b881c610aa680999beff23516b21f1b32",
       "approval": {
         "status": "approved",
-        "revisionHash": "3fa68998ac7fa38caeb0c17da802a7239ab86f0074e2519da501b2bf5f5e2adb",
-        "approvedAt": "2026-10-24T11:40:23.058Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "a645742448317e0ae8e960726c7be84b881c610aa680999beff23516b21f1b32",
+        "approvedAt": "2026-10-25T04:07:04.389Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -274961,7 +274961,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1315n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1315N-PZ – žema versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1315N-PZ su rakinamomis ABS roletinėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1315N-PZ su rakinamomis ABS ritininėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1315N-PZ | Klaro produktas 444",
       "body": [
         {
@@ -274975,7 +274975,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -275026,7 +275026,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -275524,12 +275524,12 @@
         }
       ],
       "id": "8b71719a-d04e-4bc8-956d-4438637b2a8b",
-      "revisionHash": "5b3016590a817df23ab869cf64954e43d8db16b7ea27b1925c248dd4eaf3504d",
+      "revisionHash": "f703487bcf42180b9a11268901476a1b49c36fad5af80ac59ebec8f64bb4359a",
       "approval": {
         "status": "approved",
-        "revisionHash": "5b3016590a817df23ab869cf64954e43d8db16b7ea27b1925c248dd4eaf3504d",
-        "approvedAt": "2026-10-24T11:40:24.496Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "f703487bcf42180b9a11268901476a1b49c36fad5af80ac59ebec8f64bb4359a",
+        "approvedAt": "2026-10-25T04:07:06.069Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -285735,7 +285735,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1367n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI ZV1367N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1367N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1367N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1367N-PZ | Klaro produktas 445",
       "body": [
         {
@@ -285749,7 +285749,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės, vidinės šoninės sienelės su 9 pozicijomis moduliniams krepšiams ir stalčiai su teleskopiniais bėgeliais bei centriniu užraktu. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės, vidinės šoninės sienelės su 9 pozicijomis moduliniams krepšiams ir stalčiai su teleskopiniais bėgeliais bei centriniu užraktu. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina."
         },
         {
           "type": "paragraph",
@@ -285797,7 +285797,7 @@
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -286264,12 +286264,12 @@
         }
       ],
       "id": "108ad7c1-8c60-43e8-a310-c5222d2be378",
-      "revisionHash": "85569ac983fd2bab6b2291f2c7f87d366728fc539fc9b7523dd8307d5e8eb658",
+      "revisionHash": "495c95ca08b985c9f26ce3929fb3e74a29d61ed864b4d5299f67f5fe25153b76",
       "approval": {
         "status": "approved",
-        "revisionHash": "85569ac983fd2bab6b2291f2c7f87d366728fc539fc9b7523dd8307d5e8eb658",
-        "approvedAt": "2026-10-24T11:40:33.501Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "495c95ca08b985c9f26ce3929fb3e74a29d61ed864b4d5299f67f5fe25153b76",
+        "approvedAt": "2026-10-25T04:07:08.818Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -286277,7 +286277,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1369n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1369N-PZ – aukšta versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1369N-PZ su rakinamomis ABS roletinėmis durelėmis, 8 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1369N-PZ su rakinamomis ABS ritininėmis durelėmis, 8 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1369N-PZ | Klaro produktas 446",
       "body": [
         {
@@ -286291,7 +286291,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -286342,7 +286342,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 8 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -286820,12 +286820,12 @@
         }
       ],
       "id": "627b5975-31f1-41a1-86ba-1346b9909fcc",
-      "revisionHash": "0e37a7e1c7e2a7906f5ab9a85b62437c6606eee388a6a7ed1b673f27aa80fb56",
+      "revisionHash": "9c66bcaae5eec6a72fa70fc555961f5a0620e7423fe40dd3372acf68de24fa6b",
       "approval": {
         "status": "approved",
-        "revisionHash": "0e37a7e1c7e2a7906f5ab9a85b62437c6606eee388a6a7ed1b673f27aa80fb56",
-        "approvedAt": "2026-10-24T11:40:35.343Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "9c66bcaae5eec6a72fa70fc555961f5a0620e7423fe40dd3372acf68de24fa6b",
+        "approvedAt": "2026-10-25T04:07:11.731Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -286833,7 +286833,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1371n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1371N-PZ – aukšta versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1371N-PZ su rakinamomis ABS roletinėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1371N-PZ su rakinamomis ABS ritininėmis durelėmis, 6 MS pozicijomis ir stalčiais. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1371N-PZ | Klaro produktas 447",
       "body": [
         {
@@ -286847,7 +286847,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -286898,7 +286898,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 6 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -287365,12 +287365,12 @@
         }
       ],
       "id": "94135f66-2ad9-4c68-a2cd-0f2507911bdc",
-      "revisionHash": "bcf4d156e77b5dcc6dc0a80b3c229a6eddb7efd5ec73f9912a85131e5c409ed1",
+      "revisionHash": "f735cf559823aa91837d9cb7d7a21c3b088303ad44942986a732969aeb042fc1",
       "approval": {
         "status": "approved",
-        "revisionHash": "bcf4d156e77b5dcc6dc0a80b3c229a6eddb7efd5ec73f9912a85131e5c409ed1",
-        "approvedAt": "2026-10-24T11:40:36.864Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "f735cf559823aa91837d9cb7d7a21c3b088303ad44942986a732969aeb042fc1",
+        "approvedAt": "2026-10-25T04:07:13.992Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -287378,12 +287378,12 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-su-ritininemis-durelemis-zv1373n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1373N – aukšta versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1373N (83x57x105 cm) su rakinamomis ABS roletinėmis durelėmis ir 12 MS pozicijų. Bendra leistina apkrova 150 kg.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1373N (83x57x105 cm) su rakinamomis ABS ritininėmis durelėmis ir 12 MS pozicijų. Bendra leistina apkrova 150 kg.",
       "intent": "Katalogo kodas: ZV1373N | Klaro produktas 449",
       "body": [
         {
           "type": "paragraph",
-          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1373N yra aukštos 105 cm konstrukcijos nerūdijančio plieno vežimėlis su rakinama ABS ritinine žaliuze. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
+          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1373N yra aukštos 105 cm konstrukcijos nerūdijančio plieno vežimėlis su rakinamomis ABS ritininėmis durelėmis. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
         },
         {
           "type": "heading",
@@ -287392,7 +287392,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis turi 1 rakinamą ABS ritininę žaliuzę ir vidines šonines sieneles su 12 pozicijų MS krepšiams. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
+          "text": "Vežimėlis turi 1 vnt. rakinamas ABS ritinines dureles ir vidines šonines sieneles su 12 pozicijų MS krepšiams. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina ir užsakomi atskirai."
         },
         {
           "type": "paragraph",
@@ -287427,7 +287427,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 12 (MS krepšiai į vežimėlio komplektaciją neįeina)",
             "Stūmimo rankena: plastikinė stūmimo rankena"
           ]
@@ -287619,12 +287619,12 @@
         }
       ],
       "id": "aa47eaae-fea2-4fd5-8ce2-457333185336",
-      "revisionHash": "55352fe648ba562506400056168b08a3aa3c0c2e3fbc4e52d067dd47733f45f5",
+      "revisionHash": "56a29135ce20903086e9193ff59c7987cfcc7496deba1f8d05db5c9094af633f",
       "approval": {
         "status": "approved",
-        "revisionHash": "55352fe648ba562506400056168b08a3aa3c0c2e3fbc4e52d067dd47733f45f5",
-        "approvedAt": "2026-10-24T11:40:38.424Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "56a29135ce20903086e9193ff59c7987cfcc7496deba1f8d05db5c9094af633f",
+        "approvedAt": "2026-10-25T04:07:16.508Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -287632,7 +287632,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1372n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI ZV1372N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV1372N-PZ su rakinamomis ABS roletinėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV1372N-PZ su rakinamomis ABS ritininėmis durelėmis ir stalčiais. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1372N-PZ | Klaro produktas 448",
       "body": [
         {
@@ -287646,7 +287646,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės, vidinės šoninės sienelės su 9 pozicijomis moduliniams krepšiams ir stalčiai su teleskopiniais bėgeliais bei centriniu užraktu. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės, vidinės šoninės sienelės su 9 pozicijomis moduliniams krepšiams ir stalčiai su teleskopiniais bėgeliais bei centriniu užraktu. Moduliniai MS krepšiai į vežimėlio komplektaciją neįeina."
         },
         {
           "type": "paragraph",
@@ -287694,7 +287694,7 @@
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Vidinės šoninės sienelės: pritaikytos MS krepšiams, pozicijų skaičius – 9 (MS krepšiai į vežimėlio komplektaciją neįeina)"
           ]
         },
@@ -288161,12 +288161,12 @@
         }
       ],
       "id": "9f56b033-ad95-484e-a3de-9b88250e1450",
-      "revisionHash": "52c7c983753c7434756f338ff02297149dfd2a7654484e3c5ae999b6180f9b6a",
+      "revisionHash": "c99ec41383858d76b72cd3e1a40608226dba22c71a0f6f7713a579bb53b4d1d7",
       "approval": {
         "status": "approved",
-        "revisionHash": "52c7c983753c7434756f338ff02297149dfd2a7654484e3c5ae999b6180f9b6a",
-        "approvedAt": "2026-10-24T11:40:40.303Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "c99ec41383858d76b72cd3e1a40608226dba22c71a0f6f7713a579bb53b4d1d7",
+        "approvedAt": "2026-10-25T04:07:18.871Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -288494,7 +288494,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1380n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1380N-PZ – aukšta versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1380N-PZ su rakinamomis ABS roletinėmis durelėmis ir 10 aplankų organizatoriumi. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1380N-PZ su rakinamomis ABS ritininėmis durelėmis ir 10 aplankų organizatoriumi. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1380N-PZ | Klaro produktas 606",
       "body": [
         {
@@ -288508,7 +288508,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -288559,7 +288559,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Dokumentų organizatorius: 10 aplankų organizatorius",
             "Apatinė fiksuota lentyna: 1 vnt., leistina apkrova 30 kg",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
@@ -288968,12 +288968,12 @@
         }
       ],
       "id": "8f7c5ecf-f577-4ea1-a8c7-486f678f746d",
-      "revisionHash": "34f008145478d45cd3f77e162e144d184060d497c785fdfd9d2adf70f53a7d10",
+      "revisionHash": "886392c0ff9b5a7ff659df6819bc5c363484318eb95a4adbe4698bf4d7819aea",
       "approval": {
         "status": "approved",
-        "revisionHash": "34f008145478d45cd3f77e162e144d184060d497c785fdfd9d2adf70f53a7d10",
-        "approvedAt": "2026-10-24T11:40:41.836Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "886392c0ff9b5a7ff659df6819bc5c363484318eb95a4adbe4698bf4d7819aea",
+        "approvedAt": "2026-10-25T04:07:21.076Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -288981,7 +288981,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-pz-su-ritininemis-durelemis-zv1381n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI PZ su ritininėmis durelėmis ZV1381N-PZ – aukšta versija",
-      "description": "Nerūdijančio plieno vežimėlis ZV1381N-PZ su rakinamomis ABS roletinėmis durelėmis ir 10 aplankų organizatoriumi. 150 kg leistina vežimėlio apkrova.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1381N-PZ su rakinamomis ABS ritininėmis durelėmis ir 10 aplankų organizatoriumi. 150 kg leistina vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV1381N-PZ | Klaro produktas 1022",
       "body": [
         {
@@ -288995,7 +288995,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis komplektuojamas su rakinama ABS ritinine žaliuze ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
+          "text": "Vežimėlis komplektuojamas su rakinamomis ABS ritininėmis durelėmis ir dulkėms atspariais stalčiais su rutuliniais teleskopiniais bėgeliais bei centriniu užraktu."
         },
         {
           "type": "paragraph",
@@ -289046,7 +289046,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Dokumentų organizatorius: 10 aplankų organizatorius",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti"
           ]
@@ -289454,12 +289454,12 @@
         }
       ],
       "id": "0b6bc207-df43-4193-8cca-d19323e46adb",
-      "revisionHash": "838d82b00c57340aed3913c20a03ee64a29063ed58a03a34c38930fb9e6d00a0",
+      "revisionHash": "8ee0dae54e0d128109bacf0c68d7efce26accda678f557497d3540f2c5276807",
       "approval": {
         "status": "approved",
-        "revisionHash": "838d82b00c57340aed3913c20a03ee64a29063ed58a03a34c38930fb9e6d00a0",
-        "approvedAt": "2026-10-24T11:40:43.353Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "8ee0dae54e0d128109bacf0c68d7efce26accda678f557497d3540f2c5276807",
+        "approvedAt": "2026-10-25T04:07:23.113Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -289467,12 +289467,12 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-su-ritininemis-durelemis-zv1390n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1390N",
-      "description": "Nerūdijančio plieno vežimėlis ZV1390N (83x57 cm) su rakinamomis ABS roletinėmis durelėmis ir 2 fiksuotomis lentynomis (po 30 kg). Bendra leistina apkrova 150 kg.",
+      "description": "Nerūdijančio plieno vežimėlis ZV1390N (83x57 cm) su rakinamomis ABS ritininėmis durelėmis ir 2 fiksuotomis lentynomis (po 30 kg). Bendra leistina apkrova 150 kg.",
       "intent": "Katalogo kodas: ZV1390N | Klaro produktas 1156",
       "body": [
         {
           "type": "paragraph",
-          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1390N yra nerūdijančio plieno vežimėlis su rakinama ABS ritinine žaliuze ir fiksuotomis lentynomis. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
+          "text": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI su ritininėmis durelėmis ZV1390N yra nerūdijančio plieno vežimėlis su rakinamomis ABS ritininėmis durelėmis ir fiksuotomis lentynomis. Gaminys pritaikytas patogiam medicinos priemonių saugojimui gydymo įstaigose."
         },
         {
           "type": "heading",
@@ -289481,7 +289481,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlis turi 1 rakinamą ABS ritininę žaliuzę ir 2 fiksuotas lentynas, kurių kiekvienos leistina apkrova yra 30 kg."
+          "text": "Vežimėlis turi 1 vnt. rakinamas ABS ritinines dureles ir 2 fiksuotas lentynas, kurių kiekvienos leistina apkrova yra 30 kg."
         },
         {
           "type": "paragraph",
@@ -289517,7 +289517,7 @@
           "items": [
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, 1,2 cm įspaudas su apsauginiais kampais",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 fiksuotos lentynos",
             "Stūmimo rankena: plastikinė ergonominė stūmimo rankena"
           ]
@@ -289769,12 +289769,12 @@
         }
       ],
       "id": "46c548da-3e12-42bf-b0c4-57e24e098253",
-      "revisionHash": "7edb52429c44e3cc00ae6bc8ec91b3a14e625eb4d9c89e3875dcab9b610f50dd",
+      "revisionHash": "824f6c34f42ca08a407d08356245aee8be5b58f021098eb3fdb4398a607a6572",
       "approval": {
         "status": "approved",
-        "revisionHash": "7edb52429c44e3cc00ae6bc8ec91b3a14e625eb4d9c89e3875dcab9b610f50dd",
-        "approvedAt": "2026-10-24T11:40:44.663Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "824f6c34f42ca08a407d08356245aee8be5b58f021098eb3fdb4398a607a6572",
+        "approvedAt": "2026-10-25T04:07:26.090Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -347216,7 +347216,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-mini-pz-su-ritininemis-durelemis-zv3270n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC MINI ZV3270N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV3270N-PZ su rakinamomis ABS roletinėmis durelėmis, lentynomis ir 3/4 stalčiais. Nerūdijančio plieno stalviršis, 150 kg apkrova.",
+      "description": "Aukštas vežimėlis ZV3270N-PZ su rakinamomis ABS ritininėmis durelėmis, lentynomis ir 3/4 stalčiais. Nerūdijančio plieno stalviršis, 150 kg apkrova.",
       "intent": "Katalogo kodas: ZV3270N-PZ | Klaro produktas 1148",
       "body": [
         {
@@ -347230,7 +347230,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės, dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg) ir du 3/4 pločio stalčiai."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės, dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg) ir du 3/4 pločio stalčiai."
         },
         {
           "type": "paragraph",
@@ -347279,7 +347279,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, švelnus įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 stacionarios lentynos"
           ]
         },
@@ -347746,12 +347746,12 @@
         }
       ],
       "id": "86b95016-8161-4098-a104-69669045f62a",
-      "revisionHash": "1e025720d0b71b0c57427cf12a459cbbbf61d055fda7228f9a5a562cb2c91f5d",
+      "revisionHash": "bb0d479098f83ef2db79b2cb963732f858253bbfea8f858417c4fbc3b725cc68",
       "approval": {
         "status": "approved",
-        "revisionHash": "1e025720d0b71b0c57427cf12a459cbbbf61d055fda7228f9a5a562cb2c91f5d",
-        "approvedAt": "2026-10-24T11:40:46.662Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "bb0d479098f83ef2db79b2cb963732f858253bbfea8f858417c4fbc3b725cc68",
+        "approvedAt": "2026-10-25T04:07:27.524Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -347759,7 +347759,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-basic-mini-pz-su-ritininemis-durelemis-zv3271n-pz",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE BASIC MINI ZV3271N/PZ su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV3271N-PZ su rakinamomis ABS roletinėmis durelėmis, lentynomis ir 3/4 stalčiais. Nerūdijančio plieno stalviršis, 150 kg apkrova.",
+      "description": "Aukštas vežimėlis ZV3271N-PZ su rakinamomis ABS ritininėmis durelėmis, lentynomis ir 3/4 stalčiais. Nerūdijančio plieno stalviršis, 150 kg apkrova.",
       "intent": "Katalogo kodas: ZV3271N-PZ | Klaro produktas 1149",
       "body": [
         {
@@ -347773,7 +347773,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS roletinės durelės, dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg) ir du 3/4 pločio stalčiai."
+          "text": "Vežimėlio konstrukcijoje integruotos rakinamos ABS ritininės durelės, dvi stacionarios lentynos (kiekvienos leistina apkrova 30 kg) ir du 3/4 pločio stalčiai."
         },
         {
           "type": "paragraph",
@@ -347822,7 +347822,7 @@
             "Rėmo konstrukcija: pilka spalva milteliniu būdu dažytas plienas, antimikrobinis paviršius, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, švelnus įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinamos ABS roletinės durelės",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 stacionarios lentynos"
           ]
         },
@@ -348199,12 +348199,12 @@
         }
       ],
       "id": "d186319f-ecde-40b2-9df0-40691ad6768a",
-      "revisionHash": "7fbf5312450e22c342e8d57ac31facdfe6d3947a4e2a74c19c1b0a86e05666fd",
+      "revisionHash": "17387e9e1c2faed2e96583300977f9398ffd06b483b1814476ee47dca9e37fe7",
       "approval": {
         "status": "approved",
-        "revisionHash": "7fbf5312450e22c342e8d57ac31facdfe6d3947a4e2a74c19c1b0a86e05666fd",
-        "approvedAt": "2026-10-24T11:40:48.412Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "17387e9e1c2faed2e96583300977f9398ffd06b483b1814476ee47dca9e37fe7",
+        "approvedAt": "2026-10-25T04:07:28.924Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -357542,7 +357542,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-mini-su-ritininemis-durelemis-zv3370n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI MINI ZV3370N su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV3370N su rakinamomis ABS roletinėmis durelėmis ir lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV3370N su rakinamomis ABS ritininėmis durelėmis ir lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV3370N | Klaro produktas 1150",
       "body": [
         {
@@ -357556,7 +357556,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruoti išimami moduliniai MS krepšiai, rakinamos ABS roletinės durelės ir dvi fiksuotos lentynos (leistina apkrova po 30 kg)."
+          "text": "Vežimėlio konstrukcijoje integruoti išimami moduliniai MS krepšiai, rakinamos ABS ritininės durelės ir dvi fiksuotos lentynos (leistina apkrova po 30 kg)."
         },
         {
           "type": "paragraph",
@@ -357597,7 +357597,7 @@
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, švelnus įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotos lentynos, leistina apkrova: po 30 kg"
           ]
         },
@@ -357944,12 +357944,12 @@
         }
       ],
       "id": "1b1a167c-f782-46a7-bb63-81a3c38ecc72",
-      "revisionHash": "4199cf8dd96fe2f5dc3274a1be253a7b06223d7b1af99d411e6350e4c7d3626a",
+      "revisionHash": "ae646bc7c876880c0e4713223b52fde609d850847e3a62bb913f0e421185fd3d",
       "approval": {
         "status": "approved",
-        "revisionHash": "4199cf8dd96fe2f5dc3274a1be253a7b06223d7b1af99d411e6350e4c7d3626a",
-        "approvedAt": "2026-10-24T11:40:50.182Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "ae646bc7c876880c0e4713223b52fde609d850847e3a62bb913f0e421185fd3d",
+        "approvedAt": "2026-10-25T04:07:30.596Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -357957,7 +357957,7 @@
       "type": "product",
       "slug": "produktai/daugiafunkcis-medicininis-vezimelis-metal-line-profi-mini-su-ritininemis-durelemis-zv3371n",
       "title": "Daugiafunkcis medicininis vežimėlis METAL LINE PROFI MINI ZV3371N su ritininėmis durelėmis – aukšta versija",
-      "description": "Aukštas vežimėlis ZV3371N su rakinamomis ABS roletinėmis durelėmis ir lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
+      "description": "Aukštas vežimėlis ZV3371N su rakinamomis ABS ritininėmis durelėmis ir lentynomis. Nerūdijančio plieno stalviršis, 150 kg bendra vežimėlio apkrova.",
       "intent": "Katalogo kodas: ZV3371N | Klaro produktas 1151",
       "body": [
         {
@@ -357971,7 +357971,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vežimėlio konstrukcijoje integruoti išimami moduliniai MS krepšiai, rakinamos ABS roletinės durelės ir dvi fiksuotos lentynos (leistina apkrova po 30 kg)."
+          "text": "Vežimėlio konstrukcijoje integruoti išimami moduliniai MS krepšiai, rakinamos ABS ritininės durelės ir dvi fiksuotos lentynos (leistina apkrova po 30 kg)."
         },
         {
           "type": "paragraph",
@@ -358012,7 +358012,7 @@
             "Rėmo konstrukcija: nerūdijantis plienas AISI304, antivibracinis sutvirtinimas",
             "Darbinis stalviršis: nerūdijantis plienas AISI304, švelnus įspaudas su apsauginiais kampais",
             "Stūmimo rankena: skirta vežimėliui stumti ir valdyti",
-            "Uždarymas: 1 vnt. rakinama ABS ritininė žaliuzė",
+            "Uždarymas: 1 vnt. rakinamos ABS ritininės durelės",
             "Lentynos: 2 vnt. fiksuotos lentynos, leistina apkrova: po 30 kg"
           ]
         },
@@ -358329,12 +358329,12 @@
         }
       ],
       "id": "20626278-71d2-4f6e-b135-b51d7bb0be29",
-      "revisionHash": "05ec533e52c4beedeb3ac90db57fd82190dafc8bc03ed64024e9d1b5c3144079",
+      "revisionHash": "07f2a732aeeae96a4ef068eaa1ca5bab1097f7d227b1ae51e803c49d0d736e24",
       "approval": {
         "status": "approved",
-        "revisionHash": "05ec533e52c4beedeb3ac90db57fd82190dafc8bc03ed64024e9d1b5c3144079",
-        "approvedAt": "2026-10-24T11:40:52.120Z",
-        "actorId": "Rokas direct approve/release172 2026-10-24"
+        "revisionHash": "07f2a732aeeae96a4ef068eaa1ca5bab1097f7d227b1ae51e803c49d0d736e24",
+        "approvedAt": "2026-10-25T04:07:31.900Z",
+        "actorId": "Rokas180 / Claude182 exact111changes 2026-10-25"
       }
     },
     {
@@ -426805,5 +426805,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-24T19:54:53.508Z"
+  "generatedAt": "2026-10-25T05:13:44.245Z"
 }
