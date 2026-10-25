@@ -6,7 +6,7 @@ import {runInNewContext} from 'node:vm';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import ts from 'typescript';
-import {memoSeoMetadata,memoPageImage,memoSeoOffer} from '../lib/memocasting-seo-metadata.mjs';
+import {memoSeoMetadata,memoPageImage} from '../lib/memocasting-seo-metadata.mjs';
 import {memoCompany,memoSchemaGraph} from '../lib/memocasting-structure.mjs';
 import {memoApplyProductContent,memoProductSku} from '../lib/memocasting-product-content.mjs';
 import {memoHomepageBlocks,memoHomepageStory} from '../lib/memocasting-homepage-markup.mjs';
@@ -74,7 +74,7 @@ test('schema separates brand and legal author, keeps Product offers on canonical
  const product=pages.find(p=>p.slug==='rinkinys-porai'),graph=memoSchemaGraph(pkg,product,pages,'MB Memocasting')['@graph'];
  const rich=graph.find(e=>e['@type']==='Product'),web=graph.find(e=>e['@type']==='WebPage');assert.equal(rich.offers.price,'32.00');assert.equal(rich.brand.name,'Memory Casting');assert.equal(web.primaryImageOfPage.url,rich.image[0]);
  const guide=page('gidai/dovana-mamai','guide'),article=memoSchemaGraph(pkg,guide,[...pages,guide],'MB Memocasting')['@graph'].find(e=>e['@type']==='Article');
- assert.equal(article.author.name,'MB Memocasting');assert.equal(article.author['@type'],'Organization');assert.equal(article.author.url,'https://memocasting.lt/redakcija');assert.equal(article.publisher['@id'],org['@id']);
+ assert.deepEqual(article.author,{'@id':org['@id']});assert.equal(org.legalName,'MB Memocasting');assert.equal(org.alternateName,'MB Memocasting');assert.equal(org.url,'https://memocasting.lt/');assert.equal(article.publisher['@id'],org['@id']);
 });
 
 test('company registration is extracted only from explicit eligible about-page prose or lists',()=>{

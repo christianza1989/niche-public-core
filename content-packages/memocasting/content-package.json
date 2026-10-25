@@ -2298,6 +2298,23 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Kai data svarbi: du atskiri terminai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasižymėkite metinių dieną ir dieną, kada turėtumėte pradėti norimą sumanymą. Per pačias metines galite įteikti priemones bei asmeninį kvietimą veiklai; baigtam kūriniui reikia ir instrukcijoje nurodyto paruošimo bei džiūvimo. Jei laiko darbui nebeužtenka, keiskite įteikimo formatą, ne trumpinkite medžiagų instrukciją."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Per metines įteiksiu rinkinį → svarbu laiku gauti neatidarytą pakuotę.",
+            "Per metines kursime kartu → iš anksto abu sutariame laiką ir pasiruošiame darbo vietą.",
+            "Per metines įteiksiu baigtą liejinį → atskirai suplanuoju kūrimą, džiūvimą, apdailą ir apsaugą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Kai įteikiate rinkinį"
         },
         {
@@ -2442,12 +2459,12 @@
         }
       ],
       "id": "65534355-5b66-42be-ba22-23060c6a0f2e",
-      "revisionHash": "d1e45414a116bd428e103f38e92f0f1429cf30b3191e497fcd5b7f5f937bc7ce",
+      "revisionHash": "35b33f12ef3397b6570d1c2d59958c14e38b53b8c16598bf7f37982613a48c68",
       "approval": {
         "status": "approved",
-        "revisionHash": "d1e45414a116bd428e103f38e92f0f1429cf30b3191e497fcd5b7f5f937bc7ce",
-        "approvedAt": "2026-10-25T14:08:20.136Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "35b33f12ef3397b6570d1c2d59958c14e38b53b8c16598bf7f37982613a48c68",
+        "approvedAt": "2026-10-25T16:55:43.574Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -2461,6 +2478,23 @@
         {
           "type": "paragraph",
           "text": "Rinkitės rankų liejimo rinkinį tada, kai bendras kūrimas yra dovanos dalis ir gavėjai nori dalyvauti. Paruošta dovana gali būti tinkamesnė, kai žmogus tikisi iš karto naudojamo daikto, nenori rankdarbių arba iki progos neliko laiko veiklai. Tai pasirinkimas pagal gavėjų poreikį, o ne vien pagal dovanos išskirtinumą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Palyginkite tą pačią gavėjo užduotį"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rinkinys: gavėjas dalyvauja procese, pasiruošia vietą ir vadovaujasi konkrečia instrukcija. Tai tinka norinčiam kurti.",
+            "Paruoštas kūrinys: gavėjas gauna jau užbaigtą daiktą. Svarbesni jo stilius, matmenys, laikymo vieta ir trapaus daikto apsauga.",
+            "Sąžiningas kainos palyginimas: prie rinkinio įvertinkite tikrai reikalingą pasiruošimą, prie gatavo kūrinio – gamybą ir saugų gavimą. Nesulyginkite priemonių kainos su individualaus darbo paslaugos kaina."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sprendimą užrašykite taip: „Noriu padovanoti dalyvavimą“ arba „Noriu padovanoti baigtą daiktą“. Jeigu gavėjas pats nenori kurti, graži liejinio nuotrauka šio skirtumo nepanaikins. Konkrečiai metinių dienai skirtą darbų planavimą aptariame atskirai."
         },
         {
           "type": "heading",
@@ -2612,12 +2646,12 @@
         }
       ],
       "id": "61da1023-a13e-49f7-b6be-62cf372f4936",
-      "revisionHash": "fe3e2679596c8a836552b350869bfddb2f17952f830e28207479ba542eaed487",
+      "revisionHash": "5ba764c0b290832fabea185c462dfd5b2911fc67ff76625da74a59810e2a6966",
       "approval": {
         "status": "approved",
-        "revisionHash": "fe3e2679596c8a836552b350869bfddb2f17952f830e28207479ba542eaed487",
-        "approvedAt": "2026-10-13T21:29:04.614Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "5ba764c0b290832fabea185c462dfd5b2911fc67ff76625da74a59810e2a6966",
+        "approvedAt": "2026-10-25T16:55:43.679Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -11358,6 +11392,34 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Vienas sąrašas visiems gavėjams: penki stulpeliai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite gavėją, konkretų norą, didžiausią galutinę sumą, gavimo būdą ir žmogų, kuris pasirūpins įteikimu. Šalia kiekvienos dovanos pažymėkite vieną būseną: „dar tik idėja“, „užsakyta“, „gavimas patvirtintas“ arba „paruošta įteikti“. Taip atskirsite nupirktą prekę nuo tos, kurią tikrai turėsite per susitikimą."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mamai: noras susitikti → jūsų suplanuota popietė; patvirtinimas – abi sutartos datos.",
+            "Tėčiui: žinomas kavos ruošimo pomėgis → tik su jo virykle suderinamas modelis; patvirtinimas – modelio ir gavimo patikra.",
+            "Tėvams: vienas bendras noras → bendras pasirinkimas; skirtingi norai → du mažesni pirkiniai.",
+            "Šeimai: bendra veikla → tikrinkite tikrą dalyvių skaičių, kalbą ir visų norą dalyvauti.",
+            "Kolegei: simbolinis gestas → komandos sutarta suma ir nedidelė asmeniška žinutė."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pavyzdys: trys dovanos ir viena bendra 80 € riba"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tarkime, pasirenkate 20 € knygų kuponą, 14,99 € puodelį ir 32 € rankų liejimo rinkinį. Prekių suma yra 66,99 €, taigi iš 80 € lieka 13,01 € visų siuntų bei pakavimo išlaidoms. Šis likutis nėra pristatymo kainos pasiūlymas. Jei perkate iš trijų parduotuvių, tikrinkite tris krepšelius; vieno pardavėjo nemokamo siuntimo riba kitiems negalioja."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Ką realiai galima nupirkti už numatytą sumą?"
         },
         {
@@ -11649,12 +11711,12 @@
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "b8bdc7194663399f474765ada308ebcb81009c04331af65a68920215254d31b8",
+      "revisionHash": "9c78d44e3c8d06f2d816d673fabd52e5a6ed1699ad5c061e19dd281ee695d01d",
       "approval": {
         "status": "approved",
-        "revisionHash": "b8bdc7194663399f474765ada308ebcb81009c04331af65a68920215254d31b8",
-        "approvedAt": "2026-10-25T14:08:20.417Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "9c78d44e3c8d06f2d816d673fabd52e5a6ed1699ad5c061e19dd281ee695d01d",
+        "approvedAt": "2026-10-25T16:55:42.981Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -11667,7 +11729,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Kalėdinę dovaną moteriai rinkitės pagal jos pačios pomėgius. Jei ji savaitgaliais žygiuoja, termosinė gertuvė gali būti prasmingesnė už kosmetikos rinkinį. Jei prašo mažiau daiktų, geresnis pasirinkimas gali būti sutartas kūrybinis užsiėmimas. Ši atranka padeda palyginti penkias kryptis ir konkrečius pasiūlymus."
+          "text": "Kalėdinę dovaną moteriai derinkite prie jos pomėgio ir savo pasiruošimo laiko. Žemiau rasite konkrečius pasiūlymus, o pirmiausia pasirinkite, ką realiai spėsite paruošti: jau turimą daiktą, užpildytą albumą, patvirtintą siuntą ar elektroninį kuponą. Tai 2026 m. sezoninė atranka, ne dovanos pagal lytį receptas."
         },
         {
           "type": "list",
@@ -11677,6 +11739,29 @@
             "Žygių mėgėjai: QUECHUA „900“ 0,5 l už 13 €.",
             "Kūrybai ir prisiminimams: užsiėmimas dviem, albumas arba rankų liejimo veikla."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kuri dovana tinka pagal pasiruošimo laiką?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Turite kelias savaites → galima ruošti asmeninį albumą: surinkite kadrus, patikrinkite leidimą juos naudoti ir tik tada užsakykite spaudą.",
+            "Turite kelias dienas → remkitės konkretaus pardavėjo patvirtintu gavimu. Vien užrašas „sandėlyje“ nėra pažadas įteikti per šventę.",
+            "Turite tik vakarą → rinkitės jau turimą užbaigtą dovaną arba patikrinkite elektroninio kupono gavimo sąlygas. Nežadėkite, kad fizinė siunta suspės.",
+            "Dovanojate kolegei → pirma galioja susitarimas dėl sumos; šventinis dizainas nepaverčia labai asmeniško daikto neutraliu."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Du konkretūs 20 € biudžeto sprendimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite fizinės dovanos, 15,99 € MOKA kavinukui lieka 4,01 € pristatymui ir pakavimui; šis modelis netinka indukcijai. Jei renkatės 20 € knygų kuponą, visa suma jau skirta kuponui, o knygų siuntimo išlaidos juo neapmokamos. Prieš įteikdami patikrinkite, ar gavėjai tinka parduotuvė ir šešių mėnesių galiojimas. Šias dvi sąlygas papildomai tikrinome 2026 m. spalio 25 d."
         },
         {
           "type": "heading",
@@ -11903,7 +11988,7 @@
         {
           "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
           "label": "20 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
@@ -11913,7 +11998,7 @@
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
           "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: 15,99 €; 180 ml, aliuminis, netinka indukcinei viryklei."
         },
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-aeropress-original-250-ml-100-filtru",
@@ -11934,15 +12019,20 @@
           "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
           "label": "Tapybos ant keramikos dirbtuvės dviem",
           "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/apmokejimas",
+          "label": "Knygų kupono apmokėjimo sąlygos",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Kuponas nepadengia pristatymo; vienas kuponas krepšeliui, papildomi nuolaidų kodai netaikomi."
         }
       ],
       "id": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
-      "revisionHash": "e167667aa64faee608c1a837518a76a9f4ae5096c1820310632e2619a4ba900c",
+      "revisionHash": "fe61dc7d255a810e69c952bd34b5e763be86dd0dea9a7afb4a247fcee0800ce5",
       "approval": {
         "status": "approved",
-        "revisionHash": "e167667aa64faee608c1a837518a76a9f4ae5096c1820310632e2619a4ba900c",
-        "approvedAt": "2026-10-22T19:21:48.322Z",
-        "actorId": "codex-seo-refresh-20261022"
+        "revisionHash": "fe61dc7d255a810e69c952bd34b5e763be86dd0dea9a7afb4a247fcee0800ce5",
+        "approvedAt": "2026-10-25T16:55:42.781Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -11964,6 +12054,28 @@
             "Iki 20 €: albumas, arbatos rinkinys arba pasirinkto stiliaus puodelis.",
             "Bendrai patirčiai: rankų liejimas už 32 € arba keramikos dekoravimas dviem už 50 € akcijos metu."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkite iš trijų situacijų, o ne iš dešimties atsitiktinių prekių"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama sako „nieko nereikia“ ir vengia naujų daiktų → pirmiausia skaitykite 9 ir 10 idėjas: laišką arba jūsų suplanuotą susitikimą.",
+            "Mama pati mini konkretų pomėgį → žiūrėkite 1–6 idėjas ir patikrinkite, ar ji jau neturi panašaus daikto.",
+            "Mama nori veiklos su jumis → palyginkite 7 ir 8 idėjas pagal vietą, pasiruošimą ir kelionę, ne vien kainą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip asmeninę dovaną užbaigti iki šventės?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdžiui, renkatės prisiminimų albumą: vieną vakarą surinkite nuotraukas, kitą parašykite vietas bei metus, o trečią patikrinkite jų eiliškumą. Tai jūsų darbų planas, ne spaustuvės terminas. Jei spausdinimo gavimas nepatvirtintas, įteikimui paruoškite užbaigtą laišką su viena jau turima nuotrauka. Mamai nereikės pabaigti jūsų pradėtos dovanos."
         },
         {
           "type": "heading",
@@ -12246,12 +12358,12 @@
         }
       ],
       "id": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-      "revisionHash": "4840587b78f4605e2829662e27c879b225c384fdf3e821bb1c0f76e912a41157",
+      "revisionHash": "45e83e96bfaff0b996d5b753b24337a21f10697ee8c461765b068bdd728c7e49",
       "approval": {
         "status": "approved",
-        "revisionHash": "4840587b78f4605e2829662e27c879b225c384fdf3e821bb1c0f76e912a41157",
-        "approvedAt": "2026-10-22T19:21:48.249Z",
-        "actorId": "codex-seo-refresh-20261022"
+        "revisionHash": "45e83e96bfaff0b996d5b753b24337a21f10697ee8c461765b068bdd728c7e49",
+        "approvedAt": "2026-10-25T16:55:42.884Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -12616,7 +12728,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys šeimai kainuoja 48 €. Balti dažai įtraukti; galima rinktis papildomą apdailą ir padėklą už produkto puslapyje nurodytą priedą. Prieš perkant perskaitykite sudėtį ir instrukciją. Vien pavadinimas „šeimos“ nepatvirtina konkretaus vaikų amžiaus ar bet kokio rankų skaičiaus tinkamumo."
+          "text": "Rankų liejimo rinkinys šeimai kainuoja 48 €. Balti dažai įtraukti. Kitų spalvų pasirinkimus ir jų kainą tikrinkite produkto puslapyje; medinis padėklas šiuo metu išparduotas. Prieš perkant perskaitykite sudėtį ir instrukciją. Vien pavadinimas „šeimos“ nepatvirtina konkretaus vaikų amžiaus ar bet kokio rankų skaičiaus tinkamumo."
         },
         {
           "type": "paragraph",
@@ -12823,12 +12935,12 @@
         }
       ],
       "id": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-      "revisionHash": "409341d055250e93969554a443b7e8f64d6e03e21d5b4b1048a227c881a502c6",
+      "revisionHash": "367c0696e74a995940f9f3f9539903552c24a89b374b793b90f76a8dc613c89b",
       "approval": {
         "status": "approved",
-        "revisionHash": "409341d055250e93969554a443b7e8f64d6e03e21d5b4b1048a227c881a502c6",
-        "approvedAt": "2026-10-25T14:08:20.558Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "367c0696e74a995940f9f3f9539903552c24a89b374b793b90f76a8dc613c89b",
+        "approvedAt": "2026-10-25T16:55:43.297Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -12872,7 +12984,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai kainuoja 32 €. Bazinėje komplektacijoje yra balti dažai; kitą apdailą ir medinį padėklą galima pasirinkti produkto puslapyje su atskirai parodytais kainos priedais. Rinkinys nėra paruošta skulptūra. Porai reikės laikytis instrukcijos ir skirti dėmesio procesui bei darbo užbaigimui."
+          "text": "Rankų liejimo rinkinys porai kainuoja 32 €. Į kainą įeina balti dažai. Medinis padėklas šiuo metu išparduotas. Rinkinys nėra paruošta skulptūra. Porai reikės laikytis instrukcijos ir skirti dėmesio procesui bei darbo užbaigimui."
         },
         {
           "type": "paragraph",
@@ -13106,12 +13218,12 @@
         }
       ],
       "id": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-      "revisionHash": "0169f0401a1f84789e7e2a32bc49c457e9e276e0e40c98d4efb7e2f13924f631",
+      "revisionHash": "f03999a8154c54368f7f9fa50619ff9694f76473a40c08dd405c03107eb43b94",
       "approval": {
         "status": "approved",
-        "revisionHash": "0169f0401a1f84789e7e2a32bc49c457e9e276e0e40c98d4efb7e2f13924f631",
-        "approvedAt": "2026-10-22T19:21:48.446Z",
-        "actorId": "codex-seo-refresh-20261022"
+        "revisionHash": "f03999a8154c54368f7f9fa50619ff9694f76473a40c08dd405c03107eb43b94",
+        "approvedAt": "2026-10-25T16:55:43.395Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -13147,6 +13259,24 @@
         {
           "type": "paragraph",
           "text": "Kartu gyvenantys žmonės nebūtinai nori to paties. Taip pat neverta automatiškai dovanoti buities priemonės, kuri iš tikrųjų skirta tik vieno jų darbui palengvinti. Bendrumą tikrinkite pagal naudojimą: kas ją paims į rankas, kas rezervuos, kas važiuos ir kas turės papildomų išlaidų?"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vienos ar dviejų dovanų patikra prieš apmokant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Abu pasirenka tą pačią veiklą, bet ne tą pačią datą → pirma raskite bendrą laiką; čekis šio skirtumo neišspręs.",
+            "Vienas nori kavos ruošimo priemonės, kitas knygos → rinkitės dvi aiškiai jiems skirtas dovanas; vienodo įpakavimo pakanka bendram įteikimui.",
+            "Abu nori prisiminimo, bet nenori kurti patys → paruoškite albumą, ne kūrybinę užduotį.",
+            "Vienas siūlo dovaną, kitas tik mandagiai sutinka → pasikalbėkite su kiekvienu atskirai ir nespręskite pagal aktyvesnį žmogų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kavos ir knygų derinio spąstas konkretus: šiame sąraše esantis MOKA 3 puodelių kavinukas netinka indukcinei viryklei, o 20 € knygų kuponas galioja šešis mėnesius. „Jie tikrai panaudos kada nors“ nėra pakankamas pagrindas. Patikrinkite abi sąlygas dar prieš dalydami bendrą biudžetą."
         },
         {
           "type": "heading",
@@ -13387,12 +13517,12 @@
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
           "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: 15,99 €; 180 ml, aliuminis, netinka indukcinei viryklei."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
           "label": "20 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
         },
         {
           "url": "https://www.brain-games.lt/products/codenames-duet-lt",
@@ -13406,12 +13536,12 @@
         }
       ],
       "id": "9540b7b3-3c05-429f-89b8-55db019f8577",
-      "revisionHash": "352645ca0071907b5f256cfc716235487f10ea40ac3b6c9a3a3ec14442494221",
+      "revisionHash": "9aa1874e94a3ce702f01241eabeba28602b69bb158779b19e032a84ef6e21170",
       "approval": {
         "status": "approved",
-        "revisionHash": "352645ca0071907b5f256cfc716235487f10ea40ac3b6c9a3a3ec14442494221",
-        "approvedAt": "2026-10-25T14:08:20.624Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "9aa1874e94a3ce702f01241eabeba28602b69bb158779b19e032a84ef6e21170",
+        "approvedAt": "2026-10-25T16:55:42.590Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -13452,6 +13582,45 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Šešios konkrečios kryptys: ką rinktis ir kada atsisakyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "MOKA 3 puodelių kavinukas patikros metu kainavo 15,99 €. Jo 180 ml talpa skirta mažoms kavos porcijoms; šis aliumininis modelis netinka indukcinei viryklei. Tėčiui, kuris mėgsta kavos ruošimo ritualą ir turi tinkamą viryklę, tai konkretus kandidatas. Jei viryklės nežinote, modelio nepirkite iš akies."
+        },
+        {
+          "type": "paragraph",
+          "text": "20 € knygų kuponas praverčia skaitančiam tėčiui, kurio norimo leidinio nežinote. „Angelų Takais“ elektroninis 20 € kuponas – kitas formatas: prieš renkantis reikia įvertinti, ar jam įdomi tokia patirtis, patogi vieta ir seanso laikas. Šių dviejų vienodos vertės kuponų negalima laikyti vienodai lengvai panaudojamais."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muzikos vakarui: jo jau turimas mėgstamas albumas ir jūsų paruoštas klausymo vakaras. Naujos laikmenos nepirkite nepatikrinę turimos įrangos.",
+            "Išvykai: jo pasirinktas pažįstamas maršrutas ir jūsų pasirūpinta kelionė. Tai asmeninis planas, ne nupirkta ekskursija.",
+            "Šeimos istorijai: dešimt jau turimų nuotraukų su jo pasakojimais. Pirma sutarkite, ar jis norės kalbėtis ir ar pasakojimus galima išsaugoti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Greitas pasirinkimas pagal vieną trūkstamą atsakymą"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nežinau tikslaus įrankio modelio → prašau norų sąrašo arba renkuosi bendrą išsirinkimą.",
+            "Žinau pomėgį, bet ne konkrečią knygą → lyginu knygyno pasirinkimą ir kupono sąlygas.",
+            "Žinau daiktą, bet nežinau, ar jį jau turi → pasitikslinu prieš apmokėdamas.",
+            "Tėtis nenori daugiau daiktų → siūlau vieną veiklą, dvi datas ir pats pasirūpinu organizavimu."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkrečių trijų pardavėjų pasiūlymų sąlygos papildomai tikrintos 2026 m. spalio 25 d. Kainos gali keistis; pristatymas ir galimos paslaugų priemokos neįtraukti. Tai atranka pagal aprašus, ne išbandytų gaminių reitingas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Dovanų idėjos pagal tai, ką apie jį žinote"
         },
         {
@@ -13466,7 +13635,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Šios idėjos yra pasirinkimo kryptys, o ne konkrečių prekių ar paslaugų rekomendacijos. Pavyzdžiui, jei tėtis mėgsta skaityti, bet jo lentynos jau pilnos, naują knygą verta pirkti tik žinant norimą pavadinimą. Bendras apsilankymas knygyne gali palikti jam daugiau pasirinkimo laisvės."
+          "text": "Pomėgio kryptį pirmiausia susiekite su konkrečiu tėčio noru. Pavyzdžiui, jei tėtis mėgsta skaityti, bet jo lentynos jau pilnos, naują knygą verta pirkti tik žinant norimą pavadinimą. Bendras apsilankymas knygyne gali palikti jam daugiau pasirinkimo laisvės."
         },
         {
           "type": "heading",
@@ -13600,13 +13769,30 @@
           "label": "Dovanos tėčiui: pomėgiai, patogumas ir laikas kartu"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
+          "label": "MOKA 3 puodelių kavinukas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: 15,99 €; 180 ml, aliuminis, netinka indukcinei viryklei."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
+          "label": "20 € knygų kuponas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
+        },
+        {
+          "url": "https://angelutakais.lt/produktai/elektroninis-dovanu-kuponas-20e/",
+          "label": "„Angelų Takais“ elektroninis 20 € kuponas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: PDF el. paštu po apmokėjimo; vieta, seansas ir galimos priemokos tikrinami atskirai."
+        }
+      ],
       "id": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
-      "revisionHash": "efb9c80a7d63f11b526784521b0431493d4060cc9e17cf71ab9647a7a06b1088",
+      "revisionHash": "5532b5d086b521770c3168ba10c213537705cc3059c7677a39f36f524119d271",
       "approval": {
         "status": "approved",
-        "revisionHash": "efb9c80a7d63f11b526784521b0431493d4060cc9e17cf71ab9647a7a06b1088",
-        "approvedAt": "2026-10-15T08:45:46.399Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "5532b5d086b521770c3168ba10c213537705cc3059c7677a39f36f524119d271",
+        "approvedAt": "2026-10-25T16:55:42.490Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -15646,7 +15832,7 @@
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-paskutine-minute",
       "title": "Kalėdinės dovanos paskutinę minutę: kas realiai įmanoma",
-      "description": "Dovana reikalinga šiandien? Pasirinkite tarp patvirtinto atsiėmimo, namuose paruoštos dovanos ir kvietimo veiklai. Praktinė patikra ir įteikimo žinutės.",
+      "description": "Dovana reikalinga šiandien? Trys elektroniniai variantai su sąlygomis, patvirtintas atsiėmimas ir konkretus pusvalandžio planas.",
       "intent": "Ką galiu paruošti šiandien ir ko nebegaliu pažadėti?",
       "body": [
         {
@@ -15668,6 +15854,40 @@
             "Daiktą rinkitės, jei žinote gavėjo norą ir galite patvirtinti, kad spėsite jį pasiimti.",
             "Dovaną ruoškite patys, jei jau turite reikalingas priemones ir galite užbaigti visą sumanymą.",
             "Kvietimą veiklai rinkitės, jei gavėjas jos norėtų, o jūs galėsite pasirūpinti organizavimu ir išlaidomis."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys elektroniniai variantai ir jų skirtingos sąlygos"
+        },
+        {
+          "type": "paragraph",
+          "text": "20 € knygų kuponas siunčiamas el. paštu po apmokėjimo ir galioja šešis mėnesius. Įvertinkite, ar gavėjas ras norimų knygų; siuntimas kuponu neapmokamas. Jei pirkinių suma mažesnė, likutis negrąžinamas. Tai konkretus knygyno pasirinkimas, ne pinigai bet kuriai parduotuvei."
+        },
+        {
+          "type": "paragraph",
+          "text": "„Angelų Takais“ elektroninis 20 € kuponas pateikiamas PDF formatu po apmokėjimo. Tai indėlis į pasirinktą patirtį: atskirai tikrinkite miestą, seansą ir galimą priemoką. Neįrašykite į sveikinimą pažado, kad šios vertės užteks dviem žmonėms ar konkrečiam vakarui, to nepatikrinę."
+        },
+        {
+          "type": "paragraph",
+          "text": "„Gera dovana“ elektroninio čekio pristatymas leidžia išvengti fizinės siuntos. Tačiau apmokėjimas pagal sąskaitą gali būti įskaitomas darbo dieną; vien pasirinktas elektroninis formatas dar nereiškia, kad čekis jau jūsų pašte. Šventinį vakarą pirma įsitikinkite, kad gautą failą galite atidaryti ir jame matote tinkamą pasiūlymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šių pasiūlymų sąlygos tikrintos 2026 m. spalio 25 d. pas pardavėjus. Elektroninio kupono gavimas ir rezervuotas apsilankymas yra atskiri veiksmai; konkretaus išsiuntimo per šventes ši svetainė negarantuoja."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jei liko pusvalandis: veiksmų seka"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pirmos 5 minutės: pasirinkite vieną gavėjo norą atitinkančią kryptį ir perskaitykite sąlygas.",
+            "Kitos 10 minučių: jei perkate, patikrinkite apmokėjimą ir tikrai gautą failą. Jei jo nėra, nekurkite įteikimo pažado pagal užsakymo ekraną.",
+            "Likusios 15 minučių: parašykite trumpą žinutę, išbandykite nuorodą arba atspausdinkite gautą dokumentą. Jei pirkimas nebaigtas, paruoškite nuoširdų asmeninį kvietimą ir aiškiai taip jį įvardykite."
           ]
         },
         {
@@ -15778,7 +15998,7 @@
           "text": "Jei dar abejojate dėl pačios idėjos, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės grįžti prie gavėjo norų ir biudžeto. Šiandien pasirinkite vieną įgyvendinamą variantą ir pasirūpinkite, kad jį būtų malonu gauti."
         }
       ],
-      "publishAt": "2026-12-21T08:00:00.000Z",
+      "publishAt": "2026-10-26T08:00:00.000Z",
       "media": [
         {
           "id": "4f57bcf2-bc50-4761-86c7-9e5eec2c3743",
@@ -15844,13 +16064,35 @@
           "label": "dovana ar dovanų kuponas"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
+          "label": "20 € knygų kuponas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/apmokejimas",
+          "label": "Knygų kupono apmokėjimo sąlygos",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Kuponas nepadengia pristatymo; vienas kuponas krepšeliui, papildomi nuolaidų kodai netaikomi."
+        },
+        {
+          "url": "https://angelutakais.lt/produktai/elektroninis-dovanu-kuponas-20e/",
+          "label": "„Angelų Takais“ elektroninis 20 € kuponas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: PDF el. paštu po apmokėjimo; vieta, seansas ir galimos priemokos tikrinami atskirai."
+        },
+        {
+          "url": "https://www.geradovana.lt/apie/informacija/pristatymas",
+          "label": "„Gera dovana“ elektroninio čekio pristatymas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Skaitmeninis pristatymas skiriasi nuo apmokėjimo sąskaita, kurio įskaitymas gali trukti darbo dieną."
+        }
+      ],
       "id": "aa5dd1fe-62a3-4cd8-ac98-084ee2fedae0",
-      "revisionHash": "207b3093a5e98d798ac85481e31c90aa64283de2e08fb75166978272a0185c2f",
+      "revisionHash": "6d64971c044c63137ba7283a8e718f44cfcce4d1aeef0580f59d943d5812efb3",
       "approval": {
         "status": "approved",
-        "revisionHash": "207b3093a5e98d798ac85481e31c90aa64283de2e08fb75166978272a0185c2f",
-        "approvedAt": "2026-10-25T14:08:20.822Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "6d64971c044c63137ba7283a8e718f44cfcce4d1aeef0580f59d943d5812efb3",
+        "approvedAt": "2026-10-25T16:55:43.095Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -15863,143 +16105,75 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Pakavimo būdą rinkitės pagal dovanos formą: dėžutę apgaubkite popieriumi, cilindro galus užlankstykite mažomis klostėmis, o netaisyklingos formos daiktą įdėkite į tinkamą dėžutę arba maišelį. Tvarkingam rezultatui pirmiausia pasimatuokite popierių jo nekirpdami. Jei dovana trapi, jos apsauga turi būti paruošta prieš dekoruojant."
+          "text": "Kai Kalėdoms reikia supakuoti kelių žmonių dovanas, didžiausią skirtumą padaro pasiruošimas: sužymėkite gavėjus, atskirkite siuntas nuo asmeniškai įteikiamų dovanų ir pasirinkite vieną derantį pakavimo būdą. Dėžutės, cilindro ir trapaus daikto vyniojimo žingsnius rasite gide kaip supakuoti dovaną; čia planuojame visą šventinį rinkinį."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Ką pasiruošti vienai dovanai"
+          "text": "Prieš kirpdami popierių sužymėkite visas dovanas"
         },
         {
           "type": "list",
           "items": [
-            "Vieną pagal dovanos dydį atmatuotą popieriaus lakštą arba vieną tinkamo dydžio dovanų maišelį.",
-            "Žirkles ir lipniąją juostą; jos gabalėlius galite pasiruošti prieš pradėdami lankstyti.",
-            "Vieną juostelę, jei norite perrišti pakuotę, ir vieną kortelę gavėjo vardui bei sveikinimui.",
-            "Vieną dėžutę, jei daikto forma nepatogi vynioti arba jam reikia papildomos apsaugos.",
-            "Trapiai dovanai tinkamų apsauginių medžiagų pagal jos svorį, paviršių ir išsikišusias dalis."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Popieriaus ir juostelės kiekį nustatykite pagal pačią pakuotę. Prieš kirpdami apgaubkite ją popieriumi, o juostelę nutieskite taip, kaip ketinate rišti. Palikite galus mazgui ar kaspinui. Vienodas lakšto dydis netiks ir plokščiai knygai, ir aukštai dėžutei."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kai pakuojate kelias dovanas vienam šventiniam susitikimui"
-        },
-        {
-          "type": "paragraph",
-          "text": "Prieš pradėdami sudėkite dovanas pagal gavėjus ir kiekvienai pridėkite dar nepritvirtintą kortelę. Pirmiausia atskirai supakuokite trapias dovanas, tuomet vyniokite panašios formos dėžutes. Taip vienu metu matysite, kuriam gavėjui skirtas kiekvienas paketas, ir nepritrūksite etikečių jau užklijavę popierių."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Surašykite gavėjo vardą, dovanos turinį ir ar ji trapi. Sąrašą laikykite atskirai nuo paketų.",
-            "Vienos šeimos dovanas atskirkite skirtingos spalvos juostelėmis arba aiškiai įskaitomomis vardų kortelėmis. Spalva papildo vardą, jo nepakeičia.",
-            "Jei pakuotėje lieka instrukcija ar maisto ženklinimas, jų neišimkite dėl tvarkingesnio vaizdo.",
-            "Baigę sutikrinkite visus paketus su gavėjų sąrašu ir sudėkite pagal tai, į kurį susitikimą juos vešitės."
+            "Ant nuimamo lapelio užrašykite gavėją ir susitikimą, į kurį vešitės dovaną.",
+            "Atskirkite dar negautus pirkinius: jiems dar nekirpkite popieriaus pagal spėjamą dėžutės dydį.",
+            "Patikrinkite, ar nuimtos kainų etiketės; pirkimo dokumentus pasilikite atskirai.",
+            "Trapias dovanas pirma apsaugokite tinkama vidine pakuote. Dekoratyvinis popierius jos nepakeičia."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "1. Stačiakampė dėžutė: tiesios klostės"
+          "text": "Trys vientiso stiliaus variantai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šviesus popierius ir viena spalvota juostelė tinka, kai norite skirtingų formų dėžutes sujungti į vieną vaizdą. Paprastas kraftpopieris ir ranka parašytos kortelės leidžia kiekvienam pridėti savą sakinį. Daugkartiniai medžiaginiai maišeliai patogūs gavėjams, kurie juos naudos ir vėliau; trapiam turiniui vis tiek reikia atskiros apsaugos."
         },
         {
           "type": "image",
           "assetId": "439df46d-95c6-41d1-ab44-03e843d28475"
         },
         {
-          "type": "list",
-          "items": [
-            "Padėkite dėžutę ant popieriaus ir apgaubkite jos šonus. Ilgieji popieriaus kraštai turi šiek tiek persidengti.",
-            "Patikrinkite abu dėžutės galus: popieriaus turi pakakti jiems uždengti, tačiau per didelis perteklius sudarys storas klostes.",
-            "Atkirpkite lakštą. Vieną ilgąjį kraštą palenkite į vidų, kad matoma siūlė būtų lygi, ir sutvirtinkite ją lipniąja juosta.",
-            "Viename gale prispauskite popierių prie dėžutės šonų, suformuokite viršutinį bei apatinį atvartus ir užlenkite juos. Pakartokite kitame gale.",
-            "Perriškite dėžutę juostele arba pritvirtinkite kortelę. Vieno aiškaus akcento pakanka."
-          ]
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip nesumaišyti panašių dėžučių?"
         },
         {
           "type": "paragraph",
-          "text": "Jei kampai nesusilanksto tvarkingai, prieš klijuodami patikrinkite popieriaus perteklių. Storas sluoksnis dėžutės gale dažnai trukdo labiau nei nedidelė, tvarkingai užlenkta siūlė."
+          "text": "Kortelę pritvirtinkite vos užvynioję dovaną, o ne baigę visą partiją. Jei nenorite išduoti turinio, ant privačiame sąraše esančios dovanos ir jos pakuotės naudokite tą patį trumpą numerį. Prieš išvykdami patikrinkite sąrašą pagal susitikimą: kam, kur ir kurią dieną įteiksite."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "2. Cilindras: mažos klostės galuose"
-        },
-        {
-          "type": "image",
-          "assetId": "5414f200-80e3-4e44-8e5a-29f6d6121650"
+          "text": "Jei dovana keliaus paštomatu"
         },
         {
           "type": "paragraph",
-          "text": "Šis būdas tinka standžiai cilindro formos pakuotei. Jei daiktas neturi lygių galų ar yra trapus, patogiau pirmiausia pasirinkti jam tinkamą dėžutę."
+          "text": "Šventinį įpakavimą dėkite į tinkamą siuntimo dėžę, kuri saugo turinį. Neužklijuokite gavėjo kortelės taip, kad atplėšiant siuntą būtų pažeista pati dovana. Išorinės dėžės matmenis, turinio apribojimus ir apsaugą tikrinkite pagal pasirinkto vežėjo taisykles; šiame gide nėra siuntos atsparumo garantijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vieno vakaro pakavimo planas"
         },
         {
           "type": "list",
           "items": [
-            "Apvyniokite cilindrą popieriumi ir patikrinkite, ar šoniniai kraštai persidengia.",
-            "Abiejuose galuose palikite tiek popieriaus, kad užlenktas jis pasiektų apskritimo centrą.",
-            "Atkirpkite popierių ir sutvirtinkite šoninę siūlę.",
-            "Viename gale lankstykite kraštą mažomis, viena kitą dengiančiomis klostėmis link centro. Sutvirtinkite, tada užlankstykite kitą galą.",
-            "Kortelę pritvirtinkite prie juostelės, kad nereikėtų jos klijuoti ant matomo pakuotės paviršiaus."
+            "Pirmas etapas: apžiūrėti turinį, paruošti apsaugines dėžes ir korteles.",
+            "Antras etapas: kartu apvynioti panašias tvirtas dėžutes; trapius ar netaisyklingus daiktus ruošti atskirai.",
+            "Trečias etapas: kiekvieną paruoštą dovaną sužymėti ir padėti prie atitinkamo išvykimo sąrašo.",
+            "Pabaigoje: nufotografuoti savo sąrašą atminčiai, o pakuotes laikyti taip, kad jos nesusispaustų ir nesudrėktų."
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "3. Netaisyklinga forma: dėžutė arba maišelis"
+          "text": "Ką daryti, jei viena dovana dar neatkeliavo?"
         },
         {
           "type": "paragraph",
-          "text": "Minkštą, netrapų daiktą galima įdėti į dovanų maišelį. Pasirinkite tokį, kuriame dovana telpa nespaudžiama, o rankenos leidžia ją patogiai nešti. Viršų galite pridengti plonu pakavimo popieriumi. Sunkesniam daiktui patikrinkite maišelio gamintojo nurodytą apkrovos ribą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Daiktui su išsikišusiomis detalėmis rinkitės dėžutę, kurioje liktų vietos tinkamai apsaugai. Nedėkite jo į per mažą dėžutę vien tam, kad būtų lengviau suvynioti. Uždarytą dėžutę pakuokite pirmuoju būdu."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Trapi dovana: dekoras nepakeičia apsaugos"
-        },
-        {
-          "type": "image",
-          "assetId": "915542f0-457e-4e54-9eb3-16fdec0b38d2"
-        },
-        {
-          "type": "paragraph",
-          "text": "Trapiai dovanai pirmiausia naudokite išsaugotą gamintojo apsauginę pakuotę, jei ji nepažeista ir skirta tam daiktui. Rinkdami kitą pakuotę įvertinkite svorį, jautrų paviršių ir plonas išsikišusias dalis. Juostelės neveržkite tiesiai aplink trapias detales, o lipniosios juostos neklijuokite ant paties daikto."
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankų liejimo rinkinio dėžutė ir jau pagamintas rankų liejinys turi skirtingus pakavimo poreikius. Rinkinį dekoruokite išsaugodami jo pakuotę, medžiagų ženklinimą ir instrukciją. Gatavam liejiniui apsaugą rinkitės pagal konkrečią jo formą bei medžiagų nurodymus; bendras popieriaus lankstymo būdas nepatvirtina, kad jį saugu siųsti."
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei dovaną siųsite, atskirai patikrinkite vežėjo reikalavimus konkrečiam turiniui. Dovanų maišelis, kaspinas ar užrašas „Trapu“ savaime neužtikrina apsaugos kelionėje."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Trumpa patikra prieš įteikiant"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Ar pakuotė užsidaro nespausdama dovanos?",
-            "Ar nešti skirtas maišelis ar dėžutė atitinka dovanos svorį?",
-            "Ar kortelėje aiškiai parašytas gavėjo vardas?",
-            "Ar pakuotę bus galima atidaryti nepažeidžiant dovanos?",
-            "Ar kartu liko reikalinga instrukcija ir produkto informacija?"
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Jeigu dovanos dar neišsirinkote, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės pradėti nuo žmogaus norų. Pakavimą planuokite jau žinodami, ką įteiksite ir kaip dovana pasieks gavėją."
+          "text": "Likusią partiją užbaikite, o laukiamą siuntą sąraše pažymėkite atskirai. Pristatymo datos neperkelkite į sveikinimo pažadą, kol ji nepatvirtinta. Jei laiko nebeliko, padės gidas kalėdinės dovanos paskutinę minutę. Šventinis derėjimas nėra svarbesnis už nepažeistą turinį ir aiškią žinutę gavėjui."
         }
       ],
       "publishAt": "2026-10-25T08:00:00.000Z",
@@ -16170,15 +16344,19 @@
         {
           "targetPageId": "8e384e4a-c05c-44e1-ad0b-db5706d5f5e1",
           "label": "kaip supakuoti dovaną"
+        },
+        {
+          "targetPageId": "aa5dd1fe-62a3-4cd8-ac98-084ee2fedae0",
+          "label": "kalėdinės dovanos paskutinę minutę"
         }
       ],
       "id": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
-      "revisionHash": "ab8febb361953e1d10696f2bfecf093200bcfe958bb433a6cfa7cc5f273b3393",
+      "revisionHash": "4abaa40a4981f3f655fde53a6c10b9a893412784912a80a589174bb85be04afe",
       "approval": {
         "status": "approved",
-        "revisionHash": "ab8febb361953e1d10696f2bfecf093200bcfe958bb433a6cfa7cc5f273b3393",
-        "approvedAt": "2026-10-25T14:08:20.885Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "4abaa40a4981f3f655fde53a6c10b9a893412784912a80a589174bb85be04afe",
+        "approvedAt": "2026-10-25T16:55:43.479Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -16191,15 +16369,15 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Dovanų moterims nereikia rinkti pagal vieną „moteriškų“ daiktų sąrašą. Pirmiausia nuspręskite, kiek pažįstate gavėją, ką ji pati mėgsta ir kokio dydžio dovana dera jūsų santykiui. Šiame gide rasite konkrečius variantus ir pasirinkimo klausimyną gimtadieniui, padėkai, jubiliejui ar tiesiog susitikimui."
+          "text": "Dovaną moteriai lengviau parinkti atskyrus du dalykus: ką ji pati mėgsta ir kokio artumo yra jūsų santykis. Tas pats 20 € pirkinys gali būti taiklus draugei ir pernelyg asmeniškas kolegei. Šis gidas skirtas gimtadieniui, padėkai ir kitoms progoms; Kalėdų sąrašo planavimą bei užsakymų laiką aptariame atskirai."
         },
         {
           "type": "list",
           "items": [
-            "Skaitančiai: medinis skirtukas nuo 3,95 € arba 20 € knygų kuponas.",
-            "Keliaujančiai: termosinė gertuvė, jei tikrai reikia naujos.",
-            "Norinčiai kurti: užsiėmimas dviem arba savarankiška kūrybinė veikla.",
-            "Prisiminimams: jūsų atrinktomis nuotraukomis papildytas albumas."
+            "Kolegei ar menkai pažįstamai gavėjai → sutarta suma ir neutralus, žinomą pomėgį atitinkantis pasirinkimas.",
+            "Draugei → bendras prisiminimas arba jos išsakytas noras, kurio nereikės aiškinti.",
+            "Partnerei → individualus noras; bendra veikla tinka tik jei jos nori abu.",
+            "Bendrai komandos dovanai → vienas pirkėjas, savanoriški indėliai ir išsaugotas pirkimo dokumentas."
           ]
         },
         {
@@ -16214,6 +16392,32 @@
         {
           "type": "paragraph",
           "text": "Praktiškas klausimas – ar gavėja turės teisę lengvai pasakyti, kad dovana netinka? Brangi ir labai asmeniška staigmena kartais apsunkina, nes tampa nepatogu jos atsisakyti. Kai norai neaiškūs, pasirinkimas tarp dviejų neutralių krypčių padeda išlaikyti ir dėmesį, ir laisvę."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys situacijos, kai vien kainos neužtenka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Padėka kolegei: pirmiausia pasitikrinkite komandos susitarimą. Jei ji kalbėjo apie mėgstamą autorių, knygų kuponas palieka pasirinkimo; asmeninio drabužio dydžio ar kosmetikos poreikio čia spėti nereikia. Dovaną įteikite be užuominos, kad ji turi atsilyginti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Draugės gimtadienis: jei turite daug bendrų kelionių nuotraukų, atrinktas albumas bus asmeniškesnis už dar vieną atsitiktinį puodelį. Pirmus puslapius paruoškite patys, o ne pažadėkite juos užpildyti po šventės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Partnerės noras turėti mažiau daiktų: pasiūlykite veiklą ir jos pasirinktą palydovą, jei tokio reikia. Pirma suderinkite formatą, tik tada mokėkite. „Dviem“ ant čekio nesuteikia dovanotojui automatinės vietos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pasirinkimo taisyklė: du privalomi taip"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užrašykite „ji pati to nori“ ir „jai nereikės tvarkyti mano dovanos“. Jei nors vieno teiginio negalite pagrįsti tikru pokalbiu ar įpročiu, pasitikslinkite. Toliau pateikti pirkiniai yra kandidatai šiam sprendimui, o ne privalomas sąrašas pagal lytį."
         },
         {
           "type": "heading",
@@ -16491,12 +16695,12 @@
         }
       ],
       "id": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
-      "revisionHash": "fe8077d00ee3187854641942cc39e84ea7a5a6e4e969dcc7cfd82af1462c6363",
+      "revisionHash": "d738f170e92fd2a5e0b9ac09acf71fdc50f1a3f2225789d2a21966f35dc2ce58",
       "approval": {
         "status": "approved",
-        "revisionHash": "fe8077d00ee3187854641942cc39e84ea7a5a6e4e969dcc7cfd82af1462c6363",
-        "approvedAt": "2026-10-25T14:08:20.953Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "d738f170e92fd2a5e0b9ac09acf71fdc50f1a3f2225789d2a21966f35dc2ce58",
+        "approvedAt": "2026-10-25T16:55:42.684Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -21391,6 +21595,37 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Trys konkretūs 50-mečio dovanos planai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prisiminimų dovana iš artimųjų: kiekvienas pateikia po vieną nuotrauką ir trumpą, jubiliatui malonią istoriją. Vienas žmogus atrenka ir surašo tekstus, kitas patikrina vardus bei datas. Nereikia surinkti lygiai 50 daiktų ar nuotraukų vien dėl sukakties skaičiaus – dvylika prasmingų istorijų bus rišlesnė dovana už skubiai užpildytą albumą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkimo laisvė skaitančiam žmogui: 20 € knygų kuponas gali papildyti asmeninį sveikinimą, jei gavėjas per šešis mėnesius galės juo pasinaudoti. Net ir bendrai dovanai nesumaišykite kelių tokių kuponų su grynųjų biudžetu: prieš pirkdami perskaitykite knygų kupono apmokėjimo sąlygas. Tai padeda išvengti netinkamo kelių kodų pirkimo vienam didesniam krepšeliui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bendra kūryba namuose: poros rankų liejimo rinkinys kainuoja 32 €, šeimos – 48 €, abiejuose yra balti dažai. Jei trys žmonės sutaria bendrą 60 € ribą, po 48 € rinkinio lieka 12 € siuntimui ir įteikimui. Krepšelyje patikrinkite tikrą sumą. Tai priemonių dovana būsimai veiklai; jau paruoštą liejinį reikėtų suplanuoti atskirai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paskutinis grupės susitarimas: kas lieka gavėjui?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jei dovanojate daiktą – pridėkite reikalingą naudojimo informaciją ir saugokite pirkimo dokumentą.",
+            "Jei dovanojate veiklą – kas rezervuos, kas važiuos kartu ir kas apmokės papildomas išlaidas?",
+            "Jei dovanojate prisiminimus – originalių nuotraukų savininkams grąžinkite failus ir neviešinkite jų be leidimo.",
+            "Jei dalis surinktų pinigų liko – grupei iš anksto pasirinkite grąžinimą arba aiškiai sutartą papildymą."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Pasidalykite atsakomybėmis prieš užsakydami"
         },
         {
@@ -21454,7 +21689,7 @@
           "text": "Jei dar neaišku, kokio tipo dovana tiktų, Dovanų idėjos pagal žmogų, progą ir biudžetą padės pradėti nuo platesnio pasirinkimo. Šiam jubiliejui užrašykite tris sprendimus: ko nori gavėjas, kokį biudžetą grupė patvirtino ir kas pasirūpins dovana iki įteikimo."
         }
       ],
-      "publishAt": "2026-11-16T08:00:00.000Z",
+      "publishAt": "2026-10-27T14:00:00.000Z",
       "media": [
         {
           "id": "31bcf7fb-f09c-405e-a407-ad4aa02fc3df",
@@ -21516,13 +21751,25 @@
           "label": "Dovanų idėjos pagal žmogų, progą ir biudžetą"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
+          "label": "20 € knygų kuponas",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/apmokejimas",
+          "label": "Knygų kupono apmokėjimo sąlygos",
+          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Kuponas nepadengia pristatymo; vienas kuponas krepšeliui, papildomi nuolaidų kodai netaikomi."
+        }
+      ],
       "id": "d79006d6-f311-482d-baf7-00ba18c9fd00",
-      "revisionHash": "d522c30fb97692ecff04041693bd6a0cccb6490d91337dbe24ac68592adac70e",
+      "revisionHash": "ec6570ec42dd3c79e63842b29892e4102841767ce092b89d020f1aed4b1fdd60",
       "approval": {
         "status": "approved",
-        "revisionHash": "d522c30fb97692ecff04041693bd6a0cccb6490d91337dbe24ac68592adac70e",
-        "approvedAt": "2026-10-14T20:18:15.624Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "ec6570ec42dd3c79e63842b29892e4102841767ce092b89d020f1aed4b1fdd60",
+        "approvedAt": "2026-10-25T16:55:43.202Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -27297,7 +27544,7 @@
           "text": "Dėl Memocasting rinkinio galite pateikti klausimą el. paštu info@memorycasting.lt: nurodykite rinkinį, naudotą apdailą ir ar liejinį ketinate įteikti vietoje, vežti, ar siųsti. Jei dovanos idėja dar tik formuojasi, gidas „Rankų liejimo rinkinys ar paruošta dovana?“ padės apsispręsti, ar gavėjai norėtų dalyvauti ją kuriant."
         }
       ],
-      "publishAt": "2026-10-27T08:00:00.000Z",
+      "publishAt": "2026-12-06T08:00:00.000Z",
       "media": [
         {
           "id": "6fc31434-d952-42b9-b8d7-aa8feff2faec",
@@ -27368,12 +27615,12 @@
         }
       ],
       "id": "e323d3fb-f8d7-4257-959d-bc0a6dbb0e1a",
-      "revisionHash": "3707868c073c98be0eb157c1784bceee7869e04fac4c6606331fd98ce2318d02",
+      "revisionHash": "b0c6f351810f57c933c3799d8de36efca5253056088f39626f1db79a739bee8b",
       "approval": {
         "status": "approved",
-        "revisionHash": "3707868c073c98be0eb157c1784bceee7869e04fac4c6606331fd98ce2318d02",
-        "approvedAt": "2026-10-15T08:45:47.329Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "b0c6f351810f57c933c3799d8de36efca5253056088f39626f1db79a739bee8b",
+        "approvedAt": "2026-10-25T16:55:43.986Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -27494,7 +27741,7 @@
           "text": "Jei vakarą norite padovanoti, kvietime įvardykite veiklą ir palikite galimybę kartu pasirinkti datą. Apsispręsti, ar gavėjams tiks pats kūrimas, padės gidas „Rankų liejimo rinkinys ar paruošta dovana?“. Daugiau pasirinkimo krypčių rasite gide „Bendros veiklos ir prisiminimų kūrimas“."
         }
       ],
-      "publishAt": "2026-10-27T14:00:00.000Z",
+      "publishAt": "2026-11-16T08:00:00.000Z",
       "media": [
         {
           "id": "1858c868-4e51-4413-87ab-539ce0825764",
@@ -27561,12 +27808,12 @@
         }
       ],
       "id": "e9000ba9-b877-4ae7-aa5c-c04bd17705c0",
-      "revisionHash": "349a9e95ce4b620e502db23635f5d741c1085089b930f8687ed21e465297bc20",
+      "revisionHash": "f02d03517fc0a3d4e720e2aade3efedf3f9739fe79d14932a3aa5e493205a0ff",
       "approval": {
         "status": "approved",
-        "revisionHash": "349a9e95ce4b620e502db23635f5d741c1085089b930f8687ed21e465297bc20",
-        "approvedAt": "2026-10-15T08:45:47.388Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "f02d03517fc0a3d4e720e2aade3efedf3f9739fe79d14932a3aa5e493205a0ff",
+        "approvedAt": "2026-10-25T16:55:44.095Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -27863,7 +28110,7 @@
           "text": "Jei bendrą veiklą renkatės kaip dovaną, platesnį pasirinkimą padės apsvarstyti dovanų idėjos pagal žmogų, progą ir biudžetą. Veiklos planą aptarkite su gavėjais: kvietimas praleisti laiką kartu gali palikti jiems laisvę pasirinkti datą ir būdą."
         }
       ],
-      "publishAt": "2026-10-26T08:00:00.000Z",
+      "publishAt": "2026-12-21T08:00:00.000Z",
       "media": [
         {
           "id": "f97e86d7-a553-4c7b-b590-0a679302d4c3",
@@ -27930,12 +28177,12 @@
         }
       ],
       "id": "4ffc7862-ca3b-4d53-8171-f7bd2af4eb49",
-      "revisionHash": "2c924805a8b150342e487815f881c423ca46d88a10d49601d49aa85bc5539493",
+      "revisionHash": "1b0a9d07faa0533a0688ba573a232ba27a3f99091dfd9f31f125d8fb17406009",
       "approval": {
         "status": "approved",
-        "revisionHash": "2c924805a8b150342e487815f881c423ca46d88a10d49601d49aa85bc5539493",
-        "approvedAt": "2026-10-25T12:19:09.830Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "1b0a9d07faa0533a0688ba573a232ba27a3f99091dfd9f31f125d8fb17406009",
+        "approvedAt": "2026-10-25T16:55:43.776Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -28051,7 +28298,7 @@
           "text": "„Renkuosi šią dovaną, nes dukra pati minėjo ___, jai tinka ___, o prieš pirkdamas dar patikrinsiu ___.“ Jei pirmą tarpą užpildyti sunku, pradėkite nuo pokalbio. Platesnes pasirinkimo kryptis padės palyginti dovanų idėjos pagal žmogų, progą ir biudžetą."
         }
       ],
-      "publishAt": "2026-12-06T08:00:00.000Z",
+      "publishAt": "2026-10-27T08:00:00.000Z",
       "media": [
         {
           "id": "078f8555-801a-45f2-8674-3bdd166c8ffc",
@@ -28118,12 +28365,12 @@
         }
       ],
       "id": "9f43cc84-8b61-4b03-a31f-7d176b673e3c",
-      "revisionHash": "0b21f57c403a0f6340714d42a4d7e35d14169979f2302b5ed70f0fe25edf9109",
+      "revisionHash": "5046d7976bed55d5513bc5e5d12fe6261361e376a73f100fa3f137a07e5cb00d",
       "approval": {
         "status": "approved",
-        "revisionHash": "0b21f57c403a0f6340714d42a4d7e35d14169979f2302b5ed70f0fe25edf9109",
-        "approvedAt": "2026-10-14T20:18:17.497Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "5046d7976bed55d5513bc5e5d12fe6261361e376a73f100fa3f137a07e5cb00d",
+        "approvedAt": "2026-10-25T16:55:43.874Z",
+        "actorId": "final-seo-editor-20261025"
       }
     },
     {
@@ -30629,5 +30876,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T14:08:22.651Z"
+  "generatedAt": "2026-10-25T16:55:44.355Z"
 }
