@@ -1,6 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
-import {memoCartLines,memoSaveCart,memoCommerceClient} from './memocasting-native-checkout';
+import {memoCartLines,memoSaveCart,memoCommerceClient} from '@/lib/memocasting-browser-commerce.mjs';
 import {memoAvailableExtra,memoAvailableProduct,memoMarketCurrency} from '@/lib/memocasting-catalog-options.mjs';
 import {memoSelectionTotal,memoStoreLabels,memoComparisonLabels} from '@/lib/memocasting-storefront.mjs';
 import {resolveCatalogSelection,selectionKey} from '@/vendor/commerce-core/commerce-client.mjs';

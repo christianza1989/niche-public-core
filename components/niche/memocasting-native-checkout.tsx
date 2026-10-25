@@ -1,19 +1,16 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
-import {CommerceClient} from '@/vendor/commerce-core/commerce-client.mjs';
 import {mountCheckout} from '@/vendor/commerce-core/checkout-ui.mjs';
 import s from './memocasting-site.module.css';
 import {memoResolveTerms} from '@/lib/memocasting-checkout-policies.mjs';
-import {memoReadCart,memoWriteCart} from '@/lib/memocasting-cart.mjs';
+import {memoCartLines,memoSaveCart,memoCommerceClient} from '@/lib/memocasting-browser-commerce.mjs';
 import {renderMemoPayment} from '@/lib/memocasting-embedded-checkout.mjs';
 import {takeMemoPaymentRecovery} from '@/lib/memocasting-payment-recovery.mjs';
 import './memocasting-checkout.css';
 export {memoCartKey} from '@/lib/memocasting-cart.mjs';
+export {memoCartLines,memoSaveCart,memoCommerceClient} from '@/lib/memocasting-browser-commerce.mjs';
 type MemoPolicy={country:string;language:string;policyVersion:string;url:string};
 
-export function memoCartLines():Array<{sku:string;quantity:number;choices?:Record<string,string>}>{try{return memoReadCart(sessionStorage);}catch{return [];}}
-export function memoSaveCart(lines:Array<{sku:string;quantity:number;choices?:Record<string,string>}>){memoWriteCart(sessionStorage,lines);}
-export function memoCommerceClient(){return new CommerceClient({fetchImpl:(path:string,init?:RequestInit)=>{if(!path.startsWith('/api/'))throw Error('invalid_api_route');return fetch('/prekyba/'+path.slice(5),init);}});}
 const loading={lt:'Kraunama prekybos informacija…',pl:'Ładowanie informacji o zamówieniu…',lv:'Tiek ielādēta pasūtījuma informācija…',et:'Tellimuse andmeid laaditakse…'};
 const unavailable={lt:'Prekybos ryšys šiuo metu nepasiekiamas. Bandykite dar kartą. Ankstesnis užsakymas šiuo pranešimu neatšaukiamas.',pl:'Połączenie ze sklepem jest obecnie niedostępne. Spróbuj ponownie. Ten komunikat nie anuluje wcześniejszego zamówienia.',lv:'Savienojums ar veikalu pašlaik nav pieejams. Mēģiniet vēlreiz. Šis paziņojums neatceļ iepriekšējo pasūtījumu.',et:'Ühendus poega pole praegu saadaval. Proovige uuesti. See teade ei tühista varasemat tellimust.'};
 const retryText={lt:'Bandyti dar kartą',pl:'Spróbuj ponownie',lv:'Mēģināt vēlreiz',et:'Proovi uuesti'};

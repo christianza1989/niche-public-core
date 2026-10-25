@@ -9,7 +9,7 @@ import {LinkedText} from './linked-text';
 import {MemoProductConfigurator} from './memocasting-product-configurator';
 import {MemoCataloguePrice} from './memocasting-catalogue';
 import {memoGalleryImages,memoStoreLabels} from '@/lib/memocasting-storefront.mjs';
-import {MemoNativeCheckout} from './memocasting-native-checkout';
+import {memoLogoImage} from '@/lib/memocasting-homepage-images.mjs';
 import {memoCheckoutPolicies} from '@/lib/memocasting-checkout-policies.mjs';
 import s from './memocasting-site.module.css';
 import {MemoHomepageMotion} from './memocasting-homepage-motion';
@@ -44,8 +44,9 @@ function GuideIndex({pages,language,giftOnly}:{pages:NichePage[];language:string
  if(!groups.length)return null;
  return <div className={s.guideArchive} data-memo-guide-archive><nav className={s.guideTopics} aria-label={labels.topics}>{groups.map(group=><a href={'#'+group.id} key={group.id}>{group.title}<span>{group.pages.length}</span></a>)}</nav>{groups.map(group=><section className={s.archiveSection} key={group.id} id={group.id}><h2>{group.title}</h2><Guides pages={group.pages}/></section>)}</div>;
 }
-export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:NichePage;livePages:NichePage[]}){
+export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:NichePage;livePages:NichePage[]}){
  const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],path=(slug:string='')=>memoPath(route,slug),localPages=livePages.filter(p=>memoRoute(p).language===route.language),exists=(slug:string)=>localPages.some(p=>memoRoute(p).baseSlug===slug),home=route.baseSlug==='',product=productSlugs.includes(route.baseSlug),cart=['cart','checkout','uzsakymas'].includes(route.baseSlug);
+ const MemoNativeCheckout=cart?(await import('./memocasting-native-checkout')).MemoNativeCheckout:null;
  const company=memoCompany(pkg,livePages),languages=memoLanguageLinks(page,livePages),languageLabel=({lt:'Svetainės kalba',pl:'Język strony',lv:'Vietnes valoda',et:'Veebilehe keel'} as Record<string,string>)[route.language];
  const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language} analytics={<MemoAnalytics siteId={pkg.siteId} path={'/'+page.slug} title={page.title} language={route.language} functional={cart} privacyPath={exists('privatumas')?path('privatumas'):undefined}/>}/>;
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
@@ -67,7 +68,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  }
  return <div className={s.site} data-memo-instructions={instruction||undefined}><a className={s.skip} href="#turinys">{labels.skip}</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/>
  <header className={s.header}>
-  <a href={path()} className={s.logo} aria-label={labels.home}><img src="/memocasting-homepage/v1/media/logo.webp" width="1000" height="300" alt="Memory Casting"/></a>
+  <a href={path()} className={s.logo} aria-label={labels.home}><img src={memoLogoImage.src} srcSet={memoLogoImage.srcSet} sizes="(max-width:700px) 190px, 230px" width="1000" height="300" alt="Memory Casting"/></a>
   <nav className={s.desktopNav} aria-label={labels.menu}>{nav.filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)} aria-current={route.baseSlug===slug?'page':undefined}>{({Rinkiniai:labels.catalogue,Instrukcija:labels.instruction,Dovanos:labels.gifts,Gidai:labels.guides,Kontaktai:labels.contact} as Record<string,string>)[label]}</a>)}</nav>
   <div className={s.headerTools}>
    {languages.length>1&&<details className={s.languageMenu}><summary><span className={s.srOnly}>{languageLabel}: </span>{route.language.toUpperCase()}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></summary><nav aria-label={languageLabel} data-memo-language-switch>{languages.map((l:{language:string;label:string;path:string;current:boolean})=><a href={l.path} hrefLang={l.language} lang={l.language} aria-current={l.current?'page':undefined} key={l.language}>{l.label}</a>)}</nav></details>}
@@ -81,7 +82,7 @@ export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:Nich
  {!cart&&!product&&!instruction&&<div className={catalogue?s.catalogHeading:s.pageHeading}><h1>{page.title}</h1><p className={s.intro}>{page.description}</p></div>}
  {['gidai','dovanos'].includes(route.baseSlug)&&memoGiftQuickPaths(localPages,route.language).length>0&&<nav className={s.giftQuickPaths} aria-label="Greitas dovanų pasirinkimas"><h2>Raskite tinkamą gidą</h2><div>{memoGiftQuickPaths(localPages,route.language).map((link:{id:string;url:string;label:string})=><a href={link.url} key={link.id}>{link.label}<span aria-hidden="true">↗</span></a>)}</div></nav>}
  {instruction&&<MemoInstructions page={page} pages={livePages}/>}
- {cart&&<MemoNativeCheckout title={page.title} language={route.language} country={route.country} policies={memoCheckoutPolicies(livePages)} catalogueUrl={exists('collections/all')?path('collections/all'):undefined}/>}
+ {MemoNativeCheckout&&<MemoNativeCheckout title={page.title} language={route.language} country={route.country} policies={memoCheckoutPolicies(livePages)} catalogueUrl={exists('collections/all')?path('collections/all'):undefined}/>}
  {page.type==='guide'&&!instruction&&<MemoArticleMeta pkg={pkg} page={page} pages={livePages} className={s.meta}/>}
  {page.type==='guide'&&!instruction&&<Body page={{...page,body:memoGuideBodyParts(page).lead}} pages={livePages}/>}
  {page.media[0]&&!product&&!instruction&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}

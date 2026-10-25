@@ -9,7 +9,8 @@ import ts from 'typescript';
 import {memoSeoMetadata,memoPageImage} from '../lib/memocasting-seo-metadata.mjs';
 import {memoCompany,memoSchemaGraph} from '../lib/memocasting-structure.mjs';
 import {memoApplyProductContent,memoProductSku} from '../lib/memocasting-product-content.mjs';
-import {memoHomepageBlocks,memoHomepageStory} from '../lib/memocasting-homepage-markup.mjs';
+import {memoHomepageBlocks,memoHomepageStory,memoHomepageAdmitted} from '../lib/memocasting-homepage-markup.mjs';
+import {memoHeroImage} from '../lib/memocasting-homepage-images.mjs';
 import {memoRoute,memoAlternates} from '../lib/memocasting-locales.mjs';
 import {memoFunctionalPage} from '../lib/memocasting-content.mjs';
 import {memoFaviconHref} from '../lib/memocasting-favicon.mjs';
@@ -88,6 +89,8 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
  const eligible=project(candidate),requestHeaders=new Headers({host:candidate.canonicalHost,'x-niche-original-path':pathname});
  const modules={
   '@/lib/memocasting-favicon.mjs':{memoFaviconHref},
+  '@/lib/memocasting-homepage-images.mjs':{memoHeroImage},
+  '@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted},
   '@/lib/memocasting-product-server':{memoPublishedProductPage:async p=>p?memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext):p,memoPublishedProductPages:async pages=>published(pages,products,shopContext)},
   '@/lib/memocasting-seo-metadata.mjs':{memoBrandName:'Memory Casting',memoSeoMetadata},
   'next/headers':{headers:async()=>requestHeaders},
@@ -117,6 +120,7 @@ test('actual layout server HTML has one consistent title, description, OG/Twitte
 });
 
 test('actual home SSR uses live prices and visible hero; unavailable offers and future pages remain honest',async()=>{
+ const preload=(await layout()).html.match(/<link\b[^>]*as="image"[^>]*>/)?.[0];assert.ok(preload);assert.equal(preload.match(/imagesrcset="([^"]+)"/i)?.[1],memoHeroImage.srcSet);assert.equal(preload.match(/imagesizes="([^"]+)"/i)?.[1],memoHeroImage.sizes);
  const {html}=await layout();assert.ok(html.includes('<title>Rankų liejimo rinkiniai porai ir šeimai | Memory Casting</title>'));assert.equal(values(html,'og:image:width')[0],'1536');assert.equal(values(html,'og:image:height')[0],'1024');
  assert.deepEqual(values(html,'description'),values(html,'og:description'));assert.deepEqual(values(html,'description'),values(html,'twitter:description'));assert.match(values(html,'description')[0],/32\s*€/);assert.equal(values(html,'product:price:amount').length,0);
  const fallback=(await layout(pkg,{shopContext:{...context,publishOffers:false}})).html;assert.ok(!/€/.test(values(fallback,'description')[0]));

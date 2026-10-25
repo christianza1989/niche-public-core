@@ -1,6 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
-import {memoCommerceClient} from './memocasting-native-checkout';
+import {memoCommerceClient} from '@/lib/memocasting-browser-commerce.mjs';
 import {memoPaymentAvailability} from '@/lib/memocasting-payment-status.mjs';
 import {memoFooterCopy} from '@/lib/memocasting-footer.mjs';
 export function MemoPaymentStatus({language='lt'}:{language?:string}){
