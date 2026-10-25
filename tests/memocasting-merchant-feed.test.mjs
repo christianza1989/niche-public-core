@@ -124,13 +124,13 @@ test('route reads actual eligible native pages and the existing catalog loader',
 
 test('published catalog export reuses the actual service-binding catalog and LIVE context reads',async()=>{
  const snapshot=shop(),paths=[];
- const module=await loadModule('../lib/memocasting-product-server.ts',{
+ const loadedModule=await loadModule('../lib/memocasting-product-server.ts',{
   react:{cache:fn=>fn},'cloudflare:workers':{env:{MEMO_COMMERCE:{fetch:async request=>{paths.push(new URL(request.url).pathname);return Response.json(request.url.endsWith('/catalog')?snapshot.products:snapshot.context);}}}},
   './memocasting-product-content.mjs':{memoProductSku,memoApplyProductContent},
  },{process:{env:{}},fetch:()=>{throw Error('Unexpected public-network loader');}});
- const current=await module.memoPublishedCatalog('memocasting.lt');assert.deepEqual(paths.sort(),['/api/catalog','/api/storefront-context']);
+ const current=await loadedModule.memoPublishedCatalog('memocasting.lt');assert.deepEqual(paths.sort(),['/api/catalog','/api/storefront-context']);
  assert.equal(memoMerchantFeedXml(pkg,project(),current).includes('<g:price>32.00 EUR</g:price>'),true);
- const [projected]=await module.memoPublishedProductPages([pkg.pages[0]],'memocasting.lt');assert.equal(projected.seoOffer.price,'32.00');
+ const [projected]=await loadedModule.memoPublishedProductPages([pkg.pages[0]],'memocasting.lt');assert.equal(projected.seoOffer.price,'32.00');
 });
 
 test('actual proxy reserves the feed before foreign gift, legacy and preview fallbacks',async()=>{
