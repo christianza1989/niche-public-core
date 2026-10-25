@@ -17,6 +17,7 @@ import {memoHomepageAdmitted,memoHomepageIntro,memoHomepageBlocks} from '@/lib/m
 import {memoHomepageProductStory} from '@/lib/memocasting-homepage-assets.mjs';
 import './memocasting-homepage.css';
 import {MemoHomepageFooter} from './memocasting-homepage-footer';
+import {MemoAnalytics} from './memocasting-analytics';
 import {memoFooterGroups} from '@/lib/memocasting-footer.mjs';
 import {MemoInspirationGallery} from './memocasting-inspiration-gallery';
 import {MemoVideoCarousel} from './memocasting-video-carousel';
@@ -46,7 +47,7 @@ function GuideIndex({pages,language,giftOnly}:{pages:NichePage[];language:string
 export function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:NichePage;livePages:NichePage[]}){
  const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],path=(slug:string='')=>memoPath(route,slug),localPages=livePages.filter(p=>memoRoute(p).language===route.language),exists=(slug:string)=>localPages.some(p=>memoRoute(p).baseSlug===slug),home=route.baseSlug==='',product=productSlugs.includes(route.baseSlug),cart=['cart','checkout','uzsakymas'].includes(route.baseSlug);
  const company=memoCompany(pkg,livePages),languages=memoLanguageLinks(page,livePages),languageLabel=({lt:'Svetainės kalba',pl:'Język strony',lv:'Vietnes valoda',et:'Veebilehe keel'} as Record<string,string>)[route.language];
- const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language}/>;
+ const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language} analytics={<MemoAnalytics siteId={pkg.siteId} path={'/'+page.slug} title={page.title} language={route.language} functional={cart} privacyPath={exists('privatumas')?path('privatumas'):undefined}/>}/>;
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
  const instruction=memoInstructionKind(page);
  const related=page.links.flatMap(l=>{const p=livePages.find(p=>p.id===l.targetPageId);return p?[{page:p,label:l.label}]:[];});
