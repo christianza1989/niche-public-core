@@ -1842,6 +1842,90 @@
       "bytes": 18382,
       "sha256": "85a22733ba660b0355ad36673f189946b8ee1f7a58ef9565b4bf768ed5da6dde",
       "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/logo-360.webp",
+      "bytes": 3682,
+      "sha256": "732f74c9501f9a364971813af9141bebb5ef2c2fd4a7dee031b672427c963394",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/logo-640.webp",
+      "bytes": 7314,
+      "sha256": "583e4635651e1991f7174b04862d87b7843af8fde1adc5e8d150d2b35b61b78d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-1-360.webp",
+      "bytes": 3646,
+      "sha256": "eb6370495c9412f69dcdd6ee13af20d834ce8c9062b7c3bd92501f2e70497608",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-1-640.webp",
+      "bytes": 6878,
+      "sha256": "bb0b0e5fc4bdc47ad488603dde51c224ce878ddbf8f6e4f90e6594a8f55e660c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-2-360.webp",
+      "bytes": 3170,
+      "sha256": "204e09dd21d6e843f24e50fd28f2ab1c2b5a15407c2aa84140a1bcc2e83523ab",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-2-640.webp",
+      "bytes": 6196,
+      "sha256": "934a744d9b749c1394fc4b2d13c1d1219d9ca5dc210c794a7218001019a931c4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-3-360.webp",
+      "bytes": 3032,
+      "sha256": "9725c63c67b06e222ced681547880e1baa4a28244e048f97f90db1f63b29e5e7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-3-640.webp",
+      "bytes": 6246,
+      "sha256": "e1f4f2d855b1983dded0daa8c75ffaea732913637934bcd40ec390f5590a3760",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-4-360.webp",
+      "bytes": 2698,
+      "sha256": "736da324d0c595ee8d7f46c9ae991c173e223a6fdde0487415ed44f5dc054c43",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-4-640.webp",
+      "bytes": 5402,
+      "sha256": "3426b9f649d526a9d331bdcbdd0e73011dd80928c17c496cc67c4d9c8de27deb",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-5-360.webp",
+      "bytes": 4186,
+      "sha256": "910180181bc516fedc460697c9e2071e7ad3faa9cadda1c8dddee81b2f094238",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-5-640.webp",
+      "bytes": 7934,
+      "sha256": "1a8c27bc410aa76b1642f9593f6fadd7aa3850222e89dc5657576eafcf5aebb5",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-6-360.webp",
+      "bytes": 2378,
+      "sha256": "11155febed8c893f8676cd7603748c55d98fed4fadc95600091960177342f9c1",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/performance-v1/chapter-6-640.webp",
+      "bytes": 4864,
+      "sha256": "5de23b957f409cb24eed930b17e26ffbd49c5b017f89f4dd3bab183c6df42b04",
+      "type": "image/webp"
     }
   ]
 }

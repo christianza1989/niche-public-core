@@ -2,7 +2,7 @@
 import {useEffect,useRef,type ReactNode} from 'react';
 import {mountMemoHomepage} from '@/lib/memocasting-homepage-motion.mjs';
 import {mountHomepageCatalogue} from '@/lib/memocasting-homepage-catalogue.mjs';
-import {memoCommerceClient} from './memocasting-native-checkout';
+import {memoCommerceClient} from '@/lib/memocasting-browser-commerce.mjs';
 
 // The narrative HTML is server-rendered trusted markup. React owns the wrapper
 // and native footer, while the effect owns only the narrative's visual spans.

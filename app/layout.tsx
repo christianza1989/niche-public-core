@@ -10,6 +10,8 @@ import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
 import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
+import {memoHeroImage} from '@/lib/memocasting-homepage-images.mjs';
+import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -67,6 +69,7 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-ext-3911b66d9f2e.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
           {niche.siteId === "memocasting" && <>
+            {page?.slug===''&&memoHomepageAdmitted(page)&&<link rel="preload" as="image" href={memoHeroImage.src} imageSrcSet={memoHeroImage.srcSet} imageSizes={memoHeroImage.sizes} fetchPriority="high"/>}
             <link rel="preload" href="/memocasting-homepage/v1/fonts/manrope-400.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
             <link rel="preload" href="/memocasting-homepage/v1/fonts/manrope-600.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
           </>}
