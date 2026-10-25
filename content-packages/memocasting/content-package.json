@@ -2067,15 +2067,11 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Dovana gali būti pats rinkinys, bendra veikla arba jau sukurtas prisiminimas: gidas Dovana porai padeda atskirti šias idėjas ir susitarti dėl to, kas iš tiesų svarbu jūsų žmonėms., bendra veikla arba jau sukurtas prisiminimas: gidas Dovana porai padeda atskirti šias idėjas ir susitarti dėl to, kas iš tiesų svarbu jūsų žmonėms., bendra veikla arba jau sukurtas prisiminimas. Šiuose giduose padedame atskirti šias idėjas ir susitarti dėl to, kas iš tiesų svarbu jūsų žmonėms."
+          "text": "Dovana gali būti pats rinkinys, bendra veikla arba jau sukurtas prisiminimas. Šiuose giduose padedame atskirti šias idėjas ir susitarti dėl to, kas iš tiesų svarbu jūsų žmonėms."
         },
         {
           "type": "paragraph",
-          "text": "Naudojimo giduose paaiškiname pasiruošimo etapus, džiovinimo etapus, apdailos pasirinkimus ir informacijos surinkimą, kai liejinys nepavyko. Čia pateikiami redakciniai planavimo pavyzdžiai. Jie nepakeičia konkretaus rinkinio instrukcijos, saugos dokumentų ar tikrų pristatymo terminų. džiovinimo etapus, apdailos pasirinkimus ir informacijos surinkimą, kai liejinys nepavyko. Čia pateikiami redakciniai planavimo pavyzdžiai. Jie nepakeičia konkretaus rinkinio instrukcijos, saugos dokumentų ar tikrų pristatymo terminų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Naudojimo giduose paaiškiname pasiruošimo etapus, džiovinimo etapus, apdailos pasirinkimus ir informacijos surinkimą, kai liejinys nepavyko. Čia pateikiami redakciniai planavimo pavyzdžiai. Jie nepakeičia konkretaus rinkinio instrukcijos, saugos dokumentų ar tikrų pristatymo terminų."
+          "text": "Naudojimo giduose atskiriame džiovinimo etapus, apdailos pasirinkimus ir informacijos surinkimą, kai liejinys nepavyko. Čia pateikiami redakciniai planavimo pavyzdžiai. Jie nepakeičia konkretaus rinkinio instrukcijos, saugos dokumentų ar tikrų pristatymo terminų."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.558Z",
@@ -2103,12 +2099,12 @@
         }
       ],
       "id": "bdd31dec-eeda-4ea9-9552-6fa0a16151a7",
-      "revisionHash": "f169238c1dcc476efbcc3217b222ca9459ad0703251a9f781a97e89aecec5a9b",
+      "revisionHash": "1982bfba0aa5994181069378213a9551beedfe90bc02404f951dbd876acde9a5",
       "approval": {
         "status": "approved",
-        "revisionHash": "f169238c1dcc476efbcc3217b222ca9459ad0703251a9f781a97e89aecec5a9b",
-        "approvedAt": "2026-10-25T12:19:09.998Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "1982bfba0aa5994181069378213a9551beedfe90bc02404f951dbd876acde9a5",
+        "approvedAt": "2026-10-25T14:08:19.984Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -2134,7 +2130,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Redakcinis pavyzdys: porai, gyvenančiai skirtinguose miestuose, įteikiate rinkinį su žinute „Pasirinkite jums tinkantį kūrybos vakarą“. Taip pat tinka Valentino dienai, kai ieškomos romantiškos dovanos ar gilesnės prasmingos dovanos ir patirties dovanos dviem., įteikiate rinkinį su žinute „Pasirinkite jums tinkantį kūrybos vakarą“. Taip pat tinka Valentino dienai, kai ieškomos romantiškos dovanos ar gilesnės prasmingos dovanos ir patirties dovanos dviem., įteikiate rinkinį su žinute „Pasirinkite jums tinkantį vakarą“. Tokia formuluotė palieka erdvės jų susitarimui. Tai nėra realaus kliento istorija ar pažadas, kiek užtruks procesas."
+          "text": "Redakcinis pavyzdys: porai, gyvenančiai skirtinguose miestuose, įteikiate rinkinį su žinute „Pasirinkite jums tinkantį vakarą“. Tokia formuluotė palieka erdvės jų susitarimui. Tai nėra realaus kliento istorija ar pažadas, kiek užtruks procesas."
         },
         {
           "type": "heading",
@@ -2279,12 +2275,12 @@
         }
       ],
       "id": "ff93abdd-8aae-4992-985e-f624ff8d874e",
-      "revisionHash": "9180e6056ccc815d68056315903368a44aa4323445d854008482bdf6e36b7bb0",
+      "revisionHash": "f5f538567fdfe00a26415f244d900b953988f4561839d9fe0707de51a79cbd0f",
       "approval": {
         "status": "approved",
-        "revisionHash": "9180e6056ccc815d68056315903368a44aa4323445d854008482bdf6e36b7bb0",
-        "approvedAt": "2026-10-25T12:19:10.333Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "f5f538567fdfe00a26415f244d900b953988f4561839d9fe0707de51a79cbd0f",
+        "approvedAt": "2026-10-25T14:08:20.060Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -2369,10 +2365,6 @@
         {
           "type": "paragraph",
           "text": "Dovanos porai gidas padės pasirinkti, kokį dalyvavimą dovanojate. Rinkinių puslapyje palyginkite patvirtintus produktų duomenis, o instrukciją tikrinkite prieš pradėdami darbą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Metinių ir vestuvių prisiminimai: bendro gyvenimo pradžiai skirtos dovanos vestuvėms ir dovanos sužadėtuvių proga turi panašią prasmę.: bendro gyvenimo pradžiai skirtos dovanos vestuvėms ir dovanos sužadėtuvių proga turi panašią prasmę."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.567Z",
@@ -2450,12 +2442,12 @@
         }
       ],
       "id": "65534355-5b66-42be-ba22-23060c6a0f2e",
-      "revisionHash": "0db461943ad8bc653c579c8ac4b8be786cb01d60f02e57b272349f3ba11f7b3b",
+      "revisionHash": "d1e45414a116bd428e103f38e92f0f1429cf30b3191e497fcd5b7f5f937bc7ce",
       "approval": {
         "status": "approved",
-        "revisionHash": "0db461943ad8bc653c579c8ac4b8be786cb01d60f02e57b272349f3ba11f7b3b",
-        "approvedAt": "2026-10-25T13:05:46.185Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d1e45414a116bd428e103f38e92f0f1429cf30b3191e497fcd5b7f5f937bc7ce",
+        "approvedAt": "2026-10-25T14:08:20.136Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -4518,10 +4510,6 @@
         {
           "type": "paragraph",
           "text": "Surinktą informaciją siųskite info@memorycasting.lt arba susisiekite telefonu +37069108251. Nurodykite konkretų rinkinio pavadinimą ir klausimą. Jei kreipiatės dėl galimo prekės trūkumo ar sutarties atsisakymo, grąžinimo puslapyje pateikta taikoma tvarka. Nesiųskite siuntos, kol nesuderinote grąžinimo."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pasižymėkite, kuriame etape pastebėjote problemą: lūžusio liejinio gidas padeda įvertinti pažeidimo pobūdį prieš kreipiantis pagalbos.: lūžusio liejinio gidas padeda įvertinti pažeidimo pobūdį prieš kreipiantis pagalbos."
         }
       ],
       "publishAt": "2026-10-11T23:36:34.908Z",
@@ -4602,12 +4590,12 @@
         }
       ],
       "id": "23796e2f-040d-40a5-86fa-9630580f1fc7",
-      "revisionHash": "3222bb250ea1befec1c2b44277d84c35409a14fb7a1498964f682ad03de52256",
+      "revisionHash": "e3d727710e923de58050c940f5a2579cc2ee9e9c71bd001351831e9c61a6733d",
       "approval": {
         "status": "approved",
-        "revisionHash": "3222bb250ea1befec1c2b44277d84c35409a14fb7a1498964f682ad03de52256",
-        "approvedAt": "2026-10-25T13:05:46.349Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "e3d727710e923de58050c940f5a2579cc2ee9e9c71bd001351831e9c61a6733d",
+        "approvedAt": "2026-10-25T14:08:20.213Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -4918,22 +4906,6 @@
             "Visai dovanai galiu skirti…",
             "Prieš pirkdamas dar turiu patikrinti…"
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vienam žmogui rinkite pagal jo paties interesus: gavėjų gidai dovanos moterims ir dovanos vyrams padeda palyginti asmeniškas idėjas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Artimiausiems šeimos nariams verta peržiūrėti, kokios dovanos tėvams sukuria didžiausią bendrystės jausmą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vienam žmogui rinkite pagal jo paties interesus: gavėjų gidai dovanos moterims ir dovanos vyrams padeda palyginti asmeniškas idėjas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Artimiausiems šeimos nariams verta peržiūrėti, kokios dovanos tėvams sukuria didžiausią bendrystės jausmą."
         }
       ],
       "publishAt": "2026-10-15T08:45:40.713Z",
@@ -5035,12 +5007,12 @@
         }
       ],
       "id": "ac6caea7-95af-4e5c-b13c-d060f7c064ae",
-      "revisionHash": "5d90a387c612d49aa881267b2ed21d62139ec94240510a21de8ed23ccb377124",
+      "revisionHash": "ea74b3adeb236765a76d19207d882d8dc3b9d58e07a1c3175e282df8ddd1c6f7",
       "approval": {
         "status": "approved",
-        "revisionHash": "5d90a387c612d49aa881267b2ed21d62139ec94240510a21de8ed23ccb377124",
-        "approvedAt": "2026-10-25T13:05:46.415Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "ea74b3adeb236765a76d19207d882d8dc3b9d58e07a1c3175e282df8ddd1c6f7",
+        "approvedAt": "2026-10-25T14:08:20.280Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -5166,10 +5138,6 @@
         {
           "type": "paragraph",
           "text": "Jei šeima dar neapsisprendė, nuo ko pradėti, pravers dovanų idėjos pagal žmogų, progą ir biudžetą. O konkretų rinkinį rinkitės tuomet, kai jau aišku, kad gavėjai nori kurti kartu ir jo naudojimo sąlygos jiems tinka."
-        },
-        {
-          "type": "paragraph",
-          "text": "Bendra veikla gali tapti gražia šeimos tradicija: šeimos prisiminimų idėjos tinka įkurtuvėms, gimus vaikui ar kai ruošiamos pavasarinės Velykų dovanos.: šeimos prisiminimų idėjos tinka įkurtuvėms, gimus vaikui ar kai ruošiamos pavasarinės Velykų dovanos."
         }
       ],
       "publishAt": "2026-10-18T13:00:00.000Z",
@@ -5259,12 +5227,12 @@
         }
       ],
       "id": "52239986-e4fd-4b2c-bab4-496387a49216",
-      "revisionHash": "94f60c34d865f1a239210987003d92b71c825428114d1b6b308f30e83618db5f",
+      "revisionHash": "06f1d63ca51d4994e69c3f75d537c790923543d5b96d38e460758eea79fe4202",
       "approval": {
         "status": "approved",
-        "revisionHash": "94f60c34d865f1a239210987003d92b71c825428114d1b6b308f30e83618db5f",
-        "approvedAt": "2026-10-25T13:05:46.484Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "06f1d63ca51d4994e69c3f75d537c790923543d5b96d38e460758eea79fe4202",
+        "approvedAt": "2026-10-25T14:08:20.343Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -11472,14 +11440,6 @@
         {
           "type": "paragraph",
           "text": "Kainas ir aprašus tikrinome 2026 m. spalio 22 d. pardavėjų puslapiuose. Įtrauktos skirtingos paskirties dovanos; jų patys nebandėme ir neteikiame bandymų įvertinimų. Memocasting yra šios svetainės pardavėjas, todėl mūsų rinkinius aiškiai lyginame ir su kitomis dovanomis. Akcijos, likučiai ir pristatymo kainos gali keistis. Dovanų scenų iliustracijos nerodo konkrečių parduotuvių asortimento ar įsigyjamų modelių; tikrus gaminių vaizdus rasite pasiūlymų nuorodose."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kalėdinės dovanos kolegoms ir darbuotojams reikalauja aiškaus biudžeto. Ieškantiems originalių kalėdinių dovanų ar sprendimų paskutinę minutę, pravers dovanų pakavimo patarimai bei Advento kalendoriaus idėjos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kalėdinės dovanos kolegoms ir darbuotojams reikalauja aiškaus biudžeto. Ieškantiems originalių kalėdinių dovanų ar sprendimų paskutinę minutę, pravers dovanų pakavimo patarimai bei Advento kalendoriaus idėjos."
         }
       ],
       "publishAt": "2026-10-15T13:00:00.000Z",
@@ -11689,12 +11649,12 @@
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "a68bc6f5488df53b8be19bc7f3bff9e76c8379c827bae2d5422449e860ab8bd4",
+      "revisionHash": "b8bdc7194663399f474765ada308ebcb81009c04331af65a68920215254d31b8",
       "approval": {
         "status": "approved",
-        "revisionHash": "a68bc6f5488df53b8be19bc7f3bff9e76c8379c827bae2d5422449e860ab8bd4",
-        "approvedAt": "2026-10-25T12:19:10.525Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "b8bdc7194663399f474765ada308ebcb81009c04331af65a68920215254d31b8",
+        "approvedAt": "2026-10-25T14:08:20.417Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -12414,10 +12374,6 @@
         {
           "type": "paragraph",
           "text": "Kainos tikrintos 2026 m. spalio 22 d.; pristatymas skaičiuojamas atskirai. Atranka paremta pardavėjų aprašais, ne mūsų bandymais. Memocasting rinkinys – mūsų parduodamas produktas. Dovanų scenų iliustracijos nėra konkrečių nurodytų modelių ar tikrų klientų nuotraukos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Renkantis kalėdinę dovaną vyrui, bendras dovanų vyrams gidas padeda įvertinti platesnius pomėgius., bendras dovanų vyrams gidas padeda įvertinti platesnius pomėgius."
         }
       ],
       "publishAt": "2026-10-17T07:00:00.000Z",
@@ -12581,12 +12537,12 @@
         }
       ],
       "id": "9bd829a9-fd02-4762-bf8b-3a6e0559c4e9",
-      "revisionHash": "9653e17d1dcbc69b4ef501dd35b5829aec361f3a0fe83976df16dd5db0885fae",
+      "revisionHash": "e113ee4663e0e6298ff6c52cb338cf355dcaf3c6754dc1f365cd0ba9321bb019",
       "approval": {
         "status": "approved",
-        "revisionHash": "9653e17d1dcbc69b4ef501dd35b5829aec361f3a0fe83976df16dd5db0885fae",
-        "approvedAt": "2026-10-25T12:19:11.320Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "e113ee4663e0e6298ff6c52cb338cf355dcaf3c6754dc1f365cd0ba9321bb019",
+        "approvedAt": "2026-10-25T14:08:20.489Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -12713,10 +12669,6 @@
         {
           "type": "paragraph",
           "text": "Kainas tikrinome 2026 m. spalio 22 d., siuntimas neįtrauktas. Pasiūlymų patys nebandėme; atranką grindžiame aprašais ir naudojimo situacijomis. Memocasting rinkiniai yra mūsų prekės. Iliustracijoje matomas bendras žaidimų vakaras, o ne konkretaus nurodyto žaidimo komplektacija."
-        },
-        {
-          "type": "paragraph",
-          "text": "Šeimos švenčių bendrystė: bendra dovana šeimai kviečia praleisti vakarą kartu ir sukurti apčiuopiamą atsiminimą.: bendra dovana šeimai kviečia praleisti vakarą kartu ir sukurti apčiuopiamą atsiminimą."
         }
       ],
       "publishAt": "2026-10-17T13:00:00.000Z",
@@ -12871,12 +12823,12 @@
         }
       ],
       "id": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-      "revisionHash": "6d347de77b56e0ce1682ce2c049bf0fac131caf749745bfd0616a98f7884242a",
+      "revisionHash": "409341d055250e93969554a443b7e8f64d6e03e21d5b4b1048a227c881a502c6",
       "approval": {
         "status": "approved",
-        "revisionHash": "6d347de77b56e0ce1682ce2c049bf0fac131caf749745bfd0616a98f7884242a",
-        "approvedAt": "2026-10-25T12:19:11.233Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "409341d055250e93969554a443b7e8f64d6e03e21d5b4b1048a227c881a502c6",
+        "approvedAt": "2026-10-25T14:08:20.558Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -13286,10 +13238,6 @@
         {
           "type": "paragraph",
           "text": "Pasiūlymus ir kainas tikrinome 2026 m. spalio 22 d.; tai ne atliktų produktų bandymų reitingas. Kainos, akcijos ir likučiai gali keistis. Memocasting rinkinys – mūsų parduodama prekė. Iliustracijos perteikia bendro laiko idėją ir nėra konkrečių gaminių ar klientų darbų nuotraukos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Šventinis dėmesys tėvams: prasmingos dovanos tėvams sujungia kartas ir suteikia šilumos.: prasmingos dovanos tėvams sujungia kartas ir suteikia šilumos."
         }
       ],
       "publishAt": "2026-10-19T07:00:00.000Z",
@@ -13458,12 +13406,12 @@
         }
       ],
       "id": "9540b7b3-3c05-429f-89b8-55db019f8577",
-      "revisionHash": "f654a179c17e4488403029608d743bbca8a27f8a9505044746f28fa003e91ead",
+      "revisionHash": "352645ca0071907b5f256cfc716235487f10ea40ac3b6c9a3a3ec14442494221",
       "approval": {
         "status": "approved",
-        "revisionHash": "f654a179c17e4488403029608d743bbca8a27f8a9505044746f28fa003e91ead",
-        "approvedAt": "2026-10-25T12:19:11.438Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "352645ca0071907b5f256cfc716235487f10ea40ac3b6c9a3a3ec14442494221",
+        "approvedAt": "2026-10-25T14:08:20.624Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -14506,10 +14454,6 @@
             "Patikrinau aktualias prekės ar kupono sąlygas ir realią gavimo datą.",
             "Kortelėje nėra užuominų, kurios galėtų žmogų sugėdinti."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Komandos dovanų planavimas: kalėdinės dovanos darbuotojams, bendros dovanos kolegoms ir taktiškos dovanos vadovui padeda išlaikyti profesinį etiketą.: kalėdinės dovanos darbuotojams, bendros dovanos kolegoms ir taktiškos dovanos vadovui padeda išlaikyti profesinį etiketą."
         }
       ],
       "publishAt": "2026-10-22T07:00:00.000Z",
@@ -14591,12 +14535,12 @@
         }
       ],
       "id": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
-      "revisionHash": "195ebe2d95a147e915ee7f883a3e5ed6c120744a326e1406b4923cec733b105c",
+      "revisionHash": "d3816b1dcd51bd6dd3804e4de8d7fa9dc9ede9d994d3806f88e3b14b49394fb7",
       "approval": {
         "status": "approved",
-        "revisionHash": "195ebe2d95a147e915ee7f883a3e5ed6c120744a326e1406b4923cec733b105c",
-        "approvedAt": "2026-10-25T13:05:46.556Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d3816b1dcd51bd6dd3804e4de8d7fa9dc9ede9d994d3806f88e3b14b49394fb7",
+        "approvedAt": "2026-10-25T14:08:20.690Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -15523,10 +15467,6 @@
         {
           "type": "paragraph",
           "text": "Kainos patikrintos 2026 m. spalio 22 d. Be aiškiai paminėtų akcijų naudojamos kainos be narystės; pristatymas neįtrauktas. Pasiūlymų nebandėme, tai redakcinis pasirinkimo gidas. Iliustracijos rodo bendras dovanų situacijas, ne konkrečius įsigyjamus modelius."
-        },
-        {
-          "type": "paragraph",
-          "text": "Biudžeto planavimas šventėms: bendras nebrangių dovanų vadovas padeda rasti prasmingų smulkmenų ištisus metus.: bendras nebrangių dovanų vadovas padeda rasti prasmingų smulkmenų ištisus metus."
         }
       ],
       "publishAt": "2026-10-22T19:20:55.005Z",
@@ -15693,12 +15633,12 @@
         }
       ],
       "id": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-      "revisionHash": "42375312b91717c00e89e9b2843fc8ef08b35ca6b3bd6ef6f25f176cc966c439",
+      "revisionHash": "96fdfe619b13b02a77fd524ef2b21c2a51dd0013a79dfc7b2f9fe104d3e202b7",
       "approval": {
         "status": "approved",
-        "revisionHash": "42375312b91717c00e89e9b2843fc8ef08b35ca6b3bd6ef6f25f176cc966c439",
-        "approvedAt": "2026-10-25T12:19:12.220Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "96fdfe619b13b02a77fd524ef2b21c2a51dd0013a79dfc7b2f9fe104d3e202b7",
+        "approvedAt": "2026-10-25T14:08:20.757Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -15836,10 +15776,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar abejojate dėl pačios idėjos, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės grįžti prie gavėjo norų ir biudžeto. Šiandien pasirinkite vieną įgyvendinamą variantą ir pasirūpinkite, kad jį būtų malonu gauti."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kai laiko liko labai mažai, klausimas dovana ar dovanų kuponas padeda greitai išspręsti dovanos gavimo klausimą., klausimas dovana ar dovanų kuponas padeda greitai išspręsti dovanos gavimo klausimą."
         }
       ],
       "publishAt": "2026-12-21T08:00:00.000Z",
@@ -15909,12 +15845,12 @@
         }
       ],
       "id": "aa5dd1fe-62a3-4cd8-ac98-084ee2fedae0",
-      "revisionHash": "0c28f50c1f8ad5a60c960bd06fd45ccf7f617eb4449bca89eb39a68eb64caf88",
+      "revisionHash": "207b3093a5e98d798ac85481e31c90aa64283de2e08fb75166978272a0185c2f",
       "approval": {
         "status": "approved",
-        "revisionHash": "0c28f50c1f8ad5a60c960bd06fd45ccf7f617eb4449bca89eb39a68eb64caf88",
-        "approvedAt": "2026-10-25T12:19:10.765Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "207b3093a5e98d798ac85481e31c90aa64283de2e08fb75166978272a0185c2f",
+        "approvedAt": "2026-10-25T14:08:20.822Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -16064,10 +16000,6 @@
         {
           "type": "paragraph",
           "text": "Jeigu dovanos dar neišsirinkote, gidas „Kalėdinės dovanos: kaip išrinkti tinkamą“ padės pradėti nuo žmogaus norų. Pakavimą planuokite jau žinodami, ką įteiksite ir kaip dovana pasieks gavėją."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pakavimo medžiagos ir stilius: estetiškas įpakavimas papuošia kalėdinių dovanų dėžutes, ypač kai pakuojate rankų darbo dovanas. Sužinokite, kaip supakuoti dovaną tvarkingai ir be streso.: estetiškas įpakavimas papuošia kalėdinių dovanų dėžutes, ypač kai pakuojate rankų darbo dovanas. Sužinokite, kaip supakuoti dovaną tvarkingai ir be streso."
         }
       ],
       "publishAt": "2026-10-25T08:00:00.000Z",
@@ -16241,12 +16173,12 @@
         }
       ],
       "id": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
-      "revisionHash": "f6aad9fd086b09797e8f3743ffa18a02a82fe4be30daf59c0a4ac3bdc856ed11",
+      "revisionHash": "ab8febb361953e1d10696f2bfecf093200bcfe958bb433a6cfa7cc5f273b3393",
       "approval": {
         "status": "approved",
-        "revisionHash": "f6aad9fd086b09797e8f3743ffa18a02a82fe4be30daf59c0a4ac3bdc856ed11",
-        "approvedAt": "2026-10-25T12:19:10.691Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "ab8febb361953e1d10696f2bfecf093200bcfe958bb433a6cfa7cc5f273b3393",
+        "approvedAt": "2026-10-25T14:08:20.885Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -16383,10 +16315,6 @@
         {
           "type": "paragraph",
           "text": "Kainos ir pagrindinės savybės tikrintos 2026 m. spalio 22 d., pristatymas neįtrauktas. Tai redakcinė atranka pagal aprašus, ne mūsų atlikti bandymai. Memocasting rinkinys – mūsų prekė. Dovanų scenų iliustracijos nėra konkrečių gaminių, užsiėmimų ar klientų darbų dokumentinės nuotraukos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kiekviena moteris turi savitų pomėgių: dovanos žmonai, dovanos sesei ir dovanos dukrai skiriasi pagal santykį, o Moters dienai dažniau ieškoma pavasariško dėmesio.: dovanos žmonai, dovanos sesei ir dovanos dukrai skiriasi pagal santykį, o Moters dienai dažniau ieškoma pavasariško dėmesio."
         }
       ],
       "publishAt": "2026-10-22T19:20:55.005Z",
@@ -16563,12 +16491,12 @@
         }
       ],
       "id": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
-      "revisionHash": "aa73eb374bda2b88ad1d8070bfd6480d2b41cf1bf64c7f7b085f3e144d0ea4f1",
+      "revisionHash": "fe8077d00ee3187854641942cc39e84ea7a5a6e4e969dcc7cfd82af1462c6363",
       "approval": {
         "status": "approved",
-        "revisionHash": "aa73eb374bda2b88ad1d8070bfd6480d2b41cf1bf64c7f7b085f3e144d0ea4f1",
-        "approvedAt": "2026-10-25T12:19:10.846Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "fe8077d00ee3187854641942cc39e84ea7a5a6e4e969dcc7cfd82af1462c6363",
+        "approvedAt": "2026-10-25T14:08:20.953Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -16703,10 +16631,6 @@
         {
           "type": "paragraph",
           "text": "Jei negalite atsakyti į pirmąjį klausimą, grįžkite prie pokalbio su gavėju. Platesnę pasirinkimo eigą rasite gide „Dovanų idėjos pagal žmogų, progą ir biudžetą“."
-        },
-        {
-          "type": "paragraph",
-          "text": "Praktiški sprendimai pagal gavėją: dovanos draugui, dovanos broliui ir dovanos sūnui padeda pasirinkti pagal konkretų amžių ir laisvalaikį.: dovanos draugui, dovanos broliui ir dovanos sūnui padeda pasirinkti pagal konkretų amžių ir laisvalaikį."
         }
       ],
       "publishAt": "2026-10-29T14:00:00.000Z",
@@ -16788,12 +16712,12 @@
         }
       ],
       "id": "482400a7-e1d3-47ad-91a2-c83d1cea971a",
-      "revisionHash": "b5b6b600fa032e5e99e1a42863ecc7b0ec06de4f69a1b4b2a7eab8c13a89bf56",
+      "revisionHash": "d275b8f5830021734423cf179b7270ad31a6db4f8320cd5be34e3e937a02385a",
       "approval": {
         "status": "approved",
-        "revisionHash": "b5b6b600fa032e5e99e1a42863ecc7b0ec06de4f69a1b4b2a7eab8c13a89bf56",
-        "approvedAt": "2026-10-25T13:05:46.624Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d275b8f5830021734423cf179b7270ad31a6db4f8320cd5be34e3e937a02385a",
+        "approvedAt": "2026-10-25T14:08:21.021Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -16918,10 +16842,6 @@
         {
           "type": "paragraph",
           "text": "Gruodžio šventėms skirta atskira atranka kalėdinės dovanos mamai; bendram tėvų pasirinkimui – kalėdinės dovanos tėvams. Pasiūlymai tikrinti 2026 m. spalio 22 d., kainos be pristatymo ir gali keistis. Tai atranka pagal aprašus, ne atlikti bandymai. Memocasting rinkinys – mūsų prekė. Iliustracijos nerodo konkrečių užsiėmimų ar klientų darbų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Mamos šventės metuose: pavasarį Mamos dienai ieškoma švelnaus padėkos ženklo.: pavasarį Mamos dienai ieškoma švelnaus padėkos ženklo."
         }
       ],
       "publishAt": "2026-10-22T19:20:55.005Z",
@@ -17072,12 +16992,12 @@
         }
       ],
       "id": "6addee05-19c5-477b-ae4d-d3b310acb4b8",
-      "revisionHash": "795ae0c05fc5a5b551f1ce5724181711ded8d5c3b7e840665b04d047ef2358ef",
+      "revisionHash": "90375582997fe9c281a8fb327c870d4df4536dda22789895c549c1d164960afa",
       "approval": {
         "status": "approved",
-        "revisionHash": "795ae0c05fc5a5b551f1ce5724181711ded8d5c3b7e840665b04d047ef2358ef",
-        "approvedAt": "2026-10-25T12:19:11.596Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "90375582997fe9c281a8fb327c870d4df4536dda22789895c549c1d164960afa",
+        "approvedAt": "2026-10-25T14:08:21.089Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -17184,10 +17104,6 @@
         {
           "type": "paragraph",
           "text": "Prieš pirkdami užbaikite sakinį: „Ši dovana tinka mano tėčiui, nes jis…“ Jei galite įvardyti tikrą jo norą ar kasdienį poreikį, turite aiškų pasirinkimo pagrindą. Jei atsakymas lieka „nes tokias dovanas dovanoja tėčiams“, verta dar pasikalbėti. Kitoms kryptims palyginti pravers dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Tėčio pomėgiai ir laisvalaikis: birželio pradžioje Tėvo dienai tinka praktiškos ir kartu praleisto laiko idėjos.: birželio pradžioje Tėvo dienai tinka praktiškos ir kartu praleisto laiko idėjos."
         }
       ],
       "publishAt": "2026-10-30T14:00:00.000Z",
@@ -17261,12 +17177,12 @@
         }
       ],
       "id": "ce4fd7f2-afb5-4e73-b376-ea0d93f646c6",
-      "revisionHash": "513683b5399122240bc6bb9bd02f9fb7cdd84247af7b2b4dc9d64592f0031d4a",
+      "revisionHash": "4501b251475029c53697afe6e0f447414eca077bcd18fe4403937ed508bca538",
       "approval": {
         "status": "approved",
-        "revisionHash": "513683b5399122240bc6bb9bd02f9fb7cdd84247af7b2b4dc9d64592f0031d4a",
-        "approvedAt": "2026-10-25T13:05:46.688Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "4501b251475029c53697afe6e0f447414eca077bcd18fe4403937ed508bca538",
+        "approvedAt": "2026-10-25T14:08:21.153Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -17601,10 +17517,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar dvejojate dėl dovanos tipo, dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnius pasirinkimus. Šiam sprendimui pakanka aiškiai įvardyti, kuo dovana tiks būtent jūsų seneliams ir kaip pasirūpinsite jos įteikimu."
-        },
-        {
-          "type": "paragraph",
-          "text": "Dėmesys ir pagarba vyresnio amžiaus artimiesiems: atskiros dovanos močiutei ir dovanos seneliui parodo rūpestį, o išėjimui į pensiją tinka ilgaamžiai prisiminimai.: atskiros dovanos močiutei ir dovanos seneliui parodo rūpestį, o išėjimui į pensiją tinka ilgaamžiai prisiminimai."
         }
       ],
       "publishAt": "2026-10-31T14:00:00.000Z",
@@ -17686,12 +17598,12 @@
         }
       ],
       "id": "79547728-bcb0-49ff-9e25-6ddfa30e872b",
-      "revisionHash": "db1f81b9f22654ccd1dd7a5be2c0d8d4ad349bbe574d9005b23c20533849339b",
+      "revisionHash": "9e79f9fd9c7ba0601e552143d00fa57d4b82f4b447e7286c1aeb5f76d1afd75c",
       "approval": {
         "status": "approved",
-        "revisionHash": "db1f81b9f22654ccd1dd7a5be2c0d8d4ad349bbe574d9005b23c20533849339b",
-        "approvedAt": "2026-10-25T13:05:46.756Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "9e79f9fd9c7ba0601e552143d00fa57d4b82f4b447e7286c1aeb5f76d1afd75c",
+        "approvedAt": "2026-10-25T14:08:21.229Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -19739,10 +19651,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar sunku pasirinkti dovanos tipą, grįžkite prie dovanų idėjų pagal žmogų, progą ir biudžetą. Kalėdiniams mainams taikomi papildomi susitarimai dėl gavėjų ir išlaidų, todėl juos aptariame atskirame kolegoms skirtų kalėdinių dovanų gide."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kolegiški santykiai darbe: nuoširdžios padėkos dovanos padeda išreikšti dėkingumą, o Boso dienai tinka bendras komandos dėmesys.: nuoširdžios padėkos dovanos padeda išreikšti dėkingumą, o Boso dienai tinka bendras komandos dėmesys."
         }
       ],
       "publishAt": "2026-12-02T08:00:00.000Z",
@@ -19828,12 +19736,12 @@
         }
       ],
       "id": "aa8d6744-1d62-4a45-a452-00da2dbfe960",
-      "revisionHash": "e00bf74b3fde95a57afa326ab3f00f46fcf10e73e3f1bdbd42aea297b11cf59e",
+      "revisionHash": "dac7c1f462eabcdf96e5ddf7011026bad9f20f2943184dc7190413a536d1810f",
       "approval": {
         "status": "approved",
-        "revisionHash": "e00bf74b3fde95a57afa326ab3f00f46fcf10e73e3f1bdbd42aea297b11cf59e",
-        "approvedAt": "2026-10-25T13:05:46.828Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "dac7c1f462eabcdf96e5ddf7011026bad9f20f2943184dc7190413a536d1810f",
+        "approvedAt": "2026-10-25T14:08:21.302Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -20145,10 +20053,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar neaišku, ar dovanoti daiktą, ar bendrą veiklą, pradėkite nuo gido „Dovanų idėjos pagal žmogų, progą ir biudžetą“. Renkantis šventei, gidas „Kalėdinės dovanos vaikams pagal amžių ir interesus“ padės papildomai apgalvoti kalėdinės dovanos pasirinkimą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vaikų dovanų amžiaus tarpsniai: patiems mažiausiems dovanos renkamos krikštynoms arba gimus vaikui.: patiems mažiausiems dovanos renkamos krikštynoms arba gimus vaikui."
         }
       ],
       "publishAt": "2026-12-04T08:00:00.000Z",
@@ -20225,12 +20129,12 @@
         }
       ],
       "id": "9c169d89-c8bb-463a-838e-e7ba173853f7",
-      "revisionHash": "485d1b830f7f845512a2773c609e712b3434201512725c5b9655978e27931277",
+      "revisionHash": "97f366411090d92c9ccd74cb10f3c7ec15e3b6de6dbe1e115ca931b6173e042a",
       "approval": {
         "status": "approved",
-        "revisionHash": "485d1b830f7f845512a2773c609e712b3434201512725c5b9655978e27931277",
-        "approvedAt": "2026-10-25T12:19:11.157Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "97f366411090d92c9ccd74cb10f3c7ec15e3b6de6dbe1e115ca931b6173e042a",
+        "approvedAt": "2026-10-25T14:08:21.387Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -20342,10 +20246,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar neaišku, nuo ko pradėti, padės Dovanų idėjos pagal žmogų, progą ir biudžetą. Šventiniam pasirinkimui skirtas gidas „Kalėdinės dovanos paaugliams: kaip išgirsti jų norus“. Šio straipsnio klausimus galite naudoti ir gimtadieniui ar kitai progai – pirmiausia išsiaiškinkite konkretų norą, tada rinkitės dovaną."
-        },
-        {
-          "type": "paragraph",
-          "text": "Paauglių interesai ir savarankiškumas: mokslo baigimo proga išleistuvėms tinka dovanos, padedančios žengti į naują etapą.: mokslo baigimo proga išleistuvėms tinka dovanos, padedančios žengti į naują etapą."
         }
       ],
       "publishAt": "2026-12-05T08:00:00.000Z",
@@ -20411,12 +20311,12 @@
         }
       ],
       "id": "2ea7da9f-a99e-437a-b1bf-4a6b90f11573",
-      "revisionHash": "d9847c2f7e7ddc8c926d9a324e4d5da97fbbc33bfb190d35825c61b1207b24ec",
+      "revisionHash": "af8500fbe2fb7fc2e4a8b7b7ea2e03480e7c4fa1fa38ac2a9d178ccf5fdba380",
       "approval": {
         "status": "approved",
-        "revisionHash": "d9847c2f7e7ddc8c926d9a324e4d5da97fbbc33bfb190d35825c61b1207b24ec",
-        "approvedAt": "2026-10-25T12:19:12.014Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "af8500fbe2fb7fc2e4a8b7b7ea2e03480e7c4fa1fa38ac2a9d178ccf5fdba380",
+        "approvedAt": "2026-10-25T14:08:21.457Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -20561,10 +20461,6 @@
         {
           "type": "paragraph",
           "text": "Jei pirmojo sakinio užbaigti negalite, pradėkite nuo klausimo gavėjui, o ne nuo pirkimo. Dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnes kryptis. Jei jau pasirinkote rankų liejimo idėją, pirmiausia išsiaiškinkite rinkinio naudojimo sąlygas ir galimybę jį gauti iki numatytos įteikimo dienos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Gimtadienio planavimas: apvalioms sukaktims jubiliejaus proga renkamos solidesnės dovanos, o vardadieniui pakanka mielos smulkmenos.: apvalioms sukaktims jubiliejaus proga renkamos solidesnės dovanos, o vardadieniui pakanka mielos smulkmenos."
         }
       ],
       "publishAt": "2026-10-28T08:00:00.000Z",
@@ -20638,12 +20534,12 @@
         }
       ],
       "id": "73c7db89-bc45-445a-8909-6f48c43e5461",
-      "revisionHash": "1ba1ddd2f0467f2baf8b4ea219fac3d3e23e5d02172ddce0d8a5395b97d0910b",
+      "revisionHash": "3345a5bbf4e85fab3301f57ca962aca74d8472242f638fb6ff4ea89555fd9a63",
       "approval": {
         "status": "approved",
-        "revisionHash": "1ba1ddd2f0467f2baf8b4ea219fac3d3e23e5d02172ddce0d8a5395b97d0910b",
-        "approvedAt": "2026-10-25T13:05:46.913Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "3345a5bbf4e85fab3301f57ca962aca74d8472242f638fb6ff4ea89555fd9a63",
+        "approvedAt": "2026-10-25T14:08:21.523Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -21933,10 +21829,6 @@
         {
           "type": "paragraph",
           "text": "„Ši dovana skirta ___, šeima jos norėtų, nes ___, o po įteikimo reikės ___.“ Jei negalite užpildyti paskutinės dalies, patikslinkite, kas pasirūpins naudojimu, saugojimu ar veiklos organizavimu. Platesniam palyginimui pravers Dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Krikštynų dovanų prasmė: kartu dažnai paruošiamos ir atskiros dovanos krikšto tėvams kaip padėka už dvasinį globėjiškumą.: kartu dažnai paruošiamos ir atskiros dovanos krikšto tėvams kaip padėka už dvasinį globėjiškumą."
         }
       ],
       "publishAt": "2026-11-18T08:00:00.000Z",
@@ -22002,12 +21894,12 @@
         }
       ],
       "id": "25b9f7f1-a581-4216-a54c-c9752492176a",
-      "revisionHash": "e6b20e299f2a10c30f9c7a2ebf179292f9f5ca47d0d27a76fd8d49d01645fe2c",
+      "revisionHash": "74a7b59852ffe9553a0aaa859f5c2f8b4c12db444a7866394e2adcbe0232d28b",
       "approval": {
         "status": "approved",
-        "revisionHash": "e6b20e299f2a10c30f9c7a2ebf179292f9f5ca47d0d27a76fd8d49d01645fe2c",
-        "approvedAt": "2026-10-25T12:19:11.079Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "74a7b59852ffe9553a0aaa859f5c2f8b4c12db444a7866394e2adcbe0232d28b",
+        "approvedAt": "2026-10-25T14:08:21.583Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -22702,10 +22594,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar svarstote kelis skirtingus pasirinkimus, dovanų idėjos pagal žmogų, progą ir biudžetą padės juos palyginti. Pradėkite nuo gavėjo norų ir tik tada spręskite, ar padėkai reikia daikto, bendros veiklos, ar vien jūsų žodžių."
-        },
-        {
-          "type": "paragraph",
-          "text": "Dėkingumo išraiška profesinėse šventėse: Mokytojų dienai renkamos pagarbios ir subtilios padėkos dovanos.: Mokytojų dienai renkamos pagarbios ir subtilios padėkos dovanos."
         }
       ],
       "publishAt": "2026-11-22T08:00:00.000Z",
@@ -22775,12 +22663,12 @@
         }
       ],
       "id": "602b9b2e-5b8e-480c-9001-6db04a992900",
-      "revisionHash": "a3558d4e18b4b5cf93b90f38f4a6c45d053d58d934c4b86c5133452cf0b68276",
+      "revisionHash": "22927a1c25622d0e7c8bb9d231653cc5e7c2e877978d651ae28cad142ac84553",
       "approval": {
         "status": "approved",
-        "revisionHash": "a3558d4e18b4b5cf93b90f38f4a6c45d053d58d934c4b86c5133452cf0b68276",
-        "approvedAt": "2026-10-25T13:05:46.993Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "22927a1c25622d0e7c8bb9d231653cc5e7c2e877978d651ae28cad142ac84553",
+        "approvedAt": "2026-10-25T14:08:21.648Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -23431,10 +23319,6 @@
         {
           "type": "paragraph",
           "text": "„Renkuosi šią dovaną, nes žinau, kad tau svarbu…“ Jei sakinį galite užbaigti konkrečiu gavėjo noru, pomėgiu ar jums abiem brangiu prisiminimu, turite aiškų pasirinkimo pagrindą. Jei atsakymas lieka miglotas, pirmiau pasikalbėkite su žmogumi. Platesnį pasirinkimą padės apgalvoti Dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Dovanos, kurios palieka gilų įspūdį: originalios dovanos ir personalizuotos dovanos padeda išvengti standartinių daiktų pertekliaus.: originalios dovanos ir personalizuotos dovanos padeda išvengti standartinių daiktų pertekliaus."
         }
       ],
       "publishAt": "2026-11-07T08:00:00.000Z",
@@ -23508,12 +23392,12 @@
         }
       ],
       "id": "e275b67f-3730-4088-95f1-19313d65f1cf",
-      "revisionHash": "f9ffea3406cf4d794a7b7655f590a46c280faebed76e80fb349c67f8d6c9ed95",
+      "revisionHash": "f2b7d64c030899f290446b58a38d82933af506d1134bfe825fddd06fa7c1a61c",
       "approval": {
         "status": "approved",
-        "revisionHash": "f9ffea3406cf4d794a7b7655f590a46c280faebed76e80fb349c67f8d6c9ed95",
-        "approvedAt": "2026-10-25T12:19:12.138Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "f2b7d64c030899f290446b58a38d82933af506d1134bfe825fddd06fa7c1a61c",
+        "approvedAt": "2026-10-25T14:08:21.715Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -23806,10 +23690,6 @@
         {
           "type": "paragraph",
           "text": "Rankų liejimo rinkinys porai ir Rankų liejimo rinkinys šeimai leidžia susipažinti su dviem Memocasting pasirinkimais. Prieš rinkdamiesi patikrinkite konkretaus rinkinio komplektaciją ir instrukciją; vien pavadinimas ar liejinio nuotrauka nepatvirtina tinkamo dalyvių skaičiaus ar amžiaus. Jei dar svarstote tarp daikto ir veiklos, platesnį pasirinkimą padės apgalvoti Dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ilgalaikė vertė buityje: ilgaamžės tvarios dovanos mažina atliekų kiekį ir tarnauja metų metus.: ilgaamžės tvarios dovanos mažina atliekų kiekį ir tarnauja metų metus."
         }
       ],
       "publishAt": "2026-12-16T08:00:00.000Z",
@@ -23879,12 +23759,12 @@
         }
       ],
       "id": "e47d9975-838f-4868-976a-6f2619dbbe1e",
-      "revisionHash": "d5a5278fdfdfca2aa74d18187376f3495e885d05daf1dad2ee3ce67b77647add",
+      "revisionHash": "5ecd67ac378d223aac47de5ff84ae4593f53af6142a45c2b9a4951185dd6dc63",
       "approval": {
         "status": "approved",
-        "revisionHash": "d5a5278fdfdfca2aa74d18187376f3495e885d05daf1dad2ee3ce67b77647add",
-        "approvedAt": "2026-10-25T12:19:12.727Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "5ecd67ac378d223aac47de5ff84ae4593f53af6142a45c2b9a4951185dd6dc63",
+        "approvedAt": "2026-10-25T14:08:21.780Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -24020,10 +23900,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar neaišku, kokio tipo dovanos ieškoti, Dovanų idėjos pagal žmogų, progą ir biudžetą padės pradėti nuo gavėjo poreikių. Pasirinkę kryptį, palyginkite kelis variantus pagal tinkamumą ir galutinę kainą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Mažas biudžetas ir kokybė: net nedidelės vertės praktiškos dovanos gali būti kasdien naudingos gavėjui.: net nedidelės vertės praktiškos dovanos gali būti kasdien naudingos gavėjui."
         }
       ],
       "publishAt": "2026-11-09T08:00:00.000Z",
@@ -24093,12 +23969,12 @@
         }
       ],
       "id": "210f6e28-8fae-4316-a40f-27c9b3e946db",
-      "revisionHash": "fa8e92da226696adc59b83041cbc8a9ed6804726eb16774733927927d70e2686",
+      "revisionHash": "28b9e0b3fdf2dfe37653393ca060560e81654d8b17995879ec028464823ebfd1",
       "approval": {
         "status": "approved",
-        "revisionHash": "fa8e92da226696adc59b83041cbc8a9ed6804726eb16774733927927d70e2686",
-        "approvedAt": "2026-10-25T12:19:12.295Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "28b9e0b3fdf2dfe37653393ca060560e81654d8b17995879ec028464823ebfd1",
+        "approvedAt": "2026-10-25T14:08:21.842Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -24228,10 +24104,6 @@
         {
           "type": "paragraph",
           "text": "„Šią dovaną renkuosi, nes žmogus norėtų ją naudoti, saugoti arba pats kurti.“ Įrašykite konkretų paaiškinimą: kur daiktas bus naudojamas, kokį prisiminimą primins ar kodėl gavėjui patiks veikla. Jei atsakymas kol kas tėra „nes originalu“, pirmiau pasidomėkite žmogaus norais. Dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti ir kitus pasirinkimus."
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankų darbo šiluma: jei norite kurti patys, pasidaryk pats dovanas lengva pritaikyti pagal turimas medžiagas.: jei norite kurti patys, pasidaryk pats dovanas lengva pritaikyti pagal turimas medžiagas."
         }
       ],
       "publishAt": "2026-11-10T08:00:00.000Z",
@@ -24301,12 +24173,12 @@
         }
       ],
       "id": "8ad0f36a-518c-42eb-ac95-07c6cf19a212",
-      "revisionHash": "51c9271b3773acd9c4230c1e843e925b67a7b1b5acac52fe41b6797fbe3ab720",
+      "revisionHash": "5b42e312844ef71cdad001f13eba5f0f76f77b169ccc71c558b365cef9b9f35c",
       "approval": {
         "status": "approved",
-        "revisionHash": "51c9271b3773acd9c4230c1e843e925b67a7b1b5acac52fe41b6797fbe3ab720",
-        "approvedAt": "2026-10-25T12:19:12.460Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "5b42e312844ef71cdad001f13eba5f0f76f77b169ccc71c558b365cef9b9f35c",
+        "approvedAt": "2026-10-25T14:08:21.907Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -24447,10 +24319,6 @@
         {
           "type": "paragraph",
           "text": "Prieš pakuodami perskaitykite visus užrašus, patikrinkite vardus ir pažiūrėkite, ar dovana užbaigta taip, kaip planavote. Jei vis dar abejojate, ar žmogui labiau tiktų daiktas, prisiminimas ar bendra veikla, pasirinkti kryptį padės Dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kūryba savo rankomis: savarankiškai pagamintos rankų darbo dovanos džiugina asmeniniu įdėtu laiku.: savarankiškai pagamintos rankų darbo dovanos džiugina asmeniniu įdėtu laiku."
         }
       ],
       "publishAt": "2026-11-11T08:00:00.000Z",
@@ -24520,12 +24388,12 @@
         }
       ],
       "id": "54ea557c-bedf-4ed1-89c3-750f42fe745b",
-      "revisionHash": "1399a2387d50f14dc13f8475992e7c24087219179be4b606193828fee40dbc54",
+      "revisionHash": "ea84420a21e52946294aeee3b5d5d43a3138b458569b2481fd027072371fb82b",
       "approval": {
         "status": "approved",
-        "revisionHash": "1399a2387d50f14dc13f8475992e7c24087219179be4b606193828fee40dbc54",
-        "approvedAt": "2026-10-25T12:19:12.377Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "ea84420a21e52946294aeee3b5d5d43a3138b458569b2481fd027072371fb82b",
+        "approvedAt": "2026-10-25T14:08:21.977Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -24997,10 +24865,6 @@
         {
           "type": "paragraph",
           "text": "Jei gavėjams svarbiausia galimybė kurti kartu, susipažinkite su porai skirtu rankų liejimo rinkiniu arba šeimai skirtu rankų liejimo rinkiniu. Jei svarbiausias pasirinkimo kriterijus yra gamyba Lietuvoje, prieš apsispręsdami paprašykite konkrečių kilmės duomenų. Platesnį pasirinkimą padės apgalvoti dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vietos kūrėjų ir amatininkų gaminiai: teminiai dovanų rinkiniai ir skanios valgomos dovanos supažindina su Lietuvos skoniais.: teminiai dovanų rinkiniai ir skanios valgomos dovanos supažindina su Lietuvos skoniais."
         }
       ],
       "publishAt": "2026-12-18T08:00:00.000Z",
@@ -25074,12 +24938,12 @@
         }
       ],
       "id": "3848997e-1f9f-4ea9-92be-45a764c6f71d",
-      "revisionHash": "e82e1e2b763f346b3219b78f7e7da7c68ff31f1901219e6e9e4888e8c744ecb5",
+      "revisionHash": "d8fb43f06f1888b1f363949702ee4f7919bd093eece970c8dcd58104ac5da695",
       "approval": {
         "status": "approved",
-        "revisionHash": "e82e1e2b763f346b3219b78f7e7da7c68ff31f1901219e6e9e4888e8c744ecb5",
-        "approvedAt": "2026-10-25T13:05:47.062Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "d8fb43f06f1888b1f363949702ee4f7919bd093eece970c8dcd58104ac5da695",
+        "approvedAt": "2026-10-25T14:08:22.044Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -25214,10 +25078,6 @@
         {
           "type": "paragraph",
           "text": "Jeigu abejojate, ar valgoma dovana tinka, platesnį pasirinkimą padės apsvarstyti Dovanų idėjos pagal žmogų, progą ir biudžetą. Bendra kūrybinė veikla gali būti kita kryptis, kai gavėjai patys nori dalyvauti. Tačiau ji taip pat turi atitikti jų norus ir konkrečios priemonės naudojimo sąlygas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Gardžios dovanos šventiniam stalui: kokybiškos lietuviškos dovanos ir saldūs rinkiniai puikiai tinka kalėdinių dovanų krepšeliui.: kokybiškos lietuviškos dovanos ir saldūs rinkiniai puikiai tinka kalėdinių dovanų krepšeliui."
         }
       ],
       "publishAt": "2026-12-19T08:00:00.000Z",
@@ -25295,12 +25155,12 @@
         }
       ],
       "id": "346266ce-e2cf-4729-a21b-eeb5bb5a5103",
-      "revisionHash": "28e6eccdb451d9ffdbde5708180d61c23ef340e56e7b9f3472f9b1ecb731a1c9",
+      "revisionHash": "70b5a61cc975a2c26e0ed78be427c3a8ced47cccb4905d049563cef5bab4daf6",
       "approval": {
         "status": "approved",
-        "revisionHash": "28e6eccdb451d9ffdbde5708180d61c23ef340e56e7b9f3472f9b1ecb731a1c9",
-        "approvedAt": "2026-10-25T12:19:12.633Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "70b5a61cc975a2c26e0ed78be427c3a8ced47cccb4905d049563cef5bab4daf6",
+        "approvedAt": "2026-10-25T14:08:22.107Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -25611,10 +25471,6 @@
         {
           "type": "paragraph",
           "text": "Dovanų idėjos pagal žmogų, progą ir biudžetą padės apsvarstyti daugiau krypčių. Išsirinkę vieną, prieš pirkdami patikrinkite dar nežinomas detales: galutinę sumą, gavimo terminą ir naudojimo sąlygas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sprendimų priėmimo etapai: kai sunku suprasti norus, dovana turinčiam viską ar pasirinkimas dovana ar dovanų kuponas bei dovana ar pinigai padeda rasti išeitį.: kai sunku suprasti norus, dovana turinčiam viską ar pasirinkimas dovana ar dovanų kuponas bei dovana ar pinigai padeda rasti išeitį."
         }
       ],
       "publishAt": "2026-11-03T08:00:00.000Z",
@@ -25692,12 +25548,12 @@
         }
       ],
       "id": "ab672f09-7c3f-4e10-a6d2-5caa3709545a",
-      "revisionHash": "c82fde3fa77ed8c5fad34a66556a7d47df3e58eb63b74f30e38bf8a527da2831",
+      "revisionHash": "788d5974ae40c3a6f9a31bec694b09b208540e2128f6327b4a6730cded25e23d",
       "approval": {
         "status": "approved",
-        "revisionHash": "c82fde3fa77ed8c5fad34a66556a7d47df3e58eb63b74f30e38bf8a527da2831",
-        "approvedAt": "2026-10-25T12:19:12.801Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "788d5974ae40c3a6f9a31bec694b09b208540e2128f6327b4a6730cded25e23d",
+        "approvedAt": "2026-10-25T14:08:22.181Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -26178,10 +26034,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar neapsisprendėte, ką įteikti, pradėkite nuo dovanų idėjų pagal žmogų, progą ir biudžetą. Įteikimo būdą bus lengviau pasirinkti, kai žinosite, ką žmogus gauna ir ko jam reikės norint dovana pasinaudoti."
-        },
-        {
-          "type": "paragraph",
-          "text": "Įteikimo momentas ir atmosfera: patarimai kaip supakuoti dovaną ir dovanų etiketas užtikrina sklandų šventinį momentą.: patarimai kaip supakuoti dovaną ir dovanų etiketas užtikrina sklandų šventinį momentą."
         }
       ],
       "publishAt": "2026-12-10T08:00:00.000Z",
@@ -26255,12 +26107,12 @@
         }
       ],
       "id": "b4448f3a-e001-49a6-89a1-b1f96bd0f55d",
-      "revisionHash": "8c13a05ef6195060c891760c7f77fd476dc0bfebc6cd09c584c7b555d6680761",
+      "revisionHash": "c9ff65c60a14266dbd26c668b1c38c13fd7657d963f291d2dcec20abc685cc72",
       "approval": {
         "status": "approved",
-        "revisionHash": "8c13a05ef6195060c891760c7f77fd476dc0bfebc6cd09c584c7b555d6680761",
-        "approvedAt": "2026-10-25T13:05:47.158Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "c9ff65c60a14266dbd26c668b1c38c13fd7657d963f291d2dcec20abc685cc72",
+        "approvedAt": "2026-10-25T14:08:22.248Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -26396,10 +26248,6 @@
         {
           "type": "paragraph",
           "text": "Jei dovanos dar neišsirinkote, pradėti padės Dovanų idėjos pagal žmogų, progą ir biudžetą. Jei gavėjai nori kurti kartu, galite palyginti du pasirinkimus: Rankų liejimo rinkinys porai ir Rankų liejimo rinkinys šeimai. Popierių ar papildomą dėžę rinkitės pagal faktiškai gautos pakuotės matmenis."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pakavimo estetika: supakavus svarbu apgalvoti, kaip įteikti dovaną šiltai ir nuoširdžiai.: supakavus svarbu apgalvoti, kaip įteikti dovaną šiltai ir nuoširdžiai."
         }
       ],
       "publishAt": "2026-12-11T08:00:00.000Z",
@@ -26577,12 +26425,12 @@
         }
       ],
       "id": "8e384e4a-c05c-44e1-ad0b-db5706d5f5e1",
-      "revisionHash": "41750584a93693a2fb2419c454475fd9a4f0ec5e572d30833fe16c12f1da13ef",
+      "revisionHash": "2fc03b8e0ddae954a0d8ce3790b37d32bbd8ac6250905574acf195fd88e11c9d",
       "approval": {
         "status": "approved",
-        "revisionHash": "41750584a93693a2fb2419c454475fd9a4f0ec5e572d30833fe16c12f1da13ef",
-        "approvedAt": "2026-10-25T12:19:12.987Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "2fc03b8e0ddae954a0d8ce3790b37d32bbd8ac6250905574acf195fd88e11c9d",
+        "approvedAt": "2026-10-25T14:08:22.321Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -27066,10 +26914,6 @@
         {
           "type": "paragraph",
           "text": "Užbaikite tris sakinius: „Žinau, kad gavėjas nori…“, „Jam palieku pasirinkti…“, „Kad dovana pasinaudotų, jam reikės…“. Jei paskutiniame sakinyje atsiranda nepatogi kelionė, neaiški priemoka ar sudėtingas rezervavimas, peržiūrėkite pasirinkimą. Platesnę atranką padės tęsti Dovanų idėjos pagal žmogų, progą ir biudžetą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Kupono ar daikto pasirinkimas: kai artimieji gyvena kitame mieste, dovanos per atstumą elektroniniu formatu yra greičiausias sprendimas.: kai artimieji gyvena kitame mieste, dovanos per atstumą elektroniniu formatu yra greičiausias sprendimas."
         }
       ],
       "publishAt": "2026-12-14T08:00:00.000Z",
@@ -27139,12 +26983,12 @@
         }
       ],
       "id": "db39da0e-e1fa-4351-8496-9ac7f8cc5486",
-      "revisionHash": "4a112790771dcdbfff4fa9e59f09be5d521196c50037d7ed2ad40e80c93a473e",
+      "revisionHash": "8eda8327322ccf3a1f5bec8c42fae43e01503102f91f47ac353c232745e2df6c",
       "approval": {
         "status": "approved",
-        "revisionHash": "4a112790771dcdbfff4fa9e59f09be5d521196c50037d7ed2ad40e80c93a473e",
-        "approvedAt": "2026-10-25T12:19:13.066Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "8eda8327322ccf3a1f5bec8c42fae43e01503102f91f47ac353c232745e2df6c",
+        "approvedAt": "2026-10-25T14:08:22.386Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -28784,10 +28628,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar nesate apsisprendę, dovanų idėjos pagal žmogų, progą ir biudžetą padės palyginti platesnius pasirinkimus. Šiai progai pradėkite nuo vieno konkretaus tėvų atsakymo, o tik tada rinkitės daiktą ar planuokite pagalbą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Naujo šeimos nario sutikimas: bendra dovana šeimai ir šeimos prisiminimų idėjos padeda išsaugoti pirmųjų metų akimirkas.: bendra dovana šeimai ir šeimos prisiminimų idėjos padeda išsaugoti pirmųjų metų akimirkas."
         }
       ],
       "publishAt": "2026-11-23T08:00:00.000Z",
@@ -28853,12 +28693,12 @@
         }
       ],
       "id": "d7ec10d4-a702-41bb-a275-6601ee7effba",
-      "revisionHash": "898cc823db2c6f0fb0251e7bc2861ec784901ec619f318416d90e3a18190200f",
+      "revisionHash": "5ad7195c2b5621e41d74212369e1b2ac09be425c50ea24ad9e400b33dcdd8f61",
       "approval": {
         "status": "approved",
-        "revisionHash": "898cc823db2c6f0fb0251e7bc2861ec784901ec619f318416d90e3a18190200f",
-        "approvedAt": "2026-10-25T13:05:47.238Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "5ad7195c2b5621e41d74212369e1b2ac09be425c50ea24ad9e400b33dcdd8f61",
+        "approvedAt": "2026-10-25T14:08:22.454Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -28955,10 +28795,6 @@
         {
           "type": "paragraph",
           "text": "Jei dar renkatės tarp asmeninio daikto, bendros veiklos ir prisiminimo, toliau padės Dovanų idėjos pagal žmogų, progą ir biudžetą. Mokytojų dienos padėką pradėkite nuo vieno konkretaus pasiūlymo klasei: ką kursite, kas surinks darbus ir kaip suderinsite įteikimą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pagarba mokytojo profesijai: subtilios padėkos dovanos ir bendros dovanų idėjos padeda rasti taktišką sprendimą.: subtilios padėkos dovanos ir bendros dovanų idėjos padeda rasti taktišką sprendimą."
         }
       ],
       "publishAt": "2027-08-02T07:00:00.000Z",
@@ -29020,12 +28856,12 @@
         }
       ],
       "id": "62c5454d-1e2a-48db-8fca-1770b5d8ffc8",
-      "revisionHash": "ee0db6db28e8a08d88236688ea82441eafa6c596a94367512bc8ab84d3f5ee1f",
+      "revisionHash": "37236371ea9418da55d849300528e1db8fe4d57ff8b97515c5ac0d447e5202e2",
       "approval": {
         "status": "approved",
-        "revisionHash": "ee0db6db28e8a08d88236688ea82441eafa6c596a94367512bc8ab84d3f5ee1f",
-        "approvedAt": "2026-10-25T12:19:13.237Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "37236371ea9418da55d849300528e1db8fe4d57ff8b97515c5ac0d447e5202e2",
+        "approvedAt": "2026-10-25T14:08:22.515Z",
+        "actorId": "memocasting-prose-recovery-20261025"
       }
     },
     {
@@ -30793,5 +30629,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T13:05:47.400Z"
+  "generatedAt": "2026-10-25T14:08:22.651Z"
 }
