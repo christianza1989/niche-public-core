@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {memoReviewProjection,memoReviewSchema,memoReviewMetadata} from '../lib/memocasting-reviews.mjs';
 import {relayMemoBuyer} from '../lib/memocasting-commerce-bridge.mjs';
-const item={id:'review-fixture',sku:'couple',rating:4,authorName:'Test Buyer',title:'Fixture',body:'Only isolated test text',date:'2024-01-01',photos:[],verifiedPurchase:true};
+const item={id:'review-fixture',sku:'couple',rating:4,authorName:'Test Buyer',title:'Fixture',body:'Only isolated test text',date:'2024-01-01',photos:[],verifiedPurchase:true,schemaEligible:true};
 test('review functional metadata is host-scoped, private and cannot inherit home indexing/images',()=>{
  const data=memoReviewMetadata({siteId:'memocasting'},'/atsiliepimas');assert.match(data.title,/Palikti atsiliepimą/);assert.equal(data.robots,'noindex, nofollow');assert.equal(data.image,undefined);assert.equal(data.offer,undefined);
  assert.equal(memoReviewMetadata({siteId:'other'},'/atsiliepimas'),null);assert.equal(memoReviewMetadata({siteId:'memocasting'},'/'),null);
@@ -33,7 +33,7 @@ test('review form is a same-site noindex functional route, with explicit separat
 });
 
 test('legacy feedback is visible but is never silently aggregated into first-party Google ratings',()=>{
- const legacy={...item,body:'',legacyImported:true,verifiedPurchase:false};
+ const legacy={...item,body:'',legacyImported:true,verifiedPurchase:false,schemaEligible:false};
  const project=(items,stats)=>memoReviewProjection({items,total:2,stats:[{sku:'couple',...stats}]},'couple');
  const onlyLegacy=project([legacy],{count:1,average:4,directCount:0,directAverage:null});
  assert.equal(onlyLegacy.items[0].legacyImported,true);assert.deepEqual(memoReviewSchema(onlyLegacy),{});
@@ -42,6 +42,8 @@ test('legacy feedback is visible but is never silently aggregated into first-par
  const mixed=project([item,legacy],{count:2,average:4.5,directCount:1,directAverage:4});
  assert.equal(memoReviewSchema(mixed).aggregateRating.reviewCount,1);assert.equal(memoReviewSchema(mixed).aggregateRating.ratingValue,4);
  assert.equal(memoReviewSchema(mixed).review.length,1);
+ const migrated=project([{...legacy,schemaEligible:true}],{count:1,average:4,directCount:1,directAverage:4});
+ assert.equal(memoReviewSchema(migrated).review.length,1);assert.equal(migrated.items[0].verifiedPurchase,false);
  const laterPage=project([legacy],{count:2,average:4.5,directCount:1,directAverage:4});
  assert.equal(memoReviewSchema(laterPage).aggregateRating.reviewCount,1);assert.equal(memoReviewSchema(laterPage).review,undefined);
  const ratingOnly=project([{...item,body:''}],{count:1,average:4,directCount:1,directAverage:4});
