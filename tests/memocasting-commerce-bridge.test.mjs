@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {relayMemoBuyer} from '../lib/memocasting-commerce-bridge.mjs';
+
+test('discount preview is a bounded same-origin buyer POST, never an operator or GET relay',async()=>{
+ let called=0;const options={siteId:'memocasting',host:'memocasting.lt',cfTrusted:true,service:{fetch:async request=>{called++;assert.equal(new URL(request.url).pathname,'/api/discount-preview');assert.equal(request.method,'POST');assert.equal((await request.json()).code,'DOVANA10');return Response.json({amount:2880});}}};
+ const request=()=>new Request('https://memocasting.lt/prekyba/discount-preview',{method:'POST',headers:{origin:'https://memocasting.lt','content-type':'application/json','cf-connecting-ip':'203.0.113.12'},body:JSON.stringify({code:'DOVANA10'})});
+ assert.equal((await relayMemoBuyer(request(),'discount-preview',options)).status,200);assert.equal(called,1);
+ assert.equal((await relayMemoBuyer(new Request('https://memocasting.lt/prekyba/discount-preview'),'discount-preview',options)).status,405);
+ assert.equal((await relayMemoBuyer(request(),'operator/discounts',options)).status,404);
+ assert.equal(called,1);
+});
 const source=(path='orders',headers={})=>new Request('https://memocasting.lt/prekyba/'+path,{method:'POST',headers:{origin:'https://memocasting.lt','cf-connecting-ip':'203.0.113.12','content-type':'application/json',...headers},body:'{}'});
 
 test('carrier quote survives a paced response beyond the ordinary ten-second bridge deadline',async()=>{
