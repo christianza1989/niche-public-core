@@ -17,6 +17,8 @@ import {memoHomepageAdmitted,memoHomepageIntro,memoHomepageBlocks} from '@/lib/m
 import {memoHomepageProductStory} from '@/lib/memocasting-homepage-assets.mjs';
 import './memocasting-homepage.css';
 import './memocasting-reviews.css';
+import './memocasting-product-cards.css';
+import './memocasting-review-carousel.css';
 import {MemoHomepageFooter} from './memocasting-homepage-footer';
 import {MemoAnalytics} from './memocasting-analytics';
 import {memoFooterGroups} from '@/lib/memocasting-footer.mjs';
