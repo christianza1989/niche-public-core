@@ -28,9 +28,9 @@ test('actual rating data stays in its dedicated slot, with proportional stars an
 });
 
 test('missing or invalid review ratings do not invent homepage stars',async t=>{
- const prior=globalThis.document;t.after(()=>{globalThis.document=prior;});globalThis.document={createElement(){throw Error('Invalid review score rendered');}};
+ const prior=globalThis.document;let attempted=0;t.after(()=>{globalThis.document=prior;});globalThis.document={createElement(){attempted++;throw Error('Invalid review score rendered');}};
  for(const stat of [{sku:'couple',count:0,average:5},{sku:'couple',count:2,average:6},{sku:'couple',count:2,average:NaN},null]){
   const slot={dataset:{ratingSku:'couple'}},root={querySelectorAll:s=>s==='[data-rating-sku]'?[slot]:[]};
-  const cleanup=mountHomepageCatalogue(root,{request:async path=>path==='/api/reviews'?{stats:stat?[stat]:[]}:[]});await new Promise(resolve=>setImmediate(resolve));cleanup();
+  const cleanup=mountHomepageCatalogue(root,{request:async path=>path==='/api/reviews'?{stats:stat?[stat]:[]}:[]});await new Promise(resolve=>setImmediate(resolve));cleanup();assert.equal(attempted,0);
  }
 });
