@@ -1,6 +1,22 @@
 .memo-checkout{max-width:1200px!important;margin:20px auto 48px!important;color:#282526;min-height:calc(100vh - 7rem);min-height:calc(100svh - 7rem)}
 .memo-checkout>div>h1{font-size:clamp(28px,2.4vw,34px);line-height:1.15;letter-spacing:-.03em;margin:0 0 20px}
 .memo-checkout .checkout-intro{display:none}
+.memo-checkout .checkout-item:not(:has(>.checkout-product-image)){grid-template-columns:minmax(0,1fr)}
+.memo-checkout .checkout-code{margin:0 0 16px;padding:0 0 16px;border-bottom:1px solid #ded6d1}
+.memo-checkout .checkout-code>label{display:block;font-size:14px;line-height:1.5;margin-bottom:8px}
+.memo-checkout .checkout-code-input{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}
+.memo-checkout .checkout-code-input input{min-width:0;width:100%;min-height:44px;padding:9px 12px;border:1px solid #b9aaa3;border-radius:6px;background:#fff;color:#282526;font:inherit;font-size:15px;text-transform:uppercase}
+.memo-checkout .checkout-code-input input::placeholder{text-transform:none;color:#746762}
+.memo-checkout .checkout-code-input button{min-height:44px;padding:9px 14px;border:1px solid #b9aaa3;border-radius:6px;background:#fff;color:#282526;font:inherit;font-size:14px;cursor:pointer}
+.memo-checkout .checkout-code-input input:focus-visible,.memo-checkout .checkout-code button:focus-visible{outline:2px solid #a24f68;outline-offset:2px}
+.memo-checkout .checkout-code-input button:hover{background:#eee8e4}
+.memo-checkout .checkout-code button:disabled,.memo-checkout .checkout-code input:disabled{cursor:default;background:#eee9e6;color:#746762}
+.memo-checkout .checkout-code-note{margin:8px 0 0;font-size:13px;line-height:1.5}
+.memo-checkout .checkout-code-note:empty{display:none}
+.memo-checkout .checkout-code-note[role=alert]{color:#8d2946}
+.memo-checkout .checkout-code-remove{display:inline-flex;align-items:center;min-height:44px;padding:6px 0;border:0;background:transparent;font:inherit;font-size:13px;text-decoration:underline;text-underline-offset:3px;color:#655653;cursor:pointer}
+.memo-checkout .checkout-discount-total{color:#804153}
+.memo-checkout .checkout-discount-total dt{overflow-wrap:anywhere}
 .memo-checkout [hidden]{display:none!important}
 .memo-checkout .checkout-one-page{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,460px);gap:32px;align-items:start}
 .memo-checkout .checkout-details{min-width:0}
