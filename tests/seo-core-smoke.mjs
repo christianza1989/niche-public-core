@@ -5,6 +5,7 @@ import { request as httpRequest } from "node:http";
 import { request as httpsRequest } from "node:https";
 import { projectPublicPages } from "../lib/niche-links.mjs";
 import {memoIndexablePages} from "../lib/memocasting-content.mjs";
+import {smokeRequestOptions,assertSmokeHostIsolation} from "../scripts/seo-smoke-transport.mjs";
 
 const siteId = process.env.SEO_SMOKE_SITE_ID || "greitossvetaines";
 const base = process.env.SEO_SMOKE_BASE_URL || "http://127.0.0.1:8787";
@@ -19,7 +20,7 @@ async function get(path, host = pkg.canonicalHost) {
   const target = new URL(path, base);
   return new Promise((resolveResponse, reject) => {
     const client = target.protocol === "https:" ? httpsRequest : httpRequest;
-    const req = client(target, { headers: { Host: host } }, (response) => {
+    const req = client(target, smokeRequestOptions(target,host), (response) => {
       let body = "";
       response.setEncoding("utf8");
       response.on("data", (chunk) => { body += chunk; });
@@ -50,7 +51,7 @@ for (const path of ['/favicon.svg', '/favicon.ico']) {
   assert.match(response.headers['content-type'] || '', /image\/svg\+xml/);
   assert.ok(body.includes('<svg'), `${path} icon payload`);
   assert.notEqual(body.trim(), sharedFavicon.trim(), `${path} must use the niche icon, not a shared static asset`);
-  assert.equal((await get(path, 'unknown-domain.example')).response.statusCode, 404, `${path} unknown-host isolation`);
+  assertSmokeHostIsolation(await get(path,'unknown-domain.example'),{edge:new URL(base).protocol==='https:',markers:[pkg.site.name,pkg.pages.find(p=>p.type==='home')?.title],label:path});
 }
 
 const robots = await get("/robots.txt");
@@ -75,6 +76,6 @@ assert.equal(missing.response.statusCode, 404);
 assert.ok(!missing.body.includes('rel="canonical"'), "404 must not claim the homepage canonical");
 
 assert.equal((await get(`/niche/${siteId}`)).response.statusCode, 404, "internal site path must stay hidden");
-assert.equal((await get("/", "unknown-domain.example")).response.statusCode, 404, "unknown host must not show a niche");
+assertSmokeHostIsolation(await get('/','unknown-domain.example'),{edge:new URL(base).protocol==='https:',markers:[pkg.site.name,pkg.pages.find(p=>p.type==='home')?.title],label:'homepage'});
 
 console.log(`SEO core smoke passed: ${siteId}, ${live.length} public pages, robots, sitemap, llms, schemas, host isolation and 404.`);
