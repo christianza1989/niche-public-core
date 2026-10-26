@@ -2,7 +2,8 @@ import {cache} from 'react';
 import {env} from 'cloudflare:workers';
 import type {NichePage} from './niche-sites';
 import {memoProductSku,memoApplyProductContent} from './memocasting-product-content.mjs';
-const readPublicShop=cache(async(host:string|null,path:'catalog'|'storefront-context')=>{
+import {memoReviewProjection} from './memocasting-reviews.mjs';
+const readPublicShop=cache(async(host:string|null,path:string)=>{
  const binding='MEMO_COMMERCE' in env?env.MEMO_COMMERCE:undefined;
  try{
   let response:Response;
@@ -21,9 +22,11 @@ export const memoPublishedCatalog=cache(async(host:string|null)=>{
  const [products,context]=await Promise.all([readPublicShop(host,'catalog'),readPublicShop(host,'storefront-context')]);
  return Array.isArray(products)?{products:products as Array<{sku:string}>,context}:null;
 });
-export async function memoPublishedProductPage(page:NichePage|undefined,host:string|null):Promise<(NichePage & {seoTitle?:string;seoDescription?:string})|undefined>{
+export async function memoPublishedProductPage(page:NichePage|undefined,host:string|null):Promise<(NichePage & {seoTitle?:string;seoDescription?:string;memoReviews?:unknown})|undefined>{
  const sku=memoProductSku(page);if(!sku||!page)return page;
- const shop=await memoPublishedCatalog(host);return shop?memoApplyProductContent(page,shop.products.find(p=>p.sku===sku),shop.context):page;
+ const [shop,reviews]=await Promise.all([memoPublishedCatalog(host),readPublicShop(host,'reviews?sku='+encodeURIComponent(sku))]);
+ const product=shop?memoApplyProductContent(page,shop.products.find(p=>p.sku===sku),shop.context):page;
+ return {...product,memoReviews:memoReviewProjection(reviews,sku)};
 }
 export async function memoPublishedProductPages(pages:NichePage[],host:string|null):Promise<NichePage[]>{
  const shop=await memoPublishedCatalog(host);return shop?pages.map(page=>memoApplyProductContent(page,shop.products.find(p=>p.sku===memoProductSku(page)),shop.context)):pages;
