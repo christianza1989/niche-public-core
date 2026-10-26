@@ -16,6 +16,7 @@ import {MemoHomepageMotion} from './memocasting-homepage-motion';
 import {memoHomepageAdmitted,memoHomepageIntro,memoHomepageBlocks} from '@/lib/memocasting-homepage-markup.mjs';
 import {memoHomepageProductStory} from '@/lib/memocasting-homepage-assets.mjs';
 import './memocasting-homepage.css';
+import './memocasting-reviews.css';
 import {MemoHomepageFooter} from './memocasting-homepage-footer';
 import {MemoAnalytics} from './memocasting-analytics';
 import {memoFooterGroups} from '@/lib/memocasting-footer.mjs';
@@ -28,6 +29,8 @@ import {memoInstructionKind} from '@/lib/memocasting-instructions.mjs';
 import {MemoInstructions} from './memocasting-instructions';
 import {Fragment} from 'react';
 import {MemoGuideVideo} from './memocasting-guide-video';
+import {MemoHomeReviews,MemoProductReviews,type MemoReviewData} from './memocasting-reviews';
+import {MemoReviewPrivacy} from './memocasting-review-privacy';
 function MemoArticleMeta({pkg,page,pages,className}:{pkg:NichePackage;page:NichePage;pages:NichePage[];className:string}){const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],dates=nicheEditorialDates(page),profile=memoProfilePath(page,pages),format=(d:string)=>new Intl.DateTimeFormat(route.locale,{dateStyle:'medium',timeZone:pkg.site.timezone}).format(new Date(d));return <div className={className}><p>{labels.author} {profile?<a href={profile} rel='author'>MB Memocasting</a>:'MB Memocasting'} · {labels.editorial}</p><p>{labels.published} <time dateTime={dates.published}>{format(dates.published)}</time> · {labels.reviewed} <time dateTime={dates.modified}>{format(dates.modified)}</time></p></div>;}
 const productSlugs=memoProducts.map(p=>p.logicalSlug);
 const mainKitSlugs=['products/liejimo-rinkinys-porai','products/seimos-rinkinys-1'];
@@ -71,7 +74,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
   const afterVideos=videoBoundary<0?'':lead.slice(videoBoundary);
   const cartLink=exists('cart')?`<a class="home-cart" href="${escape(path('cart'))}" aria-label="Krepšelis"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/></svg></a>`:'';
   const intro=memoHomepageIntro.replace('</nav>',cartLink+'</nav>');
-  return <MemoHomepageMotion><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/><div dangerouslySetInnerHTML={{__html:intro}}/><main id="turinys"><div dangerouslySetInnerHTML={{__html:beforeVideos}}/><MemoVideoCarousel/><div dangerouslySetInnerHTML={{__html:afterVideos}}/><MemoInspirationGallery/><div dangerouslySetInnerHTML={{__html:social.before}}/><div dangerouslySetInnerHTML={{__html:social.after}}/><details className="home-information"><summary>Rinkinių informacija ir naudingi gidai</summary><Body page={{...page,body:page.body.slice(memoHomepageBlocks.length)}} pages={livePages}/>{exists('gidai')&&<p><a href={path('gidai')}>{labels.allGuides}</a></p>}</details></main>{footer}</MemoHomepageMotion>;
+  return <MemoHomepageMotion><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/><div dangerouslySetInnerHTML={{__html:intro}}/><main id="turinys"><div dangerouslySetInnerHTML={{__html:beforeVideos}}/><MemoVideoCarousel/><div dangerouslySetInnerHTML={{__html:afterVideos}}/><MemoInspirationGallery/><MemoHomeReviews/><div dangerouslySetInnerHTML={{__html:social.before}}/><div dangerouslySetInnerHTML={{__html:social.after}}/><details className="home-information"><summary>Rinkinių informacija ir naudingi gidai</summary><Body page={{...page,body:page.body.slice(memoHomepageBlocks.length)}} pages={livePages}/>{exists('gidai')&&<p><a href={path('gidai')}>{labels.allGuides}</a></p>}</details></main>{footer}</MemoHomepageMotion>;
  }
  return <div className={s.site} data-memo-instructions={instruction||undefined}><a className={s.skip} href="#turinys">{labels.skip}</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/>
  <header className={s.header}>
@@ -103,8 +106,10 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
   </section>
   <nav className={s.productSections} aria-label={storeText.productInfo}>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<a key={i} href={'#'+memoSectionId(b.text)}>{b.text}</a>]:[])}</nav>
   <div className={s.productDetail}><div><p className={s.productDescription}>{page.description}</p><Body page={page} pages={livePages}/></div><aside className={s.productHelp}><h2>{storeText.documents}</h2><nav>{[['pages/instrukcija',labels.instruction],['pagalba',labels.help],['gidai',labels.guides]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>)}</nav>{route.language==='lt'&&['rinkinys-porai','seimos-rinkinys'].includes(page.slug)&&localPages.some(p=>p.slug===''&&memoHomepageAdmitted(p))&&<div className={s.processEvidence}><a href="https://memocasting.lt/#instagram"><img src="/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-360.webp" width="360" height="640" loading="lazy" alt="Pora prie stalo ruošia indus rankų liejimui."/><span>Pažiūrėkite, kaip liejamos rankos ↗</span></a><p>Tikruose proceso įrašuose matysite pasiruošimą, rankų laikymą formoje ir liejinio išėmimą. Tikslius kiekius ir laukimo laiką rinkitės pagal savo rinkinio instrukciją.</p></div>}</aside></div>
+  {route.language==='lt'&&<MemoProductReviews sku={memoProductForSlug(route.baseSlug)!.sku} initial={(page as NichePage & {memoReviews?:MemoReviewData}).memoReviews||null}/>}
  </>}
  {!cart&&!product&&!catalogue&&!instruction&&<Body page={page.type==='guide'?{...page,body:memoGuideBodyParts(page).body}:page} pages={livePages}/>}
+ {route.language==='lt'&&page.slug==='privatumas'&&<MemoReviewPrivacy/>}
  {catalogue&&<>
   <Products pages={localPages} headingLevel={2}/>
   <section className={s.comparison} aria-labelledby="kit-comparison"><h2 id="kit-comparison">{storeText.comparison}</h2><table className={s.comparisonTable}><caption>{storeText.contents}</caption><thead><tr><th scope="col">{labels.catalogue}</th>{localPages.filter(p=>mainKitSlugs.includes(memoRoute(p).baseSlug)).map(p=><th scope="col" key={p.id}><a href={'/'+p.slug} aria-label={p.title}>{memoRoute(p).baseSlug===productSlugs[0]?labels.pair:labels.family}</a></th>)}</tr></thead><tbody><tr><th scope="row">{storeText.contents}</th>{localPages.filter(p=>mainKitSlugs.includes(memoRoute(p).baseSlug)).map(p=><td key={p.id}><ul>{memoProductContents(p).map((item:string,i:number)=><li key={i}>{item}</li>)}</ul></td>)}</tr></tbody></table></section>

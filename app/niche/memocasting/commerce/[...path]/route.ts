@@ -14,3 +14,4 @@ async function bridge(request:Request,{params}:{params:Promise<{path:string[]}>}
  return relayMemoBuyer(request,(await params).path.join('/'),{siteId:site?.siteId,host,loopbackOrigin,service:isFetcher(binding)?binding:undefined,cfTrusted:'cf' in request&&Boolean(request.cf)&&rawHost===url.host});
 }
 export const GET=bridge;export const POST=bridge;
+export const HEAD=bridge;

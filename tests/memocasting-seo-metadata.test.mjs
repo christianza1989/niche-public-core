@@ -14,6 +14,7 @@ import {memoHeroImage} from '../lib/memocasting-homepage-images.mjs';
 import {memoRoute,memoAlternates} from '../lib/memocasting-locales.mjs';
 import {memoFunctionalPage} from '../lib/memocasting-content.mjs';
 import {memoFaviconHref} from '../lib/memocasting-favicon.mjs';
+import {memoReviewMetadata} from '../lib/memocasting-reviews.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
 import {catalogueCanonical} from '../lib/product-catalogue-query.mjs';
 import {uniqueImageFamilies} from '../lib/niche-media.mjs';
@@ -94,6 +95,7 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
   '@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted},
   '@/lib/memocasting-product-server':{memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;shopReads++;return memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext);},memoPublishedProductPages:async pages=>{shopReads++;return published(pages,products,shopContext);}},
   '@/lib/memocasting-seo-metadata.mjs':{memoBrandName:'Memory Casting',memoSeoMetadata},
+  '@/lib/memocasting-reviews.mjs':{memoReviewMetadata},
   'next/headers':{headers:async()=>requestHeaders},
   '@/lib/site-config':{resolveSite:()=>{throw Error('Unexpected legacy fallback');}},
   '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},
@@ -160,4 +162,11 @@ test('actual functional SSR has one noindex directive and another tenant retains
  assert.deepEqual(values(html,'robots'),['noindex, nofollow']);assert.equal(values(html,'product:price:amount').length,0);assert.equal(values(html,'og:image').length,0);
  const otherPage={...page('item'),siteId:'other',title:'Other title',description:'Other description'},other={...pkg,siteId:'other',canonicalHost:'other.lt',site:{...pkg.site,name:'Other site'},pages:[otherPage]};
  const result=await layout(other,{pathname:'/item'});assert.ok(result.html.includes('<title>Other title</title>'));assert.deepEqual(values(result.html,'og:site_name'),['Other site']);assert.deepEqual(values(result.html,'description'),['Other description']);assert.equal(values(result.html,'robots').length,0);assert.ok(!result.html.includes('Memory Casting'));assert.equal(result.generated.applicationName,undefined);
+});
+
+test('review form SSR head cannot inherit homepage title, canonical, image or indexing',async()=>{
+ const {html,shopReads}=await layout(pkg,{pathname:'/atsiliepimas'});
+ assert.equal(shopReads,0);assert.ok(html.includes('<title>Palikti atsiliepimą – Memory Casting</title>'));
+ assert.deepEqual(values(html,'robots'),['noindex, nofollow']);assert.equal(values(html,'og:image').length,0);
+ assert.equal(values(html,'product:price:amount').length,0);assert.ok(!html.includes('rel="canonical"'));assert.ok(!html.includes('as="image"'));
 });

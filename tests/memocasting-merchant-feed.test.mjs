@@ -127,6 +127,7 @@ test('published catalog export reuses the actual service-binding catalog and LIV
  const loadedModule=await loadModule('../lib/memocasting-product-server.ts',{
   react:{cache:fn=>fn},'cloudflare:workers':{env:{MEMO_COMMERCE:{fetch:async request=>{paths.push(new URL(request.url).pathname);return Response.json(request.url.endsWith('/catalog')?snapshot.products:snapshot.context);}}}},
   './memocasting-product-content.mjs':{memoProductSku,memoApplyProductContent},
+  './memocasting-reviews.mjs':await import('../lib/memocasting-reviews.mjs'),
  },{process:{env:{}},fetch:()=>{throw Error('Unexpected public-network loader');}});
  const current=await loadedModule.memoPublishedCatalog('memocasting.lt');assert.deepEqual(paths.sort(),['/api/catalog','/api/storefront-context']);
  assert.equal(memoMerchantFeedXml(pkg,project(),current).includes('<g:price>32.00 EUR</g:price>'),true);

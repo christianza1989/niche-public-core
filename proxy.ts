@@ -91,6 +91,11 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if(niche.siteId==='memocasting'&&path==='/atsiliepimas'&&['GET','HEAD'].includes(request.method)&&publicNichePages(niche).some(p=>p.slug==='')){
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/review';destination.search='';
+      const requestHeaders=new Headers(request.headers);requestHeaders.set('x-niche-original-path',path);requestHeaders.set('x-niche-original-query','');
+      const response=NextResponse.rewrite(destination,{request:{headers:requestHeaders}});response.headers.set('X-Robots-Tag','noindex, nofollow');response.headers.set('Cache-Control','private, no-store');response.headers.set('Referrer-Policy','no-referrer');return response;
+    }
     if (path.startsWith('/social/instagram/')) {
       if(niche.siteId!=='memocasting'||!publicNichePages(niche).some(memoHomepageAdmitted)||!instagramAction(path.slice('/social/instagram/'.length)))return new Response('Not found',{status:404});
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/instagram/'+path.slice('/social/instagram/'.length);destination.search='';

@@ -12,6 +12,7 @@ import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 import {memoHeroImage} from '@/lib/memocasting-homepage-images.mjs';
 import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
+import {memoReviewMetadata} from '@/lib/memocasting-reviews.mjs';
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
@@ -50,7 +51,7 @@ export default async function RootLayout({
         const query = (await headers()).get("x-niche-original-query") || "";
     const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
     const metadataPages=niche.siteId==='memocasting'&&page&&page.slug==='pages/instrukcija'?await memoPublishedProductPages(publicNichePages(niche),host):publicNichePages(niche);
-    const memoMetadata=memoSeoMetadata(niche,page,metadataPages,canonical);
+    const memoMetadata=memoReviewMetadata(niche,pathname)||memoSeoMetadata(niche,page,metadataPages,canonical);
     const hero = memoMetadata?memoMetadata.image:page && niche.siteId === "promedical" && page.type === "product"
       ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (
