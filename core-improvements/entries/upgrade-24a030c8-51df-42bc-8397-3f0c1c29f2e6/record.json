@@ -1,0 +1,25 @@
+{
+  "siteId": "memocasting",
+  "category": "code",
+  "summary": "Present owned cached Instagram photos and Reels in the maintained homepage with secure host-scoped bridge",
+  "evidence": [
+    "No automatic Instagram section currently exists; preserve static approved fallback until genuine account data is connected.",
+    "New service only exposes bounded public feed/media, never account tokens, API cursors or provider errors. Existing homepage/commerce projection preserved."
+  ],
+  "paths": [
+    "proxy.ts",
+    "config/memocasting-worker.json",
+    "components/niche/memocasting-site.tsx",
+    "components/niche/memocasting-instagram-feed.tsx",
+    "components/niche/memocasting-instagram-feed.css",
+    "lib/memocasting-instagram-bridge.mjs",
+    "app/niche/memocasting/instagram",
+    "tests/memocasting-instagram.test.mjs"
+  ],
+  "issue": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui/issues/100",
+  "rollback": "Deploy prior7980a6a0frontend and old bindingconfig after re-reading actualsettings. Preserve native3367ef65gallery/content, backendStripe/shipping/SSO/D1 and scheduled92articles.",
+  "id": "upgrade-24a030c8-51df-42bc-8397-3f0c1c29f2e6",
+  "branch": "codex/memocasting-public-20261012",
+  "baseSha": "ef9120e0575942afc3ebdfe6b7949c708baceb65",
+  "createdAt": "2026-10-20T05:18:04.286Z"
+}

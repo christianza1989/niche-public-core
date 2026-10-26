@@ -1,0 +1,1847 @@
+{
+  "source": "Owner-approved visual direction; canonical imagegen alpha/editorial kit and reviewed guide reuse, exact namespaced assets",
+  "assets": [
+    {
+      "path": "/memocasting-homepage/v1/fonts/manrope-400.ttf",
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a",
+      "type": "font/ttf"
+    },
+    {
+      "path": "/memocasting-homepage/v1/fonts/manrope-600.ttf",
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce",
+      "type": "font/ttf"
+    },
+    {
+      "path": "/memocasting-homepage/v1/fonts/OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/logo.webp",
+      "bytes": 18820,
+      "sha256": "8906b293bc9da6a2736038b10cebce29c9bf7381cd8f70914e1995134cfc68c8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-v2.webp",
+      "bytes": 108844,
+      "sha256": "e548b877856ad903902edf62fc48c48d16e6d8949d3687884c2b5930bc55b359",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-white-v1.webp",
+      "bytes": 117866,
+      "sha256": "fa37914e8a9f0e810025778da841779afb14ddf1a83544b26e70ac469c73859a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/couple-cast-v1.webp",
+      "bytes": 59896,
+      "sha256": "fd24d3cec3bdb776d672f2d4dcf753e081e28390483b8849b134f3cde42a492d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/family-cast-v1.webp",
+      "bytes": 207378,
+      "sha256": "a05f992a6ae39087e3a4103c1e9d65e55c5ade95bf32e970b93a3da9420525be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-home-v1.webp",
+      "bytes": 166858,
+      "sha256": "98462ee2e01754b95e615c45e7cc46cbb90edf020151e2a26569577bed1cd3ba",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/desktop.mp4",
+      "bytes": 8587634,
+      "sha256": "51cb6bf413f8500de4eddce343aa60d5ca01b3db6ff2d4bacccbab495a42ae06",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/mobile.mp4",
+      "bytes": 3668917,
+      "sha256": "9996d253cfe0a67319e1648e2f62e57e02101f4dccbf12b1540c191e0e3d28fe",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/desktop-poster.webp",
+      "bytes": 21216,
+      "sha256": "0d1c74a761be32a7f9bf016233a93eefae141e12dc38b031030678173d608326",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/mobile-poster.webp",
+      "bytes": 13556,
+      "sha256": "bb11d8592d7eef53f0945335863405a6cfc7bd7b04ce044b26f26b2cfcc8ef18",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-1.webp",
+      "bytes": 15478,
+      "sha256": "be3d3411ba91621948382a27db9585267720dd5c8b4212de1dd35ad7f236346d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-2.webp",
+      "bytes": 14206,
+      "sha256": "3d35c80eae7cca503e477557317199bc30b25bd87c83e35b040878b97372d8d8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-3.webp",
+      "bytes": 15804,
+      "sha256": "7abace9be6996ce7095cb769a93b9733fbdea2109cb14c0c89d379b725e09f22",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-4.webp",
+      "bytes": 13668,
+      "sha256": "82ec0f328fe319a38db9f801581c9f82f6521a456dc812a1786a380635f76b0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-5.webp",
+      "bytes": 18444,
+      "sha256": "c5c8d7e72431962ba818f224f5fc06d723b6efb71fd212cecf45474cda1d9ca3",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/white-film-v1/chapter-6.webp",
+      "bytes": 12296,
+      "sha256": "2e25cc2bf0c48b46876d8e24fd7268ed0c9827847b5bdf854cbfa3d4ead32815",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-1600.webp",
+      "bytes": 28762,
+      "sha256": "2a91c81fdb24f8d7a5c6d86403a20b157abce5aa0b4a75c667731431c4e50334",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-1200.webp",
+      "bytes": 19208,
+      "sha256": "4a64271e107ea845a624e5b97daae6668897b2562fcb555c13143fdc6880e51f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-800.webp",
+      "bytes": 10480,
+      "sha256": "ad0dd3fc0a8d559302e8bcb53fdd783b1eb5036bfa65589f7725b81a7c3f0551",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-640.webp",
+      "bytes": 7510,
+      "sha256": "3c5dda4305b240d90425efa437205cdc2b6011ea4387b0b0c0832843afe0f8e7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-egeon-wide-v3-360.webp",
+      "bytes": 3338,
+      "sha256": "be068c28b93d0d5c404643cbdd6579d342db8ed1737fa6ee9267b15542da3e70",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-1122.webp",
+      "bytes": 81774,
+      "sha256": "c32e05168590e6e902bb7dc4d21a8f635b926e3a455db3462f6d870c8ffd45d7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-800.webp",
+      "bytes": 51128,
+      "sha256": "5059261cb1b925145a864e6598104ecafa720386d79c8d7a1f44f513fefad967",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-640.webp",
+      "bytes": 36466,
+      "sha256": "723606bcf1519216e08fee073b1e9aa46422713a56866ac6fbf66fb77dc58724",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/couple-alpha-v2-360.webp",
+      "bytes": 15884,
+      "sha256": "07bc3fa8b0df7f90f62868fdbf300713419a1b4fd6b0fbb2c12ec9b27647f61b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-1122.webp",
+      "bytes": 77244,
+      "sha256": "be20b7760da16323af616b715d0e4ab444e2f355ed9547a9e5972c5143f2d579",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-800.webp",
+      "bytes": 47858,
+      "sha256": "4ab24fe5bab4bb224bd15a232e1c36d17d2236550f4818d6ed775a8aa3015d2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-640.webp",
+      "bytes": 33136,
+      "sha256": "493f270ca5b28f93460bb9cb46af48161ee24cb1c9182c46224b54754299e0f7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-alpha-v2-360.webp",
+      "bytes": 15212,
+      "sha256": "23b24f900c5586a5a2d611176e49b14d5c65853f6713122e8e2260dc414da339",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-1448.webp",
+      "bytes": 110614,
+      "sha256": "9a69db4271bea183b80d2d665caf5820e1d2cb809d7feec059a032f4f404f97b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-1200.webp",
+      "bytes": 88066,
+      "sha256": "fbfdca9f27743f2a0084e8acb6941f3eb76f1827eb62ad1a26d3beeb11a3b125",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-800.webp",
+      "bytes": 49612,
+      "sha256": "cf0bad0ec352eb34ba8a1dd28609922f33f23adebe34b6c21104dbf94da8139a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-640.webp",
+      "bytes": 36688,
+      "sha256": "cb70bcb8a29bc94dd7155d561a753ae2230634a8dad338e7b69e1c1459a764b4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/kit-alpha-v1-360.webp",
+      "bytes": 17130,
+      "sha256": "94ad623613f53ccfd84533df1229f234ffe79f098d60141169a6f77ced0a4328",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-1536.webp",
+      "bytes": 59204,
+      "sha256": "821353925978046f1f91cfed17275766080dd9988bb9303027ac5525a01a9a5d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-1200.webp",
+      "bytes": 40612,
+      "sha256": "4f88fbf4cb5f30bce2e0fc44dc2c7c1d16431b1fde700ee6f7030e650f8e0f0c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-800.webp",
+      "bytes": 21416,
+      "sha256": "4b3288e92b6b6af4ac0b639eba9ee08e8384d4ae76762c2b4890b86500a0179a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-640.webp",
+      "bytes": 14632,
+      "sha256": "1cc6c6d4049d789fa9257911a40619d7010e924d8cc6276716c377a0eb483ad4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-home-v2-360.webp",
+      "bytes": 5350,
+      "sha256": "3eaa1220dc67c9ed073c4b89c89246e01101ae38b7b13015a30af4cbc4b35cb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-1122.webp",
+      "bytes": 53576,
+      "sha256": "594cb6485cc35cd6b17923b34a1de739a9d8ed8aa4e1e1d091159c0b8824a8af",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-800.webp",
+      "bytes": 33098,
+      "sha256": "869fa60935fb12d562e86b566eb2063203f50e62ed40717de436217b7157d725",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-640.webp",
+      "bytes": 23698,
+      "sha256": "41f2393850b3fda05ef07d2b99477882c84efe44ca9b6a44f3bfd8847a192a9b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/gallery-detail-v2-360.webp",
+      "bytes": 10288,
+      "sha256": "6c486795b80f91d1d142b9974481cabdf78b2d306181ca8ee26cf2a56a20b1e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-1536.webp",
+      "bytes": 79352,
+      "sha256": "d4b950eb1ebc36565ec8131f761597a0137f1ac10a60f457eb3d3d76cd331cc4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-1200.webp",
+      "bytes": 56026,
+      "sha256": "a27fbb1e63aadc124ef21f821d15006fc58b122d2a531d2652acaee4f544b07a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-800.webp",
+      "bytes": 31884,
+      "sha256": "1fb77ec2f97438356fc5da6735d8b9fee7ab6c1d9f38968019398e60f81ac84c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-640.webp",
+      "bytes": 22800,
+      "sha256": "718d800e236b5c4619b4ba6953b1cde10c0e83551fd0f8db3a6e94f40396ff61",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/creation-table-v1-360.webp",
+      "bytes": 9608,
+      "sha256": "e8b8a47b3a8460755016e2933344f0a9f8aa38396abd1b3798d59c509465c126",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-800.webp",
+      "bytes": 41164,
+      "sha256": "fb1d56160aea0ce867f92c10c319a8e5ec50b614050dd785e6cf53956afc2d8e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-640.webp",
+      "bytes": 28478,
+      "sha256": "e72efa632a8d49754a010f537bc817ca1ba14fb5c1a03bac30bf569cd8b8d4e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-help-360.webp",
+      "bytes": 10886,
+      "sha256": "da5b46a8400a5c2e291af3e4cc316388c635ca4001a6cfdd791d52fd6b2775cf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-800.webp",
+      "bytes": 61834,
+      "sha256": "c1339ff09a2360e5e78d49507a85cdefe0f2b2bfdf80fda31a789d04de2fd500",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-640.webp",
+      "bytes": 41566,
+      "sha256": "18227cf6f404f3386152baf7fdc65ef6904efa66f1d7087e7cc1ba5e971aefbc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/guide-finishing-360.webp",
+      "bytes": 13190,
+      "sha256": "5d15ddaac391d218443ade55893beeb4920837783b1125932e1c4da999b01493",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/kit.svg",
+      "bytes": 215,
+      "sha256": "8006148737f2240e70e33e45dca586fa357cc24bff584517c8b7dfda33d2818b",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/mix.svg",
+      "bytes": 226,
+      "sha256": "094c22c7d34c86bc03435a26f338c5ad9dbeef290b61cbec6713bfd7563a1bae",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/imprint.svg",
+      "bytes": 302,
+      "sha256": "6600f157a782455eeb9bca9d605d75517201eca17a58b5da7f2d2ecafc70e8d4",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/gypsum.svg",
+      "bytes": 258,
+      "sha256": "96f41906cb6ed7a8a043e0d2c213efe10c6d2f86c6131c4cb10bee8868ed74c6",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/reveal.svg",
+      "bytes": 229,
+      "sha256": "6aaccb5aaba2f7de4b794e554e64c90627380183572f3320b90dac715e691996",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/icons/memory.svg",
+      "bytes": 222,
+      "sha256": "b9cc4f8b3460490dde586119d59c148e38e30dd20ff6475843fcf42061f3a3f1",
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-1448.webp",
+      "bytes": 57150,
+      "sha256": "d10c9d3b95763f014785ed151a5a8bd98a2dbd5c0167d24d34c37e8690b3af3f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-1200.webp",
+      "bytes": 43628,
+      "sha256": "a1b2814d877238ca62d5a1049989eec6cec636f49c5392ac50c12166f02685b7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-800.webp",
+      "bytes": 21086,
+      "sha256": "2d15895625f0f8fe3171fd15bb84315b52addd936538eedf14784a4397c4ba57",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-640.webp",
+      "bytes": 13712,
+      "sha256": "30c19c5e279cd6a6c71881048463c97c951813dfa486df733665b316381f7421",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/couple-v1-360.webp",
+      "bytes": 4978,
+      "sha256": "c437f35e4baed6a27f7d6525a50ef0a2389c4eeb39a969d8df45eb5f4c540a0f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-1448.webp",
+      "bytes": 37388,
+      "sha256": "ff02f2c58b68d40cfa3400b23a44b3ca5ebae55a13cd36ecc112f0977810a360",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-1200.webp",
+      "bytes": 28244,
+      "sha256": "7713b8e51531663a4a978a4d535e2fac59e2642b569d66e9673c713bb3816c62",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-800.webp",
+      "bytes": 15382,
+      "sha256": "832ca8d5557d26c6c1d9a7256445f3c9599352c53d0651c4fa23b4f554478c22",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-640.webp",
+      "bytes": 11110,
+      "sha256": "e45aeed08dec937c6bfcab456cb078b1c4e16163750a623e7417759e7500d08c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/family-v1-360.webp",
+      "bytes": 4724,
+      "sha256": "80a5e9e958f3a52024bcaf3d4a55f7485c38d258a80e179f9f954715a2291a95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-1448.webp",
+      "bytes": 60320,
+      "sha256": "91ad932226fe8c5821ecdfc0d1cd691210200b21edc5d289ee784eaebb46c37f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-1200.webp",
+      "bytes": 46428,
+      "sha256": "5c54c9a007de248c61500321ca22c49626a74e28f20c7372ea9e883dd3cfae61",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-800.webp",
+      "bytes": 25232,
+      "sha256": "671a3bac16caf542a43a52d51fee2ea40b7741dfefc0dc04b81c468de1f00854",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-640.webp",
+      "bytes": 17418,
+      "sha256": "0024c3e0db7a796a075af31da3d50c1cc2d92ea4cd39dcbccdc8c07801ad07f2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/moments/gift-v1-360.webp",
+      "bytes": 6756,
+      "sha256": "23622a3c6cd8f5446b103e24f5374e19c0544f836ddd5e1dfc3f49d61d4462fe",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-1536.webp",
+      "bytes": 142082,
+      "sha256": "80261abd6b4b94552e011a6b3203e7aba34d4145deb6edb33ede4ef96a4b3431",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-1200.webp",
+      "bytes": 116484,
+      "sha256": "611b926a222ca2171112e00a906117751206f9047d733544204c194a96e4653e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-800.webp",
+      "bytes": 62126,
+      "sha256": "7b0974cff88dab9681dee920b71807110a7ce64b5b2471fe9bea9a805a5d7c71",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-640.webp",
+      "bytes": 45580,
+      "sha256": "9256d72fa73662c5a4d141b8786f9144213c06cad6c81a4d3ce8a2325e6921ce",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-objects-alpha-v4-360.webp",
+      "bytes": 20588,
+      "sha256": "992063fe02378bf6f248e2ba47e5ecbc86aa943e349487651323c5cd3a72c5b8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-1600.webp",
+      "bytes": 4476,
+      "sha256": "7b82291c569eb9bd4c3951f5f91d7058ac92daa61e397266d8c90d599af1fd13",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-1200.webp",
+      "bytes": 2700,
+      "sha256": "c7e05fd25aaf14c7dc66d32a59647cfed1bb0a335ca5c7419590b61aee88de0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-800.webp",
+      "bytes": 1376,
+      "sha256": "4db0f1b771e66a27b84d4ca99929beb9252f2cc7990e5abec72839a858ad644e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-640.webp",
+      "bytes": 956,
+      "sha256": "5edfe17951a4f5a170a02ae97635166f4f00ad8d3a879cd10a46532c205d9758",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/hero-layers/hero-background-v4-360.webp",
+      "bytes": 436,
+      "sha256": "d9364237d33c83e0dc01e82ade36046e796852cac40dd4546f2b2e231a7c7595",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1254.webp",
+      "bytes": 65032,
+      "sha256": "3c59d4dd3817f0d7c6cf51c0f78ce36d8a4fd070d555b81fdae04df2326a8744",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-1200.webp",
+      "bytes": 60032,
+      "sha256": "cffe928c370db4651f570780ecb0129c551cd19d37559acc2b6a14ac32d3f8f1",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-800.webp",
+      "bytes": 35386,
+      "sha256": "042d64c5d5e244a46399a37899bbf2a4d4f875ba879617d20526dfda265ec858",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-640.webp",
+      "bytes": 26372,
+      "sha256": "bcd629e89a026701d4d34732be0ed70a92875ede2f662523d20e982f8b4d269b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/family-v1-360.webp",
+      "bytes": 12666,
+      "sha256": "7edbf7db6235290307b99d72d95f38cd9f8adb587bd3d95c4160813fc57155cf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1254.webp",
+      "bytes": 79690,
+      "sha256": "7d69e726714d792d9574312d9a0a052775a4efb6827302b46acba09a7f6df659",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-1200.webp",
+      "bytes": 73876,
+      "sha256": "c2ab9bdb9915ca40eb5ce782ce60b2665f2d86fa3b307e0cb483b62eaacad7d5",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-800.webp",
+      "bytes": 39344,
+      "sha256": "bf20f0a02b604084546d900537584b0d33fd7d6abfc7bb1622d52cb5f2a24d05",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-640.webp",
+      "bytes": 27262,
+      "sha256": "9a16fad0969e53d52dc806231e6038e84b82a29bc0511213fb2ce79e7578f3b0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/promise-v1-360.webp",
+      "bytes": 10828,
+      "sha256": "09775a50f014915f7c05d829f64b22fc8d58288cd157d8ebc1d42b6fc6013816",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1254.webp",
+      "bytes": 71370,
+      "sha256": "8cab7b7f607af215811132e775ba0549868fac4148a9fb2a49965eb8ecf2b00a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-1200.webp",
+      "bytes": 66162,
+      "sha256": "ab6565f53649f72fd18010650f5b8b101f2633493dc49288378e2eb56902178a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-800.webp",
+      "bytes": 36258,
+      "sha256": "7c5b2a2a952cd9c30ce345eddde752676641c5d9dd7c84fc401944da0bfbd87b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-640.webp",
+      "bytes": 26742,
+      "sha256": "193497aa891e77714551899f4899a1d73488cafb2701bd78239ab7399f24cc95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261015/heart-v1-360.webp",
+      "bytes": 12428,
+      "sha256": "ba5b08211db8143a10593fde1e8d53f91645c81ae2c11b17d137ee52aced280d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1536.webp",
+      "bytes": 96374,
+      "sha256": "9769028d8d52dc7f80ac09f70b28839a1a37d4ced16c0d6babb7ccd7b221de36",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-1200.webp",
+      "bytes": 67114,
+      "sha256": "5016b00dd70e0970c6c71b594c9298cb351dfce296b9d1ba4b7fba83defd4e02",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-800.webp",
+      "bytes": 36030,
+      "sha256": "4807d97fd9550a940279986a71f62cd7f2dcdf53f27ae5c44f1aa794a41ecf56",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-640.webp",
+      "bytes": 25256,
+      "sha256": "1d52e1bb356aee0b3ee62ced02c7ccdab957ef5068a8bd3481c71f411ecf8a26",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-svetaineje-360.webp",
+      "bytes": 10810,
+      "sha256": "ffe50e3af79ecd32048cd10424ece67ae6ee2aa0bacfc11d316cd3309d826b81",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1536.webp",
+      "bytes": 58726,
+      "sha256": "9d05ffa0d6be04bbab0bfe35763d8360fd9289dd405e172a8df81a7794a7ec91",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-1200.webp",
+      "bytes": 41310,
+      "sha256": "eed9586c53e6e68c7f8b02bb94692c2e60244974822522896baade87c157a65b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-800.webp",
+      "bytes": 22374,
+      "sha256": "1d546b2d81db4ac60bc54c9b70040909e5178dc8454d7d8589277a624b181d7e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-640.webp",
+      "bytes": 16244,
+      "sha256": "8a8eaee7bb138f84a766b804c260a2fa73f00f97cc27bc9c50848a615f6b2690",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/trys-rankos-kartu-360.webp",
+      "bytes": 7418,
+      "sha256": "e7fb22e268c7887adfa9faab826ed922ba1191745406109fe49e0a43743287ed",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1254.webp",
+      "bytes": 71370,
+      "sha256": "8cab7b7f607af215811132e775ba0549868fac4148a9fb2a49965eb8ecf2b00a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-1200.webp",
+      "bytes": 66162,
+      "sha256": "ab6565f53649f72fd18010650f5b8b101f2633493dc49288378e2eb56902178a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-800.webp",
+      "bytes": 36258,
+      "sha256": "7c5b2a2a952cd9c30ce345eddde752676641c5d9dd7c84fc401944da0bfbd87b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-640.webp",
+      "bytes": 26742,
+      "sha256": "193497aa891e77714551899f4899a1d73488cafb2701bd78239ab7399f24cc95",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/sirdis-is-ranku-360.webp",
+      "bytes": 12428,
+      "sha256": "ba5b08211db8143a10593fde1e8d53f91645c81ae2c11b17d137ee52aced280d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1536.webp",
+      "bytes": 63224,
+      "sha256": "87006eac2f5f10e509e545b46a3ac16ab7f016656f08678ace7c0929f1e0c2f4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-1200.webp",
+      "bytes": 44784,
+      "sha256": "9cd3ee5b86ff2f6c6ef6271d5e07cf7fc9a27d4ed304ee42b22a6d7da40c3089",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-800.webp",
+      "bytes": 26218,
+      "sha256": "5b0af1e730f563b8fb3278325448cfc00f0a6dd010eb7cd5610107b20fa4f11d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-640.webp",
+      "bytes": 19750,
+      "sha256": "9b138bea6dd62e0c33fb0d683d3b89836e6433959f94d4016f84c00c04de8c5b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-kudikio-rankos-360.webp",
+      "bytes": 9446,
+      "sha256": "67bdbbf23b39fca2d4e6c0fdc7bf090c5a8e5f39ad3b461f492db9ef5353ba5c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1536.webp",
+      "bytes": 77966,
+      "sha256": "8d967b27f0e070e4bfc063ab3ba9e073f618bda737d9168c7a121ad758422bba",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-1200.webp",
+      "bytes": 53240,
+      "sha256": "b2497c84052bc9fd1f05cfc128d5a5e4778ab5c53937541c306b8fb7843a8f79",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-800.webp",
+      "bytes": 27838,
+      "sha256": "9d9c61c562bf08b3927cfd78b5a308619d49c18f9026425ebbb28237ce8566d4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-640.webp",
+      "bytes": 20396,
+      "sha256": "77c08f48012fe8f78a009b9ade718f82047fbcfd83640487bafd15ad7c70ba32",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suglausti-delnai-360.webp",
+      "bytes": 9148,
+      "sha256": "5542488458a0146b1c7c6eb651aa82bc61794eb2f46f9fa92193b5d91bc63c7e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1536.webp",
+      "bytes": 65990,
+      "sha256": "226b586275eb68e7f5681a5759b37a442174974b1dbb61f8185ca61242a6cdb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-1200.webp",
+      "bytes": 42326,
+      "sha256": "5626789d10f21ff05f8a15d90acccec02ede665b813c5aedcc5a000038d7447f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-800.webp",
+      "bytes": 21582,
+      "sha256": "f066dbe6b84f2568f12beb81f31c438a81e7831edb150cc036e22e3588eae6b1",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-640.webp",
+      "bytes": 14860,
+      "sha256": "f6a0859afdfac57991cfa613ab0f0d02e99225c221d4bc233728b828e564d9ca",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-rausvoje-nisoje-360.webp",
+      "bytes": 6844,
+      "sha256": "f0510c6436765dd554acec560e18ab67cbd1f72c9194de8051d919585e5ee275",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1536.webp",
+      "bytes": 121750,
+      "sha256": "6a65b51636cb9694eecb30db59959f7ae3c75494a81f58fa0ced98ddcb63303a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-1200.webp",
+      "bytes": 84952,
+      "sha256": "5958c327d2b40ea0bd1185ce8fc43d619d34b61d3ce848c55d1eac4ed1a6be5d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-800.webp",
+      "bytes": 47306,
+      "sha256": "5ef2cf7c5c514f76edd6c83674de556e5844e4998e6dc1be305e2aaf8c410dfb",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-640.webp",
+      "bytes": 33054,
+      "sha256": "763958ad2f6efda452c27483580ae8944bc498266bf132393e28621e25b4f3da",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-prie-zidinio-360.webp",
+      "bytes": 13890,
+      "sha256": "11ff9ed92d79d31fb04c539e6bc7b0e535f1d59986589f4808fbb753d940e0c5",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1536.webp",
+      "bytes": 55968,
+      "sha256": "ceac8bc567f98ba8f6d19ee6f542fd9c773f0bb712a315353b5260780722a4be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-1200.webp",
+      "bytes": 40054,
+      "sha256": "26d5618afb2fca1cdf7daa66051cb709b8913c0e70b11da02c6c251f2f8845be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-800.webp",
+      "bytes": 23598,
+      "sha256": "85dd09c3d962afa3d63ce2f2248f470e5ce0900288f1f243b92fe9e96badfb91",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-640.webp",
+      "bytes": 17684,
+      "sha256": "7e04e4b261833a59c30478f0319681393b47d1ae0496bebf1ae36f350b6e69dc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/rankos-gestas-bibliotekoje-360.webp",
+      "bytes": 8476,
+      "sha256": "c0bcb969d0c8c1718e63eacaaf22e8efcf9b3733cfc0943e62d4fc56db09efa0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1536.webp",
+      "bytes": 72898,
+      "sha256": "846332f5a67581849d2349b5e14c5a94dd4807b81ea3dcaa337767dbeb2479df",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-1200.webp",
+      "bytes": 50160,
+      "sha256": "0c55fa8eeb37961ae33c32e7d35bab4fd2d1af8c02f113b74d971149298b5230",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-800.webp",
+      "bytes": 27926,
+      "sha256": "66b4927ed95953c1d74e8d943b5a4d8e693c4f2d39019441a705fb0f9c481032",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-640.webp",
+      "bytes": 20428,
+      "sha256": "51a230a4390cc314dde5fa42c940369e6f258d7c5a4c0fb4ee2869c249a71e53",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-verandoje-360.webp",
+      "bytes": 10012,
+      "sha256": "4160973a54884126df45d2d45b630bcdc6e06fc07c57c2f9710b8c89befefdf7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1536.webp",
+      "bytes": 99402,
+      "sha256": "402e67894f4dcb1318a0cbae566fe6150ca28dafe4056d8443f768a5068487f0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-1200.webp",
+      "bytes": 69572,
+      "sha256": "0e2f680a930087d8894fa9abc88257178a92a83b567aebae6fa77f529ae51c60",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-800.webp",
+      "bytes": 38230,
+      "sha256": "13f426b52c9d3d886048945db64110b44f241ebc89acb870f2d5d126da31a420",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-640.webp",
+      "bytes": 27154,
+      "sha256": "db257a89a46f1d86f62a3d379e3d4f2b4aa7587915ddd9a84243db3d40634d88",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/suaugusiojo-ir-vaiko-rankos-360.webp",
+      "bytes": 11172,
+      "sha256": "1a2471077e11e62633272cfe82ef01affcfc6a244f55a529a422559b2e7260dd",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1536.webp",
+      "bytes": 69346,
+      "sha256": "655c7d9700b65eaa5b031e7c9f9484d32859c93328bd91ab804894ab0490a8a4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-1200.webp",
+      "bytes": 45274,
+      "sha256": "f3afb680d2b10cc4fb38339a1d765b2b5d75282e10e225b87cc5a87a01bee3d2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-800.webp",
+      "bytes": 22252,
+      "sha256": "ace6a31d992832641c5e56674d0603431df692799f68d4b99e47c63f22e34cc2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-640.webp",
+      "bytes": 15362,
+      "sha256": "f3db3d2b3985aa5f96959ee304e3aa03871d760c2b721ab0e096cd8b51529bbc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-valgomajame-360.webp",
+      "bytes": 6682,
+      "sha256": "8149327bb76fd156ea3d5fa5a3689f97bc3c86a353506ad05ab62c3713bc73ed",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1536.webp",
+      "bytes": 47088,
+      "sha256": "48909ef2f7c9cddc5de8473972ea25d75ffa0bfd6be87498302183a2f5a6d645",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-1200.webp",
+      "bytes": 32052,
+      "sha256": "4c8637a87c67c1320aa1642e9fbdc09d78c70b5c8d972e130bd7ead8cbc21e19",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-800.webp",
+      "bytes": 17130,
+      "sha256": "82eee4c46fa53194975343c0acb87b16040e12a9c700bb99638c5ab52108b408",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-640.webp",
+      "bytes": 12314,
+      "sha256": "fcf620d91dfe2158337a73a5f090c017c05682feb05cb94c8cd62f62a1427e01",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/kudikio-rankyte-ir-pedute-360.webp",
+      "bytes": 5358,
+      "sha256": "42b2a844fd08953d975afcd4849540e4e30dd5d121d89b9c5f5dfe9384d818b0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1536.webp",
+      "bytes": 111478,
+      "sha256": "7c9d31b6dbbb4c7b9e074f9aabd28f3162192ab8a26cf9f92037c315746bf7b6",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-1200.webp",
+      "bytes": 74094,
+      "sha256": "0806da3605d9cb0f986e44f2e4b43fdf17b889a5636bd4e3adf2401e43a0d3a7",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-800.webp",
+      "bytes": 37856,
+      "sha256": "f502d02be2cd9ed5973ec59d1e0032c88fd7bf5ff721a07cd4becf1ad218382d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-640.webp",
+      "bytes": 25902,
+      "sha256": "bdd12be5a20364a9baba2eaca2feeeab4d33a6099467e2a047fe290d1c8ce933",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-pajurio-namuose-360.webp",
+      "bytes": 9790,
+      "sha256": "ad2e2ef49bd30c3fd0aa431db2cedbdefec9e786e8150f33dae7a1f5ef1123ad",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1536.webp",
+      "bytes": 134734,
+      "sha256": "88da3706367005731712214a4e125599d9d5e8f578700fc0ea24cbcd4cf9b458",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-1200.webp",
+      "bytes": 83482,
+      "sha256": "3e586b5ba8efa54637df0eae13691efa9a8443bce2e90558db399d9a7e672f57",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-800.webp",
+      "bytes": 39098,
+      "sha256": "a8e2601a70c8dba66b052f0a65703cf6b19c16a30351b049952ebb767b2de754",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-640.webp",
+      "bytes": 27220,
+      "sha256": "fa0ea21f82086cffcefea56717b8811c873208c40bee35a65103a189a7612552",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-ratas-ant-pufo-360.webp",
+      "bytes": 11354,
+      "sha256": "336674da0638f4c430716e3c75a79a2a88a175b94cfbd4f5ff73622b772c87ff",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1536.webp",
+      "bytes": 65694,
+      "sha256": "9288333b9d0a6167b20be1180899ad8b83431443ccde52dfc5d6dce0a0c27136",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-1200.webp",
+      "bytes": 43426,
+      "sha256": "263e3cdff8074a6de5622372cb57d6cf58ba701f907a5e3077f1fc9876eb7689",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-800.webp",
+      "bytes": 22054,
+      "sha256": "e1ef3117af4a587636c7eaaedeb3d6aa37d5473ad53f28d6462f3913840ce048",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-640.webp",
+      "bytes": 15258,
+      "sha256": "8f114d868d967e95950340416c4d7e49649316ed2ca2cf326c0996d1d016514f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-ant-palanges-360.webp",
+      "bytes": 6752,
+      "sha256": "0191512d855b92a165c5ea22e85ec67c19c8c96f3b3e758a82927a6da14003d4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1536.webp",
+      "bytes": 70738,
+      "sha256": "44552bc10f9d1e2eae688dff5f3929c284057e93a0c600c7e4a39c5aa2abf11c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-1200.webp",
+      "bytes": 50168,
+      "sha256": "85737f56b983390a7aee57a22e4b83f855360bf2c3887484f335b68578ac8c50",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-800.webp",
+      "bytes": 27754,
+      "sha256": "19a0bc939e75e4233810dae2139b3f1e9c65a7ec8f81dc8194254738ae64fc2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-640.webp",
+      "bytes": 20394,
+      "sha256": "78500c31cf0368bb224ddcb285c84a0b2f2e3bc43ee677b3597cfe594cceec48",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-ant-pianino-360.webp",
+      "bytes": 8690,
+      "sha256": "9372de4df1cc164d64a0b16be991fb576fed344f2ec7377ead8b4660aae95026",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1536.webp",
+      "bytes": 102888,
+      "sha256": "14d42faf9521946a2ca02f4fc5441f18f5f5f44657d8a3bff69ae427d45be1c4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-1200.webp",
+      "bytes": 69562,
+      "sha256": "fb227dc77514edf27204ef18180d606c2faa79fb0132d2525d57c132844594ef",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-800.webp",
+      "bytes": 35750,
+      "sha256": "992486c1fff3012b909c00e5f1caf2c40cf7b3f79d122582185413fd6b1c6e3c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-640.webp",
+      "bytes": 24234,
+      "sha256": "0db880317518e669b41ae12d38f012165ef619e7a43948beba7a73a2bc37942b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusiu-pirstu-detales-360.webp",
+      "bytes": 9220,
+      "sha256": "f320e074d2deb1d3052b031c935177cd83a25540e5830612d4b2467077d6938b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1536.webp",
+      "bytes": 69788,
+      "sha256": "4001791c5459a5f3b933c8ff54b27b7f72165fb0f946af0ba3671509569e2b8d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-1200.webp",
+      "bytes": 49482,
+      "sha256": "6302642157c0e572e41c4a790a9dec6790fe6f5629c4330538a6fdfb7ba99928",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-800.webp",
+      "bytes": 27638,
+      "sha256": "f84809b510ad35baf201068ad0696aa7bc60436e94a03e6cd7366bff0073731d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-640.webp",
+      "bytes": 20202,
+      "sha256": "776273aad7d88e346191083f8ed092fc201d3f1957362c55a8d4865a8029ef25",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/seimos-rankos-bibliotekoje-360.webp",
+      "bytes": 9118,
+      "sha256": "95d1cd0efb96e60f170324b2c6bb8ce805011b054f685ba8f4f70ea5fb5ddfe2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1536.webp",
+      "bytes": 110432,
+      "sha256": "e0525f8ba696f86f6f4a7a22a58640f996d79adb155c682b2401c025833193e9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-1200.webp",
+      "bytes": 70844,
+      "sha256": "74348cb29802a70dc9bd71d4cdbe4c105390620ecd20c628facab7c0df72c389",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-800.webp",
+      "bytes": 32790,
+      "sha256": "9bff07573dd6de057ef2b0b5c7dd63ee5466c0d62e01310e5e4033aed17b98b6",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-640.webp",
+      "bytes": 20560,
+      "sha256": "802227067ca1e6533efc28b2c30fc3a2829114fcbb0d606f465a6db245b98548",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/poros-rankos-prie-arkos-360.webp",
+      "bytes": 7856,
+      "sha256": "c727338afa32c34f4a8db29d89fb65ef937fbe5baf461cd5f92fdbd14fabd63f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1536.webp",
+      "bytes": 73802,
+      "sha256": "f44a48d72b626c8ce717714e1f7079a39c0f5077a503b3151aac710ecada918a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-1200.webp",
+      "bytes": 52124,
+      "sha256": "529c1ab4457addab8a5540e65090e602150d8b9cef6f4248427478d90e161d85",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-800.webp",
+      "bytes": 27926,
+      "sha256": "e18e0fe0a4b00d5600062b3068e313ea5a50a2dcd9743a6f2f46b8bb9994b53b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-640.webp",
+      "bytes": 20174,
+      "sha256": "65d59e43d37d140567b50ed18a90b987583cda546f4b6fbfe34fb716452a2c23",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-prie-lango-360.webp",
+      "bytes": 9014,
+      "sha256": "1db29a748dbdf903ca0d0214fd12b0c3f5431d167ccf7cb8f1ccdc5e8c542c03",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1536.webp",
+      "bytes": 48448,
+      "sha256": "717d161f59ef6d4153b67184073abfd9e8739660c313a3795152b2b78136a999",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-1200.webp",
+      "bytes": 30178,
+      "sha256": "223846eafc861ca39977bccb581262587c3fb89f7979846ab17ef593581ee0ee",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-800.webp",
+      "bytes": 15472,
+      "sha256": "ba7f1d5f761d72267b4b1f26ec57258bc81575ab883ad02b85d65cba01724d62",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-640.webp",
+      "bytes": 11116,
+      "sha256": "8a5082da89c407c933662756a8ef0ef9402e06947badd541d2b293ab5ea69ca8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/susikibusios-rankos-namu-nisoje-360.webp",
+      "bytes": 5132,
+      "sha256": "6eed8115076e349d0a12e98a0441a72188c8b2122e6a1bd73d8c608276145bfa",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1536.webp",
+      "bytes": 82402,
+      "sha256": "d59ec67672309eb3ffea2a3816fb0b16debf4cde991fab0ab06d52f95bfc923f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-1200.webp",
+      "bytes": 54500,
+      "sha256": "d630faa0c91ce62dc238e75e676c3c8dc3516ab77d6c77cba535eef58cfa8680",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-800.webp",
+      "bytes": 26838,
+      "sha256": "e6125e1bbf7d997b68a4dc48c2ac13af1c7bf6cb42297305b31d43b2c16babb4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-640.webp",
+      "bytes": 18550,
+      "sha256": "77240e69edd40d2c875120a816526df590b851fd218a2b05868388df36be8a2a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/gallery-20261019/ranku-skulptura-virtuveje-360.webp",
+      "bytes": 7152,
+      "sha256": "4d54c8c2f5f51954ad4a7d50be1d3c9934624cd986705ef2900ddb60fdee2f7f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6.mp4",
+      "bytes": 10595940,
+      "sha256": "f17e80932577c6a3e5c92e62427ebb60c078ec69feba4e1c37e9e635f72a3cea",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-720.webp",
+      "bytes": 33570,
+      "sha256": "da0280dd4688f7c95748064a08662f2d0335493c024385e2d5f794c22dab72dc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-640.webp",
+      "bytes": 28790,
+      "sha256": "8ec5d2ac2fce6ce0f144f5f7dac213977fd476f51dceef1845a11b1a8202382b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-360.webp",
+      "bytes": 14464,
+      "sha256": "8dd2777d0d4c8a9a6601dff0c6ca18d03d670c213f1b03dbe46efda8b14ff373",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d.mp4",
+      "bytes": 8269979,
+      "sha256": "397f298152ff2a3ae3b9ef18850b8f4daccaeae3273c52db59fd601575f3b058",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-720.webp",
+      "bytes": 47816,
+      "sha256": "1cd4d4069c931f7b49731d549be2da29560f1b5c79894345641996007a88c336",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-640.webp",
+      "bytes": 40898,
+      "sha256": "335c36379aa2349c4c6fb931dba46496e57ca9d080c2c5fc03ef3bc9d93d45bf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-0c0c93d01b2d-360.webp",
+      "bytes": 17870,
+      "sha256": "6dc73b4a06e03e0d876cf5812471ec24000513db7acd856ba8d87e4be2b6f7ec",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c.mp4",
+      "bytes": 16926864,
+      "sha256": "7b905cba4e6740552033dd8042c13eb6b66f3854f14bdf215ba21452893e921b",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-720.webp",
+      "bytes": 23140,
+      "sha256": "78261608d53fc5db8d35a6a5919a2eff6905ad21581380793a0c507fbcf3ac9a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-640.webp",
+      "bytes": 20468,
+      "sha256": "58086bee5d09262587a5778931fe6257a6f3c9f6b01d4db613fb26fa76f1d9bf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95d217580e4c-360.webp",
+      "bytes": 10598,
+      "sha256": "3f7b2477a5f51c9adca2fb5d61184f94baa99221bee251ed55e90a7c255412cc",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-d0239a93da38.mp4",
+      "bytes": 1894158,
+      "sha256": "74bff2af3e4be5be0d1f3e490f4f5893739727893144adf5f97662589fa886c2",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-d0239a93da38-360.webp",
+      "bytes": 6474,
+      "sha256": "5c5fdb4cb5726bd2c0274d785b886664f7cbc7d8880d0508ee347dab6cb607d4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a.mp4",
+      "bytes": 6871956,
+      "sha256": "8e5ee9f8fb157f891789127e57e86bb0c2bf7e9fb3f305e88b2af434f1c6a320",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-720.webp",
+      "bytes": 29954,
+      "sha256": "576d905fa1bd77a2a98757d324bfb56ea8b2e0e47d301c17ce15a45635c6f2fe",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-640.webp",
+      "bytes": 25706,
+      "sha256": "71263bd4e709dbb331d8bdc84721e8907e32403a436d2b0e15a3d358d22097fa",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-3a3fd85f491a-360.webp",
+      "bytes": 12956,
+      "sha256": "6b6ea83e522cf8271b83abb6f0043ff25ab3be666d418f79b65903815e9ce4cd",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41.mp4",
+      "bytes": 12379780,
+      "sha256": "4fee30960648250f5fbd7f3ebee6c9b94f151bb21ff9b861d397a0f664241970",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-720.webp",
+      "bytes": 19584,
+      "sha256": "8c2495746cbd1f5dd9b47375c4d57f26bd0cce779272ce3fe8c9cb8330be3d7b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-640.webp",
+      "bytes": 17068,
+      "sha256": "630f33349b65f372aa98ba916972f447282cbaf1333019df022489347f5cda38",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0c8222c1a41-360.webp",
+      "bytes": 9182,
+      "sha256": "1f1371c79711073e23ace8e2e51887b0e3ec7772b9a93d4ec0ba9111f4b7aaab",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf.mp4",
+      "bytes": 6396929,
+      "sha256": "f79c5eafb9e5603e9e8c7fd4b90fa36a92c9f87b8424903394630f9bdba8ce33",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-720.webp",
+      "bytes": 24564,
+      "sha256": "18739e4f20f90ac0637346cfb900461dc2898d0636838194ef153c08ff94d2e8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-640.webp",
+      "bytes": 21996,
+      "sha256": "11f410a97ffea34b0652e1a62f6ec9fcd2f07f02176784b645c9dd4a2ae45c51",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-95ee30e4b4bf-360.webp",
+      "bytes": 11444,
+      "sha256": "add0add6c20f813f24d53b2ad21abb7f854cbbb88c9e0b53948e30104a5bac04",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525.mp4",
+      "bytes": 8298094,
+      "sha256": "4b0ebafe56b52d041e4e3b7f0f0f04512653bf2765f305b0018f155e65769cd8",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-720.webp",
+      "bytes": 26192,
+      "sha256": "614870e70b8ec16b08b301dee2310df2f7fc562d85fb8f867aaf03a27f5ac312",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-640.webp",
+      "bytes": 22618,
+      "sha256": "a906263dd81c57f1a6810bc2d428fbfe97de2d8e97a7055da2c70e1346b8aaf6",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-85951efe0525-360.webp",
+      "bytes": 11150,
+      "sha256": "b7620f5b381b39d1578a5be391185ce4c721405b54636f63e45480bde0d62e98",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808.mp4",
+      "bytes": 9438627,
+      "sha256": "38b2c099cfed0dbadceb447874ebda933184c190a7b0949f6a8e02084bfccd15",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-720.webp",
+      "bytes": 28440,
+      "sha256": "919fc1fcd70cd02275f84a9a5d0035ba9f74e5f5f9f4c09f93bfef4d2bfd99be",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-640.webp",
+      "bytes": 24836,
+      "sha256": "9f67249223023623847209dbceab401eecab1485eb76c78d40f218aec9fdda4a",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-c23ac33c4808-360.webp",
+      "bytes": 13296,
+      "sha256": "92c40da5547dcee7b818f951f7930a6168bc715edd5c9f5669c6e8e0a9efea1b",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a.mp4",
+      "bytes": 14303859,
+      "sha256": "61dee25e4cd4a22a38f96c5622fbbc1d61e6630ffc35d55e67eab7d116185eb1",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-720.webp",
+      "bytes": 45708,
+      "sha256": "58ce24abf5281e1b918ea7c85bda71a8f74b0992f704a40f21f08945b0e96111",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-640.webp",
+      "bytes": 39492,
+      "sha256": "6e84f7939510f414fe1bca41b9cb9cc99c6b078b2911710b01fe4a166d04e016",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-8d674b0d729a-360.webp",
+      "bytes": 18528,
+      "sha256": "d3c4cf281f991b1a9fe26d7c7e1c49dceb5c5475d17e15a1f30b1c2e6ec3fd82",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453.mp4",
+      "bytes": 17586785,
+      "sha256": "f866626a6384cff8e3e023ae37c74e87e4b58692b2cb3c33feca0ace673e0a84",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-720.webp",
+      "bytes": 47562,
+      "sha256": "5e450af6ac579c8d9f0bc39e62f0443b33f59e7c939ec2e4e70e1c77daee1911",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-640.webp",
+      "bytes": 40564,
+      "sha256": "41e9bc0f63f42d23482e8ebe8268bcc61c52b931466887ea7533faf7e5b1b2a8",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-933ec44ee453-360.webp",
+      "bytes": 17946,
+      "sha256": "3590f24f2a8ba08fa70f5a527c30cea8fe65e007ffdec3918ceece7d688cc321",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac.mp4",
+      "bytes": 8256292,
+      "sha256": "66a7f9d0dd97a1d6a5305fd04e0601c32a3ebee0bd80e27788d303b0067174de",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-720.webp",
+      "bytes": 39984,
+      "sha256": "755e4749533ae0a61fb137b41c684e254be491303f67608095cf1fae5e14e0c0",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-640.webp",
+      "bytes": 33964,
+      "sha256": "31d21ce430685ba2b33fea4c67f6e2bbe3c0748934e33c0f3c1eb18357385229",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bb2a60639bac-360.webp",
+      "bytes": 14742,
+      "sha256": "7bbbf65efe469c7826e184db97e0c76694a44b496238d4613b3c52c900faae4f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf.mp4",
+      "bytes": 7817536,
+      "sha256": "1aefb11530d037daef20d25298b08a8bcf88b147afdd737ef4a7e8404deada9d",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-720.webp",
+      "bytes": 60748,
+      "sha256": "08a58efdbe3a967601515089ec1283bc10aade8886c1d504db05a76d66f10eb9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-640.webp",
+      "bytes": 51622,
+      "sha256": "4c2ac1e1138348aa4e39589c2d6c7c35117ae4116c530bd6cbf937b681b6c294",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-bc497d1a53cf-360.webp",
+      "bytes": 23256,
+      "sha256": "dde1e7925f05947fcc56973ff6ce218abef42c7ebe330fbe2ffdf4f48e8a1edd",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78.mp4",
+      "bytes": 7722306,
+      "sha256": "7c7291ec6ef511344ada4581c164befb91f10b1521acaac39f61f43ccc7fa95e",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-720.webp",
+      "bytes": 40568,
+      "sha256": "48b5362b2a89393d971ab7361aa27c478af8407993ada01f75376bf93ae0b1c4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-640.webp",
+      "bytes": 34688,
+      "sha256": "272b9dc0e4e8ccd670c260f3fc642d748bdb360f59ce611baf054eec60a617cb",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-abe772c9ae78-360.webp",
+      "bytes": 16008,
+      "sha256": "3cd871e3889bc6533b633ce940aa145901943ac012a411ad1f37636657f480e4",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0.mp4",
+      "bytes": 10145487,
+      "sha256": "a2e65a98d6c4d026aed0fc35090a1f01f86f1fcc1de709ad4b42c73d8e00fc3e",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-720.webp",
+      "bytes": 14406,
+      "sha256": "72d21dddd9326bbe01f989610096f3a1b86d5026a5a4b08b34269fd099e410df",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-640.webp",
+      "bytes": 11956,
+      "sha256": "d10b40d18fa5512dec82ab96b1d6e5859d1a7ca3a879ef5fbe2ddac9146e5344",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-282d2ce760b0-360.webp",
+      "bytes": 5960,
+      "sha256": "b864d87d3522cee09c9e5b09e54baa34adac8d7284b7232d4a50e703fc1025e2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6.mp4",
+      "bytes": 7677581,
+      "sha256": "de0dd0d8435568107bdac6071b1a36018807e159580256659cae84bc3c8704b1",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-720.webp",
+      "bytes": 47448,
+      "sha256": "1d6f23988b06f168992082fb1aa96ca61f451bd2a13abd0af230949c158b5e79",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-640.webp",
+      "bytes": 39430,
+      "sha256": "1af5ba377feb56150ce192e69d37feeda92cc5867dde7724bacd8309f4c93eab",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-f394fe0ff5e6-360.webp",
+      "bytes": 17622,
+      "sha256": "f3edf17b61f8c69fcb5e6ae9cd23f6150cc16b32c6a610f74afa346ff40499f2",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572.mp4",
+      "bytes": 10402677,
+      "sha256": "4b6ee1e78df4033c90a0bb8c969e7c710a5d27052a947979c58846406b41ba7a",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-720.webp",
+      "bytes": 66004,
+      "sha256": "88bfbe97b814dd943e870b58ef4a5cfb7eabfb08363ec7f7c02dc8a0d7dda375",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-640.webp",
+      "bytes": 58078,
+      "sha256": "ad76024b88817e272c3f4e3c9c0d66e24e85b917912240738b27e6bbb4ee4706",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0b2313d1572-360.webp",
+      "bytes": 29906,
+      "sha256": "9e4b0d4b42cfa780bc1d79a2f8cb93ad9801f6a1bb4f87ae6537ec89289ef36c",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-43da60f33369.mp4",
+      "bytes": 1639259,
+      "sha256": "d47833a4069eeee3460517237ffefea00abe3a22ea0731544378f062717a7d43",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-43da60f33369-360.webp",
+      "bytes": 9638,
+      "sha256": "b3270c568b6cb4dc3217c07771efad2fb4f29525f536df2bb89d3b7db07f2f0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6.mp4",
+      "bytes": 10524469,
+      "sha256": "6c35ea815f7e7c8b961b913c6717f59739733d9951276bcd7e13eb2bc96326c1",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-720.webp",
+      "bytes": 18906,
+      "sha256": "fc654c78c6e9e07e7759fc35583a09db24d7d68457ac5822d224270f97028a0d",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-640.webp",
+      "bytes": 16532,
+      "sha256": "0df53176b352179d7caaf38188f7e448e2b068b63bd00e310ed43d58a23e4a85",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b0fac5d16ad6-360.webp",
+      "bytes": 8336,
+      "sha256": "a6d4a2941afd979d5b2eb1bdb33a59b4a695b23bec17de30ec73c60b8e120187",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355.mp4",
+      "bytes": 13420066,
+      "sha256": "10b93e99b2b96f88ffa8b3f2345eddab8b94b4336dc438e377da90f237841ec2",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-720.webp",
+      "bytes": 49212,
+      "sha256": "118d0682d19e0f03e64267f0f13507e5fb38fa4538bd10de1b32d2c5978bc459",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-640.webp",
+      "bytes": 44028,
+      "sha256": "8282ac0431d9eb09568bbd7d75e30bff2db11fc1b65b7b48941ed44e429fbac3",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-7199258dc355-360.webp",
+      "bytes": 22560,
+      "sha256": "2b06326758bc77a0ab7cbe6e073dbddde99656ace0b548f23bb3d3f3ee20272e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f.mp4",
+      "bytes": 13195068,
+      "sha256": "1c96c874e4729cd900c1c0c9a8568a80bde0f35d91dbbdd69956bd90b9d9c7dc",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-720.webp",
+      "bytes": 55836,
+      "sha256": "06925e71b5dd92ef3c6e6129c968be2aabfe0f04f8b2de35641f953a836686c9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-640.webp",
+      "bytes": 48710,
+      "sha256": "2c3444beb2b9b92ae4c0eae9b2ae4dbb06326ba7fbb3866e2163c2270374e3d9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-46a1e43ab04f-360.webp",
+      "bytes": 23766,
+      "sha256": "99e6f502c1e53fb447c49d80d86453f4bc26bd298c362470e52dabb88bbbcd23",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455.mp4",
+      "bytes": 5855023,
+      "sha256": "ae2f0d352250d8a91bf6d7d9544855c1b8ad7c9ef6f93c558580881c3b41ccb0",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-720.webp",
+      "bytes": 26944,
+      "sha256": "0f7ed04cd656ebf769a71770ee48aa2f151ede683d97761d67b2287bbd67a05e",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-640.webp",
+      "bytes": 23988,
+      "sha256": "a36ed2315493877af17d826f2234c4dfb1285d4050d9703343005b90a0bb1d55",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-912bfcbf4455-360.webp",
+      "bytes": 11728,
+      "sha256": "80228423e47364bd2d5225b3c4f7e91f8ea215580e475993d8d5f805bfb709cf",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-cc535bb7cdfb.mp4",
+      "bytes": 2299883,
+      "sha256": "e92396b5df23804a5e27c37b58d23b38a2455076df6914c810919b3e0311b358",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-cc535bb7cdfb-360.webp",
+      "bytes": 15658,
+      "sha256": "bfff1f373f11e83c7c0d49597ada5c2d2d4d54d02eab63a5b659219a64ed3cb3",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632.mp4",
+      "bytes": 1430638,
+      "sha256": "4b52c8f7285469c1561093fb6e17613a4f1eb51fe8059faa12cda750472d0fef",
+      "type": "video/mp4"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-720.webp",
+      "bytes": 15870,
+      "sha256": "ca72262cbf2a6fa0a7aef76359321bc9a7f272831a2dedcffca1d935a5e6ebda",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-640.webp",
+      "bytes": 13906,
+      "sha256": "dc2d6f3ed5aa09627ff7a634995961649ef994ceac67ab57b47c41ee653e5142",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/video-carousel-20261020/moment-b8ef55c95632-360.webp",
+      "bytes": 7446,
+      "sha256": "8fe55142b6534813badfc1c19f96a4454a1627bd5aa89a0b41eec3a8b71718b3",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-1122.webp",
+      "bytes": 97324,
+      "sha256": "c841b6bf1e2878199c874e3808c2af3015863d6e2d0d3fbe6e75407310e69110",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-800.webp",
+      "bytes": 59872,
+      "sha256": "ed74e525d29a0caf175f60ba6aad460fef17e767113b996e6b0a070ec6bf9bc9",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-640.webp",
+      "bytes": 42144,
+      "sha256": "4ba20d635cdbb376f9398ece1a65da3462ae40fa9f349a676a02fc57a7d0c35f",
+      "type": "image/webp"
+    },
+    {
+      "path": "/memocasting-homepage/v1/media/asset-kit/family-reference-white-v1-360.webp",
+      "bytes": 18382,
+      "sha256": "85a22733ba660b0355ad36673f189946b8ee1f7a58ef9565b4bf768ed5da6dde",
+      "type": "image/webp"
+    }
+  ]
+}

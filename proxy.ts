@@ -7,8 +7,14 @@ import { SITE_CONFIGS } from "@/lib/site-config";
 import { contentPackageByHost, publicContentPages, localContentAdmission, contentAdmissionScope, hasLocalPreviewContent } from "@/lib/content-model-v2";
 import mediaAliases from '@/config/content-media-aliases.json';
 import { visibleMediaAlias } from '@/lib/content-media-aliases.mjs';
+import {memoRedirectUrl} from '@/lib/memocasting-routes.mjs';
+import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
+import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
+import {memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawDocumentPath} from '@/lib/memocasting-instruction-documents.mjs';
+import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
+import { pageWithdrawalDestination } from '@/lib/niche-withdrawals.mjs';
 const nichePathAliases = indexNichePathAliases(pathAliases);
 
 const legacyHosts = new Map(
@@ -22,6 +28,13 @@ function isPreview(host: string): boolean {
 export async function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
+  if(memoInstructionRawDocumentPath(path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+  if (host === 'www.memocasting.lt') {
+    const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
+    const memo=nicheSiteByHost('memocasting.lt');
+    const moved=memo?memoRedirectUrl(destination,publicNichePages(memo),request.method):null;
+    return NextResponse.redirect(moved??destination,moved?301:308);
+  }
   // An isolated actual-host preview must never fall back to the old gift app
   // on an unrelated deployment preview hostname.
   if(host.endsWith('.vercel.app') && hasLocalPreviewContent()) return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
@@ -33,6 +46,30 @@ export async function proxy(request: NextRequest) {
   let niche;
   try { niche = await loadNicheSiteByHost(host); }
   catch { return new Response('Temporarily unavailable', {status:503, headers:{'Cache-Control':'no-store','Retry-After':'60'}}); }
+
+  // Reserve the merchant endpoint before every gift/legacy fallback. Only the
+  // exact production host may reach the dynamic live-catalog feed handler.
+  if(path==='/prekiu-srautas.xml'){
+    if(niche?.siteId!=='memocasting'||niche.canonicalHost!=='memocasting.lt'||request.headers.get('host')!=='memocasting.lt'||request.nextUrl.host!=='memocasting.lt'||request.nextUrl.protocol!=='https:')return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/merchant-feed';destination.search='';
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');response.headers.set('X-Robots-Tag','noindex');return response;
+  }
+  // Document aliases must be admitted before gift/legacy/static fallbacks.
+  if(memoInstructionDocumentAlias(path)){
+    if(!niche||!memoInstructionDocument(niche,publicNichePages(niche),path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD','X-Robots-Tag':'noindex','Cache-Control':'private, no-store'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/instruction-documents/'+path.slice('/dokumentai/'.length);destination.search='';
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');response.headers.set('X-Robots-Tag','noindex');return response;
+  }
+  // Run this gate before every legacy/gift fallback as well as niche dispatch.
+  // Otherwise an old legacy host can fall through to the shared ASSETS binding.
+  if(path.startsWith('/memocasting-homepage/')){
+    if(!niche||!memoHomepageAsset(niche,publicNichePages(niche),path))return new Response('Not found',{status:404});
+    if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
+    const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/design-assets/'+path.slice('/memocasting-homepage/'.length);
+    const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','private, no-store');return response;
+  }
 
 
   const gift = !niche ? contentPackageByHost(host) : null;
@@ -67,10 +104,25 @@ export async function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if (path.startsWith('/social/instagram/')) {
+      if(niche.siteId!=='memocasting'||!publicNichePages(niche).some(memoHomepageAdmitted)||!instagramAction(path.slice('/social/instagram/'.length)))return new Response('Not found',{status:404});
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/instagram/'+path.slice('/social/instagram/'.length);destination.search='';
+      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');return response;
+    }
+    if(niche.siteId==='memocasting'){
+      const moved=memoRedirectUrl(request.nextUrl,publicNichePages(niche),request.method);
+      if(moved)return NextResponse.redirect(moved,301);
+    }
+    if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
+    if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
+      const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);
+      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');response.headers.set('Cache-Control','no-store');return response;
+    }
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
     if (request.method === 'GET' || request.method === 'HEAD') {
-      const legacyDestination = nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
+      const legacyDestination = pageWithdrawalDestination(niche, networkSettings, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search)
+        || nichePathAliasDestination(niche, nichePathAliases, () => publicNichePages(niche), path, request.nextUrl.search);
       if (legacyDestination) {
         const destination = request.nextUrl.clone();
         const target = new URL(legacyDestination, destination.origin);

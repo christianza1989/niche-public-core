@@ -1,16 +1,22 @@
+import {memoFaviconHref} from '@/lib/memocasting-favicon.mjs';
+import {memoPublishedProductPage,memoPublishedProductPages} from '@/lib/memocasting-product-server';
+import {memoBrandName,memoSeoMetadata} from '@/lib/memocasting-seo-metadata.mjs';
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, loadNicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
-import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
+import { nicheOrigin, nichePagePath, loadNicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
+import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
+import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
 import { uniqueImageFamilies } from "@/lib/niche-media.mjs";
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
   const niche = await loadNicheSiteByHost(host);
   if (niche) {
-    return { metadataBase: new URL(nicheOrigin(niche)) };
+    return { metadataBase: new URL(nicheOrigin(niche)),...(niche.siteId==='memocasting'?{applicationName:memoBrandName}:{}) };
   }
   const gift=contentPackageByHost(host);
   if(gift)return {metadataBase:new URL(`https://${gift.canonicalHost}`)};
@@ -38,13 +44,16 @@ export default async function RootLayout({
     const { NicheStyles } = await import("@/components/niche/niche-styles");
     const pathname = (await headers()).get("x-niche-original-path") || "/";
     const slug = pathname.replace(/^\/+|\/+$/g, "");
-    const page = publicNichePage(niche, slug);
-    const query = (await headers()).get("x-niche-original-query") || "";
+    const originalPage = publicNichePage(niche, slug);
+    const page = niche.siteId==='memocasting'?await memoPublishedProductPage(originalPage,host):originalPage;
+        const query = (await headers()).get("x-niche-original-query") || "";
     const canonical = page ? catalogueCanonical(niche, page, publicNichePages(niche), query) : undefined;
-    const hero = page && niche.siteId === "promedical" && page.type === "product"
+    const metadataPages=niche.siteId==='memocasting'&&page&&['','pages/instrukcija'].includes(page.slug)?await memoPublishedProductPages(publicNichePages(niche),host):publicNichePages(niche);
+    const memoMetadata=memoSeoMetadata(niche,page,metadataPages,canonical);
+    const hero = memoMetadata?memoMetadata.image:page && niche.siteId === "promedical" && page.type === "product"
       ? uniqueImageFamilies(page.media)[0] : page?.media[0];
     return (
-      <html lang={niche.locale.slice(0, 2).toLowerCase()}>
+      <html lang={niche.siteId==='memocasting'&&page?memoRoute(page).language:niche.locale.slice(0, 2).toLowerCase()}>
         <head>
           <NicheStyles />
           {niche.siteId === "promedical" && <>
@@ -58,18 +67,28 @@ export default async function RootLayout({
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-a30ddcd34970.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
             <link rel="preload" href="/fonts/traktoriupadangos/manrope-latin-ext-3911b66d9f2e.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
           </>}
-          <title>{page?.title || niche.site.name}</title>
-          <meta name="description" content={page?.description || niche.site.offer} />
-          {canonical ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex, nofollow" />}
-          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          {niche.siteId === "memocasting" && <>
+            <link rel="preload" href="/fonts/memocasting/newsreader-latin-extended.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+            <link rel="preload" href="/fonts/memocasting/source-sans-3-400-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+          </>}
+          <title>{memoMetadata?.title || (page as typeof page & {seoTitle?:string})?.seoTitle || page?.title || niche.site.name}</title>
+          <meta name="description" content={memoMetadata?.description || (page as typeof page & {seoDescription?:string})?.seoDescription || page?.description || niche.site.offer} />
+          {canonical ? <link rel="canonical" href={canonical} /> : !memoMetadata&&<meta name="robots" content="noindex, nofollow" />}
+          {memoMetadata?<meta name="robots" content={memoMetadata.robots}/>:page&&memoFunctionalPage(niche,page)&&<meta name="robots" content="noindex, nofollow"/>}
+          {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}
+          <link rel="icon" type="image/svg+xml" href={niche.siteId==='memocasting'?memoFaviconHref:'/favicon.svg'} />
           {page && <>
-            <meta property="og:site_name" content={niche.site.name} />
-            <meta property="og:type" content={page.type === "guide" ? "article" : "website"} />
-            <meta property="og:title" content={page.title} />
-            <meta property="og:description" content={page.description} />
+            <meta property="og:site_name" content={memoMetadata?.siteName || niche.site.name} />
+            <meta property="og:type" content={memoMetadata?.type || (page.type === "guide" ? "article" : "website")} />
+            <meta property="og:title" content={memoMetadata?.title || page.title} />
+            <meta property="og:description" content={memoMetadata?.description || page.description} />
+            {memoMetadata&&<><meta name="twitter:title" content={memoMetadata.title}/><meta name="twitter:description" content={memoMetadata.description}/></>}
+            {memoMetadata?.offer&&<><meta property="product:price:amount" content={memoMetadata.offer.price}/><meta property="product:price:currency" content={memoMetadata.offer.priceCurrency}/></>}
+            {niche.siteId==='memocasting'&&<meta property="og:locale" content={memoRoute(page).locale.replace('-','_')} />}
             <meta property="og:url" content={canonical} />
             {hero && <><meta property="og:image" content={`${nicheOrigin(niche)}${hero.src}`} />
-              {niche.siteId === "promedical" && page.type === "product" && <>
+              {(niche.siteId==='memocasting'||niche.siteId==='promedical'&&page.type==='product') && <>
                 <meta property="og:image:width" content={String(hero.width)} />
                 <meta property="og:image:height" content={String(hero.height)} />
                 <meta property="og:image:alt" content={hero.alt} />
