@@ -17,6 +17,14 @@
 .memo-checkout .checkout-code-remove{display:inline-flex;align-items:center;min-height:44px;padding:6px 0;border:0;background:transparent;font:inherit;font-size:13px;text-decoration:underline;text-underline-offset:3px;color:#655653;cursor:pointer}
 .memo-checkout .checkout-discount-total{color:#804153}
 .memo-checkout .checkout-discount-total dt{overflow-wrap:anywhere}
+.memo-checkout .checkout-locker{min-width:0;margin:0 0 12px}
+.memo-checkout .checkout-locker>.checkout-field{margin-bottom:0}
+.memo-checkout .checkout-locker-results{max-height:280px;overflow-y:auto;overscroll-behavior:contain;scrollbar-color:#a49a95 #f7f6f4;border:1px solid #d1c9c4;border-radius:6px;margin-top:6px;background:#fff}
+.memo-checkout .checkout-locker-option{display:block;box-sizing:border-box;width:100%;min-height:48px;padding:12px;text-align:left;white-space:normal;overflow-wrap:anywhere;border:0;border-bottom:1px solid #e6e0dc;border-radius:0;background:#fff;color:#282526;font:inherit;font-size:15px;line-height:1.5;cursor:pointer}
+.memo-checkout .checkout-locker-option:last-child{border-bottom:0}
+.memo-checkout .checkout-locker-option:hover,.memo-checkout .checkout-locker-option[aria-selected=true]{background:#f2e9ed;color:#602b3c}
+.memo-checkout .checkout-locker-status{margin:6px 0 0;overflow-wrap:anywhere}
+.memo-checkout .checkout-locker-status:empty{display:none}
 .memo-checkout [hidden]{display:none!important}
 .memo-checkout .checkout-one-page{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,460px);gap:32px;align-items:start}
 .memo-checkout .checkout-details{min-width:0}
@@ -86,6 +94,7 @@
  .memo-checkout .checkout-details>fieldset{padding:0;border:0;margin-bottom:8px}
  .memo-checkout .checkout-details>fieldset:nth-of-type(3){border-top:1px solid #e6e0dc;padding-top:12px}
  .memo-checkout .checkout-details>fieldset:nth-of-type(3)>.checkout-field{max-width:calc(50% - 12px)}
+ .memo-checkout .checkout-details>fieldset:nth-of-type(3)>.checkout-locker{max-width:calc(50% - 12px)}
 }
 @media(max-width:900px){.memo-checkout .checkout-one-page{gap:24px;grid-template-columns:minmax(0,1fr)}.memo-checkout .checkout-summary{position:static}}
 @media(max-width:700px){
