@@ -3,6 +3,7 @@ import type {NicheBlock,NicheMedia,NichePackage,NichePage} from '@/lib/niche-sit
 import {memoRoute,memoPath,memoLabels,memoLanguageLinks} from '@/lib/memocasting-locales.mjs';
 import {nicheEditorialDates} from '@/lib/niche-schema-core.mjs';
 import {nicheJsonLd} from '@/lib/niche-seo';
+import {uniqueRelatedLinks} from '@/lib/niche-links.mjs';
 import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoCompany,memoProfilePath,memoGuideBodyParts,memoGiftQuickPaths} from '@/lib/memocasting-structure.mjs';
 import {imageSrcSet,visibleImageCredit} from '@/lib/niche-media.mjs';
 import {LinkedText} from './linked-text';
@@ -70,7 +71,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language} analytics={<MemoAnalytics siteId={pkg.siteId} path={'/'+page.slug} title={page.title} language={route.language} functional={cart} privacyPath={exists('privatumas')?path('privatumas'):undefined}/>}/>;
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
  const instruction=memoInstructionKind(page);
- const related=page.links.flatMap(l=>{const p=livePages.find(p=>p.id===l.targetPageId);return p?[{page:p,label:l.label}]:[];});
+ const related=uniqueRelatedLinks(page.links,livePages);
  if(home&&route.language==='lt'&&memoHomepageAdmitted(page)){
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
   const story=memoHomepageProductStory(localPages).split('<!-- memo-inspiration-gallery -->');
