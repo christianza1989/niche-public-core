@@ -108,7 +108,9 @@ export function proxy(request: NextRequest) {
     if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
     if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);
-      const response=NextResponse.rewrite(destination);response.headers.set('X-Robots-Tag','noindex, nofollow');response.headers.set('Cache-Control','no-store');return response;
+      // The final relay decides robots after status, MIME and publication checks.
+      // Rewrite headers otherwise overwrite even a successful public image reply.
+      const response=NextResponse.rewrite(destination);response.headers.set('Cache-Control','no-store');return response;
     }
     if (path === '/gift' || path.startsWith('/gift/')) return new Response('Not found',{status:404});
     if (path === "/niche" || path.startsWith("/niche/")) return new Response("Not found", { status: 404 });
