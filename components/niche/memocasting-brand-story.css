@@ -1,0 +1,19 @@
+.memo-brand-story { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 32px 72px; max-width: 1240px; margin: 80px auto 48px; padding: 56px 40px 32px; border-top: 1px solid #e5ddd8; color: #282526; }
+.memo-brand-heading > p { margin: 0 0 20px; color: #8c3857; font-size: 12px; font-weight: 600; line-height: 1.5; letter-spacing: .1em; }
+.memo-brand-story h2 { margin: 0; max-width: 19ch; font-size: clamp(28px, 3vw, 40px); line-height: 1.2; font-weight: 500; letter-spacing: -.035em; text-wrap: balance; }
+.memo-brand-copy { align-self: end; max-width: 64ch; }
+.memo-brand-copy p { margin: 0 0 18px; font-size: 17px; line-height: 1.75; color: #514945; }
+.memo-brand-copy p:last-child { margin-bottom: 0; }
+.memo-brand-links { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; padding-top: 24px; }
+.memo-brand-links a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 48px; border-top: 1px solid #e5ddd8; padding-top: 16px; color: #282526; text-decoration: none; font-size: 14px; line-height: 1.5; }
+.memo-brand-links a:hover { color: #8c3857; }
+.memo-brand-links a:focus-visible { outline: 2px solid #8c3857; outline-offset: 5px; }
+.memo-brand-links svg { flex: none; width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+@media (max-width: 700px) {
+ .memo-brand-story { grid-template-columns: minmax(0, 1fr); gap: 24px; margin: 48px 20px 24px; padding: 32px 0 16px; }
+ .memo-brand-story h2 { max-width: 22ch; }
+ .memo-brand-heading > p { margin-bottom: 16px; }
+ .memo-brand-copy p { font-size: 16px; }
+ .memo-brand-links { grid-template-columns: minmax(0, 1fr); gap: 0; padding-top: 0; }
+ .memo-brand-links a { padding-block: 16px; }
+}

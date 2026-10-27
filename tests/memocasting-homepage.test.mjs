@@ -3,10 +3,26 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {memoHomepageBlocks,memoHomepageAdmitted} from '../lib/memocasting-homepage-markup.mjs';
-import {memoHomepageAsset,memoHomepageProductStory} from '../lib/memocasting-homepage-assets.mjs';
+import {memoHomepageAsset,memoHomepageProductStory,memoHomepageVisibleLead} from '../lib/memocasting-homepage-assets.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
 import manifest from '../lib/memocasting-homepage-assets.json' with {type:'json'};
+import {memoPreparationImageId} from '../lib/memocasting-homepage-images.mjs';
 const home={id:'home',type:'home',slug:'',body:memoHomepageBlocks,links:[],media:[],publishAt:'2026-10-01T00:00:00Z',revisionHash:'current',approval:{status:'approved',revisionHash:'current'}},pkg={siteId:'memocasting',pages:[home]},assetPath=manifest.assets[0].path;
+test('owner-hidden meaning and contents sections leave neighbouring homepage sections and native admission intact',()=>{
+ const original=memoHomepageProductStory([]).split('<!-- memo-inspiration-gallery -->')[0],visible=memoHomepageVisibleLead(original);
+ for(const id of ['akimirkos','sudetis'])assert.ok(!visible.includes('id="'+id+'"'));
+ for(const id of ['pradzia','rinkiniai','procesas','skulpturos'])assert.ok(visible.includes('id="'+id+'"'));
+ assert.ok(original.includes('id="sudetis"'));assert.ok(memoHomepageAdmitted(home));
+ assert.equal(memoHomepageVisibleLead(visible),visible);
+});
+test('preparation card uses only the selected admitted native responsive image family',()=>{
+ const image={id:memoPreparationImageId,familyId:'selected',src:'/content-assets/memocasting/selected.webp',alt:'Selected owner illustration',width:1536,height:1024};
+ const media=[image,{...image,id:'small',src:'/content-assets/memocasting/selected-small.webp',width:360,height:240}];
+ const selected=memoHomepageProductStory([{...home,media}]);assert.ok(selected.includes('src="'+image.src+'"'));assert.ok(selected.includes('selected-small.webp 360w'));assert.ok(selected.includes('alt="Selected owner illustration"'));
+ assert.ok(!selected.includes('/creation-table-v1-1536.webp'));
+ const without=memoHomepageProductStory([{...home,media:[]}]);assert.ok(without.includes('/creation-table-v1-1536.webp'));
+ const altered=memoHomepageProductStory([{...home,media,body:[]}]);assert.ok(!altered.includes('src="'+image.src+'"'));
+});
 test('design assets require the exact admitted homepage, same site, current revision and allowlisted path',()=>{
  const project=p=>projectPublicPages(p,[p],{},Date.parse('2026-10-13T00:00:00Z'));
  assert.ok(memoHomepageAdmitted(home));assert.ok(memoHomepageAsset(pkg,project(pkg),assetPath));
