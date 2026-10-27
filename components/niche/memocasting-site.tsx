@@ -14,7 +14,7 @@ import {memoCheckoutPolicies} from '@/lib/memocasting-checkout-policies.mjs';
 import s from './memocasting-site.module.css';
 import {MemoHomepageMotion} from './memocasting-homepage-motion';
 import {memoHomepageAdmitted,memoHomepageIntro} from '@/lib/memocasting-homepage-markup.mjs';
-import {memoHomepageProductStory} from '@/lib/memocasting-homepage-assets.mjs';
+import {memoHomepageProductStory,memoHomepageVisibleLead} from '@/lib/memocasting-homepage-assets.mjs';
 import './memocasting-homepage.css';
 import './memocasting-reviews.css';
 import './memocasting-product-cards.css';
@@ -22,6 +22,9 @@ import './memocasting-review-carousel.css';
 import './memocasting-brand-story.css';
 import {MemoBrandStory} from './memocasting-brand-story';
 import {memoHomepageBrand} from '@/lib/memocasting-homepage-brand.mjs';
+import {MemoHomepageFaq} from './memocasting-homepage-faq';
+import {memoHomepageFaq,memoHomepageFaqPlacement} from '@/lib/memocasting-homepage-faq.mjs';
+import './memocasting-homepage-faq.css';
 import {MemoHomepageFooter} from './memocasting-homepage-footer';
 import {MemoAnalytics} from './memocasting-analytics';
 import {memoFooterGroups} from '@/lib/memocasting-footer.mjs';
@@ -71,16 +74,16 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
   const story=memoHomepageProductStory(localPages).split('<!-- memo-inspiration-gallery -->');
   const social=memoInstagramPlacement(story[1]??'');
+  const faq=memoHomepageFaq(page,livePages),faqPlacement=memoHomepageFaqPlacement(social.after,faq);
   const brand=memoHomepageBrand(page,livePages);
-  // Temporarily commented out by the owner: retain the original meaning section
-  // in memoHomepageStory for restoration, but omit it from the rendered page.
-  const lead=story[0].replace(/<section class="meaning home-section" id="akimirkos"[\s\S]*?<\/section>/,'');
+  // Keep the owner's two hidden sections out of the rendered homepage.
+  const lead=memoHomepageVisibleLead(story[0]);
   const videoBoundary=lead.indexOf('<section class="sculpture-showroom"');
   const beforeVideos=videoBoundary<0?lead:lead.slice(0,videoBoundary);
   const afterVideos=videoBoundary<0?'':lead.slice(videoBoundary);
   const cartLink=exists('cart')?`<a class="home-cart" href="${escape(path('cart'))}" aria-label="Krepšelis"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/></svg></a>`:'';
   const intro=memoHomepageIntro.replace('</nav>',cartLink+'</nav>');
-  return <MemoHomepageMotion><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/><div dangerouslySetInnerHTML={{__html:intro}}/><main id="turinys"><div dangerouslySetInnerHTML={{__html:beforeVideos}}/><MemoVideoCarousel/><div dangerouslySetInnerHTML={{__html:afterVideos}}/><MemoInspirationGallery/><MemoBrandStory story={brand.section}/><MemoHomeReviews/><div dangerouslySetInnerHTML={{__html:social.before}}/><div dangerouslySetInnerHTML={{__html:social.after}}/><details className="home-information"><summary>Rinkinių informacija ir naudingi gidai</summary><Body page={{...page,body:brand.remainder}} pages={livePages}/>{exists('gidai')&&<p><a href={path('gidai')}>{labels.allGuides}</a></p>}</details></main>{footer}</MemoHomepageMotion>;
+  return <MemoHomepageMotion><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/><div dangerouslySetInnerHTML={{__html:intro}}/><main id="turinys"><div dangerouslySetInnerHTML={{__html:beforeVideos}}/><MemoVideoCarousel/><div dangerouslySetInnerHTML={{__html:afterVideos}}/><MemoInspirationGallery/><MemoBrandStory story={brand.section}/><MemoHomeReviews/><div dangerouslySetInnerHTML={{__html:social.before}}/><div dangerouslySetInnerHTML={{__html:faqPlacement.before}}/>{faqPlacement.replace&&<MemoHomepageFaq faq={faq}/>}<div dangerouslySetInnerHTML={{__html:faqPlacement.after}}/><details className="home-information"><summary>Rinkinių informacija ir naudingi gidai</summary><Body page={{...page,body:brand.remainder}} pages={livePages}/>{exists('gidai')&&<p><a href={path('gidai')}>{labels.allGuides}</a></p>}</details></main>{footer}</MemoHomepageMotion>;
  }
  return <div className={s.site} data-memo-instructions={instruction||undefined}><a className={s.skip} href="#turinys">{labels.skip}</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page)}}/>
  <header className={s.header}>

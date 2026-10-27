@@ -1,7 +1,9 @@
 'use client';
 /* eslint-disable @next/next/no-img-element -- Immutable, responsive first-party video posters. */
 import {useCallback,useEffect,useRef,useState,type KeyboardEvent} from 'react';
+import {flushSync} from 'react-dom';
 import useEmblaCarousel from 'embla-carousel-react';
+import AutoScroll from 'embla-carousel-auto-scroll';
 import catalogue from '@/lib/memocasting-video-assets.json';
 import './memocasting-video-carousel.css';
 
@@ -12,12 +14,16 @@ export function MemoVideoCarousel(){
  const section=useRef<HTMLElement>(null),player=useRef<HTMLVideoElement>(null);
  const [active,setActive]=useState<string|null>(null),[state,setState]=useState<'loading'|'ready'|'error'>('loading');
  const [position,setPosition]=useState(0),[previous,setPrevious]=useState(false),[next,setNext]=useState(true);
+ const [auto]=useState(()=>AutoScroll({speed:.35,startDelay:1200,playOnInit:false,stopOnInteraction:true,stopOnMouseEnter:false,stopOnFocusIn:false}));
+ const [autoEnabled,setAutoEnabled]=useState(true),[hovered,setHovered]=useState(false),[focused,setFocused]=useState(false),[dragging,setDragging]=useState(false);
+ const [visible,setVisible]=useState(false),[pageVisible,setPageVisible]=useState(false),[motionAllowed,setMotionAllowed]=useState(false);
  const [viewport,api]=useEmblaCarousel({
-  align:'start',containScroll:'trimSnaps',loop:false,skipSnaps:false,
+  align:'start',containScroll:'trimSnaps',loop:true,skipSnaps:false,
   // Playing and operating a video must not become carousel gestures.
   watchDrag:(_api,event)=>!(event.target instanceof Element&&event.target.closest('video,.memo-video-play-icon,.memo-video-close,.memo-video-retry')),
-  watchFocus:(_api,event)=>!(event.target instanceof Element&&event.target.closest('video,.memo-video-close,.memo-video-retry')),
- });
+  // Focus must never move the track while a visitor operates a play control.
+  watchFocus:false,
+ },[auto]);
  const jump=useCallback(()=>Boolean(window.matchMedia('(prefers-reduced-motion: reduce)').matches||section.current?.closest('.motion-off')),[]);
  useEffect(()=>{
   if(!api)return;
@@ -26,11 +32,30 @@ export function MemoVideoCarousel(){
   return()=>{cancelAnimationFrame(frame);api.off('select',update).off('reInit',update);};
  },[api]);
  useEffect(()=>{
+  const el=section.current;if(!el)return;
+  const media=window.matchMedia('(prefers-reduced-motion: reduce)'),root=el.closest('.memo-homepage')||document.documentElement;
+  const motion=()=>setMotionAllowed(!media.matches&&!el.closest('.motion-off'));
+  const visibility=()=>setPageVisible(!document.hidden);
+  const observer=new IntersectionObserver(entries=>setVisible(entries.some(e=>e.isIntersecting&&e.intersectionRatio>=.2)),{threshold:[0,.2]});observer.observe(el);
+  const changes=new MutationObserver(motion);changes.observe(root,{attributes:true,attributeFilter:['class']});
+  motion();visibility();media.addEventListener('change',motion);document.addEventListener('visibilitychange',visibility);
+  return()=>{observer.disconnect();changes.disconnect();media.removeEventListener('change',motion);document.removeEventListener('visibilitychange',visibility);};
+ },[]);
+ useEffect(()=>{
+  if(!api)return;
+  const down=()=>{auto.stop();setDragging(true);},up=()=>setDragging(false);
+  api.on('pointerDown',down).on('pointerUp',up);
+  return()=>{api.off('pointerDown',down).off('pointerUp',up);};
+ },[api,auto]);
+ useEffect(()=>{
+  const scrolling=auto;
+  if(api&&autoEnabled&&visible&&pageVisible&&motionAllowed&&!active&&!hovered&&!focused&&!dragging)scrolling.play();else scrolling.stop();
+  return()=>scrolling.stop();
+ },[api,auto,autoEnabled,visible,pageVisible,motionAllowed,active,hovered,focused,dragging]);
+ useEffect(()=>{
   if(!active||!player.current)return;
   const video=player.current;
   video.focus({preventScroll:true});
-  // No media element with src exists until a deliberate play action.
-  void video.play().catch(()=>{ /* Native play control remains available if browser policy intervenes. */ });
   const pause=()=>{if(document.hidden)video.pause();};
   const observer=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.intersectionRatio<.2))video.pause();},{threshold:[0,.2]});
   observer.observe(video);document.addEventListener('visibilitychange',pause);
@@ -38,7 +63,13 @@ export function MemoVideoCarousel(){
  },[active]);
  const close=(id:string)=>{setActive(null);requestAnimationFrame(()=>section.current?.querySelector<HTMLButtonElement>(`[data-play="${id}"]`)?.focus({preventScroll:true}));};
  // Keep the chosen card exactly where it is; only navigation moves the track.
- const start=(id:string)=>{setState('loading');setActive(id);};
+ const start=(id:string)=>{
+  auto.stop();
+  // Mount and play inside the original trusted click, including iOS Safari.
+  // Waiting for an effect loses that browser activation and needs a second tap.
+  flushSync(()=>{setState('loading');setActive(id);});
+  void player.current?.play().catch(()=>{setState('ready');});
+ };
  const keys=(event:KeyboardEvent)=>{
   if(event.defaultPrevented)return;
   if(event.altKey||event.ctrlKey||event.metaKey)return;
@@ -49,11 +80,12 @@ export function MemoVideoCarousel(){
   if(event.key==='Home'){event.preventDefault();api?.scrollTo(0,jump());}
   if(event.key==='End'){event.preventDefault();api?.scrollTo(catalogue.items.length-1,jump());}
  };
- return <section ref={section} id="instagram" className="memo-videos" aria-labelledby="memo-video-title" aria-roledescription="karuselė" data-memo-video-carousel onKeyDown={keys}>
+ return <section ref={section} id="instagram" className="memo-videos" aria-labelledby="memo-video-title" aria-roledescription="karuselė" data-memo-video-carousel onKeyDown={keys} onPointerEnter={event=>{if(event.pointerType==='mouse'){auto.stop();setHovered(true);}}} onPointerLeave={()=>setHovered(false)} onFocusCapture={event=>{const blocked=!(event.target instanceof Element&&event.target.closest('.memo-video-auto'));if(blocked)auto.stop();setFocused(blocked);}} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node|null))setFocused(false);}}>
   <div className="memo-video-heading">
    <div><h2 id="memo-video-title">Akimirkos, kurios lieka.</h2><p>Juokas, susikibusios rankos ir pirmas žvilgsnis į savo skulptūrą. Pažiūrėkite, kaip gimsta prisiminimai.</p></div>
    <div className="memo-video-navigation" aria-label="Video karuselės valdymas">
-    <span className="memo-video-count" aria-live="polite" aria-atomic="true">{String(position+1).padStart(2,'0')} <span>/ {catalogue.items.length}</span></span>
+    <span className="memo-video-count" aria-live="off">{String(position+1).padStart(2,'0')} <span>/ {catalogue.items.length}</span></span>
+    <button type="button" className="memo-video-auto" aria-pressed={!autoEnabled} aria-label={autoEnabled?'Pristabdyti automatinį slinkimą':'Įjungti automatinį slinkimą'} onClick={()=>setAutoEnabled(value=>!value)}>{autoEnabled?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14"/></svg>:<Play/>}</button>
     <button type="button" disabled={!api||!previous} onClick={()=>api?.scrollPrev(jump())} aria-label="Ankstesnis video"><Arrow previous/></button>
     <button type="button" disabled={!api||!next} onClick={()=>api?.scrollNext(jump())} aria-label="Kitas video"><Arrow/></button>
    </div>

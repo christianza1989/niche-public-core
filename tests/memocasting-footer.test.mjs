@@ -2,9 +2,14 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {memoFooterGroups,memoFooterCopy} from '../lib/memocasting-footer.mjs';
 import {memoHomepageBlocks} from '../lib/memocasting-homepage-markup.mjs';
+import {memoPaymentBrandMarks} from '../lib/memocasting-payment-status.mjs';
 const home={slug:'',body:memoHomepageBlocks};
 const page=slug=>({slug});
 const hrefs=groups=>groups.flatMap(g=>g.links.map(l=>l.href));
+test('payment brand marks require admitted live availability and never advertise a test or unknown checkout',()=>{
+ assert.deepEqual(memoPaymentBrandMarks('available'),['visa','mastercard','stripe']);
+ for(const state of ['unknown','test','unavailable',undefined])assert.deepEqual(memoPaymentBrandMarks(state),[]);
+});
 
 test('footer sections from an inner page navigate to the admitted homepage, not local fragments',()=>{
  const live=[home,page('ranku-liejimo-rinkiniai'),page('rinkinys-porai'),page('gidai'),page('pristatymas')];

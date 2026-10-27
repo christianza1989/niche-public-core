@@ -17,9 +17,7 @@
 .memo-videos .memo-video-play{display:block;position:relative;width:100%;height:100%;padding:0;border:0;background:transparent;color:#fff;cursor:grab;overflow:hidden;border-radius:inherit;touch-action:pan-y pinch-zoom}
 .memo-video-play:active{cursor:grabbing}
 .memo-video-play img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s cubic-bezier(.16,1,.3,1)}
-.memo-video-play:hover img{transform:scale(1.025)}
 .memo-video-play-icon{position:absolute;inset:0;margin:auto;display:grid;place-items:center;width:60px;height:60px;border-radius:50%;background:#282625d9;box-shadow:0 5px 24px #0002;cursor:pointer;touch-action:manipulation;transition:transform .25s cubic-bezier(.16,1,.3,1)}
-.memo-video-play:hover .memo-video-play-icon{transform:scale(1.08)}
 .memo-video-play-icon svg{width:22px;height:22px;fill:currentColor;stroke:none;margin-left:2px}
 .memo-video-duration{position:absolute;bottom:12px;right:12px;border-radius:5px;padding:3px 7px;background:#282625e8;color:#fff;font-size:14px;line-height:1.5;font-variant-numeric:tabular-nums}
 .memo-video-frame video{display:block;width:100%;height:100%;object-fit:contain;background:#171514}
@@ -35,6 +33,8 @@
 .memo-video-play:focus-visible{outline-offset:-4px}
 .memo-videos ::selection{color:#fff;background:#8b4560}
 .memo-homepage.motion-off .memo-videos *{transition:none}
+/* Touch must activate play immediately rather than first revealing hover UI. */
+@media(hover:hover) and (pointer:fine){.memo-video-play:hover img{transform:scale(1.025)}.memo-video-play:hover .memo-video-play-icon{transform:scale(1.08)}}
 @media(min-width:1600px){.memo-video-slide{flex-basis:calc((100% - 100px)/5.25)}}
 @media(max-width:1000px){.memo-video-slide{flex-basis:40%}.memo-video-heading{gap:24px}.memo-video-foot{flex-direction:column;gap:8px}}
 @media(max-width:600px){.memo-video-heading{display:block;margin-bottom:24px}.memo-video-heading p{max-width:36ch}.memo-video-navigation{margin-top:24px;justify-content:flex-end}.memo-video-count{margin-right:auto}.memo-video-slide{flex-basis:84%}.memo-video-track{gap:16px}.memo-video-navigation button{width:44px;height:44px;padding:10px}}

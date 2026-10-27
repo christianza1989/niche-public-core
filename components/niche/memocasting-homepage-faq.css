@@ -1,0 +1,21 @@
+.memo-faq{display:grid;grid-template-columns:minmax(240px,.8fr) minmax(0,1.2fr);gap:clamp(40px,7vw,112px);max-width:1360px;margin:auto;padding:clamp(64px,8vw,112px) clamp(24px,3vw,40px);color:#282625;scroll-margin-top:32px}
+.memo-faq h2{font-size:clamp(30px,3vw,42px);font-weight:400;line-height:1.15;letter-spacing:-.03em;margin:0 0 24px;text-wrap:balance}
+.memo-faq-intro>p{font-size:16px;line-height:1.7;max-width:34ch;margin:0 0 32px;color:#615a57}
+.memo-faq nav{display:grid;max-width:360px;gap:4px}
+.memo-faq nav a{display:flex;gap:12px;align-items:center;min-height:48px;padding:10px 0;color:inherit;text-decoration:none;font-size:15px;line-height:1.5;border-bottom:1px solid #e6ded9}
+.memo-faq nav a:hover{color:#8b3454}
+.memo-faq svg{width:22px;height:22px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.memo-faq nav .memo-faq-arrow{margin-left:auto;width:18px;height:18px}
+.memo-faq-list{border-top:1px solid #d7ccc6}
+.memo-faq details{border-bottom:1px solid #d7ccc6}
+.memo-faq summary{display:flex;align-items:center;justify-content:space-between;gap:24px;cursor:pointer;min-height:76px;padding:22px 8px;font-size:18px;font-weight:500;line-height:1.5;list-style:none}
+.memo-faq summary::-webkit-details-marker{display:none}
+.memo-faq summary:hover,.memo-faq details[open] summary{color:#8b3454}
+.memo-faq details[open] .memo-faq-plus{display:none}
+.memo-faq-answer{padding:0 44px 24px 8px;max-width:68ch}
+.memo-faq-answer p{font-size:16px;line-height:1.75;margin:0 0 12px;color:#514946}
+.memo-faq-answer p:last-child{margin-bottom:0}
+.memo-faq :is(a,summary):focus-visible{outline:2px solid #8b3454;outline-offset:4px;border-radius:2px}
+.memo-faq ::selection{color:#fff;background:#8b3454}
+@media(max-width:760px){.memo-faq{grid-template-columns:minmax(0,1fr);gap:36px}.memo-faq nav{max-width:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 20px}.memo-faq nav a{font-size:14px}.memo-faq-intro>p{max-width:45ch}.memo-faq summary{font-size:17px;gap:16px;padding:20px 0}.memo-faq-answer{padding-left:0;padding-right:20px}}
+@media(max-width:360px){.memo-faq nav{grid-template-columns:minmax(0,1fr)}}
