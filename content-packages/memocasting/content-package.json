@@ -468,6 +468,19 @@
         {
           "type": "paragraph",
           "text": "Krepšelyje prekės ir pasirinkto pristatymo suma skaičiuojama serveryje ir rodoma prieš apmokėjimą. Lietuvoje galite pasirinkti tuo metu siūlomą pristatymą į Omniva paštomatą arba kurjeriu. Atsiskaitoma per Stripe; paskyros kurti nereikia. Prieš pradėdami veiklą perskaitykite savo rinkinio instrukciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rankų liejimo rinkiniai „Memory Casting“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkiniais Lietuvoje prekiaujame nuo 2019 m. Norime, kad brangios akimirkos įgautų formą, todėl kuriame rinkinius porai ir šeimai – bendrai veiklai ir jūsų pačių rankomis sukurtam prisiminimui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinius siūlo Lietuvoje veikianti MB Memocasting. Prieš pradėdami galite perskaityti atskiras lietuviškas poros ir šeimos instrukcijas, o kilus klausimų – kreiptis tiesiogiai į mus. Žemiau rasite ankstesnių pirkėjų patirtis ir jų nuotraukas."
         }
       ],
       "publishAt": "2026-10-11T23:02:08.535Z",
@@ -1545,12 +1558,12 @@
         }
       ],
       "id": "4cc41bac-2537-4c4f-985b-3f8df01edbed",
-      "revisionHash": "8d86fce5137332335d91c04d6e78b0894349b5df7d4e5cc4d84fb900b628a2dd",
+      "revisionHash": "ae3099529b59ba028869b928f1b3b06b947f7968df699cf2939b7e8b6f61cfb4",
       "approval": {
         "status": "approved",
-        "revisionHash": "8d86fce5137332335d91c04d6e78b0894349b5df7d4e5cc4d84fb900b628a2dd",
-        "approvedAt": "2026-10-25T12:19:09.708Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "ae3099529b59ba028869b928f1b3b06b947f7968df699cf2939b7e8b6f61cfb4",
+        "approvedAt": "2026-10-27T06:25:20.238Z",
+        "actorId": "owner-authorized-homepage-brand-20261027"
       }
     },
     {
@@ -31821,5 +31834,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-26T15:52:05.304Z"
+  "generatedAt": "2026-10-27T06:25:20.462Z"
 }

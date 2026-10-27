@@ -51,3 +51,21 @@ test('loopback fixture stays explicit and HEAD does not create or forward a body
  let called;const response=await relayMemoBuyer(new Request('http://127.0.0.1:8817/prekyba/catalog',{method:'HEAD'}),'catalog',{siteId:'memocasting',host:'127.0.0.1',loopbackOrigin:'http://127.0.0.1:8827',fetchImpl:async request=>{called=request;return Response.json([]);}});
  assert.equal(response.status,200);assert.equal(called.body,null);assert.equal(response.body,null);assert.equal(called.url,'http://127.0.0.1:8827/api/catalog');
 });
+
+test('only successful published public image reads permit indexing; revocations and private responses stay excluded',async()=>{
+ const photo='reviews/photos/00000000-0000-4000-8000-000000000001',catalog='catalog-media/img_fixture';
+ const request=(path,method='GET')=>new Request('https://memocasting.lt/prekyba/'+path,{method,headers:{'cf-connecting-ip':'203.0.113.12'}});
+ const options=(status=200,type='image/webp')=>({siteId:'memocasting',host:'memocasting.lt',cfTrusted:true,service:{fetch:async r=>{assert.equal(r.method,'GET');return new Response('fixture',{status,headers:{'content-type':type,'x-robots-tag':'noindex, nofollow'}});}}});
+ for(const path of [photo,catalog])for(const method of ['GET','HEAD']){
+  const r=await relayMemoBuyer(request(path,method),path,options());
+  assert.equal(r.status,200);assert.equal(r.headers.get('x-robots-tag'),'index, follow, max-image-preview:large');
+  assert.equal(r.headers.get('cache-control'),'no-store');assert.equal(r.headers.get('x-content-type-options'),'nosniff');
+  if(method==='HEAD')assert.equal(r.body,null);else assert.equal(await r.text(),'fixture');
+ }
+ for(const [path,status,type] of [[photo,404,'application/json'],[catalog,503,'image/webp'],[photo,200,'application/json'],['catalog',200,'image/webp'],['orders/test/documents/test',200,'image/webp'],['orders/test/documents/test',200,'application/pdf']]){
+  const r=await relayMemoBuyer(request(path),path,options(status,type));
+  assert.equal(r.headers.get('x-robots-tag'),'noindex, nofollow');assert.equal(r.headers.get('cache-control'),'no-store');
+ }
+ const write=await relayMemoBuyer(source('reviews/photos'),'reviews/photos',{siteId:'memocasting',host:'memocasting.lt',cfTrusted:true,service:{fetch:async()=>new Response('fixture',{headers:{'content-type':'image/webp'}})}});
+ assert.equal(write.headers.get('x-robots-tag'),'noindex, nofollow');
+});
