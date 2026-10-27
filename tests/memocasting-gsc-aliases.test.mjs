@@ -80,6 +80,20 @@ test('known index aliases drop only obsolete page while preserving attribution a
  assert.equal(memoRedirectUrl('https://memocasting.lt/en/blogs/dovanos-valentino-dienai?page=4&utm_source=gift',visible(at)).search,'?page=4&utm_source=gift','scheduled article semantics are unchanged');
 });
 
+test('retired Christmas blog index drops pagination when its successor is a single guide',()=>{
+ const live=visible();
+ for(const method of ['GET','HEAD']){
+  for(const source of ['/blogs/kaledines-dovanos','/blogs/kaledines-dovanos/']){
+   const moved=memoRedirectUrl('https://memocasting.lt'+source+'?page=8&utm_source=partner&page=9&ref=friend',live,method);
+   assert.equal(moved?.pathname,'/gidai/kaledines-dovanos');
+   assert.deepEqual([...moved.searchParams],[['utm_source','partner'],['ref','friend']]);
+   assert.equal(memoRedirectUrl('https://memocasting.lt'+source+'?utm_source=gift%20guide',live,method)?.search,'?utm_source=gift%20guide');
+  }
+ }
+ assert.equal(memoRedirectUrl('https://memocasting.lt/blogs/kaledines-dovanos?page=8',[], 'GET'),null,'requires an eligible destination');
+ assert.equal(memoRedirectUrl('https://memocasting.lt/blogs/kaledines-dovanos?page=8',live,'POST'),null,'does not redirect writes');
+});
+
 test('all 15 reported scheduled forms activate only at their actual target publication boundary',()=>{
  assert.equal(scheduled.length,15);
  for(const [source,slug] of scheduled){
@@ -135,6 +149,7 @@ test('HTTP contract: 17 current forms reach 200; 15 future forms are 404 before 
   for(const [source,target] of immediate)await follow(source,target);
   await follow('/products?page=3&utm_source=gift','/ranku-liejimo-rinkiniai?utm_source=gift');
   await follow('/en/blogs/news?utm_source=gift&page=10','/gidai?utm_source=gift');
+  await follow('/blogs/kaledines-dovanos?page=8&utm_source=gift','/gidai/kaledines-dovanos?utm_source=gift');
   for(const [source,slug] of scheduled){
    const at=Date.parse(pkg.pages.find(p=>p.slug===slug).publishAt);clock=at-1;
    assert.equal((await fetch(base+source,{redirect:'manual'})).status,404,source+' before');
