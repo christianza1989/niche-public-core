@@ -27,6 +27,10 @@ const immediate=[
 ];
 const scheduled=[
  ['/en/collections/dovana-teciui','gidai/dovanos-teciui'],
+ ['/en/collections/dovana-dukrai','gidai/dovanos-dukrai'],
+ ['/en/collections/dovanos-draugei','gidai/dovanos-draugei'],
+ ['/en/collections/dovana-draugei-gimtadienio-proga','gidai/dovanos-draugei'],
+ ['/en/collections/gimtadienio-dovanos','gidai/dovanos-gimtadienio-proga'],
  ['/blogs/praktiskos-dovanos','gidai/praktiskos-dovanos'],
  ['/en/blogs/praktiskos-dovanos','gidai/praktiskos-dovanos'],
  ['/en/blogs/news/dovanos-merginoms-jaunatviskos-ir-smagios-idejos','gidai/dovanos-merginai'],
@@ -76,8 +80,8 @@ test('known index aliases drop only obsolete page while preserving attribution a
  assert.equal(memoRedirectUrl('https://memocasting.lt/en/blogs/dovanos-valentino-dienai?page=4&utm_source=gift',visible(at)).search,'?page=4&utm_source=gift','scheduled article semantics are unchanged');
 });
 
-test('all 11 reported scheduled forms activate only at their actual target publication boundary',()=>{
- assert.equal(scheduled.length,11);
+test('all 15 reported scheduled forms activate only at their actual target publication boundary',()=>{
+ assert.equal(scheduled.length,15);
  for(const [source,slug] of scheduled){
   const page=pkg.pages.find(p=>p.slug===slug);assert.ok(page,slug);
   const at=Date.parse(page.publishAt);assert.ok(at>liveAt,slug+' must remain scheduled');
@@ -109,7 +113,7 @@ test('XML resources and exact language aliases preserve method, native-owner and
 // An HTTP contract fixture exercises actual package eligibility and the shared
 // resolver, not a framework build. Parent acceptance still checks the real
 // proxy/normalization order and hosted XML handler after its final build.
-test('HTTP contract: 17 current forms reach 200; 11 future forms are 404 before and 301 to 200 at publication',async()=>{
+test('HTTP contract: 17 current forms reach 200; 15 future forms are 404 before and 301 to 200 at publication',async()=>{
  let clock=liveAt;
  const server=createServer((req,res)=>{
   const url=new URL(req.url,'https://memocasting.lt'),live=visible(clock),moved=memoRedirectUrl(url,live,req.method);
