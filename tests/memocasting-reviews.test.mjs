@@ -1,9 +1,22 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {memoReviewProjection,memoReviewSchema,memoReviewMetadata} from '../lib/memocasting-reviews.mjs';
+import {memoReviewProjection,memoReviewSchema,memoReviewMetadata,memoReviewInstruction,memoReviewUsesInstruction} from '../lib/memocasting-reviews.mjs';
 import {relayMemoBuyer} from '../lib/memocasting-commerce-bridge.mjs';
 const item={id:'review-fixture',sku:'couple',rating:4,authorName:'Test Buyer',title:'Fixture',body:'Only isolated test text',date:'2024-01-01',photos:[],verifiedPurchase:true,schemaEligible:true};
+test('review guidance links to the matching product instructions and fails closed for other products',()=>{
+ const pages=[{slug:'instrukcijos/poros-rinkiniui'},{slug:'instrukcijos/seimos-rinkiniui'}];
+ assert.deepEqual(memoReviewInstruction('couple',pages),{href:'/instrukcijos/poros-rinkiniui',label:'Poros rinkinio instrukcija'});
+ assert.deepEqual(memoReviewInstruction('family',pages),{href:'/instrukcijos/seimos-rinkiniui',label:'Šeimos rinkinio instrukcija'});
+ assert.equal(memoReviewInstruction('family',pages.slice(0,1)),null);
+ assert.equal(memoReviewInstruction('couple',[]),null);
+ assert.equal(memoReviewInstruction('other',pages),null);
+ assert.equal(memoReviewInstruction('__proto__',pages),null);
+ assert.equal(memoReviewUsesInstruction('couple'),true);
+ assert.equal(memoReviewUsesInstruction('family'),true);
+ assert.equal(memoReviewUsesInstruction('wooden-base'),false);
+ assert.equal(memoReviewUsesInstruction('other'),false);
+});
 test('review functional metadata is host-scoped, private and cannot inherit home indexing/images',()=>{
  const data=memoReviewMetadata({siteId:'memocasting'},'/atsiliepimas');assert.match(data.title,/Palikti atsiliepimą/);assert.equal(data.robots,'noindex, nofollow');assert.equal(data.image,undefined);assert.equal(data.offer,undefined);
  assert.equal(memoReviewMetadata({siteId:'other'},'/atsiliepimas'),null);assert.equal(memoReviewMetadata({siteId:'memocasting'},'/'),null);

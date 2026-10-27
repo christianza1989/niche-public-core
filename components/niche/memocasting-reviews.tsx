@@ -1,7 +1,7 @@
 'use client';
 /* eslint-disable @next/next/no-img-element -- Moderated native customer WebP media. */
 import {useEffect,useId,useRef,useState} from 'react';
-import {memoReviewStarPath} from '@/lib/memocasting-reviews.mjs';
+import {memoReviewStarPath,memoReviewUsesInstruction} from '@/lib/memocasting-reviews.mjs';
 
 export type MemoReview={id:string;sku:string;authorName:string;rating:number;title:string;body:string;date:string;verifiedPurchase:boolean;legacyImported?:boolean;schemaEligible?:boolean;photos:Array<{id:string;src:string;width:number;height:number}>};
 export type MemoReviewData={items:MemoReview[];total:number;stats:{count:number;average:number;directCount?:number;directAverage?:number|null}|null};
@@ -44,13 +44,14 @@ function Carousel({items,showProduct=false}:{items:MemoReview[];showProduct?:boo
   <div className="memo-reviews-track" id={id} ref={track} tabIndex={0} aria-label="Atsiliepimų kortelės" onKeyDown={event=>{if(event.target!==event.currentTarget)return;if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();move(event.key==='ArrowRight'?1:-1);}}}>{items.map(review=><Item key={review.id} review={review} showProduct={showProduct}/>)}</div>
  </div>;
 }
-export function MemoProductReviews({sku,initial}:{sku:string;initial:MemoReviewData|null}){
+export function MemoProductReviews({sku,initial,instruction}:{sku:string;initial:MemoReviewData|null;instruction:{href:string;label:string}|null}){
  const [items,setItems]=useState(initial?.items||[]),[page,setPage]=useState(1),[busy,setBusy]=useState(false),[failed,setFailed]=useState(false);
  async function more(){setBusy(true);setFailed(false);try{const response=await fetch('/prekyba/reviews?sku='+encodeURIComponent(sku)+'&page='+(page+1),{cache:'no-store'});if(!response.ok)throw Error('review_fetch');const data=await response.json() as {items?:MemoReview[]};if(!Array.isArray(data.items))throw Error('review_fetch');const next=data.items;setItems(previous=>[...previous,...next.filter(r=>!previous.some(p=>p.id===r.id))]);setPage(page+1);}catch{setFailed(true);}finally{setBusy(false);}}
  return <section className="memo-reviews" id="atsiliepimai" aria-labelledby="memo-reviews-title">
   <div className="memo-reviews-head"><div><h2 id="memo-reviews-title">Pirkėjų atsiliepimai</h2>{initial?.stats?<MemoRating {...initial.stats}/>:<p>Pasidalykite savo patirtimi ir padėkite kitiems išsirinkti.</p>}</div><a href="/atsiliepimas">Palikti atsiliepimą</a></div>
   {initial?.stats?.directCount&&initial.stats.directCount!==initial.stats.count?<p className="memo-review-hint">Šioje svetainėje surinkti įvertinimai: {String(initial.stats.directAverage).replace('.',',')} / 5 ({initial.stats.directCount}). Į šią suvestinę įtraukti tik tiesiogiai šioje parduotuvėje surinkti įvertinimai.</p>:null}
   <p className="memo-review-hint">Žyma „Patvirtintas pirkėjas“ reiškia, kad pirkimas susietas su apmokėtu užsakymu arba jo patvirtinimas perkeltas iš ankstesnės mūsų parduotuvės. Vienodai peržiūrime ir teigiamas, ir kritiškas patirtis.</p>
+  {memoReviewUsesInstruction(sku)&&<p className="memo-review-hint memo-review-instructions">Atsiliepimuose nurodyta liejimo trukmė ir medžiagų proporcijos gali skirtis. Vadovaukitės prie savo rinkinio pridėta instrukcija.{instruction&&<> <a href={instruction.href}>{instruction.label}</a>.</>}</p>}
   {items.length>0&&<Carousel items={items}/>}
   {initial&&items.length<initial.total&&<div className="memo-review-more"><span aria-live="polite">Įkelta {items.length} iš {initial.total}</span><button type="button" disabled={busy} onClick={more}>{busy?'Įkeliama…':'Įkelti daugiau atsiliepimų'}</button></div>}
   {failed&&<p role="alert">Nepavyko įkelti. Bandykite dar kartą.</p>}{!initial&&<p className="memo-review-hint">Atsiliepimų ryšys šiuo metu nepasiekiamas. Pabandykite atnaujinti puslapį.</p>}

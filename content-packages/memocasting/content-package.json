@@ -1750,7 +1750,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tai gali būti bendra veikla dviese, dovana vestuvėms, metinėms ar įkurtuvėms. Dovanodami rinkinį dovanojate ir progą skirti laiko vienas kitam. Nuotraukose matote galimo rezultato bei apdailos pavyzdžius; įsigyjate medžiagų rinkinį savo liejiniui, o ne jau pagamintą skulptūrą."
+          "text": "Tai gali būti bendra veikla dviese, dovana vestuvėms, metinėms ar įkurtuvėms. Dovanodami rinkinį dovanojate ir progą skirti laiko vienas kitam. Nuotraukose matote galimo rezultato bei apdailos pavyzdžius; įsigyjate medžiagų rinkinį savo liejiniui, o ne jau pagamintą skulptūrą. Jei planuojate kūrybinę veiklą su šeima, palyginkite šeimos rinkinį: jame yra po du alginato ir gipso pakelius. Rankų padėtį ir tinkamumą aptarkite pagal jų dydį bei pasirinktą kompoziciją."
         },
         {
           "type": "heading",
@@ -1765,6 +1765,10 @@
             "Paruoškite gipso mišinį ir supilkite jį į susidariusią formą. Maišymo proporcijas ir stingimo laiką rinkitės pagal pridėtą instrukciją.",
             "Gipsui sustingus nuimkite alginato formą. Išvalykite liejinio paviršių ir prieš dažydami leiskite jam išdžiūti taip, kaip nurodyta instrukcijoje."
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal poros rinkinio instrukciją gipsas formoje stingsta vieną valandą. Išimtą liejinį prieš dažant reikia džiovinti 5–7 paras, kol jis taps baltas. Jei prie jūsų rinkinio pridėta instrukcija skiriasi, prieš pradėdami pasitikslinkite su mumis."
         },
         {
           "type": "heading",
@@ -1885,15 +1889,23 @@
         {
           "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
           "label": "Poros rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "šeimos rinkinį"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "poros rinkinio instrukciją"
         }
       ],
       "id": "01d74212-2141-4060-8127-a71c42090450",
-      "revisionHash": "8d55eb1faee761fdcefcc50a2f5c2f55b63092177dac8f3398e59c6f0061780e",
+      "revisionHash": "ad3c35ffcf32595a3bc076f8a8267536a881498fa680e0e12eb34bdc680da359",
       "approval": {
         "status": "approved",
-        "revisionHash": "8d55eb1faee761fdcefcc50a2f5c2f55b63092177dac8f3398e59c6f0061780e",
-        "approvedAt": "2026-10-25T07:38:31.501Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "ad3c35ffcf32595a3bc076f8a8267536a881498fa680e0e12eb34bdc680da359",
+        "approvedAt": "2026-10-27T10:18:19.223Z",
+        "actorId": "codex-combined-refresh-2026-10-27"
       }
     },
     {
@@ -1956,6 +1968,10 @@
         {
           "type": "paragraph",
           "text": "Darbo eigą planuokite ramiai. Neatidarykite medžiagų, kol visi dalyviai nėra pasiruošę, ir neskubėkite nuimti formos anksčiau, nei nurodyta instrukcijoje. Jei kyla klausimų, pasitikslinkite prieš maišydami medžiagas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal šeimos rinkinio instrukciją gipsas formoje stingsta vieną valandą. Išimtą liejinį prieš dažant reikia džiovinti 5–7 paras, kol jis taps baltas. Jei prie jūsų rinkinio pridėta instrukcija skiriasi, prieš pradėdami pasitikslinkite su mumis."
         },
         {
           "type": "heading",
@@ -2054,15 +2070,23 @@
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
           "label": "Šeimos rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Poros rinkinyje"
+        },
+        {
+          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
+          "label": "šeimos rinkinio instrukciją"
         }
       ],
       "id": "66af512a-e57e-4f14-bfd5-0651eca06613",
-      "revisionHash": "3dfcfc97c284fafc40abf7d309235cb92a8868d4fa91ee41f8ad346a791dddef",
+      "revisionHash": "a9ba1fa9fdc6e52b5f45c661a57e7a2d53a4dd6ee5f2e49b9b3ad31a71925dc1",
       "approval": {
         "status": "approved",
-        "revisionHash": "3dfcfc97c284fafc40abf7d309235cb92a8868d4fa91ee41f8ad346a791dddef",
-        "approvedAt": "2026-10-25T07:38:31.593Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "a9ba1fa9fdc6e52b5f45c661a57e7a2d53a4dd6ee5f2e49b9b3ad31a71925dc1",
+        "approvedAt": "2026-10-27T10:18:19.349Z",
+        "actorId": "codex-combined-refresh-2026-10-27"
       }
     },
     {
@@ -3162,7 +3186,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasirinkę Omniva pristatymą, raskite paštomatą pagal miestą, pavadinimą ar adresą ir pasirinkite jį iš sąrašo. Nurodykite teisingą gavėjo telefoną ir el. paštą, kad vežėjas galėtų pranešti apie siuntos atvykimą. Vienas rinkinys siunčiamas vienoje pakuotėje. Keliems atskirai supakuotiems rinkiniams krepšelyje rinkitės kurjerį."
+          "text": "Pasirinkę Omniva pristatymą, raskite paštomatą pagal miestą, pavadinimą ar adresą ir pasirinkite jį iš sąrašo. Nurodykite teisingą gavėjo telefoną ir el. paštą, kad vežėjas galėtų pranešti apie siuntos atvykimą. Vienas rinkinys siunčiamas vienoje pakuotėje. Keli atskirai supakuoti rinkiniai taip pat gali būti siunčiami į pasirinktą paštomatą. Pristatymo kainą už užsakymą matysite prieš apmokėjimą."
         },
         {
           "type": "heading",
@@ -3240,12 +3264,12 @@
         }
       ],
       "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
-      "revisionHash": "9c61d6b1cdbce569b3493d5419ec6e7a442919d1f2789730ad123e3c0fd464fb",
+      "revisionHash": "b26e36b99aec965a38ad0fb6894abd695af7b23df68d930f5092bd8143824a6e",
       "approval": {
         "status": "approved",
-        "revisionHash": "9c61d6b1cdbce569b3493d5419ec6e7a442919d1f2789730ad123e3c0fd464fb",
-        "approvedAt": "2026-10-25T07:47:53.045Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "b26e36b99aec965a38ad0fb6894abd695af7b23df68d930f5092bd8143824a6e",
+        "approvedAt": "2026-10-27T09:21:42.774Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -4059,7 +4083,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Šis sąrašas padės suplanuoti pasirengimą. Maišymo proporcijas, vandens temperatūrą, darbo trukmę ir tinkamumą dalyviams reikia nustatyti pagal konkretaus rinkinio dokumentus — šiame gide jų nespėjame."
+          "text": "Šis sąrašas padės suplanuoti pasirengimą. Maišymo proporcijas, vandens temperatūrą, darbo trukmę ir tinkamumą dalyviams reikia nustatyti pagal konkretaus rinkinio dokumentus — šiame gide jų nenurodome."
         },
         {
           "type": "heading",
@@ -4068,7 +4092,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Skaitydami pasižymėkite, ką turite pasiruošti patys ir kas jau yra komplekte. Atskirkite rinkinio aprašą nuo naudojimo instrukcijos: komplektacijos sąrašas parodo, ką gavote, o instrukcija turi paaiškinti, kaip tas priemones naudoti. Rankų liejimo instrukcija padės susidaryti klausimų sąrašą prieš pradedant."
+          "text": "Skaitydami pasižymėkite, ką turite pasiruošti patys ir kas jau yra komplekte. Atskirkite rinkinio aprašą nuo naudojimo instrukcijos: komplektacijos sąrašas parodo, ką gavote, o instrukcija turi paaiškinti, kaip tas priemones naudoti. Rankų liejimo instrukcija padės susidaryti klausimų sąrašą prieš pradedant. Pagal turimą rinkinį skaitykite poros rinkinio instrukciją arba šeimos rinkinio instrukciją."
         },
         {
           "type": "list",
@@ -4119,7 +4143,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kalendoriuje atskirkite pasirengimą, darbą su medžiagomis ir vėlesnius veiksmus. Kiekvieno etapo trukmę įrašykite tik radę ją savo instrukcijoje. Jei rankų liejimą planuojate kaip dovaną, nesutapatinkite bendros veiklos vakaro su gatavo liejinio įteikimu."
+          "text": "Kalendoriuje atskirkite pasirengimą, darbą su medžiagomis ir vėlesnius veiksmus. Kiekvieno etapo trukmę įrašykite tik radę ją savo instrukcijoje. Jei rankų liejimą planuojate kaip dovaną, nesutapatinkite bendros veiklos vakaro su gatavo liejinio įteikimu. Atskirame gide sužinosite, kada išimti ir kaip džiovinti liejinį."
         },
         {
           "type": "paragraph",
@@ -4219,15 +4243,27 @@
         {
           "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
           "label": "Rankų liejimo rinkinys šeimai"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "poros rinkinio instrukciją"
+        },
+        {
+          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
+          "label": "šeimos rinkinio instrukciją"
+        },
+        {
+          "targetPageId": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
+          "label": "kada išimti ir kaip džiovinti liejinį"
         }
       ],
       "id": "a15a13a1-71e4-484d-a031-37954cb760b9",
-      "revisionHash": "fae86165af3cf5fdb2b7200e9dc325530893a8911e96ca88ad5e3a4f68b70c0f",
+      "revisionHash": "a65bc5acefd1956ac3c5004bbf2bf7385fcf1d2d9ead864c3b97492a542ce54c",
       "approval": {
         "status": "approved",
-        "revisionHash": "fae86165af3cf5fdb2b7200e9dc325530893a8911e96ca88ad5e3a4f68b70c0f",
-        "approvedAt": "2026-10-15T08:45:47.268Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "a65bc5acefd1956ac3c5004bbf2bf7385fcf1d2d9ead864c3b97492a542ce54c",
+        "approvedAt": "2026-10-27T09:21:42.618Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -4487,7 +4523,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasižymėkite, kada baigėte pilti gipsą, kada išėmėte liejinį ir kiek dienų jis džiūvo. Paruoškite bendrą ir artimą probleminės vietos nuotrauką. Pagalba dėl liejinio padės pateikti aiškų klausimą, tačiau vien spalva ar nuotrauka savaime nenustato defekto priežasties."
+          "text": "Pasižymėkite, kada baigėte pilti gipsą, kada išėmėte liejinį ir kiek dienų jis džiūvo. Paruoškite bendrą ir artimą probleminės vietos nuotrauką. Pagalba dėl liejinio padės pateikti aiškų klausimą, tačiau vien spalva ar nuotrauka savaime nenustato defekto priežasties. Kitą bandymą suplanuoti padės pasirengimo rankų liejimui gidas."
         }
       ],
       "publishAt": "2026-10-11T23:36:34.899Z",
@@ -4563,15 +4599,19 @@
         {
           "targetPageId": "e323d3fb-f8d7-4257-959d-bc0a6dbb0e1a",
           "label": "įteikti patį rinkinį"
+        },
+        {
+          "targetPageId": "a15a13a1-71e4-484d-a031-37954cb760b9",
+          "label": "pasirengimo rankų liejimui"
         }
       ],
       "id": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
-      "revisionHash": "74359a69cf7890b8ec09b7fc1cc73f37d1a17dc73771cc272314c7c0448655e4",
+      "revisionHash": "5c7038c9a524a9144f12a83e892533b229dd4b40e402e8e1b4ad9dd355c2d4fb",
       "approval": {
         "status": "approved",
-        "revisionHash": "74359a69cf7890b8ec09b7fc1cc73f37d1a17dc73771cc272314c7c0448655e4",
-        "approvedAt": "2026-10-25T13:05:46.277Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "5c7038c9a524a9144f12a83e892533b229dd4b40e402e8e1b4ad9dd355c2d4fb",
+        "approvedAt": "2026-10-27T09:21:42.701Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -12118,8 +12158,8 @@
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-moterims",
-      "title": "Kalėdinės dovanos moterims 2026: idėjos pagal penkis pomėgius",
-      "description": "Konkrečios Kalėdų dovanos moterims: skaitymui, kavai, žygiams, kūrybai ir prisiminimams. Kainos, parduotuvių nuorodos bei pasirinkimo klausimai.",
+      "title": "Kalėdinės dovanos moterims 2026: idėjos pagal pomėgius",
+      "description": "Kalėdų dovanos moterims: skaitymui, kavai, žygiams, menui ir kūrybai. Konkretūs pasiūlymai, kainos bei pasirinkimo klausimai.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
@@ -12213,6 +12253,15 @@
         {
           "type": "paragraph",
           "text": "Rankų liejimo rinkinys porai už 32 € tinka kitam norui – kurti bendrą prisiminimą savo pasirinktoje vietoje. Bazėje yra balti dažai. Rezultatas priklausys nuo pasiruošimo ir instrukcijos laikymosi; tai nėra jau pagaminta statulėlė. Jei norisi tiesiog gražaus interjero daikto be veiklos, geriau ieškoti paruošto kūrinio pagal tikslų stilių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Meno mėgėjai: galimybė pačiai pasirinkti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ji mėgsta parodas, bet norėtų pati nuspręsti, kada ir su kuo vykti, apsvarstykite MO muziejaus dovanų kuponą. 2026 m. spalio 27 d. muziejus nurodė 25 €, 50 € ir 100 € vertės kuponus. Juos galima įsigyti MO parduotuvėje Vilniuje, o panaudoti ten perkant muziejaus prekes arba bilietus. Prieš pirkdami pasitikrinkite galiojimo sąlygas ir ar gavėjai patogu atvykti. Tai nėra patvirtinimas, kad kuponas siunčiamas internetu; jei jums svarbus elektroninis pristatymas, teiraukitės pardavėjo."
         },
         {
           "type": "heading",
@@ -12333,7 +12382,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasiūlymų kainas ir pagrindines savybes tikrinome 2026 m. spalio 22 d. pardavėjų svetainėse. Tai nėra išbandytų produktų reitingas. Kainos nurodytos be pristatymo ir gali pasikeisti; akcijos išskirtos tekste. Memocasting yra mūsų pasiūlymas. Iliustracijos rodo dovanų pasirinkimo situacijas, o konkrečių gaminių vaizdai pateikti pardavėjų nuorodose."
+          "text": "Daugumos pasiūlymų kainas ir pagrindines savybes tikrinome 2026 m. spalio 22 d.; vėlesnės patikros pažymėtos atskirai. pardavėjų svetainėse. Tai nėra išbandytų produktų reitingas. Kainos nurodytos be pristatymo ir gali pasikeisti; akcijos išskirtos tekste. Memocasting yra mūsų pasiūlymas. Iliustracijos rodo dovanų pasirinkimo situacijas, o konkrečių gaminių vaizdai pateikti pardavėjų nuorodose."
         }
       ],
       "publishAt": "2026-10-16T07:00:00.000Z",
@@ -12513,15 +12562,20 @@
           "url": "https://www.patogupirkti.lt/apmokejimas",
           "label": "Knygų kupono apmokėjimo sąlygos",
           "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Kuponas nepadengia pristatymo; vienas kuponas krepšeliui, papildomi nuolaidų kodai netaikomi."
+        },
+        {
+          "url": "https://mo.lt/parduotuve/",
+          "label": "MO muziejaus dovanų kuponą",
+          "reason": "2026-10-27 oficialus muziejaus puslapis nurodė 25, 50 ir 100 € kuponus; įsigijimą ir panaudojimą MO parduotuvėje."
         }
       ],
       "id": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
-      "revisionHash": "173e1eea03d7ff85321c9d82907fa8e6aedee7e8badb1a1ece7bbddd3f2c6cf7",
+      "revisionHash": "c6e6f067a01fc71b02dff5c4aa461374e91181fc64e1105f963281de22a7840c",
       "approval": {
         "status": "approved",
-        "revisionHash": "173e1eea03d7ff85321c9d82907fa8e6aedee7e8badb1a1ece7bbddd3f2c6cf7",
-        "approvedAt": "2026-10-26T15:52:03.372Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "c6e6f067a01fc71b02dff5c4aa461374e91181fc64e1105f963281de22a7840c",
+        "approvedAt": "2026-10-27T10:18:19.464Z",
+        "actorId": "codex-combined-refresh-2026-10-27"
       }
     },
     {
@@ -14619,7 +14673,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pavyzdžiui, vienas organizatorius nupirks pasirinktą albumą, kiti iki sutartos dienos atsiųs po nuotrauką ir tikrą prisiminimą. Susirinkus įteiksite jau užpildytus pirmus puslapius. Jei kas nors neatsiuntė savo dalies, nesakykite tėčiui, kad dabar jis turės viską surinkti pats. Geriau mažesnė, bet užbaigta dovana nei didelis pažadas be turinio."
+          "text": "Pavyzdžiui, vienas organizatorius nupirks pasirinktą albumą, kiti iki sutartos dienos atsiųs po nuotrauką ir tikrą prisiminimą. Susirinkus įteiksite jau užpildytus pirmus puslapius. Jei kas nors neatsiuntė savo dalies, nesakykite tėčiui, kad dabar jis turės viską surinkti pats. Geriau mažesnė, bet užbaigta dovana nei didelis pažadas be turinio. Jei dovaną norite įteikti abiem tėvams, kalėdinių dovanų tėvams gide palyginsite bendrą ir dvi atskiras dovanas. Daugiau idėjų pagal pomėgius rasite gide apie kalėdines dovanas vyrams."
         },
         {
           "type": "heading",
@@ -14739,6 +14793,14 @@
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
           "label": "šeimos rinkinio instrukcijos"
+        },
+        {
+          "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
+          "label": "kalėdinių dovanų tėvams"
+        },
+        {
+          "targetPageId": "9bd829a9-fd02-4762-bf8b-3a6e0559c4e9",
+          "label": "kalėdines dovanas vyrams"
         }
       ],
       "externalLinks": [
@@ -14759,12 +14821,12 @@
         }
       ],
       "id": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
-      "revisionHash": "4fea1530a91a3cdc73a580c891d7ffc5d70d73d0f002229c2b92908d2f9d17b4",
+      "revisionHash": "7029f74a80838902b8f346578a188feee84c0c7532463c5d1d3b507f4178c275",
       "approval": {
         "status": "approved",
-        "revisionHash": "4fea1530a91a3cdc73a580c891d7ffc5d70d73d0f002229c2b92908d2f9d17b4",
-        "approvedAt": "2026-10-26T15:52:03.977Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "7029f74a80838902b8f346578a188feee84c0c7532463c5d1d3b507f4178c275",
+        "approvedAt": "2026-10-27T09:21:42.338Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -14827,7 +14889,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Iliustracinis pavyzdys: norite padovanoti popietę su šeimos nuotraukomis. Iš anksto atrenkate nedidelę nuotraukų dalį, atsivežate albumą ir sutartas vaišes. Seneliai gali pasakoti, klausytis arba pasiūlyti susitikimą pratęsti kitą kartą. Dovana yra kartu praleistas laikas; albumo užbaigti tą pačią dieną neprivalote."
+          "text": "Iliustracinis pavyzdys: norite padovanoti popietę su šeimos nuotraukomis. Iš anksto atrenkate nedidelę nuotraukų dalį, atsivežate albumą ir sutartas vaišes. Seneliai gali pasakoti, klausytis arba pasiūlyti susitikimą pratęsti kitą kartą. Dovana yra kartu praleistas laikas; albumo užbaigti tą pačią dieną neprivalote. Jei ieškote bendros veiklos kelioms kartoms, peržiūrėkite kalėdinių dovanų šeimai idėjas."
         },
         {
           "type": "heading",
@@ -14845,6 +14907,15 @@
         {
           "type": "paragraph",
           "text": "Jei seneliai nenori tokios veiklos, pasiūlykite kitą prisiminimo formą: atrinktą šeimos nuotrauką, laišką ar kartu sudėtą albumą. Palikite jiems galimybę atsisakyti kūrybinės idėjos nesijaučiant, kad nuvilia dovanojantį žmogų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Bendras apsilankymas meno muziejuje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei abu mėgsta parodas, galite suplanuoti popietę MO muziejuje Vilniuje. 2026 m. spalio 27 d. standartinis bilietas kainavo 11 € žmogui, tad du standartiniai bilietai – 22 €. Patikrinkite galimas individualias lengvatas ir parodos laikotarpiu taikomas kainas. Prieš įsigydami bilietus suderinkite parodą, datą, kelionę ir tai, ar abu norėtų eiti. Jei jie pageidauja, galite pasiūlyti pasirūpinti nuvykimu."
         },
         {
           "type": "heading",
@@ -14943,15 +15014,26 @@
         {
           "targetPageId": "79547728-bcb0-49ff-9e25-6ddfa30e872b",
           "label": "Dovanos seneliams: rūpestingas pasirinkimas"
+        },
+        {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://mo.lt/bendra-informacija/",
+          "label": "MO muziejuje",
+          "reason": "2026-10-27 patikrintas oficialus muziejaus kainynas: standartinis bilietas 11 €, lengvatos ir parodos keitimo laikotarpio kainos nurodytos atskirai."
         }
       ],
       "id": "3c7cb521-1100-4b96-9d21-6beb78135f89",
-      "revisionHash": "55d2349c2dc7c7e110f515abfb165d17a2a3f2f1aecca7194d58808563581b12",
+      "revisionHash": "a062cd4c73b6693d3649073498756caada6ad7a1c9d88d495a518785b9504ac0",
       "approval": {
         "status": "approved",
-        "revisionHash": "55d2349c2dc7c7e110f515abfb165d17a2a3f2f1aecca7194d58808563581b12",
-        "approvedAt": "2026-10-15T08:45:46.450Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "a062cd4c73b6693d3649073498756caada6ad7a1c9d88d495a518785b9504ac0",
+        "approvedAt": "2026-10-27T09:21:42.510Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -14959,7 +15041,7 @@
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-merginai",
       "title": "Kalėdinės dovanos merginai skirtingais santykių etapais",
-      "description": "Idėjos pirmosioms ir vėlesnėms Kalėdoms kartu: kaip pasirinkti dovanos mastą, parašyti asmeninę žinutę ir pasiūlyti bendrą veiklą be spaudimo.",
+      "description": "Kalėdinės dovanos merginai: konkrečios idėjos, kainos ir patarimai pirmosioms ar vėlesnėms šventėms kartu.",
       "intent": "Kaip suderinti romantiškumą ir santykių etapą?",
       "body": [
         {
@@ -15022,6 +15104,27 @@
             "Esate kartu ir abu mėgstate kurti. Pasiūlykite kūrybinę veiklą namuose, o datą išsirinkite kartu. Prieš pirkdami priemones išsiaiškinkite, ar ši veikla jai įdomi.",
             "Ilgai gyvenate kartu, o ji aiškiai įvardijo norimą dovaną. Išpildykite konkretų norą ir pridėkite asmeninį laišką. Norima dovana nepraranda asmeniškumo vien todėl, kad nebuvo staigmena."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkrečios idėjos pagal jos norą ir jūsų planą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jai patinka pokalbiai ir bendros užduotys, suaugusiųjų porai skirtos kortelės PAKLAUSK gali būti vieno vakaro idėja. 2026 m. spalio 27 d. pardavėjas nurodė 13,99 € įprastą kainą, 50 užduočių, du žaidėjus ir amžiaus ribą nuo 18 metų. Prieš pirkdami įsitikinkite, kad abiem smagu atlikti užduotis; jeigu jai labiau patiktų vakaras be suplanuoto žaidimo, pasirinkite kitą dovaną. Galutinę sumą su pristatymu pasitikrinkite krepšelyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ji mėgsta saldžius desertus ir jums patogu nuvykti į Kauną, galite svarstyti čiūrų degustaciją dviem. 2026 m. spalio 27 d. pasiūlymas kainavo 15 €, elektroninis čekis buvo siūlomas be papildomo pristatymo mokesčio, o jo nurodytas galiojimas – 12 mėnesių. Patikrinkite sudėtį ir alergijas, galiojančias rezervacijos sąlygas bei kelionės išlaidas. Dovanokite apsilankymą tik žinodami, kad ji norėtų tokios patirties."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ji mėgsta skaityti, bet nežinote, kurią knygą jau turi, 20 € knygų kuponas suteikia galimybę pasirinkti pačiai. Pardavėjas 2026 m. spalio 27 d. nurodė šešių mėnesių galiojimą; prieš pirkdami peržiūrėkite panaudojimo sąlygas ir patikrinkite, ar siuntimo išlaidos telpa į biudžetą. Prie kupono galite pridėti žinutę apie jos paminėtą autorių, neparinkdami knygos už ją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kainos ir pateikimo sąlygos tikrintos 2026 m. spalio 27 d. pardavėjų puslapiuose, gali keistis ir neapima visų kelionės ar pristatymo išlaidų. Tai atranka pagal pardavėjų aprašymus, o ne mūsų išbandytų produktų reitingas. Daugiau idėjų pagal skirtingus pomėgius rasite kalėdinių dovanų moterims gide."
         },
         {
           "type": "heading",
@@ -15133,15 +15236,36 @@
         {
           "targetPageId": "01360d20-de5e-4bdf-bcd2-6409f39835d6",
           "label": "Dovanos merginai skirtingais santykių etapais"
+        },
+        {
+          "targetPageId": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
+          "label": "kalėdinių dovanų moterims"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.brain-games.lt/products/pokalbiu-korteles-paklausk-uzduotys-poroms",
+          "label": "kortelės PAKLAUSK",
+          "reason": "2026-10-27 pardavėjo produkto puslapyje – 13,99 €, 50 užduočių, 2 žaidėjai, nuo 18 metų; turimumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/ciuru-degustacija-dviem-saldita",
+          "label": "čiūrų degustaciją dviem",
+          "reason": "2026-10-27 pardavėjo pasiūlymas: Kaunas, 2 asmenys, 15 €, 12 mėn. galiojimas, elektroninis čekis be siuntimo mokesčio."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
+          "label": "20 € knygų kuponas",
+          "reason": "2026-10-27 pardavėjo puslapyje nurodytas 20 € kuponas ir šešių mėnesių galiojimas."
         }
       ],
       "id": "d1fb6182-6fe1-4823-825a-9db049ff0997",
-      "revisionHash": "dd7484289fea2c2fe9b24d428de04633bf2ac5f424f49f017e74d4b8f5a26d6a",
+      "revisionHash": "73d8e2ed818325b8acb8adb2b3190bf414ce8c014ecf6bc65c54723f7896edf1",
       "approval": {
         "status": "approved",
-        "revisionHash": "dd7484289fea2c2fe9b24d428de04633bf2ac5f424f49f017e74d4b8f5a26d6a",
-        "approvedAt": "2026-10-15T08:45:46.503Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "73d8e2ed818325b8acb8adb2b3190bf414ce8c014ecf6bc65c54723f7896edf1",
+        "approvedAt": "2026-10-27T10:18:19.580Z",
+        "actorId": "codex-combined-refresh-2026-10-27"
       }
     },
     {
@@ -15186,7 +15310,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Palyginkite idėjas pagal keturis dalykus: kiek tiksliai žinote jo norą, kiek reikės pasiruošti, ar tinka laikas ir kokia bus visa kaina. Toliau pateikti variantai yra pasirinkimo pavyzdžiai, o ne konkrečių pardavėjų pasiūlymai."
+          "text": "Palyginkite idėjas pagal keturis dalykus: kiek tiksliai žinote jo norą, kiek reikės pasiruošti, ar tinka laikas ir kokia bus visa kaina. Toliau pateiktos bendros kryptys yra pasirinkimo pavyzdžiai."
         },
         {
           "type": "list",
@@ -15201,6 +15325,15 @@
         {
           "type": "paragraph",
           "text": "Jeigu dovana skirta jam, bendroje veikloje turi būti vietos jo norams. Pavyzdžiui, jūsų seniai trokštamos dirbtuvės tampa tinkama dovana tik tada, kai ir jis norėtų jose dalyvauti. Jei abejojate, pasiūlykite dvi kryptis ir leiskite pasirinkti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Automobilių istorija vietoj daikto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jis domisi automobiliais, apsvarstykite Vilniaus Automuziejaus dovanų kuponą. Pirmiausia paklauskite, ar jį domintų apsilankymas, ir įvertinkite nuvykimo kainą. Muziejus nurodo, kad popierinį kuponą galima įsigyti kasoje, o elektroninį – internetu; juo apmokamos muziejaus paslaugos ir suvenyrai. Pagal 2026 m. spalio 27 d. skelbtas kupono galiojimo sąlygas jis galioja 6 mėnesius nuo pardavimo. Prieš mokėdami patikrinkite norimą sumą ir galiojančias sąlygas; kuponas nereiškia, kad vizito laikas jau rezervuotas."
         },
         {
           "type": "heading",
@@ -15314,13 +15447,25 @@
           "label": "Dovanos vaikinui: nuo pomėgio iki bendros patirties"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://automuziejus.lt/lankytojams/",
+          "label": "Vilniaus Automuziejaus dovanų kuponą",
+          "reason": "2026-10-27 oficialiame lankytojų puslapyje nurodytas kupono įsigijimo būdas ir naudojimas muziejaus paslaugoms bei suvenyrams."
+        },
+        {
+          "url": "https://automuziejus.lt/taisykles-ir-salygos/",
+          "label": "kupono galiojimo sąlygas",
+          "reason": "2026-10-27 oficialiose taisyklėse nurodyta, kad kuponas galioja 6 mėnesius (180 kalendorinių dienų) nuo pardavimo."
+        }
+      ],
       "id": "6c78ff90-2f9c-48c6-9b64-f97276e471a2",
-      "revisionHash": "190c433fca133a33aa8aed10c165a853b7f16ac1e244fa56bae88446addd4eec",
+      "revisionHash": "48e70fe825aa93afc636ceec0ae72ff763aee7c46d83a85fc764e4d4cd481bab",
       "approval": {
         "status": "approved",
-        "revisionHash": "190c433fca133a33aa8aed10c165a853b7f16ac1e244fa56bae88446addd4eec",
-        "approvedAt": "2026-10-15T08:45:46.562Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "48e70fe825aa93afc636ceec0ae72ff763aee7c46d83a85fc764e4d4cd481bab",
+        "approvedAt": "2026-10-27T09:21:42.976Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -15987,7 +16132,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei svarbus konkretus modelis, knygų serija ar kūrybos priemonė, paprašykite tikslaus pavadinimo. Galite susitarti dėl kelių variantų, iš kurių vieną išrinksite patys. Taip išsaugosite dalį staigmenos ir sumažinsite riziką nupirkti panašų, bet nepageidaujamą daiktą."
+          "text": "Jei svarbus konkretus modelis, knygų serija ar kūrybos priemonė, paprašykite tikslaus pavadinimo. Galite susitarti dėl kelių variantų, iš kurių vieną išrinksite patys. Taip išsaugosite dalį staigmenos ir sumažinsite riziką nupirkti panašų, bet nepageidaujamą daiktą. Jei dovanos gavėjas jau paauglys, daugiau pasirinkimo klausimų rasite kalėdinių dovanų paaugliams gide."
         },
         {
           "type": "heading",
@@ -16120,15 +16265,19 @@
         {
           "targetPageId": "9c169d89-c8bb-463a-838e-e7ba173853f7",
           "label": "Dovanos vaikams: amžius, interesai ir naudojimo sąlygos"
+        },
+        {
+          "targetPageId": "fc1745b3-f2a4-4dc3-b865-fa694a4d44b4",
+          "label": "kalėdinių dovanų paaugliams"
         }
       ],
       "id": "127fe08d-856c-4488-ba89-8196b17572fe",
-      "revisionHash": "1f030edafa8e05235debe9a178bc61efbc29c5e797cf0b760c1283e8d588f9db",
+      "revisionHash": "ab27479f9af30614be949f3a4578e447603c51a9603895d09fa3ab91a545e443",
       "approval": {
         "status": "approved",
-        "revisionHash": "1f030edafa8e05235debe9a178bc61efbc29c5e797cf0b760c1283e8d588f9db",
-        "approvedAt": "2026-10-15T08:45:46.794Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "ab27479f9af30614be949f3a4578e447603c51a9603895d09fa3ab91a545e443",
+        "approvedAt": "2026-10-27T09:21:42.422Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -16213,6 +16362,15 @@
             "Paauglė norėtų renginio su drauge. Prieš pirkdami suderinkite renginį, datą, dalyvavimo sąlygas ir nuvykimą. Neužsakykite vieno bilieto tikėdamiesi, kad dėl kompanijos ji susitars vėliau.",
             "Paauglys sako, kad daikto nenori. Pasiūlykite pasirinkti bendrą išvyką, kūrybinę veiklą arba kitą jo įvardytą variantą. Jei pasiūlyta šeimos veikla jo nedomina, ieškokite kitos dovanos."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mįslėms ir trumpam vakarui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Deductio LT“ gali tikti paaugliui, mėgstančiam logines užuominas ir norinčiam žaisti su kitais. Pardavėjas nurodo 2–4 žaidėjus, apie 20 minučių trukmę, lietuviškas taisykles ir amžių nuo 8 metų; 2026 m. spalio 27 d. įprasta kaina buvo 13,99 €. Turint 20 € ribą, pristatymui ir pakavimui lieka 6,01 €. Prieš pirkdami patikrinkite prieinamumą ir įsitikinkite, kad paauglys nori būtent šio žaidimo bei turi su kuo žaisti. Kaina ir sąlygos gali keistis."
         },
         {
           "type": "heading",
@@ -16306,13 +16464,20 @@
           "label": "Dovanos paaugliams pagal jų pačių norus"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.brain-games.lt/products/deductio-lt",
+          "label": "Deductio LT",
+          "reason": "2026-10-27 pardavėjo produkto apraše nurodyti 2–4 žaidėjai, 20 min., amžius nuo 8 m., lietuviškos taisyklės ir įprasta 13,99 € kaina."
+        }
+      ],
       "id": "fc1745b3-f2a4-4dc3-b865-fa694a4d44b4",
-      "revisionHash": "0a5023f47e6fdf62653873fbff0409d61122bd25908726a94809ab594a2a2cbf",
+      "revisionHash": "8fc7e0cc8be4f79fddc4977568a9db67707437f300dc1835b5774ccb7ad78454",
       "approval": {
         "status": "approved",
-        "revisionHash": "0a5023f47e6fdf62653873fbff0409d61122bd25908726a94809ab594a2a2cbf",
-        "approvedAt": "2026-10-15T08:45:46.862Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "8fc7e0cc8be4f79fddc4977568a9db67707437f300dc1835b5774ccb7ad78454",
+        "approvedAt": "2026-10-27T09:21:43.050Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -16384,6 +16549,15 @@
         {
           "type": "paragraph",
           "text": "Šeimos nariui galite paruošti prisiminimų voką ar nedidelę knygelę. Paprašykite norinčių prisidėti artimųjų atsakyti į vieną konkretų klausimą, pavyzdžiui: „Kokią akimirką su tavimi norėčiau išgyventi dar kartą?“ Surinkite atsakymus patys, kad gavėjui liktų malonumas juos perskaityti. Iš anksto susitarkite, kam tekstai bus rodomi, ir palikite galimybę neprisidėti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Skonių pažinimas dviem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei abu mėgsta ragauti naujus skonius, galima dovanoti sūrio „Džiugas“ degustaciją Vilniuje arba Telšiuose. 2026 m. spalio 27 d. pasirinkimas dviem kainavo 46 €, vienam – 23 €. Prieš pirkdami suderinkite datą ir kelionę, patikrinkite sudėtį bei gavėjams svarbius mitybos apribojimus. Jei vienas degustacijos nemėgsta, dvi atskiros mažos dovanos gali būti tinkamesnės. Kainos ir sąlygos gali keistis."
         },
         {
           "type": "heading",
@@ -16479,13 +16653,20 @@
           "label": "Kalėdinės dovanos: kaip išrinkti tinkamą"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.geradovana.lt/surio-dziugas-degustacija-su-vynu-surio-dziugas-namai",
+          "label": "sūrio „Džiugas“ degustaciją",
+          "reason": "2026-10-27 pardavėjo puslapyje nurodyti Vilnius ir Telšiai bei 23 € vienam arba 46 € dviem; rezervavimo ir mitybos sąlygas tikrinkite prieš pirkdami."
+        }
+      ],
       "id": "38f3e27e-0b2c-498e-9cdf-c8adc6014f06",
-      "revisionHash": "c71ba7533540db7b9f03c1ea7d9abdbbafb762785f5faa4dd9737de5885ffbc4",
+      "revisionHash": "42d0fbd1f7c59b7a126f0b4bad4ec93e7519b5be602c4e55222e56fbc7b15385",
       "approval": {
         "status": "approved",
-        "revisionHash": "c71ba7533540db7b9f03c1ea7d9abdbbafb762785f5faa4dd9737de5885ffbc4",
-        "approvedAt": "2026-10-15T08:45:46.922Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "42d0fbd1f7c59b7a126f0b4bad4ec93e7519b5be602c4e55222e56fbc7b15385",
+        "approvedAt": "2026-10-27T09:21:42.878Z",
+        "actorId": "codex-content-links-2026-10-27"
       }
     },
     {
@@ -31999,5 +32180,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-27T07:15:37.548Z"
+  "generatedAt": "2026-10-27T10:18:19.959Z"
 }

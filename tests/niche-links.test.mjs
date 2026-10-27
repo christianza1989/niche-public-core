@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { projectPublicPages, contextualParts, validateGuidePublicationPauses } from '../lib/niche-links.mjs';
+import { projectPublicPages, contextualParts, validateGuidePublicationPauses, uniqueRelatedLinks } from '../lib/niche-links.mjs';
 import { readFile } from 'node:fs/promises';
 const now = Date.now();
 const page = (id, slug, date = now - 1000) => ({ id, slug, publishAt: new Date(date).toISOString(), revisionHash: id,
@@ -29,6 +29,25 @@ test('contextual links use literal natural anchors, preserve text and cannot lin
   assert.deepEqual(contextualParts('Pradžia ir netinka', [
     { label: 'Pradžia', href: '/' }, { label: 'netinka', href: '//unapproved.example' }
   ]).filter(part => part.href), [{ text: 'Pradžia', href: '/' }]);
+});
+
+test('related links deduplicate eligible exact target IDs without suppressing different prose anchors', () => {
+  const live=[{id:'kit-1',slug:'poros-instrukcija'},{id:'kit-10',slug:'seimos-instrukcija'}];
+  const links=[{targetPageId:'missing',label:'Ankstesnis'},
+    {targetPageId:'kit-1',label:'Poros rinkinio instrukcija'},
+    {targetPageId:'kit-1',label:'poros rinkinio instrukciją'},
+    {targetPageId:'kit-10',label:'Poros rinkinio instrukcija'},
+    {targetPageId:'missing',label:'Kitas'}];
+  const snapshot=structuredClone(links);
+  assert.deepEqual(uniqueRelatedLinks(links,live),[
+    {page:live[0],label:'Poros rinkinio instrukcija'},
+    {page:live[1],label:'Poros rinkinio instrukcija'}
+  ]);
+  assert.deepEqual(links,snapshot,'rendering leaves the revision-bound source intact');
+  const proseLinks=links.flatMap(link=>{const target=live.find(p=>p.id===link.targetPageId);return target?[{label:link.label,href:'/'+target.slug}]:[];});
+  assert.deepEqual(contextualParts('Peržiūrėkite Poros rinkinio instrukcija.',proseLinks).filter(x=>x.href),[{text:'Poros rinkinio instrukcija',href:'/poros-instrukcija'}]);
+  assert.deepEqual(contextualParts('Pagal poros rinkinio instrukciją palaukite.',proseLinks).filter(x=>x.href),[{text:'poros rinkinio instrukciją',href:'/poros-instrukcija'}]);
+  assert.deepEqual(uniqueRelatedLinks(links,[live[1]]),[{page:live[1],label:'Poros rinkinio instrukcija'}],'unavailable targets remain unavailable');
 });
 
 test('guide pause retains published pages and freezes future discovery across tenants until explicitly removed', () => {

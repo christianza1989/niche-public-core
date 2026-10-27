@@ -3,6 +3,7 @@ import type {NicheBlock,NicheMedia,NichePackage,NichePage} from '@/lib/niche-sit
 import {memoRoute,memoPath,memoLabels,memoLanguageLinks} from '@/lib/memocasting-locales.mjs';
 import {nicheEditorialDates} from '@/lib/niche-schema-core.mjs';
 import {nicheJsonLd} from '@/lib/niche-seo';
+import {uniqueRelatedLinks} from '@/lib/niche-links.mjs';
 import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoCompany,memoProfilePath,memoGuideBodyParts,memoGiftQuickPaths} from '@/lib/memocasting-structure.mjs';
 import {imageSrcSet,visibleImageCredit} from '@/lib/niche-media.mjs';
 import {LinkedText} from './linked-text';
@@ -38,6 +39,7 @@ import {MemoInstructions} from './memocasting-instructions';
 import {Fragment} from 'react';
 import {MemoGuideVideo} from './memocasting-guide-video';
 import {MemoHomeReviews,MemoProductReviews,type MemoReviewData} from './memocasting-reviews';
+import {memoReviewInstruction} from '@/lib/memocasting-reviews.mjs';
 import {MemoReviewPrivacy} from './memocasting-review-privacy';
 function MemoArticleMeta({pkg,page,pages,className}:{pkg:NichePackage;page:NichePage;pages:NichePage[];className:string}){const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],dates=nicheEditorialDates(page),profile=memoProfilePath(page,pages),format=(d:string)=>new Intl.DateTimeFormat(route.locale,{dateStyle:'medium',timeZone:pkg.site.timezone}).format(new Date(d));return <div className={className}><p>{labels.author} {profile?<a href={profile} rel='author'>MB Memocasting</a>:'MB Memocasting'} · {labels.editorial}</p><p>{labels.published} <time dateTime={dates.published}>{format(dates.published)}</time> · {labels.reviewed} <time dateTime={dates.modified}>{format(dates.modified)}</time></p></div>;}
 const productSlugs=memoProducts.map(p=>p.logicalSlug);
@@ -69,7 +71,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language} analytics={<MemoAnalytics siteId={pkg.siteId} path={'/'+page.slug} title={page.title} language={route.language} functional={cart} privacyPath={exists('privatumas')?path('privatumas'):undefined}/>}/>;
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
  const instruction=memoInstructionKind(page);
- const related=page.links.flatMap(l=>{const p=livePages.find(p=>p.id===l.targetPageId);return p?[{page:p,label:l.label}]:[];});
+ const related=uniqueRelatedLinks(page.links,livePages);
  if(home&&route.language==='lt'&&memoHomepageAdmitted(page)){
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
   const story=memoHomepageProductStory(localPages).split('<!-- memo-inspiration-gallery -->');
@@ -115,7 +117,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
   </section>
   <nav className={s.productSections} aria-label={storeText.productInfo}>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<a key={i} href={'#'+memoSectionId(b.text)}>{b.text}</a>]:[])}</nav>
   <div className={s.productDetail}><div><p className={s.productDescription}>{page.description}</p><Body page={page} pages={livePages}/></div><aside className={s.productHelp}><h2>{storeText.documents}</h2><nav>{[['pages/instrukcija',labels.instruction],['pagalba',labels.help],['gidai',labels.guides]].filter(([slug])=>exists(slug)).map(([slug,label])=><a key={slug} href={path(slug)}>{label}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>)}</nav>{route.language==='lt'&&['rinkinys-porai','seimos-rinkinys'].includes(page.slug)&&localPages.some(p=>p.slug===''&&memoHomepageAdmitted(p))&&<div className={s.processEvidence}><a href="https://memocasting.lt/#instagram"><img src="/memocasting-homepage/v1/media/video-carousel-20261020/moment-2e7a942ef0b6-360.webp" width="360" height="640" loading="lazy" alt="Pora prie stalo ruošia indus rankų liejimui."/><span>Pažiūrėkite, kaip liejamos rankos ↗</span></a><p>Tikruose proceso įrašuose matysite pasiruošimą, rankų laikymą formoje ir liejinio išėmimą. Tikslius kiekius ir laukimo laiką rinkitės pagal savo rinkinio instrukciją.</p></div>}</aside></div>
-  {route.language==='lt'&&<MemoProductReviews sku={memoProductForSlug(route.baseSlug)!.sku} initial={(page as NichePage & {memoReviews?:MemoReviewData}).memoReviews||null}/>}
+  {route.language==='lt'&&<MemoProductReviews sku={memoProductForSlug(route.baseSlug)!.sku} instruction={memoReviewInstruction(memoProductForSlug(route.baseSlug)!.sku,livePages)} initial={(page as NichePage & {memoReviews?:MemoReviewData}).memoReviews||null}/>}
  </>}
  {!cart&&!product&&!catalogue&&!instruction&&<Body page={page.type==='guide'?{...page,body:memoGuideBodyParts(page).body}:page} pages={livePages}/>}
  {route.language==='lt'&&page.slug==='privatumas'&&<MemoReviewPrivacy/>}
