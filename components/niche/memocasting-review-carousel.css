@@ -8,6 +8,7 @@
 .memo-reviews .memo-review-score .memo-rating-stars { width: 90px; height: 18px; flex: none; }
 .memo-reviews .memo-rating-count { color: var(--review-muted); }
 .memo-reviews .memo-review-hint { margin: 0 0 20px; max-width: 88ch; font-size: 13px; line-height: 1.7; color: var(--review-muted); }
+.memo-reviews .memo-review-instructions { font-size: 16px; color: #47403e; }
 .memo-review-navigation { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
 .memo-review-navigation > span { color: var(--review-muted); font-size: 13px; line-height: 1.5; }
 .memo-review-navigation > div { display: flex; gap: 8px; }
