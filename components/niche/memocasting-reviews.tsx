@@ -1,7 +1,7 @@
 'use client';
 /* eslint-disable @next/next/no-img-element -- Moderated native customer WebP media. */
 import {useEffect,useId,useRef,useState} from 'react';
-import {memoReviewStarPath} from '@/lib/memocasting-reviews.mjs';
+import {memoReviewStarPath,memoReviewUsesInstruction} from '@/lib/memocasting-reviews.mjs';
 
 export type MemoReview={id:string;sku:string;authorName:string;rating:number;title:string;body:string;date:string;verifiedPurchase:boolean;legacyImported?:boolean;schemaEligible?:boolean;photos:Array<{id:string;src:string;width:number;height:number}>};
 export type MemoReviewData={items:MemoReview[];total:number;stats:{count:number;average:number;directCount?:number;directAverage?:number|null}|null};
@@ -51,7 +51,7 @@ export function MemoProductReviews({sku,initial,instruction}:{sku:string;initial
   <div className="memo-reviews-head"><div><h2 id="memo-reviews-title">Pirkėjų atsiliepimai</h2>{initial?.stats?<MemoRating {...initial.stats}/>:<p>Pasidalykite savo patirtimi ir padėkite kitiems išsirinkti.</p>}</div><a href="/atsiliepimas">Palikti atsiliepimą</a></div>
   {initial?.stats?.directCount&&initial.stats.directCount!==initial.stats.count?<p className="memo-review-hint">Šioje svetainėje surinkti įvertinimai: {String(initial.stats.directAverage).replace('.',',')} / 5 ({initial.stats.directCount}). Į šią suvestinę įtraukti tik tiesiogiai šioje parduotuvėje surinkti įvertinimai.</p>:null}
   <p className="memo-review-hint">Žyma „Patvirtintas pirkėjas“ reiškia, kad pirkimas susietas su apmokėtu užsakymu arba jo patvirtinimas perkeltas iš ankstesnės mūsų parduotuvės. Vienodai peržiūrime ir teigiamas, ir kritiškas patirtis.</p>
-  <p className="memo-review-hint">Atsiliepimuose nurodyta liejimo trukmė ir medžiagų proporcijos gali skirtis. Vadovaukitės prie savo rinkinio pridėta instrukcija.{instruction&&<> <a href={instruction.href}>{instruction.label}</a>.</>}</p>
+  {memoReviewUsesInstruction(sku)&&<p className="memo-review-hint">Atsiliepimuose nurodyta liejimo trukmė ir medžiagų proporcijos gali skirtis. Vadovaukitės prie savo rinkinio pridėta instrukcija.{instruction&&<> <a href={instruction.href}>{instruction.label}</a>.</>}</p>}
   {items.length>0&&<Carousel items={items}/>}
   {initial&&items.length<initial.total&&<div className="memo-review-more"><span aria-live="polite">Įkelta {items.length} iš {initial.total}</span><button type="button" disabled={busy} onClick={more}>{busy?'Įkeliama…':'Įkelti daugiau atsiliepimų'}</button></div>}
   {failed&&<p role="alert">Nepavyko įkelti. Bandykite dar kartą.</p>}{!initial&&<p className="memo-review-hint">Atsiliepimų ryšys šiuo metu nepasiekiamas. Pabandykite atnaujinti puslapį.</p>}
