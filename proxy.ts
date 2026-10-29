@@ -106,7 +106,7 @@ export function proxy(request: NextRequest) {
       if(moved)return NextResponse.redirect(moved,301);
     }
     if (niche.siteId==='memocasting' && path.startsWith('/fonts/memocasting/')) return NextResponse.next();
-    if (niche.siteId==='o3tech' && path.startsWith('/fonts/o3tech/')) return NextResponse.next();
+    if (niche.siteId==='o3tech' && (path.startsWith('/fonts/o3tech/') || path==='/o3tech-ui.js')) return NextResponse.next();
     if (niche.siteId==='memocasting' && path.startsWith('/prekyba/')) {
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/commerce/'+path.slice('/prekyba/'.length);
       // The final relay decides robots after status, MIME and publication checks.

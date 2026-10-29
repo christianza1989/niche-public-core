@@ -70,8 +70,8 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   const name = String(form.get("name") || "").trim();
   const email = String(form.get("email") || "").trim();
   const message = siteId === 'o3tech' ? o3techInquiryMessage(form) : String(form.get("message") || "").trim();
-  if (name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
-    return reply("Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
+  if (message === null || (siteId !== 'o3tech' && (name.length < 2 || message.length < 20)) || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length > 3000 || form.get("consent") !== "yes") {
+    return reply(siteId === 'o3tech' ? "Patikrinkite formą ir bandykite dar kartą." : "Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
   }
   if (!env.DB) return reply("Užklausų sistema laikinai nepasiekiama. Parašykite svetainėje nurodytu el. paštu.", 503);
   let sourcePath = context ? String(form.get("source_path")) : "/";
