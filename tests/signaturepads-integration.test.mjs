@@ -9,7 +9,7 @@ import { contentSeoV2 } from '../lib/content-seo-v2.mjs';
 import { validateContentPackage } from '../scripts/content-package-core.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { contentFrameworkRequest, contentOriginalPathHeader } from '../lib/content-framework-request.mjs';
+import { contentFrameworkRequest, contentFrameworkResponse, contentOriginalPathHeader } from '../lib/content-framework-request.mjs';
 import { inquiryDetails, inquiryMessage, leadPagesReady } from '../lib/niche-lead-fields.mjs';
 import { nicheMailTransport, sendNicheHostingerMail } from '../lib/niche-lead-mail-api.mjs';
 import { signaturepadsRoute } from '../lib/signaturepads-routes.mjs';
@@ -28,6 +28,10 @@ test('public slash survives the framework boundary; other sites and forged path 
   assert.equal(other.url,request.url);assert.equal(other.headers.has(contentOriginalPathHeader),false);
   const native=new Request('http://127.0.0.1:8958/uzklausa',{method:'POST',body:'name=Test&consent=yes'});
   assert.equal(await contentFrameworkRequest(native,pkg,'local-preview').text(),'name=Test&consent=yes');
+  const redirected=contentFrameworkResponse(request,pkg,[{slug:'iranga/programine-iranga'}],new Response(null,{status:308,headers:{location:'/iranga/programine-iranga?orderby=price'}}));
+  assert.equal(redirected.headers.get('location'),'/iranga/programine-iranga/?orderby=price');
+  const otherRedirect=new Response(null,{status:308,headers:{location:'https://foreign.example/path'}});
+  assert.equal(contentFrameworkResponse(request,pkg,[{slug:'path'}],otherRedirect),otherRedirect);
 });
 test('legacy URLs retain resources, slash policy and query; retired checkout never comes back',()=>{
   const pages=[{id:'sp-home',slug:'',type:'home'},{id:'sp-product-488',slug:'produktas/paraso-plansete-signotec-sigma',type:'product'},{id:'sp-page',slug:'prekes'}];

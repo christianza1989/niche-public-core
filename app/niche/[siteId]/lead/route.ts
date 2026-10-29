@@ -31,7 +31,7 @@ async function limitedForm(request: Request, retainedLimit = 10000): Promise<URL
     const { done, value } = await reader.read();
     if (done) break;
     length += value.byteLength;
-    // The default retains10KB; Memo retains up to the existing64KiB ceiling,
+    // The default retains10KB; Memo/Signaturepads retain the64KiB ceiling,
     // since URL-encoded native text can exceed10KB within its3000-char limit.
     // Drain modest rejected bodies without retaining
     // their bytes so the local proxy can deliver an error and reuse transport.
@@ -59,6 +59,11 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   if(siteId==='memocasting'&&!form)return response("Patikrinkite formą ir bandykite dar kartą.",400);
   const context=siteId==='memocasting'?memoLeadContext(publicSitePages(pkg),String(form?.get('source_path')||'')):null;
   const reply=(message:string,status:number)=>response(message,status,context,json);
+  const receipt=(status:string)=>reply(status==='notified'
+    ? 'Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą.'
+    : status==='new' && /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(host || '')
+    ? 'Tai vietinės peržiūros bandymas: žinutė išsaugota tik šiame kompiuteryje, o tikras el. laiškas neišsiųstas.'
+    : 'Jūsų žinutė išsaugota.',200);
   if(siteId==='memocasting'&&!context)return reply('Užklausos forma šiuo metu nepasiekiama. Parašykite svetainėje nurodytu el. paštu.',503);
   if(!leadPagesReady(pkg,publicSitePages(pkg))) return reply('Užklausos forma šiuo metu nepasiekiama. Parašykite svetainėje nurodytu el. paštu.',503);
   const origin = request.headers.get("origin");
@@ -80,16 +85,24 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   }
   if (!details) return reply('Patikrinkite formą ir bandykite dar kartą.', 400);
   const message = inquiryMessage(submittedMessage, details);
+  const inquiryId=String(form.get('inquiry_id')||'');
+  if(inquiryId&&!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(inquiryId))return reply('Patikrinkite formą ir bandykite dar kartą.',400);
   if (!env.DB) return reply("Užklausų sistema laikinai nepasiekiama. Parašykite svetainėje nurodytu el. paštu.", 503);
   let sourcePath = context ? String(form.get("source_path")) : "/";
   if (referrer && !context) {
     try { const url = new URL(referrer); if (url.origin === expected) sourcePath = url.pathname.slice(0, 300); } catch { /* no attribution */ }
   }
   const now = Date.now();
-  const leadId = crypto.randomUUID();
+  const leadId = inquiryId || crypto.randomUUID();
   try {
-    await env.DB.prepare("INSERT INTO niche_leads (id, site_id, created_at, source_path, name, email, message, consent_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'new')")
+    const inserted=await env.DB.prepare("INSERT INTO niche_leads (id, site_id, created_at, source_path, name, email, message, consent_at, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'new') ON CONFLICT(id) DO NOTHING")
       .bind(leadId, siteId, now, sourcePath, name, email, message, now).run();
+    if(inserted.meta.changes===0){
+      const previous=await env.DB.prepare('SELECT name,email,message,source_path,status FROM niche_leads WHERE id=? AND site_id=?')
+        .bind(leadId,siteId).first<{name:string;email:string;message:string;source_path:string;status:string}>();
+      if(!previous||previous.name!==name||previous.email!==email||previous.message!==message||previous.source_path!==sourcePath)return reply('Patikrinkite formą ir bandykite dar kartą.',409);
+      return receipt(previous.status);
+    }
   } catch (error) {
     console.error(JSON.stringify({ event: "niche_lead_write_failed", siteId, error: String(error) }));
     return reply("Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.", 503);
@@ -128,8 +141,5 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport }));
     }
   }
-  return reply(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."
-    : /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(host || "")
-    ? "Tai vietinės peržiūros bandymas: žinutė išsaugota tik šiame kompiuteryje, o tikras el. laiškas neišsiųstas."
-    : "Jūsų žinutė išsaugota. Pranešimo el. paštu šiuo metu nepavyko perduoti. Jei užklausa skubi, parašykite svetainėje nurodytu el. paštu.", 200);
+  return receipt(notified?'notified':transport==='none'?'new':'mail-unknown');
 }

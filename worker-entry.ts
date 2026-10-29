@@ -1,6 +1,6 @@
 import handler from 'vinext/server/fetch-handler';
-import { contentPackageByHost, contentAdmissionScope } from './lib/content-model-v2';
-import { contentFrameworkRequest } from './lib/content-framework-request.mjs';
+import { contentPackageByHost, contentAdmissionScope, publicContentPages } from './lib/content-model-v2';
+import { contentFrameworkRequest, contentFrameworkResponse } from './lib/content-framework-request.mjs';
 
 export default {
   ...handler,
@@ -8,6 +8,7 @@ export default {
     const pkg=contentPackageByHost(request.headers.get('host'));
     const adapted=contentFrameworkRequest(request,pkg,pkg?contentAdmissionScope(pkg):null);
     if(adapted instanceof Response)return adapted;
-    return handler.fetch(adapted,env,ctx);
+    const response=await handler.fetch(adapted,env,ctx);
+    return contentFrameworkResponse(request,pkg,pkg&&response.status>=300&&response.status<400?publicContentPages(pkg):[],response);
   },
 };

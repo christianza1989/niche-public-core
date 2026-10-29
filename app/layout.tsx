@@ -109,8 +109,8 @@ export default async function RootLayout({
   }
   const gift=contentPackageByHost(host);
   if(gift){
-    const {LegacyStyles}=await import('./legacy-styles');
     const signaturepads=contentRenderer(gift)==='signaturepads';
+    const LegacyStyles=signaturepads?null:(await import('./legacy-styles')).LegacyStyles;
     const privatePreview=signaturepads&&localContentAdmission(gift);
     const favicon=signaturepads?publicContentPages(gift).find(p=>p.slug==='')?.media.find(m=>m.id===signaturepadsLayout.home.favicon)?.src:null;
     const pathname=(await headers()).get('x-gift-original-path')||'/';
@@ -127,7 +127,7 @@ export default async function RootLayout({
       {page&&<><meta property="og:site_name" content={gift.site.name}/><meta property="og:type" content={article?'article':'website'}/><meta property="og:title" content={page.title}/><meta property="og:description" content={page.description}/><meta property="og:url" content={page.url}/>
       {hero&&<meta property="og:image" content={`https://${gift.canonicalHost}${hero.src}`}/>}<meta name="twitter:card" content={hero?'summary_large_image':'summary'}/>
       {article&&page.editorial.datePublished&&<meta property="article:published_time" content={page.editorial.datePublished}/>}{article&&page.editorial.dateModified&&<meta property="article:modified_time" content={page.editorial.dateModified}/>}</>}
-    </head><body className={signaturepads?'signaturepads-site':'antialiased'} style={signaturepads?{margin:0}:undefined}>{!signaturepads&&<LegacyStyles/>}{children}</body></html>;
+    </head><body className={signaturepads?'signaturepads-site':'antialiased'} style={signaturepads?{margin:0}:undefined}>{LegacyStyles&&<LegacyStyles/>}{children}</body></html>;
   }
   const site = resolveSite(host);
   const { LegacyStyles } = await import("./legacy-styles");

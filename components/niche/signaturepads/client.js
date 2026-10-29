@@ -38,6 +38,6 @@ document.querySelector('.sp-contact-form')?.addEventListener('submit',async even
   event.preventDefault();const form=event.currentTarget;if(!form.reportValidity())return;
   const status=form.querySelector('[role=status]'),button=form.querySelector('button[type=submit]');
   button.disabled=true;status.textContent='';
-  try{const response=await fetch(form.action,{method:'POST',body:new URLSearchParams(new FormData(form)),headers:{Accept:'application/json'}});const result=await response.json();status.textContent=result.message;if(response.ok)form.reset();}catch{status.textContent='Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.';}finally{button.disabled=false;}
+  try{const response=await fetch(form.action,{method:'POST',body:new URLSearchParams(new FormData(form)),headers:{Accept:'application/json'}});const result=await response.json();status.textContent=result.message;if(response.ok){form.reset();const token=form.elements.namedItem('inquiry_id');if(token&&crypto.randomUUID)token.value=crypto.randomUUID();}}catch{status.textContent='Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.';}finally{button.disabled=false;}
 });
 })();
