@@ -2,9 +2,46 @@ import assert from 'node:assert/strict';
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import http from 'node:http';
+import { createHash } from 'node:crypto';
 const base=process.argv[2]||'http://127.0.0.1:8956';
 const output=path.resolve(process.argv[3]||'../../output/signaturepads-migration-20261029');
 const data=JSON.parse(await readFile('sites/signaturepads/migration/site-source.json','utf8'));
+const original=JSON.parse(await readFile(path.join(output,'normalized-browser.json'),'utf8'));
+const fragments=JSON.parse(await readFile(path.join(output,'fragments.json'),'utf8'));
+const editorial=JSON.parse(await readFile('sites/signaturepads/migration/editorial-updates.json','utf8'));
+const decisions=JSON.parse(await readFile('sites/signaturepads/migration/owner-decisions.json','utf8'));
+const allowedIds=decisions.softwareDescriptionAuthoringException.productIds;
+assert.equal(editorial.pages.length,6,'exactly the six authorized descriptions');
+assert.deepEqual([...editorial.pages.map(p=>p.productId)].sort(),[...allowedIds].sort());
+assert.equal(new Set(editorial.pages.map(p=>p.description)).size,6,'unique software metadata');
+assert.deepEqual(data.routes.map(r=>r.path),original.routes.filter(r=>!decisions.retiredPaths.includes(r.path)).map(r=>r.path),'original active URLs and order');
+for(const route of data.routes){
+  const before=original.routes.find(r=>r.path===route.path);
+  assert.equal(route.title,before.title,'original visible page title');
+  assert.equal(route.canonical,before.canonical,'original canonical URL');
+  if(allowedIds.includes(route.productId)){
+    const update=editorial.pages.find(p=>p.productId===route.productId);
+    assert.equal(route.html,update.html,'reviewed software description applied');
+    assert.equal(route.description,update.description,'reviewed software metadata applied');
+    assert.equal(update.review.status,'verified-local-draft');
+    assert.equal(createHash('sha256').update(update.html).digest('hex'),update.review.htmlSha256,'review refers to this exact HTML');
+    assert.equal(createHash('sha256').update(update.description).digest('hex'),update.review.metadataSha256,'review refers to this exact metadata');
+    for(const source of update.provenance.sources){
+      const bytes=await readFile(path.join(output,'editorial',source.rawArtifact));
+      assert.equal(createHash('sha256').update(bytes).digest('hex'),source.rawSha256,'manufacturer evidence integrity');
+    }
+  }else{
+    const fragment=fragments.find(f=>f.path===route.path);
+    assert.equal(route.html,route.kind!=='catalog'&&fragment?fragment.html:before.html,`unchanged original body ${route.path}`);
+  }
+}
+for(const product of data.products){
+  const before=original.products.find(p=>p.id===product.id);
+  assert.deepEqual(product.prices,before.prices,'original catalogue price');
+  assert.equal(product.name,original.routes.find(r=>r.productId===product.id).title,'original product name');
+}
+assert.deepEqual(data.contact,{email:'sales@signaturepads.lt',phone:'+370 686 88369'},'original contacts');
+assert.deepEqual(data.home.accordions,original.home.accordions,'unchanged homepage copy');
 const records=[],references=new Set();
 for(const route of data.routes){
   const response=await fetch(base+route.path),body=await response.text();
@@ -18,7 +55,7 @@ for(const route of data.routes){
   if(route.kind==='page')assert.ok(body.includes(route.html.replace(/<h1(\s|>)/g,'<h2$1').replaceAll('</h1>','</h2>')),`page text ${route.path}`);
   if(route.kind==='home')for(const accordion of data.home.accordions)assert.ok(body.includes(accordion.html),'home copy');
   for(const match of body.matchAll(/\b(?:href|src)="(\/[^"\s]*)"/g))references.add(match[1].replaceAll('&amp;','&'));
-  records.push({path:route.path,status:response.status,canonical:route.canonical,htmlBytes:Buffer.byteLength(body),originalText:'PASS'});
+  records.push({path:route.path,status:response.status,canonical:route.canonical,htmlBytes:Buffer.byteLength(body),text:allowedIds.includes(route.productId)?'owner-authorized reviewed software draft':'retained original source'});
 }
 // The stock WordPress Sample Page contains a login link. WordPress admin is
 // not a public content URL and is deliberately not recreated by this preview.
@@ -43,6 +80,6 @@ const valid=await fetch(base+'/uzklausa',{method:'POST',headers:{Origin:base,'Co
 const persisted=await readFile(state,'utf8');assert.ok(persisted.includes(marker));
 // Remove only this test's newly written marker; retain every other record.
 const preserved=persisted.split('\n').filter((line,index)=>!line.includes(marker)||index<prior.split('\n').length-1).filter(Boolean).join('\n');await writeFile(state,preserved?preserved+'\n':'');
-const report={checkedAt:new Date().toISOString(),scope:'local-unapproved-migration-preview',base,status:'PASS',routes:records,uniqueInternalTargets:references.size,administrativeLinksExcluded:administrativeLinks,retiredRoutes:data.retiredRoutes,softwareDescriptions:{completed:data.products.filter(p=>p.path.includes('programine-iranga')&&p.contentHtml.trim()).length,expected:6},checks:['all active captured routes 200','original source text retained outside owner edits','canonical URLs retained','all active metadata nonempty; dangling separators removed','no WordPress theme/plugin runtime','public internal page/asset targets 200','legacy ID and slash redirects','owner-retired pages 410','cart checkout Paysera and add-to-cart aliases disabled','retired pages removed from all sitemaps','catalogue pagination and search','404 without canonical','private robots','sitemap compatibility','public Host rejected','form origin rejection and validation','durable local form record and exact test cleanup'],productionCoreAdmission:'PENDING',productionEmail:'NOT_ENABLED',productionDeployment:'NOT_CHANGED'};
+const report={checkedAt:new Date().toISOString(),scope:'local-unapproved-migration-preview',base,status:'PASS',routes:records,uniqueInternalTargets:references.size,administrativeLinksExcluded:administrativeLinks,retiredRoutes:data.retiredRoutes,softwareDescriptions:{completed:editorial.pages.length,expected:6,author:'Codex under direct owner exception',manufacturerEvidenceHashes:'PASS',reviewedHtmlHashes:'PASS'},checks:['all active captured routes 200','all unedited bodies compared to original capture','original product titles prices and contacts retained','six authorized reviewed descriptions and unique metadata applied','manufacturer evidence and reviewed HTML hashes verified','canonical URLs retained','all active metadata nonempty; dangling separators removed','no WordPress theme/plugin runtime','public internal page/asset targets 200','legacy ID and slash redirects','owner-retired pages 410','cart checkout Paysera and add-to-cart aliases disabled','retired pages removed from all sitemaps','catalogue pagination and search','404 without canonical','private robots','sitemap compatibility','public Host rejected','form origin rejection and validation','durable local form record and exact test cleanup'],productionCoreAdmission:'PENDING',productionEmail:'NOT_ENABLED',productionDeployment:'NOT_CHANGED'};
 await writeFile(path.join(output,'PREVIEW-VERIFICATION.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({status:report.status,routes:records.length,internalTargets:references.size,checks:report.checks,report:path.join(output,'PREVIEW-VERIFICATION.json')},null,2));

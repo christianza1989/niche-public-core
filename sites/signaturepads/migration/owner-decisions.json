@@ -3,6 +3,14 @@
   "authority": "Direct instructions in the signaturepads migration chat",
   "metadataRefresh": true,
   "softwareDescriptions": true,
+  "softwareDescriptionAuthoringException": {
+    "date": "2026-10-29",
+    "source": "Direct Rokas reply 1 to the choice of allowing Codex to write six software descriptions from verified manufacturer sources",
+    "allowedAuthor": "Codex",
+    "productIds": [7084, 6867, 6865, 6863, 6861, 6859],
+    "scope": "Six missing software descriptions and associated metadata; local draft only",
+    "publicationApproval": false
+  },
   "inquiryOnly": true,
   "ordersEnabled": false,
   "payseraEnabled": false,

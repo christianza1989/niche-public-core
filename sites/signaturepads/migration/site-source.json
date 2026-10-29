@@ -1497,12 +1497,12 @@
       "path": "/produktas/programine-iranga-stepover-esignatureoffice/",
       "title": "Programinė įranga StepOver eSignatureOffice",
       "metaTitle": "Programinė įranga StepOver eSignatureOffice",
-      "description": "Programinė įranga StepOver eSignatureOffice · PROGRAMINĖ ĮRANGA PDF FAILŲ PASIRAŠYMUI",
+      "description": "„StepOver eSignatureOffice“ – PDF pasirašymas ir formų pildymas „Windows“ aplinkoje, automatinis parašo laukų parinkimas bei dokumentų tvarkymas.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-stepover-esignatureoffice/",
       "kind": "product",
       "productId": 7084,
-      "html": "",
+      "html": "<p>StepOver eSignatureOffice skirta PDF ir PDF/A dokumentams pasirašyti „Windows“ kompiuteryje. Ji tinka darbo vietai, kurioje klientui dokumentas pateikiamas pasirašyti parašo planšete. Programoje galima užpildyti PDF formos laukus, įrašyti parašą ir išsaugoti užpildytą dokumentą.</p>\n<h2>Pasikartojančių dokumentų tvarkymas</h2>\n<p>Parašo laukai gali būti automatiškai parenkami pagal dokumento tekste esančius raktažodžius. Iš dokumento duomenų galima sudaryti failo pavadinimą, o užbaigus pasirašymą – dokumentą išsaugoti, išspausdinti, persiųsti el. paštu ar perduoti kitai programai.</p>\n<h2>Suderinamumas ir integracija</h2>\n<ul><li>Palaikomos „Windows 10“ ir „Windows 11“ operacinės sistemos.</li><li>Gamintojas nurodo suderinamumą su „naturaSign Pad Classic“ ir „duraSign Pad 4.3“, „5.0“ bei „10.0“ planšetėmis.</li><li>Programą galima paleisti su komandų eilutės parametrais ir konfigūracijos failais; glaudesnei integracijai siūlomas OCX komponentas.</li></ul>\n<p>Naudojimą terminaliniame serveryje gamintojas numato kartu su TCP arba „Citrix“ moduliu. Šį reikalavimą svarbu įvertinti planuojant bendrą serverio ir pasirašymo darbo vietų aplinką.</p>\n<p><a href=\"https://stepover.com/en/products/software/esignatureoffice/\">Gamintojo informacija</a></p>",
       "productIds": [],
       "links": [
         {
@@ -1662,7 +1662,28 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "stepover-esignatureoffice",
+            "url": "https://stepover.com/en/products/software/esignatureoffice/",
+            "retrievedAt": "2026-10-29T15:32:07.634Z",
+            "rawSha256": "eafea1af50d20f320e27d3b1fd18098d448a3c210b4224fa76cbe8eb10f673a5",
+            "textSha256": "3b3a4bf943ab18f5005ae1dd0432006195b8e1f361f020b1af8ea1081d30ced2",
+            "rawArtifact": "sources/stepover-esignatureoffice.html",
+            "textArtifact": "sources/stepover-esignatureoffice.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 7084,
+          "path": "/produktas/programine-iranga-stepover-esignatureoffice/",
+          "title": "Programinė įranga StepOver eSignatureOffice"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/paraso-plansete-stepover-durasign-pad-10-0/",
@@ -2184,12 +2205,12 @@
       "path": "/produktas/programine-iranga-signotec-signoapi-native-java/",
       "title": "Programinė įranga signotec signoAPI (Native Java)",
       "metaTitle": "Programinė įranga signotec signoAPI (Native Java)",
-      "description": "Programinė įranga signotec signoAPI (Native Java) · GAMINTOJO SDK/API LENGVAI INTEGRACIJAI",
+      "description": "„signoAPI Java“ komponentai PDF dokumentams rodyti, redaguoti ir pasirašyti „Java“ programose. Palaikomos „Windows“ ir „Linux“ sistemos.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-signotec-signoapi-native-java/",
       "kind": "product",
       "productId": 6867,
-      "html": "",
+      "html": "<p>signotec signoAPI (Native Java) skirta kūrėjams, kurie į savo „Java“ programą nori įtraukti PDF dokumentų rodymą, redagavimą ir pasirašymą. Tai programinių komponentų rinkinys, kurį reikia integruoti į kuriamą arba jau naudojamą programą.</p>\n<h2>Palaikoma aplinka</h2>\n<p>Komponentai gali veikti „Windows“ ir „Linux“ sistemose. Reikalinga „Java Runtime Environment“ (JRE) 1.8 arba naujesnė versija; palaikomos 32 ir 64 bitų aplinkos.</p>\n<p>Papildomų bibliotekų poreikis priklauso nuo naudojamų komponentų. „Linux“ sistemoje „SigPadFacade“ reikia „OpenSSL“ 3.0 bibliotekos, o HID/WinUSB įrenginiams – „libusb“ 1.0.16 arba naujesnės versijos. Šias priklausomybes reikia įvertinti prieš diegiant sprendimą.</p>\n<h2>Dokumentacija kūrėjams</h2>\n<p>Atskiros „Java“ klasės aprašytos „JavaDoc“ dokumentacijoje, pateikiamoje programos paketo „doc/javadoc“ kataloge. Ji skirta integraciją įgyvendinančiam programuotojui.</p>\n<p>„Windows“ COM komponentams skirta atskira „signoAPI (Windows)“ versija. Renkantis šiuos produktus svarbu remtis naudojama programavimo aplinka ir planuojamu integravimo būdu.</p>\n<p><a href=\"https://docs.signotec.com/en/signoapi-java-windows-linux/latest\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signoapi-java-windows-linux/latest/signoapi-java-system-requirements\">Sistemos reikalavimai</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signoapi-windows/\">signoAPI (Windows)</a></p>",
       "productIds": [],
       "links": [
         {
@@ -2349,18 +2370,66 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "signoapi-java",
+            "url": "https://docs.signotec.com/en/signoapi-java-windows-linux/latest",
+            "retrievedAt": "2026-10-29T15:32:07.637Z",
+            "rawSha256": "4b4b6145eea54db4eb38763190cc2743c23581d3436af201070fdebb9232729a",
+            "textSha256": "34c683bab2673bf2d7c6f8699b2864852236bbb314cb9712ee2c75174f83eae6",
+            "rawArtifact": "sources/signoapi-java.html",
+            "textArtifact": "sources/signoapi-java.txt"
+          },
+          {
+            "id": "signoapi-java-interface",
+            "url": "https://docs.signotec.com/en/signoapi-java-windows-linux/latest/signoapi-java-interface-description",
+            "retrievedAt": "2026-10-29T15:32:07.855Z",
+            "rawSha256": "b538a478fd17b4cb93efc811a53057c490f6da25b052ecc2bf476203e010fe76",
+            "textSha256": "58edbb1f7f2952d8044a95ee6208dfc1cc541258f2384fc574c5c9f7fdced6da",
+            "rawArtifact": "sources/signoapi-java-interface.html",
+            "textArtifact": "sources/signoapi-java-interface.txt"
+          },
+          {
+            "id": "signoapi-java-requirements",
+            "url": "https://docs.signotec.com/en/signoapi-java-windows-linux/latest/signoapi-java-system-requirements",
+            "retrievedAt": "2026-10-29T15:32:07.874Z",
+            "rawSha256": "77729737712ccfc24225ac32e4f4b100cadeef262c78da568bdbd032757a19af",
+            "textSha256": "30b1ab3b863cb1145f2fabf739e0e1014791fa0aa3dc36eac601ce9bbaec9180",
+            "rawArtifact": "sources/signoapi-java-requirements.html",
+            "textArtifact": "sources/signoapi-java-requirements.txt"
+          },
+          {
+            "id": "signoapi-windows-components",
+            "url": "https://docs.signotec.com/en/signoapi-windows/latest/notes-on-working-with-the-components",
+            "retrievedAt": "2026-10-29T15:32:07.879Z",
+            "rawSha256": "21b898f7a752601a0253afc8686a4c7fff0c1d04664a4f78cd60656b72621514",
+            "textSha256": "464679d03f5fcd647bf0984cb5a59b4bfc94cd796a99c91ab855f90ff8f79095",
+            "rawArtifact": "sources/signoapi-windows-components.html",
+            "textArtifact": "sources/signoapi-windows-components.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 6867,
+          "path": "/produktas/programine-iranga-signotec-signoapi-native-java/",
+          "title": "Programinė įranga signotec signoAPI (Native Java)"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/programine-iranga-signotec-signoapi-windows/",
       "title": "Programinė įranga signotec signoAPI (Windows)",
       "metaTitle": "Programinė įranga signotec signoAPI (Windows)",
-      "description": "Programinė įranga signotec signoAPI (Windows) · GAMINTOJO SDK/API LENGVAI INTEGRACIJAI",
+      "description": "„signoAPI Windows“ COM komponentai PDF dokumentams rodyti, redaguoti ir parašams surinkti. Integracija į savo „Windows“ programą per DLL ir OCX failus.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-signotec-signoapi-windows/",
       "kind": "product",
       "productId": 6865,
-      "html": "",
+      "html": "<p>signotec signoAPI (Windows) skirta programuotojams, kurie PDF pasirašymo funkcijas nori įtraukti į savo „Windows“ programą. API sudaro COM komponentai, pateikiami DLL arba OCX failais. Juos galima naudoti su COM palaikančiomis programavimo kalbomis ir kūrimo aplinkomis.</p>\n<h2>Rinkinio komponentai</h2>\n<ul><li>„STImgCtl“ – dokumentams rodyti ir redaguoti.</li><li>„SignPDF3“ – parašams įrašyti ir nuskaityti.</li><li>„signcap“ – parašui surinkti naudojant parašo planšetę arba planšetinį kompiuterį.</li><li>„signview“ – parašams atvaizduoti.</li></ul>\n<h2>Integravimo reikalavimai</h2>\n<p>Gamintojas nurodo bendrą komponentų suderinamumą su „Windows 10“ ir naujesnėmis versijomis. Pasirinkta kūrimo aplinka turi leisti prijungti COM bibliotekas. Dokumentacijoje pateikiami „C#“ ir „C++“ naudojimo pavyzdžiai, atskirai paaiškinamas „ActiveX“ valdiklių bei komponentų be grafinės sąsajos prijungimas.</p>\n<p>Tai kūrimo ir integravimo priemonės, todėl jų paruošimą naudoti reikia įtraukti į programavimo darbų apimtį. „Java“ projektams gamintojas pateikia atskirą „signoAPI Java“ realizaciją.</p>\n<p><a href=\"https://docs.signotec.com/en/signoapi-windows/latest\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signoapi-windows/latest/notes-on-working-with-the-components\">Komponentų naudojimas</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signoapi-native-java/\">signoAPI (Native Java)</a></p>",
       "productIds": [],
       "links": [
         {
@@ -2520,18 +2589,48 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "signoapi-windows",
+            "url": "https://docs.signotec.com/en/signoapi-windows/latest",
+            "retrievedAt": "2026-10-29T15:32:07.877Z",
+            "rawSha256": "bfb31bec3be988956b0209371e35d980593ee09530dd9014f10b6ac71ce4782e",
+            "textSha256": "617e42ec636843999636f859e1cc913c6cacdb6e6e592856617077567089e3c8",
+            "rawArtifact": "sources/signoapi-windows.html",
+            "textArtifact": "sources/signoapi-windows.txt"
+          },
+          {
+            "id": "signoapi-windows-components",
+            "url": "https://docs.signotec.com/en/signoapi-windows/latest/notes-on-working-with-the-components",
+            "retrievedAt": "2026-10-29T15:32:07.879Z",
+            "rawSha256": "21b898f7a752601a0253afc8686a4c7fff0c1d04664a4f78cd60656b72621514",
+            "textSha256": "464679d03f5fcd647bf0984cb5a59b4bfc94cd796a99c91ab855f90ff8f79095",
+            "rawArtifact": "sources/signoapi-windows-components.html",
+            "textArtifact": "sources/signoapi-windows-components.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 6865,
+          "path": "/produktas/programine-iranga-signotec-signoapi-windows/",
+          "title": "Programinė įranga signotec signoAPI (Windows)"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/programine-iranga-signotec-signosign-universal/",
       "title": "Programinė įranga signotec signoSign/Universal",
       "metaTitle": "Programinė įranga signotec signoSign/Universal",
-      "description": "Pasirašykite dokumentus lanksčiau nei bet kada anksčiau naudodami žiniatinklio programą signoSign/Universal.",
+      "description": "„signoSign/Universal“ – PDF pasirašymas žiniatinklyje vietoje ir nuotoliu. Gamintojas siūlo debesijos bei vidinio diegimo variantus ir REST API integraciją.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-signotec-signosign-universal/",
       "kind": "product",
       "productId": 6863,
-      "html": "",
+      "html": "<p>signotec signoSign/Universal skirta PDF dokumentams atverti, redaguoti ir pasirašyti žiniatinklyje. Ji tinka, kai dokumentai pasirašomi tiek klientų aptarnavimo vietoje, tiek nuotoliniu būdu.</p>\n<h2>Debesijos arba vidinio diegimo variantas</h2>\n<p>Gamintojas numato du naudojimo variantus: debesijos paslaugą (SaaS) ir diegimą organizacijos aplinkoje (on-premises). Šį skirtumą svarbu įvertinti renkantis sprendimą ir planuojant jo priežiūrą.</p>\n<h2>Prijungimas prie savo programos</h2>\n<p>REST API leidžia „signoSign/Universal“ integruoti į savo programą. Taip PDF pasirašymas gali tapti naudojamos dokumentų tvarkymo sistemos dalimi. Integracijos apimtį reikia numatyti pagal tai, kur dokumentai paruošiami ir ar jie bus pasirašomi aptarnavimo vietoje, ar nuotoliu.</p>\n<p><a href=\"https://docs.signotec.com/en/signosign-universal/latest\">Gamintojo dokumentacija</a></p>",
       "productIds": [],
       "links": [
         {
@@ -2691,18 +2790,39 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "signosign-universal-manual",
+            "url": "https://docs.signotec.com/en/signosign-universal/latest",
+            "retrievedAt": "2026-10-29T15:32:08.457Z",
+            "rawSha256": "2243ef9c859dadf1ab8002167fb51c7467ab802e1c42a81367d1c822d8a51751",
+            "textSha256": "2d8b0750afe7d1a90baff0934f56369ab09ba8dd182779e3955b6a543e93c745",
+            "rawArtifact": "sources/signosign-universal-manual.html",
+            "textArtifact": "sources/signosign-universal-manual.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 6863,
+          "path": "/produktas/programine-iranga-signotec-signosign-universal/",
+          "title": "Programinė įranga signotec signoSign/Universal"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
       "title": "Programinė įranga signotec Adobe Acrobat & Reader Plug-In",
       "metaTitle": "Programinė įranga signotec Adobe Acrobat & Reader Plug-In",
-      "description": "Adobe įskiepis ranka pasirašytiems parašams integruoti į “Adobe Reader” arba “Adobe Acrobat”.",
+      "description": "„signotec“ įskiepis PDF dokumentams pasirašyti „Adobe Acrobat Reader DC“ ir „Acrobat Pro“. Suderinamumas, parašo laukai ir naudojimo apribojimai.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
       "kind": "product",
       "productId": 6861,
-      "html": "",
+      "html": "<p>signotec Adobe Acrobat &amp; Reader Plug-In skirtas PDF dokumentams pasirašyti jau naudojamoje „Adobe Acrobat Reader DC“ arba „Acrobat Pro“ programoje. Pasirašymas pradedamas pasirinkus dokumento parašo lauką arba rankiniu būdu pažymėjus pasirašymo vietą.</p>\n<h2>Darbas su parašo laukais</h2>\n<p>Įskiepis naudoja standartinius elektroninio parašo formos laukus (DigSig). Parašo vietą taip pat galima pažymėti tiesiog PDF dokumente. Patvirtinus parašą, „Adobe Acrobat“ dokumentą išsaugo automatiškai.</p>\n<h2>Suderinamumas</h2>\n<ul><li>„Windows 10“ arba naujesnė versija, taip pat „Windows Server 2016“ arba naujesnė.</li><li>64 bitų (x64) diegimo paketas.</li><li>„Adobe Acrobat Reader DC“ arba „Adobe Acrobat Pro“.</li></ul>\n<h2>Apribojimai, kuriuos svarbu žinoti</h2>\n<p>Nemokama „Adobe Acrobat Reader“ versija neleidžia kurti tuščių parašo laukų – tam reikia papildomų mokamų produktų. Gamintojas taip pat nurodo pirmojo parašo apdorojimo „Adobe Reader“ apribojimą, dėl kurio negalima panaudoti visų „signotec“ planšetės saugos funkcijų.</p>\n<p>Naudojant „signotec Delta“, dėl „Adobe“ įskiepio sąsajos apribojimų rodomas tik dokumento fragmentas: visas dokumento rodymas ir slinkimas nepalaikomi. Visoms „Delta“ funkcijoms gamintojas rekomenduoja „signoSign/2“ programą.</p>\n<p><a href=\"https://docs.signotec.com/en/adobe-acrobat-plugin/latest/systemvorraussetzungen\">Gamintojo reikalavimai ir apribojimai</a> · <a href=\"https://docs.signotec.com/en/adobe-acrobat-plugin/latest/unterschriften-erfasssen\">Pasirašymo instrukcija</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signosign-2/\">signoSign/2 Pro</a></p>",
       "productIds": [],
       "links": [
         {
@@ -2862,18 +2982,57 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "adobe-plugin-manual",
+            "url": "https://docs.signotec.com/en/adobe-acrobat-plugin/latest",
+            "retrievedAt": "2026-10-29T15:32:08.658Z",
+            "rawSha256": "9059c5037dd49520f1aae0177481555ff8cf8731f87bf1652fc9fbf2847c0a24",
+            "textSha256": "da8f8055837ac6d9945d7298145abdae6828520e4e0558a9f4dfb262caa61f38",
+            "rawArtifact": "sources/adobe-plugin-manual.html",
+            "textArtifact": "sources/adobe-plugin-manual.txt"
+          },
+          {
+            "id": "adobe-plugin-requirements",
+            "url": "https://docs.signotec.com/en/adobe-acrobat-plugin/latest/systemvorraussetzungen",
+            "retrievedAt": "2026-10-29T15:33:14.584Z",
+            "rawSha256": "47d12d5e95dbe7364f88e8358967375c69ede5eccbc0460fb428e323b106dd0c",
+            "textSha256": "69da53728eec8cc8fe3b5e4330784c30c47bc37ccf0581d554c1d1410a14215c",
+            "rawArtifact": "sources/adobe-plugin-requirements.html",
+            "textArtifact": "sources/adobe-plugin-requirements.txt"
+          },
+          {
+            "id": "adobe-plugin-signatures",
+            "url": "https://docs.signotec.com/en/adobe-acrobat-plugin/latest/unterschriften-erfasssen",
+            "retrievedAt": "2026-10-29T15:33:14.794Z",
+            "rawSha256": "1551b9c9b367d45d1d881b88e014b563b9159722079a35a063c7b873ef472b6f",
+            "textSha256": "3aaed5f1a24ef78f53b9cef7960bf165447920e6a1ead3a17c5cb67bf9ff9ff7",
+            "rawArtifact": "sources/adobe-plugin-signatures.html",
+            "textArtifact": "sources/adobe-plugin-signatures.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 6861,
+          "path": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
+          "title": "Programinė įranga signotec Adobe Acrobat & Reader Plug-In"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/programine-iranga-signotec-signosign-2/",
       "title": "Programinė įranga signotec signoSign/2 Pro (12 mėn. prenumerata)",
       "metaTitle": "Programinė įranga signotec signoSign/2 Pro (12 mėn. prenumerata)",
-      "description": "Naudodami programinę įrangą Signotec signoSign/2 galite kurti PDF dokumentus, pasirašyti juos ranka ir apdoroti automatiškai.",
+      "description": "„signoSign/2 Pro“ – PDF redagavimas, pasirašymas ir dokumentų tvarkymo automatizavimas „Windows“ aplinkoje. Kataloge – 12 mėnesių prenumeratos variantas.",
       "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
       "canonical": "https://signaturepads.lt/produktas/programine-iranga-signotec-signosign-2/",
       "kind": "product",
       "productId": 6859,
-      "html": "",
+      "html": "<p>signotec signoSign/2 Pro skirta PDF dokumentams atverti, redaguoti ir pasirašyti „Windows“ darbo vietoje. Ji praverčia ten, kur pasirašomi pasikartojantys dokumentai ir norima automatizuoti dalį jų paruošimo bei tvarkymo.</p>\n<h2>Darbas su PDF dokumentais</h2>\n<p>Programoje galima pridėti tekstą, paveikslus, antspaudus ir pastabas. Šios redagavimo priemonės leidžia paruošti dokumentą pasirašyti naudojant tą pačią programą.</p>\n<h2>Pro versijos galimybės</h2>\n<ul><li>Dokumentų tipai su automatiniais parašo laukais.</li><li>Dokumentų archyvavimo ir siuntimo el. paštu parinktys.</li><li>Biometrinių parašo požymių fiksavimas.</li><li>Vidinė sertifikatų valdymo sistema.</li></ul>\n<p>Šios galimybės aktualios, kai reikia vienodai paruošti ir apdoroti daug panašių dokumentų. „Pro“ versijos automatizavimą verta įvertinti pagal konkrečius pasirašymo darbo vietos veiksmus.</p>\n<h2>Prenumerata ir bandomasis naudojimas</h2>\n<p>Šiame kataloge pateiktas 12 mėnesių prenumeratos variantas. Licencijos neturinti „Pro“ demonstracinė versija dokumentuose ir parašuose palieka vandens ženklą; gamintojas ją leidžia naudoti tik bandymams ir pristatymui. Kasdieniam darbui su „Pro“ versija reikalinga jos licencija.</p>\n<p><a href=\"https://docs.signotec.com/en/signosign2/latest/pro\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signosign2/latest/pro/lite-and-pro-version\">Lite ir Pro versijų palyginimas</a></p>",
       "productIds": [],
       "links": [
         {
@@ -3033,7 +3192,37 @@
           "height": 300
         }
       ],
-      "metadataProvenance": "verbatim existing page/homepage labels; formatting only"
+      "metadataProvenance": "owner-authorized software draft; see editorialProvenance",
+      "editorialProvenance": {
+        "author": "Codex",
+        "authority": "Direct owner exception, option 1, 2026-10-29; six software products only",
+        "sources": [
+          {
+            "id": "signosign-pro-manual",
+            "url": "https://docs.signotec.com/en/signosign2/latest/pro",
+            "retrievedAt": "2026-10-29T15:32:09.420Z",
+            "rawSha256": "b4a4a3907726adf5a0353ca469e1e1c18eb73c46c4b74f3aee818dc0e549c713",
+            "textSha256": "8e423323aedec7a982064646c8463b055c767f8ec8f101ba61df1129ef4ecece",
+            "rawArtifact": "sources/signosign-pro-manual.html",
+            "textArtifact": "sources/signosign-pro-manual.txt"
+          },
+          {
+            "id": "signosign-pro-comparison",
+            "url": "https://docs.signotec.com/en/signosign2/latest/pro/lite-and-pro-version",
+            "retrievedAt": "2026-10-29T15:32:09.937Z",
+            "rawSha256": "91a18adfc38b43d1ddfb1c19f300d0f53454a8e442df5732585edaec4cd3bf01",
+            "textSha256": "a956b0059ce064e0d4b77ae081c8cb7b44a7f16adb040952ae2964ffb1fe6083",
+            "rawArtifact": "sources/signosign-pro-comparison.html",
+            "textArtifact": "sources/signosign-pro-comparison.txt"
+          }
+        ],
+        "existingCatalogue": {
+          "productId": 6859,
+          "path": "/produktas/programine-iranga-signotec-signosign-2/",
+          "title": "Programinė įranga signotec signoSign/2 Pro (12 mėn. prenumerata)"
+        },
+        "publicationApproved": false
+      }
     },
     {
       "path": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-epsilon-pen-display/",
@@ -6101,7 +6290,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-stepover-esignatureoffice/",
-      "contentHtml": ""
+      "contentHtml": "<p>StepOver eSignatureOffice skirta PDF ir PDF/A dokumentams pasirašyti „Windows“ kompiuteryje. Ji tinka darbo vietai, kurioje klientui dokumentas pateikiamas pasirašyti parašo planšete. Programoje galima užpildyti PDF formos laukus, įrašyti parašą ir išsaugoti užpildytą dokumentą.</p>\n<h2>Pasikartojančių dokumentų tvarkymas</h2>\n<p>Parašo laukai gali būti automatiškai parenkami pagal dokumento tekste esančius raktažodžius. Iš dokumento duomenų galima sudaryti failo pavadinimą, o užbaigus pasirašymą – dokumentą išsaugoti, išspausdinti, persiųsti el. paštu ar perduoti kitai programai.</p>\n<h2>Suderinamumas ir integracija</h2>\n<ul><li>Palaikomos „Windows 10“ ir „Windows 11“ operacinės sistemos.</li><li>Gamintojas nurodo suderinamumą su „naturaSign Pad Classic“ ir „duraSign Pad 4.3“, „5.0“ bei „10.0“ planšetėmis.</li><li>Programą galima paleisti su komandų eilutės parametrais ir konfigūracijos failais; glaudesnei integracijai siūlomas OCX komponentas.</li></ul>\n<p>Naudojimą terminaliniame serveryje gamintojas numato kartu su TCP arba „Citrix“ moduliu. Šį reikalavimą svarbu įvertinti planuojant bendrą serverio ir pasirašymo darbo vietų aplinką.</p>\n<p><a href=\"https://stepover.com/en/products/software/esignatureoffice/\">Gamintojo informacija</a></p>"
     },
     {
       "id": 7078,
@@ -6464,7 +6653,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-signotec-signoapi-native-java/",
-      "contentHtml": ""
+      "contentHtml": "<p>signotec signoAPI (Native Java) skirta kūrėjams, kurie į savo „Java“ programą nori įtraukti PDF dokumentų rodymą, redagavimą ir pasirašymą. Tai programinių komponentų rinkinys, kurį reikia integruoti į kuriamą arba jau naudojamą programą.</p>\n<h2>Palaikoma aplinka</h2>\n<p>Komponentai gali veikti „Windows“ ir „Linux“ sistemose. Reikalinga „Java Runtime Environment“ (JRE) 1.8 arba naujesnė versija; palaikomos 32 ir 64 bitų aplinkos.</p>\n<p>Papildomų bibliotekų poreikis priklauso nuo naudojamų komponentų. „Linux“ sistemoje „SigPadFacade“ reikia „OpenSSL“ 3.0 bibliotekos, o HID/WinUSB įrenginiams – „libusb“ 1.0.16 arba naujesnės versijos. Šias priklausomybes reikia įvertinti prieš diegiant sprendimą.</p>\n<h2>Dokumentacija kūrėjams</h2>\n<p>Atskiros „Java“ klasės aprašytos „JavaDoc“ dokumentacijoje, pateikiamoje programos paketo „doc/javadoc“ kataloge. Ji skirta integraciją įgyvendinančiam programuotojui.</p>\n<p>„Windows“ COM komponentams skirta atskira „signoAPI (Windows)“ versija. Renkantis šiuos produktus svarbu remtis naudojama programavimo aplinka ir planuojamu integravimo būdu.</p>\n<p><a href=\"https://docs.signotec.com/en/signoapi-java-windows-linux/latest\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signoapi-java-windows-linux/latest/signoapi-java-system-requirements\">Sistemos reikalavimai</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signoapi-windows/\">signoAPI (Windows)</a></p>"
     },
     {
       "id": 6865,
@@ -6523,7 +6712,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-signotec-signoapi-windows/",
-      "contentHtml": ""
+      "contentHtml": "<p>signotec signoAPI (Windows) skirta programuotojams, kurie PDF pasirašymo funkcijas nori įtraukti į savo „Windows“ programą. API sudaro COM komponentai, pateikiami DLL arba OCX failais. Juos galima naudoti su COM palaikančiomis programavimo kalbomis ir kūrimo aplinkomis.</p>\n<h2>Rinkinio komponentai</h2>\n<ul><li>„STImgCtl“ – dokumentams rodyti ir redaguoti.</li><li>„SignPDF3“ – parašams įrašyti ir nuskaityti.</li><li>„signcap“ – parašui surinkti naudojant parašo planšetę arba planšetinį kompiuterį.</li><li>„signview“ – parašams atvaizduoti.</li></ul>\n<h2>Integravimo reikalavimai</h2>\n<p>Gamintojas nurodo bendrą komponentų suderinamumą su „Windows 10“ ir naujesnėmis versijomis. Pasirinkta kūrimo aplinka turi leisti prijungti COM bibliotekas. Dokumentacijoje pateikiami „C#“ ir „C++“ naudojimo pavyzdžiai, atskirai paaiškinamas „ActiveX“ valdiklių bei komponentų be grafinės sąsajos prijungimas.</p>\n<p>Tai kūrimo ir integravimo priemonės, todėl jų paruošimą naudoti reikia įtraukti į programavimo darbų apimtį. „Java“ projektams gamintojas pateikia atskirą „signoAPI Java“ realizaciją.</p>\n<p><a href=\"https://docs.signotec.com/en/signoapi-windows/latest\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signoapi-windows/latest/notes-on-working-with-the-components\">Komponentų naudojimas</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signoapi-native-java/\">signoAPI (Native Java)</a></p>"
     },
     {
       "id": 6863,
@@ -6582,7 +6771,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-signotec-signosign-universal/",
-      "contentHtml": ""
+      "contentHtml": "<p>signotec signoSign/Universal skirta PDF dokumentams atverti, redaguoti ir pasirašyti žiniatinklyje. Ji tinka, kai dokumentai pasirašomi tiek klientų aptarnavimo vietoje, tiek nuotoliniu būdu.</p>\n<h2>Debesijos arba vidinio diegimo variantas</h2>\n<p>Gamintojas numato du naudojimo variantus: debesijos paslaugą (SaaS) ir diegimą organizacijos aplinkoje (on-premises). Šį skirtumą svarbu įvertinti renkantis sprendimą ir planuojant jo priežiūrą.</p>\n<h2>Prijungimas prie savo programos</h2>\n<p>REST API leidžia „signoSign/Universal“ integruoti į savo programą. Taip PDF pasirašymas gali tapti naudojamos dokumentų tvarkymo sistemos dalimi. Integracijos apimtį reikia numatyti pagal tai, kur dokumentai paruošiami ir ar jie bus pasirašomi aptarnavimo vietoje, ar nuotoliu.</p>\n<p><a href=\"https://docs.signotec.com/en/signosign-universal/latest\">Gamintojo dokumentacija</a></p>"
     },
     {
       "id": 6861,
@@ -6641,7 +6830,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
-      "contentHtml": ""
+      "contentHtml": "<p>signotec Adobe Acrobat &amp; Reader Plug-In skirtas PDF dokumentams pasirašyti jau naudojamoje „Adobe Acrobat Reader DC“ arba „Acrobat Pro“ programoje. Pasirašymas pradedamas pasirinkus dokumento parašo lauką arba rankiniu būdu pažymėjus pasirašymo vietą.</p>\n<h2>Darbas su parašo laukais</h2>\n<p>Įskiepis naudoja standartinius elektroninio parašo formos laukus (DigSig). Parašo vietą taip pat galima pažymėti tiesiog PDF dokumente. Patvirtinus parašą, „Adobe Acrobat“ dokumentą išsaugo automatiškai.</p>\n<h2>Suderinamumas</h2>\n<ul><li>„Windows 10“ arba naujesnė versija, taip pat „Windows Server 2016“ arba naujesnė.</li><li>64 bitų (x64) diegimo paketas.</li><li>„Adobe Acrobat Reader DC“ arba „Adobe Acrobat Pro“.</li></ul>\n<h2>Apribojimai, kuriuos svarbu žinoti</h2>\n<p>Nemokama „Adobe Acrobat Reader“ versija neleidžia kurti tuščių parašo laukų – tam reikia papildomų mokamų produktų. Gamintojas taip pat nurodo pirmojo parašo apdorojimo „Adobe Reader“ apribojimą, dėl kurio negalima panaudoti visų „signotec“ planšetės saugos funkcijų.</p>\n<p>Naudojant „signotec Delta“, dėl „Adobe“ įskiepio sąsajos apribojimų rodomas tik dokumento fragmentas: visas dokumento rodymas ir slinkimas nepalaikomi. Visoms „Delta“ funkcijoms gamintojas rekomenduoja „signoSign/2“ programą.</p>\n<p><a href=\"https://docs.signotec.com/en/adobe-acrobat-plugin/latest/systemvorraussetzungen\">Gamintojo reikalavimai ir apribojimai</a> · <a href=\"https://docs.signotec.com/en/adobe-acrobat-plugin/latest/unterschriften-erfasssen\">Pasirašymo instrukcija</a></p>\n<p><a href=\"/produktas/programine-iranga-signotec-signosign-2/\">signoSign/2 Pro</a></p>"
     },
     {
       "id": 6859,
@@ -6700,7 +6889,7 @@
       "shortHtml": "",
       "html": "",
       "path": "/produktas/programine-iranga-signotec-signosign-2/",
-      "contentHtml": ""
+      "contentHtml": "<p>signotec signoSign/2 Pro skirta PDF dokumentams atverti, redaguoti ir pasirašyti „Windows“ darbo vietoje. Ji praverčia ten, kur pasirašomi pasikartojantys dokumentai ir norima automatizuoti dalį jų paruošimo bei tvarkymo.</p>\n<h2>Darbas su PDF dokumentais</h2>\n<p>Programoje galima pridėti tekstą, paveikslus, antspaudus ir pastabas. Šios redagavimo priemonės leidžia paruošti dokumentą pasirašyti naudojant tą pačią programą.</p>\n<h2>Pro versijos galimybės</h2>\n<ul><li>Dokumentų tipai su automatiniais parašo laukais.</li><li>Dokumentų archyvavimo ir siuntimo el. paštu parinktys.</li><li>Biometrinių parašo požymių fiksavimas.</li><li>Vidinė sertifikatų valdymo sistema.</li></ul>\n<p>Šios galimybės aktualios, kai reikia vienodai paruošti ir apdoroti daug panašių dokumentų. „Pro“ versijos automatizavimą verta įvertinti pagal konkrečius pasirašymo darbo vietos veiksmus.</p>\n<h2>Prenumerata ir bandomasis naudojimas</h2>\n<p>Šiame kataloge pateiktas 12 mėnesių prenumeratos variantas. Licencijos neturinti „Pro“ demonstracinė versija dokumentuose ir parašuose palieka vandens ženklą; gamintojas ją leidžia naudoti tik bandymams ir pristatymui. Kasdieniam darbui su „Pro“ versija reikalinga jos licencija.</p>\n<p><a href=\"https://docs.signotec.com/en/signosign2/latest/pro\">Gamintojo dokumentacija</a> · <a href=\"https://docs.signotec.com/en/signosign2/latest/pro/lite-and-pro-version\">Lite ir Pro versijų palyginimas</a></p>"
     },
     {
       "id": 6855,

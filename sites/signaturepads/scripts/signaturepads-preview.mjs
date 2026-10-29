@@ -3,11 +3,11 @@ import path from 'node:path';
 import { readFile, appendFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { randomUUID } from 'node:crypto';
-import { renderSignaturepads } from '../components/niche/signaturepads/render.mjs';
+import { renderSignaturepads } from '../../../components/niche/signaturepads/render.mjs';
 
 // Explicitly private draft transport. It cannot bind a public interface and
 // does not register packages, manufacture approvals, or send notifications.
-const repo=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const repo=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../..');
 const root=path.resolve(process.argv[2]||'../../output/signaturepads-migration-20261029');
 const port=Number(process.argv[3]||8956);
 const source=JSON.parse(await readFile(path.join(repo,'sites/signaturepads/migration/site-source.json'),'utf8'));
