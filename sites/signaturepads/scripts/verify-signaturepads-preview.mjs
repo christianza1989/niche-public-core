@@ -43,6 +43,7 @@ for(const product of data.products){
 assert.deepEqual(data.contact,{email:'sales@signaturepads.lt',phone:'+370 686 88369'},'original contacts');
 assert.deepEqual(data.home.accordions,original.home.accordions,'unchanged homepage copy');
 const records=[],references=new Set();
+const normalizeHeadings=value=>value.replace(/<h[1-6](\s|>)/g,'<heading$1').replace(/<\/h[1-6]>/g,'</heading>');
 for(const route of data.routes){
   const response=await fetch(base+route.path),body=await response.text();
   assert.equal(response.status,200,route.path);assert.ok(response.headers.get('x-robots-tag')?.includes('noindex'));
@@ -52,7 +53,12 @@ for(const route of data.routes){
   assert.ok(!/wp-content\/(?:plugins|themes)\//.test(body),`WordPress dependency ${route.path}`);
   if(route.kind==='product')assert.ok(body.includes(data.products.find(p=>p.id===route.productId).contentHtml),`product text ${route.path}`);
   if(route.kind==='category')assert.ok(body.includes(route.html),`category text ${route.path}`);
-  if(route.kind==='page')assert.ok(body.includes(route.html.replace(/<h1(\s|>)/g,'<h2$1').replaceAll('</h1>','</h2>')),`page text ${route.path}`);
+  if(route.kind==='page')assert.ok(normalizeHeadings(body).includes(normalizeHeadings(route.html)),`unchanged page words; leading heading promoted to H1 ${route.path}`);
+  assert.equal([...body.matchAll(/<h1(?:\s|>)/g)].length,1,`one visible primary heading ${route.path}`);
+  assert.ok(body.includes('class="sp-footer-brand"'),`restored footer logo ${route.path}`);
+  assert.ok(body.includes('class="sp-top"'),`restored return-to-top link ${route.path}`);
+  const illustration=route.kind==='category'&&route.images.find(i=>/Paraso-plansetes-signotec-1024x602\.jpg$|epsilon_produktbild_12-1\.png$/.test(i.src));
+  if(illustration)assert.ok(body.includes(illustration.src),`restored category illustration ${route.path}`);
   if(route.kind==='home')for(const accordion of data.home.accordions)assert.ok(body.includes(accordion.html),'home copy');
   for(const match of body.matchAll(/\b(?:href|src)="(\/[^"\s]*)"/g))references.add(match[1].replaceAll('&amp;','&'));
   records.push({path:route.path,status:response.status,canonical:route.canonical,htmlBytes:Buffer.byteLength(body),text:allowedIds.includes(route.productId)?'owner-authorized reviewed software draft':'retained original source'});
@@ -69,6 +75,13 @@ for(const route of data.retiredRoutes||[]){for(const suffix of [route.path,route
 for(const alias of ['/?page_id=2','/?page_id=189','/cart/','/checkout/','/krepselis/','/atsiskaitymas/','/paysera/','/?add-to-cart=488','/?wc-api=WebToPay'])assert.equal((await fetch(base+alias)).status,410,alias);
 const forbiddenPayment=await fetch(base+'/paysera/',{method:'POST',body:'test=blocked'});assert.equal(forbiddenPayment.status,410);
 const search=await fetch(base+'/prekes/?s=Sigma');const searchBody=await search.text();assert.ok(searchBody.includes('Sigma'));assert.ok(!searchBody.includes('sp-card-category">Parašo planšetės</a><h3><a href="/produktas/paraso-plansete-signotec-omega/'));
+const softwarePath='/iranga/programine-iranga/';
+const sorted=await fetch(base+softwarePath+'?orderby=price-desc&min_price=80&max_price=100&product_count=24').then(r=>r.text());
+const prices=[...sorted.matchAll(/class="sp-card-price">([^<]+)/g)].map(m=>Number(m[1].replace('€','').replace(/\s/g,'').replace(',','.')));
+assert.ok(prices.length>1&&prices.every((price,index)=>price>=80&&price<=100&&(index===0||price<=prices[index-1])),'price filter and descending order jointly applied');
+assert.ok(sorted.includes('name="orderby"')&&sorted.includes('value="price-desc" selected'),'visible sorting selection retained');
+assert.ok(sorted.includes('type="range" name="min_price"')&&sorted.includes('type="range" name="max_price"'),'native dual range price control');
+assert.ok(sorted.includes('name="product_count" value="24"'),'sorting/filter forms retain catalogue query');
 const robots=await fetch(base+'/robots.txt').then(r=>r.text());assert.ok(robots.includes('Disallow: /'));
 for(const route of ['/sitemap.xml','/sitemap_index.xml','/page-sitemap.xml','/product-sitemap.xml','/product_cat-sitemap.xml']){const r=await fetch(base+route);assert.equal(r.status,200);const xml=await r.text();for(const old of data.retiredRoutes||[])assert.ok(!xml.includes(data.origin+old.path),`retired URL in ${route}`);assert.ok(!xml.includes('wp-content/plugins/'),'legacy XSL dependency');}
 const blockedHost=await new Promise((resolve,reject)=>{const u=new URL(base);const r=http.request({hostname:u.hostname,port:u.port,path:'/',headers:{Host:'signaturepads.lt'}},response=>{response.resume();resolve(response.statusCode);});r.on('error',reject);r.end();});assert.equal(blockedHost,403);
