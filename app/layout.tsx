@@ -1,4 +1,5 @@
 import {memoFaviconHref} from '@/lib/memocasting-favicon.mjs';
+import {o3techBrandAssets} from '@/lib/o3tech-brand.mjs';
 import {memoPublishedProductPage,memoPublishedProductPages} from '@/lib/memocasting-product-server';
 import {memoBrandName,memoSeoMetadata} from '@/lib/memocasting-seo-metadata.mjs';
 import type { Metadata } from "next";
@@ -54,6 +55,7 @@ export default async function RootLayout({
     const memoMetadata=memoReviewMetadata(niche,pathname)||memoSeoMetadata(niche,page,metadataPages,canonical);
     const hero = memoMetadata?memoMetadata.image:page && niche.siteId === "promedical" && page.type === "product"
       ? uniqueImageFamilies(page.media)[0] : page?.media[0];
+    const o3techBrand=o3techBrandAssets(niche,metadataPages);
     return (
       <html lang={niche.siteId==='memocasting'&&page?memoRoute(page).language:niche.locale.slice(0, 2).toLowerCase()}>
         <head>
@@ -79,7 +81,7 @@ export default async function RootLayout({
           {canonical ? <link rel="canonical" href={canonical} /> : !memoMetadata&&<meta name="robots" content="noindex, nofollow" />}
           {memoMetadata?<meta name="robots" content={memoMetadata.robots}/>:page&&memoFunctionalPage(niche,page)&&<meta name="robots" content="noindex, nofollow"/>}
           {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}
-          <link rel="icon" type="image/svg+xml" href={niche.siteId==='memocasting'?memoFaviconHref:'/favicon.svg'} />
+          <link rel="icon" type={o3techBrand?.icon?'image/webp':'image/svg+xml'} href={o3techBrand?.icon?.src||(niche.siteId==='memocasting'?memoFaviconHref:'/favicon.svg')} />
           {page && <>
             <meta property="og:site_name" content={memoMetadata?.siteName || niche.site.name} />
             <meta property="og:type" content={memoMetadata?.type || (page.type === "guide" ? "article" : "website")} />

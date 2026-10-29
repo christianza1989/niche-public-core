@@ -4,6 +4,7 @@ import { publicSiteByHost, publicSitePage, publicSitePages } from "@/lib/public-
 import {memoLeadContext,memoLeadText} from '@/lib/memocasting-lead-response.mjs';
 import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
+import { o3techInquiryMessage } from "@/lib/o3tech-inquiry.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -68,7 +69,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   if (form.get("website")) return reply("Užklausa gauta.", 200);
   const name = String(form.get("name") || "").trim();
   const email = String(form.get("email") || "").trim();
-  const message = String(form.get("message") || "").trim();
+  const message = siteId === 'o3tech' ? o3techInquiryMessage(form) : String(form.get("message") || "").trim();
   if (name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
     return reply("Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
   }

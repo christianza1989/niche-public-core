@@ -16,6 +16,7 @@ export default async function NichePageView({ params, searchParams }: { params: 
   const originalPages=publicNichePages(pkg);
   const livePages=siteId==='memocasting'&&['ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
   const props = { pkg, page, livePages };
+  if (siteId === "o3tech") { const { O3techSite } = await import("@/components/niche/o3tech-site"); return <O3techSite {...props} />; }
   if (siteId === "memocasting") { const { MemocastingSite } = await import("@/components/niche/memocasting-site"); return <MemocastingSite {...props} />; }
   if (siteId === "promedical") {
     const { PromedicalSite } = await import("@/components/niche/promedical-site");
