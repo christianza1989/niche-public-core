@@ -29,11 +29,11 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const managedLinux = readExecutionProfile() === "managed-linux";
 
 const localBindingConfig = {
-  main: "vinext/server/fetch-handler",
+  main: "./worker-entry.ts",
   compatibility_flags: ["nodejs_compat"],
   // Niche media and favicons require proxy.ts before static asset serving;
   // otherwise Workers bypass publication checks or show a shared brand icon.
-  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/favicon.svg", "/favicon.ico"] },
+  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/signaturepads/*", "/wp-content/uploads/*", "/favicon.svg", "/favicon.ico"] },
   ...(process.env.NICHE_DEV_SITE_ID ? { vars: { NICHE_DEV_SITE_ID: process.env.NICHE_DEV_SITE_ID } } : {}),
   ...(process.env.LEAD_EMAIL_ENABLED === "1" ? {
     send_email: [{

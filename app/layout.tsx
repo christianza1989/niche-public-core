@@ -5,7 +5,9 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
 import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
-import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
+import { contentPackageByHost, publicContentPages, localContentAdmission } from "@/lib/content-model-v2";
+import { contentRenderer } from '@/lib/content-renderers.mjs';
+import signaturepadsLayout from '@/sites/signaturepads/migration/core-layout.json';
 import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
 import { catalogueCanonical } from "@/lib/product-catalogue-query.mjs";
@@ -108,6 +110,9 @@ export default async function RootLayout({
   const gift=contentPackageByHost(host);
   if(gift){
     const {LegacyStyles}=await import('./legacy-styles');
+    const signaturepads=contentRenderer(gift)==='signaturepads';
+    const privatePreview=signaturepads&&localContentAdmission(gift);
+    const favicon=signaturepads?publicContentPages(gift).find(p=>p.slug==='')?.media.find(m=>m.id===signaturepadsLayout.home.favicon)?.src:null;
     const pathname=(await headers()).get('x-gift-original-path')||'/';
     const filtered=(await headers()).get('x-gift-filtered')==='1';
     const page=publicContentPages(gift).find(p=>p.slug===pathname.replace(/^\/+|\/+$/g,''));
@@ -116,12 +121,13 @@ export default async function RootLayout({
     return <html lang={gift.locale.slice(0,2)}><head>
       <title>{page?.title||gift.site.name}</title><meta name="description" content={page?.description||gift.site.offer}/>
       {page?<link rel="canonical" href={page.url}/>:<meta name="robots" content="noindex, nofollow"/>}
-      {page&&filtered&&<meta name="robots" content="noindex, follow"/>}
-      <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+      {privatePreview?<meta name="robots" content="noindex, nofollow"/>:page&&filtered&&<meta name="robots" content="noindex, follow"/>}
+      <link rel="icon" href={favicon||'/favicon.svg'} type={favicon?'image/webp':'image/svg+xml'}/>
+      {signaturepads&&<link rel="stylesheet" href="/signaturepads/fonts.css"/>}
       {page&&<><meta property="og:site_name" content={gift.site.name}/><meta property="og:type" content={article?'article':'website'}/><meta property="og:title" content={page.title}/><meta property="og:description" content={page.description}/><meta property="og:url" content={page.url}/>
       {hero&&<meta property="og:image" content={`https://${gift.canonicalHost}${hero.src}`}/>}<meta name="twitter:card" content={hero?'summary_large_image':'summary'}/>
       {article&&page.editorial.datePublished&&<meta property="article:published_time" content={page.editorial.datePublished}/>}{article&&page.editorial.dateModified&&<meta property="article:modified_time" content={page.editorial.dateModified}/>}</>}
-    </head><body className="antialiased"><LegacyStyles/>{children}</body></html>;
+    </head><body className={signaturepads?'signaturepads-site':'antialiased'} style={signaturepads?{margin:0}:undefined}>{!signaturepads&&<LegacyStyles/>}{children}</body></html>;
   }
   const site = resolveSite(host);
   const { LegacyStyles } = await import("./legacy-styles");

@@ -11,6 +11,8 @@ import {memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawD
 import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
+import { contentRenderer } from '@/lib/content-renderers.mjs';
+import { signaturepadsRoute, signaturepadsFiltered } from '@/lib/signaturepads-routes.mjs';
 const nichePathAliases = indexNichePathAliases(pathAliases);
 
 const legacyHosts = new Map(
@@ -23,7 +25,7 @@ function isPreview(host: string): boolean {
 
 export function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
-  const path = request.nextUrl.pathname;
+  let path = request.nextUrl.pathname;
   if(memoInstructionRawDocumentPath(path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
   if (host === 'www.memocasting.lt') {
     const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
@@ -60,16 +62,37 @@ export function proxy(request: NextRequest) {
   }
 
   const gift = !niche ? contentPackageByHost(host) : null;
+  if(path.startsWith('/signaturepads/')&&gift?.siteId!=='signaturepads')return new Response('Not found',{status:404});
   if (gift) {
     if(contentAdmissionScope(gift)==='local-preview' && host!=='localhost' && host!=='127.0.0.1') return new Response('Private preview',{status:404,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
-    if (gift.site.renderer !== 'gift') return new Response('Unsupported content renderer', { status: 404 });
+    const renderer=contentRenderer(gift);
+    if (!renderer) return new Response('Unsupported content renderer', { status: 404 });
+    if(renderer==='signaturepads')path=request.headers.get('x-content-original-path')||path;
     if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return new Response('Not found', { status: 404 });
     if (!isPreview(host) && host !== gift.canonicalHost) {
+      if(renderer==='signaturepads'){
+        const target=new URL(path+request.nextUrl.search,`https://${gift.canonicalHost}`);return NextResponse.redirect(target,308);
+      }
       const destination=request.nextUrl.clone();destination.hostname=gift.canonicalHost;destination.protocol='https:';destination.port='';
       return NextResponse.redirect(destination,308);
     }
     const live=publicContentPages(gift);
     if (!live.some(page=>page.type==='home'&&page.slug==='')) return new Response('Not found',{status:404});
+    if(renderer==='signaturepads'){
+      const originalUrl=new URL(request.nextUrl.href);originalUrl.pathname=path;
+      const legacy=signaturepadsRoute(originalUrl,live);
+      if(legacy){
+        if(legacy.location)return NextResponse.redirect(new URL(legacy.location,request.url),legacy.status);
+        return new Response(legacy.status===410?'Gone':'Not found',{status:legacy.status,headers:{'X-Robots-Tag':'noindex, nofollow','Cache-Control':'private, no-store'}});
+      }
+      if(path.startsWith('/signaturepads/'))return ['GET','HEAD'].includes(request.method)&&/^\/signaturepads\/(?:fonts\.css|Open-Sans-OFL\.txt|fonts\/[a-f0-9]{16}\.woff2)$/.test(path)?NextResponse.next():new Response('Not found',{status:404});
+      if(path.startsWith('/wp-content/uploads/')){
+        const asset=visibleMediaAlias(gift,live,mediaAliases,path);
+        if(!asset)return new Response('Not found',{status:404});
+        const target=request.nextUrl.clone();target.pathname=asset;target.search='';
+        const response=NextResponse.redirect(target,307);response.headers.set('Cache-Control','private, no-store');return response;
+      }
+    }
     if(path.startsWith('/content-assets/'))return live.some(page=>page.media.some(media=>media.src===path))?NextResponse.next():new Response('Not found',{status:404});
     // Old article originals must not bypass the new publication/media gate.
     if(path.startsWith('/images/')){
@@ -83,7 +106,8 @@ export function proxy(request: NextRequest) {
     const seo:Record<string,string>={'/robots.txt':'robots','/sitemap.xml':'sitemap','/llms.txt':'llms','/llms-full.txt':'llms-full','/favicon.svg':'favicon','/favicon.ico':'favicon'};
     destination.pathname=seo[path]?`/gift/${gift.siteId}/seo/${seo[path]}`:path==='/uzklausa'&&request.method==='POST'?`/niche/${gift.siteId}/lead`:path==='/ivykius'&&request.method==='POST'?`/niche/${gift.siteId}/interest`:`/gift/${gift.siteId}${path==='/'?'':path}`;
     const requestHeaders=new Headers(request.headers);requestHeaders.set('x-gift-original-path',path);
-    requestHeaders.set('x-gift-filtered',path==='/straipsniai' && Boolean(request.nextUrl.searchParams.get('tema')?.trim())?'1':'0');
+    requestHeaders.set('x-gift-original-query',request.nextUrl.search);
+    requestHeaders.set('x-gift-filtered',renderer==='signaturepads'?signaturepadsFiltered(request.nextUrl.searchParams)?'1':'0':path==='/straipsniai' && Boolean(request.nextUrl.searchParams.get('tema')?.trim())?'1':'0');
     const response=NextResponse.rewrite(destination,{request:{headers:requestHeaders}});
     response.headers.set('Cache-Control','private, no-store');
     if(isPreview(host)||localContentAdmission(gift))response.headers.set('X-Robots-Tag','noindex, nofollow');

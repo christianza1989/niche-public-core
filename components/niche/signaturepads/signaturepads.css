@@ -240,3 +240,6 @@
   .signaturepads-site a,.signaturepads-site button { transition:color .15s ease,background-color .15s ease; }
   .sp-card-image img,.sp-quick { transition:opacity .2s ease; }
 }
+
+.signaturepads-site .sp-consent { display:flex;align-items:flex-start;gap:.65rem;font-size:13px;line-height:1.6;cursor:pointer; }
+.signaturepads-site .sp-consent input[type=checkbox] { width:18px;min-height:18px;height:18px;flex:0 0 18px;margin:3px 0 0;padding:0;accent-color:var(--sp-heading); }

@@ -1,3 +1,10 @@
+(() => {
+const root=document.querySelector('.signaturepads-site');
+if(!root||root.dataset.spReady==='true')return;
+root.dataset.spReady='true';
+const preference=document.querySelector('#contact-preference'),phone=document.querySelector('#contact-phone');
+preference?.addEventListener('change',()=>{if(phone)phone.required=preference.value==='Telefonu';});
+document.querySelector('.sp-contact-form')?.addEventListener('reset',()=>{if(phone)phone.required=false;});
 const dialog=document.querySelector('.sp-dialog');
 const dialogContent=dialog?.querySelector('.sp-dialog-content');
 document.querySelector('.signaturepads-site')?.classList.add('sp-js');
@@ -33,3 +40,4 @@ document.querySelector('.sp-contact-form')?.addEventListener('submit',async even
   button.disabled=true;status.textContent='';
   try{const response=await fetch(form.action,{method:'POST',body:new URLSearchParams(new FormData(form)),headers:{Accept:'application/json'}});const result=await response.json();status.textContent=result.message;if(response.ok)form.reset();}catch{status.textContent='Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.';}finally{button.disabled=false;}
 });
+})();

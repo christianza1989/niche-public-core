@@ -1,0 +1,61 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { contentFrameworkRequest, contentOriginalPathHeader } from '../lib/content-framework-request.mjs';
+import { inquiryDetails, inquiryMessage, leadPagesReady } from '../lib/niche-lead-fields.mjs';
+import { nicheMailTransport, sendNicheHostingerMail } from '../lib/niche-lead-mail-api.mjs';
+import { signaturepadsRoute } from '../lib/signaturepads-routes.mjs';
+import { contentPagePath } from '../lib/content-renderers.mjs';
+
+const pkg={schemaVersion:2,siteId:'signaturepads',canonicalHost:'signaturepads.lt',site:{renderer:'niche'}};
+test('public slash survives the framework boundary; other sites and forged path headers stay isolated',async()=>{
+  const request=new Request('http://127.0.0.1:8958/iranga/programine-iranga/?orderby=price',{headers:{host:'127.0.0.1:8958',[contentOriginalPathHeader]:'/forged/'}});
+  const adapted=contentFrameworkRequest(request,pkg,'local-preview');
+  assert.equal(new URL(adapted.url).pathname,'/iranga/programine-iranga');
+  assert.equal(adapted.headers.get(contentOriginalPathHeader),'/iranga/programine-iranga/');
+  assert.equal(new URL(adapted.url).search,'?orderby=price');
+  assert.equal(contentFrameworkRequest(new Request('https://signaturepads.lt/prekes/'),pkg,'local-preview').status,404);
+  assert.equal(contentFrameworkRequest(new Request('https://unrelated.example/'),pkg,'local-preview').status,404);
+  const other=contentFrameworkRequest(request,{site:{renderer:'gift'}},'production');
+  assert.equal(other.url,request.url);assert.equal(other.headers.has(contentOriginalPathHeader),false);
+  const native=new Request('http://127.0.0.1:8958/uzklausa',{method:'POST',body:'name=Test&consent=yes'});
+  assert.equal(await contentFrameworkRequest(native,pkg,'local-preview').text(),'name=Test&consent=yes');
+});
+test('legacy URLs retain resources, slash policy and query; retired checkout never comes back',()=>{
+  const pages=[{id:'sp-home',slug:'',type:'home'},{id:'sp-product-488',slug:'produktas/paraso-plansete-signotec-sigma',type:'product'},{id:'sp-page',slug:'prekes'}];
+  const route=path=>signaturepadsRoute(new URL(path,'http://127.0.0.1:8958'),pages);
+  assert.equal(contentPagePath(pkg,pages[1]),'/produktas/paraso-plansete-signotec-sigma/');
+  assert.deepEqual(route('/?p=488'),{status:301,location:'/produktas/paraso-plansete-signotec-sigma/'});
+  assert.deepEqual(route('/?page_id=2'),{status:410});
+  assert.deepEqual(route('/cart/'),{status:410});
+  assert.deepEqual(route('/prekes/?add-to-cart=488'),{status:410});
+  assert.deepEqual(route('/prekes?orderby=price-desc'),{status:308,location:'/prekes/?orderby=price-desc'});
+  assert.deepEqual(route('/prekes/page/2/'),{status:301,location:'/prekes/?paged=2'});
+});
+test('optional contact details survive storage/mail; native HTML has the same validation and policy gate',()=>{
+  const form=new URLSearchParams({phone:'+370 686 88369',preference:'Telefonu'}),details=inquiryDetails(form);
+  assert.deepEqual(details,{phone:'+370 686 88369',preference:'Telefonu'});
+  assert.match(inquiryMessage('A real inquiry',details),/Telefono nr\.: \+370 686 88369[\s\S]*Susisiekti: Telefonu/);
+  assert.equal(inquiryDetails(new URLSearchParams({preference:'Telefonu'})),null);
+  assert.equal(inquiryDetails(new URLSearchParams({phone:'123\r\nBcc: another@example.com'})),null);
+  const pages=[{slug:'',type:'home'},{slug:'musu-slapuku-politika',type:'policy'}];
+  assert.equal(leadPagesReady(pkg,pages),true);assert.equal(leadPagesReady(pkg,pages.slice(0,1)),false);
+  assert.equal(leadPagesReady({...pkg,siteId:'other'},pages),false);
+});
+test('Hostinger HTTPS uses only its explicit site/mailbox, checks identity and never retries unknown receipt',async()=>{
+  const env={LEAD_HOSTINGER_ENABLED:'1',LEAD_HOSTINGER_SITE_ID:'signaturepads',LEAD_HOSTINGER_API_KEY:'fixture-not-a-secret',LEAD_HOSTINGER_MAILBOX_ID:'fixture123',LEAD_HOSTINGER_SENDER:'sales@signaturepads.lt'};
+  const mail={siteId:'signaturepads',id:'test-unique',to:'sales@signaturepads.lt',replyTo:'client@example.com',fromName:'signaturepads.lt',subject:'Fixture',text:'El. paštas: client@example.com\nTelefono nr.: +37068688369'};
+  const calls=[];
+  const fetcher=async(url,options)=>{calls.push({url,options});return url.endsWith('/me')?Response.json({data:{mailboxes:[{resourceId:'fixture123',address:'sales@signaturepads.lt'}]}}):new Response(null,{status:204});};
+  const accepted=await sendNicheHostingerMail(env,mail,fetcher);
+  assert.match(accepted.reference,/hostinger-api-accepted:test-unique/);assert.equal(calls.length,2);
+  assert.equal(JSON.parse(calls[1].options.body).displayName,'signaturepads.lt');
+  assert.deepEqual(JSON.parse(calls[1].options.body).to,['sales@signaturepads.lt']);
+  assert.doesNotMatch(JSON.parse(calls[1].options.body).text,/Pagalba:/);
+  await assert.rejects(sendNicheHostingerMail(env,{...mail,siteId:'other'},fetcher),/site_not_configured/);assert.equal(calls.length,2);
+  let attempts=0;
+  await assert.rejects(sendNicheHostingerMail(env,mail,async url=>{if(url.endsWith('/me'))return fetcher(url,{});attempts++;throw Error('unknown acceptance');}));
+  assert.equal(attempts,1);
+  await assert.rejects(sendNicheHostingerMail(env,mail,async()=>Response.json({data:{mailboxes:[]}})),/sender_mismatch/);
+  assert.equal(nicheMailTransport(env,'other'),'none');
+  assert.equal(nicheMailTransport({LEAD_SMTP_ENABLED:'1'},'other'),'smtp');
+});

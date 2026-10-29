@@ -6,6 +6,7 @@
   },
   "guidePublicationPausedAtBySite": {"promedical":"2026-10-13T19:26:54.000Z"},
   "contactsBySite": {
+    "signaturepads":{"email":"sales@signaturepads.lt","operatorName":"signaturepads.lt"},
     "promedical":{"email":"info@promedical.lt","operatorName":"Promedical"},
     "memocasting": {
       "operatorName": "MB Memocasting",
@@ -13,6 +14,7 @@
     }
   },
   "networkDomains": [
+    "signaturepads.lt",
     "promedical.lt",
     "akmenas.lt",
     "apartmentstrakai.lt",

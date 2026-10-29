@@ -16,7 +16,7 @@ export function giftMetadata(pkg: ContentPackageV2, page: ProjectedContentPageV2
 }
 
 export function giftSchemas(pkg: ContentPackageV2, page: ProjectedContentPageV2, livePages: ProjectedContentPageV2[],
-  navigation: { homeLabel?: string; articleIndexSlug?: string; articleIndexLabel?: string } = {}) {
+  navigation: { homeLabel?: string; articleIndexSlug?: string; articleIndexLabel?: string; collection?: boolean } = {}) {
   const origin = `https://${pkg.canonicalHost}`;
   const indexSlug = navigation.articleIndexSlug ?? "straipsniai";
   const indexLabel = navigation.articleIndexLabel ?? "Dovanų gidai";
@@ -40,7 +40,7 @@ export function giftSchemas(pkg: ContentPackageV2, page: ProjectedContentPageV2,
   }
   if (page.type === "index" && page.slug === indexSlug) return [{ ...base, "@type": "CollectionPage", mainEntity: { "@type": "ItemList", itemListElement: giftArticles(livePages).map((article, i) => ({ "@type": "ListItem", position: i + 1, name: article.title, url: article.url })) } }];
   // Organization editorial profile is not a fabricated Person/ProfilePage expert.
-  return [{ ...base, "@type": page.type === "contact" ? "ContactPage" : page.type === "about" ? "AboutPage" : "WebPage" }];
+  return [{ ...base, "@type": navigation.collection && page.type === 'index' ? 'CollectionPage' : page.type === "contact" ? "ContactPage" : page.type === "about" ? "AboutPage" : "WebPage" }];
 }
 
 export const giftJsonLd = (value: unknown) => JSON.stringify(value).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029");

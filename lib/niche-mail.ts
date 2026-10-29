@@ -1,7 +1,12 @@
 import { connect } from "cloudflare:sockets";
 import { EmailMessage } from "cloudflare:email";
 import { smtpMessage, smtpSession } from "./smtp-protocol.mjs";
-export async function sendNicheLeadMail(env: Cloudflare.Env, mail: { to: string; replyTo: string; subject: string; text: string; id: string; from?: string; fromName?: string }) {
+import { sendNicheHostingerMail } from './niche-lead-mail-api.mjs';
+export async function sendNicheLeadMail(env: Cloudflare.Env, mail: { siteId: string; to: string; replyTo: string; subject: string; text: string; id: string; from?: string; fromName?: string }) {
+  if (env.LEAD_HOSTINGER_ENABLED === '1') {
+    await sendNicheHostingerMail(env, mail);
+    return true;
+  }
   // An explicit binding selects native delivery. Do not retry a failed send
   // through another provider: its acceptance may be unknown and duplicate mail.
   if (env.LEAD_EMAIL) {
