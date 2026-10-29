@@ -4,7 +4,7 @@ import {memoRoute,memoPath,memoLabels,memoLanguageLinks} from '@/lib/memocasting
 import {nicheEditorialDates} from '@/lib/niche-schema-core.mjs';
 import {nicheJsonLd} from '@/lib/niche-seo';
 import {uniqueRelatedLinks} from '@/lib/niche-links.mjs';
-import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoCompany,memoProfilePath,memoGuideBodyParts,memoGiftQuickPaths} from '@/lib/memocasting-structure.mjs';
+import {memoBreadcrumbs as nicheBreadcrumbs,memoSectionId,memoGuideSections,memoLatestGuides,memoCompany,memoProfilePath,memoGuideBodyParts,memoGiftQuickPaths} from '@/lib/memocasting-structure.mjs';
 import {imageSrcSet,visibleImageCredit} from '@/lib/niche-media.mjs';
 import {LinkedText} from './linked-text';
 import {MemoProductConfigurator} from './memocasting-product-configurator';
@@ -58,11 +58,12 @@ function Products({pages,headingLevel=3}:{pages:NichePage[];headingLevel?:2|3}){
  <a className={s.productLink} href={'/'+p.slug}>{route.language==='lt'?'Peržiūrėti prekę':labels.choose}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
  <details className={s.cardInfo}><summary>{text.productInfo}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></summary><p>{p.description}</p></details>
  </article>)}</div>;}
-function Guides({pages}:{pages:NichePage[]}){return <div className={s.guides}>{pages.filter(p=>p.type==='guide').map(p=><article key={p.id}><a href={'/'+p.slug}>{p.media[0]&&<img src={p.media[0].src} srcSet={imageSrcSet(p.media,p.media[0])} sizes="(max-width: 760px) calc(100vw - 40px), 380px" width={p.media[0].width} height={p.media[0].height} loading="lazy" alt=""/>}<h3>{p.title}</h3></a><p>{p.description}</p></article>)}</div>;}
+function Guides({pages,showDate=false}:{pages:NichePage[];showDate?:boolean}){return <div className={s.guides}>{pages.filter(p=>p.type==='guide').map(p=><article key={p.id}><a href={'/'+p.slug}>{p.media[0]&&<img src={p.media[0].src} srcSet={imageSrcSet(p.media,p.media[0])} sizes="(max-width: 760px) calc(100vw - 40px), 380px" width={p.media[0].width} height={p.media[0].height} loading="lazy" alt=""/>}<h3>{p.title}</h3></a>{showDate&&<time className={s.guideDate} dateTime={p.publishAt}>Paskelbta {new Intl.DateTimeFormat('lt-LT',{timeZone:'Europe/Vilnius',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(p.publishAt))}</time>}<p>{p.description}</p></article>)}</div>;}
 function GuideIndex({pages,language,giftOnly}:{pages:NichePage[];language:string;giftOnly:boolean}){
  const groups=memoGuideSections(pages,language,{giftOnly}),labels=memoLabels[language as keyof typeof memoLabels];
  if(!groups.length)return null;
- return <div className={s.guideArchive} data-memo-guide-archive><nav className={s.guideTopics} aria-label={labels.topics}>{groups.map(group=><a href={'#'+group.id} key={group.id}>{group.title}<span>{group.pages.length}</span></a>)}</nav>{groups.map(group=><section className={s.archiveSection} key={group.id} id={group.id}><h2>{group.title}</h2><Guides pages={group.pages}/></section>)}</div>;
+ const latest=language==='lt'&&!giftOnly?memoLatestGuides(groups):[];
+ return <div className={s.guideArchive} data-memo-guide-archive><nav className={s.guideTopics} aria-label={labels.topics}>{groups.map(group=><a href={'#'+group.id} key={group.id}>{group.title}<span>{group.pages.length}</span></a>)}</nav>{latest.length>0&&<section className={s.archiveSection} aria-labelledby="naujausi-gidai"><h2 id="naujausi-gidai">Naujausi gidai</h2><Guides pages={latest} showDate/></section>}{groups.map(group=><section className={s.archiveSection} key={group.id} id={group.id}><h2>{group.title}</h2><Guides pages={group.pages}/></section>)}</div>;
 }
 export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;page:NichePage;livePages:NichePage[]}){
  const route=memoRoute(page),labels=memoLabels[route.language as keyof typeof memoLabels],path=(slug:string='')=>memoPath(route,slug),localPages=livePages.filter(p=>memoRoute(p).language===route.language),exists=(slug:string)=>localPages.some(p=>memoRoute(p).baseSlug===slug),home=route.baseSlug==='',product=productSlugs.includes(route.baseSlug),cart=['cart','checkout','uzsakymas'].includes(route.baseSlug);
