@@ -2,6 +2,8 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { randomUUID, createHash } from 'node:crypto';
+import { request as httpRequest } from 'node:http';
+import { smokeRequestOptions } from '../../../scripts/seo-smoke-transport.mjs';
 
 const [engineArg, originArg='http://127.0.0.1:8958'] = process.argv.slice(2);
 if(!engineArg)throw Error('Usage: node verify-signaturepads-core.mjs <isolated-engine> [loopback-origin]');
@@ -17,12 +19,17 @@ const root=path.resolve(import.meta.dirname,'../../..'),out=path.resolve(engine,
 const aliases=JSON.parse(await readFile(path.join(root,'config/content-media-aliases.json'))).entries.filter(e=>e.siteId==='signaturepads');
 const check=(value,message)=>{if(!value)throw Error(message);};
 const request=async(p,options={})=>{
+  if(options.headers?.host)return new Promise((resolve,reject)=>{
+    const target=new URL(origin+p),req=httpRequest(target,smokeRequestOptions(target,options.headers.host),res=>{
+      let text='';res.setEncoding('utf8');res.on('data',part=>text+=part);res.on('end',()=>resolve({response:new Response(text,{status:res.statusCode,headers:res.headers}),text}));
+    });req.setTimeout(20000,()=>{req.destroy();reject(Error('Host probe timeout'));});req.on('error',reject);req.end();
+  });
   const response=await fetch(origin+p,{...options,redirect:'manual',signal:AbortSignal.timeout(20000)});
   return {response,text:await response.text()};
 };
 const sql=value=>"'"+String(value).replaceAll("'","''")+"'";
 const db=command=>{
-  const result=spawnSync(process.execPath,['--import',path.join(engine,'scripts/sites-env.mjs'),path.join(engine,'node_modules/wrangler/bin/wrangler.js'),'d1','execute','DB','--config',path.join(engine,'dist/server/wrangler.json'),'--local','--persist-to',path.join(engine,'.wrangler/state'),'--json','--command',command],{cwd:engine,encoding:'utf8',windowsHide:true,maxBuffer:1024*1024,env:{...process.env,WRANGLER_SEND_METRICS:'false'}});
+  const result=spawnSync(process.execPath,['--import','./scripts/sites-env.mjs',path.join(engine,'node_modules/wrangler/bin/wrangler.js'),'d1','execute','DB','--config',path.join(engine,'dist/server/wrangler.json'),'--local','--persist-to',path.join(engine,'.wrangler/state'),'--json','--command',command],{cwd:engine,encoding:'utf8',windowsHide:true,maxBuffer:1024*1024,env:{...process.env,WRANGLER_SEND_METRICS:'false'}});
   if(result.status!==0)throw Error('Local scoped D1 query failed');
   return JSON.parse(result.stdout).flatMap(r=>r.results||[]);
 };
@@ -68,10 +75,12 @@ for(let offset=0;offset<aliases.length;offset+=8)await Promise.all(aliases.slice
   const asset=pkg.pages.find(p=>p.id===alias.pageId)?.media.find(m=>m.id===alias.assetId);
   check(r.status===307&&asset&&new URL(r.headers.get('location'),origin).pathname===asset.src,`Legacy media ${alias.from}`);report.legacyAssets++;
 }));
-const foreign=await fetch(origin+media[0],{headers:{host:'promedical.lt'},redirect:'manual'});check(foreign.status===404,'Foreign site media isolation');
+const foreign=await request(media[0],{headers:{host:'promedical.lt'}});check(foreign.response.status===404,'Foreign site media isolation');
 const ids=[],marker='CORE-LOCAL-VERIFY-'+randomUUID();
+report.testMarker=marker;report.inquiryIds=ids;
 const form=async()=>{
   const {text}=await request('/');const id=text.match(/name="inquiry_id" value="([0-9a-f-]+)"/)?.[1];check(id,'Native form inquiry ID');ids.push(id);
+  await writeFile(path.join(out,'core-http-verification.json'),JSON.stringify(report,null,2)+'\n');
   return new URLSearchParams({inquiry_id:id,name:marker,email:'core-local@example.invalid',phone:'+370 000 00000',preference:'Telefonu',message:marker,consent:'yes'});
 };
 const post=async(body,{accept='application/json',originHeader=origin}={})=>request('/uzklausa',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded',accept,origin:originHeader,referer:origin+'/'},body:String(body)});
