@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "assets": {
+    "blogi-kvapai-300x300.png": "Blogi kvapai",
+    "blogi-kvapai.png": "Blogi kvapai",
+    "dulkiu-erkutes2-300x300.png": "Dulkių erkutės",
+    "dulkiu-erkutes2.png": "Dulkių erkutės",
+    "virusai-300x300.png": "Virusai",
+    "virusai.png": "Virusai",
+    "alergenai-1-300x300.png": "Alergenai",
+    "alergenai-1.png": "Alergenai",
+    "pelesis-300x300.png": "Pelėsis",
+    "pelesis.png": "Pelėsis",
+    "Patalpu-kvapu-naikinimas.jpg": "Patalpų kvapų naikinimas",
+    "Kvapu-naikinimas-automobilyje-1.jpg": "Kvapų naikinimas automobilyje",
+    "Cigareciu-kvapu-naikinimas.jpg": "Cigarečių kvapų naikinimas",
+    "Gyvunu-kvapo-naikinimas.jpg": "Gyvūnų kvapo naikinimas",
+    "pelesio-naikinimas-1.webp": "Pelėsio naikinimas",
+    "ozonavimas.jpg": "Ozonavimas",
+    "imageedit_1_4410406638-1-300x300.png": "Kvapų naikinimo profesionalai",
+    "imageedit_1_4410406638-1.png": "Kvapų naikinimo profesionalai",
+    "imageedit_5_2550315103-300x300.png": "Ozonavimo įranga",
+    "imageedit_5_2550315103.png": "Ozonavimo įranga",
+    "imageedit_9_6143204277-300x300.png": "Pelėsio naikinimo iliustracija",
+    "imageedit_9_6143204277.png": "Pelėsio naikinimo iliustracija",
+    "imageedit_11_8985628063-300x300.png": "Kvapų naikinimo automobilyje iliustracija",
+    "imageedit_11_8985628063.png": "Kvapų naikinimo automobilyje iliustracija",
+    "Kvapu-naikinimas-kontaktai-1024x694.jpg": "Kvapų naikinimo komandos automobilis",
+    "Kvapu-naikinimas-kontaktai.jpg": "Kvapų naikinimo komandos automobilis",
+    "kvapu-naikinimas-patalpose-800x450.jpg": "kvapu naikinimas patalpose",
+    "kvapu-naikinimas-patalpose.jpg": "kvapu naikinimas patalpose",
+    "ozonavimo-eiga-1024x131.png": "ozonavimo eiga",
+    "ozonavimo-eiga.png": "ozonavimo eiga",
+    "iStock_91690391_MEDIUM-e1467380495312-800x450.jpg": "iStock 91690391 MEDIUM e1467380495312",
+    "iStock_91690391_MEDIUM-e1467380495312.jpg": "iStock 91690391 MEDIUM e1467380495312",
+    "pelesio-naikinimas-768x387.jpg": "pelesio naikinimas",
+    "pelesio-naikinimas.jpg": "pelesio naikinimas",
+    "ozonas-kas-tai-768x155.png": "ozonas kas tai",
+    "ozonas-kas-tai.png": "ozonas kas tai",
+    "kaip-veikia-ozonas-1024x213.png": "kaip veikia ozonas",
+    "kaip-veikia-ozonas.png": "kaip veikia ozonas",
+    "ozone-for-pet-odors.png": "ozone for pet odors",
+    "kvapu-naikinimas-automobilyje-2-800x450.jpg": "kvapu naikinimas automobilyje 2",
+    "kvapu-naikinimas-automobilyje-2.jpg": "kvapu naikinimas automobilyje 2",
+    "CIGARECIU-KVAPO-NAIKINIMAS-768x202.jpg": "CIGARECIU KVAPO NAIKINIMAS",
+    "CIGARECIU-KVAPO-NAIKINIMAS.jpg": "CIGARECIU KVAPO NAIKINIMAS",
+    "ozonavimas-kaune-kaina-800x450.jpeg": "ozonavimas kaune kaina",
+    "ozonavimas-kaune-kaina.jpeg": "ozonavimas kaune kaina",
+    "ozonavimas-Vilniuje-kaina-800x450.jpeg": "ozonavimas Vilniuje kaina",
+    "ozonavimas-Vilniuje-kaina.jpeg": "ozonavimas Vilniuje kaina",
+    "gaivus-oras.webp": "Gaivus oras",
+    "logo-o3.png": "Kvapų naikinimas"
+  },
+  "pages": {
+    "": {
+      "widgets": {
+        "2468773": {
+          "kind": "button.default",
+          "start": 15,
+          "end": 16,
+          "imageAlts": []
+        },
+        "5080467": {
+          "kind": "heading.default",
+          "start": 24,
+          "end": 25,
+          "imageAlts": []
+        },
+        "9515426": {
+          "kind": "image-carousel.default",
+          "start": 6,
+          "end": 11,
+          "imageAlts": [
+            "Blogi kvapai",
+            "Dulkių erkutės",
+            "Virusai",
+            "Alergenai",
+            "Pelėsis"
+          ]
+        },
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "69b9db1": {
+          "kind": "accordion.default",
+          "start": 1,
+          "end": 6,
+          "imageAlts": []
+        },
+        "ade0e70": {
+          "kind": "heading.default",
+          "start": 11,
+          "end": 12,
+          "imageAlts": []
+        },
+        "f00aa24": {
+          "kind": "image.default",
+          "start": 12,
+          "end": 13,
+          "imageAlts": [
+            "Patalpų kvapų naikinimas"
+          ]
+        },
+        "dffd8f7": {
+          "kind": "button.default",
+          "start": 13,
+          "end": 14,
+          "imageAlts": []
+        },
+        "7694e05": {
+          "kind": "image.default",
+          "start": 14,
+          "end": 15,
+          "imageAlts": [
+            "Kvapų naikinimas automobilyje"
+          ]
+        },
+        "79f1e7d": {
+          "kind": "image.default",
+          "start": 16,
+          "end": 17,
+          "imageAlts": [
+            "Cigarečių kvapų naikinimas"
+          ]
+        },
+        "424953c": {
+          "kind": "button.default",
+          "start": 17,
+          "end": 18,
+          "imageAlts": []
+        },
+        "d555b79": {
+          "kind": "image.default",
+          "start": 18,
+          "end": 19,
+          "imageAlts": [
+            "Gyvūnų kvapo naikinimas"
+          ]
+        },
+        "bd1ef8d": {
+          "kind": "button.default",
+          "start": 19,
+          "end": 20,
+          "imageAlts": []
+        },
+        "6a3e0ad": {
+          "kind": "image.default",
+          "start": 20,
+          "end": 21,
+          "imageAlts": [
+            "Pelėsio naikinimas"
+          ]
+        },
+        "e5f7cd7": {
+          "kind": "button.default",
+          "start": 21,
+          "end": 22,
+          "imageAlts": []
+        },
+        "597aa5d": {
+          "kind": "image.default",
+          "start": 22,
+          "end": 23,
+          "imageAlts": [
+            "Ozonavimas"
+          ]
+        },
+        "f80da2b": {
+          "kind": "button.default",
+          "start": 23,
+          "end": 24,
+          "imageAlts": []
+        },
+        "83439ef": {
+          "kind": "accordion.default",
+          "start": 25,
+          "end": 29,
+          "imageAlts": []
+        },
+        "e490c58": {
+          "kind": "image-carousel.default",
+          "start": 29,
+          "end": 33,
+          "imageAlts": [
+            "Kvapų naikinimo profesionalai",
+            "Ozonavimo įranga",
+            "Pelėsio naikinimo iliustracija",
+            "Kvapų naikinimo automobilyje iliustracija"
+          ]
+        },
+        "1475fd5": {
+          "kind": "heading.default",
+          "start": 33,
+          "end": 34,
+          "imageAlts": []
+        },
+        "caf5d1d": {
+          "kind": "image.default",
+          "start": 34,
+          "end": 35,
+          "imageAlts": [
+            "Kvapų naikinimo komandos automobilis"
+          ]
+        }
+      },
+      "heading": "Kvapų naikinimas ozonu - efektyviausias kvapų naikinimo būdas!"
+    },
+    "patalpu-kvapu-naikinimas": {
+      "widgets": {
+        "3054466": {
+          "kind": "heading.default",
+          "start": 21,
+          "end": 22,
+          "imageAlts": []
+        },
+        "8432579": {
+          "kind": "text-editor.default",
+          "start": 28,
+          "end": 30,
+          "imageAlts": []
+        },
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 11,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 11,
+          "end": 12,
+          "imageAlts": [
+            "kvapu naikinimas patalpose"
+          ]
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 12,
+          "end": 13,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 13,
+          "end": 21,
+          "imageAlts": []
+        },
+        "166e37a": {
+          "kind": "text-editor.default",
+          "start": 22,
+          "end": 25,
+          "imageAlts": []
+        },
+        "27f2c03": {
+          "kind": "image.default",
+          "start": 25,
+          "end": 26,
+          "imageAlts": [
+            "ozonavimo eiga"
+          ]
+        },
+        "a3255c9": {
+          "kind": "text-editor.default",
+          "start": 26,
+          "end": 28,
+          "imageAlts": []
+        },
+        "e84801a": {
+          "kind": "text-editor.default",
+          "start": 30,
+          "end": 33,
+          "imageAlts": []
+        },
+        "a515030": {
+          "kind": "text-editor.default",
+          "start": 33,
+          "end": 36,
+          "imageAlts": []
+        }
+      },
+      "heading": "PATALPŲ KVAPŲ NAIKINIMAS"
+    },
+    "kvapu-naikinimas": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 4,
+          "imageAlts": []
+        },
+        "faa8a34": {
+          "kind": "image.default",
+          "start": 4,
+          "end": 5,
+          "imageAlts": [
+            "iStock 91690391 MEDIUM e1467380495312"
+          ]
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 5,
+          "end": 6,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 6,
+          "end": 36,
+          "imageAlts": []
+        }
+      },
+      "heading": "KVAPŲ NAIKINIMAS"
+    },
+    "pelesio-naikinimas": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 3,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 3,
+          "end": 4,
+          "imageAlts": [
+            "pelesio naikinimas"
+          ]
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 4,
+          "end": 26,
+          "imageAlts": []
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 26,
+          "end": 27,
+          "imageAlts": []
+        },
+        "58667c2": {
+          "kind": "text-editor.default",
+          "start": 27,
+          "end": 29,
+          "imageAlts": []
+        },
+        "5d363f3": {
+          "kind": "heading.default",
+          "start": 29,
+          "end": 30,
+          "imageAlts": []
+        },
+        "86d58a4": {
+          "kind": "text-editor.default",
+          "start": 30,
+          "end": 33,
+          "imageAlts": []
+        },
+        "9600f9e": {
+          "kind": "heading.default",
+          "start": 33,
+          "end": 34,
+          "imageAlts": []
+        },
+        "a50adcb": {
+          "kind": "text-editor.default",
+          "start": 34,
+          "end": 35,
+          "imageAlts": []
+        }
+      },
+      "heading": "PELĖSIO NAIKINIMAS"
+    },
+    "ozonavimas-kas-tai": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 1,
+          "end": 2,
+          "imageAlts": [
+            "ozonas kas tai"
+          ]
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 2,
+          "end": 3,
+          "imageAlts": []
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 3,
+          "end": 4,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 4,
+          "end": 5,
+          "imageAlts": []
+        },
+        "1b1598d": {
+          "kind": "image.default",
+          "start": 5,
+          "end": 6,
+          "imageAlts": [
+            "kaip veikia ozonas"
+          ]
+        },
+        "66f7ddf": {
+          "kind": "heading.default",
+          "start": 6,
+          "end": 7,
+          "imageAlts": []
+        },
+        "2b7fdad": {
+          "kind": "text-editor.default",
+          "start": 7,
+          "end": 10,
+          "imageAlts": []
+        },
+        "d7bd4a1": {
+          "kind": "heading.default",
+          "start": 10,
+          "end": 11,
+          "imageAlts": []
+        },
+        "5ed7e0e": {
+          "kind": "text-editor.default",
+          "start": 11,
+          "end": 18,
+          "imageAlts": []
+        }
+      },
+      "heading": "OZONAVIMAS – KAS TAI?"
+    },
+    "gyvunu-kvapo-naikinimas": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 4,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 4,
+          "end": 5,
+          "imageAlts": [
+            "ozone for pet odors"
+          ]
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 5,
+          "end": 6,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 6,
+          "end": 9,
+          "imageAlts": []
+        },
+        "66f7ddf": {
+          "kind": "heading.default",
+          "start": 9,
+          "end": 10,
+          "imageAlts": []
+        },
+        "2b7fdad": {
+          "kind": "text-editor.default",
+          "start": 10,
+          "end": 14,
+          "imageAlts": []
+        },
+        "d7bd4a1": {
+          "kind": "heading.default",
+          "start": 14,
+          "end": 15,
+          "imageAlts": []
+        },
+        "5ed7e0e": {
+          "kind": "text-editor.default",
+          "start": 15,
+          "end": 20,
+          "imageAlts": []
+        }
+      },
+      "heading": "GYVŪNŲ KVAPO NAIKINIMAS"
+    },
+    "kvapu-naikinimas-automobilyje-ozonavimas": {
+      "widgets": {
+        "8432579": {
+          "kind": "text-editor.default",
+          "start": 25,
+          "end": 27,
+          "imageAlts": []
+        },
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 3,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 3,
+          "end": 4,
+          "imageAlts": [
+            "kvapu naikinimas automobilyje 2"
+          ]
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 4,
+          "end": 5,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 5,
+          "end": 8,
+          "imageAlts": []
+        },
+        "bf553a0": {
+          "kind": "heading.default",
+          "start": 8,
+          "end": 9,
+          "imageAlts": []
+        },
+        "6e0b9eb": {
+          "kind": "text-editor.default",
+          "start": 9,
+          "end": 18,
+          "imageAlts": []
+        },
+        "311d7f3": {
+          "kind": "heading.default",
+          "start": 18,
+          "end": 19,
+          "imageAlts": []
+        },
+        "166e37a": {
+          "kind": "text-editor.default",
+          "start": 19,
+          "end": 22,
+          "imageAlts": []
+        },
+        "27f2c03": {
+          "kind": "image.default",
+          "start": 22,
+          "end": 23,
+          "imageAlts": [
+            "ozonavimo eiga"
+          ]
+        },
+        "a3255c9": {
+          "kind": "text-editor.default",
+          "start": 23,
+          "end": 25,
+          "imageAlts": []
+        },
+        "e84801a": {
+          "kind": "text-editor.default",
+          "start": 27,
+          "end": 30,
+          "imageAlts": []
+        },
+        "a515030": {
+          "kind": "text-editor.default",
+          "start": 30,
+          "end": 33,
+          "imageAlts": []
+        }
+      },
+      "heading": "KVAPŲ NAIKINIMAS AUTOMOBILYJE"
+    },
+    "cigareciu-tabako-dumu-rukalu-kvapo-naikinimas": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "7f0d2d9": {
+          "kind": "text-editor.default",
+          "start": 1,
+          "end": 2,
+          "imageAlts": []
+        },
+        "14a4328": {
+          "kind": "image.default",
+          "start": 2,
+          "end": 3,
+          "imageAlts": [
+            "CIGARECIU KVAPO NAIKINIMAS"
+          ]
+        },
+        "4793f9c": {
+          "kind": "heading.default",
+          "start": 3,
+          "end": 4,
+          "imageAlts": []
+        },
+        "8fbf61a": {
+          "kind": "text-editor.default",
+          "start": 4,
+          "end": 22,
+          "imageAlts": []
+        }
+      },
+      "heading": "CIGAREČIŲ KVAPO NAIKINIMAS"
+    },
+    "ozonavimas-kaune-kaina": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "69b9db1": {
+          "kind": "accordion.default",
+          "start": 1,
+          "end": 5,
+          "imageAlts": []
+        },
+        "01c81de": {
+          "kind": "accordion.default",
+          "start": 5,
+          "end": 6,
+          "imageAlts": []
+        },
+        "eb2bc5d": {
+          "kind": "image.default",
+          "start": 6,
+          "end": 7,
+          "imageAlts": [
+            "ozonavimas kaune kaina"
+          ]
+        }
+      },
+      "heading": "Ozonavimas Kaune. Paslaugos kaina:"
+    },
+    "dazniausiai-uzduodami-klausimai": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "1ad4f69": {
+          "kind": "toggle.default",
+          "start": 1,
+          "end": 19,
+          "imageAlts": []
+        }
+      },
+      "heading": "KVAPŲ NAIKINIMAS, OZONAVIMAS | D.U.K"
+    },
+    "ozonavimas-vilniuje-kaina": {
+      "widgets": {
+        "37b20e2": {
+          "kind": "heading.default",
+          "start": 0,
+          "end": 1,
+          "imageAlts": []
+        },
+        "69b9db1": {
+          "kind": "accordion.default",
+          "start": 1,
+          "end": 5,
+          "imageAlts": []
+        },
+        "01c81de": {
+          "kind": "accordion.default",
+          "start": 5,
+          "end": 6,
+          "imageAlts": []
+        },
+        "3ecb748": {
+          "kind": "image.default",
+          "start": 6,
+          "end": 7,
+          "imageAlts": [
+            "ozonavimas Vilniuje kaina"
+          ]
+        }
+      },
+      "heading": "Ozonavimas Vilniuje. Paslaugos kaina:"
+    },
+    "musu-slapuku-politika": {
+      "widgets": {},
+      "heading": "Privatumo informacija ir slapukai"
+    }
+  }
+}

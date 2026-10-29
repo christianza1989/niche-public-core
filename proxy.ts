@@ -91,6 +91,10 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if (niche.siteId==='kvapunaikinimas' && path.startsWith('/fonts/kvapunaikinimas/')) return NextResponse.next();
+    if (niche.siteId==='kvapunaikinimas' && ['/sitemap_index.xml','/page-sitemap.xml'].includes(path) && ['GET','HEAD'].includes(request.method)) {
+      const destination=request.nextUrl.clone();destination.pathname='/sitemap.xml';destination.search='';return NextResponse.redirect(destination,301);
+    }
     if(niche.siteId==='memocasting'&&path==='/atsiliepimas'&&['GET','HEAD'].includes(request.method)&&publicNichePages(niche).some(p=>p.slug==='')){
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/review';destination.search='';
       const requestHeaders=new Headers(request.headers);requestHeaders.set('x-niche-original-path',path);requestHeaders.set('x-niche-original-query','');

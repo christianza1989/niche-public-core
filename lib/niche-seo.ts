@@ -76,7 +76,7 @@ export function nicheLlmsFull(pkg: NichePackage, pages: NichePage[]): string {
         labels?`${labels.author}: MB Memocasting${profile?' ('+nicheOrigin(pkg)+profile+')':''}; ${labels.editorial}`:`Autorius: ${nicheNetworkContact(pkg.siteId).operatorName}; tekstas rengtas su AI pagal nurodytus šaltinius.`,
         `${labels?.published??'Publikavimo data'}: ${nicheEditorialDates(page).published}`,
         `${labels?.reviewed??'Turinio peržiūra'}: ${nicheEditorialDates(page).modified}`] : []),
-      ...(page.type === "home" && !["traktoriupadangos","memocasting","promedical"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
+      ...(page.type === "home" && !["traktoriupadangos","memocasting","promedical","kvapunaikinimas"].includes(pkg.siteId) ? [] : ["", ...page.body.map(blockText).filter(Boolean)]),
       ...productNavigationText(pkg,page,pages),
       ...page.links.flatMap(link => { const target = byId.get(link.targetPageId); return target ? [`${labels?.related??'Susijęs atsakymas'}: [${link.label}](${nichePageUrl(pkg, target)})`] : []; }),
       ...(page.externalLinks ?? []).map(link => `${labels?.sources??'Šaltinis'}: [${link.label}](${link.url}) — ${link.reason}`),

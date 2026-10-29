@@ -4,6 +4,7 @@ import { publicSiteByHost, publicSitePage, publicSitePages } from "@/lib/public-
 import {memoLeadContext,memoLeadText} from '@/lib/memocasting-lead-response.mjs';
 import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
+import { contactMethodFields } from "@/lib/niche-contact-method.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -50,7 +51,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
   // No storage or notification occurs until origin and field checks both pass.
-  const form = await limitedForm(request,siteId==='memocasting'?65536:10000);
+  const form = await limitedForm(request,['memocasting','kvapunaikinimas'].includes(siteId)?65536:10000);
   if(siteId==='memocasting'&&!form)return response("Patikrinkite formą ir bandykite dar kartą.",400);
   const context=siteId==='memocasting'?memoLeadContext(publicSitePages(pkg),String(form?.get('source_path')||'')):null;
   const reply=(message:string,status:number)=>response(message,status,context);
@@ -68,8 +69,10 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   if (form.get("website")) return reply("Užklausa gauta.", 200);
   const name = String(form.get("name") || "").trim();
   const email = String(form.get("email") || "").trim();
-  const message = String(form.get("message") || "").trim();
-  if (name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
+  const contact = siteId === 'kvapunaikinimas' ? contactMethodFields(form) : null;
+  const message = contact?.storedMessage || String(form.get("message") || "").trim();
+  if (siteId === 'kvapunaikinimas' ? !contact : name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
+    if (siteId === 'kvapunaikinimas') return reply("Patikrinkite formą ir bandykite dar kartą.", 400);
     return reply("Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
   }
   if (!env.DB) return reply("Užklausų sistema laikinai nepasiekiama. Parašykite svetainėje nurodytu el. paštu.", 503);
@@ -107,7 +110,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
     }
   }
-  return reply(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."
+  return reply(notified ? siteId === 'kvapunaikinimas' ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui." : "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."
     : /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(host || "")
     ? "Tai vietinės peržiūros bandymas: žinutė išsaugota tik šiame kompiuteryje, o tikras el. laiškas neišsiųstas."
     : "Jūsų žinutė išsaugota. Pranešimo el. paštu šiuo metu nepavyko perduoti. Jei užklausa skubi, parašykite svetainėje nurodytu el. paštu.", 200);
