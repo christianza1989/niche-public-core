@@ -21,6 +21,9 @@ async function resolve(props: Props) {
 }
 export async function generateMetadata(props: Props) {
   const data = await resolve(props);
+  // This renderer's head is emitted once by the common root layout. Emitting
+  // it here too produces duplicate canonical/title/description tags in SSR.
+  if(contentRenderer(data.pkg)==='signaturepads')return {};
   return giftMetadata(data.pkg, data.page, Boolean(data.topic));
 }
 export default async function GiftPage(props: Props) {
