@@ -1,0 +1,170 @@
+[
+  {
+    "source": "https://signaturepads.lt/",
+    "target": "/",
+    "status": "preserve-200",
+    "kind": "home"
+  },
+  {
+    "source": "https://signaturepads.lt/apie-mus-spaudoje/",
+    "target": "/apie-mus-spaudoje/",
+    "status": "preserve-200",
+    "kind": "page"
+  },
+  {
+    "source": "https://signaturepads.lt/musu-slapuku-politika/",
+    "target": "/musu-slapuku-politika/",
+    "status": "preserve-200",
+    "kind": "page"
+  },
+  {
+    "source": "https://signaturepads.lt/prekes/",
+    "target": "/prekes/",
+    "status": "preserve-200",
+    "kind": "catalog"
+  },
+  {
+    "source": "https://signaturepads.lt/ozonas-geriausia-kvapu-naikinimo-priemone/",
+    "target": "/ozonas-geriausia-kvapu-naikinimo-priemone/",
+    "status": "preserve-200",
+    "kind": "page"
+  },
+  {
+    "source": "https://signaturepads.lt/sample-page/",
+    "target": "/sample-page/",
+    "status": "preserve-200",
+    "kind": "page"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-stepover-naturasign-pad-classic/",
+    "target": "/produktas/paraso-plansete-stepover-naturasign-pad-classic/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-stepover-durasign-pad-4-3/",
+    "target": "/produktas/paraso-plansete-stepover-durasign-pad-4-3/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-stepover-durasign-pad-5-0/",
+    "target": "/produktas/paraso-plansete-stepover-durasign-pad-5-0/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-stepover-esignatureoffice/",
+    "target": "/produktas/programine-iranga-stepover-esignatureoffice/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-stepover-durasign-pad-10-0/",
+    "target": "/produktas/paraso-plansete-stepover-durasign-pad-10-0/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-stepover-durasign-pad-ng-10/",
+    "target": "/produktas/paraso-plansete-stepover-durasign-pad-ng-10/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-signotec-signoapi-native-java/",
+    "target": "/produktas/programine-iranga-signotec-signoapi-native-java/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-signotec-signoapi-windows/",
+    "target": "/produktas/programine-iranga-signotec-signoapi-windows/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-signotec-signosign-universal/",
+    "target": "/produktas/programine-iranga-signotec-signosign-universal/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
+    "target": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/programine-iranga-signotec-signosign-2/",
+    "target": "/produktas/programine-iranga-signotec-signosign-2/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/monitoriaus-ispletimas-pasirasymui-signotec-epsilon-pen-display/",
+    "target": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-epsilon-pen-display/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/monitoriaus-ispletimas-pasirasymui-signotec-delta-pen-display/",
+    "target": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-delta-pen-display/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-delta/",
+    "target": "/produktas/paraso-plansete-signotec-delta/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-gamma/",
+    "target": "/produktas/paraso-plansete-signotec-gamma/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-omega/",
+    "target": "/produktas/paraso-plansete-signotec-omega/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-zeta/",
+    "target": "/produktas/paraso-plansete-signotec-zeta/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-sigma-lite/",
+    "target": "/produktas/paraso-plansete-signotec-sigma-lite/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/produktas/paraso-plansete-signotec-sigma/",
+    "target": "/produktas/paraso-plansete-signotec-sigma/",
+    "status": "preserve-200",
+    "kind": "product"
+  },
+  {
+    "source": "https://signaturepads.lt/iranga/paraso-plansetes/",
+    "target": "/iranga/paraso-plansetes/",
+    "status": "preserve-200",
+    "kind": "category"
+  },
+  {
+    "source": "https://signaturepads.lt/iranga/programine-iranga/",
+    "target": "/iranga/programine-iranga/",
+    "status": "preserve-200",
+    "kind": "category"
+  },
+  {
+    "source": "https://signaturepads.lt/iranga/elektroninio-paraso-plansetes-monitoriu-ispletimai/",
+    "target": "/iranga/elektroninio-paraso-plansetes-monitoriu-ispletimai/",
+    "status": "preserve-200",
+    "kind": "category"
+  }
+]
