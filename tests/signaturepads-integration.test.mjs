@@ -1,3 +1,12 @@
+import reviewedPkg from '../content-staging/signaturepads/content-package.json' with {type:'json'};
+import layout from '../sites/signaturepads/migration/core-layout.json' with {type:'json'};
+import aliases from '../config/content-media-aliases.json' with {type:'json'};
+import { projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
+import { signaturepadsSnapshot } from '../lib/signaturepads-content.mjs';
+import { renderSignaturepads } from '../components/niche/signaturepads/render.mjs';
+import { visibleMediaAlias } from '../lib/content-media-aliases.mjs';
+import { contentSeoV2 } from '../lib/content-seo-v2.mjs';
+import { validateContentPackage } from '../scripts/content-package-core.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { contentFrameworkRequest, contentOriginalPathHeader } from '../lib/content-framework-request.mjs';
@@ -59,4 +68,41 @@ test('Hostinger HTTPS uses only its explicit site/mailbox, checks identity and n
   assert.equal(nicheMailTransport(env,'other'),'none');
   assert.equal(nicheMailTransport({LEAD_SMTP_ENABLED:'1'},'other'),'smtp');
   assert.equal(nicheMailTransport({LEAD_SMTP_ENABLED:'1',LEAD_SMTP_SITE_ID:'signaturepads'},'other'),'none');
+});
+
+
+const now=Math.max(...reviewedPkg.pages.map(p=>Date.parse(p.publishAt)))+1000;
+const project=(p,time=now)=>projectContentPagesV2(p,[p],{},undefined,time);
+test('native reviewed migration has exactly the preserved inventory and no source HTML/price fallback',()=>{
+  assert.equal(validateContentPackage(reviewedPkg).siteId,'signaturepads');
+  const pages=project(reviewedPkg),data=signaturepadsSnapshot(reviewedPkg,pages,layout);
+  assert.equal(pages.length,26);assert.equal(data.products.length,19);assert.equal(data.categories.length,3);
+  assert.equal(data.home.categoryCards.length,4);assert.equal(data.home.accordions.length,8);
+  assert.ok(pages.every(p=>new URL(p.url).pathname.endsWith('/')));
+  assert.equal(data.products.find(p=>p.id===488).prices.price,'18900');
+  assert.match(contentSeoV2(reviewedPkg,pages,'llms-full').body,/189,00€ be PVM/);
+  assert.doesNotMatch(contentSeoV2(reviewedPkg,pages,'sitemap').body,/sample-page|ozonas|checkout/);
+});
+test('clock, revocation and foreign package cannot leak a product, its aliases or new draft prose',()=>{
+  assert.deepEqual(project(reviewedPkg,Math.min(...reviewedPkg.pages.map(p=>Date.parse(p.publishAt)))-1),[]);
+  const revoked=structuredClone(reviewedPkg),p=revoked.pages.find(p=>p.id==='sp-product-6863');
+  p.approval.status='revoked';p.body.push({type:'paragraph',text:'PRIVATE-UNAPPROVED-DESCRIPTION'});
+  const pages=project(revoked),data=signaturepadsSnapshot(revoked,pages,layout);
+  assert.equal(data.products.some(p=>p.id===6863),false);assert.equal(data.home.categoryCards.length,3);
+  const alias=aliases.entries.find(a=>a.siteId==='signaturepads'&&a.pageId===p.id);
+  assert.equal(visibleMediaAlias(revoked,pages,aliases,alias.from),null);
+  assert.equal(visibleMediaAlias({...reviewedPkg,siteId:'foreign'},project(reviewedPkg),aliases,alias.from),null);
+  const html=data.routes.map(route=>renderSignaturepads(data,route)).join('');
+  assert.doesNotMatch(html,/PRIVATE-UNAPPROVED-DESCRIPTION/);
+  assert.doesNotMatch(contentSeoV2(revoked,pages,'llms-full').body,/PRIVATE-UNAPPROVED-DESCRIPTION/);
+  assert.equal(signaturepadsSnapshot({...reviewedPkg,siteId:'foreign'},pages,layout),null);
+});
+test('withdrawn home denies the adapter and withdrawn policy removes form and footer link',()=>{
+  const noHome=structuredClone(reviewedPkg);noHome.pages.find(p=>p.type==='home').approval.status='revoked';
+  assert.equal(signaturepadsSnapshot(noHome,project(noHome),layout),null);
+  const noPolicy=structuredClone(reviewedPkg);noPolicy.pages.find(p=>p.type==='policy').approval.status='revoked';
+  const data=signaturepadsSnapshot(noPolicy,project(noPolicy),layout);
+  const html=renderSignaturepads(data,data.routes.find(r=>r.kind==='home'));
+  assert.doesNotMatch(html,/sp-contact-form|href="\/musu-slapuku-politika\//);
+  assert.match(html,/mailto:sales@signaturepads.lt/);
 });

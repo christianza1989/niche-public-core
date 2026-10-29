@@ -55,7 +55,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
   // No storage or notification occurs until origin and field checks both pass.
-  const form = await limitedForm(request,siteId==='memocasting'?65536:10000);
+  const form = await limitedForm(request,['memocasting','signaturepads'].includes(siteId)?65536:10000);
   if(siteId==='memocasting'&&!form)return response("Patikrinkite formą ir bandykite dar kartą.",400);
   const context=siteId==='memocasting'?memoLeadContext(publicSitePages(pkg),String(form?.get('source_path')||'')):null;
   const reply=(message:string,status:number)=>response(message,status,context,json);
