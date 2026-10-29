@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {memoBreadcrumbs,memoSchemaGraph,memoSectionId,memoGuideSections} from '../lib/memocasting-structure.mjs';
+import {memoBreadcrumbs,memoSchemaGraph,memoSectionId,memoGuideSections,memoLatestGuides} from '../lib/memocasting-structure.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
 const pkg={canonicalHost:'memocasting.lt',locale:'lt-LT',site:{name:'Memocasting',offer:'Rinkiniai',contact:{email:'info@pinet.lt'}}};
 const product={type:'product',slug:'rinkinys-porai',title:'Porai',description:'Rinkinys',publishAt:'2026-10-11T00:00:00Z',approval:{approvedAt:'2026-10-11T00:00:00Z'},media:[]};
@@ -79,4 +79,25 @@ test('translated archive keeps local planning and care sections and never borrow
   assert.deepEqual(groups.flatMap(g=>g.pages.map(p=>p.slug)).sort(),local.map(p=>p.slug).sort());
   assert.ok(groups.every(g=>g.title&&!g.title.includes('Kalėd')));
  }
+});
+test('latest guides use the public time and revision projection across topics',()=>{
+ const withDate=(slug,publishAt)=>({...guide(slug),publishAt});
+ const christmas=withDate('gidai/kaledines-dovanos','2026-10-26T08:00:00Z');
+ const daughter=withDate('gidai/dovanos-dukrai','2026-10-27T08:00:00Z');
+ const wedding=withDate('gidai/dovanos-vestuvems','2026-10-28T14:00:00Z');
+ const future=withDate('gidai/dovanos-vyrams','2026-10-29T14:00:00Z');
+ const revoked={...withDate('gidai/pasleptas','2026-10-29T10:00:00Z'),revisionHash:'edited'};
+ const source={...pkg,siteId:'memocasting',schemaVersion:1,pages:[christmas,daughter,wedding,future,revoked]};
+ for(const [at,expected] of [
+  ['2026-10-29T13:59:59Z',[wedding.slug,daughter.slug,christmas.slug]],
+  ['2026-10-29T14:00:00Z',[future.slug,wedding.slug,daughter.slug]],
+ ]){
+  const eligible=projectPublicPages(source,[source],{},Date.parse(at));
+  const groups=memoGuideSections(eligible,'lt');
+  assert.equal(groups[0].id,'kaledos');
+  assert.deepEqual(memoLatestGuides(groups).map(p=>p.slug),expected);
+  assert.ok(!memoLatestGuides(groups).some(p=>p.slug===revoked.slug));
+ }
+ const paused=projectPublicPages(source,[source],{guidePublicationPausedAtBySite:{memocasting:'2026-10-27T08:00:00.000Z'}},Date.parse('2026-10-29T16:00:00Z'));
+ assert.deepEqual(memoLatestGuides(memoGuideSections(paused,'lt')).map(p=>p.slug),[daughter.slug,christmas.slug]);
 });
