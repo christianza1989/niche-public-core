@@ -26,13 +26,13 @@
   {
     "source": "https://signaturepads.lt/ozonas-geriausia-kvapu-naikinimo-priemone/",
     "target": "/ozonas-geriausia-kvapu-naikinimo-priemone/",
-    "status": "preserve-200",
+    "status": "retired-410",
     "kind": "page"
   },
   {
     "source": "https://signaturepads.lt/sample-page/",
     "target": "/sample-page/",
-    "status": "preserve-200",
+    "status": "retired-410",
     "kind": "page"
   },
   {

@@ -1,0 +1,16 @@
+{
+  "decidedOn": "2026-10-29",
+  "authority": "Direct instructions in the signaturepads migration chat",
+  "metadataRefresh": true,
+  "softwareDescriptions": true,
+  "inquiryOnly": true,
+  "ordersEnabled": false,
+  "payseraEnabled": false,
+  "retiredPaths": [
+    "/sample-page/",
+    "/ozonas-geriausia-kvapu-naikinimo-priemone/"
+  ],
+  "retiredStatus": 410,
+  "preserveRemainingPaths": true,
+  "liveDeploymentAuthorized": false
+}
