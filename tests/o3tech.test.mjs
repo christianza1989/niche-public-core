@@ -56,3 +56,22 @@ test('only exact o3tech catalogue query variants are nonindexable, and price fil
  const hidden=o3techMarkup({...f,page:f.catalogue,pages:[f.home,f.catalogue,f.product],query:{min_price:'100',max_price:'1000'}});assert.doesNotMatch(hidden,/class="o3-product-card"/);
  const visible=o3techMarkup({...f,page:f.catalogue,pages:[f.home,f.catalogue,f.product],query:{min_price:'not-a-number'}});assert.match(visible,/Fixture &lt;safe&gt;/);assert.doesNotMatch(visible,/produktas\/hidden/);
 });
+
+test('source empty-paragraph rhythm is bounded, text-bound presentation and cannot inject CSS',()=>{
+ const f=fixture(),pages=[f.home,f.catalogue,f.product],text=f.product.body[0].text;
+ const render=()=>o3techMarkup({...f,page:f.product,pages});
+ f.layout.pages.product.format={0:{signature:o3Signature(text),spaceAfter:48.8}};
+ assert.match(render(),/<p style="margin-bottom:68.8px">Original technical description\.<\/p>/);
+ for(const value of ['0;position:fixed',-1,Infinity,513]){f.layout.pages.product.format[0].spaceAfter=value;assert.doesNotMatch(render(),/style="margin-bottom:/);}
+ f.layout.pages.product.format[0].spaceAfter=48.8;f.product.body[0].text+=' Changed';
+ assert.doesNotMatch(render(),/style="margin-bottom:/);
+});
+
+test('source related ordering stays in the projection and single-image galleries retain their native limit',()=>{
+ const f=fixture(),other={...f.product,id:'other',slug:'produktas/other',title:'Visible sibling'},hidden={...other,id:'hidden',slug:'produktas/hidden',title:'Omitted sibling'};
+ f.product.media=[{id:'asset',src:'/content-assets/o3tech/fixture.webp',width:310,height:291,alt:'Original image',familyId:'family'}];
+ f.layout.pages.product.relatedPaths=['/produktas/hidden/','/produktas/other/'];f.layout.pages.other={kind:'product'};
+ const html=o3techMarkup({...f,page:f.product,pages:[f.home,f.catalogue,f.product,other]});
+ assert.match(html,/--o3-gallery-source-width:310px/);assert.doesNotMatch(html,/class="o3-thumbnails"/);
+ assert.match(html,/Visible sibling/);assert.doesNotMatch(html,/Omitted sibling|href="\/produktas\/hidden\//);
+});
