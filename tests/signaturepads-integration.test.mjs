@@ -58,4 +58,5 @@ test('Hostinger HTTPS uses only its explicit site/mailbox, checks identity and n
   await assert.rejects(sendNicheHostingerMail(env,mail,async()=>Response.json({data:{mailboxes:[]}})),/sender_mismatch/);
   assert.equal(nicheMailTransport(env,'other'),'none');
   assert.equal(nicheMailTransport({LEAD_SMTP_ENABLED:'1'},'other'),'smtp');
+  assert.equal(nicheMailTransport({LEAD_SMTP_ENABLED:'1',LEAD_SMTP_SITE_ID:'signaturepads'},'other'),'none');
 });
