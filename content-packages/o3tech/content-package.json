@@ -1,0 +1,4092 @@
+{
+  "schemaVersion": 1,
+  "siteId": "o3tech",
+  "canonicalHost": "o3tech.lt",
+  "locale": "lt-LT",
+  "site": {
+    "id": "o3tech",
+    "name": "o3tech",
+    "canonicalHost": "o3tech.lt",
+    "locale": "lt-LT",
+    "timezone": "Europe/Vilnius",
+    "brand": {
+      "accent": "#276d72"
+    },
+    "offer": "Ozonatoriai | Kvapų naikinimo įranga",
+    "contact": {
+      "email": "sales@o3tech.lt",
+      "phone": "+37064819979"
+    }
+  },
+  "pages": [
+    {
+      "siteId": "o3tech",
+      "type": "home",
+      "slug": "",
+      "title": "OZONATORIAI - KAIP JIE VEIKIA?",
+      "description": "Ozono generatoriai gamina ozono dujas (O3), kurios ne tik efektyviai dezinfekuoja orą ir paviršius (gamtoje nėra ozonui atsparių virusų ar bakterijų), bet ir molekuliniame lygmenyje sunaikina blogus kvapus, dulkių erkutes, grybų sporas, pelėsius, mikrobus.",
+      "intent": "OZONATORIAI - KAIP JIE VEIKIA?",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatoriai gamina ozono dujas (O3), kurios ne tik efektyviai dezinfekuoja orą ir paviršius (gamtoje nėra ozonui atsparių virusų ar bakterijų), bet ir molekuliniame lygmenyje sunaikina blogus kvapus, dulkių erkutes, grybų sporas, pelėsius, mikrobus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonas yra ekologiška bei saugi aplinkai priemonė, kuri atlikusi savo darbą, greitai suskyla į deguonį, nepalikdama jokių pėdsakų. Po ozonavimo nereikia atlikti papildomo patalpų valymo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono poveikis žmonijai žinomas jau šimtus metų. Kiekvienam iš mūsų tenka susidurti su ozono efektu po lietaus su griaustiniu. Taip, būtent dėl žaibavimo metu pasigaminusio ozono oras po lietaus būna toks gaivus ir švarus!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taigi drąsiai galime teigti, ozonas – geriausia kvapų naikinimo priemonė!"
+        },
+        {
+          "type": "image",
+          "assetId": "2bb1f21a-208f-4593-b237-8687a4963b01"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "MŪSŲ PRODUKTAI"
+        },
+        {
+          "type": "image",
+          "assetId": "571a0659-f647-4e50-9922-72751c122383"
+        },
+        {
+          "type": "image",
+          "assetId": "b9c9d21d-1118-4f10-8ecb-e6f93362879e"
+        },
+        {
+          "type": "image",
+          "assetId": "8ceef31d-8f27-42b1-b71d-1d20b3901ef7"
+        },
+        {
+          "type": "image",
+          "assetId": "ce6d87b9-a667-4ae0-a7bf-98210b430cb7"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "MŪSŲ PASLAUGOS"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "OZONATORIAUS NUOMA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ozonavimo įrenginių neprireikia dažnai ar tiesiog norite išbandyti mūsų parduodamą įrangą, galite išsinuomoti ozonatorius parai ar ilgesniam laikotarpiui (taikomos nuolaidos). Pageidaujant, teikiama įrenginio pristatymo nurodytu adresu paslauga."
+        },
+        {
+          "type": "image",
+          "assetId": "120ed7da-4d57-41a4-a6b8-25d8247a6fcf"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "OZONO TEIKIAMA NAUDA"
+        },
+        {
+          "type": "image",
+          "assetId": "2f21a52e-f1ec-46b8-88fb-a33a0cdf5c24"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "KVAPŲ NAIKINIMAS"
+        },
+        {
+          "type": "image",
+          "assetId": "3cadb0a1-ce77-4991-9418-0f5c99315690"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dezinfekcija nuo virusų ir bakterijų"
+        },
+        {
+          "type": "image",
+          "assetId": "3c879757-a6e0-45b3-8565-ede963264b71"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patalynės dulkių erkučių ir kitų alergenų naikinimas"
+        },
+        {
+          "type": "image",
+          "assetId": "598a6333-6c47-4d53-9e75-d06516225858"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PELĖSIO naikinimas"
+        },
+        {
+          "type": "image",
+          "assetId": "c5991b3c-f674-4067-a84b-b60e9a7cdeba"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Po ozonavimo nereikalingas papildomas valymas"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "KONTAKTAI"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "MB Anvera"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Buivydiškių g. 22, Vilnius 07195",
+            "+370 648 19979",
+            "sales@o3tech.lt"
+          ]
+        },
+        {
+          "type": "image",
+          "assetId": "4cdb8d55-2b9e-448e-9e5e-e8b401bd5967"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "SUSISIEKITE SU MUMIS!"
+        }
+      ],
+      "publishAt": "2021-06-18T11:14:28.000Z",
+      "media": [
+        {
+          "id": "2bb1f21a-208f-4593-b237-8687a4963b01",
+          "src": "/content-assets/o3tech/2bb1f21a-208f-4593-b237-8687a4963b01.webp",
+          "alt": "kvapu naikinimas",
+          "width": 480,
+          "height": 480,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kvapu_naikinimas.png",
+          "familyId": "83443b97-559d-4af5-9ceb-6faa46413a62"
+        },
+        {
+          "id": "9cafecfb-a6b5-4b3a-b376-4be32e04d57d",
+          "src": "/content-assets/o3tech/9cafecfb-a6b5-4b3a-b376-4be32e04d57d.webp",
+          "alt": "kvapu naikinimas",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kvapu_naikinimas.png",
+          "familyId": "83443b97-559d-4af5-9ceb-6faa46413a62"
+        },
+        {
+          "id": "571a0659-f647-4e50-9922-72751c122383",
+          "src": "/content-assets/o3tech/571a0659-f647-4e50-9922-72751c122383.webp",
+          "alt": "buitiniai ozonatoriai",
+          "width": 1000,
+          "height": 667,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/buitiniai-ozonatoriai.jpg",
+          "familyId": "9644ee86-47f0-4401-a2f7-21682dff6271"
+        },
+        {
+          "id": "9783bdfe-022d-479d-81ab-a3ee330fc31b",
+          "src": "/content-assets/o3tech/9783bdfe-022d-479d-81ab-a3ee330fc31b.webp",
+          "alt": "buitiniai ozonatoriai",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/buitiniai-ozonatoriai.jpg",
+          "familyId": "9644ee86-47f0-4401-a2f7-21682dff6271"
+        },
+        {
+          "id": "582cbbbf-ff41-4c03-a1ae-98f065fad371",
+          "src": "/content-assets/o3tech/582cbbbf-ff41-4c03-a1ae-98f065fad371.webp",
+          "alt": "buitiniai ozonatoriai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/buitiniai-ozonatoriai.jpg",
+          "familyId": "9644ee86-47f0-4401-a2f7-21682dff6271"
+        },
+        {
+          "id": "9d2dcc9a-c934-43be-948f-da4fd3e7a18b",
+          "src": "/content-assets/o3tech/9d2dcc9a-c934-43be-948f-da4fd3e7a18b.webp",
+          "alt": "buitiniai ozonatoriai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/buitiniai-ozonatoriai.jpg",
+          "familyId": "9644ee86-47f0-4401-a2f7-21682dff6271"
+        },
+        {
+          "id": "b9c9d21d-1118-4f10-8ecb-e6f93362879e",
+          "src": "/content-assets/o3tech/b9c9d21d-1118-4f10-8ecb-e6f93362879e.webp",
+          "alt": "profesionalus ozonatoriai",
+          "width": 1000,
+          "height": 667,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/profesionalus-ozonatoriai.jpg",
+          "familyId": "1615a6fe-4228-4d52-8bc3-76cef127d9da"
+        },
+        {
+          "id": "73cd67d3-45ac-4209-8e31-422f4407f626",
+          "src": "/content-assets/o3tech/73cd67d3-45ac-4209-8e31-422f4407f626.webp",
+          "alt": "profesionalus ozonatoriai",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/profesionalus-ozonatoriai.jpg",
+          "familyId": "1615a6fe-4228-4d52-8bc3-76cef127d9da"
+        },
+        {
+          "id": "1bb9796f-fbc9-4930-a9de-5b1dae1ff4b8",
+          "src": "/content-assets/o3tech/1bb9796f-fbc9-4930-a9de-5b1dae1ff4b8.webp",
+          "alt": "profesionalus ozonatoriai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/profesionalus-ozonatoriai.jpg",
+          "familyId": "1615a6fe-4228-4d52-8bc3-76cef127d9da"
+        },
+        {
+          "id": "26c8a0f1-31a7-4dea-a84a-a99d494e8b48",
+          "src": "/content-assets/o3tech/26c8a0f1-31a7-4dea-a84a-a99d494e8b48.webp",
+          "alt": "profesionalus ozonatoriai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/profesionalus-ozonatoriai.jpg",
+          "familyId": "1615a6fe-4228-4d52-8bc3-76cef127d9da"
+        },
+        {
+          "id": "8ceef31d-8f27-42b1-b71d-1d20b3901ef7",
+          "src": "/content-assets/o3tech/8ceef31d-8f27-42b1-b71d-1d20b3901ef7.webp",
+          "alt": "pramoniniai ozonatoriai",
+          "width": 1000,
+          "height": 667,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/pramoniniai-ozonatoriai.jpg",
+          "familyId": "ad0494d0-f364-4e2b-afca-869ef2c7371e"
+        },
+        {
+          "id": "ef14d85f-0188-441a-bc2d-790f86ed0629",
+          "src": "/content-assets/o3tech/ef14d85f-0188-441a-bc2d-790f86ed0629.webp",
+          "alt": "pramoniniai ozonatoriai",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/pramoniniai-ozonatoriai.jpg",
+          "familyId": "ad0494d0-f364-4e2b-afca-869ef2c7371e"
+        },
+        {
+          "id": "258e5cf1-8dbb-42f3-938a-9a1635b58ae6",
+          "src": "/content-assets/o3tech/258e5cf1-8dbb-42f3-938a-9a1635b58ae6.webp",
+          "alt": "pramoniniai ozonatoriai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/pramoniniai-ozonatoriai.jpg",
+          "familyId": "ad0494d0-f364-4e2b-afca-869ef2c7371e"
+        },
+        {
+          "id": "de7d35e4-6b61-4671-af57-a95d0b6ddd62",
+          "src": "/content-assets/o3tech/de7d35e4-6b61-4671-af57-a95d0b6ddd62.webp",
+          "alt": "pramoniniai ozonatoriai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/pramoniniai-ozonatoriai.jpg",
+          "familyId": "ad0494d0-f364-4e2b-afca-869ef2c7371e"
+        },
+        {
+          "id": "ce6d87b9-a667-4ae0-a7bf-98210b430cb7",
+          "src": "/content-assets/o3tech/ce6d87b9-a667-4ae0-a7bf-98210b430cb7.webp",
+          "alt": "automobiliniai ozonatoriai",
+          "width": 1000,
+          "height": 667,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/automobiliniai-ozonatoriai.jpg",
+          "familyId": "e9677bb1-b05a-498d-9510-3290d0794965"
+        },
+        {
+          "id": "5cda8137-0b87-464c-9887-d4dd26ba9452",
+          "src": "/content-assets/o3tech/5cda8137-0b87-464c-9887-d4dd26ba9452.webp",
+          "alt": "automobiliniai ozonatoriai",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/automobiliniai-ozonatoriai.jpg",
+          "familyId": "e9677bb1-b05a-498d-9510-3290d0794965"
+        },
+        {
+          "id": "ca7b996b-ce00-4dbf-8d6a-0c2db9f046fc",
+          "src": "/content-assets/o3tech/ca7b996b-ce00-4dbf-8d6a-0c2db9f046fc.webp",
+          "alt": "automobiliniai ozonatoriai",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/automobiliniai-ozonatoriai.jpg",
+          "familyId": "e9677bb1-b05a-498d-9510-3290d0794965"
+        },
+        {
+          "id": "e1fdaa68-0e3c-40c8-abdc-081f963a3b35",
+          "src": "/content-assets/o3tech/e1fdaa68-0e3c-40c8-abdc-081f963a3b35.webp",
+          "alt": "automobiliniai ozonatoriai",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/automobiliniai-ozonatoriai.jpg",
+          "familyId": "e9677bb1-b05a-498d-9510-3290d0794965"
+        },
+        {
+          "id": "120ed7da-4d57-41a4-a6b8-25d8247a6fcf",
+          "src": "/content-assets/o3tech/120ed7da-4d57-41a4-a6b8-25d8247a6fcf.webp",
+          "alt": "ozonatoriaus nuoma",
+          "width": 1600,
+          "height": 1067,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonatoriaus-nuoma.jpg",
+          "familyId": "45b22442-242e-40e3-b20e-0be3f2d2a9e6"
+        },
+        {
+          "id": "4684f3ff-f658-44f9-81db-e23918f7c928",
+          "src": "/content-assets/o3tech/4684f3ff-f658-44f9-81db-e23918f7c928.webp",
+          "alt": "ozonatoriaus nuoma",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonatoriaus-nuoma.jpg",
+          "familyId": "45b22442-242e-40e3-b20e-0be3f2d2a9e6"
+        },
+        {
+          "id": "c552767e-759f-4e09-b10d-4e8ea193a8fb",
+          "src": "/content-assets/o3tech/c552767e-759f-4e09-b10d-4e8ea193a8fb.webp",
+          "alt": "ozonatoriaus nuoma",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonatoriaus-nuoma.jpg",
+          "familyId": "45b22442-242e-40e3-b20e-0be3f2d2a9e6"
+        },
+        {
+          "id": "17557bd5-07ff-407a-ad42-e44d301f3a25",
+          "src": "/content-assets/o3tech/17557bd5-07ff-407a-ad42-e44d301f3a25.webp",
+          "alt": "ozonatoriaus nuoma",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonatoriaus-nuoma.jpg",
+          "familyId": "45b22442-242e-40e3-b20e-0be3f2d2a9e6"
+        },
+        {
+          "id": "cfc3b158-086d-4dfe-8bae-f7ced6654c6b",
+          "src": "/content-assets/o3tech/cfc3b158-086d-4dfe-8bae-f7ced6654c6b.webp",
+          "alt": "ozonatoriaus nuoma",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonatoriaus-nuoma.jpg",
+          "familyId": "45b22442-242e-40e3-b20e-0be3f2d2a9e6"
+        },
+        {
+          "id": "2f21a52e-f1ec-46b8-88fb-a33a0cdf5c24",
+          "src": "/content-assets/o3tech/2f21a52e-f1ec-46b8-88fb-a33a0cdf5c24.webp",
+          "alt": "kvapu naikinimas ozonu",
+          "width": 300,
+          "height": 200,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kvapu-naikinimas-ozonu.png",
+          "familyId": "6163c351-fd05-45f8-8cb7-3f09d188e9c6"
+        },
+        {
+          "id": "3cadb0a1-ce77-4991-9418-0f5c99315690",
+          "src": "/content-assets/o3tech/3cadb0a1-ce77-4991-9418-0f5c99315690.webp",
+          "alt": "dezinfekcija ozonu",
+          "width": 300,
+          "height": 200,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/dezinfekcija-ozonu.png",
+          "familyId": "2a1da905-973d-428e-82e8-f8f7357fd11e"
+        },
+        {
+          "id": "3c879757-a6e0-45b3-8565-ede963264b71",
+          "src": "/content-assets/o3tech/3c879757-a6e0-45b3-8565-ede963264b71.webp",
+          "alt": "patalynes dulkiu erkuciu naikinimas ozonu",
+          "width": 300,
+          "height": 200,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/patalynes-dulkiu-erkuciu-naikinimas-ozonu.png",
+          "familyId": "0740e535-ab66-445f-b611-81b83e0e6800"
+        },
+        {
+          "id": "598a6333-6c47-4d53-9e75-d06516225858",
+          "src": "/content-assets/o3tech/598a6333-6c47-4d53-9e75-d06516225858.webp",
+          "alt": "pelesio naikinimas ozonu",
+          "width": 300,
+          "height": 200,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/pelesio-naikinimas-ozonu.png",
+          "familyId": "c4bb851b-929f-43e1-983d-66c83af2083a"
+        },
+        {
+          "id": "c5991b3c-f674-4067-a84b-b60e9a7cdeba",
+          "src": "/content-assets/o3tech/c5991b3c-f674-4067-a84b-b60e9a7cdeba.webp",
+          "alt": "ozonas valymas",
+          "width": 300,
+          "height": 200,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonas-valymas.png",
+          "familyId": "98cba0b1-d961-4cdd-aade-71b2f7c71bef"
+        },
+        {
+          "id": "4cdb8d55-2b9e-448e-9e5e-e8b401bd5967",
+          "src": "/content-assets/o3tech/4cdb8d55-2b9e-448e-9e5e-e8b401bd5967.webp",
+          "alt": "Susisiekite su mumis",
+          "width": 1000,
+          "height": 667,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Susisiekite_su_mumis.jpg",
+          "familyId": "d52ff08b-fc6d-4499-af5e-83f4fb572b15"
+        },
+        {
+          "id": "ba4c6fde-25b2-4347-8825-8b8fdfb99b60",
+          "src": "/content-assets/o3tech/ba4c6fde-25b2-4347-8825-8b8fdfb99b60.webp",
+          "alt": "Susisiekite su mumis",
+          "width": 800,
+          "height": 534,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Susisiekite_su_mumis.jpg",
+          "familyId": "d52ff08b-fc6d-4499-af5e-83f4fb572b15"
+        },
+        {
+          "id": "2ce82498-7495-4c1e-b8d0-9d317dfe8d00",
+          "src": "/content-assets/o3tech/2ce82498-7495-4c1e-b8d0-9d317dfe8d00.webp",
+          "alt": "Susisiekite su mumis",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Susisiekite_su_mumis.jpg",
+          "familyId": "d52ff08b-fc6d-4499-af5e-83f4fb572b15"
+        },
+        {
+          "id": "5873ed23-92e7-4b49-b850-07cd1eea9ab1",
+          "src": "/content-assets/o3tech/5873ed23-92e7-4b49-b850-07cd1eea9ab1.webp",
+          "alt": "Susisiekite su mumis",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Susisiekite_su_mumis.jpg",
+          "familyId": "d52ff08b-fc6d-4499-af5e-83f4fb572b15"
+        },
+        {
+          "id": "3d30b6d9-550c-4638-ad48-8fbea65fd30f",
+          "src": "/content-assets/o3tech/3d30b6d9-550c-4638-ad48-8fbea65fd30f.webp",
+          "alt": "o3tech",
+          "width": 371,
+          "height": 112,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/logo-o3.png",
+          "familyId": "88941d3d-04d9-4053-8cd0-f15814213bd2"
+        },
+        {
+          "id": "1e37742c-3d42-4acc-be75-4262ef856294",
+          "src": "/content-assets/o3tech/1e37742c-3d42-4acc-be75-4262ef856294.webp",
+          "alt": "o3tech",
+          "width": 360,
+          "height": 109,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/logo-o3.png",
+          "familyId": "88941d3d-04d9-4053-8cd0-f15814213bd2"
+        },
+        {
+          "id": "a5df2c0d-8ebb-4830-a8ff-4442adcab1ed",
+          "src": "/content-assets/o3tech/a5df2c0d-8ebb-4830-a8ff-4442adcab1ed.webp",
+          "alt": "o3tech",
+          "width": 1600,
+          "height": 900,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Titulinis-scaled.jpg",
+          "familyId": "2969330f-e8ba-47df-8859-111ee68e718e"
+        },
+        {
+          "id": "f0e7a79c-c455-414f-83a1-437f1190d70b",
+          "src": "/content-assets/o3tech/f0e7a79c-c455-414f-83a1-437f1190d70b.webp",
+          "alt": "o3tech",
+          "width": 1200,
+          "height": 675,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Titulinis-scaled.jpg",
+          "familyId": "2969330f-e8ba-47df-8859-111ee68e718e"
+        },
+        {
+          "id": "5c0ea0a5-00fa-4e60-baec-6ec7d3fb1011",
+          "src": "/content-assets/o3tech/5c0ea0a5-00fa-4e60-baec-6ec7d3fb1011.webp",
+          "alt": "o3tech",
+          "width": 800,
+          "height": 450,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Titulinis-scaled.jpg",
+          "familyId": "2969330f-e8ba-47df-8859-111ee68e718e"
+        },
+        {
+          "id": "9b5f3371-9029-4f8e-9bf7-a36e16615f8a",
+          "src": "/content-assets/o3tech/9b5f3371-9029-4f8e-9bf7-a36e16615f8a.webp",
+          "alt": "o3tech",
+          "width": 640,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Titulinis-scaled.jpg",
+          "familyId": "2969330f-e8ba-47df-8859-111ee68e718e"
+        },
+        {
+          "id": "7a375624-ce72-4b2b-a78e-46f1d6ca9131",
+          "src": "/content-assets/o3tech/7a375624-ce72-4b2b-a78e-46f1d6ca9131.webp",
+          "alt": "o3tech",
+          "width": 360,
+          "height": 203,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Titulinis-scaled.jpg",
+          "familyId": "2969330f-e8ba-47df-8859-111ee68e718e"
+        },
+        {
+          "id": "86b835c1-e1d7-4d65-947a-52358c580456",
+          "src": "/content-assets/o3tech/86b835c1-e1d7-4d65-947a-52358c580456.webp",
+          "alt": "o3tech",
+          "width": 192,
+          "height": 192,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/cropped-android-chrome-512x512-1-1-192x192.png",
+          "familyId": "2ad5aef2-71bc-45a1-ac4b-83a5c216246d"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+      "revisionHash": "1a19dde695df34ad9149c658a1c79c31fca7d61e6d33969a93f540e6427a2b08",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "1a19dde695df34ad9149c658a1c79c31fca7d61e6d33969a93f540e6427a2b08",
+        "approvedAt": "2026-10-30T20:01:50.779Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "musu-slapuku-politika",
+      "title": "Mūsų slapukų politika",
+      "description": "Svetainė naudoja slapukų failus (slapukus). Naršydami mūsų puslapyje, jūs sutinkate naudoti slapukų failus, atsižvelgiant į dabartinius Jūsų naršyklės nustatymus.",
+      "intent": "Mūsų slapukų politika",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Svetainė naudoja slapukų failus (slapukus). Naršydami mūsų puslapyje, jūs sutinkate naudoti slapukų failus, atsižvelgiant į dabartinius Jūsų naršyklės nustatymus."
+        },
+        {
+          "type": "paragraph",
+          "text": "www.o3tech.lt interneto svetainėje naudojame slapukus (angl. cookies), todėl šiame skyriuje jums pateikiama išsami informacija apie tai, kaip slapukai naudojami ir kaip jums apsispręsti, ar slapukus palikti, ar pašalinti. Kas yra slapukas? Slapukais vadinami informacijos elementai, perkeliami iš interneto svetainės į jūsų kompiuterio standųjį diską. Tai nedideli informacijos failai, kurie leidžia interneto svetainėms išsaugoti ir vėl pasiekti informaciją apie naudotojo naršymo įpročius. Slapukus naudoja dauguma interneto svetainių, nes jie yra viena iš daugybės priemonių, kurios padeda pritaikyti interneto turinį prie naudotojų poreikių. Slapukų būna skirtingų: laikinieji slapukai (arba seanso slapukai) – pašalinami, kai užveriama naršyklė; nuolatiniai slapukai – nepašalinami ir lieka tol, kol pašalinami aktyviais veiksmais arba kol baigiasi jų galiojimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Svetainėje naudojami slapukai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuo metu svetainėje nenaudojame analitikos ar reklaminių slapukų. Svetainėje nėra pirkinių krepšelio ir lankytojų paskyrų, todėl šioms funkcijoms skirti slapukai taip pat nenaudojami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Svetainę aptarnauja „Cloudflare“. Jei lankytojui pateikiama saugumo patikra, jos rezultatui išsaugoti gali būti naudojamas būtinasis slapukas „cf_clearance“. Jis padeda įsiminti sėkmingai atliktą patikrą ir apsaugoti svetainę nuo piktnaudžiavimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "KAIP PAŠALINTI SLAPUKĄ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu jums reikia išsamesnės informacijos apie slapukus, apsilankykite interneto svetainėje www.aboutcookies.org, kur rasite išsamios, nepriklausomos informacijos apie tai, kaip išjungti slapukus per naršyklės nuostatas ir kaip pašalinti slapukus, kurie jau yra jūsų kompiuteryje. Kad pašalintumėte slapukus iš mobiliojo telefono, turėsite pasiskaityti telefono naudojimo instrukciją."
+        }
+      ],
+      "publishAt": "2021-06-21T14:38:17.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        }
+      ],
+      "id": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+      "revisionHash": "1930f19a4df5726f81bf981a6a6edb25fb86173f2ec6875ed05c091c996d227c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "1930f19a4df5726f81bf981a6a6edb25fb86173f2ec6875ed05c091c996d227c",
+        "approvedAt": "2026-10-30T20:01:50.788Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "prekes",
+      "title": "Prekės",
+      "description": "Prekės",
+      "intent": "Prekės",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Buitinis ozonatorius 7 g/h",
+            "Buitinis ozonatorius 10 g/h",
+            "Profesionalus ozonatorius 16 g/h",
+            "Profesionalus ozonatorius 24 g/h",
+            "Pramoninis ozonatorius 90g/h",
+            "Pramoninis ozonatorius 120g/h",
+            "Pramoninis ozonatorius 225g/h",
+            "Pramoninis ozonatorius 300g/h",
+            "Puskaukė 3M™ 7500",
+            "Puskaukė 3M™ 6000",
+            "Filtrai 3M™ FILTRAS 6051"
+          ]
+        }
+      ],
+      "publishAt": "2021-06-21T13:36:11.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "0aa808ea-8614-4d29-9e28-f48d71d8d71f",
+          "label": "Buitinis ozonatorius 7 g/h"
+        },
+        {
+          "targetPageId": "2d5ddb8b-434f-43b8-955f-b6ba85666058",
+          "label": "Buitinis ozonatorius 10 g/h"
+        },
+        {
+          "targetPageId": "62a7a8e0-f76e-43f1-a62c-683adb6aeaad",
+          "label": "Profesionalus ozonatorius 16 g/h"
+        },
+        {
+          "targetPageId": "4f0a453b-4618-4908-b410-23423c009291",
+          "label": "Profesionalus ozonatorius 24 g/h"
+        },
+        {
+          "targetPageId": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+          "label": "Pramoninis ozonatorius 90g/h"
+        },
+        {
+          "targetPageId": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+          "label": "Pramoninis ozonatorius 120g/h"
+        },
+        {
+          "targetPageId": "cd073952-1164-4866-aeca-f69a7a53cccb",
+          "label": "Pramoninis ozonatorius 225g/h"
+        },
+        {
+          "targetPageId": "7b1fa636-a429-409e-9360-78808734dd72",
+          "label": "Pramoninis ozonatorius 300g/h"
+        },
+        {
+          "targetPageId": "4e1c0eba-6827-499b-adb3-89952ff8c673",
+          "label": "Puskaukė 3M™ 7500"
+        },
+        {
+          "targetPageId": "446abe3d-c833-4c95-93ea-fcf6c69058ac",
+          "label": "Puskaukė 3M™ 6000"
+        },
+        {
+          "targetPageId": "f3e50004-5019-4343-9f52-1b468ec3cb58",
+          "label": "Filtrai 3M™ FILTRAS 6051"
+        }
+      ],
+      "id": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+      "revisionHash": "6a603a513416f58fc3237c04acc31188ff9485eab18756937f45634f1f28de3a",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6a603a513416f58fc3237c04acc31188ff9485eab18756937f45634f1f28de3a",
+        "approvedAt": "2026-10-30T20:01:50.795Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "garantija-ir-grazinimas",
+      "title": "GARANTIJA IR GRĄŽINIMAS",
+      "description": "Kaip nurodoma o3tech.lt taisyklių 11 punkte “Garantinis aptarnavimas​”:",
+      "intent": "GARANTIJA IR GRĄŽINIMAS",
+      "body": [
+        {
+          "type": "image",
+          "assetId": "f0b0e693-c1c1-4f8e-9967-0ed6bf5c9e67"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip nurodoma o3tech.lt taisyklių 11 punkte “Garantinis aptarnavimas​”:"
+        },
+        {
+          "type": "paragraph",
+          "text": "LR įstatymai numato, kad garantiniam aptarnavimui pakanka turėti pirkimo dokumentą – kasos čekį arba sąskaitą faktūrą, ant kurio yra tiksliai nurodytas įsigytas gaminys. Šis dokumentas patvirtina prekės įsigijimo laiką ir prekę įsigijusį asmenį. Papildomai pateikti garantinį taloną privaloma tik tuomet, kai pirkimo dokumente nėra nurodytas tikslus prekės modelis (ši informacija tuomet turi būti nurodyta garantiniame talone)."
+        },
+        {
+          "type": "paragraph",
+          "text": "ES direktyvoje 1999/44/EC numatomas ne trumpesnis nei 24 mėn. garantinis laikotarpis fiziniams asmenims. Ilgesnis arba trumpesnis terminas išskirtiniais atvejais numatomas gamintojo. Tuomet taikomas gamintojo nustatytas garantinis laikotarpis. Juridiniams asmenims dažniausiai taikomas 12 mėn. garantinis laikotarpis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristačius prekę garantiniam aptarnavimui, privalu turėti pirkimą įrodantį dokumentą (pirkimo kvitą) arba užpildytą garantinį taloną**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantinis remontas nemokamai atliekamas tik prekei sugedus garantiniu laikotarpiu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija netaikoma natūraliai susidėvinčioms prekių detalėms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantinis remontas atliekamas autorizuotuose serviso centruose. Pirkėjas prekes garantiniam servisui turi pristatyti pats. Stambios buitinės technikos kokybė gali būti įvertinta ir pirkėjo namuose***."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai autorizuotas servisas pateikia pažymą, kad prekė yra nepataisoma, klientui suteikiama teisė prekę pasikeisti kita tokia pat arba susigrąžinti sumokėtus pinigus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Už prekės transportavimo kaštus yra atsakingas Pirkėjas."
+        },
+        {
+          "type": "paragraph",
+          "text": "** Papildomus garantinius dokumentus naudoja ne visi gamintojai. Garantiniai dokumentai gali būti atsiunčiami ne kartu su įsigytomis prekėmis. Prekės siunčiamos iš sandėlio, tad dokumentai pakuotėje gali būti neužpildyti. Tokiu atveju turite galimybę pristatyti juos į MB Anvera ir mes išsiųsime juos užpildytus Jūsų nurodytu adresu."
+        },
+        {
+          "type": "paragraph",
+          "text": "*** Visais prekių remonto klausimais klientus mielai kviečiame kreiptis el. paštu sales@o3tech.lt, nurodant užsakymo numerį, pirkimo datą, pirkėjo vardą bei pavardę/įmonės pavadinimą. Stengsimės suteikti objektyvią pagalbą ir visą reikiamą informaciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip nurodoma o3tech.lt taisyklių 10 punkte “Prekių grąžinimas”:"
+        },
+        {
+          "type": "paragraph",
+          "text": "LR civilinio kodekso 6.228(10) straipsnio 1 dalis nustato, jog „Vartotojas turi teisę, nenurodydamas priežasties ir nepatirdamas kitų, negu nustatyta šio kodekso 6.228(11) straipsnyje, išlaidų, per keturiolika dienų atsisakyti nuotolinės sutarties ar ne prekybos patalpose sudarytos sutarties, išskyrus šio straipsnio 2 dalyje numatytas išimtis“. Pagal šią tvarką, galimas tinkamos kokybės prekių grąžinimas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Atsisakyti pirkimo-pardavimo sutarties pirkėjas turi teisę pranešdamas apie tai raštu pardavėjui ir prekes grąžindamas savo lėšomis per 14 kalendorinių dienų nuo užsakymo pristatymo dienos (siuntos priėmimas patvirtinamas parašu kurjeriui).",
+            "Jeigu klientui buvo suteikta papildoma pasiūlymo nuolaida, ši nuolaida yra automatiškai atšaukiama tuo atveju, kai klientas atšaukia (ar grąžina) bent vieną kokybišką šio pasiūlymo prekę."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirkėjas, grąžindamas prekes, privalo pristatyti jas pats arba per kurjerių tarnybą į MB Anvera. Grąžinant kokybišką prekę, būtina:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prekę pristatyti originalioje tvarkingoje pakuotėje;",
+            "Prekę pristatyti nenaudotą ir nesugadintą pirkėjo;",
+            "Prekę pristatyti nepraradusią prekinės išvaizdos (nenuplėštos plėvelės, nepažeistos etiketės ir pan.). Šis punktas netaikomas grąžinant nekokybiškas prekes;",
+            "Pristatyti pilną prekės komplektaciją;",
+            "Pateikti prekės įsigijimo dokumentą ar garantinį taloną;",
+            "Pateikti raštišką prašymą grąžinti prekę*"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "* Grąžinant prekę, klientas pateikia prašymą, kuriame nurodo tikslią užsakymo informaciją: užsakymo numerį, datą, prekės pavadinimą bei modelį, kainą, pristatymo datą bei sąskaitos numerį, į kurį pageidaujama, kad būtų pervesti grąžinami pinigai. Jei pinigus pageidaujama grąžinti ne į pirkėjo, o kito asmens sąskaitą, būtina pateikti pirkėjo išduotą įgaliojimą trečiajam asmeniui priimti grąžinamus pinigus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grąžinamą prekę prašome pristatyti į MB Anvera. Grąžinant kokybiškas prekes, pirkėjas atsako už:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* prekių supakavimą;* prekių pristatymą į parduotuvę (išskyrus atvejus, kai gauta ne ta prekė)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įstatymų numatyta tvarka Pardavėjas įsipareigoja nedelsdamas ir ne vėliau kaip per 14 dienų nuo tos dienos, kurią jis gavo Pirkėjo pranešimą apie sutarties atsisakymą, grąžinti Pirkėjui pinigus. Pirkėjui atsisakius sudarytos sutarties, Pirkėjui tenka tiesioginės prekių grąžinimo išlaidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "MB Anvera turi teisę išskaičiuoti iš klientui grąžinamos sumos suteiktą papildomos nuolaidos sumą, jei klientas naudojosi papildoma pasiūlymo nuolaida ir vėliau atšaukė (grąžino) bent vieną prekę iš pasiūlymo, kuriam buvo taikoma nuolaida."
+        },
+        {
+          "type": "paragraph",
+          "text": "Per garantinį terminą pakeitus įsigytą prekę kita dėl netinkamos kokybės, garantija nėra pratęsiama. T.y. pakeistajai prekei toliau galioja pirminės garantijos terminas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai prekė grąžinama dėl netinkamos kokybės, MB Anvera įsipareigoja netinkamos kokybės prekę pakeisti tinkamos kokybės preke arba grąžinti sumokėtus pinigus. Pirkėjas privalo grąžinti netinkamos kokybės prekes Pardavėjui savo sąskaita, jei atsisako remonto. Netinkamos kokybės prekės keičiamos vadovaujantis Lietuvos Respublikos Vyriausybės 2001.06.11 nutarimu Nr. 697 (2014.07.22 nutarimo Nr. 738 redakcija) patvirtintomis „Mažmeninės prekybos taisyklėmis“."
+        }
+      ],
+      "publishAt": "2021-06-21T12:57:50.000Z",
+      "media": [
+        {
+          "id": "f0b0e693-c1c1-4f8e-9967-0ed6bf5c9e67",
+          "src": "/content-assets/o3tech/f0b0e693-c1c1-4f8e-9967-0ed6bf5c9e67.webp",
+          "alt": "prekiu grazinimo mitai",
+          "width": 905,
+          "height": 1280,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/prekiu-grazinimo-mitai.png",
+          "familyId": "38b7a5ff-add5-43cb-be71-47cf51035bea"
+        },
+        {
+          "id": "4b86eaf2-c308-4a53-bf79-50b5916f06e2",
+          "src": "/content-assets/o3tech/4b86eaf2-c308-4a53-bf79-50b5916f06e2.webp",
+          "alt": "prekiu grazinimo mitai",
+          "width": 800,
+          "height": 1131,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/prekiu-grazinimo-mitai.png",
+          "familyId": "38b7a5ff-add5-43cb-be71-47cf51035bea"
+        },
+        {
+          "id": "dcc81a80-3a80-42d8-b437-2da879a2f98f",
+          "src": "/content-assets/o3tech/dcc81a80-3a80-42d8-b437-2da879a2f98f.webp",
+          "alt": "prekiu grazinimo mitai",
+          "width": 640,
+          "height": 905,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/prekiu-grazinimo-mitai.png",
+          "familyId": "38b7a5ff-add5-43cb-be71-47cf51035bea"
+        },
+        {
+          "id": "53cc8d7c-bab9-4ebe-a935-36053257a8c8",
+          "src": "/content-assets/o3tech/53cc8d7c-bab9-4ebe-a935-36053257a8c8.webp",
+          "alt": "prekiu grazinimo mitai",
+          "width": 360,
+          "height": 509,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/prekiu-grazinimo-mitai.png",
+          "familyId": "38b7a5ff-add5-43cb-be71-47cf51035bea"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+      "revisionHash": "253b339ea30a5fd23f9a07d0684cf07c08bead14e37f4e0085a544e7bb2f3669",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "253b339ea30a5fd23f9a07d0684cf07c08bead14e37f4e0085a544e7bb2f3669",
+        "approvedAt": "2026-10-30T20:01:50.801Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "taisykles",
+      "title": "o3tech.lt taisyklės",
+      "description": "1. SĄVOKOS",
+      "intent": "Prekių pirkimo-pardavimo internetinėje parduotuvėje o3tech.lt taisyklės",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "1. SĄVOKOS"
+        },
+        {
+          "type": "paragraph",
+          "text": "1.1. Pardavėjas – MB Anvera, juridinio asmens kodas 308123004, PVM mokėtojo kodas LT100020788717, adresas Buivydiškių g. 22, LT-07195 Vilnius."
+        },
+        {
+          "type": "paragraph",
+          "text": "1.2. Pirkėjas – 1) veiksnus fizinis asmuo, t. y. asmuo, sulaukęs pilnametystės, kurio veiksnumas nėra apribotas teismo tvarka; 2) nepilnametis nuo keturiolikos iki aštuoniolikos metų amžiaus, kuris turi tėvų arba rūpintojų sutikimą; 3) juridinis asmuo; 4) visų aukščiau nurodytų asmenų oficialiai įgalioti atstovai."
+        },
+        {
+          "type": "paragraph",
+          "text": "1.3. Šalys – abu: Pardavėjas ir Pirkėjas."
+        },
+        {
+          "type": "paragraph",
+          "text": "1.4. Asmens duomenys – bet kuri informacija, susijusi su fiziniu asmeniu – duomenų subjektu, kurio tapatybė yra žinoma arba gali būti tiesiogiai ar netiesiogiai nustatyta pasinaudojant tokiais duomenimis kaip asmens kodas, vienas arba keli asmeniui būdingi fizinio, fiziologinio, psichologinio, ekonominio, kultūrinio ar socialinio pobūdžio požymiai."
+        },
+        {
+          "type": "paragraph",
+          "text": "1.5. Taisyklės – šios „o3tech.lt taisyklės“."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. BENDROSIOS NUOSTATOS"
+        },
+        {
+          "type": "paragraph",
+          "text": "2.1. Iškilus būtinybei ar esant Lietuvos Respublikos teisės aktuose numatytoms aplinkybėms, Pardavėjas turi teisę pakeisti, taisyti ar papildyti Taisykles."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.2. Jei Pardavėjui numatyta teisė ar pareiga pateikti Pirkėjui informaciją ar dokumentus elektroniniu paštu, visais atvejais už veikiančio ir Pirkėjui priklausančio elektroninio pašto adreso pateikimą Pardavėjui atsako pats Pirkėjas."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.3. Nepaisant visų pastangų MB Anvera negarantuoja, kad paskelbta techninė ar vizualinė informacija neturi trūkumų ar klaidų. Kadangi neteisingi aprašymai negali būti pretenzijos pateikimo priežastimi, kilus abejonėms, prieš priimant pirkimo sprendimą, prašome kreipkitės į sales@o3tech.lt."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. PREKIŲ UŽSAKYMAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "3.1. Pirkėjas gali užsisakyti prekes o3tech.lt pasirinkdamas vieną iš šių būdų:"
+        },
+        {
+          "type": "paragraph",
+          "text": "3.1.1. el. paštu;3.1.2. telefonu;"
+        },
+        {
+          "type": "paragraph",
+          "text": "3.2. Prekių užsakymą telefonu pateikusiems Pirkėjams taikomos Taisyklių nuostatos. Pateikdami užsakymą jie sutinka su Taisyklėmis."
+        },
+        {
+          "type": "paragraph",
+          "text": "3.3. Patvirtindamas, kad susipažino su Taisyklėmis, Pirkėjas duoda sutikimą, jog jo užsakytos (-ų) prekės (-ių) instrukcija (-jos) lietuvių kalba būtų pateikiama (-mos) ne vėliau nei prekės (-ių) pristatymo metu Taisyklių numatyta tvarka Pirkėjo Pardavėjui nurodytu elektroninio pašto adresu."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. PIRKĖJO TEISĖS"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1. Pirkėjas turi teisę atsisakyti užsakymo šių Taisyklių nustatyta tvarka."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2. Pirkėjas turi teisę atsisakyti sutarties šių Taisyklių nustatyta tvarka."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3. Pirkėjas turi teisę pakeisti ar grąžinti įsigytas prekes Taisyklių nustatyta tvarka."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4. Pirkėjas turi kitų teisių, įtvirtintų šiose Taisyklėse ir Lietuvos Respublikos teisės aktuose."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5. Pirkėjas turi teisę pateikti prašymą ar skundą dėl o3tech.lt parduotuvėje įsigytos prekės ar paslaugos Valstybinei vartotojų teisių apsaugos tarnybai, ar užpildyti prašymo formą EGS platformoje http://ec.europa.eu/odr/."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. PIRKĖJO ĮSIPAREIGOJIMAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.1. Pirkėjas, naudodamasis o3tech.lt, privalo vykdyti savo įsipareigojimus, laikytis šių Taisyklių kitų sąlygų, aiškiai nurodytų o3tech.lt, bei nepažeisti Lietuvos Respublikos teisės aktų."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2. Pirkėjas privalo sumokėti už užsisakytas prekes ar paslaugas ir priimti jas šių Taisyklių nustatyta tvarka."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.PARDAVĖJO TEISĖS"
+        },
+        {
+          "type": "paragraph",
+          "text": "6.1. Pardavėjas turi teisę keisti, sustabdyti ar nutraukti tam tikrų o3tech.lt funkcijų veikimą ar dalį jų, taip pat keisti o3tech.lt esančių elementų išdėstymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.2. Pardavėjas turi teisę sustabdyti arba nutraukti o3tech.lt veiklą. Tokiu atveju, visi priimti ir patvirtinti Pirkėjų užsakymai užbaigiami vykdyti, o nauji užsakymai nėra priimami."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.3. Pardavėjas turi teisę keisti paslaugų, teikiamų o3tech.lt, teikimo apimtį ar būdą, sustabdyti, nutraukti paslaugų ar jų dalies teikimą, apmokestinti paslaugas ar paslaugų dalį."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4. Jei Pirkėjas bando pakenkti o3tech.lt darbo stabilumui, saugumui ar nevykdo savo įsipareigojimų, Pardavėjas turi teisę nedelsiant ir be išankstinio įspėjimo apriboti arba sustabdyti Pirkėjo galimybę naudotis o3tech.lt"
+        },
+        {
+          "type": "paragraph",
+          "text": "6.5. Pardavėjas turi teisę iš anksto neįspėjęs Pirkėjo anuliuoti jo užsakymą, jeigu Pirkėjas nesumoka už prekes per 3 (tris) darbo dienas."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.6. Pardavėjas turi teisę iš anksto įspėjęs Pirkėją keisti, sustabdyti, nutraukti užsakymą ar jo dalies vykdymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.7. Pardavėjas turi kitų teisių, įtvirtintų šiose Taisyklėse bei kituose MB Anvera dokumentuose ir Lietuvos Respublikos teisės aktuose."
+        },
+        {
+          "type": "paragraph",
+          "text": "7. PARDAVĖJO ĮSIPAREIGOJIMAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1. Pardavėjas įsipareigoja šiose Taisyklėse ir kitų MB Anvera dokumentų nustatytomis sąlygomis sudaryti Pirkėjui galimybę naudotis o3tech.lt teikiamomis paslaugomis."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.2. Pardavėjas įsipareigoja aiškiai ir suprantamai o3tech.lt suteikti Pirkėjui informaciją, įtvirtintą Lietuvos Respublikos Civilinio kodekso 6.2287 straipsnyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.3. Pardavėjas įsipareigoja gerbti Pirkėjo privatumą, Pirkėjo Asmens duomenis tvarkyti tik Taisyklių ir Lietuvos Respublikos teisės aktų nustatyta tvarka."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.4. Iki užsakymo pateikimo informuoti Pirkėją apie užsakymo įvykdymui reikšmingų o3tech.lt funkcijų sustabdymą ar nutraukimą, taip pat Taisyklių 6.2 – 6.3 punktuose nurodytus pakeitimus. Informacijos pateikimas o3tech.lt laikomas tinkamu informavimu."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.5. Taisyklių numatytomis sąlygomis Pardavėjas įsipareigoja pateikti Pirkėjo užsakytas ir priimti Pirkėjo grąžinamas prekes."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.6. Jei Pardavėjas dėl svarbių aplinkybių negali pristatyti Pirkėjui užsakytos prekės, jis įsipareigoja pasiūlyti Pirkėjui analogišką ar kiek įmanoma savo savybėmis panašesnę prekę. Pirkėjui atsisakius priimti prekę, kuri buvo siūloma kaip analogiška arba panaši, Pardavėjas įsipareigoja grąžinti Pirkėjui sumokėtus pinigus per 14 (keturiolika) darbo dienų, jeigu buvo atliktas išankstinis apmokėjimas, ir visais atvejais atšaukti užsakymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.7. Pardavėjas, nesutikdamas su Pirkėjo reikalavimais, privalo ne vėliau kaip per 10 (dešimt) kalendorinių dienų nuo Pirkėjo kreipimosi gavimo dienos, jeigu Lietuvos Respublikos ir Europos Sąjungos teisės aktai nenustato kitaip, pateikti vartotojui išsamų motyvuotą atsakymą."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.8. Pardavėjas įsipareigoja vykdyti kitas Taisyklėse ir Lietuvos Respublikos teisės aktuose Pardavėjui keliamas pareigas."
+        },
+        {
+          "type": "paragraph",
+          "text": "8. PREKIŲ KAINOS, APMOKĖJIMO TVARKA IR TERMINAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "8.1. Pirkėjas, patvirtindamas, kad susipažino su Taisyklėmis, sutinka, kad prekių pirkimo dokumentai – PVM sąskaitos faktūros, kurios kartu yra ir prekių garantiniai talonai, jam būtų pateikiamos elektroniniu būdu Pirkėjo kontaktų formoje nurodytu elektroninio pašto adresu. PVM sąskaitose faktūrose nurodomos pasirinktos prekės, jų kiekis, suteikiamos nuolaidos, galutinė prekių kaina, įskaitant visus mokesčius, ir kiti buhalterinę apskaitą reglamentuojančių teisės aktų patvirtinti būtini pateikti duomenys. PVM sąskaita faktūra sukuriama ta data, kada prekė išsiunčiama Pirkėjui (arba paruošiama atidavimui)."
+        },
+        {
+          "type": "paragraph",
+          "text": "8.2. Prekių kaina po to, kai Pardavėjas patvirtino užsakymą, keistis negali, išskyrus atvejus, kai prekės kaina pakito, dėl informacinių sistemų techninės klaidos ar kitų nuo Pardavėjo nepriklausančių objektyvių priežasčių. Jei tokiu atveju Pirkėjas nesutinka įsigyti prekę nauja kaina, Pirkėjas gali atsisakyti užsakymo informuodamas apie tai Pardavėją per 1 (vieną) darbo dieną. Anuliavus užsakymą šiame punkte numatyta tvarka, Pirkėjui grąžinamos visos jo sumokėtos sumos."
+        },
+        {
+          "type": "paragraph",
+          "text": "9. PREKIŲ PRISTATYMAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.1. Užsakydamas prekes Pirkėjas gali pasirinkti prekių pristatymo su kurjerių tarnyba paslaugą arba tiesioginio prekių atsiėmimo paslaugą."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2. Jei Pirkėjas pasirenka pristatymo su kurjerių tarnyba paslaugą:"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2.1. Pirkėjas įsipareigoja nurodyti tikslią prekių pristatymo vietą."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2.2. Pirkėjas įsipareigoja prekes priimti pats. Priimant prekes būtina pateikti galiojantį asmens tapatybę patvirtinantį dokumentą (asmens tapatybės kortelę, pasą ar naujo pavyzdžio vairuotojo pažymėjimą). Jei Pirkėjas prekių pats priimti negali, o prekės pristatytos Pirkėjo nurodytu adresu, Pirkėjas neturi teisės reikšti Pardavėjui pretenzijų dėl prekių pristatymo netinkamam asmeniui."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2.3. Prekes pristato Pardavėjas arba jo įgaliotas atstovas – kurjerių tarnyba. Stambiagabaritės prekės pristatomos iki namo arba artimiausio galimo privažiavimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.3. Prekių atsitiktinio sugadinimo ar jų dalinio sugedimo rizika pereina Pirkėjui nuo to momento, kai prekė perduota Pirkėjui."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.4. Jei prekių per nustatytą terminą nepavyksta įteikti Pirkėjui ir Pirkėjas nebuvo sumokėjęs už prekes, tokios prekės grąžinamos Pardavėjui, o užsakymas anuliuojamas."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.5. Jei pirkėjas pasirinko tiesioginio prekių atsiėmimo paslaugą:"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.5.1. Pirkėjas įsipareigoja atsiimti prekę per 3 darbo dienas, skaičiuojamas nuo Pardavėjo patvirtinimo, kad užsakymas jau paruoštas, gavimo momento."
+        },
+        {
+          "type": "paragraph",
+          "text": "SVARBU! Jei pakuotė yra pažeista, prekių kokybę tikrinkite dalyvaujant kurjeriui. Jei pastebėjote, kad ji turi pažeidimų, apie tai pasakykite prekes atvežusiam kurjeriui. Siuntos pristatymo dokumente pažymėkite, kad pakuotė turi pažeidimų ir kartu su kurjeriu užpildykite Pakuotės pažeidimų (patikrinimo) aktą. Patikrinkite pakuočių viduje esančias prekes ir, jei jos pažeistos, pažeidimus užfiksuokite nuotraukose. Nuotraukos bus reikalingos prekių grąžinimo procedūrai. Jei priimate siuntą ir pasirašote dokumentus, laikoma, kad siunta pristatyta tvarkingai."
+        },
+        {
+          "type": "paragraph",
+          "text": "10. PREKIŲ GRĄŽINIMAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.1. LR civilinio kodekso 6.228(10) straipsnio 1 dalis nustato, jog „Vartotojas turi teisę, nenurodydamas priežasties ir nepatirdamas kitų, negu nustatyta šio kodekso 6.228(11) straipsnyje, išlaidų, per 14 dienų atsisakyti nuotolinės sutarties ar ne prekybos patalpose sudarytos sutarties, išskyrus šio straipsnio 2 dalyje numatytas išimtis“. Pagal šią tvarką, galimas tinkamos kokybės prekių grąžinimas:"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.1.1. Atsisakyti pirkimo-pardavimo sutarties pirkėjas turi teisę pranešdamas apie tai raštu pardavėjui ir prekes grąžindamas savo lėšomis per 14 kalendorinių dienų nuo užsakymo pristatymo dienos (siuntos priėmimas patvirtinamas parašu kurjeriui)."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.1.2. Jeigu klientui buvo suteikta papildoma pasiūlymo nuolaida, ši nuolaida yra automatiškai atšaukiama tuo atveju, kai klientas atšaukia (ar grąžina) bent vieną kokybišką šio pasiūlymo prekę."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2. Pirkėjas, grąžindamas prekes, privalo pristatyti jas pats arba per kurjerių tarnybą į MB Anvera. Grąžinant kokybišką prekę, būtina:"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.1. Prekę pristatyti originalioje tvarkingoje pakuotėje;"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.2. Prekę pristatyti nenaudotą ir nesugadintą pirkėjo;"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.3. Prekę pristatyti nepraradusią prekinės išvaizdos (nenuplėštos plėvelės, nepažeistos etiketės ir pan.) Šis punktas netaikomas grąžinant nekokybiškas prekes;"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.4. Pristatyti pilną prekės komplektaciją;"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.5. Pateikti prekės įsigijimo dokumentą ar garantinį taloną;"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2.6. Pateikti raštišką prašymą grąžinti prekę*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* Grąžinant prekę, klientas pateikia prašymą, kuriame nurodo tikslią užsakymo informaciją: užsakymo numerį, datą, prekės pavadinimą bei modelį, kainą, pristatymo datą bei sąskaitos numerį, į kurį pageidaujama, kad būtų pervesti grąžinami pinigai. Jei pinigus pageidaujama grąžinti ne į pirkėjo, o kito asmens sąskaitą, būtina pateikti pirkėjo išduotą įgaliojimą trečiajam asmeniui priimti grąžinamus pinigus."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.3. Įstatymų numatyta tvarka Pardavėjas įsipareigoja nedelsdamas ir ne vėliau kaip per keturiolika dienų nuo tos dienos, kurią jis gavo Pirkėjo pranešimą apie sutarties atsisakymą, grąžinti Pirkėjui pinigus. Pirkėjui atsisakius sudarytos sutarties, Pirkėjui tenka tiesioginės prekių grąžinimo išlaidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.4. MB Anvera turi teisę išskaičiuoti iš klientui grąžinamos sumos suteiktą papildomos nuolaidos sumą, jei klientas naudojosi papildoma pasiūlymo nuolaida ir vėliau atšaukė (grąžino) bent vieną prekę iš pasiūlymo, kuriam buvo taikoma nuolaida."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.5. Per garantinį terminą pakeitus įsigytą prekę kita dėl netinkamos kokybės, garantija nėra pratęsiama. T.y. pakeistajai prekei toliau galioja pirminės garantijos terminas."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.6. Kai prekė grąžinama dėl netinkamos kokybės, MB Anvera įsipareigoja netinkamos kokybės prekę pakeisti tinkamos kokybės preke arba grąžinti sumokėtus pinigus. Pirkėjas privalo grąžinti netinkamos kokybės prekes Pardavėjui savo sąskaita, jei atsisako remonto. Netinkamos kokybės prekės keičiamos vadovaujantis Lietuvos Respublikos Vyriausybės 2001.06.11 nutarimu Nr. 697 (2014.07.22 nutarimo Nr. 738 redakcija) patvirtintomis „Mažmeninės prekybos taisyklėmis“."
+        },
+        {
+          "type": "paragraph",
+          "text": "11. GARANTINIS APTARNAVIMAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "11.1. LR įstatymai numato, kad garantiniam aptarnavimui pakanka turėti pirkimo dokumentą – kasos čekį arba sąskaitą faktūrą, ant kurios yra tiksliai nurodytas įsigytas gaminys. Šis dokumentas patvirtina prekės įsigijimo laiką ir prekę įsigijusį asmenį. Papildomai pateikti garantinį taloną privaloma tik tuomet, kai pirkimo dokumente nėra nurodytas tikslus prekės modelis (ši informacija tuomet turi būti nurodyta garantiniame talone)."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.2. ES direktyvoje 1999/44/EC numatomas ne trumpesnis nei 24 mėn. teisinės garantijos laikotarpis fiziniams asmenims. Ilgesnis arba trumpesnis terminas išskirtiniais atvejais numatomas gamintojo. Tuomet taikomas gamintojo nustatytas garantinis laikotarpis. Juridiniams asmenims dažniausiai taikomas 12 mėn. garantinis laikotarpis."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.3. Pristačius prekę garantiniam aptarnavimui, privalu turėti pirkimą įrodantį dokumentą (pirkimo kvitą) arba užpildytą garantinį taloną**."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.4. Garantinis remontas nemokamai atliekamas tik prekei sugedus garantiniu laikotarpiu."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.5. Garantija netaikoma natūraliai susidėvinčioms prekių detalėms."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.6. Garantinis remontas atliekamas autorizuotuose serviso centruose. Pirkėjas prekes garantiniam servisui turi pristatyti pats. Stambios buitinės technikos kokybė gali būti įvertinta ir pirkėjo patalpose***."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.7. Kai autorizuotas servisas pateikia pažymą, kad prekė yra nepataisoma, klientui suteikiama teisė prekę pasikeisti kita tokia pat arba susigrąžinti sumokėtus pinigus."
+        },
+        {
+          "type": "paragraph",
+          "text": "11.8 Už prekės transportavimo kaštus yra atsakingas Pirkėjas."
+        },
+        {
+          "type": "paragraph",
+          "text": "** Papildomus garantinius dokumentus naudoja ne visi gamintojai. Garantiniai dokumentai gali būti atsiunčiami ne kartu su įsigytomis prekėmis. Prekės siunčiamos iš sandėlio, tad dokumentai pakuotėje gali būti neužpildyti. Tokiu atveju turite galimybę pristatyti juos į MB Anvera ir mes išsiųsime juos užpildytus Jūsų nurodytu adresu."
+        },
+        {
+          "type": "paragraph",
+          "text": "*** Visais prekių remonto klausimais klientus mielai kviečiame kreiptis el. paštu sales@o3tech.lt, nurodant užsakymo numerį, pirkimo datą, pirkėjo vardą bei pavardę/įmonės pavadinimą. Stengsimės suteikti objektyvią pagalbą ir visą reikiamą informaciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "12. JŪSŲ DUOMENŲ SAUGUMAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "12.1. Jūsų duomenų saugumą užtikrina saugaus ryšio SSL sertifikatas, įdiegtas o3tech.lt svetainėje. Duomenys, keliaudami tarp Jūsų kompiuterio ir serverio nebus perskaityti arba pakeisti trečiųjų šalių, nes yra šifruojami sudėtingiausiais algoritmais."
+        }
+      ],
+      "publishAt": "2021-06-21T12:43:12.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+      "revisionHash": "db93b1a434517754f56af0a0a5d032a76504156539d9b7e130b01ee3482d26b9",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "db93b1a434517754f56af0a0a5d032a76504156539d9b7e130b01ee3482d26b9",
+        "approvedAt": "2026-10-30T20:01:50.807Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "service",
+      "slug": "ozono-generatoriaus-ozonatoriaus-nuoma",
+      "title": "OZONATORIAUS NUOMA",
+      "description": "Jei ozonavimo įrenginių neprireikia dažnai ar tiesiog norite išbandyti mūsų parduodamą įrangą, galite išsinuomoti ozonatorius parai ar ilgesniam laikotarpiui (taikomos nuolaidos). Pageidaujant, teikiama įrenginio pristatymo nurodytu adresu paslauga.",
+      "intent": "OZONATORIAUS NUOMA",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Jei ozonavimo įrenginių neprireikia dažnai ar tiesiog norite išbandyti mūsų parduodamą įrangą, galite išsinuomoti ozonatorius parai ar ilgesniam laikotarpiui (taikomos nuolaidos). Pageidaujant, teikiama įrenginio pristatymo nurodytu adresu paslauga."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Buitinio / automobilinio ozonatoriaus nuoma"
+        },
+        {
+          "type": "paragraph",
+          "text": "€ 40 1 para"
+        },
+        {
+          "type": "paragraph",
+          "text": "Teirautis"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Profesionalaus ozonatoriaus nuoma"
+        },
+        {
+          "type": "paragraph",
+          "text": "€ 50 1 para"
+        },
+        {
+          "type": "paragraph",
+          "text": "Teirautis"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "NUOMOJAMŲ OZONATORIŲ TECHNINĖS CHARAKTERISTIKOS"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Buitinis / automobilinis ozonatorius"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.) iki: 36"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 200"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 310"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 30 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: nėra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): 21x31x40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 7 kg"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Profesionalus ozonatorius"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.) iki: 72"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 300"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 400"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 30 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: kas 1 val."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): 21x31x40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 8 kg"
+        }
+      ],
+      "publishAt": "2021-06-21T11:22:17.000Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+      "revisionHash": "a975dc3a07839c70b62c0a156aff2456f6b00bb6ca3b10907a4a579ef3db1519",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "a975dc3a07839c70b62c0a156aff2456f6b00bb6ca3b10907a4a579ef3db1519",
+        "approvedAt": "2026-10-30T20:01:50.815Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "ozonas-geriausia-kvapu-naikinimo-priemone",
+      "title": "OZONAS – GERIAUSIA KVAPŲ NAIKINIMO PRIEMONĖ",
+      "description": "Ozonatorius elektros iškrovos būdu suardo aplinkoje esančias deguonies molekules (O2) į atomus, kurie cheminės reakcijos dėka tampa ozono (O3) dujomis. Ozonas yra labai nestabilus, nes trečiasis deguonies atomas prisijungia labai silpnai. Po susijungimo nestabilus trečiasis atomas akimirksniu praded",
+      "intent": "OZONAS – GERIAUSIA KVAPŲ NAIKINIMO PRIEMONĖ",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozonatorius elektros iškrovos būdu suardo aplinkoje esančias deguonies molekules (O2) į atomus, kurie cheminės reakcijos dėka tampa ozono (O3) dujomis. Ozonas yra labai nestabilus, nes trečiasis deguonies atomas prisijungia labai silpnai. Po susijungimo nestabilus trečiasis atomas akimirksniu pradeda oksiduotis su organinėmis ir neorganinėmis nemalonius kvapus sukeliančiomis medžiagomis, tokiu būdu sunaikindamas arba pakeisdamas jų savybes. Neutralizavęs blogus kvapus ozonas virsta deguonimi."
+        },
+        {
+          "type": "image",
+          "assetId": "5a25c1c1-7f6e-406e-bad4-f9a4b5f35f05"
+        },
+        {
+          "type": "image",
+          "assetId": "0b775be7-b4c9-4f51-bea0-8a15ece5ee9c"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "OZONO PANAUDOJIMO BŪDAI"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dezinfekacija nuo virusų ir bakterijų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonavimas yra chemiškai švarus ir ekologiškas dezinfekcijos būdas, po ozonavimo nereikia papildomai valyti ar kitaip apdirbti patalpų. Ozono dujos tolygiai pasiskirsto po aplinką, todėl dezinfekuojami visi paviršiai ir oras. Nepaisant šių privalumų ozonas kartu yra ir labai efektyvus dezinfektantas. Gamtoje nėra ozonui atsparių virusų ar bakterijų, ozonavimas suardo kenkėjų išskiriamus alergenus (pelių, žiurkių, tarakonų, dulkių erkučių, vabzdžių ir kt.). Ozono poveikis yra daug stipresnis nei kitų tradicinių dezinfekavimo būdų, pvz.: ozonas veikia 50 kartų stipriau ir 300 kartų greičiau, nei chloras."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Automobilių ir kitų transporto priemonių kvapų naikinimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonavimas panaikina dažniausiai automobilių salone pasitaikančius blogus kvapus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "cigarečių;",
+            "išpiltų gėrimų (kava, pienas, kefyras, sultys, alkoholis ir pan.);",
+            "kelio dulkių;",
+            "benzino / dyzelino;",
+            "išmetamųjų dujų;",
+            "pelėsio;",
+            "dažų / lako;"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pelėsio naikinimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pelėsio naikinimas pasitelkiant didelės koncentracijos ozoną puikiai pasiteisinusi, ekologiška ir saugi metodika, kuri vienu metu gali apdoroti visą kambario plotą. Kadangi pelėsio sporos plinta ore ir jame dauginasi, pagrindinis dalykas, ką privalu padaryti, tai ne tik mechaniškai nuvalyti pelėsį, bet ir užkirsti kelią jo dauginimuisi. Tik taip pilnai panaikinsite pelėsio atsiradimo priežastį, o ne tik nuvalysite jo pasekmes. Pelėsiai labiausiai mėgsta šaltas, drėgnas ir menkai vėdinamas patalpas. Todėl atsikračius pelėsio ir norint, kad jis negrįžtų, būtina reguliariai vėdinti patalpas ir reguliuoti drėgmę."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Gyvenamųjų patalpų, parduotuvių, maitinimo įstaigų kvapų naikinimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonavimas panaikina dažniausiai patalpose pasitaikančius blogus kvapus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "gyvūnų;",
+            "šaldytuvo / skalbimo mašinos;",
+            "degėsių / gaisro / cigarečių;",
+            "pūvimo / rūgimo / pelėsio;",
+            "dažų / aerozolių / lako ir kitų cheminių medžiagų;",
+            "kanalizacijos / šlapimo;",
+            "baldų / kiliminių dangų / drabužių;",
+            "kitus nemalonius kvapus;"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "PASIRUOŠIMAS OZONAVIMUI:"
+        },
+        {
+          "type": "image",
+          "assetId": "c2ea775e-cd45-47d8-a5c6-ff1c051ce65a"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš ozonavimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Būtina išvalyti norimą ozonuoti aplinką ir išvesti žmones ir gyvūnus iš patalpų"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Įrangos pajungimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonavimas galimas tik uždarose patalpose"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ozonavimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozonatorius ir ventiliatoriai pripildo aplinką ozonu. Ozonas prasiskverbia į sunkiausiai pasiekiamas vietas"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vėdinimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Baigus ozonavimą būtina išvėdinti aplinką. Esant ventiliacijai – 30 min. Be ventiliacijos – 120 min."
+        }
+      ],
+      "publishAt": "2021-06-21T10:16:32.000Z",
+      "media": [
+        {
+          "id": "5a25c1c1-7f6e-406e-bad4-f9a4b5f35f05",
+          "src": "/content-assets/o3tech/5a25c1c1-7f6e-406e-bad4-f9a4b5f35f05.webp",
+          "alt": "kaip veikia ozonas",
+          "width": 1276,
+          "height": 265,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kaip-veikia-ozonas.png",
+          "familyId": "f6b72a25-96b2-476b-b48e-5662219fa30c"
+        },
+        {
+          "id": "2da29f9f-e4ac-49f5-ab22-ccc3685c0f47",
+          "src": "/content-assets/o3tech/2da29f9f-e4ac-49f5-ab22-ccc3685c0f47.webp",
+          "alt": "kaip veikia ozonas",
+          "width": 1200,
+          "height": 249,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kaip-veikia-ozonas.png",
+          "familyId": "f6b72a25-96b2-476b-b48e-5662219fa30c"
+        },
+        {
+          "id": "877367db-d51b-4167-b2c7-e22e5f4eae4d",
+          "src": "/content-assets/o3tech/877367db-d51b-4167-b2c7-e22e5f4eae4d.webp",
+          "alt": "kaip veikia ozonas",
+          "width": 800,
+          "height": 166,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kaip-veikia-ozonas.png",
+          "familyId": "f6b72a25-96b2-476b-b48e-5662219fa30c"
+        },
+        {
+          "id": "4e70afc3-6523-4228-86ed-6f3a17ea32a0",
+          "src": "/content-assets/o3tech/4e70afc3-6523-4228-86ed-6f3a17ea32a0.webp",
+          "alt": "kaip veikia ozonas",
+          "width": 640,
+          "height": 133,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kaip-veikia-ozonas.png",
+          "familyId": "f6b72a25-96b2-476b-b48e-5662219fa30c"
+        },
+        {
+          "id": "bd56b78d-d75f-4de1-bdd7-103502cd149e",
+          "src": "/content-assets/o3tech/bd56b78d-d75f-4de1-bdd7-103502cd149e.webp",
+          "alt": "kaip veikia ozonas",
+          "width": 360,
+          "height": 75,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/kaip-veikia-ozonas.png",
+          "familyId": "f6b72a25-96b2-476b-b48e-5662219fa30c"
+        },
+        {
+          "id": "0b775be7-b4c9-4f51-bea0-8a15ece5ee9c",
+          "src": "/content-assets/o3tech/0b775be7-b4c9-4f51-bea0-8a15ece5ee9c.webp",
+          "alt": "ozonavimas formule",
+          "width": 623,
+          "height": 778,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimas-formule.png",
+          "familyId": "b68ff476-f7f6-4018-9783-95b4b0bbad69"
+        },
+        {
+          "id": "2c047334-12de-42fe-a081-2ba3ddbe80ce",
+          "src": "/content-assets/o3tech/2c047334-12de-42fe-a081-2ba3ddbe80ce.webp",
+          "alt": "ozonavimas formule",
+          "width": 360,
+          "height": 450,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimas-formule.png",
+          "familyId": "b68ff476-f7f6-4018-9783-95b4b0bbad69"
+        },
+        {
+          "id": "c2ea775e-cd45-47d8-a5c6-ff1c051ce65a",
+          "src": "/content-assets/o3tech/c2ea775e-cd45-47d8-a5c6-ff1c051ce65a.webp",
+          "alt": "ozonavimo eiga",
+          "width": 1445,
+          "height": 185,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimo-eiga.png",
+          "familyId": "874cb6c1-a2a7-4543-85d5-429b4e01d8f6"
+        },
+        {
+          "id": "7f60a7ab-4482-450e-af83-f7e055e9ed86",
+          "src": "/content-assets/o3tech/7f60a7ab-4482-450e-af83-f7e055e9ed86.webp",
+          "alt": "ozonavimo eiga",
+          "width": 1200,
+          "height": 154,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimo-eiga.png",
+          "familyId": "874cb6c1-a2a7-4543-85d5-429b4e01d8f6"
+        },
+        {
+          "id": "4cae8b1d-167c-45ce-a90b-759008721935",
+          "src": "/content-assets/o3tech/4cae8b1d-167c-45ce-a90b-759008721935.webp",
+          "alt": "ozonavimo eiga",
+          "width": 800,
+          "height": 102,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimo-eiga.png",
+          "familyId": "874cb6c1-a2a7-4543-85d5-429b4e01d8f6"
+        },
+        {
+          "id": "bb253046-4333-4e73-95d2-243e5712f99f",
+          "src": "/content-assets/o3tech/bb253046-4333-4e73-95d2-243e5712f99f.webp",
+          "alt": "ozonavimo eiga",
+          "width": 640,
+          "height": 82,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimo-eiga.png",
+          "familyId": "874cb6c1-a2a7-4543-85d5-429b4e01d8f6"
+        },
+        {
+          "id": "b2b4f19c-4851-434e-a147-51ffac306f38",
+          "src": "/content-assets/o3tech/b2b4f19c-4851-434e-a147-51ffac306f38.webp",
+          "alt": "ozonavimo eiga",
+          "width": 360,
+          "height": 46,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/ozonavimo-eiga.png",
+          "familyId": "874cb6c1-a2a7-4543-85d5-429b4e01d8f6"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+      "revisionHash": "8c0533d53342c641873308ac3a5ea339f27c6ea789b27add4abcbcd093b5dc4f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "8c0533d53342c641873308ac3a5ea339f27c6ea789b27add4abcbcd093b5dc4f",
+        "approvedAt": "2026-10-30T20:01:50.822Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/pramoninis-ozonatorius-120g-h",
+      "title": "Pramoninis ozonatorius 120g/h",
+      "description": "Ozono generatorius 120 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Pramoninis ozonatorius 120g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 120 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 120"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventiliatorių galingumas (m3/val.): 630"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekio reguliavimas: 2 rėžimai (30 / 60 / 90 / 120 g/val.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 900"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oro jonizatorius: 3X10 6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 60 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: taip, pasirenkamas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 55 x 30 x 43"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 18"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "1936,00€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:02.557Z",
+      "media": [
+        {
+          "id": "9e9b0aa2-b3ce-4684-8d7e-dc4735151b08",
+          "src": "/content-assets/o3tech/9e9b0aa2-b3ce-4684-8d7e-dc4735151b08.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX120.jpg",
+          "familyId": "124693bb-eb9b-47d0-90e8-fbbdc97a7e93"
+        },
+        {
+          "id": "9ac90e78-2310-4b84-aba1-246e6f2f144a",
+          "src": "/content-assets/o3tech/9ac90e78-2310-4b84-aba1-246e6f2f144a.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX120.jpg",
+          "familyId": "124693bb-eb9b-47d0-90e8-fbbdc97a7e93"
+        },
+        {
+          "id": "4b43f988-745a-4cd4-a428-c3b529809fa0",
+          "src": "/content-assets/o3tech/4b43f988-745a-4cd4-a428-c3b529809fa0.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX120.jpg",
+          "familyId": "124693bb-eb9b-47d0-90e8-fbbdc97a7e93"
+        },
+        {
+          "id": "e4e336b8-b974-47cc-ad49-2866a840806a",
+          "src": "/content-assets/o3tech/e4e336b8-b974-47cc-ad49-2866a840806a.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX120.jpg",
+          "familyId": "b35b7c2d-7d03-4be0-ae20-bb4cdca14816"
+        },
+        {
+          "id": "556dafcd-b5ae-4067-9b4e-4cd7e657028d",
+          "src": "/content-assets/o3tech/556dafcd-b5ae-4067-9b4e-4cd7e657028d.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX120.jpg",
+          "familyId": "b35b7c2d-7d03-4be0-ae20-bb4cdca14816"
+        },
+        {
+          "id": "10c74476-940c-4901-93cb-30871d4b5898",
+          "src": "/content-assets/o3tech/10c74476-940c-4901-93cb-30871d4b5898.webp",
+          "alt": "Pramoninis ozonatorius 120g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX120.jpg",
+          "familyId": "b35b7c2d-7d03-4be0-ae20-bb4cdca14816"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "cd073952-1164-4866-aeca-f69a7a53cccb",
+          "label": "Pramoninis ozonatorius 225g/h"
+        },
+        {
+          "targetPageId": "7b1fa636-a429-409e-9360-78808734dd72",
+          "label": "Pramoninis ozonatorius 300g/h"
+        },
+        {
+          "targetPageId": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+          "label": "Pramoninis ozonatorius 90g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+      "revisionHash": "ab3a1e4c2615376197144e65f3aa116fa81e5a06dd25069cd86cd8e1fde09a7f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ab3a1e4c2615376197144e65f3aa116fa81e5a06dd25069cd86cd8e1fde09a7f",
+        "approvedAt": "2026-10-30T20:01:50.830Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/pramoninis-ozonatorius-225g-h",
+      "title": "Pramoninis ozonatorius 225g/h",
+      "description": "Ozono generatorius gerina orą namuose ar biure: naikina alergenus, virusus, bakterijas, pelėsių (tame tarpe ir miltligės sukėlėjų) sporas bei skaido kvapus sukeliančius teršalus (dūmus, statybinių medžiagų išskiriamas medžiagas, lakias, kancerogenines medžiagas).",
+      "intent": "Pramoninis ozonatorius 225g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius gerina orą namuose ar biure: naikina alergenus, virusus, bakterijas, pelėsių (tame tarpe ir miltligės sukėlėjų) sporas bei skaido kvapus sukeliančius teršalus (dūmus, statybinių medžiagų išskiriamas medžiagas, lakias, kancerogenines medžiagas)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojimas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prieš naudodami šį įrenginį, ĮSITIKINKITE, KAD PATALPOSE NĖRA ŽMONIŲ AR GYVŪNŲ. IŠNEŠKITE KAMBARINIUS AUGALUS – kai kurie jų jautrūs padidėjusiam ozono kiekiui.",
+            "Prijunkite įrenginį, užsidegs kontrolinė lemputė.",
+            "Pasukite laikmatį pagal laikrodžio rodyklę ir pasirinkite reikiamą trukmę nuo 5 iki 120 minučių.",
+            "Pasiekus nustatytą laiką, prietaisas išsijungs automatiškai.",
+            "Po įrenginio išjungimo praėjus 40 minučių ir PRIEŠ ŽMONĖMS ĮEINANT Į PATALPAS, ATIDARYKITE DURIS IR LANGUS, kad jos išsivėdintų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 180-225"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 2100"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): 91 x 58 x 58"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 60 kg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija lietuvių kalba, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-7 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "3509,00€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:03.125Z",
+      "media": [
+        {
+          "id": "e5913220-6241-4aed-8c57-2e08fdd10e21",
+          "src": "/content-assets/o3tech/e5913220-6241-4aed-8c57-2e08fdd10e21.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX225.jpg",
+          "familyId": "8ccdc5dc-caae-4ae5-81ba-6a14a0f91da9"
+        },
+        {
+          "id": "3a0d0d66-2d25-4ffa-ae07-fea82bf1efe0",
+          "src": "/content-assets/o3tech/3a0d0d66-2d25-4ffa-ae07-fea82bf1efe0.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX225.jpg",
+          "familyId": "8ccdc5dc-caae-4ae5-81ba-6a14a0f91da9"
+        },
+        {
+          "id": "1c8d7f1a-fb51-46bc-b25e-309c306f458d",
+          "src": "/content-assets/o3tech/1c8d7f1a-fb51-46bc-b25e-309c306f458d.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozonatorius-MX225.jpg",
+          "familyId": "8ccdc5dc-caae-4ae5-81ba-6a14a0f91da9"
+        },
+        {
+          "id": "9da0190e-43dc-4210-9cde-bab7aeb1a564",
+          "src": "/content-assets/o3tech/9da0190e-43dc-4210-9cde-bab7aeb1a564.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX225.jpg",
+          "familyId": "aaceb9d9-9b40-4877-b608-3e7645ae329d"
+        },
+        {
+          "id": "9af3ab01-ee87-4d32-b88a-1987d56e4215",
+          "src": "/content-assets/o3tech/9af3ab01-ee87-4d32-b88a-1987d56e4215.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX225.jpg",
+          "familyId": "aaceb9d9-9b40-4877-b608-3e7645ae329d"
+        },
+        {
+          "id": "624b990d-e106-45b6-9ccf-e7fc89facb48",
+          "src": "/content-assets/o3tech/624b990d-e106-45b6-9ccf-e7fc89facb48.webp",
+          "alt": "Pramoninis ozonatorius 225g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/10/Pramoninis-ozono-generatorius-MX225.jpg",
+          "familyId": "aaceb9d9-9b40-4877-b608-3e7645ae329d"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+          "label": "Pramoninis ozonatorius 120g/h"
+        },
+        {
+          "targetPageId": "7b1fa636-a429-409e-9360-78808734dd72",
+          "label": "Pramoninis ozonatorius 300g/h"
+        },
+        {
+          "targetPageId": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+          "label": "Pramoninis ozonatorius 90g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "cd073952-1164-4866-aeca-f69a7a53cccb",
+      "revisionHash": "a227353733f57e14eccf08b59050cc43f23d40ef0c96aae36861f426d90d3a27",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "a227353733f57e14eccf08b59050cc43f23d40ef0c96aae36861f426d90d3a27",
+        "approvedAt": "2026-10-30T20:01:50.837Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/filtrai-3m-a1-anglinis-filtras-6051",
+      "title": "Filtrai 3M™ FILTRAS 6051",
+      "description": "Filtrai 3M™ A1 ANGLINIS FILTRAS 6051. Naudojami apsaugai nuo organinių garų ir dujų.",
+      "intent": "Filtrai 3M™ FILTRAS 6051",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Komplektuojami su 3M™ 6000 ir 3M™ 7500 serijos apsauginėmis puskaukėmis arba pilnomis veido kaukėmis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojami apsaugai nuo organinių garų ir dujų. Yra unikalios trapecijos formos, todėl neužstoja matymo lauko."
+        },
+        {
+          "type": "paragraph",
+          "text": "38,72€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:03.243Z",
+      "media": [
+        {
+          "id": "2dcf8212-f6c5-43e3-b848-24c5726b3c3d",
+          "src": "/content-assets/o3tech/2dcf8212-f6c5-43e3-b848-24c5726b3c3d.webp",
+          "alt": "Filtrai 3M™ FILTRAS 6051",
+          "width": 512,
+          "height": 512,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/3M-A1-ANGLINIS-FILTRAS-6051.jpg",
+          "familyId": "b1f2d610-0071-401e-8dbe-59dd92c54283"
+        },
+        {
+          "id": "f61cbc33-206f-445a-a805-1d77210940ce",
+          "src": "/content-assets/o3tech/f61cbc33-206f-445a-a805-1d77210940ce.webp",
+          "alt": "Filtrai 3M™ FILTRAS 6051",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/3M-A1-ANGLINIS-FILTRAS-6051.jpg",
+          "familyId": "b1f2d610-0071-401e-8dbe-59dd92c54283"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "446abe3d-c833-4c95-93ea-fcf6c69058ac",
+          "label": "Puskaukė 3M™ 6000"
+        },
+        {
+          "targetPageId": "4e1c0eba-6827-499b-adb3-89952ff8c673",
+          "label": "Puskaukė 3M™ 7500"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "f3e50004-5019-4343-9f52-1b468ec3cb58",
+      "revisionHash": "ba2e1012986c7f50e4dec3a1d6150be77bf5eedd3d42a04314afadc85ec6cc72",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "ba2e1012986c7f50e4dec3a1d6150be77bf5eedd3d42a04314afadc85ec6cc72",
+        "approvedAt": "2026-10-30T20:01:50.843Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/puskauke-3m-6000",
+      "title": "Puskaukė 3M™ 6000",
+      "description": "3M 6000 Serijos daugkartinio naudojimo apsauginės puskaukės yra itin lengvos, paprastos naudoti bei suteikia maksimalią apsaugą. Puskaukės gaminamos su 3M Bayonet filtrų tvirtinimo sistema, kuri suteikia galimybę pritvirtinti įvairius dvigubus lengvus filtrus, saugančius nuo dujų, garų ar dulkių, pr",
+      "intent": "Puskaukė 3M™ 6000",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "3M 6000 Serijos daugkartinio naudojimo apsauginės puskaukės yra itin lengvos, paprastos naudoti bei suteikia maksimalią apsaugą. Puskaukės gaminamos su 3M Bayonet filtrų tvirtinimo sistema, kuri suteikia galimybę pritvirtinti įvairius dvigubus lengvus filtrus, saugančius nuo dujų, garų ar dulkių, priklausomai nuo individualių poreikių. Dviejų filtrų sistema ir iškvėpimo vožtuvas sumažina pasipriešinimą kvėpuojant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puskaukė komplektacijoje neturi filtrų, todėl perkant rekomenduojame įsigyti filtrus 3M A1 6051"
+        },
+        {
+          "type": "paragraph",
+          "text": "36,30€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:03.285Z",
+      "media": [
+        {
+          "id": "962ce734-2ae0-45be-b6d6-7bac01b6246d",
+          "src": "/content-assets/o3tech/962ce734-2ae0-45be-b6d6-7bac01b6246d.webp",
+          "alt": "Puskaukė 3M™ 6000",
+          "width": 310,
+          "height": 310,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Puskauke-3M-6000-half-mask.jpg",
+          "familyId": "844fc7e9-e314-4809-9f63-92bea5386a7b"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "f3e50004-5019-4343-9f52-1b468ec3cb58",
+          "label": "Filtrai 3M™ FILTRAS 6051"
+        },
+        {
+          "targetPageId": "4e1c0eba-6827-499b-adb3-89952ff8c673",
+          "label": "Puskaukė 3M™ 7500"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "446abe3d-c833-4c95-93ea-fcf6c69058ac",
+      "revisionHash": "1cbff21614b52f53234d05ebee4698ee9d74ea11aaa45ac2edb3285d7e9830d3",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "1cbff21614b52f53234d05ebee4698ee9d74ea11aaa45ac2edb3285d7e9830d3",
+        "approvedAt": "2026-10-30T20:01:50.850Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/puskauke-3m-7500",
+      "title": "Puskaukė 3M™ 7500",
+      "description": "3M 7500 Serijos daugkartinio naudojimo apsauginės puskaukės yra itin lengvos, paprastos naudoti bei suteikia maksimalią apsaugą. Puskaukės gaminamos su 3M Bayonet filtrų tvirtinimo sistema, kuri suteikia galimybę pritvirtinti įvairius dvigubus lengvus filtrus, saugančius nuo dujų, garų ar dulkių, pr",
+      "intent": "Puskaukė 3M™ 7500",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "3M 7500 Serijos daugkartinio naudojimo apsauginės puskaukės yra itin lengvos, paprastos naudoti bei suteikia maksimalią apsaugą. Puskaukės gaminamos su 3M Bayonet filtrų tvirtinimo sistema, kuri suteikia galimybę pritvirtinti įvairius dvigubus lengvus filtrus, saugančius nuo dujų, garų ar dulkių, priklausomai nuo individualių poreikių. Dviejų filtrų sistema ir iškvėpimo vožtuvas sumažina pasipriešinimą kvėpuojant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puskaukė komplektacijoje neturi filtrų, todėl perkant rekomenduojame įsigyti filtrus 3M A1 6051"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 3-5 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "55,66€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:03.330Z",
+      "media": [
+        {
+          "id": "aa8ce48d-d939-4288-adaa-feeff9b6ca3e",
+          "src": "/content-assets/o3tech/aa8ce48d-d939-4288-adaa-feeff9b6ca3e.webp",
+          "alt": "Puskaukė 3M™ 7500",
+          "width": 310,
+          "height": 291,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Puskauke-3M-7501.jpg",
+          "familyId": "270b7740-e18e-4736-a38d-e17c54539f35"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "f3e50004-5019-4343-9f52-1b468ec3cb58",
+          "label": "Filtrai 3M™ FILTRAS 6051"
+        },
+        {
+          "targetPageId": "446abe3d-c833-4c95-93ea-fcf6c69058ac",
+          "label": "Puskaukė 3M™ 6000"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "4e1c0eba-6827-499b-adb3-89952ff8c673",
+      "revisionHash": "6067e6f1d4e36f78b7ca80fabb80b670f64203c97e06f00d632a0c702a8b45f3",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6067e6f1d4e36f78b7ca80fabb80b670f64203c97e06f00d632a0c702a8b45f3",
+        "approvedAt": "2026-10-30T20:01:50.857Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/pramoninis-ozonatorius-300g-h",
+      "title": "Pramoninis ozonatorius 300g/h",
+      "description": "Ozono generatorius gerina orą namuose ar biure: naikina alergenus, virusus, bakterijas, pelėsių (tame tarpe ir miltligės sukėlėjų) sporas bei skaido kvapus sukeliančius teršalus (dūmus, statybinių medžiagų išskiriamas medžiagas, lakias, kancerogenines medžiagas).",
+      "intent": "Pramoninis ozonatorius 300g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius gerina orą namuose ar biure: naikina alergenus, virusus, bakterijas, pelėsių (tame tarpe ir miltligės sukėlėjų) sporas bei skaido kvapus sukeliančius teršalus (dūmus, statybinių medžiagų išskiriamas medžiagas, lakias, kancerogenines medžiagas)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudojimas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Prieš naudodami šį įrenginį, ĮSITIKINKITE, KAD PATALPOSE NĖRA ŽMONIŲ AR GYVŪNŲ. IŠNEŠKITE KAMBARINIUS AUGALUS – kai kurie jų jautrūs padidėjusiam ozono kiekiui.",
+            "Prijunkite įrenginį, užsidegs kontrolinė lemputė.",
+            "Pasukite laikmatį pagal laikrodžio rodyklę ir pasirinkite reikiamą trukmę nuo 5 iki 120 minučių.",
+            "Pasiekus nustatytą laiką, prietaisas išsijungs automatiškai.",
+            "Po įrenginio išjungimo praėjus 40 minučių ir PRIEŠ ŽMONĖMS ĮEINANT Į PATALPAS, ATIDARYKITE DURIS IR LANGUS, kad jos išsivėdintų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 250-300"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 2900"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): 91 x 58 x 58"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 60 kg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija lietuvių kalba, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-7 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "3751,00€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:03.676Z",
+      "media": [
+        {
+          "id": "841b6047-850d-49a8-af3f-bba7197e1d60",
+          "src": "/content-assets/o3tech/841b6047-850d-49a8-af3f-bba7197e1d60.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX300.jpg",
+          "familyId": "750bc6c2-d54a-4796-acff-c19d99050958"
+        },
+        {
+          "id": "253405b2-8993-41b2-8d84-b51d1262eda9",
+          "src": "/content-assets/o3tech/253405b2-8993-41b2-8d84-b51d1262eda9.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX300.jpg",
+          "familyId": "750bc6c2-d54a-4796-acff-c19d99050958"
+        },
+        {
+          "id": "1ee9ba5e-63a6-4ac1-8aca-1a2789610435",
+          "src": "/content-assets/o3tech/1ee9ba5e-63a6-4ac1-8aca-1a2789610435.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX300.jpg",
+          "familyId": "750bc6c2-d54a-4796-acff-c19d99050958"
+        },
+        {
+          "id": "87a8c641-2ed0-4742-a7dc-a1aabd56c8f3",
+          "src": "/content-assets/o3tech/87a8c641-2ed0-4742-a7dc-a1aabd56c8f3.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX300.jpg",
+          "familyId": "33844482-32c0-479d-91be-c4afceffab00"
+        },
+        {
+          "id": "75a478c6-6185-44b1-a3dc-90ae6cbe9dd8",
+          "src": "/content-assets/o3tech/75a478c6-6185-44b1-a3dc-90ae6cbe9dd8.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX300.jpg",
+          "familyId": "33844482-32c0-479d-91be-c4afceffab00"
+        },
+        {
+          "id": "03e6ca99-78f9-4472-a791-99ffb78974e8",
+          "src": "/content-assets/o3tech/03e6ca99-78f9-4472-a791-99ffb78974e8.webp",
+          "alt": "Pramoninis ozonatorius 300g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX300.jpg",
+          "familyId": "33844482-32c0-479d-91be-c4afceffab00"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+          "label": "Pramoninis ozonatorius 120g/h"
+        },
+        {
+          "targetPageId": "cd073952-1164-4866-aeca-f69a7a53cccb",
+          "label": "Pramoninis ozonatorius 225g/h"
+        },
+        {
+          "targetPageId": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+          "label": "Pramoninis ozonatorius 90g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "7b1fa636-a429-409e-9360-78808734dd72",
+      "revisionHash": "513b0166a9122b54fb3892139289a24864739ba2fd91153b8baf5bfc9971bc43",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "513b0166a9122b54fb3892139289a24864739ba2fd91153b8baf5bfc9971bc43",
+        "approvedAt": "2026-10-30T20:01:50.864Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/pramoninis-ozonatorius-90g-h",
+      "title": "Pramoninis ozonatorius 90g/h",
+      "description": "Ozono generatorius 90 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Pramoninis ozonatorius 90g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 90 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 90"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventiliatorių galingumas (m3/val.): 630"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekio reguliavimas: 2 rėžimai (45 / 90 g/val.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 700"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oro jonizatorius: 3X10 6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 60 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: taip, pasirenkamas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 55 x 30 x 43"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 18"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "1633,50€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:04.134Z",
+      "media": [
+        {
+          "id": "b49b821c-26ba-4f14-9c0f-21cdb8a9fd90",
+          "src": "/content-assets/o3tech/b49b821c-26ba-4f14-9c0f-21cdb8a9fd90.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX90.jpg",
+          "familyId": "9161848a-0f41-425f-90d0-0dfd060b8633"
+        },
+        {
+          "id": "086b47f5-460a-4859-bf98-65b082589d16",
+          "src": "/content-assets/o3tech/086b47f5-460a-4859-bf98-65b082589d16.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX90.jpg",
+          "familyId": "9161848a-0f41-425f-90d0-0dfd060b8633"
+        },
+        {
+          "id": "7bd43e68-4399-4e11-8516-a4729b57d962",
+          "src": "/content-assets/o3tech/7bd43e68-4399-4e11-8516-a4729b57d962.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozono-generatorius-MX90.jpg",
+          "familyId": "9161848a-0f41-425f-90d0-0dfd060b8633"
+        },
+        {
+          "id": "a73a6cbe-b7a8-4c36-ac0a-618c5cdd2294",
+          "src": "/content-assets/o3tech/a73a6cbe-b7a8-4c36-ac0a-618c5cdd2294.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX90.jpg",
+          "familyId": "e85bec9f-fdd3-44e8-a0ab-7483931586b9"
+        },
+        {
+          "id": "229414b5-4bf2-48c1-96ad-f611cd1589a5",
+          "src": "/content-assets/o3tech/229414b5-4bf2-48c1-96ad-f611cd1589a5.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX90.jpg",
+          "familyId": "e85bec9f-fdd3-44e8-a0ab-7483931586b9"
+        },
+        {
+          "id": "aa528751-f63f-44c2-ba2e-fe7736e1a198",
+          "src": "/content-assets/o3tech/aa528751-f63f-44c2-ba2e-fe7736e1a198.webp",
+          "alt": "Pramoninis ozonatorius 90g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Pramoninis-ozonatorius-MX90.jpg",
+          "familyId": "e85bec9f-fdd3-44e8-a0ab-7483931586b9"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+          "label": "Pramoninis ozonatorius 120g/h"
+        },
+        {
+          "targetPageId": "cd073952-1164-4866-aeca-f69a7a53cccb",
+          "label": "Pramoninis ozonatorius 225g/h"
+        },
+        {
+          "targetPageId": "7b1fa636-a429-409e-9360-78808734dd72",
+          "label": "Pramoninis ozonatorius 300g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+      "revisionHash": "18b8cda22abf89c7118c82a2bc404851dd5127a594b8095bd6f78af72a594a36",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "18b8cda22abf89c7118c82a2bc404851dd5127a594b8095bd6f78af72a594a36",
+        "approvedAt": "2026-10-30T20:01:50.869Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/profesionalus-ozonatorius-16-g-h",
+      "title": "Profesionalus ozonatorius 16 g/h",
+      "description": "Ozono generatorius 16 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Profesionalus ozonatorius 16 g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 16 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Valdymas įrenginio ekrane arba nuotolinio valdymo pulteliu."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 10-16"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekio reguliavimas: 3 rėžimai (7 / 14 / 16 g/val.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 120"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 230"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Nėra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oro jonizatorius: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 50 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: kas 15 / 30 / 40 / 50 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 21 x 31 x 40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 7"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis, valdymo pultelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "580,80€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:04.481Z",
+      "media": [
+        {
+          "id": "9c38ed37-b6ba-4ee9-a707-6f81aadc36b8",
+          "src": "/content-assets/o3tech/9c38ed37-b6ba-4ee9-a707-6f81aadc36b8.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P16GE.jpg",
+          "familyId": "04de65e7-b29f-4900-8c88-dd26dbfbc540"
+        },
+        {
+          "id": "e13b66e9-5dd8-4fc6-93ac-dea2295208de",
+          "src": "/content-assets/o3tech/e13b66e9-5dd8-4fc6-93ac-dea2295208de.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P16GE.jpg",
+          "familyId": "04de65e7-b29f-4900-8c88-dd26dbfbc540"
+        },
+        {
+          "id": "eaa80be8-a474-4b7f-a938-ab4347e74f52",
+          "src": "/content-assets/o3tech/eaa80be8-a474-4b7f-a938-ab4347e74f52.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P16GE.jpg",
+          "familyId": "04de65e7-b29f-4900-8c88-dd26dbfbc540"
+        },
+        {
+          "id": "2f9619f7-4bf4-4ea0-b0cf-d161cab67ac6",
+          "src": "/content-assets/o3tech/2f9619f7-4bf4-4ea0-b0cf-d161cab67ac6.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P16GE.jpg",
+          "familyId": "27d01e5b-b895-4ca3-9af4-2eb014b82017"
+        },
+        {
+          "id": "83dab7a7-c18c-4b0e-a22f-df443dfc8df6",
+          "src": "/content-assets/o3tech/83dab7a7-c18c-4b0e-a22f-df443dfc8df6.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P16GE.jpg",
+          "familyId": "27d01e5b-b895-4ca3-9af4-2eb014b82017"
+        },
+        {
+          "id": "801d854e-b5b9-40ca-81a1-9f3abece8946",
+          "src": "/content-assets/o3tech/801d854e-b5b9-40ca-81a1-9f3abece8946.webp",
+          "alt": "Profesionalus ozonatorius 16 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P16GE.jpg",
+          "familyId": "27d01e5b-b895-4ca3-9af4-2eb014b82017"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "4f0a453b-4618-4908-b410-23423c009291",
+          "label": "Profesionalus ozonatorius 24 g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "62a7a8e0-f76e-43f1-a62c-683adb6aeaad",
+      "revisionHash": "08c9553d5e150794f6f642d4cd0aa8d697be6420c5938cf49574cbf90e0c5e30",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "08c9553d5e150794f6f642d4cd0aa8d697be6420c5938cf49574cbf90e0c5e30",
+        "approvedAt": "2026-10-30T20:01:50.877Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/profesionalus-ozonatorius-24-g-h",
+      "title": "Profesionalus ozonatorius 24 g/h",
+      "description": "Ozono generatorius 24 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Profesionalus ozonatorius 24 g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 24 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Valdymas įrenginio ekrane arba nuotolinio valdymo pulteliu."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 18-24"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekio reguliavimas: 3 rėžimai (7 / 14 / 24 g/val.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 140"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 310"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Nėra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oro jonizatorius: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 50 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: kas 15 / 30 / 40 / 50 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 21 x 31 x 40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 8,1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis, valdymo pultelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "968,00€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:04.825Z",
+      "media": [
+        {
+          "id": "287f3896-69f9-4787-bcd6-d4a3f710e54c",
+          "src": "/content-assets/o3tech/287f3896-69f9-4787-bcd6-d4a3f710e54c.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P24GE.jpg",
+          "familyId": "352a356e-c95b-458c-8a58-36148fd85428"
+        },
+        {
+          "id": "0c5a35b5-a0e7-4dfd-98c1-fb86e2fc405e",
+          "src": "/content-assets/o3tech/0c5a35b5-a0e7-4dfd-98c1-fb86e2fc405e.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P24GE.jpg",
+          "familyId": "352a356e-c95b-458c-8a58-36148fd85428"
+        },
+        {
+          "id": "8dd5095a-0a09-4621-9c8a-91a9833b3ffc",
+          "src": "/content-assets/o3tech/8dd5095a-0a09-4621-9c8a-91a9833b3ffc.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozono-generatorius-P24GE.jpg",
+          "familyId": "352a356e-c95b-458c-8a58-36148fd85428"
+        },
+        {
+          "id": "3aaf19e3-39ce-4635-97fc-548e5bfc3476",
+          "src": "/content-assets/o3tech/3aaf19e3-39ce-4635-97fc-548e5bfc3476.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P24GE.jpg",
+          "familyId": "bd0d37bf-70c6-44e2-b6a7-433fe81d4e9d"
+        },
+        {
+          "id": "ea350040-1003-490f-85c6-7eb897d29ea0",
+          "src": "/content-assets/o3tech/ea350040-1003-490f-85c6-7eb897d29ea0.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P24GE.jpg",
+          "familyId": "bd0d37bf-70c6-44e2-b6a7-433fe81d4e9d"
+        },
+        {
+          "id": "c91969fd-5b3e-439d-b84d-93e34ef1de6d",
+          "src": "/content-assets/o3tech/c91969fd-5b3e-439d-b84d-93e34ef1de6d.webp",
+          "alt": "Profesionalus ozonatorius 24 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Profesionalus-ozonatorius-P24GE.jpg",
+          "familyId": "bd0d37bf-70c6-44e2-b6a7-433fe81d4e9d"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "62a7a8e0-f76e-43f1-a62c-683adb6aeaad",
+          "label": "Profesionalus ozonatorius 16 g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "4f0a453b-4618-4908-b410-23423c009291",
+      "revisionHash": "855354bacedb6509e205aee5d1bcde4b196bb7448c1103685e980ed2248babad",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "855354bacedb6509e205aee5d1bcde4b196bb7448c1103685e980ed2248babad",
+        "approvedAt": "2026-10-30T20:01:50.883Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/buitinis-ozonatorius-7-g-h",
+      "title": "Buitinis ozonatorius 7 g/h",
+      "description": "Ozono generatorius 7 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Buitinis ozonatorius 7 g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 7 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 6-7"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 60"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 120"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Nėra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 60 min"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 22 x 21,5 x 17"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "350,90€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.163Z",
+      "media": [
+        {
+          "id": "17afd1b7-4230-4eeb-99b2-aafefeeb6977",
+          "src": "/content-assets/o3tech/17afd1b7-4230-4eeb-99b2-aafefeeb6977.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-o3tech-H7G-1.jpg",
+          "familyId": "e5a997b3-f666-48b7-89ce-c2a8794e58de"
+        },
+        {
+          "id": "411aa404-e3b4-4dc3-aa44-58553204ce93",
+          "src": "/content-assets/o3tech/411aa404-e3b4-4dc3-aa44-58553204ce93.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-o3tech-H7G-1.jpg",
+          "familyId": "e5a997b3-f666-48b7-89ce-c2a8794e58de"
+        },
+        {
+          "id": "001f690a-769f-4d2c-9105-3173558111db",
+          "src": "/content-assets/o3tech/001f690a-769f-4d2c-9105-3173558111db.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-o3tech-H7G-1.jpg",
+          "familyId": "e5a997b3-f666-48b7-89ce-c2a8794e58de"
+        },
+        {
+          "id": "3d271a1a-cd2e-46e7-8255-bcdcb03befdd",
+          "src": "/content-assets/o3tech/3d271a1a-cd2e-46e7-8255-bcdcb03befdd.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-o3tech-H7G.jpg",
+          "familyId": "731afd9e-e92b-4c6f-8ce9-b0ea8363c737"
+        },
+        {
+          "id": "6c60e2d4-37d4-483f-9951-63efe701b8f9",
+          "src": "/content-assets/o3tech/6c60e2d4-37d4-483f-9951-63efe701b8f9.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-o3tech-H7G.jpg",
+          "familyId": "731afd9e-e92b-4c6f-8ce9-b0ea8363c737"
+        },
+        {
+          "id": "85fa7250-cfa2-47d9-8ecc-6719d8a1c929",
+          "src": "/content-assets/o3tech/85fa7250-cfa2-47d9-8ecc-6719d8a1c929.webp",
+          "alt": "Buitinis ozonatorius 7 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-o3tech-H7G.jpg",
+          "familyId": "731afd9e-e92b-4c6f-8ce9-b0ea8363c737"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "2d5ddb8b-434f-43b8-955f-b6ba85666058",
+          "label": "Buitinis ozonatorius 10 g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "0aa808ea-8614-4d29-9e28-f48d71d8d71f",
+      "revisionHash": "36fa2f0d03161c70a381fa57bcb33ad957ef066dc53bfacf57071e705808e6ea",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "36fa2f0d03161c70a381fa57bcb33ad957ef066dc53bfacf57071e705808e6ea",
+        "approvedAt": "2026-10-30T20:01:50.889Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "product",
+      "slug": "produktas/buitinis-ozonatorius-10-g-h",
+      "title": "Buitinis ozonatorius 10 g/h",
+      "description": "Ozono generatorius 10 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės.",
+      "intent": "Buitinis ozonatorius 10 g/h",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius 10 g/h – lengvas nešiojamas įrenginys mobiliam ar laikinam panaudojimui. Su šiuo įrenginiu lengva pašalinti atliekų, maisto, dūmų, pūvėsių, dažų kvapus ir t.t. Taip pat gerai iš oro pašalinamos bakterijos, alergijas sukeliančios dalelės."
+        },
+        {
+          "type": "paragraph",
+          "text": "TECHNINIAI PARAMETRAI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono kiekis (g/val.): 8-10"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patalpos plotas iki (m2): 80"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galingumas (W): 120"
+        },
+        {
+          "type": "paragraph",
+          "text": "UV lempa: Nėra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmatis: iki 60 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Laikmačio ciklo kartojimas: Yra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Įtampa (V): 220"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matmenys (cm): ~ 22 x 22 x 17"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svoris (kg): 3,1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Komplektacija:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ozono generatorius, instrukcija, maitinimo kabelis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garantija (mėn.): 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymas 5-8 d.d."
+        },
+        {
+          "type": "paragraph",
+          "text": "387,20€"
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.499Z",
+      "media": [
+        {
+          "id": "aa74cb26-0c78-4fe3-b6da-e3104b514ce3",
+          "src": "/content-assets/o3tech/aa74cb26-0c78-4fe3-b6da-e3104b514ce3.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-N10G.jpg",
+          "familyId": "4178dccf-3fe6-415e-8ff3-49c3b4b0f4fc"
+        },
+        {
+          "id": "24584b08-1f54-4cb5-8650-0d54cbd65644",
+          "src": "/content-assets/o3tech/24584b08-1f54-4cb5-8650-0d54cbd65644.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-N10G.jpg",
+          "familyId": "4178dccf-3fe6-415e-8ff3-49c3b4b0f4fc"
+        },
+        {
+          "id": "046645fd-d3ea-40a1-9a97-0dfd7fd6ca92",
+          "src": "/content-assets/o3tech/046645fd-d3ea-40a1-9a97-0dfd7fd6ca92.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozono-generatorius-N10G.jpg",
+          "familyId": "4178dccf-3fe6-415e-8ff3-49c3b4b0f4fc"
+        },
+        {
+          "id": "6ef89a2c-3473-468c-a6ea-723c14d40afa",
+          "src": "/content-assets/o3tech/6ef89a2c-3473-468c-a6ea-723c14d40afa.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 800,
+          "height": 800,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-N10G.jpg",
+          "familyId": "0f3c438b-cd1b-4693-81c2-bc7cf6ff0d29"
+        },
+        {
+          "id": "f83dc202-c5e7-4eea-90d4-1c41b051e93e",
+          "src": "/content-assets/o3tech/f83dc202-c5e7-4eea-90d4-1c41b051e93e.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 640,
+          "height": 640,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-N10G.jpg",
+          "familyId": "0f3c438b-cd1b-4693-81c2-bc7cf6ff0d29"
+        },
+        {
+          "id": "a5f65b32-ef5e-4785-aac5-e3d8475e2cb7",
+          "src": "/content-assets/o3tech/a5f65b32-ef5e-4785-aac5-e3d8475e2cb7.webp",
+          "alt": "Buitinis ozonatorius 10 g/h",
+          "width": 360,
+          "height": 360,
+          "credit": "",
+          "rights": "Existing owner website asset; owner requests same-site migration2026-10-29. Original source https://o3tech.lt/wp-content/uploads/2021/06/Buitinis-ozonatorius-N10G.jpg",
+          "familyId": "0f3c438b-cd1b-4693-81c2-bc7cf6ff0d29"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fd74ec5c-96b9-41c2-8ce0-26c475372178",
+          "label": "Skip to content"
+        },
+        {
+          "targetPageId": "3d959a2e-f96a-42c5-81d1-57476dbb277d",
+          "label": "Apie ozonavimą"
+        },
+        {
+          "targetPageId": "7c955eb1-368b-455d-b99f-e87e0d4fdb00",
+          "label": "Prekės"
+        },
+        {
+          "targetPageId": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+          "label": "Buitiniai ozonatoriai"
+        },
+        {
+          "targetPageId": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+          "label": "Profesionalūs ozonatoriai"
+        },
+        {
+          "targetPageId": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+          "label": "Pramoniniai ozonatoriai"
+        },
+        {
+          "targetPageId": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+          "label": "Automobiliniai ozonatoriai"
+        },
+        {
+          "targetPageId": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+          "label": "Priedai"
+        },
+        {
+          "targetPageId": "78666d39-97c2-4233-9c5e-f9bbadd30de8",
+          "label": "Nuoma"
+        },
+        {
+          "targetPageId": "0aa808ea-8614-4d29-9e28-f48d71d8d71f",
+          "label": "Buitinis ozonatorius 7 g/h"
+        },
+        {
+          "targetPageId": "cd82a3a9-2acf-4729-84a7-022e9709d7a3",
+          "label": "Taisyklės"
+        },
+        {
+          "targetPageId": "1038afad-fbe4-4c0f-94b2-d559a828619c",
+          "label": "Garantija ir grąžinimas"
+        },
+        {
+          "targetPageId": "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4",
+          "label": "Slapukų politika"
+        }
+      ],
+      "id": "2d5ddb8b-434f-43b8-955f-b6ba85666058",
+      "revisionHash": "30819254e5ba2f4e17f6dd43065f0e3514957379d87e30b2f3ae2264c43a7243",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "30819254e5ba2f4e17f6dd43065f0e3514957379d87e30b2f3ae2264c43a7243",
+        "approvedAt": "2026-10-30T20:01:50.895Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "produkto-kategorija/buitiniai-ozonatoriai",
+      "title": "Buitiniai ozonatoriai",
+      "description": "Buitiniai ozonatoriai",
+      "intent": "Buitiniai ozonatoriai",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Buitinis ozonatorius 7 g/h",
+            "Buitinis ozonatorius 10 g/h"
+          ]
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.511Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "0aa808ea-8614-4d29-9e28-f48d71d8d71f",
+          "label": "Buitinis ozonatorius 7 g/h"
+        },
+        {
+          "targetPageId": "2d5ddb8b-434f-43b8-955f-b6ba85666058",
+          "label": "Buitinis ozonatorius 10 g/h"
+        }
+      ],
+      "id": "397bd0ed-5ff0-45ef-b546-efe5e325eaa3",
+      "revisionHash": "7aed9bb3b8b0844feba7ad9fe31577a0a1fcf72736f72dec0dd0e18f6200f789",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7aed9bb3b8b0844feba7ad9fe31577a0a1fcf72736f72dec0dd0e18f6200f789",
+        "approvedAt": "2026-10-30T20:01:50.900Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "produkto-kategorija/profesionalus-ozonatoriai",
+      "title": "Profesionalūs ozonatoriai",
+      "description": "Profesionalūs ozonatoriai",
+      "intent": "Profesionalūs ozonatoriai",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Profesionalus ozonatorius 16 g/h",
+            "Profesionalus ozonatorius 24 g/h"
+          ]
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.525Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "62a7a8e0-f76e-43f1-a62c-683adb6aeaad",
+          "label": "Profesionalus ozonatorius 16 g/h"
+        },
+        {
+          "targetPageId": "4f0a453b-4618-4908-b410-23423c009291",
+          "label": "Profesionalus ozonatorius 24 g/h"
+        }
+      ],
+      "id": "178f3cea-1162-4918-bc41-6918a3f61d9f",
+      "revisionHash": "4fd1b083f451ff86bb2491b489a404f26f3be3d55aee0c822e215a445f9a551a",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "4fd1b083f451ff86bb2491b489a404f26f3be3d55aee0c822e215a445f9a551a",
+        "approvedAt": "2026-10-30T20:01:50.907Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "produkto-kategorija/pramoniniai-ozonatoriai",
+      "title": "Pramoniniai ozonatoriai",
+      "description": "Pramoniniai ozonatoriai",
+      "intent": "Pramoniniai ozonatoriai",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Pramoninis ozonatorius 90g/h",
+            "Pramoninis ozonatorius 120g/h",
+            "Pramoninis ozonatorius 225g/h",
+            "Pramoninis ozonatorius 300g/h"
+          ]
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.538Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "fa2a0295-f390-4a5a-a1b8-c90cd339d75f",
+          "label": "Pramoninis ozonatorius 90g/h"
+        },
+        {
+          "targetPageId": "c9bf2d95-1114-41dc-bec5-5c8213a0abe3",
+          "label": "Pramoninis ozonatorius 120g/h"
+        },
+        {
+          "targetPageId": "cd073952-1164-4866-aeca-f69a7a53cccb",
+          "label": "Pramoninis ozonatorius 225g/h"
+        },
+        {
+          "targetPageId": "7b1fa636-a429-409e-9360-78808734dd72",
+          "label": "Pramoninis ozonatorius 300g/h"
+        }
+      ],
+      "id": "646b75f6-78b5-4dd6-b854-6bd9c39d41f2",
+      "revisionHash": "a4b553032aebf5e2812db31e389d1d820279597f651d92ac3135d867c41e9f5c",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "a4b553032aebf5e2812db31e389d1d820279597f651d92ac3135d867c41e9f5c",
+        "approvedAt": "2026-10-30T20:01:50.912Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "produkto-kategorija/automobiliniai-ozonatoriai",
+      "title": "Automobiliniai ozonatoriai",
+      "description": "Automobiliniai ozonatoriai",
+      "intent": "Automobiliniai ozonatoriai",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Buitinis ozonatorius 7 g/h"
+          ]
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.560Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "0aa808ea-8614-4d29-9e28-f48d71d8d71f",
+          "label": "Buitinis ozonatorius 7 g/h"
+        }
+      ],
+      "id": "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb",
+      "revisionHash": "c75b71a22e95a190cdfa11401ed2e5ab2f374311d008103ac0ed34824a5fe830",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "c75b71a22e95a190cdfa11401ed2e5ab2f374311d008103ac0ed34824a5fe830",
+        "approvedAt": "2026-10-30T20:01:50.918Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    },
+    {
+      "siteId": "o3tech",
+      "type": "faq",
+      "slug": "produkto-kategorija/priedai",
+      "title": "Priedai",
+      "description": "Priedai",
+      "intent": "Priedai",
+      "body": [
+        {
+          "type": "list",
+          "items": [
+            "Puskaukė 3M™ 7500",
+            "Puskaukė 3M™ 6000",
+            "Filtrai 3M™ FILTRAS 6051"
+          ]
+        }
+      ],
+      "publishAt": "2026-10-29T16:30:05.574Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "4e1c0eba-6827-499b-adb3-89952ff8c673",
+          "label": "Puskaukė 3M™ 7500"
+        },
+        {
+          "targetPageId": "446abe3d-c833-4c95-93ea-fcf6c69058ac",
+          "label": "Puskaukė 3M™ 6000"
+        },
+        {
+          "targetPageId": "f3e50004-5019-4343-9f52-1b468ec3cb58",
+          "label": "Filtrai 3M™ FILTRAS 6051"
+        }
+      ],
+      "id": "3d67700b-e8c0-4cc0-a04c-12d03cec6c11",
+      "revisionHash": "03c75d82dddfbfde15bf55f594969a21fbc5c4e2f1d7c23602892f4df8670417",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "03c75d82dddfbfde15bf55f594969a21fbc5c4e2f1d7c23602892f4df8670417",
+        "approvedAt": "2026-10-30T20:01:50.923Z",
+        "actorId": "Rokas; direct whole-site Cloudflare migration approval and selected-copy decisions2026-10-30"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-30T20:01:50.956Z"
+}

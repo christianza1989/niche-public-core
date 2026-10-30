@@ -1,12 +1,20 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import{o3techInquiryMessage}from'../lib/o3tech-inquiry.mjs';
 import{o3techMarkup}from'../lib/o3tech-render.mjs';
-import{o3techBrandAssets}from'../lib/o3tech-brand.mjs';
+import{o3techBrandAssets,o3techPresentationAsset}from'../lib/o3tech-brand.mjs';
 import layoutConfig from'../config/o3tech-layout.json'with{type:'json'};
 import {o3Inline,o3Signature} from '../lib/o3tech-format.mjs';
 import {o3techFilteredCatalogue} from '../lib/o3tech-catalogue.mjs';
 import cataloguePolicy from '../config/o3tech-catalogue.json' with {type:'json'};
 const form=values=>new URLSearchParams({message:'A real inquiry of at least twenty characters.',...values});
+test('selected presentation image requires this tenant and an eligible homepage',()=>{
+ const home={type:'home',slug:''},image='/brand/o3tech/hero-circles.png';
+ assert.equal(o3techPresentationAsset({siteId:'o3tech'},[home],image),true);
+ assert.equal(o3techPresentationAsset({siteId:'other'},[home],image),false);
+ assert.equal(o3techPresentationAsset({siteId:'o3tech'},[],image),false);
+ assert.equal(o3techPresentationAsset({siteId:'o3tech'},[{type:'product',slug:'x'}],image),false);
+ for(const pathname of ['/brand/o3tech/hidden.png','/brand/other/hero-circles.png'])assert.equal(o3techPresentationAsset({siteId:'o3tech'},[home],pathname),false);
+});
 test('o3tech preserves bounded phone and contact preference in native durable message',()=>{
  assert.match(o3techInquiryMessage(form({phone:'+37060000000',contact_method:'Telefonu'})),/Telefono nr.: \+37060000000\nTelefonu$/);
  assert.equal(o3techInquiryMessage(form({})),form({}).get('message'));

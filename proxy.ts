@@ -9,6 +9,7 @@ import {memoHomepageAsset} from '@/lib/memocasting-homepage-assets.mjs';
 import {memoHomepageAdmitted} from '@/lib/memocasting-homepage-markup.mjs';
 import {memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawDocumentPath} from '@/lib/memocasting-instruction-documents.mjs';
 import {instagramAction} from '@/lib/memocasting-instagram-bridge.mjs';
+import {o3techPresentationAsset} from '@/lib/o3tech-brand.mjs';
 import pathAliases from '@/config/niche-path-aliases.json';
 import { indexNichePathAliases, nichePathAliasDestination } from '@/lib/niche-path-aliases.mjs';
 const nichePathAliases = indexNichePathAliases(pathAliases);
@@ -24,6 +25,10 @@ function isPreview(host: string): boolean {
 export function proxy(request: NextRequest) {
   const host = normalizedHost(request.headers.get("host"));
   const path = request.nextUrl.pathname;
+  if (host === 'www.o3tech.lt') {
+    const destination=request.nextUrl.clone();destination.hostname='o3tech.lt';destination.protocol='https:';destination.port='';
+    return NextResponse.redirect(destination,308);
+  }
   if(memoInstructionRawDocumentPath(path))return new Response('Not found',{status:404,headers:{'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'}});
   if (host === 'www.memocasting.lt') {
     const destination=request.nextUrl.clone();destination.hostname='memocasting.lt';destination.protocol='https:';destination.port='';
@@ -91,6 +96,7 @@ export function proxy(request: NextRequest) {
   }
 
   if (niche) {
+    if(path.startsWith('/brand/o3tech/'))return o3techPresentationAsset(niche,publicNichePages(niche),path)?NextResponse.next():new Response('Not found',{status:404});
     if(niche.siteId==='memocasting'&&path==='/atsiliepimas'&&['GET','HEAD'].includes(request.method)&&publicNichePages(niche).some(p=>p.slug==='')){
       const destination=request.nextUrl.clone();destination.pathname='/niche/memocasting/review';destination.search='';
       const requestHeaders=new Headers(request.headers);requestHeaders.set('x-niche-original-path',path);requestHeaders.set('x-niche-original-query','');
