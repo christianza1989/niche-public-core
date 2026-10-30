@@ -1,0 +1,77 @@
+/* Homepage inquiry roles reuse the selected Roboto, ink, red and heading scale. */
+.pm-home .page-width-frame:has(.home-contact) {
+  --inquiry-gutter: clamp(24px, 2.2vw, 36px);
+  --inquiry-padding: clamp(28px, 3vw, 44px);
+}
+.pm-home .page-width-frame .home-sections:has(.home-contact) { padding-bottom: 0; }
+.pm-home .page-width-frame .home-contact {
+  display: grid;
+  grid-template-columns: minmax(220px, .6fr) minmax(0, 1.4fr);
+  gap: clamp(28px, 4vw, 56px);
+  width: calc(100% - var(--inquiry-gutter) * 2);
+  margin: 32px auto 0;
+  padding: 40px var(--inquiry-padding);
+  background: #f3f4f5;
+  border-radius: 6px 6px 0 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+.pm-home .page-width-frame .home-contact-details h2 {
+  margin: 0 0 20px;
+  font-size: var(--text-section-heading);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -.017em;
+}
+.pm-home .page-width-frame .home-contact address {
+  display: grid;
+  gap: 10px;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.pm-home .page-width-frame .home-contact address a { color: var(--ink); text-decoration: underline; text-decoration-color: #adb4bc; text-underline-offset: 4px; }
+.pm-home .page-width-frame .home-contact address a:hover { color: var(--red); }
+.pm-home .home-contact #uzklausa { min-width: 0; padding: 0; background: transparent; font-family: var(--font-body); font-size: 1rem; font-weight: 400; line-height: 1.55; letter-spacing: 0; scroll-margin-top: 24px; }
+.pm-home .home-contact #uzklausa h2 { margin: 0 0 18px; font-family: inherit; font-size: var(--text-card-heading); font-weight: 600; line-height: 1.35; letter-spacing: -.01em; }
+.pm-home .home-contact #uzklausa section { margin: 0 0 28px; }
+.pm-home .home-contact #uzklausa section > p { margin: 0 0 18px; font-size: .875rem; line-height: 1.55; color: var(--copy); }
+.pm-home .home-contact #uzklausa form { margin: 0; padding: 0; border-radius: 0; background: transparent; }
+.pm-home .home-contact #uzklausa form h2 { margin-bottom: 22px; }
+.pm-home .home-contact #uzklausa label { font-family: inherit; font-size: .9375rem; font-weight: 500; line-height: 1.5; letter-spacing: 0; }
+.pm-home .home-contact #uzklausa input:not([type="checkbox"]),
+.pm-home .home-contact #uzklausa textarea { font-family: inherit; font-size: 1rem; font-weight: 400; line-height: 1.5; letter-spacing: 0; border-color: #cbd0d6; }
+.pm-home .home-contact #uzklausa textarea { min-height: 140px; }
+.pm-home .home-contact #uzklausa input::placeholder,
+.pm-home .home-contact #uzklausa textarea::placeholder { color: #626a73; opacity: 1; }
+.pm-home .home-contact #uzklausa form > p,
+.pm-home .home-contact #uzklausa form label:has(input[type="checkbox"]) { max-width: 75ch; font-size: .875rem; font-weight: 400; line-height: 1.55; letter-spacing: 0; color: var(--copy); }
+.pm-home .home-contact #uzklausa form button[type="submit"] { min-height: 46px; padding: 12px 20px; border: 0; border-radius: 6px; font-family: inherit; font-size: var(--text-button); font-weight: 500; line-height: 1.25; letter-spacing: 0; }
+.pm-home .home-contact #uzklausa form a { font-size: .9375rem; font-weight: 500; }
+.pm-home .home-contact #uzklausa form label:has(input[type="checkbox"]) a { font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.pm-home .home-contact #uzklausa textarea:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.pm-home .page-width-frame:has(.home-contact) > .preview-footer {
+  width: calc(100% - var(--inquiry-gutter) * 2);
+  margin: 0 auto;
+  padding: 24px var(--inquiry-padding) 20px;
+  background: #f3f4f5;
+  border-top: 1px solid #dce0e4;
+  border-radius: 0 0 6px 6px;
+  font-family: var(--font-body);
+}
+.pm-home .page-width-frame:has(.home-contact) > .preview-footer::before { content: none; }
+@media (max-width: 1000px) {
+  .pm-home .page-width-frame .home-contact { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 32px; padding-bottom: 32px; }
+  .pm-home .page-width-frame .home-contact-details { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 16px 28px; }
+  .pm-home .page-width-frame .home-contact-details h2 { margin-bottom: 0; }
+}
+@media (max-width: 700px) {
+  .pm-home .page-width-frame:has(.home-contact) { --inquiry-gutter: 20px; --inquiry-padding: 20px; }
+  .pm-home .page-width-frame .home-contact-details { display: grid; gap: 14px; }
+  .pm-home .page-width-frame .home-contact { padding-top: 28px; padding-bottom: 28px; }
+}
+@media (max-width: 360px) { .pm-home .page-width-frame:has(.home-contact) { --inquiry-gutter: 16px; --inquiry-padding: 16px; } }

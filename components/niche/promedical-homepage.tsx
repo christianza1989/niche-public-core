@@ -4,6 +4,7 @@ import { imageSrcSet } from '@/lib/niche-media.mjs';
 import { promedicalHomepageModel } from '@/lib/promedical-homepage.mjs';
 import { nicheJsonLd } from '@/lib/niche-seo';
 import styles from './promedical-homepage.module.css';
+import './promedical-inquiry-layout.css';
 import { InquiryForm, InquiryLink } from './promedical-inquiry';
 
 type Model = NonNullable<ReturnType<typeof promedicalHomepageModel>>;
