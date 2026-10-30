@@ -1,0 +1,17 @@
+.pm-owner{font-family:inherit;color:#19212c;font-size:16px;line-height:1.5}
+.pm-owner *, .pm-inline-field *{box-sizing:border-box}
+.pm-owner-bar{background:#fff7f7;border:1px solid #e9c8cb;padding:16px 20px;margin:16px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.pm-owner-bar strong{margin-right:auto}.pm-owner a{color:#89101a;text-underline-offset:4px}
+.pm-owner button{font:inherit;min-height:44px;padding:9px 15px;border:1px solid #b9bec5;border-radius:4px;background:#fff;color:#19212c;cursor:pointer}
+.pm-owner button:hover{background:#f4eeee}.pm-owner button:disabled{opacity:.55;cursor:wait}.pm-owner .pm-primary{background:#b90e1a;border-color:#b90e1a;color:white}
+.pm-owner :focus-visible,.pm-inline-field textarea:focus-visible{outline:3px solid #98101b;outline-offset:3px}
+.pm-owner-status{width:100%;margin:0!important;white-space:pre-wrap;font-size:.9375rem!important}.pm-owner-error{color:#98101b}
+.pm-inline-field{display:block;margin:18px 0;font:500 .875rem/1.5 Figtree,Arial,sans-serif;color:#434b56}
+.pm-inline-field textarea{display:block;resize:vertical;width:100%;min-height:60px;border:1px solid #9b9fa6;border-radius:3px;padding:12px;margin-top:6px;font-family:inherit;font-size:1rem;font-weight:400;line-height:1.7;color:#19212c;background:#fffefa}
+.pm-inline-body{border-top:1px solid #d9dce0;padding-top:10px}.pm-inline-body h2{font:600 1.2rem/1.5 Figtree,Arial,sans-serif}
+.pm-owner-dialog{max-width:640px;width:calc(100% - 32px);max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #bfc4ca;border-radius:6px;padding:28px;background:#fff}
+.pm-owner-dialog::backdrop{background:#19212c88}.pm-owner-dialog h2{font-family:inherit;font-size:1.5rem;font-weight:600;line-height:1.3;margin:0 0 16px}
+.pm-owner-dialog p{margin:12px 0}.pm-owner-dialog blockquote{margin:16px 0;padding:12px;border:1px solid #e9c8cb;white-space:pre-wrap;overflow-wrap:anywhere;background:#faf7f7;max-height:220px;overflow:auto}
+.pm-owner-dialog label{display:block}.pm-owner-dialog textarea{width:100%;min-height:120px;padding:12px;font:inherit;margin-top:6px;border:1px solid #9b9fa6;resize:vertical}
+.pm-owner-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+@media(max-width:640px){.pm-owner-bar{padding:14px;gap:10px}.pm-owner-bar strong{width:100%}.pm-owner-bar button{flex:1 1 auto}.pm-owner-dialog{padding:20px}}
