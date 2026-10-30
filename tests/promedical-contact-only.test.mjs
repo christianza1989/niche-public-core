@@ -7,7 +7,7 @@ import { build } from 'esbuild';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 
-test('Promedical renders contact-only navigation across page families while preserving catalogue and contacts', async () => {
+test('Promedical restores inquiry navigation across page families while preserving catalogue and contacts', async () => {
   const output = new URL(`../.sites-runtime/contact-only-${randomUUID()}.mjs`, import.meta.url);
   await fs.mkdir(new URL('../.sites-runtime/', import.meta.url), {recursive:true});
   const bundle = await build({
@@ -16,14 +16,16 @@ test('Promedical renders contact-only navigation across page families while pres
     external:['react','react-dom'], loader:{'.css':'empty'}, jsx:'automatic',
     tsconfig:fileURLToPath(new URL('../tsconfig.json',import.meta.url)), plugins:[{
       name:'local-binding',setup(b){
+        b.onResolve({filter:/\.css$/},()=>({path:'style',namespace:'css-stub'}));
+        b.onLoad({filter:/.*/,namespace:'css-stub'},()=>({contents:'export default {};'}));
         b.onResolve({filter:/^cloudflare:workers$/},()=>({path:'binding',namespace:'test'}));
         b.onLoad({filter:/.*/,namespace:'test'},()=>({contents:'export const env = {};'}));
       }
     }]
   });
   try {
-    // The removed client must not hydrate, read old saved items or submit a form.
-    assert.ok(!Object.keys(bundle.metafile.inputs).some(p=>/promedical-inquiry/.test(p)));
+    // The restored client is deliberately reachable from product/contact/header surfaces.
+    assert.ok(Object.keys(bundle.metafile.inputs).some(p=>/promedical-inquiry/.test(p)));
     const {PromedicalSite} = await import(output.href);
     const pkg=JSON.parse(await fs.readFile(new URL('../content-packages/promedical/content-package.json',import.meta.url),'utf8'));
     const pages=pkg.pages;
@@ -34,7 +36,8 @@ test('Promedical renders contact-only navigation across page families while pres
     const before=JSON.stringify(pkg);
     for(const page of families){
       const html=renderToStaticMarkup(React.createElement(PromedicalSite,{pkg,page,livePages:pages}));
-      assert.doesNotMatch(html,/Užklausos sąrašas|Pridėti į užklausą|Peržiūrėti užklausą|Parengti užklausą|name="email"|localStorage|action="\/uzklausa"/);
+      assert.match(html,/href="\/#uzklausa"/);
+      assert.match(html,/Krepšelis/);
       assert.match(html,/href="\/produktai"/);
       assert.ok(html.includes(`href="mailto:${pkg.site.contact.email}"`));
       assert.ok(html.includes(`href="tel:${pkg.site.contact.phone.replace(/\s/g,'')}"`));
@@ -48,11 +51,13 @@ test('Promedical renders contact-only navigation across page families while pres
         const otherSite=renderToStaticMarkup(React.createElement(PromedicalSite,{pkg:{...pkg,siteId:'other-site'},page,livePages:pages}));
         assert.match(otherSite,/rengiamas su AI/,'the shared ArticleMeta disclosure is unchanged for other sites');
       }
-      if(page.slug==='kontaktai')assert.equal((html.match(/<form\b/g)||[]).length,1,'only catalogue search remains');
+      if(page.slug==='kontaktai'){assert.equal((html.match(/<form\b/g)||[]).length,2,'search and real inquiry form');assert.match(html,/action="\/uzklausa"/);assert.match(html,/name="consent"/);}
       if(page.type==='product'){
         assert.doesNotMatch(html,/Ruošiate įstaigos pirkimą|Pirkimo užklausos gidas|Norimą komplektaciją, priedus ir spalvas nurodykite užklausoje/);
         assert.match(html,/Produktų vaizdai gali rodyti papildomus priedus/);
         assert.match(html,/Katalogo kodas/);
+        assert.match(html,/Įtraukti į užklausą/);
+        assert.match(html,/type="number"/);
         assert.match(html,/"@type":"Product"/);
         assert.ok(html.includes(page.media[0].src));
       }
