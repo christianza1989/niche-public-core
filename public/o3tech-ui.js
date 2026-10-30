@@ -1,40 +1,8 @@
 /* Site-local progressive controls. No dependencies, tracking or remote calls. */
 (()=>{
  const root=document.querySelector('.o3');if(!root||root.dataset.controlsReady)return;root.dataset.controlsReady='true';
- // Clear air: only photographs resolve into focus. Copy is always readable,
- // including before this script loads and when animation APIs are unavailable.
- const motionPreference=matchMedia('(prefers-reduced-motion: reduce)'),activeMotion=new Set();
- let photoObserver;
- function resolvePhoto(photo,hero=false){
-  if(motionPreference.matches||document.hidden||typeof photo.animate!=='function')return;
-  const animation=photo.animate([
-   {opacity:.72,filter:`blur(${hero?6:3}px)`,transform:hero?'scale(.985)':'none'},
-   {opacity:1,filter:'blur(0px)',transform:'none'}
-  ],{duration:hero?650:420,easing:'cubic-bezier(.16,1,.3,1)'});
-  activeMotion.add(animation);
-  animation.finished.then(()=>activeMotion.delete(animation),()=>activeMotion.delete(animation));
- }
- function stopMotion(){activeMotion.forEach(animation=>animation.cancel());activeMotion.clear();}
- function startMotion(){
-  if(motionPreference.matches)return;
-  const hero=root.querySelector('.o3-hero-image');
-  if(hero){if(hero.complete&&hero.naturalWidth)resolvePhoto(hero,true);else hero.addEventListener('load',()=>resolvePhoto(hero,true),{once:true});}
-  if(typeof IntersectionObserver!=='function')return;
-  photoObserver=new IntersectionObserver(entries=>{
-   for(const entry of entries)if(entry.isIntersecting){
-    photoObserver.unobserve(entry.target);
-    if(entry.target.complete&&entry.target.naturalWidth)resolvePhoto(entry.target);
-    else entry.target.addEventListener('load',()=>resolvePhoto(entry.target),{once:true});
-   }
-  },{threshold:.15});
-  root.querySelectorAll('.o3-category-grid img,.o3-rental-image,.o3-inquiry-grid>div:first-child>img,.o3-about-intro-grid>div:last-child>img').forEach(photo=>photoObserver.observe(photo));
- }
- startMotion();
  const catalogueFilters=root.querySelector('.o3-catalogue-filters');
  if(catalogueFilters&&matchMedia('(min-width:768px)').matches)catalogueFilters.open=true;
- motionPreference.addEventListener('change',()=>{if(motionPreference.matches){stopMotion();photoObserver?.disconnect();}});
- document.addEventListener('visibilitychange',()=>{if(document.hidden)stopMotion();});
- window.addEventListener('pagehide',()=>{stopMotion();photoObserver?.disconnect();},{once:true});
  const dialog=root.querySelector('.o3-lightbox'),content=dialog?.querySelector('.o3-dialog-content');let opener=null,frames=[],frame=0;
  function showFrame(){if(!content||!frames.length)return;const image=document.createElement('img');image.alt=frames[frame].alt;image.src=frames[frame].closest('a').href;image.loading='eager';image.decoding='async';const count=document.createElement('span');count.className='o3-gallery-count';count.textContent=(frame+1)+' / '+frames.length;count.setAttribute('aria-hidden','true');const caption=document.createElement('span');caption.className='o3-gallery-caption';caption.textContent=image.alt;caption.setAttribute('aria-hidden','true');content.replaceChildren(image,count,caption);}
  function openGallery(gallery,trigger){frames=[...gallery.querySelectorAll('.o3-thumbnails img')];if(!frames.length)frames=[gallery.querySelector('.o3-gallery-main img')].filter(Boolean);if(!frames.length)return;frame=Number(gallery.querySelector('[data-gallery-thumb][aria-current=true]')?.dataset.galleryThumb)||0;if(!dialog.open)opener=trigger;dialog.dataset.mode='gallery';showFrame();dialog.showModal();}
