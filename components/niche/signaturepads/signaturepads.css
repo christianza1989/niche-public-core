@@ -248,6 +248,9 @@ html:has(.signaturepads-site dialog[open]) { overflow:hidden; }
   .sp-footer section>a { margin-bottom:6px; }
   .sp-product { grid-template-columns:1fr; padding-top:24px; gap:35px; }
   .sp-product-page { width:calc(100% - 20px); }
+  .sp-product-page .sp-product { padding-top:50px; gap:22px; }
+  .sp-product-page .sp-gallery-main>img { display:block; margin-inline:auto; }
+  .sp-product-page .sp-zoom-icon { top:10px; right:10px; }
   .sp-product-copy h1,.sp-product-copy .sp-quick-title { margin-bottom:50px; }
   .sp-product-dialog .sp-product-copy .sp-quick-title { padding-right:0; }
   .sp-product-price { font-size:30px; }
