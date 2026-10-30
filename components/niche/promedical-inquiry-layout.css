@@ -1,5 +1,5 @@
-/* Homepage inquiry roles reuse the selected Roboto, ink, red and heading scale. */
-.pm-home .page-width-frame:has(.home-contact) {
+/* Shared Promedical footer and homepage inquiry reuse the selected visual roles. */
+.pm-home .page-width-frame {
   --inquiry-gutter: clamp(24px, 2.2vw, 36px);
   --inquiry-padding: clamp(28px, 3vw, 44px);
 }
@@ -54,24 +54,25 @@
 .pm-home .home-contact #uzklausa form a { font-size: .9375rem; font-weight: 500; }
 .pm-home .home-contact #uzklausa form label:has(input[type="checkbox"]) a { font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .pm-home .home-contact #uzklausa textarea:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
-.pm-home .page-width-frame:has(.home-contact) > .preview-footer {
+.pm-home .page-width-frame[data-width-variant] > .preview-footer {
   width: calc(100% - var(--inquiry-gutter) * 2);
   margin: 0 auto;
   padding: 24px var(--inquiry-padding) 20px;
   background: #f3f4f5;
   border-top: 1px solid #dce0e4;
-  border-radius: 0 0 6px 6px;
+  border-radius: 6px;
   font-family: var(--font-body);
 }
-.pm-home .page-width-frame:has(.home-contact) > .preview-footer::before { content: none; }
+.pm-home .page-width-frame[data-width-variant] > .preview-footer::before { content: none; }
+.pm-home .page-width-frame:has(.home-contact) > .preview-footer { border-radius: 0 0 6px 6px; }
 @media (max-width: 1000px) {
   .pm-home .page-width-frame .home-contact { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 32px; padding-bottom: 32px; }
   .pm-home .page-width-frame .home-contact-details { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 16px 28px; }
   .pm-home .page-width-frame .home-contact-details h2 { margin-bottom: 0; }
 }
 @media (max-width: 700px) {
-  .pm-home .page-width-frame:has(.home-contact) { --inquiry-gutter: 20px; --inquiry-padding: 20px; }
+  .pm-home .page-width-frame { --inquiry-gutter: 20px; --inquiry-padding: 20px; }
   .pm-home .page-width-frame .home-contact-details { display: grid; gap: 14px; }
   .pm-home .page-width-frame .home-contact { padding-top: 28px; padding-bottom: 28px; }
 }
-@media (max-width: 360px) { .pm-home .page-width-frame:has(.home-contact) { --inquiry-gutter: 16px; --inquiry-padding: 16px; } }
+@media (max-width: 360px) { .pm-home .page-width-frame { --inquiry-gutter: 16px; --inquiry-padding: 16px; } }
