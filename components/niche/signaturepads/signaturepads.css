@@ -47,7 +47,7 @@
 .sp-category { border:1px solid #888; border-radius:20px; padding:12px 12px 30px; overflow:hidden; }
 .sp-category img { width:100%; aspect-ratio:574/382; object-fit:cover; }
 .sp-category h3 { font-size:14px; color:var(--sp-text); text-align:center; margin:32px 0 0; }
-.sp-software { padding:175px 0 100px; }
+.sp-software { background-image:var(--sp-software-image,none); background-size:1920px auto; background-position:center; background-repeat:no-repeat; background-attachment:fixed; min-height:720px; padding:175px 0 100px; }
 .sp-software-image { background:#fff; border-radius:18px; box-shadow:0 3px 12px #18394045; padding:30px; display:block; }
 .sp-software-image img { width:100%; aspect-ratio:768/619; object-fit:contain; }
 .sp-trust { padding-bottom:30px; }
@@ -198,7 +198,7 @@ html:has(.signaturepads-site dialog[open]) { overflow:hidden; }
   .sp-catalogue--software .sp-sidebar { grid-column:1; grid-row:2; }
 }
 @media(max-width:1024px) {
-  .sp-hero { background-attachment:scroll; }
+  .sp-hero,.sp-software { background-attachment:scroll; }
   .sp-mobile-nav>summary { list-style:none; width:44px; height:44px; display:flex; flex-direction:column; justify-content:center; gap:5px; padding:8px; }
   .sp-mobile-nav>summary::-webkit-details-marker { display:none; }
   .sp-mobile-nav>summary span { height:3px; border-radius:2px; background:#595959; width:28px; }

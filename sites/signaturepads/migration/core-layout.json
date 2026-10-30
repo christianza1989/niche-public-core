@@ -543,7 +543,8 @@
       }
     ],
     "cardBlock": 28,
-    "trustBlock": 29
+    "trustBlock": 29,
+    "softwareBackground": "8037f968-5f69-4589-837a-0dcc55803cf1"
   },
   "styles": {
     "sp-home": [

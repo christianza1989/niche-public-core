@@ -631,6 +631,56 @@
           "credit": "signaturepads.lt",
           "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali gaminio ar svetainės iliustracija.",
           "familyId": "7c68fa14-8d22-4d57-8ee1-0c33bf2e876c"
+        },
+        {
+          "id": "cea8ca53-35db-495a-b053-b620a23dd2b5",
+          "src": "/content-assets/signaturepads/cea8ca53-35db-495a-b053-b620a23dd2b5.webp",
+          "alt": "Du darbuotojai prie kompiuterių",
+          "width": 1600,
+          "height": 1068,
+          "credit": "signaturepads.lt",
+          "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali svetainės iliustracija.",
+          "familyId": "8037f968-5f69-4589-837a-0dcc55803cf1"
+        },
+        {
+          "id": "14af5090-c2fa-474b-81ed-8fa98e314ebf",
+          "src": "/content-assets/signaturepads/14af5090-c2fa-474b-81ed-8fa98e314ebf.webp",
+          "alt": "Du darbuotojai prie kompiuterių",
+          "width": 1200,
+          "height": 801,
+          "credit": "signaturepads.lt",
+          "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali svetainės iliustracija.",
+          "familyId": "8037f968-5f69-4589-837a-0dcc55803cf1"
+        },
+        {
+          "id": "cf68a057-1dd3-448c-a7b9-9a1b3f287a81",
+          "src": "/content-assets/signaturepads/cf68a057-1dd3-448c-a7b9-9a1b3f287a81.webp",
+          "alt": "Du darbuotojai prie kompiuterių",
+          "width": 800,
+          "height": 534,
+          "credit": "signaturepads.lt",
+          "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali svetainės iliustracija.",
+          "familyId": "8037f968-5f69-4589-837a-0dcc55803cf1"
+        },
+        {
+          "id": "8ccacd99-4a4f-4b36-9fc7-c9016ffaffa4",
+          "src": "/content-assets/signaturepads/8ccacd99-4a4f-4b36-9fc7-c9016ffaffa4.webp",
+          "alt": "Du darbuotojai prie kompiuterių",
+          "width": 640,
+          "height": 427,
+          "credit": "signaturepads.lt",
+          "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali svetainės iliustracija.",
+          "familyId": "8037f968-5f69-4589-837a-0dcc55803cf1"
+        },
+        {
+          "id": "6e3e9fc8-a21d-4a23-a453-6cf11f1c13e2",
+          "src": "/content-assets/signaturepads/6e3e9fc8-a21d-4a23-a453-6cf11f1c13e2.webp",
+          "alt": "Du darbuotojai prie kompiuterių",
+          "width": 360,
+          "height": 240,
+          "credit": "signaturepads.lt",
+          "rights": "Perkelta iš savininko signaturepads.lt svetainės pagal jo pavedimą; originali svetainės iliustracija.",
+          "familyId": "8037f968-5f69-4589-837a-0dcc55803cf1"
         }
       ],
       "links": [],
@@ -664,12 +714,12 @@
         "renderer": "niche",
         "operatorName": "signaturepads.lt"
       },
-      "revisionHash": "12d188a018eff14498ec885fc55166166e9a961d2ab6d60db4df79a02845b436",
+      "revisionHash": "645a930e5ce68193879de5dec870c6ebc5c3c283736c84b2abcb774da187cb0a",
       "approval": {
         "status": "approved",
-        "revisionHash": "12d188a018eff14498ec885fc55166166e9a961d2ab6d60db4df79a02845b436",
-        "approvedAt": "2026-10-29T17:41:42.921Z",
-        "actorId": "Codex/owner-authorized-local-core-integration"
+        "revisionHash": "645a930e5ce68193879de5dec870c6ebc5c3c283736c84b2abcb774da187cb0a",
+        "approvedAt": "2026-10-30T16:10:43.383Z",
+        "actorId": "Codex/owner-authorized-local-software-background"
       }
     },
     {
@@ -8758,5 +8808,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-30T14:00:05.192Z"
+  "generatedAt": "2026-10-30T16:10:43.910Z"
 }

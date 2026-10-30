@@ -44,6 +44,18 @@ test('Sigma native revision removes only the repeated delivery paragraph and kee
   assert.equal(sigma.images[1].displayWidth,550);
 });
 
+test('software background is bound to reviewed home media without a source-image fallback',()=>{
+  const data=dataFor(pkg),home=pkg.pages.find(p=>p.id==='sp-home');
+  const primary=home.media.filter(m=>m.familyId===layout.home.softwareBackground).sort((a,b)=>b.width-a.width)[0];
+  assert.ok(primary,'Reviewed original software photograph is assigned');
+  assert.equal(data.home.softwareBackground,primary.src);
+  assert.ok(render(data,'/').includes(`--sp-software-image:url('${primary.src}')`));
+  const unbound=structuredClone(layout);delete unbound.home.softwareBackground;
+  assert.doesNotMatch(render(signaturepadsSnapshot(pkg,project(pkg),unbound),'/'),/--sp-software-image/);
+  const withdrawn=structuredClone(pkg);withdrawn.pages.find(p=>p.id==='sp-home').approval.status='revoked';
+  assert.equal(dataFor(withdrawn),null);
+});
+
 test('catalogue layouts retain usable page links and two independently named modal surfaces',()=>{
   const data=dataFor(pkg),html=render(data,'/prekes/');
   assert.doesNotMatch(html,/class="sp-sidebar"/);
