@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {blockDigest,matchingPresentation,inlinePieces,originalHref,pageDigest,orderedWidgets} from '../lib/kvapunaikinimas-presentation.mjs';
+import {blockDigest,matchingPresentation,inlinePieces,originalHref,pageDigest,orderedWidgets,originalTextStyle} from '../lib/kvapunaikinimas-presentation.mjs';
 
 test('native edits invalidate old emphasis and link ranges',()=>{
  const block={type:'paragraph',text:'Patalpų kainos >>>'};
@@ -34,4 +34,17 @@ test('numeric Elementor IDs cannot move a later heading before the introduction'
  const widgets={'37b20e2':{start:0},'7f0d2d9':{start:1},'3054466':{start:22},'166e37a':{start:23}};
  assert.equal(Object.keys(widgets)[0],'3054466');
  assert.deepEqual(orderedWidgets(widgets).map(([id])=>id),['37b20e2','7f0d2d9','3054466','166e37a']);
+});
+
+test('child typography survives overlapping semantic marks without changing native words',()=>{
+ const text='Prieš ozonavimą';const parts=inlinePieces(text,[{kind:'strong',from:0,to:text.length},{kind:'style',from:0,to:text.length,style:{size:14,weight:600,letter:1}}]);
+ assert.equal(parts.map(p=>p.text).join(''),text);
+ assert.deepEqual(parts[0].marks.map(m=>m.kind),['strong','style']);
+ assert.deepEqual(originalTextStyle(parts[0].marks[1].style),{fontSize:14,fontWeight:600,letterSpacing:1});
+});
+test('imported text styles allow only bounded typography and the dark source palette',()=>{
+ assert.deepEqual(originalTextStyle({size:Infinity,weight:999,letter:100,color:'url(https://invalid.example)',slant:'anything',position:'fixed'}),{});
+ assert.deepEqual(originalTextStyle({color:'rgb(51, 51, 51)',slant:'italic'}),{fontStyle:'italic',color:'rgb(51,51,51)'});
+ assert.deepEqual(originalTextStyle({color:'rgb(94,190,214)'}),{});
+ assert.equal(inlinePieces('x',[{kind:'style',from:0,to:1,style:{position:'fixed'}}])[0].marks.length,0);
 });

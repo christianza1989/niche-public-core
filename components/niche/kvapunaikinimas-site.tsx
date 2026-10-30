@@ -1,18 +1,19 @@
 /* eslint-disable @next/next/no-html-link-for-pages -- Native host proxy uses public paths. */
 /* eslint-disable @next/next/no-img-element -- Native responsive WebP media families. */
 import type {CSSProperties,ReactNode} from 'react';
+import {preload} from 'react-dom';
 import type {NicheMedia,NichePackage,NichePage} from '@/lib/niche-sites';
 import {nicheJsonLd} from '@/lib/niche-seo';
 import {nicheBreadcrumbs} from '@/lib/niche-schema-core.mjs';
 import {imageSrcSet,uniqueImageFamilies} from '@/lib/niche-media.mjs';
-import {inlinePieces,matchingPresentation,originalHref,pageDigest,orderedWidgets} from '@/lib/kvapunaikinimas-presentation.mjs';
+import {inlinePieces,matchingPresentation,originalHref,pageDigest,orderedWidgets,originalTextStyle} from '@/lib/kvapunaikinimas-presentation.mjs';
 import rawLayout from '@/config/kvapunaikinimas-layout.json';
 import {KvapunaikinimasForm} from './kvapunaikinimas-form';
 import {KvBackToTop,KvCarousel,KvMobileMenu} from './kvapunaikinimas-controls';
 import styles from './kvapunaikinimas-site.module.css';
 
-type Mark={kind:'strong'|'em'|'link';from:number;to:number;href?:string};
-type Format={digest?:string;style?:{size:number;weight:number;line?:number;align:string;letter:number;marginTop?:number;marginBottom?:number};marks?:Mark[];ordered?:boolean;start?:number;itemMarks?:Mark[][];image?:{alt:string;width:number;height:number;radius:number}};
+type Mark={kind:'strong'|'em'|'link'|'style';from:number;to:number;href?:string;style?:{size?:number;weight?:number;letter?:number;color?:string;slant?:string}};
+type Format={digest?:string;style?:{size:number;weight:number;line?:number|'normal';align:string;letter:number;color?:string;marginTop?:number;marginBottom?:number};marks?:Mark[];marker?:{type:string;indent:number};ordered?:boolean;start?:number;itemMarks?:Mark[][];image?:{alt:string;width:number;height:number;radius:number}};
 type Group={start:number;end:number;open:boolean;hasTitle:boolean};
 type Widget={kind:string;start:number;end:number;imageAlts:string[];sectionId?:string;box?:{w:number;h:number};mobileBox?:{h:number};gap?:number;mobileGap?:number;paddingBefore?:number;paddingAfter?:number;mobilePaddingBefore?:number;mobilePaddingAfter?:number;groups?:Group[]};
 type LayoutPage={widgets:Record<string,Widget>;heading:string;formats:Record<string,Format>;digest:string;top:number;mobileTop:number;bottom:number;mobileBottom:number};
@@ -36,13 +37,13 @@ function PublishedImage({media,altName,assetId,className,eager=false,sizes='(max
 function Inline({text,marks}:{text:string;marks?:Mark[]}){
  return <>{inlinePieces(text,marks).map((piece:{text:string;marks:Mark[]},i:number)=>{
   let content:ReactNode=piece.text;
-  for(const mark of piece.marks){if(mark.kind==='strong')content=<strong>{content}</strong>;else if(mark.kind==='em')content=<em>{content}</em>;else content=<a href={originalHref(mark.href)}>{content}</a>;}
+  for(const mark of piece.marks){if(mark.kind==='strong')content=<strong>{content}</strong>;else if(mark.kind==='em')content=<em>{content}</em>;else if(mark.kind==='style')content=<span style={originalTextStyle(mark.style)}>{content}</span>;else content=<a href={originalHref(mark.href)}>{content}</a>;}
   return <span key={i}>{content}</span>;
  })}</>;
 }
 function typeStyle(format?:Format):CSSProperties|undefined{
  const s=format?.style;if(!s)return;
- return {fontSize:s.size,fontWeight:s.weight,lineHeight:s.line&&s.line>0?s.line:undefined,textAlign:s.align as CSSProperties['textAlign'],letterSpacing:s.letter||undefined,marginTop:s.marginTop||0,marginBottom:s.marginBottom??20};
+ return {fontSize:s.size,fontWeight:s.weight,lineHeight:s.line==='normal'?'normal':s.line&&s.line>0?s.line:undefined,textAlign:s.align as CSSProperties['textAlign'],letterSpacing:s.letter||undefined,color:s.color,marginTop:s.marginTop||0,marginBottom:s.marginBottom??20};
 }
 function Block({ctx,index}:{ctx:Context;index:number}){
  const b=ctx.page.body[index];if(!b)return null;
@@ -53,7 +54,7 @@ function Block({ctx,index}:{ctx:Context;index:number}){
   return <div className={styles.articleImageFrame} style={{maxWidth:frame?.width||800,aspectRatio:frame?`${frame.width}/${frame.height}`:undefined,borderRadius:frame?.radius||0}}><PublishedImage media={ctx.media} assetId={asset.id} className={styles.articleImage} sizes={`(max-width:800px) 90vw, ${frame?.width||800}px`}/></div>;
  }
  const format=matchingPresentation(b,raw) as Format|undefined;
- if(b.type==='heading'){const Tag=b.level===3?'h3':'h2';return <Tag style={typeStyle(format)}><Inline text={b.text} marks={format?.marks}/></Tag>;}
+ if(b.type==='heading'){const Tag=b.level===3?'h3':'h2';const heading=<Tag style={format?.marker?{...typeStyle(format),margin:0}:typeStyle(format)}><Inline text={b.text} marks={format?.marks}/></Tag>;return format?.marker?<ul className={styles.titleList} style={{...typeStyle(format),paddingLeft:format.marker.indent,listStyleType:format.marker.type==='decimal'?'decimal':'disc'}}><li>{heading}</li></ul>:heading;}
  if(b.type==='paragraph')return <p style={typeStyle(format)}><Inline text={b.text} marks={format?.marks}/></p>;
  const Tag=format?.ordered?'ol':'ul';
  return <Tag style={typeStyle(format)} {...(format?.ordered?{start:format.start}:{})}>{b.items.map((s,j)=><li key={j}><Inline text={s} marks={format?.itemMarks?.[j]}/></li>)}</Tag>;
@@ -119,7 +120,7 @@ function Home({ctx,livePages}:{ctx:Context;livePages:NichePage[]}){
  </>;
 }
 function Questions({ctx,widget}:{ctx:Context;widget:Widget}){
- return <div className={styles.questions}>{widget.groups?.map(g=><details key={g.start}><summary><svg viewBox="0 0 8 10" width="7" height="9" fill="currentColor" aria-hidden="true"><path d="m1 1 6 4-6 4Z"/></svg><Block ctx={ctx} index={g.start}/></summary><div className={styles.answer}><Blocks ctx={ctx} start={g.start+1} end={g.end}/></div></details>)}</div>;
+ return <div className={styles.questions}>{widget.groups?.map(g=><details key={g.start}><summary><span className={styles.questionIcon}><svg viewBox="0 0 8 10" width="7" height="9" fill="currentColor" aria-hidden="true"><path d="m1 1 6 4-6 4Z"/></svg></span><Block ctx={ctx} index={g.start}/></summary><div className={styles.answer}><Blocks ctx={ctx} start={g.start+1} end={g.end}/></div></details>)}</div>;
 }
 function Process({ctx}:{ctx:Context}){
  if(!ctx.lp?.widgets['27f2c03'])return null;
@@ -141,6 +142,8 @@ function InnerPage({ctx,pkg,livePages}:{ctx:Context;pkg:NichePackage;livePages:N
  </>;
 }
 export function KvapunaikinimasSite({pkg,page,livePages}:Props){
+ preload('/fonts/kvapunaikinimas/open-sans-latin.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ preload('/fonts/kvapunaikinimas/open-sans-latin-ext.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
  const home=livePages.find(p=>p.type==='home'),media=page.type==='home'?page.media:[...page.media,...(home?.media||[])];
  const candidate=layout.pages[page.slug];
  const lp=candidate?.digest===pageDigest(page.body,media)?candidate:undefined;

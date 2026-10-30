@@ -35,6 +35,15 @@ export function KvCarousel({children,label,classes}:{children:ReactNode;label:st
 
 export function KvMobileMenu({children,className}:{children:ReactNode;className:string}){
  const menu=useRef<HTMLDetailsElement>(null);
+ useEffect(()=>{
+  const header=menu.current?.closest('header');if(!header)return;
+  const close=()=>{for(const d of header.querySelectorAll<HTMLDetailsElement>('details[open]'))d.open=false;};
+  const escape=(e:KeyboardEvent)=>{if(e.key!=='Escape')return;const open=[...header.querySelectorAll<HTMLDetailsElement>('details[open]')];if(!open.length)return;const focused=open.find(d=>d.contains(document.activeElement));close();focused?.querySelector<HTMLElement>('summary')?.focus();};
+  const outside=(e:PointerEvent)=>{if(!header.contains(e.target as Node))close();};
+  const toggle=(e:Event)=>{const d=e.target;if(!(d instanceof HTMLDetailsElement)||!d.open)return;for(const other of header.querySelectorAll<HTMLDetailsElement>('details[open]'))if(other!==d&&!other.contains(d)&&!d.contains(other))other.open=false;};
+  document.addEventListener('keydown',escape);document.addEventListener('pointerdown',outside);header.addEventListener('toggle',toggle,true);
+  return()=>{document.removeEventListener('keydown',escape);document.removeEventListener('pointerdown',outside);header.removeEventListener('toggle',toggle,true);};
+ },[]);
  return <details className={className} ref={menu} onClick={e=>{if((e.target as HTMLElement).closest('a')&&menu.current)menu.current.open=false;}}><summary aria-label="Atverti meniu"><svg viewBox="0 0 24 24" width="25" height="25" stroke="currentColor" strokeWidth="3" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></summary><nav aria-label="Mobilioji navigacija">{children}</nav></details>;
 }
 
