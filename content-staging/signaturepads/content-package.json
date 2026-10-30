@@ -7834,15 +7834,6 @@
           ]
         },
         {
-          "type": "richParagraph",
-          "content": [
-            {
-              "type": "text",
-              "text": "Pristatymas 5-8 d.d."
-            }
-          ]
-        },
-        {
           "type": "paragraph",
           "text": "189,00€ be PVM"
         }
@@ -7961,12 +7952,12 @@
         "renderer": "niche",
         "operatorName": "signaturepads.lt"
       },
-      "revisionHash": "75ef04f4279a783fc28e304d6ea2d977241b6de81704dcf2534788a622cce231",
+      "revisionHash": "8bc51ee52e57ada83f3d54803d694e3eb1beb696b8137ff138659fed75e6e6b9",
       "approval": {
         "status": "approved",
-        "revisionHash": "75ef04f4279a783fc28e304d6ea2d977241b6de81704dcf2534788a622cce231",
-        "approvedAt": "2026-10-29T17:41:43.337Z",
-        "actorId": "Codex/owner-authorized-local-core-integration"
+        "revisionHash": "8bc51ee52e57ada83f3d54803d694e3eb1beb696b8137ff138659fed75e6e6b9",
+        "approvedAt": "2026-10-30T14:00:04.685Z",
+        "actorId": "Codex/owner-authorized-local-A01-A07"
       }
     },
     {
@@ -8767,5 +8758,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-29T17:41:43.908Z"
+  "generatedAt": "2026-10-30T14:00:05.192Z"
 }

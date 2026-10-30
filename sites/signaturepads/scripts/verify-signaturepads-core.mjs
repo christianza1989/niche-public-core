@@ -5,8 +5,8 @@ import { randomUUID, createHash } from 'node:crypto';
 import { request as httpRequest } from 'node:http';
 import { smokeRequestOptions } from '../../../scripts/seo-smoke-transport.mjs';
 
-const [engineArg, originArg='http://127.0.0.1:8958'] = process.argv.slice(2);
-if(!engineArg)throw Error('Usage: node verify-signaturepads-core.mjs <isolated-engine> [loopback-origin]');
+const [engineArg, originArg='http://127.0.0.1:8958', reportArg] = process.argv.slice(2);
+if(!engineArg)throw Error('Usage: node verify-signaturepads-core.mjs <isolated-engine> [loopback-origin] [owned-report-directory]');
 const engine=path.resolve(engineArg),origin=new URL(originArg).origin;
 if(!['127.0.0.1','localhost'].includes(new URL(origin).hostname)||!engine.replaceAll('\\','/').startsWith('D:/Core/output/signaturepads-migration-20261029/'))throw Error('Verification is restricted to this isolated local runtime');
 const pkg=JSON.parse(await readFile(path.join(engine,'content-packages/signaturepads/content-package.json')));
@@ -15,7 +15,8 @@ const config=JSON.parse(await readFile(path.join(engine,'dist/server/wrangler.js
 const envText=await readFile(path.join(engine,'.dev.vars'),'utf8');
 const flag=name=>envText.split(/\r?\n/).find(l=>l.startsWith(name+'='))?.split('=')[1].replaceAll('"','').trim();
 if(pkg.siteId!=='signaturepads'||admission.scope!=='local-preview'||config.vars?.NICHE_DEV_SITE_ID!=='signaturepads'||flag('LEAD_SMTP_ENABLED')!=='0'||flag('LEAD_HOSTINGER_ENABLED')!=='0'||config.send_email?.length)throw Error('Ordinary HTTP/D1 QA requires local-preview and every mail transport disabled');
-const root=path.resolve(import.meta.dirname,'../../..'),out=path.resolve(engine,'..');
+const root=path.resolve(import.meta.dirname,'../../..'),out=path.resolve(reportArg || path.resolve(engine,'..'));
+if(!out.replaceAll('\\','/').startsWith('D:/Core/output/signaturepads-migration-20261029/'))throw Error('Report directory must remain within the isolated signaturepads output');
 const aliases=JSON.parse(await readFile(path.join(root,'config/content-media-aliases.json'))).entries.filter(e=>e.siteId==='signaturepads');
 const check=(value,message)=>{if(!value)throw Error(message);};
 const request=async(p,options={})=>{
@@ -35,7 +36,7 @@ const db=command=>{
 };
 const report={status:'RUNNING',scope:'local Core Worker only; SMTP/API/native-email disabled',origin,pages:[],redirects:[],assets:0,legacyAssets:0,forms:[],checkedAt:new Date().toISOString()};
 const paths=new Map(pkg.pages.map(p=>['/'+p.slug+(p.slug?'/':''),p]));
-for(const [pathname,page]of paths){
+for(const pathname of paths.keys()){
   const {response,text}=await request(pathname);
   check(response.status===200,`Page ${pathname}: ${response.status}`);
   check((text.match(/<h1\b/g)||[]).length===1,`One H1: ${pathname}`);

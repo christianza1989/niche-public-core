@@ -66,7 +66,13 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 25,
-      "priceBlock": 25
+      "priceBlock": 25,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550,
+        550
+      ]
     },
     "sp-product-7092": {
       "path": "/produktas/paraso-plansete-stepover-durasign-pad-4-3/",
@@ -82,7 +88,13 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 32,
-      "priceBlock": 32
+      "priceBlock": 32,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550,
+        550
+      ]
     },
     "sp-product-7086": {
       "path": "/produktas/paraso-plansete-stepover-durasign-pad-5-0/",
@@ -99,7 +111,14 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 32,
-      "priceBlock": 32
+      "priceBlock": 32,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550,
+        550,
+        550
+      ]
     },
     "sp-product-7084": {
       "path": "/produktas/programine-iranga-stepover-esignatureoffice/",
@@ -112,7 +131,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 8,
-      "priceBlock": 8
+      "priceBlock": 8,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-7078": {
       "path": "/produktas/paraso-plansete-stepover-durasign-pad-10-0/",
@@ -129,7 +151,14 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 33,
-      "priceBlock": 33
+      "priceBlock": 33,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550,
+        550,
+        550
+      ]
     },
     "sp-product-7053": {
       "path": "/produktas/paraso-plansete-stepover-durasign-pad-ng-10/",
@@ -146,7 +175,14 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 41,
-      "priceBlock": 41
+      "priceBlock": 41,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550,
+        550,
+        550
+      ]
     },
     "sp-product-6867": {
       "path": "/produktas/programine-iranga-signotec-signoapi-native-java/",
@@ -159,7 +195,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 10,
-      "priceBlock": 10
+      "priceBlock": 10,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-6865": {
       "path": "/produktas/programine-iranga-signotec-signoapi-windows/",
@@ -172,7 +211,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 9,
-      "priceBlock": 9
+      "priceBlock": 9,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-6863": {
       "path": "/produktas/programine-iranga-signotec-signosign-universal/",
@@ -185,7 +227,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 7,
-      "priceBlock": 7
+      "priceBlock": 7,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-6861": {
       "path": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
@@ -198,7 +243,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 11,
-      "priceBlock": 11
+      "priceBlock": 11,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-6859": {
       "path": "/produktas/programine-iranga-signotec-signosign-2/",
@@ -211,7 +259,10 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 10,
-      "priceBlock": 10
+      "priceBlock": 10,
+      "galleryDisplayWidths": [
+        300
+      ]
     },
     "sp-product-6855": {
       "path": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-epsilon-pen-display/",
@@ -226,7 +277,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 22,
-      "priceBlock": 22
+      "priceBlock": 22,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-6851": {
       "path": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-delta-pen-display/",
@@ -241,7 +297,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 25,
-      "priceBlock": 25
+      "priceBlock": 25,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-6782": {
       "path": "/produktas/paraso-plansete-signotec-delta/",
@@ -256,7 +317,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 33,
-      "priceBlock": 33
+      "priceBlock": 33,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-6778": {
       "path": "/produktas/paraso-plansete-signotec-gamma/",
@@ -271,7 +337,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 29,
-      "priceBlock": 29
+      "priceBlock": 29,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-6773": {
       "path": "/produktas/paraso-plansete-signotec-omega/",
@@ -286,7 +357,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 32,
-      "priceBlock": 32
+      "priceBlock": 32,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-6770": {
       "path": "/produktas/paraso-plansete-signotec-zeta/",
@@ -301,7 +377,12 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 28,
-      "priceBlock": 28
+      "priceBlock": 28,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-product-502": {
       "path": "/produktas/paraso-plansete-signotec-sigma-lite/",
@@ -315,7 +396,11 @@
       "intro": null,
       "copyStart": 1,
       "copyEnd": 27,
-      "priceBlock": 27
+      "priceBlock": 27,
+      "galleryDisplayWidths": [
+        300,
+        550
+      ]
     },
     "sp-product-488": {
       "path": "/produktas/paraso-plansete-signotec-sigma/",
@@ -329,8 +414,13 @@
       ],
       "intro": null,
       "copyStart": 1,
-      "copyEnd": 29,
-      "priceBlock": 29
+      "copyEnd": 28,
+      "priceBlock": 28,
+      "galleryDisplayWidths": [
+        300,
+        550,
+        550
+      ]
     },
     "sp-category-2821": {
       "path": "/iranga/paraso-plansetes/",
@@ -3562,11 +3652,6 @@
         "gapBefore": 1
       },
       {
-        "tag": "p",
-        "marks": [],
-        "gapBefore": 0
-      },
-      {
         "tag": "p"
       }
     ],
@@ -4355,5 +4440,70 @@
       ],
       "primaryId": "d711af20-b894-4b45-8daa-d8db3da40a99"
     }
+  },
+  "catalogueOrders": {
+    "date": [
+      7097,
+      7092,
+      7086,
+      7084,
+      7078,
+      7053,
+      6867,
+      6865,
+      6863,
+      6861,
+      6859,
+      6855,
+      6851,
+      6782,
+      6778,
+      6773,
+      6770,
+      502,
+      488
+    ],
+    "popularity": [
+      502,
+      488,
+      7097,
+      7092,
+      7086,
+      7084,
+      7078,
+      7053,
+      6867,
+      6865,
+      6863,
+      6861,
+      6859,
+      6855,
+      6851,
+      6782,
+      6778,
+      6773,
+      6770
+    ],
+    "rating": [
+      7097,
+      7092,
+      7086,
+      7084,
+      7078,
+      7053,
+      6867,
+      6865,
+      6863,
+      6861,
+      6859,
+      6855,
+      6851,
+      6782,
+      6778,
+      6773,
+      6770,
+      502,
+      488
+    ]
   }
 }
