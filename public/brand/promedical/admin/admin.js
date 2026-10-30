@@ -1,3 +1,4 @@
+import {captureSelection,selectAllText,selectionQuote} from './selection.js';
 const app=document.getElementById('app'),announce=document.getElementById('announcements');
 const S={session:null,record:null,dirty:false,expired:false,nav:0,view:'read'};
 const countWord=(n,one,few,many)=>n%10===1&&n%100!==11?one:n%10>=2&&n%10<=9&&(n%100<10||n%100>=20)?few:many;
@@ -17,7 +18,7 @@ function field(label,input,hint){return E('label',{class:'field'},E('span',{},la
 function select(options,value,name){return E('select',{name,value},...Object.entries(options).map(([k,v])=>E('option',{value:k,selected:k===value},v)));}
 function alertBox(message){return E('div',{class:'error',role:'alert',tabIndex:-1},message);}
 function notify(message){announce.textContent=message;}
-async function api(path,method='GET',data){if(method!=='GET'&&S.expired){S.session=await api('session');S.expired=false;}let r;try{r=await fetch('/admin/api/'+path,{method,credentials:'same-origin',cache:'no-store',headers:{...(method!=='GET'?{'content-type':'application/json','x-admin-csrf':S.session?.csrf||''}:{})},...(data!==undefined?{body:JSON.stringify(data)}:{})})}catch{throw Error('Nepavyko prisijungti prie serverio. Patikrinkite ryšį ir bandykite dar kartą.')}const result=await r.json();if(!r.ok){if(r.status===401&&S.session){if(S.dirty){S.expired=true;result.error='Sesija baigėsi. Prisijunkite kitame lange ir dar kartą išsaugokite. Jūsų pakeitimai liko šiame redaktoriuje.';}else{S.session=null;S.record=null;renderLogin('Sesija baigėsi. Prisijunkite iš naujo.');}}const error=Error(result.error||'Nepavyko atlikti veiksmo.');error.status=r.status;throw error}return result;}
+async function api(path,method='GET',data){if(method!=='GET'&&S.expired){S.session=await api('session');S.expired=false;}let r;try{r=await fetch('/admin/api/'+path,{method,credentials:'same-origin',cache:'no-store',headers:{...(method!=='GET'?{'content-type':'application/json','x-admin-csrf':S.session?.csrf||''}:{})},...(data!==undefined?{body:JSON.stringify(data)}:{})})}catch{throw Error('Nepavyko prisijungti prie serverio. Patikrinkite ryšį ir bandykite dar kartą.')}let result;try{result=await r.json()}catch{throw Error('Nepavyko gauti atsakymo. Bandykite dar kartą.')}if(!r.ok){if(r.status===401&&S.session){if(S.dirty){S.expired=true;result.error='Sesija baigėsi. Prisijunkite kitame lange ir dar kartą išsaugokite. Jūsų pakeitimai liko šiame redaktoriuje.';}else{S.session=null;S.record=null;renderLogin('Sesija baigėsi. Prisijunkite iš naujo.');}}const error=Error(result.error||'Nepavyko atlikti veiksmo.');error.status=r.status;throw error}return result;}
 function changed(){S.dirty=true;const status=document.querySelector('.save-state');if(status)status.textContent='Yra neišsaugotų pakeitimų.';const publish=document.querySelector('[data-action="publish"]');if(publish)publish.disabled=true;}
 function canLeave(){return !S.dirty||window.confirm('Yra neišsaugotų pakeitimų. Palikti šį tekstą?');}
 async function navigate(url){if(!canLeave())return;S.dirty=false;history.pushState(null,'',url);await route();}
@@ -50,19 +51,71 @@ async function renderPending(main,ticket){
  for(const item of data.items)main.append(E('section',{class:'panel pending-item'},E('div',{},E('h2',{},item.title),E('p',{},kindLabel[item.kind]+' · /'+item.slug),badge(item.state)),link('Palyginti tekstus','/admin/text/'+item.id+'?mode=compare',{class:'button'})));
  const pages=Math.ceil(data.total/data.limit);if(pages>1)main.append(E('nav',{class:'pager','aria-label':'Juodraščių puslapiai'},data.page>1?link('Ankstesnis',listUrl({p:data.page-1},'/admin/pending')):null,E('span',{},data.page+' / '+pages),data.page<pages?link('Kitas',listUrl({p:data.page+1},'/admin/pending')):null));
 }
-function rewriteAgain(id){
- const note=E('textarea',{maxLength:4000}),errors=E('div'),requestId=crypto.randomUUID();let sent=null,d;
- const send=B('Įrašyti į eilę',async()=>{send.disabled=true;errors.replaceChildren();try{sent??={id:requestId,etag:S.record.etag,mode:'whole',selection:null,note:note.value};note.disabled=true;await api('texts/'+id+'/rewrite','POST',sent);d.close();notify('Perrašymo užduotis įrašyta į eilę.')}catch(e){errors.append(alertBox(e.message));if(e.status&&e.status<500){sent=null;note.disabled=false}}finally{send.disabled=false}},true);
- d=modal('Perrašyti dar kartą','Perrašomas rodomas juodraštis. Ankstesnę laukiančią užduotį pakeis šis prašymas.',E('div',{},field('Kas negerai ir ką pakeisti?',note),errors),send);
+function rewriteAgain(id,choice){
+ const record=S.record,note=E('textarea',{maxLength:4000,rows:4}),errors=E('div'),requestId=crypto.randomUUID(),ruleId=crypto.randomUUID();let sent=null,d,savedRule=null;
+ const remember=E('input',{type:'checkbox'}),term=E('input',{type:'text',maxLength:160,value:choice.mode==='selection'&&selectionQuote(choice).length<=160?selectionQuote(choice):''});
+ const instruction=E('textarea',{maxLength:4000,rows:3});
+ const ruleFields=E('div',{hidden:true},field('Žodis, frazė arba žodžio dalis',term,'Pvz., „kreipianč“ padės rasti skirtingus to žodžio linksnius. Ieškoma tik šių raidžių.'),field('Taisyklė visiems puslapiams',instruction,'Čia rašykite bendrą pastabą. Konkretaus puslapio taisymas lieka aukščiau.'),E('p',{},'Šiame tekste taisysime visas vietas su nurodyta fraze. Kitus puslapius pasirinksite iš rastų atitikmenų. Taisyklė bus perduodama ir naujoms užduotims.'));
+ remember.addEventListener('change',()=>{ruleFields.hidden=!remember.checked});
+ const send=B('Pateikti taisymui',async()=>{send.disabled=true;errors.replaceChildren();try{
+  if(!sent){
+   let chosen=structuredClone(choice);
+   if(remember.checked){
+    if(term.value.trim().length<3||!instruction.value.trim())throw Error('Įrašykite ieškomą žodį ar frazę ir bendrą taisyklę.');
+    const text=[record.draft.title,record.draft.description,...record.draft.body.flatMap(b=>b.type==='list'?b.items:b.text?[b.text]:[])].join('\n').normalize('NFC').toLocaleLowerCase('lt');
+    if(!text.includes(term.value.trim().normalize('NFC').toLocaleLowerCase('lt')))throw Error('Nurodyta frazė šiame juodraštyje nerasta. Patikslinkite paiešką.');
+    savedRule=await api('editorial-rules','POST',{id:ruleId,term:term.value,instruction:instruction.value});
+    note.disabled=true;term.disabled=true;remember.disabled=true;instruction.disabled=true;
+    const matches=await api('editorial-rules/'+ruleId+'/matches'),current=matches.items.find(p=>p.pageId===id);
+    if(!current||current.etag!==record.etag)throw Error('Juodraštis pasikeitė. Uždarykite langą ir atnaujinkite tekstą. Taisyklė išsaugota.');
+    if(choice.mode==='selection')chosen={mode:'selection',selection:current.selection};
+   }
+   sent={id:requestId,etag:record.etag,...chosen,note:note.value};
+  }
+  note.disabled=true;term.disabled=true;remember.disabled=true;instruction.disabled=true;
+  await api('texts/'+id+'/rewrite','POST',sent);d.close();notify('Taisymo užduotis įrašyta į eilę. Viešas tekstas nepasikeitė.');
+  await route();if(savedRule)await showRuleMatches(savedRule.id,id);
+ }catch(e){errors.replaceChildren(alertBox(e.message));if(!savedRule&&e.status&&e.status<500){sent=null;note.disabled=false;term.disabled=false;remember.disabled=false;instruction.disabled=false}}finally{send.disabled=false}},true);
+ d=modal('Perrašyti pažymėtą tekstą','Taisomas matomas naujas juodraštis. Nauja užduotis pakeis ankstesnę laukiančią šio puslapio užduotį.',E('div',{},E('blockquote',{class:'selected-quote'},selectionQuote(choice)),field('Kas blogai ir kaip pataisyti?',note),E('label',{class:'check'},remember,E('span',{},'Ši pastaba galioja visai svetainei')),ruleFields,errors),send);note.focus();
+}
+async function showRuleMatches(ruleId,excludeId){
+ let data;try{data=await api('editorial-rules/'+ruleId+'/matches')}catch(e){const failed=modal('Nepavyko rasti puslapių','Pakartokite paiešką. Jau pateiktos užduotys lieka eilėje.',alertBox(e.message),B('Bandyti dar kartą',()=>{failed.close();showRuleMatches(ruleId,excludeId)}));return;}
+ const items=data.items.filter(p=>p.pageId!==excludeId),errors=E('div'),choices=[];let d,sent=null;
+ const rows=items.map(p=>{const input=E('input',{type:'checkbox',disabled:p.conflict||p.pending});choices.push({input,p});return E('label',{class:'rule-match'},input,E('span',{},E('strong',{},p.title),E('small',{},'/'+p.slug+(p.conflict?' · versijų konfliktas':p.pending?' · užduotis jau eilėje':'')),E('span',{},p.selection.ranges.map(r=>r.quote).join('\n\n'))));});
+ const send=B('Pateikti pasirinktus puslapius taisymui',async()=>{send.disabled=true;errors.replaceChildren();try{
+  const pages=choices.filter(c=>c.input.checked&&!c.input.disabled).map(c=>({pageId:c.p.pageId,etag:c.p.etag}));if(!sent&&(!pages.length||pages.length>50))throw Error('Pasirinkite nuo 1 iki 50 puslapių.');
+  sent??={id:crypto.randomUUID(),pages};choices.forEach(c=>c.input.disabled=true);
+  const result=await api('editorial-rules/'+ruleId+'/queue','POST',sent),failed=result.results.filter(r=>r.error);
+  if(failed.length){errors.append(alertBox('Dalis puslapių nepateikta: '+failed.map(r=>(items.find(p=>p.pageId===r.pageId)?.title||r.pageId)+': '+r.error).join('; ')),B('Atnaujinti paiešką',()=>{d.close();showRuleMatches(ruleId,excludeId)}));send.hidden=true;return;}
+  d.close();notify(`${result.results.length} puslapių pateikta taisymui. Visi pakeitimai bus tikrinami ir lauks juodraščiuose.`);
+ }catch(e){errors.replaceChildren(alertBox(e.message))}finally{send.disabled=false}},true);
+ d=modal('Ta pati pastaba kituose puslapiuose','Ieškoma: „'+data.rule.term+'“. '+data.rule.instruction,E('div',{},items.length?E('div',{class:'rule-matches'},rows):E('p',{},'Kituose puslapiuose atitikmenų nerasta.'),errors),items.length?send:null);
+}
+function editorialPanel(record){
+ const errors=E('div'),body=E('div',{class:'editorial-rules'}),details=E('details',{class:'panel panel-pad'},E('summary',{},'Svetainės kalbos taisyklės'),body,errors);
+ for(const rule of record.editorialRules||[])body.append(E('div',{class:'editorial-rule'},E('p',{},E('strong',{},'„'+rule.term+'“'),': '+rule.instruction),E('div',{class:'actions'},B('Rasti kituose puslapiuose',()=>showRuleMatches(rule.id)),B('Pašalinti taisyklę',async()=>{try{await api('editorial-rules/'+rule.id+'/remove','POST',{});await route()}catch(e){errors.replaceChildren(alertBox(e.message))}}))));
+ if(!body.children.length)body.append(E('p',{},'Bendrą pastabą galėsite išsaugoti pateikdami pažymėtą tekstą taisymui.'));
+ return details;
 }
 function renderComparison(main,id,record){
  main.append(link('Dar nematomi tekstai','/admin/pending',{class:'back'}),heading(record.draft.title,'Senas ir naujas tekstas greta. Vieša versija nesikeičia, kol jos nepatvirtinate.'));
  if(record.conflict)main.append(alertBox('Svetainės šaltinis pasikeitė. Prieš patvirtinimą reikia suderinti versijas.'));
- const approve=B('Patvirtinti',()=>reviewDialog(id),true);approve.disabled=record.conflict;
- const actions=E('div',{class:'actions'},approve);if(['guide','product'].includes(record.draft.type)||record.draft.slug.startsWith('kategorijos/'))actions.append(B('Perrašyti dar kartą',()=>rewriteAgain(id)));
+ const approve=B('Patvirtinti',()=>reviewDialog(id),true);approve.disabled=record.conflict||record.editorialIssues?.length>0;
+ if(record.editorialIssues?.length)main.append(alertBox('Prieš tvirtinant reikia pataisyti: '+record.editorialIssues.map(r=>'„'+r.term+'“ — '+r.instruction).join('; ')));
+ const actions=E('div',{class:'actions'},approve);
  actions.append(link('Taisyti juodraštį','/admin/text/'+id+'?mode=edit',{class:'button'}),B('Versijų istorija',()=>historyDialog(id)));main.append(actions);
  const old=E('section',{},E('h2',{},record.live?'Senas · matomas lankytojams':'Senas · dar nepaskelbtas'),article(record.live||record.approved));
- const next=E('section',{},E('h2',{},'Naujas · laukia jūsų'),article(record.draft));main.append(E('div',{class:'comparison'},old,next));
+ const nextArticle=article(record.draft,true),next=E('section',{},E('h2',{},'Naujas · laukia jūsų'));let choice=null;
+ const selected=E('p',{role:'status'},'Pažymėkite naujo teksto dalį arba pasirinkite visą tekstą.');
+ const rewrite=B('Perrašyti pažymėtą tekstą',()=>rewriteAgain(id,structuredClone(choice)),true);rewrite.disabled=true;
+ const update=()=>{selected.textContent=choice?(choice.mode==='whole'?'Pasirinktas visas naujas tekstas.':'Pažymėta: '+selectionQuote(choice).slice(0,160)):'Pažymėkite naujo teksto dalį arba pasirinkite visą tekstą.';rewrite.disabled=!choice||record.conflict;};
+ const all=B('Pažymėti visą tekstą',()=>{choice=selectAllText(nextArticle);update()});
+ const toolbar=E('div',{class:'selection-tools'},E('div',{class:'actions'},all,rewrite),selected);
+ const handler=()=>{const captured=captureSelection(nextArticle);if(captured){choice=captured;update()}else if(!window.getSelection()?.isCollapsed&&main.contains(window.getSelection()?.anchorNode)){choice=null;update()}};
+ for(const area of [nextArticle,old])area.addEventListener('pointerdown',()=>{choice=null;update()});
+ document.addEventListener('selectionchange',handler);S.selectionCleanup=()=>document.removeEventListener('selectionchange',handler);
+ toolbar.hidden=!['guide','product'].includes(record.draft.type)&&!record.draft.slug.startsWith('kategorijos/');
+ next.append(toolbar,nextArticle);main.append(editorialPanel(record),E('div',{class:'comparison'},old,next));
 }
 async function renderList(main,ticket){
  const params=new URLSearchParams(location.search),data=await api('texts?'+params);if(ticket!==S.nav)return;
@@ -82,7 +135,7 @@ function mediaUrl(asset){return '/admin/api/media/'+encodeURIComponent(asset.src
 async function loadThumbnail(node,id,ticket){try{const record=await api('texts/'+encodeURIComponent(id));if(ticket!==S.nav||!node.isConnected)return;const first=imageFamilies(record.draft)[0];if(!first){node.replaceChildren(E('span',{},'Vaizdo nėra'));return}const same=a=>first.familyId?a.familyId===first.familyId:a.alt===first.alt&&Math.abs(a.width/a.height-first.width/first.height)<.01;const variants=record.draft.media.filter(same).sort((a,b)=>a.width-b.width),asset=variants.find(a=>a.width>=240)||first;node.replaceChildren(E('img',{src:mediaUrl(asset),alt:asset.alt,width:160,height:112,loading:'lazy',decoding:'async'}))}catch{if(node.isConnected)node.replaceChildren(E('span',{},'Vaizdas nepasiekiamas'))}}
 function imageFamilies(page){const families=new Map();for(const a of page.media){const key=a.familyId||`${a.alt}:${Math.round(a.width/a.height*100)}`;if(!families.has(key)||families.get(key).width<a.width)families.set(key,a)}return [...families.values()]}
 function mediaPreview(page){const families=imageFamilies(page);return E('section',{class:'panel media-panel'},E('h2',{},'Puslapio vaizdai'),E('div',{class:'media-grid'},...families.map(a=>E('figure',{},E('a',{href:mediaUrl(a),target:'_blank',rel:'noopener'},E('img',{src:mediaUrl(a),alt:a.alt,width:a.width,height:a.height,loading:'lazy'})),E('figcaption',{},a.alt,E('small',{},a.rights))))));}
-function article(page){return E('article',{class:'panel reading'},E('h1',{},page.title),E('p',{class:'lead'},page.description),page.media.length?E('figure',{class:'reading-cover'},E('img',{src:mediaUrl(imageFamilies(page)[0]),alt:imageFamilies(page)[0].alt})):null,...page.body.map(b=>b.type==='heading'?E(b.level===3?'h3':'h2',{},b.text):b.type==='list'?E('ul',{},...b.items.map(t=>E('li',{},t))):b.type==='image'?(()=>{const a=page.media.find(m=>m.id===b.assetId);return a?E('figure',{},E('img',{src:mediaUrl(a),alt:a.alt,width:a.width,height:a.height})):null})():E('p',{},b.text)));
+function article(page,selectable=false){const leaf=(tag,text,path,props={})=>{const node=E(tag,props,text);if(selectable)node.dataset.editPath=path;return node;};return E('article',{class:'panel reading'},leaf('h1',page.title,'title'),leaf('p',page.description,'description',{class:'lead'}),page.media.length?E('figure',{class:'reading-cover'},E('img',{src:mediaUrl(imageFamilies(page)[0]),alt:imageFamilies(page)[0].alt})):null,...page.body.map((b,i)=>b.type==='heading'?leaf(b.level===3?'h3':'h2',b.text,`body.${i}.text`):b.type==='list'?E('ul',{},...b.items.map((t,j)=>leaf('li',t,`body.${i}.items.${j}`))):b.type==='image'?(()=>{const a=page.media.find(m=>m.id===b.assetId);return a?E('figure',{},E('img',{src:mediaUrl(a),alt:a.alt,width:a.width,height:a.height})):null})():leaf('p',b.text,`body.${i}.text`)));
 }
 function readingPreview(page){return E('div',{class:'reading-layout'},article(page),page.media.length?mediaPreview(page):null)}
 function quickPublication(id,record,beforePublish){
@@ -154,6 +207,6 @@ async function renderPublication(main,ticket){const data=await api('policy');if(
  if(data.pausedAt){panel.append(E('p',{},`Parengtų versijų, kurių data jau praėjusi: ${data.releasingNowCount}. Atnaujinus leidybą jos gali būti paskelbtos iš karto.`),B('Atnaujinti publikavimą',()=>{const confirmation=E('input',{type:'text',autocomplete:'off'}),slot=E('div');let d;const submit=B('Atnaujinti leidybą',async()=>{submit.disabled=true;slot.replaceChildren();try{await api('policy','POST',{action:'resume',version:data.version,confirmation:confirmation.value});d.close();await route();notify('Gidų leidyba atnaujinta.')}catch(e){slot.append(alertBox(e.message))}finally{submit.disabled=false}},true);d=modal('Atnaujinti gidų leidybą',`Iš karto paskelbiamų versijų: ${data.releasingNowCount}. Patikrinkite jų datas kalendoriuje.`,E('div',{},field('Patvirtinimui įrašykite TĘSTI PUBLIKAVIMĄ',confirmation),slot),submit)},true))}
  else panel.append(B('Pristabdyti naujų gidų publikavimą',async()=>{try{await api('policy','POST',{action:'pause',version:data.version});await route();notify('Naujų gidų publikavimas pristabdytas.')}catch(e){errors.append(alertBox(e.message))}}));main.append(panel);
 }
-async function route(){S.listObserver?.disconnect();const ticket=++S.nav;if(!S.session){renderLogin();return}const main=frame(),loading=E('p',{class:'muted',role:'status'},'Įkeliama…');main.append(loading);try{const path=location.pathname;if(path.startsWith('/admin/text/'))await renderText(main,path.split('/').at(-1),ticket);else if(path==='/admin/pending')await renderPending(main,ticket);else if(path==='/admin/calendar')await renderCalendar(main,ticket);else if(path==='/admin/publication')await renderPublication(main,ticket);else await renderList(main,ticket);if(ticket===S.nav){loading.remove();main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'})}}catch(e){if(ticket===S.nav&&S.session)main.replaceChildren(heading('Nepavyko atidaryti turinio'),alertBox(e.message),B('Bandyti dar kartą',()=>route()))}}
+async function route(){S.selectionCleanup?.();S.selectionCleanup=null;S.listObserver?.disconnect();const ticket=++S.nav;if(!S.session){renderLogin();return}const main=frame(),loading=E('p',{class:'muted',role:'status'},'Įkeliama…');main.append(loading);try{const path=location.pathname;if(path.startsWith('/admin/text/'))await renderText(main,path.split('/').at(-1),ticket);else if(path==='/admin/pending')await renderPending(main,ticket);else if(path==='/admin/calendar')await renderCalendar(main,ticket);else if(path==='/admin/publication')await renderPublication(main,ticket);else await renderList(main,ticket);if(ticket===S.nav){loading.remove();main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'})}}catch(e){if(ticket===S.nav&&S.session)main.replaceChildren(heading('Nepavyko atidaryti turinio'),alertBox(e.message),B('Bandyti dar kartą',()=>route()))}}
 async function boot(){const setup=new URLSearchParams(location.hash.slice(1)).get('setup');if(setup){history.replaceState(null,'',location.pathname);try{const info=await api('enrollment','POST',{token:setup});renderLogin('',{token:setup,email:info.email})}catch(e){renderLogin(e.message)}return}try{S.session=await api('session');await route()}catch(e){renderLogin(e.status===401?'':e.message)}}
 boot();

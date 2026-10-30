@@ -1,3 +1,4 @@
+import {captureSelection,selectAllText,selectionQuote} from './selection.js';
 const el=(tag,text,props={})=>Object.assign(document.createElement(tag),{textContent:text,...props});
 let cleanup=()=>{};
 document.addEventListener('promedical:editor-unmount',()=>cleanup());
@@ -25,7 +26,7 @@ async function mount(){
     for(const {path,input}of editors){const keys=path.split('.');let target=changes;for(const key of keys.slice(0,-1))target=target[key];target[keys.at(-1)]=input.value;}
     session=await api('session');await api(`texts/${id}/save`,{etag:record.etag,changes});restore();controls();message('Juodraštis išsaugotas. Viešas tekstas liko nepakeistas.');status.append(' ',el('a','Palyginti seną ir naują tekstą',{href:`/admin/text/${id}?mode=compare`}));
    },true),button('Atšaukti taisymą',()=>{if(!dirty||confirm('Atšaukti neišsaugotus pakeitimus?')){restore();controls();message('Rodomas viešas tekstas.')}}));
-  }else if(['guide','category','product'].includes(host.dataset.kind))bar.append(button('Taisyti',startEdit),button('Perrašyti',()=>rewrite(false)),button('Perdaryti dalį',()=>rewrite(true)));
+  }else if(['guide','category','product'].includes(host.dataset.kind))bar.append(button('Taisyti',startEdit),button('Pažymėti visą tekstą',()=>{selection=selectAllText(document.querySelector('#turinys'));message('Pasirinktas visas tekstas. Spauskite „Perrašyti pažymėtą tekstą“.')}),button('Perrašyti pažymėtą tekstą',rewrite));
   bar.append(status);
  }
  async function startEdit(){record=await latest();if(disposed)return;editing=true;selection=null;
@@ -34,23 +35,15 @@ async function mount(){
   record.draft.body.forEach((b,i)=>{if(b.type==='image'){body.append(el('p','Esamas vaizdas išsaugomas.'));return}if(b.type==='list')b.items.forEach((text,j)=>field(`body.${i}.items.${j}`,text,`Sąrašo punktas ${j+1}`,null,body));else field(`body.${i}.text`,b.text,b.type==='heading'?'Skyriaus antraštė':'Pastraipa',null,body)});
   controls();message('Taisote naujausią juodraštį vietoje. Išsaugojus jis lauks jūsų patvirtinimo.');editors[0]?.input.focus();
  }
- const leaf=node=>(node?.nodeType===Node.ELEMENT_NODE?node:node?.parentElement)?.closest('[data-edit-path]');
+ document.querySelector('#turinys')?.addEventListener('pointerdown',()=>{if(!editing)selection=null},{signal:abort.signal});
  document.addEventListener('selectionchange',()=>{
-  if(editing)return;const s=getSelection();if(!s?.rangeCount||s.isCollapsed)return;
-  const range=s.getRangeAt(0),a=leaf(range.startContainer),z=leaf(range.endContainer);
-  if(!a||!z||!document.querySelector('#turinys')?.contains(a))return;
-  const offset=(node,endNode,endOffset)=>{const r=document.createRange();r.selectNodeContents(node);r.setEnd(endNode,endOffset);return r.toString().length;};
-  selection={from:a.dataset.editPath,to:z.dataset.editPath,start:offset(a,range.startContainer,range.startOffset),end:offset(z,range.endContainer,range.endOffset)};
+  if(editing)return;const captured=captureSelection(document.querySelector('#turinys'));if(captured)selection=captured;
  },{signal:abort.signal});
- async function rewrite(part){
-  const chosen=part?structuredClone(selection):null;if(part&&!chosen)throw Error('Pirmiausia pažymėkite norimą teksto dalį svetainėje.');
+ async function rewrite(){
+  const choice=structuredClone(selection);if(!choice)throw Error('Pažymėkite norimą dalį arba spauskite „Pažymėti visą tekstą“.');
+  const part=choice.mode==='selection',chosen=choice.selection;
   record=await latest();if(disposed)return;
-  if(part){
-   if(record.draft.revisionHash!==host.dataset.revision)throw Error('Yra naujesnis juodraštis. Pirmiausia jį peržiūrėkite skyrelyje „Dar nematomi tekstai“.');
-   const leaves=[{path:'title',text:record.draft.title},{path:'description',text:record.draft.description},...record.draft.body.flatMap((b,i)=>b.type==='image'?[]:b.type==='list'?b.items.map((text,j)=>({path:`body.${i}.items.${j}`,text})):[{path:`body.${i}.text`,text:b.text}])];
-   const a=leaves.findIndex(l=>l.path===chosen.from),z=leaves.findIndex(l=>l.path===chosen.to);if(a<0||z<a)throw Error('Pažymėkite tekstą iš naujo.');
-   chosen.quote=leaves.slice(a,z+1).map((l,i)=>l.text.slice(i===0?chosen.start:0,i===z-a?chosen.end:undefined)).join('\n\n');
-  }
+  if(record.draft.revisionHash!==host.dataset.revision)throw Error('Yra naujesnis juodraštis. Pažymėkite jo tekstą skyrelyje „Dar nematomi tekstai“.');
   dialog=el('dialog','',{className:'pm-owner pm-owner-dialog'});const title=part?'Perdaryti pažymėtą dalį':'Perrašyti visą tekstą';dialog.setAttribute('aria-label',title);
   const note=el('textarea','',{maxLength:4000}),label=el('label','Kas negerai ir ką pakeisti?'),error=el('p','');error.setAttribute('role','alert');label.append(note);
   const requestId=crypto.randomUUID(),payload={id:requestId,etag:record.etag,mode:part?'selection':'whole',selection:chosen,note:''};let sentPayload=null;
@@ -61,7 +54,7 @@ async function mount(){
    }catch(e){error.textContent=e.message;if(e.status&&e.status<500){sentPayload=null;note.disabled=false;}}},true);
   const actions=el('div','',{className:'pm-owner-actions'});actions.append(button('Atšaukti',()=>dialog.close()),send);
   dialog.append(el('h2',title),el('p',record.draft.title),el('p',part?'Bus pakeista tik ši dalis:':'Perrašomas naujausias juodraštis. Naujas prašymas pakeis ankstesnę laukiančią šio teksto užduotį.'));
-  if(chosen)dialog.append(el('blockquote',chosen.quote));dialog.append(label,error,actions);document.body.append(dialog);dialog.addEventListener('close',()=>{dialog.remove();dialog=null},{once:true});dialog.showModal();note.focus();
+  if(chosen)dialog.append(el('blockquote',selectionQuote(choice)));dialog.append(label,error,actions);document.body.append(dialog);dialog.addEventListener('close',()=>{dialog.remove();dialog=null},{once:true});dialog.showModal();note.focus();
  }
  window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}},{signal:abort.signal});
  document.addEventListener('click',e=>{if(dirty&&e.target.closest('a')&&!confirm('Palikti neišsaugotus pakeitimus?')){e.preventDefault();e.stopPropagation()}},{capture:true,signal:abort.signal});

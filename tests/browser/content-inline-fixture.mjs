@@ -12,7 +12,11 @@ import {handleContentAdmin} from '../../lib/content-admin-api.mjs';
 import {readPublishedEdits} from '../../lib/content-admin-store.mjs';
 import {publicationSettings} from '../../lib/content-admin-context.mjs';
 import {projectPublicPages} from '../../lib/niche-links.mjs';
-const root=process.cwd();await fs.mkdir(path.join(root,'.sites-runtime'),{recursive:true});const out=await fs.mkdtemp(path.join(root,'.sites-runtime/inline-fixture-'));
+const root=process.cwd(),runtime=path.join(root,'.sites-runtime');await fs.mkdir(runtime,{recursive:true});
+const resume=process.env.PROMEDICAL_FIXTURE_RESUME_DIR;
+const out=resume?path.resolve(resume):await fs.mkdtemp(path.join(runtime,'inline-fixture-'));
+if(resume){const resolved=await fs.realpath(out),relative=path.relative(await fs.realpath(runtime),resolved);if(relative.startsWith('..')||path.isAbsolute(relative)||!path.basename(resolved).startsWith('inline-fixture-'))throw Error('Resume only an existing local inline fixture');await fs.access(path.join(out,'fixture.sqlite'));}
+const port=Number(process.env.PROMEDICAL_FIXTURE_PORT||0);if(!Number.isInteger(port)||port<0||port>65535)throw Error('Invalid local fixture port');
 // Owner demos must use the preserved deployed site, rather than imply that main's
 // older design/content is live. Read-only source root; all output stays here.
 const siteRoot=path.resolve(process.env.PROMEDICAL_FIXTURE_SITE_ROOT||root);
@@ -35,8 +39,8 @@ await build({absWorkingDir:siteRoot,entryPoints:[renderer],outfile:path.join(out
 await build({stdin:{resolveDir:root,contents:`import React from 'react';import {createRoot} from 'react-dom/client';import {PromedicalEditor} from './components/niche/promedical-editor';const node=document.querySelector('[data-promedical-editor]'),props={id:node.dataset.pageId,revision:node.dataset.revision,kind:node.dataset.kind},container=document.createElement('div');node.replaceWith(container);createRoot(container).render(React.createElement(React.StrictMode,null,React.createElement(PromedicalEditor,props)));`},outfile:path.join(out,'client.js'),bundle:true,format:'esm',platform:'browser',jsx:'automatic',tsconfig:'tsconfig.json'});
 const {PromedicalSite}=await import(pathToFileURL(path.join(out,'renderer.mjs'))),css=await fs.readFile(path.join(siteRoot,'app/niche-base.css'),'utf8')+'\n'+await fs.readFile(path.join(out,'renderer.css'),'utf8');
 const pkg=JSON.parse(await fs.readFile(path.join(siteRoot,'content-packages/promedical/content-package.json'),'utf8')),database=path.join(out,'fixture.sqlite'),db=testD1(database),project=(p,n=network,at=Date.now())=>projectPublicPages(p,[p],n,at);
-await db.prepare('INSERT INTO content_admin_accounts(site_id,email,password_hash,created_at) VALUES(?,?,?,?)').bind(pkg.siteId,'fixture@example.test',await passwordHash('fixture-only local password'),Date.now()).run();
-await db.prepare('INSERT INTO content_admin_settings(site_id,context_json,paused_at,updated_at) VALUES(?,?,?,?)').bind(pkg.siteId,'{}',network.guidePublicationPausedAtBySite?.[pkg.siteId]??null,Date.now()).run();
+await db.prepare('INSERT OR IGNORE INTO content_admin_accounts(site_id,email,password_hash,created_at) VALUES(?,?,?,?)').bind(pkg.siteId,'fixture@example.test',await passwordHash('fixture-only local password'),Date.now()).run();
+await db.prepare('INSERT OR IGNORE INTO content_admin_settings(site_id,context_json,paused_at,updated_at) VALUES(?,?,?,?)').bind(pkg.siteId,'{}',network.guidePublicationPausedAtBySite?.[pkg.siteId]??null,Date.now()).run();
 let origin='';const server=http.createServer(async(req,res)=>{try{
  const url=new URL(req.url,origin);let result;
  if(url.pathname.startsWith('/admin')){
@@ -60,5 +64,5 @@ let origin='';const server=http.createServer(async(req,res)=>{try{
  }
  res.writeHead(result.status,Object.fromEntries(result.headers));res.end(Buffer.from(await result.arrayBuffer()));
  }catch(e){res.writeHead(e.code==='ENOENT'?404:500);res.end('Fixture request failed');console.error(e.message);}});
-server.listen(0,'127.0.0.1',()=>{origin='http://127.0.0.1:'+server.address().port;console.log(JSON.stringify({origin,siteRoot,database,filePipeline:!!bridgeKey,publishedGuides:project(pkg).filter(p=>p.type==='guide').length,product:'/produktai/'+pkg.pages.find(p=>p.type==='product').slug.split('/').slice(1).join('/')}));});
+server.listen(port,'127.0.0.1',()=>{origin='http://127.0.0.1:'+server.address().port;console.log(JSON.stringify({origin,siteRoot,database,filePipeline:!!bridgeKey,publishedGuides:project(pkg).filter(p=>p.type==='guide').length,product:'/produktai/'+pkg.pages.find(p=>p.type==='product').slug.split('/').slice(1).join('/')}));});
 process.on('SIGINT',()=>server.close(()=>{db.close();process.exit(0)}));

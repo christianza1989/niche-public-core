@@ -10,3 +10,12 @@ CREATE TABLE IF NOT EXISTS content_admin_rewrites (
  UNIQUE(site_id,id)
 );
 CREATE INDEX IF NOT EXISTS content_admin_rewrites_pending ON content_admin_rewrites(site_id,state,seq);
+CREATE TABLE IF NOT EXISTS content_admin_editorial_rules (
+ site_id TEXT NOT NULL, id TEXT NOT NULL, term TEXT NOT NULL, instruction TEXT NOT NULL,
+ active INTEGER NOT NULL DEFAULT 1, actor_email TEXT NOT NULL, created_at INTEGER NOT NULL,
+ PRIMARY KEY(site_id,id)
+);
+CREATE TABLE IF NOT EXISTS content_admin_rewrite_rules (
+ site_id TEXT NOT NULL, job_id TEXT NOT NULL, rules_json TEXT NOT NULL,
+ PRIMARY KEY(site_id,job_id)
+);
