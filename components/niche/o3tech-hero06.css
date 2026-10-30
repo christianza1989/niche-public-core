@@ -3,3 +3,22 @@
 .o3-hero-06{background:radial-gradient(ellipse at 78% 0%,#c2e9e7,transparent 60%),linear-gradient(120deg,#f1fafa,#dfefef)}.o3-hero-06 .o3-hero06-grid{grid-template-columns:1.23fr 1fr;gap:40px;padding-block:58px}.o3-hero-06 article{padding:34px 32px;background:#fbfefe;border:2px solid #bfdfe1;border-radius:24px}.o3-hero-06 h1{font-size:43px;letter-spacing:-1.4px;margin-bottom:24px}.o3-hero-06 .o3-hero06-prose{font-size:14.5px;line-height:1.75}.o3-hero-06 .o3-hero06-visual img{max-width:460px}.o3-hero-06 .o3-hero06-primary{border-radius:30px}
 @media(max-width:1050px) and (min-width:768px){.o3-hero-06 .o3-hero06-grid{padding:45px 32px;gap:28px 40px}.o3-hero-06 h1{font-size:43px}.o3-hero-06 .o3-hero06-prose{font-size:14px}}
 @media(max-width:767px){.o3-hero-06,.o3-hero-06 .o3-hero06-grid{min-height:0}.o3-hero-06 .o3-hero06-grid{padding:38px 22px;display:grid;grid-template-columns:1fr;gap:30px}.o3-hero-06 h1{font-size:39px;letter-spacing:-1.5px}.o3-hero-06 h1 .o3-hero06-question{font-size:.62em}.o3-hero-06 .o3-hero06-prose{font-size:15px;line-height:1.8}.o3-hero-06 .o3-hero06-visual{height:auto;min-height:0}.o3-hero-06 .o3-hero06-visual img{max-width:100%;width:100%;height:auto}.o3-hero-06 .o3-hero06-actions{gap:23px;margin-top:25px}.o3-hero-06 .o3-hero06-primary{padding:14px 18px}.o3-hero-06 .o3-hero06-grid{padding:24px 14px}.o3-hero-06 article{padding:26px 22px}.o3-hero-06 h1{font-size:33px}.o3-hero-06 .o3-hero06-visual{padding:12px 10px}}
+
+/* Owner-requested compact balanced desktop composition. */
+.o3-hero-06,.o3-hero-06 .o3-hero06-grid{min-height:0}
+@media(min-width:768px){
+ .o3-hero-06 .o3-hero06-grid{padding-block:40px}
+ .o3-hero-06 article{padding:20px 24px}
+ .o3-hero-06 h1{margin-bottom:18px}
+ .o3-hero-06 h1 .o3-hero06-question{margin-top:8px}
+ .o3-hero-06 .o3-hero06-prose{line-height:1.7}
+ .o3-hero-06 p{margin-bottom:10px}
+ .o3-hero-06 p:last-child{margin-bottom:0}
+ .o3-hero-06 .o3-hero06-actions{margin-top:18px}
+ .o3-hero-06 .o3-hero06-primary{padding-block:12px}
+}
+@media(min-width:1280px){
+ .o3-hero-06 .o3-hero06-grid{max-width:1248px;padding-inline:32px;grid-template-columns:minmax(0,1fr) 520px;gap:36px}
+ .o3-hero-06 article{min-height:520px;display:flex;flex-direction:column;justify-content:center}
+ .o3-hero-06 .o3-hero06-visual img{max-width:520px}
+}
