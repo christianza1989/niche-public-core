@@ -3,6 +3,9 @@ export async function verifyInline(page,origin,directory){
  const check=(value,message)=>{if(!value)throw Error(message)},errors=[],writes=[];
  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(r.method()==='POST')writes.push({path:new URL(r.url()).pathname,input:r.postDataJSON()})});
  await page.setViewportSize({width:1366,height:900});
+ await page.goto(origin+'/gidai');const guides=await page.locator('a[href^="/gidai/"]').evaluateAll(nodes=>[...new Set(nodes.map(node=>node.getAttribute('href')))].sort());
+ check(JSON.stringify(guides)===JSON.stringify(['/gidai/iso-moduliu-sistema','/gidai/medicininio-vezimelio-pasirinkimas']),'publication pause keeps only the two published guides');
+ const held=await page.goto(origin+'/gidai/medicininio-vezimelio-matmenu-patikra');check(held.status()===404,'unpublished guide is not a public page');
  const url=origin+'/produktai/infuziju-stovas-nerez1002is';await page.goto(url);await page.getByRole('button',{name:'Taisyti',exact:true}).waitFor();
  await page.locator('[data-edit-path="body.1.text"]').evaluate(node=>{const range=document.createRange();range.selectNodeContents(node);range.setEnd(node.firstChild,Math.min(40,node.firstChild.length));const s=getSelection();s.removeAllRanges();s.addRange(range);document.dispatchEvent(new Event('selectionchange'));});
  await page.getByRole('button',{name:'Perdaryti dalį',exact:true}).click();const modal=page.getByRole('dialog');await modal.waitFor();check((await modal.locator('blockquote').innerText()).length>5,'selection preview');
