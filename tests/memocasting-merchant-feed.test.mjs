@@ -108,6 +108,7 @@ test('exact host and read-only method guards execute before the catalog loader',
 
 async function loadModule(path,modules,globals={}){
  const source=await readFile(new URL(path,import.meta.url),'utf8'),javascript=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,exports={};
+ if(modules['@/lib/niche-sites'])modules['@/lib/niche-sites'].loadNicheSiteByHost=async host=>modules['@/lib/niche-sites'].nicheSiteByHost(host);
  runInNewContext(javascript,{exports,require:name=>{assert.ok(name in modules,'Unexpected dependency '+name);return modules[name];},Request,Response,Headers,URL,Map,Set,AbortSignal,...globals});return exports;
 }
 
@@ -137,6 +138,7 @@ test('published catalog export reuses the actual service-binding catalog and LIV
 test('actual proxy reserves the feed before foreign gift, legacy and preview fallbacks',async()=>{
  const modules={
   'next/server':{NextResponse:{next:()=>new Response('fallback'),rewrite:url=>new Response(null,{headers:{'x-test-rewrite':url.href}}),redirect:(url,status)=>new Response(null,{status,headers:{Location:url.href}})}},
+  'cloudflare:workers':{env:{}},'@/lib/content-admin-api.mjs':{handleContentAdmin:()=>{throw Error('Unexpected admin route')}},'@/config/niche-network.json':{},
   '@/lib/niche-sites':{normalizedHost:host=>(host??'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,''),nicheSiteByHost:host=>host==='memocasting.lt'?pkg:host==='other.lt'?{siteId:'other',canonicalHost:'other.lt'}:null,publicNichePages:project},
   '@/lib/site-config':{SITE_CONFIGS:{legacy:{domains:['legacy.test']}}},
   '@/lib/content-model-v2':{hasLocalPreviewContent:()=>false,contentPackageByHost:()=>{throw Error('Feed reached foreign fallback');}},
@@ -148,11 +150,11 @@ test('actual proxy reserves the feed before foreign gift, legacy and preview fal
  };
  const {proxy}=await loadModule('../proxy.ts',modules);
  const incoming=options=>{const req=request(options),nextUrl=new URL(req.url);nextUrl.clone=()=>new URL(nextUrl);req.nextUrl=nextUrl;return req;};
- for(const method of ['GET','HEAD']){const result=proxy(incoming({method}));assert.equal(result.status,200);assert.equal(result.headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');}
- assert.equal(proxy(incoming({url:'https://memocasting.lt/prekiu-srautas.xml?country=PL&draft=1'})).headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');
- assert.equal(proxy(incoming({url:'https://memocasting.lt/niche/memocasting/merchant-feed'})).status,404,'internal route has no public bypass');
- for(const host of ['other.lt','legacy.test','gift.test','unknown.test','localhost','memocasting.lt:444'])assert.equal(proxy(incoming({host})).status,404,host);
- assert.equal(proxy(incoming({method:'POST'})).status,405);assert.equal(proxy(incoming({headers:{host:'other.lt'}})).status,404);
- assert.equal(proxy(incoming({url:'http://memocasting.lt/prekiu-srautas.xml'})).status,404);
- const www=proxy(incoming({host:'www.memocasting.lt'}));assert.equal(www.status,308);assert.equal(www.headers.get('Location'),'https://memocasting.lt/prekiu-srautas.xml');
+ for(const method of ['GET','HEAD']){const result=(await proxy(incoming({method})));assert.equal(result.status,200);assert.equal(result.headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');}
+ assert.equal((await proxy(incoming({url:'https://memocasting.lt/prekiu-srautas.xml?country=PL&draft=1'}))).headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/merchant-feed');
+ assert.equal((await proxy(incoming({url:'https://memocasting.lt/niche/memocasting/merchant-feed'}))).status,404,'internal route has no public bypass');
+ for(const host of ['other.lt','legacy.test','gift.test','unknown.test','localhost','memocasting.lt:444'])assert.equal((await proxy(incoming({host}))).status,404,host);
+ assert.equal((await proxy(incoming({method:'POST'}))).status,405);assert.equal((await proxy(incoming({headers:{host:'other.lt'}}))).status,404);
+ assert.equal((await proxy(incoming({url:'http://memocasting.lt/prekiu-srautas.xml'}))).status,404);
+ const www=(await proxy(incoming({host:'www.memocasting.lt'})));assert.equal(www.status,308);assert.equal(www.headers.get('Location'),'https://memocasting.lt/prekiu-srautas.xml');
 });

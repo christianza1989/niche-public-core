@@ -1,11 +1,11 @@
-import { nicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
+import { loadNicheSiteByHost, publicNichePage } from "@/lib/niche-sites";
 import { voiceCoreRequest, voiceManifestResponse } from "@/lib/niche-voice";
 export const dynamic = "force-dynamic";
 type Params = Promise<{ siteId: string; action: string }>;
 
 async function handle(request: Request, { params }: { params: Params }) {
   const { siteId, action } = await params;
-  const pkg = nicheSiteByHost(request.headers.get("host"));
+  const pkg = await loadNicheSiteByHost(request.headers.get("host"));
   if (!pkg || pkg.siteId !== siteId || !publicNichePage(pkg, "")) return new Response("Not found", { status: 404 });
   const methods: Record<string, string> = { sesija: "POST", busena: "GET", kontaktas: "POST", baigti: "POST", ui: "POST", atmintis: "GET", pamirsti: "POST", zinios: "POST", manifestas: "GET" };
   if (methods[action] !== request.method) return new Response("Method not allowed", { status: 405 });

@@ -98,7 +98,7 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
   '@/lib/memocasting-reviews.mjs':{memoReviewMetadata},
   'next/headers':{headers:async()=>requestHeaders},
   '@/lib/site-config':{resolveSite:()=>{throw Error('Unexpected legacy fallback');}},
-  '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},
+  '@/lib/niche-sites':{loadNicheSiteByHost:async()=>candidate,nicheSiteByHost:()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},
   '@/lib/content-model-v2':{contentPackageByHost:()=>null},
   '@/lib/memocasting-locales.mjs':{memoRoute,memoAlternates},'@/lib/memocasting-content.mjs':{memoFunctionalPage},
   '@/lib/product-catalogue-query.mjs':{catalogueCanonical},'@/lib/niche-media.mjs':{uniqueImageFamilies},
@@ -123,7 +123,7 @@ test('actual page renderer never waits for commerce on home, but enriches catalo
    },
    'next/headers':{headers:async()=>new Headers({host:'memocasting.lt'})},
    'next/navigation':{notFound:()=>{throw Error('Unexpected 404');}},
-   '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,publicNichePage:(_p,s)=>eligible.find(p=>p.slug===s),publicNichePages:()=>eligible},
+   '@/lib/niche-sites':{loadNicheSiteByHost:async()=>candidate,nicheSiteByHost:()=>candidate,publicNichePage:(_p,s)=>eligible.find(p=>p.slug===s),publicNichePages:()=>eligible},
    '@/lib/niche-voice':{voiceWidgetEnabled:()=>false},
    '@/components/niche/memocasting-site':{MemocastingSite:()=>null},
   };

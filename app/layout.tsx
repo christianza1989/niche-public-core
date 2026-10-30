@@ -4,7 +4,7 @@ import {memoBrandName,memoSeoMetadata} from '@/lib/memocasting-seo-metadata.mjs'
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { localeAlternates, localeToHtmlLang, resolveSite, siteOrigin } from "@/lib/site-config";
-import { nicheOrigin, nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
+import { nicheOrigin, loadNicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { contentPackageByHost, publicContentPages } from "@/lib/content-model-v2";
 import {memoRoute,memoAlternates} from '@/lib/memocasting-locales.mjs';
 import { memoFunctionalPage } from '@/lib/memocasting-content.mjs';
@@ -16,7 +16,7 @@ import {memoReviewMetadata} from '@/lib/memocasting-reviews.mjs';
 
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
-  const niche = nicheSiteByHost(host);
+  const niche = await loadNicheSiteByHost(host);
   if (niche) {
     return { metadataBase: new URL(nicheOrigin(niche)),...(niche.siteId==='memocasting'?{applicationName:memoBrandName}:{}) };
   }
@@ -41,7 +41,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const host = (await headers()).get("host");
-  const niche = nicheSiteByHost(host);
+  const niche = await loadNicheSiteByHost(host);
   if (niche) {
     const { NicheStyles } = await import("@/components/niche/niche-styles");
     const pathname = (await headers()).get("x-niche-original-path") || "/";

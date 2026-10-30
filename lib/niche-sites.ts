@@ -3,6 +3,8 @@ import { env } from "cloudflare:workers";
 import { dueRevision, projectPublicPages } from "./niche-links.mjs";
 import networkSettings from "@/config/niche-network.json";
 import { cache } from "react";
+import { contentAdminEnabled, attachAdminProjection, adminProjectionContext, publicationSettings } from './content-admin-context.mjs';
+import { readPublishedEdits } from './content-admin-store.mjs';
 
 export type NicheBlock =
   | { type: "paragraph"; text: string }
@@ -76,18 +78,35 @@ export function nicheSiteByHost(host: string | null | undefined): NichePackage |
   return packages.find((item) => item.canonicalHost === hostname);
 }
 
+// The authenticated editor persists only changed revisions. All public surfaces
+// load the same approved request-time overlay; drafts never enter this function.
+export const loadNicheSiteByHost = cache(async (host: string | null | undefined): Promise<NichePackage | undefined> => {
+  const base = nicheSiteByHost(host);
+  if (!base || !contentAdminEnabled(env, base.siteId)) return base;
+  if (!env.DB) throw new Error('Content administration storage is unavailable');
+  const snapshot = await readPublishedEdits(env.DB, base);
+  return attachAdminProjection(snapshot.pkg, publicationSettings(networkSettings, base.siteId, snapshot.pausedAt), snapshot.at);
+});
+
+export function projectNichePackage(pkg: NichePackage, settings = networkSettings, at = Date.now()): NichePage[] {
+  const registry = rawPackages.map(p => p.siteId === pkg.siteId ? pkg : p);
+  return projectPublicPages(pkg, registry, settings, at) as NichePage[];
+}
+
 export function isPublicNichePage(page: NichePage, now = Date.now()): boolean {
   return dueRevision(page, now);
 }
 
 // React owns this cache for one server render and clears it between requests.
 // Explicit clocks and non-component callers retain the pure time-aware path.
-const renderedPublicPages = cache((pkg: NichePackage) =>
-  projectPublicPages(pkg, rawPackages, networkSettings, Date.now()) as NichePage[]);
+const renderedPublicPages = cache((pkg: NichePackage) => {
+  const context = adminProjectionContext(pkg);
+  return projectNichePackage(pkg, context?.settings || networkSettings, context?.at ?? Date.now());
+});
 
 export function publicNichePages(pkg: NichePackage, now?: number): NichePage[] {
   return now === undefined ? renderedPublicPages(pkg)
-    : projectPublicPages(pkg, rawPackages, networkSettings, now) as NichePage[];
+    : projectNichePackage(pkg, adminProjectionContext(pkg)?.settings || networkSettings, now);
 }
 
 export function publicNichePage(pkg: NichePackage, slug: string, now?: number): NichePage | undefined {

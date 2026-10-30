@@ -36,7 +36,7 @@ test('category SSR places ordered prose, linked text and sources after unchanged
     assert.ok(html.indexOf('Produktų paieškos rezultatai')<html.indexOf('data-category-content'));
     const content=html.slice(html.indexOf('data-category-content'));
     let position=-1;
-    for(const value of ['Patikros pradžia.','<h2 id="skyrius-1">Pasirinkimo kriterijai</h2>','Atverkite','Pirmasis kriterijus.','Antrasis kriterijus.','<h2 id="skyrius-4">Patikros pabaiga</h2>','Šaltiniai ir dokumentai','https://example.org/manufacturer','Techniniai duomenys.']){const next=content.indexOf(value);assert.ok(next>position,value);position=next;}
+    for(const value of ['Patikros pradžia.','<h2 data-edit-path="body.1.text" id="skyrius-1">Pasirinkimo kriterijai</h2>','Atverkite','Pirmasis kriterijus.','Antrasis kriterijus.','<h2 data-edit-path="body.4.text" id="skyrius-4">Patikros pabaiga</h2>','Šaltiniai ir dokumentai','https://example.org/manufacturer','Techniniai duomenys.']){const next=content.indexOf(value);assert.ok(next>position,value);position=next;}
     assert.match(content,/<a href="\/produktai">produktų katalogą<\/a>/);
     const searched=render(page,{q:'no-such-test-product'});
     assert.match(searched,/Pagal šią paiešką produktų neradome/);

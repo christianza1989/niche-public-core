@@ -1,0 +1,212 @@
+import {captureSelection,selectAllText,selectionQuote} from './selection.js';
+const app=document.getElementById('app'),announce=document.getElementById('announcements');
+const S={session:null,record:null,dirty:false,expired:false,nav:0,view:'read'};
+const countWord=(n,one,few,many)=>n%10===1&&n%100!==11?one:n%10>=2&&n%10<=9&&(n%100<10||n%100>=20)?few:many;
+const kinds={guide:'Gidai'};
+const otherKinds={all:'Visi kiti tekstai',home:'Pradinis',product:'Produktai',category:'Kategorijos',page:'Puslapiai'};
+const kindLabel={home:'Pradinis puslapis',guide:'Gidas',product:'Produktas',category:'Kategorija',page:'Puslapis'};
+const states={all:'Visos būsenos',published:'Paskelbta',scheduled:'Suplanuota',draft:'Juodraštis',paused:'Pristabdyta',conflict:'Versijų konfliktas'};
+function E(tag,props={},...children){const n=document.createElement(tag);for(const[k,v]of Object.entries(props)){if(k==='class')n.className=v;else if(k==='on')for(const[event,fn]of Object.entries(v))n.addEventListener(event,fn);else if(k.startsWith('aria-')||k==='role'||k==='data-action')n.setAttribute(k,String(v));else n[k]=v}for(const c of children.flat(Infinity)){if(c===null||c===undefined||c===false)continue;n.append(c instanceof Node?c:document.createTextNode(String(c)))}return n;}
+const B=(text,fn,primary=false)=>E('button',{type:'button',class:`button${primary?' primary':''}`,on:{click:fn}},text);
+const link=(text,href,props={})=>E('a',{href,...props},text);
+const badge=state=>E('span',{class:`badge ${state}`},states[state]||state);
+const logo=()=>E('span',{class:'brand-mark'},E('img',{class:'logo',src:'/brand/promedical/logo-v2-640.webp',alt:'Promedical',width:640,height:213}));
+const dateLabel=value=>value?new Intl.DateTimeFormat('lt-LT',{timeZone:S.session?.site.timezone||'Europe/Vilnius',dateStyle:'medium',timeStyle:'short'}).format(new Date(value)):'—';
+const today=()=>localValue(new Date()).slice(0,10);
+function localValue(value){const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:S.session?.site.timezone||'Europe/Vilnius',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date(value)).map(p=>[p.type,p.value]));return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}`;}
+function field(label,input,hint){return E('label',{class:'field'},E('span',{},label),input,hint?E('small',{},hint):null);}
+function select(options,value,name){return E('select',{name,value},...Object.entries(options).map(([k,v])=>E('option',{value:k,selected:k===value},v)));}
+function alertBox(message){return E('div',{class:'error',role:'alert',tabIndex:-1},message);}
+function notify(message){announce.textContent=message;}
+async function api(path,method='GET',data){if(method!=='GET'&&S.expired){S.session=await api('session');S.expired=false;}let r;try{r=await fetch('/admin/api/'+path,{method,credentials:'same-origin',cache:'no-store',headers:{...(method!=='GET'?{'content-type':'application/json','x-admin-csrf':S.session?.csrf||''}:{})},...(data!==undefined?{body:JSON.stringify(data)}:{})})}catch{throw Error('Nepavyko prisijungti prie serverio. Patikrinkite ryšį ir bandykite dar kartą.')}let result;try{result=await r.json()}catch{throw Error('Nepavyko gauti atsakymo. Bandykite dar kartą.')}if(!r.ok){if(r.status===401&&S.session){if(S.dirty){S.expired=true;result.error='Sesija baigėsi. Prisijunkite kitame lange ir dar kartą išsaugokite. Jūsų pakeitimai liko šiame redaktoriuje.';}else{S.session=null;S.record=null;renderLogin('Sesija baigėsi. Prisijunkite iš naujo.');}}const error=Error(result.error||'Nepavyko atlikti veiksmo.');error.status=r.status;throw error}return result;}
+function changed(){S.dirty=true;const status=document.querySelector('.save-state');if(status)status.textContent='Yra neišsaugotų pakeitimų.';const publish=document.querySelector('[data-action="publish"]');if(publish)publish.disabled=true;}
+function canLeave(){return !S.dirty||window.confirm('Yra neišsaugotų pakeitimų. Palikti šį tekstą?');}
+async function navigate(url){if(!canLeave())return;S.dirty=false;history.pushState(null,'',url);await route();}
+document.addEventListener('click',event=>{const a=event.target.closest('a');if(!a||a.target||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&(url.pathname==='/admin'||url.pathname.startsWith('/admin/'))){event.preventDefault();navigate(url.pathname+url.search)}});
+window.addEventListener('popstate',()=>{if(canLeave()){S.dirty=false;route()}else history.forward()});
+window.addEventListener('beforeunload',event=>{if(S.dirty){event.preventDefault();event.returnValue=''}});
+function frame(){
+ const active=location.pathname.includes('/calendar')?'calendar':(location.pathname.includes('/pending')||new URLSearchParams(location.search).get('mode')==='compare')?'pending':location.pathname.includes('/publication')?'publication':new URLSearchParams(location.search).get('scope')==='other'?'other':'texts';
+ const logout=E('button',{class:'quiet',type:'button',on:{click:async()=>{if(!canLeave())return;try{await api('logout','POST',{});S.session=null;S.record=null;S.dirty=false;history.replaceState(null,'','/admin/login');renderLogin()}catch(e){window.alert(e.message)}}}},'Atsijungti');
+ const nav=E('nav',{'aria-label':'Administravimo skyriai'},...Object.entries({pending:['Dar nematomi tekstai','/admin/pending'],texts:['Gidai','/admin'],other:['Kiti tekstai','/admin?scope=other'],calendar:['Kalendorius','/admin/calendar'],publication:['Leidyba','/admin/publication']}).map(([key,[name,url]])=>link(name,url,{'aria-current':active===key?'page':'false'})));
+ const main=E('main',{id:'workspace',class:'main',tabIndex:-1});app.replaceChildren(...[E('header',{class:'topbar'},link(logo(),'/admin'),E('div',{class:'toplinks'},link('Atidaryti svetainę','/',{target:'_blank',rel:'noopener'}),E('span',{class:'user'},S.session.email),logout)),S.session.localPreview?E('div',{class:'local-note'},'Vietinė peržiūra · testinė paskyra · duomenys nepublikuojami gyvoje svetainėje.'):null,E('div',{class:'workspace'},E('aside',{class:'sidebar'},nav,E('p',{class:'help'},'Turinys ir publikavimo datos valdomi atskirai. Išsaugotas juodraštis nepakeičia viešo teksto.')),main)].filter(Boolean));return main;
+}
+function heading(title,description,actions){return E('div',{class:'pagehead'},E('div',{},E('h1',{},title),description?E('p',{},description):null),actions?E('div',{class:'head-actions'},actions):null);}
+function renderLogin(message='',setup){
+ S.listObserver?.disconnect();S.session=null;S.expired=false;const errorSlot=E('div'),email=E('input',{type:'email',name:'email',autocomplete:'username',required:true,maxLength:254,value:setup?.email||''}),password=E('input',{id:'admin-password',type:'password',name:'password',autocomplete:setup?'new-password':'current-password',required:true,maxLength:128,minLength:setup?15:undefined});
+ const toggle=E('button',{type:'button','aria-pressed':'false',on:{click:()=>{password.type=password.type==='password'?'text':'password';toggle.textContent=password.type==='password'?'Rodyti':'Slėpti';toggle.setAttribute('aria-pressed',String(password.type==='text'))}}},'Rodyti');
+ if(setup)email.readOnly=true;
+ const submit=E('button',{type:'submit',class:'button primary'},setup?'Nustatyti slaptažodį':'Prisijungti');
+ // eslint-disable-next-line @next/next/no-location-assign-relative-destination -- Standalone Worker shell has no React router; return to public site after login.
+ const form=E('form',{on:{submit:async event=>{event.preventDefault();submit.disabled=true;errorSlot.replaceChildren();try{if(setup){await api('enroll','POST',{token:setup.token,password:password.value});password.value='';renderLogin('Slaptažodis nustatytas. Prisijunkite savo el. paštu ir nauju slaptažodžiu.')}else{const result=await api('login','POST',{email:email.value,password:password.value});password.value='';S.session={...await api('session'),csrf:result.csrf};location.assign('/')}}catch(e){const err=alertBox(e.message);errorSlot.replaceChildren(err);err.focus()}finally{submit.disabled=false}}}},field('El. paštas',email),E('div',{class:'field'},E('label',{htmlFor:'admin-password'},'Slaptažodis'),E('div',{class:'password-row'},password,toggle),setup?E('small',{},'Mažiausiai 15 simbolių. Slaptažodžio niekam siųsti nereikia.'):null),errorSlot,submit);
+ const card=E('main',{id:'workspace',class:'login-card'},logo(),E('h1',{},setup?'Nustatykite slaptažodį':'Promedical redagavimas'),E('p',{},setup?'Vienkartinė pirmojo prisijungimo nuoroda.':'Prisijungę galėsite vaikščioti po svetainę ir taisyti jos tekstus.'),message?E('div',{class:message.startsWith('Slaptažodis nustatytas')?'success':'error',role:'status'},message):null,form,E('div',{class:'login-footer'},link('Grįžti į svetainę','/')));
+ app.replaceChildren(E('div',{class:'login-wrap'},card));
+}
+function listUrl(updates,base='/admin'){const q=new URLSearchParams(location.search);for(const[k,v]of Object.entries(updates)){if(v===null||v===''||v==='all')q.delete(k);else q.set(k,String(v))}return base+(q.size?'?'+q:'');}
+async function renderPending(main,ticket){
+ const params=new URLSearchParams(location.search);params.set('scope','pending');const data=await api('texts?'+params);if(ticket!==S.nav)return;
+ main.append(heading('Dar nematomi tekstai','Juodraščiai ir dar nepaskelbti tekstai. Patvirtinate tik jūs, peržiūrėję seną ir naują versijas.'));
+ const q=E('input',{type:'search',value:params.get('q')||'',maxLength:100});main.append(E('form',{class:'actions',on:{submit:e=>{e.preventDefault();navigate('/admin/pending?q='+encodeURIComponent(q.value))}}},field('Ieškoti juodraščio',q),E('button',{type:'submit',class:'button'},'Ieškoti')));
+ if(!data.items.length)main.append(E('p',{class:'panel panel-pad'},'Laukiančių tekstų nėra.'));
+ for(const item of data.items)main.append(E('section',{class:'panel pending-item'},E('div',{},E('h2',{},item.title),E('p',{},kindLabel[item.kind]+' · /'+item.slug),badge(item.state)),link('Palyginti tekstus','/admin/text/'+item.id+'?mode=compare',{class:'button'})));
+ const pages=Math.ceil(data.total/data.limit);if(pages>1)main.append(E('nav',{class:'pager','aria-label':'Juodraščių puslapiai'},data.page>1?link('Ankstesnis',listUrl({p:data.page-1},'/admin/pending')):null,E('span',{},data.page+' / '+pages),data.page<pages?link('Kitas',listUrl({p:data.page+1},'/admin/pending')):null));
+}
+function rewriteAgain(id,choice){
+ const record=S.record,note=E('textarea',{maxLength:4000,rows:4}),errors=E('div'),requestId=crypto.randomUUID(),ruleId=crypto.randomUUID();let sent=null,d,savedRule=null;
+ const remember=E('input',{type:'checkbox'}),term=E('input',{type:'text',maxLength:160,value:choice.mode==='selection'&&selectionQuote(choice).length<=160?selectionQuote(choice):''});
+ const instruction=E('textarea',{maxLength:4000,rows:3});
+ const ruleFields=E('div',{hidden:true},field('Žodis, frazė arba žodžio dalis',term,'Pvz., „kreipianč“ padės rasti skirtingus to žodžio linksnius. Ieškoma tik šių raidžių.'),field('Taisyklė visiems puslapiams',instruction,'Čia rašykite bendrą pastabą. Konkretaus puslapio taisymas lieka aukščiau.'),E('p',{},'Šiame tekste taisysime visas vietas su nurodyta fraze. Kitus puslapius pasirinksite iš rastų atitikmenų. Taisyklė bus perduodama ir naujoms užduotims.'));
+ remember.addEventListener('change',()=>{ruleFields.hidden=!remember.checked});
+ const send=B('Pateikti taisymui',async()=>{send.disabled=true;errors.replaceChildren();try{
+  if(!sent){
+   let chosen=structuredClone(choice);
+   if(remember.checked){
+    if(term.value.trim().length<3||!instruction.value.trim())throw Error('Įrašykite ieškomą žodį ar frazę ir bendrą taisyklę.');
+    const text=[record.draft.title,record.draft.description,...record.draft.body.flatMap(b=>b.type==='list'?b.items:b.text?[b.text]:[])].join('\n').normalize('NFC').toLocaleLowerCase('lt');
+    if(!text.includes(term.value.trim().normalize('NFC').toLocaleLowerCase('lt')))throw Error('Nurodyta frazė šiame juodraštyje nerasta. Patikslinkite paiešką.');
+    savedRule=await api('editorial-rules','POST',{id:ruleId,term:term.value,instruction:instruction.value});
+    note.disabled=true;term.disabled=true;remember.disabled=true;instruction.disabled=true;
+    const matches=await api('editorial-rules/'+ruleId+'/matches'),current=matches.items.find(p=>p.pageId===id);
+    if(!current||current.etag!==record.etag)throw Error('Juodraštis pasikeitė. Uždarykite langą ir atnaujinkite tekstą. Taisyklė išsaugota.');
+    if(choice.mode==='selection')chosen={mode:'selection',selection:current.selection};
+   }
+   sent={id:requestId,etag:record.etag,...chosen,note:note.value};
+  }
+  note.disabled=true;term.disabled=true;remember.disabled=true;instruction.disabled=true;
+  await api('texts/'+id+'/rewrite','POST',sent);d.close();notify('Taisymo užduotis įrašyta į eilę. Viešas tekstas nepasikeitė.');
+  await route();if(savedRule)await showRuleMatches(savedRule.id,id);
+ }catch(e){errors.replaceChildren(alertBox(e.message));if(!savedRule&&e.status&&e.status<500){sent=null;note.disabled=false;term.disabled=false;remember.disabled=false;instruction.disabled=false}}finally{send.disabled=false}},true);
+ d=modal('Perrašyti pažymėtą tekstą','Taisomas matomas naujas juodraštis. Nauja užduotis pakeis ankstesnę laukiančią šio puslapio užduotį.',E('div',{},E('blockquote',{class:'selected-quote'},selectionQuote(choice)),field('Kas blogai ir kaip pataisyti?',note),E('label',{class:'check'},remember,E('span',{},'Ši pastaba galioja visai svetainei')),ruleFields,errors),send);note.focus();
+}
+async function showRuleMatches(ruleId,excludeId){
+ let data;try{data=await api('editorial-rules/'+ruleId+'/matches')}catch(e){const failed=modal('Nepavyko rasti puslapių','Pakartokite paiešką. Jau pateiktos užduotys lieka eilėje.',alertBox(e.message),B('Bandyti dar kartą',()=>{failed.close();showRuleMatches(ruleId,excludeId)}));return;}
+ const items=data.items.filter(p=>p.pageId!==excludeId),errors=E('div'),choices=[];let d,sent=null;
+ const rows=items.map(p=>{const input=E('input',{type:'checkbox',disabled:p.conflict||p.pending});choices.push({input,p});return E('label',{class:'rule-match'},input,E('span',{},E('strong',{},p.title),E('small',{},'/'+p.slug+(p.conflict?' · versijų konfliktas':p.pending?' · užduotis jau eilėje':'')),E('span',{},p.selection.ranges.map(r=>r.quote).join('\n\n'))));});
+ const send=B('Pateikti pasirinktus puslapius taisymui',async()=>{send.disabled=true;errors.replaceChildren();try{
+  const pages=choices.filter(c=>c.input.checked&&!c.input.disabled).map(c=>({pageId:c.p.pageId,etag:c.p.etag}));if(!sent&&(!pages.length||pages.length>50))throw Error('Pasirinkite nuo 1 iki 50 puslapių.');
+  sent??={id:crypto.randomUUID(),pages};choices.forEach(c=>c.input.disabled=true);
+  const result=await api('editorial-rules/'+ruleId+'/queue','POST',sent),failed=result.results.filter(r=>r.error);
+  if(failed.length){errors.append(alertBox('Dalis puslapių nepateikta: '+failed.map(r=>(items.find(p=>p.pageId===r.pageId)?.title||r.pageId)+': '+r.error).join('; ')),B('Atnaujinti paiešką',()=>{d.close();showRuleMatches(ruleId,excludeId)}));send.hidden=true;return;}
+  d.close();notify(`${result.results.length} puslapių pateikta taisymui. Visi pakeitimai bus tikrinami ir lauks juodraščiuose.`);
+ }catch(e){errors.replaceChildren(alertBox(e.message))}finally{send.disabled=false}},true);
+ d=modal('Ta pati pastaba kituose puslapiuose','Ieškoma: „'+data.rule.term+'“. '+data.rule.instruction,E('div',{},items.length?E('div',{class:'rule-matches'},rows):E('p',{},'Kituose puslapiuose atitikmenų nerasta.'),errors),items.length?send:null);
+}
+function editorialPanel(record){
+ const errors=E('div'),body=E('div',{class:'editorial-rules'}),details=E('details',{class:'panel panel-pad'},E('summary',{},'Svetainės kalbos taisyklės'),body,errors);
+ for(const rule of record.editorialRules||[])body.append(E('div',{class:'editorial-rule'},E('p',{},E('strong',{},'„'+rule.term+'“'),': '+rule.instruction),E('div',{class:'actions'},B('Rasti kituose puslapiuose',()=>showRuleMatches(rule.id)),B('Pašalinti taisyklę',async()=>{try{await api('editorial-rules/'+rule.id+'/remove','POST',{});await route()}catch(e){errors.replaceChildren(alertBox(e.message))}}))));
+ if(!body.children.length)body.append(E('p',{},'Bendrą pastabą galėsite išsaugoti pateikdami pažymėtą tekstą taisymui.'));
+ return details;
+}
+function renderComparison(main,id,record){
+ main.append(link('Dar nematomi tekstai','/admin/pending',{class:'back'}),heading(record.draft.title,'Senas ir naujas tekstas greta. Vieša versija nesikeičia, kol jos nepatvirtinate.'));
+ if(record.conflict)main.append(alertBox('Svetainės šaltinis pasikeitė. Prieš patvirtinimą reikia suderinti versijas.'));
+ const approve=B('Patvirtinti',()=>reviewDialog(id),true);approve.disabled=record.conflict||record.editorialIssues?.length>0;
+ if(record.editorialIssues?.length)main.append(alertBox('Prieš tvirtinant reikia pataisyti: '+record.editorialIssues.map(r=>'„'+r.term+'“ — '+r.instruction).join('; ')));
+ const actions=E('div',{class:'actions'},approve);
+ actions.append(link('Taisyti juodraštį','/admin/text/'+id+'?mode=edit',{class:'button'}),B('Versijų istorija',()=>historyDialog(id)));main.append(actions);
+ const old=E('section',{},E('h2',{},record.live?'Senas · matomas lankytojams':'Senas · dar nepaskelbtas'),article(record.live||record.approved));
+ const nextArticle=article(record.draft,true),next=E('section',{},E('h2',{},'Naujas · laukia jūsų'));let choice=null;
+ const selected=E('p',{role:'status'},'Pažymėkite naujo teksto dalį arba pasirinkite visą tekstą.');
+ const rewrite=B('Perrašyti pažymėtą tekstą',()=>rewriteAgain(id,structuredClone(choice)),true);rewrite.disabled=true;
+ const update=()=>{selected.textContent=choice?(choice.mode==='whole'?'Pasirinktas visas naujas tekstas.':'Pažymėta: '+selectionQuote(choice).slice(0,160)):'Pažymėkite naujo teksto dalį arba pasirinkite visą tekstą.';rewrite.disabled=!choice||record.conflict;};
+ const all=B('Pažymėti visą tekstą',()=>{choice=selectAllText(nextArticle);update()});
+ const toolbar=E('div',{class:'selection-tools'},E('div',{class:'actions'},all,rewrite),selected);
+ const handler=()=>{const captured=captureSelection(nextArticle);if(captured){choice=captured;update()}else if(!window.getSelection()?.isCollapsed&&main.contains(window.getSelection()?.anchorNode)){choice=null;update()}};
+ for(const area of [nextArticle,old])area.addEventListener('pointerdown',()=>{choice=null;update()});
+ document.addEventListener('selectionchange',handler);S.selectionCleanup=()=>document.removeEventListener('selectionchange',handler);
+ toolbar.hidden=!['guide','product'].includes(record.draft.type)&&!record.draft.slug.startsWith('kategorijos/');
+ next.append(toolbar,nextArticle);main.append(editorialPanel(record),E('div',{class:'comparison'},old,next));
+}
+async function renderList(main,ticket){
+ const params=new URLSearchParams(location.search),data=await api('texts?'+params);if(ticket!==S.nav)return;
+ const other=data.scope==='other',options=other?otherKinds:kinds,selected=other?params.get('kind')||'all':'guide';
+ main.append(heading(other?'Kiti svetainės tekstai':'Gidų tekstai',other?`${data.counts.all} ${countWord(data.counts.all,'įrašas','įrašai','įrašų')}: produktai, kategorijos ir kiti puslapiai.`:`${data.counts.all} ${countWord(data.counts.all,'gidas','gidai','gidų')}. Perskaitykite tekstą, koreguokite jį ir suplanuokite publikavimą.`));
+ if(data.pausedAt&&!other)main.append(E('div',{class:'notice'},E('strong',{},'Gidų publikavimas pristabdytas.'),E('p',{},'Galite keisti tekstus ir datas. Nauji gidai bus viešinami tik atnaujinus leidybą. ',link('Leidybos nustatymai','/admin/publication'))));
+ if(other)main.append(E('nav',{class:'tabs','aria-label':'Tekstų tipai'},...Object.entries(options).map(([k,v])=>link(E('span',{},v,E('span',{class:'count'},' '+(data.counts[k]||0))),listUrl({kind:k,p:null,day:null}),{'aria-current':selected===k?'page':'false'}))));
+ const q=E('input',{type:'search',name:'q',value:params.get('q')||'',maxLength:100,placeholder:'Pavadinimas arba puslapio adresas'}),kind=select(options,selected,'kind'),state=select(states,params.get('state')||'all','state');
+ main.append(E('form',{class:'filters'+(other?'':' guides'),on:{submit:e=>{e.preventDefault();navigate(listUrl({q:q.value,kind:kind.value,state:state.value,p:null}))}}},field('Ieškoti teksto',q),other?field('Teksto tipas',kind):null,field('Būsena',state),E('button',{type:'submit',class:'button'},'Filtruoti')));
+ if(params.get('day'))main.append(E('p',{class:'muted'},'Diena: '+params.get('day')+' · ',link('Rodyti visas datas',listUrl({day:null,p:null}))));
+ if(!data.items.length){main.append(E('div',{class:'panel empty'},E('h2',{},'Tekstų nerasta'),E('p',{},'Pakeiskite paiešką arba pasirinkite kitus filtrus.'),link('Atšaukti filtrus','/admin',{class:'button'})));return;}
+ const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){observer.unobserve(entry.target);loadThumbnail(entry.target,entry.target.dataset.pageId,ticket)}},{rootMargin:'160px'});S.listObserver=observer;const tbody=E('tbody');for(const item of data.items){const href='/admin/text/'+encodeURIComponent(item.id)+(other?'?scope=other':''),thumb=link(E('span',{class:'sr-only'},'Įkeliama nuotrauka'),href,{class:'list-image','aria-label':item.title});thumb.dataset.pageId=item.id;observer.observe(thumb);tbody.append(E('tr',{},E('td',{},E('div',{class:'list-title'},thumb,E('div',{class:'list-copy'},link(item.title,href,{class:'title'}),E('span',{class:'slug'},'/'+item.slug)))),E('td',{},kindLabel[item.kind]||item.kind),E('td',{},badge(item.state)),E('td',{},dateLabel(item.publishAt)),E('td',{},link('Atidaryti',href,{class:'button'}))))}
+ main.append(E('div',{class:'panel'},E('table',{class:'text-table'},E('thead',{},E('tr',{},...['Pavadinimas','Tipas','Būsena','Publikavimo data','Veiksmas'].map(n=>E('th',{scope:'col'},n)))),tbody)));
+ const totalPages=Math.max(1,Math.ceil(data.total/data.limit));main.append(E('div',{class:'pager'},E('span',{},`${(data.page-1)*data.limit+1}–${Math.min(data.page*data.limit,data.total)} iš ${data.total}`),E('div',{class:'actions'},data.page>1?link('Ankstesnis',listUrl({p:data.page-1}),{class:'button'}):null,E('span',{},`${data.page} / ${totalPages}`),data.page<totalPages?link('Kitas',listUrl({p:data.page+1}),{class:'button'}):null)));
+}
+function mediaUrl(asset){return '/admin/api/media/'+encodeURIComponent(asset.src.split('/').at(-1));}
+async function loadThumbnail(node,id,ticket){try{const record=await api('texts/'+encodeURIComponent(id));if(ticket!==S.nav||!node.isConnected)return;const first=imageFamilies(record.draft)[0];if(!first){node.replaceChildren(E('span',{},'Vaizdo nėra'));return}const same=a=>first.familyId?a.familyId===first.familyId:a.alt===first.alt&&Math.abs(a.width/a.height-first.width/first.height)<.01;const variants=record.draft.media.filter(same).sort((a,b)=>a.width-b.width),asset=variants.find(a=>a.width>=240)||first;node.replaceChildren(E('img',{src:mediaUrl(asset),alt:asset.alt,width:160,height:112,loading:'lazy',decoding:'async'}))}catch{if(node.isConnected)node.replaceChildren(E('span',{},'Vaizdas nepasiekiamas'))}}
+function imageFamilies(page){const families=new Map();for(const a of page.media){const key=a.familyId||`${a.alt}:${Math.round(a.width/a.height*100)}`;if(!families.has(key)||families.get(key).width<a.width)families.set(key,a)}return [...families.values()]}
+function mediaPreview(page){const families=imageFamilies(page);return E('section',{class:'panel media-panel'},E('h2',{},'Puslapio vaizdai'),E('div',{class:'media-grid'},...families.map(a=>E('figure',{},E('a',{href:mediaUrl(a),target:'_blank',rel:'noopener'},E('img',{src:mediaUrl(a),alt:a.alt,width:a.width,height:a.height,loading:'lazy'})),E('figcaption',{},a.alt,E('small',{},a.rights))))));}
+function article(page,selectable=false){const leaf=(tag,text,path,props={})=>{const node=E(tag,props,text);if(selectable)node.dataset.editPath=path;return node;};return E('article',{class:'panel reading'},leaf('h1',page.title,'title'),leaf('p',page.description,'description',{class:'lead'}),page.media.length?E('figure',{class:'reading-cover'},E('img',{src:mediaUrl(imageFamilies(page)[0]),alt:imageFamilies(page)[0].alt})):null,...page.body.map((b,i)=>b.type==='heading'?leaf(b.level===3?'h3':'h2',b.text,`body.${i}.text`):b.type==='list'?E('ul',{},...b.items.map((t,j)=>leaf('li',t,`body.${i}.items.${j}`))):b.type==='image'?(()=>{const a=page.media.find(m=>m.id===b.assetId);return a?E('figure',{},E('img',{src:mediaUrl(a),alt:a.alt,width:a.width,height:a.height})):null})():leaf('p',b.text,`body.${i}.text`)));
+}
+function readingPreview(page){return E('div',{class:'reading-layout'},article(page),page.media.length?mediaPreview(page):null)}
+function quickPublication(id,record,beforePublish){
+ const renderTicket=S.nav;
+ const date=E('input',{type:'datetime-local',value:localValue(record.draft.publishAt),required:true,on:{input:changed}}),errors=E('div'),status=E('p',{class:'save-state',role:'status'},record.live?'Vieša versija jau paskelbta.':'Šis tekstas dar nepaskelbtas.');
+ async function saveDate(){if(!date.reportValidity())return false;if(date.value!==localValue(S.record.draft.publishAt)){const[localDate,localTime]=date.value.split('T');const saved=await api(`texts/${id}/save`,'POST',{etag:S.record.etag,changes:{localDate,localTime}});if(renderTicket!==S.nav)return false;S.record={...S.record,...saved};}S.dirty=false;status.textContent=S.record.draft.revisionHash===S.record.approved.revisionHash?'Rodoma patvirtinta publikavimo data.':'Publikavimo data išsaugota. Patvirtinkite versiją, kad ši data būtų taikoma.';return true;}
+ function error(e){errors.replaceChildren(alertBox(e.message));if(e.status===401)errors.append(link('Prisijungti kitame lange','/admin/login',{class:'button',target:'_blank',rel:'noopener'}));}
+ const save=B('Išsaugoti datą',async()=>{save.disabled=true;errors.replaceChildren();try{if(await saveDate())notify('Publikavimo data išsaugota.')}catch(e){error(e)}finally{save.disabled=record.conflict}});
+ const publish=B('Publikuoti',async()=>{publish.disabled=true;errors.replaceChildren();try{if(await saveDate()){beforePublish?.();reviewDialog(id)}}catch(e){error(e)}finally{publish.disabled=record.conflict}},true);
+ save.disabled=publish.disabled=record.conflict;
+ const hint=record.pausedAt&&record.draft.type==='guide'?E('p',{class:'quick-pause'},'Gidų leidyba pristabdyta. Vėlesnių datų publikavimas lauks leidybos atnaujinimo. ',link('Leidybos nustatymai','/admin/publication')):E('p',{class:'save-state'},'Būsima data suplanuos paskelbimą. Praėjusi data leis paskelbti patvirtintą versiją iš karto.');
+ return E('section',{class:'panel publication-quick','aria-label':'Publikavimas'},E('div',{class:'quick-publication-controls'},field('Publikavimo data ir laikas',date,'Lietuvos laikas · Europe/Vilnius.'),save,publish),status,hint,errors);
+}
+function modal(title,description,content,buttons){const d=E('dialog',{class:'dialog','aria-label':title},E('h2',{},title),description?E('p',{},description):null,content,E('div',{class:'actions'},B('Atšaukti',()=>d.close()),buttons));document.body.append(d);d.addEventListener('close',()=>d.remove());d.showModal();return d;}
+const attestations={usefulness:'Perskaičiau galutinį tekstą ir patvirtinu, kad jis naudingas šio puslapio skaitytojui.',facts:'Patikrinau teksto faktus ir techninius duomenis pagal gamintojo informaciją.',sources:'Peržiūrėjau nurodytus šaltinius ir įsitikinau, kad jie pagrindžia pateiktus teiginius.',media:'Peržiūrėjau vaizdus, jų atitikimą puslapiui ir naudojimo teises.',links:'Patikrinau vidines bei išorines nuorodas ir jų atitiktį turiniui.',presentation:'Peržiūrėjau teksto kalbą, struktūrą ir galutinį pateikimą.'};
+function reviewDialog(id){
+ const form=E('div'),checks={};for(const[k,text]of Object.entries(attestations)){const input=E('input',{type:'checkbox',required:true});checks[k]=input;form.append(E('label',{class:'checkline'},input,E('span',{},text)))}const errors=E('div');form.append(errors);
+ let d;const submit=B('Patvirtinti publikavimą',async()=>{errors.replaceChildren();if(Object.values(checks).some(i=>!i.checked)){errors.append(alertBox('Pažymėkite visas atliktos peržiūros sritis.'));return}submit.disabled=true;try{await api(`texts/${id}/publish`,'POST',{etag:S.record.etag,evidence:Object.fromEntries(Object.keys(checks).map(k=>[k,attestations[k]]))});d.close();S.record=await api('texts/'+id);S.dirty=false;notify('Versija patvirtinta.');await route()}catch(e){errors.append(alertBox(e.message))}finally{submit.disabled=false}},true);
+ d=modal('Patvirtinti galutinę versiją',`Data: ${dateLabel(S.record.draft.publishAt)}. Patvirtinkite tik faktiškai atliktą šios teksto versijos peržiūrą. ${S.record.pausedAt&&S.record.draft.type==='guide'?'Gidų leidybos pauzė lieka galioti.':'Versija bus paskelbta pagal pasirinktą datą.'}`,form,submit);
+}
+async function historyDialog(id){try{const data=await api(`texts/${id}/history`),list=E('ul',{class:'history'});if(!data.items.length)list.append(E('li',{},'Administravimo pakeitimų dar nėra.'));let d;for(const v of data.items)list.append(E('li',{},E('strong',{},`Versija ${v.version} · ${{draft:'Juodraštis',publish:'Patvirtinta',restore:'Atkurta'}[v.action]||v.action}`),E('small',{},dateLabel(v.created_at)+' · '+v.actor_email),B('Atkurti kaip juodraštį',async()=>{if(!canLeave())return;try{await api(`texts/${id}/restore`,'POST',{version:v.version,etag:S.record.etag});S.dirty=false;d.close();await route();notify('Versija atkurta kaip juodraštis.')}catch(e){list.prepend(alertBox(e.message))}})));d=modal('Versijų istorija','Atkuriant versiją viešas tekstas nesikeičia.',list,null)}catch(e){window.alert(e.message)}}
+function blocksEditor(page){
+ const container=E('div',{class:'blocks'}),editors=[];
+ function block(b){const copy=structuredClone(b),tools=E('div',{class:'block-tools'}),name={paragraph:'Pastraipa',heading:b.level===3?'H3 antraštė':'H2 antraštė',list:'Sąrašas',image:'Vaizdas'}[b.type];const row=E('section',{class:'block'+(b.type==='heading'?' heading':'')},E('div',{class:'block-head'},E('span',{},name),tools));let input;
+  if(b.type==='image'){const a=page.media.find(m=>m.id===b.assetId);row.append(a?E('img',{src:mediaUrl(a),alt:a.alt}):E('p',{},'Vaizdas nepriskirtas.'));}
+  else{input=E('textarea',{'aria-label':name,value:b.type==='list'?b.items.join('\n'):b.text,rows:b.type==='heading'?2:Math.min(18,Math.max(4,Math.ceil((b.type==='list'?b.items.join('\n'):(b.text||'')).length/85))),maxLength:b.type==='heading'?500:b.type==='paragraph'?3000:21000,on:{input:changed}});row.append(input);}
+  const entry={row,read:()=>{if(b.type==='image')return copy;if(b.type==='list')return {type:'list',items:input.value.split('\n')};return {...copy,text:input.value}}};editors.push(entry);
+  tools.append(E('button',{type:'button',on:{click:()=>{const previous=row.previousElementSibling;if(previous){container.insertBefore(row,previous);changed()}}}},'Aukštyn'),E('button',{type:'button',on:{click:()=>{const next=row.nextElementSibling;if(next){container.insertBefore(next,row);changed()}}}},'Žemyn'));
+  if(b.type!=='image')tools.append(E('button',{type:'button',on:{click:()=>{row.remove();changed()}}},'Šalinti'));
+  container.append(row);
+ }
+ page.body.forEach(block);
+ const add=E('div',{class:'add-block'},B('Pridėti pastraipą',()=>{block({type:'paragraph',text:''});changed()}),B('Pridėti H2 antraštę',()=>{block({type:'heading',level:2,text:''});changed()}),B('Pridėti H3 antraštę',()=>{block({type:'heading',level:3,text:''});changed()}),B('Pridėti sąrašą',()=>{block({type:'list',items:['']});changed()}));
+ return {node:E('div',{},container,add),read:()=>[...container.children].map(row=>editors.find(e=>e.row===row).read())};
+}
+async function renderText(main,id,ticket){
+ const [record,policy]=await Promise.all([api('texts/'+id),api('policy')]);if(ticket!==S.nav)return;record.pausedAt=policy.pausedAt;S.record=record;const page=record.draft;const mode=new URLSearchParams(location.search).get('mode')||'read';
+ if(mode==='compare'){renderComparison(main,id,record);return;}
+ const other=page.type!=='guide',scope=other?'scope=other':'';main.append(link(other?'Kiti tekstai':'Visi gidai',other?'/admin?scope=other':'/admin',{class:'back'}),heading(page.title,'/'+page.slug,E('div',{class:'actions'},link('Peržiūra',`/admin/text/${id}${scope?'?'+scope:''}`,{class:'button'}),link('Redaguoti',`/admin/text/${id}?mode=edit${scope?'&'+scope:''}`,{class:'button'+(mode==='edit'?' primary':'')}),link('Palyginti tekstus',`/admin/text/${id}?mode=compare`,{class:'button'}),B('Versijų istorija',()=>historyDialog(id)))));
+ if(record.conflict)main.append(E('div',{class:'error',role:'alert'},'Gyva bazinė versija pasikeitė. Šį juodraštį galima perskaityti, tačiau prieš tolesnį saugojimą reikia suderinti versijas.'));
+ if(mode!=='edit'){
+  const holder=E('div'),showLive=B('Vieša versija',()=>{holder.replaceChildren(record.live?readingPreview(record.live):E('div',{class:'panel empty'},E('h2',{},'Šis tekstas dar nepaskelbtas'),E('p',{},'Patvirtintas tekstas gali laukti datos arba leidybos atnaujinimo.')))});
+  main.append(quickPublication(id,record,()=>holder.replaceChildren(readingPreview(S.record.draft))),E('div',{class:'preview-options'},B('Redaguojama versija',()=>holder.replaceChildren(readingPreview(page))),showLive),holder);holder.append(readingPreview(page));return;
+ }
+ const title=E('input',{type:'text',value:page.title,maxLength:300,required:true,on:{input:changed}}),description=E('textarea',{value:page.description,maxLength:300,rows:3,required:true,on:{input:changed}}),date=E('input',{type:'datetime-local',value:localValue(page.publishAt),required:true,on:{input:changed}}),blocks=blocksEditor(page),errors=E('div');
+ const paper=E('div',{class:'panel editor-paper'},field('Antraštė',title,'Iki 300 simbolių.'),field('Trumpas aprašymas',description,'Naudojamas puslapio aprašymui ir paieškai. Iki 300 simbolių.'),blocks.node);
+ const status=E('p',{class:'save-state',role:'status'},record.updatedAt?'Paskutinį kartą išsaugota '+dateLabel(record.updatedAt):'Rodoma esama patvirtinta versija.');
+ const save=B('Išsaugoti juodraštį',async()=>{errors.replaceChildren();save.disabled=true;try{if(!title.reportValidity()||!description.reportValidity()||!date.reportValidity())return;const [localDate,localTime]=date.value.split('T');await api(`texts/${id}/save`,'POST',{etag:S.record.etag,changes:{title:title.value,description:description.value,body:blocks.read(),...(date.value===localValue(S.record.draft.publishAt)?{}:{localDate,localTime})}});S.dirty=false;notify('Juodraštis išsaugotas.');await route()}catch(e){errors.append(alertBox(e.message));if(e.status===401)errors.append(link('Prisijungti kitame lange','/admin/login',{class:'button',target:'_blank',rel:'noopener'}));notify(e.message)}finally{save.disabled=false}},true);
+ const publish=B('Patvirtinti ir suplanuoti',()=>reviewDialog(id));publish.setAttribute('data-action','publish');publish.disabled=record.conflict||page.revisionHash===record.approved.revisionHash;
+ const schedule=E('section',{class:'panel'},E('h2',{},'Publikavimas'),field('Data ir laikas',date,'Lietuvos laikas · Europe/Vilnius. Keičiant datą tekstas išsaugomas kaip juodraštis.'),errors,save,status,publish,E('p',{class:'save-state'},'Viešai rodoma tik patvirtinta versija. Gidams taip pat taikoma leidybos pauzė.'));
+ if(record.conflict){save.disabled=true;publish.disabled=true;}
+ const info=E('section',{class:'panel'},E('h2',{},'Puslapio duomenys'),E('div',{class:'metadata'},E('span',{},'Adresas: /'+page.slug),E('span',{},'Patvirtinta data: '+dateLabel(record.approved.publishAt)),E('span',{},'Puslapio adresas ir vaizdai šiuo redaktoriumi nekeičiami.')));
+ const sources=E('section',{class:'panel'},E('h2',{},'Šaltiniai'),page.externalLinks?.length?E('ul',{class:'source-list'},...page.externalLinks.map(s=>E('li',{},/^https:\/\//.test(s.url)?link(s.label,s.url,{target:'_blank',rel:'noopener noreferrer'}):s.label))):E('p',{},'Atskirų išorinių šaltinių šiame puslapyje nėra.'));
+ main.append(E('div',{class:'editor-grid'},paper,E('aside',{class:'editor-side'},schedule,info,sources)));if(page.media.length)main.append(mediaPreview(page));
+}
+async function renderCalendar(main,ticket){
+ const params=new URLSearchParams(location.search),month=/^\d{4}-\d{2}$/.test(params.get('month')||'')?params.get('month'):today().slice(0,7),kind='guide';
+ const data=await api('texts?'+new URLSearchParams({month,kind}));if(ticket!==S.nav)return;main.append(heading('Publikavimo kalendorius','Datos rodomos Lietuvos laiku. Juodraščio data tampa publikavimo data tik patvirtinus tekstą.'));
+ if(data.pausedAt)main.append(E('div',{class:'notice'},E('strong',{},'Gidų publikavimas pristabdytas.'),' ',link('Leidybos nustatymai','/admin/publication')));
+ const [year,m]=month.split('-').map(Number),first=new Date(Date.UTC(year,m-1,1)),offset=(first.getUTCDay()+6)%7,days=new Date(Date.UTC(year,m,0)).getUTCDate();
+ const move=n=>{const d=new Date(Date.UTC(year,m-1+n,1));return `/admin/calendar?month=${d.toISOString().slice(0,7)}&kind=${encodeURIComponent(kind)}`};
+ main.append(E('div',{class:'calendar-toolbar'},E('div',{class:'actions'},link('Ankstesnis mėnuo',move(-1),{class:'button'}),link('Kitas mėnuo',move(1),{class:'button'})),E('div',{class:'calendar-title'},new Intl.DateTimeFormat('lt-LT',{year:'numeric',month:'long',timeZone:'UTC'}).format(first))));
+ const grid=E('div',{class:'calendar'},...['Pirmadienis','Antradienis','Trečiadienis','Ketvirtadienis','Penktadienis','Šeštadienis','Sekmadienis'].map(d=>E('div',{class:'weekday'},d)));for(let i=0;i<offset;i++)grid.append(E('div',{class:'day empty-day','aria-hidden':'true'}));
+ for(let day=1;day<=days;day++){const key=month+'-'+String(day).padStart(2,'0'),items=data.items.filter(i=>i.localDay===key),cell=E('section',{class:'day'+(key===today()?' today':''),'aria-label':key},E('div',{class:'day-number'},String(day)));for(const item of items.slice(0,4))cell.append(link(E('span',{},item.title,E('br'),badge(item.state)),'/admin/text/'+item.id,{class:'event'}));if(items.length>4)cell.append(link(`Dar ${items.length-4} ${countWord(items.length-4,'tekstas','tekstai','tekstų')}`,`/admin?day=${key}&kind=${kind}`,{class:'more-events'}));grid.append(cell)}
+ main.append(grid);if(!data.items.length)main.append(E('p',{class:'muted'},'Šį mėnesį pagal pasirinktą filtrą tekstų nėra.'));
+}
+async function renderPublication(main,ticket){const data=await api('policy');if(ticket!==S.nav)return;main.append(heading('Leidybos nustatymai','Kontroliuokite bendrą gidų publikavimą. Atskirų tekstų datas keiskite redaktoriuje arba kalendoriuje.'));
+ const errors=E('div'),panel=E('section',{class:'panel panel-pad'},E('h2',{},data.pausedAt?'Gidų publikavimas pristabdytas':'Gidų publikavimas įjungtas'),E('p',{class:'muted'},data.pausedAt?`Pauzė galioja nuo ${dateLabel(data.pausedAt)}. Juodraščiai ir jų datos gali būti redaguojami, tačiau naujos versijos viešai nerodomos.`:'Patvirtintos versijos automatiškai tampa viešos atėjus jų publikavimo laikui.'),errors);
+ if(data.pausedAt){panel.append(E('p',{},`Parengtų versijų, kurių data jau praėjusi: ${data.releasingNowCount}. Atnaujinus leidybą jos gali būti paskelbtos iš karto.`),B('Atnaujinti publikavimą',()=>{const confirmation=E('input',{type:'text',autocomplete:'off'}),slot=E('div');let d;const submit=B('Atnaujinti leidybą',async()=>{submit.disabled=true;slot.replaceChildren();try{await api('policy','POST',{action:'resume',version:data.version,confirmation:confirmation.value});d.close();await route();notify('Gidų leidyba atnaujinta.')}catch(e){slot.append(alertBox(e.message))}finally{submit.disabled=false}},true);d=modal('Atnaujinti gidų leidybą',`Iš karto paskelbiamų versijų: ${data.releasingNowCount}. Patikrinkite jų datas kalendoriuje.`,E('div',{},field('Patvirtinimui įrašykite TĘSTI PUBLIKAVIMĄ',confirmation),slot),submit)},true))}
+ else panel.append(B('Pristabdyti naujų gidų publikavimą',async()=>{try{await api('policy','POST',{action:'pause',version:data.version});await route();notify('Naujų gidų publikavimas pristabdytas.')}catch(e){errors.append(alertBox(e.message))}}));main.append(panel);
+}
+async function route(){S.selectionCleanup?.();S.selectionCleanup=null;S.listObserver?.disconnect();const ticket=++S.nav;if(!S.session){renderLogin();return}const main=frame(),loading=E('p',{class:'muted',role:'status'},'Įkeliama…');main.append(loading);try{const path=location.pathname;if(path.startsWith('/admin/text/'))await renderText(main,path.split('/').at(-1),ticket);else if(path==='/admin/pending')await renderPending(main,ticket);else if(path==='/admin/calendar')await renderCalendar(main,ticket);else if(path==='/admin/publication')await renderPublication(main,ticket);else await renderList(main,ticket);if(ticket===S.nav){loading.remove();main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'})}}catch(e){if(ticket===S.nav&&S.session)main.replaceChildren(heading('Nepavyko atidaryti turinio'),alertBox(e.message),B('Bandyti dar kartą',()=>route()))}}
+async function boot(){const setup=new URLSearchParams(location.hash.slice(1)).get('setup');if(setup){history.replaceState(null,'',location.pathname);try{const info=await api('enrollment','POST',{token:setup});renderLogin('',{token:setup,email:info.email})}catch(e){renderLogin(e.message)}return}try{S.session=await api('session');await route()}catch(e){renderLogin(e.status===401?'':e.message)}}
+boot();

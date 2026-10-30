@@ -93,6 +93,7 @@ async function loadProxy(candidate=pkg){
  const javascript=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
  const modules={
   'next/server':{NextResponse:{next:()=>new Response('fallback'),rewrite:url=>new Response(null,{headers:{'x-test-rewrite':url.href}}),redirect:(url,status)=>new Response(null,{status,headers:{Location:url.href}})}},
+  'cloudflare:workers':{env:{}},'@/lib/content-admin-api.mjs':{handleContentAdmin:()=>{throw Error('Unexpected admin route')}},'@/config/niche-network.json':{},
   '@/lib/niche-sites':{normalizedHost:host=>(host??'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,''),nicheSiteByHost:host=>host==='memocasting.lt'?candidate:host==='other.lt'?{siteId:'other',canonicalHost:'other.lt',pages:[]}:null,publicNichePages:site=>projectPublicPages(site,[site],{},now)},
   '@/lib/site-config':{SITE_CONFIGS:{legacy:{domains:['legacy.test']}}},
   '@/lib/content-model-v2':{hasLocalPreviewContent:()=>false,contentPackageByHost:()=>{throw new Error('Document request reached gift fallback');}},
@@ -107,6 +108,7 @@ async function loadProxy(candidate=pkg){
   '@/lib/niche-path-aliases.mjs':{indexNichePathAliases:()=>new Map(),nichePathAliasDestination:()=>null},
  };
  const exported={};
+ if(modules['@/lib/niche-sites'])modules['@/lib/niche-sites'].loadNicheSiteByHost=async host=>modules['@/lib/niche-sites'].nicheSiteByHost(host);
  runInNewContext(javascript,{exports:exported,require:name=>{assert.ok(name in modules,'Unexpected proxy dependency '+name);return modules[name];},Response,Headers,URL,Map,Set});
  return exported.proxy;
 }
@@ -118,17 +120,17 @@ function proxyRequest(pathname,options={}){
 test('actual proxy routes GET/HEAD aliases and rejects raw/cross-site/future requests before any fallback',async()=>{
  const proxy=await loadProxy(),document=manifest.documents[0];
  for(const method of ['GET','HEAD']){
-  const visible=proxy(proxyRequest(document.alias,{method}));assert.equal(visible.status,200);assert.equal(visible.headers.get('X-Robots-Tag'),'noindex');
+  const visible=(await proxy(proxyRequest(document.alias,{method})));assert.equal(visible.status,200);assert.equal(visible.headers.get('X-Robots-Tag'),'noindex');
   assert.equal(visible.headers.get('x-test-rewrite'),'https://memocasting.lt/niche/memocasting/instruction-documents/poros-rinkinio-instrukcija.pdf');
  }
  for(const method of ['GET','HEAD']){
   for(const host of ['memocasting.lt','www.memocasting.lt','other.lt','gift.test','legacy.test','unknown.test','localhost']){
-   assert.equal(proxy(proxyRequest(document.path,{host,method})).status,404,'raw denied on '+host);
-   assert.equal(proxy(proxyRequest(manifest.rawPrefix+'private.pdf',{host,method})).status,404,'unknown raw denied on '+host);
+   assert.equal((await proxy(proxyRequest(document.path,{host,method}))).status,404,'raw denied on '+host);
+   assert.equal((await proxy(proxyRequest(manifest.rawPrefix+'private.pdf',{host,method}))).status,404,'unknown raw denied on '+host);
   }
-  for(const host of ['other.lt','gift.test','legacy.test','unknown.test','localhost'])assert.equal(proxy(proxyRequest(document.alias,{host,method})).status,404,'alias denied on '+host);
+  for(const host of ['other.lt','gift.test','legacy.test','unknown.test','localhost'])assert.equal((await proxy(proxyRequest(document.alias,{host,method}))).status,404,'alias denied on '+host);
  }
  const future=await loadProxy({...pkg,pages:[{...pkg.pages[0],publishAt:'2030-01-01T00:00:00Z'}]});
- assert.equal(future(proxyRequest(document.alias)).status,404);
- assert.equal(proxy(proxyRequest(document.alias,{method:'POST'})).status,405);
+ assert.equal((await future(proxyRequest(document.alias))).status,404);
+ assert.equal((await proxy(proxyRequest(document.alias,{method:'POST'}))).status,405);
 });

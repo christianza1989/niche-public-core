@@ -1,6 +1,6 @@
 import { env } from "cloudflare:workers";
 import { headers } from "next/headers";
-import { publicSiteByHost, publicSitePage } from "@/lib/public-site";
+import { loadPublicSiteByHost, publicSitePage } from "@/lib/public-site";
 
 export const dynamic = "force-dynamic";
 const allowedEvents = new Set(["pageview", "email_click", "phone_click"]);
@@ -8,7 +8,7 @@ const empty = (status = 204) => new Response(null, { status, headers: { "cache-c
 
 export async function POST(request: Request, { params }: { params: Promise<{ siteId: string }> }) {
   const { siteId } = await params;
-  const pkg = publicSiteByHost((await headers()).get("host"));
+  const pkg = await loadPublicSiteByHost((await headers()).get("host"));
   if (!pkg || pkg.siteId !== siteId || !publicSitePage(pkg, "")) return empty(404);
   if (!request.headers.get("content-type")?.startsWith("application/json") || !request.body) return empty(400);
   const reader = request.body.getReader();
