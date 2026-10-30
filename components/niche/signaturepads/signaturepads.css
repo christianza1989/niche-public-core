@@ -28,7 +28,8 @@
 .sp-mobile-nav { display:none; }
 .sp-skip,.sp-sr { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
 .sp-skip:focus { width:auto; height:auto; clip-path:none; left:20px; top:10px; z-index:100; background:#fff; padding:8px 14px; }
-.sp-hero { background-image:linear-gradient(#0003,#0003),var(--sp-hero-image); background-size:cover; background-position:center; min-height:720px; display:flex; align-items:center; padding:75px 0 100px; }
+/* Preserve the original 1920×837 banner framing with the optimized media file. */
+.sp-hero { background-image:var(--sp-hero-image); background-size:1920px auto; background-position:left top; background-repeat:no-repeat; background-attachment:fixed; min-height:720px; display:flex; align-items:center; padding:75px 0 100px; }
 .sp-hero h1 { text-align:center; font-size:32px; line-height:1; color:#fff; margin-bottom:30px; }
 .sp-hero-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:center; }
 .sp-accordion { align-self:stretch; border-radius:18px; background:#fffffff5; box-shadow:0 3px 12px #18394045; padding:12px 20px; }
@@ -197,6 +198,7 @@ html:has(.signaturepads-site dialog[open]) { overflow:hidden; }
   .sp-catalogue--software .sp-sidebar { grid-column:1; grid-row:2; }
 }
 @media(max-width:1024px) {
+  .sp-hero { background-attachment:scroll; }
   .sp-mobile-nav>summary { list-style:none; width:44px; height:44px; display:flex; flex-direction:column; justify-content:center; gap:5px; padding:8px; }
   .sp-mobile-nav>summary::-webkit-details-marker { display:none; }
   .sp-mobile-nav>summary span { height:3px; border-radius:2px; background:#595959; width:28px; }
