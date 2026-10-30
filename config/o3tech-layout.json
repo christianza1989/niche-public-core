@@ -102,7 +102,7 @@
       "sourceUrl": "https://o3tech.lt/musu-slapuku-politika/",
       "format": {
         "1": {
-          "signature": "dd2a6246d101f2af0c9c130ba70149b85b1443760c67a6fa56fef81206eecd7a",
+          "signature": "11d0c1d8ade02a30e5cbe26df5e1ab0ce089324c41d07f2e233b6b92565d4453",
           "ranges": [
             {
               "start": 0,
@@ -117,16 +117,6 @@
             {
               "start": 0,
               "end": 22,
-              "kind": "strong"
-            }
-          ]
-        },
-        "5": {
-          "signature": "f6ab8cdc6f8dc390a24f2cc0e987110a613f260c7bf9fbba9586da29daee3343",
-          "ranges": [
-            {
-              "start": 0,
-              "end": 13,
               "kind": "strong"
             }
           ]
@@ -164,39 +154,27 @@
       "sourceUrl": "https://o3tech.lt/garantija-ir-grazinimas/",
       "format": {
         "1": {
-          "signature": "204005fc059d550ee0e89a9b6ac0b0e8f354c796e5dff798d70337569d0d3a6f",
+          "signature": "210f5c5021b5d1019b1f97a0e895a2a1b38112ed82a265989df1ffd93d30c043",
           "ranges": [
             {
-              "start": 14,
-              "end": 75,
-              "kind": "strong"
-            },
-            {
-              "start": 76,
-              "end": 95,
+              "start": 24,
+              "end": 43,
               "kind": "link",
-              "href": "https://www.ogmina.lt/lt/taisykles"
+              "href": "https://o3tech.lt/taisykles/"
             },
             {
-              "start": 76,
-              "end": 85,
+              "start": 24,
+              "end": 33,
               "kind": "strong"
             },
             {
-              "start": 96,
-              "end": 122,
+              "start": 44,
+              "end": 70,
               "kind": "strong"
             }
-          ],
-          "nbsp": [
-            13,
-            75,
-            85,
-            88,
-            95
           ]
         },
-        "12": {
+        "11": {
           "signature": "ffc1891d40d11f781fa142d6ec392ce3f6c78a2f45bf1b824c91995ef913a82d",
           "ranges": [],
           "nbsp": [
@@ -204,39 +182,28 @@
           ],
           "spaceAfter": 48.8
         },
-        "13": {
-          "signature": "dac7613b08601949ab8bcc9217718080c316f598c6a13462d791a83e8230baba",
+        "12": {
+          "signature": "fee2e3b76c779315cf8c09b7414132d189b98f5a780e5ae655170369ae641ee0",
           "ranges": [
             {
-              "start": 14,
-              "end": 75,
-              "kind": "strong"
-            },
-            {
-              "start": 76,
-              "end": 95,
+              "start": 24,
+              "end": 43,
               "kind": "link",
-              "href": "https://o3tech.lt/taisykles"
+              "href": "https://o3tech.lt/taisykles/"
             },
             {
-              "start": 76,
-              "end": 85,
+              "start": 24,
+              "end": 33,
               "kind": "strong"
             },
             {
-              "start": 96,
-              "end": 115,
+              "start": 44,
+              "end": 63,
               "kind": "strong"
             }
-          ],
-          "nbsp": [
-            13,
-            75,
-            85,
-            95
           ]
         },
-        "15": {
+        "14": {
           "signature": "481e72715687aa60a3cac33fcbb0f1d0a7b8f6383b827679e5e8ff35f06c54d9",
           "ordered": true,
           "start": 1,
@@ -251,7 +218,7 @@
             }
           ]
         },
-        "17": {
+        "16": {
           "signature": "488b1aadaf12e84a4bab8ae3d61d2b6a44cbf009e366e5615f72604f6b84c10b",
           "ordered": true,
           "start": 1,
@@ -282,7 +249,7 @@
             }
           ]
         },
-        "20": {
+        "19": {
           "signature": "1f8ce8b105714a447db66490049b4eb3b04fb27075c951fec8e255af35fb3ba0",
           "ranges": [],
           "breaks": [
@@ -348,63 +315,37 @@
           ]
         },
         "2": {
-          "signature": "86e757f1e2d862c3db026e88027306c7430c493c1d526b133c006352d653a2ba",
-          "ranges": [
-            {
-              "start": 5,
-              "end": 14,
-              "kind": "strong"
-            }
-          ],
-          "nbsp": [
-            4,
-            14
-          ]
-        },
-        "3": {
-          "signature": "a85645b0783aa51fa8d9c6b468b63527881f832aa1844b2f00719dba7a6fcda6",
+          "signature": "654a36e4dfbd516869dc89ad8ff27823a092d6fafb7bc3288034080483fd1fc4",
           "ranges": [
             {
               "start": 5,
               "end": 13,
               "kind": "strong"
             }
-          ],
-          "nbsp": [
-            4,
-            13
           ]
         },
-        "4": {
-          "signature": "28a0d841d89eca4b9004ebf12d5511957ba14ef1fda4910ea62ea72fb499a9cd",
+        "3": {
+          "signature": "1b310acb7f64f456da369b8375a57a915474d706f5e869d10aa880030b80192f",
           "ranges": [
             {
               "start": 5,
               "end": 10,
               "kind": "strong"
             }
-          ],
-          "nbsp": [
-            4,
-            10
           ]
         },
-        "5": {
-          "signature": "9596242250ebf6f06b035e090adaaa27478c9bc5edfac7b04d49ddda819b277c",
+        "4": {
+          "signature": "f0a75e63c02cb92f411ff8478f4d29e8c4edbb4b5052d4d66249be76a926264d",
           "ranges": [
             {
               "start": 5,
               "end": 20,
               "kind": "strong"
             }
-          ],
-          "nbsp": [
-            4,
-            20
           ]
         },
-        "6": {
-          "signature": "779246eedba894b593a076b8894dbfb370330dfe0ffd2b82d76831edd18196f2",
+        "5": {
+          "signature": "580d3a07e2e388b91309e1e919a22ff1e1573883b3da93ce8a207b7c05f8ecc6",
           "ranges": [
             {
               "start": 5,
@@ -412,13 +353,9 @@
               "kind": "strong"
             }
           ],
-          "nbsp": [
-            4,
-            14
-          ],
           "spaceAfter": 48.8
         },
-        "7": {
+        "6": {
           "signature": "9a04ecdbac6c5ef5ae78d7f2cf34002101220f590143a283204bf6e6ae636c36",
           "ranges": [
             {
@@ -428,35 +365,34 @@
             }
           ]
         },
-        "12": {
-          "signature": "57f6f5efc4fa52b70b45b854a2f6fafbad8333f3fd6546148417bfdc5deeb7f2",
+        "9": {
+          "signature": "9c39d6fb4ecb172b41b0924743173e808a3396f213c32281576fe2e20da48da2",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "13": {
-          "signature": "519aec259222738116d66c12c025b319f26b022113bbfb416d5a669fa8faaed6",
+        "10": {
+          "signature": "6617682cc1c2ba513637ef0419e4503ae55010d24f9d891ff028456440b2a786",
           "ranges": [
             {
               "start": 0,
-              "end": 76,
+              "end": 19,
               "kind": "strong"
             }
           ]
         },
-        "15": {
-          "signature": "7948cc8c94c4bbc4797b1033719113c7006d020fc94cb015032908381581e240",
+        "12": {
+          "signature": "7b947c18d0717c51172d2c5ea1747e6cb1639c8db9172b4e8da3f46ed32c1854",
           "ranges": [],
           "breaks": [
-            27,
-            44
+            17
           ]
         },
-        "20": {
-          "signature": "ed46b4b7505b4b2ba94cd011ee77a483838287da4f7284f58d821ca63b0bd720",
+        "14": {
+          "signature": "22559314e5e581f4e6bd25000958c4ca5fd996620cc250fda228b52b9c70b7a0",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "21": {
+        "15": {
           "signature": "79117b02189a8c667549587e521fdde5012689e416e3bade35d21a3e20392e22",
           "ranges": [
             {
@@ -466,7 +402,7 @@
             }
           ]
         },
-        "26": {
+        "20": {
           "signature": "ab29d2896aa43e5e0b3aeff2e743fb3458fdc0ff60a8f9d17f7a2b23e88756b4",
           "ranges": [
             {
@@ -482,7 +418,7 @@
           ],
           "spaceAfter": 48.8
         },
-        "27": {
+        "21": {
           "signature": "2bc841fc09a0fa0fd20f11a6e7b3343531ccb64fc8d6bf9593ba5b08302b5134",
           "ranges": [
             {
@@ -492,12 +428,12 @@
             }
           ]
         },
-        "29": {
+        "23": {
           "signature": "f0416972bc6bd2758b493baf1e3bab47648bee4c82b8de559fdaa24e5cce325d",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "30": {
+        "24": {
           "signature": "ce6cb285ff481211e52331873ef0710fe3bdb5a2622a43b0ba8534634eecd7fd",
           "ranges": [
             {
@@ -507,12 +443,12 @@
             }
           ]
         },
-        "37": {
+        "31": {
           "signature": "8e876493f161671bfb9741e45c25ca138b618686645ccd94ded1a742cebd9d21",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "38": {
+        "32": {
           "signature": "2ea658c1e2bf495bb3a408a3a2e14291615fc5b9413da7e5eb5509e46e2f72c6",
           "ranges": [
             {
@@ -522,12 +458,12 @@
             }
           ]
         },
-        "46": {
+        "40": {
           "signature": "b6d14ce538e9d9d6c22d114e0b52cda696a352c4eb4f014d5e7ef656ac2d9bbc",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "47": {
+        "41": {
           "signature": "bfb30ac84b9bf7bfae801c1fa7a9b5573bf1e85128d72e167dc6d35c3a50b867",
           "ranges": [
             {
@@ -537,19 +473,12 @@
             }
           ]
         },
-        "49": {
-          "signature": "68e02e85a5b9e6d087d93aa35aa3c773ef10fb484717d6c0de7bb555af25248d",
-          "ranges": [],
-          "breaks": [
-            45
-          ]
-        },
-        "51": {
-          "signature": "281d70d76e7ffc8f8a7cdc5c8fd5e2e19c25a74d407d9e6abefc8e3ded28206e",
+        "43": {
+          "signature": "aece80891c005a66d0322d96ea2d1909d7c0800037ec8eac334b3d732a3b365d",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "52": {
+        "44": {
           "signature": "3cb283c79d1edd96a134753a21f75d69d64ea4bfcbf02fceaf19c64d3bf34644",
           "ranges": [
             {
@@ -559,27 +488,11 @@
             }
           ]
         },
-        "57": {
-          "signature": "561e96aad7778bb8489f61c06667fd000af0d5372b9a849c8a1e9cbc95b2b760",
-          "ranges": [],
-          "nbsp": [
-            80,
-            164,
-            228,
-            241,
-            334,
-            371,
-            425,
-            476,
-            532,
-            540,
-            586,
-            589,
-            600,
-            653
-          ]
+        "49": {
+          "signature": "1a4c50e9ce75a74f6e6529298a9fe3dd4d5f9254605a70016b58da03d6a82d9d",
+          "ranges": []
         },
-        "62": {
+        "54": {
           "signature": "616ad7799592c1ae2351db087d184f1158c834cbde974ea731ac28b981fe9266",
           "ranges": [
             {
@@ -590,7 +503,7 @@
           ],
           "spaceAfter": 48.8
         },
-        "63": {
+        "55": {
           "signature": "8453eeb348a1cf38659ed913900e72657530805c4db4faf2aff535f79b68b59f",
           "ranges": [
             {
@@ -600,19 +513,19 @@
             }
           ]
         },
-        "71": {
+        "63": {
           "signature": "cef53c6bf198d03895dcb7f98688eb68de270ffcf54e6b8e95a8c2ee8abe90a4",
           "ranges": [],
           "nbsp": [
             7
           ]
         },
-        "78": {
+        "70": {
           "signature": "e6e065079273c9da2a0800115460425a0bb97955a62bf568875ed1abef283567",
           "ranges": [],
           "spaceAfter": 48.8
         },
-        "79": {
+        "71": {
           "signature": "6bfbdee0a66807c3bf2c0272df50df580bce5ccdf5b0cfa5fda5076ee3959d5b",
           "ranges": [
             {
@@ -622,7 +535,7 @@
             }
           ]
         },
-        "90": {
+        "81": {
           "signature": "ffc1891d40d11f781fa142d6ec392ce3f6c78a2f45bf1b824c91995ef913a82d",
           "ranges": [],
           "nbsp": [
@@ -630,7 +543,7 @@
           ],
           "spaceAfter": 48.8
         },
-        "91": {
+        "82": {
           "signature": "147b78a6c5fe1a45cfd6f17169026df9763c8693ac4428d81be1cee068c8da08",
           "ranges": [
             {
