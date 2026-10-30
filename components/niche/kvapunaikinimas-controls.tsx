@@ -1,34 +1,26 @@
 'use client';
 import {Children,useEffect,useRef,useState,type ReactNode} from 'react';
 
-export function KvCarousel({children,label,classes}:{children:ReactNode;label:string;classes:Record<'carousel'|'carouselTrack'|'slide'|'carouselControls',string>}){
- const images=Children.toArray(children),track=useRef<HTMLDivElement>(null),index=useRef(0),wrapTimer=useRef<ReturnType<typeof setTimeout>|undefined>(undefined),resumeTimer=useRef<ReturnType<typeof setTimeout>|undefined>(undefined);
- const [playing,setPlaying]=useState(true),[reduced,setReduced]=useState(true),[focused,setFocused]=useState(false);
- useEffect(()=>{const media=matchMedia('(prefers-reduced-motion: reduce)');const update=()=>setReduced(media.matches);update();media.addEventListener('change',update);return()=>media.removeEventListener('change',update);},[]);
- const move=(delta:number)=>{
-  const el=track.current;if(!el||images.length<2)return;
-  clearTimeout(wrapTimer.current);
-  const next=index.current+delta;
-  if(next===images.length){index.current=next;el.scrollTo({left:next*el.clientWidth,behavior:reduced?'instant':'smooth'});wrapTimer.current=setTimeout(()=>{if(track.current){track.current.scrollTo({left:0,behavior:'instant'});index.current=0;}},550);}
-  else{index.current=(next+images.length)%images.length;el.scrollTo({left:index.current*el.clientWidth,behavior:reduced||next<0?'instant':'smooth'});}
- };
+export function KvCarousel({children,label,classes}:{children:ReactNode;label:string;classes:Record<'carousel'|'carouselTrack'|'slide',string>}){
+ const images=Children.toArray(children),track=useRef<HTMLDivElement>(null);
  useEffect(()=>{
-  // The owner requests automatic cycling; reduced motion only changes the transition.
-  if(!playing||focused||images.length<2)return;
-  const timer=setInterval(()=>move(1),2000);return()=>clearInterval(timer);
- // The slide collection is fixed by the published server package.
- // eslint-disable-next-line react-hooks/exhaustive-deps
- },[playing,reduced,focused,images.length]);
- useEffect(()=>()=>{clearTimeout(wrapTimer.current);clearTimeout(resumeTimer.current);},[]);
- const stop=()=>{setPlaying(false);clearTimeout(wrapTimer.current);clearTimeout(resumeTimer.current);resumeTimer.current=setTimeout(()=>setPlaying(true),2000);};
- return <div className={classes.carousel} role="region" aria-label={label} aria-roledescription="karuselė" onFocusCapture={e=>setFocused((e.target as HTMLElement).matches(':focus-visible'))} onBlurCapture={e=>{if(!e.currentTarget.contains(e.relatedTarget))setFocused(false);}}>
-  <div className={classes.carouselTrack} ref={track} onPointerDown={stop} onWheel={stop} onScroll={()=>{if(!playing&&track.current)index.current=Math.min(images.length-1,Math.round(track.current.scrollLeft/track.current.clientWidth));}}>
+  const el=track.current;if(!el||images.length<2)return;
+  let index=0,animation:Animation|undefined;
+  el.style.transform='translate3d(0,0,0)';
+  const timer=setInterval(()=>{
+   const next=index+1,from=`translate3d(-${index*100}%,0,0)`,to=`translate3d(-${next*100}%,0,0)`;
+   // Explicit owner motion: original500ms slide, independent of CSS transition overrides.
+   animation=el.animate([{transform:from},{transform:to}],{duration:500,easing:'ease'});
+   el.style.transform=to;
+   if(next===images.length){index=0;animation.onfinish=()=>{el.style.transform='translate3d(0,0,0)';};}
+   else index=next;
+  },2000);
+  return()=>{clearInterval(timer);if(animation){animation.onfinish=null;animation.cancel();}};
+ },[images.length]);
+ return <div className={classes.carousel} role="region" aria-label={label} aria-roledescription="karuselė">
+  <div className={classes.carouselTrack} ref={track}>
    {images.map((image,i)=><div className={classes.slide} key={i} role="group" aria-label={`${i+1} / ${images.length}`}>{image}</div>)}
    {images.length>1&&<div className={classes.slide} aria-hidden="true">{images[0]}</div>}
-  </div>
-  <div className={classes.carouselControls}>
-   <button type="button" aria-label="Ankstesnė iliustracija" onClick={()=>{stop();move(-1);}}><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m12 4-6 6 6 6"/></svg></button>
-   <button type="button" aria-label="Kita iliustracija" onClick={()=>{stop();move(1);}}><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 4 6 6-6 6"/></svg></button>
   </div>
  </div>;
 }

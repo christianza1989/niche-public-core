@@ -99,9 +99,9 @@ function Panel({ctx,id}:{ctx:Context;id:string}){
  const group=ctx.lp?.widgets[id]?.groups?.[0];if(!group)return null;
  return <details className={styles.panel} open><summary><Block ctx={ctx} index={group.start}/></summary><div className={styles.panelBody}><Blocks ctx={ctx} start={group.start+1} end={group.end}/></div></details>;
 }
-const carouselClasses={carousel:styles.carousel,carouselTrack:styles.carouselTrack,slide:styles.slide,carouselControls:styles.carouselControls};
+const carouselClasses={carousel:styles.carousel,carouselTrack:styles.carouselTrack,slide:styles.slide};
 function Home({ctx,livePages}:{ctx:Context;livePages:NichePage[]}){
- const {media,lp}=ctx;if(!lp){const first=ctx.page.body.findIndex(b=>b.type==='heading');const heading=ctx.page.body[first];return <><section className={`${styles.articleSection} ${styles.container}`}><h1>{heading?.type==='heading'?heading.text:ctx.page.title}</h1><Blocks ctx={ctx} start={first+1}/></section><section id="kontaktai" className={`${styles.contactArea} ${styles.container}`}><div><h2>SUSISIEKITE SU MŪSŲ KOMANDA!</h2><KvapunaikinimasForm styles={{form:styles.form,trap:styles.trap,notice:styles.notice,button:styles.button}}/></div></section></>;}
+ const {media,lp}=ctx;if(!lp){const first=ctx.page.body.findIndex(b=>b.type==='heading');const heading=ctx.page.body[first];return <><section className={`${styles.articleSection} ${styles.container}`}><h1>{heading?.type==='heading'?heading.text:ctx.page.title}</h1><Blocks ctx={ctx} start={first+1}/></section><section id="kontaktai" className={`${styles.contactArea} ${styles.container}`}><h2>SUSISIEKITE SU MŪSŲ KOMANDA!</h2><KvapunaikinimasForm styles={{form:styles.form,fieldLabel:styles.fieldLabel,trap:styles.trap,notice:styles.notice,button:styles.button}}/></section></>;}
  const family=uniqueImageFamilies(media);
  const bg=family.find((m:NicheMedia)=>m.alt===layout.assets['gaivus-oras.webp']);
  const sky=family.find((m:NicheMedia)=>m.alt===layout.assets['Titulinis-e1712211692495.jpg']);
@@ -116,7 +116,7 @@ function Home({ctx,livePages}:{ctx:Context;livePages:NichePage[]}){
   <section className={`${styles.proof} ${styles.cloudSection}`} style={{'--kv-background':sky?`url("${sky.src}")`:'none'} as CSSProperties}><Clouds/><div className={`${styles.container} ${styles.homeContainer}`}>
    <div className={styles.sectionHeading}><WidgetContent ctx={ctx} id="5080467"/></div><div className={styles.proofGrid}><Panel ctx={ctx} id="83439ef"/><KvCarousel classes={carouselClasses} label="Ozonavimo įranga">{equipment.map(file=><PublishedImage key={file} media={media} altName={layout.assets[file]} sizes="300px"/>)}</KvCarousel></div>
   </div></section>
-  <section id="kontaktai" className={`${styles.contactArea} ${styles.container}`}><div><h2>SUSISIEKITE SU MŪSŲ KOMANDA!</h2><KvapunaikinimasForm styles={{form:styles.form,trap:styles.trap,notice:styles.notice,button:styles.button}}/></div><div className={styles.vanFrame}><WidgetContent ctx={ctx} id="caf5d1d"/></div></section>
+  <section id="kontaktai" className={`${styles.contactArea} ${styles.container}`}><h2>SUSISIEKITE SU MŪSŲ KOMANDA!</h2><KvapunaikinimasForm styles={{form:styles.form,fieldLabel:styles.fieldLabel,trap:styles.trap,notice:styles.notice,button:styles.button}}/><div className={styles.vanFrame}><WidgetContent ctx={ctx} id="caf5d1d"/></div></section>
  </>;
 }
 function Questions({ctx,widget}:{ctx:Context;widget:Widget}){
