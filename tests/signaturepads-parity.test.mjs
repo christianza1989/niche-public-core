@@ -5,12 +5,43 @@ import layout from '../sites/signaturepads/migration/core-layout.json' with {typ
 import { projectContentPagesV2 } from '../lib/content-projection-v2.mjs';
 import { signaturepadsSnapshot } from '../lib/signaturepads-content.mjs';
 import { renderSignaturepads } from '../components/niche/signaturepads/render.mjs';
+import aliases from '../config/content-media-aliases.json' with {type:'json'};
+import { visibleMediaAlias } from '../lib/content-media-aliases.mjs';
 
 const now=Math.max(...pkg.pages.map(p=>Date.parse(p.publishAt)))+1000;
 const project=value=>projectContentPagesV2(value,[value],{},undefined,now);
 const dataFor=value=>signaturepadsSnapshot(value,project(value),layout);
 const render=(data,path,query='')=>renderSignaturepads(data,data.routes.find(r=>r.path===path),new URLSearchParams(query));
 const cardPaths=html=>[...html.matchAll(/<h3><a href="([^"]+)">/g)].map(m=>m[1]);
+
+test('original homepage responsive image URLs resolve only while their native home revision is public',()=>{
+  // Original img/srcset paths omitted by the initial single-size inventory.
+  const paths=[
+    '2026/01/ant-delno2-1-300x248.png','2026/01/ant-delno2-1-1024x846.png',
+    '2026/01/ant-delno2-1-600x496.png','2026/01/ant-delno2-1.png',
+    '2023/10/Paraso-plansetes-menu-300x200.jpg','2023/10/monitoriaus-ispletimas-300x200.jpg',
+    '2023/10/mobilus-sprendimai-300x200.jpg','2023/10/programine-iranga-300x200.jpg',
+    '2023/11/signoSign_2_SoftwareBox-300x242.jpg','2023/11/signoSign_2_SoftwareBox-600x484.jpg',
+    '2023/11/signoSign_2_SoftwareBox.jpg',
+  ].map(p=>'/wp-content/uploads/'+p);
+  const pages=project(pkg),changed=structuredClone(pkg);changed.pages.find(p=>p.id==='sp-home').approval.status='revoked';
+  const publicHome=pages.find(p=>p.id==='sp-home');
+  for(const pathname of paths){
+    const target=visibleMediaAlias(pkg,pages,aliases,pathname);
+    assert.ok(publicHome.media.some(m=>m.src===target),pathname+' uses admitted home media');
+    assert.equal(visibleMediaAlias(changed,project(changed),aliases,pathname),null);
+    assert.equal(visibleMediaAlias({...pkg,siteId:'foreign'},pages,aliases,pathname),null);
+  }
+});
+
+test('equipment remains a navigable parent link beside each native submenu disclosure',()=>{
+  const html=render(dataFor(pkg),'/');
+  assert.equal((html.match(/<div class="sp-nav-group"><a href="\/iranga\/paraso-plansetes\/"/g)||[]).length,2);
+  assert.equal((html.match(/<details class="sp-dropdown"><summary aria-label="ĮRANGA">/g)||[]).length,2);
+  assert.ok(html.includes('class="sp-category-grid" data-sp-reveal'));
+  const withdrawn=structuredClone(pkg);withdrawn.pages.find(p=>p.slug==='iranga/paraso-plansetes').approval.status='revoked';
+  assert.doesNotMatch(render(dataFor(withdrawn),'/'),/href="\/iranga\/paraso-plansetes\/"/);
+});
 
 test('legacy newest and original popularity/rating links keep their published product sequences',()=>{
   const data=dataFor(pkg);

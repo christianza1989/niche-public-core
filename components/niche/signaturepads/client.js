@@ -42,6 +42,26 @@
     }
   };
   root.classList.add('sp-js');
+  const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
+  if('IntersectionObserver' in window&&!motion.matches){
+    const animations=new Set();
+    const observer=new IntersectionObserver(entries=>{
+      for(const {target,isIntersecting} of entries){
+        if(!isIntersecting)continue;
+        observer.unobserve(target);
+        if(motion.matches||target.dataset.spReveal==='desktop'&&window.innerWidth<768)continue;
+        const animation=target.animate([{opacity:0},{opacity:1}],{duration:1250,easing:'ease-out'});
+        animations.add(animation);animation.finished.catch(()=>{}).finally(()=>animations.delete(animation));
+      }
+    },{threshold:.05});
+    for(const target of root.querySelectorAll('[data-sp-reveal]'))observer.observe(target);
+    motion.addEventListener('change',()=>{if(motion.matches){observer.disconnect();for(const animation of animations)animation.cancel();}},{once:true});
+  }
+  root.addEventListener('keydown',event=>{
+    if(event.key!=='Escape')return;
+    const opened=event.target.closest('.sp-dropdown[open],.sp-mobile-nav[open]');
+    if(opened){opened.open=false;opened.querySelector('summary').focus();event.preventDefault();event.stopPropagation();}
+  });
   for(const form of root.querySelectorAll('.sp-price-filter')){
     const minimum=form.querySelector('[name=min_price]'),maximum=form.querySelector('[name=max_price]');
     const update=event=>{
