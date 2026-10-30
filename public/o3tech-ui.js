@@ -32,5 +32,5 @@
  root.querySelectorAll('.o3-price-filter').forEach(form=>{form.addEventListener('input',e=>{const min=form.elements.min_price,max=form.elements.max_price;if(+min.value>+max.value){if(e.target===min)max.value=min.value;else min.value=max.value;}form.querySelector('output').textContent=min.value+'€ — '+max.value+'€';});});
  root.querySelectorAll('.o3-desktop-nav .o3-categories').forEach(menu=>{menu.addEventListener('pointerenter',()=>{if(matchMedia('(hover:hover)').matches)menu.open=true;});menu.addEventListener('pointerleave',()=>{if(!menu.contains(document.activeElement))menu.open=false;});});
  document.addEventListener('keydown',e=>{if(e.key==='Escape')root.querySelectorAll('.o3-desktop-nav details[open],.o3-mobile-nav[open]').forEach(d=>d.open=false);});
- document.addEventListener('click',e=>{const menu=root.querySelector('.o3-mobile-nav');if(menu?.open&&!menu.contains(e.target))menu.open=false;});
+ document.addEventListener('click',e=>{const menu=root.querySelector('.o3-mobile-nav');if(menu?.open&&(!menu.contains(e.target)||e.target.closest('.o3-mobile-nav a[href]')))menu.open=false;});
 })();
