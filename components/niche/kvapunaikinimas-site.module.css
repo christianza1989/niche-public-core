@@ -24,6 +24,7 @@
  .titleStack{grid-template-rows:minmax(var(--kv-mobile-top,108px),auto) auto}.breadcrumbs{padding:0 10px 14px}.article{margin-inline:10px}.widget{margin-top:var(--kv-mobile-gap,20px);padding-top:var(--kv-mobile-head,0px);padding-bottom:var(--kv-mobile-tail,0px)}.articleSection{padding-bottom:var(--kv-mobile-bottom,100px)}.titleStack h1{font-size:32px;line-height:1}.article p,.article li{font-size:15px}.articleImageFrame{max-width:100%!important}.priceCard{padding:31px 15px 27px}.priceCard p{font-size:inherit}.processGrid{grid-template-columns:1fr;gap:20px}.processGrid p{font-size:14px}.questions summary{padding:12px 10px}.questions summary h2{font-size:18px!important;line-height:1!important}.questions .answer{padding:12px 10px}.questions .answer p{font-size:14px}.legalArticle{margin:60px 8px 0;max-width:none;font-size:16px}.legalArticle p{font-size:16px}.legalSection{padding-bottom:120px}
 }
 @media(max-width:340px){.hero h1,.sectionHeading h2,.services h2,.contactArea h2,.titleStack h1{font-size:28px}.serviceCard span{font-size:14px}}
-@media(prefers-reduced-motion:reduce){.shell *{scroll-behavior:auto!important;transition:none!important}.hero,.proof{background-attachment:scroll}}
+/* Keep the original desktop background anchor; carousel motion has its own preference guard. */
+@media(prefers-reduced-motion:reduce){.shell *{scroll-behavior:auto!important;transition:none!important}}
 
 .article .titleList>li{font-size:inherit}.article .titleList h3{margin:0}
