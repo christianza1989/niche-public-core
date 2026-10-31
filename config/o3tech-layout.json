@@ -100,28 +100,7 @@
       "sourceWpId": 515,
       "sections": [],
       "sourceUrl": "https://o3tech.lt/musu-slapuku-politika/",
-      "format": {
-        "1": {
-          "signature": "11d0c1d8ade02a30e5cbe26df5e1ab0ce089324c41d07f2e233b6b92565d4453",
-          "ranges": [
-            {
-              "start": 0,
-              "end": 13,
-              "kind": "strong"
-            }
-          ]
-        },
-        "5": {
-          "signature": "16d9fad5c33093e961db5df4689a4ef3033205a888c0c20364e8ef637f81ca15",
-          "ranges": [
-            {
-              "start": 0,
-              "end": 22,
-              "kind": "strong"
-            }
-          ]
-        }
-      },
+      "format": {},
       "imageLinks": {}
     },
     "7c955eb1-368b-455d-b99f-e87e0d4fdb00": {
@@ -1153,5 +1132,9 @@
     "background": "a5df2c0d-8ebb-4830-a8ff-4442adcab1ed",
     "icon": "86b835c1-e1d7-4d65-947a-52358c580456"
   },
-  "presentationVersion": 2
+  "presentationVersion": 2,
+  "company": {
+    "code": "308123004",
+    "vat": "LT100020788717"
+  }
 }

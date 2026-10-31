@@ -33,9 +33,28 @@ test('catalogue only renders products supplied by the shared projection and esca
  const f=fixture(),pages=[f.home,f.catalogue,f.product];
  const html=o3techMarkup({...f,page:f.catalogue,pages});
  assert.match(html,/Fixture &lt;safe&gt;/);assert.doesNotMatch(html,/produktas\/hidden|add-to-cart|<script|<iframe/);
+ assert.match(html,/aria-label="Fixture &lt;safe&gt;"/);
+ assert.match(html,/aria-label="Fixture &lt;safe&gt; — Greita peržiūra"/);
+ assert.doesNotMatch(html,/href="\/(?:taisykles|garantija-ir-grazinimas)\//);
  const hidden=o3techMarkup({...f,page:f.catalogue,pages:pages.slice(0,2)});assert.doesNotMatch(hidden,/Fixture/);
  assert.throws(()=>o3techMarkup({...f,page:f.product,pages:pages.slice(0,2)}));
  assert.throws(()=>o3techMarkup({...f,pkg:{...f.pkg,siteId:'foreign'},page:f.catalogue,pages}));
+});
+
+test('catalogue starts its first visible image early while other cards and related products stay lazy',()=>{
+ const f=fixture();
+ f.product.media=[{id:'asset',src:'/content-assets/o3tech/fixture.webp',width:800,height:800,alt:'Original image',familyId:'family'}];
+ const other={...f.product,id:'other',slug:'produktas/other',title:'Other product'};
+ f.layout.pages.other={kind:'product'};
+ f.layout.pages.catalogue.productPaths=['/produktas/fixture/','/produktas/other/'];
+ f.layout.pages.product.relatedPaths=['/produktas/other/'];
+ const pages=[f.home,f.catalogue,f.product,other];
+ const cards=[...o3techMarkup({...f,page:f.catalogue,pages}).matchAll(/<article class="o3-product-card">[\s\S]*?<\/article>/g)].map(x=>x[0]);
+ assert.equal(cards.length,2);
+ assert.match(cards[0],/loading="eager"[^>]*fetchpriority="high"/);
+ assert.match(cards[1],/loading="lazy"/);assert.doesNotMatch(cards[1],/fetchpriority="high"/);
+ const product=o3techMarkup({...f,page:f.product,pages}),related=product.slice(product.indexOf('<section class="o3-related">'));
+ assert.match(related,/loading="lazy"/);assert.doesNotMatch(related,/fetchpriority="high"/);
 });
 test('brand metadata cannot expose a missing, foreign-site or unpublished homepage asset',()=>{
  assert.equal(o3techBrandAssets({siteId:'foreign'},[]),null);

@@ -1,13 +1,61 @@
-# o3tech.lt catalogue renderer
+# o3tech.lt native catalogue · current 2026-10-31
 
-Owner-authorized technical migration of the existing same-owner WordPress site, preserving its design, original copy, contacts and useful paths; WooCommerce/cart/checkout/account runtime removed. The source renderer is native semantic server HTML/CSS with original optimized imagery, Open Sans and existing catalogue/rental/information roles. It does not add a second publisher or SEO engine.
+Owner-authorized replacement of the same-owner WordPress website is live at
+https://o3tech.lt/ on Cloudflare Worker `o3tech-site`, version
+`c488b6b6-7191-4cb4-803d-827b17a0a676`. HTTPS/WWW redirects, domain/SSL and dedicated
+EU D1 are qualified. Original WordPress files and DNS targets remain for rollback;
+Hostinger also operates the central mailbox/HTTPS mail relay and must be retained.
 
-Paired CORE issue302 / PUBLIC issue101; `codex/o3tech-migration-20261029`. Source bases CORE25292e20219b735df7f04c5807dd4c100f98addc / PUBLICc2d9a1fa69daa6285bcc8e8d1d039b4ad33db7da. Native Studio data and full capture/original preservation are private under D:/Core/o3tech-migration-20261029/private. There is no o3tech approved package in this source tree and no live replacement has occurred.
+Paired CORE issue302/PR304 and PUBLIC issue101/PR103, branch
+`codex/o3tech-migration-20261029`. Fetched main bases:
+CORE25292e20219b735df7f04c5807dd4c100f98addc /
+PUBLICc2d9a1fa69daa6285bcc8e8d1d039b4ad33db7da. Draft PRs are not main adoption.
+Studio source/captures/reviews and operational receipts remain private under
+`D:/Core/o3tech-migration-20261029/private`.
 
-23keptpaths: homepage,6catalogueindices,11products,5otherinformation/service/policy pages.38originalimagefamilies. V1bodylists on the6indices represent the same product titles actually shown as cards, not new prose. Core structural admission is exact-index/site/host-bound and retains normal facts/review/approval/hash gates. Public `projectPublicPages` applies the catalogue's actual eligible product slice before final link filtering; empty/future/revoked dependencies cannot leak through body, links or discovery. Both registry copies are source-reviewed; a capture cannot automatically expand them.
+## Current public scope
 
-`O3techSite` receives only the common native public projection and uses existing JSON-LD/metadata/media/lead functions. Shared native lead storage/mail semantics retain phone/preferred-contact details through a bounded o3tech adapter. Original operator override remains UAB A-Z Prekyba / sales@o3tech.lt, not a network default. No real mail was sent. Fonts retain their upstream OFL notice; raw source/prompts/reviews/leadDB do not belong to this repository.
+21 eligible pages: homepage,6catalogue indices,11products and3other information/
+service/policy pages. Owner removed `/taisykles` and `/garantija-ir-grazinimas`;
+maintained Studio revocation preserves historical revisions and repaired reviewed
+dependencies. Release `65d68ca1-6338-433c-b783-44c57f68f3fc` has104assets and SHA256
+`fd352075d4859fb544bdc75a992f0c42270ccb38b11fbd57397d3677c4b76f29`.
+Maintained release/import/compiler gates are used, with no rewritten approvals.
 
-The isolated local noindex preview on127.0.0.1:4783uses the same renderer and actual shared lead-route source with local SQLite bindings and disabled mail. It is a development view of unapproved drafts, not a public package or publication bypass. All23routes, source text blocks, URLs/fragments and actual WebP variants were exercised. Desktop/mobile/320px, native menu and text-spacing checks were inspected; real browser200%zoom remains unverified. Private mobile Lighthouse99performance is a local lab result, not production field data.
+No cart, checkout, payment or customer-account runtime. Cookie changes are scoped
+deletions/heading formatting and preserve the exact previously owner-accepted
+point13; browse-implies-consent text is removed. MB Anvera, owner-provided company
+and VAT identifiers, phone/email and original selected hero pixels are retained.
+Original product/ozone assertions and prices remain owner-selected preservation,
+not independent scientific/legal/current-stock certification.
 
-Current source checks: native structural and legacy-minimum regressions; actual native atomic fixture export/public validator; standaloneSDK/V2fixture closure; public catalogue publication/tenant/metadata regressions; TypeScript and full framework build. Exact final counts/status are in companion `sites/o3tech/HANDOFF.md`. Raw original website terms and ozone/safety/model/price statements remain unapproved pending content/legal review. Real release/import, domain/SSL/productionD1/mail/INBOX/rate/privacy/measurement and bound actual-host SEO acceptance remain launch gates. No deployment, DNS, purchase, paid research, new prose or live approval was performed.
+The renderer receives only the common native public projection and reuses native
+metadata, JSON-LD, media and durable lead handling. Empty/revoked dependencies
+cannot leak through navigation/discovery. No second publisher or SEO engine.
+
+## PageSpeed and acceptance
+
+Title-derived image-link/quick-view names and corrected small-text/button contrast
+resolve the measured accessibility failures. Reserve gallery/thumbnail geometry,
+preload original regular Open Sans subsets, and prioritize only the first visible
+catalogue image. Related/below-fold cards remain lazy. Other tenants are unchanged.
+
+Actual live mobile lab reports: catalogue99performance/100accessibility,90g product
+repeats97–99/100, homepage100/100; all new reports100Best Practices/SEO and3/3agentic.
+Post-fix product CLS0 in both runs, compared with owner's intermittent0.366.
+No CrUX field data; no universal zero-shift or all-warning-free claim. Remaining
+CSS/framework/image opportunities and exact report links are in companion CORE
+`sites/o3tech/PAGESPEED_20261031.md`.
+
+312 PUBLIC tests,9 focused renderer tests, TypeScript, complete native build and
+two RSC asset manifests pass. Live21-page SEO smoke covers canonical/schema,
+robots/sitemap/LLM endpoints, isolation and404. Seven obsolete/removed URLs return
+404 and are absent from sitemap. Search Console resubmission accepted; indexing
+is asynchronous. Current stock/prices,3M accessories and the single-product
+automotive category still need the owner's business decision before removal.
+
+Hosted browser B1 was durably notified and SMTP accepted through the authenticated
+Hostinger relay; recipient INBOX placement is not independently qualified. No new
+real email was sent during this cleanup. See `docs/NICHE_HOSTINGER_MAIL_RELAY.md`.
+Current private receipt: `private/catalogue-cleanup-20261031/DELIVERY.json`;
+earlier23-page launch evidence and original captures remain immutable.
