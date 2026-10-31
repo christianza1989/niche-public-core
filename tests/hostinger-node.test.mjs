@@ -24,7 +24,7 @@ test('database error output excludes credentials and inquiry values',async()=>{
 });
 test('Hostinger database configuration stays local, literal and single-statement',()=>{
  const env={DB_USER:'site',DB_PASSWORD:'literal$\\quote"',DB_NAME:'inquiries'};
- const settings=mysqlSettings(env);assert.equal(settings.host,'localhost');assert.equal(settings.password,env.DB_PASSWORD);assert.equal(settings.multipleStatements,false);assert.equal(settings.charset,'utf8mb4');
+ const settings=mysqlSettings(env);assert.equal(settings.host,'127.0.0.1');assert.equal(mysqlSettings({...env,DB_HOST:'localhost'}).host,'127.0.0.1');assert.equal(settings.password,env.DB_PASSWORD);assert.equal(settings.multipleStatements,false);assert.equal(settings.charset,'utf8mb4');
  const uri=mysqlSettings({DATABASE_URL:'mysql://site:p%24%5C%22@127.0.0.1:3306/inquiries'});assert.equal(uri.password,'p$\\"');
  assert.throws(()=>mysqlSettings({...env,DB_HOST:'srv-other.example'}),/must_be_local/);assert.throws(()=>mysqlSettings({...env,DB_PORT:'invalid'}),/port_invalid/);assert.throws(()=>mysqlSettings({}),/not_configured/);
 });

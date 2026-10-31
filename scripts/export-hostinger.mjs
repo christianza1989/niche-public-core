@@ -8,6 +8,7 @@ const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 export function hostingerSourceFile(file) {
  const parts=file.split('/');
  if(parts.some(p=>p.startsWith('.')||['node_modules','dist','content-packages'].includes(p)))return false;
+ if(['sites','migration','content-staging','SEO SKILLS','core-improvements'].includes(parts[0])||file==='lib/generated/content-packages.json')return false;
  return !file.startsWith('public/')||file.startsWith('public/fonts/kvapunaikinimas/');
 }
 export function hostingerScopedInputs(network,aliases,siteIds) {

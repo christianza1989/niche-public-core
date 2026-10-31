@@ -12,7 +12,8 @@ export function mysqlSettings(input) {
   if (!['localhost','127.0.0.1','::1'].includes(values.DB_HOST || 'localhost')) throw Error('node_database_must_be_local');
   const port = Number(values.DB_PORT || 3306);
   if (!Number.isInteger(port) || port < 1 || port > 65535) throw Error('node_database_port_invalid');
-  return {host:values.DB_HOST || 'localhost',port,user:values.DB_USER,password:values.DB_PASSWORD,database:values.DB_NAME,charset:'utf8mb4',connectionLimit:3,waitForConnections:true,queueLimit:100,connectTimeout:10000,multipleStatements:false};
+  const host=!values.DB_HOST||values.DB_HOST==='localhost'?'127.0.0.1':values.DB_HOST;
+  return {host,port,user:values.DB_USER,password:values.DB_PASSWORD,database:values.DB_NAME,charset:'utf8mb4',connectionLimit:3,waitForConnections:true,queueLimit:100,connectTimeout:10000,multipleStatements:false};
 }
 
 function scalar(value) {
