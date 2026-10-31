@@ -56,6 +56,15 @@ test('catalogue starts its first visible image early while other cards and relat
  const product=o3techMarkup({...f,page:f.product,pages}),related=product.slice(product.indexOf('<section class="o3-related">'));
  assert.match(related,/loading="lazy"/);assert.doesNotMatch(related,/fetchpriority="high"/);
 });
+
+test('catalogue menu disclosure has no nested interactive link and price sliders have visible labels',()=>{
+ const f=fixture(),html=o3techMarkup({...f,page:f.catalogue,pages:[f.home,f.catalogue,f.product]});
+ const summaries=[...html.matchAll(/<summary\b[^>]*>([\s\S]*?)<\/summary>/g)];
+ assert.ok(summaries.length>0);
+ for(const [,content]of summaries)assert.doesNotMatch(content,/<(?:a|button|input|select|textarea)\b/);
+ for(const label of ['Mažiausia kaina','Didžiausia kaina'])assert.ok(html.includes(`<label><span>${label}</span><input aria-label="${label}"`));
+ assert.match(html,/<div><a href="\/prekes\/" aria-current="page">Prekės<\/a>/);
+});
 test('brand metadata cannot expose a missing, foreign-site or unpublished homepage asset',()=>{
  assert.equal(o3techBrandAssets({siteId:'foreign'},[]),null);
  assert.equal(o3techBrandAssets({siteId:'o3tech'},[]),null);

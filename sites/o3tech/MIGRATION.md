@@ -2,7 +2,7 @@
 
 Owner-authorized replacement of the same-owner WordPress website is live at
 https://o3tech.lt/ on Cloudflare Worker `o3tech-site`, version
-`c488b6b6-7191-4cb4-803d-827b17a0a676`. HTTPS/WWW redirects, domain/SSL and dedicated
+`815eba1c-4c86-4bb4-90b8-9e996c005fb1`. HTTPS/WWW redirects, domain/SSL and dedicated
 EU D1 are qualified. Original WordPress files and DNS targets remain for rollback;
 Hostinger also operates the central mailbox/HTTPS mail relay and must be retained.
 
@@ -38,16 +38,20 @@ cannot leak through navigation/discovery. No second publisher or SEO engine.
 Title-derived image-link/quick-view names and corrected small-text/button contrast
 resolve the measured accessibility failures. Reserve gallery/thumbnail geometry,
 preload original regular Open Sans subsets, and prioritize only the first visible
-catalogue image. Related/below-fold cards remain lazy. Other tenants are unchanged.
+catalogue image. Related/below-fold cards remain lazy. Active/hover links use the dark action token;
+the menu disclosure no longer nests a link, and visibly labelled price sliders
+have separate24px targets (44px coarse pointers). Keyboard/menu checks at1280live
+and320draft pass. Other tenants are unchanged.
 
-Actual live mobile lab reports: catalogue99performance/100accessibility,90g product
+Actual final catalogue/category reports: mobile98performance/100accessibility and
+desktop100/100. Earlier gallery-repair mobile reports:90g product
 repeats97–99/100, homepage100/100; all new reports100Best Practices/SEO and3/3agentic.
 Post-fix product CLS0 in both runs, compared with owner's intermittent0.366.
 No CrUX field data; no universal zero-shift or all-warning-free claim. Remaining
 CSS/framework/image opportunities and exact report links are in companion CORE
 `sites/o3tech/PAGESPEED_20261031.md`.
 
-312 PUBLIC tests,9 focused renderer tests, TypeScript, complete native build and
+313 PUBLIC tests,10 focused renderer tests, TypeScript, complete native build and
 two RSC asset manifests pass. Live21-page SEO smoke covers canonical/schema,
 robots/sitemap/LLM endpoints, isolation and404. Seven obsolete/removed URLs return
 404 and are absent from sitemap. Search Console resubmission accepted; indexing
