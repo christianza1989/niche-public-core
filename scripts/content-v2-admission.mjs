@@ -1,23 +1,25 @@
 import { createHash } from 'node:crypto';
 import { contentRenderer } from '../lib/content-renderers.mjs';
 import { assertSignaturepadsLayout } from '../lib/signaturepads-content.mjs';
+import { validHostedPreviewHost } from '../lib/content-hosted-preview.mjs';
 import signaturepadsLayout from '../sites/signaturepads/migration/core-layout.json' with { type: 'json' };
 const localChecks=['schema','routing','seo','forms','media','time','revocation','isolation'];
 const launchChecks=['ownership','dns','contacts','inbox','privacy'];
 export function assertPreviewSandbox(root, receipt){
-  if(receipt.scope==='local-preview' && !/(?:^|\/)(?:output|outputs)\//.test(root.replaceAll('\\','/')))throw new Error('local-preview is allowed only in an isolated output checkout, never main');
+  if(['local-preview','hosted-preview'].includes(receipt.scope) && !/(?:^|\/)(?:output|outputs)\//.test(root.replaceAll('\\','/')))throw new Error('preview admission is allowed only in an isolated output checkout, never main');
 }
 export function validateV2Admission(pkg, raw, receipt) {
   if(!contentRenderer(pkg) || pkg.locale!=='lt-LT')throw new Error('V2 admission requires a registered reviewed lt-LT renderer');
   if(contentRenderer(pkg)==='signaturepads')assertSignaturepadsLayout(pkg,signaturepadsLayout);
-  if(!receipt || receipt.schemaVersion!==1 || !['local-fixture','local-preview','production'].includes(receipt.scope)) throw new Error('V2 acceptance receipt required');
+  if(!receipt || receipt.schemaVersion!==1 || !['local-fixture','local-preview','hosted-preview','production'].includes(receipt.scope)) throw new Error('V2 acceptance receipt required');
   if(receipt.siteId!==pkg.siteId || receipt.canonicalHost!==pkg.canonicalHost || receipt.renderer!==pkg.site.renderer || receipt.packageSha256!==createHash('sha256').update(raw).digest('hex')) throw new Error('V2 acceptance receipt does not bind exact package');
   if(receipt.scope==='local-fixture' && !pkg.canonicalHost.endsWith('.example')) throw new Error('Local fixture admission requires reserved .example domain');
   if(receipt.scope!=='production' && receipt.testOnly!==true) throw new Error('Local preview/fixture must explicitly declare testOnly');
+  if(receipt.scope==='hosted-preview' && (!validHostedPreviewHost(receipt.previewHost)||receipt.previewHost===pkg.canonicalHost||receipt.readOnly!==true))throw new Error('Hosted preview requires one distinct exact workers.dev host and readOnly');
   if(!receipt.reviewer?.trim() || !Number.isFinite(Date.parse(receipt.acceptedAt))) throw new Error('V2 acceptance reviewer/date required');
-  for(const key of receipt.scope==='production'?[...localChecks,...launchChecks]:[]) {
+  for(const key of receipt.scope==='production'?[...localChecks,...launchChecks]:receipt.scope==='hosted-preview'?localChecks:[]) {
     const check=receipt.checks?.[key];
     if(check?.status!=='PASS' || !check.evidence?.length || check.evidence.some(e=>!e.path || !/^[a-f0-9]{64}$/.test(e.sha256))) throw new Error(`V2 acceptance evidence missing: ${key}`);
   }
-  return {scope:receipt.scope,packageSha256:receipt.packageSha256,acceptedAt:receipt.acceptedAt,reviewer:receipt.reviewer,...(receipt.scope!=='production'?{testOnly:true}: {})};
+  return {scope:receipt.scope,packageSha256:receipt.packageSha256,acceptedAt:receipt.acceptedAt,reviewer:receipt.reviewer,...(receipt.scope!=='production'?{testOnly:true}: {}),...(receipt.scope==='hosted-preview'?{previewHost:receipt.previewHost,readOnly:true}:{})};
 }

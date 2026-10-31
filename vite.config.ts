@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 import { readFileSync } from "node:fs";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./vendor/sites-vite-plugin";
+import { hostedContentPreviewConfig } from './scripts/hosted-content-preview.mjs';
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
@@ -23,6 +24,12 @@ if (memoProduction && (process.env.NICHE_DEV_SITE_ID || process.env.MEMO_COMMERC
 const memoProductionConfig = memoProduction
   ? JSON.parse(readFileSync(new URL("./config/memocasting-worker.json", import.meta.url), "utf8"))
   : {};
+const hostedPreview=process.env.CONTENT_HOSTED_PREVIEW==='1';
+if(hostedPreview&&memoProduction)throw Error('Hosted preview cannot be combined with production deployment');
+const hostedPreviewConfig=hostedPreview?hostedContentPreviewConfig(
+  JSON.parse(readFileSync(new URL('./.openai/hosted-preview.json',import.meta.url),'utf8')),
+  JSON.parse(readFileSync(new URL('./lib/generated/content-admissions.json',import.meta.url),'utf8')),
+):{};
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
@@ -60,6 +67,7 @@ const localBindingConfig = {
       ]
     : [],
   ...memoProductionConfig,
+  ...hostedPreviewConfig,
 };
 
 export default defineConfig(async () => {
