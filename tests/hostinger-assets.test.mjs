@@ -4,6 +4,8 @@ import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {hostingerAssetHeaders} from '../lib/hostinger-asset-headers.mjs';
 import {kvapunaikinimasImageSrcSet} from '../lib/kvapunaikinimas-image-delivery.mjs';
+import {kvapunaikinimasDeliverySrc,kvapunaikinimasDeliveryCss} from '../lib/kvapunaikinimas-asset-delivery.mjs';
+import {fullyPublicDeliveryPages} from '../scripts/hostinger-static-assets.mjs';
 
 test('long browser lifetimes cover immutable media and versioned fonts only',()=>{
  const rules=hostingerAssetHeaders();
@@ -12,6 +14,23 @@ test('long browser lifetimes cover immutable media and versioned fonts only',()=
  assert.deepEqual(rules[1].has,[{type:'query',key:'v',value:'[a-f0-9]{12}'}]);
  for(const r of rules)assert.equal(r.headers[0].value,'public, max-age=31536000, immutable');
  assert.equal(rules.some(r=>/lead|niche|:path\*/.test(r.source)),false);
+});
+
+test('delivery addresses preserve original/foreign inputs and only rewrite isolated font CSS',()=>{
+ const src='/content-assets/kvapunaikinimas/c1485cdd-ddcc-4920-8565-f7b002c9f62f.webp';
+ assert.equal(kvapunaikinimasDeliverySrc(src,false),src);
+ assert.equal(kvapunaikinimasDeliverySrc(src,true),'/_next/static/niche-assets/kvapunaikinimas/c1485cdd-ddcc-4920-8565-f7b002c9f62f.webp');
+ for(const s of ['/api/private','https://other.invalid'+src,'/content-assets/other/a.webp'])assert.equal(kvapunaikinimasDeliverySrc(s,true),s);
+ const css=".keep{color:red}@font-face{src:url('/fonts/kvapunaikinimas/open-sans-latin.woff2?v=d8e4fe0452aa')}";
+ assert.equal(kvapunaikinimasDeliveryCss(css),".keep{color:red}@font-face{src:url('/_next/static/niche-assets/kvapunaikinimas/open-sans-latin-d8e4fe0452aa.woff2')}");
+});
+
+test('managed static delivery fails closed on future, revoked, mismatched or paused revisions',()=>{
+ const now=Date.parse('2026-10-31T12:00:00Z'),p={id:'home',type:'home',slug:'',publishAt:'2026-10-29T12:00:00Z',revisionHash:'same',approval:{status:'approved',revisionHash:'same'},links:[],media:[]};
+ const pkg={siteId:'kvapunaikinimas',canonicalHost:'kvapunaikinimas.lt',pages:[p]};
+ assert.equal(fullyPublicDeliveryPages(pkg,{},now).length,1);
+ for(const change of [{publishAt:'2027-01-01T00:00:00Z'},{approval:{status:'revoked',revisionHash:'same'}},{revisionHash:'changed'}])assert.throws(()=>fullyPublicDeliveryPages({...pkg,pages:[{...p,...change}]},{},now),/fully_public/);
+ assert.throws(()=>fullyPublicDeliveryPages({...pkg,schemaVersion:1,pages:[{...p,type:'guide'}]},{guidePublicationPausedAtBySite:{kvapunaikinimas:'2026-10-28T12:00:00.000Z'}},now),/fully_public/);
 });
 
 test('circular delivery preserves high-DPI candidate, original and target isolation',()=>{

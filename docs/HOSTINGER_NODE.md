@@ -90,6 +90,18 @@ Advertise the optimized candidates through an AVIF picture source. Keep the
 approved original WebP family as the img fallback: recompressing its 500px WebP
 at quality85 can make it larger, so fallback browsers must retain original bytes.
 The picture uses display:contents to preserve the existing slide/image geometry.
+Verify the production vhost too: this legacy CloudLinux target serves public
+images/fonts outside the custom Node handler. Neither Next public-file headers,
+CDN purge nor a document-root header block reached those responses, unlike stage.
+The explicit target therefore copies unchanged eligible media and content-hashed
+fonts into .next/static/niche-assets after the build. The exporter alone rewrites
+font CSS URLs; default Workers CSS and original public URLs stay intact. Modern
+img srcsets, background URLs and preloads select the managed delivery paths.
+Every copied file retains its SHA; no resizing/recompression occurs in this step.
+Fail the build if the selected release contains future/revoked/paused pages:
+never bypass publication gates by copying private future assets into static.
+Requalify exact response headers and byte hashes on the actual target, not only
+stage. Preserve all provider/IP rules; do not replace .htaccess or cache HTML/forms.
 
 Back up the existing website's files and database before replacing it. Qualify
 the isolated hosted stage (all routes/assets, SEO, real mobile/desktop UI,

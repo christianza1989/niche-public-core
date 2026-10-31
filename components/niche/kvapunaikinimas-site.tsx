@@ -3,10 +3,11 @@
 import type {CSSProperties,ReactNode} from 'react';
 import {preload} from 'react-dom';
 import {kvapunaikinimasImageSrcSet} from '@/lib/kvapunaikinimas-image-delivery.mjs';
+import {kvapunaikinimasDeliverySrc} from '@/lib/kvapunaikinimas-asset-delivery.mjs';
 import type {NicheMedia,NichePackage,NichePage} from '@/lib/niche-sites';
 import {nicheJsonLd} from '@/lib/niche-seo';
 import {nicheBreadcrumbs} from '@/lib/niche-schema-core.mjs';
-import {imageSrcSet,uniqueImageFamilies} from '@/lib/niche-media.mjs';
+import {imageSrcSet,uniqueImageFamilies,responsiveImageVariants} from '@/lib/niche-media.mjs';
 import {inlinePieces,matchingPresentation,originalHref,pageDigest,orderedWidgets,originalTextStyle} from '@/lib/kvapunaikinimas-presentation.mjs';
 import rawLayout from '@/config/kvapunaikinimas-layout.json';
 import {KvapunaikinimasForm} from './kvapunaikinimas-form';
@@ -34,7 +35,8 @@ function MailIcon(){return <svg viewBox="0 0 24 20" width="15" height="15" fill=
 function PublishedImage({media,altName,assetId,className,eager=false,sizes='(max-width: 700px) 45vw, 220px'}:{media:NicheMedia[];altName?:string;assetId?:string;className?:string;eager?:boolean;sizes?:string}){
  const asset=assetId?media.find(m=>m.id===assetId):uniqueImageFamilies(media).find((m:NicheMedia)=>m.alt===altName);if(!asset)return null;
  const srcSet=sizes==='300px'?kvapunaikinimasImageSrcSet(asset,process.env.HOSTINGER_NODE_RUNTIME==='1'):undefined;
- const image=<img className={className} src={asset.src} srcSet={imageSrcSet(media,asset)} sizes={sizes} width={asset.width} height={asset.height} alt={asset.alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
+ const fallbackSet=process.env.HOSTINGER_NODE_RUNTIME==='1'?responsiveImageVariants(media,asset).map(a=>`${kvapunaikinimasDeliverySrc(a.src,true)} ${a.width}w`).join(', '):imageSrcSet(media,asset);
+ const image=<img className={className} src={asset.src} srcSet={fallbackSet} sizes={sizes} width={asset.width} height={asset.height} alt={asset.alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
  return srcSet?<picture style={{display:'contents'}}><source type="image/avif" srcSet={srcSet} sizes={sizes}/>{image}</picture>:image;
 }
 function Inline({text,marks}:{text:string;marks?:Mark[]}){
@@ -111,12 +113,12 @@ function Home({ctx,livePages}:{ctx:Context;livePages:NichePage[]}){
  const initial=['blogi-kvapai.png','dulkiu-erkutes2.png','virusai.png','alergenai-1.png','pelesis.png'];
  const equipment=['imageedit_1_4410406638-1.png','imageedit_5_2550315103.png','imageedit_9_6143204277.png','imageedit_11_8985628063.png'];
  return <>
-  {bg&&<link rel="preload" as="image" href={bg.src} fetchPriority="high" type="image/webp"/>}
-  <section className={`${styles.hero} ${styles.cloudSection}`} style={{'--kv-background':bg?`url("${bg.src}")`:'none'} as CSSProperties}><Clouds/><div className={`${styles.container} ${styles.homeContainer}`}>
+  {bg&&<link rel="preload" as="image" href={kvapunaikinimasDeliverySrc(bg.src,process.env.HOSTINGER_NODE_RUNTIME==='1')} fetchPriority="high" type="image/webp"/>}
+  <section className={`${styles.hero} ${styles.cloudSection}`} style={{'--kv-background':bg?`url("${kvapunaikinimasDeliverySrc(bg.src,process.env.HOSTINGER_NODE_RUNTIME==='1')}")`:'none'} as CSSProperties}><Clouds/><div className={`${styles.container} ${styles.homeContainer}`}>
    <h1>{lp.heading}</h1><div className={styles.heroGrid}><Panel ctx={ctx} id="69b9db1"/><KvCarousel classes={carouselClasses} label="Ozonavimo iliustracijos">{initial.map((file,i)=><PublishedImage key={file} media={media} altName={layout.assets[file]} eager={i===0} sizes="300px"/>)}</KvCarousel></div>
   </div></section>
   <section className={`${styles.services} ${styles.container}`}><h2>MŪSŲ PASLAUGOS:</h2><div className={styles.serviceGrid}>{services.filter(([s])=>livePages.some(p=>p.slug===s)).map(([s,label,file,buttonId])=>{const caption=ctx.page.body[lp.widgets[buttonId]?.start];return <a className={styles.serviceCard} key={s} href={`/${s}`}><PublishedImage media={media} altName={layout.assets[file]} sizes="(max-width:800px) 43vw, 162px"/><span>{caption&&'text' in caption?caption.text:label}</span></a>;})}</div></section>
-  <section className={`${styles.proof} ${styles.cloudSection}`} style={{'--kv-background':sky?`url("${sky.src}")`:'none'} as CSSProperties}><Clouds/><div className={`${styles.container} ${styles.homeContainer}`}>
+  <section className={`${styles.proof} ${styles.cloudSection}`} style={{'--kv-background':sky?`url("${kvapunaikinimasDeliverySrc(sky.src,process.env.HOSTINGER_NODE_RUNTIME==='1')}")`:'none'} as CSSProperties}><Clouds/><div className={`${styles.container} ${styles.homeContainer}`}>
    <div className={styles.sectionHeading}><WidgetContent ctx={ctx} id="5080467"/></div><div className={styles.proofGrid}><Panel ctx={ctx} id="83439ef"/><KvCarousel classes={carouselClasses} label="Ozonavimo įranga">{equipment.map(file=><PublishedImage key={file} media={media} altName={layout.assets[file]} sizes="300px"/>)}</KvCarousel></div>
   </div></section>
   <section id="kontaktai" className={`${styles.contactArea} ${styles.container}`}><h2>SUSISIEKITE SU MŪSŲ KOMANDA!</h2><KvapunaikinimasForm styles={{form:styles.form,fieldLabel:styles.fieldLabel,trap:styles.trap,notice:styles.notice,button:styles.button}}/><div className={styles.vanFrame}><WidgetContent ctx={ctx} id="caf5d1d"/></div></section>
@@ -145,14 +147,14 @@ function InnerPage({ctx,pkg,livePages}:{ctx:Context;pkg:NichePackage;livePages:N
  </>;
 }
 export function KvapunaikinimasSite({pkg,page,livePages}:Props){
- preload('/fonts/kvapunaikinimas/open-sans-latin.woff2?v=d8e4fe0452aa',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
- preload('/fonts/kvapunaikinimas/open-sans-latin-ext.woff2?v=d5bab8e28732',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ preload(kvapunaikinimasDeliverySrc('/fonts/kvapunaikinimas/open-sans-latin.woff2?v=d8e4fe0452aa',process.env.HOSTINGER_NODE_RUNTIME==='1'),{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ preload(kvapunaikinimasDeliverySrc('/fonts/kvapunaikinimas/open-sans-latin-ext.woff2?v=d5bab8e28732',process.env.HOSTINGER_NODE_RUNTIME==='1'),{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
  const home=livePages.find(p=>p.type==='home'),media=page.type==='home'?page.media:[...page.media,...(home?.media||[])];
  const candidate=layout.pages[page.slug];
  const lp=candidate?.digest===pageDigest(page.body,media)?candidate:undefined;
  if(lp&&Object.values(lp.formats).some(f=>[...(f.marks||[]),...(f.itemMarks||[]).flat()].some(m=>m.kind==='em'||m.style?.slant==='italic'))){
-  preload('/fonts/kvapunaikinimas/open-sans-italic-latin.woff2?v=8df90accd45b',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
-  preload('/fonts/kvapunaikinimas/open-sans-italic-latin-ext.woff2?v=2e9001fa91a2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+  preload(kvapunaikinimasDeliverySrc('/fonts/kvapunaikinimas/open-sans-italic-latin.woff2?v=8df90accd45b',process.env.HOSTINGER_NODE_RUNTIME==='1'),{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+  preload(kvapunaikinimasDeliverySrc('/fonts/kvapunaikinimas/open-sans-italic-latin-ext.woff2?v=2e9001fa91a2',process.env.HOSTINGER_NODE_RUNTIME==='1'),{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
  }
  const ctx={page,media,lp};
  return <div className={styles.shell} id="kv-top"><a className={styles.skip} href="#kv-main">Praleisti navigaciją</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page,livePages)}}/><Header page={page} livePages={livePages} media={media}/><main id="kv-main">{page.type==='home'?<Home ctx={ctx} livePages={livePages}/>:<InnerPage ctx={ctx} pkg={pkg} livePages={livePages}/>} {page.slug!=='musu-slapuku-politika'&&<Contacts pkg={pkg} home={page.type==='home'}/>}</main><Footer pkg={pkg} livePages={livePages} media={media}/><KvBackToTop className={styles.backToTop}/></div>;

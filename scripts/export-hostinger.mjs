@@ -3,6 +3,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
+import {kvapunaikinimasDeliveryCss} from '../lib/kvapunaikinimas-asset-delivery.mjs';
 
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 export function hostingerPageSource(siteId) {
@@ -61,6 +62,7 @@ export async function exportHostinger(root,releaseDirectory,output) {
  await fs.writeFile(path.join(output,'package.json'),JSON.stringify(app,null,2)+'\n');
  const isolatedPage=hostingerPageSource(pkg.siteId);
  if(isolatedPage)await fs.writeFile(path.join(output,'app/niche/[siteId]/[[...slug]]/page.tsx'),isolatedPage);
+ if(isolatedPage){const cssFile=path.join(output,'components/niche/kvapunaikinimas-site.module.css');await fs.writeFile(cssFile,kvapunaikinimasDeliveryCss(await fs.readFile(cssFile,'utf8')));}
  const receipt={sourceCommit,siteId:pkg.siteId,canonicalHost:pkg.canonicalHost,packageSha256:hash(packageBytes),pages:pkg.pages.length,assets:manifest.assets.length,copiedFiles:copied,scope:'one verified native release; shared pause/alias inputs projected, canonical source unchanged',entry:'scripts/start-hostinger.mjs',state:'prepared-not-deployed'};
  receipt.renderer=isolatedPage?`isolated:${pkg.siteId}`:'network';
  await fs.writeFile(path.join(output,'hostinger-artifact.json'),JSON.stringify(receipt,null,2)+'\n');return receipt;
