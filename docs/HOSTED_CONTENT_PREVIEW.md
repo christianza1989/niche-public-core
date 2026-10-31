@@ -19,6 +19,16 @@ Use the installed Wrangler to deploy that compiled config. Do not deploy a
 local-preview build or repurpose another site's Worker. Preview URLs and custom
 routes are disabled. No domain/DNS cutover takes place.
 
+Worker-first mode must explicitly forward `/_next/static/` to `ASSETS`; Vinext
+reserves that namespace and otherwise returns404. The canonical Worker entry
+uses `hostedPreviewAssetResponse` after the exact-host/method gate. For an
+existing compiled build missing this boundary, run
+`node scripts/prepare-hosted-preview-runtime.mjs` in the owned output checkout
+and deploy the returned config. The deterministic adapter copies the exact
+canonical guard, delegates all other requests to the original compiled Core,
+and records input/output hashes. It preserves the original build/config and
+does not alter content, admissions, bindings, routes or launch requirements.
+
 Every request passes the Worker boundary, including static files. Only the exact
 HTTPS host or consistent loopback authority is admitted. All responses carry
 `noindex, nofollow, noarchive` and `private, no-store`; robots disallows crawling.

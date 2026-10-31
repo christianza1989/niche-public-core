@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {validateV2Admission,assertPreviewSandbox} from '../scripts/content-v2-admission.mjs';
-import {hostedPreviewAdmission,hostedPreviewRequest,hostedPreviewResponse} from '../lib/content-hosted-preview.mjs';
+import {hostedPreviewAdmission,hostedPreviewRequest,hostedPreviewResponse,hostedPreviewAssetResponse} from '../lib/content-hosted-preview.mjs';
 import {hostedContentPreviewConfig} from '../scripts/hosted-content-preview.mjs';
 
 const pkg={siteId:'qa',canonicalHost:'qa.example',locale:'lt-LT',site:{renderer:'gift'}};
@@ -68,4 +68,15 @@ test('build target cannot inherit customer D1/R2/mail or route the incumbent dom
   assert.equal(result.observability.traces.enabled,true);
   for(const change of [{siteId:'other'},{accountId:'invalid'},{workerName:'other-worker'},{previewHost:'qa.example'}])assert.throws(()=>hostedContentPreviewConfig({...target,...change},{qa:admission}));
   assert.throws(()=>hostedContentPreviewConfig(target,{}));
+});
+
+test('Worker-first CSS/JS reach ASSETS with the exact authority/read-only/noindex gate; native content and private paths never bypass Core',async()=>{
+  const calls=[],assets={fetch:async request=>{calls.push(request.url);return new Response('.sp-header{height:82px}',{headers:{'Content-Type':'text/css'}});}};
+  const url='https://'+receipt.previewHost+'/_next/static/css/site.css';
+  const response=await hostedPreviewAssetResponse(new Request(url),assets,admission);
+  assert.equal(response.status,200);assert.equal(response.headers.get('content-type'),'text/css');assert.match(response.headers.get('x-robots-tag'),/noindex/);assert.match(await response.text(),/sp-header/);assert.equal(calls.length,1);
+  assert.equal((await hostedPreviewAssetResponse(new Request(url.replace(receipt.previewHost,'foreign.example')),assets,admission)).status,404);
+  const post=new Request(url,{method:'POST',body:'not consumed'});assert.equal((await hostedPreviewAssetResponse(post,assets,admission)).status,503);assert.equal(post.bodyUsed,false);assert.equal(calls.length,1);
+  for(const pathname of ['/content-assets/qa/future.webp','/_next/server/private.js','/_next/staticx/file.js','/gift/qa','/'])assert.equal(await hostedPreviewAssetResponse(new Request('https://'+receipt.previewHost+pathname),assets,admission),null);
+  assert.equal(await hostedPreviewAssetResponse(new Request(url),assets,null),null);assert.equal(calls.length,1);
 });
