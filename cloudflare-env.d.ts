@@ -8,6 +8,10 @@ declare namespace Cloudflare {
     LEAD_SMTP_ENABLED?: string;
     LEAD_SMTP_USER?: string;
     LEAD_SMTP_PASSWORD?: string;
+    LEAD_MAIL_RELAY_ENABLED?: string;
+    LEAD_MAIL_RELAY_URL?: string;
+    LEAD_MAIL_RELAY_SENDER?: string;
+    LEAD_MAIL_RELAY_TOKEN?: string;
     VOICE_WIDGET_ENABLED?: string;
     VOICE_CORE_URL?: string;
     VOICE_EDGE_SECRET?: string;

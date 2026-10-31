@@ -88,7 +88,8 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
     return reply("Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.", 503);
   }
   let notified = false;
-  if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_EMAIL) {
+  const transport = env.LEAD_EMAIL ? "cloudflare_email" : env.LEAD_MAIL_RELAY_ENABLED === "1" ? "https_relay" : "smtp";
+  if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_MAIL_RELAY_ENABLED === "1" || env.LEAD_EMAIL) {
     try {
       const mail = {
         id: leadId,
@@ -103,9 +104,9 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       if (!notified) throw new Error("mail not configured");
       await env.DB.prepare("UPDATE niche_leads SET status = 'notified' WHERE id = ? AND site_id = ?")
         .bind(leadId, siteId).run();
-      console.log(JSON.stringify({ event: "niche_lead_notified", siteId, leadId, transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
+      console.log(JSON.stringify({ event: "niche_lead_notified", siteId, leadId, transport }));
     } catch {
-      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
+      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport }));
     }
   }
   return reply(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."

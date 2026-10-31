@@ -31,3 +31,8 @@ Acceptance requires the actual compiled Worker: owned pages, SEO endpoints,
 host/media isolation, form validation and durable storage. SMTP acceptance and
 inbox receipt remain separate from local tests. Upload without active DNS and
 routes is not actual-domain cutover.
+
+Hostinger SMTP may be unreachable from Workers even when local AUTH succeeds.
+For the proven Cloudflare-IP TCP restriction and the explicit, authenticated
+HTTPS transport see [NICHE_HOSTINGER_MAIL_RELAY.md](NICHE_HOSTINGER_MAIL_RELAY.md).
+Keep the sender/Reply-To contract, durable acceptance evidence and no-retry rule.

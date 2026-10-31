@@ -4,7 +4,7 @@
   "compatibility_date": "2026-05-22",
   "workers_dev": false,
   "preview_urls": false,
-  "vars": { "LEAD_SMTP_ENABLED": "1" },
+  "vars": { "LEAD_SMTP_ENABLED": "0", "LEAD_MAIL_RELAY_ENABLED": "1", "LEAD_MAIL_RELAY_URL": "https://kontaktuforma.lt/v1/o3tech", "LEAD_MAIL_RELAY_SENDER": "kontaktuforma@kontaktuforma.lt" },
   "d1_databases": [{ "binding": "DB", "database_name": "o3tech-site-leads", "database_id": "919ecdf3-4a13-4430-907d-b992758e9e53" }],
   "r2_buckets": [],
   "observability": { "enabled": true, "traces": { "enabled": true } }
