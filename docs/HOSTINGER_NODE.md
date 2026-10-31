@@ -82,6 +82,10 @@ For 500px square carousel originals, Node serves bounded 300/500px Next image
 variants with negotiated AVIF/WebP. Original approved media remains unchanged;
 high-DPI screens retain the 500px candidate. Verify both formats, dimensions,
 cache behavior and visual fidelity on the hosted stage before production.
+Next16's internal image fetch drops Host headers. On this tenant-aware target,
+the optimizer therefore fetches only the narrowly allowlisted canonical HTTPS
+media path; publication/host guards remain enforced instead of allowing anonymous
+internal static requests. Keep remote patterns exact and private-IP access off.
 
 Back up the existing website's files and database before replacing it. Qualify
 the isolated hosted stage (all routes/assets, SEO, real mobile/desktop UI,

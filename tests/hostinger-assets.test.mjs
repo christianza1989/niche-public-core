@@ -18,6 +18,7 @@ test('circular delivery preserves high-DPI candidate, original and target isolat
  const asset={src:'/content-assets/kvapunaikinimas/c1485cdd-ddcc-4920-8565-f7b002c9f62f.webp',width:500,height:500};
  const before=JSON.stringify(asset),result=kvapunaikinimasImageSrcSet(asset,true);
  assert.match(result,/w=300&q=85 300w/);assert.match(result,/w=500&q=85 500w/);
+ assert.equal(new URL(result.split(' ')[0],'https://kvapunaikinimas.lt').searchParams.get('url'),'https://kvapunaikinimas.lt'+asset.src);
  assert.equal(JSON.stringify(asset),before);
  assert.equal(kvapunaikinimasImageSrcSet(asset,false),undefined);
  for(const src of ['https://external.invalid/a.webp','/content-assets/other/a.webp','/api/private'])assert.equal(kvapunaikinimasImageSrcSet({...asset,src},true),undefined);

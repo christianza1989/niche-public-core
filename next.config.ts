@@ -18,8 +18,8 @@ const nextConfig: NextConfig = {
     imageSizes:[300,500],
     qualities:[85],
     minimumCacheTTL:31536000,
-    localPatterns:[{pathname:'/content-assets/kvapunaikinimas/*.webp',search:''}],
-    remotePatterns:[],
+    localPatterns:[],
+    remotePatterns:[{protocol:'https',hostname:'kvapunaikinimas.lt',port:'',pathname:'/content-assets/kvapunaikinimas/*.webp',search:''}],
   }:undefined,
   webpack: (config, context) => {
     if (hostingerNode) {
