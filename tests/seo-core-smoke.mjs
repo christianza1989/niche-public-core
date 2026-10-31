@@ -24,6 +24,7 @@ const live = pkg.schemaVersion===2?projectContentPagesV2(pkg,packages,settings,c
 const indexable=pkg.schemaVersion===2?live:memoIndexablePages(pkg,live);
 const pagePath=page=>pkg.schemaVersion===2?contentPagePath(pkg,page):page.slug?`/${page.slug}`:'/';
 const renderedResources=new Set();
+const declaredIcons=new Set();
 
 async function get(path, host = preview?.previewHost||pkg.canonicalHost) {
   const target = new URL(path, base);
@@ -52,6 +53,7 @@ for (const page of live) {
   assert.ok(body.includes(page.title.replaceAll("&", "&amp;")), `${path} visible title`);
   if(preview)assert.match(response.headers['x-robots-tag']||'',/noindex/);
   for(const [tag] of body.matchAll(/<(?:link|script)\b[^>]*>/g)){
+    if(tag.startsWith('<link')&&/rel=["']icon["']/.test(tag)){const icon=tag.match(/\bhref=["']([^"']+)["']/)?.[1];if(icon?.startsWith('/')&&!icon.startsWith('//'))declaredIcons.add(icon);}
     const attribute=tag.startsWith('<script')?'src':/rel=["']stylesheet["']/.test(tag)?'href':null;
     const resource=attribute&&tag.match(new RegExp(`\\b${attribute}=["']([^"']+)["']`))?.[1];
     if(resource?.startsWith('/')&&!resource.startsWith('//'))renderedResources.add(resource);
@@ -69,10 +71,18 @@ for(const resource of renderedResources){
 const sharedFavicon = await readFile(resolve('public/favicon.svg'), 'utf8');
 for (const path of ['/favicon.svg', '/favicon.ico']) {
   const { response, body } = await get(path);
-  assert.equal(response.statusCode, 200, `${path} niche status`);
-  assert.match(response.headers['content-type'] || '', /image\/svg\+xml/);
-  assert.ok(body.includes('<svg'), `${path} icon payload`);
-  assert.notEqual(body.trim(), sharedFavicon.trim(), `${path} must use the niche icon, not a shared static asset`);
+  if(pkg.schemaVersion===2&&response.statusCode===307){
+    const target=new URL(response.headers.location,base);
+    assert.equal(target.origin,new URL(base).origin,'native icon stays on the transport host');
+    assert.ok(declaredIcons.has(target.pathname),'native icon alias matches rendered metadata');
+    assert.ok(live.some(page=>page.media.some(media=>media.src===target.pathname)),'native icon is currently publication-eligible');
+    const icon=await get(target.pathname);assert.equal(icon.response.statusCode,200);assert.match(icon.response.headers['content-type']||'',/^image\//);assert.ok(icon.body.length>0);
+  }else{
+    assert.equal(response.statusCode, 200, `${path} niche status`);
+    assert.match(response.headers['content-type'] || '', /image\/svg\+xml/);
+    assert.ok(body.includes('<svg'), `${path} icon payload`);
+    assert.notEqual(body.trim(), sharedFavicon.trim(), `${path} must use the niche icon, not a shared static asset`);
+  }
   assertSmokeHostIsolation(await get(path,'unknown-domain.example'),{edge:new URL(base).protocol==='https:',markers:[pkg.site.name,pkg.pages.find(p=>p.type==='home')?.title],label:path});
 }
 
