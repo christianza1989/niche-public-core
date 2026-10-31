@@ -120,7 +120,7 @@ export default async function RootLayout({
     const filtered=(await headers()).get('x-gift-filtered')==='1';
     const page=publicContentPages(gift).find(p=>p.slug===pathname.replace(/^\/+|\/+$/g,''));
     const hero=page?.media.find(m=>m.id===page.editorial.featuredImageId)||page?.media[0];
-    const signaturepadsBackground=signaturepads&&page?.type==='home'?page.media.find(m=>m.id===signaturepadsLayout.home.background):null;
+    const signaturepadsBackground=signaturepads&&page?.type==='home'?uniqueImageFamilies(page.media).find(m=>m.familyId===signaturepadsLayout.home.background):null;
     const article=page?.type==='article'||page?.type==='guide';
     return <html lang={gift.locale.slice(0,2)}><head>
       {verification&&<meta name="google-site-verification" content={verification.google}/>}

@@ -20,7 +20,7 @@
     quickRequest?.abort();
     const controller=new AbortController();quickRequest=controller;
     const timeout=setTimeout(()=>controller.abort(),10000);
-    const title=trigger.closest('.sp-product-card')?.querySelector('h3')?.textContent.trim()||'Greita peržiūra';
+    const title=trigger.closest('.sp-product-card')?.querySelector('h2,h3')?.textContent.trim()||'Greita peržiūra';
     const fallback=document.createElement('a');fallback.href=url.href;fallback.textContent=title;fallback.className='sp-quick-fallback';
     quickContent.replaceChildren(fallback);quickDialog.setAttribute('aria-busy','true');
     show(quickDialog,trigger,title);

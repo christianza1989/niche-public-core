@@ -12,7 +12,12 @@ const now=Math.max(...pkg.pages.map(p=>Date.parse(p.publishAt)))+1000;
 const project=value=>projectContentPagesV2(value,[value],{},undefined,now);
 const dataFor=value=>signaturepadsSnapshot(value,project(value),layout);
 const render=(data,path,query='')=>renderSignaturepads(data,data.routes.find(r=>r.path===path),new URLSearchParams(query));
-const cardPaths=html=>[...html.matchAll(/<h3><a href="([^"]+)">/g)].map(m=>m[1]);
+const cardPaths=html=>[...html.matchAll(/<h[23]><a href="([^"]+)">/g)].map(m=>m[1]);
+
+test('catalogue cards descend from page H1 to H2 while related products remain under their H2 section',()=>{
+ const data=dataFor(pkg),catalog=render(data,'/iranga/programine-iranga/');assert.match(catalog,/<h2><a href="\/produktas\//);assert.doesNotMatch(catalog,/<h3><a href="\/produktas\//);
+ const product=data.routes.find(r=>r.kind==='product');assert.match(render(data,product.path),/<h3><a href="\/produktas\//);
+});
 
 test('original homepage responsive image URLs resolve only while their native home revision is public',()=>{
   // Original img/srcset paths omitted by the initial single-size inventory.
