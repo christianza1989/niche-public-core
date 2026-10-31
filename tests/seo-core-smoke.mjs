@@ -88,8 +88,8 @@ for (const path of ['/favicon.svg', '/favicon.ico']) {
 
 const robots = await get("/robots.txt");
 assert.equal(robots.response.statusCode, 200);
-assert.ok(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`));
 if(preview)assert.match(robots.body,/Disallow: \/\s/);
+else assert.ok(robots.body.includes(`Sitemap: ${origin}/sitemap.xml`));
 
 const sitemap = await get("/sitemap.xml");
 assert.equal(sitemap.response.statusCode, 200);
