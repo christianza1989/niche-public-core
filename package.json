@@ -16,7 +16,9 @@
     "content:compile": "node scripts/compile-content-packages.mjs",
     "content:import": "node scripts/import-content-package.mjs",
     "test:core": "node --test tests/*.test.mjs",
-    "test:seo-smoke": "node tests/seo-core-smoke.mjs"
+    "test:seo-smoke": "node tests/seo-core-smoke.mjs",
+    "build:hostinger": "node scripts/build-hostinger.mjs",
+    "start:hostinger": "node scripts/start-hostinger.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -32,6 +34,7 @@
     "input-otp": "^1.4.2",
     "livekit-client": "2.22.3",
     "lucide-react": "^1.31.0",
+    "mysql2": "3.24.6",
     "next": "16.4.3",
     "next-themes": "^0.4.6",
     "radix-ui": "^1.6.7",

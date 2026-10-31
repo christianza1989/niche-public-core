@@ -5,6 +5,7 @@ import {memoLeadContext,memoLeadText} from '@/lib/memocasting-lead-response.mjs'
 import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
 import { contactMethodFields } from "@/lib/niche-contact-method.mjs";
+import { nicheRequestOrigin } from "@/lib/niche-request-origin.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -59,7 +60,7 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   if(pkg.schemaVersion===2 && (!publicSitePage(pkg,'kontaktai') || publicSitePage(pkg,'privatumas')?.type!=='policy')) return response('Užklausos forma šiuo metu nepasiekiama. Parašykite svetainėje nurodytu el. paštu.',503);
   const origin = request.headers.get("origin");
   const referrer = request.headers.get("referer");
-  const expected = new URL(request.url).origin;
+  const expected = nicheRequestOrigin(request, host, process.env.HOSTINGER_NODE_RUNTIME==='1');
   if (origin && origin !== expected) return reply("Neleidžiama užklausos kilmė.", 403);
   if (!origin) {
     try { if (!referrer || new URL(referrer).origin !== expected) return reply("Neleidžiama užklausos kilmė.", 403); }
