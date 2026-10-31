@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element -- Native responsive WebP media families. */
 import type {CSSProperties,ReactNode} from 'react';
 import {preload} from 'react-dom';
+import {kvapunaikinimasImageSrcSet} from '@/lib/kvapunaikinimas-image-delivery.mjs';
 import type {NicheMedia,NichePackage,NichePage} from '@/lib/niche-sites';
 import {nicheJsonLd} from '@/lib/niche-seo';
 import {nicheBreadcrumbs} from '@/lib/niche-schema-core.mjs';
@@ -32,7 +33,8 @@ function PhoneIcon(){return <svg viewBox="0 0 24 24" width="15" height="15" fill
 function MailIcon(){return <svg viewBox="0 0 24 20" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M2 3h20v14H2ZM2 3l10 8L22 3"/></svg>;}
 function PublishedImage({media,altName,assetId,className,eager=false,sizes='(max-width: 700px) 45vw, 220px'}:{media:NicheMedia[];altName?:string;assetId?:string;className?:string;eager?:boolean;sizes?:string}){
  const asset=assetId?media.find(m=>m.id===assetId):uniqueImageFamilies(media).find((m:NicheMedia)=>m.alt===altName);if(!asset)return null;
- return <img className={className} src={asset.src} srcSet={imageSrcSet(media,asset)} sizes={sizes} width={asset.width} height={asset.height} alt={asset.alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
+ const srcSet=sizes==='300px'?kvapunaikinimasImageSrcSet(asset,process.env.HOSTINGER_NODE_RUNTIME==='1'):undefined;
+ return <img className={className} src={asset.src} srcSet={srcSet||imageSrcSet(media,asset)} sizes={sizes} width={asset.width} height={asset.height} alt={asset.alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
 }
 function Inline({text,marks}:{text:string;marks?:Mark[]}){
  return <>{inlinePieces(text,marks).map((piece:{text:string;marks:Mark[]},i:number)=>{
@@ -142,14 +144,14 @@ function InnerPage({ctx,pkg,livePages}:{ctx:Context;pkg:NichePackage;livePages:N
  </>;
 }
 export function KvapunaikinimasSite({pkg,page,livePages}:Props){
- preload('/fonts/kvapunaikinimas/open-sans-latin.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
- preload('/fonts/kvapunaikinimas/open-sans-latin-ext.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ preload('/fonts/kvapunaikinimas/open-sans-latin.woff2?v=d8e4fe0452aa',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ preload('/fonts/kvapunaikinimas/open-sans-latin-ext.woff2?v=d5bab8e28732',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
  const home=livePages.find(p=>p.type==='home'),media=page.type==='home'?page.media:[...page.media,...(home?.media||[])];
  const candidate=layout.pages[page.slug];
  const lp=candidate?.digest===pageDigest(page.body,media)?candidate:undefined;
  if(lp&&Object.values(lp.formats).some(f=>[...(f.marks||[]),...(f.itemMarks||[]).flat()].some(m=>m.kind==='em'||m.style?.slant==='italic'))){
-  preload('/fonts/kvapunaikinimas/open-sans-italic-latin.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
-  preload('/fonts/kvapunaikinimas/open-sans-italic-latin-ext.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+  preload('/fonts/kvapunaikinimas/open-sans-italic-latin.woff2?v=8df90accd45b',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+  preload('/fonts/kvapunaikinimas/open-sans-italic-latin-ext.woff2?v=2e9001fa91a2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
  }
  const ctx={page,media,lp};
  return <div className={styles.shell} id="kv-top"><a className={styles.skip} href="#kv-main">Praleisti navigaciją</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page,livePages)}}/><Header page={page} livePages={livePages} media={media}/><main id="kv-main">{page.type==='home'?<Home ctx={ctx} livePages={livePages}/>:<InnerPage ctx={ctx} pkg={pkg} livePages={livePages}/>} {page.slug!=='musu-slapuku-politika'&&<Contacts pkg={pkg} home={page.type==='home'}/>}</main><Footer pkg={pkg} livePages={livePages} media={media}/><KvBackToTop className={styles.backToTop}/></div>;

@@ -5,6 +5,18 @@ import {execFileSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
 
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
+export function hostingerPageSource(siteId) {
+ if(siteId!=='kvapunaikinimas')return undefined;
+ return `import {nichePageContext} from '@/lib/niche-page-context';
+import {KvapunaikinimasSite} from '@/components/niche/kvapunaikinimas-site';
+export const dynamic='force-dynamic';
+export const revalidate=0;
+export default async function Page({params}:{params:Promise<{siteId:string;slug?:string[]}>}) {
+ const {props}=await nichePageContext(params,'kvapunaikinimas');
+ return <KvapunaikinimasSite {...props}/>;
+}
+`;
+}
 export function hostingerSourceFile(file) {
  const parts=file.split('/');
  if(parts.some(p=>p.startsWith('.')||['node_modules','dist','content-packages'].includes(p)))return false;
@@ -47,7 +59,10 @@ export async function exportHostinger(root,releaseDirectory,output) {
  const app=JSON.parse(await fs.readFile(path.join(output,'package.json'),'utf8'));
  app.scripts.build=app.scripts['build:hostinger'];app.scripts.start=app.scripts['start:hostinger'];
  await fs.writeFile(path.join(output,'package.json'),JSON.stringify(app,null,2)+'\n');
+ const isolatedPage=hostingerPageSource(pkg.siteId);
+ if(isolatedPage)await fs.writeFile(path.join(output,'app/niche/[siteId]/[[...slug]]/page.tsx'),isolatedPage);
  const receipt={sourceCommit,siteId:pkg.siteId,canonicalHost:pkg.canonicalHost,packageSha256:hash(packageBytes),pages:pkg.pages.length,assets:manifest.assets.length,copiedFiles:copied,scope:'one verified native release; shared pause/alias inputs projected, canonical source unchanged',entry:'scripts/start-hostinger.mjs',state:'prepared-not-deployed'};
+ receipt.renderer=isolatedPage?`isolated:${pkg.siteId}`:'network';
  await fs.writeFile(path.join(output,'hostinger-artifact.json'),JSON.stringify(receipt,null,2)+'\n');return receipt;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){

@@ -64,6 +64,25 @@ Archive the directory contents at ZIP root, excluding node_modules/build output;
 assert archive size≤50MB and record its SHA/source/release manifest. Upload via
 Hostinger's authenticated TUS grant, verify201/204 and final offset, then build.
 
+### Single-site resource isolation and browser caching
+
+The kvapunaikinimas export writes a target-only page entry that calls the same
+`nichePageContext` publication/host gate and imports its original renderer only.
+Conditional server imports in the network page are not sufficient CSS isolation
+in Next: unrelated site CSS/client references can enter the initial graph.
+Qualify the exported production graph, including nested CSS imports; source unit
+tests alone cannot prove that the delivered page avoids other sites' resources.
+Other export targets retain their existing entry until individually qualified.
+
+Node-only headers give UUID WebP media and content-versioned font URLs a one-year
+browser lifetime. Keep unversioned fonts, page HTML and form responses outside
+that rule; verify real response headers independently of CDN HIT status. Font
+versions must match actual bytes in both font-face and preload references.
+For 500px square carousel originals, Node serves bounded 300/500px Next image
+variants with negotiated AVIF/WebP. Original approved media remains unchanged;
+high-DPI screens retain the 500px candidate. Verify both formats, dimensions,
+cache behavior and visual fidelity on the hosted stage before production.
+
 Back up the existing website's files and database before replacing it. Qualify
 the isolated hosted stage (all routes/assets, SEO, real mobile/desktop UI,
 bounded form/origin/consent behavior and persisted records) first. Preserve mail
