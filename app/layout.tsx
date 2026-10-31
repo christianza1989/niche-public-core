@@ -79,7 +79,7 @@ export default async function RootLayout({
           {canonical ? <link rel="canonical" href={canonical} /> : !memoMetadata&&<meta name="robots" content="noindex, nofollow" />}
           {memoMetadata?<meta name="robots" content={memoMetadata.robots}/>:page&&memoFunctionalPage(niche,page)&&<meta name="robots" content="noindex, nofollow"/>}
           {niche.siteId==='memocasting'&&page&&memoAlternates(niche,page,publicNichePages(niche)).map((a:{language:string;url:string})=><link key={a.language} rel="alternate" hrefLang={a.language} href={a.url}/>)}
-          <link rel="icon" type="image/svg+xml" href={niche.siteId==='memocasting'?memoFaviconHref:'/favicon.svg'} />
+          <link rel="icon" type="image/svg+xml" href={niche.siteId==='memocasting'?memoFaviconHref:niche.siteId==='kvapunaikinimas'?'/favicon.svg?v=original-o3':'/favicon.svg'} />
           {page && <>
             <meta property="og:site_name" content={memoMetadata?.siteName || niche.site.name} />
             <meta property="og:type" content={memoMetadata?.type || (page.type === "guide" ? "article" : "website")} />

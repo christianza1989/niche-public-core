@@ -114,6 +114,8 @@ const values=(html,key)=>[...html.matchAll(/<meta\b[^>]*>/g)].map(match=>match[0
 test('actual page renderer never waits for commerce on home, but enriches catalogue and product routes',async()=>{
  const source=await readFile(new URL('../app/niche/[siteId]/[[...slug]]/page.tsx',import.meta.url),'utf8');
  const javascript=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+ const contextSource=await readFile(new URL('../lib/niche-page-context.ts',import.meta.url),'utf8');
+ const contextJavascript=ts.transpileModule(contextSource,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
  for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys']){
   const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
   const modules={
@@ -127,7 +129,11 @@ test('actual page renderer never waits for commerce on home, but enriches catalo
    '@/lib/niche-voice':{voiceWidgetEnabled:()=>false},
    '@/components/niche/memocasting-site':{MemocastingSite:()=>null},
   };
-  runInNewContext(javascript,{exports,require:name=>name in modules?modules[name]:nativeRequire(name)});
+  const contextExports={};
+  const load=name=>name in modules?modules[name]:nativeRequire(name);
+  runInNewContext(contextJavascript,{exports:contextExports,require:load});
+  modules['@/lib/niche-page-context']=contextExports;
+  runInNewContext(javascript,{exports,require:load});
   const result=await exports.default({params:Promise.resolve({siteId:'memocasting',slug:slug?slug.split('/'):[]})});
   assert.equal(bulkReads,slug?1:0,slug||'home');assert.equal(productReads,['rinkinys-porai','seimos-rinkinys'].includes(slug)?1:0);
   assert.equal(result.props.page.slug,slug);

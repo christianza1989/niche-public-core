@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { serializeHostingerMailEnv } from './hostinger-mail-env.mjs';
 const source = process.argv[2];
 if (!source) throw new Error('Provide the user-supplied credentials file path. Never pass the password on the command line.');
 const raw = await readFile(source, 'utf8');
@@ -11,6 +12,6 @@ const password = passwordLine?.replace(/^.*?(?:password|slapta(?:z|ž)odis)\s*[-
 if (user !== 'info@pinet.lt' || !password || /[\r\n]/.test(password)) throw new Error('Credential format not recognized; no secret was written.');
 const root = path.resolve(import.meta.dirname, '..');
 const target = path.join(root, '.dev.vars.hostinger');
-await writeFile(target, `LEAD_SMTP_ENABLED="1"\nLEAD_SMTP_USER=${JSON.stringify(user)}\nLEAD_SMTP_PASSWORD=${JSON.stringify(password)}\n`, { mode: 0o600 });
+await writeFile(target, serializeHostingerMailEnv({LEAD_SMTP_ENABLED:'1',LEAD_SMTP_USER:user,LEAD_SMTP_PASSWORD:password}), { mode: 0o600 });
 await mkdir(path.join(root, 'output/mail'), { recursive: true });
 console.log('Hostinger secrets saved only to ignored .dev.vars.hostinger. Default previews remain mail-disabled.');

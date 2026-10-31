@@ -1,7 +1,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { connect } from 'node:tls';
+import { parseHostingerMailEnv } from './hostinger-mail-env.mjs';
 const raw = await readFile(new URL('../.dev.vars.hostinger', import.meta.url), 'utf8');
-const config = Object.fromEntries(raw.trim().split('\n').map(line => { const i = line.indexOf('='); return [line.slice(0, i), JSON.parse(line.slice(i + 1))]; }));
+const config = parseHostingerMailEnv(raw);
 const verification = JSON.parse(await readFile(new URL('../output/mail/hostinger-smtp-verification.json', import.meta.url), 'utf8'));
 const id = process.argv[2] || verification.testId;
 if (!/^[a-z0-9-]+$/i.test(id || '')) throw new Error('Provide the self-test Message-ID, not an inbox query.');
