@@ -86,6 +86,10 @@ Next16's internal image fetch drops Host headers. On this tenant-aware target,
 the optimizer therefore fetches only the narrowly allowlisted canonical HTTPS
 media path; publication/host guards remain enforced instead of allowing anonymous
 internal static requests. Keep remote patterns exact and private-IP access off.
+Advertise the optimized candidates through an AVIF picture source. Keep the
+approved original WebP family as the img fallback: recompressing its 500px WebP
+at quality85 can make it larger, so fallback browsers must retain original bytes.
+The picture uses display:contents to preserve the existing slide/image geometry.
 
 Back up the existing website's files and database before replacing it. Qualify
 the isolated hosted stage (all routes/assets, SEO, real mobile/desktop UI,
