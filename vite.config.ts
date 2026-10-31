@@ -4,6 +4,7 @@ import { readFileSync } from "node:fs";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./vendor/sites-vite-plugin";
 import { hostedContentPreviewConfig } from './scripts/hosted-content-preview.mjs';
+import { contentProductionConfig } from './scripts/content-production-config.mjs';
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
@@ -25,6 +26,14 @@ const memoProductionConfig = memoProduction
   ? JSON.parse(readFileSync(new URL("./config/memocasting-worker.json", import.meta.url), "utf8"))
   : {};
 const hostedPreview=process.env.CONTENT_HOSTED_PREVIEW==='1';
+const contentProduction=process.env.CONTENT_PRODUCTION==='1';
+if(contentProduction&&(hostedPreview||memoProduction||process.env.NICHE_DEV_SITE_ID||process.env.MEMO_COMMERCE_ORIGIN))throw Error('Content production cannot inherit preview or another deployment profile');
+const productionTarget=contentProduction?JSON.parse(readFileSync(new URL('./.openai/content-production.json',import.meta.url),'utf8')):null;
+if(contentProduction&&!/^[a-z0-9][a-z0-9-]{0,62}$/.test(productionTarget.siteId||''))throw Error('Invalid production site identity');
+const productionContentConfig=contentProduction?contentProductionConfig(productionTarget,
+ JSON.parse(readFileSync(new URL('./lib/generated/content-admissions.json',import.meta.url),'utf8')),
+ JSON.parse(readFileSync(new URL(`./content-packages/${productionTarget.siteId}/content-package.json`,import.meta.url),'utf8')),
+):{};
 if(hostedPreview&&memoProduction)throw Error('Hosted preview cannot be combined with production deployment');
 const hostedPreviewConfig=hostedPreview?hostedContentPreviewConfig(
   JSON.parse(readFileSync(new URL('./.openai/hosted-preview.json',import.meta.url),'utf8')),
@@ -68,6 +77,7 @@ const localBindingConfig = {
     : [],
   ...memoProductionConfig,
   ...hostedPreviewConfig,
+  ...productionContentConfig,
 };
 
 export default defineConfig(async () => {

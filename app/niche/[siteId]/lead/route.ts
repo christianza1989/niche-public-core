@@ -6,6 +6,7 @@ import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
 import { inquiryDetails, inquiryMessage, leadPagesReady } from '@/lib/niche-lead-fields.mjs';
 import { nicheMailTransport } from '@/lib/niche-lead-mail-api.mjs';
+import { configuredInquiryRequest } from '@/lib/inquiry-request-guard.mjs';
 
 export const dynamic = "force-dynamic";
 
@@ -52,6 +53,8 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   const host = (await headers()).get("host");
   const pkg = publicSiteByHost(host);
   if (!pkg || pkg.siteId !== siteId || !publicSitePage(pkg, "")) return response("Ši svetainė nepasiekiama.", 404, null, json);
+  const guarded=await configuredInquiryRequest(request,env,siteId);
+  if(guarded)return guarded;
   // Consume only the bounded form before replying. The local Workers proxy can
   // poison the next request when an origin rejection leaves its body unread.
   // No storage or notification occurs until origin and field checks both pass.
