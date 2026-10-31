@@ -35,7 +35,7 @@ function MailIcon(){return <svg viewBox="0 0 24 20" width="15" height="15" fill=
 function PublishedImage({media,altName,assetId,className,eager=false,sizes='(max-width: 700px) 45vw, 220px'}:{media:NicheMedia[];altName?:string;assetId?:string;className?:string;eager?:boolean;sizes?:string}){
  const asset=assetId?media.find(m=>m.id===assetId):uniqueImageFamilies(media).find((m:NicheMedia)=>m.alt===altName);if(!asset)return null;
  const srcSet=sizes==='300px'?kvapunaikinimasImageSrcSet(asset,process.env.HOSTINGER_NODE_RUNTIME==='1'):undefined;
- const fallbackSet=process.env.HOSTINGER_NODE_RUNTIME==='1'?responsiveImageVariants(media,asset).map(a=>`${kvapunaikinimasDeliverySrc(a.src,true)} ${a.width}w`).join(', '):imageSrcSet(media,asset);
+ const fallbackSet=process.env.HOSTINGER_NODE_RUNTIME==='1'?responsiveImageVariants(media,asset).map((a:NicheMedia)=>`${kvapunaikinimasDeliverySrc(a.src,true)} ${a.width}w`).join(', '):imageSrcSet(media,asset);
  const image=<img className={className} src={asset.src} srcSet={fallbackSet} sizes={sizes} width={asset.width} height={asset.height} alt={asset.alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
  return srcSet?<picture style={{display:'contents'}}><source type="image/avif" srcSet={srcSet} sizes={sizes}/>{image}</picture>:image;
 }
