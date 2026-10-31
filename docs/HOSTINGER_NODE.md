@@ -72,3 +72,12 @@ redirects, robots/sitemap/LLM output, native images/fonts, old WP endpoint remov
 and source/runtime logs. A new real email test needs explicit send authorization;
 SMTP auth or acceptance alone is not an inbox receipt. Do not use the earlier
 multi-form mail-disabled verifier on a mail-enabled production site.
+
+When Hostinger initially installs production dependencies only, the opt-in build
+installs the locked build dependencies before compilation and prunes them again
+before publishing. Both installation and pruning refuse shared symlinked modules.
+The Node entry redirects the accepted www host to its canonical HTTPS host.
+After a WordPress conversion, check every URL for old LiteSpeed/Nitro responses:
+an accepted CDN purge does not prove the origin page cache is gone. Disable that
+site's legacy server cache if it keeps serving WordPress, retain the CDN/browser
+asset caches, and verify native robots and sitemap responses without cache-busting.

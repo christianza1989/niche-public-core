@@ -30,6 +30,7 @@ if(!/^[a-z0-9][a-z0-9.-]*[a-z0-9]$/.test(canonicalHost)||stageHost&&!/^[a-z0-9-]
 const server=http.createServer((request,response)=>{
  const boundHost=hostingerPublicHost(request.headers.host,request.headers['x-forwarded-host'],canonicalHost,stageHost);
  if(!boundHost){response.writeHead(404,{'X-Robots-Tag':'noindex','Cache-Control':'no-store'});response.end('Not found');return;}
+ if(boundHost==='www.'+canonicalHost){response.writeHead(308,{'Location':'https://'+canonicalHost+request.url,'Cache-Control':'no-store'});response.end();return;}
  request.headers.host=boundHost;
  if(stageHost&&boundHost===stageHost){
   response.setHeader('X-Robots-Tag','noindex, nofollow');
