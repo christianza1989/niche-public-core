@@ -2318,7 +2318,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "9": {
@@ -2348,7 +2348,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "11": {
@@ -2378,7 +2378,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "13": {
@@ -2408,7 +2408,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "15": {
@@ -2438,7 +2438,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "17": {
@@ -2468,7 +2468,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "19": {
@@ -2498,7 +2498,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "21": {
@@ -2528,7 +2528,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "23": {
@@ -2558,7 +2558,7 @@
           },
           "marker": {
             "type": "disc",
-            "indent": 25
+            "indent": 20
           }
         },
         "25": {
@@ -6366,7 +6366,7 @@
             "align": "start",
             "letter": 0,
             "color": "rgb(51,51,51)",
-            "marginTop": 0,
+            "marginTop": 47,
             "marginBottom": 20
           }
         },
@@ -6379,7 +6379,7 @@
             "align": "start",
             "letter": 0,
             "color": "rgb(89,89,89)",
-            "marginTop": 0,
+            "marginTop": 47,
             "marginBottom": 20
           }
         },

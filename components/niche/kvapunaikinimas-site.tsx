@@ -147,6 +147,10 @@ export function KvapunaikinimasSite({pkg,page,livePages}:Props){
  const home=livePages.find(p=>p.type==='home'),media=page.type==='home'?page.media:[...page.media,...(home?.media||[])];
  const candidate=layout.pages[page.slug];
  const lp=candidate?.digest===pageDigest(page.body,media)?candidate:undefined;
+ if(lp&&Object.values(lp.formats).some(f=>[...(f.marks||[]),...(f.itemMarks||[]).flat()].some(m=>m.kind==='em'||m.style?.slant==='italic'))){
+  preload('/fonts/kvapunaikinimas/open-sans-italic-latin.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+  preload('/fonts/kvapunaikinimas/open-sans-italic-latin-ext.woff2',{as:'font',type:'font/woff2',crossOrigin:'anonymous'});
+ }
  const ctx={page,media,lp};
  return <div className={styles.shell} id="kv-top"><a className={styles.skip} href="#kv-main">Praleisti navigaciją</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:nicheJsonLd(pkg,page,livePages)}}/><Header page={page} livePages={livePages} media={media}/><main id="kv-main">{page.type==='home'?<Home ctx={ctx} livePages={livePages}/>:<InnerPage ctx={ctx} pkg={pkg} livePages={livePages}/>} {page.slug!=='musu-slapuku-politika'&&<Contacts pkg={pkg} home={page.type==='home'}/>}</main><Footer pkg={pkg} livePages={livePages} media={media}/><KvBackToTop className={styles.backToTop}/></div>;
 }
