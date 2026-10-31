@@ -23,6 +23,17 @@ if (memoProduction && (process.env.NICHE_DEV_SITE_ID || process.env.MEMO_COMMERC
 const memoProductionConfig = memoProduction
   ? JSON.parse(readFileSync(new URL("./config/memocasting-worker.json", import.meta.url), "utf8"))
   : {};
+const o3techProduction = process.env.O3TECH_DEPLOYMENT === "production";
+if (o3techProduction && (memoProduction || process.env.NICHE_DEV_SITE_ID || process.env.MEMO_COMMERCE_ORIGIN)) {
+  throw new Error("o3tech production must not use another site's deployment or local preview overrides");
+}
+const o3techProductionConfig = o3techProduction
+  ? JSON.parse(readFileSync(new URL("./config/o3tech-worker.json", import.meta.url), "utf8"))
+  : {};
+if(o3techProduction){
+  const compiled=JSON.parse(readFileSync(new URL('./lib/generated/content-packages.json',import.meta.url),'utf8'));
+  if(compiled.length!==1||compiled[0].siteId!=='o3tech')throw new Error('Compile the approved o3tech package with NICHE_BUILD_SITE_ID=o3tech before this production build');
+}
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
@@ -33,7 +44,7 @@ const localBindingConfig = {
   compatibility_flags: ["nodejs_compat"],
   // Niche media and favicons require proxy.ts before static asset serving;
   // otherwise Workers bypass publication checks or show a shared brand icon.
-  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/favicon.svg", "/favicon.ico"] },
+  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/brand/o3tech/*", "/favicon.svg", "/favicon.ico"] },
   ...(process.env.NICHE_DEV_SITE_ID ? { vars: { NICHE_DEV_SITE_ID: process.env.NICHE_DEV_SITE_ID } } : {}),
   ...(process.env.LEAD_EMAIL_ENABLED === "1" ? {
     send_email: [{
@@ -60,6 +71,7 @@ const localBindingConfig = {
       ]
     : [],
   ...memoProductionConfig,
+  ...o3techProductionConfig,
 };
 
 export default defineConfig(async () => {

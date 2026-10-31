@@ -1,7 +1,7 @@
 import rawPackages from "@/lib/generated/content-packages.json";
 import { env } from "cloudflare:workers";
 import { dueRevision, projectPublicPages } from "./niche-links.mjs";
-import networkSettings from "@/config/niche-network.json";
+import networkSettings from "@/lib/generated/niche-network.json";
 import { cache } from "react";
 
 export type NicheBlock =

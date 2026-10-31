@@ -18,6 +18,8 @@ import {memoReviewMetadata} from '../lib/memocasting-reviews.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
 import {catalogueCanonical} from '../lib/product-catalogue-query.mjs';
 import {uniqueImageFamilies} from '../lib/niche-media.mjs';
+import {o3techBrandAssets} from '../lib/o3tech-brand.mjs';
+import {o3techFilteredCatalogue} from '../lib/o3tech-catalogue.mjs';
 
 const now=Date.parse('2026-10-25T07:00:00Z'),nativeRequire=createRequire(import.meta.url);
 const page=(slug,type='faq')=>({siteId:'memocasting',id:slug||'home',slug,type,title:'Puslapio pavadinimas',description:'Patvirtintas aprašymas.',body:[],media:[],links:[],publishAt:'2026-10-01T00:00:00Z',revisionHash:'current',approval:{status:'approved',revisionHash:'current',approvedAt:'2026-10-01T00:00:00Z'}});
@@ -96,6 +98,8 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
   '@/lib/memocasting-product-server':{memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;shopReads++;return memoApplyProductContent(p,products.find(product=>product.sku===memoProductSku(p)),shopContext);},memoPublishedProductPages:async pages=>{shopReads++;return published(pages,products,shopContext);}},
   '@/lib/memocasting-seo-metadata.mjs':{memoBrandName:'Memory Casting',memoSeoMetadata},
   '@/lib/memocasting-reviews.mjs':{memoReviewMetadata},
+  '@/lib/o3tech-brand.mjs':{o3techBrandAssets},
+  '@/lib/o3tech-catalogue.mjs':{o3techFilteredCatalogue},
   'next/headers':{headers:async()=>requestHeaders},
   '@/lib/site-config':{resolveSite:()=>{throw Error('Unexpected legacy fallback');}},
   '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,nicheOrigin:p=>'https://'+p.canonicalHost,publicNichePage:(_p,slug)=>eligible.find(p=>p.slug===slug),publicNichePages:()=>eligible},

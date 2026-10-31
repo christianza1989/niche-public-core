@@ -1,0 +1,1140 @@
+{
+  "version": 1,
+  "source": "https://o3tech.lt/",
+  "pages": {
+    "fd74ec5c-96b9-41c2-8ce0-26c475372178": {
+      "path": "/",
+      "kind": "home",
+      "sourceWpId": 12,
+      "sections": [
+        {
+          "start": 0,
+          "end": 5
+        },
+        {
+          "start": 5,
+          "end": 6
+        },
+        {
+          "start": 6,
+          "end": 10
+        },
+        {
+          "start": 10,
+          "end": 11
+        },
+        {
+          "start": 11,
+          "end": 14
+        },
+        {
+          "start": 14,
+          "end": 15
+        },
+        {
+          "start": 15,
+          "end": 25
+        },
+        {
+          "start": 25,
+          "end": 28
+        },
+        {
+          "start": 28,
+          "end": 30
+        }
+      ],
+      "sourceUrl": "https://o3tech.lt/",
+      "format": {
+        "3": {
+          "signature": "810998460b7bf00675d1061856b69ef50400260caf7e49324508776920fe975d",
+          "ranges": [
+            {
+              "start": 38,
+              "end": 73,
+              "kind": "link",
+              "href": "https://o3tech.lt/ozonas-geriausia-kvapu-naikinimo-priemone/"
+            },
+            {
+              "start": 38,
+              "end": 73,
+              "kind": "strong"
+            }
+          ]
+        },
+        "27": {
+          "signature": "ad02e47ed3a0b41e323aafed0e10e92766a0c77f1fa9ac1b3d5a14430e8f0dec",
+          "ordered": false,
+          "start": 1,
+          "items": [
+            {
+              "signature": "745e4cf66eb4ff4c9f811155089c7b590b8063049c6899240255a18f6c7380e3",
+              "ranges": [
+                {
+                  "start": 0,
+                  "end": 32,
+                  "kind": "link",
+                  "href": "https://www.google.com/maps/place/Buivydi%C5%A1ki%C5%B3+g.+22,+Vilnius+07195/@54.7136562,25.2345262,17z/data=!3m1!4b1!4m5!3m4!1s0x46dd91610af696e9:0x4a26cfd25f805e50!8m2!3d54.7136531!4d25.2367149"
+                }
+              ]
+            },
+            {
+              "signature": "50b679b00f2e06387fa1d1aed7fe05409ba6be0e3616f3bda4818e1f98a526d4",
+              "ranges": [],
+              "nbsp": [
+                4
+              ]
+            },
+            {
+              "signature": "a75fcfeb6157bc1bef8711ff28b32c604a595cf38cbbf3c2a90c5f4dfa3c3184",
+              "ranges": []
+            }
+          ]
+        }
+      },
+      "imageLinks": {}
+    },
+    "6bbdd12f-cbb7-4d0b-b0cd-6d8ed95ca8b4": {
+      "path": "/musu-slapuku-politika/",
+      "kind": "information",
+      "sourceWpId": 515,
+      "sections": [],
+      "sourceUrl": "https://o3tech.lt/musu-slapuku-politika/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "7c955eb1-368b-455d-b99f-e87e0d4fdb00": {
+      "path": "/prekes/",
+      "kind": "catalogue",
+      "sourceWpId": 479,
+      "sections": [],
+      "productPaths": [
+        "/produktas/buitinis-ozonatorius-7-g-h/",
+        "/produktas/buitinis-ozonatorius-10-g-h/",
+        "/produktas/profesionalus-ozonatorius-16-g-h/",
+        "/produktas/profesionalus-ozonatorius-24-g-h/",
+        "/produktas/pramoninis-ozonatorius-90g-h/",
+        "/produktas/pramoninis-ozonatorius-120g-h/",
+        "/produktas/pramoninis-ozonatorius-225g-h/",
+        "/produktas/pramoninis-ozonatorius-300g-h/",
+        "/produktas/puskauke-3m-7500/",
+        "/produktas/puskauke-3m-6000/",
+        "/produktas/filtrai-3m-a1-anglinis-filtras-6051/"
+      ],
+      "sourceUrl": "https://o3tech.lt/prekes/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "1038afad-fbe4-4c0f-94b2-d559a828619c": {
+      "path": "/garantija-ir-grazinimas/",
+      "kind": "information",
+      "sourceWpId": 432,
+      "sections": [],
+      "sourceUrl": "https://o3tech.lt/garantija-ir-grazinimas/",
+      "format": {
+        "1": {
+          "signature": "210f5c5021b5d1019b1f97a0e895a2a1b38112ed82a265989df1ffd93d30c043",
+          "ranges": [
+            {
+              "start": 24,
+              "end": 43,
+              "kind": "link",
+              "href": "https://o3tech.lt/taisykles/"
+            },
+            {
+              "start": 24,
+              "end": 33,
+              "kind": "strong"
+            },
+            {
+              "start": 44,
+              "end": 70,
+              "kind": "strong"
+            }
+          ]
+        },
+        "11": {
+          "signature": "ffc1891d40d11f781fa142d6ec392ce3f6c78a2f45bf1b824c91995ef913a82d",
+          "ranges": [],
+          "nbsp": [
+            81
+          ],
+          "spaceAfter": 48.8
+        },
+        "12": {
+          "signature": "fee2e3b76c779315cf8c09b7414132d189b98f5a780e5ae655170369ae641ee0",
+          "ranges": [
+            {
+              "start": 24,
+              "end": 43,
+              "kind": "link",
+              "href": "https://o3tech.lt/taisykles/"
+            },
+            {
+              "start": 24,
+              "end": 33,
+              "kind": "strong"
+            },
+            {
+              "start": 44,
+              "end": 63,
+              "kind": "strong"
+            }
+          ]
+        },
+        "14": {
+          "signature": "481e72715687aa60a3cac33fcbb0f1d0a7b8f6383b827679e5e8ff35f06c54d9",
+          "ordered": true,
+          "start": 1,
+          "items": [
+            {
+              "signature": "8c2b0ff5daa4d9a6116586ebf6ca0ec25f69c9056afbe2d514bdcee3301a1a45",
+              "ranges": []
+            },
+            {
+              "signature": "49cff502bfa3251a5e3744b9b308def4801fc6de0e9c960c4277be69a39e293d",
+              "ranges": []
+            }
+          ]
+        },
+        "16": {
+          "signature": "488b1aadaf12e84a4bab8ae3d61d2b6a44cbf009e366e5615f72604f6b84c10b",
+          "ordered": true,
+          "start": 1,
+          "items": [
+            {
+              "signature": "45b315a8c0aadf2f4f4abc793e4d76a0ae1a3fe7c714a76d73fc387eebcb139a",
+              "ranges": []
+            },
+            {
+              "signature": "43192f7ee846c56e99dd2d62ea79e15e40d5cb321250c6fb4d38506ef7e76100",
+              "ranges": []
+            },
+            {
+              "signature": "5374a7c009e9a2869a105b9ad666c2afdc66b9839546d0e99893198bee739fa3",
+              "ranges": []
+            },
+            {
+              "signature": "9491ee28d2ad83f4f8b1949ae58442f8f3b341151e0ec42c00ec387150de65dd",
+              "ranges": []
+            },
+            {
+              "signature": "509a1600c6df1d15198fe85cf61cd41fcbc3b413f83a7c6363408e930c592980",
+              "ranges": []
+            },
+            {
+              "signature": "5d2a8f19613f7288ecb6ee0492147d307c9a024136597a7d9abadb3799cdab2b",
+              "ranges": []
+            }
+          ]
+        },
+        "19": {
+          "signature": "1f8ce8b105714a447db66490049b4eb3b04fb27075c951fec8e255af35fb3ba0",
+          "ranges": [],
+          "breaks": [
+            20
+          ],
+          "nbsp": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21,
+            21
+          ]
+        }
+      },
+      "imageLinks": {
+        "0": {
+          "width": 724
+        }
+      }
+    },
+    "cd82a3a9-2acf-4729-84a7-022e9709d7a3": {
+      "path": "/taisykles/",
+      "kind": "information",
+      "sourceWpId": 415,
+      "sections": [],
+      "sourceUrl": "https://o3tech.lt/taisykles/",
+      "format": {
+        "0": {
+          "signature": "51e48d7a85a8f8f3492be9e00748abea4c2b61a73b1e8a2b57b7aa4480489ae1",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 10,
+              "kind": "strong"
+            }
+          ]
+        },
+        "1": {
+          "signature": "980ffc5c9ba2c4146ccf4ef88d6f0d77c58af8ed15240f9fb50fe4eb09f968d6",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 15,
+              "kind": "strong"
+            }
+          ],
+          "nbsp": [
+            4,
+            15
+          ]
+        },
+        "2": {
+          "signature": "654a36e4dfbd516869dc89ad8ff27823a092d6fafb7bc3288034080483fd1fc4",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 13,
+              "kind": "strong"
+            }
+          ]
+        },
+        "3": {
+          "signature": "1b310acb7f64f456da369b8375a57a915474d706f5e869d10aa880030b80192f",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 10,
+              "kind": "strong"
+            }
+          ]
+        },
+        "4": {
+          "signature": "f0a75e63c02cb92f411ff8478f4d29e8c4edbb4b5052d4d66249be76a926264d",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 20,
+              "kind": "strong"
+            }
+          ]
+        },
+        "5": {
+          "signature": "580d3a07e2e388b91309e1e919a22ff1e1573883b3da93ce8a207b7c05f8ecc6",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 14,
+              "kind": "strong"
+            }
+          ],
+          "spaceAfter": 48.8
+        },
+        "6": {
+          "signature": "9a04ecdbac6c5ef5ae78d7f2cf34002101220f590143a283204bf6e6ae636c36",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 23,
+              "kind": "strong"
+            }
+          ]
+        },
+        "9": {
+          "signature": "9c39d6fb4ecb172b41b0924743173e808a3396f213c32281576fe2e20da48da2",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "10": {
+          "signature": "6617682cc1c2ba513637ef0419e4503ae55010d24f9d891ff028456440b2a786",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 19,
+              "kind": "strong"
+            }
+          ]
+        },
+        "12": {
+          "signature": "7b947c18d0717c51172d2c5ea1747e6cb1639c8db9172b4e8da3f46ed32c1854",
+          "ranges": [],
+          "breaks": [
+            17
+          ]
+        },
+        "14": {
+          "signature": "22559314e5e581f4e6bd25000958c4ca5fd996620cc250fda228b52b9c70b7a0",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "15": {
+          "signature": "79117b02189a8c667549587e521fdde5012689e416e3bade35d21a3e20392e22",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 17,
+              "kind": "strong"
+            }
+          ]
+        },
+        "20": {
+          "signature": "ab29d2896aa43e5e0b3aeff2e743fb3458fdc0ff60a8f9d17f7a2b23e88756b4",
+          "ranges": [
+            {
+              "start": 199,
+              "end": 223,
+              "kind": "link",
+              "href": "http://ec.europa.eu/odr/"
+            }
+          ],
+          "nbsp": [
+            78,
+            198
+          ],
+          "spaceAfter": 48.8
+        },
+        "21": {
+          "signature": "2bc841fc09a0fa0fd20f11a6e7b3343531ccb64fc8d6bf9593ba5b08302b5134",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 26,
+              "kind": "strong"
+            }
+          ]
+        },
+        "23": {
+          "signature": "f0416972bc6bd2758b493baf1e3bab47648bee4c82b8de559fdaa24e5cce325d",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "24": {
+          "signature": "ce6cb285ff481211e52331873ef0710fe3bdb5a2622a43b0ba8534634eecd7fd",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 18,
+              "kind": "strong"
+            }
+          ]
+        },
+        "31": {
+          "signature": "8e876493f161671bfb9741e45c25ca138b618686645ccd94ded1a742cebd9d21",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "32": {
+          "signature": "2ea658c1e2bf495bb3a408a3a2e14291615fc5b9413da7e5eb5509e46e2f72c6",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 28,
+              "kind": "strong"
+            }
+          ]
+        },
+        "40": {
+          "signature": "b6d14ce538e9d9d6c22d114e0b52cda696a352c4eb4f014d5e7ef656ac2d9bbc",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "41": {
+          "signature": "bfb30ac84b9bf7bfae801c1fa7a9b5573bf1e85128d72e167dc6d35c3a50b867",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 47,
+              "kind": "strong"
+            }
+          ]
+        },
+        "43": {
+          "signature": "aece80891c005a66d0322d96ea2d1909d7c0800037ec8eac334b3d732a3b365d",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "44": {
+          "signature": "3cb283c79d1edd96a134753a21f75d69d64ea4bfcbf02fceaf19c64d3bf34644",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 21,
+              "kind": "strong"
+            }
+          ]
+        },
+        "49": {
+          "signature": "1a4c50e9ce75a74f6e6529298a9fe3dd4d5f9254605a70016b58da03d6a82d9d",
+          "ranges": []
+        },
+        "54": {
+          "signature": "616ad7799592c1ae2351db087d184f1158c834cbde974ea731ac28b981fe9266",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 560,
+              "kind": "strong"
+            }
+          ],
+          "spaceAfter": 48.8
+        },
+        "55": {
+          "signature": "8453eeb348a1cf38659ed913900e72657530805c4db4faf2aff535f79b68b59f",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 21,
+              "kind": "strong"
+            }
+          ]
+        },
+        "63": {
+          "signature": "cef53c6bf198d03895dcb7f98688eb68de270ffcf54e6b8e95a8c2ee8abe90a4",
+          "ranges": [],
+          "nbsp": [
+            7
+          ]
+        },
+        "70": {
+          "signature": "e6e065079273c9da2a0800115460425a0bb97955a62bf568875ed1abef283567",
+          "ranges": [],
+          "spaceAfter": 48.8
+        },
+        "71": {
+          "signature": "6bfbdee0a66807c3bf2c0272df50df580bce5ccdf5b0cfa5fda5076ee3959d5b",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 27,
+              "kind": "strong"
+            }
+          ]
+        },
+        "81": {
+          "signature": "ffc1891d40d11f781fa142d6ec392ce3f6c78a2f45bf1b824c91995ef913a82d",
+          "ranges": [],
+          "nbsp": [
+            81
+          ],
+          "spaceAfter": 48.8
+        },
+        "82": {
+          "signature": "147b78a6c5fe1a45cfd6f17169026df9763c8693ac4428d81be1cee068c8da08",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 25,
+              "kind": "strong"
+            }
+          ]
+        }
+      },
+      "imageLinks": {}
+    },
+    "78666d39-97c2-4233-9c5e-f9bbadd30de8": {
+      "path": "/ozono-generatoriaus-ozonatoriaus-nuoma/",
+      "kind": "rental",
+      "sourceWpId": 302,
+      "sections": [
+        {
+          "start": 0,
+          "end": 1
+        },
+        {
+          "start": 1,
+          "end": 7
+        },
+        {
+          "start": 7,
+          "end": 8
+        },
+        {
+          "start": 8,
+          "end": 26
+        }
+      ],
+      "sourceUrl": "https://o3tech.lt/ozono-generatoriaus-ozonatoriaus-nuoma/",
+      "format": {
+        "0": {
+          "signature": "6d7651ec5baa933cd0f75feaf21826ca4e16b225ddc3c408f221c8a96b000886",
+          "ranges": [],
+          "nbsp": [
+            94
+          ]
+        }
+      },
+      "imageLinks": {}
+    },
+    "3d959a2e-f96a-42c5-81d1-57476dbb277d": {
+      "path": "/ozonas-geriausia-kvapu-naikinimo-priemone/",
+      "kind": "information",
+      "sourceWpId": 189,
+      "sections": [
+        {
+          "start": 0,
+          "end": 3
+        },
+        {
+          "start": 3,
+          "end": 4
+        },
+        {
+          "start": 4,
+          "end": 6
+        },
+        {
+          "start": 6,
+          "end": 9
+        },
+        {
+          "start": 9,
+          "end": 11
+        },
+        {
+          "start": 11,
+          "end": 14
+        },
+        {
+          "start": 14,
+          "end": 16
+        },
+        {
+          "start": 16,
+          "end": 24
+        }
+      ],
+      "sourceUrl": "https://o3tech.lt/ozonas-geriausia-kvapu-naikinimo-priemone/",
+      "format": {
+        "0": {
+          "signature": "15ff177b512844d0afdb09ac438e9bcd624342aa5664835d711adf1fc8476122",
+          "ranges": [],
+          "nbsp": [
+            41,
+            87,
+            131,
+            168,
+            211,
+            253,
+            293,
+            330,
+            362,
+            401,
+            435
+          ]
+        },
+        "8": {
+          "signature": "81553c681896ed95233f9465090f69a0cb9ab1f7e5af2dd018e4a2d3f7bcec24",
+          "ordered": false,
+          "start": 1,
+          "items": [
+            {
+              "signature": "95f1b0b2ed6167ba216b2660552f05ac78f11a66f58fd6b9681aa2e608239efd",
+              "ranges": []
+            },
+            {
+              "signature": "73a545df04a7239cf175e2b48d2731bbf8ff3bf631a97976d8ce98f7eea9f91f",
+              "ranges": []
+            },
+            {
+              "signature": "0d7a3a2497d311c25298f3236c81ee43d3f575ea1ed4b017b16543c7e3001110",
+              "ranges": []
+            },
+            {
+              "signature": "b0ef352e4a75724d128260dd6ec5a732369b56f84f055552d105334386fad1fc",
+              "ranges": []
+            },
+            {
+              "signature": "121ab98aa2efd30ad5a44e736b2a70b61011c479c697373cdd71d1bf34dac20e",
+              "ranges": []
+            },
+            {
+              "signature": "d8f2dec61a86cd277904e48841dbe9f58932021bd71ad1c89383ebfa98faa55f",
+              "ranges": []
+            },
+            {
+              "signature": "c311e18aaf700bff8a2d8308b7a343007dcc58bfae7722c412cc4b62dd0e8b56",
+              "ranges": []
+            }
+          ]
+        },
+        "13": {
+          "signature": "93c017ef9ecb6eff65fc41ef5d4eda96e7cdf2163eb5b484bd7b8c802f3bf1ad",
+          "ordered": false,
+          "start": 1,
+          "items": [
+            {
+              "signature": "79f9b1e7ac5fd504682b6cb720e8d74f2e44ec27cac30a312dc36ac37edfecb3",
+              "ranges": []
+            },
+            {
+              "signature": "a6467df0bee1840342cbb2d72dc956c018829bdf09de28d43a5ed3a05b8779e5",
+              "ranges": []
+            },
+            {
+              "signature": "c8827b56a2ddb3b46f4f919fbb91c29e619f923f795504203ee3f10a33a814cb",
+              "ranges": []
+            },
+            {
+              "signature": "baa4d355c8b42aa16430d9fe7f0e0d82f95aba67d72220b7c30366c34e3b6f6c",
+              "ranges": []
+            },
+            {
+              "signature": "a0c906563ed35185c74b82e048373c6d5a4dc1cd9dad0e2aafa228e3d51fbc29",
+              "ranges": []
+            },
+            {
+              "signature": "f6e7190fd84e39d381cd25b9186fcccc492af37cef054706365d6d6c3b636b21",
+              "ranges": []
+            },
+            {
+              "signature": "306651f29d6f69d295115c3e4cd8400c0cf2b38221d164057e903b40648c2cd2",
+              "ranges": []
+            },
+            {
+              "signature": "a858523e65c297dd65491fb20005db36647905d91cdb405360b44726ce6976f3",
+              "ranges": []
+            }
+          ]
+        }
+      },
+      "imageLinks": {}
+    },
+    "c9bf2d95-1114-41dc-bec5-5c8213a0abe3": {
+      "path": "/produktas/pramoninis-ozonatorius-120g-h/",
+      "kind": "product",
+      "sourceWpId": 873,
+      "sections": [],
+      "priceBlock": 17,
+      "sourceUrl": "https://o3tech.lt/produktas/pramoninis-ozonatorius-120g-h/",
+      "format": {
+        "0": {
+          "signature": "a56fa8b6824181be6c01817a9721e999ab10ab20e9d447b4251b054a4020eb8f",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 26,
+              "kind": "strong"
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/pramoninis-ozonatorius-225g-h/",
+        "/produktas/pramoninis-ozonatorius-300g-h/",
+        "/produktas/pramoninis-ozonatorius-90g-h/"
+      ]
+    },
+    "cd073952-1164-4866-aeca-f69a7a53cccb": {
+      "path": "/produktas/pramoninis-ozonatorius-225g-h/",
+      "kind": "product",
+      "sourceWpId": 862,
+      "sections": [],
+      "priceBlock": 15,
+      "sourceUrl": "https://o3tech.lt/produktas/pramoninis-ozonatorius-225g-h/",
+      "format": {
+        "2": {
+          "signature": "9d37823971500a81a800d2d57c671e75b4652b7fb14b62793fe1982c956249ce",
+          "ordered": true,
+          "start": 1,
+          "items": [
+            {
+              "signature": "ed62551ec525fdb18823073cee9547945ede3d5ca7183c849158f13b0af50758",
+              "ranges": []
+            },
+            {
+              "signature": "975b35283c338baf643bee98c8ae125a7ab72b399a0a49b926b7ee6b12d0a80b",
+              "ranges": []
+            },
+            {
+              "signature": "24c93314970ed9c180a3c271ac4d6385c9f587f904eaeb8b70d87e0ba3c72d9f",
+              "ranges": []
+            },
+            {
+              "signature": "8446e084488642efed97fa8445549a803b0df201479dca0c477b1ad99a9b08e4",
+              "ranges": []
+            },
+            {
+              "signature": "335a0f4442ccfa98b6366b2e4368b36d1bae41da2ebd135241b885b0c5ac8951",
+              "ranges": []
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/pramoninis-ozonatorius-120g-h/",
+        "/produktas/pramoninis-ozonatorius-300g-h/",
+        "/produktas/pramoninis-ozonatorius-90g-h/"
+      ]
+    },
+    "f3e50004-5019-4343-9f52-1b468ec3cb58": {
+      "path": "/produktas/filtrai-3m-a1-anglinis-filtras-6051/",
+      "kind": "product",
+      "sourceWpId": 508,
+      "sections": [],
+      "priceBlock": 2,
+      "sourceUrl": "https://o3tech.lt/produktas/filtrai-3m-a1-anglinis-filtras-6051/",
+      "format": {},
+      "imageLinks": {},
+      "cardImageWidth": 512,
+      "relatedPaths": [
+        "/produktas/puskauke-3m-6000/",
+        "/produktas/puskauke-3m-7500/"
+      ]
+    },
+    "446abe3d-c833-4c95-93ea-fcf6c69058ac": {
+      "path": "/produktas/puskauke-3m-6000/",
+      "kind": "product",
+      "sourceWpId": 506,
+      "sections": [],
+      "priceBlock": 2,
+      "sourceUrl": "https://o3tech.lt/produktas/puskauke-3m-6000/",
+      "format": {
+        "1": {
+          "signature": "26779d7fee0d86ffd400f2e296257c66ac076cc9be3d34381f6172d205ffe330",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 95,
+              "kind": "strong"
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/filtrai-3m-a1-anglinis-filtras-6051/",
+        "/produktas/puskauke-3m-7500/"
+      ]
+    },
+    "4e1c0eba-6827-499b-adb3-89952ff8c673": {
+      "path": "/produktas/puskauke-3m-7500/",
+      "kind": "product",
+      "sourceWpId": 504,
+      "sections": [],
+      "priceBlock": 3,
+      "sourceUrl": "https://o3tech.lt/produktas/puskauke-3m-7500/",
+      "format": {
+        "1": {
+          "signature": "26779d7fee0d86ffd400f2e296257c66ac076cc9be3d34381f6172d205ffe330",
+          "ranges": [
+            {
+              "start": 0,
+              "end": 95,
+              "kind": "strong"
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/filtrai-3m-a1-anglinis-filtras-6051/",
+        "/produktas/puskauke-3m-6000/"
+      ]
+    },
+    "7b1fa636-a429-409e-9360-78808734dd72": {
+      "path": "/produktas/pramoninis-ozonatorius-300g-h/",
+      "kind": "product",
+      "sourceWpId": 500,
+      "sections": [],
+      "priceBlock": 15,
+      "sourceUrl": "https://o3tech.lt/produktas/pramoninis-ozonatorius-300g-h/",
+      "format": {
+        "2": {
+          "signature": "9d37823971500a81a800d2d57c671e75b4652b7fb14b62793fe1982c956249ce",
+          "ordered": true,
+          "start": 1,
+          "items": [
+            {
+              "signature": "ed62551ec525fdb18823073cee9547945ede3d5ca7183c849158f13b0af50758",
+              "ranges": []
+            },
+            {
+              "signature": "975b35283c338baf643bee98c8ae125a7ab72b399a0a49b926b7ee6b12d0a80b",
+              "ranges": []
+            },
+            {
+              "signature": "24c93314970ed9c180a3c271ac4d6385c9f587f904eaeb8b70d87e0ba3c72d9f",
+              "ranges": []
+            },
+            {
+              "signature": "8446e084488642efed97fa8445549a803b0df201479dca0c477b1ad99a9b08e4",
+              "ranges": []
+            },
+            {
+              "signature": "335a0f4442ccfa98b6366b2e4368b36d1bae41da2ebd135241b885b0c5ac8951",
+              "ranges": []
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/pramoninis-ozonatorius-120g-h/",
+        "/produktas/pramoninis-ozonatorius-225g-h/",
+        "/produktas/pramoninis-ozonatorius-90g-h/"
+      ]
+    },
+    "fa2a0295-f390-4a5a-a1b8-c90cd339d75f": {
+      "path": "/produktas/pramoninis-ozonatorius-90g-h/",
+      "kind": "product",
+      "sourceWpId": 498,
+      "sections": [],
+      "priceBlock": 17,
+      "sourceUrl": "https://o3tech.lt/produktas/pramoninis-ozonatorius-90g-h/",
+      "format": {
+        "0": {
+          "signature": "16a4024ac174626d95a000088f09a70d2056f5d50450a1d3d32c9207c4f5e576",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 25,
+              "kind": "strong"
+            }
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/pramoninis-ozonatorius-120g-h/",
+        "/produktas/pramoninis-ozonatorius-225g-h/",
+        "/produktas/pramoninis-ozonatorius-300g-h/"
+      ]
+    },
+    "62a7a8e0-f76e-43f1-a62c-683adb6aeaad": {
+      "path": "/produktas/profesionalus-ozonatorius-16-g-h/",
+      "kind": "product",
+      "sourceWpId": 496,
+      "sections": [],
+      "priceBlock": 18,
+      "sourceUrl": "https://o3tech.lt/produktas/profesionalus-ozonatorius-16-g-h/",
+      "format": {
+        "0": {
+          "signature": "cf26f4a3a143d142af91b8e89102197d80928b22d65f9d201d2b950a5b5f0116",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 25,
+              "kind": "strong"
+            }
+          ],
+          "nbsp": [
+            25
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/profesionalus-ozonatorius-24-g-h/"
+      ]
+    },
+    "4f0a453b-4618-4908-b410-23423c009291": {
+      "path": "/produktas/profesionalus-ozonatorius-24-g-h/",
+      "kind": "product",
+      "sourceWpId": 490,
+      "sections": [],
+      "priceBlock": 18,
+      "sourceUrl": "https://o3tech.lt/produktas/profesionalus-ozonatorius-24-g-h/",
+      "format": {
+        "0": {
+          "signature": "1dc491ca8d04a0f38bbca33abd874e1a8dde7661141e85719c5e2a895537ad69",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 25,
+              "kind": "strong"
+            }
+          ],
+          "nbsp": [
+            25
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/profesionalus-ozonatorius-16-g-h/"
+      ]
+    },
+    "0aa808ea-8614-4d29-9e28-f48d71d8d71f": {
+      "path": "/produktas/buitinis-ozonatorius-7-g-h/",
+      "kind": "product",
+      "sourceWpId": 488,
+      "sections": [],
+      "priceBlock": 15,
+      "sourceUrl": "https://o3tech.lt/produktas/buitinis-ozonatorius-7-g-h/",
+      "format": {
+        "0": {
+          "signature": "c096cf52f5c5034049a5abe807460a519dfc5aff3bc28723279efc8bd051f972",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 24,
+              "kind": "strong"
+            }
+          ],
+          "nbsp": [
+            24
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/buitinis-ozonatorius-10-g-h/"
+      ]
+    },
+    "2d5ddb8b-434f-43b8-955f-b6ba85666058": {
+      "path": "/produktas/buitinis-ozonatorius-10-g-h/",
+      "kind": "product",
+      "sourceWpId": 486,
+      "sections": [],
+      "priceBlock": 15,
+      "sourceUrl": "https://o3tech.lt/produktas/buitinis-ozonatorius-10-g-h/",
+      "format": {
+        "0": {
+          "signature": "fb9aae76d0db66857296ef8c7f97a223f5df4c9edca64f7d646b0f3c079f8244",
+          "ranges": [
+            {
+              "start": 19,
+              "end": 25,
+              "kind": "strong"
+            }
+          ],
+          "nbsp": [
+            25
+          ]
+        }
+      },
+      "imageLinks": {},
+      "cardImageWidth": 300,
+      "relatedPaths": [
+        "/produktas/buitinis-ozonatorius-7-g-h/"
+      ]
+    },
+    "397bd0ed-5ff0-45ef-b546-efe5e325eaa3": {
+      "path": "/produkto-kategorija/buitiniai-ozonatoriai/",
+      "kind": "catalogue",
+      "sections": [],
+      "productPaths": [
+        "/produktas/buitinis-ozonatorius-7-g-h/",
+        "/produktas/buitinis-ozonatorius-10-g-h/"
+      ],
+      "sourceUrl": "https://o3tech.lt/produkto-kategorija/buitiniai-ozonatoriai/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "178f3cea-1162-4918-bc41-6918a3f61d9f": {
+      "path": "/produkto-kategorija/profesionalus-ozonatoriai/",
+      "kind": "catalogue",
+      "sections": [],
+      "productPaths": [
+        "/produktas/profesionalus-ozonatorius-16-g-h/",
+        "/produktas/profesionalus-ozonatorius-24-g-h/"
+      ],
+      "sourceUrl": "https://o3tech.lt/produkto-kategorija/profesionalus-ozonatoriai/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "646b75f6-78b5-4dd6-b854-6bd9c39d41f2": {
+      "path": "/produkto-kategorija/pramoniniai-ozonatoriai/",
+      "kind": "catalogue",
+      "sections": [],
+      "productPaths": [
+        "/produktas/pramoninis-ozonatorius-90g-h/",
+        "/produktas/pramoninis-ozonatorius-120g-h/",
+        "/produktas/pramoninis-ozonatorius-225g-h/",
+        "/produktas/pramoninis-ozonatorius-300g-h/"
+      ],
+      "sourceUrl": "https://o3tech.lt/produkto-kategorija/pramoniniai-ozonatoriai/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "fcb5bbde-29b9-4a30-aa7b-c98443f5a0eb": {
+      "path": "/produkto-kategorija/automobiliniai-ozonatoriai/",
+      "kind": "catalogue",
+      "sections": [],
+      "productPaths": [
+        "/produktas/buitinis-ozonatorius-7-g-h/"
+      ],
+      "sourceUrl": "https://o3tech.lt/produkto-kategorija/automobiliniai-ozonatoriai/",
+      "format": {},
+      "imageLinks": {}
+    },
+    "3d67700b-e8c0-4cc0-a04c-12d03cec6c11": {
+      "path": "/produkto-kategorija/priedai/",
+      "kind": "catalogue",
+      "sections": [],
+      "productPaths": [
+        "/produktas/puskauke-3m-7500/",
+        "/produktas/puskauke-3m-6000/",
+        "/produktas/filtrai-3m-a1-anglinis-filtras-6051/"
+      ],
+      "sourceUrl": "https://o3tech.lt/produkto-kategorija/priedai/",
+      "format": {},
+      "imageLinks": {}
+    }
+  },
+  "navigation": [],
+  "home": {
+    "categoryCards": [
+      {
+        "path": "/produkto-kategorija/buitiniai-ozonatoriai/",
+        "imageId": "571a0659-f647-4e50-9922-72751c122383"
+      },
+      {
+        "path": "/produkto-kategorija/profesionalus-ozonatoriai/",
+        "imageId": "b9c9d21d-1118-4f10-8ecb-e6f93362879e"
+      },
+      {
+        "path": "/produkto-kategorija/pramoniniai-ozonatoriai/",
+        "imageId": "8ceef31d-8f27-42b1-b71d-1d20b3901ef7"
+      },
+      {
+        "path": "/produkto-kategorija/automobiliniai-ozonatoriai/",
+        "imageId": "ce6d87b9-a667-4ae0-a7bf-98210b430cb7"
+      }
+    ],
+    "contactLinks": [
+      {
+        "href": "https://www.google.com/maps/place/Buivydiškių+g.+22,+Vilnius+07195/@54.7136562,25.2345262,17z/data=!3m1!4b1!4m5!3m4!1s0x46dd91610af696e9:0x4a26cfd25f805e50!8m2!3d54.7136531!4d25.2367149",
+        "label": "Buivydiškių g. 22, Vilnius 07195"
+      },
+      {
+        "href": "tel:+37064819979",
+        "label": "+370 648 19979"
+      },
+      {
+        "href": "mailto:sales@o3tech.lt",
+        "label": "sales@o3tech.lt"
+      }
+    ],
+    "formOptions": [
+      "-Pasirinkite-",
+      "Telefonu",
+      "El. paštu"
+    ]
+  },
+  "assets": {
+    "logo": "3d30b6d9-550c-4638-ad48-8fbea65fd30f",
+    "background": "a5df2c0d-8ebb-4830-a8ff-4442adcab1ed",
+    "icon": "86b835c1-e1d7-4d65-947a-52358c580456"
+  },
+  "presentationVersion": 2,
+  "company": {
+    "code": "308123004",
+    "vat": "LT100020788717"
+  }
+}
