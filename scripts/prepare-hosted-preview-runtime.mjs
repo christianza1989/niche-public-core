@@ -13,6 +13,7 @@ const server=path.join(root,'dist/server'),configFile=path.join(server,'wrangler
 const configBytes=await fs.readFile(configFile),config=JSON.parse(configBytes);
 const registry=await fs.readFile(path.join(root,'lib/generated/content-admissions.json'));
 const admissions=JSON.parse(registry),admission=hostedPreviewAdmission(admissions);
+if(admission?.scope==='hosted-inquiries')throw Error('Inquiry activation requires a full native build, not a read-only entry adapter');
 if(!admission||config.main!=='index.js'||config.no_bundle!==true)throw Error('Expected admitted Vinext no-bundle build');
 const required=hostedContentPreviewConfig({siteId:admission.siteId,accountId:config.account_id,workerName:config.name,previewHost:admission.previewHost},admissions);
 for(const key of ['vars','d1_databases','r2_buckets','send_email','routes'])if(JSON.stringify(config[key]||[])!==JSON.stringify(required[key]))throw Error('Unexpected preview '+key);

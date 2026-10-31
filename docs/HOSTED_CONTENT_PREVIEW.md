@@ -38,3 +38,33 @@ visually reviewable and use the existing failure message on submission.
 This is a publicly reachable review address, not access-controlled hosting;
 never include private or unapproved content. Check remote pages, media/aliases,
 mobile/desktop interactions, read-only forms and isolation after deployment.
+
+## Owner-authorized inquiry activation on the review host
+
+`hosted-inquiries` is a separate scope with `testOnly:true`, `readOnly:false`,
+an exact `previewHost` and `inquiry:{transport:"hostinger-api",sender,recipient}`.
+The recipient must be the package contact. Retain all eight local checks and
+add real `inquiry-authorization` and `mail-authentication` evidence. This does
+not satisfy production ownership/DNS/INBOX/privacy admission or change the
+canonical site/domain. Existing hosted-preview receipts stay read-only.
+
+Build the native application with this receipt, a dedicated D1 database,
+mailbox resource and a unique rate-limit namespace in the checkout-local
+hosting config. The build enables only the existing site-bound Hostinger API
+transport. Put its mailbox-scoped key into a Worker secret using protected
+file/stdin; never put credentials into vars, generated JS or repository files.
+Generate binding types from the actual deployment config. Entry-only adaptation
+of a read-only build cannot activate inquiries; a full native build is required.
+
+Only same-origin POST `/uzklausa` can reach the shared native lead handler.
+Other writes remain blocked. Missing bindings/secrets or a mismatched sender /
+site fail before body consumption. The platform rate limit permits10 per60s
+per site/IP, before native validation/storage/mail; unavailable limiting fails
+closed. Native consent, honeypot, bounded fields, durable claim, replay/conflict
+and no automatic retry after uncertain acceptance remain unchanged. Keep
+noindex/no-store and verify the real browser form, exact D1 row, provider
+acceptance and recipient receipt separately.
+
+Hostinger Mail API v1 does not expose custom Reply-To/Message-ID. Preserve the
+validated customer email in the existing notification body and disclose the
+provider limitation; do not claim a reply header or INBOX delivery from204.

@@ -26,7 +26,7 @@ export type ProjectedContentPageV2=Omit<ContentPageV2,'body'|'externalLinks'>&{u
 export const contentPackagesV2=(compiled as unknown as ContentPackageV2[]).filter(p=>p.schemaVersion===2);
 export const contentPackageBySiteId=(id:string)=>contentPackagesV2.find(p=>p.siteId===id)||null;
 export function contentAdmissionScope(pkg:ContentPackageV2){return (admissions as Record<string,{scope:string}>)[pkg.siteId]?.scope;}
-export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview','hosted-preview'].includes(contentAdmissionScope(pkg)||'');}
+export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview','hosted-preview','hosted-inquiries'].includes(contentAdmissionScope(pkg)||'');}
 export const contentHostedPreview=()=>hostedPreviewAdmission(admissions);
 export function hasLocalPreviewContent(){return contentPackagesV2.some(pkg=>contentAdmissionScope(pkg)==='local-preview');}
 export const contentPackageByHost=(host:string|null|undefined)=>{

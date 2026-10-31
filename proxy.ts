@@ -69,7 +69,7 @@ export function proxy(request: NextRequest) {
     if (!renderer) return new Response('Unsupported content renderer', { status: 404 });
     if(renderer==='signaturepads')path=request.headers.get('x-content-original-path')||path;
     if (/^\/(gift|niche)(\/|$)/.test(path) || path.startsWith('/api/')) return new Response('Not found', { status: 404 });
-    if (!isPreview(host) && contentAdmissionScope(gift)!=='hosted-preview' && host !== gift.canonicalHost) {
+    if (!isPreview(host) && !['hosted-preview','hosted-inquiries'].includes(contentAdmissionScope(gift)||'') && host !== gift.canonicalHost) {
       if(renderer==='signaturepads'){
         const target=new URL(path+request.nextUrl.search,`https://${gift.canonicalHost}`);return NextResponse.redirect(target,308);
       }

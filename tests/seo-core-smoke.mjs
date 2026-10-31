@@ -18,7 +18,7 @@ const packages = JSON.parse(await readFile(resolve('lib/generated/content-packag
 const settings = JSON.parse(await readFile(resolve('config/niche-network.json'), 'utf8'));
 const commerce=JSON.parse(await readFile(resolve('config/commerce-targets.json'),'utf8'));
 const admissions=JSON.parse(await readFile(resolve('lib/generated/content-admissions.json'),'utf8'));
-const preview=admissions[siteId]?.scope==='hosted-preview'?hostedPreviewAdmission(admissions):null;
+const preview=['hosted-preview','hosted-inquiries'].includes(admissions[siteId]?.scope)?hostedPreviewAdmission(admissions):null;
 if(preview)assert.equal(new URL(base).origin,`https://${preview.previewHost}`,'hosted smoke requires the exact admitted origin');
 const live = pkg.schemaVersion===2?projectContentPagesV2(pkg,packages,settings,commerce):projectPublicPages(pkg, packages, settings);
 const indexable=pkg.schemaVersion===2?live:memoIndexablePages(pkg,live);
