@@ -3,6 +3,8 @@ import { defineConfig } from "vite";
 import { readFileSync } from "node:fs";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./vendor/sites-vite-plugin";
+import { hostedContentPreviewConfig } from './scripts/hosted-content-preview.mjs';
+import { contentProductionConfig } from './scripts/content-production-config.mjs';
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
@@ -23,17 +25,31 @@ if (memoProduction && (process.env.NICHE_DEV_SITE_ID || process.env.MEMO_COMMERC
 const memoProductionConfig = memoProduction
   ? JSON.parse(readFileSync(new URL("./config/memocasting-worker.json", import.meta.url), "utf8"))
   : {};
+const hostedPreview=process.env.CONTENT_HOSTED_PREVIEW==='1';
+const contentProduction=process.env.CONTENT_PRODUCTION==='1';
+if(contentProduction&&(hostedPreview||memoProduction||process.env.NICHE_DEV_SITE_ID||process.env.MEMO_COMMERCE_ORIGIN))throw Error('Content production cannot inherit preview or another deployment profile');
+const productionTarget=contentProduction?JSON.parse(readFileSync(new URL('./.openai/content-production.json',import.meta.url),'utf8')):null;
+if(contentProduction&&!/^[a-z0-9][a-z0-9-]{0,62}$/.test(productionTarget.siteId||''))throw Error('Invalid production site identity');
+const productionContentConfig=contentProduction?contentProductionConfig(productionTarget,
+ JSON.parse(readFileSync(new URL('./lib/generated/content-admissions.json',import.meta.url),'utf8')),
+ JSON.parse(readFileSync(new URL(`./content-packages/${productionTarget.siteId}/content-package.json`,import.meta.url),'utf8')),
+):{};
+if(hostedPreview&&memoProduction)throw Error('Hosted preview cannot be combined with production deployment');
+const hostedPreviewConfig=hostedPreview?hostedContentPreviewConfig(
+  JSON.parse(readFileSync(new URL('./.openai/hosted-preview.json',import.meta.url),'utf8')),
+  JSON.parse(readFileSync(new URL('./lib/generated/content-admissions.json',import.meta.url),'utf8')),
+):{};
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const managedLinux = readExecutionProfile() === "managed-linux";
 
 const localBindingConfig = {
-  main: "vinext/server/fetch-handler",
+  main: "./worker-entry.ts",
   compatibility_flags: ["nodejs_compat"],
   // Niche media and favicons require proxy.ts before static asset serving;
   // otherwise Workers bypass publication checks or show a shared brand icon.
-  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/favicon.svg", "/favicon.ico"] },
+  assets: { binding: "ASSETS", run_worker_first: ["/content-assets/*", "/images/*", "/memocasting-homepage/*", "/signaturepads/*", "/wp-content/uploads/*", "/favicon.svg", "/favicon.ico"] },
   ...(process.env.NICHE_DEV_SITE_ID ? { vars: { NICHE_DEV_SITE_ID: process.env.NICHE_DEV_SITE_ID } } : {}),
   ...(process.env.LEAD_EMAIL_ENABLED === "1" ? {
     send_email: [{
@@ -60,6 +76,8 @@ const localBindingConfig = {
       ]
     : [],
   ...memoProductionConfig,
+  ...hostedPreviewConfig,
+  ...productionContentConfig,
 };
 
 export default defineConfig(async () => {

@@ -1,0 +1,18 @@
+import test from'node:test';import assert from'node:assert/strict';import{contentProductionConfig}from'../scripts/content-production-config.mjs';import{configuredInquiryRequest}from'../lib/inquiry-request-guard.mjs';import{siteVerification}from'../lib/site-verification.mjs';
+const pkg={siteId:'qa',canonicalHost:'qa.example',site:{contact:{email:'team@qa.example'}}},target={siteId:'qa',canonicalHost:'qa.example',workerName:'qa-site',accountId:'a'.repeat(32),inquiryDatabaseId:'11111111-1111-4111-8111-111111111111',mailboxId:'ACfixture',rateLimitNamespaceId:'10001',sender:'forms@sender.example',recipient:'team@qa.example'},admissions={qa:{scope:'production',packageSha256:'b'.repeat(64)}};
+test('production domain config refuses preview admission and disables alternate public hosts and transports',()=>{
+ for(const scope of['local-preview','hosted-preview','hosted-inquiries'])assert.throws(()=>contentProductionConfig(target,{qa:{...admissions.qa,scope}},pkg),/production-admitted/);
+ for(const change of[{canonicalHost:'foreign.example'},{recipient:'other@qa.example'},{workerName:'qa-preview'},{inquiryDatabaseId:'00000000-0000-4000-8000-000000000000'},{mailboxId:''}])assert.throws(()=>contentProductionConfig({...target,...change},admissions,pkg));
+ const c=contentProductionConfig(target,admissions,pkg);assert.equal(c.workers_dev,false);assert.equal(c.preview_urls,false);assert.deepEqual(c.routes.map(r=>r.pattern),['qa.example','www.qa.example']);assert.equal(c.vars.LEAD_INQUIRY_GUARD_ENABLED,'1');assert.equal(c.d1_databases[0].database_name,'qa-inquiries');assert.equal('LEAD_HOSTINGER_API_KEY'in c.vars,false);assert.equal(c.assets.run_worker_first.includes('/_next/static/*'),false);assert.equal(c.observability.traces.enabled,true);
+});
+const bindings=()=>({...contentProductionConfig(target,admissions,pkg).vars,DB:{},INQUIRY_RATE_LIMIT:{limit:async()=>({success:true})},LEAD_HOSTINGER_API_KEY:'not-a-real-key'}),post=(url='https://qa.example/uzklausa')=>new Request(url,{method:'POST',headers:{origin:new URL(url).origin},body:'unread'});
+test('production inquiry guard cannot silently lose the preview origin, resource and rate protection',async()=>{
+ const r=post();assert.equal(await configuredInquiryRequest(r,bindings(),'qa'),null);assert.equal(r.bodyUsed,false);
+ for(const change of[{DB:null},{INQUIRY_RATE_LIMIT:null},{LEAD_HOSTINGER_API_KEY:''},{LEAD_HOSTINGER_SENDER:''},{LEAD_HOSTINGER_MAILBOX_ID:'invalid'},{LEAD_HOSTINGER_SITE_ID:'other'},{LEAD_INQUIRY_GUARD_SITE_ID:'other'},{LEAD_INQUIRY_GUARD_HOST:'foreign.example'}])assert.equal((await configuredInquiryRequest(post(),{...bindings(),...change},'qa')).status,503);
+ const foreign=post();foreign.headers.set('origin','https://foreign.example');assert.equal((await configuredInquiryRequest(foreign,bindings(),'qa')).status,403);
+ const env=bindings();env.INQUIRY_RATE_LIMIT.limit=async()=>({success:false});const denied=await configuredInquiryRequest(post(),env,'qa');assert.equal(denied.status,429);assert.equal(denied.headers.get('retry-after'),'60');assert.equal(await configuredInquiryRequest(post(),{},'other'),null);
+});
+test('ownership verification is canonical-site-bound and invalid or foreign tokens do not render',()=>{
+ const registry={qa:{canonicalHost:'qa.example',google:'valid_public_token_1234567890'}};
+ assert.deepEqual(siteVerification(pkg,registry),{google:registry.qa.google});assert.equal(siteVerification({...pkg,siteId:'other'},registry),null);assert.equal(siteVerification({...pkg,canonicalHost:'foreign.example'},registry),null);assert.equal(siteVerification(pkg,{qa:{...registry.qa,google:'<script>'}}),null);
+});

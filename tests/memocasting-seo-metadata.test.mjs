@@ -90,6 +90,8 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
  const eligible=project(candidate),requestHeaders=new Headers({host:candidate.canonicalHost,'x-niche-original-path':pathname});
  let shopReads=0;
  const modules={
+  '@/lib/content-renderers.mjs':nativeRequire('../lib/content-renderers.mjs'),
+  '@/sites/signaturepads/migration/core-layout.json':nativeRequire('../sites/signaturepads/migration/core-layout.json'),
   '@/lib/memocasting-favicon.mjs':{memoFaviconHref},
   '@/lib/memocasting-homepage-images.mjs':{memoHeroImage},
   '@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted},

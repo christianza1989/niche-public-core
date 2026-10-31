@@ -4,6 +4,8 @@ import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
 import ts from 'typescript';
+import * as contentRenderers from '../lib/content-renderers.mjs';
+import * as signaturepadsRoutes from '../lib/signaturepads-routes.mjs';
 import manifest from '../lib/memocasting-instruction-documents.json' with {type:'json'};
 import {memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawDocumentPath,serveMemoInstructionDocument} from '../lib/memocasting-instruction-documents.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
@@ -92,6 +94,8 @@ async function loadProxy(candidate=pkg){
  const source=await readFile(new URL('../proxy.ts',import.meta.url),'utf8');
  const javascript=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
  const modules={
+  '@/lib/content-renderers.mjs':contentRenderers,
+  '@/lib/signaturepads-routes.mjs':signaturepadsRoutes,
   'next/server':{NextResponse:{next:()=>new Response('fallback'),rewrite:url=>new Response(null,{headers:{'x-test-rewrite':url.href}}),redirect:(url,status)=>new Response(null,{status,headers:{Location:url.href}})}},
   '@/lib/niche-sites':{normalizedHost:host=>(host??'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,''),nicheSiteByHost:host=>host==='memocasting.lt'?candidate:host==='other.lt'?{siteId:'other',canonicalHost:'other.lt',pages:[]}:null,publicNichePages:site=>projectPublicPages(site,[site],{},now)},
   '@/lib/site-config':{SITE_CONFIGS:{legacy:{domains:['legacy.test']}}},

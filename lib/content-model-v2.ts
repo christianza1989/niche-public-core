@@ -5,6 +5,8 @@ import { projectContentPagesV2 } from './content-projection-v2.mjs';
 import { SITE_CONFIGS } from './site-config';
 import admissions from './generated/content-admissions.json';
 import { env } from 'cloudflare:workers';
+import { contentRenderer } from './content-renderers.mjs';
+import { hostedPreviewAdmission } from './content-hosted-preview.mjs';
 export type InlineTargetV2={kind:'page';pageId:string}|{kind:'external';url:string}|{kind:'network';siteId:string;pageId:string}|{kind:'commerce';targetId:string};
 export type InlineV2={type:'text';text:string}|{type:'link';text:string;target:InlineTargetV2};
 export type VisibleInlineV2={type:'text';text:string}|{type:'link';text:string;href:string};
@@ -24,15 +26,18 @@ export type ProjectedContentPageV2=Omit<ContentPageV2,'body'|'externalLinks'>&{u
 export const contentPackagesV2=(compiled as unknown as ContentPackageV2[]).filter(p=>p.schemaVersion===2);
 export const contentPackageBySiteId=(id:string)=>contentPackagesV2.find(p=>p.siteId===id)||null;
 export function contentAdmissionScope(pkg:ContentPackageV2){return (admissions as Record<string,{scope:string}>)[pkg.siteId]?.scope;}
-export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview'].includes(contentAdmissionScope(pkg)||'');}
+export function localContentAdmission(pkg:ContentPackageV2){return ['local-fixture','local-preview','hosted-preview','hosted-inquiries'].includes(contentAdmissionScope(pkg)||'');}
+export const contentHostedPreview=()=>hostedPreviewAdmission(admissions);
 export function hasLocalPreviewContent(){return contentPackagesV2.some(pkg=>contentAdmissionScope(pkg)==='local-preview');}
 export const contentPackageByHost=(host:string|null|undefined)=>{
   const name=(host||'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,'');
+  const preview=contentHostedPreview();
+  if(preview?.previewHost===name)return contentPackageBySiteId(preview.siteId);
   if(name==='localhost'||name==='127.0.0.1'){
     const devId=env.NICHE_DEV_SITE_ID || process.env.NICHE_DEV_SITE_ID;
     if(devId)return contentPackageBySiteId(devId);
   }
   const legacy=Object.values(SITE_CONFIGS).find(site=>site.domains.includes(name));
-  return contentPackagesV2.find(p=>p.canonicalHost===(legacy?.domains[0]||name))||null;
+  return contentPackagesV2.find(p=>p.canonicalHost===(legacy?.domains[0]||name)||contentRenderer(p)==='signaturepads'&&name===`www.${p.canonicalHost}`)||null;
 };
 export function publicContentPages(pkg:ContentPackageV2,now=Date.now()):ProjectedContentPageV2[]{return projectContentPagesV2(pkg,compiled,network,commerce,now) as ProjectedContentPageV2[];}

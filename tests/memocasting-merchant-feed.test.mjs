@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {runInNewContext} from 'node:vm';
 import ts from 'typescript';
+import * as contentRenderers from '../lib/content-renderers.mjs';
+import * as signaturepadsRoutes from '../lib/signaturepads-routes.mjs';
 import registry from '../lib/memocasting-merchant-products.json' with {type:'json'};
 import {memoMerchantFeedXml,serveMemoMerchantFeed} from '../lib/memocasting-merchant-feed.mjs';
 import {memoApplyProductContent,memoProductSku} from '../lib/memocasting-product-content.mjs';
@@ -136,6 +138,8 @@ test('published catalog export reuses the actual service-binding catalog and LIV
 
 test('actual proxy reserves the feed before foreign gift, legacy and preview fallbacks',async()=>{
  const modules={
+  '@/lib/content-renderers.mjs':contentRenderers,
+  '@/lib/signaturepads-routes.mjs':signaturepadsRoutes,
   'next/server':{NextResponse:{next:()=>new Response('fallback'),rewrite:url=>new Response(null,{headers:{'x-test-rewrite':url.href}}),redirect:(url,status)=>new Response(null,{status,headers:{Location:url.href}})}},
   '@/lib/niche-sites':{normalizedHost:host=>(host??'').split(',')[0].trim().toLowerCase().replace(/:\d+$/,''),nicheSiteByHost:host=>host==='memocasting.lt'?pkg:host==='other.lt'?{siteId:'other',canonicalHost:'other.lt'}:null,publicNichePages:project},
   '@/lib/site-config':{SITE_CONFIGS:{legacy:{domains:['legacy.test']}}},

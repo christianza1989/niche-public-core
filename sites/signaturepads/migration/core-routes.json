@@ -1,0 +1,33 @@
+{
+  "legacyIds": {
+    "2": "/sample-page/",
+    "12": "/",
+    "189": "/ozonas-geriausia-kvapu-naikinimo-priemone/",
+    "479": "/prekes/",
+    "488": "/produktas/paraso-plansete-signotec-sigma/",
+    "502": "/produktas/paraso-plansete-signotec-sigma-lite/",
+    "515": "/musu-slapuku-politika/",
+    "6770": "/produktas/paraso-plansete-signotec-zeta/",
+    "6773": "/produktas/paraso-plansete-signotec-omega/",
+    "6778": "/produktas/paraso-plansete-signotec-gamma/",
+    "6782": "/produktas/paraso-plansete-signotec-delta/",
+    "6851": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-delta-pen-display/",
+    "6855": "/produktas/monitoriaus-ispletimas-pasirasymui-signotec-epsilon-pen-display/",
+    "6859": "/produktas/programine-iranga-signotec-signosign-2/",
+    "6861": "/produktas/programine-iranga-signotec-adobe-acrobat-reader-plug-in/",
+    "6863": "/produktas/programine-iranga-signotec-signosign-universal/",
+    "6865": "/produktas/programine-iranga-signotec-signoapi-windows/",
+    "6867": "/produktas/programine-iranga-signotec-signoapi-native-java/",
+    "6998": "/apie-mus-spaudoje/",
+    "7053": "/produktas/paraso-plansete-stepover-durasign-pad-ng-10/",
+    "7078": "/produktas/paraso-plansete-stepover-durasign-pad-10-0/",
+    "7084": "/produktas/programine-iranga-stepover-esignatureoffice/",
+    "7086": "/produktas/paraso-plansete-stepover-durasign-pad-5-0/",
+    "7092": "/produktas/paraso-plansete-stepover-durasign-pad-4-3/",
+    "7097": "/produktas/paraso-plansete-stepover-naturasign-pad-classic/"
+  },
+  "retired": [
+    "/ozonas-geriausia-kvapu-naikinimo-priemone/",
+    "/sample-page/"
+  ]
+}
