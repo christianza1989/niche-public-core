@@ -78,6 +78,10 @@ installs the locked build dependencies before compilation and prunes them again
 before publishing. Both installation and pruning refuse shared symlinked modules.
 The Node entry redirects the accepted www host to its canonical HTTPS host.
 After a WordPress conversion, check every URL for old LiteSpeed/Nitro responses:
-an accepted CDN purge does not prove the origin page cache is gone. Disable that
-site's legacy server cache if it keeps serving WordPress, retain the CDN/browser
-asset caches, and verify native robots and sitemap responses without cache-busting.
+an accepted CDN purge does not prove the origin page cache is gone. Retained
+NitroPack `CacheLookup on` rules can replay old pages even when the hosting
+cache setting is already off. Back up the current .htaccess, remove the obsolete
+WordPress cache/PHP rewrites, preserve provider Passenger and security/IP rules,
+and disable that legacy lookup. Retain CDN/browser asset caching and verify all
+native pages, robots and sitemaps without cache-busting. Do not copy one site's
+Passenger paths or IP rules to another domain.
