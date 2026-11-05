@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "https://github.com/christianza1989/nisiniai-puslapiai-monetizavimui",
-  "sourceRevision": "b7d9eadb1837942e5e3ca0639ccfc2e621f78c98",
+  "sourceRevision": "0215e1a3a736bdbb50f07f48e3cb8be8e05cb051",
   "sourcePath": "commerce-core/public",
   "files": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "filename": "checkout-ui.mjs",
-      "sha256": "154045e62fa875d27a43bdaee4c0734c6278ee1e42a065cb82c8bfa58fb0c05e",
-      "bytes": 91238
+      "sha256": "6623794779f771210604a85bd2b7b1cc2cc0a5ab3fc1b559700ee87d263703f6",
+      "bytes": 92358
     }
   ]
 }
