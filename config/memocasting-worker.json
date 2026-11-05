@@ -8,6 +8,7 @@
     { "pattern": "www.memocasting.lt", "custom_domain": true }
   ],
   "vars": {},
+  "observability": { "enabled": true, "logs": { "enabled": true, "head_sampling_rate": 1, "invocation_logs": true, "persist": true }, "traces": { "enabled": false } },
   "d1_databases": [{ "binding": "DB", "database_name": "memocasting-site-leads", "database_id": "59b0f59f-3fc8-4f46-b30d-865e721abaf4" }],
   "r2_buckets": [],
   "services": [{ "binding": "MEMO_COMMERCE", "service": "memocasting-commerce" }, { "binding": "MEMO_INSTAGRAM", "service": "memocasting-instagram" }]
