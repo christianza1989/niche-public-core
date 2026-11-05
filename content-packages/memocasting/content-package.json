@@ -3172,7 +3172,7 @@
       "type": "faq",
       "slug": "pristatymas",
       "title": "Pristatymas Lietuvoje",
-      "description": "Pristatymas į Omniva paštomatus arba SmartPosti kurjeriu Lietuvoje. Kaina apskaičiuojama krepšelyje pagal pristatymo vietą ir siuntą.",
+      "description": "Pristatymas Lietuvoje į „Omniva“ paštomatą – 3,75 €, „SmartPosti“ kurjeriu – 5,24 € už užsakymą.",
       "intent": "Sužinoti, kaip ir už kiek pristatomas pasirinktas rinkinys.",
       "body": [
         {
@@ -3191,11 +3191,11 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip apskaičiuojama kaina?"
+          "text": "Pristatymo kainos"
         },
         {
           "type": "paragraph",
-          "text": "Kurjeriui nurodykite gavėjo adresą, miestą ir pašto kodą; pristatant į paštomatą pasirinkite konkretų paštomatą. Sistema iš vežėjo gauna tuo metu galiojantį pasiūlymą pagal pristatymo vietą bei pasirinktos siuntos svorį ir matmenis. Dėl to pristatymo kaina gali skirtis tarp užsakymų. Prieš mokėjimą matysite prekių sumą, pristatymą ir bendrą mokėtiną sumą. Pasikeitus prekėms ar pristatymo vietai, kaina perskaičiuojama."
+          "text": "Pristatymas Lietuvoje į „Omniva“ paštomatą kainuoja 3,75 €, o „SmartPosti“ kurjeriu – 5,24 € už užsakymą, nepriklausomai nuo rinkinių kiekio. Jei taikomas nemokamo pristatymo nuolaidos kodas, galutinę kainą matysite krepšelyje. Kurjeriui nurodykite gavėjo adresą, miestą ir pašto kodą; pristatant į paštomatą pasirinkite konkretų paštomatą. Prieš apmokėdami matysite prekių kainą, pristatymą ir bendrą sumą."
         },
         {
           "type": "heading",
@@ -3215,7 +3215,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Medinis padėklas šiuo metu išparduotas, todėl jo pasirinkimas prie rinkinio išjungtas. Pristatymo kaina apskaičiuojama pagal tuo metu užsakomą komplektaciją."
+          "text": "Medinis padėklas šiuo metu išparduotas, todėl jo pasirinkimas prie rinkinio išjungtas."
         },
         {
           "type": "heading",
@@ -3264,12 +3264,12 @@
         }
       ],
       "id": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
-      "revisionHash": "b26e36b99aec965a38ad0fb6894abd695af7b23df68d930f5092bd8143824a6e",
+      "revisionHash": "2db9586e827d8874fe5334d030e2e8032f8411669da6ba88e2454d3f8ad921a3",
       "approval": {
         "status": "approved",
-        "revisionHash": "b26e36b99aec965a38ad0fb6894abd695af7b23df68d930f5092bd8143824a6e",
-        "approvedAt": "2026-10-27T09:21:42.774Z",
-        "actorId": "codex-content-links-2026-10-27"
+        "revisionHash": "2db9586e827d8874fe5334d030e2e8032f8411669da6ba88e2454d3f8ad921a3",
+        "approvedAt": "2026-11-05T21:24:40.428Z",
+        "actorId": "codex-fixed-delivery-editor-20261105"
       }
     },
     {
@@ -3596,7 +3596,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Šios taisyklės taikomos internetu memocasting.lt parduodamiems rankų liejimo rinkiniams ir jų pristatymui Lietuvoje. Užsakymui taikoma jo pateikimo metu krepšelyje nurodyta taisyklių versija. Atnaujinta 2026 m. spalio 20 d."
+          "text": "Šios taisyklės taikomos internetu memocasting.lt parduodamiems rankų liejimo rinkiniams ir jų pristatymui Lietuvoje. Užsakymui taikoma jo pateikimo metu krepšelyje nurodyta taisyklių versija. Atnaujinta 2026 m. lapkričio 5 d."
         },
         {
           "type": "heading",
@@ -3618,7 +3618,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prekių suma ir pristatymo kaina prieš apmokėjimą pateikiamos krepšelyje. Pristatymas nėra įtrauktas į rinkinio kainą; jis apskaičiuojamas pagal gavėjo adresą ir užsakymo siuntą. Papildoma paslauga ar prekė nepridedama be pirkėjo pasirinkimo."
+          "text": "Prekių suma ir pristatymo kaina prieš apmokėjimą pateikiamos krepšelyje. Pristatymas nėra įtrauktas į rinkinio kainą: Lietuvoje pristatymas į „Omniva“ paštomatą kainuoja 3,75 €, o „SmartPosti“ kurjeriu – 5,24 € už užsakymą, nepriklausomai nuo rinkinių kiekio. Jei taikomas nemokamo pristatymo nuolaidos kodas, galutinę kainą matysite krepšelyje. Papildoma paslauga ar prekė nepridedama be pirkėjo pasirinkimo."
         },
         {
           "type": "heading",
@@ -3627,7 +3627,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasirinkite rinkinį bei kiekį, pateikite tikrus gavėjo kontaktus ir Lietuvos pristatymo adresą, pasirinkite apskaičiuotą pristatymo pasiūlymą ir susipažinkite su šiomis taisyklėmis. Iki galutinio mokėjimo patvirtinimo galite patikrinti užsakymo sumą ir duomenis. Mokėjimą apdoroja Stripe; galimi būdai rodomi saugioje mokėjimo formoje. Mokėjimo kortelės numerio ir saugos kodo Memocasting sistemoje nesaugome."
+          "text": "Pasirinkite rinkinį bei kiekį, pateikite tikrus gavėjo kontaktus ir Lietuvos pristatymo adresą, pasirinkite pristatymo būdą, o jei reikia – ir paštomatą, bei susipažinkite su šiomis taisyklėmis. Iki galutinio mokėjimo patvirtinimo galite patikrinti užsakymo sumą ir duomenis. Mokėjimą apdoroja Stripe; galimi būdai rodomi saugioje mokėjimo formoje. Mokėjimo kortelės numerio ir saugos kodo Memocasting sistemoje nesaugome."
         },
         {
           "type": "paragraph",
@@ -3640,7 +3640,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pristatome Lietuvoje į krepšelyje nurodytą adresą per pasirinktą kurjerio paslaugą. Pristatymo informacija paaiškinta pristatymo puslapyje. Vežėjo skaičiuojamas orientacinis kelionės laikas nėra pažadas, kad siunta jau perduota vežėjui. Jei nesusitariame dėl kito termino, prekes pristatome ne vėliau kaip per 30 dienų nuo sutarties sudarymo. Apie aplinkybes, trukdančias įvykdyti užsakymą, informuojame ir sprendžiame jas kartu su pirkėju; tai neriboja įstatymų numatytų teisių."
+          "text": "Pristatome Lietuvoje į pasirinktą „Omniva“ paštomatą arba „SmartPosti“ kurjeriu į gavėjo nurodytą adresą. Pristatymo informacija paaiškinta pristatymo puslapyje. Vežėjo skaičiuojamas orientacinis kelionės laikas nėra pažadas, kad siunta jau perduota vežėjui. Jei nesusitariame dėl kito termino, prekes pristatome ne vėliau kaip per 30 dienų nuo sutarties sudarymo. Apie aplinkybes, trukdančias įvykdyti užsakymą, informuojame ir sprendžiame jas kartu su pirkėju; tai neriboja įstatymų numatytų teisių."
         },
         {
           "type": "paragraph",
@@ -3702,12 +3702,12 @@
         }
       ],
       "id": "6db61a25-2056-4a41-a97e-c2bc1794f817",
-      "revisionHash": "7893ecb34888a5667f8531b644c2e4eb1f64f082a6da0b758384b4c2e6b47788",
+      "revisionHash": "638aafc1656b6b61e41dd87c3202d80b914a66333423a565a12497921af76be3",
       "approval": {
         "status": "approved",
-        "revisionHash": "7893ecb34888a5667f8531b644c2e4eb1f64f082a6da0b758384b4c2e6b47788",
-        "approvedAt": "2026-10-25T07:42:37.840Z",
-        "actorId": "memocasting-editorial-agent"
+        "revisionHash": "638aafc1656b6b61e41dd87c3202d80b914a66333423a565a12497921af76be3",
+        "approvedAt": "2026-11-05T21:24:40.496Z",
+        "actorId": "codex-fixed-delivery-editor-20261105"
       }
     },
     {
@@ -32184,5 +32184,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-05T20:33:36.081Z"
+  "generatedAt": "2026-11-05T21:24:40.666Z"
 }
