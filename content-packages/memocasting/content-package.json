@@ -3414,7 +3414,7 @@
       "body": [
         {
           "type": "paragraph",
-          "text": "Duomenų valdytojas – MB Memocasting, įmonės kodas 306026827, Pupinės g. 10-55, Vilnius, LT-02206. Dėl privatumo ir savo teisių kreipkitės info@memorycasting.lt arba paštu šiuo adresu. Atnaujinta 2026 m. spalio 25 d."
+          "text": "Duomenų valdytojas – MB Memocasting, įmonės kodas 306026827, Pupinės g. 10-55, Vilnius, LT-02206. Dėl privatumo ir savo teisių kreipkitės info@memorycasting.lt arba paštu šiuo adresu. Atnaujinta 2026 m. lapkričio 5 d."
         },
         {
           "type": "heading",
@@ -3428,6 +3428,10 @@
         {
           "type": "paragraph",
           "text": "Mokėjimo duomenis savo saugioje formoje tvarko Stripe. Kortelės numeris ir saugos kodas nepatenka į Memocasting užsakymų duomenų bazę. Gauname mokėjimo būseną, sumą ir mokėjimo identifikatorius, reikalingus apmokėjimui bei pinigų grąžinimui susieti su užsakymu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Atsiskaityme gali būti siūloma „Google Pay“ skaitmeninė piniginė. Naudojant šią paslaugą „Google“ gali rinkti ir naudoti duomenis, taip pat analitikai. Daugiau informacijos: „Google“ privatumo politika."
         },
         {
           "type": "heading",
@@ -3560,7 +3564,7 @@
         {
           "url": "https://policies.google.com/privacy",
           "label": "„Google“ privatumo politika",
-          "reason": "Analitikos paslaugos teikėjo informacija apie tvarkomus duomenis, gavėjus ir naudotojo pasirinkimus."
+          "reason": "„Google“ informacija apie jos paslaugose tvarkomus duomenis, jų naudojimą, saugojimą ir naudotojo pasirinkimus."
         },
         {
           "url": "https://www.google.com/analytics/terms/dpa/dataprocessingamendment_20200816.html",
@@ -3574,12 +3578,12 @@
         }
       ],
       "id": "887515ad-a6dd-4d47-a3cd-d884a5ccc3a4",
-      "revisionHash": "563376e93db143d7653962d84398aacfd61eea7f98e4726b3d39ef56218ed6a3",
+      "revisionHash": "8edaaf6c9b6c94c6abb5520bed3743d811a80284207c5b729b6379b8102cc6c7",
       "approval": {
         "status": "approved",
-        "revisionHash": "563376e93db143d7653962d84398aacfd61eea7f98e4726b3d39ef56218ed6a3",
-        "approvedAt": "2026-10-25T18:51:50.966Z",
-        "actorId": "payment-recovery-editor-20261025"
+        "revisionHash": "8edaaf6c9b6c94c6abb5520bed3743d811a80284207c5b729b6379b8102cc6c7",
+        "approvedAt": "2026-11-05T20:33:35.904Z",
+        "actorId": "codex-privacy-editor-20261105"
       }
     },
     {
@@ -32180,5 +32184,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-27T10:18:19.959Z"
+  "generatedAt": "2026-11-05T20:33:36.081Z"
 }
