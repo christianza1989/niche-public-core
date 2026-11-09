@@ -35,7 +35,9 @@ test('catalogue only renders products supplied by the shared projection and esca
  assert.match(html,/Fixture &lt;safe&gt;/);assert.doesNotMatch(html,/produktas\/hidden|add-to-cart|<script|<iframe/);
  assert.match(html,/aria-label="Fixture &lt;safe&gt;"/);
  assert.match(html,/aria-label="Fixture &lt;safe&gt; — Greita peržiūra"/);
- assert.doesNotMatch(html,/href="\/(?:taisykles|garantija-ir-grazinimas)\//);
+ assert.match(html,/data-quick-view="\/produktas\/fixture" href="\/produktas\/fixture"/);
+ assert.doesNotMatch(html,/href="\/produktas\/fixture\//);
+ assert.doesNotMatch(html,/href="\/(?:taisykles|garantija-ir-grazinimas)(?:\/|")/);
  const hidden=o3techMarkup({...f,page:f.catalogue,pages:pages.slice(0,2)});assert.doesNotMatch(hidden,/Fixture/);
  assert.throws(()=>o3techMarkup({...f,page:f.product,pages:pages.slice(0,2)}));
  assert.throws(()=>o3techMarkup({...f,pkg:{...f.pkg,siteId:'foreign'},page:f.catalogue,pages}));
@@ -63,7 +65,7 @@ test('catalogue menu disclosure has no nested interactive link and price sliders
  assert.ok(summaries.length>0);
  for(const [,content]of summaries)assert.doesNotMatch(content,/<(?:a|button|input|select|textarea)\b/);
  for(const label of ['Mažiausia kaina','Didžiausia kaina'])assert.ok(html.includes(`<label><span>${label}</span><input aria-label="${label}"`));
- assert.match(html,/<div><a href="\/prekes\/" aria-current="page">Prekės<\/a>/);
+ assert.match(html,/<div><a href="\/prekes" aria-current="page">Prekės<\/a>/);
 });
 test('brand metadata cannot expose a missing, foreign-site or unpublished homepage asset',()=>{
  assert.equal(o3techBrandAssets({siteId:'foreign'},[]),null);
@@ -78,7 +80,7 @@ test('source formatting is bound to exact text, escapes markup and cannot revive
  const text='Original <safe> link';const format={signature:o3Signature(text),ranges:[{kind:'strong',start:0,end:8},{kind:'link',start:16,end:20,href:'https://o3tech.lt/hidden/'}]};
  const html=o3Inline(text,format,[]);assert.match(html,/<strong>Original<\/strong>/);assert.match(html,/&lt;safe&gt;/);assert.doesNotMatch(html,/<a/);
  assert.equal(o3Inline(text+' changed',format,[]),'Original &lt;safe&gt; link changed');
- assert.match(o3Inline('link',{signature:o3Signature('link'),ranges:[{kind:'link',start:0,end:4,href:'https://o3tech.lt/kept'}]},[{slug:'kept'}]),/href="\/kept\/"/);
+ assert.match(o3Inline('link',{signature:o3Signature('link'),ranges:[{kind:'link',start:0,end:4,href:'https://o3tech.lt/kept/#info'}]},[{slug:'kept'}]),/href="\/kept#info"/);
  const hostile={signature:o3Signature('link'),ranges:[{kind:'link',start:0,end:4,href:'javascript:alert(1)'}]};assert.equal(o3Inline('link',hostile,[]),'link');
  const f=fixture();f.product.body=[{type:'list',items:['One','Two']}];f.layout.pages.product.format={0:{signature:o3Signature('One\nTwo'),ordered:true,start:2}};
  assert.match(o3techMarkup({...f,page:f.product,pages:[f.home,f.catalogue,f.product]}),/<ol start="2"><li>One<\/li><li>Two<\/li><\/ol>/);
@@ -109,5 +111,5 @@ test('source related ordering stays in the projection and single-image galleries
  f.layout.pages.product.relatedPaths=['/produktas/hidden/','/produktas/other/'];f.layout.pages.other={kind:'product'};
  const html=o3techMarkup({...f,page:f.product,pages:[f.home,f.catalogue,f.product,other]});
  assert.match(html,/--o3-gallery-source-width:310px/);assert.doesNotMatch(html,/class="o3-thumbnails"/);
- assert.match(html,/Visible sibling/);assert.doesNotMatch(html,/Omitted sibling|href="\/produktas\/hidden\//);
+ assert.match(html,/Visible sibling/);assert.doesNotMatch(html,/Omitted sibling|href="\/produktas\/hidden(?:\/|")/);
 });
