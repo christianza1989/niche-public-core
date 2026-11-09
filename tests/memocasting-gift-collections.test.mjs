@@ -12,7 +12,20 @@ const pkg={siteId:'memocasting',schemaVersion:1,canonicalHost:'memocasting.lt',l
 
 test('only explicitly selected local service pages acquire collection presentation',()=>{
  assert.equal(memoIsGiftCollection(collection),true);
- for(const other of [page('dovanos'),page('gidai/dovanos-moterims','guide'),page('dovanos/moterims','guide'),page('pl/dovanos/moterims'),page('dovanos/vyrams'),undefined])assert.equal(memoIsGiftCollection(other),false);
+ for(const other of [page('dovanos'),page('gidai/dovanos-moterims','guide'),page('dovanos/moterims','guide'),page('pl/dovanos/moterims'),page('dovanos/nenumatyta'),undefined])assert.equal(memoIsGiftCollection(other),false);
+});
+
+test('planned recipient and occasion collections use eligible real products only',()=>{
+ const slugs=['dovanos/vyrams','dovanos/mamai','dovanos/valentino-dienai','dovanos/porai','dovanos/seimai','dovanos/kaledoms/mamai','dovanos/kaledoms/moterims','dovanos/kaledoms/vyrams','dovanos/kaledoms/seimai','dovanos/kaledoms/tevams','dovanos/personalizuotos','dovanos/originalios','dovanos/seneliui','dovanos/mociutei','dovanos/mamos-dienai','dovanos/gimtadieniui/vyrui','dovanos/gimtadieniui/mamai','dovanos/gimtadieniui/moterims'];
+ assert.equal(new Set(slugs).size,18);
+ for(const slug of slugs){
+  const candidate=page(slug),live=[home,hub,candidate,couple,family];
+  assert.equal(memoIsGiftCollection(candidate),true,slug);
+  assert.equal(memoIsGiftCollection(page(slug,'guide')),false,slug);
+  assert.deepEqual(memoGiftCollectionProducts(candidate,live).map(p=>p.slug),['rinkinys-porai','seimos-rinkinys'],slug);
+  const graph=memoSchemaGraph(pkg,candidate,live,'MB Memocasting')['@graph'];
+  assert.deepEqual(graph.find(item=>item['@type']==='CollectionPage').hasPart.map(item=>new URL(item.url).pathname),['/rinkinys-porai','/seimos-rinkinys'],slug);
+ }
 });
 
 test('cards and CollectionPage schema use exactly the same eligible two products',()=>{
