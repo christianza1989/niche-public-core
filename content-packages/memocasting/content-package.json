@@ -5213,7 +5213,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai ir rankų liejimo rinkinys šeimai turi atskirus aprašus, kuriuose galite palyginti kainą ir komplektaciją. Vien rinkinio pavadinimas ar liejinio nuotrauka nepasako, kiek ir kokio dydžio rankų galima lieti. Dalyvių skaičių, amžiaus ribas ir naudojimo sąlygas reikia tikrinti konkretaus rinkinio dokumentuose."
+          "text": "Rankų liejimo rinkinys porai ir rankų liejimo rinkinys šeimai turi atskirus aprašus, kuriuose galite palyginti kainą ir komplektaciją. Vien rinkinio pavadinimas ar liejinio nuotrauka nepasako, kiek ir kokio dydžio rankų galima lieti. Dalyvių skaičių, amžiaus ribas ir naudojimo sąlygas reikia tikrinti konkretaus rinkinio dokumentuose. Palyginkite rankų liejimo rinkinius dovanai moteriai ir jų tinkamumą bendrai veiklai."
         },
         {
           "type": "heading",
@@ -5349,15 +5349,19 @@
         {
           "targetPageId": "a2102f3e-f796-40dd-932e-e0d7de464a64",
           "label": "vestuvių"
+        },
+        {
+          "targetPageId": "a697644d-96c7-4e31-a1eb-7ec165ac782d",
+          "label": "rankų liejimo rinkinius dovanai moteriai"
         }
       ],
       "id": "ac6caea7-95af-4e5c-b13c-d060f7c064ae",
-      "revisionHash": "ea74b3adeb236765a76d19207d882d8dc3b9d58e07a1c3175e282df8ddd1c6f7",
+      "revisionHash": "0ac92bd60d9d3893e545e1d038d35811941b96f47fdc96e70f5ed1328f7dc2b5",
       "approval": {
         "status": "approved",
-        "revisionHash": "ea74b3adeb236765a76d19207d882d8dc3b9d58e07a1c3175e282df8ddd1c6f7",
-        "approvedAt": "2026-10-25T14:08:20.280Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "0ac92bd60d9d3893e545e1d038d35811941b96f47fdc96e70f5ed1328f7dc2b5",
+        "approvedAt": "2026-11-09T08:04:25.886Z",
+        "actorId": "codex-memocasting-collection-editor-20261109"
       }
     },
     {
@@ -17583,7 +17587,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Medinis skirtukas MANDALA be narystės kainuoja 3,95 €. Tai nedidelė dovana pažįstant skaitymo pomėgį. 20 € knygų kuponas tinka tada, kai nežinote turimų knygų ar norimo leidimo. Patikrinkite galiojimą ir tai, ar konkrečioje parduotuvėje yra jos dominančių autorių. Kuponas netampa universaliu pinigų pakaitalu visiems knygynams."
+          "text": "Medinis skirtukas MANDALA gali būti nedidelė dovana žmogui, kuris mėgsta skaityti. 2026 m. lapkričio 9 d. pardavėjas nurodė, kad šio skirtuko neparduoda, todėl prieš rinkdamiesi patikrinkite, ar jis vėl siūlomas. 20 € knygų kuponas tinka tada, kai nežinote turimų knygų ar norimo leidimo. Patikrinkite galiojimą ir tai, ar konkrečioje parduotuvėje yra jos dominančių autorių. Kuponas netampa universaliu pinigų pakaitalu visiems knygynams."
         },
         {
           "type": "paragraph",
@@ -17596,7 +17600,7 @@
         },
         {
           "type": "paragraph",
-          "text": "QUECHUA „900“ 0,5 l žalios spalvos termosinė gertuvė patikros metu kainavo 13 €. Prieš pirkdami pasidomėkite, ar ji renkasi trumpus pasivaikščiojimus, kasdienes keliones į darbą, ar ilgas išvykas. Tam pačiam žmogui gali reikėti skirtingos talpos skirtingomis aplinkybėmis. Konkretus modelis šiame gide nėra visų keliautojų įrangos standartas."
+          "text": "QUECHUA „900“ 0,5 l termosinė gertuvė patikros metu kainavo 13 €. Prieš pirkdami pasidomėkite, ar ji renkasi trumpus pasivaikščiojimus, kasdienes keliones į darbą, ar ilgas išvykas. Tam pačiam žmogui gali reikėti skirtingos talpos skirtingomis aplinkybėmis. Konkretus modelis šiame gide nėra visų keliautojų įrangos standartas."
         },
         {
           "type": "paragraph",
@@ -17630,7 +17634,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai už 32 € – kitoks formatas, kai abu dalyviai nori patys pagal instrukciją sukurti skulptūrą. Balti dažai įtraukti. Skirkite šį variantą nuo jau pagaminto meno kūrinio: veikla gali būti pagrindinė dovanos vertė, tačiau ji taip pat reikalauja noro ir pasiruošimo."
+          "text": "Rankų liejimo rinkinys porai už 32 € – kitoks formatas, kai abu dalyviai nori patys pagal instrukciją sukurti skulptūrą. Balti dažai įtraukti. Skirkite šį variantą nuo jau pagaminto meno kūrinio: veikla gali būti pagrindinė dovanos vertė, tačiau ji taip pat reikalauja noro ir pasiruošimo. Palyginkite rankų liejimo rinkinius dovanai moteriai ir jų tinkamumą bendrai veiklai."
         },
         {
           "type": "heading",
@@ -17875,47 +17879,51 @@
         {
           "targetPageId": "cda6b57e-4300-4931-9ce4-8dedb8e913f7",
           "label": "Moters dienai"
+        },
+        {
+          "targetPageId": "a697644d-96c7-4e31-a1eb-7ec165ac782d",
+          "label": "rankų liejimo rinkinius dovanai moteriai"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
           "label": "Medinis skirtukas MANDALA",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
           "label": "20 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         },
         {
           "url": "https://www.decathlon.lt/p/301267-399663-nerudijancio-plieno-greitai-atidaroma-termosine-zygiu-gertuve-900-05-l.html",
           "label": "QUECHUA „900“ 0,5 l",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         },
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-aeropress-original-250-ml-100-filtru",
           "label": "AeroPress Original",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         },
         {
           "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
           "label": "Tapybos ant keramikos dirbtuvės dviem",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         },
         {
           "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
           "label": "Albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. patikrintas atitinkamas pardavėjo pasiūlymo puslapis. Kaina ir prieinamumas gali pasikeisti."
         }
       ],
       "id": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
-      "revisionHash": "1d08aace0c4be4329d1b958ab3edc994252987859bb886705aeb3f921da57692",
+      "revisionHash": "78049c040abde50824d837a607142d274ea6be0b91f07f0ab8a6d2168693a700",
       "approval": {
         "status": "approved",
-        "revisionHash": "1d08aace0c4be4329d1b958ab3edc994252987859bb886705aeb3f921da57692",
-        "approvedAt": "2026-10-26T15:52:04.548Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "78049c040abde50824d837a607142d274ea6be0b91f07f0ab8a6d2168693a700",
+        "approvedAt": "2026-11-09T08:04:25.801Z",
+        "actorId": "codex-memocasting-collection-editor-20261109"
       }
     },
     {
@@ -32182,7 +32190,123 @@
         "approvedAt": "2026-10-25T07:50:01.817Z",
         "actorId": "memocasting-editorial-agent"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "dovanos/moterims",
+      "title": "Dovanos moterims: rankų liejimo rinkiniai bendram prisiminimui",
+      "description": "Ieškote asmeniškos dovanos moteriai? Palyginkite „Memory Casting“ rankų liejimo rinkinius porai ir šeimai bei pasirinkite bendros kūrybos dovaną.",
+      "intent": "Išsirinkti Memory Casting rankų liejimo rinkinį kaip bendros patirties dovaną moteriai ir suprasti, kuo pasirinkimai skiriasi.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys – dovana moteriai, su kuria kartu kursite prisiminimą. Pasirinkite poros arba šeimos rinkinį pagal tai, kas dalyvaus, ir suplanuokite laiką, kurį norėsite praleisti kartu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokį rinkinį pasirinkti dovanai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poros rinkinį rinkitės, kai liejinį norite kurti dviese: su partnere, mama, drauge ar kitu artimu žmogumi. Jame yra vienas alginato pakelis ir 1 200 g gipso. Šeimos rinkinys skirtas bendrai šeimos kūrybai: jame yra po du alginato ir gipso pakelius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Abiejuose rinkiniuose yra kibiras, maišymo pagaliukai ir balti dažai. Rankų kompozicijos tinkamumas priklauso nuo jų dydžio ir pasirinktos pozos, todėl nevertinkite jos vien pagal nuotrauką. Jei abejojate, kuris rinkinys tiks jūsų sumanymui, susisiekite ir apibūdinkite norimą kompoziciją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kam ši dovana tinka, o kada rinktis kitą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinys gali tikti, kai gavėjai patinka kūrybinės veiklos ir ji norėtų skirti laiko kurti kartu. Jis gali būti gimtadienio, Kalėdų ar kitos progos dovana. Prieš rinkdamiesi pasitikrinkite jos norus: vien proga ar santykis dar nepasako, kokia veikla žmogui patiktų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovanos gavėja nori iškart gauti gatavą skulptūrą arba nenorėtų pati dalyvauti liejime, geriau svarstyti kitą dovaną. Čia perkate medžiagas liejiniui sukurti, o ne jau pagamintą darbą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys klausimai prieš pasirenkant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar jai patiktų kartu kurti, o ne iškart gauti jau pagamintą daiktą?",
+            "Kas dalyvaus: du artimi žmonės ar šeima? Palyginkite rinkinių sudėtį ir apgalvokite rankų pozą.",
+            "Ar galite susitarti dėl ramaus laiko ir tinkamos vietos liejimui? Prieš pradėdami perskaitykite pasirinkto rinkinio instrukciją."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką suplanuoti gavus dovaną?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liejimui iš anksto pasiruoškite darbo vietą, vandens ir instrukcijoje nurodytus papildomus reikmenis. Dar prieš maišydami medžiagas išbandykite patogią rankų padėtį tuščiame inde. Jei dalyvauja vaikas, veiklą turi prižiūrėti suaugęs žmogus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal abiejų rinkinių instrukcijas gipsas formoje stingsta vieną valandą; išimtą liejinį prieš dažant reikia džiovinti 5–7 paras. Jei prie gauto rinkinio pridėta instrukcija skiriasi, prieš pradėdami pasitikslinkite. Poros rinkinio instrukcija ir Šeimos rinkinio instrukcija padės susipažinti su konkrečia eiga."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip įteikti dovaną asmeniškiau?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pridėkite trumpą raštelį, kodėl norite šį prisiminimą sukurti kartu. Jei nežinote, kada gavėjai bus patogu, pasiūlykite laiką pasirinkti drauge. Taip ji galės nuspręsti ir su kuo norėtų dalytis šia patirtimi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Jei dar svarstote kitas dovanas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimas yra viena iš galimų dovanų. Jei pirmiausia norite palyginti kitokias veiklas ir dovanas pagal gavėjos pomėgius, skaitykite gidą „dovanos moterims“."
+        }
+      ],
+      "publishAt": "2026-11-09T07:45:19.742Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Rankų liejimo rinkinys porai"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "Rankų liejimo rinkinys šeimai"
+        },
+        {
+          "targetPageId": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
+          "label": "dovanos moterims"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "Poros rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
+          "label": "Šeimos rinkinio instrukcija"
+        }
+      ],
+      "id": "a697644d-96c7-4e31-a1eb-7ec165ac782d",
+      "revisionHash": "babe8b0acd9b5f9742d86f72e19ded63b060b9ac86dc2c85e75247520779fc08",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "babe8b0acd9b5f9742d86f72e19ded63b060b9ac86dc2c85e75247520779fc08",
+        "approvedAt": "2026-11-09T08:04:25.713Z",
+        "actorId": "codex-memocasting-collection-editor-20261109"
+      }
     }
   ],
-  "generatedAt": "2026-11-05T21:24:40.666Z"
+  "generatedAt": "2026-11-09T08:04:26.157Z"
 }
