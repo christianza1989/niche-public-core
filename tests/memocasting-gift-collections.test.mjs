@@ -41,3 +41,16 @@ test('visible breadcrumbs and JSON-LD agree and omit an unavailable gift hub',()
   assert.deepEqual(visible,expected);assert.deepEqual(schema,expected);
  }
 });
+
+test('Christmas collection shares live kit selection and breadcrumbs without affecting the guide',()=>{
+ const christmas=page('dovanos/kaledoms'),guide=page('gidai/kaledines-dovanos','guide');
+ assert.equal(memoIsGiftCollection(christmas),true);
+ assert.equal(memoIsGiftCollection(guide),false);
+ const live=[home,hub,christmas,guide,couple,family,page('products/kudikio-pedutes','product')];
+ const products=memoGiftCollectionProducts(christmas,live);
+ assert.deepEqual(products.map(p=>p.slug),['rinkinys-porai','seimos-rinkinys']);
+ const graph=memoSchemaGraph(pkg,christmas,live,'MB Memocasting')['@graph'];
+ assert.deepEqual(graph.find(item=>item['@type']==='CollectionPage').hasPart.map(item=>new URL(item.url).pathname),products.map(p=>'/'+p.slug));
+ assert.deepEqual(memoBreadcrumbs(pkg,christmas,live).map(item=>item.path),['/','/dovanos','/dovanos/kaledoms']);
+ assert.equal(graph.some(item=>['Service','Product','Offer','AggregateRating'].includes(item['@type'])),false);
+});

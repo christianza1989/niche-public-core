@@ -115,8 +115,8 @@ const values=(html,key)=>[...html.matchAll(/<meta\b[^>]*>/g)].map(match=>match[0
 test('actual page renderer never waits for commerce on home, but enriches catalogue, product and gift collection routes',async()=>{
  const source=await readFile(new URL('../app/niche/[siteId]/[[...slug]]/page.tsx',import.meta.url),'utf8');
  const javascript=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
- for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys','dovanos/moterims']){
-  const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service'),page('dovanos/moterims','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
+ for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys','dovanos/moterims','dovanos/kaledoms']){
+  const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service'),page('dovanos/moterims','service'),page('dovanos/kaledoms','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
   const modules={
    '@/lib/memocasting-product-server':{
     memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;productReads++;return published([p])[0];},
