@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { nicheSiteByHost, publicNichePage, publicNichePages } from "@/lib/niche-sites";
 import { voiceWidgetEnabled } from "@/lib/niche-voice";
+import { memoIsGiftCollection } from "@/lib/memocasting-gift-collections.mjs";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 type Params = Promise<{ siteId: string; slug?: string[] }>;
@@ -14,7 +15,7 @@ export default async function NichePageView({ params, searchParams }: { params: 
   const page = siteId==='memocasting'?await memoPublishedProductPage(originalPage,(await headers()).get("host")):originalPage;
   if (!page) notFound();
   const originalPages=publicNichePages(pkg);
-  const livePages=siteId==='memocasting'&&['ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
+  const livePages=siteId==='memocasting'&&(['ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys'].includes(slug.join('/'))||memoIsGiftCollection(page))?await memoPublishedProductPages(originalPages,(await headers()).get('host')):originalPages;
   const props = { pkg, page, livePages };
   if (siteId === "memocasting") { const { MemocastingSite } = await import("@/components/niche/memocasting-site"); return <MemocastingSite {...props} />; }
   if (siteId === "promedical") {

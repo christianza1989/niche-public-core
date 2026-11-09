@@ -8,6 +8,7 @@ import {renderToStaticMarkup} from 'react-dom/server';
 import ts from 'typescript';
 import {memoSeoMetadata,memoPageImage} from '../lib/memocasting-seo-metadata.mjs';
 import {memoCompany,memoSchemaGraph} from '../lib/memocasting-structure.mjs';
+import {memoIsGiftCollection} from '../lib/memocasting-gift-collections.mjs';
 import {memoApplyProductContent,memoProductSku} from '../lib/memocasting-product-content.mjs';
 import {memoHomepageBlocks,memoHomepageStory,memoHomepageAdmitted} from '../lib/memocasting-homepage-markup.mjs';
 import {memoHeroImage} from '../lib/memocasting-homepage-images.mjs';
@@ -111,11 +112,11 @@ async function layout(candidate=pkg,{pathname='/',products=catalog(),shopContext
 }
 const values=(html,key)=>[...html.matchAll(/<meta\b[^>]*>/g)].map(match=>match[0]).filter(tag=>tag.includes(`name="${key}"`)||tag.includes(`property="${key}"`)).map(tag=>tag.match(/content="([^"]*)"/)?.[1]);
 
-test('actual page renderer never waits for commerce on home, but enriches catalogue and product routes',async()=>{
+test('actual page renderer never waits for commerce on home, but enriches catalogue, product and gift collection routes',async()=>{
  const source=await readFile(new URL('../app/niche/[siteId]/[[...slug]]/page.tsx',import.meta.url),'utf8');
  const javascript=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
- for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys']){
-  const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
+ for(const slug of ['','ranku-liejimo-rinkiniai','rinkinys-porai','seimos-rinkinys','dovanos/moterims']){
+  const candidate={...pkg,pages:[...pkg.pages,page('ranku-liejimo-rinkiniai','service'),page('dovanos/moterims','service')]},eligible=project(candidate),exports={};let bulkReads=0,productReads=0;
   const modules={
    '@/lib/memocasting-product-server':{
     memoPublishedProductPage:async p=>{if(!memoProductSku(p))return p;productReads++;return published([p])[0];},
@@ -125,6 +126,7 @@ test('actual page renderer never waits for commerce on home, but enriches catalo
    'next/navigation':{notFound:()=>{throw Error('Unexpected 404');}},
    '@/lib/niche-sites':{nicheSiteByHost:()=>candidate,publicNichePage:(_p,s)=>eligible.find(p=>p.slug===s),publicNichePages:()=>eligible},
    '@/lib/niche-voice':{voiceWidgetEnabled:()=>false},
+   '@/lib/memocasting-gift-collections.mjs':{memoIsGiftCollection},
    '@/components/niche/memocasting-site':{MemocastingSite:()=>null},
   };
   runInNewContext(javascript,{exports,require:name=>name in modules?modules[name]:nativeRequire(name)});

@@ -33,6 +33,7 @@ import {MemoInspirationGallery} from './memocasting-inspiration-gallery';
 import {MemoVideoCarousel} from './memocasting-video-carousel';
 import {memoInstagramPlacement} from '@/lib/memocasting-instagram-bridge.mjs';
 import {memoProductForSlug,memoProducts} from '@/lib/memocasting-products.mjs';
+import {memoIsGiftCollection,memoGiftCollectionProducts} from '@/lib/memocasting-gift-collections.mjs';
 import {memoProductContents} from '@/lib/memocasting-product-content.mjs';
 import {memoInstructionKind} from '@/lib/memocasting-instructions.mjs';
 import {MemoInstructions} from './memocasting-instructions';
@@ -70,7 +71,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  const MemoNativeCheckout=cart?(await import('./memocasting-native-checkout')).MemoNativeCheckout:null;
  const company=memoCompany(pkg,livePages),languages=memoLanguageLinks(page,livePages),languageLabel=({lt:'Svetainės kalba',pl:'Język strony',lv:'Vietnes valoda',et:'Veebilehe keel'} as Record<string,string>)[route.language];
  const footer=<MemoHomepageFooter company={company} groups={memoFooterGroups(page,livePages)} languages={languages} languageLabel={languageLabel} automation={labels.automation} language={route.language} analytics={<MemoAnalytics siteId={pkg.siteId} path={'/'+page.slug} title={page.title} language={route.language} functional={cart} privacyPath={exists('privatumas')?path('privatumas'):undefined}/>}/>;
- const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all';
+ const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all',giftCollection=memoIsGiftCollection(page),giftProducts=memoGiftCollectionProducts(page,localPages);
  const instruction=memoInstructionKind(page);
  const related=uniqueRelatedLinks(page.links,livePages);
  if(home&&route.language==='lt'&&memoHomepageAdmitted(page)){
@@ -102,12 +103,13 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  {!home&&<nav className={'niche-breadcrumbs '+s.crumbs} data-niche-breadcrumbs aria-label={labels.trail}>{nicheBreadcrumbs(pkg,page,livePages).map((b:{name:string;path:string},i:number)=><span key={b.path}>{i>0&&<span aria-hidden="true"> / </span>}{i<nicheBreadcrumbs(pkg,page,livePages).length-1?<a href={b.path}>{b.name}</a>:<span aria-current="page">{b.name}</span>}</span>)}</nav>}
  {home?<><section className={s.hero}><div><h1>{page.title}</h1><p className={s.intro}>{page.description}</p><div className={s.actions}>{exists('collections/all')&&<a href={path("collections/all")} className={s.button}>{labels.choose}</a>}{exists('pages/instrukcija')&&<a href={path("pages/instrukcija")}>{labels.start}</a>}</div></div>{page.media[0]&&<Photo asset={page.media[0]} media={page.media} hero/>}</section><section className={s.selection}><h2>{labels.selection}</h2><Products pages={localPages}/></section><div className={s.homeBody}><Body page={page} pages={livePages}/></div>{exists('gidai')&&<section className={s.guideSection}><div className={s.sectionHead}><h2>{labels.ideas}</h2><a href={path("gidai")}>{labels.allGuides}</a></div><Guides pages={localPages}/></section>}</>:<>
  {!cart&&!product&&!instruction&&<div className={catalogue?s.catalogHeading:s.pageHeading}><h1>{page.title}</h1><p className={s.intro}>{page.description}</p></div>}
+ {giftCollection&&giftProducts.length>0&&<section className={s.selection} aria-labelledby="gift-collection-products"><h2 id="gift-collection-products">Rankų liejimo rinkiniai dovanai</h2><Products pages={giftProducts}/></section>}
  {['gidai','dovanos'].includes(route.baseSlug)&&memoGiftQuickPaths(localPages,route.language).length>0&&<nav className={s.giftQuickPaths} aria-label="Greitas dovanų pasirinkimas"><h2>Raskite tinkamą gidą</h2><div>{memoGiftQuickPaths(localPages,route.language).map((link:{id:string;url:string;label:string})=><a href={link.url} key={link.id}>{link.label}<span aria-hidden="true">↗</span></a>)}</div></nav>}
  {instruction&&<MemoInstructions page={page} pages={livePages}/>}
  {MemoNativeCheckout&&<MemoNativeCheckout title={page.title} language={route.language} country={route.country} policies={memoCheckoutPolicies(livePages)} catalogueUrl={exists('collections/all')?path('collections/all'):undefined}/>}
  {page.type==='guide'&&!instruction&&<MemoArticleMeta pkg={pkg} page={page} pages={livePages} className={s.meta}/>}
  {page.type==='guide'&&!instruction&&<Body page={{...page,body:memoGuideBodyParts(page).lead}} pages={livePages}/>}
- {page.media[0]&&!product&&!instruction&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}
+ {page.media[0]&&!product&&!instruction&&!giftCollection&&<div className={s.articleHero}><Photo asset={page.media[0]} media={page.media} hero/></div>}
  {page.type==='guide'&&!instruction&&<details className={s.toc}><summary>{labels.contents}</summary><nav aria-label={labels.contents}><ul>{page.body.flatMap((b,i)=>b.type==='heading'&&b.level===2?[<li key={i}><a href={'#'+memoSectionId(b.text)}>{b.text}</a></li>]:[])}</ul></nav></details>}
  {product&&<>
   <section className={s.productHero} aria-labelledby="product-title">
