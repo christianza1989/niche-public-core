@@ -33,7 +33,7 @@ import {MemoInspirationGallery} from './memocasting-inspiration-gallery';
 import {MemoVideoCarousel} from './memocasting-video-carousel';
 import {memoInstagramPlacement} from '@/lib/memocasting-instagram-bridge.mjs';
 import {memoProductForSlug,memoProducts} from '@/lib/memocasting-products.mjs';
-import {memoIsGiftCollection,memoGiftCollectionProducts} from '@/lib/memocasting-gift-collections.mjs';
+import {memoIsGiftCollection,memoGiftCollectionProducts,memoGiftCollectionsForGuide,memoGiftCollectionsForIndex} from '@/lib/memocasting-gift-collections.mjs';
 import {memoProductContents} from '@/lib/memocasting-product-content.mjs';
 import {memoInstructionKind} from '@/lib/memocasting-instructions.mjs';
 import {MemoInstructions} from './memocasting-instructions';
@@ -74,6 +74,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  const storeText=memoStoreLabels[route.language as keyof typeof memoStoreLabels],catalogue=route.baseSlug==='collections/all',giftCollection=memoIsGiftCollection(page),giftProducts=memoGiftCollectionProducts(page,localPages);
  const instruction=memoInstructionKind(page);
  const related=uniqueRelatedLinks(page.links,livePages);
+ const collectionLinks=[...memoGiftCollectionsForGuide(page,livePages),...memoGiftCollectionsForIndex(page,livePages)];
  if(home&&route.language==='lt'&&memoHomepageAdmitted(page)){
   const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
   const story=memoHomepageProductStory(localPages).split('<!-- memo-inspiration-gallery -->');
@@ -133,6 +134,7 @@ export async function MemocastingSite({pkg,page,livePages}:{pkg:NichePackage;pag
  {route.baseSlug==='kontaktai'&&exists('privatumas')&&<section className={s.contact}><h2>{labels.help}</h2><form action="/uzklausa" method="post"><input type="hidden" name="source_path" value={"/"+page.slug}/><label>{labels.name}<input name="name" minLength={2} maxLength={100} autoComplete="name" required/></label><label>{labels.email}<input name="email" type="email" autoComplete="email" maxLength={250} required/></label><label>{labels.question}<textarea name="message" minLength={20} maxLength={3000} rows={5} required/></label><label className={s.check}><input name="consent" type="checkbox" value="yes" required/>{labels.consent} <a href={path("privatumas")}>{labels.privacyInfo}</a>.</label><div className={s.trap} aria-hidden="true"><label>{labels.empty}<input name="website" tabIndex={-1} autoComplete="off"/></label></div><button type="submit">{labels.save}</button><p>{labels.testContact}</p></form></section>}
  </>}
  {(page.externalLinks?.length??0)>0&&<section className={s.sources}><h2>{labels.sources}</h2><ul>{page.externalLinks!.map(l=><li key={l.url}><a href={l.url} rel="noopener noreferrer">{l.label}</a><p>{l.reason}</p></li>)}</ul></section>}
+ {collectionLinks.length>0&&<nav className={s.related} aria-label="Rankų liejimo dovanų kolekcijos"><h2>Rankų liejimo dovanų kolekcijos</h2><ul>{collectionLinks.map(collection=><li key={collection.id}><a href={'/'+collection.slug}>{collection.title}</a></li>)}</ul></nav>}
  {related.length>0&&!home&&<aside className={s.related} aria-label={labels.related}><h2>{labels.related}</h2><ul>{related.map(l=><li key={l.page.id}><a href={'/'+l.page.slug}>{l.label}</a></li>)}</ul></aside>}
  </main>{footer}</div>;
 }

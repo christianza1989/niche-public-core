@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {memoIsGiftCollection,memoGiftCollectionProducts} from '../lib/memocasting-gift-collections.mjs';
+import {memoIsGiftCollection,memoGiftCollectionProducts,memoGiftCollectionsForGuide,memoGiftCollectionsForIndex} from '../lib/memocasting-gift-collections.mjs';
 import {memoBreadcrumbs,memoSchemaGraph} from '../lib/memocasting-structure.mjs';
 import {projectPublicPages} from '../lib/niche-links.mjs';
 
@@ -66,4 +66,18 @@ test('Christmas collection shares live kit selection and breadcrumbs without aff
  assert.deepEqual(graph.find(item=>item['@type']==='CollectionPage').hasPart.map(item=>new URL(item.url).pathname),products.map(p=>'/'+p.slug));
  assert.deepEqual(memoBreadcrumbs(pkg,christmas,live).map(item=>item.path),['/','/dovanos','/dovanos/kaledoms']);
  assert.equal(graph.some(item=>['Service','Product','Offer','AggregateRating'].includes(item['@type'])),false);
+});
+
+test('guide and gift index link only to eligible collection revisions',()=>{
+ const guide=page('gidai/dovanos-mamai','guide');
+ const mom=page('dovanos/mamai'),birthday=page('dovanos/gimtadieniui/mamai');
+ const future={...birthday,publishAt:'2026-12-10T00:00:00.000Z'};
+ const source={...pkg,pages:[home,hub,guide,mom,future,couple,family]};
+ const before=projectPublicPages(source,[source],{},Date.parse('2026-11-09T12:00:00Z'));
+ assert.deepEqual(memoGiftCollectionsForGuide(guide,before).map(p=>p.slug),['dovanos/mamai']);
+ assert.deepEqual(memoGiftCollectionsForIndex(hub,before).map(p=>p.slug),['dovanos/mamai']);
+ assert.deepEqual(memoGiftCollectionsForGuide(page('gidai/nesusijes','guide'),before),[]);
+ const after=projectPublicPages(source,[source],{},Date.parse('2026-12-11T12:00:00Z'));
+ assert.deepEqual(memoGiftCollectionsForGuide(guide,after).map(p=>p.slug),['dovanos/mamai','dovanos/gimtadieniui/mamai']);
+ assert.deepEqual(memoGiftCollectionsForIndex(hub,after).map(p=>p.slug),['dovanos/mamai','dovanos/gimtadieniui/mamai']);
 });
