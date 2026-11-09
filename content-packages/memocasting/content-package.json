@@ -5190,6 +5190,10 @@
           "text": "Kalėdoms taip pat nuspręskite, ką gavėjas ras po eglute: užbaigtą dovaną ar priemones būsimai veiklai. Jei laiko liko mažai, rinkitės iš to, ką jau turite arba galite realiai paruošti. Nežinomas pristatymo terminas nėra pagrindas pažadėti, kad siunta pasieks gavėją iki šventės."
         },
         {
+          "type": "paragraph",
+          "text": "Jei ieškote kūrybinės veiklos šventinei dovanai, palyginkite kalėdinius rankų liejimo rinkinius ir suplanuokite laiką jų įteikimui bei kūrimui."
+        },
+        {
           "type": "heading",
           "level": 2,
           "text": "Skaičiuokite visą dovanos biudžetą"
@@ -5353,15 +5357,19 @@
         {
           "targetPageId": "a697644d-96c7-4e31-a1eb-7ec165ac782d",
           "label": "rankų liejimo rinkinius dovanai moteriai"
+        },
+        {
+          "targetPageId": "a95e3915-a2af-442b-9266-7db5ef47d90a",
+          "label": "kalėdinius rankų liejimo rinkinius"
         }
       ],
       "id": "ac6caea7-95af-4e5c-b13c-d060f7c064ae",
-      "revisionHash": "0ac92bd60d9d3893e545e1d038d35811941b96f47fdc96e70f5ed1328f7dc2b5",
+      "revisionHash": "55f57515ca54e1e8c76f099b7af85f08811c7e9e5192dee7c7bfbabc3cf20a95",
       "approval": {
         "status": "approved",
-        "revisionHash": "0ac92bd60d9d3893e545e1d038d35811941b96f47fdc96e70f5ed1328f7dc2b5",
-        "approvedAt": "2026-11-09T08:04:25.886Z",
-        "actorId": "codex-memocasting-collection-editor-20261109"
+        "revisionHash": "55f57515ca54e1e8c76f099b7af85f08811c7e9e5192dee7c7bfbabc3cf20a95",
+        "approvedAt": "2026-11-09T09:00:39.602Z",
+        "actorId": "codex-memocasting-christmas-editor-20261109"
       }
     },
     {
@@ -11713,7 +11721,7 @@
       "type": "guide",
       "slug": "gidai/kaledines-dovanos",
       "title": "Kalėdinės dovanos 2026: konkrečios idėjos pagal žmogų ir biudžetą",
-      "description": "Kalėdinės dovanos nuo 3,95 iki 50 €: konkretūs pasiūlymai, pasirinkimas mamai, vyrui, porai ir šeimai, biudžeto pavyzdžiai bei pirkimo patikra.",
+      "description": "Kalėdinių dovanų idėjos mamai, vyrui, porai ir šeimai: biudžeto pavyzdžiai, skirtingi pasiūlymai ir pirkimo patikra.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
@@ -11723,9 +11731,9 @@
         {
           "type": "list",
           "items": [
-            "Iki 10 €: medinis skirtukas MANDALA už 3,95 € arba 10 € knygų kuponas.",
+            "Iki 10 €: 10 € knygų kuponas. Medinis skirtukas MANDALA 2026 m. lapkričio 9 d. buvo neparduodamas; prieš rinkdamiesi patikrinkite jo prieinamumą.",
             "Iki 20 €: puodelis SAVONA PROVANCE už 14,99 € arba albumas „Šeimos medis“ už 18,90 € akcijos metu.",
-            "Bendrai veiklai: Codenames Duet už 22,99 €, Memocasting poros rinkinys už 32 € arba dirbtuvės dviem už 50 € akcijos metu."
+            "Bendrai veiklai: Codenames Duet patikros dieną kainavo 18,39 €, Memocasting poros rinkinys – 32 €, o dirbtuvės dviem – 50 € akcijos metu."
           ]
         },
         {
@@ -11803,7 +11811,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Žodžių žaidimas už 22,99 € tinka porai, kuri mėgsta spręsti užduotis. Didesnei kompanijai Just One – Tiktai Vienas kainuoja 26,99 € ir skirtas 3–7 žaidėjams. Prieš perkant būtina patikrinti, ar gavėjas jau neturi to paties leidimo. Papildymas neturėtų pakeisti savarankiško žaidimo, jei pagrindinės dėžutės namuose nėra."
+          "text": "Žodžių žaidimas Codenames Duet patikros dieną kainavo 18,39 € ir gali tikti porai, kuri mėgsta spręsti užduotis. Didesnei kompanijai Just One – Tiktai Vienas tuo metu kainavo 21,59 € ir yra skirtas 3–7 žaidėjams. Akcijos gali keistis. Prieš pirkdami patikrinkite, ar gavėjas jau neturi to paties leidimo."
         },
         {
           "type": "heading",
@@ -11829,7 +11837,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Pavyzdžiui, turint 35 € žaidimas už 22,99 € palieka 12,01 € pristatymui ir įpakavimui. Poros rinkinys už 32 € palieka 3 €. Antrasis variantas gali nebetilpti į galutinę ribą, todėl lyginkite krepšelio sumas, o ne vien prekių etiketes. Nurodytas likutis nėra pristatymo kainos pažadas."
+          "text": "Pavyzdžiui, turint 35 €, žaidimas, kuris patikros dieną kainavo 18,39 €, paliktų 16,61 € pristatymui ir įpakavimui. Poros rinkinys už 32 € paliktų 3 €. Prieš pirkdami palyginkite aktualias krepšelio sumas, o ne vien ankstesnes prekių kainas. Nurodyti likučiai yra pavyzdinis skaičiavimas, ne pristatymo kainos pažadas."
         },
         {
           "type": "heading",
@@ -11871,6 +11879,10 @@
         {
           "type": "paragraph",
           "text": "Kūrybinį rinkinį galite padėti po eglute neatidarytą. Tuomet gavėjai patys išsirinks veiklos dieną. Jei norite įteikti jau pagamintą rankų liejinį, procesą reikia pradėti anksčiau: susitikti, pasiruošti, suformuoti atspaudą, išlieti gipsą, išimti ir išdžiovinti darbą. Poros bei šeimos rinkinių receptuose numatytos 5–7 džiovinimo paros po išėmimo. Tai nėra bendras užsakymo gavimo ar visos dovanos pagaminimo terminas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei nusprendėte dovanoti rankų liejimo rinkinį, peržiūrėkite kalėdinių rankų liejimo dovanų atranką ir planą, kaip atskirti dovanos įteikimą nuo liejinio paruošimo."
         },
         {
           "type": "paragraph",
@@ -11928,7 +11940,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kainas ir aprašus tikrinome 2026 m. spalio 22 d. pardavėjų puslapiuose. Įtrauktos skirtingos paskirties dovanos; jų patys nebandėme ir neteikiame bandymų įvertinimų. Memocasting yra šios svetainės pardavėjas, todėl mūsų rinkinius aiškiai lyginame ir su kitomis dovanomis. Akcijos, likučiai ir pristatymo kainos gali keistis. Dovanų scenų iliustracijos nerodo konkrečių parduotuvių asortimento ar įsigyjamų modelių; tikrus gaminių vaizdus rasite pasiūlymų nuorodose."
+          "text": "Kainas, aprašus ir pasiūlymų būseną tikrinome 2026 m. lapkričio 9 d. pardavėjų puslapiuose. Įtrauktos skirtingos paskirties dovanos; jų patys nebandėme ir neteikiame bandymų įvertinimų. Memocasting yra šios svetainės pardavėjas, todėl mūsų rinkinius aiškiai lyginame ir su kitomis dovanomis. Akcijos, likučiai ir pristatymo kainos gali keistis. Dovanų scenų iliustracijos nerodo konkrečių parduotuvių asortimento ar įsigyjamų modelių; tikrus gaminių vaizdus rasite pasiūlymų nuorodose."
         }
       ],
       "publishAt": "2026-10-15T13:00:00.000Z",
@@ -12114,52 +12126,56 @@
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
           "label": "šeimos rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "a95e3915-a2af-442b-9266-7db5ef47d90a",
+          "label": "kalėdinių rankų liejimo dovanų atranką"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
           "label": "medinis skirtukas MANDALA",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/10-euru-dovanu-kuponas.html",
           "label": "10 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://gerduva.lt/puodelis-savona-provance-350-ml",
           "label": "SAVONA PROVANCE",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
           "label": "albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://www.brain-games.lt/products/codenames-duet-lt",
           "label": "Codenames Duet",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://www.brain-games.lt/products/tiktai-vienas",
           "label": "Just One – Tiktai Vienas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         },
         {
           "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
           "label": "tapybos ant keramikos dirbtuvės dviem",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "2026 m. lapkričio 9 d. peržiūrėtas šio pardavėjo prekės ar paslaugos puslapis. Kaina ir prieinamumas gali keistis."
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "eeb9d6973764026080eff5f3e39ec31057b7c3b3f3f7bf3ea12d965cd1d543ab",
+      "revisionHash": "7f6cc1785d43eb746286d0aa14d0fe681030cd9568ecc88c4b52e1587ff592c6",
       "approval": {
         "status": "approved",
-        "revisionHash": "eeb9d6973764026080eff5f3e39ec31057b7c3b3f3f7bf3ea12d965cd1d543ab",
-        "approvedAt": "2026-10-26T15:52:03.222Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "7f6cc1785d43eb746286d0aa14d0fe681030cd9568ecc88c4b52e1587ff592c6",
+        "approvedAt": "2026-11-09T09:00:39.527Z",
+        "actorId": "codex-memocasting-christmas-editor-20261109"
       }
     },
     {
@@ -32306,7 +32322,121 @@
         "approvedAt": "2026-11-09T08:04:25.713Z",
         "actorId": "codex-memocasting-collection-editor-20261109"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "service",
+      "slug": "dovanos/kaledoms",
+      "title": "Kalėdinės dovanos: rankų liejimo rinkiniai",
+      "description": "Palyginkite rankų liejimo rinkinius kalėdinei dovanai ir suplanuokite, kada įteikti rinkinį arba iš anksto pagamintą liejinį.",
+      "intent": "Išsirinkti tikrą rankų liejimo rinkinį Kalėdų dovanai ir atskirti jo įteikimo, liejimo bei džiovinimo terminus.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Po eglute galite padėti rankų liejimo rinkinį, o skulptūros kūrimo laiką gavėjai pasirinks patys. Čia rasite „Memory Casting“ rinkinius porai ir šeimai: dovanojate priemones kūrybai, o ne jau pagamintą liejinį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką gavėjas ras po eglute?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite padovanoti bendrą veiklą, įteikite neatidarytą rinkinį ir pasiūlykite kūrybos laiką pasirinkti drauge. Jei po eglute norite padėti jau baigtą skulptūrą, visą liejimą ir džiovinimą reikės suplanuoti iš anksto. Tai du skirtingi dovanojimo planai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kurį rinkinį rinktis?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dviem artimiems žmonėms, norintiems kurti kartu, pirmiausia palyginkite poros rinkinį: jame yra vienas alginato pakelis ir 1 200 g gipso.",
+            "Šeimos kompozicijai apsvarstykite šeimos rinkinį: jame yra po du alginato ir gipso pakelius. Rankų dydis ir pasirinkta poza lemia, ar sumanyta kompozicija bus patogi."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Balti dažai įeina į abu rinkinius. Prieš pirkdami peržiūrėkite prekės komplektaciją ir tuo metu galimus pasirinkimus. Jei neaišku, ar jūsų numatyta rankų padėtis tiks, susisiekite su mumis ir apibūdinkite sumanymą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Planuokite nuo įteikimo dienos atgal"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jei dovanosite neatidarytą rinkinį, iki įteikimo turite sulaukti siuntos. Bendrą kūrybą gavėjai gali nusikelti vėlesnei jiems patogiai dienai.",
+            "Jei dovanosite pagamintą skulptūrą, iki įteikimo suplanuokite siuntos gavimą, visų dalyvių susitikimą, pasiruošimą, liejimą, gipso stingimą, išėmimą, džiūvimą ir pasirinktą apdailą.",
+            "Abiejų rinkinių instrukcijose nurodyta: gipsas formoje stingsta vieną valandą; išimtas liejinys prieš dažant džiovinamas 5–7 paras, kol tampa baltas. Dažymo ir dažų džiūvimo laiką planuokite papildomai pagal naudojamus dažus."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: jei liejinį išimate gruodžio 17 d. 10 val., septynios džiovinimo paros sueina gruodžio 24 d. 10 val. Tai tik džiovinimo laikotarpio skaičiavimo pavyzdys – jis negarantuoja, kad darbas jau bus tinkamai išdžiūvęs, nudažytas ir paruoštas įteikti. Apdailai ir galimam ilgesniam džiūvimui planuokite papildomo laiko. Poros rinkinio instrukcija ir šeimos rinkinio instrukcija pateikia konkrečius darbo žingsnius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti, jei iki susitikimo liko nedaug laiko?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei jau turite neatidarytą rinkinį, galite įteikti jį kartu su kvietimu kurti vėliau. Jei norėtumėte dovanos su jau baigtu liejiniu, tačiau dar nesusitikote ar neišliejote formos, įvertinkite ir liejimo, ir džiūvimo laiką – kelių likusių dienų dažnai neužteks. Pasirinkite kitą dovanos formą, jei nebeturite galimybės ramiai pasiruošti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš užsakydami Kalėdoms"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pristatymo būdą, mokestį ir bendrą sumą matysite krepšelyje. Siuntimo laikas ir liejinio paruošimas yra atskiri etapai. Jei siunta turi atkeliauti iki konkrečios dienos, prieš pirkdami susisiekite ir pasitikslinkite galimybę; įprastas siuntos perdavimo terminas nėra pažadas pristatyti iki šventės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar palyginate skirtingus dovanų tipus, kalėdinių dovanų gidas padės išsirinkti pagal žmogų ir biudžetą. Šiame puslapyje pateikiame mūsų pačių rankų liejimo rinkinius."
+        }
+      ],
+      "publishAt": "2026-11-09T08:44:32.515Z",
+      "media": [],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "poros rinkinį"
+        },
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "šeimos rinkinį"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "Poros rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
+          "label": "šeimos rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "87bcedff-88d4-408a-a4d0-92b07bd75ec2",
+          "label": "susisiekite"
+        },
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "kalėdinių dovanų gidas"
+        }
+      ],
+      "id": "a95e3915-a2af-442b-9266-7db5ef47d90a",
+      "revisionHash": "e101c23e1477e73edb30681a28e4c6a8c8a66dcff32403f2d83df83ae5afa560",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "e101c23e1477e73edb30681a28e4c6a8c8a66dcff32403f2d83df83ae5afa560",
+        "approvedAt": "2026-11-09T09:00:39.453Z",
+        "actorId": "codex-memocasting-christmas-editor-20261109"
+      }
     }
   ],
-  "generatedAt": "2026-11-09T08:04:26.157Z"
+  "generatedAt": "2026-11-09T09:00:39.814Z"
 }
