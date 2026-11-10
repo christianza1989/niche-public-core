@@ -20,6 +20,14 @@ test('live default product offer uses current catalog cents, not editorial descr
  const configured={...product,optionGroups:[{id:'finish',label:'Spalva',defaultValue:'gold',values:[{id:'gold',label:'Auksinė',enabled:true,prices:{LT:300}}]}]};
  assert.equal(schema(memoApplyProductContent(page,configured,context)).offers.price,'35.00');
 });
+test('a live offer references only an eligible return policy and does not invent shipping times',()=>{
+ const live=memoApplyProductContent(page,product,context);
+ const returns={...page,type:'faq',slug:'grazinimas'};
+ const rich=pages=>memoSchemaGraph(pkg,live,pages,'MB Memocasting')['@graph'].find(n=>n['@type']==='Product');
+ assert.deepEqual(rich([live,returns]).offers.hasMerchantReturnPolicy,{'@id':'https://memocasting.lt/grazinimas#return-policy'});
+ assert.equal(rich([live]).offers.hasMerchantReturnPolicy,undefined);
+ assert.equal(rich([live,returns]).offers.shippingDetails,undefined);
+});
 test('closed, sandbox, unverifiable or other-market data cannot become a live Offer',()=>{
  for(const c of [undefined,{...context,environment:'sandbox'},{...context,testOnly:true},{...context,publishOffers:false},{...context,productionReady:false},{...context,paymentEnvironment:'test'},{...context,paymentAccountVerified:false},{...context,eligibleCountries:['PL']},{...context,eligibleCountries:'LT'}])assert.equal(schema(memoApplyProductContent(page,product,c)),undefined);
  for(const p of [{...product,enabled:false},{...product,available:-1},{...product,available:1.5},{...product,prices:{LT:0}},{...product,prices:{LT:'3200'}},{...product,prices:{LT:Number.MAX_SAFE_INTEGER+1}}])assert.equal(schema(memoApplyProductContent(page,p,context)),undefined);

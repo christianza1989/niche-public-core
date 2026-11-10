@@ -26,7 +26,7 @@ test('organization return policy follows eligible page at its boundary and after
   const eligible=projectPublicPages(source,[source],{},Date.parse(time));
   const graph=memoSchemaGraph(source,product,eligible,'MB Memocasting')['@graph'];
   const organization=graph.find(e=>e['@type']==='Organization');
-  assert.deepEqual(organization.hasMerchantReturnPolicy,expected?{'@type':'MerchantReturnPolicy',merchantReturnLink:'https://memocasting.lt/grazinimas'}:undefined);
+  assert.deepEqual(organization.hasMerchantReturnPolicy,expected?{'@type':'MerchantReturnPolicy','@id':'https://memocasting.lt/grazinimas#return-policy',merchantReturnLink:'https://memocasting.lt/grazinimas'}:undefined);
   assert.ok(!graph.some(e=>e['@type']==='Offer'));
  }
  const changed={...source,pages:[{...policy,revisionHash:'edited'}]};

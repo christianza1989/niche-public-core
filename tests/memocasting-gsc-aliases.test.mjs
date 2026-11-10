@@ -43,6 +43,20 @@ const scheduled=[
  ['/collections/dovana-dukrai','gidai/dovanos-dukrai'],
 ];
 
+test('additional historical collections redirect only to eligible relevant successors',()=>{
+ const catalogue={slug:'ranku-liejimo-rinkiniai',type:'faq'};
+ const mother={slug:'dovanos/mamai',type:'faq'};
+ for(const [oldPath,destination,page] of [
+  ['/collections/kitos-prekes','/ranku-liejimo-rinkiniai',catalogue],
+  ['/en/collections/dovanos-mamai','/dovanos/mamai',mother],
+ ]){
+  assert.equal(memoRedirectPath(oldPath,[page]),destination);
+  assert.equal(memoRedirectPath(oldPath,[]),null);
+  assert.equal(memoRedirectPath(oldPath,[page],'POST'),null);
+  assert.equal(memoRedirectPath(oldPath,[page,{slug:oldPath.slice(1)}]),null);
+ }
+});
+
 test('17 GSC forms are exact, single-target aliases to current public pages or the XML sitemap',()=>{
  const live=visible();
  assert.equal(immediate.length,17);
