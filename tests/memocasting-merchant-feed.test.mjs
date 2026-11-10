@@ -144,6 +144,7 @@ test('actual proxy reserves the feed before foreign gift, legacy and preview fal
   '@/lib/memocasting-routes.mjs':{memoRedirectUrl:()=>null},'@/lib/memocasting-homepage-assets.mjs':{memoHomepageAsset:()=>null},'@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted:()=>false},
   '@/lib/memocasting-instruction-documents.mjs':{memoInstructionDocument:()=>null,memoInstructionDocumentAlias:()=>false,memoInstructionRawDocumentPath:()=>false},
   '@/lib/memocasting-instagram-bridge.mjs':{instagramAction:()=>false},'@/config/niche-path-aliases.json':[],
+  '@/lib/o3tech-brand.mjs':await import('../lib/o3tech-brand.mjs'),
   '@/lib/niche-path-aliases.mjs':{indexNichePathAliases:()=>new Map(),nichePathAliasDestination:()=>null},
  };
  const {proxy}=await loadModule('../proxy.ts',modules);

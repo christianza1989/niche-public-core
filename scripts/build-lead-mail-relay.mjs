@@ -1,0 +1,12 @@
+import {build} from 'esbuild';
+import {mkdir,copyFile,readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {resolve} from 'node:path';
+const target=process.argv[2];if(!target)throw Error('An exclusive output directory is required');
+await mkdir(resolve(target));
+await build({entryPoints:['services/lead-mail-relay/server.mjs'],outfile:resolve(target,'server.mjs'),bundle:true,platform:'node',target:'node22',format:'esm',external:['express','mysql2/promise'],logLevel:'warning'});
+const paths=['services/lead-mail-relay/server.mjs','services/lead-mail-relay/relay.mjs','services/lead-mail-relay/package.json','services/lead-mail-relay/package-lock.json','lib/commerce-mail-gateway.mjs','lib/smtp-protocol.mjs'];
+const sources=[];for(const path of paths)sources.push({path,sha256:createHash('sha256').update(await readFile(path)).digest('hex')});
+for(const name of ['package.json','package-lock.json'])await copyFile('services/lead-mail-relay/'+name,resolve(target,name));
+await writeFile(resolve(target,'source-manifest.json'),JSON.stringify({sources},null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({status:'prepared',target,sources:sources.length}));

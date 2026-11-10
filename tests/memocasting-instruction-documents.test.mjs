@@ -103,6 +103,7 @@ async function loadProxy(candidate=pkg){
   '@/lib/memocasting-homepage-markup.mjs':{memoHomepageAdmitted:()=>false},
   '@/lib/memocasting-instruction-documents.mjs':{memoInstructionDocument,memoInstructionDocumentAlias,memoInstructionRawDocumentPath},
   '@/lib/memocasting-instagram-bridge.mjs':{instagramAction:()=>false},
+  '@/lib/o3tech-brand.mjs':await import('../lib/o3tech-brand.mjs'),
   '@/config/niche-path-aliases.json':[],
   '@/lib/niche-path-aliases.mjs':{indexNichePathAliases:()=>new Map(),nichePathAliasDestination:()=>null},
  };

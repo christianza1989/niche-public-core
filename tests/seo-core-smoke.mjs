@@ -12,7 +12,7 @@ const base = process.env.SEO_SMOKE_BASE_URL || "http://127.0.0.1:8787";
 const pkg = JSON.parse(await readFile(resolve(`content-packages/${siteId}/content-package.json`), "utf8"));
 const origin = `https://${pkg.canonicalHost}`;
 const packages = JSON.parse(await readFile(resolve('lib/generated/content-packages.json'), 'utf8'));
-const settings = JSON.parse(await readFile(resolve('config/niche-network.json'), 'utf8'));
+const settings = JSON.parse(await readFile(resolve('lib/generated/niche-network.json'), 'utf8'));
 const live = projectPublicPages(pkg, packages, settings);
 const indexable=memoIndexablePages(pkg,live);
 

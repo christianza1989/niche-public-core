@@ -6,6 +6,7 @@
   },
   "guidePublicationPausedAtBySite": {"promedical":"2026-10-13T19:26:54.000Z"},
   "contactsBySite": {
+    "o3tech":{"email":"sales@o3tech.lt","operatorName":"MB Anvera"},
     "promedical":{"email":"info@promedical.lt","operatorName":"Promedical"},
     "memocasting": {
       "operatorName": "MB Memocasting",

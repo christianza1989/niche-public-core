@@ -1,5 +1,5 @@
 import compiled from './generated/content-packages.json';
-import network from '../config/niche-network.json';
+import network from './generated/niche-network.json';
 import commerce from '../config/commerce-targets.json';
 import { projectContentPagesV2 } from './content-projection-v2.mjs';
 import { SITE_CONFIGS } from './site-config';

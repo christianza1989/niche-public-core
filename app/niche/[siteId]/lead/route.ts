@@ -4,6 +4,7 @@ import { publicSiteByHost, publicSitePage, publicSitePages } from "@/lib/public-
 import {memoLeadContext,memoLeadText} from '@/lib/memocasting-lead-response.mjs';
 import { nicheLeadRecipient, nicheNetworkContact } from "@/lib/niche-network";
 import { sendNicheLeadMail } from "@/lib/niche-mail";
+import { o3techInquiryMessage } from "@/lib/o3tech-inquiry.mjs";
 
 export const dynamic = "force-dynamic";
 
@@ -68,9 +69,9 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
   if (form.get("website")) return reply("Užklausa gauta.", 200);
   const name = String(form.get("name") || "").trim();
   const email = String(form.get("email") || "").trim();
-  const message = String(form.get("message") || "").trim();
-  if (name.length < 2 || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length < 20 || message.length > 3000 || form.get("consent") !== "yes") {
-    return reply("Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
+  const message = siteId === 'o3tech' ? o3techInquiryMessage(form) : String(form.get("message") || "").trim();
+  if (message === null || (siteId !== 'o3tech' && (name.length < 2 || message.length < 20)) || name.length > 100 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 250 || message.length > 3000 || form.get("consent") !== "yes") {
+    return reply(siteId === 'o3tech' ? "Patikrinkite formą ir bandykite dar kartą." : "Įrašykite vardą, veikiantį el. paštą, bent 20 ženklų žinutę ir pažymėkite sutikimą.", 400);
   }
   if (!env.DB) return reply("Užklausų sistema laikinai nepasiekiama. Parašykite svetainėje nurodytu el. paštu.", 503);
   let sourcePath = context ? String(form.get("source_path")) : "/";
@@ -87,7 +88,8 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
     return reply("Užklausos išsaugoti nepavyko. Parašykite svetainėje nurodytu el. paštu.", 503);
   }
   let notified = false;
-  if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_EMAIL) {
+  const transport = env.LEAD_EMAIL ? "cloudflare_email" : env.LEAD_MAIL_RELAY_ENABLED === "1" ? "https_relay" : "smtp";
+  if (env.LEAD_SMTP_ENABLED === "1" || env.LEAD_MAIL_RELAY_ENABLED === "1" || env.LEAD_EMAIL) {
     try {
       const mail = {
         id: leadId,
@@ -102,9 +104,9 @@ export async function POST(request: Request, { params }: { params: Params }): Pr
       if (!notified) throw new Error("mail not configured");
       await env.DB.prepare("UPDATE niche_leads SET status = 'notified' WHERE id = ? AND site_id = ?")
         .bind(leadId, siteId).run();
-      console.log(JSON.stringify({ event: "niche_lead_notified", siteId, leadId, transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
+      console.log(JSON.stringify({ event: "niche_lead_notified", siteId, leadId, transport }));
     } catch {
-      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport: env.LEAD_EMAIL ? "cloudflare_email" : "smtp" }));
+      console.error(JSON.stringify({ event: "niche_lead_notification_failed", siteId, leadId, code: "mail_failed", transport }));
     }
   }
   return reply(notified ? "Jūsų žinutė išsaugota ir perduota operatoriaus pašto serveriui. Atsakymui naudosime jūsų nurodytą el. paštą."

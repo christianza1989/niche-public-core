@@ -1,5 +1,6 @@
 import { copyFile, mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
+import {selectValidatedBuild} from '../lib/niche-build-scope.mjs';
 import { fileURLToPath } from "node:url";
 import { validateContentPackage } from "./content-package-core.mjs";
 import { validateV2Admission, assertPreviewSandbox } from './content-v2-admission.mjs';
@@ -12,6 +13,9 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const packagesRoot = path.join(root, "content-packages");
 const outputPath = path.join(root, "lib", "generated", "content-packages.json");
 const assetsRoot = path.join(root, "public", "content-assets");
+// Deployment selection narrows an artifact, never page publication eligibility.
+// All source packages still pass the same validators before selection.
+const buildSiteId = process.env.NICHE_BUILD_SITE_ID;
 
 const entries = await readdir(packagesRoot, { withFileTypes: true });
 const packages = [];
@@ -54,9 +58,14 @@ for (const entry of entries) {
 
 packages.sort((a, b) => a.siteId.localeCompare(b.siteId));
 for (const pkg of packages) if (pkg.siteId === promedicalCatalogue.siteId) validateProductCatalogue(promedicalCatalogue, pkg);
-validateGuidePublicationPauses(JSON.parse(await readFile(path.join(root,'config/niche-network.json'),'utf8')),packages);
+const network=JSON.parse(await readFile(path.join(root,'config/niche-network.json'),'utf8'));
+validateGuidePublicationPauses(network,packages);
 validateNichePathAliases(JSON.parse(await readFile(path.join(root,'config/niche-path-aliases.json'),'utf8')),packages);
 await mkdir(path.dirname(outputPath), { recursive: true });
-await writeFile(outputPath, `${JSON.stringify(packages)}\n`, "utf8");
-await writeFile(path.join(root,'lib/generated/content-admissions.json'),`${JSON.stringify(admissions)}\n`,'utf8');
-console.log(`Validated ${packages.length} approved site package(s).`);
+const selected=selectValidatedBuild(packages,admissions,network,buildSiteId);
+const selectedPackages=selected.packages;
+await writeFile(outputPath, `${JSON.stringify(selectedPackages)}\n`, "utf8");
+const selectedAdmissions=selected.admissions;
+await writeFile(path.join(root,'lib/generated/content-admissions.json'),`${JSON.stringify(selectedAdmissions)}\n`,'utf8');
+await writeFile(path.join(root,'lib/generated/niche-network.json'),`${JSON.stringify(selected.network)}\n`,'utf8');
+console.log(`Validated ${packages.length} approved site package(s); compiled ${selectedPackages.length}${buildSiteId?' for '+buildSiteId:''}.`);
