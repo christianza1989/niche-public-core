@@ -13539,140 +13539,73 @@
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-seimai",
-      "title": "Kalėdinės dovanos šeimai 2026: penkios bendros dovanos ir biudžetai",
-      "description": "Bendros dovanos šeimai: konkretūs žaidimai, albumas, arbata ir rankų liejimo rinkinys. Kaip patikrinti dalyvių skaičių ir nesupainioti kainos šeimai su kaina asmeniui.",
+      "title": "Kalėdinės dovanos šeimai 2026: 9 idėjos bendram laikui",
+      "description": "Kalėdinės dovanos šeimai: žaidimai, prisiminimų dovanos ir pramogos. Palyginkite pasiūlymų kainas, dalyvių skaičių ir sąlygas.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Bendra kalėdinė dovana šeimai turi įtraukti tuos žmones, kuriems ją dovanojate. Pirmiausia suskaičiuokite, kas ją naudos ir ar veikla visiems įdomi. Tuomet palyginkite galutinę kainą visai grupei. Žaidimas dviem ir veikla šeimai nėra tas pats, net jei abu parduodami dovanų skyriuje."
+          "text": "Ieškant kalėdinės dovanos šeimai lengva susitelkti į vieną gražiai supakuotą daiktą ir pamiršti svarbiausią klausimą: ar jis tiks žmonėms, kurie juo naudosis? Šeima gali būti du suaugusieji, kelios kartos ar artimieji, susitinkantys tik per šventes. Todėl verta pradėti nuo pomėgių, dalyvių skaičiaus ir laiko, kurį visi norėtų skirti dovanai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Žemiau palyginome konkrečius žaidimus, nuotraukų dovanas, vaišes ir pramogas. Prie kiekvienos idėjos rasite kainą, situaciją, kurioje ji gali tikti, ir atvejus, kai verta rinktis kitaip."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip atrinkome. Šį gidą rengia „Memory Casting“, kuri parduoda jame aprašomą šeimos rankų liejimo rinkinį. Todėl turime komercinį interesą jį pristatyti; kitų pardavėjų pasiūlymus įtraukėme palyginimui. Prekių ir paslaugų asmeniškai nebandėme. Nurodytas kainas ir sąlygas tikrinome 2026 m. lapkričio 11 d. Jos gali keistis, o pristatymas ir kitos papildomos išlaidos neįtraukti, nebent parašyta kitaip."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išrinkti vieną dovaną visai šeimai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš lygindami kainas atsakykite į keturis klausimus:"
         },
         {
           "type": "list",
           "items": [
-            "3–7 žmonių žodžių žaidimui: Just One – Tiktai Vienas už 26,99 €.",
-            "Dviejų suaugusiųjų vakarui: Codenames Duet už 22,99 €.",
-            "Bendrai istorijai: albumas nuo 18,90 € akcijos metu, jį iš anksto papildant nuotraukomis.",
-            "Kūrybiniam prisiminimui: Memocasting šeimos rinkinys už 48 €, balti dažai bazėje."
-          ]
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "1. Bendradarbiavimo žaidimas didesnei kompanijai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Just One – Tiktai Vienas kainuoja 26,99 € be narystės ir skirtas 3–7 žaidėjams. Rinkitės, jei šeimai patinka žodžių užuominos ir norisi bendro tikslo. Prieš perkant patikrinkite leidimo kalbą, gamintojo amžiaus žymėjimą ant konkrečios dėžutės ir tai, ar visi norės dalyvauti."
-        },
-        {
-          "type": "paragraph",
-          "text": "Dovanos gavėjams pasiūlykite paprastą pirmo vakaro planą: vienas perskaito taisykles iš anksto, visi išbando vieną partiją, o po jos nusprendžia, ar tęsti. Nenustatykite privalomo viso vakaro turnyro. Naujas pomėgis neturėtų virsti pareiga vien tam, kad dovana būtų panaudota."
-        },
-        {
-          "type": "image",
-          "assetId": "2d6ddf47-9152-4988-bf69-c82c8f2351b5"
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "2. Žaidimas dviem, kai „šeima“ reiškia porą"
-        },
-        {
-          "type": "paragraph",
-          "text": "Codenames Duet kainuoja 22,99 € ir tinka bendradarbiavimo užduotis mėgstantiems dviem suaugusiesiems. Tai sąmoningai atskiras pasirinkimas nuo didesnės grupės žaidimo. Jei per šventes susirinks šeši žmonės, nesirinkite jo vien tik pagal mažesnę kainą – pirmiau patikrinkite, kokiu formatu visi žais."
-        },
-        {
-          "type": "paragraph",
-          "text": "Mažoje šeimoje galima dovanoti vieną daiktą ir bendrą vakarą be didelio organizavimo. Jei norite, kad veikla tiktų ir atvykstantiems svečiams, paieškokite lankstesnio žaidėjų skaičiaus. Nesiremkite vien pardavėjo žodžiu „šeimai“: tai nepakankamas tinkamumo patikrinimas."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "3. Nuotraukų albumas, kurį pildo kelios kartos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Albumas „Šeimos medis“ su 40 baltų lapų patikros metu kainavo 18,90 € vietoje 26,90 €. Paruoškite pirmus keturis skyrius: namai, kelionės, šventės ir kasdienybė. Prie nuotraukos palikite vietos dviem skirtingiems tos akimirkos pasakojimams. Taip veikla nepriklauso nuo žaidimo taisyklių ir gali tęstis per kelis susitikimus."
-        },
-        {
-          "type": "paragraph",
-          "text": "Gavę leidimą, galite nuskenuoti senas nuotraukas; originalų nekarpykite ir neklijuokite neaptarę. Spausdinimą, tvirtinimą ir įpakavimą įvertinkite atskirai. Jei šeima nenori daugiau popierinių daiktų, tą patį atrankos darbą atlikite jų pasirinktoje skaitmeninėje saugykloje, iš anksto aptarę privatumą ir prieigą."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "4. Šeimos rankų liejimo rinkinys"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankų liejimo rinkinys šeimai kainuoja 48 €. Balti dažai įtraukti. Kitų spalvų pasirinkimus ir jų kainą tikrinkite produkto puslapyje; medinis padėklas šiuo metu išparduotas. Prieš perkant perskaitykite sudėtį ir instrukciją. Vien pavadinimas „šeimos“ nepatvirtina konkretaus vaikų amžiaus ar bet kokio rankų skaičiaus tinkamumo."
-        },
-        {
-          "type": "paragraph",
-          "text": "Šią dovaną rinkitės, jei šeima nori kurti skulptūrą ir sutinka skirti laiko pasiruošimui bei užbaigimui. Jei turite abejonių dėl konkrečios dalyvių sudėties, kreipkitės į Memocasting prieš pirkdami. Nedarykite sprendimo vien pagal iliustracijoje matomų rankų kiekį. Norintiems dviejų suaugusiųjų veiklos yra poros rinkinys už 32 €."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "5. Arbatos dovana be didelio veiklos plano"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rinkinys „Kreminio jaukumo Kalėdos“ už 17,45 € gali tikti šeimai, mėgstančiai kartu ragauti arbatą ir skanėstus. Tačiau bendra dėžutė neturėtų palikti vieno žmogaus be tinkamo pasirinkimo. Patikrinkite sudėtį, ypač jei yra alergijų ar kitų maisto apribojimų. Tai nėra visiems vaikams automatiškai tinkantis rinkinys."
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei pomėgiai skirtingi, geriau surinkite po vieną jau mėgstamą produktą kiekvienam ir trumpai užrašykite, kam jis skirtas. Kartais mažesnė, tačiau visus prisimenanti dovana yra taiklesnė už vieną brangią bendrą prekę."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip suskaičiuoti tikrą šeimos dovanos kainą?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Turint 50 € bendrą biudžetą, 26,99 € žaidimas palieka 23,01 € kitoms išlaidoms. 48 € šeimos rinkinys palieka 2 €, todėl pristatymas gali bendrą sumą padidinti virš ribos. Tai nėra rinkinių kainų palyginimas pagal kokybę – tik būdas iš anksto pamatyti galutinės sumos riziką."
-        },
-        {
-          "type": "paragraph",
-          "text": "Paslaugos atveju tikrinkite ne tik užrašą „nuo“, bet ir kiek žmonių į kainą įskaičiuota. Du bilietai šešių žmonių šeimai nėra šeimos dovana, jeigu likusiems reikės patiems primokėti. Iš anksto susitarkite, ar dovanojate visą patirtį, ar aiškiai įvardytą indėlį į ją."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Ką patikrinti dėl vaikų ir skirtingų poreikių?"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Konkretų gamintojo amžiaus ir naudojimo žymėjimą; skirtingų leidimų duomenys gali skirtis.",
-            "Ar mažiausiems reikės nuolatinės suaugusiojo pagalbos ir kas ją suteiks.",
-            "Ar visi moka pasirinkto žaidimo kalbą, ar mato ir patogiai pasiekia reikalingas detales.",
-            "Ar triukšmas, laiko trukmė ar fizinė aplinka netrukdys dalyvauti."
+            "Kas naudos? Pavyzdžiui, kuponas trims žmonėms automatiškai neapima ketvirtojo. Patikrinkite ir tai, ar pardavėjas nurodo konkrečią dalyvių sudėtį.",
+            "Ką šeima mėgsta veikti? Žodžių žaidimas tiks ne visiems, o išvyka gali būti nepatogi gyvenant toli. Jeigu nesate tikri, paklauskite bent vieno šeimos nario.",
+            "Ar dovana reikalauja darbo? Albumui reikės nuotraukų, kūrybos rinkiniui – pasiruošimo, o pramogai – registracijos ir kelionės. Kartu padovanokite pagalbą, jei galite jos imtis.",
+            "Kokia galutinė suma? Prie prekės kainos pridėkite pristatymą, nuotraukų spausdinimą, papildomus bilietus ar kelionę."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Įtrauki dovana nereiškia, kad visi privalo daryti tą patį. Galima pasiūlyti fotografuoti, padėti pasiruošti ar prisijungti kitame susitikime. Platesniam pasirinkimui tinka kalėdinės dovanos, dviem žmonėms – kalėdinės dovanos porai, o nedidelei sumai – nebrangios kalėdinės dovanos."
+          "text": "Jei dar sprendžiate tarp kelių šeimų ar kitų gavėjų, pravers bendras kalėdinių dovanų gidas. Rinkinių pasirinkimą taip pat galite palyginti kalėdinių dovanų šeimai kolekcijoje. Jeigu dovaną planuojate dviem, palyginkite ir kalėdines dovanas porai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Bendra dovana šeimai, kurioje skiriasi amžius ir pomėgiai"
+          "text": "1. Bendradarbiavimo žaidimas „Tiktai vienas“"
         },
         {
           "type": "paragraph",
-          "text": "Pirmiausia nuspręskite, ar visi turėtų veikti vienu metu. Žaidimui tai gali būti svarbu, o šeimos istorijų albumą galima pildyti per kelis susitikimus. Kūrybinėje veikloje skirtingi žmonės gali pasirinkti skirtingus vaidmenis, tačiau niekas neturėtų privalėti dalyvauti vien dėl bendros dovanos pavadinimo. Jauniausio žmogaus poreikiai ir suaugusiųjų noras padėti yra tokia pati pasirinkimo dalis kaip pati dovanos idėja."
+          "text": "„Pegaso“ žaidimo „Tiktai vienas“ pasiūlyme patikros metu buvo nurodyta 26,99 € kaina. Žaidėjai kartu padeda vienam žmogui atspėti žodį pagal užuominas; pardavėjo puslapyje leidinio kalba nurodyta lietuvių."
         },
         {
-          "type": "list",
-          "items": [
-            "Vienas bendras žaidimas: patikrinkite tikrą žaidėjų skaičių, kalbą ir konkretaus leidimo naudojimo nurodymus.",
-            "Vienas bendras kūrinys: aptarkite, kas norės prisidėti ir ar rinkinys tinka pasirinktai kompozicijai.",
-            "Vienas prisiminimų albumas: paruoškite pradžią ir palikite galimybę prisidėti vėliau, nereikalaudami vienos bendros datos.",
-            "Kelios mažos dovanos: pasirinkite po vieną kiekvieno mėgstamą dalyką ir aiškiai parodykite, kam jis skirtas."
-          ]
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuri mėgsta žodžių žaidimus ir nori veiklos, kurioje visi siekia bendro tikslo. Mažiau tinka: jei dalyviai nenori skaityti ar spėlioti žodžių arba šeimoje kalbama skirtingomis kalbomis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ką patikrinti: prieš pirkdami ir planuodami visos šeimos vakarą peržiūrėkite būtent gaunamo leidimo dėžutėje nurodytą žaidėjų skaičių arba paprašykite pardavėjo jį patikslinti. Taip pat peržiūrėkite gamintojo amžiaus ir smulkių detalių įspėjimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2. „Forbidden Island“ bendram nuotykiui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Forbidden Island“ pardavėjo puslapyje kainavo 21 €. Aprašyme nurodyta anglų kalba, 2–4 žaidėjai ir maždaug 30 minučių trukmė. Žaidėjai veikia kartu, siekdami surinkti lobius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuri mėgsta bendradarbiauti, sutinka skaityti taisykles anglų kalba ir nori žaidimo mažesnei grupei. Mažiau tinka: jei visi turi žaisti vienu metu, o susirinks daugiau žmonių, arba anglų kalba būtų kliūtis. Prieš perkant patikrinkite konkrečios dėžutės amžiaus rekomendacijas ir ar nereikės papildomo vertimo."
         },
         {
           "type": "heading",
@@ -13680,61 +13613,196 @@
           "text": "Rankų liejimo šeimai planas: nuo idėjos iki vietos namuose"
         },
         {
-          "type": "paragraph",
-          "text": "Prieš užsakydami aptarkite, kieno rankų kompoziciją norite išsaugoti. Tinkamumą lemia ne tik žmonių skaičius, bet ir rankų dydis bei pasirinkta padėtis. Pardavėjui galima aprašyti sumanymą, o gavus rinkinį padėtį išbandyti tuščiame inde. Jei dalyvauja vaikas, pasiruošimą ir eigą prižiūri suaugęs žmogus; nenustatome universalaus amžiaus vien pagal šeimos rinkinio pavadinimą."
+          "type": "heading",
+          "level": 3,
+          "text": "3. Rankų liejimo rinkinys šeimai"
         },
         {
           "type": "paragraph",
-          "text": "Šeimos komplektas kainuoja 48 €, jame yra du alginato ir du gipso pakeliai, o balti dažai įtraukti. Savo pasiruošimui naudokitės šeimos rinkinio instrukcija: jos receptas nėra automatiškai padvigubintas poros receptas. Išėmę liejinį numatykite 5–7 džiovinimo paras ir atskirą apdailą. Dar prieš liejimą verta numatyti stabilią vietą, kur darbas galės džiūti ir vėliau stovėti nepasiekiamas atsitiktinio smūgio."
+          "text": "Mūsų rankų liejimo rinkinys šeimai kainuoja 48 €; balti dažai įtraukti. „Memory Casting“ parduoda šį rinkinį. Tai priemonės kurti skulptūrą pagal instrukciją, o ne jau pagaminta skulptūra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuri norėtų kartu pasiruošti ir sukurti prisiminimą. Mažiau tinka: jei gavėjai nemėgsta kūrybinės veiklos, tikisi iš karto užbaigto gaminio ar neturi vietos jam džiovinti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš perkant aptarkite norimą rankų kompoziciją ir abejones dėl konkrečių dalyvių išsiaiškinkite su pardavėju. Žodis „šeimos“ pats savaime nepatvirtina nei konkretaus vaikų amžiaus, nei bet kokio rankų skaičiaus ar dydžio tinkamumo. Pasiruošti padės šeimos rinkinio instrukcija. Jei dalyvauja vaikai, veiklą organizuoja ir prižiūri suaugusieji. Pagal šeimos instrukciją išimtas liejinys prieš dažant džiovinamas 5–7 paras, kol tampa baltas. Prieš liejimą numatykite stabilią ir nuo atsitiktinių smūgių apsaugotą vietą, kur skulptūra galės ramiai džiūti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagal patikros metu skelbiamą 3,75 € „Omniva“ pristatymą Lietuvoje, bazinio rinkinio ir siuntos suma būtų 51,75 €, jei netaikoma nuolaida. Pristatymo sąlygas ir galutinę sumą pasitikrinkite prieš apmokėdami."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip padovanoti ir pirmą panaudojimą?"
+          "text": "4. Nuotraukų albumas su pradėta šeimos istorija"
         },
         {
           "type": "paragraph",
-          "text": "Prie dėžutės pridėkite trumpą pasiūlymą, kokią dalį organizavimo prisiimsite. Žaidimo atveju galite patys iš anksto perskaityti taisykles ir atvykti pirmai partijai. Albumui – surinkti pradines nuotraukas ir užrašyti, kas jose pavaizduota. Kūrybiniam rinkiniui – kartu perskaityti instrukciją, padėti paruošti priemones ir sutvarkyti po veiklos. Pažadas turi atitikti jūsų galimybes, kad dovana neliktų gražia užduotimi užimtiems tėvams."
+          "text": "Albumas „Šeimos medis“ patikros metu kainavo 18,90 € su akcija; pardavėjas nurodė 40 baltų lapų. Į kainą neįskaičiuojame nuotraukų spausdinimo ar tvirtinimo priemonių."
         },
         {
           "type": "paragraph",
-          "text": "Tarkime, keturi giminaičiai šeimos rinkiniui skiria po 12 €. Susidaro 48 € – tiek kainuoja pats bazinis produktas. Šis pavyzdys dar neapima pristatymo ar pasirinkto pakavimo. Organizatorius turėtų iš anksto patikrinti galutinę sumą ir aptarti, kas padengs papildomą dalį. Toks skaičiavimas padeda išvengti situacijos, kai surinkta suma tiksliai sutampa su prekės kaina, bet trūksta jos gavimui."
+          "text": "Tinka: šeimai, kuri mėgsta prisiminti keliones, šventes ir kasdienius nutikimus. Mažiau tinka: jei gavėjai nenori kaupti popierinių nuotraukų arba jums nepavyks surinkti jų sutikimo naudoti atvaizdus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užpildykite bent pirmus kelis puslapius: parinkite po dvi nuotraukas iš bendro susitikimo, kelionės ir paprastos kasdienybės. Prie kiekvienos užrašykite, ką prisimenate, o tikslių metų nespėliokite. Taip dovanojate jau parengtą pradžią, o ne darbą, kurį šeima turi atlikti iš karto."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Klausimai apie kalėdinę dovaną visai šeimai"
+          "text": "5. Viena įrėminta šeimos akimirka"
+        },
+        {
+          "type": "paragraph",
+          "text": "IKEA baltas RÖDALM rėmelis, 13 × 18 cm, kainavo 2,99 €. Nuotraukos ir jos spausdinimo kaina į šią sumą neįtraukta; pristatymo ar atsiėmimo galimybę pasirinktoje vietoje patikrinkite parduotuvėje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuri namuose mėgsta rodyti nuotraukas ir turi tinkamą vietą. Mažiau tinka: jei nežinote gavėjų interjero skonio, jie vengia viešai rodyti šeimos nuotraukas arba atvaizde esantys žmonės nesutinka jo naudoti. Geriau padovanoti vieną prasmingą, gavėjams mielą kadrą su trumpu užrašu nei įrėminti atsitiktinę nuotrauką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6. Arbatos ir skanėstų dėžutė bendram stalui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkinys „Kreminio jaukumo Kalėdos“ kainavo 17,45 €. Pardavėjas aprašo žaliąją arbatą, pistacijas, imbiero cukatus ir sausainius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kurios nariai mėgsta tokius skonius ir gali dalintis šiais produktais. Mažiau tinka: jei bent vienas gavėjas turi alergijų, vengia riešutų ar nemėgsta šios arbatos. Pistacijos gali sukelti alerginę reakciją, todėl perskaitykite visą pardavėjo sudėtį ir pakuotės alergenų informaciją. Jei abejojate, atskirai parinkite kiekvienam jau mėgstamą, jam tinkamą produktą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7. Alpakų edukacija trims arba keturiems Jonavoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Jonavos alpakų“ edukacija šeimai patikros metu kainavo 24 € trims arba 32 € keturiems. Pardavėjas nurodo vienos valandos veiklą ir išankstinę registraciją. Edukacijos dažniausiai vyksta šiltuoju sezonu, tad dovanojimo diena nebūtinai sutaps su apsilankymu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuriai patinka gyvūnai, laikas lauke ir kelionė į Jonavą. Mažiau tinka: jei kuris nors gavėjas bijo gyvūnų, šeimai nepatogi išvyka arba norima pramogos iš karto per Kalėdas. Pasitikrinkite pasirinkto kupono dalyvių sąlygas, datas ir aprangą; neneškite gyvūnams savo pašaro – pardavėjas nurodo jį suteikiantis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "8. Mini golfas keturiems Kaune"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interaktyvi mini golfo pramoga šeimai patikros metu kainavo 79 €. Pasiūlymas skirtas dviem suaugusiesiems ir dviem vaikams iki 12 metų, numatytas maždaug 40–50 minučių žaidimas, taip pat maistas ir gėrimai; būtina išankstinė registracija. Konkrečią sudėtį ir kupono galiojimą patikrinkite prieš pirkdami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: tokios sudėties šeimai, kuriai patogu atvykti į Kauną ir kuri mėgsta judrią bendrą veiklą. Mažiau tinka: jei šeimos sudėtis neatitinka kupono sąlygų, kuris nors dalyvis nenori žaisti arba biudžetas mažesnis nei bendra kaina. Iš anksto pasidomėkite patalpų prieinamumu ir maisto sudėtimi, jei yra alergijų ar kitų poreikių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "9. Knygyno kuponas šeimos skaitymo vakarui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Knygauk.lt 10 € elektroninis dovanų kuponas kainavo 10 €. Pardavėjas nurodo, kad kodas atsiunčiamas el. paštu. Ši suma yra indėlis į pasirenkamą pirkinį, o ne pažadas, kad už ją bus galima nupirkti knygą kiekvienam šeimos nariui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: šeimai, kuri skaito kartu ir nori pati pasirinkti knygą. Mažiau tinka: jei nežinote, ar jie naudosis šia parduotuve, arba dovanos gavėjai tikisi jau parinkto fizinio daikto. Patikrinkite kupono galiojimo sąlygas ir galimą pristatymo kainą; prie kodo galite pridėti pažadą kartu išsirinkti ir perskaityti knygą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip palyginti dovaną pagal žmonių skaičių?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žaidimą ir pramogą palyginkite ne pagal žodį „šeimai“, o pagal tikrą sudėtį:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jei dovanojate dviem, keturiems skirtas fiksuotos sudėties kuponas gali būti netinkamas. Ieškokite konkrečiai dviem skirto pasiūlymo.",
+            "Jei šeimoje trys žmonės, alpakų edukacijos puslapyje yra trijų dalyvių variantas už 24 € patikros dieną. Patikrinkite galimas papildomas sąlygas ir kelionės išlaidas.",
+            "Jei dovanojate keturiems, ne visi keturių vietų kuponai tinka bet kokiai sudėčiai. Mini golfo pavyzdyje pardavėjas nurodo du suaugusiuosius ir du vaikus iki 12 metų.",
+            "Jei šeimos narių daugiau, išsiaiškinkite papildomų vietų kainą prieš pirkdami; kitaip dalis šeimos gali likti be bilieto arba turėti primokėti."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitoms progoms ir įvairioms šeimos sudėtims skirtas bendros dovanos šeimai gidas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kiek iš tikrųjų kainuos bendra dovana?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš galutinį sprendimą pasidarykite mažą sąmatą. Tarkime, keturi žmonės surenka po 12 €: turimas biudžetas – 48 €. Mūsų šeimos rinkiniui su 3,75 € paštomato pristatymu reikėtų 51,75 €, todėl trūktų 3,75 €. Jeigu tą sumą pasidalytų keturiese, tai būtų papildomai apie 0,94 € vienam; dėl apvalinimo galutinį pasidalijimą susitarkite tarpusavyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "18,90 € albumui papildomai gali reikėti spausdinimo ir siuntimo, o 32 € keturių dalyvių edukacijai – kelionės. Sutaupyti padeda iš anksto nuspręsta visa riba, o ne vien mažesnė prekės kaina. Mažesniam biudžetui žvilgtelėkite į nebrangių kalėdinių dovanų gidą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip padovanoti ir pirmą bendrą vakarą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovana bus lengviau panaudojama, jei kartu pasiūlysite konkretų pirmą žingsnį, nepermesdami viso planavimo gavėjams. Prie žaidimo parašykite, kad perskaitysite taisykles ir paaiškinsite jas per pirmą susitikimą. Prie albumo pridėkite kelis užpildytus puslapius. Prie išvykos pasiūlykite du galimus savaitgalius ir paklauskite, kuris šeimai patogesnis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei nežinote, ar visi norės dalyvauti vienodai, palikite vietos pasirinkimui. Vienas gali fotografuoti, kitas padėti pasiruošti ar prisijungti vėliau. Bendras susitikimas neturi tapti prievole tiems, kuriems veikla nepatinka."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai apie kalėdines dovanas šeimai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar bendra dovana gali pakeisti atskiras dovanas vaikams?"
+          "text": "Ką dovanoti šeimai, kuri, atrodo, turi visko?"
         },
         {
           "type": "paragraph",
-          "text": "Tai šeimos susitarimas, kurį verta išsiaiškinti prieš perkant. Vien žodis „šeimai“ nepasako, ko tikisi kiekvienas gavėjas. Bendra veikla gali būti pagrindinė dovana arba papildymas, bet neturėtų netikėtai pakeisti jau sutarto individualaus pasirinkimo."
+          "text": "Pradėkite nuo to, kaip ji jau leidžia laiką. Gal tiktų atrinktos nuotraukos, suplanuotas susitikimas arba kūrybinė veikla. Jeigu šeima nenori daugiau daiktų, paklauskite, ar ji apskritai norėtų bendros patirties."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ką rinktis šeimai, kuri gyvena mažame būste?"
+          "text": "Ar viena dovana šeimai gali pakeisti atskiras dovanas?"
         },
         {
           "type": "paragraph",
-          "text": "Išsiaiškinkite, kur dovana bus laikoma ir naudojama. Gali labiau tikti kompaktiškas žaidimas, nedidelė paruošta nuotraukų atranka ar veikla už namų ribų. Kūrybinio rezultato vietą aptarkite prieš pirkdami, nes mažas pradinis rinkinys nereiškia, kad vėliau nereikės vietos darbui."
+          "text": "Tai priklauso nuo išankstinio šeimos susitarimo. Jei jau pažadėtos asmeninės dovanos, bendra dėžutė neturėtų jų netikėtai pakeisti. Galima derinti vieną veiklą kartu su mažomis asmeninėmis žinutėmis kiekvienam."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar visi turi dalyvauti vienodai?"
+          "text": "Ar rinktis šeimos rinkinį, ar rinkinį porai?"
         },
         {
           "type": "paragraph",
-          "text": "Ne. Veiklą galima rinktis taip, kad žmonės prisidėtų norimu būdu arba skirtingu laiku. Jei pati veikla įdomi tik vienam, sąžiningiau ją dovanoti jam asmeniškai, o likusiai šeimai parinkti kitą bendrą mintį."
+          "text": "Vertinkite norimą kompoziciją, rankų dydžius ir dalyvių poreikius, o ne vien rinkinio pavadinimą. Du žmonės gali svarstyti poros rinkinį; dėl šeimos kompozicijos tinkamumo verta pasitarti prieš perkant. Nė vienos iliustracijos nereikėtų laikyti konkretaus dalyvių skaičiaus garantija."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką daryti, kai dovanos reikia paskutinę minutę?"
         },
         {
           "type": "paragraph",
-          "text": "Kainas tikrinome 2026 m. spalio 22 d., siuntimas neįtrauktas. Pasiūlymų patys nebandėme; atranką grindžiame aprašais ir naudojimo situacijomis. Memocasting rinkiniai yra mūsų prekės. Iliustracijoje matomas bendras žaidimų vakaras, o ne konkretaus nurodyto žaidimo komplektacija."
+          "text": "Fizinės prekės atvykimo iki Kalėdų nežadėkite, kol pardavėjas nepatvirtino konkretaus termino. Elektroninis kuponas gali būti išeitis tik patikrinus jo galiojimą, įtrauktus dalyvius ir išsiuntimą. Jei laiko nebėra, galima įteikti savo paruoštą laišką ar jau turimų nuotraukų atranką ir sutarti dėl susitikimo vėliau."
         }
       ],
       "publishAt": "2026-10-17T13:00:00.000Z",
@@ -13842,189 +13910,166 @@
       ],
       "links": [
         {
-          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-          "label": "kalėdinės dovanos porai"
-        },
-        {
-          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-          "label": "nebrangios kalėdinės dovanos"
-        },
-        {
           "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
+          "label": "kalėdinių dovanų gidas"
+        },
+        {
+          "targetPageId": "7aa8e2c7-9a10-4b2f-b6e2-e52c10843431",
+          "label": "kalėdinių dovanų šeimai kolekcijoje"
         },
         {
           "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "Rankų liejimo rinkinys šeimai"
-        },
-        {
-          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "šeimos rinkinys"
-        },
-        {
-          "targetPageId": "52239986-e4fd-4b2c-bab4-496387a49216",
-          "label": "dovana šeimai"
-        },
-        {
-          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "šeimos rinkinio"
+          "label": "rankų liejimo rinkinys šeimai"
         },
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
           "label": "šeimos rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "24d9421d-e6d4-4d41-82a4-bcb850b81747",
+          "label": "Pristatymo sąlygas"
+        },
+        {
+          "targetPageId": "52239986-e4fd-4b2c-bab4-496387a49216",
+          "label": "bendros dovanos šeimai gidas"
+        },
+        {
+          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
+          "label": "nebrangių kalėdinių dovanų gidą"
+        },
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "poros rinkinį"
+        },
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdines dovanas porai"
         }
       ],
       "externalLinks": [
         {
-          "url": "https://www.brain-games.lt/products/tiktai-vienas",
-          "label": "Just One – Tiktai Vienas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.pegasas.lt/stalo-zaidimas-tiktai-vienas-just-one-5189204/",
+          "label": "„Pegaso“ žaidimo „Tiktai vienas“ pasiūlyme",
+          "reason": "Pardavėjo lietuviško stalo žaidimo aprašas ir 26,99 € kaina patikrinti 2026-11-11. Konkretaus leidimo ir pristatymo sąlygos gali keistis."
         },
         {
-          "url": "https://www.brain-games.lt/products/codenames-duet-lt",
-          "label": "Codenames Duet",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.stalozaidimai.eu/forbidden-island-stalo-zaidimas",
+          "label": "„Forbidden Island“",
+          "reason": "Pardavėjo anglų kalbos „Forbidden Island“ aprašas ir 21 € kaina patikrinti 2026-11-11. Konkretų likutį būtina pasitikrinti."
         },
         {
           "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
           "label": "Albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Nuotraukų albumo „Šeimos medis“ aprašas ir 18,90 € kaina patikrinti 2026-11-11. Kaina ir pristatymo sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/roedalm-remelis-balta-10548872/",
+          "label": "IKEA baltas RÖDALM rėmelis, 13 × 18 cm",
+          "reason": "IKEA RÖDALM 13 × 18 cm rėmelio duomenyse 2026-11-11 matyta 2,99 € kaina. Likutis ir pristatymas priklauso nuo vietovės."
         },
         {
           "url": "https://www.skonis-kvapas.lt/dovanos/sventiniai-rinkiniai/kreminio-jaukumo-kaledos",
-          "label": "„Kreminio jaukumo Kalėdos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "Rinkinys „Kreminio jaukumo Kalėdos“",
+          "reason": "Rinkinio su arbata ir gardėsiais aprašas bei 17,45 € kaina patikrinti 2026-11-11. Sudėtį ir alergenus patikrinkite prieš pirkdami."
+        },
+        {
+          "url": "https://www.geradovana.lt/alpaku-edukacija-jonavoje-seimai-jonavos-alpakos",
+          "label": "„Jonavos alpakų“ edukacija šeimai",
+          "reason": "Alpakų edukacijos 3 ir 4 asmenims pasirinkimai bei 24 € ir 32 € kainos patikrinti 2026-11-11. Laisvos datos nenustatytos."
+        },
+        {
+          "url": "https://www.geradovana.lt/interaktyvi-mini-golfo-pramoga-seimai-jungle-monkeyz-adventure-golf",
+          "label": "Interaktyvi mini golfo pramoga šeimai",
+          "reason": "Pardavėjo mini golfo 79 € pasiūlymas, dalyvių sudėtis ir rezervacijos sąlygos patikrinti 2026-11-11. Laisvos datos nenustatytos."
+        },
+        {
+          "url": "https://www.knygauk.lt/pagrindinis/3299-10-eur-vertes-dovanu-kuponas.html",
+          "label": "Knygauk.lt 10 € elektroninis dovanų kuponas",
+          "reason": "Knygyno 10 € elektroninio kupono aprašas ir kaina patikrinti 2026-11-11. Galiojimą ir panaudojimo sąlygas tikrinkite pardavėjo puslapyje."
         }
       ],
       "id": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-      "revisionHash": "7985781e5a24981daa093520f9a0aad7cdca69f7c6d938eaf1b70f4198cccd9d",
+      "revisionHash": "3b452643b1440f6e2d958b8cc5c4bb48342ac40794474a31d38947dacbd94e2d",
       "approval": {
         "status": "approved",
-        "revisionHash": "7985781e5a24981daa093520f9a0aad7cdca69f7c6d938eaf1b70f4198cccd9d",
-        "approvedAt": "2026-10-26T15:52:04.418Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "3b452643b1440f6e2d958b8cc5c4bb48342ac40794474a31d38947dacbd94e2d",
+        "approvedAt": "2026-11-11T14:17:07.463Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-porai",
-      "title": "Kalėdinės dovanos porai 2026: šeši pasirinkimai bendram laikui",
-      "description": "Dovanos porai nuo albumo iki dirbtuvių dviem: konkretūs pasiūlymai, kainos abiem žmonėms ir palyginimas pagal laiką, vietą bei pasiruošimą.",
+      "title": "Kalėdinės dovanos porai: 10 idėjų bendram laikui",
+      "description": "Konkrečios kalėdinių dovanų porai idėjos: palyginkite bendras veiklas, daiktus, kainas ir sąlygas prieš rinkdamiesi.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Kalėdinė dovana porai turėtų patikti abiem ir būti patogiai panaudojama. Prieš rinkdamiesi atskirkite tris dalykus: ar pora nori daikto, ar veiklos; ar gali vykti į kitą vietą; ar norės pasiruošti patys. Žemiau palyginame šešis pasirinkimus ir suskaičiuojame visos dovanos, o ne vieno dalyvio kainą."
+          "text": "Gera Kalėdų dovana porai nebūtinai turi būti didelė ar brangi. Svarbiau, kad ji tiktų abiem: vieniems patiks ramus vakaras namuose, kitiems – išvyka ar proga išmokti ką nors naujo. Prieš rinkdamiesi pagalvokite, kiek laiko žmonės norės skirti dovanai ir ar gali ja pasinaudoti savo mieste."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide pateikiame skirtingų pardavėjų konkrečias idėjas ir vieną mūsų pačių gaminamą rinkinį. „Memory Casting“ prekiauja rankų liejimo rinkiniais, todėl turime komercinį interesą juos pristatyti. Kitos dovanos įtrauktos tam, kad galėtumėte palyginti skirtingus pasirinkimus; čia nepateikiame teiginio, kad juos visus išbandėme asmeniškai. Kainas ir sąlygas tikrinome 2026 m. lapkričio 11 d. – prieš pirkdami patikrinkite jas pardavėjo svetainėje. Straipsnio iliustracijos yra bendro pobūdžio ir nevaizduoja konkrečių kitų pardavėjų prekių ar paslaugų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip greitai pasirinkti dovaną abiem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo to, ką pora iš tiesų mėgsta veikti kartu. Jei jų vakarai dažniau prabėga namuose, tiks žaidimas, pokalbių kortelės ar bendras kūrybos projektas. Jeigu jie mielai planuoja išvykas, praverstų termosas ar iš anksto suderinta patirtis mieste. Nežinodami pomėgių, rinkitės lankstų daiktą arba paslaugą, kurios datą gavėjai galės pasirinkti patys."
         },
         {
           "type": "list",
           "items": [
-            "Pakartojamam vakarui namuose: Codenames Duet už 22,99 €.",
-            "Bendram kūriniui: Memocasting poros rinkinys už 32 €, balti dažai įtraukti.",
-            "Vedamai veiklai Vilniuje: keramikos dekoravimas dviem už 50 € akcijos metu.",
-            "Prisiminimams be bendro grafiko: albumas nuo 18,90 € akcijos metu, papildomai paruošiant nuotraukas."
+            "Nedidelės dovanos — Dviejų puodelių ar gardėsių rinkinio — Alergenai ir ar porai tikrai reikia dar vienų puodelių",
+            "Bendro vakaro namuose — Žaidimo, pokalbių kortelių ar liejimo rinkinio — Ar abu mėgsta žaisti, kalbėtis arba kurti",
+            "Prisiminimų dovanos — Albumo arba pagal nuotraukas kuriamos fotoknygos — Kas parinks ir, jei reikia, atspausdins nuotraukas",
+            "Dovanos išvykai — Termoso arba kūrybinių dirbtuvių — Vieta, rezervacija, galiojimas ir kelionės išlaidos",
+            "Šventinės progos dviese — Vakarienės — Meniu, alergijos ir prieinami laikai"
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "1. Žodžių žaidimas tiems, kurie nori veiklos be išvykos"
+          "text": "1. Komandinis stalo žaidimas „Codenames Duet LT“"
         },
         {
           "type": "paragraph",
-          "text": "Codenames Duet kainuoja 22,99 € be klubo nuolaidos. Ši versija orientuota į bendradarbiavimą, todėl verta ją svarstyti porai, mėgstančiai kartu spręsti užduotis. Nepainiokite su kitomis to paties pavadinimo dėžutėmis. Prieš perkant patikrinkite kalbą ir turimą poros žaidimų kolekciją."
+          "text": "Jei pora mėgsta mąstyti kartu, „Codenames Duet LT“ kviečia du žaidėjus bendradarbiauti ieškant žodžių sąsajų. Pardavėjas nurodo lietuvių kalbą ir maždaug 15–30 minučių žaidimo trukmę. Patikros metu kaina buvo 22 €."
         },
         {
           "type": "paragraph",
-          "text": "Šio pasirinkimo privalumas – galima grįžti prie jo kitą vakarą. Silpnoji vieta – pomėgio atitikimas: jei vienas žmogus nemėgsta žodžių žaidimų, vien dviejų žaidėjų formatas dovanos neišgelbės. Tokiu atveju geriau rinktis nesusijusią veiklą arba du mažesnius individualius pasirinkimus."
+          "text": "Tinka: porai, kuriai patinka trumpi žodžių žaidimai ir komandinis sprendimas. Mažiau tinka: jei gavėjai nemėgsta stalo žaidimų ar norėtų visiškai ramaus vakaro be taisyklių. Puslapio prieinamumo informacija nebuvo vienareikšmė, todėl prieš užsakydami patikrinkite faktinį likutį bei pristatymo galimybes."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "2. Rankų skulptūros kūrimas dviem"
+          "text": "2. Pokalbių kortelės poroms"
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai kainuoja 32 €. Į kainą įeina balti dažai. Medinis padėklas šiuo metu išparduotas. Rinkinys nėra paruošta skulptūra. Porai reikės laikytis instrukcijos ir skirti dėmesio procesui bei darbo užbaigimui."
+          "text": "Kartais geriausia dovana – proga sustoti ir pasikalbėti. „Pokalbių gidas poroms“ pateikia klausimų bendram vakarui. Pasiūlykite gavėjams atsakinėti pasirinktinai: ne kiekvienas klausimas kiekvienam jaukus, ir jo galima tiesiog praleisti."
         },
         {
           "type": "paragraph",
-          "text": "Tai stipresnė dovana žmonėms, kurie vertina bendro prisiminimo kūrimą, negu tiems, kurie ieško jau pagaminto interjero daikto. Pasiūlykite konkrečią progą, bet datos neprimeskite. Jei nežinote, ar pora norėtų namuose kūrybinės veiklos, pirmiau parodykite pačią idėją. Rezultato iš anksto negarantuojame pagal iliustraciją."
+          "text": "Tinka: smalsiems žmonėms, mėgstantiems ramius pokalbius. Mažiau tinka: porai, kuri asmeniškus klausimus mieliau aptaria savaime arba tokio formato nemėgsta. Dabartinę kainą ir prieinamumą patikrinkite „Pegaso“ puslapyje; narystės pasiūlymų kaina gali skirtis nuo įprastos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "3. Keramikos dekoravimo dirbtuvės dviem"
+          "text": "3. Du puodeliai jaukiems rytams"
         },
         {
           "type": "paragraph",
-          "text": "Tapybos ant keramikos dirbtuvės dviem studijoje „Kūrybos laisvė“ Vilniuje patikros dieną kainavo 50 € vietoje 60 €. Nurodyta trukmė – viena valanda, dalyvių skaičius – du. Reikia išankstinės registracijos; čekio galiojimas – dvylika mėnesių. Tai patogus variantas, kai pora nori veiklos su mokytoju ir sutinka vykti į studiją."
+          "text": "IKEA GRÅRÄV rinkinyje yra du 34 cl puodeliai. Patikros metu už abu buvo nurodyta 6,99 €. Tai paprasta dovana porai, kuri kartu geria kavą ar arbatą; galite pridėti savo parašytą palinkėjimą arba pasirinktą arbatą."
         },
         {
           "type": "paragraph",
-          "text": "Prieš pirkdami pridėkite kelionės biudžetą ir pasitikrinkite, ar abi pusės turi tinkamų laisvų datų. Čekis dviem nereiškia bet kurią dieną rezervuotos vietos. Paveikslėlis šiame gide iliustruoja keramikos kūrybą ir nevaizduoja šio konkretaus užsiėmimo."
-        },
-        {
-          "type": "image",
-          "assetId": "9665e776-6c79-4514-a5e5-9322e2c644dc"
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "4. Jūsų užpildytas nuotraukų albumas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Albumas „Šeimos medis“ akcijos metu kainavo 18,90 €. Dovanokite jį porai su jų bendros kelionės, vestuvių ar kasdienių akimirkų atranka, jei turite teisę naudoti tuos kadrus. Nepalikite viso atrinkimo darbo gavėjams, kai žadate asmenišką prisiminimų dovaną. Kelių tuščių puslapių ateities planams visiškai pakanka."
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei poros nuotraukų neturite, neprašykite asmeninių failų vien tam, kad išlaikytumėte staigmeną. Galite susitarti atvirai arba rinktis kitą formatą. Albumo kaina neapima jūsų pasirinktų nuotraukų spausdinimo ir paruošimo."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "5. Du puodeliai jų bendram ritualui"
-        },
-        {
-          "type": "paragraph",
-          "text": "Du SAVONA PROVANCE puodeliai po 14,99 € sudaro 29,98 € prekių sumą. Šis pasirinkimas tinka, jei abiem patinka vienodas stilius ir jie iš tiesų naudos puodelius. Į 30 € galutinį biudžetą siuntimas nebetelpa, jei nėra tinkamo nemokamo atsiėmimo ar kitos pardavėjo sąlygos. Šio skirtumo nepaslėpkite po gražiu įpakavimu."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pasiteiraukite, ar pora nori vienodų, ar skirtingų puodelių. Vienam gali patikti espresso, kitam – didelis arbatos puodelis. Tada du skirtingi, pagal jų įprotį parinkti indai bus labiau asmeniški nei formaliai vienoda pora."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "6. Pasidalijamas arbatos rinkinys ir suplanuotas vakaras"
-        },
-        {
-          "type": "paragraph",
-          "text": "„Kreminio jaukumo Kalėdos“ už 17,45 € gali būti nedidelė bendra dovana porai, kuri mėgsta arbatą bei skanėstus. Prieš perkant svarbu žinoti maisto apribojimus ir perskaityti sudėtį. Skanėstų dėžutė savaime nėra veiklos planas: pridėkite pasirinktą filmą ar pasiūlymą kartu išsirinkti vakarienės receptą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Jei maisto pomėgiai skirtingi, geriau du nedideli mėgstami produktai negu vienas didelis atsitiktinis rinkinys. Nedėkite stipraus skonio ar alergizuojančio produkto vien tam, kad dovana būtų įvairesnė."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Palyginimas pagal tai, kiek pasiruošimo reikės"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Mažiausiai bendro grafiko reikalauja iš anksto paruoštas albumas arba puodeliai.",
-            "Laisvo vakaro, tačiau ne kelionės, reikės stalo žaidimui.",
-            "Pasiruošimo ir instrukcijos laikymosi reikės rankų liejimui.",
-            "Kelionės, rezervacijos ir suderintų datų reikės dirbtuvėms."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Pasirinkimas priklauso nuo poros, ne nuo to, kuri dovana atrodo įspūdingiausia. Jei abu nuolat užsiėmę, sutarkite lankstų planą. Jei dovaną įteikiate tėvams, daugiau bendros ir dviejų atskirų dovanų pavyzdžių rasite gide kalėdinės dovanos tėvams. Didesnei kompanijai skirta atranka kalėdinės dovanos šeimai."
+          "text": "Tinka: nedideliam biudžetui ir praktiškų daiktų mėgėjams. Mažiau tinka: jei pora jau turi mėgstamus puodelius ir nenori papildomų indų. Kainą nurodome už du puodelius, tačiau jų likutis ir pristatymas priklauso nuo pardavėjo nurodytos vietovės."
         },
         {
           "type": "heading",
@@ -14032,25 +14077,116 @@
           "text": "Neatidarytas rinkinys, bendras vakaras ar užbaigta skulptūra?"
         },
         {
-          "type": "paragraph",
-          "text": "Rankų liejimo idėją porai galima įteikti trimis skirtingais būdais. Neatidaryta dėžutė palieka jiems laisvę pasirinkti dieną. Suplanuotas kūrybos vakaras apima ir jūsų sutartą pagalbą, jeigu pora jos nori. Užbaigta skulptūra reiškia, kad pora jau dalyvavo liejime anksčiau, o dabar gali džiaugtis išdžiovintu ir paruoštu darbu. Šiuos formatus atskirkite dar rinkdamiesi dovaną."
+          "type": "heading",
+          "level": 3,
+          "text": "4. Rankų liejimo rinkinys porai"
         },
         {
           "type": "paragraph",
-          "text": "Pagal poros rinkinio instrukciją iš formos išimtas liejinys džiovinamas 5–7 paras, kol tampa baltas; dažymas atliekamas po to. Vienos valandos stingimas užpildytoje formoje nėra tas pats, kas galutinis džiovinimas. Jei iki Kalėdų trūksta laiko, dovanokite rinkinį būsimai veiklai, užuot trumpinę recepto etapus. Išėmimo ir džiovinimo gidas padės šiuos laikus atskirti."
+          "text": "Šią dovaną galima suprasti trimis būdais. Neatidarytas rinkinys palieka porai galimybę kūrimo dieną pasirinkti patiems. Galite kartu pasiūlyti konkretų bendrą vakarą, jei jie tokios pagalbos nori. Jau užbaigtą skulptūrą galėsite įteikti tik tuomet, jei pora liejime dalyvavo anksčiau ir skulptūra spėjo išdžiūti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mūsų „Memory Casting“ rinkinys porai skirtas dviem žmonėms patiems susikurti susikibusių rankų liejinį. Bazinė kaina – 32 €, balti dažai įeina į rinkinį. Dovanojate kūrybinę veiklą ir priemones, o ne jau pagamintą skulptūrą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: porai, kuri nori bendros veiklos namuose ir išsaugoti prisiminimą. Mažiau tinka: ieškant jau paruoštos dekoracijos arba jei abu nemėgsta rankdarbių. Prieš pradėdami perskaitykite poros rinkinio instrukciją. Liejinį prieš dažant reikia išdžiovinti – tam paprastai skiriama 5–7 dienos, kaip nurodyta instrukcijoje. Galutinę pristatymo kainą pasitikrinkite atsiskaitydami. Valanda, kol gipsas stingsta formoje, nėra tas pats, kas galutinis išdžiūvimas po išėmimo. Daugiau apie šiuos etapus pateikia išėmimo ir džiovinimo gidas."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Pavyzdys: kaip atrodo užbaigta 40 € dovanos mintis?"
+          "text": "5. Kalėdinis arbatos ir gardėsių rinkinys"
         },
         {
           "type": "paragraph",
-          "text": "Tarkime, galutinė riba yra 40 €. Poros rinkiniui už 32 € lieka 8 € gavimui ir pasirinktam pakavimui. Tai skaičiavimo pavyzdys, ne pristatymo kainos pasiūlymas. Dovaną gali užbaigti jūsų pačių parašytas kvietimas: kodėl norite išsaugoti šį ryšį ir kada abu galėtumėte tam skirti laiko. Jei faktinė krepšelio suma viršija ribą, paprastinkite pakavimą arba rinkitės kitą idėją, o ne palikite gavėjams netikėtą primokėjimą."
+          "text": "„Kreminio jaukumo Kalėdos“ iš „Skonis ir kvapas“ yra šventinis rinkinys su arbata ir gardėsiais. Patikros metu jis kainavo 17,45 €. Jį galima įteikti vieną arba pridėti prie bendro namų vakaro dovanos."
         },
         {
           "type": "paragraph",
-          "text": "Kitokiam poros norui galima pasirinkti žaidimą ir jūsų pasirūpintą pirmą vakarą. Tada vertinkite visą pasirinkto pasiūlymo gavimą ir tai, ar namuose jau nėra tos pačios dėžutės. Šių formatų nereikia matuoti vien daiktų kiekiu: viename kuriamas ilgiau užbaigiamas prisiminimas, kitame – pakartojama veikla. Geresnis yra tas, kurį abu iš tiesų norės naudoti."
+          "text": "Tinka: jei abu mėgsta dalytis užkandžiais ir arbata. Mažiau tinka: jeigu nežinote gavėjų mitybos poreikių. Rinkinyje yra pistacijų; prieš pirkdami peržiūrėkite visą sudėtį ir alergenus, o esant alergijoms pasitarkite su gavėjais. Likutį tikrinkite pardavėjo puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6. Vieno litro termosas pasivaikščiojimams"
+        },
+        {
+          "type": "paragraph",
+          "text": "Decathlon nerūdijančio plieno 1 l termosas patikros metu kainavo 17 €. Jis gali papildyti poros išvyką į mišką, pasivaikščiojimą ar kelionę automobiliu. Pridėję trumpą kvietimą kartu pasivaikščioti, paprastą daiktą paversite asmeniškesne dovana."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: porai, kuri mėgsta būti lauke ir dalytis karštu gėrimu. Mažiau tinka: jei abu jau naudoja mėgstamus termosus ar ieško itin kompaktiško varianto. Komplekte yra vienas puodelis, tad antrą, jei reikės, pasirūpinkite atskirai. Konkrečios parduotuvės likutį ir pristatymo terminą būtina patikrinti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7. Nuotraukų albumas, kurį pora užpildo pati"
+        },
+        {
+          "type": "paragraph",
+          "text": "Albumas „Šeimos medis“ – fizinis albumas prisiminimams. Patikros metu pardavėjas nurodė 18,90 € akcijos kainą ir likutį sandėlyje. Tai pasirinkimas tiems, kurie mieliau dėlioja atspausdintas nuotraukas patys, o ne kuria knygą kompiuteryje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: porai, turinčiai atspausdintų nuotraukų arba mėgstančiai pamažu jas rinkti. Mažiau tinka: jei norite iš karto paruoštos, jau nuotraukomis užpildytos knygos. Nuotraukų spausdinimas nėra įtrauktas; įvertinkite papildomą laiką ir kainą. Naudodami kitų žmonių nuotraukas, pirmiausia gaukite jų sutikimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "8. Individuali fotoknyga iš bendrų nuotraukų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite dovaną paruošti iš anksto, apsvarstykite „Zoombook“ fotoknygą. Pasirinksite formatą ir maketuosite puslapius iš savo nuotraukų. Kitaip nei tuščias albumas, ši dovana gavėjus pasiekia kaip jūsų parengta knyga."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: turintiems pakankamai kokybiškų nuotraukų ir laiko jas atrinkti. Mažiau tinka: kai neturite leidimo naudoti vaizdų arba Kalėdos jau čia pat. Kaina priklauso nuo formato, puslapių ir kitų pasirinkimų; ją bei gamybos ir pristatymo terminą patikrinkite prieš apmokėdami. Iš anksto apgalvokite, kurias asmenines akimirkas gavėjams būtų jauku matyti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "9. Keramikos tapymo dirbtuvės dviem Vilniuje"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Kūrybos laisvė“ keramikos tapymo dirbtuvės dviem patikros metu kainavo 50 € dviem. Pardavėjo aprašyme nurodytas Vilnius, maždaug vienos valandos trukmė ir 12 mėnesių kupono galiojimas; vizitą reikia rezervuoti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: porai, kuri mielai išbando kūrybinę veiklą už namų ribų. Mažiau tinka: gyvenantiems toli nuo Vilniaus arba nenorintiems planuoti vizito. Prieš pirkdami patikrinkite laisvus laikus ir pasiteiraukite organizatoriaus, kada ir kaip atsiimami dirbiniai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "10. Trijų patiekalų vakarienė dviem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šventinei progai galima rinktis vakarienę dviem „Botanist“. Patikros metu pardavėjas nurodė 79 € už du žmones, Vilnių, apie dvi valandas ir 12 mėnesių kupono galiojimą. Reikalinga išankstinė rezervacija."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: porai, kuri mėgsta vakarienes mieste ir turi galimybę atvykti į Vilnių. Mažiau tinka: jei nežinote jų mitybos poreikių arba jie nenori derinti vizito laiko. Prieš pirkdami peržiūrėkite aktualų meniu ir, esant alergijoms ar mitybos apribojimams, susisiekite su paslaugos teikėju."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pritaikyti dovaną savo biudžetui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: turint 40 € bendrą biudžetą, bazinis poros rinkinys už 32 € ir 3,75 € „Omniva“ pristatymas kartu sudarytų 35,75 €, o pakavimui liktų 4,25 €. Tai tik pavyzdys pasirinkus šį pristatymo būdą; galutinę sumą tikrinkite krepšelyje, nes ją gali pakeisti pasirinkimai ar nuolaida."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iki maždaug 25 € galite derinti smulkius, prasmingus pasirinkimus. Pavyzdžiui, patikros metu du IKEA puodeliai ir „Skonis ir kvapas“ gardėsių rinkinys kartu kainavo 24,44 €. Tai dviejų pardavėjų prekės, todėl atskirų pristatymų išlaidos į šią sumą neįtrauktos. Pirmiausia įsitikinkite, kad gavėjams tinka rinkinį sudarantys produktai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Turint daugiau lėšų galima rinktis veiklą – rankų liejimą namuose, keramikos dirbtuves ar vakarienę. Lyginkite visą kainą abiem: ar į ją įskaičiuoti abu dalyviai, ar reikės vykti į kitą miestą, pirkti papildomų priemonių arba mokėti už pristatymą. Originalumas pats savaime nepadeda, jei dovana gavėjams nepatogi."
         },
         {
           "type": "heading",
@@ -14059,47 +14195,61 @@
         },
         {
           "type": "paragraph",
-          "text": "Savo partneriui galite remtis jūsųdviejų pažįstamais įpročiais ir prisiminimais. Kitai porai skirtoje dovanoje svarbiau palikti pasirinkimo: nepriskirkite bendro pomėgio vien todėl, kad vienas žmogus jį paminėjo. Prie kūrybinio rinkinio tinka kvietimas pačiai porai išsirinkti datą ir kompoziciją. Jei dovanojate paslaugą, patikrinkite, ar abiem patogi jos vieta ir numatytas dalyvavimo formatas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pora, neseniai apsigyvenusi kartu, gali dar rinktis namų stilių. Tokiu atveju didelis dekoratyvus daiktas pagal jūsų skonį ne visada padės. Geriau parodyti idėją, pasiūlyti bendrą veiklą arba leisti pasirinkti iš dviejų jiems tinkamų variantų. Ilgai kartu gyvenančiai porai gali būti svarbesnė konkretaus laikotarpio istorija – kelionė, namai ar atnaujinta sena tradicija."
+          "text": "Savo partneriui galite remtis jau žinomais bendrais įpročiais ir prisiminimais. Dovanodami kitai porai nepriimkite sprendimo vien pagal vieno žmogaus pomėgį: pasidomėkite abiejų norais ir palikite jiems galimybę pasirinkti laiką. Dviejų žmonių patirčiai pasitikrinkite vietą ir galiojimą, o asmeniškas nuotraukas naudokite tik gavę sutikimą."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Klausimai apie Kalėdų dovaną porai"
+          "text": "Kada užsakyti Kalėdų dovaną ir ką patikrinti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš apmokėdami pasitikrinkite realų prekės likutį, pristatymo būdą ir pardavėjo nurodytą terminą. Individualiai gaminamiems daiktams, tokiems kaip fotoknyga, skirkite papildomo laiko maketavimui ir gamybai. Patirčiai svarbi vieta, rezervavimo tvarka ir kupono galiojimas, o maisto dovanai – sudėtis ir alergenai. Nė vieno pardavėjo pristatymo iki Kalėdų šiame gide negarantuojame."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovaną renkate ne vien porai, peržiūrėkite mūsų Kalėdų dovanų šeimai gidą arba idėjas tėvams. Daugiau mūsų rinkinių ir idėjų dviese rasite dovanų porai kolekcijoje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar dovana turi patikti abiem vienodai?"
+          "text": "Ką padovanoti porai, kuri viską turi?"
         },
         {
           "type": "paragraph",
-          "text": "Abu turėtų norėti ja naudotis arba dalyvauti. Nereikia vienodo entuziazmo dėl kiekvienos smulkmenos, tačiau vienas žmogus neturėtų būti įtrauktas tik iš mandagumo. Jei poreikiai labai skiriasi, dvi nedidelės dovanos gali būti taiklesnės."
+          "text": "Paieškokite bendros veiklos: žaidimo, kūrybinių dirbtuvių, vakarienės arba nuotraukų knygos. Geriausias pasirinkimas priklauso nuo jų pomėgių ir galimybės skirti tam laiko. Jei nežinote, paklauskite artimųjų – taip sumažinsite riziką padovanoti daiktą ar patirtį, kuri liks nepanaudota."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ką rinktis porai, kuri beveik neturi bendrų laisvų datų?"
+          "text": "Kokią dovaną porai rinktis, jei jos pomėgių nežinau?"
         },
         {
           "type": "paragraph",
-          "text": "Venkite iš anksto fiksuoto laiko paslaugų. Galite rinktis jau paruoštą prisiminimą arba priemones, kurias jie panaudos patys pasirinktu metu. Prieš dovanodami kuponą vis tiek patikrinkite galiojimą ir rezervacijos sąlygas."
+          "text": "Rinkitės nedidelę, lanksčią dovaną ir venkite labai asmeniškų sprendimų. Gardėsius rinkitės tik žinodami apie galimas alergijas; paslaugą – įsitikinę, kad jos vieta ir laikas gavėjams patogūs. Trumpas nuoširdus palinkėjimas padės dovaną pritaikyti porai."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar rankų liejimo rinkinys pristatomas su jau pagaminta skulptūra?"
+          "text": "Ar viena dovana abiem kainuos mažiau nei dvi atskiros?"
         },
         {
           "type": "paragraph",
-          "text": "Ne. Perkate medžiagas savo darbui sukurti pagal instrukciją. Produkto nuotraukos ir įkvėpimo iliustracijos padeda įsivaizduoti kompoziciją bei apdailą, bet nėra su dėžute pristatomas gatavas liejinys."
+          "text": "Nebūtinai. Bendras žaidimas ar du puodeliai gali kainuoti mažiau nei du atskiri daiktai, bet vakarienė, kelionė ar dirbtuvės gali kainuoti daugiau. Prie prekės ar paslaugos kainos pridėkite pristatymą, nuvykimą ir galimus papildomus pirkinius."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar poros rankų liejimo rinkinys tinka kaip paskutinės minutės dovana?"
         },
         {
           "type": "paragraph",
-          "text": "Kainos tikrintos 2026 m. spalio 22 d., pristatymas ir kelionės neįtraukti; akcijos gali baigtis. Tai pasirinkimo pagal aprašus gidas, ne atliktų bandymų reitingas. Memocasting poros rinkinys yra mūsų parduodama prekė, o kiti pasiūlymai pateikti palyginimui. Iliustracijos nėra konkrečių gaminių dokumentinės nuotraukos."
+          "text": "Tai priklauso nuo faktinio likučio ir pasirinkto pristatymo termino. Prieš užsakydami pasitikrinkite informaciją krepšelyje. Pats liejinys nesukuriamas akimirksniu: skirkite laiko procesui ir džiūvimui pagal instrukciją."
         }
       ],
       "publishAt": "2026-10-18T07:00:00.000Z",
@@ -14207,68 +14357,88 @@
       ],
       "links": [
         {
-          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-          "label": "kalėdinės dovanos šeimai"
-        },
-        {
-          "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
-          "label": "kalėdinės dovanos tėvams"
-        },
-        {
-          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
-        },
-        {
           "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "poros rinkinio"
+          "label": "„Memory Casting“ rinkinys porai"
         },
         {
           "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
           "label": "poros rinkinio instrukciją"
         },
         {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "Kalėdų dovanų šeimai gidą"
+        },
+        {
+          "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
+          "label": "idėjas tėvams"
+        },
+        {
+          "targetPageId": "89a86f17-bd4a-4539-9d38-fb5004c7abaa",
+          "label": "dovanų porai kolekcijoje"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "instrukciją"
+        },
+        {
           "targetPageId": "43b143fe-1ac7-4776-811e-1c5e99caa7a2",
-          "label": "Išėmimo ir džiovinimo gidas"
+          "label": "išėmimo ir džiovinimo gidas"
         }
       ],
       "externalLinks": [
         {
-          "url": "https://www.brain-games.lt/products/codenames-duet-lt",
-          "label": "Codenames Duet",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.stalozaidimai.eu/stalo-zaidimas-codenames-duet-lt",
+          "label": "„Codenames Duet LT“",
+          "reason": "„Codenames Duet LT“ aprašas ir 22 € kaina patikrinti 2026-11-11. Prieš pirkdami pasitikrinkite faktinį likutį."
         },
         {
-          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
-          "label": "Tapybos ant keramikos dirbtuvės dviem",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.pegasas.lt/pokalbiu-korteles-pokalbiu-gidas-poroms-5767659/",
+          "label": "„Pokalbių gidas poroms“",
+          "reason": "Pokalbių kortelių poroms aprašas peržiūrėtas 2026-11-11. Kainą, narystės sąlygas ir likutį patikrinkite pardavėjo puslapyje."
         },
         {
-          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
-          "label": "Albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.ikea.com/lt/lt/p/graraev-puodelis-ivairiu-spalvu-00638397/",
+          "label": "IKEA GRÅRÄV",
+          "reason": "Dviejų GRÅRÄV puodelių 6,99 € kaina ir talpa patikrintos 2026-11-11. Likutis ir pristatymas priklauso nuo vietovės."
         },
         {
           "url": "https://www.skonis-kvapas.lt/dovanos/sventiniai-rinkiniai/kreminio-jaukumo-kaledos",
           "label": "„Kreminio jaukumo Kalėdos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Šventinio rinkinio 17,45 € kaina ir sudėtis patikrintos 2026-11-11. Prieš pirkdami perskaitykite alergenus ir pristatymo sąlygas."
         },
         {
-          "url": "https://gerduva.lt/puodelis-savona-provance-350-ml",
-          "label": "SAVONA PROVANCE",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.decathlon.lt/p/108985-401941-nerudijancio-plieno-turistinis-termosas-su-puodeliu-1-litro-talpos-zalias.html",
+          "label": "Decathlon nerūdijančio plieno 1 l termosas",
+          "reason": "Žalias 1 l termosas su puodeliu ir 17 € kaina patikrinti pardavėjo svetainėje 2026-11-11. Likutis bei pristatymas pagal vietovę nepatvirtinti."
+        },
+        {
+          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
+          "label": "Albumas „Šeimos medis“",
+          "reason": "Albumo „Šeimos medis“ aprašas ir 18,90 € kaina patikrinti 2026-11-11. Nuotraukų spausdinimas ir pristatymas gali kainuoti papildomai."
+        },
+        {
+          "url": "https://www.zoombook.lt/fotoknygos/",
+          "label": "„Zoombook“ fotoknygą",
+          "reason": "Fotoknygų pasirinkimo ir konfigūravimo puslapis peržiūrėtas 2026-11-11. Kaina priklauso nuo pasirinktų parametrų."
+        },
+        {
+          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
+          "label": "„Kūrybos laisvė“ keramikos tapymo dirbtuvės dviem",
+          "reason": "Keramikos tapymo dviem pasiūlymas ir 50 € kaina patikrinti 2026-11-11. Laisvų vizitų datos nepatvirtintos."
+        },
+        {
+          "url": "https://www.geradovana.lt/triju-patiekalu-ispaniska-vakariene-dviem-botanist",
+          "label": "vakarienę dviem „Botanist“",
+          "reason": "Vakarienės dviem pasiūlymas ir 79 € kaina patikrinti 2026-11-11. Meniu ir laisvus vizitų laikus tikrinkite su pardavėju."
         }
       ],
       "id": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-      "revisionHash": "2fbd1f0fec63644a53ede6b2ddd9d9e74e86839936a076e90f8285d34ef37af7",
+      "revisionHash": "64d479a353b6561a2b97eda1ed8bec8d3e3cd888e51b276abcfdd214ac463054",
       "approval": {
         "status": "approved",
-        "revisionHash": "2fbd1f0fec63644a53ede6b2ddd9d9e74e86839936a076e90f8285d34ef37af7",
-        "approvedAt": "2026-10-26T15:52:04.263Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "64d479a353b6561a2b97eda1ed8bec8d3e3cd888e51b276abcfdd214ac463054",
+        "approvedAt": "2026-11-11T14:17:07.536Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -36498,5 +36668,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-11T14:03:35.473Z"
+  "generatedAt": "2026-11-11T14:17:07.733Z"
 }
