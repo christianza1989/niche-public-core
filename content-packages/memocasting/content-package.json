@@ -40836,7 +40836,436 @@
         "approvedAt": "2026-11-11T19:15:00.766Z",
         "actorId": "codex-memocasting-editor-20261111"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/linksmi-kalediniai-sveikinimai",
+      "title": "Linksmi kalėdiniai sveikinimai: šypsenai ir šiltam palinkėjimui",
+      "description": "Raskite linksmą kalėdinį sveikinimą šeimai, draugams ar kolegoms ir pritaikykite jį gavėjui.",
+      "intent": "Padėti pasirinkti gavėjui tinkamą šmaikštų sveikinimą ir jį suasmeninti.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šmaikštus kalėdinis sveikinimas gali pakelti nuotaiką ir vis tiek išlikti nuoširdus. Geriausiai veikia toks humoras, kuris suprantamas gavėjui ir nesiremia jo nesėkmėmis. Toliau rasite originalių minčių šeimai, draugams ir kolegoms – jas galite laisvai trumpinti ar papildyti savo žodžiais. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti tinkamą juoką?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalvokite apie tris dalykus: kas skaito, kokia jūsų draugystė ir ar juokelis bus suprantamas be paaiškinimo. Artimam žmogui tiks jūsų bendros istorijos užuomina; kolegai geriau rinktis lengvą, visiems suprantamą mintį. Venkite pastabų apie išvaizdą, pinigus, sveikatą ar kitus jautrius dalykus. Jei abejojate, humorą skirkite šventiniam chaosui, ne žmogui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi linksmi kalėdiniai sveikinimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Linkiu Kalėdų, per kurias sausainiai baigtųsi vėliau nei gera nuotaika!",
+            "Tegul šventinis planas būna paprastas: mažiau skubėti, daugiau ragauti.",
+            "Linksmų Kalėdų! Tegu eglutės lemputės susipainioja tik vieną kartą.",
+            "Linkiu tiek poilsio, kad net žadintuvas pasijustų pamirštas.",
+            "Tegul per šventes dingsta tik paskutinis mandarinas, o ne geras ūpas.",
+            "Gražių Kalėdų! Linkiu dovanų be skubėjimo ir arbatos, kuri nespėja atšalti."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šmaikštūs sveikinimai šeimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mielieji, linkiu mums švenčių, kai visiems gera kartu, o paskutinį pyrago gabalėlį draugiškai pasidalijame.",
+            "Tegul šeimos pokalbiai būna ilgi, lėkštės pilnos, o indų plovimo komanda – savanoriška!",
+            "Linksmų Kalėdų mūsų komandai! Jūs geriausiai mokate paversti vakarienę istorija, kurią pasakojame dar metus.",
+            "Linkiu jaukaus vakaro, kai dovanos supakuotos, stalas padengtas ir pagaliau galime paklausti: o kur padėjome žirkles?",
+            "Tegul šios Kalėdos dovanoja daug juoko, mažai tvarkaraščių ir bent vieną bendrą nuotrauką be mirksinčių akių."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Linksmi palinkėjimai draugams"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Drauge, linkiu švenčių, per kurias vienintelis rimtas klausimas būtų: vienas sausainis ar dar du?",
+            "Tegul Kalėdų Senelis žino tavo adresą, o navigacija šiemet jo nesupainioja su kaimynų.",
+            "Linkiu tokio ramaus gruodžio vakaro, kad net telefonas pats nuspręstų pailsėti.",
+            "Švęskime taip, kad rytoj liktų ne tik skanus pyragas, bet ir dar viena gera istorija.",
+            "Linksmų Kalėdų! Jei sniego nebus, šventinę nuotaiką suorganizuosime patys."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pagarbus humoras kolegoms"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Linkiu per šventes užverti visas darbų korteles, išskyrus tą, kurioje parašyta „pailsėti“.",
+            "Tegul šventinė pertrauka būna ilgesnė už eilę prie kavos aparato pirmadienį.",
+            "Ačiū už bendrus darbus! Linkiu Kalėdų, kuriose susitikimų yra tik prie vaišių stalo.",
+            "Tegul gruodžio planuose lieka viena skubi užduotis: rasti laiko gerai nuotaikai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką rašyti, jei sveikinate pavėluotai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavėlavimą paminėkite lengvai, o dėmesį skirkite gavėjui. Pavyzdžiui: „Mano sveikinimas pasirinko ramesnį kelią, bet linkėjimai tokie pat šilti. Jaukių šventinių dienų!“ Arba: „Šventinis paštas truputį užtruko – linkiu, kad poilsio ir geros nuotaikos dar pakaktų ilgam.“"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sukurti savą linksmą sveikinimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite vieną bendrą, malonią detalę, pridėkite lengvą netikėtumą ir užbaikite nuoširdžiu palinkėjimu. Pavyzdžiui, jei kartu kasmet kepate sausainius, galima rašyti: „Tegul šiemet sausainiai spėja atvėsti prieš mūsų degustaciją. Jaukių ir linksmų Kalėdų!“ Įrašykite tik tokią istoriją, kurią gavėjas prisimins su šypsena."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei sveikinimą dedate prie dovanos, pasisemkite minčių kalėdinių dovanų gide arba sužinokite, kaip supakuoti kalėdinę dovaną. „Memory Casting“ prekiauja rankų liejimo rinkiniais, tačiau sveikinimą galite naudoti ir nieko nepirkdami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar linksmas sveikinimas tinka vyresniems artimiesiems?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip, jeigu humoras atitinka žmogaus skonį. Rinkitės draugišką šventinę situaciją ir venkite juokelių apie amžių."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar šmaikštus sveikinimas tinka darbiniam laiškui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka lengvas, visiems suprantamas humoras, ypač kai santykiai neformalūs. Kai abejojate, pirmenybę teikite paprastam šiltam palinkėjimui."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip sutrumpinti tekstą žinutei?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palikite vieną juokingą detalę ir vieną palinkėjimą. Prieš siųsdami perskaitykite tekstą be asmeninio konteksto: jei mintis aiški, žinutė paruošta."
+        }
+      ],
+      "publishAt": "2026-11-21T14:00:00.000Z",
+      "media": [
+        {
+          "id": "8de91ab0-a8ee-40ab-9353-20186b358616",
+          "src": "/content-assets/memocasting/8de91ab0-a8ee-40ab-9353-20186b358616.webp",
+          "alt": "Keturi draugai juokiasi šventinėmis šviesomis papuoštoje apsnigtoje miesto aikštėje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "1352ef6d-59c2-4473-baa2-58af18906801"
+        },
+        {
+          "id": "be1e26eb-0097-477a-82be-767f3ebce3a5",
+          "src": "/content-assets/memocasting/be1e26eb-0097-477a-82be-767f3ebce3a5.webp",
+          "alt": "Keturi draugai juokiasi šventinėmis šviesomis papuoštoje apsnigtoje miesto aikštėje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "1352ef6d-59c2-4473-baa2-58af18906801"
+        },
+        {
+          "id": "46e611ba-4dc5-4dd7-8924-59ceca98490e",
+          "src": "/content-assets/memocasting/46e611ba-4dc5-4dd7-8924-59ceca98490e.webp",
+          "alt": "Keturi draugai juokiasi šventinėmis šviesomis papuoštoje apsnigtoje miesto aikštėje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "1352ef6d-59c2-4473-baa2-58af18906801"
+        },
+        {
+          "id": "60680e04-4fe6-4599-9a5f-760af23de5f2",
+          "src": "/content-assets/memocasting/60680e04-4fe6-4599-9a5f-760af23de5f2.webp",
+          "alt": "Keturi draugai juokiasi šventinėmis šviesomis papuoštoje apsnigtoje miesto aikštėje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "1352ef6d-59c2-4473-baa2-58af18906801"
+        },
+        {
+          "id": "19078c2e-7163-4cd9-ae99-9e930b02f996",
+          "src": "/content-assets/memocasting/19078c2e-7163-4cd9-ae99-9e930b02f996.webp",
+          "alt": "Keturi draugai juokiasi šventinėmis šviesomis papuoštoje apsnigtoje miesto aikštėje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "1352ef6d-59c2-4473-baa2-58af18906801"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "kalėdinių dovanų gide"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "kaip supakuoti kalėdinę dovaną"
+        }
+      ],
+      "id": "abc6e7c4-6383-4ae9-bae9-fc784fa34007",
+      "revisionHash": "299481a87f82f97d02026509868be2d14fe60a9d42bd1719293589ffcf3ce9e0",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "299481a87f82f97d02026509868be2d14fe60a9d42bd1719293589ffcf3ce9e0",
+        "approvedAt": "2026-11-11T19:32:59.225Z",
+        "actorId": "codex-memocasting-editor-20261111"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-seimai",
+      "title": "Kalėdiniai sveikinimai šeimai: žodžiai bendram laikui ir artumui per atstumą",
+      "description": "Išsirinkite nuoširdų kalėdinį sveikinimą visai šeimai: žinutei, prie stalo ar artimiesiems per atstumą.",
+      "intent": "Padėti pasirinkti ir suasmeninti visai šeimai tinkamą sveikinimą skirtingose situacijose.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Šeimai skirtas kalėdinis sveikinimas gali būti ilgesnis laiškas, keli sakiniai prie šventinio stalo arba trumpa žinutė, kai šiemet susitikti nepavyksta. Svarbiausia – pasirinkti žodžius, kurie tinka būtent jūsų santykiui. Pateikiame originalius pavyzdžius ir būdus juos suasmeninti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išsirinkti sveikinimą visai šeimai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia nuspręskite, ką norite pabrėžti: dėkingumą, bendrą laiką, ryšį per atstumą ar paprastą linkėjimą kitoms dienoms. Kreipkitės taip, kaip jūsų šeima pati save vadina. Sveikinime nebūtina vardyti šeimos narių vaidmenų ar manyti, kad visi gyvena kartu. Jei žinote, kad laikotarpis sunkus, rinkitės ramius žodžius ir venkite reikalavimo džiaugtis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šilti kalėdiniai sveikinimai šeimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mielieji, linkiu mums laiko išklausyti vieniems kitus, pasidalyti šiluma ir ramiai pabūti drauge. Jaukių Kalėdų!",
+            "Ačiū, kad kasdieniais mažais dalykais kuriate vietą, į kurią gera sugrįžti. Šviesių švenčių visai mūsų šeimai.",
+            "Tegul šios Kalėdos atneša pokalbių, kuriems nereikia skubėti, ir akimirkų, kurias norėsis prisiminti.",
+            "Linkiu, kad šventinėmis dienomis visi rastume šilumos, supratimo ir laiko sau bei vieni kitiems.",
+            "Mano šeimai – švelnių Kalėdų, daug artumo ir mažų kasdienybės džiaugsmų, kurie lieka ilgam.",
+            "Tegul mūsų šventes puošia ne tik lemputės, bet ir rūpestis, kurį taip gera jausti tarp savų."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi sveikinimai šeimos žinutei"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jaukių Kalėdų visiems, kuriuos vadinu savo šeima!",
+            "Šilumos mūsų namams ir laiko vieni kitiems.",
+            "Linkiu mums ramaus šventinio ryto ir gražių pokalbių.",
+            "Mano mintys šiandien su jumis. Šviesių Kalėdų!",
+            "Tegul šeimos juokas sušildo ir šalčiausią žiemos vakarą.",
+            "Ačiū, kad esame vieni kitų gyvenime. Gražių švenčių!"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai šeima švenčia skirtingose vietose"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nors šiemet mūsų stalai skirtingi, siunčiu jums visą savo šventinę šilumą. Tikiuosi greitai išgirsti jūsų balsus.",
+            "Šiandien prisimenu mūsų bendrus vakarus ir siunčiu linkėjimus į kiekvienus jūsų namus. Jaukių Kalėdų!",
+            "Atstumas nekeičia to, kaip gera žinoti, kad esate. Linkiu ramios šventės ir laukiu kito mūsų pokalbio.",
+            "Kad ir kur šiandien švenčiame, turime bendrų istorijų, kurias galime pratęsti. Šilčiausi linkėjimai jums."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu tinka jūsų šeimai, prie žinutės pridėkite konkretų kvietimą: „Gal rytoj rasime laiko trumpai susiskambinti?“ Siūlykite, o ne reikalaukite – šventiniai planai gali skirtis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasakyti šeimai prie šventinio stalo?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pakelkime puodelius už tai, kad randame laiko susitikti, kalbėtis ir rūpintis vieni kitais. Gražių Kalėdų!",
+            "Džiaugiuosi šiuo vakaru ir kiekvienu čia esančiu žmogumi. Linkiu, kad mūsų namuose netrūktų supratimo.",
+            "Šį vakarą noriu padėkoti už bendras istorijas ir palinkėti dar daug gražių akimirkų. Šviesių mums švenčių!",
+            "Linkiu, kad už šio stalo užtektų vietos ir juokui, ir ramiam pokalbiui. Su Kalėdomis!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpam tostui pakanka vienos padėkos ir vieno palinkėjimo. Nebūtina kalbėti ilgai ar minėti dalykų, kurių artimieji nenorėtų aptarinėti viešai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimas, kai metai buvo nelengvi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Šiemet visko buvo daug. Linkiu mums ramių dienų ir žinojimo, kad prireikus galime kreiptis vieni į kitus.",
+            "Nereikia tobulos šventės. Linkiu švelnaus vakaro ir tiek ramybės, kiek jos šiandien įmanoma rasti.",
+            "Galvojame apie jus ir siunčiame šiltą apkabinimą. Tebūna šios dienos kuo ramesnės.",
+            "Dėkoju, kad net sunkiomis dienomis randame būdų palaikyti vieni kitus. Jaukių Kalėdų."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip parašyti asmeninį sveikinimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite vieną tikrą prisiminimą, įvardykite, kuo jis jums svarbus, ir pridėkite paprastą linkėjimą. Pavyzdžiui: „Prisimenu mūsų rudens pasivaikščiojimą ir pokalbį grįžtant namo. Man buvo gera taip neskubant pabūti kartu. Linkiu mums daugiau tokių ramių dienų.“ Pakeiskite prisiminimą savo patirtimi; neprivalote rašyti iškilmingai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ieškote būdo pratęsti bendrą laiką, peržiūrėkite kalėdinių dovanų šeimai idėjas arba bendrą kalėdinių dovanų gidą. „Memory Casting“ parduoda rankų liejimo rinkinius; sveikinimams pasinaudoti galite ir neįsigydami prekės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar galima vienu sveikinimu kreiptis į visą šeimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip. Kreipinys „mielieji“ ar jūsų šeimai įprastas vardas tinka, jeigu žinutę norite skirti visiems. Konkretus bendras prisiminimas suteiks jai daugiau asmeniškumo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip pasveikinti artimuosius, su kuriais nesusitiksime?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paminėkite, kad galvojate apie juos, ir, jei norite, pasiūlykite skambutį. Gerbkite kitų galimybes ir neverskite jų aiškintis dėl planų."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką rašyti, jei nežinau, ar žmogus nusiteikęs šventiškai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės ramų, neutralų palinkėjimą: „Linkiu kuo ramesnių dienų ir siunčiu šiltų minčių.“ Taip paliksite vietos įvairiems jausmams."
+        }
+      ],
+      "publishAt": "2026-11-22T14:00:00.000Z",
+      "media": [
+        {
+          "id": "98a3c0bf-ccf2-4775-b92f-7dba3d6bd759",
+          "src": "/content-assets/memocasting/98a3c0bf-ccf2-4775-b92f-7dba3d6bd759.webp",
+          "alt": "Įvairaus amžiaus šeimos nariai džiaugsmingai sveikinasi žaliuojančiame botanikos sode.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "5d68e4a0-2a69-4e22-b02c-2ebdad188c48"
+        },
+        {
+          "id": "ceac831d-ebed-4022-96fa-4e1acc1e9a6c",
+          "src": "/content-assets/memocasting/ceac831d-ebed-4022-96fa-4e1acc1e9a6c.webp",
+          "alt": "Įvairaus amžiaus šeimos nariai džiaugsmingai sveikinasi žaliuojančiame botanikos sode.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "5d68e4a0-2a69-4e22-b02c-2ebdad188c48"
+        },
+        {
+          "id": "b1367651-7055-4b7b-aac3-1a8b12652f92",
+          "src": "/content-assets/memocasting/b1367651-7055-4b7b-aac3-1a8b12652f92.webp",
+          "alt": "Įvairaus amžiaus šeimos nariai džiaugsmingai sveikinasi žaliuojančiame botanikos sode.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "5d68e4a0-2a69-4e22-b02c-2ebdad188c48"
+        },
+        {
+          "id": "e100459e-7427-4fa4-88cd-a79bd8044e4a",
+          "src": "/content-assets/memocasting/e100459e-7427-4fa4-88cd-a79bd8044e4a.webp",
+          "alt": "Įvairaus amžiaus šeimos nariai džiaugsmingai sveikinasi žaliuojančiame botanikos sode.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "5d68e4a0-2a69-4e22-b02c-2ebdad188c48"
+        },
+        {
+          "id": "c739c762-818d-4559-ba7c-d877c79bd9bc",
+          "src": "/content-assets/memocasting/c739c762-818d-4559-ba7c-d877c79bd9bc.webp",
+          "alt": "Įvairaus amžiaus šeimos nariai džiaugsmingai sveikinasi žaliuojančiame botanikos sode.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "5d68e4a0-2a69-4e22-b02c-2ebdad188c48"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai idėjas"
+        },
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "bendrą kalėdinių dovanų gidą"
+        }
+      ],
+      "id": "c4b4b48f-dc31-4f5a-a412-d1b0e557e2e4",
+      "revisionHash": "7a2b9f239f7f925162e69200590f0a5ad60b678d2f2f286d2a5b45136c0d6308",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7a2b9f239f7f925162e69200590f0a5ad60b678d2f2f286d2a5b45136c0d6308",
+        "approvedAt": "2026-11-11T19:32:59.292Z",
+        "actorId": "codex-memocasting-editor-20261111"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T19:15:00.987Z"
+  "generatedAt": "2026-11-11T19:32:59.508Z"
 }
