@@ -12182,84 +12182,42 @@
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-moterims",
-      "title": "Kalėdinės dovanos moterims 2026: idėjos pagal pomėgius",
-      "description": "Kalėdų dovanos moterims: skaitymui, kavai, žygiams, menui ir kūrybai. Konkretūs pasiūlymai, kainos bei pasirinkimo klausimai.",
+      "title": "Kalėdinės dovanos moterims: 9 idėjos pagal pomėgius ir biudžetą",
+      "description": "Kalėdinių dovanų moterims idėjos pagal pomėgius ir biudžetą: palyginkite konkrečius pasiūlymus, jų kainas ir sąlygas.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Kalėdinę dovaną moteriai derinkite prie jos pomėgio ir savo pasiruošimo laiko. Žemiau rasite konkrečius pasiūlymus, o pirmiausia pasirinkite, ką realiai spėsite paruošti: jau turimą daiktą, užpildytą albumą, patvirtintą siuntą ar elektroninį kuponą. Tai 2026 m. sezoninė atranka, ne dovanos pagal lytį receptas."
+          "text": "Gera kalėdinė dovana neturi atitikti įsivaizdavimo, kas „patinka moterims“. Ji turi tikti konkrečiam žmogui: vienai smagiausia atidaryti knygą, kitai – praleisti vakarą kuriant, o trečiai labiausiai pravers gerai parinktas daiktas kelionėms. Prieš rinkdamiesi prisiminkite ne tai, ką ji turėtų mėgti, o ką jau renkasi pati."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide lyginame skirtingų pardavėjų dovanas ir vieną mūsų pačių siūlomą rinkinį. „Memory Casting“ parduoda rankų liejimo rinkinį, kurį aprašome šiame sąraše. Kiti pasiūlymai pateikti kaip pasirinkimo alternatyvos; tai nėra visų aprašytų gaminių asmeninio bandymo rezultatai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Daugumos pateiktų pasiūlymų kainas pardavėjų puslapiuose tikrinome 2026 m. lapkričio 11 d. „Decathlon“ gertuvės kaina patikrinta lapkričio 10 d.; lapkričio 11 d. tiesioginė prieiga buvo apribota. Kainos gali keistis; siuntimas ir papildomos priemonės ne visuomet įskaičiuoti. Prieš pirkdami patikrinkite galutinę kainą, gavimo galimybes ir sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti, kai nežinote, ką padovanoti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkimą lengviau susiaurinti atsakius į tris klausimus:"
         },
         {
           "type": "list",
           "items": [
-            "Skaitytojai: 20 € knygų kuponas; mažesniam biudžetui – medinis skirtukas.",
-            "Kavos mėgėjai: kavinukas nuo 15,99 €, tik patikrinus ruošimo būdą.",
-            "Žygių mėgėjai: QUECHUA „900“ 0,5 l už 13 €.",
-            "Kūrybai ir prisiminimams: užsiėmimas dviem, albumas arba rankų liejimo veikla."
+            "Ką ji mėgsta veikti? Galbūt savaitgaliais vaikšto gamtoje, mėgsta arbatą arba seniai nori išbandyti kūrybines dirbtuves.",
+            "Ar ji nori daikto, ar patirties? Kartu praleistas laikas puikus tik tuomet, jei tokios veiklos nori ir pati gavėja. Užsiėmimui gali reikėti suplanuoti išvyką.",
+            "Kokia yra visa suma? Skaičiuokite ne vien prekės kainą, bet ir siuntimą, nuotraukų spaudą, kelionę ar kitus reikalingus priedus."
           ]
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Kuri dovana tinka pagal pasiruošimo laiką?"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Turite kelias savaites → galima ruošti asmeninį albumą: surinkite kadrus, patikrinkite leidimą juos naudoti ir tik tada užsakykite spaudą.",
-            "Turite kelias dienas → remkitės konkretaus pardavėjo patvirtintu gavimu. Vien užrašas „sandėlyje“ nėra pažadas įteikti per šventę.",
-            "Turite tik vakarą → rinkitės jau turimą užbaigtą dovaną arba patikrinkite elektroninio kupono gavimo sąlygas. Nežadėkite, kad fizinė siunta suspės.",
-            "Dovanojate kolegei → pirma galioja susitarimas dėl sumos; šventinis dizainas nepaverčia labai asmeniško daikto neutraliu."
-          ]
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Du konkretūs 20 € biudžeto sprendimai"
-        },
-        {
           "type": "paragraph",
-          "text": "Jei norite fizinės dovanos, 15,99 € MOKA kavinukui lieka 4,01 € pristatymui ir pakavimui; šis modelis netinka indukcijai. Jei renkatės 20 € knygų kuponą, visa suma jau skirta kuponui, o knygų siuntimo išlaidos juo neapmokamos. Prieš įteikdami patikrinkite, ar gavėjai tinka parduotuvė ir šešių mėnesių galiojimas. Šias dvi sąlygas papildomai tikrinome 2026 m. spalio 25 d."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Skaitymui: laisvė išsirinkti ar mažas asmeninis priedas?"
-        },
-        {
-          "type": "paragraph",
-          "text": "20 € knygų kuponas tinka, kai žinote, kad gavėja skaito, tačiau nežinote, kuriuos naujus leidinius ji jau įsigijo. Prieš pirkdami perskaitykite būtent pasirinktos vertės kupono galiojimą ir panaudojimą. Vienos parduotuvės kuponas nesuteikia pasirinkimo visoje knygų rinkoje, todėl pasitikrinkite, ar jos norimų knygų ten yra."
-        },
-        {
-          "type": "paragraph",
-          "text": "Mažesnei dovanai medinis skirtukas MANDALA be narystės kainuoja 3,95 €. Galite jį įteikti su vieno vakaro skaitymo planu: išsirinkite tą pačią knygą, susitarkite aptarti pirmus skyrius ir pasirūpinkite užkandžiais. Nepirkite atsitiktinio romano vien tam, kad dovana atrodytų didesnė. Gera užuomina – jos perskaitytų knygų lentyna arba išsaugotas norų sąrašas."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kavai: du skirtingi ruošimo būdai"
-        },
-        {
-          "type": "paragraph",
-          "text": "MOKA 3 puodelių kavinukas kainuoja 15,99 €. Jis skirtas kavai ruošti ant viryklės, todėl prieš rinkdamiesi patikrinkite jos tipą ir konkretaus modelio suderinamumą. „Trys puodeliai“ nereiškia trijų didelių rytinės kavos puodelių. Nedovanokite šio prietaiso vien išgirdę, kad gavėja mėgsta kavą – galbūt ji geria tik filtrinę arba jau turi mėgstamą aparatą."
-        },
-        {
-          "type": "paragraph",
-          "text": "AeroPress Original su pardavėjo pavadinime nurodytais 100 filtrų kainuoja 42,95 €. Šį variantą verta svarstyti žmogui, norinčiam eksperimentuoti su kavos ruošimu. Prieš perkant išsiaiškinkite, ar ji turi tinkamai maltos kavos ir mėgsta rankinį procesą. Kavinukas pupelių nesumala, o gėrimą reikės paruošti patiems. Jei dovana turi būti visiškai paruošta naudoti, visų reikalingų priedų suma svarbesnė už vien aparato kainą."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Žygiams ir kelionėms: pradėkite nuo to, ką ji jau nešasi"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nerūdijančio plieno termosinė gertuvė QUECHUA „900“ 0,5 l patikros dieną kainavo 13 €. Nuoroda veda į konkretų žalios spalvos variantą; kitų variantų kaina gali skirtis. Jos naudingumą įvertinsite pažvelgę į dabartinę gavėjos gertuvę: ar telpa kuprinės kišenėje, ar jai patogus dangtelis, ar užtenka talpos?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ši dovana nereikalauja spėlioti aprangos dydžio, bet vis tiek gali dubliuoti turimą daiktą. Jei ji neseniai nusipirko termosą, verčiau pasiūlykite kartu suplanuotą žygį ir pasirūpinkite maršrutu. Įrangos, nuo kurios priklauso saugumas, nepirkite nežinodami gavėjos poreikių ir suderinamumo reikalavimų."
+          "text": "Greita orientacija: iki 10 € galite svarstyti arbatos žiedus arba rėmelį su jūsų parinkta nuotrauka; iki 20 € – kavos ir arbatos rinkinį arba gertuvę; apie 30–50 € atsiranda kūrybinių veiklų. Tai nėra griežtos ribos – patikrinkite papildomas išlaidas."
         },
         {
           "type": "image",
@@ -12268,73 +12226,177 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Kūrybai: užsiėmimas su mokytoju ar veikla savo erdvėje?"
+          "text": "Kiek laiko turite iki dovanos įteikimo?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kelios savaitės: galite iš anksto atsirinkti nuotraukas, suderinti jų naudojimą ir paruošti asmeninį albumą. Įvertinkite nuotraukų spausdinimo ir siuntos laiką.",
+            "Kelios dienos: rinkitės iš tuo metu prieinamų pasiūlymų ir dar prieš apmokėdami patikrinkite, kada bei kur juos gausite. Žyma „sandėlyje“ pati savaime neužtikrina pristatymo iki šventės.",
+            "Paskutinis vakaras: galite įteikti jau turimą dovaną arba patikrinę gavimo ir galiojimo sąlygas pasirinkti elektroninį čekį. Nežadėkite, kad fizinė siunta atvyks laiku."
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Tapybos ant keramikos dirbtuvės dviem Vilniuje kainavo 50 € akcijos metu. Tai patogu, jei gavėja nori veiklos su aiškia vieta ir vedimu. Vis dėlto jai reikės atvykti iš anksto užsiregistravus, todėl dovana netinka vien dėl gražaus kupono. Prieš pirkdami paklauskite, ar ji norėtų tokios patirties ir su kuo vyktų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai už 32 € tinka kitam norui – kurti bendrą prisiminimą savo pasirinktoje vietoje. Bazėje yra balti dažai. Rezultatas priklausys nuo pasiruošimo ir instrukcijos laikymosi; tai nėra jau pagaminta statulėlė. Jei norisi tiesiog gražaus interjero daikto be veiklos, geriau ieškoti paruošto kūrinio pagal tikslų stilių."
+          "text": "Pavyzdžiui, jei dovanos biudžetas yra 20 €, nuo 13,95 € rinkinio kainos liktų 6,05 € siuntimui ir pakuotei. Jei pasirinkti priedai ar pristatymas kainuos daugiau, galutinė suma viršys biudžetą. Visada palyginkite pirkinių krepšelių sumas."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Meno mėgėjai: galimybė pačiai pasirinkti"
+          "text": "Nedidelės kalėdinės dovanos: asmeniškumas nebūtinai kainuoja daug"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Penkių arbatos žiedų rinkinys"
         },
         {
           "type": "paragraph",
-          "text": "Jei ji mėgsta parodas, bet norėtų pati nuspręsti, kada ir su kuo vykti, apsvarstykite MO muziejaus dovanų kuponą. 2026 m. spalio 27 d. muziejus nurodė 25 €, 50 € ir 100 € vertės kuponus. Juos galima įsigyti MO parduotuvėje Vilniuje, o panaudoti ten perkant muziejaus prekes arba bilietus. Prieš pirkdami pasitikrinkite galiojimo sąlygas ir ar gavėjai patogu atvykti. Tai nėra patvirtinimas, kad kuponas siunčiamas internetu; jei jums svarbus elektroninis pristatymas, teiraukitės pardavėjo."
+          "text": "„Skonis ir kvapas“ arbatos žiedų rinkinys kainavo 5,79 €. Pardavėjas nurodo penkis skirtingus arbatos žiedus, todėl tai gali tapti nedidele ragavimo dovana žmogui, kuris mėgsta atrasti naujus skonius."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: arbatos mėgėjai, kolegei ar draugei, kai norite mažos dovanos su ranka rašyta žinute. Mažiau tinka: jei gavėja vengia arbatos ar jau žinote, kad mėgsta tik vieną konkretų gėrimą. Prieš užsakydami patikrinkite rūšis ir sudėtį; jei dovanojate vieną, mažos prekės pristatymas gali sudaryti reikšmingą bendros sumos dalį."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Įrėminta bendra nuotrauka"
+        },
+        {
+          "type": "paragraph",
+          "text": "IKEA „KNOPPÄNG“ baltas 30 × 40 cm rėmelis kainavo 4,99 €. Su pasportu galima įrėminti 21 × 30 cm vaizdą; nuotraukos spausdinimas į kainą neįeina. Pardavėjo puslapyje likutis tikrinamas atskirai – prieš išvykdami ar užsakydami pasitikrinkite jį patys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: žmogui, kuris mėgsta matomus prisiminimus ir turi jiems vietos. Mažiau tinka: jei nežinote, kokias asmenines nuotraukas ji norėtų rodyti namuose, arba nuotraukoje esantys žmonės nenori, kad ji būtų naudojama. Verčiau rinkitės vieną bendrą akimirką ir kitoje pusėje parašykite datą bei trumpą prisiminimą, o ne pirkite rėmelį be vaizdo."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Prisiminimams: albumas ir jūsų atliktas darbas"
+          "text": "Kalėdinės dovanos mėgstančiai jaukumą ir skonius"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Kavos ir arbatos rinkinys dalijimuisi"
         },
         {
           "type": "paragraph",
-          "text": "Albumas „Šeimos medis“ akcijos metu kainavo 18,90 €. Jis gali tapti draugystės, kelionių ar šeimos istorijų dovana – pavadinimas neįpareigoja dėti tik giminės nuotraukų. Atrinkite dešimt kadrų, kurių ji dar neturi atspausdintų, ir nurodykite datas. Tuščias albumas ir jūsų užpildytas albumas yra skirtingos dovanos: antrajam reikia laiko bei atskiro spausdinimo biudžeto."
+          "text": "„Skonis ir kvapas“ rinkinys su kava ir vaisine arbata kainavo 13,95 €. Pardavėjas nurodo kavos pupeles, arbatas ir pieninį šokoladą – dovana labiau primena mažą ragavimo rinkinį nei vieną kasdienį produktą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: žmogui, mėgstančiam kavą ir arbatą arba galinčiam jomis pasidalyti. Mažiau tinka: kai ji neturi kuo sumalti kavos pupelių, nevalgo pieno produktų arba vengia nurodytų sudedamųjų dalių. Prieš pirkdami perskaitykite visą esamą sudėtį ir alergenus – jų negalima spręsti vien iš dovanos pavadinimo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "4. Arbata ir šokoladas lėtam vakarui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Šokoladinė svajonė“ patikros metu kainavo 29,95 €. Pardavėjas aprašo žaliosios arbatos, šokolado, užkandžio ir arbatos sietelio derinį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mėgstančiai arbatą ir saldumynus, ypač jei norisi jau paruoštos dovanos. Mažiau tinka: jei gavėja negali ar nenori valgyti rinkinio ingredientų arba nemėgsta žaliosios arbatos. Paprašykite pardavėjo tikslios sudėties, jei yra alergijų; žodis „šokoladas“ neatsako į klausimą apie visus alergenus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "5. Žvakių dirbtuvės vienam žmogui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sojų vaško žvakių dirbtuvės „Artotekoje“ Vilniuje patikros metu kainavo 40 € vienam žmogui, o dviem – 80 €. Pardavėjas nurodo maždaug dviejų valandų užsiėmimą, išankstinę registraciją ir reikalavimą apie neatvykimą pranešti el. paštu prieš 24 val.; kitaip čekis laikomas panaudotu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: kūrybą ir žvakių gamybą mėgstančiai gavėjai, kuriai patogu atvykti į Vilnių. Mažiau tinka: jei kelionė būtų našta arba ji vengia kvapų. Prieš dovanodami patikrinkite tvarkaraštį, galiojimą ir atšaukimo sąlygas; dovanotojo gera idėja neturėtų virsti gavėjos privalomu planu."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip išsirinkti, kai dar nepakankamai pažįstate žmogų?"
+          "text": "Praktiška dovana judančiai ar keliaujančiai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "6. Termosinė gertuvė žygiams"
         },
         {
           "type": "paragraph",
-          "text": "Kolegei, naujai draugei ir sutuoktinei neturėtų galioti tas pats atrankos principas. Kolegės dovana turėtų gerbti sutartą sumą ir darbo santykį. Artimam žmogui galite remtis bendru prisiminimu ar konkrečiu išsakytu noru. Kai skonis neaiškus, verta pasiūlyti dvi kryptis ir leisti pasirinkti, užuot pirkus stipraus kvapo kosmetiką ar labai asmenišką papuošalą."
+          "text": "„Decathlon“ QUECHUA „900“ 0,5 l gertuvė – žalias variantas – patikros metu kainavo 13 €. Gertuvė turi užrakinamą atidaromą dangtelį; kitų spalvų kaina ar likutis gali skirtis. Konkretaus varianto likučio ir pristatymo galimybių patikros metu patvirtinti nepavyko – jas patikrinkite pardavėjo puslapyje."
         },
         {
           "type": "paragraph",
-          "text": "Prieš mokėdami patikrinkite keturis dalykus: ar tai jos noras, ar ji jau turi analogą, kokių papildomų pirkinių reikės ir ar dovana telpa į visą biudžetą su pristatymu. Jei bent du atsakymai nežinomi, grįžkite prie kitos krypties. Didesnė suma nepakeičia trūkstamos informacijos apie žmogų."
+          "text": "Tinka: dažnai einančiai į žygius, keliaujančiai ar norinčiai pasiimti gėrimą į darbą. Mažiau tinka: jei ji jau turi tinkamą gertuvę arba pageidauja didesnės talpos. Palyginkite dydį su jos turimos kuprinės šonine kišene ir patikrinkite, ar toks dangtelis jai patogus – funkcionalumas svarbiau už dovaninę pakuotę."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Tolesnės idėjos ir atrankos ribos"
+          "text": "Dovanos patirtims: dovanokite pasirinkimą ir laiką"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "7. Tapyba ant keramikos dviem"
         },
         {
           "type": "paragraph",
-          "text": "Mamai skirtas situacijas aptariame gide kalėdinės dovanos mamai, o bendrą dviejų žmonių dovaną – kalėdinės dovanos porai. Kitoms progoms pravers dovanos moterims: ten yra ir praktiškas pasirinkimo klausimynas, neapsiribojantis gruodžio šventėmis."
+          "text": "„Kūrybos laisvės“ keramikos dekoravimo dirbtuvės dviem Vilniuje kainavo 50 € pagal tuo metu skelbtą akciją. Pasiūlyme nurodyta vienos valandos veikla dviem ir būtina registracija; akcijos kaina vėliau gali keistis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: gavėjai, kuri mėgsta kūrybines išvykas ir norėtų pati pasirinkti, su kuo eiti. Mažiau tinka: jei jos netraukia dekoravimas arba kelionė į Vilnių nepatogi. Prieš pirkdami patikrinkite, kas vyksta su dekoruotu gaminiu po užsiėmimo, kaip ir kada jis atsiimamas – tai gali turėti įtakos planui."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "8. Papuošalo gamybos užsiėmimas Klaipėdoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Asmeninio papuošalo gamyba „Cosita studijoje“ patikros metu kainavo 29 € vienam žmogui arba 58 € dviem. Pardavėjas nurodo pusantros valandos veiklą Klaipėdoje ir išankstinę registraciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: norinčiai pačiai dalyvauti kuriant papuošalą, o ne tik gauti jau pagamintą daiktą. Mažiau tinka: jei ji nenešioja papuošalų arba negalės atvykti į Klaipėdą. Prieš įsigydami perskaitykite, kokios medžiagos ir variantai įtraukti, taip pat pasitikrinkite galiojimo bei rezervacijos sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "9. Rankų liejimo rinkinys bendram prisiminimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mūsų „Memory Casting“ poros rinkinys kainuoja 32 €; į rinkinį įeina balti dažai. Jis skirtas skulptūrai kurti kartu pagal instrukciją – gavėja gauna kūrybinę veiklą ir priemones, o ne jau paruoštą liejinį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: dviem žmonėms, kuriems patinka kurti prisiminimą patiems ir kurie gali skirti laiko pasiruošti. Mažiau tinka: jei norisi iškart pastatyti jau pagamintą daiktą arba ji nemėgsta rankdarbių. Išėmus liejinį dar reikės jį džiovinti: mūsų poros instrukcijoje nurodytos 5–7 paros, taigi neplanuokite dažymo tą patį vakarą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Palyginkite poros ir šeimos variantus kalėdinių dovanų moterims kolekcijoje. Pristatymo kaina ir pasirinkimas parodomi atsiskaitant; prieš užsakydami pasitikrinkite, kada siunta pasieks gavėją."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kaip suteikti asmeniškumo netaikant dovanos visoms vienodai?"
+          "text": "Kaip išsirinkti dovaną mamai, draugei ar partnerei?"
         },
         {
           "type": "paragraph",
-          "text": "Pasirinkite vieną jos pasakytą norą ir vieną tikrą bendrą prisiminimą. Noras padeda parinkti pačią dovaną, o prisiminimas – paaiškinti, kodėl ji skirta būtent jai. Jei draugė kelionėje vis fotografavo senamiesčio duris, galite atrinkti jos jau turimus kadrus į nedidelę nuotraukų istoriją. Jei kolegė kalbėjo apie mėgstamą autorių, prie knygų kupono užteks nuoširdaus palinkėjimo. Santykio artumas lemia ir tai, kiek asmeninių detalių tinka naudoti."
+          "text": "Santykis padeda sugalvoti asmeninę detalę, bet neturėtų pakeisti dėmesio žmogaus pomėgiams. Mamai, kuri mieliau skaito nei kuria, knyga ar pasirinkimo laisvę suteikianti dovana gali būti geresnė už dirbtuves. Daugiau idėjų rasite kalėdinių dovanų mamai gide."
         },
         {
           "type": "paragraph",
-          "text": "Graviravimas ar vardinis užrašas nėra būtina sąlyga. Prieš individualų užsakymą verta pasitikrinti rašybą, maketą ir gamybos eigą, o jei šios informacijos neturite, asmeninę žinutę galite pridėti patys. Taip asmeninę dalį galėsite pataisyti savo rankomis, nekeisdami pagrindinio daikto."
+          "text": "Draugei galima parengti vienos kelionės nuotrauką ir pridėti bendrą prisiminimą; partnerei – pasiūlyti veiklą, kurios ji iš tiesų norėtų, ir leisti pasirinkti laiką. Jei planuojate dovaną keliems šeimos nariams, praversti gali ir kalėdinių dovanų šeimai idėjos."
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Trys skirtingos šventinės situacijos"
+          "type": "paragraph",
+          "text": "Kai biudžetas nedidelis, neprivalote kompensuoti kainos daugybe smulkmenų. Vienas tinkamas daiktas ir trumpas, konkretus palinkėjimas dažnai aiškiau parodo dėmesį nei keli atsitiktiniai pirkiniai. Daugiau variantų pagal sumą pateikiame nebrangių kalėdinių dovanų gide."
         },
         {
           "type": "heading",
@@ -12343,16 +12405,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Laikykitės bendros komandos sumos, rinkitės žinomą pomėgį ir įteikite paprastai. Jei nežinote jos maisto pomėgių ar naudojamų kosmetikos priemonių, nenuspėkite jų iš bendro dovanų sąrašo. Tinka pasirinkimo laisvę paliekantis variantas, kurio panaudojimui nereikės primokėti už jums suplanuotą brangią paslaugą."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Draugė: dalis jūsų bendros istorijos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Paruoškite mažą, užbaigtą nuotraukų atranką: vieną kelionę, vieną tradiciją ar vieną jums abiem svarbų susitikimą. Prie kadrų parašykite po sakinį, kurį suprasite abi. Jei perkate albumą, pirmus puslapius užpildykite prieš įteikdami. Atskirai suderinkite, ar galima naudoti kitų žmonių nuotraukas; asmeniška dovana nebūtinai turi virsti viešu socialinių tinklų įrašu."
+          "text": "Darbo aplinkoje pirmiausia laikykitės sutartos sumos ir rinkitės dovaną pagal tai, ką apie kolegės pomėgius iš tiesų žinote. Jei nežinote maisto ar kvapų pasirinkimų, nenuspėkite jų: geriau išsirinkite neutralesnį variantą ir pridėkite trumpą, ne per daug asmenišką palinkėjimą."
         },
         {
           "type": "heading",
@@ -12361,52 +12414,57 @@
         },
         {
           "type": "paragraph",
-          "text": "Bendra kūryba gali būti taiklus pasirinkimas, kai partnerė pati tokios veiklos nori. Prie rinkinio galima pridėti dvi galimas susitikimo datas ir pasiūlymą pasirūpinti priemonėmis. Renkantis rankų liejimą, atskirkite vakaro veiklą nuo vėliau užbaigiamos skulptūros. Pagal mūsų poros rinkinio instrukciją išimtas liejinys dar džiovinamas 5–7 paras; dažymas nėra to paties vakaro pažadas."
+          "text": "Bendra veikla prasmingiausia tada, kai jos norite abu. Prie rankų liejimo rinkinio galite pridėti kelias galimas susitikimo datas ir pasiūlymą paruošti darbo vietą. Prieš pradėdami peržiūrėkite poros rinkinio instrukciją: pati kūryba ir vėliau džiūstanti skulptūra yra skirtingi proceso etapai. Dar daugiau veiklų rasite kalėdinių dovanų porai gide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar svarstote dovaną kitai progai, peržiūrėkite bendrą dovanų moterims gidą. Platesnės atrankos pagal gavėją ir biudžetą rasite bendrame kalėdinių dovanų gide."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Kai dovana bus naudojama po švenčių"
+          "text": "Prieš užsakydami: keturios patikros"
         },
         {
-          "type": "paragraph",
-          "text": "Pasirūpinkite, kad gavėja rastų aiškų kitą veiksmą: kokia parduotuvė priima kuponą, kur registruotis į veiklą arba kur padėta rinkinio instrukcija. Nepalikite vien bendros nuorodos į didelį paslaugų katalogą. Jei kartu dovanojate savo laiką, pasiūlykite po švenčių susisiekti ir susitarti, o ne iš anksto užrakinkite jai nežinomą datą."
+          "type": "list",
+          "items": [
+            "Pristatymas. Dėkite į krepšelį tik patikrinę, ar pardavėjas gali pristatyti ten ir tada, kur jums reikia. Atsargų žyma nėra garantija, kad siunta atvyks iki Kalėdų.",
+            "Papildomos išlaidos. Prie prekės pridėkite siuntimo, spaudos ar kelionės kainą. Veiklos dviem kaina nebūtinai lygi vieno žmogaus bilieto kainai.",
+            "Panaudojimo sąlygos. Kuponui ar dirbtuvėms pažiūrėkite galiojimą, registracijos ir atšaukimo tvarką. Jei sąlygos neaiškios, paklauskite pardavėjo prieš pirkdami.",
+            "Žmogaus poreikiai. Maisto rinkiniams perskaitykite sudėtį, kvapiems gaminiams atsižvelkite į jautrumą, o dalijantis nuotraukomis gerbkite jose esančių žmonių privatumą."
+          ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Klausimai renkant Kalėdų dovaną moteriai"
+          "text": "Dažniausi klausimai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ką rinktis, kai jos skonis neaiškus?"
+          "text": "Ką dovanoti moteriai, kuri, atrodo, viską turi?"
         },
         {
           "type": "paragraph",
-          "text": "Paklauskite apie dvi konkrečias kryptis, pavyzdžiui, knygas arba bendrą užsiėmimą. Atsakymas susiaurins pasirinkimą, o konkretus pirkinys ir įteikimas dar gali likti staigmena. Nežinomą skonį sunku kompensuoti vien didesne dovanos kaina."
+          "text": "Pasirinkite vieną jos įprastą pomėgį ir paklauskite, kokios dalies jai trūksta. Gali tikti bendras laikas, mėgstamas skanėstas ar jos pačios pasirinkimas. Venkite dubliuoti jau turimą įrangą vien todėl, kad ji patenka į populiarų sąrašą."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar veikla dviem visada reiškia, kad dalyvaus ir dovanotojas?"
+          "text": "Ar dovanų kuponas yra gera kalėdinė dovana?"
         },
         {
           "type": "paragraph",
-          "text": "Ne. Jei dovana skirta gavėjai, leiskite jai pasirinkti žmogų, su kuriuo norės dalyvauti. Pirkdami patikrinkite, ar pasirinktas pasiūlymas iš tiesų skirtas dviem ir kokios registracijos sąlygos."
+          "text": "Taip, jei gavėjai tinka konkreti parduotuvė ar paslauga ir sąlygos palieka laiko juo pasinaudoti. Perskaitykite galiojimą, apribojimus bei tai, ar užsakant reikės papildomai mokėti už pristatymą. Prie kupono pridėkite trumpą paaiškinimą, kodėl pasirinkote būtent šią vietą."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Kaip suderinti asmeninę dovaną ir mažą biudžetą?"
+          "text": "Ką daryti, kai iki švenčių liko nedaug laiko?"
         },
         {
           "type": "paragraph",
-          "text": "Pirkite vieną jos pomėgį atitinkantį daiktą, o asmeninę dalį paruoškite patys: žinutę, nuotrauką ar konkretų susitikimo planą. Dovanų suma turėtų apimti ir gavimą; nereikia mažo pirkinio paversti brangiu vien dėl dekoracijų."
-        },
-        {
-          "type": "paragraph",
-          "text": "Daugumos pasiūlymų kainas ir pagrindines savybes tikrinome 2026 m. spalio 22 d.; vėlesnės patikros pažymėtos atskirai. pardavėjų svetainėse. Tai nėra išbandytų produktų reitingas. Kainos nurodytos be pristatymo ir gali pasikeisti; akcijos išskirtos tekste. Memocasting yra mūsų pasiūlymas. Iliustracijos rodo dovanų pasirinkimo situacijas, o konkrečių gaminių vaizdai pateikti pardavėjų nuorodose."
+          "text": "Rinkitės tai, ką tikrai galite gauti laiku: vietoje įsigyjamą daiktą arba, patikrinę sąlygas, elektroninį paslaugos kuponą. Numatykite ir alternatyvą, jei siunta vėluotų. Svarbiausia – pažadėti tik tai, ką pardavėjas patvirtina konkretaus užsakymo metu."
         }
       ],
       "publishAt": "2026-10-16T07:00:00.000Z",
@@ -12514,256 +12572,180 @@
       ],
       "links": [
         {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "„Memory Casting“ poros rinkinys"
+        },
+        {
+          "targetPageId": "2bf61bc2-b547-4509-9fbd-fe8a4255bd3a",
+          "label": "kalėdinių dovanų moterims kolekcijoje"
+        },
+        {
           "targetPageId": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-          "label": "kalėdinės dovanos mamai"
+          "label": "kalėdinių dovanų mamai gide"
         },
         {
-          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-          "label": "kalėdinės dovanos porai"
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai idėjos"
         },
         {
-          "targetPageId": "6addee05-19c5-477b-ae4d-d3b310acb4b8",
-          "label": "dovanos mamai"
-        },
-        {
-          "targetPageId": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
-          "label": "dovanos moterims"
-        },
-        {
-          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "poros rinkinio"
+          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
+          "label": "nebrangių kalėdinių dovanų gide"
         },
         {
           "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
           "label": "poros rinkinio instrukciją"
+        },
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdinių dovanų porai gide"
+        },
+        {
+          "targetPageId": "c5c5aa8e-b53f-411f-a2ed-c0d7f9d5b067",
+          "label": "bendrą dovanų moterims gidą"
+        },
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "bendrame kalėdinių dovanų gide"
         }
       ],
       "externalLinks": [
         {
-          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
-          "label": "20 € knygų kuponas",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/arbatos-ziedu-rinkinys-5-vnt",
+          "label": "„Skonis ir kvapas“ arbatos žiedų rinkinys",
+          "reason": "Pardavėjo arbatos žiedų rinkinio aprašas ir 2026-11-11 matyta kaina. Sudėtis, kaina ir pristatymo sąlygos gali keistis; prieinamumą patikrinkite užsakydami."
         },
         {
-          "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
-          "label": "medinis skirtukas MANDALA",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.ikea.com/lt/lt/p/knoppaeng-remelis-balta-20427290/",
+          "label": "IKEA „KNOPPÄNG“ baltas 30 × 40 cm rėmelis",
+          "reason": "IKEA rėmelio dydis, savybės ir 2026-11-11 matyta kaina. Konkretaus likučio nustatyti nepavyko; jį ir pristatymo sąlygas patikrinkite pardavėjo puslapyje."
         },
         {
-          "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
-          "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: 15,99 €; 180 ml, aliuminis, netinka indukcinei viryklei."
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/maziukas-rinkinukas-1-su-vaisine-arbata-ir-kava",
+          "label": "„Skonis ir kvapas“ rinkinys su kava ir vaisine arbata",
+          "reason": "Pardavėjo kavos ir arbatos rinkinio aprašas ir 2026-11-11 matyta kaina. Sudėtis, kaina ir pristatymo sąlygos gali keistis; prieinamumą patikrinkite užsakydami."
         },
         {
-          "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-aeropress-original-250-ml-100-filtru",
-          "label": "AeroPress Original",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/rinkinys-2026-18",
+          "label": "„Šokoladinė svajonė“",
+          "reason": "Pardavėjo arbatos ir šokolado rinkinio aprašas ir 2026-11-11 matyta kaina. Sudėtis, kaina ir pristatymo sąlygos gali keistis; prieinamumą patikrinkite užsakydami."
+        },
+        {
+          "url": "https://www.geradovana.lt/soju-vasko-zvakiu-dirbtuves-artoteka",
+          "label": "Sojų vaško žvakių dirbtuvės „Artotekoje“",
+          "reason": "Pardavėjo žvakių dirbtuvių aprašas, 2026-11-11 matytos kainos ir registracijos sąlygos. Užsiėmimų datų prieinamumas netikrintas; kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.decathlon.lt/p/301267-399663-nerudijancio-plieno-greitai-atidaroma-termosine-zygiu-gertuve-900-05-l.html",
-          "label": "QUECHUA „900“ 0,5 l",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
-          "label": "Albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "„Decathlon“ QUECHUA „900“ 0,5 l gertuvė",
+          "reason": "Pardavėjo žalios 0,5 l gertuvės aprašas ir 2026-11-10 matyta kaina. Likučio ir pristatymo galimybių patvirtinti nepavyko; kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
-          "label": "Tapybos ant keramikos dirbtuvės dviem",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "„Kūrybos laisvės“ keramikos dekoravimo dirbtuvės dviem",
+          "reason": "Pardavėjo tapybos ant keramikos dirbtuvių aprašas ir 2026-11-11 matyta akcijos kaina. Laisvos datos netikrintos; kaina ir registracijos sąlygos gali keistis."
         },
         {
-          "url": "https://www.patogupirkti.lt/apmokejimas",
-          "label": "Knygų kupono apmokėjimo sąlygos",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Kuponas nepadengia pristatymo; vienas kuponas krepšeliui, papildomi nuolaidų kodai netaikomi."
-        },
-        {
-          "url": "https://mo.lt/parduotuve/",
-          "label": "MO muziejaus dovanų kuponą",
-          "reason": "2026-10-27 oficialus muziejaus puslapis nurodė 25, 50 ir 100 € kuponus; įsigijimą ir panaudojimą MO parduotuvėje."
+          "url": "https://www.geradovana.lt/asmeninio-papuosalo-gamyba-cosita-studija",
+          "label": "Asmeninio papuošalo gamyba „Cosita studijoje“",
+          "reason": "Pardavėjo papuošalo gamybos dirbtuvių aprašas, 2026-11-11 matytos kainos ir registracijos sąlygos. Laisvos datos netikrintos; kainos ir sąlygos gali keistis."
         }
       ],
       "id": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
-      "revisionHash": "c6e6f067a01fc71b02dff5c4aa461374e91181fc64e1105f963281de22a7840c",
+      "revisionHash": "087f5cdb3fe4519e55b5aadb6e3c79dc338c5cf7a4d662cbec6d152726cd4bf0",
       "approval": {
         "status": "approved",
-        "revisionHash": "c6e6f067a01fc71b02dff5c4aa461374e91181fc64e1105f963281de22a7840c",
-        "approvedAt": "2026-10-27T10:18:19.464Z",
-        "actorId": "codex-combined-refresh-2026-10-27"
+        "revisionHash": "087f5cdb3fe4519e55b5aadb6e3c79dc338c5cf7a4d662cbec6d152726cd4bf0",
+        "approvedAt": "2026-11-11T14:03:35.276Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-mamai",
-      "title": "Kalėdinės dovanos mamai 2026: 10 idėjų nuo 3,95 iki 50 €",
-      "description": "Dešimt konkrečių Kalėdų dovanų mamai: knygos, nuotraukos, arbata, bendra veikla. Kainos, nuorodos ir pasirinkimas mamai, kuri sako nieko nenorinti.",
+      "title": "Kalėdinės dovanos mamai 2026: konkrečios idėjos pagal jos pomėgius",
+      "description": "Ieškote kalėdinės dovanos mamai? Palyginkite konkrečias idėjas, kainas ir sąlygas – nuo mažų dovanų skaitytojai iki bendros kūrybinės patirties.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Kalėdinė dovana mamai gali būti maža ir labai asmeniška. Jei ji sau nieko neprašo, rinkitės pagal tai, ką pati daro savo malonumui: skaito, kolekcionuoja indus, saugo nuotraukas ar nori dažniau susitikti. Toliau – dešimt skirtingų idėjų, įskaitant konkretų pirkinį ir jūsų pačių paruošiamas dovanas."
+          "text": "Gera Kalėdų dovana mamai nebūtinai turi būti didelė ar brangi. Daug svarbiau, kad ji atitiktų tai, ką mama iš tikrųjų mėgsta: ramų skaitymo vakarą, šeimos nuotraukas, kūrybą ar susitikimą su artimaisiais. Toliau rasite konkrečių dovanų ir patirčių pavyzdžių, taip pat klausimus, kurie padės išsirinkti tinkamą variantą, kai atrodo, jog mama jau viską turi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaidrumas. Šį gidą parengė „Memory Casting“, parduodanti rankų liejimo rinkinius, todėl turime komercinį interesą pristatyti savo produktą. Įtraukėme ir kitų parduotuvių pasiūlymų, kad galėtumėte palyginti skirtingas dovanas. Pasiūlymai atrinkti pagal pardavėjų aprašymus – jų asmeniškai nebandėme. Kainas patikrinome 2026 m. lapkričio 11 d. Jos gali pasikeisti; pristatymas, pakuotė ir kitos papildomos išlaidos į toliau nurodytas prekių kainas neįtraukti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip greitai išsirinkti dovaną mamai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo vieno pastebėjimo apie mamą, o ne nuo populiariausių dovanų sąrašo. Ar ji pati perka knygas? Ar saugo nuotraukas? Ar mėgsta išbandyti kūrybines veiklas, bet vis atidėlioja? Atsakymas padės susiaurinti pasirinkimą."
         },
         {
           "type": "list",
           "items": [
-            "Iki 10 €: skirtukas, puodelis su užrašu arba knygų kuponas.",
-            "Iki 20 €: albumas, arbatos rinkinys arba pasirinkto stiliaus puodelis.",
-            "Bendrai patirčiai: rankų liejimas už 32 € arba keramikos dekoravimas dviem už 50 € akcijos metu."
+            "Skaityti ir rinktis pačiai — Knygyno kuponą — Galiojimą, kur kuponą galima panaudoti ir ar užtenka visai knygos kainai",
+            "Šeimos istorijos — Albumą su jau atrinktomis nuotraukomis — Nuotraukų spausdinimo, tvirtinimo ir pristatymo kainą",
+            "Laikas kartu — Rankų liejimo rinkinį arba dirbtuves dviem — Ar abi norėsite dalyvauti, vietą ir reikalingą pasiruošimą",
+            "Kasdieniai arbatos ritualai — Arbatą ir jai artimo stiliaus puodelį — Skonius, alergijas ir ar namuose jau nėra per daug indų",
+            "Kūryba savarankiškai — Keramikos dekoravimo dirbtuves — Miestą, laiką ir tai, kada galima atsiimti kūrinį"
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Visai šeimai skirtų pasirinkimų rasite ir bendrame kalėdinių dovanų gide. Jei turite mažą biudžetą, pravers nebrangių kalėdinių dovanų idėjos."
+        },
+        {
           "type": "heading",
           "level": 2,
-          "text": "Pasirinkite iš trijų situacijų, o ne iš dešimties atsitiktinių prekių"
+          "text": "1. Knygyno kuponas mamai, kuri mėgsta skaityti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei nežinote, kokią knygą ji jau skaitė, leiskite pasirinkti jai pačiai. Knygauk.lt 10 € elektroninio kupono kaina – 10 €. Pardavėjas nurodo, kad kupono kodas siunčiamas el. paštu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri skaito ir pati mėgsta rinktis leidinius. Mažiau tinka: jei ji neskaito arba nenori apsipirkti šiame knygyne. Prieš mokėdami patikrinkite galiojimo trukmę, naudojimo sąlygas ir ar būsimos knygos kaina neviršys kupono vertės. Kad dovana neatrodytų vien kodas, pridėkite ranka užrašytą kvietimą kartu apsilankyti knygyne ar pasikalbėti apie perskaitytą knygą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2. Albumas su jau paruoštais šeimos prisiminimais"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotraukų albumas „Šeimos medis“ patikros metu kainavo 18,90 €; pardavėjas nurodė 40 baltų lapų. Tai tik albumo kaina – nuotraukų spausdinimo ir jų tvirtinimo išlaidas skaičiuokite atskirai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri saugo šeimos istorijas ir mėgsta peržiūrėti nuotraukas. Mažiau tinka: jei ji renkasi skaitmeninius albumus arba jai būtų nemalonu matyti konkrečius prisiminimus. Nereikia užpildyti visų puslapių: atrinkite 8–12 jai reikšmingų nuotraukų, po jomis parašykite vietą, prisimenamą įvykį ir datą, jei ją žinote. Dovanokite jau paruoštus puslapius, kad mamai netektų atlikti viso darbo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip paruošti albumą per tris vakarus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmą vakarą atrinkite nuotraukas, antrą prie jų užrašykite prisiminimus ir žinomas datas, o trečią patikrinkite eilės tvarką bei spausdinimo galimybes. Tai jūsų darbų planas, ne spaustuvės pristatymo terminas. Jei spauda iki šventės nepatvirtinta, prie laiško pridėkite jau turimą nuotrauką. Prieš naudodami ar viešindami kitų žmonių nuotraukas, atsiklauskite jų leidimo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Penki klausimai, padedantys užrašyti prisiminimą"
         },
         {
           "type": "list",
           "items": [
-            "Mama sako „nieko nereikia“ ir vengia naujų daiktų → pirmiausia skaitykite 9 ir 10 idėjas: laišką arba jūsų suplanuotą susitikimą.",
-            "Mama pati mini konkretų pomėgį → žiūrėkite 1–6 idėjas ir patikrinkite, ar ji jau neturi panašaus daikto.",
-            "Mama nori veiklos su jumis → palyginkite 7 ir 8 idėjas pagal vietą, pasiruošimą ir kelionę, ne vien kainą."
-          ]
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip asmeninę dovaną užbaigti iki šventės?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pavyzdžiui, renkatės prisiminimų albumą: vieną vakarą surinkite nuotraukas, kitą parašykite vietas bei metus, o trečią patikrinkite jų eiliškumą. Tai jūsų darbų planas, ne spaustuvės terminas. Jei spausdinimo gavimas nepatvirtintas, įteikimui paruoškite užbaigtą laišką su viena jau turima nuotrauka. Mamai nereikės pabaigti jūsų pradėtos dovanos."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "1. Medinis knygos skirtukas ir asmeninė rekomendacija"
-        },
-        {
-          "type": "paragraph",
-          "text": "Skaitytojai skirtas medinis skirtukas MANDALA be narystės kainuoja 3,95 €. Įdėkite kortelę su vienu sakiniu, kodėl norėtumėte kartu perskaityti pasirinktą knygą. Tai geras simbolinis variantas, kai šeimoje sutarta nesikeisti brangiomis dovanomis. Vien skirtuko nereikėtų pristatyti kaip didelio skaitymo rinkinio: jo stiprybė – dėmesys konkrečiam pomėgiui."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "2. Knygų kuponas, kai nesate tikri dėl lentynos turinio"
-        },
-        {
-          "type": "paragraph",
-          "text": "10 € knygų kuponas leidžia mamai pasirinkti pačiai; didesniam biudžetui yra ir 20 € knygų kuponas. Pirmojo apraše nurodytas elektroninis pristatymas po apmokėjimo ir šešių mėnesių galiojimas. Už brangesnį pirkinį reikės primokėti, o mažesnė pirkinių suma nepaverčia likučio grynaisiais. Kuponą papildykite pasiūlymu kartu išsirinkti knygą – taip dovana netaps vien kodu laiške."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "3. Puodelis su užrašu nedidelei staigmenai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Keraminis puodelis „Mamos“ kainuoja 5 €. Jis tinka mamai, kuriai patinka užrašai ant kasdienių daiktų. Tai jau paruošto dizaino prekė, o ne individualiai pagal jūsų tekstą gaminamas puodelis. Jei mama labiau vertina vienspalvius indus, asmeniškumą geriau perkelti į atviruką, o ne primesti nepatinkantį dizainą."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "4. Stilingas puodelis kasdieniam ritualui"
-        },
-        {
-          "type": "paragraph",
-          "text": "SAVONA PROVANCE – 350 ml puodelis už 14,99 €. Prieš perkant slapta apžiūrėkite mamos naudojamus indus: ar ji renkasi ploną kraštą, didesnę rankenėlę, vienodą komplektą? Gražus naujas puodelis nėra savaime geresnis už jos mėgstamą senąjį. Dovaną rinkitės tik matydami, kur jis įsilies į kasdienybę; patvarumo ar plovimo sąlygų nespręskite vien iš nuotraukos."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "5. Albumas su jūsų atrinktais prisiminimais"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nuotraukų albumas „Šeimos medis“ turi 40 baltų lapų; patikros dieną kainavo 18,90 € vietoje 26,90 €. Pirmiausia atrinkite dvylika nuotraukų: keturias iš bendrų kelionių, keturias iš kasdienybės ir keturias su svarbiais žmonėmis. Prie kiekvienos parašykite vietą, metus ir vieną sakinį. Nuotraukų paruošimą bei jų tvirtinimo priemones įvertinkite atskirai, kad neviršytumėte biudžeto."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "6. Arbata ir skanėstai jos pasirinktai pertraukai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rinkinys „Kreminio jaukumo Kalėdos“ kainuoja 17,45 €. Jį verta svarstyti tik žinant, kad mama mėgsta arbatą ir saldumynus. Sudėtyje yra pistacijų, todėl alergenai yra svarbi pasirinkimo dalis; perskaitykite visą pardavėjo sudėtį. Jei nežinote maisto apribojimų, nerizikuokite vien todėl, kad dėžutė atrodo šventiškai. Galima nupirkti jos jau mėgstamą arbatą, net jei ji mažiau puošni."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "7. Rankų liejimo rinkinys bendram vakarui"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai kainuoja 32 € ir skirtas bendrai rankų skulptūrai sukurti pagal instrukciją. Balti dažai įtraukti. Galite jį dovanoti kartu su pasiūlymu skirti laiką mamos ir suaugusio vaiko bendrai veiklai. Tai nėra paruošta skulptūra: reikės pasiruošti vietą, atlikti instrukcijoje nurodytus veiksmus ir užbaigti darbą. Nemėgstančiai kūrybinių procesų mamai tiks kitas šio sąrašo pasirinkimas."
-        },
-        {
-          "type": "image",
-          "assetId": "9665e776-6c79-4514-a5e5-9322e2c644dc"
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "8. Keramikos dekoravimo dirbtuvės dviem"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vilniuje vykstančios tapybos ant keramikos dirbtuvės dviem patikros metu kainavo 50 € su akcija; įprasta rodoma kaina – 60 €. Tai vienos valandos veikla, kuriai reikia išankstinės registracijos. Prieš pirkdami aptarkite, kas vyks kartu ir kaip nuvažiuosite. Dovana gali tikti mamai su suaugusia dukra ar sūnumi; svarbiau bendras noras kurti negu dalyvių giminystė. Nuotrauka čia iliustruoja kūrybinę veiklą ir nėra šių konkrečių dirbtuvių vaizdas."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "9. Asmeninis prisiminimų laiškas be papildomo pirkinio"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ant atskirų lapų užrašykite penkis prisiminimus: ko iš mamos išmokote, už ką esate dėkingi, kada ji jus pralinksmino, kur norėtumėte kartu nuvykti ir kokį susitikimą siūlote dabar. Įdėkite į turimą voką. Medžiagoms nieko nekainuos tik tada, jei jas jau turite; laiško vertę kuria konkretumas. „Ačiū už viską“ pakeiskite vienu tikru pasakojimu, kurį atpažins tik ji."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "10. Jūsų suplanuota išvyka jos pasirinktu tempu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pasiūlykite dvi realias datas ir maršrutą, pavyzdžiui, pasivaikščiojimą mėgstamame parke su sustojimu jos pasirinktoje kavinėje. Pasitikrinkite darbo laiką, kelionę ir mokamų vietų kainas prieš įrašydami pažadą į atviruką. Jei mama rūpinasi šeimos susitikimais, šį kartą viską suderinkite patys. Nereikia dovanoti dar vienos organizavimo užduoties."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Kaip neapsunkinti dovanos gavėjos?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Patikrinkite kelionės laiką, papildomas išlaidas ir reikalingą pasiruošimą. Neplanuokite slapto svečių vakaro, kurį mama turės pati aptarnauti. Perkant bendrą dovaną susitarkite, kas ją įteiks ir kas padės panaudoti. Jei ieškote dovanos kitai progai, gide dovanos mamai aptariame ir 50-mečio, personalizuotus bei rankų darbo pasirinkimus. Griežtesniam biudžetui tiks nebrangios kalėdinės dovanos."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Prisiminimų dovana mamai: penki klausimai gerai istorijai"
-        },
-        {
-          "type": "paragraph",
-          "text": "Asmenišką albumą ar laišką lengviau paruošti, kai renkate ne bendrus komplimentus, o atpažįstamas akimirkas. Pasirinkite vieną temą: jūsų vaikystės namus, bendrą kelionę, jos išmokytą dalyką ar susitikimų tradiciją. Tokiai dovanai pakanka kelių nuotraukų, jeigu prie kiekvienos yra tikras pasakojimas. Neverta pirkti didžiausio albumo, jei nežinote, kuo jį užpildysite."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Kur buvome ir kas tuo metu vyko? Įrašykite vietą bei žinomą datą; jei jos neprisimenate, nespėkite tikslių metų.",
-            "Ką mama tada padarė ar pasakė, ką prisimenate iki šiol? Vienas konkretus sakinys stipresnis už bendrą „tu visada rūpinaisi“.",
-            "Ką ši akimirka pakeitė jūsų santykyje? Paminėkite tai savo žodžiais, ne sveikinimų šablonu.",
-            "Ką šiandien norėtumėte pakartoti? Pasiūlykite vieną susitikimą ar bendrą užsiėmimą.",
-            "Kuri istorija skirta tik šeimai? Jos nereikia skelbti viešai vien todėl, kad dovana gražiai atrodo."
+            "Kur buvote ir kas vyko? Jei tikslios datos nežinote, jos nespėkite.",
+            "Ką mama tada pasakė ar padarė, ką prisimenate iki šiol?",
+            "Kuo ta akimirka svarbi jūsų santykiui?",
+            "Kurią bendrą veiklą norėtumėte pakartoti?",
+            "Kuri istorija skirta tik šeimai ir neturėtų būti skelbiama viešai?"
           ]
         },
         {
@@ -12772,12 +12754,146 @@
           "text": "Rankų liejinys su mama: ką tiksliai dovanosite?"
         },
         {
-          "type": "paragraph",
-          "text": "Galite įteikti uždarytą rinkinį, suplanuoti jo naudojimą kartu arba dar prieš Kalėdas sukurti liejinį, kurį vėliau užbaigsite. Pirmas variantas palieka mamai daugiau pasirinkimo dėl laiko. Antrasis apima jūsų pačių pagalbą: jūs paruošiate vietą, perskaitote instrukciją ir sutvarkote po veiklos. Trečiasis reikalauja susitikti iš anksto, todėl išskirtinumas slypi bendroje istorijoje, o ne visiškai slaptame rezultate."
+          "type": "heading",
+          "level": 3,
+          "text": "3. Rankų liejimo rinkinys bendram vakarui"
         },
         {
           "type": "paragraph",
-          "text": "Poros rinkinys kainuoja 32 €, šeimos – 48 €, balti dažai įeina į abu. Komplektą rinkitės pagal norimą kompoziciją ir konkretaus rinkinio informaciją, ne vien pagal žmonių skaičių nuotraukoje. Poros rinkinio instrukcija ir šeimos rinkinio instrukcija pateikia skirtingus vandens kiekius. Abiejuose receptuose išimtam liejiniui numatytos 5–7 džiovinimo paros prieš dažymą. Jei prieš šventę tiek laiko neliko, įteikite patį rinkinį su kvietimu susitikti vėliau."
+          "text": "Jei norite dovanoti ne tik daiktą, bet ir bendrą veiklą, galite rinktis „Memory Casting“ rankų liejimo rinkinį porai. Jo kaina – 32 €, balti dažai įtraukti. Rinkinį parduodame mes. Jis nėra jau pagaminta skulptūra: ją sukursite patys pagal rinkinio instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovaną galite įteikti trimis būdais: padovanoti neatidarytą rinkinį ir laiką kurti pasirinkti vėliau; pasiūlyti bendrą vakarą bei patiems pasirūpinti pasiruošimu; arba susitikti iš anksto ir prieš šventę kartu sukurti liejinį. Paskutiniam variantui reikia numatyti laiko džiovinimui bei apdailai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip pat siūlomas šeimos rinkinys už 48 €; balti dažai įeina į abu rinkinius. Kompoziciją rinkitės pagal rinkinio aprašą, o ne pagal nuotraukoje matomų rankų skaičių. Poros rinkinio instrukcija ir šeimos rinkinio instrukcija pateikia skirtingas proporcijas. Abiejų instrukcijų atmintinėje išimtam liejiniui iki dažymo numatomos 5–7 džiovinimo paros. Jei iki šventės laiko nepakanka, įteikite rinkinį ir kvietimą kurti po Kalėdų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai ir suaugusiam vaikui, kurie abu norėtų ramiai kurti kartu. Mažiau tinka: jei mama nenori kūrybinės veiklos, neturi laiko ar tikisi iškart gauti užbaigtą skulptūrą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdžiui, esant 3,75 € „Omniva“ pristatymui Lietuvoje, poros rinkinio ir siuntos suma būtų 35,75 €, jei netaikoma kita pasirinkimo ar nuolaidos sąlyga. Galutinę kainą patikrinkite atsiskaitydami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4. Tapyba ant keramikos dviem Vilniuje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tapybos ant keramikos dirbtuvės dviem „Gera dovana“ puslapyje patikros metu kainavo 50 € su akcija, įprasta nurodyta kaina – 60 €. Pardavėjas nurodo vienos valandos užsiėmimą Vilniuje ir išankstinę registraciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri norėtų su jumis kurti už namų ribų ir kuriai patogu atvykti į Vilnių. Mažiau tinka: jei kelionė tolima, sunku suderinti laiką arba dovanos gavėja nemėgsta grupinių veiklų. Pasitarkite dėl patogaus laiko ir prieš perkant patikrinkite kupono galiojimą bei visas registracijos sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5. Kūrybinis užsiėmimas vienai arba dviem Klaipėdoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Cosita“ keramikos dekoravimo dirbtuvės Klaipėdoje patikros metu kainavo 25 € vienam arba 50 € dviem. Pardavėjas nurodo dviejų valandų trukmę ir tai, kad papuoštus indus galima atsiimti per dvi savaites."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, norinčiai pabandyti dekoruoti keraminį indą. Mažiau tinka: jei ieškote lipdymo nuo pradžių ar norite kūrinį parsinešti iškart. Prieš dovanodami aptarkite, ar jai patogus miestas ir ar atsiėmimas vėliau nesudarys papildomos kelionės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6. „Aš ir mama“ keramikos pamoka Klaipėdoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Keramikos studijos „Maži dalykai“ pasiūlymas skirtas dviem žmonėms. Patikros metu viena pamoka kainavo 80 €, o pardavėjas nurodė 1 val. 30 min. užsiėmimo trukmę."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, su kuria norite kartu išvykti į kūrybinę pamoką Klaipėdoje, ir kai biudžetas didesnis. Mažiau tinka: jeigu norite dovanos iki 50 €, gyvenate toli ar nesate tikri, kad mamai patiktų veikla studijoje. Patikrinkite laisvas datas, kas įeina į pasirinktą variantą ir kada bus galima atsiimti kūrinius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7. Šventinė arbata ir saldumynai"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Kreminio jaukumo Kalėdų“ rinkinys kainavo 17,45 €. Pardavėjo aprašyme minimi žalioji arbata, karamelizuotos pistacijos, imbiero cukatai ir sausainiai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri mėgsta tokius skonius ir neturi su sudėtimi susijusių apribojimų. Mažiau tinka: jei nežinote jos alergijų, ji vengia riešutų ar saldumynų. Pistacijos gali sukelti alerginę reakciją: visą sudėtį ir galimus alergenus būtinai patikrinkite pardavėjo puslapyje ir ant pakuotės. Dar paprastesnė asmeninė dovana – jos jau mėgstama arbata ir jūsų suplanuotas ramus susitikimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "8. Arbatos ir skanėstų rinkinys kasdieniam pasilepinimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Skonis ir kvapas“ rinkinys „Paprastumas“ patikros metu kainavo 26,95 €. Pardavėjas jį pristato kaip arbatos ir saldumynų rinkinį; konkrečią sudėtį ir pristatymo kainą pasitikrinkite prekės puslapyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri mėgsta ragauti naujus produktus. Mažiau tinka: jei ji laikosi specifinės mitybos, nemėgsta pasirinktų skonių arba norite dovanos be maisto. Šis pasirinkimas brangesnis nei ankstesnis rinkinys, todėl verta vertinti būtent sudėtį ir mamos skonį, o ne vien dėžutės dydį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "9. Puodelis su paruoštu užrašu mamai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Keraminis puodelis „Mamos“ patikros metu kainavo 5 €. Jame yra jau paruoštas užrašas, tad tai nėra individualiai jūsų tekstu personalizuota prekė."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuriai patinka puodeliai su šmaikščiais užrašais. Mažiau tinka: jei jos lentynos jau pilnos arba ji renkasi neutralius indus. Pridėkite jos mėgstamos arbatos arba parašykite mažą atviruką, tačiau prieš tai įvertinkite papildomų prekių bei pristatymo kainas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "10. Neutralus puodelis, jei mama nemėgsta užrašų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamsiai pilkas IKEA GLADELIG puodelis, 37 cl, kainavo 3,49 €. Tai ne personalizuota dovana – jos asmeniškumą galite sukurti parinkdami mamai patinkančią spalvą ir pridėdami trumpą laišką."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, mėgstančiai paprastus, neutralius indus. Mažiau tinka: jei ji jau turi mėgstamą puodelį ar nenori papildomų daiktų. Pristatymo ar atsiėmimo galimybės priklauso nuo pasirinktos vietos, todėl pasitikrinkite jas prieš pirkdami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "11. Porcelianinis puodelis gėlių motyvų mėgėjai"
+        },
+        {
+          "type": "paragraph",
+          "text": "SAVONA PROVANCE 350 ml puodelis patikros metu kainavo 14,99 €. Pardavėjo apraše nurodyti levandų ir alyvmedžio šakelių motyvai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinka: mamai, kuri mėgsta tokius raštus ir naudoja didesnį puodelį. Mažiau tinka: jei ji renkasi minimalistinius indus ar nori viso vienodo servizo. Palyginkite jo talpą su kasdien naudojamu puodeliu ir pardavėjo puslapyje patikrinkite priežiūros sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išsirinkti, kai mama sako „nieko nereikia“?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ši frazė gali reikšti skirtingus dalykus: nenorą kaupti daiktus, nenorą, kad išlaidautumėte, arba tikrą prašymą nedovanoti. Užuot spėję, paklauskite, ar ji mieliau pasirinktų bendrą laiką, mažą staigmeną, ar šiemet apsieitų be dovanų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ji norėtų bendro laiko, parašykite du realius susitikimo variantus ir pasirūpinkite organizavimu. Pavyzdžiui: „Sausį galiu atvažiuoti šeštadienį arba sekmadienį – išsirink, kuri diena tau patogesnė.“ Jei prašo nieko nepirkti, pagarbiai priimkite jos norą; nuoširdus pokalbis ar laiškas gali būti pakankamas."
         },
         {
           "type": "heading",
@@ -12786,47 +12902,82 @@
         },
         {
           "type": "paragraph",
-          "text": "Pirma sutarkite vieną bendrą mintį, tik tada surinkite pinigus. Vienas žmogus gali pasirūpinti pirkiniu, kitas – nuotraukų atranka, trečias – kelione ar susitikimo derinimu. Prie dovanos pridėkite kiekvieno asmeninį sakinį, kad bendras pirkinys netaptų vien vieno organizatoriaus žinute. Didesnė suma savaime neišsprendžia skirtingų mamos norų ar nepatogios veiklos datos."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pavyzdžiui, galite padovanoti jau pradėtą šeimos prisiminimų albumą ir po švenčių suplanuoti jo peržiūrą. Jūs pasirūpinate nuotraukomis ir užkandžiais, o mama pasirenka, ar norės pridėti savo pasakojimų. Tai darbų pasidalijimo pavyzdys, ne prašymas jai pačiai užbaigti dovaną. Gyvenant skirtinguose miestuose susitikimą galima atskirti nuo siuntos gavimo: svarbu, kad abu dalykai būtų aiškūs."
+          "text": "Pirmiausia susitarkite dėl vienos mamai tinkančios idėjos ir bendros sumos. Vienas žmogus gali pasirūpinti pirkiniu, kitas – nuotraukų atranka, trečias – kelione ar susitikimo laiku. Prie dovanos kiekvienas gali pridėti po asmeninį sakinį, o mama pati nuspręsti, ar norės pasidalyti savo istorijomis. Taip organizavimo darbai nelieka jai."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dažni klausimai apie kalėdinę dovaną mamai"
+          "text": "Dovana mamai pagal biudžetą: skaičiuokite visą sumą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Iki 10 €: rinkitės, pavyzdžiui, 3,49 € puodelį arba 10 € elektroninį knygyno kuponą. Puodelio pristatymas gali viršyti likusią biudžeto dalį, todėl jis naudingesnis atsiimant arba perkant kartu su kitomis prekėmis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iki 20 €: 17,45 € arbatos rinkinys ar 18,90 € albumas į šią ribą telpa tik be papildomų išlaidų. Jei dar reikia mokėti už pristatymą ar nuotraukų spausdinimą, ieškokite pigesnio varianto arba padidinkite biudžetą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apie 35–50 €: 32 € rankų liejimo rinkinys su 3,75 € pristatymu kainuotų 35,75 €. Dviem skirtas 50 € keramikos užsiėmimas Vilniuje gali tilpti į 50 €, jeigu renkatės nemokamą elektroninį čekį ir neatsiranda kitų išlaidų; prieš mokėdami patikrinkite aktualias sąlygas. Kelionės į studiją į šią sumą neįtrauktos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Didesnis bendras biudžetas: 80 € pamoką „Aš ir mama“ du dovanojantys žmonės galėtų pasidalyti po 40 €, tačiau tai nėra vienintelės galimos išlaidos – pasitikrinkite kelionę ir čekio pristatymą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką padovanoti mamai paskutinę minutę?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės tai, ką galite įteikti laiku be nepatikrintų pažadų. Elektroninis kuponas gali būti išeitis, jei pardavėjas patvirtina jo išsiuntimą ir gavėja galės jį panaudoti. Taip pat galite iš jau turimų priemonių parašyti asmeninį laišką ir pasiūlyti konkrečią bendro laiko datą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Užsakydami fizinę prekę prieš Kalėdas, patikrinkite galutinį atvykimo terminą pirkimo lange. Prekės paruošimo terminas nėra tas pats, kas pristatymo data. Jei pristatymas iki šventės nepatvirtintas, paruoškite atviruką su paaiškinimu arba rinkitės kitą dovaną."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai apie kalėdines dovanas mamai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ką dovanoti mamai, kuri sako „nieko nereikia“?"
+          "text": "Ką padovanoti mamai, kuri turi visko?"
         },
         {
           "type": "paragraph",
-          "text": "Pasitikslinkite, ar ji nenori naujų daiktų, didelių išlaidų, ar iš tiesų prašo apsieiti be dovanų. Jei ji norėtų daugiau bendro laiko, pasiūlykite vieną konkretų susitikimą ir jo organizavimą prisiimkite patys. Jos atsakymas svarbesnis už bet kurį populiarių dovanų sąrašą."
+          "text": "Ieškokite dovanos, kuri atliepia jos įpročius, o ne prideda dar vieną atsitiktinį daiktą. Tai gali būti jūsų atrinktų šeimos nuotraukų albumas, suplanuotas susitikimas ar veikla kartu. Jeigu mama aiškiai prašo dovanos nepirkti, gerbkite jos pasirinkimą."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar galima dovanoti rankų liejimo rinkinį mamai su suaugusiu vaiku?"
+          "text": "Kokia asmeninė dovana mamai gali būti nebrangi?"
         },
         {
           "type": "paragraph",
-          "text": "Tokią bendro prisiminimo idėją galima svarstyti, jei abu norite dalyvauti. Konkrečiam komplektui ir pasirinktai pozai tinkamumą patikrinkite prieš naudodami medžiagas. Jei mama nenori kūrybinės veiklos, paruoštas albumas ar jūsų laiškas gali būti taiklesnis."
+          "text": "Laiškas su keliais konkrečiais prisiminimais ir viena jau turima nuotrauka gali nieko papildomai nekainuoti. Jeigu perkate albumą, puodelį ar priedus, pridėkite ir pristatymo bei spausdinimo išlaidas."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Kuo Kalėdų dovana skiriasi nuo dovanos mamai gimtadieniui?"
+          "text": "Ką dovanoti mamai ir suaugusiai dukrai ar sūnui kartu?"
         },
         {
           "type": "paragraph",
-          "text": "Per Kalėdas dažnai derinate kelių žmonių biudžetą, siuntas ir susitikimus. Gimtadieniui galima susitelkti į vieną jos pačios norą ir atskirą programą. Dovanos mamai gide plačiau aptariame jubiliejų, personalizavimą ir dovanas be progos."
+          "text": "Jei abu norite veiklos, svarstykite rankų liejimą namuose arba keramikos dirbtuves. Prieš pirkdami atsižvelkite į abiejų norus, vietą, pasiruošimą ir tai, kiek laiko reikės galutiniam kūriniui užbaigti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip išsirinkti dovaną mamai kitai progai?"
         },
         {
           "type": "paragraph",
-          "text": "Kainos ir pagrindinės sąlygos tikrintos 2026 m. spalio 22 d.; jos gali keistis, pristatymas neįtrauktas. Tai redakcinė atranka pagal aprašus, ne atlikti produktų bandymai. Memocasting rinkinys yra mūsų parduodama prekė. Iliustracijos nevaizduoja konkrečių įsigyjamų gaminių ar klientų darbų."
+          "text": "Gimtadieniui, jubiliejui ir kitoms progoms skirtas galimybes aptariame atskirame dovanų mamai gide. Prieš renkantis svarbiausia suprasti jos norus – progai tinkantis įpakavimas nepakeis netinkamos pačios dovanos."
         }
       ],
       "publishAt": "2026-10-16T13:00:00.000Z",
@@ -12934,32 +13085,28 @@
       ],
       "links": [
         {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "kalėdinių dovanų gide"
+        },
+        {
           "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-          "label": "nebrangios kalėdinės dovanos"
+          "label": "nebrangių kalėdinių dovanų idėjos"
+        },
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "„Memory Casting“ rankų liejimo rinkinį porai"
         },
         {
           "targetPageId": "6addee05-19c5-477b-ae4d-d3b310acb4b8",
-          "label": "dovanos mamai"
-        },
-        {
-          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "poros rinkinio"
+          "label": "dovanų mamai gide"
         },
         {
           "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "šeimos rinkinio"
+          "label": "šeimos rinkinys"
         },
         {
           "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
-          "label": "poros rinkinio instrukcija"
+          "label": "Poros rinkinio instrukcija"
         },
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
@@ -12968,53 +13115,63 @@
       ],
       "externalLinks": [
         {
-          "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
-          "label": "medinis skirtukas MANDALA",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.knygauk.lt/pagrindinis/3299-10-eur-vertes-dovanu-kuponas.html",
+          "label": "Knygauk.lt 10 € elektroninio kupono",
+          "reason": "Knygauk.lt elektroninio knygyno kupono aprašas ir 10 € vertė. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://www.patogupirkti.lt/knyga/10-euru-dovanu-kuponas.html",
-          "label": "10 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
+          "label": "Nuotraukų albumas „Šeimos medis“",
+          "reason": "Albumo „Šeimos medis“ aprašas, 40 lapų ir 18,90 € akcijos kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
-          "label": "20 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
+          "label": "Tapybos ant keramikos dirbtuvės dviem",
+          "reason": "Keramikos dekoravimo dirbtuvės dviem Vilniuje, vienos valandos trukmė ir 50 € akcijos kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/keramikos-dekoravimo-dirbtuves-cosita-studija",
+          "label": "keramikos dekoravimo dirbtuvės Klaipėdoje",
+          "reason": "„Cosita“ keramikos dekoravimo dirbtuvės Klaipėdoje: 25 € vienam arba 50 € dviem. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/popiete-keramikos-studijoje-as-mano-mama-mazi-dalykai",
+          "label": "Keramikos studijos „Maži dalykai“ pasiūlymas",
+          "reason": "„Aš ir mama“ keramikos pamoka Klaipėdoje: 80 € dviem, 1 val. 30 min. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.skonis-kvapas.lt/dovanos/sventiniai-rinkiniai/kreminio-jaukumo-kaledos",
+          "label": "„Kreminio jaukumo Kalėdų“ rinkinys",
+          "reason": "Šventinio rinkinio aprašas, 17,45 € kaina ir sudėtyje nurodytos pistacijos. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/rinkinys2846",
+          "label": "„Skonis ir kvapas“ rinkinys „Paprastumas“",
+          "reason": "Arbatos ir saldumynų rinkinio „Paprastumas“ aprašas ir 26,95 € kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://asmeninesdovanos.lt/puodeliai/836-puodelis-mamai-mamos-dovana-mamai.html",
           "label": "puodelis „Mamos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Keraminio puodelio „Mamos“ aprašas, paruoštas užrašas ir 5 € kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/gladelig-puodelis-tamsiai-pilka-60597025/",
+          "label": "IKEA GLADELIG puodelis, 37 cl",
+          "reason": "Tamsiai pilko GLADELIG puodelio 37 cl talpa ir 3,49 € kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://gerduva.lt/puodelis-savona-provance-350-ml",
-          "label": "SAVONA PROVANCE",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
-          "label": "albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://www.skonis-kvapas.lt/dovanos/sventiniai-rinkiniai/kreminio-jaukumo-kaledos",
-          "label": "„Kreminio jaukumo Kalėdos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
-          "label": "tapybos ant keramikos dirbtuvės dviem",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "SAVONA PROVANCE 350 ml puodelis",
+          "reason": "SAVONA PROVANCE 350 ml puodelio aprašas ir 14,99 € kaina. Patikrinta 2026 m. lapkričio 11 d.; kainos ir sąlygos gali keistis."
         }
       ],
       "id": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-      "revisionHash": "b4f3d76b9ed7e3a66b3694626c800b6446e3fbee20f469e13122501e1d89f79f",
+      "revisionHash": "f767d4ec1945294262d6a9adc28783c43aa1462a1e0cd8c3ba39feee3e8b4a42",
       "approval": {
         "status": "approved",
-        "revisionHash": "b4f3d76b9ed7e3a66b3694626c800b6446e3fbee20f469e13122501e1d89f79f",
-        "approvedAt": "2026-10-26T15:52:03.522Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "f767d4ec1945294262d6a9adc28783c43aa1462a1e0cd8c3ba39feee3e8b4a42",
+        "approvedAt": "2026-11-11T14:03:35.193Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -36341,5 +36498,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-09T11:28:55.943Z"
+  "generatedAt": "2026-11-11T14:03:35.473Z"
 }
