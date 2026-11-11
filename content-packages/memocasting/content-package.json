@@ -11923,7 +11923,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Pridėkite vieną savo indėlį: rėmeliui – užrašytą nuotraukos istoriją; arbatai – kvietimą pokalbiui; albumui – paruoštą pirmą lapą; kūrybos rinkiniui – pasiūlymą pasirūpinti darbo vieta. Dovanojant per atstumą verta pridėti žinutę, nuo ko dovana ir kodėl ją išrinkote, tačiau neįpareigoti gavėjo iškart dalytis reakcija."
+          "text": "Pridėkite vieną savo indėlį: rėmeliui – užrašytą nuotraukos istoriją; arbatai – kvietimą pokalbiui; albumui – paruoštą pirmą lapą; kūrybos rinkiniui – pasiūlymą pasirūpinti darbo vieta. Dovanojant per atstumą verta pridėti žinutę, nuo ko dovana ir kodėl ją išrinkote, tačiau neįpareigoti gavėjo iškart dalytis reakcija. Dovanas gali papildyti kalėdiniai sveikinimai, pritaikyti gavėjui ir jūsų santykiui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Klasės ar mokinio kalėdinė padėka mokytojams gali būti ir nuoširdūs žodžiai, neužkraunant šeimoms pareigos pirkti dovaną."
         },
         {
           "type": "heading",
@@ -12122,6 +12126,14 @@
         {
           "targetPageId": "a95e3915-a2af-442b-9266-7db5ef47d90a",
           "label": "Kalėdų kolekcijoje"
+        },
+        {
+          "targetPageId": "4e2ab56b-eccf-4d7c-ad2f-eb538dc73ccb",
+          "label": "kalėdinė padėka mokytojams"
+        },
+        {
+          "targetPageId": "f9cc9326-35d4-4349-8be6-082439e2e9ce",
+          "label": "kalėdiniai sveikinimai"
         }
       ],
       "externalLinks": [
@@ -12172,12 +12184,12 @@
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "9a0991e43cc8fdfff2ebe3fad8f61f15a1a1495e19799ae1f2e2e90f15e2e9f7",
+      "revisionHash": "0ff0b0094b788d5f6707ed9f68cbfa6026f7c0c6ca431bdab466dc3da86504f4",
       "approval": {
         "status": "approved",
-        "revisionHash": "9a0991e43cc8fdfff2ebe3fad8f61f15a1a1495e19799ae1f2e2e90f15e2e9f7",
-        "approvedAt": "2026-11-11T14:45:34.656Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "0ff0b0094b788d5f6707ed9f68cbfa6026f7c0c6ca431bdab466dc3da86504f4",
+        "approvedAt": "2026-11-11T23:55:22.013Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -12727,6 +12739,10 @@
           "text": "Tinka: mamai, kuri saugo šeimos istorijas ir mėgsta peržiūrėti nuotraukas. Mažiau tinka: jei ji renkasi skaitmeninius albumus arba jai būtų nemalonu matyti konkrečius prisiminimus. Nereikia užpildyti visų puslapių: atrinkite 8–12 jai reikšmingų nuotraukų, po jomis parašykite vietą, prisimenamą įvykį ir datą, jei ją žinote. Dovanokite jau paruoštus puslapius, kad mamai netektų atlikti viso darbo."
         },
         {
+          "type": "paragraph",
+          "text": "Prie dovanos gali tikti kalėdinis sveikinimas mamai, kuriame paminėsite jums abiem svarbų prisiminimą."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Kaip paruošti albumą per tris vakarus?"
@@ -13113,6 +13129,10 @@
         {
           "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
           "label": "šeimos rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "a1602763-c3bc-4a7e-8273-781d58872235",
+          "label": "kalėdinis sveikinimas mamai"
         }
       ],
       "externalLinks": [
@@ -13168,12 +13188,12 @@
         }
       ],
       "id": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-      "revisionHash": "f767d4ec1945294262d6a9adc28783c43aa1462a1e0cd8c3ba39feee3e8b4a42",
+      "revisionHash": "15c698ae140cabef049c56f69d8c3835f4d32c441fb3e7759e77460cb2ec2670",
       "approval": {
         "status": "approved",
-        "revisionHash": "f767d4ec1945294262d6a9adc28783c43aa1462a1e0cd8c3ba39feee3e8b4a42",
-        "approvedAt": "2026-11-11T14:03:35.193Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "15c698ae140cabef049c56f69d8c3835f4d32c441fb3e7759e77460cb2ec2670",
+        "approvedAt": "2026-11-11T23:55:21.774Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -13835,6 +13855,10 @@
         },
         {
           "type": "paragraph",
+          "text": "Bendrą šeimos dovaną gali papildyti kalėdiniai sveikinimai šeimai: prisiminkite tai, kas svarbu būtent jums."
+        },
+        {
+          "type": "paragraph",
           "text": "Jei nežinote, ar visi norės dalyvauti vienodai, palikite vietos pasirinkimui. Vienas gali fotografuoti, kitas padėti pasiruošti ar prisijungti vėliau. Bendras susitikimas neturi tapti prievole tiems, kuriems veikla nepatinka."
         },
         {
@@ -14018,6 +14042,10 @@
         {
           "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
           "label": "kalėdines dovanas porai"
+        },
+        {
+          "targetPageId": "c4b4b48f-dc31-4f5a-a412-d1b0e557e2e4",
+          "label": "kalėdiniai sveikinimai šeimai"
         }
       ],
       "externalLinks": [
@@ -14063,12 +14091,12 @@
         }
       ],
       "id": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-      "revisionHash": "3b452643b1440f6e2d958b8cc5c4bb48342ac40794474a31d38947dacbd94e2d",
+      "revisionHash": "ea5200dfcb81d590672ff94c33aa6a4ca0ef4892dd4a7b39cae9c89c8ec8c430",
       "approval": {
         "status": "approved",
-        "revisionHash": "3b452643b1440f6e2d958b8cc5c4bb48342ac40794474a31d38947dacbd94e2d",
-        "approvedAt": "2026-11-11T14:17:07.463Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "ea5200dfcb81d590672ff94c33aa6a4ca0ef4892dd4a7b39cae9c89c8ec8c430",
+        "approvedAt": "2026-11-11T23:55:22.381Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -15385,6 +15413,10 @@
           "text": "Jei seneliai mėgsta pasakoti, pasiūlykite kartu apžiūrėti pirmus puslapius, tačiau neklauskite istorijų kaip privalomos užduoties. Iš anksto įvertinkite spausdinimo, nuotraukų tvirtinimo ir pristatymo išlaidas. Tai geras pasirinkimas tik tada, jei jiems patinka fizinės nuotraukos ir jie turi vietos albumui."
         },
         {
+          "type": "paragraph",
+          "text": "Prie dovanos gali tikti kalėdinis sveikinimas seneliams su bendro prisiminimo detale."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "4. Paprastesnis prisiminimas – vienas rėmelis ir nuotrauka"
@@ -15604,6 +15636,10 @@
         {
           "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
           "label": "kalėdinių dovanų šeimai"
+        },
+        {
+          "targetPageId": "5b4e2f2c-b782-4b5e-b59f-cd1c45872049",
+          "label": "kalėdinis sveikinimas seneliams"
         }
       ],
       "externalLinks": [
@@ -15639,12 +15675,12 @@
         }
       ],
       "id": "3c7cb521-1100-4b96-9d21-6beb78135f89",
-      "revisionHash": "9fcb525d5fd1ded5792163a5e1d8951008c2955128e0e529b1f8a2917ec87b30",
+      "revisionHash": "521782d248b4636c267f4540bb9818b8b02f2a3a24251a8c1fa681680bf7661f",
       "approval": {
         "status": "approved",
-        "revisionHash": "9fcb525d5fd1ded5792163a5e1d8951008c2955128e0e529b1f8a2917ec87b30",
-        "approvedAt": "2026-11-11T15:58:07.718Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "521782d248b4636c267f4540bb9818b8b02f2a3a24251a8c1fa681680bf7661f",
+        "approvedAt": "2026-11-11T23:55:22.195Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -16493,6 +16529,10 @@
           "text": "Prisiminkite paskutinius pokalbius: kokią knygą draugas norėjo perskaityti, ką mėgsta veikti laisvalaikiu, kokį susitikimą vis atidedate? Dovana gali pratęsti vieną iš šių minčių. Tas pats principas tinka renkant kalėdinę dovaną draugei, sesei ar broliui: remkitės žmogaus pomėgiais ir dabartiniais norais."
         },
         {
+          "type": "paragraph",
+          "text": "Prie pasirinktos dovanos gali tikti kalėdinis sveikinimas draugams, primenantis jūsų bendrą patirtį."
+        },
+        {
           "type": "list",
           "items": [
             "Jei žmogus aiškiai įvardijo norimą daiktą, išsiaiškinkite tikslų pavadinimą ar modelį. Ypač svarbu nesupainioti pomėgiui skirtų priemonių.",
@@ -16504,6 +16544,10 @@
         {
           "type": "paragraph",
           "text": "Asmeniškumą gali suteikti ir paaiškinimas, kodėl pasirinkote būtent šią dovaną. Vietoj bendro sveikinimo parašykite vieną konkretų sakinį, pavyzdžiui: „Ši nuotrauka primena mūsų išvyką, kurią vis dar prisimenu su šypsena.“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei draugui patinka humoras, linksmi kalėdiniai sveikinimai gali papildyti dovaną šilta žinute."
         },
         {
           "type": "heading",
@@ -16660,6 +16704,14 @@
         {
           "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
           "label": "nebrangių kalėdinių dovanų gidas"
+        },
+        {
+          "targetPageId": "c3b4c438-5903-4458-8d2b-b61cc642c940",
+          "label": "kalėdinis sveikinimas draugams"
+        },
+        {
+          "targetPageId": "abc6e7c4-6383-4ae9-bae9-fc784fa34007",
+          "label": "linksmi kalėdiniai sveikinimai"
         }
       ],
       "externalLinks": [
@@ -16695,12 +16747,12 @@
         }
       ],
       "id": "a74780e9-7b58-4526-bc4a-32bc606e07d2",
-      "revisionHash": "f6e449fc92c79f77b3efb80899e9c1d3446c15a27a08e2edb3e4bd6c7cd348ea",
+      "revisionHash": "11ca61ad1fa6c3001e0c537f26c17f8c327e47d8f5d45e62a10b30148ee4dc52",
       "approval": {
         "status": "approved",
-        "revisionHash": "f6e449fc92c79f77b3efb80899e9c1d3446c15a27a08e2edb3e4bd6c7cd348ea",
-        "approvedAt": "2026-11-11T16:21:11.322Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "11ca61ad1fa6c3001e0c537f26c17f8c327e47d8f5d45e62a10b30148ee4dc52",
+        "approvedAt": "2026-11-11T23:55:22.101Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -16857,6 +16909,10 @@
           "text": "Kortelė gali būti paprasta ir pagarbi: „Ačiū už pagalbą pirmąją savaitę. Linkiu ramaus šventinio poilsio.“ Šis sakinys tinka tik tada, jei jis atitinka jūsų tikrą patirtį. Jei artimai nebendravote, pakanka neutralaus šventinio palinkėjimo be išgalvotų asmeninių detalių."
         },
         {
+          "type": "paragraph",
+          "text": "Prie bendros dovanos tiks kalėdinis sveikinimas kolegoms, kuriame padėkojama už bendrą darbą."
+        },
+        {
           "type": "heading",
           "level": 2,
           "text": "Ar kolegai tinka rankų liejimo rinkinys?"
@@ -16990,6 +17046,10 @@
         {
           "targetPageId": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
           "label": "kalėdinių dovanų darbuotojams gidas"
+        },
+        {
+          "targetPageId": "c9dcd21c-c375-42f6-bb80-44bfaab4cdb4",
+          "label": "kalėdinis sveikinimas kolegoms"
         }
       ],
       "externalLinks": [
@@ -17030,12 +17090,12 @@
         }
       ],
       "id": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
-      "revisionHash": "dc369bafc8e8949a6a778f7796dbd73264458ad52984cfcc12fac6b9b010f47c",
+      "revisionHash": "5578acf2abfd9bd9eb43415e3289b6fc13790cf80d6e3deee5a315c8ba60b4ff",
       "approval": {
         "status": "approved",
-        "revisionHash": "dc369bafc8e8949a6a778f7796dbd73264458ad52984cfcc12fac6b9b010f47c",
-        "approvedAt": "2026-11-11T15:15:35.965Z",
-        "actorId": "codex-memocasting-editor-20261111"
+        "revisionHash": "5578acf2abfd9bd9eb43415e3289b6fc13790cf80d6e3deee5a315c8ba60b4ff",
+        "approvedAt": "2026-11-11T23:55:21.904Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -19092,6 +19152,10 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Mažai kortelei ypač tinka trumpi sveikinimai atvirukui: kelis žodžius galima papildyti asmenine detale."
+        },
+        {
           "type": "heading",
           "level": 2,
           "text": "Ką daryti, jei viena dovana dar neatkeliavo?"
@@ -19273,15 +19337,19 @@
         {
           "targetPageId": "aa5dd1fe-62a3-4cd8-ac98-084ee2fedae0",
           "label": "kalėdinės dovanos paskutinę minutę"
+        },
+        {
+          "targetPageId": "0e33d4cc-fc5b-4138-af0d-b3a73196ad78",
+          "label": "trumpi sveikinimai atvirukui"
         }
       ],
       "id": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
-      "revisionHash": "4abaa40a4981f3f655fde53a6c10b9a893412784912a80a589174bb85be04afe",
+      "revisionHash": "3430d7b427876d8e2875c71ca631a7de6d9e9a9de4f26a22f43e710b82791a80",
       "approval": {
         "status": "approved",
-        "revisionHash": "4abaa40a4981f3f655fde53a6c10b9a893412784912a80a589174bb85be04afe",
-        "approvedAt": "2026-10-25T16:55:43.479Z",
-        "actorId": "final-seo-editor-20261025"
+        "revisionHash": "3430d7b427876d8e2875c71ca631a7de6d9e9a9de4f26a22f43e710b82791a80",
+        "approvedAt": "2026-11-11T23:55:22.286Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -41265,7 +41333,456 @@
         "approvedAt": "2026-11-11T19:32:59.292Z",
         "actorId": "codex-memocasting-editor-20261111"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-verslo-partneriams-ir-klientams",
+      "title": "Kalėdiniai verslo sveikinimai partneriams ir klientams: 30 tekstų skirtingoms situacijoms",
+      "description": "30 kalėdinių sveikinimų partneriams, klientams ir komandoms: pasirinkite tinkamą toną ir pritaikykite žinutę.",
+      "intent": "Padėti parašyti pagarbų ir asmenišką šventinį sveikinimą verslo partneriams ir klientams.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinis verslo sveikinimas gali būti trumpas ir vis tiek asmeniškas. Pasirinkite vieną konkrečią priežastį padėkoti, venkite pardavimo spaudimo ir pritaikykite kreipinį santykiui su gavėju. Toliau rasite 30 originalių tekstų partneriams, klientams ir tarptautinėms komandoms bei paprastą jų pritaikymo būdą. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti tinkamą tekstą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš rašydami atsakykite į tris klausimus: kam siunčiate laišką, kokį ryšį su žmogumi iš tiesų turite ir ar žinote, kokias šventes jis mini? Ilgametei partnerei galima priminti konkretų bendrą darbą. Didelei klientų grupei tiks trumpesnė, neutrali žinutė. Jeigu šventinės tradicijos nežinomos, rinkitės „gražių metų pabaigos švenčių“ ir neverskite gavėjo pritarti jūsų pasirinktam sveikinimui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprasta struktūra: kreipinys + tikra padėka + linkėjimas + parašas. Į laužtinius skliaustus vietoj pavyzdžio įrašykite tai, ką galite pagrįsti. Jei bendro įvykio neprisimenate, geriau palikite bendresnę padėką, nei sugalvokite istoriją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai verslo partneriams"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū už bendradarbiavimą šiais metais. Linkime ramių švenčių ir geros pradžios naujiems sumanymams.",
+            "Dėkojame, kad kartu ieškojote sprendimų. Tegul šventinis laikotarpis suteikia laiko poilsiui ir naujoms mintims.",
+            "Už pasitikėjimą ir bendrą darbą – nuoširdus ačiū. Gražių Kalėdų Jums ir visai Jūsų komandai.",
+            "Vertiname galimybę dirbti kartu. Linkime šilto laiko su artimaisiais ir prasmingų ateinančių metų.",
+            "Ačiū už pokalbius, atvirumą ir bendrus sprendimus. Linkime jaukių švenčių ir sklandžios metų pradžios.",
+            "Dėkojame už bendradarbiavimą įgyvendinant [projektą]. Buvo gera kartu ieškoti kelio į rezultatą. Gražių Kalėdų!",
+            "Metų pabaigoje norime padėkoti už kartu nueitą kelią. Linkime laiko atsikvėpti ir energijos ateinantiems darbams.",
+            "Su šventėmis! Dėkojame už partnerystę ir linkime, kad ateinantys metai atneštų naujų galimybių."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip suasmeninti: šeštą pavyzdį naudokite tik jei projekte iš tiesų dirbote kartu. Įrašykite projekto pavadinimą arba vieną tikslų bendro darbo etapą. Neišvardykite neskelbtinos informacijos, ypač jei sveikinimą skaitys platesnė gavėjų grupė."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi sveikinimai klientams be pardavimo spaudimo"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū, kad šiais metais buvote su mumis. Linkime jaukių Kalėdų ir ramaus šventinio laiko.",
+            "Dėkojame už Jūsų pasitikėjimą. Tegul metų pabaiga atneša daugiau laiko tam, kas svarbu.",
+            "Gražių švenčių! Ačiū, kad pasirinkote mus ir leidote būti mažos Jūsų istorijos dalimi.",
+            "Šiltai sveikiname su Kalėdomis. Linkime jaukių susitikimų ir ramių akimirkų.",
+            "Jūsų pasitikėjimas mums svarbus. Dėkojame ir linkime šviesių metų pabaigos švenčių.",
+            "Ačiū, kad buvote kartu šiais metais. Linkime švenčių, kurias norėsis prisiminti.",
+            "Sveikiname su artėjančiomis šventėmis ir linkime daugiau laiko sau bei mylimiems žmonėms.",
+            "Nuo mūsų komandos – nuoširdus ačiū ir šilčiausi linkėjimai Jūsų namams."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei siunčiate sveikinimą visiems naujienlaiškio gavėjams, nevadinkite kiekvieno jų pirkėju: dalis žmonių galėjo tik užsiprenumeruoti naujienas. Tikslesnis variantas – „ačiū, kad sekate mūsų naujienas“ arba neutralus sveikinimas be teiginio apie pirkimą. Komercinius pranešimus siųskite laikydamiesi savo privatumo politikos ir taikomų taisyklių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Asmeniškesnis laiškas ilgalaikiam partneriui"
+        },
+        {
+          "type": "list",
+          "items": [
+            "[Vardas], dėkoju už šių metų bendradarbiavimą ir Jūsų pagalbą sprendžiant [konkretų klausimą]. Linkiu ramių Kalėdų ir laiko atsikvėpti. Pagarbiai, [vardas].",
+            "[Vardas], buvo gera kartu dirbti prie [projekto]. Ačiū už Jūsų įžvalgas ir skirtą laiką. Jaukių švenčių Jums ir komandai!",
+            "Dėkoju už atvirą bendravimą visus metus. Linkiu švenčių, kuriose tilptų ir poilsis, ir malonūs susitikimai.",
+            "Ačiū už bendrą darbą bei kantrybę, kai ieškojome geriausio sprendimo. Ramių Kalėdų ir šviesių ateinančių metų.",
+            "[Vardas], noriu padėkoti už [konkretų bendradarbiavimo momentą]. Vertinu Jūsų dėmesį detalėms. Linkiu jaukių švenčių.",
+            "Šiemet ypač prisiminsiu mūsų darbą prie [projekto]. Ačiū už pasitikėjimą ir bendras pastangas. Gražių metų pabaigos švenčių!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Venkite „mūsų bendradarbiavimas buvo sėkmingiausias“ ar kitų nepagrįstų vertinimų. Taip pat nežadėkite konkrečių paslaugų, terminų ar naujų sutarčių vien tam, kad sveikinimas skambėtų įspūdingiau. Vienas nuoširdus sakinys stipresnis už ilgą abstrakčią padėką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai tarptautiniams partneriams"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei nežinote gavėjo tradicijų, neutralus angliškas „season’s greetings“ leidžia palinkėti gražaus šventinio laikotarpio nepabrėžiant konkrečios šventės. Parašykite komandos vardą taip, kaip jį vartojate įprastame susirašinėjime."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Season’s greetings, and thank you for working with us this year. Wishing you a peaceful holiday season and a good start to the new year.",
+            "Thank you for your trust and collaboration. We wish you and your team a restful holiday season.",
+            "It has been a pleasure working together on [project]. Thank you for your time and commitment. Warm wishes for the season ahead.",
+            "Wishing you a peaceful close to the year. Thank you for the conversations and work we have shared.",
+            "To you and your team: thank you for your partnership. May the coming year bring meaningful opportunities and moments of rest.",
+            "Thank you for being part of our work this year. Sending warm wishes to you and your colleagues.",
+            "We appreciate the opportunity to collaborate with you. Wishing you a bright start to the new year.",
+            "Warm holiday wishes from the [company] team. Thank you for your support and trust."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš siųsdami dar kartą patikrinkite vardus, įmonės pavadinimą ir, jeigu tekstas išverstas, prasmę. Vieno šablono nebūtina siųsti visiems: pakeiskite pirmąjį sakinį taip, kad jis iš tiesų tiktų gavėjui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką rašyti temoje ir kaip pasirašyti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Laiško tema gali būti paprasta: „Ačiū už bendradarbiavimą“, „Šilti metų pabaigos linkėjimai“ arba „Gražių švenčių nuo [komandos pavadinimas]“. Venkite klaidinančių temų, kurios žada dovaną ar nuolaidą, jei laiške jų nėra. Pagarbų santykį kuria aiškumas, o ne didžiųjų raidžių ir šauktukų gausa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpam masiniam sveikinimui užtenka komandos parašo. Individualų laišką gali pasirašyti žmogus, kuris iš tiesų bendravo su gavėju. Jei sveikinimas siunčiamas kartu su dovana, ant kortelės palikite pakankamai vietos ranka įrašyti gavėjo vardą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ieškantiems komandos šventės idėjų gali praversti kalėdinių dovanų darbuotojams gidas, o renkant mažą bendrą dovaną – dovanų kolegoms idėjos. Sveikinimas ir dovana nėra privaloma pora: nuoširdi padėka veikia ir viena."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikra prieš išsiunčiant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gavėjo vardas ir kreipinys parašyti teisingai.",
+            "Padėka atitinka tikrą santykį: gavėjas nevadinamas klientu, jei to nežinote.",
+            "Įrašytos projekto detalės nėra konfidencialios.",
+            "Šventinis tonas tinka gavėjui; nežinant jo tradicijų pasirinktas neutralus linkėjimas.",
+            "Nėra pažado, pasiūlymo ar nuolaidos, kurios neketinate suteikti.",
+            "Nurodytas tikras siuntėjas, o prieš masinį siuntimą patikrinti gavėjų pasirinkimai ir privatumo taisyklės."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Geras verslo sveikinimas pirmiausia parodo pagarbą žmogaus laikui. Pasirinkite tinkamą pavyzdį, pašalinkite tai, kas neatitinka jūsų santykio, ir pridėkite vieną tikrą detalę. Taip žinutė skambės kaip jūsų, o ne kaip atsitiktinai parinktas šablonas."
+        }
+      ],
+      "publishAt": "2026-11-23T14:00:00.000Z",
+      "media": [
+        {
+          "id": "e9d44b3d-9172-44f7-92f8-47bad4c60845",
+          "src": "/content-assets/memocasting/e9d44b3d-9172-44f7-92f8-47bad4c60845.webp",
+          "alt": "Du dalykiškai apsirengę žmonės sveikinasi šventiškai papuoštoje biuro erdvėje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cb4aa4a7-a3fd-426c-befb-d1943ecd8ebf"
+        },
+        {
+          "id": "2ee4b214-4e5a-4b91-98b1-76e6de2b4cdf",
+          "src": "/content-assets/memocasting/2ee4b214-4e5a-4b91-98b1-76e6de2b4cdf.webp",
+          "alt": "Du dalykiškai apsirengę žmonės sveikinasi šventiškai papuoštoje biuro erdvėje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cb4aa4a7-a3fd-426c-befb-d1943ecd8ebf"
+        },
+        {
+          "id": "5a7cf9be-d2fa-482e-b209-498ab0e62f04",
+          "src": "/content-assets/memocasting/5a7cf9be-d2fa-482e-b209-498ab0e62f04.webp",
+          "alt": "Du dalykiškai apsirengę žmonės sveikinasi šventiškai papuoštoje biuro erdvėje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cb4aa4a7-a3fd-426c-befb-d1943ecd8ebf"
+        },
+        {
+          "id": "2c38f5f5-767a-4d06-9e46-ad97b6c2bc8c",
+          "src": "/content-assets/memocasting/2c38f5f5-767a-4d06-9e46-ad97b6c2bc8c.webp",
+          "alt": "Du dalykiškai apsirengę žmonės sveikinasi šventiškai papuoštoje biuro erdvėje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cb4aa4a7-a3fd-426c-befb-d1943ecd8ebf"
+        },
+        {
+          "id": "11c3f7c7-ddd6-4e6c-b2ff-6d946c978ae1",
+          "src": "/content-assets/memocasting/11c3f7c7-ddd6-4e6c-b2ff-6d946c978ae1.webp",
+          "alt": "Du dalykiškai apsirengę žmonės sveikinasi šventiškai papuoštoje biuro erdvėje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cb4aa4a7-a3fd-426c-befb-d1943ecd8ebf"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
+          "label": "kalėdinių dovanų darbuotojams gidas"
+        },
+        {
+          "targetPageId": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
+          "label": "dovanų kolegoms idėjos"
+        }
+      ],
+      "id": "2f621a5f-5967-4904-94c5-739a4e0fb9f4",
+      "revisionHash": "6a3ca9925fa5f3480d382a6692041cc66cf0c59b65a7d0025d7de4486122caa5",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "6a3ca9925fa5f3480d382a6692041cc66cf0c59b65a7d0025d7de4486122caa5",
+        "approvedAt": "2026-11-11T23:55:22.493Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-mylimajam",
+      "title": "Kalėdiniai sveikinimai mylimajam ir vaikinui: 30 žinučių nuo naujos pažinties iki bendrų metų",
+      "description": "30 kalėdinių sveikinimų mylimam žmogui: trumpos, romantiškos ir žaismingos žinutės skirtingiems santykiams.",
+      "intent": "Padėti pasirinkti nuoširdžius sveikinimus mylimajam ir vaikinui pagal santykį ir situaciją.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinis sveikinimas mylimajam gali būti trumpas, žaismingas arba labai asmeniškas. Svarbiausia, kad jo tonas atitiktų jūsų santykį: naujai pažinčiai nebūtinas didelis meilės prisipažinimas, o ilgai kartu gyvenančiam žmogui gražiausiai gali nuskambėti paprasta padėka už konkrečią akimirką. Šiame gide rasite 30 originalių tekstų ir būdų juos pritaikyti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti sveikinimą pagal jūsų santykį?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalvokite apie tai, ką šiam žmogui pasakytumėte gyvai. Jei paprastai bendraujate lengvai ir šmaikščiai, rinkitės paprastą žinutę. Jei jaučiatės pasirengę padėkoti ar atvirai pasakyti apie savo jausmus, paminėkite vieną tikrą bendrą akimirką. Nereikia rašyti to, ko dar nejaučiate vien dėl to, kad to reikalauja šventė."
+        },
+        {
+          "type": "paragraph",
+          "text": "Greitas pasirinkimas: trumpą žinutę naudokite mažai dovanų kortelei; ilgesnę padėką – laiškui ar atvirukui; žaismingą variantą – žmogui, kuriam toks humoras artimas. Jei esate toli, parašykite, ko pasiilgote, neversdami kito žmogaus jaustis kaltu dėl atstumo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi kalėdiniai sveikinimai vaikinui"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Su Kalėdomis! Linkiu jaukių dienų ir dar daug smagių akimirkų kartu.",
+            "Gražių švenčių žmogui, su kuriuo net paprastas vakaras tampa ypatingas.",
+            "Linkiu tau ramaus poilsio, šilumos ir visko, kas leidžia nuoširdžiai šypsotis.",
+            "Šių Kalėdų palinkėjimas paprastas: daugiau laiko tam, kas mums abiem brangu.",
+            "Ačiū už tavo juoką, rūpestį ir akimirkas kartu. Jaukių Kalėdų!",
+            "Smagu šias šventes pasitikti su tavimi. Linkiu šilumos ir lengvų dienų.",
+            "Tegul šventėse būna mažiau skubėjimo ir daugiau mūsų mėgstamų dalykų.",
+            "Su Kalėdomis! Džiaugiuosi, kad esi mano gyvenime."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpą tekstą lengvai papildysite vienu vardu ar maža detale: „Ačiū už tą pasivaikščiojimą, po kurio ilgai šypsojausi.“ Venkite bendro pažado, jei nežinote, ar galėsite jį įgyvendinti. Daugiau asmeniškumo suteikia prisiminimas, o ne kuo didesnis žodžių skaičius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai naujai pažinčiai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Su šventėmis! Buvo smagu tave pažinti – linkiu jaukių dienų ir gražių naujų patirčių.",
+            "Džiaugiuosi mūsų pokalbiais ir norėjau palinkėti šiltų Kalėdų. Tikiuosi, netrukus vėl susitiksime.",
+            "Linkiu poilsio, gardžių šventinių skonių ir laiko savo mėgstamiems dalykams. Su Kalėdomis!",
+            "Šventės – gera proga pasakyti, kad man smagu leisti laiką su tavimi. Jaukių Kalėdų!",
+            "Tegul šios dienos atneša gerą nuotaiką ir malonių staigmenų. Ačiū už mūsų pažintį.",
+            "Su Kalėdomis! Linkiu tau ramios šventės ir daug priežasčių šypsotis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Naujos pažinties pradžioje galite padėkoti už malonų pokalbį ar susitikimą, neapibrėždami santykio už kitą žmogų. Jei planuojate įteikti dovaną, mažoje kortelėje užtenka dviejų sakinių. Pasiūlymas „tikiuosi netrukus susitikti“ skamba natūraliai, kai iš tiesų to norite, ir nesukuria spaudimo atsakyti tuo pačiu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Žodžiai po pirmųjų bendrų metų"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Šie metai atnešė daug naujų akimirkų su tavimi. Ypač prisimenu [bendrą akimirką]. Ačiū, kad buvai šalia. Jaukių Kalėdų!",
+            "Džiaugiuosi mūsų pirmaisiais bendrais metais: ilgais pokalbiais, mažais atradimais ir kasdienybe. Linkiu mums laiko tuo pasidžiaugti.",
+            "Nuo pirmo [pasimatymo ar kitos tikros akimirkos] iki šių Kalėdų kartu – buvo gera tave pažinti. Linkiu mums daug švelnių dienų.",
+            "Šiemet išmokau, kaip gera kartu net nieko ypatingo neveikti. Ačiū už šiuos metus ir šiltų švenčių tau.",
+            "Pirmosios bendros Kalėdos man primena, kiek daug telpa vienuose metuose. Džiaugiuosi kiekviena mūsų patirtimi.",
+            "Ačiū, kad dalinaisi savo laiku ir mintimis. Linkiu tau tokių švenčių, kuriose rastum viską, kas tau svarbu."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Įrašykite vietoj skliaustų tikrą vietą, įvykį ar net mažą kasdienį ritualą. Tai gali būti pirmas kartu gamintas patiekalas, pasivaikščiojimas po lietaus ar pokalbis ilgoje kelionėje. Jei tiksli data neaiški, jos minėti nereikia: jausmas prisiminime svarbesnis nei kalendoriaus tikslumas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Romantiški kalėdiniai sveikinimai mylimajam"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mano mielas žmogau, šių Kalėdų proga noriu tau padėkoti už šilumą, kurią kuriame kasdien. Linkiu mums saugoti tai, kas mus suartina.",
+            "Kai prisimenu šiuos metus, matau daug mažų akimirkų su tavimi. Ačiū už tavo artumą. Linkiu ramių ir šviesių Kalėdų.",
+            "Šventės man gražiausios tada, kai galiu būti savimi šalia tavęs. Linkiu mums dar daugiau tokių vakarų.",
+            "Ačiū, kad klausaisi, juokiesi kartu ir pastebi dalykus, kurių kiti kartais nepamato. Su Kalėdomis, mano mylimas žmogau.",
+            "Linkiu tau švelnumo ir ramybės. O mums – laiko išgirsti vienas kitą net tada, kai dienos labai užimtos.",
+            "Nežinau, ką atneš nauji metai, bet džiaugiuosi šiuo vakaru ir galimybe juo pasidalyti su tavimi. Jaukių Kalėdų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Romantiškas sveikinimas neturi žadėti, kad visada bus lengva. Galite kalbėti apie tai, ką branginate šiandien: pagalbą, bendrą juoką, gebėjimą kalbėtis ar ramų buvimą greta. Jeigu žodis „mylimasis“ jūsų kasdienėje kalboje neskamba natūraliai, pakeiskite jį vardu ar jums abiem artimu kreipiniu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai šventes sutinkate atskirai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Šiandien tavęs pasiilgau. Linkiu jaukaus vakaro ir tikiuosi netrukus išgirsti, kaip praėjo tavo diena.",
+            "Nors šįkart esame skirtingose vietose, galvoju apie tave. Siunčiu šilčiausius Kalėdų linkėjimus.",
+            "Linkiu, kad šios Kalėdos būtų švelnios tau. Pasiilgau mūsų [bendro įpročio] ir laukiu, kada vėl juo pasidalysime.",
+            "Švenčių rytą norėjau pirmiausia tau parašyti: ačiū, kad esi. Linkiu šilumos ir ramaus laiko ten, kur dabar esi."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite pasiūlyti bendrą veiklą per atstumą, paklauskite, kas kitam žmogui tiktų: trumpas skambutis, kartu žiūrimas filmas ar tiesiog balso žinutė. Jeigu susitikimo data dar neaiški, nerašykite „greitai būtinai pasimatysime“ kaip pažado. Galite parašyti: „Lauksiu, kol galėsime susiplanuoti laiką kartu.“"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip parašyti savą sveikinimą per kelias minutes?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasirinkite tikrą detalę. Užrašykite vieną bendrą akimirką, gestą ar savybę, kurią vertinate.",
+            "Pasakykite, kodėl ji svarbi. Pavyzdžiui: „Kai po sunkios dienos išklausai, jaučiuosi ramiau.“",
+            "Pridėkite linkėjimą. Rinkitės tai, kas tinka žmogui: poilsį, įkvėpimą, smagų laiką ar galimybę susitikti.",
+            "Perskaitykite garsiai. Jei sakinys neprimena jūsų kalbėjimo, sutrumpinkite arba pakeiskite žodžius."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: „Ačiū, kad šiemet kartu radome laiko mūsų vakariniams pasivaikščiojimams. Net trumpas išėjimas padėdavo nurimti. Linkiu tau jaukių Kalėdų ir dar daug tokių ramių vakarų.“ Naudokite šį pavyzdį kaip struktūrą, o prisiminimą pakeiskite savuoju."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei sveikinimą skaito ir kiti žmonės, pavyzdžiui, jis dedamas į bendrą šeimos atviruką, privačias detales palikite asmeniniam laiškui. Pakanka pasidžiaugti bendru laiku ar palinkėti gražių švenčių. Prieš siunčiant žinutę verta patikrinti, ar nepalikote skliaustuose pateikto pavyzdžio ir ar kreipinys tikrai skirtas tam žmogui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei kartu ieškote veiklos ar dovanos, peržiūrėkite kalėdinių dovanų porai idėjas. O jei dovaną renkatės būtent vaikinui, gali padėti kalėdinių dovanų vaikinui gidas. Sveikinimas yra vertingas ir be dovanos: asmeninė žinutė, kurioje žmogus atpažįsta jus abu, gali tapti gražia šventės dalimi pati savaime."
+        }
+      ],
+      "publishAt": "2026-11-24T14:00:00.000Z",
+      "media": [
+        {
+          "id": "c1865b41-d121-477d-801b-7877b7f88633",
+          "src": "/content-assets/memocasting/c1865b41-d121-477d-801b-7877b7f88633.webp",
+          "alt": "Pora žiemą vaikšto šventinėmis šviesomis papuošta miesto gatve.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "d495c160-ea0e-466e-a847-929c25edc776"
+        },
+        {
+          "id": "9fd7abbf-16bf-472f-86f5-d79a43ad9d67",
+          "src": "/content-assets/memocasting/9fd7abbf-16bf-472f-86f5-d79a43ad9d67.webp",
+          "alt": "Pora žiemą vaikšto šventinėmis šviesomis papuošta miesto gatve.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "d495c160-ea0e-466e-a847-929c25edc776"
+        },
+        {
+          "id": "7c776bb7-3a11-4893-8c3b-3f83e71c34f2",
+          "src": "/content-assets/memocasting/7c776bb7-3a11-4893-8c3b-3f83e71c34f2.webp",
+          "alt": "Pora žiemą vaikšto šventinėmis šviesomis papuošta miesto gatve.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "d495c160-ea0e-466e-a847-929c25edc776"
+        },
+        {
+          "id": "59a8abc4-47cc-42b0-9e05-ec9e526356fd",
+          "src": "/content-assets/memocasting/59a8abc4-47cc-42b0-9e05-ec9e526356fd.webp",
+          "alt": "Pora žiemą vaikšto šventinėmis šviesomis papuošta miesto gatve.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "d495c160-ea0e-466e-a847-929c25edc776"
+        },
+        {
+          "id": "805b1ce8-5d62-44b3-aabf-158576e1ca03",
+          "src": "/content-assets/memocasting/805b1ce8-5d62-44b3-aabf-158576e1ca03.webp",
+          "alt": "Pora žiemą vaikšto šventinėmis šviesomis papuošta miesto gatve.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "d495c160-ea0e-466e-a847-929c25edc776"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdinių dovanų porai idėjas"
+        },
+        {
+          "targetPageId": "6c78ff90-2f9c-48c6-9b64-f97276e471a2",
+          "label": "kalėdinių dovanų vaikinui gidas"
+        }
+      ],
+      "id": "9bd270c3-11de-43f6-994e-8205c69563a3",
+      "revisionHash": "31aa2c9a404fd6d94b75fceaa42b959af07ed74d1b875314a3eb8a85f6df7b3e",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "31aa2c9a404fd6d94b75fceaa42b959af07ed74d1b875314a3eb8a85f6df7b3e",
+        "approvedAt": "2026-11-11T23:55:22.618Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T19:32:59.508Z"
+  "generatedAt": "2026-11-11T23:55:23.026Z"
 }
