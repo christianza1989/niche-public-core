@@ -36666,7 +36666,422 @@
         "approvedAt": "2026-11-09T11:28:55.662Z",
         "actorId": "codex-keyword-collections-editor-20261109"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-mamai-nuo-vaiku",
+      "title": "Kalėdiniai sveikinimai mamai: 50 gražių linkėjimų",
+      "description": "Raskite kalėdinį sveikinimą mamai: trumpi žodžiai atvirukui, vaikų linkėjimai ir nuoširdūs asmeniški palinkėjimai.",
+      "intent": "Padėti išsirinkti ir pritaikyti prasmingus kalėdinius sveikinimus mamai.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Artėjant Kalėdoms norisi mamai pasakyti daugiau nei įprastą „linksmų švenčių“, tačiau rasti tinkamus žodžius ne visada lengva. Rinkitės jūsų santykį atitinkantį sveikinimą: trumpą žinutę, kelias vaiko mintis ar ilgesnį laišką. Pavyzdžius galite naudoti tokius, kokie jie yra, arba papildyti sava istorija."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi kalėdiniai sveikinimai mamai į atviruką"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, linkiu Tau ramių Kalėdų ir daug dienų, kuriose būtų vietos Tavo svajonėms.",
+            "Su šventėmis, mama! Tegul ši žiema atneša poilsio, gražių susitikimų ir naujų minčių.",
+            "Ačiū, kad esi mano gyvenime. Linkiu Tau Kalėdų, kokių pati labiausiai nori.",
+            "Mama, siunčiu Tau šventinį apkabinimą ir pažadą dažniau rasti laiko pabūti kartu.",
+            "Tegul po eglute laukia ne tik dovanos, bet ir valanda, kurią skirsi vien sau. Su Kalėdomis!",
+            "Linkiu Tau lengvesnių rūpesčių, jaukių vakarų ir žmonių, su kuriais gera tylėti.",
+            "Mama, tegul ateinantys metai padovanoja progų didžiuotis ir džiaugtis savimi.",
+            "Tegu šventės prasideda nuo paprasto dalyko: sustojimo ir laiko su tais, kuriuos myli.",
+            "Net jei šįkart apkabinti galiu tik žodžiais, jie skirti Tau iš visos širdies. Su Kalėdomis!",
+            "Mama, linkiu Tau mažų džiaugsmų kasdien, o didelių – tada, kai mažiausiai jų tikiesi."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šilti žodžiai mamai nuo suaugusio vaiko"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, augdamas ne visada pastebėjau, kiek daug padarydavai, kad mums būtų gera. Dabar noriu už tai padėkoti ir palinkėti, kad ir Tavimi kas nors pasirūpintų taip pat nuoširdžiai.",
+            "Šiandien prisimenu mūsų pokalbius, kurie padėdavo nusiraminti net tada, kai dar nežinojau atsakymo. Ačiū, kad moki klausytis. Linkiu Tau šviesių Kalėdų ir tokių pat gerų pašnekesių.",
+            "Mama, man brangu, kad su Tavimi galiu džiaugtis ir pasakoti apie tai, kas nepavyko. Per šias Kalėdas linkiu Tau to paties – žmonių, šalia kurių gali būti savimi.",
+            "Kalėdų proga noriu pasakyti ne tai, ką „reikia“, o tai, ką jaučiu: esu dėkingas už mūsų ryšį. Tegul kitais metais randame dar daugiau progų pasimatyti.",
+            "Ačiū, kad išmokei kantriai pradėti iš naujo ir pastebėti gerumą. Šiuos dalykus prisimenu kasdien. Linkiu Tau gražių, neskubančių švenčių.",
+            "Mama, ne visada randu progą pasakyti, kokia svarbi man esi. Šiandien ją radau. Linkiu Kalėdų, kuriose netrūktų nei juoko, nei ramybės."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pakeiskite „dėkingas“ į „dėkinga“, „augdamas“ į „augdama“ ir kitus žodžius pagal tai, kaip kalbate. Vienas tikras prisiminimas atviruke dažnai reiškia daugiau nei daugybė bendrų frazių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kalėdiniai sveikinimai mamai nuo vaikų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažesniam vaikui galima pasiūlyti pasirinkti patinkantį pavyzdį, padėti užrašyti jo mintį arba paskatinti šalia nupiešti piešinį. Kiekvieną sakinį galima pritaikyti vaiko amžiui – nebūtina laukti ilgo teksto."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mamyte, linkiu Tau daug linksmų dienų ir didelio mano apkabinimo. Su Kalėdomis!",
+            "Mama, man patinka, kai kartu ką nors veikiame. Linkiu, kad kitais metais tokių dienų būtų dar daugiau.",
+            "Su Kalėdomis, mama! Nupiešiau Tau šią žvaigždę, kad primintų, kaip gera būti kartu.",
+            "Mamyte, ačiū, kad skaitai man pasakas. Linkiu Tau savo stebuklingos istorijos šiais metais.",
+            "Mama, linkiu Tau tiek šypsenų, kiek žiemą būna snaigių. Myliu Tave!",
+            "Ačiū, mama, kad padedi, kai ko nors nemoku. Linkiu Tau gražios šventės ir daug žaidimų kartu.",
+            "Mamyte, šiandien dovanoju Tau savo piešinį ir bučinį. Su Kalėdomis!",
+            "Mama, linkiu Tau geros nuotaikos ir tokios didelės eglutės, kokią tik nupieščiau!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei sakinys netinka jūsų šeimai, paprašykite vaiko užbaigti: „Man smagu su mama, kai...“ arba „Mamą noriu pradžiuginti...“ Suaugęs žmogus gali užrašyti tiksliai vaiko pasakytus žodžius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai nuo dukros ir nuo sūnaus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pavyzdžiai tinka tada, kai norisi pasirašyti būtent taip, tačiau juos galima lengvai pakeisti pagal savo šeimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuo dukros:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, linkiu Tau Kalėdų be skubėjimo. Džiaugiuosi, kad galiu vadinti Tave savo mama. Tavo dukra.",
+            "Už kiekvieną padrąsinantį žodį ir galimybę augti savaip – ačiū. Su meile. Gražių Kalėdų! Tavo dukra.",
+            "Mama, tegul kitais metais atrandame naują bendrą tradiciją: gal pasivaikščiojimą, o gal ilgus pusryčius. Gražių švenčių! Tavo dukra.",
+            "Tikiuosi, kad per šias Kalėdas skirsi sau tiek rūpesčio, kiek jo dovanoji kitiems. Apkabinu. Tavo dukra."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuo sūnaus:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, linkiu Tau švenčių, kuriose nieko nereikia suspėti. Atsisėsk, pailsėk ir džiaukis. Su meile, Tavo sūnus.",
+            "Ačiū, kad visada galiu su Tavimi pasikalbėti. Linkiu Tau šiltų Kalėdų ir drąsos įgyvendinti tai, kas Tau svarbu. Tavo sūnus.",
+            "Mama, ši dovana nedidelė, bet noras Tave pradžiuginti – didžiulis. Su gražiausiomis metų šventėmis! Tavo sūnus.",
+            "Tegul ateinančiais metais turime progų drauge išbandyti ką nors nauja. Linksmų Kalėdų, mama! Tavo sūnus."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Linkėjimai mamai nuo visų vaikų"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, siunčiame Tau tiek apkabinimų, kiek mūsų yra, ir dar kelis kitam mūsų susitikimui. Su Kalėdomis! Tavo vaikai.",
+            "Ačiū už viską, kuo dalinomės šiais metais. Linkime Tau laiko savo norams ir daug gražių mūsų visų susitikimų.",
+            "Kiekvienas iš mūsų prisimena skirtingą akimirką, bet visi sutariame dėl vieno: labai gera, kad esi mūsų mama. Su šventėmis!",
+            "Mama, dovanojame Tau šiuos žodžius kartu, o dar labiau laukiame progos juos pasakyti gyvai. Ramių Kalėdų! Tavo vaikai."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ilgesni kalėdiniai sveikinimai mamai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kai norisi padėkoti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, per metus kasdienybė dažnai nusineša paprastus žodžius, kuriuos norėčiau Tau pasakyti. Ačiū už laiką, atidumą ir pokalbius, po kurių būna lengviau. Šių Kalėdų proga linkiu Tau poilsio, malonių netikėtumų ir vietos viskam, kas džiugina būtent Tave."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kai norisi prisiminti bendrą akimirką"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, per šias šventes vis grįžtu mintimis prie mūsų bendrų akimirkų. Man jos primena, kad gražiausi dalykai ne visada būna suplanuoti. Linkiu Tau dar daug tokių dienų, kurias vėliau norėtųsi prisiminti. Su Kalėdomis ir meile!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite, įrašykite konkretų prisiminimą vietoj bendro sakinio: kur buvote, ką veikėte arba kas jus tuomet prajuokino. Rinkitės tai, kas tikrai įvyko."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kai norisi palinkėti laiko sau"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, šįkart linkiu Tau ne dar ilgesnio darbų sąrašo, o laisvos vietos kalendoriuje. Tebūnie joje rytas su knyga, pasivaikščiojimas ar tiesiog nieko neveikimas – tai, ką pati išsirinktum. Ačiū už mūsų laiką kartu. Gražių ir ramių Kalėdų!"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kai metai buvo nelengvi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, žinau, kad šie metai atnešė visko ir ne kiekviena diena buvo lengva. Nereikia per šventes apsimesti, kad rūpesčių nebuvo. Linkiu Tau truputį ramybės, artimo pokalbio ir vilties ateinančiais metais. Jei norėsi, būsiu šalia."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kai dovanojate bendrą laiką"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, šiemet kartu su sveikinimu dovanoju ir pažadą: susitarkime dėl dienos, kurią praleisime taip, kaip Tau patinka. Gal pasivaikščiosime, gal gaminsime, o gal tiesiog pasikalbėsime prie arbatos. Branginu mūsų laiką ir laukiu naujų bendrų prisiminimų. Su Kalėdomis!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovanokite tik tokį pažadą, kurį iš tikrųjų ketinate įgyvendinti. Galite iš karto pasiūlyti kelias datas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai per Kalėdas esate toli arba norite santūraus sveikinimo"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, šiemet šventes pasitinkame skirtingose vietose, bet galvoju apie Tave. Linkiu jaukaus vakaro ir laukiu, kada galėsime pasikalbėti.",
+            "Siunčiu Tau šventinį linkėjimą per atstumą. Tegul Kalėdos būna ramios, o kitas mūsų susitikimas – dar jaukesnis.",
+            "Su Kalėdomis, mama. Nors šiandien negalime susėsti prie vieno stalo, norėjau rasti būdą pasveikinti ir palinkėti gražių dienų.",
+            "Mama, linkiu Tau ramių švenčių, gero poilsio ir visko, kas šiuo metu Tau svarbiausia.",
+            "Sveikinu su Kalėdomis. Tikiuosi, kad ateinantys metai atneš daugiau šviesių akimirkų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne visų santykiai vienodi. Santūrus, nuoširdus sveikinimas gali būti tinkamesnis už žodžius ar pažadus, kurie neatitinka jūsų jausmų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Linksmi linkėjimai mamai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama, linkiu Kalėdų, per kurias arbata nespėtų atšalti, o telefonas suskambėtų tik tada, kai pati to norėsi!",
+            "Šiemet linkiu Tau ypatingos dovanos – šventinių darbų sąrašo, kuriame prie kiekvienos eilutės parašyta „padaryta“.",
+            "Mama, tegul Kalėdų Senelis atneša tai, ko dar neturi, o ne dar vieną porą kojinių – nebent kaip tik jų prašei!",
+            "Linkiu, kad po švenčių rastum ne tik dovanų popieriaus skiaučių, bet ir bent vieną nepaliestą mėgstamą skanėstą."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Humorą rinkitės pagal mamos būdą: jei ji nemėgsta juokelių apie pasiruošimą šventėms, pakeiskite juos jūsų bendru, maloniu prisiminimu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip parašyti asmenišką sveikinimą mamai?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasirinkite toną. Ar mamai labiau patiks ramus, šmaikštus, trumpas, ar jautresnis tekstas?",
+            "Pridėkite vieną tikrą detalę. Tai gali būti pokalbis, šiemet kartu aplankyta vieta ar mamos pomėgis. Nereikia išgalvoti sentimentalių istorijų.",
+            "Pasakykite, kodėl tai svarbu. Pavyzdžiui: „Prisimenu mūsų pasivaikščiojimą prie ežero – tą dieną supratau, kaip gera neskubant pasikalbėti.“",
+            "Palinkėkite konkrečiai. Vietoj vien bendros „laimės“ galite palinkėti poilsio, laiko tapybai ar daugiau pasivaikščiojimų – jeigu tai mamai artima.",
+            "Pasirašykite. Jei sveikinate keli vaikai, kiekvienas gali pridėti po sakinį arba savo piešinį."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprastas šablonas: „Mama, prisimenu [tikra bendra akimirka]. Man ji brangi, nes [kodėl]. Šių Kalėdų proga linkiu Tau [konkretus palinkėjimas]. Su meile, [vardas].“ Laužtinius skliaustus pakeiskite savo žodžiais arba rinkitės vieną iš užbaigtų sveikinimų aukščiau."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ant ko užrašyti sveikinimą ir ką pridėti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sveikinimą galite užrašyti ant savo rankomis išlankstyto popieriaus lapo, kitoje bendros nuotraukos pusėje arba išsiųsti žinute. Jeigu norite pirkti atviruką, pateikiame tris konkrečius skirtingų parduotuvių pavyzdžius:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Kalėdinė nuotaika“ – Charlot: popierinis atvirukas, tinkamas ranka rašomam tekstui.",
+            "„Kalėdinė Laputė“ – Mazimazi: žaismingas pasirinkimas, prie kurio galima pridėti vaiko piešinį. Pardavėjas nurodo, kad vokas nepridedamas.",
+            "Medinis atvirukas „Angeliukas“ – Medinis Debesėlis: atvirukas su išimamu eglutės žaisliuku. Pardavėjas gamina pagal užsakymą, todėl prieš pirkdami pasitikrinkite terminą; žaisliuko virvelė nepridedama."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pavyzdžiai nukreipia į kitų pardavėjų puslapius. Kainas, prieinamumą, pristatymą ir užsakymo sąlygas prieš pirkdami patikrinkite konkrečioje parduotuvėje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei prie žodžių dar ieškote dovanos, peržiūrėkite mūsų kalėdinių dovanų mamai idėjas ir pagalvokite apie jos pomėgius, o ne vien apie dovanų madą. Nedidelei staigmenai pravers ir nebrangių kalėdinių dovanų gidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu mamai patinka bendros kūrybinės veiklos, Memory Casting kalėdinių dovanų mamai kolekcijoje rasite mūsų parduodamų rankų liejimo rinkinių. Pasirinkite juos tik tuomet, jei toks laikas kartu patiktų abiem; popierinis atvirukas ar pokalbis savaime gali būti prasminga dovana."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką trumpai parašyti mamai Kalėdų proga?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Užtenka vieno asmeniško padėkos sakinio ir paprasto palinkėjimo. Pavyzdžiui: „Mama, ačiū už mūsų pokalbius. Linkiu Tau ramių Kalėdų ir daugiau laiko mėgstamiems dalykams.“"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip pasveikinti mamą nuo mažo vaiko?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paklauskite, ką vaikui patinka veikti su mama, ir užrašykite jo mintį. Vaikas gali pridėti piešinį ar savo vardą – suaugusiojo užduotis yra padėti išreikšti, o ne sugalvoti vaiko jausmus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką parašyti mamai, jei per šventes susitikti nepavyks?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite tiesiai parašyti, kad galvojate apie ją, palinkėti jaukių švenčių ir, jei abu norite, pasiūlyti laiką pokalbiui ar kitam susitikimui."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar sveikinimas turi rimuotis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Nuoširdus prozos sakinys gali būti toks pat tinkamas kaip eilėraštis. Svarbiausia, kad žodžiai atitiktų jūsų santykį su mama."
+        }
+      ],
+      "publishAt": "2026-11-12T14:00:00.000Z",
+      "media": [
+        {
+          "id": "0863201e-6d8f-4bd0-93df-d146857fb376",
+          "src": "/content-assets/memocasting/0863201e-6d8f-4bd0-93df-d146857fb376.webp",
+          "alt": "Mama ir suaugusi dukra su šventiniu atviruku kalėdinėje mugėje.",
+          "width": 1600,
+          "height": 900,
+          "credit": "",
+          "rights": "Originali šiam projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "06d9a742-5f89-4928-808b-abeef25e7f82"
+        },
+        {
+          "id": "b1c9b5f0-68b6-4dd2-807a-e257e641a306",
+          "src": "/content-assets/memocasting/b1c9b5f0-68b6-4dd2-807a-e257e641a306.webp",
+          "alt": "Mama ir suaugusi dukra su šventiniu atviruku kalėdinėje mugėje.",
+          "width": 1200,
+          "height": 675,
+          "credit": "",
+          "rights": "Originali šiam projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "06d9a742-5f89-4928-808b-abeef25e7f82"
+        },
+        {
+          "id": "09256ff0-89e5-4e6e-ada0-da690fe612b1",
+          "src": "/content-assets/memocasting/09256ff0-89e5-4e6e-ada0-da690fe612b1.webp",
+          "alt": "Mama ir suaugusi dukra su šventiniu atviruku kalėdinėje mugėje.",
+          "width": 800,
+          "height": 450,
+          "credit": "",
+          "rights": "Originali šiam projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "06d9a742-5f89-4928-808b-abeef25e7f82"
+        },
+        {
+          "id": "bbffdbe5-e7ca-4056-a71e-0929d42cc18a",
+          "src": "/content-assets/memocasting/bbffdbe5-e7ca-4056-a71e-0929d42cc18a.webp",
+          "alt": "Mama ir suaugusi dukra su šventiniu atviruku kalėdinėje mugėje.",
+          "width": 640,
+          "height": 360,
+          "credit": "",
+          "rights": "Originali šiam projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "06d9a742-5f89-4928-808b-abeef25e7f82"
+        },
+        {
+          "id": "cb8cc183-d339-4371-ae93-c2ccb7fff6c8",
+          "src": "/content-assets/memocasting/cb8cc183-d339-4371-ae93-c2ccb7fff6c8.webp",
+          "alt": "Mama ir suaugusi dukra su šventiniu atviruku kalėdinėje mugėje.",
+          "width": 360,
+          "height": 203,
+          "credit": "",
+          "rights": "Originali šiam projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "06d9a742-5f89-4928-808b-abeef25e7f82"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
+          "label": "kalėdinių dovanų mamai idėjas"
+        },
+        {
+          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
+          "label": "nebrangių kalėdinių dovanų gidas"
+        },
+        {
+          "targetPageId": "c8db3850-eefa-4053-a8b7-70062e901a26",
+          "label": "Memory Casting kalėdinių dovanų mamai kolekcijoje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://charlot.lt/popieriaus-gaminiai/atvirukai/atvirukas-kaledine-nuotaika/",
+          "label": "„Kalėdinė nuotaika“ – Charlot",
+          "reason": "Pardavėjo „Charlot“ atviruko „Kalėdinė nuotaika“ aprašas, patikrintas 2026-11-11. Kaina ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.mazimazi.lt/atvirukas-kaledine-lapute",
+          "label": "„Kalėdinė Laputė“ – Mazimazi",
+          "reason": "Pardavėjo „Mazimazi“ atviruko „Kalėdinė Laputė“ aprašas, patikrintas 2026-11-11. Vokas nepridedamas; kaina ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://medinisdebeselis.lt/produktas/kaledinis-atvirukas-angeliukas/",
+          "label": "Medinis atvirukas „Angeliukas“ – Medinis Debesėlis",
+          "reason": "Pardavėjo „Medinis Debesėlis“ medinio atviruko „Angeliukas“ aprašas, patikrintas 2026-11-11. Žaisliuko virvelė nepridedama; kaina ir sąlygos gali keistis."
+        }
+      ],
+      "id": "a1602763-c3bc-4a7e-8273-781d58872235",
+      "revisionHash": "9a8acc40e8c2b6c03c627fa1d39a86e4bdc83d675fab9bf11cfbecdedc99c3d1",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "9a8acc40e8c2b6c03c627fa1d39a86e4bdc83d675fab9bf11cfbecdedc99c3d1",
+        "approvedAt": "2026-11-11T14:28:34.907Z",
+        "actorId": "codex-memocasting-editor-20261111"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T14:17:07.733Z"
+  "generatedAt": "2026-11-11T14:28:35.120Z"
 }
