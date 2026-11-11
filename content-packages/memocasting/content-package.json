@@ -16164,7 +16164,7 @@
         },
         {
           "type": "paragraph",
-          "text": "NIGHT LIGHT A6 juoda užrašinė, 192 lapai patikros dieną kainavo 5,99 € be narystės; narystės kaina buvo 5,39 €. A6 formatas mažesnis nei A5, bet tikrinkite, ar gavėjas apskritai naudoja popierinę užrašinę ir ar jam patinka būtent toks dizainas."
+          "text": "NIGHT LIGHT A6 juoda užrašinė patikros dieną kainavo 5,99 € be narystės; narystės kaina buvo 5,39 €. A6 formatas mažesnis nei A5, bet tikrinkite, ar gavėjas apskritai naudoja popierinę užrašinę ir ar jam patinka būtent toks dizainas."
         },
         {
           "type": "heading",
@@ -16389,7 +16389,7 @@
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/uzrasu-knygute-night-light-a6-192-lap-juoda.html",
-          "label": "NIGHT LIGHT A6 juoda užrašinė, 192 lapai",
+          "label": "NIGHT LIGHT A6 juoda užrašinė",
           "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
@@ -16419,11 +16419,11 @@
         }
       ],
       "id": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
-      "revisionHash": "aed4f03a5b8ad92dbd5f38dc46b25266e784c201fae2b4f2f66a82e5a180fce6",
+      "revisionHash": "dc369bafc8e8949a6a778f7796dbd73264458ad52984cfcc12fac6b9b010f47c",
       "approval": {
         "status": "approved",
-        "revisionHash": "aed4f03a5b8ad92dbd5f38dc46b25266e784c201fae2b4f2f66a82e5a180fce6",
-        "approvedAt": "2026-11-11T14:58:06.945Z",
+        "revisionHash": "dc369bafc8e8949a6a778f7796dbd73264458ad52984cfcc12fac6b9b010f47c",
+        "approvedAt": "2026-11-11T15:15:35.965Z",
         "actorId": "codex-memocasting-editor-20261111"
       }
     },
@@ -17255,20 +17255,16 @@
       "type": "guide",
       "slug": "gidai/nebrangios-kaledines-dovanos",
       "title": "Nebrangios kalėdinės dovanos 2026: iki 5, 10 ir 20 €",
-      "description": "Konkrečios dovanos iki 5, 10 ir 20 € su kainomis bei nuorodomis. Skaičiavimo pavyzdžiai, simbolinės dovanos ir asmeninė dovana iš turimų priemonių.",
-      "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
+      "description": "Nebrangios kalėdinės dovanos iki 5, 10 ir 20 €: kainos, asmeninės idėjos ir kaip apskaičiuoti bendrą sumą su pristatymu.",
+      "intent": "Padėti pasirinkti nebrangią Kalėdų dovaną įvertinant visą biudžetą, gavėjo poreikius ir galutinį gavimo mokestį.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Nebrangiai kalėdinei dovanai pirmiausia nustatykite galutinę ribą, įskaitant siuntimą ir įpakavimą. 19 € prekė nėra dovana iki 20 €, jeigu dar reikės mokėti už pristatymą. Atrinkome konkrečių pirkinių ir vieną savarankiškai paruošiamą dovaną, kad galėtumėte rinktis neviršydami sutartos sumos."
+          "text": "Nedidelė dovana gali būti apgalvota, jei atitinka žmogaus pomėgį ir telpa į visą numatytą sumą. 19 € prekė viršys 20 € ribą, jei pristatymas ir kitos papildomos išlaidos kartu bus didesnės nei 1 €. Prieš rinkdamiesi nusistatykite ribą, į kurią įtrauksite ir gavimą, ir būtiną paruošimą."
         },
         {
-          "type": "list",
-          "items": [
-            "Iki 5 €: medinis skirtukas MANDALA – 3,95 € be narystės; puodelis „Mamos“ – 5 €.",
-            "Iki 10 €: elektroninis 10 € knygų kuponas arba iš turimų priemonių paruoštas prisiminimų laiškas.",
-            "Iki 20 €: gertuvė už 13 €, puodelis už 14,99 €, kavinukas už 15,99 €, arbatos rinkinys už 17,45 € arba albumas už 18,90 € akcijos metu."
-          ]
+          "type": "paragraph",
+          "text": "Šiame gide palyginsime konkrečius pasirinkimus iki 5, 10 ir 20 €, parodysime, kiek pinigų lieka papildomoms išlaidoms, ir padėsime susiplanuoti asmeninę dovaną iš turimų priemonių. Kainos bei pasiūlymai tikrinti 2026 m. lapkričio 11 d.; pardavėjų kainos, akcijos ir likučiai gali keistis."
         },
         {
           "type": "heading",
@@ -17276,83 +17272,128 @@
           "text": "Dovanos iki 5 €: mažas daiktas be netikėto primokėjimo"
         },
         {
-          "type": "paragraph",
-          "text": "Medinis skirtukas MANDALA patikros metu be narystės kainavo 3,95 €. Nariams rodoma mažesnė kaina, tačiau biudžetą čia skaičiuojame pagal visiems parodytą sumą. Skaitančiam draugui jį papildykite rekomenduojamos knygos pavadinimu ir asmenine žinute. Esant 5 € ribai lieka 1,05 €, todėl pristatymas į ją gali nebetilpti."
+          "type": "heading",
+          "level": 3,
+          "text": "A5 užrašinė rašančiam ranka"
         },
         {
           "type": "paragraph",
-          "text": "Keraminis puodelis „Mamos“ kainavo 5 €. Tai konkretus paruošto dizaino variantas mamai, mėgstančiai užrašus, o ne bet kuriam gavėjui tinkanti universali dovana. Pristatymo kaina būtų papildoma, todėl tiksliai 5 € galutinį biudžetą jis atitiks tik tuomet, jei pardavėjas pasiūlys jums tinkamą nemokamą gavimą. To iš anksto nežadame."
+          "text": "A5 užrašų knyga PAINT YOUR, 112 lapų patikros dieną turėjo 4,97 € įprastą kainą; pardavėjas papildomai rodė mažesnę klubo kainą. Pardavėjas pavadinime nurodo linijuotus lapus, todėl prieš pirkdami pasitikrinkite lapų tipą. Gavėjui, kuris naudoja popierinius užrašus, gali tikti toks formatas; pirkdami žmogui, kuris viską žymisi telefone, pirmiausia paklauskite."
         },
         {
           "type": "paragraph",
-          "text": "Jei keičiatės simbolinėmis dovanomis, nesistenkite prie mažo daikto pridėti penkių atsitiktinių smulkmenų. Venkite naujos didelės dėžutės, kurios kaina artėja prie pačios dovanos kainos. Turimas tvarkingas popierius ir aiški žinutė gali visiškai užtekti."
+          "text": "Jeigu galutinis limitas 5 €, nuo įprastos 4,97 € kainos lieka tik 0,03 €. Taigi daugiau nei 0,03 € kainuojantis gavimas ir įpakavimas kartu šią ribą viršys. Nemokamo atsiėmimo iš anksto nežadame: pasirinkimą reikia patikrinti pardavėjo krepšelyje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Rėmelis su jūsų paruošta nuotrauka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Baltas IKEA KNOPPÄNG 30 × 40 cm rėmelis kainavo 4,99 €. Pats rėmelis neapima jūsų nuotraukos spausdinimo; jei nuotrauka dar neatspausdinta, pridėkite šią išlaidą. Patikros metu konkretaus pasirinkto gavimo būdo likutis nebuvo aiškus. Ši dovana tinkamiausia, kai žinote, kad gavėjui patinka toks dydis ir jis norėtų įrėminto prisiminimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie jau turimos ir teisėtai naudojamos nuotraukos pridėkite trumpą užrašą apie tikrą bendrą įvykį. Taip sukursite asmeninę dalį neperkraudami dovanos atsitiktinėmis smulkmenomis. Jei norite kitų žmonių nuotraukas viešinti, pirmiausia paprašykite jų leidimo."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dovanos iki 10 €: pasirinkimas be mokamo siuntinio"
+          "text": "Dovanos iki 10 €: įvertinkite gavimo kainą"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Penki arbatos žiedai"
         },
         {
           "type": "paragraph",
-          "text": "10 € knygų kuponas Patogupirkti.lt siunčiamas el. paštu po apmokėjimo ir galioja šešis mėnesius. Tai praktiškas tiksliai 10 € pasirinkimas, tačiau jis negarantuoja, kad už tiek pavyks nupirkti bet kurią gavėjo norimą knygą. Už didesnį pirkinį reikės primokėti; nepanaudota sumos dalis negrąžinama kaip pinigai. Įteikite su tokia aiškia paskirtimi, o ne žadėdami neribotą pasirinkimą."
+          "text": "Arbatos žiedų rinkinys, 5 vnt. lapkričio 11 d. kainavo 5,79 €. Jis gali tikti žmogui, kuris pats mėgsta tokią arbatą. Patikrinkite sudėtį ir pasidomėkite, ar gavėjas turės tinkamą indą; valgoma arba geriama dovana nėra universali visiems."
         },
         {
           "type": "paragraph",
-          "text": "Kuponą verta pirkti arčiau įteikimo, atsižvelgiant į galiojimo pradžią. Jei kalėdinę dovaną perkate spalį, dalis galiojimo praeis dar iki šventės. Galite paruošti asmeninę kortelę dabar, o patį kuponą įsigyti vėliau. Prieš mokėdami dar kartą patikrinkite sąlygas."
+          "text": "Iki 10 € nuo 5,79 € prekės kainos lieka 4,21 €. Tai nėra pristatymo tarifas. Jei dovana keliaus paštu, galutinę sumą ir pristatymo būdą tikrinkite prieš mokėdami; pakuotės kaina taip pat svarbi."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kava gavėjui su tinkama įranga"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Caprisette Belgique“ kavos pupelės, 250 g patikros dieną kainavo 5,95 € akcijos metu. Likusi suma iki 10 € būtų 4,05 € papildomoms išlaidoms. Tai pupelės, todėl rinkitės tik žinodami, kad gavėjas turi malūnėlį ar aparatą pupelėms. Akcija gali baigtis ir kaina – pasikeisti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "10 € knygų kuponas"
+        },
+        {
+          "type": "paragraph",
+          "text": "10 € knygų kuponas patikros dieną kainavo 10 €. Pardavėjas 2026-11-11 nurodė, kad jis siunčiamas el. paštu po apmokėjimo ir galioja 6 mėnesius nuo įsigijimo. Sąlygas prieš pirkimą būtina patikrinti dar kartą; jei kuponas perkamas anksti, dalis galiojimo gali praeiti iki šventės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuponas suteikia nurodytą vertę, bet nepažada bet kurios knygos be priemokos. Patikrinkite, ar gavėjas gali naudotis konkrečiu knygynu ir kokios yra nepanaudotos vertės bei pristatymo sąlygos. Jei pati prekė kainuoja tiksliai 10 €, papildomos išlaidos jau viršys griežtą 10 € ribą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Nedidelė užrašinė mėgstančiam rašyti"
+        },
+        {
+          "type": "paragraph",
+          "text": "NIGHT LIGHT A6 užrašinė turėjo 5,99 € įprastą kainą be narystės; rodoma klubo kaina buvo mažesnė. A6 yra mažesnis formatas už A5, tad gali būti patogus trumpiems užrašams, jei būtent tokio ieškoma. Prieš pirkdami įsitikinkite, kad žmogui nereikia kitokio dydžio ar puslapių tipo."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dovanos iki 20 €: penki skirtingi poreikiai"
+          "text": "Dovanos iki 20 €: skirtingi poreikiai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Žygiams – termosinė gertuvė už 13 €"
+          "text": "Kasdieniam ritualui – pasirinktas puodelis"
         },
         {
           "type": "paragraph",
-          "text": "QUECHUA „900“ 0,5 l žalios spalvos variantas kainavo 13 €. Rinkitės, jei žmogui reikia būtent tokios talpos. Turint 20 € ribą lieka 7 € kitoms išlaidoms, tačiau konkrečią gavimo kainą tikrinkite pardavėjo krepšelyje. Nereikia dovanoti antros gertuvės žmogui, kuris jau turi mėgstamą."
+          "text": "SAVONA PROVANCE 350 ml puodelis lapkričio 11 d. kainavo 14,99 €. Iki 20 € ribos liktų 5,01 € gavimui ir įpakavimui. Rinkitės, jei gavėjui patinka šis stilius ir papildomas puodelis bus naudojamas; vien graži pakuotė neatsako į šį klausimą."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Kasdieniam ritualui – puodelis už 14,99 €"
+          "text": "Kavos ruošimui – MOKA kavinukas"
         },
         {
           "type": "paragraph",
-          "text": "SAVONA PROVANCE 350 ml puodelis tinka, jei žinote gavėjo stilių. Prie 20 € ribos lieka 5,01 € pristatymui ir įpakavimui. Papildoma arbata nebūtinai tilps, todėl pirmiausia pasitikrinkite visą sumą. Vienas tinkamas daiktas geresnis už dirbtinai išpūstą rinkinį."
+          "text": "MOKA 3 puodelių kavinukas patikros metu kainavo 15,99 €. Pardavėjas aiškiai nurodo, kad šis konkretus modelis netinka indukcinei viryklei. Jei kavinukas tinka naudojamai kaitlentei, iki 20 € liktų 4,01 €. Kavą ir kitas priemones, jeigu jų dar reikia, skaičiuokite papildomai."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Kavai – MOKA kavinukas už 15,99 €"
+          "text": "Prisiminimams – albumas su jau parinkta istorija"
         },
         {
           "type": "paragraph",
-          "text": "MOKA 3 puodelių kavinukas – konkretus variantas kavą ant viryklės ruošiančiam žmogui. Patikrinkite suderinamumą su jo virykle. Jei būtina dar pirkti papildomą įrangą, rinkitės kitą dovaną. Į 20 € prekių ribą telpantis kavinukas automatiškai netampa visa paruošta kavos dovana."
+          "text": "Albumas „Šeimos medis“ lapkričio 11 d. kainavo 18,90 € akcijos metu; iki 20 € lieka 1,10 €. Pardavėjas nurodo 40 baltų lapų. Į albumo kainą jūsų nuotraukų atrinkimas ir spausdinimas neįskaičiuoti, o pasibaigus akcijai kaina gali pasikeisti. Jei norite įteikti jau užpildytą prisiminimą, įsivertinkite ir laiką, ne tik prekės kainą."
         },
         {
           "type": "heading",
-          "level": 3,
-          "text": "Arbatai – šventinis rinkinys už 17,45 €"
-        },
-        {
-          "type": "paragraph",
-          "text": "„Kreminio jaukumo Kalėdos“ tinka žinant gavėjo skonius ir maisto apribojimus. Su tokia kaina iki 20 € lieka 2,55 €; atskiras mokamas siuntimas gali ribą viršyti. Neignoruokite sudėties vien dėl to, kad ieškote pigesnės dovanos: etiketę patikrinkite prieš pirkdami."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Prisiminimams – albumas už 18,90 € akcijos metu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Albumas „Šeimos medis“ į šį biudžetą pateko tik pagal patikrintą akcijos kainą; įprasta rodoma kaina buvo 26,90 €. Jei akcijos nebeliks, jis nebeatitiks dovanos iki 20 € kriterijaus. Nuotraukų paruošimą taip pat reikės apmokėti arba atlikti turimomis priemonėmis. Tuščio albumo nesupainiokite su jau pagaminta fotoknyga."
+          "level": 2,
+          "text": "Kaip pasirinkimas skiriasi mamai, kolegai ir draugui?"
         },
         {
           "type": "image",
           "assetId": "0fd46af9-e140-44c6-b1e7-a390387197b6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mamai albumas gali tapti prasmingas, kai paruošiate ne tuščią daiktą, o bent vieną jos pačios svarbią istoriją. Kolegei ar kolegai dovana pirmiausia turėtų atitikti sutartą mainų sumą ir darbovietės taisykles; patarimų apie tai rasite kalėdinių dovanų kolegoms gide. Draugui gali pakakti vienos gerai pažįstamam pomėgiui tinkamos prekės ir nuoširdaus laiško."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pavyzdžiai nėra griežtos gavėjų taisyklės. Viena mama gali nemėgti albumų, o draugas – nenorėti papildomų daiktų. Geriau remtis žmogaus noru negu automatiškai parinkti prekę pagal jo vaidmenį. Platesnę atranką pagal žmogų rasite kalėdinių dovanų gide, o mamai – kalėdinių dovanų mamai gide."
         },
         {
           "type": "heading",
@@ -17361,11 +17402,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasiruoškite penkis lapus ar korteles ir voką. Kiekvienam lapui skirkite po vieną temą: bendras juokingas įvykis, dėkingumas, išmoktas dalykas, vieta, kurią norite aplankyti, ir konkretus pasiūlymas susitikti. Rašykite trumpai, bet tiksliai. Vietoje „kada nors susitiksime“ pasiūlykite dvi datas, iš kurių gavėjas galės pasirinkti."
+          "text": "Pasiruoškite penkis lapus ar korteles ir voką. Vienam lapui skirkite po vieną temą: bendrą smagų įvykį, padėką, išmoktą dalyką, vietą, kurią norėtumėte aplankyti, ir konkretų pasiūlymą susitikti. Vietoje migloto „kada nors“ galima pasiūlyti dvi datas, paliekant gavėjui laisvę rinktis kitą laiką."
         },
         {
           "type": "paragraph",
-          "text": "Pridėkite jau turimą tinkamą nuotrauką, jei norite ir galite ją naudoti. Sukabinkite ar sudėkite lapus chronologiškai. Šis variantas papildomai nekainuos tik turint visas priemones; naujai perkamas popierius, spauda ir vokas taip pat yra išlaidos. Darbas prasmingas, nes jūs atrenkate tikrus prisiminimus, o ne nukopijuojate bendrą sveikinimą."
+          "text": "Pridėkite turimą nuotrauką, jei turite teisę ja naudotis, ir sunumeruokite korteles tokia tvarka, kuri papasakotų istoriją. Šis variantas nieko papildomai nekainuos tik jei jau turite visas reikalingas priemones. Naujai perkamas vokas, spausdinimas ir siuntimas taip pat yra išlaidos. Šiame formate pagrindinis jūsų indėlis – atrinkti tikrus prisiminimus, o ne nukopijuoti bendrą sveikinimą."
         },
         {
           "type": "heading",
@@ -17374,19 +17415,56 @@
         },
         {
           "type": "paragraph",
-          "text": "Penkiems žmonėms po 10 € numatytas biudžetas yra 50 €. Jei kiekvienam užsakymui atskirai skiriate po 3 € siuntimui, bendros išlaidos taptų 65 €. Tai skaičiavimo pavyzdys, o ne konkretaus vežėjo tarifas. Patikrinkite, ar galima visus pasirinktus daiktus pirkti vienoje vietoje arba atsiimti kartu."
+          "text": "Penkios dovanos po 10 € sudarytų 50 €. Jeigu kiekvienai hipotetiškai pridėtumėte po 3 € atskirą siuntimą, visas planas kainuotų 65 €. Tai tik pavyzdinis skaičiavimas, ne vežėjo pasiūlymas. Pasitikrinkite, ar norimas dovanas galima nusipirkti vienoje vietoje, atsiimti kartu arba įteikti asmeniškai."
         },
         {
           "type": "paragraph",
-          "text": "Neskubėkite pridėti nereikalingos prekės dėl nemokamo pristatymo slenksčio. Palyginkite dvi galutines sumas: reikalingos dovanos su siuntimu ir padidintas krepšelis be siuntimo. Mažesnė tikrai reikalingo pirkinio suma yra geresnis atskaitos taškas negu reklaminis žodis „nemokamai“."
+          "text": "Nemokamo pristatymo slenkstis savaime nereiškia mažesnių išlaidų. Palyginkite reikalingų daiktų krepšelį su pristatymu ir didesnį krepšelį, kuriame dėl akcijos pridėta kita prekė. Jei papildomas daiktas kainuoja daugiau nei sutaupomas siuntimas ir jo nereikėjo, galutinė suma gali būti didesnė."
         },
         {
           "type": "paragraph",
-          "text": "Didesniems biudžetams rasite atskirą atranką kalėdinės dovanos; artimam žmogui – kalėdinės dovanos mamai. 32 € kainuojančio Memocasting poros rinkinio į dovanas iki 20 € neįtraukiame."
+          "text": "Susirašykite kiekvieno gavėjo ribą, prekės kainą, gavimo išlaidą ir įteikimo datą. Bendrą sumą patikrinkite dar prieš paspausdami mokėjimo mygtuką. 32 € kainuojančio mūsų rankų liejimo rinkinio į dovanų iki 20 € pavyzdžius netraukiame."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažni klausimai apie nebrangias kalėdines dovanas"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar dovana iki 5 € gali būti asmeniška?"
         },
         {
           "type": "paragraph",
-          "text": "Kainos patikrintos 2026 m. spalio 22 d. Be aiškiai paminėtų akcijų naudojamos kainos be narystės; pristatymas neįtrauktas. Pasiūlymų nebandėme, tai redakcinis pasirinkimo gidas. Iliustracijos rodo bendras dovanų situacijas, ne konkrečius įsigyjamus modelius."
+          "text": "Taip, jei pasirinkimas remiasi konkrečiu gavėjo noru arba jūsų pačių paruoštu prisiminimu. Įvertinkite visas priemones ir gavimo išlaidas, o ne vien mažiausią lentynoje matomą kainą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar elektroninė dovana visada nekainuoja papildomai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nebūtinai. Pats kuponas gali būti siunčiamas el. paštu, tačiau norima prekė, vėlesnis jos pristatymas ar didesnė kaina gali pareikalauti primokėti. Patikrinkite konkrečias sąlygas ir paaiškinkite jas gavėjui."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką rinktis, jei nežinau žmogaus pomėgių?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprašykite jo arba organizatoriaus trumpų savanoriškų pageidavimų. Venkite daryti prielaidas apie mitybą, sveikatą, šeimos sudėtį ar naudojamą įrangą. Mandagus klausimas gali sutaupyti ir pinigų, ir nereikalingą daiktą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip atrinkome pavyzdžius?"
+        },
+        {
+          "type": "paragraph",
+          "text": "2026 m. lapkričio 11 d. peržiūrėjome nurodytų pardavėjų pasiūlymus ir įprastas kainas; akciją išskyrėme atskirai. Pasiūlymų patys nebandėme, todėl tai pasirinkimo pagal poreikį gidas, ne bandymų reitingas. Kainos, likučiai ir kuponų sąlygos gali keistis. Svetainėje esančios dovanų scenos yra redakcinės iliustracijos, o ne konkrečių čia išvardytų pardavėjų prekių nuotraukos."
         }
       ],
       "publishAt": "2026-10-22T19:20:55.005Z",
@@ -17494,71 +17572,72 @@
       ],
       "links": [
         {
-          "targetPageId": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
-          "label": "kalėdinės dovanos mamai"
-        },
-        {
-          "targetPageId": "6addee05-19c5-477b-ae4d-d3b310acb4b8",
-          "label": "dovanos mamai"
+          "targetPageId": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
+          "label": "kalėdinių dovanų kolegoms gide"
         },
         {
           "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
+          "label": "kalėdinių dovanų gide"
         },
         {
-          "targetPageId": "210f6e28-8fae-4316-a40f-27c9b3e946db",
-          "label": "nebrangių dovanų"
+          "targetPageId": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
+          "label": "kalėdinių dovanų mamai gide"
         }
       ],
       "externalLinks": [
         {
-          "url": "https://www.patogupirkti.lt/knyga/medinis-knygos-skirtukas-mandala.html",
-          "label": "medinis skirtukas MANDALA",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.patogupirkti.lt/knyga/knyga-a5-langeliais-paint-your.html",
+          "label": "A5 užrašų knyga PAINT YOUR, 112 lapų",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://asmeninesdovanos.lt/puodeliai/836-puodelis-mamai-mamos-dovana-mamai.html",
-          "label": "puodelis „Mamos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.ikea.com/lt/lt/p/knoppaeng-remelis-balta-20427290/",
+          "label": "Baltas IKEA KNOPPÄNG 30 × 40 cm rėmelis",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/arbatos-ziedu-rinkinys-5-vnt",
+          "label": "Arbatos žiedų rinkinys, 5 vnt.",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.kavosdraugas.lt/p/kavos-pupeles-caprisette-belgique-250-g/",
+          "label": "„Caprisette Belgique“ kavos pupelės, 250 g",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/10-euru-dovanu-kuponas.html",
           "label": "10 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/knyga/uzrasu-knygute-night-light-a6-192-lap-juoda.html",
+          "label": "NIGHT LIGHT A6 užrašinė",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://gerduva.lt/puodelis-savona-provance-350-ml",
-          "label": "SAVONA PROVANCE",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "SAVONA PROVANCE 350 ml puodelis",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
           "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://www.skonis-kvapas.lt/dovanos/sventiniai-rinkiniai/kreminio-jaukumo-kaledos",
-          "label": "„Kreminio jaukumo Kalėdos“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
           "label": "Albumas „Šeimos medis“",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
-        },
-        {
-          "url": "https://www.decathlon.lt/p/301267-399663-nerudijancio-plieno-greitai-atidaroma-termosine-zygiu-gertuve-900-05-l.html",
-          "label": "QUECHUA „900“ 0,5 l",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         }
       ],
       "id": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-      "revisionHash": "96fdfe619b13b02a77fd524ef2b21c2a51dd0013a79dfc7b2f9fe104d3e202b7",
+      "revisionHash": "ec6082fca851bb3ed8bb45432587ca20c52bf661a9251ebaaefee983b42875d9",
       "approval": {
         "status": "approved",
-        "revisionHash": "96fdfe619b13b02a77fd524ef2b21c2a51dd0013a79dfc7b2f9fe104d3e202b7",
-        "approvedAt": "2026-10-25T14:08:20.757Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "ec6082fca851bb3ed8bb45432587ca20c52bf661a9251ebaaefee983b42875d9",
+        "approvedAt": "2026-11-11T15:15:35.892Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -37311,7 +37390,294 @@
         "approvedAt": "2026-11-11T14:28:34.907Z",
         "actorId": "codex-memocasting-editor-20261111"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-kolegoms-ir-komandai",
+      "title": "Kalėdiniai sveikinimai kolegoms: žodžiai komandai ir bendradarbiui",
+      "description": "Kalėdiniai sveikinimai kolegoms ir komandai: trumpos žinutės, asmeniški žodžiai, vadovo linkėjimai ir atvirukų idėjos.",
+      "intent": "Padėti išsirinkti ir pritaikyti pagarbius kalėdinius sveikinimus kolegoms, komandai ar vadovui.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kolegos sveikinimas gali būti trumpas ir kartu asmeniškas. Pakanka padėkoti už tikrą pagalbą, palinkėti ramaus šventinio laikotarpio arba pasidžiaugti bendru darbu. Žemiau rasite tekstų žinutei, bendram komandos atvirukui ir vadovo sveikinimui. Pritaikykite juos savo santykiui: neprivalote rašyti to, kas neatitinka tikrovės. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi kalėdiniai sveikinimai kolegoms"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū už bendrą darbą šiais metais. Linkiu jaukių Kalėdų ir ramaus poilsio!",
+            "Gražių švenčių! Tegul metų pabaigoje atsiranda laiko atsikvėpti ir pasidžiaugti mėgstamais dalykais.",
+            "Dėkoju už bendradarbiavimą. Linkiu šviesių švenčių ir įdomių galimybių naujais metais.",
+            "Su Kalėdomis! Linkiu poilsio be skubėjimo ir geros pradžios grįžus po švenčių.",
+            "Linksmų švenčių ir tokių ateinančių metų, kuriuose netrūktų nei įkvėpimo, nei laiko sau.",
+            "Ačiū už šių metų susitikimus ir idėjas. Linkiu malonių šventinių akimirkų!",
+            "Gražių metų pabaigos švenčių ir prasmingų naujų pradžių!",
+            "Tegul laisvos dienos būna tokios, kokių labiausiai norisi būtent Tau. Su šventėmis!"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimas visai komandai nuo kolegos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mieli kolegos, ačiū, kad šiemet sprendimus radome kartu. Linkiu jums ramių švenčių, gero poilsio ir naujų idėjų ateinantiems metams.",
+            "Komandai – nuoširdi padėka už dalijimąsi žiniomis ir laiką, kurį skyrėme bendriems darbams. Gražių Kalėdų ir lengvos naujų metų pradžios!",
+            "Džiaugiuosi galėdamas dirbti su žmonėmis, kurių galima paklausti ir iš kurių galima mokytis. Linkiu visiems jaukaus šventinio laikotarpio!",
+            "Ačiū už pastangas ir tarpusavio pagalbą šiais metais. Tegu per šventes kiekvienas randa laiko tam, kas jam svarbiausia.",
+            "Sveikinu komandą su šventėmis! Linkiu sėkmingai užbaigti šiuos metus ir su nauja energija pasitikti kitus."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš siųsdami pakeiskite „džiaugiuosi galėdamas“ į „džiaugiuosi galėdama“, jei taip kalbate, ir atsisakykite teiginių, kurie jūsų komandos patirties neatspindi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Asmeninis kalėdinis sveikinimas kolegai ar kolegei"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū, kad radai laiko paaiškinti tai, ko šiemet dar nemokėjau. Linkiu Tau gražių Kalėdų ir ramaus poilsio.",
+            "Buvo gera kartu ieškoti sprendimų. Dėkoju už Tavo atvirumą ir linkiu šiltų metų pabaigos švenčių.",
+            "Ačiū už pagalbą, kai reikėjo kito žvilgsnio į užduotį. Linkiu Tau švenčių be skubėjimo!",
+            "Vertinu mūsų bendradarbiavimą ir pokalbius, kurie padeda pažvelgti plačiau. Su Kalėdomis ir geriausiais linkėjimais!",
+            "Linkiu Tau gero poilsio ir progų naujais metais imtis to, kas įdomu. Ačiū, kad šiemet dirbome kartu.",
+            "Dėkoju už kantrybę ir aiškius patarimus. Tegu šventės atneša laiko pailsėti ir pasidžiaugti mažais dalykais."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite padėkoti konkrečiai, pakeiskite bendrą sakinį tikru pavyzdžiu: „Ačiū, kad padėjai pasiruošti pristatymui.“ Neišgalvokite bendro projekto ar artimo santykio vien tam, kad sveikinimas atrodytų šiltesnis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai vadovui ar vadovei nuo komandos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū už šių metų bendradarbiavimą ir laiką komandai. Linkime ramių švenčių ir prasmingų ateinančių metų.",
+            "Dėkojame už pasitikėjimą ir galimybę kartu ieškoti sprendimų. Gražių Kalėdų ir gero poilsio! Komanda.",
+            "Metų pabaigoje dėkojame už išklausytas idėjas ir bendrus darbus. Linkime jaukaus šventinio laikotarpio.",
+            "Linkime, kad šventės suteiktų galimybę atsikvėpti, o nauji metai atneštų įdomių sumanymų. Su šventėmis!"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Padėką už vadovo veiksmus rinkitės tik tuomet, jei ji tikra ir tinkama visų pasirašančiųjų vardu. Neutralus linkėjimas taip pat yra pakankamas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai darbuotojams nuo vadovo"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū kiekvienam už jūsų indėlį šiais metais. Linkiu ramiai pailsėti ir šventes praleisti taip, kaip jums geriausia.",
+            "Dėkoju už profesionalumą, pagalbą vieni kitiems ir kasdienį darbą. Gražių švenčių jums ir jūsų artimiesiems.",
+            "Šių metų pabaigoje noriu padėkoti už jūsų skirtą laiką ir pastangas. Linkiu jaukaus poilsio ir geros pradžios naujais metais.",
+            "Ačiū už jūsų idėjas ir atvirumą. Tegu švenčių laikotarpiu nepritrūksta laiko atsikvėpti ir pasirūpinti savimi."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vadovas gali pridėti konkrečią komandos sėkmę, jei ji iš tiesų įvyko. Sveikinimo nenaudokite pažadams apie premijas, darbo sąlygas ar kitus sprendimus, kurie dar nepriimti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Linksmi, bet pagarbūs sveikinimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Linkiu, kad per šventes pranešimų būtų mažiau nei mandarinų, o laiko poilsiui – daugiau nei susitikimų kalendoriuje!",
+            "Su šventėmis! Tegul vienintelis terminas per laisvas dienas būna laikas ištraukti sausainius iš orkaitės.",
+            "Linkiu, kad automatinį atostogų atsakymą galėtum palikti be prierašo „skubiu atveju skambinkite“.",
+            "Gražių Kalėdų! Tegu šįkart vienintelė užduotis sąraše būna išsirinkti mėgstamą šventinį filmą – arba jo nežiūrėti."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Humoras tinka ne visoms komandoms. Rinkitės jį, jei pažįstate kolegų bendravimo būdą; venkite juokelių apie sveikatą, išvaizdą, amžių, atlyginimą ar šeiminę padėtį."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti toną, kai kolegas pažįstate skirtingai?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bendram atvirukui: rašykite taip, kad linkėjimas tiktų visiems, ir nenurodykite asmeninių aplinkybių.",
+            "Artimesniam kolegai: paminėkite vieną tikrą pagalbą, projektą ar pokalbį, kurį abu prisimenate.",
+            "Vadovui ar naujam kolegai: rinkitės paprastą padėką ir tokį kreipinį, kokį įprastai naudojate darbe.",
+            "Įvairių tradicijų komandai: jei nežinote, kas švenčia Kalėdas, galite rinktis „gražių metų pabaigos švenčių“ ar tiesiog palinkėti gero poilsio.",
+            "Nuotoliniam bendradarbiui: parašykite asmeninę žinutę arba suderinkite atviruko pristatymą neatskleisdami jo namų adreso visai komandai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprastas šablonas: „Ačiū už [tikrą pagalbą ar bendrą darbą]. Linkiu [konkretaus, pagarbaus palinkėjimo]. Su šventėmis, [vardas arba komandos pavadinimas].“"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kur užrašyti sveikinimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite išsiųsti žinutę, pasirašyti viename visos komandos atviruke ar pasigaminti jį patys. Jei norite įsigyti popierinį atviruką, pateikiame du kitų pardavėjų pavyzdžius:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Atvirukas „Kalėdinė nuotaika“ – Charlot: vieta trumpam savo palinkėjimui.",
+            "Medinis atvirukas „Angeliukas“ – Medinis Debesėlis: pasirinkimas su išimamu eglutės žaisliuku. Pardavėjas gamina pagal užsakymą; virvelė žaisliukui nepridedama, todėl prieš užsakydami pasitikrinkite terminą."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai kitų pardavėjų pasiūlymai. Prieš pirkdami jų puslapiuose patikrinkite kainą, pristatymą ir prieinamumą. Jei nežinote gavėjo tradicijų, rinkitės jam tinkamą neutralų dizainą arba paprastą lapą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu sveikinimas keliaus kartu su dovana, mūsų kalėdinių dovanų kolegoms gide rasite patarimų, kaip susitarti dėl biudžeto ir dovanų mainų. Organizatoriams taip pat gali praversti dovanų darbuotojams gidas, o nedidelei sumai – nebrangių kalėdinių dovanų idėjos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką trumpai parašyti kolegai Kalėdų proga?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Galite parašyti: „Ačiū už bendrą darbą. Linkiu ramių švenčių ir gero poilsio.“ Jei tinka jūsų santykiui, pridėkite vieną tikrą padėką už pagalbą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kaip pasveikinti komandą nuo vadovo?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Padėkokite už realų indėlį, pasirašykite savo vardu ir venkite neištesėtų pažadų. Konkretus bendro darbo pavyzdys gali suteikti žinutei asmeniškumo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką rašyti nežinant kolegos šventinių tradicijų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės neutralesnį „gražių metų pabaigos švenčių“ arba palinkėkite malonaus poilsio. Svarbiausia, kad sveikinimas būtų pagarbus ir neprimetantis asmeninių aplinkybių."
+        }
+      ],
+      "publishAt": "2026-11-13T14:00:00.000Z",
+      "media": [
+        {
+          "id": "dc1670ff-2d31-436b-b515-c719c4df42bb",
+          "src": "/content-assets/memocasting/dc1670ff-2d31-436b-b515-c719c4df42bb.webp",
+          "alt": "Kolegos šventiškai papuoštoje darbovietėje dovanoja atviruką.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikros komandos, klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "309aff64-8039-4d87-8c7e-d2cc41afc07e"
+        },
+        {
+          "id": "5c731be1-dd8c-469d-9638-07f36ebe1d4c",
+          "src": "/content-assets/memocasting/5c731be1-dd8c-469d-9638-07f36ebe1d4c.webp",
+          "alt": "Kolegos šventiškai papuoštoje darbovietėje dovanoja atviruką.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikros komandos, klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "309aff64-8039-4d87-8c7e-d2cc41afc07e"
+        },
+        {
+          "id": "706280b0-153c-4a27-a74a-5ba79d9a68f2",
+          "src": "/content-assets/memocasting/706280b0-153c-4a27-a74a-5ba79d9a68f2.webp",
+          "alt": "Kolegos šventiškai papuoštoje darbovietėje dovanoja atviruką.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikros komandos, klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "309aff64-8039-4d87-8c7e-d2cc41afc07e"
+        },
+        {
+          "id": "051eaf49-f28f-4a4f-a3f4-c05276920918",
+          "src": "/content-assets/memocasting/051eaf49-f28f-4a4f-a3f4-c05276920918.webp",
+          "alt": "Kolegos šventiškai papuoštoje darbovietėje dovanoja atviruką.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikros komandos, klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "309aff64-8039-4d87-8c7e-d2cc41afc07e"
+        },
+        {
+          "id": "0201afb1-0e61-4edd-abdc-b57607071a74",
+          "src": "/content-assets/memocasting/0201afb1-0e61-4edd-abdc-b57607071a74.webp",
+          "alt": "Kolegos šventiškai papuoštoje darbovietėje dovanoja atviruką.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikros komandos, klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "309aff64-8039-4d87-8c7e-d2cc41afc07e"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
+          "label": "kalėdinių dovanų kolegoms gide"
+        },
+        {
+          "targetPageId": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
+          "label": "dovanų darbuotojams gidas"
+        },
+        {
+          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
+          "label": "nebrangių kalėdinių dovanų idėjos"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://charlot.lt/popieriaus-gaminiai/atvirukai/atvirukas-kaledine-nuotaika/",
+          "label": "Atvirukas „Kalėdinė nuotaika“ – Charlot",
+          "reason": "Atviruko pardavėjo puslapis patikrintas 2026-11-11; kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://medinisdebeselis.lt/produktas/kaledinis-atvirukas-angeliukas/",
+          "label": "Medinis atvirukas „Angeliukas“ – Medinis Debesėlis",
+          "reason": "Atviruko pardavėjo puslapis patikrintas 2026-11-11; kainos ir sąlygos gali keistis."
+        }
+      ],
+      "id": "c9dcd21c-c375-42f6-bb80-44bfaab4cdb4",
+      "revisionHash": "7bb82994ebe3b29e17146ca5b93383d5d936d53ab6d4480871e6272a39cee271",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7bb82994ebe3b29e17146ca5b93383d5d936d53ab6d4480871e6272a39cee271",
+        "approvedAt": "2026-11-11T15:15:36.028Z",
+        "actorId": "codex-memocasting-editor-20261111"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T14:58:07.156Z"
+  "generatedAt": "2026-11-11T15:15:36.249Z"
 }
