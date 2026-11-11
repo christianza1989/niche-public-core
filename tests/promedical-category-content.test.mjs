@@ -23,7 +23,7 @@ test('category content is limited to the accepted 434 identities and Promedical 
 test('category SSR places ordered prose, linked text and sources after unchanged catalogue results',async()=>{
   const output=new URL(`../.sites-runtime/category-${randomUUID()}.mjs`,import.meta.url);
   await fs.mkdir(new URL('../.sites-runtime/',import.meta.url),{recursive:true});
-  await build({entryPoints:[fileURLToPath(new URL('../components/niche/promedical-site.tsx',import.meta.url))],outfile:fileURLToPath(output),bundle:true,format:'esm',platform:'node',external:['react','react-dom'],loader:{'.css':'empty'},jsx:'automatic',tsconfig:fileURLToPath(new URL('../tsconfig.json',import.meta.url)),plugins:[{name:'test-bindings',setup(b){b.onResolve({filter:/^cloudflare:workers$/},()=>({path:'binding',namespace:'test'}));b.onLoad({filter:/.*/,namespace:'test'},()=>({contents:'export const env = {};'}));}}]});
+  await build({entryPoints:[fileURLToPath(new URL('../components/niche/promedical-site.tsx',import.meta.url))],outfile:fileURLToPath(output),bundle:true,format:'esm',platform:'node',external:['react','react-dom'],loader:{'.css':'empty','.module.css':'empty'},jsx:'automatic',tsconfig:fileURLToPath(new URL('../tsconfig.json',import.meta.url)),plugins:[{name:'test-bindings',setup(b){b.onResolve({filter:/^cloudflare:workers$/},()=>({path:'binding',namespace:'test'}));b.onLoad({filter:/.*/,namespace:'test'},()=>({contents:'export const env = {};'}));}}]});
   try{
     const {PromedicalSite}=await import(output.href);
     const original=pkg.pages.find(p=>hasPromedicalCategoryContent(pkg.siteId,p));
