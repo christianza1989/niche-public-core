@@ -1,0 +1,11 @@
+# Promedical inquiry form and basket
+
+Owner request2026-10-30, Core issue310. Homepage contact form sits directly above the footer and uses the same inquiry form as /kontaktai. Product detail exposes quantity and add controls. The header shows the basket, its count and a link to /#uzklausa. Existing local selections and eligible legacy URL migration are retained. No checkout, payment, stock or order contract is introduced.
+
+Visible contacts remain package-owned (sales@azprekyba.lt and +37068688369 in the deployed package). Only the notification recipient is explicitly pinned to info@promedical.lt because the pre-existing live LEAD_EMAIL binding allows only that mailbox and uzklausos@promedical.lt sender. This fixes the mismatch with the displayed sales contact without expanding permissions or changing the approved page. Reply-To is the visitor's submitted address. Native D1 stores the inquiry before mail delivery; failure retains it. Existing origin, body-size, consent and honeypot checks stay active.
+
+Main lacks the already-deployed selected homepage. This branch reconciles its Promedical presentation sources/assets before adding the requested behavior. Production uses a six-file overlay (five components/styles plus the one-field recipient config) on the verified current909b4e7e source snapshot, not a whole-main redeployment. Exact ten approved packages, galleries, URLs, guide pause, PR80 admin code and20 existing drafts must stay unchanged. Pending inline-editor PR106 is excluded.
+
+Local regression: tests/promedical-contact-only.test.mjs now verifies the restored flow rather than asserting its removal. tests/promedical-inquiry-delivery.test.mjs exercises the real lead route with SQLite and an isolated mail binding: invalid/origin/honeypot rejection, persisted selection and notification, and retained inquiry on delivery failure. No actual email or production test lead is created. Existing alias migration tests preserve distinct model variants and merge exact paths.
+
+Runtime and desktop/mobile acceptance evidence is kept under D:/Core/output/promedical-inquiry-20261030; completion/deployment status is recorded in the companion site report, not inferred from this source description.
