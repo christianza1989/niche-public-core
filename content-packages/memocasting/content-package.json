@@ -13180,91 +13180,147 @@
       "siteId": "memocasting",
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-vyrams",
-      "title": "Kalėdinės dovanos vyrams 2026: konkretūs pasirinkimai pagal pomėgį",
-      "description": "Dovanos vyrams nuo 10 iki 42,95 €: žygiams, kavai, skaitymui, žaidimams ir bendram laikui. Konkretūs modeliai, nuorodos ir suderinamumo patikra.",
+      "title": "Kalėdinės dovanos vyrams: ką rinktis pagal pomėgį ir biudžetą?",
+      "description": "Atraskite kalėdinių dovanų vyrams idėjas pagal pomėgius: palyginkite konkrečius pasirinkimus ir sužinokite, ką patikrinti prieš perkant.",
       "intent": "Padėti pasirinkti konkrečią tinkamą dovaną pagal žmogų, visą biudžetą ir naudojimo sąlygas, palyginant patikrintus pasiūlymus.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Gera kalėdinė dovana vyrui turi aiškią vietą jo gyvenime. Vienam pravers gertuvė kelionėms, kitam – naujas kavos ruošimo būdas, o trečias labiau apsidžiaugs kartu suplanuotu vakaru. Šiame gide kiekvienas variantas turi konkretų pavadinimą arba įgyvendinimo planą ir klausimą, kurį verta užduoti prieš perkant."
+          "text": "Šį gidą rengia „Memory Casting“, prekiaujanti jame minimu rankų liejimo rinkiniu. Kitų parduotuvių pasiūlymai pateikiami kaip alternatyvos pagal pomėgį. Šių prekių nebandėme; jų kainos bei prieinamumas gali keistis, todėl prieš pirkdami juos patikrinkite pardavėjų puslapiuose."
         },
         {
-          "type": "list",
-          "items": [
-            "Žygiams: QUECHUA „900“ 0,5 l, patikrinta kaina 13 €.",
-            "Kavai: MOKA 3 puodelių kavinukas už 15,99 € arba AeroPress Original už 42,95 €.",
-            "Galvosūkių vakarui: Codenames Duet už 22,99 €.",
-            "Asmeninei progai: rankų liejimo rinkinys porai už 32 €, jei abu norite kurti."
-          ]
+          "type": "paragraph",
+          "text": "Rinkdami kalėdinę dovaną vyrui pradėkite nuo to, ką jis mėgsta veikti, o ne nuo ilgiausio dovanų sąrašo. Vienam patiks daiktas, palengvinantis mėgstamą žygį, kitam – proga kartu praleisti vakarą, o skaitytojas gali labiau vertinti galimybę pats išsirinkti knygą. Šiame gide palyginame realius pavyzdžius ir parodome, kam jie tinka, kada geriau ieškoti kitos dovanos ir ką būtina patikrinti prieš užsakant."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Žygių mėgėjui: gertuvė, kuri tinka jo maršrutui"
+          "text": "Greitas pasirinkimas pagal tai, ką apie jį žinote"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vaikšto ar keliauja — Termosinė gertuvė — Talpą, svorį, turimą įrangą",
+            "Mėgsta kavos ruošimo ritualą — Kavinukas arba mėgstamos pupelės — Viryklės tipą, malūnėlį ir skonį",
+            "Pats renkasi knygas — Knygyno dovanų kuponas — Galiojimą ir nepanaudotos sumos taisykles",
+            "Vertina laiką dviese — Žodžių žaidimas ar kūrybinė veikla — Ar abiem patinka pasirinktas užsiėmimas",
+            "Nori ramaus poilsio — Masažo čekis — Vietą, laiką, sąlygas ir asmeninį tinkamumą"
+          ]
         },
         {
           "type": "paragraph",
-          "text": "QUECHUA „900“ 0,5 l – konkretus nerūdijančio plieno modelis su rakinamu dangteliu; žalias variantas kainavo 13 €. Rinkdamiesi palyginkite su tuo, ką vyras jau nešasi. Maža talpa gali tikti trumpai išvykai, tačiau ilgai dienai jis galbūt renkasi didesnį termosą. Pirkdami internetu patikrinkite būtent pasirinktos spalvos likutį ir atsiėmimo galimybes."
+          "text": "Jei nežinote nei pomėgio, nei pageidaujamo daikto, naudinga paklausti: „Ką seniai norėtum išbandyti, bet vis neatrasdavai laiko?“ Atsakymas gali būti geresnis už brangų pirkinį, parinktą vien dėl jo lyties."
         },
         {
-          "type": "paragraph",
-          "text": "Nedovanokite papildomo svorio žmogui, kuris sąmoningai lengvina savo kuprinę. Geras klausimas: „Kas tavo dabartiniame termose labiausiai erzina?“ Jei atsakymas – niekas, verta rinktis kitą dovaną. Galite ir patys paruošti jo norėto maršruto planą su transportu bei sustojimais; tokiam planui nereikia apsimesti, kad parduodate organizuotą žygį."
+          "type": "heading",
+          "level": 2,
+          "text": "Dovana keliaujančiam: QUECHUA 900 0,5 l gertuvė"
         },
         {
           "type": "image",
           "assetId": "3960d00f-7507-460a-bce8-98318dd87c21"
         },
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Kavos mėgėjui: ne visi kavinukai pakeičia vienas kitą"
+          "type": "paragraph",
+          "text": "Teminė iliustracija, ne nurodytos prekės nuotrauka."
         },
         {
           "type": "paragraph",
-          "text": "MOKA 3 puodelių kavinukas už 15,99 € skirtas kavą ruošti ant viryklės. Pirmas patikrinimas – viryklės tipas ir konkretaus modelio suderinamumas, antras – ar gavėjas nori būtent tokio ruošimo būdo. Mažas kavinukas nėra šeimos kavos aparato pakaitalas. Jei vyras turi tą patį modelį, atsitiktinai nupirkta antra dėžutė netampa įdomia kolekcija."
+          "text": "„Decathlon“ termosinė gertuvė QUECHUA 900, 0,5 l – pasirinkimas žmogui, kuris mėgsta trumpesnius pasivaikščiojimus, išvykas ar šiltą gėrimą pakeliui. Prieš pirkdami įvertinkite, ar pusės litro pakanka įprastai jo išvykai ir ar jis jau neturi panašaus termoso. Kainą ir pasirinktos spalvos prieinamumą patikrinkite pardavėjo puslapyje prieš pirkdami."
         },
         {
           "type": "paragraph",
-          "text": "AeroPress Original kainavo 42,95 €; pasiūlymo pavadinime nurodyti ir 100 filtrų. Jį rinkitės mėgstančiam rankinį kavos ruošimą, o ne žmogui, kuriam svarbiausia vienas automatinio aparato mygtukas. Pasiteiraukite apie malimą, naudojamas pupeles ir turimą įrangą. Biudžete numatykite kavą, jei jos reikės, ir pristatymą; nesakykite, kad dovana kainuoja iki 40 €, kai vien aparatas ribą viršija."
-        },
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Mėgstančiam skaityti: kuponas pagal realią knygų lentyną"
-        },
-        {
-          "type": "paragraph",
-          "text": "10 € knygų kuponas gali būti prasminga nedidelė dovana, jei vyras pats renkasi leidinius. Šis Patogupirkti.lt kuponas galioja šešis mėnesius; už brangesnį krepšelį reikės primokėti. Dovanodami nurodykite, kad tai indėlis jo pasirinktai knygai, o ne pažadas nupirkti bet kurią knygą už šią sumą."
-        },
-        {
-          "type": "paragraph",
-          "text": "Galite pridėti trijų jo dominamų autorių ar temų sąrašą, tačiau venkite netiesioginių pamokymų. Asmeninio tobulėjimo knyga, kurios jis neprašė, kartais skamba kaip priekaištas. Geriau remtis neseniai jo paminėta tema. Jei įmanoma, patikrinkite turimą popierinį ir elektroninį knygų rinkinį, kad nedubliuotumėte pirkinio."
+          "text": "Tinka: kai žinote, kad žmogus dažnai nešasi gėrimą. Mažiau tinka: kai jis sąmoningai renkasi lengvesnę ar didesnės talpos įrangą. Prie dovanos galite pridėti pačių suplanuotą žiemos pasivaikščiojimą, nenurodydami jo kaip parduodamos paslaugos."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dviem žaidėjams: konkretus bendradarbiavimo žaidimas"
+          "text": "Kavą mėgstančiam: kavinukas arba pasirinktos pupelės"
         },
         {
           "type": "paragraph",
-          "text": "Codenames Duet be klubo nuolaidos kainuoja 22,99 €. Tai bendradarbiavimo variantas, kurį verta svarstyti mėgstančiai žodžių užuominas porai. Prieš pirkdami įsitikinkite, kad renkatės Duet, o ne kitą Codenames versiją. Patikrinkite leidimo kalbą ir ar žaidimas jau nėra lentynoje."
+          "text": "„Skonis ir kvapas“ MOKA trijų puodelių kavinukas patiks mėgstančiam ruošti kavą ant viryklės. Pardavėjas nurodo, kad šis modelis tinka dujinei ir elektrinei viryklei, bet netinka indukcinei. Prieš pirkdami paklauskite, kokią viryklę jis naudoja. Nedovanokite jo vien dėl to, kad žmogus geria kavą: automatinio aparato mėgėjas gali nenorėti papildomo ritualo. 2026 m. lapkričio 11 d. matyta kaina – 15,99 €; prieš pirkdami ją patikrinkite."
         },
         {
           "type": "paragraph",
-          "text": "Dovanos dalimi padarykite ir pirmą vakarą: pasirinkite laiką, atlaisvinkite stalą ir pasiūlykite pirmą partiją. Jei gavėjas mieliau konkuruoja, nespręskite vien iš žodžio „žaidimas“ – jam gali labiau tikti kita mechanika. Amžiaus rekomendacijos skirtingose šio pardavėjo aprašo vietose nesutapo, todėl pagal jas šiame gide neparenkame dovanos vaikui."
+          "text": "„Kavos draugo“ Caprisette Belgique pupelės, 250 g yra mažesnės dovanos alternatyva turinčiam malūnėlį ar aparatą su malūnėliu. 2026 m. lapkričio 11 d. pardavėjo puslapyje matyta 5,95 € akcijos kaina ir 11,90 € ankstesnė kaina; akcijos sąlygos bei prekės likutis gali keistis. Jei nežinote, kokio skrudinimo ar skonio gavėjas nori, geriau išsiaiškinti nei spėti. Netinka naudojančiam tik kapsules ar negeriančiam kavos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip išrinkti: kavinukui patikrinkite viryklę ir naudojimo įprotį; pupelėms – malimo galimybę ir mėgstamą skonį. Nebūtina pirkti abiejų: gerai parinkta maža dovana dažnai prasmingesnė nei atsitiktinis didelis rinkinys."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Bendram prisiminimui: veikla su apčiuopiamu rezultatu"
+          "text": "Skaitytojui: knygos pasirinkimo laisvė"
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinys porai už 32 € – variantas sutuoktiniui ar partneriui, su kuriuo norite sukurti rankų skulptūrą. Balti dažai bazėje jau yra. Tai jūsų atliekamas procesas pagal instrukciją: ne kiekvienam patinka matuoti, maišyti ir paskui užbaigti darbą. Jei jam svarbiausia paprastas poilsis po darbo, išrinkite mažiau pasiruošimo reikalaujantį variantą."
+          "text": "„Knygos.lt“ skaitmeninis dovanų kuponas leidžia pasirinkti, pavyzdžiui, 10, 20 ar 30 € vertę. Jis tinka, jei vyras pats renkasi autorius arba nežinote, ką jau yra perskaitęs. Galite pridėti asmenišką užrašą, kodėl linkite laiko skaitymui, ir, jei pažįstate jo skonį, pasiūlyti vieną temą neįpareigodami jos rinktis."
         },
         {
           "type": "paragraph",
-          "text": "Kitas savarankiškai paruošiamas pasirinkimas – jo mėgstamos muzikos vakaras. Paprašykite įvardyti tris albumus, pasirinkite klausymo laiką ir pasirūpinkite vakariene. Jei perkate fizinę plokštelę, būtina žinoti, ar yra grotuvas ir ar žmogus jos dar neturi. Vien dėl išvaizdos pirkti kolekcinį leidimą neverta."
+          "text": "Prieš apmokėdami patikrinkite pasirinkto kupono galiojimo laiką, ar jį galima panaudoti per kelis pirkimus, kas vyksta su nepanaudotu likučiu ir kokios prekės neįtrauktos. Kuponas gali netikti žmogui, kuris vertina tik asmeniškai parinktą fizinę knygą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vakarui dviese: žaidimas, kuriame bendradarbiaujate"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Brain Games“ žaidimas „Codenames Duet“ paremtas žodžių užuominomis ir komandiniu sprendimu. Tai idėja partneriui ar draugui, kuris mėgsta mąstyti kartu, o ne būtinai varžytis. Pasitikrinkite leidimo kalbą, ar gavėjas jau neturi žaidimo ir ar jam patinka tokia mechanika. Kainą, prieinamumą ir pristatymo ar atsiėmimo pasirinkimus patikrinkite pardavėjo puslapyje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovanojate žaidimą porai, pasiūlykite konkretų pirmo žaidimo vakarą – taip dovanos dalimi taps ir kartu skirtas laikas. Jeigu vyrui stalo žaidimai nepatinka, nesitikėkite, kad nauja dėžutė pakeis jo įpročius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Praktiniams darbams: daugiafunkcis kišeninis įrankis"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Senukų“ Victorinox Nomad – konkretus sulenkiamo daugiafunkcio įrankio pavyzdys. Jį verta svarstyti žmogui, kuris jau sakė, kad tokio įrankio trūksta žygiuose ar smulkiems darbams. Aprašyme nurodomas 11,1 cm ilgis ir kelios funkcijos. Prieš pirkdami pardavėjo puslapyje patikrinkite kainą, prieinamumą ir tai, ar pasirinkta kaina taikoma be lojalumo paskyros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Netinka žmogui, kuris jau turi jam patogų modelį arba nenori nešiotis aštrių daiktų. Atsižvelkite į naudojimo ir vežimo ribojimus, pavyzdžiui, kelionėse lėktuvu, ir nesirinkite įrankio vien pagal funkcijų skaičių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Poilsį vertinančiam: klasikinio masažo čekis"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Gera dovana“ klasikinio masažo Vilniuje čekis yra pavyzdys žmogui, kuris pats mėgsta tokias procedūras ir gali apsilankyti darbo dieną. 2026 m. lapkričio 11 d. pardavėjo puslapyje 30 minučių pasirinkimas kainavo 45 €, o valandos – 80 €; taikytos akcijos ir pasiūlymas gali pasikeisti. Patikros metu čekis galiojo iki 2027 m. gegužės 31 d. ir nebuvo pratęsiamas; būtina rezervacija, o apie neatvykimą reikia pranešti prieš 24 valandas. Prieš pirkdami dar kartą patikrinkite vietą, laiką ir sąlygas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Netinka, jei žmogus nenori masažo, nepatogiai jaučiasi dėl prisilietimų ar jam sunku nuvykti į Vilnių darbo dieną. Jei kyla abejonių dėl sveikatos ar procedūros tinkamumo, paslaugos teikėjo sąlygas reikėtų įvertinti individualiai; nesame medicinos specialistai ir nežadame sveikatos poveikio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kita poilsio idėja – „Dovanų salos“ Palangos pirties čekis. Jis gali tikti žmogui, kuris mėgsta pirtį ir lengvai nuvyks į Palangą. 2026 m. lapkričio 11 d. pardavėjo puslapyje buvo rodomas 50 € vertės čekis už 45 €, tačiau tai akcijos kaina, kurią būtina patikrinti iš naujo. Patikros metu čekis galiojo 12 mėnesių; privačiai pirčiai ar pirtininko seansui reikia išankstinės rezervacijos, o už nominalą viršijančias paslaugas primokama vietoje. Dėl viešosios pirties registracijos pasitikslinkite su pardavėju: skirtingose pasiūlymo vietose informacija skiriasi. Prieš pirkdami patikrinkite konkrečios paslaugos sąlygas. Šis pasirinkimas netinka nepageidaujantiems pirties, negalintiems atvykti ar turintiems abejonių dėl jos tinkamumo; pastaruoju atveju prieš renkantis reikėtų pasitarti su sveikatos specialistu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Asmeninė dovana partneriui: procesas ar rezultatas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Memory Casting“ rankų liejimo rinkinys porai gali tikti porai, kuri nori kurti rankų skulptūrą pati. Poros rinkinys kainuoja 32 €, o balti dažai įeina į bazinį rinkinį; prieš pirkdami informaciją patikrinkite produkto puslapyje. Šį rinkinį parduodame patys – tai mūsų komercinis pasiūlymas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Procesui reikalingas pasiruošimas, maišymas ir vėlesnė apdaila, todėl tai mažiau tinkama, jei gavėjas nori tik pasyviai ilsėtis arba nenori dalyvauti kūryboje. Dovanokite ne pažadą apie tobulą rezultatą, o realų bendrą laiką. Kartu galima pasirinkti, kada užsiimsite liejimu, ir iš anksto susipažinti su poros rinkinio instrukcija. Jei planuojate jau užbaigtą, nudažytą liejinį padovanoti per Kalėdas, pagal esamą poros gido informaciją numatykite 5–7 parų džiūvimą po išėmimo ir sutikrinkite dabartinę instrukciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Renkantis tarp bendros kūrybos ir jau paruoštos dovanos verta pagalvoti, kas gavėjui svarbiau: pats procesas ar galutinis daiktas. Daugiau savų rankų liejimo pasiūlymų rasite kalėdinių dovanų vyrams rinkinių atrankoje, o ieškant dovanos tėčiui – atskirame kalėdinių dovanų tėčiui gide."
         },
         {
           "type": "heading",
@@ -13274,15 +13330,15 @@
         {
           "type": "list",
           "items": [
-            "Koks tikslus turimo prietaiso modelis ir kokie priedai su juo suderinami?",
-            "Ar šis daiktas pakeis nepatogų turimą, ar tik dubliuos jį?",
-            "Ar dovanos gavėjas pats mėgsta ilgai rinktis šios kategorijos įrangą?",
-            "Ar visai dovanai užteks numatytos sumos, įskaitant reikalingus priedus?"
+            "Kokį tikslų įrangos modelį gavėjas jau turi ir kokie priedai su juo suderinami?",
+            "Ar dovana pakeistų nepatogų daiktą, ar tik dubliuotų jau turimą?",
+            "Ar gavėjas norėtų tokį konkretų daiktą rinktis pats?",
+            "Ar numatyto biudžeto pakanka ir būtiniems priedams bei pristatymui?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Jei atsakymo nežinote, nufotografuokite modelio žymėjimą arba paklauskite tiesiai. Konkretaus pomėgio profesionalui galimybė pačiam pasirinkti dažnai naudingesnė už netinkamą staigmeną. Brangi saugumo ar techninė įranga neturėtų būti spėjimas pagal bendrą dovanų sąrašą."
+          "text": "Jei nežinote atsakymų, prieš pirkdami pasitikslinkite modelį ir žmogaus poreikius. Techninės ar saugumui svarbios įrangos nesirinkite vien pagal bendrą dovanų sąrašą. Jei svarstote kūrybinį rinkinį ir jau pagamintą daiktą, pravers palyginimas: rankų liejimo rinkinys ar paruošta dovana."
         },
         {
           "type": "heading",
@@ -13304,60 +13360,73 @@
         {
           "type": "heading",
           "level": 2,
-          "text": "Dovana vyrui, kuris sako, kad viską turi"
+          "text": "Dovanos vyrui, kuris sako, kad viską turi"
         },
         {
           "type": "paragraph",
-          "text": "Čia dažnai padeda mažesnis pasirinkimas. Galite pasiūlyti jo jau mėgstamo užsiėmimo vakarą, sunaudojamą jo paties įvardytą produktą arba indėlį į tikslų norimą pirkinį. Pavyzdžiui, kavos mėgėjui gali pakakti jo pasirinktos kavos ir ramaus ryto kartu, o ne naujo prietaiso. Muzikos mėgėjui – kartu sudaryto vakaro iš trijų jau turimų albumų. Žinutėje paaiškinkite, kokį jo įprotį pastebėjote."
+          "text": "Tokiu atveju nepulkite keisti veikiančio daikto nauju. Pirmiausia atskirkite tris situacijas: jis nenori papildomų daiktų; nėra tikras, ko norėtų; arba taupo konkrečiam pirkiniui. Pirmajam gali tikti sutartas bendras pasivaikščiojimas ar mėgstamas produktas, antrajam – pasirinkimo laisvę suteikiantis kuponas, trečiajam – indėlis į jo pasirinktą daiktą."
         },
         {
           "type": "paragraph",
-          "text": "Jei norite padovanoti veiklą, nuspręskite, kam priklauso jos planavimas. „Padovanojau vakarienę“ ir „parinkau receptą, nupirkau produktus ir pats pagaminsiu“ yra skirtingi pažadai. Vyrui, kuris po darbo norėtų paprasto poilsio, sudėtingas pasiruošimas gali būti netinkama dovanos dalis. Tai išsiaiškinkite anksčiau, negu sumokėsite už nekeičiamos datos užsiėmimą."
+          "text": "Jei dovanojate laiką kartu, prisiimkite bent dalį organizavimo. Pavyzdžiui, užuot parašę „kada nors nueisime“, pasiūlykite dvi tinkamas datas ir pasirūpinkite logistika. Jei žmogui būtinas lankstumas, pirmiausia pasitarkite, ar jam patogi pati idėja. Dovanų čekį rinkitės perskaitę galiojimo bei keitimo taisykles, o ne manydami, kad jis automatiškai tinka visiems."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Asmeninė dovana partneriui: procesas ar rezultatas?"
+          "text": "Kaip pasirinkti dovaną pagal biudžetą?"
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimą rinkitės tada, kai abu norite patys kurti bendrą darbą. Poros rinkinyje už 32 € yra vienas alginato pakelis, 1 200 g gipso, kibiras, maišymo pagaliukai ir balti dažai. Iš pradžių pasirenkate patogią rankų padėtį, tada dirbate pagal konkretaus rinkinio instrukciją. Tai bendro dalyvavimo dovana: graži skulptūros iliustracija nepakeičia paties noro įsitraukti."
+          "text": "Iki 15 €. Nedidelis knygyno kuponas ar mėgstamos kavos pakuotė gali būti apgalvotas pasirinkimas, kai žinote žmogaus skonį. Nepamirškite galimų siuntimo išlaidų: prekės kaina ir galutinė mokėtina suma skiriasi."
         },
         {
           "type": "paragraph",
-          "text": "Jei per Kalėdas norite įteikti jau nudažytą darbą, į bendrą planą įtraukite ir džiovinimą. Oficialus poros receptas numato 5–7 paras po liejinio išėmimo. Jeigu ketinate įteikti neatidarytą dėžutę, veiklą galima ramiai suplanuoti po švenčių. Palyginime rankų liejimo rinkinys ar paruošta dovana atskiriame šiuos du formatus."
+          "text": "Apie 20–40 €. Šiame intervale verta svarstyti žaidimą, bendrą kūrybinį rinkinį ar kitą konkrečiai reikalingą daiktą, bet faktinę kiekvieno pasiūlymo kainą patikrinkite atskirai. Jei perkant reikalingi papildomi priedai, įtraukite juos į biudžetą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Didesnis biudžetas. Paslauga ar technika turi prasmę tada, kai suprantate, kokios patirties žmogus tikisi. Masažo pasirinkimui patikrinkite vietą ir galiojimą, technikai – tikslų modelį, priedus ir suderinamumą. Brangesnė dovana nebūtinai geriau atitiks poreikį."
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Dažni klausimai apie Kalėdų dovanas vyrams"
+          "text": "Dažni klausimai"
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Kaip išrinkti praktišką dovaną nenupirkus dar vieno nenaudojamo daikto?"
+          "text": "Ką dovanoti vyrui Kalėdoms, kai nežinau jo pomėgių?"
         },
         {
           "type": "paragraph",
-          "text": "Paklauskite, kuo jo dabartinis daiktas nepatogus ir ar jis pats nori jį keisti. Jeigu aiškaus atsakymo nėra, verčiau rinktis kitą formatą. Praktiškumą parodo konkretus naudojimas, ne vien gamintojo funkcijų sąrašas."
+          "text": "Pirmiausia pasiteiraukite jo artimųjų arba išsiaiškinkite, ką jis jau naudoja. Jei atsakymo nėra, praktiškas pasirinkimas gali būti kuponas parduotuvei, kurioje jis įprastai apsiperka, arba asmeniškai pasiūlytas bendras laikas. Nepirkite specifinės technikos remdamiesi vien bendru pomėgiu."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar verta pirkti brangesnį pomėgio įrangos modelį staigmenai?"
+          "text": "Ar dovanų čekis nėra pernelyg neasmeniškas?"
         },
         {
           "type": "paragraph",
-          "text": "Tik jei žinote norimą tikslų variantą ir suderinamumą. Patyrusiam pomėgio entuziastui pasirinkimo detalės gali būti svarbios, todėl bendras išsirinkimas dažnai saugesnis už spėjimą. Galite išlaikyti staigmeną paruošdami asmeninį kvietimą ir aiškiai įvardytą biudžetą."
+          "text": "Jis gali būti asmeniškas, jei parinktas pagal konkretaus žmogaus interesą ir su trumpu paaiškinimu. Prieš pirkdami įsitikinkite, kad vieta pasiekiama, galiojimas pakankamas, o čekio likučio ir keitimo taisyklės aiškios."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ką dovanoti kolegai, palyginti su partneriu ar tėčiu?"
+          "text": "Kaip įsitikinti, kad dovana atkeliaus laiku?"
         },
         {
           "type": "paragraph",
-          "text": "Kolegai pirmiausia galioja sutarta suma ir darbo santykis. Partneriui galima remtis bendromis patirtimis, o tėčiui – šeimos istorija ir dabartiniais jo pomėgiais. Todėl kalėdinės dovanos tėčiui turi atskirą pasirinkimo gidą."
+          "text": "Prieš apmokėdami tikrinkite pasirinkto pardavėjo rodomą pristatymo prognozę būtent savo adresu ar į pasirinktą paštomatą. Šventiniu laikotarpiu verta užsakyti anksčiau ir numatyti rezervą. Kiekvienas pardavėjas pristatymo sąlygas taiko atskirai, todėl viena prognozė negalioja visoms šiame gide minimoms prekėms."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką dovanoti kolegai, o ką partneriui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kolegai atsižvelkite į sutartą biudžetą ir profesinį santykį – universalus, ne pernelyg asmeniškas pasirinkimas dažnai tinkamesnis. Partneriui galite rinktis pagal bendrus prisiminimus ar veiklą, jei tai priimtina abiem. Daugiau bendrų idėjų – dovanų vyrams gide."
         }
       ],
       "publishAt": "2026-10-17T07:00:00.000Z",
@@ -13465,76 +13534,79 @@
       ],
       "links": [
         {
-          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
-          "label": "kalėdinės dovanos šeimai"
-        },
-        {
-          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
-          "label": "kalėdinės dovanos porai"
-        },
-        {
-          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
-          "label": "nebrangios kalėdinės dovanos"
-        },
-        {
-          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "kalėdinės dovanos"
-        },
-        {
           "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
+          "label": "„Memory Casting“ rankų liejimo rinkinys porai"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "poros rinkinio instrukcija"
+        },
+        {
+          "targetPageId": "e70cb60a-aa87-4d93-b38b-070f7d17f42d",
+          "label": "kalėdinių dovanų vyrams rinkinių atrankoje"
+        },
+        {
+          "targetPageId": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
+          "label": "atskirame kalėdinių dovanų tėčiui gide"
         },
         {
           "targetPageId": "482400a7-e1d3-47ad-91a2-c83d1cea971a",
-          "label": "dovanų vyrams"
+          "label": "dovanų vyrams gide"
         },
         {
           "targetPageId": "61da1023-a13e-49f7-b6be-62cf372f4936",
           "label": "rankų liejimo rinkinys ar paruošta dovana"
-        },
-        {
-          "targetPageId": "61da1023-a13e-49f7-b6be-62cf372f4936",
-          "label": "Rinkinys ar paruošta dovana"
-        },
-        {
-          "targetPageId": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
-          "label": "kalėdinės dovanos tėčiui"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.decathlon.lt/p/301267-399663-nerudijancio-plieno-greitai-atidaroma-termosine-zygiu-gertuve-900-05-l.html",
-          "label": "QUECHUA „900“ 0,5 l",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "„Decathlon“ termosinė gertuvė QUECHUA 900, 0,5 l",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
-          "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "„Skonis ir kvapas“ MOKA trijų puodelių kavinukas",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-aeropress-original-250-ml-100-filtru",
-          "label": "AeroPress Original",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.kavosdraugas.lt/p/kavos-pupeles-caprisette-belgique-250-g/",
+          "label": "„Kavos draugo“ Caprisette Belgique pupelės, 250 g",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://www.patogupirkti.lt/knyga/10-euru-dovanu-kuponas.html",
-          "label": "10 € knygų kuponas",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "url": "https://www.knygos.lt/lt/dovanu-kuponai/knygos-lt-dovanu-kuponas-atsispausdink-pats/",
+          "label": "„Knygos.lt“ skaitmeninis dovanų kuponas",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.brain-games.lt/products/codenames-duet-lt",
-          "label": "Codenames Duet",
-          "reason": "Pardavėjo pasiūlymas: prekės arba paslaugos aprašas, kaina ir pasirinkimo sąlygos. Patikrinta 2026 m. spalio 22 d."
+          "label": "„Brain Games“ žaidimas „Codenames Duet“",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.senukai.lt/p/kiseninis-peiliukas-victorinox-nomad-11-1-cm/972l",
+          "label": "„Senukų“ Victorinox Nomad",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/klasikinis-masazas-vilniuje-dd-spa-vilnius-dienos-centras",
+          "label": "„Gera dovana“ klasikinio masažo Vilniuje čekis",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.dovanusala.lt/lt/27334-palangos-pirtis-dovanu-cekis.html",
+          "label": "„Dovanų salos“ Palangos pirties čekis",
+          "reason": "Pardavėjo prekės arba paslaugos aprašas patikrintas 2026 m. lapkričio 11 d. Kainos ir sąlygos gali keistis."
         }
       ],
       "id": "9bd829a9-fd02-4762-bf8b-3a6e0559c4e9",
-      "revisionHash": "3065ad58047ca25676c12b29565616357952e7990de5bc5af7464ce9056ac920",
+      "revisionHash": "488860ee5e6893c45110c9fd37d5001e22d2424be331ac7a560f191af3e326d5",
       "approval": {
         "status": "approved",
-        "revisionHash": "3065ad58047ca25676c12b29565616357952e7990de5bc5af7464ce9056ac920",
-        "approvedAt": "2026-10-26T15:52:03.813Z",
-        "actorId": "owner-authorized-editorial-depth-20261026"
+        "revisionHash": "488860ee5e6893c45110c9fd37d5001e22d2424be331ac7a560f191af3e326d5",
+        "approvedAt": "2026-11-11T14:58:06.871Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -16025,12 +16097,16 @@
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-kolegoms",
       "title": "Kalėdinės dovanos kolegoms ir slaptam Kalėdų Seneliui",
-      "description": "Kaip išrinkti dovaną menkai pažįstamam kolegai: konkrečios idėjos, biudžeto patikra, humoro ribos ir slapto Kalėdų Senelio scenarijai.",
-      "intent": "Kokia dovana tinka kolegai, kurio gerai nepažįstu?",
+      "description": "Kalėdinės dovanos kolegoms pagal biudžetą: konkrečios idėjos, slapto Kalėdų Senelio susitarimai ir pagarbi dovanos patikra.",
+      "intent": "Padėti pasirinkti tinkamą kalėdinę dovaną kolegai pagal sutartą biudžetą ir darbovietės aplinkybes.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Kolegai, kurio gerai nepažįstate, rinkitės nedidelę dovaną, kuriai nereikia žinoti jo dydžio, šeiminės padėties ar asmeninių įpročių. Pradėkite nuo sutarto biudžeto ir vieno tikro pomėgio. Jei apie gavėją beveik nieko nežinote, paprašykite organizatoriaus surinkti trumpus norų sąrašus arba rinkitės paprastą, lengvai panaudojamą daiktą su nuoširdžiu palinkėjimu."
+          "text": "Ką padovanoti kolegai, kurio dar nelabai pažįstate? Pirmiausia išsiaiškinkite sutartą sumą, gavėjo norus ir tai, ar dovanas trauksite atsitiktinai. Tinkama dovana darbovietėje nebūtinai turi būti juokinga ar įspūdinga: dažnai pakanka dėmesingai parinktos užrašinės, knygų kupono arba gavėjo pageidauto skanėsto su trumpa žinute."
+        },
+        {
+          "type": "paragraph",
+          "text": "Žemiau pateikiame konkrečius pavyzdžius pagal skirtingus limitus, organizatoriaus klausimus ir paprastą pasirinkimo patikrą. Pasiūlymų kainas žiūrėjome 2026 m. lapkričio 11 d.; jos gali keistis, o pristatymas ir įpakavimas apskaičiuojami atskirai."
         },
         {
           "type": "heading",
@@ -16040,15 +16116,15 @@
         {
           "type": "list",
           "items": [
-            "Biudžetas. Išsiaiškinkite, ar sutarta suma yra didžiausia leidžiama kaina, ar orientyras. Pristatymą ir pakavimą įtraukite į savo išlaidų planą.",
-            "Gavėjas. Ar dovaną renkate konkrečiam žmogui, ar supakuotos dovanos bus traukiamos atsitiktinai?",
-            "Įteikimas. Kada ir kur dovanos bus perduodamos? Ar jas reikės atsinešti pačiam, ar siųsti?",
-            "Darbovietės taisyklės. Paklauskite organizatoriaus, ar taikomi dovanų vertės, kuponų, alkoholio ar kitų dovanų apribojimai."
+            "Biudžetas. Ar 10 € yra didžiausia suma, ar tik orientyras? Susitarkite, ar siuntimą ir įpakavimą kiekvienas apmoka atskirai.",
+            "Gavėjas. Ar dovanojate konkrečiam ištrauktam kolegai, ar kiekvienas gauna atsitiktinai pasirinktą supakuotą dovaną?",
+            "Įteikimas. Ar visi susitinka biure, ar kai kuriems reikės dovanas siųsti? Atsižvelkite į kolegas, kurie tą dieną dirba kitu grafiku ar nuotoliu.",
+            "Darbovietės taisyklės. Organizatorius gali paaiškinti nustatytas vertės ribas, taisykles dėl kuponų ar kitų dovanų ir tai, ar mainuose dalyvaujama savanoriškai."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Viršyti bendrą biudžetą vien tam, kad dovana atrodytų įspūdingesnė, nebūtina. Geriau skirkite dėmesio pasirinkimui ir kortelei. Dovana taip pat neturėtų įpareigoti gavėjo papildomai mokėti, atvykti nustatytu laiku ar viešai atlikti užduotį."
+          "text": "Jei riba 10 €, nereikia jos viršyti vien todėl, kad dovana atrodytų didesnė. Vertinga patikrinti ne tik etiketę, bet ir tai, ar dovana nereikalauja gavėjo primokėti, keliauti į kitą miestą ar atlikti viešos užduoties, kurios jis nenori."
         },
         {
           "type": "heading",
@@ -16056,13 +16132,88 @@
           "text": "Dovanų idėjos pagal tai, ką iš tikrųjų žinote"
         },
         {
-          "type": "list",
-          "items": [
-            "Kolega mėgsta rašyti ranka. Galite rinktis užrašų knygelę ar rašiklį. Patikrinkite formatą ir venkite užrašų, kurie vertina jo darbo rezultatus.",
-            "Žinote konkretų skaitymo pomėgį. Apsvarstykite knygą, prieš tai išsiaiškinę, ar gavėjas jos neturi. Jei nežinote norimo leidinio, galima svarstyti knygyno kuponą, patikrinus jo naudojimo sąlygas.",
-            "Gavėjas pats nurodė mėgstamą arbatą, kavą ar skanėstą. Rinkitės pagal tą pageidavimą, perskaitykite sudėtį ir laikymo informaciją. Vien pomėgis kavai nepasako, ar žmogus turi įrangą konkrečiam jos paruošimo būdui.",
-            "Apie žmogų beveik nieko nežinote. Paprašykite dviejų ar trijų norų ir vieno dalyko, kurio jis nenorėtų gauti. Tai leidžia išlaikyti staigmeną ir sumažina spėliojimą."
-          ]
+          "type": "paragraph",
+          "text": "Jei žinote, kad žmogus rašo ranka, verta rinktis užrašinę, tačiau ir čia praverčia konkretus formatas: didelė knyga gali likti stalčiuje, jei kolega viską rašo telefone. Jei girdėjote, kad jis skaito, pasitikrinkite norimą knygą arba leiskite pasirinkti pačiam. Patiekalus, gėrimus ir kvapus rinkite tik tada, kai žinote pageidavimus ir apribojimus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei informacijos beveik nėra, vietoj asmeninių duomenų rinkimo organizatorius gali pasiūlyti tris neprivalomus klausimus: „Kokia maža dovana tau praverstų?“, „Ko nenorėtum gauti?“ ir „Ar yra svarbi sudėties ar dovanos rūšies riba?“ Atsakymai turi būti savanoriški; nereikia prašyti sveikatos diagnozių ar šeimos informacijos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkrečios dovanos kolegoms iki 5, 10 ir 15 €"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pavyzdžiai nėra produktų bandymų ar populiarumo reitingas. Nurodome konkrečios prekės kainą patikros dieną; jeigu biudžetas griežtas, prieš mokėdami patikrinkite įprastą kainą be narystės bei visą krepšelį."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Užrašinė A5 – iki 5 € už pačią prekę"
+        },
+        {
+          "type": "paragraph",
+          "text": "A5 užrašų knyga PAINT YOUR, 112 lapų lapkričio 11 d. turėjo 4,97 € įprastą kainą; pardavėjas atskirai rodė 4,47 € klubo kainą. Pardavėjas pavadinime nurodo linijuotus lapus, todėl prieš pirkdami pasitikrinkite lapų tipą. Tai kandidatas rašančiam ranka; gavimo ir pakavimo išlaidos gali padidinti sumą virš 5 €."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Nedidelė A6 užrašinė – kai svarbus kompaktiškumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "NIGHT LIGHT A6 juoda užrašinė, 192 lapai patikros dieną kainavo 5,99 € be narystės; narystės kaina buvo 5,39 €. A6 formatas mažesnis nei A5, bet tikrinkite, ar gavėjas apskritai naudoja popierinę užrašinę ir ar jam patinka būtent toks dizainas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Arbatos žiedai – kai žinote, kad gavėjas juos mėgsta"
+        },
+        {
+          "type": "paragraph",
+          "text": "Penkių arbatos žiedų rinkinys lapkričio 11 d. kainavo 5,79 €. Galima pridėti nedidelę kortelę su padėka už bendrą darbą. Nelaikykite maisto ar gėrimų saugia dovana visiems: pasitikrinkite gavėjo norus, sudėtį ir turimą paruošimo indą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kavos pupelės – tik tinkamam ruošimo būdui"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Caprisette Belgique“ 250 g kavos pupelės patikros dieną kainavo 5,95 € akcijos metu. Šis variantas aktualus kolegai, turinčiam pupelių malūnėlį arba pritaikytą aparatą; vien žinojimas, kad žmogus geria kavą, dar neparodo, kaip ją ruošia. Akcijos kaina gali baigtis."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Knygų kuponas – kai sutarta suma yra bent 10 €"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Patogupirkti.lt“ 10 € dovanų kuponas patikros dieną kainavo 10 €. Jis palieka leidinį išsirinkti pačiam, tačiau prieš mokėdami patikrinkite galiojimą, gavimo būdą ir taisykles. Jei darbdavio taisyklės riboja kuponus arba 10 € limitas apima mokamą gavimą, rinkitės kitą variantą. 2026 m. lapkričio 11 d. pardavėjas nurodė, kad kuponas galioja 6 mėnesius nuo įsigijimo ir išsiunčiamas el. paštu iškart po užsakymo apmokėjimo. Prieš pirkdami dar kartą pasitikrinkite dabartines sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Rėmelis arba puodelis – pagal aiškų pageidavimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Baltas IKEA KNOPPÄNG 30 × 40 cm rėmelis patikros dieną kainavo 4,99 €; nuotraukos spausdinimas neįtrauktas, o pasirinkto gavimo būdo likutis nepatvirtintas. SAVONA PROVANCE 350 ml puodelis kainavo 14,99 €. Abu daiktai prasmingi, kai žinote norimą stilių ir žmogus tikrai norėtų dar vieno. Kitaip saugesnis sprendimas – paties gavėjo įvardytas noras."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kiek kainuos dovana iš tikrųjų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tarkime, sutartas 10 € visų išlaidų limitas. Jei pasirenkate 4,97 € užrašinę, liks 5,03 € pristatymui ir įpakavimui. Tai nėra nurodyta pardavėjo siuntos kaina: konkretų gavimo būdą tikrinkite krepšelyje. Jei siuntimas ir pakavimas kainuotų, pavyzdžiui, 4 €, visa suma būtų 8,97 €; liktų 1,03 €. Šis hipotetinis 4 € skaičius naudojamas tik aritmetikai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei įmonėje nustatyta, kad limitas apima tik dovaną, o siunčiate už savo lėšas, bendras dalyvavimo kaštas vis tiek svarbus. Organizatorius gali iš anksto pasiūlyti vietinį atsiėmimą arba centralizuotą siuntimą, tačiau kainas ir atsakomybes reikia susitarti atskirai. Daugiau pasirinkimų pagal griežtą ribą rasite nebrangių kalėdinių dovanų gide."
         },
         {
           "type": "heading",
@@ -16071,11 +16222,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei ištraukėte konkretaus kolegos vardą, pritaikykite dovaną vienam jo įvardytam interesui. Nereikia rinkti asmeninės informacijos: organizatorius gali anonimiškai perduoti norų sąrašą. Asmeniškumą suteiks ir trumpa kortelė apie malonų bendrą darbo momentą."
+          "text": "Jei gavote konkretaus žmogaus vardą, pakanka vieno jo nurodyto pomėgio. Organizatorius gali perduoti pageidavimus neatverdamas visai komandai asmeninės informacijos. Asmenišką prasmę suteiks trumpa, tikra padėka – tam nereikia žinoti žmogaus namų adreso ar šeiminės padėties."
         },
         {
           "type": "paragraph",
-          "text": "Jei dovanos bus traukiamos atsitiktinai, rinkitės be vardų, dydžių ir gavėjo šeimos prielaidų. Venkite dovanos, kuriai būtinas partneris, konkretus įrenginys ar kelionė į kitą miestą. Valgomą dovaną rinkitės tik įvertinę organizatorių surinktus mitybos apribojimus; jos nelaikykite savaime tinkama visiems."
+          "text": "Jei supakuotos dovanos bus traukiamos atsitiktinai, neįmanoma iš anksto žinoti nei gavėjo stiliaus, nei mitybos. Sutarkite aiškias kategorijas ar leiskite dalyviams nurodyti, kokios dovanos netinka. Be šio susitarimo nevadinkite jokio maisto, kvapo ar konkrečiam įrenginiui skirto priedo universaliu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotolinėje komandoje skirkite papildomą laiką gavimo būdui suderinti. Žmogus neturi privalėti bendrame pokalbyje skelbti namų adreso: organizatorius gali pasiūlyti pasirinktą paštomatą ar kitą saugų būdą. Visi turi žinoti, kas dengia pristatymą ir ką daryti dovanai vėluojant."
         },
         {
           "type": "heading",
@@ -16084,11 +16239,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Prieš pirkdami juokingą dovaną, įsivaizduokite, kad kolega ją išpakuoja visos komandos akivaizdoje. Ar juokas remiasi bendra malonia patirtimi, ar jo išvaizda, amžiumi, santykiais, atlyginimu ir klaidomis? Jei dovanos prasmę reikėtų aiškinti žodžiais „čia tik pokštas“, rinkitės kitą variantą."
+          "text": "Prieš pirkdami pokštui skirtą daiktą įsivaizduokite, kad jis išpakuojamas visų akivaizdoje. Ar juokas susijęs su malonia bendra patirtimi, ar remiasi žmogaus išvaizda, amžiumi, sveikata, santykiais, atlyginimu arba klaidomis? Jei dovaną tektų aiškinti fraze „čia tik pokštas“, verta rinktis kitą."
         },
         {
           "type": "paragraph",
-          "text": "Asmeniška kortelė gali būti paprasta: „Ačiū, kad padėjai susigaudyti pirmąją savaitę. Linkiu ramaus šventinio poilsio.“ Tai iliustracinis tekstas – pritaikykite jį tikram jūsų bendravimui."
+          "text": "Kortelė gali būti paprasta ir pagarbi: „Ačiū už pagalbą pirmąją savaitę. Linkiu ramaus šventinio poilsio.“ Šis sakinys tinka tik tada, jei jis atitinka jūsų tikrą patirtį. Jei artimai nebendravote, pakanka neutralaus šventinio palinkėjimo be išgalvotų asmeninių detalių."
         },
         {
           "type": "heading",
@@ -16097,11 +16252,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Rankų liejimo rinkinį svarstykite tada, kai kolega pats yra išreiškęs norą kurti prisiminimą su artimaisiais. Menkai pažįstamam žmogui ar atsitiktiniam dovanų gavėjui toks pasirinkimas reikalauja per daug prielaidų. Noras dalyvauti bendroje veikloje svarbesnis už dovanos neįprastumą."
+          "text": "Rankų liejimo rinkinį porai, kurį parduodame mes, svarstykite tik tada, kai kolega yra išreiškęs norą tokią veiklą atlikti su artimu žmogumi. 32 € rinkinio kaina gali viršyti įprastą mažesnių mainų limitą; jis yra kūrybos priemonių rinkinys, o ne gatava skulptūra. Menkai pažįstamam gavėjui tai būtų per daug prielaidų reikalaujantis pasirinkimas. Palyginkite norus ir biudžetą, o ne rinkitės produktą vien dėl neįprastos išvaizdos."
         },
         {
           "type": "paragraph",
-          "text": "Jei ši idėja atitinka gavėjo norus, palyginkite poros ir šeimos rinkinių aprašus. Prieš pasirinkdami išsiaiškinkite konkretaus rinkinio naudojimo sąlygas ir pristatymo galimybes. Produkto pavadinimas ar liejinio nuotrauka savaime nepatvirtina tinkamo dalyvių amžiaus ar rankų skaičiaus."
+          "text": "Jei dovanojama ne kolegai, o artimam žmogui, platesnę kalėdinių dovanų atranką galima peržiūrėti atskirai. Organizatoriams gali būti aktualus ir kalėdinių dovanų darbuotojams gidas: darbdavio dovanos ir savanoriški mainai tarp kolegų sprendžia skirtingus klausimus."
         },
         {
           "type": "heading",
@@ -16111,12 +16266,53 @@
         {
           "type": "list",
           "items": [
-            "Dovana atitinka sutartą biudžetą ir darbovietės taisykles.",
-            "Jos pasirinkimą galiu paaiškinti tikru gavėjo noru arba aiškia praktine paskirtimi.",
-            "Gavėjui nereikės papildomai mokėti ar dalyvauti veikloje, kurios jis nepasirinko.",
-            "Patikrinau aktualias prekės ar kupono sąlygas ir realią gavimo datą.",
-            "Kortelėje nėra užuominų, kurios galėtų žmogų sugėdinti."
+            "Dovana telpa į sutartą ribą ir atitinka darbovietės taisykles.",
+            "Galiu paaiškinti pasirinkimą pagal tikrą norą arba aiškią paskirtį.",
+            "Gavėjui nereikės papildomai mokėti, atskleisti jautrios informacijos ar vykdyti nepageidaujamos užduoties.",
+            "Patikrinau dabartinę kainą, kupono sąlygas ir realų gavimo būdą.",
+            "Kortelėje ir dovanoje nėra galinčių sugėdinti asmeninių užuominų."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažni klausimai apie kalėdines dovanas kolegoms"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką dovanoti beveik nepažįstamam kolegai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paprašykite organizatoriaus savanoriškai surinkto trumpo norų sąrašo. Jei tai neįmanoma, rinkitės paprastą daiktą, kurį galima naudoti be dydžio, įrenginio ar šeimos sudėties prielaidų; palikite galimybę mandagiai pasikeisti netikusį variantą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar dovanų kuponas visada geras pasirinkimas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne visada. Pirmiausia pasitikrinkite darbovietės taisykles, galiojimą, parduotuvės pasiūlą ir tai, ar gavėjui nereikės primokėti. 10 € vertės kuponas nebūtinai patogus, jei prekės ir pristatymo suma gerokai didesnė."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar galima nedalyvauti dovanų mainuose?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizuojant verta iš anksto sudaryti galimybę mandagiai atsisakyti, neaiškinant finansinių ar asmeninių priežasčių. Jei galioja konkrečios darbovietės taisyklės, jas aptarkite su organizatoriumi."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip atrinkome pasiūlymus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "2026 m. lapkričio 11 d. peržiūrėjome nurodytų pardavėjų puslapius ir atrinkome skirtingų kainų pavyzdžius. Prekių patys nebandėme, todėl nelyginame jų pagal tariamą bandymų kokybę. „Memory Casting“ parduoda šiame gide minimą rankų liejimo rinkinį; kiti pasiūlymai priklauso atitinkamiems pardavėjams. Kainos, akcijos, likučiai ir sąlygos gali pasikeisti, o esama iliustracija yra bendros darbo aplinkos scena, ne konkrečių produktų nuotrauka."
         }
       ],
       "publishAt": "2026-10-22T07:00:00.000Z",
@@ -16169,41 +16365,66 @@
       ],
       "links": [
         {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
+          "targetPageId": "1d7bd5bf-7857-403a-8b97-e1e25ba26b9e",
+          "label": "nebrangių kalėdinių dovanų gide"
         },
         {
-          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "Rankų liejimo rinkinys šeimai"
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "Rankų liejimo rinkinį porai"
         },
         {
           "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "Kalėdinės dovanos: kaip išrinkti tinkamą"
-        },
-        {
-          "targetPageId": "1467226d-00bf-486c-9320-728e9f810a80",
-          "label": "Dovanos mokytojai: dėmesys ir tinkamos ribos"
+          "label": "kalėdinių dovanų atranką"
         },
         {
           "targetPageId": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
-          "label": "kalėdinės dovanos darbuotojams"
+          "label": "kalėdinių dovanų darbuotojams gidas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.patogupirkti.lt/knyga/knyga-a5-langeliais-paint-your.html",
+          "label": "A5 užrašų knyga PAINT YOUR, 112 lapų",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
-          "targetPageId": "aa8d6744-1d62-4a45-a452-00da2dbfe960",
-          "label": "dovanos kolegoms"
+          "url": "https://www.patogupirkti.lt/knyga/uzrasu-knygute-night-light-a6-192-lap-juoda.html",
+          "label": "NIGHT LIGHT A6 juoda užrašinė, 192 lapai",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
-          "targetPageId": "f340df26-a303-4766-972f-9c31c913949b",
-          "label": "dovanos vadovui"
+          "url": "https://www.skonis-kvapas.lt/dovanos/dovanu-rinkiniai/arbatos-ziedu-rinkinys-5-vnt",
+          "label": "Penkių arbatos žiedų rinkinys",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.kavosdraugas.lt/p/kavos-pupeles-caprisette-belgique-250-g/",
+          "label": "„Caprisette Belgique“ 250 g kavos pupelės",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.patogupirkti.lt/knyga/10-euru-dovanu-kuponas.html",
+          "label": "„Patogupirkti.lt“ 10 € dovanų kuponas",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/knoppaeng-remelis-balta-20427290/",
+          "label": "Baltas IKEA KNOPPÄNG 30 × 40 cm rėmelis",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://gerduva.lt/puodelis-savona-provance-350-ml",
+          "label": "SAVONA PROVANCE 350 ml puodelis",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         }
       ],
       "id": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
-      "revisionHash": "d3816b1dcd51bd6dd3804e4de8d7fa9dc9ede9d994d3806f88e3b14b49394fb7",
+      "revisionHash": "aed4f03a5b8ad92dbd5f38dc46b25266e784c201fae2b4f2f66a82e5a180fce6",
       "approval": {
         "status": "approved",
-        "revisionHash": "d3816b1dcd51bd6dd3804e4de8d7fa9dc9ede9d994d3806f88e3b14b49394fb7",
-        "approvedAt": "2026-10-25T14:08:20.690Z",
-        "actorId": "memocasting-prose-recovery-20261025"
+        "revisionHash": "aed4f03a5b8ad92dbd5f38dc46b25266e784c201fae2b4f2f66a82e5a180fce6",
+        "approvedAt": "2026-11-11T14:58:06.945Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -37092,5 +37313,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-11T14:45:34.936Z"
+  "generatedAt": "2026-11-11T14:58:07.156Z"
 }
