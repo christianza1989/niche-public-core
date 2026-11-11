@@ -14928,12 +14928,16 @@
       "type": "guide",
       "slug": "gidai/kaledines-dovanos-teciui",
       "title": "Kalėdinės dovanos tėčiui pagal jo pomėgius",
-      "description": "Išrinkite tėčiui kalėdinę dovaną pagal tai, ką jis mėgsta dabar. Konkrečios idėjos, techninių prekių patikros sąrašas ir bendro laiko planas.",
-      "intent": "Kaip išrinkti tėčiui asmenišką dovaną?",
+      "description": "Kalėdinės dovanos tėčiui pagal pomėgius: konkrečios idėjos, kainų palyginimas ir pasirinkimo klausimai.",
+      "intent": "Padėti pasirinkti tėčiui dovaną pagal jo dabartinius pomėgius, suderinamumą ir norą leisti laiką kartu.",
       "body": [
         {
           "type": "paragraph",
-          "text": "Kalėdinę dovaną tėčiui rinkite pagal konkretų jo norą, mėgstamą užsiėmimą arba laiką, kurį norėtumėte praleisti kartu. Prieš pirkdami užbaikite sakinį: „Ši dovana jam tiks, nes…“ Jei atsakymas tik „nes jis tėtis“, dar verta pasidomėti. Toliau rasite idėjų ir atrankos klausimų, kurie padės pasirinkti be spėlionių apie tai, ką turėtų mėgti visi tėčiai."
+          "text": "Kalėdinė dovana tėčiui tampa prasmingesnė, kai galite užbaigti sakinį: „Parinkau tai, nes žinau, kad tau patinka...“ Jei vienintelis atsakymas – „nes jis tėtis“, verta pasidomėti daugiau. Vienas žmogus norės laiko lauke, kitas – naujos knygos, trečias mieliausiai atnaujins senas šeimos nuotraukas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau rasite konkrečių prekių ir veiklų pavyzdžių, klausimų techninei dovanai ir nedidelį planą bendram laikui. Kainas ir pardavėjų aprašus peržiūrėjome 2026 m. lapkričio 11 d.; akcijos, likučiai ir paslaugų sąlygos gali keistis. Pristatymas bei kelionė į nurodytas prekių ar čekių kainas neįtraukti."
         },
         {
           "type": "heading",
@@ -14942,21 +14946,21 @@
         },
         {
           "type": "paragraph",
-          "text": "Prisiminkite paskutinius pokalbius: ką tėtis norėjo išbandyti, ką neseniai skaitė, kokiai veiklai skyrė laiko? Senas pomėgis nebūtinai tebėra svarbus. Vien tai, kad garaže yra įrankių ar lentynoje stovi meškerė, dar nepasako, kokios dovanos jis norėtų šiemet."
+          "text": "Prisiminkite paskutinius pokalbius: ką tėtis norėjo išbandyti, kokią knygą minėjo, kur laisvu laiku išvyksta? Meškerė garaže ar prieš daug metų mėgtas užsiėmimas dar nereiškia, kad jis norėtų naujo priedo būtent dabar."
         },
         {
           "type": "list",
           "items": [
-            "Kuo jis užsiima savo noru, kai neturi kitų pareigų?",
-            "Ar yra minėjęs konkretų daiktą, knygą arba veiklą?",
+            "Ką jis daro savo noru, kai neturi kitų įsipareigojimų?",
+            "Ar minėjo konkretų daiktą, autorių, vietą arba bendrą veiklą?",
             "Ką jau turi ir kuo iš tiesų naudojasi?",
-            "Ar norėtų ką nors veikti kartu, ar labiau vertintų laiką sau?",
-            "Ar dovana pareikalautų papildomų pirkinių, kelionės arba pasiruošimo?"
+            "Ar norėtų veikti kartu, ar vertintų laiką sau?",
+            "Ar dovanai reikėtų papildomų pirkinių, kelionės ar pasiruošimo?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Galite paklausti tiesiai, išsaugodami dalį staigmenos: „Kalėdoms norėčiau padovanoti ką nors tavo pomėgiui. Ar turi konkretų norą, ar mieliau kartu ką nors suplanuotume?“ Tuomet staigmena gali likti įteikimo būdas ir asmeninis palinkėjimas."
+          "text": "Galite paklausti bendriau: „Ar Kalėdoms labiau norėtum ko nors savo pomėgiui, ar susitikimo, kurį suplanuočiau aš?“ Staigmena gali likti konkretus įteikimo būdas, žinutė ar jūsų pačių paruošta istorija."
         },
         {
           "type": "heading",
@@ -14964,20 +14968,70 @@
           "text": "Šešios konkrečios kryptys: ką rinktis ir kada atsisakyti"
         },
         {
-          "type": "paragraph",
-          "text": "MOKA 3 puodelių kavinukas patikros metu kainavo 15,99 €. Jo 180 ml talpa skirta mažoms kavos porcijoms; šis aliumininis modelis netinka indukcinei viryklei. Tėčiui, kuris mėgsta kavos ruošimo ritualą ir turi tinkamą viryklę, tai konkretus kandidatas. Jei viryklės nežinote, modelio nepirkite iš akies."
+          "type": "heading",
+          "level": 3,
+          "text": "1. Kavos ruošimo ritualui – tinkamai viryklei"
         },
         {
           "type": "paragraph",
-          "text": "20 € knygų kuponas praverčia skaitančiam tėčiui, kurio norimo leidinio nežinote. „Angelų Takais“ elektroninis 20 € kuponas – kitas formatas: prieš renkantis reikia įvertinti, ar jam įdomi tokia patirtis, patogi vieta ir seanso laikas. Šių dviejų vienodos vertės kuponų negalima laikyti vienodai lengvai panaudojamais."
+          "text": "MOKA 3 puodelių kavinukas lapkričio 11 d. kainavo 15,99 €. Pardavėjas nurodo, kad šis modelis netinka indukcinei viryklei. Jis gali tikti tada, kai tėtis nori tokio ruošimo būdo ir jo viryklė suderinama. Jei nežinote, ką naudoja, pirmiau pasitikrinkite – vien žodžio „kavos mėgėjas“ nepakanka."
         },
         {
-          "type": "list",
-          "items": [
-            "Muzikos vakarui: jo jau turimas mėgstamas albumas ir jūsų paruoštas klausymo vakaras. Naujos laikmenos nepirkite nepatikrinę turimos įrangos.",
-            "Išvykai: jo pasirinktas pažįstamas maršrutas ir jūsų pasirūpinta kelionė. Tai asmeninis planas, ne nupirkta ekskursija.",
-            "Šeimos istorijai: dešimt jau turimų nuotraukų su jo pasakojimais. Pirma sutarkite, ar jis norės kalbėtis ir ar pasakojimus galima išsaugoti."
-          ]
+          "type": "paragraph",
+          "text": "Papildomą kavą skaičiuokite kaip atskirą pirkinį. Pavyzdžiui, „Caprisette Belgique“ 250 g kavos pupelės patikros dieną kainavo 5,95 € akcijos metu. Kartu su 15,99 € kavinuku prekių suma būtų 21,94 € prieš pristatymą. Pupelėms reikia tinkamos malimo įrangos; ne kiekvienas kavos gėrėjas ją turi. Akcijos kaina gali pasikeisti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Skaitančiam – pasirinkimo laisvė"
+        },
+        {
+          "type": "paragraph",
+          "text": "20 € knygų kuponas patikros dieną kainavo 20 €. Jis gali praversti, kai žinote, jog tėtis skaito, bet nežinote norimo autoriaus ar to, ką jis jau turi. Prieš pirkdami patikrinkite kupono galiojimą, gavimo formą, panaudojimo apribojimus ir tai, ar pageidaujamas knygynas jam patogus. Jei norima knyga kainuos daugiau, gali reikėti primokėti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei žmogus mėgsta pats rašyti, A5 užrašų knyga PAINT YOUR tuo metu kainavo 4,97 € be narystės. Pardavėjas pavadinime nurodo linijuotus lapus, todėl prieš pirkdami patikrinkite jų tipą. Ji nėra tinkama vien todėl, kad naudinga biure: svarbu, ar tėtis rašo ranka ir nori būtent tokio formato."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Šeimos istorijai – jau pradėtas albumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Albumas „Šeimos medis“ lapkričio 11 d. kainavo 18,90 € akcijos metu; aprašyme nurodyta 40 baltų lapų. Tai tuščias albumas, ne automatiškai paruošta fotoknyga. Pradėkite nuo kelių nuotraukų ir prie kiekvienos užrašykite tai, ką tikrai žinote. Spausdinimas, pristatymas ir jūsų darbo laikas – atskira dovanos dalis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei tėtis mieliau pasakoja nei pildo puslapius, galite pasirūpinti nuotraukų atranka patys, o jo paklausti tik tada, kai jis norės. Viešinti nuotraukų ar įrašyti pasakojimo be atskiro dalyvių sutikimo nereikia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "4. Mėgstančiam gamtą ir meną – apsilankymas dviem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apsilankymas Europos parke dviem patikros dieną kainavo 24 €; pardavėjas atskirai siūlė brangesnį variantą su gidu. Tai pasirinkimas, jei tėtis iš tiesų norėtų keliauti į Vilniaus apylinkes ir jam patiktų pasivaikščiojimas. Būtina išankstinė registracija. Įvertinkite vietą, judėjimo patogumą, darbo laiką ir kelionės kainą. Nežadėkite konkrečios datos jos nesuderinę."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "5. Besidominčiam dangumi – žvaigždžių stebėjimas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žvaigždžių stebėjimas Etnokosmologijos muziejuje dviem lapkričio 11 d. kainavo 28 €. Pardavėjas nurodo Molėtų rajoną, išankstinę registraciją, grupės surinkimą ir paslaugą tik giedromis naktimis. Pardavėjas palankiu laiku stebėti žvaigždes nurodo kovą–gegužę ir liepą–spalį; prieš atvykstant būtina paskambinti nurodytu telefonu. Pasitikrinkite laisvas datas, kelionę ir aprangą. Jei žmogus nenori vakarinės išvykos ar ilgesnio laukimo, geriau rinktis kitą veiklą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "6. Norinčiam kurti – namuose arba studijoje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tapybos ant keramikos dirbtuvės dviem Vilniuje patikros dieną kainavo 50 € akcijos metu; reikia registruotis iš anksto. Alternatyva namuose – mūsų parduodamas rankų liejimo rinkinys porai už 32 € arba rankų liejimo rinkinys šeimai už 48 €; balti dažai įtraukti. Tai priemonės kurti patiems, o ne jau pagamintas daiktas. Rinkitės tik jei tėtis pats norėtų dalyvauti, o dėl kelių žmonių kompozicijos pirmiausia patikrinkite rinkinio aprašą ir instrukciją."
         },
         {
           "type": "heading",
@@ -14987,15 +15041,12 @@
         {
           "type": "list",
           "items": [
-            "Nežinau tikslaus įrankio modelio → prašau norų sąrašo arba renkuosi bendrą išsirinkimą.",
-            "Žinau pomėgį, bet ne konkrečią knygą → lyginu knygyno pasirinkimą ir kupono sąlygas.",
+            "Nežinau techninio priedo modelio → prašau tikslaus norų sąrašo arba siūlau rinktis kartu.",
+            "Žinau skaitymo pomėgį, bet ne konkretų leidinį → patikrinu knygyno pasirinkimą ir kupono sąlygas.",
             "Žinau daiktą, bet nežinau, ar jį jau turi → pasitikslinu prieš apmokėdamas.",
-            "Tėtis nenori daugiau daiktų → siūlau vieną veiklą, dvi datas ir pats pasirūpinu organizavimu."
+            "Tėtis nebenori daugiau daiktų → pasiūlau vieną jam patinkančią veiklą ir dvi realias datas.",
+            "Vieta ir laikas nepatvirtinti → nepirkdamas bilietų pirmiausia išsiaiškinu jo galimybes."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Konkrečių trijų pardavėjų pasiūlymų sąlygos papildomai tikrintos 2026 m. spalio 25 d. Kainos gali keistis; pristatymas ir galimos paslaugų priemokos neįtraukti. Tai atranka pagal aprašus, ne išbandytų gaminių reitingas."
         },
         {
           "type": "heading",
@@ -15004,21 +15055,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei renkatės įrangą ar jos priedą, užrašykite turimo įrenginio gamintoją ir visą modelio žymėjimą. Suderinamumą tikrinkite gamintojo dokumentuose. Panaši išvaizda ar tas pats prekės ženklas nėra pakankamas pagrindas pasirinkti."
-        },
-        {
-          "type": "list",
-          "items": [
-            "Ar priedas aiškiai nurodytas kaip tinkamas konkrečiam modeliui?",
-            "Ar komplekte yra viskas, ko reikia numatytam naudojimui?",
-            "Ar reikės atskirai įsigyti bateriją, įkroviklį, adapterį ar kitą dalį?",
-            "Ar dovana nesukuria papildomų prenumeratos ar priežiūros išlaidų?",
-            "Ar tėtis iš tiesų norėtų šio modelio, o ne tik panašios paskirties daikto?"
-          ]
+          "text": "Užrašykite turimo įrenginio gamintoją ir visą modelio žymėjimą. Panaši išvaizda, tas pats gamintojas ar užrašas „universalus“ savaime neįrodo suderinamumo. Patikrinkite gamintojo dokumentus ir, jei reikia, pardavėjo informaciją apie konkretų priedą."
         },
         {
           "type": "paragraph",
-          "text": "Jei bent vieno svarbaus atsakymo trūksta, neskubėkite pirkti. Galite įteikti savo parašytą kvietimą kartu išsirinkti dovaną ir sutarti, kiek jai skirsite. Toks kvietimas nėra parduotuvės dovanų kuponas, todėl nežada jokios pardavėjo paslaugos."
+          "text": "Prieš pirkdami paklauskite: ar konkrečiam modeliui šis priedas nurodytas kaip tinkamas; ar komplekte yra būtinas adapteris, baterija arba įkroviklis; ar nenumatytos papildomos prenumeratos; ar tėtis nori būtent šio modelio? Jei nežinote bent vieno esminio atsakymo, įteikite asmeninį kvietimą kartu išsirinkti, nurodydami savo planuojamą biudžetą. Toks kvietimas nėra parduotuvės išduotas kuponas."
         },
         {
           "type": "heading",
@@ -15027,11 +15068,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Vietoj neapibrėžto „kada nors susitiksime“ pasiūlykite veiklą ir kelis galimus laikus. Pavyzdžiui: „Po švenčių norėčiau su tavimi peržiūrėti senas šeimos nuotraukas. Aš jas surinksiu ir pasirūpinsiu vakariene, o dieną išsirinksime kartu.“ Tai iliustracinis pasiūlymas: pasirinkite veiklą, kurios norėtų pats tėtis, ir prisiimkite tik tuos darbus, kuriuos galėsite atlikti."
+          "text": "Vietoj „kada nors susitiksime“ pasiūlykite veiklą ir porą galimų datų. Pavyzdžiui: „Po švenčių norėčiau su tavimi peržiūrėti senas nuotraukas. Aš jas surinksiu ir pasirūpinsiu vakariene, o dieną išsirinksime kartu.“ Tai tik pavyzdys; pažadėkite tai, ką tikrai galėsite įgyvendinti."
         },
         {
           "type": "paragraph",
-          "text": "Jei jam patinka kūrybinė veikla ir norėtų kartu kurti prisiminimą, viena galimybė yra rankų liejimas. Memocasting rinkinys porai kainuoja 32 €, o rinkinys šeimai — 48 €; į abu įeina balti dažai. Prieš pasirinkdami patikrinkite konkretaus rinkinio aprašą ir instrukciją: vien pavadinimas nepatvirtina, kiek ir kokio dydžio rankų galima lieti ar kam medžiagos tinkamos. Jei tėtis tokios veiklos nenori, rinkitės kitą idėją."
+          "text": "Jei gyvenate skirtinguose miestuose, atskirkite tris dalykus: ką gavėjas turės per Kalėdas, kada susitiksite ir kas pasirūpins kelione. Vien padovanotas čekis neišsprendžia transporto ar bendro laisvo laiko klausimo. Dovanojate abiem tėvams? Kalėdinių dovanų tėvams gidas padeda apsispręsti tarp bendros ir dviejų atskirų dovanų."
         },
         {
           "type": "heading",
@@ -15040,7 +15081,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Nuspręskite, ką įteiksite per Kalėdas: jau turimą daiktą, kūrybinį rinkinį ar asmeninį kvietimą vėlesnei veiklai. Užsakydami prekę tikrinkite pardavėjo pateiktą informaciją ir neplanuokite įteikimo pagal spėjamą pristatymo datą. Jei dovanojate rinkinį, nebūtina jo panaudoti per šventinį susibūrimą — laiką pasirinkite kartu su gavėju."
+          "text": "Užrašykite, ką tikrai įteiksite šventės dieną: jau gautą daiktą, el. čekį, nuotraukų aplanką ar kvietimą vėlesniam susitikimui. Užsisakydami prekę tikrinkite realią pardavėjo gavimo informaciją; ankstesnis kainos patikrinimas nereiškia pristatymo iki gruodžio 24-osios. Jei dovanojate rinkinį, jo nebūtina naudoti tą pačią dieną."
         },
         {
           "type": "heading",
@@ -15050,17 +15091,17 @@
         {
           "type": "list",
           "items": [
-            "Tėčio noras arba pomėgis: ką konkrečiai žinau?",
-            "Dovanos idėja: kuo ji susijusi su tuo noru?",
-            "Visa suma: dovana, pristatymas, pakavimas ir būtini priedai.",
-            "Nežinomas dalykas: ką turiu išsiaiškinti prieš mokėdamas?",
-            "Įteikimas: ką tikrai turėsiu per Kalėdas?",
-            "Asmeninė žinutė: kodėl šią dovaną parinkau būtent jam?"
+            "Jo noras: ką konkrečiai žinau, o ką tik spėju?",
+            "Dovanos paskirtis: ką žmogus galės su ja daryti?",
+            "Visa suma: prekė, siuntimas, būtini priedai ir, jei reikia, kelionė.",
+            "Trūkstamas atsakymas: modelis, suderinamumas, data ar jo noras dalyvauti.",
+            "Įteikimas: ką realiai turėsiu per šventes ir kas bus padaryta vėliau?",
+            "Žinutė: kodėl šį pasirinkimą susiejau būtent su juo?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Jei lyginate kelias idėjas, pirmiausia atmeskite tas, kurių tinkamumas priklauso nuo nepatikrinto modelio ar gavėjo noro. Iš likusių rinkitės tą, kurią galite aiškiai susieti su tėčiu ir įteikti nesukurdami jam papildomų rūpesčių."
+          "text": "Pirmiausia atmeskite kandidatus, kurie priklauso nuo nepatikrinto suderinamumo arba nepatvirtinto gavėjo noro. Tada palyginkite likusius ne vien pagal kainą, bet pagal tikrą naudą ir pastangas, kurių reikės pačiam tėčiui."
         },
         {
           "type": "heading",
@@ -15074,7 +15115,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei tėtis norėtų išbandyti kitą kavos ruošimo būdą, pirmiausia pasitikrinkite konkretų prietaisą, o prie dovanos pridėkite kavos, jeigu jos reikia, ir pasiūlymą kartu paruošti pirmą puodelį. Jei jis nori knygos, įteikite žinomą leidimą arba palikite galimybę pasirinkti. Toks pirmo panaudojimo sumanymas padeda užbaigti dovaną, tačiau neturėtų virsti pamoka žmogui, kuris pats išmano savo pomėgį."
+          "text": "Jeigu parinkote suderinamą kavinuką, galite pasiūlyti pirmą puodelį paruošti kartu ir pasirūpinti tinkama kava. Tai pasiūlymas bendram laikui, ne pamoka žmogui, kuris pats išmano savo pomėgį. Jeigu dovanojate knygą, įteikite žinomą norimą leidinį arba galimybę pačiam išsirinkti."
         },
         {
           "type": "heading",
@@ -15083,7 +15124,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Suraskite tris šeimos nuotraukas ir prie kiekvienos užrašykite tai, ką jau žinote: vietą, žmones ir įvykį. Tuomet pakvieskite tėtį, jei norės, papasakoti, kas liko už kadro. Klausimus paruoškite iš anksto: „Kaip ten nuvykote?“, „Ką tą dieną veikėte?“, „Kas šiame kadre tave labiausiai pralinksmina?“ Gavę jo sutikimą galite pasakojimą įrašyti arba po susitikimo užrašyti ir duoti perskaityti. Dovanos pagrindą paruoškite patys, o pasakojimas tegul lieka kvietimu."
+          "text": "Atrinkite tris nuotraukas ir prie kiekvienos įrašykite vietą, žmones ar įvykį, kurį tikrai žinote. Jei tėtis norėtų papasakoti daugiau, paklauskite, kaip ten nuvyko arba kas jį tame kadre pralinksmina. Tik jam sutikus galima pokalbį įrašyti ar vėliau užrašytą tekstą duoti perskaityti. Paruoštas pirmas puslapis yra dovanos pagrindas; pasakojimas tegul lieka laisvu kvietimu."
         },
         {
           "type": "heading",
@@ -15092,7 +15133,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Šią kryptį verta rinktis, jei tėčiui artimi apčiuopiami šeimos prisiminimai ir jis pats norėtų dalyvauti. Iš pradžių parodykite veiklos idėją, pasirinkite patogią pozą ir susitarkite, kas ruoš medžiagas. Susikibusių rankų liejinys išsaugo pasirinktą gestą; jis nėra jau pagamintas daiktas, kurį gausite atidarę rinkinio dėžę. Jei per šventę norite įteikti užbaigtą darbą, susitikimą planuokite anksčiau ir laikykitės poros rinkinio instrukcijos arba šeimos rinkinio instrukcijos."
+          "text": "Jei jam patinka kurti prisiminimus ir jis pats nori dalyvauti, kartu pasirinkite patogią rankų padėtį ir susitarkite, kas paruoš darbo vietą. Rinkinys yra veikla, ne pagaminta skulptūra. Prieš pradėdami skaitykite poros rinkinio instrukciją arba šeimos rinkinio instrukciją. Pagal instrukcijas išimtas liejinys prieš dažymą džiovinamas 5–7 paras; tai nėra pristatymo trukmė."
         },
         {
           "type": "heading",
@@ -15101,11 +15142,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Vienas gali žinoti tėčio pomėgius, kitas turėti nuotraukų, trečias gyventi netoliese ir pasirūpinti susitikimu. Sudėkite šias žinias prieš rinkdami pinigus. Susitarkite, kas bendraus su pardavėju, kas priims siuntą ir kas praneš visiems, kad dovana paruošta. Prie bendro pirkinio pridėkite atskiras trumpas žinutes: taip tėtis matys kiekvieno dėmesį, o ne vien surinktą sumą."
+          "text": "Vienas gali žinoti tėčio pomėgius, kitas turėti nuotraukų, trečias gyventi arčiau. Prieš surinkdami pinigus sutarkite, kas bendraus su pardavėju, priims siuntą ir patikrins, ar dovana paruošta. Pridėkite po trumpą tikrą žinutę: taip bendras pirkinys nenustelbs asmeninio kiekvieno dėmesio."
         },
         {
           "type": "paragraph",
-          "text": "Pavyzdžiui, vienas organizatorius nupirks pasirinktą albumą, kiti iki sutartos dienos atsiųs po nuotrauką ir tikrą prisiminimą. Susirinkus įteiksite jau užpildytus pirmus puslapius. Jei kas nors neatsiuntė savo dalies, nesakykite tėčiui, kad dabar jis turės viską surinkti pats. Geriau mažesnė, bet užbaigta dovana nei didelis pažadas be turinio. Jei dovaną norite įteikti abiem tėvams, kalėdinių dovanų tėvams gide palyginsite bendrą ir dvi atskiras dovanas. Daugiau idėjų pagal pomėgius rasite gide apie kalėdines dovanas vyrams."
+          "text": "Jei vienas užsako albumą, kiti gali iki sutartos dienos atsiųsti po nuotrauką ir istoriją. Geriau įteikti kelis jau užpildytus puslapius negu pažadėti didelį projektą ir visą darbą palikti gavėjui. Kitos idėjos pagal pomėgius pateiktos kalėdinių dovanų vyrams gide."
         },
         {
           "type": "heading",
@@ -15114,7 +15155,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Klauskite apie naudojimą, o ne apie patį pirkinį: koks dabartinio daikto trūkumas, kokios knygos ieško, kur norėtų nuvažiuoti? Jei atsakymas labai konkretus, užsirašykite tikslų pavadinimą. Jei jis labiau kalba apie norą dažniau susitikti, rinkitės kalendoriuje vietą turinčią veiklą. Staigmena gali likti jūsų parinktas pasakojimas, kortelė ar įteikimas, todėl nereikia rizikuoti nesuderinama įranga vien tam, kad viskas būtų netikėta."
+          "text": "Klauskite apie naudojimą, ne apie patį pirkinį: kokio priedo trūksta, kokios knygos ieško, ar jam patiktų išvyka. Tikslų modelį ar datą užsirašykite be spėliojimo. Jei jis labiau kalba apie norą susitikti, dėmesį skirkite organizavimui; netikėta gali likti jūsų parašyta kortelė arba paruoštas nuotraukų aplankas."
         },
         {
           "type": "heading",
@@ -15128,7 +15169,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Nepradėkite nuo dar vieno universalaus komplekto. Išsiaiškinkite, ar jis pats turi konkretų norimą priedą ir kokio modelio įrangą naudoja. Jei tokio noro nėra, pasiūlykite jo pasirinktą išvyką, knygą arba bendrą susitikimą."
+          "text": "Pirmiausia paklauskite, ar jis nori konkretaus priedo ir kokį modelį naudoja. Jei tokio noro nėra, dar vienas atsitiktinis komplektas nebūtinai bus naudingas; pasiūlykite jo pasirinktą išvyką, knygą arba susitikimą."
         },
         {
           "type": "heading",
@@ -15137,16 +15178,25 @@
         },
         {
           "type": "paragraph",
-          "text": "Pasiūlykite dvi realias atvykimo galimybes ir pasirūpinkite savo kelione. Jei kartu siunčiate daiktą, žinutėje atskirkite jo gavimą nuo susitikimo. Nereikia žadėti vienos datos, kurios dar negalite patvirtinti."
+          "text": "Pasiūlykite dvi realias atvykimo galimybes ir aiškiai pasakykite, kokia kelionės dalimi pasirūpinsite. Siuntos gavimas ir pats susitikimas gali vykti skirtingomis dienomis."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Ar prisiminimų dovana turi būti skelbiama viešai?"
+          "text": "Ar šeimos prisiminimu būtina dalytis viešai?"
         },
         {
           "type": "paragraph",
-          "text": "Ne. Albumas, laiškas, įrašytas pasakojimas ar liejinys gali likti tik šeimai. Nuotraukos ir vaizdo įrašo viešinimą aptarkite atskirai; dalyvavimas dovanos kūrime nėra automatinis sutikimas reklamai."
+          "text": "Ne. Albumas, laiškas ar įrašytas pasakojimas gali likti tik šeimai. Dalyvavimas dovanos kūrime nėra automatinis leidimas nuotraukas ar video skelbti viešai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip atrinkome pasiūlymus?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pardavėjų puslapius ir kainas peržiūrėjome 2026 m. lapkričio 11 d. Pavyzdžiai atrinkti pagal skirtingus poreikius ir sąlygas, produktų patys nebandėme. „Memory Casting“ parduoda gide nurodytus rankų liejimo rinkinius; kitus pasiūlymus teikia nurodyti pardavėjai. Akcijos, likučiai ir užsiėmimų datos gali keistis. Iliustracija perteikia bendrą pomėgio sceną ir nėra konkretaus produkto ar kliento darbo nuotrauka."
         }
       ],
       "publishAt": "2026-10-19T13:00:00.000Z",
@@ -15200,65 +15250,78 @@
       "links": [
         {
           "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "Rankų liejimo rinkinys porai"
+          "label": "rankų liejimo rinkinys porai"
         },
         {
           "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "Rankų liejimo rinkinys šeimai"
-        },
-        {
-          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
-          "label": "Kalėdinės dovanos: kaip išrinkti tinkamą"
-        },
-        {
-          "targetPageId": "ce4fd7f2-afb5-4e73-b376-ea0d93f646c6",
-          "label": "Dovanos tėčiui: pomėgiai, patogumas ir laikas kartu"
-        },
-        {
-          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
-          "label": "poros rinkinio"
-        },
-        {
-          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
-          "label": "šeimos rinkinio"
-        },
-        {
-          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
-          "label": "šeimos rinkinio instrukcijos"
+          "label": "rankų liejimo rinkinys šeimai"
         },
         {
           "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
-          "label": "kalėdinių dovanų tėvams"
+          "label": "Kalėdinių dovanų tėvams gidas"
+        },
+        {
+          "targetPageId": "0873d14d-5653-42ba-a48e-ad0929baad22",
+          "label": "poros rinkinio instrukciją"
+        },
+        {
+          "targetPageId": "7d5d5fea-548c-4445-abd6-1a6ee9f124d3",
+          "label": "šeimos rinkinio instrukciją"
         },
         {
           "targetPageId": "9bd829a9-fd02-4762-bf8b-3a6e0559c4e9",
-          "label": "kalėdines dovanas vyrams"
+          "label": "kalėdinių dovanų vyrams gide"
         }
       ],
       "externalLinks": [
         {
           "url": "https://www.skonis-kvapas.lt/aksesuarai/kavos-ruosimui/kavinukas-moka-3-puod-juodas",
           "label": "MOKA 3 puodelių kavinukas",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: 15,99 €; 180 ml, aliuminis, netinka indukcinei viryklei."
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.kavosdraugas.lt/p/kavos-pupeles-caprisette-belgique-250-g/",
+          "label": "„Caprisette Belgique“ 250 g kavos pupelės",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
           "url": "https://www.patogupirkti.lt/knyga/20-euru-dovanu-kuponas.html",
           "label": "20 € knygų kuponas",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: Elektroninis, po apmokėjimo; galioja šešis mėnesius; brangesnei prekei primokama, mažesnės vertės skirtumas negrąžinamas."
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         },
         {
-          "url": "https://angelutakais.lt/produktai/elektroninis-dovanu-kuponas-20e/",
-          "label": "„Angelų Takais“ elektroninis 20 € kuponas",
-          "reason": "Patikrinta 2026-10-25 pardavėjo puslapyje: PDF el. paštu po apmokėjimo; vieta, seansas ir galimos priemokos tikrinami atskirai."
+          "url": "https://www.patogupirkti.lt/knyga/knyga-a5-langeliais-paint-your.html",
+          "label": "A5 užrašų knyga PAINT YOUR",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://e-dovanos.lt/nuotrauku-albumas-seimos-medis",
+          "label": "Albumas „Šeimos medis“",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/apsilankymas-europos-parke-dviem-europos-parkas",
+          "label": "Apsilankymas Europos parke dviem",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/zvaigzdziu-stebejimas-dviems",
+          "label": "Žvaigždžių stebėjimas Etnokosmologijos muziejuje dviem",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
+          "label": "Tapybos ant keramikos dirbtuvės dviem",
+          "reason": "Pardavėjo produkto arba paslaugos puslapis, kaina ir aprašas patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
         }
       ],
       "id": "ef8aa99f-1df4-4495-86bc-ce2984a206aa",
-      "revisionHash": "7029f74a80838902b8f346578a188feee84c0c7532463c5d1d3b507f4178c275",
+      "revisionHash": "d406f3865327eb3796aefd57d5ce712d04a397eb833ae1e0aaab219f5b870a85",
       "approval": {
         "status": "approved",
-        "revisionHash": "7029f74a80838902b8f346578a188feee84c0c7532463c5d1d3b507f4178c275",
-        "approvedAt": "2026-10-27T09:21:42.338Z",
-        "actorId": "codex-content-links-2026-10-27"
+        "revisionHash": "d406f3865327eb3796aefd57d5ce712d04a397eb833ae1e0aaab219f5b870a85",
+        "approvedAt": "2026-11-11T15:37:58.650Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -16663,6 +16726,93 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Konkrečios kalėdinės dovanos vaikams: ką palyginti prieš perkant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žemiau pateikiame penkis skirtingus pasirinkimus iš IKEA ir LEGO parduotuvių. Palyginome pardavėjų aprašymus, o ne patys išbandėme gaminius. Kainos ir amžiaus žymėjimai patikrinti 2026 m. lapkričio 11 d.; kainos, akcijos ir likučiai gali keistis. Nurodoma prekės kaina be papildomo pristatymo ir kitų priemonių. Prieš pirkdami sutikrinkite būtent pasirinkto modelio pakuotę, įspėjimus ir konkretaus užsakymo sumą."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dėliojimo kaladėlės mažyliui nuo 6 mėnesių"
+        },
+        {
+          "type": "paragraph",
+          "text": "IKEA UPPSTÅ spalvingos kaladėlės patikros dieną kainavo 1,99 €. Gamintojas rekomenduoja šį konkretų gaminį vaikams nuo 6 mėnesių. Pardavėjas aprašo skirtingų spalvų puodelių krovimą ir rūšiavimą. Rinkitės, jei šeima ieško paprasto žaislo, o vaikas mėgsta dėlioti ir griauti. Pasitarkite su tėvais, ar panašaus rinkinio jis jau neturi, ir vadovaukitės prie gaminio pridėtais nurodymais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maža prekės kaina savaime nereiškia pigiausios dovanos: prieš mokėdami pridėkite gavimo ir įpakavimo išlaidas. Jei dovanojate ne savo šeimos vaikui, praktiška pirmiau paklausti, ar tėvams priimtina dar viena erdvę užimanti smulkmena. Amžiaus ribos kitų UPPSTÅ serijos gaminių automatiškai neperkelkite šiam ar atvirkščiai."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Flomasteriai piešiančiam vaikui nuo 3 metų"
+        },
+        {
+          "type": "paragraph",
+          "text": "IKEA MÅLA 24 flomasteriai 2026 m. lapkričio 11 d. kainavo 4,99 €. IKEA šį rinkinį rekomenduoja vaikams nuo 3 metų ir įspėja, kad jis netinka jaunesniems dėl smulkių dalių ir užspringimo pavojaus. Gamintojo apraše taip pat nurodyta, kad flomasteriai neskirti veido ar kūno tapybai. Piešti ant popieriaus mėgstančiam vaikui tai gali būti praktiškas pasirinkimas, jei reikiamo popieriaus šeima jau turi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalvokite, ar žmogus norės būtent flomasterių: turinčiam pilną jų dėžę galbūt įdomesnė paties pasirinkta piešimo užduotis. Pridėkite trumpą idėją, pavyzdžiui, nupiešti išgalvoto miesto žemėlapį, tačiau nepaverskite jos privalomu rezultatu. Mažesnių vaikų aplinkoje flomasterius ir jų dangtelius laikykite atsižvelgdami į pakuotės saugos nurodymus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "LEGO DUPLO gyvūnų konstravimo žaidimas nuo 3 metų"
+        },
+        {
+          "type": "paragraph",
+          "text": "LEGO DUPLO gyvūnų konstravimo žaidimas 10472 gamintojo parduotuvėje kainavo 52,99 €; jo amžiaus žymėjimas yra 3+. Rinkinyje yra 94 detalės ir idėjų kortelės. Vaikui, kuris mėgsta gyvūnus ir konstruoti, galite pasiūlyti išsirinkti vieną gyvūną ir kartu sugalvoti jam istoriją. Didelė kaina bus prasminga tik tada, kai toks žaidimas iš tiesų domina ir telpa į šeimos biudžetą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš dovanodami pasitikrinkite, ar vaikas jau turi panašių kaladėlių ir ar namuose yra vietos laikyti detales bei korteles. Ant pakuotės pateiktas 3+ nereiškia, kad kiekvienas trejų metų vaikas norės šio rinkinio. Priimdami sprendimą pasikalbėkite su tėvais apie vaiko pomėgius ir laikykitės konkrečių gamintojo instrukcijų."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Medinių kaladėlių žaidimas šeimai nuo 6 metų"
+        },
+        {
+          "type": "paragraph",
+          "text": "IKEA FJÄLLVRÅK kaladėlių žaidimas patikros metu kainavo 12,99 €. Pardavėjas nurodo 54 medines kaladėles, kauliuką ir rekomenduojamą amžių nuo 6 metų. Tai pasirinkimas vaikui, kuriam patinka kartu statyti ir stebėti, kaip keičiasi bokšto pusiausvyra. Prieš siūlydami dovaną susitarkite, kas žais kartu ir kur bus vietos dėlioti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei vaikas mieliau kuria vienas, paklauskite, ar jį domintų kartojamas dėliojimas, o ne manykite, kad žaidimas visada turi vykti varžantis. Jaunesniems broliams ar seserims neperduokite šio žaidimo kaip amžiui tinkamo vien dėl to, kad vyresnis vaikas žaidžia šalia. Žymėjimą ir dalių laikymą aptarkite su tėvais."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Perkonstruojamas gyvūnas nuo 7 metų"
+        },
+        {
+          "type": "paragraph",
+          "text": "LEGO Creator 3 in 1 Mielas žiurkėnas su gėle 31376 2026 m. lapkričio 11 d. kainavo 9,99 €. Gamintojas nurodo 7+ amžių, 166 detales ir įspėja apie smulkias detales bei užspringimo pavojų. Iš tų pačių kaladėlių galima sukurti žiurkėną, ežiuką arba erelį, tačiau visų trijų modelių vienu metu sukonstruoti negalima."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šis variantas gali patikti vaikui, kuris jau mėgsta laikytis konstravimo instrukcijų ir nori modelį vėliau perdaryti. Jeigu namuose yra jaunesnių vaikų, prieš pirkdami su šeima aptarkite smulkių detalių laikymą. Nelyginkite šio gaminio 7+ žymos su kito rinkinio amžiaus riba: kiekvienas žaislas turi savą instrukciją ir įspėjimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip iš penkių pavyzdžių išrinkti vieną?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmas žingsnis – patikrinti amžių ir konkrečius įspėjimus. Antras – vaiko pomėgį: dėlioti puodelius, piešti, kurti gyvūnus iš didesnių kaladėlių, žaisti bokšto žaidimą ar konstruoti smulkių detalių modelį. Trečias – namų situaciją: ar yra jaunesnių vaikų, ar šeima turi reikalingą vietą ir ar vaikas jau turi tokį daiktą. Tik po šių klausimų lyginkite kainas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ribojate biudžetą iki 20 €, 12,99 € kaladėlių žaidimui lieka 7,01 € visoms papildomoms išlaidoms; 9,99 € konstruktoriui lieka 10,01 €. Tai nėra pristatymo tarifai. O 52,99 € konstruktorius viršija 20 € ribą net be siuntimo. Palyginimas aktualus patikros dienos kainoms; kainai pasikeitus skaičiuokite iš naujo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Pirmiausia išsiaiškinkite, ką vaikas norėtų veikti"
         },
         {
@@ -16787,7 +16937,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei dar renkatės dovanos formatą, tęskite nuo bendro gido „Kalėdinės dovanos: kaip išrinkti tinkamą“. Pasirinkimą kitoms progoms padės apgalvoti „Dovanos vaikams: amžius, interesai ir naudojimo sąlygos“."
+          "text": "Jei dar renkatės dovanos formatą, tęskite nuo bendro gido „Kalėdinės dovanos: kaip išrinkti tinkamą“. Rinkdamiesi kitai progai taip pat aptarkite su vaiku ir tėvais jo pomėgius, naudojimo vietą bei gamintojo nurodytas sąlygas."
         }
       ],
       "publishAt": "2026-10-23T07:00:00.000Z",
@@ -16852,13 +17002,40 @@
           "label": "kalėdinių dovanų paaugliams"
         }
       ],
+      "externalLinks": [
+        {
+          "url": "https://www.ikea.com/lt/lt/p/uppsta-kaladeles-ivairiu-spalvu-70513884/",
+          "label": "IKEA UPPSTÅ spalvingos kaladėlės",
+          "reason": "Gamintojo arba pardavėjo prekės aprašas, amžiaus žymėjimas ir kaina patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/mala-flomasteriai-ivairiu-spalvu-70456591/",
+          "label": "IKEA MÅLA 24 flomasteriai",
+          "reason": "Gamintojo arba pardavėjo prekės aprašas, amžiaus žymėjimas ir kaina patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.lego.com/lt-lt/product/animal-building-game-10472",
+          "label": "LEGO DUPLO gyvūnų konstravimo žaidimas 10472",
+          "reason": "Gamintojo arba pardavėjo prekės aprašas, amžiaus žymėjimas ir kaina patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.ikea.com/lt/lt/p/fjaellvrak-zaislas-30582351/",
+          "label": "IKEA FJÄLLVRÅK kaladėlių žaidimas",
+          "reason": "Gamintojo arba pardavėjo prekės aprašas, amžiaus žymėjimas ir kaina patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.lego.com/lt-lt/product/cute-hamster-with-a-flower-31376",
+          "label": "LEGO Creator 3 in 1 Mielas žiurkėnas su gėle 31376",
+          "reason": "Gamintojo arba pardavėjo prekės aprašas, amžiaus žymėjimas ir kaina patikrinti 2026-11-11. Kainos ir sąlygos gali keistis."
+        }
+      ],
       "id": "127fe08d-856c-4488-ba89-8196b17572fe",
-      "revisionHash": "ab27479f9af30614be949f3a4578e447603c51a9603895d09fa3ab91a545e443",
+      "revisionHash": "4c218fb0a03c7d066e1fb0a45f7d0770a1f6aaaee25a234dafe4ec533c017a42",
       "approval": {
         "status": "approved",
-        "revisionHash": "ab27479f9af30614be949f3a4578e447603c51a9603895d09fa3ab91a545e443",
-        "approvedAt": "2026-10-27T09:21:42.422Z",
-        "actorId": "codex-content-links-2026-10-27"
+        "revisionHash": "4c218fb0a03c7d066e1fb0a45f7d0770a1f6aaaee25a234dafe4ec533c017a42",
+        "approvedAt": "2026-11-11T15:37:58.591Z",
+        "actorId": "codex-memocasting-editor-20261111"
       }
     },
     {
@@ -37677,7 +37854,351 @@
         "approvedAt": "2026-11-11T15:15:36.028Z",
         "actorId": "codex-memocasting-editor-20261111"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kaledines-dovanos-mociutei",
+      "title": "Kalėdinės dovanos močiutei: prasmingos idėjos pagal jos norus",
+      "description": "Išsirinkite kalėdinę dovaną močiutei pagal jos norus: konkrečios knygų, laiko kartu ir asmeniškų prisiminimų idėjos.",
+      "intent": "Padėti parinkti močiutei Kalėdų dovaną pagal jos asmeninius norus ir pomėgius.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Geriausia Kalėdų dovana močiutei prasideda nuo klausimo, kas pradžiugintų būtent ją: nauja knyga, malonus užsiėmimas, šeimos prisiminimai ar iš anksto sutarta popietė kartu. Nereikia manyti, kad visos močiutės mėgsta tuos pačius dalykus. Toliau rasite konkrečių pavyzdžių, klausimų pasirinkimui ir būdų dovaną paruošti taip, kad ja būtų lengva pasinaudoti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovanos ieškote abiem seneliams, pirmiausia įsitikinkite, kad ji įdomi kiekvienam. Tam turime atskirą kalėdinių dovanų seneliams gidą. Šiame straipsnyje daugiausia dėmesio skiriame vieno žmogaus – močiutės – pomėgiams ir jos pasirinkimui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti, kai nežinote, ką padovanoti močiutei Kalėdų proga?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš rinkdamiesi atsakykite į keturis klausimus. Jei atsakymo nežinote, pasiteiraukite pačios močiutės arba žmogaus, kuris gerai žino jos dabartinius norus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kas jai patinka dabar? Gal ji minėjo norimą knygą, mėgsta bandyti naujus skonius, dėlioti dėliones arba norėtų daugiau laiko su šeima. Vien amžius apie jos pomėgius nepasako.",
+            "Ar ji norėtų daikto, ar patirties? Žmogui, kuris nenori papildomų daiktų, galbūt tiks bendras apsilankymas. Kitai močiutei būtent knyga ar mėgstama veikla namuose gali būti geriausia dovana.",
+            "Kas pasirūpins pasirengimu? Suplanuokite kelionę, bilietus, nuotraukų atranką ar priemones. Prieš siūlydami pagalbą paklauskite, ar ji pageidaujama.",
+            "Koks visas biudžetas? Įskaičiuokite pristatymą, kelionę, pakavimą ir galimas papildomas išlaidas. Dovanai nereikia būti brangiai, kad ji būtų asmeniška."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Greitas pasirinkimas: jei močiutė mėgsta konkrečią veiklą, rinkitės jai skirtą priemonę arba knygą; jei pati nori bendro laiko – pasiūlykite sutartą išvyką; jei jai mieli šeimos prisiminimai – paruoškite albumą arba laišką. Jei abejojate, pasiūlykite dvi alternatyvas ir leiskite jai nuspręsti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkrečios Kalėdų dovanų idėjos močiutei"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau pateikti kitų pardavėjų pasiūlymai yra pavyzdžiai skirtingiems pomėgiams, o ne prielaida, kad dovana patiks kiekvienam. Kainos, prieinamumas ir sąlygos gali keistis: prieš pirkdami juos patikrinkite pardavėjo puslapyje. Nuorodos savaime nereiškia partnerystės ar rekomendacijos pirkti neatsižvelgus į gavėjos norus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Šeimos fotoknyga, kurią paruošiate patys"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fotoknyga tinka, jei močiutei patinka vartyti šeimos nuotraukas. Atrinkite ne vien šventinius portretus: įdėkite kelias kasdienybės akimirkas, bendrą pasivaikščiojimą, šeimos šventę. Prie nuotraukų pridėkite trumpus užrašus – kas joje, kur ir kada fotografuota. Jei tikslios datos nežinote, geriau užrašykite „vasara prie ežero“ ir vėliau pasitikrinkite, nei išgalvokite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys – „Fotofabriko“ fotoknygos. Pardavėjas nurodo, kad užsakymui reikia registracijos. Prieš pradėdami pasitikrinkite formato galimybes, nuotraukų kokybę, galutinę kainą ir gamybos bei pristatymo laiką. Nuotraukas naudokite tik turėdami jose esančių žmonių sutikimą. Jei Kalėdos jau arti, galite įteikti pasirinktų atspausdintų nuotraukų ir pažadėti fotoknygą tik tada, jei tikrai ketinate ją užbaigti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Žiemos peizažo dėlionė mėgstančiai dėlioti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei žinote, kad močiutė mėgsta dėliones, pagalvokite apie paveikslą ir detalių skaičių, kuris jai atrodo malonus. „Pegaso“ dėlionė „GALISON Yuletide Forest“ turi 500 detalių; pardavėjo puslapyje galite pasižiūrėti paveikslą. Tai gali būti proga susitarti dėl ramaus bendro vakaro, tačiau dėlionę verta dovanoti tik tuo atveju, jei ji iš tiesų mėgsta tokią veiklą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pirkdami pasitikrinkite, ar ji turi vietos nebaigtai dėlionei laikyti ir kokio dydžio detalės jai patogios. Jei 500 detalių atrodo per daug, kartu išsirinkite kitą paveikslą arba paprastesnį variantą. Nedarykite išvados apie tinkamą sudėtingumą pagal žmogaus amžių – paklauskite jos pačios."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Knyga apie sodą – jei tai jos pomėgis"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Sodo metai“ yra su sodininkyste susijusi knyga, todėl gali sudominti močiutę, kuriai patinka augalai ir sodo temos. Prieš užsakydami pažiūrėkite, ar ji šios knygos jau neturi ir ar domisi būtent tokiu turiniu. Žmogui, kuris sode nebesidarbuoja ar nenori naujų rūpesčių, siūlykite ką nors kita."
+        },
+        {
+          "type": "paragraph",
+          "text": "Norėdami dovaną padaryti asmeniškesnę, įrašykite trumpą prisiminimą apie kartu sodintą augalą arba pridėkite kvietimą pavasarį kartu apsilankyti jos pasirinktoje vietoje. Tai pasiūlymas, o ne įsipareigojimas ką nors sodinti ar prižiūrėti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "4. Receptų knyga bendriems eksperimentams"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei močiutė pati mėgsta gaminti ir ieškoti naujų idėjų, peržvelkite „Maistas. Namų virtuvė“. Ši knyga siejama su namų virtuve ir receptais. Įteikdami galite pridėti ranka užrašytą kvietimą kartu išbandyti vieną pasirinktą patiekalą – o produktus ir tvarkymąsi pasiūlykite pasirūpinti patys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Knyga nėra universali dovana vien todėl, kad žmogus kartais gamina. Jei ji virtuvėje mieliau remiasi jau turimais receptais, rinkitės kitą temą. Prieš dovanojant maisto produktus, ypač jei nežinote mitybos pageidavimų, verta paklausti dėl sudėties ir to, ką žmogus iš tikrųjų mėgsta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "5. Kūrybinės keramikos dirbtuvės dviem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei močiutė mėgsta kūrybą ir norėtų išvykti, galima pasvarstyti apie tapybos ant keramikos dirbtuves dviem Vilniuje. Pardavėjas jas aprašo kaip vienos valandos užsiėmimą dviem. Tai naudinga alternatyva daiktui, kai abi dalyvės ar abu dalyviai iš anksto nori tokios veiklos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš įsigydami peržiūrėkite kupono galiojimą, registracijos sąlygas, laisvas datas ir ar į kainą įeina viskas, ko tikitės. Aptarkite kelionę ir prieinamumą, jei tai svarbu. Jei močiutei Vilnius nepatogus ar veikla neįdomi, nepalikite kupono vien dėl to, kad pasiūlymas atrodo gražus: kartu ieškokite jai tinkamesnės veiklos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "6. Arbatos ir deserto degustacija, kai norisi susitikti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Japoniškos arbatos ir deserto degustacija dviem Vilniuje gali tikti, jei močiutei įdomūs nauji skoniai ir ji norėtų tokio susitikimo. Pardavėjas nurodo, kad degustacija vyksta savarankiškai, o laiką reikia suderinti iš anksto. Pasiūlykite pasirūpinti rezervacija ir kelione, tačiau dieną pasirinkite kartu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš pirkdami pasidomėkite patiekalų sudėtimi, galimomis alternatyvomis ir kitomis sąlygomis, jei žmogus turi alergijų ar mitybos apribojimų. Jei skonio pasirinkimas neaiškus, galima padovanoti ne kuponą, o paprastą kvietimą drauge nuspręsti, kur nueiti."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "7. Poros rankų liejimo rinkinys bendram prisiminimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei močiutė nori ne tik gauti daiktą, bet ir su jumis jį kurti, apsvarstykite „Memory Casting“ rinkinį porai. Rankų liejimas yra bendra veikla, po kurios lieka sukurta skulptūra. Mes prekiaujame šiais rinkiniais, todėl esame suinteresuoti juos pristatyti; verta juos palyginti ir su kitomis šiame straipsnyje pateiktomis idėjomis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia parodykite veiklos eigą ir paklauskite, ar močiutė norėtų dalyvauti. Patikrinkite instrukciją, medžiagų naudojimo sąlygas ir ar numatyta rankų poza tinkama. Pasiruošimą, vietos sutvarkymą ir pagalbą pasiūlykite prisiimti patys. Vien iliustracija nepatvirtina, kad bet kokia rankų poza ar dalyvių derinys tilps į rinkinį. Jei kyla klausimų, prieš pirkdami susisiekite su parduotuve."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "8. Laiškas ir sutartas laikas – paprasta, bet asmeniška"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nebūtina visų dovanų pirkti. Galite parašyti laišką apie vieną jums svarbų bendrą prisiminimą ir pasiūlyti susitikimą, kurio laiką bei vietą nuspręsite kartu. Vietoj abstraktaus „reikia dažniau susitikti“ užrašykite: „Norėčiau sausį kartu išgerti kavos. Pasirinkime tau patogią dieną.“ Jei negalite įsipareigoti konkrečiam mėnesiui, jo nežadėkite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitas variantas – iš anksto paruošti kelias nuotraukas ir per susitikimą kartu jas peržiūrėti. Močiutė gali norėti papasakoti daugiau arba tiesiog ramiai pabūti kartu. Būtent jos noras turėtų lemti, kaip popietė vyks."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išrinkti pagal biudžetą ir neapsirikti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažesniam biudžetui rinkitės asmeninį laišką, keletą atspausdintų nuotraukų, kartu išsirinktą knygą ar jaukią popietę namuose. Pirmiausia suskaičiuokite visas išlaidas, įskaitant pristatymą. Pasitikrinkite konkrečią kainą pardavėjo puslapyje, nes ji gali skirtis nuo anksčiau matytos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Didesniam bendram biudžetui galite apsvarstyti kartu apmokamą kūrybinę veiklą ar kelionę. Susitarkite, kas pasirūpins rezervacija, transportu ir bendravimu su paslaugos teikėju. Jei dovaną perka keli šeimos nariai, iš anksto paskirkite vieną atsakingą žmogų, kad išlaidos ir užduotys neliktų močiutei."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudinga atskirti dvi sumas: pinigus pačiai dovanai ir rezervą jos įgyvendinimui. Pavyzdžiui, bilietas gali atrodyti tinkamas, bet kelionė iš kito miesto pakeis visą planą. Jei nežinote, kiek tai kainuos, prieš pirkdami pasitikrinkite, o ne žadėkite nemokamą išvyką."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką dovanoti, jei močiutė gyvena toli?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalvokite, kuri dovanos dalis turi pasiekti ją iki šventės, o kuri gali būti įgyvendinta vėliau. Laišką ar fotoknygą galima išsiųsti, tačiau gamybos bei siuntimo terminus visada tikrinkite pas pardavėją. Jei siunta gali vėluoti, pirmiau išsiųskite sveikinimą ir aiškiai pasakykite, kada tikitės perduoti dovaną; nežadėkite datos, kurios tiekėjas nepatvirtino."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nuotolinio susitikimo idėją siūlykite tik žinodami, kad žmogus nori naudotis pasirinkta priemone. Jei reikėtų naujo įrenginio ar nustatymų, pirmiausia aptarkite, ar ji to nori ir kas padės. Telefoninis pokalbis, laiškas ar apsilankymas vėliau gali būti paprastesnis ir taip pat prasmingas pasirinkimas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip įteikti dovaną, kad ji nekeltų papildomų rūpesčių?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pridėkite aiškią, trumpą informaciją: kas dovanojama, ar reikia rezervuoti laiką, kas padės ir iki kada galioja kuponas, jei pardavėjas tai nurodo. Nepateikite savo spėjimų kaip galiojančių sąlygų. Jei dovanojate kūrybinį rinkinį, perskaitykite instrukciją prieš susitikimą ir pasirūpinkite vieta. Jei dovanojate kelionę, pasiūlykite suderinti transportą ir grįžimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Palikite galimybę atsisakyti ar pakeisti planą. Dovana nėra pareiga važiuoti, dalyvauti arba namuose laikyti didelį daiktą. Kai neįmanoma iš anksto suderinti pasirinkimo, paklauskite pardavėjo dėl keitimo sąlygų ir išsaugokite reikalingus dokumentus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką padovanoti močiutei Kalėdų proga, jei ji nieko neprašo?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paklauskite, ar ji labiau norėtų bendro laiko, nedidelio asmeniško prisiminimo ar visai nenorėtų daikto. Galite paruošti laišką arba pasiūlyti susitikimą, kurio aplinkybes nuspręsite kartu. Nemanykite, kad atsakymas „nieko nereikia“ savaime reiškia slaptą norą gauti staigmeną."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Kokia dovana tinka močiutei, kuri turi daug daiktų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ji pati nori susitikti, tinka aiškiai sutartas apsilankymas, paroda ar bendra veikla. Pasirūpinkite organizavimu ir pasiūlykite rinktis. Taip pat galite įteikti laišką, kuris neužima daug vietos ir nereikalauja papildomų priemonių."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ar rankų liejimo rinkinys tinka močiutei ir anūkui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tai galima svarstyti, jei abu nori dalyvauti ir supranta veiklos eigą. Prieš užsakydami patikrinkite konkretaus rinkinio instrukciją, medžiagų naudojimo sąlygas ir numatytos pozos tinkamumą; jei trūksta informacijos, kreipkitės į pardavėją. Rinkinio pavadinimas vienas pats negarantuoja tinkamumo konkrečiam dalyvių deriniui. Jei anūkas yra vaikas, jo amžiui tinkamumas nepatvirtintas – prieš planuodami veiklą susisiekite su parduotuve dėl konkrečių medžiagų ir amžiaus."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ką dovanoti abiem seneliams kartu?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bendrą dovaną rinkitės tuomet, kai ji patinka abiem. Jei jų norai skiriasi, galima kiekvienam parinkti po asmeninę smulkmeną, o bendrą laiką suplanuoti atskirai. Daugiau klausimų pasirinkimui rasite kalėdinių dovanų seneliams gide, o dovanų močiutei kolekcijoje – mūsų rinkinių pasiūlymus."
+        }
+      ],
+      "publishAt": "2026-11-14T14:00:00.000Z",
+      "media": [
+        {
+          "id": "8e0578ec-e90c-4f32-a86a-0f18be71917c",
+          "src": "/content-assets/memocasting/8e0578ec-e90c-4f32-a86a-0f18be71917c.webp",
+          "alt": "Vyresnė moteris su jauna moterimi vaikšto šventiškai papuoštame žiemos sode.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "db44c35b-fdf4-4396-81e0-707c6d6f90d1"
+        },
+        {
+          "id": "2875983c-cdc0-4885-836e-0a29a611f593",
+          "src": "/content-assets/memocasting/2875983c-cdc0-4885-836e-0a29a611f593.webp",
+          "alt": "Vyresnė moteris su jauna moterimi vaikšto šventiškai papuoštame žiemos sode.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "db44c35b-fdf4-4396-81e0-707c6d6f90d1"
+        },
+        {
+          "id": "0b9ac19c-47bd-4b66-8799-eb1894b80cba",
+          "src": "/content-assets/memocasting/0b9ac19c-47bd-4b66-8799-eb1894b80cba.webp",
+          "alt": "Vyresnė moteris su jauna moterimi vaikšto šventiškai papuoštame žiemos sode.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "db44c35b-fdf4-4396-81e0-707c6d6f90d1"
+        },
+        {
+          "id": "f405fb19-1b89-41a0-a69a-a1ade9fea283",
+          "src": "/content-assets/memocasting/f405fb19-1b89-41a0-a69a-a1ade9fea283.webp",
+          "alt": "Vyresnė moteris su jauna moterimi vaikšto šventiškai papuoštame žiemos sode.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "db44c35b-fdf4-4396-81e0-707c6d6f90d1"
+        },
+        {
+          "id": "56632d31-43cf-4e3b-9df6-7bf79e55dc7e",
+          "src": "/content-assets/memocasting/56632d31-43cf-4e3b-9df6-7bf79e55dc7e.webp",
+          "alt": "Vyresnė moteris su jauna moterimi vaikšto šventiškai papuoštame žiemos sode.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota iliustracija; nėra tikrų klientų ar faktinio įvykio nuotrauka.",
+          "familyId": "db44c35b-fdf4-4396-81e0-707c6d6f90d1"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "„Memory Casting“ rinkinį porai"
+        },
+        {
+          "targetPageId": "3c7cb521-1100-4b96-9d21-6beb78135f89",
+          "label": "kalėdinių dovanų seneliams gide"
+        },
+        {
+          "targetPageId": "223dc7d3-1dea-49ad-955b-57d301f39b69",
+          "label": "dovanų močiutei kolekcijoje"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.fotofabrikas.lt/fotoknygos-3522972.html",
+          "label": "„Fotofabriko“ fotoknygos",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.pegasas.lt/delione-galison-yuletide-forest-500-det-5764901/",
+          "label": "„Pegaso“ dėlionė „GALISON Yuletide Forest“",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.pegasas.lt/sodo-metai-1112866/",
+          "label": "„Sodo metai“",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.pegasas.lt/maistas-namu-virtuve-2190245/",
+          "label": "„Maistas. Namų virtuvė“",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/tapybos-ant-keramikos-dirbtuves-dviem-kurybos-laisve",
+          "label": "tapybos ant keramikos dirbtuves dviem Vilniuje",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/japoniskos-arbatos-ir-deserto-degustacija-yugen-tea",
+          "label": "Japoniškos arbatos ir deserto degustacija dviem Vilniuje",
+          "reason": "Pardavėjo puslapis patikrintas 2026-11-11; kainos, prieinamumas ir sąlygos gali keistis."
+        }
+      ],
+      "id": "f4b663ec-b462-4d47-bc9a-2a27c8f64460",
+      "revisionHash": "d4fbf89bef441d4baf4f5ba28f9e6cc241929dbe869650cbf233421835f4e9c5",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "d4fbf89bef441d4baf4f5ba28f9e6cc241929dbe869650cbf233421835f4e9c5",
+        "approvedAt": "2026-11-11T15:37:58.713Z",
+        "actorId": "codex-memocasting-editor-20261111"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T15:15:36.249Z"
+  "generatedAt": "2026-11-11T15:37:58.900Z"
 }
