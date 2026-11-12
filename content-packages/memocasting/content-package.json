@@ -16558,6 +16558,14 @@
         },
         {
           "type": "paragraph",
+          "text": "Jei gyvenate toli ar seniai nesimatėte, paklauskite, kas draugę ar draugą džiugina dabar: senas pomėgis galėjo pasikeisti. Prie dovanos galite pridėti kvietimą pasikalbėti jums abiem patogiu metu, o siunčiant daiktą – iš anksto patikslinti adresą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei draugystė dar nauja arba išgyvenate sudėtingą laikotarpį, paprastas sveikinimas gali būti tinkamesnis už brangią staigmeną ar netikėtą apsilankymą. Bendrą veiklą siūlykite palikdami galimybę atsisakyti, o asmenišką prisiminimą įrašykite tik jei esate tikri, kad jis gavėjui malonus."
+        },
+        {
+          "type": "paragraph",
           "text": "Prie pasirinktos dovanos gali tikti kalėdinis sveikinimas draugams, primenantis jūsų bendrą patirtį."
         },
         {
@@ -16775,11 +16783,11 @@
         }
       ],
       "id": "a74780e9-7b58-4526-bc4a-32bc606e07d2",
-      "revisionHash": "11ca61ad1fa6c3001e0c537f26c17f8c327e47d8f5d45e62a10b30148ee4dc52",
+      "revisionHash": "e4259d28876c6fa05a07f6021786ee92886e2516d1138d6baf497f1b55f16146",
       "approval": {
         "status": "approved",
-        "revisionHash": "11ca61ad1fa6c3001e0c537f26c17f8c327e47d8f5d45e62a10b30148ee4dc52",
-        "approvedAt": "2026-11-11T23:55:22.101Z",
+        "revisionHash": "e4259d28876c6fa05a07f6021786ee92886e2516d1138d6baf497f1b55f16146",
+        "approvedAt": "2026-11-12T16:31:15.557Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
     },
@@ -45592,7 +45600,203 @@
         "approvedAt": "2026-11-12T16:08:23.140Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dovanu-kuponas-mamai",
+      "title": "Dovanų kuponas mamai: kaip padovanoti pasirinkimo laisvę, o ne papildomą rūpestį",
+      "description": "Dovanų kuponas mamai: kaip pasirinkti tinkamą veiklą ar parduotuvę, patikrinti galiojimą ir sąlygas.",
+      "intent": "Padėti pasirinkti dovanų kuponą mamai atsižvelgiant į jos pageidavimus ir tiekėjo sąlygas.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovanų kuponas mamai gali būti gera išeitis, kai žinote jos pomėgį, bet nenorite už ją parinkti konkretaus daikto ar datos. Pirmiausia išsiaiškinkite, ar ji norėtų rinktis knygą, kūrybinį užsiėmimą, kitą veiklą ar laiką be jokių planų. Tada patikrinkite naudojimo vietą, galiojimą, rezervacijos ir galimas papildomas sąlygas. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide aptariame du kitų pardavėjų pasiūlymus kaip skirtingų kuponų pavyzdžius. Kainų, esamų laisvų datų ir paslaugų kokybės negarantuojame; prieš pirkdami atverkite naujausią pasiūlymo aprašą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti: jos norai, o ne jūsų staigmenos planas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prisiminkite, ką mama pati yra sakiusi: gal nori išsirinkti knygą, vėl imtis kūrybos ar turi konkrečią veiklą, kurią norėtų išbandyti. Ne visi žmonės mėgsta masažus, renginius ar grupinius užsiėmimus, todėl vien universalios etiketės „dovana mamai“ nepakanka. Jei nesate tikri, pasiūlykite pasirinkti iš kelių krypčių – nebūtina atskleisti galutinės dovanos detalės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taip pat paklauskite, ar ji mieliau eitų viena, su artimu žmogumi ar norėtų pati nuspręsti. Bendra veikla gali būti graži dovana, bet ji neturi reikšti, kad gavėja privalo pakviesti dovanojusį žmogų. Jeigu mama norėtų laiko sau, atsižvelkite į tai planuodami dieną ir kasdienius įsipareigojimus."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Klausimas: Ką gavėja renkasi?; Parduotuvės vertės čekis: Prekę pagal pardavėjo taisykles; Konkrečios veiklos čekis: Nurodytą paslaugą ir galimas datas",
+            "Klausimas: Ką iš anksto pasitikrinti?; Parduotuvės vertės čekis: Vietas, galiojimą, panaudojimą dalimis; Konkrečios veiklos čekis: Vietą, dalyvius, rezervaciją, tinkamumą",
+            "Klausimas: Kada tinka?; Parduotuvės vertės čekis: Kai patinka parduotuvė, bet nežinote prekės; Konkrečios veiklos čekis: Kai ji tikrai yra minėjusi šią veiklą"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Du pasirinkimai palyginimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Knygyno čekis. „Gera dovana“ knygynų tinklo „VAGA“ čekio aprašas yra pavyzdys, kai mama galėtų rinktis jai patinkančią knygą ar kitą pardavėjo siūlomą prekę pagal čekio taisykles. Prieš pirkdami pasitikrinkite galiojimą, naudojimo vietas, nominalus ir ką daryti, jei pasirinkta prekė kainuoja daugiau arba neišnaudojama visa vertė. Jei mama šio knygyno asortimentu nesidomi, rinkitės kitą pardavėją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keramikos dekoravimo dirbtuvės. „Gera dovana“ keramikos dekoravimo pasiūlymo Klaipėdoje aprašas gali būti naudingas, jei mama norėtų dekoruoti keramiką ir jai patogi ši vieta. Pasitikrinkite pasirinkto varianto dalyvių skaičių, laikus, registraciją bei tai, kas įeina į paslaugą. Neįrašome kainos ar pažado, kad vietos tam tikrą dieną bus laisvos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šios nuorodos veda į kitų įmonių pasiūlymus; nepateikiame jų kaip savo asmeniškai išbandytų paslaugų. Pardavėjų aprašymai ir sąlygos gali keistis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar geriau dovanoti individualią veiklą, ar bendrą laiką?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Individuali veikla tinka, kai mama pati nori laiko savo pomėgiui. Patikrinkite, ar jai patogu nuvykti ir ar pati veikla nesukuria papildomų išlaidų. Jeigu ji norėtų eiti su kitu žmogumi, įsitikinkite, kad čekis apima norimą dalyvių skaičių; neatspėkite to iš reklaminės nuotraukos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bendro laiko dovana prasideda nuo abipusio susitarimo. Galite pasiūlyti, o ne paskirti datą: „Norėčiau kartu nuveikti tai, kas tau patinka. Kada tau būtų patogu?“ Jei veikla dar neapmokėta, aiškiai atskirkite savo pažadą nuo tikro pardavėjo čekio. Nereikia nurodyti kitos įmonės paslaugos kaip jau nupirktos, kol jos neįsigijote."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką pasitikrinti prieš atsiskaitant?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perskaitykite, kada baigiasi čekio galiojimas, kur jis priimamas ir kaip registruotis. Paklauskite, ar kuponą galima naudoti dalimis, ar teks primokėti, kaip keisti datą ir kas vyksta atšaukus rezervaciją. Sąlygos priklauso nuo konkretaus pardavėjo ir pasiūlymo; vieno čekio taisyklių negalima pritaikyti visiems."
+        },
+        {
+          "type": "paragraph",
+          "text": "Į bendrą dovanai skirtą sumą įtraukite kelionę, pristatymą ir galimas priemokas už papildomą dalyvį. Jei dėl vietos ar laiko mama turėtų patirti nenumatytų išlaidų, paklauskite, ar tai jai priimtina. Prieš pirkdami įvertinkite ir tai, ar teikėjo vieta bei veikla tinka jos individualiems poreikiams."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką parašyti prie kupono?"
+        },
+        {
+          "type": "paragraph",
+          "text": "„Mama, norėjau tau palikti galimybę išsirinkti tai, kas tau patinka. Jei norėsi, padėsiu perskaityti sąlygas ar susitarti dėl laiko.“"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdį pakeiskite savais žodžiais. Pridėkite pardavėjo pateiktą informaciją apie naudojimą ir perduokite kodą privačiai. Jei čekis skirtas konkrečiai veiklai, taip ir parašykite – nevadinkite jo visur galiojančiu kuponu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paskutinė patikra"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mama norėtų rinktis šiame knygyne ar dalyvauti šioje veikloje.",
+            "Patikrinti galiojimas, vieta, dalyvių skaičius ir registracija.",
+            "Suprantate taisykles dėl likučio, keitimo ir papildomų išlaidų.",
+            "Kodas bei naudojimo sąlygos bus perduoti gavėjai privačiai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar svarstote daiktą ar bendrą veiklą, peržiūrėkite kalėdinių dovanų mamai gidą. Kalėdinį atviruką ar kitą jau paruoštą dovaną padės įteikti pakavimo idėjos. Geriausia pradėti nuo jos noro ir pasirinkimo laisvės."
+        }
+      ],
+      "publishAt": "2026-12-13T14:00:00.000Z",
+      "media": [
+        {
+          "id": "c5163343-9e02-424a-b4c6-e4a1fb9aa109",
+          "src": "/content-assets/memocasting/c5163343-9e02-424a-b4c6-e4a1fb9aa109.webp",
+          "alt": "Mama ir suaugusi dukra kartu vaikšto gėlių oranžerijoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "19377664-9cd7-40ba-a665-a78931b4d708"
+        },
+        {
+          "id": "3141f73c-1696-4726-a94d-3d238083fa29",
+          "src": "/content-assets/memocasting/3141f73c-1696-4726-a94d-3d238083fa29.webp",
+          "alt": "Mama ir suaugusi dukra kartu vaikšto gėlių oranžerijoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "19377664-9cd7-40ba-a665-a78931b4d708"
+        },
+        {
+          "id": "867bcf84-ac58-4af0-b994-f445a7f64f0f",
+          "src": "/content-assets/memocasting/867bcf84-ac58-4af0-b994-f445a7f64f0f.webp",
+          "alt": "Mama ir suaugusi dukra kartu vaikšto gėlių oranžerijoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "19377664-9cd7-40ba-a665-a78931b4d708"
+        },
+        {
+          "id": "5c127067-9a94-44df-acb4-45d7733e7871",
+          "src": "/content-assets/memocasting/5c127067-9a94-44df-acb4-45d7733e7871.webp",
+          "alt": "Mama ir suaugusi dukra kartu vaikšto gėlių oranžerijoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "19377664-9cd7-40ba-a665-a78931b4d708"
+        },
+        {
+          "id": "8bf44137-6694-476c-8c10-d76a2d57ae2c",
+          "src": "/content-assets/memocasting/8bf44137-6694-476c-8c10-d76a2d57ae2c.webp",
+          "alt": "Mama ir suaugusi dukra kartu vaikšto gėlių oranžerijoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "19377664-9cd7-40ba-a665-a78931b4d708"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2d587e3e-09a3-4fb5-b1fc-0fac3b3bab63",
+          "label": "kalėdinių dovanų mamai gidą"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "pakavimo idėjos"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.geradovana.lt/knygynu-tinklo-vaga-dovanu-cekis-vaga",
+          "label": "„Gera dovana“ knygynų tinklo „VAGA“ čekio aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/keramikos-dekoravimo-dirbtuves-cosita-studija",
+          "label": "„Gera dovana“ keramikos dekoravimo pasiūlymo Klaipėdoje aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "c17f43f4-e2b2-49b2-8a41-5301755cdb08",
+      "revisionHash": "b7a801a36d6c4370b9053c0981f5eed9c33b9134bf76662a289d831b42c3f35f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b7a801a36d6c4370b9053c0981f5eed9c33b9134bf76662a289d831b42c3f35f",
+        "approvedAt": "2026-11-12T16:31:15.710Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-12T16:08:23.639Z"
+  "generatedAt": "2026-11-12T16:31:16.147Z"
 }
