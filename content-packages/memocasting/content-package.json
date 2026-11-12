@@ -41782,7 +41782,964 @@
         "approvedAt": "2026-11-11T23:55:22.618Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kaledu-ir-naujuju-metu-sveikinimai",
+      "title": "Kalėdų ir Naujųjų metų sveikinimai: 30 žinučių artimiesiems ir kolegoms",
+      "description": "Rinkitės iš 30 Kalėdų ir Naujųjų metų sveikinimų artimiesiems, draugams bei kolegoms ir pritaikykite žinutę.",
+      "intent": "Padėti pasirinkti Kalėdų ir Naujųjų metų sveikinimą vienoje žinutėje.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Vienoje žinutėje galite pasveikinti su Kalėdomis ir palinkėti gražios naujųjų metų pradžios. Pasirinkite toną pagal gavėją: artimam žmogui tiks bendras prisiminimas, kolegai – santūri padėka, o nepažįstant gavėjo švenčių tradicijų – neutrali metų pabaigos žinutė. Čia rasite 30 originalių tekstų ir patarimų, kaip juos pritaikyti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išsirinkti sveikinimą abiem progoms?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ieškodami teksto atvirukui, rinkitės vieną ar du sakinius: šiltą linkėjimą Kalėdoms ir palinkėjimą naujiems metams. Ilgesniame laiške pirmiausia galite padėkoti už šiais metais patirtą bendrą akimirką. Jei žinutė skirta didelei grupei, venkite užuominų, kurios suprantamos tik vienam žmogui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trumpa formulė: padėka už tai, kas buvo + linkėjimas šventėms + pageidavimas ateinantiems metams. Padėka neprivaloma: jei gavėjo gerai nepažįstate, užtenka pagarbaus ir nuoširdaus linkėjimo. Nebūtina minėti ateinančių metų skaičiaus – taip tekstas tiks ir nedideliam atvirukui, ir žinutei, kurią parašysite savaip."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi Kalėdų ir Naujųjų metų sveikinimai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jaukių Kalėdų ir šviesios naujų metų pradžios!",
+            "Linkiu ramių švenčių, šiltų susitikimų ir daug prasmingų akimirkų ateinančiais metais.",
+            "Tegul Kalėdos atneša poilsį, o nauji metai – laiko tam, kas tau svarbu.",
+            "Gražių švenčių! Linkiu, kad ateinančiais metais netrūktų smalsumo ir gerų žmonių šalia.",
+            "Šiltų Kalėdų ir naujų metų, kuriuose būtų vietos ir svajonėms, ir poilsiui.",
+            "Džiaugsmingų Kalėdų! Į naujus metus linkiu žengti savu tempu.",
+            "Siunčiu šventinius linkėjimus ir dėkoju, kad buvai šių metų dalis.",
+            "Tegul šventės būna jaukios, o naujų metų dienose atsiranda mažų džiaugsmų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei sveikinate žmogų, kuriam ilgi tekstai nepatinka, prie trumpo varianto pridėkite vardą ir vieną konkretų sakinį. Pavyzdžiui: „Ačiū už mūsų pasivaikščiojimus šį rudenį.“ Mažoje dovanų kortelėje toks papildymas dažnai prasmingesnis nei dar vienas bendras būdvardis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šilti linkėjimai šeimai ir artimiesiems"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū už laiką kartu ir už visas mažas kasdienes akimirkas. Linkiu mums ramių Kalėdų ir progų susitikti naujaisiais metais.",
+            "Šių švenčių proga linkiu šilumos namuose, o ateinančiais metais – laiko pokalbiams, kuriuos gera prisiminti.",
+            "Jaukių Kalėdų! Džiaugiuosi, kad galime dalytis savo istorijomis. Linkiu naujų metų, kuriuose rastume laiko vieni kitiems.",
+            "Tegul šventės suteikia progą pailsėti ir pasidžiaugti tuo, kas mums brangu. Gražių ateinančių metų!",
+            "Ačiū, kad šiemet buvai šalia taip, kaip galėjai. Linkiu tau švelnių švenčių ir naujų metų su daugiau lengvumo.",
+            "Siunčiu šilčiausius linkėjimus Kalėdoms ir naujiems metams. Lauksiu progos vėl susitikti, kai visiems bus patogu.",
+            "Džiaugiuosi mūsų bendrais prisiminimais ir linkiu naujaisiais metais dar daugiau nuoširdžių pokalbių.",
+            "Tegul per Kalėdas būna ramybės, o ateinančiais metais – veiklų ir žmonių, kurie tau teikia džiaugsmo."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne visos šeimos švenčia vienodai, todėl nereikia kiekviename sveikinime rašyti apie didelį stalą ar visus susirinkusius artimuosius. Jeigu žmogus šventes leidžia atskirai, galite paminėti ryšį neakcentuodami trūkumo: „Galvoju apie tave ir siunčiu šiltą linkėjimą.“ Konkrečią susitikimo datą žadėkite tik tuomet, kai ji jau suderinta."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kalėdų ir Naujųjų metų sveikinimai draugams"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ačiū už juoką, pokalbius ir laiką šiais metais. Jaukių Kalėdų ir naujų metų, kuriuose vėl rasime progų susitikti.",
+            "Linkiu švenčių be skubėjimo ir naujų metų, kuriuose netrūktų tavo mėgstamų nuotykių.",
+            "Su Kalėdomis! Tegul ateinančiais metais gera mintis atranda laiko išsipildyti, o poilsiui nereikia ieškoti pasiteisinimo.",
+            "Šie metai buvo įdomesni dėl mūsų pokalbių. Ačiū tau ir gražios naujų metų pradžios!",
+            "Linkiu šiltų švenčių, įkvepiančių susitikimų ir žmonių, su kuriais gali būti savimi.",
+            "Gražių Kalėdų! Tegul naujaisiais metais turime daugiau laiko tam, ką mėgstame, ir mažiau skubėjimo."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Asmeniškumą sukuria ne ilgas tekstas, o tikra detalė: kartu matytas filmas, vieta, kurioje lankėtės, ar draugo pasakyti padrąsinantys žodžiai. Įrašykite tik tai, kas jums abiem kelia gerus prisiminimus. Humoro toną rinkitės atsargiai – pokštas, kuris tinka artimam draugui, nebūtinai tiks bendroje darbo grupėje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Santūrūs sveikinimai kolegoms ir partneriams"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dėkoju už bendrą darbą šiais metais. Linkiu ramių Kalėdų ir sklandžios naujų metų pradžios.",
+            "Ačiū už pagalbą ir bendradarbiavimą. Gražių švenčių Jums ir Jūsų komandai.",
+            "Linkiu jaukaus šventinio laikotarpio, poilsio ir naujų sumanymų ateinančiais metais.",
+            "Dėkojame už pasitikėjimą ir pokalbius šiais metais. Šiltų švenčių ir prasmingų naujų metų.",
+            "Metų pabaigoje norime padėkoti už bendrą darbą. Linkime laiko atsikvėpti ir geros ateinančių metų pradžios.",
+            "Ačiū už kartu spręstus klausimus ir skirtą laiką. Gražių Kalėdų bei naujų galimybių ateinančiais metais."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Siųsdami komandos vardu patikrinkite, ar padėka atitinka jūsų bendrą istoriją. Gavėjo nevadinkite klientu ar partneriu, jeigu to nežinote. Nerašykite pažadų apie būsimas sutartis, kainas ar terminus, kurie nėra suderinti. Jei rengiate platesnę šventę darbe, galite pasisemti kalėdinių dovanų kolegoms idėjų arba peržiūrėti dovanų darbuotojams gidą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Neutralūs metų pabaigos linkėjimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai nežinote, kokias šventes gavėjas mini, galite sveikinti su metų pabaigos šventiniu laikotarpiu arba tiesiog su naujais metais:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Linkiu ramaus metų užbaigimo, laiko poilsiui ir šviesios naujų metų pradžios.",
+            "Šilti metų pabaigos linkėjimai Jums ir Jūsų artimiesiems. Tegul ateinantys metai atneša prasmingų akimirkų."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Neutralus pasveikinimas ypač praverčia kalbant su įvairių tradicijų žmonių grupe. Jeigu siunčiate individualiai ir žinote, kokią šventę žmogus mini, kreipkitės taip, kaip įprasta jūsų bendravime. Nė vieno iš pateiktų pavyzdžių nereikia naudoti pažodžiui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kada siųsti vieną bendrą sveikinimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vienas tekstas patogus prieš Kalėdas, kai norite apimti abi progas ir nesate tikri, ar vėliau turėsite galimybę susisiekti. Jei sveikinate po Kalėdų, galite palinkėti gražių naujų metų, nebesveikindami su jau praėjusia proga. Jei siunčiate popierinį atviruką, skirkite laiko jam pasiekti gavėją, tačiau venkite pažadėti konkrečią pristatymo datą jos nepatikrinę."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gavėjui išgyvenant sunkesnį laikotarpį, rinkitės švelnų toną: „Linkiu tau poilsio ir žmonių, į kuriuos gali atsiremti.“ Venkite reikalauti džiaugtis ar tikinti, kad ateinantys metai būtinai bus geresni. Rūpestingas sveikinimas gali suteikti vietos ir sudėtingiems jausmams."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip parašyti savo sveikinimą?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasirinkite vieną gavėją. Jei žinutė skirta šeimai, nuspręskite, ar kalbate visiems, ar vienam žmogui.",
+            "Prisiminkite tikrą akimirką. Paminėkite pokalbį, pasivaikščiojimą ar pagalbą, jeigu tai tinka jūsų santykiui.",
+            "Palinkėkite konkrečiai, bet be spaudimo. Užuot žadėję „pačius sėkmingiausius metus“, galite palinkėti poilsio ar laiko mėgstamam dalykui.",
+            "Patikrinkite kreipinį ir parašą. Ar rašote vienam žmogui, ar keliems? Ar iš tiesų norite pasirašyti komandos vardu?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: „Ačiū už šių metų pasivaikščiojimus ir gerus pokalbius. Linkiu tau jaukių Kalėdų ir laiko sau ateinančiais metais.“ Bendrą detalę pakeiskite savąja. Jei renkatės ir dovaną, kalėdinių dovanų gidas padės palyginti idėjas; įteikiant jau turimą dovaną gali praversti pakavimo patarimai. Svarbiausia, kad sveikinimas atitiktų jūsų santykį su žmogumi – asmeniški žodžiai gražūs ir be jokio pirkinio."
+        }
+      ],
+      "publishAt": "2026-11-25T14:00:00.000Z",
+      "media": [
+        {
+          "id": "7bc073fc-495f-438b-97cb-190120a18a6f",
+          "src": "/content-assets/memocasting/7bc073fc-495f-438b-97cb-190120a18a6f.webp",
+          "alt": "Trys artimieji sveikinasi apsnigtoje miesto krantinėje, danguje matyti fejerverkai.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cda48f34-2c09-4cb1-b71b-ed7d881a9ecf"
+        },
+        {
+          "id": "28e300ef-c064-4531-8945-e6cd45628c5e",
+          "src": "/content-assets/memocasting/28e300ef-c064-4531-8945-e6cd45628c5e.webp",
+          "alt": "Trys artimieji sveikinasi apsnigtoje miesto krantinėje, danguje matyti fejerverkai.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cda48f34-2c09-4cb1-b71b-ed7d881a9ecf"
+        },
+        {
+          "id": "53dfa69a-adbb-4220-ab27-e7cce2e568dd",
+          "src": "/content-assets/memocasting/53dfa69a-adbb-4220-ab27-e7cce2e568dd.webp",
+          "alt": "Trys artimieji sveikinasi apsnigtoje miesto krantinėje, danguje matyti fejerverkai.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cda48f34-2c09-4cb1-b71b-ed7d881a9ecf"
+        },
+        {
+          "id": "a1d9bd95-89dd-4ff1-965d-1681708d157f",
+          "src": "/content-assets/memocasting/a1d9bd95-89dd-4ff1-965d-1681708d157f.webp",
+          "alt": "Trys artimieji sveikinasi apsnigtoje miesto krantinėje, danguje matyti fejerverkai.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cda48f34-2c09-4cb1-b71b-ed7d881a9ecf"
+        },
+        {
+          "id": "890662de-6e1c-4326-8632-a456fc8d8c3a",
+          "src": "/content-assets/memocasting/890662de-6e1c-4326-8632-a456fc8d8c3a.webp",
+          "alt": "Trys artimieji sveikinasi apsnigtoje miesto krantinėje, danguje matyti fejerverkai.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "cda48f34-2c09-4cb1-b71b-ed7d881a9ecf"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "da706eda-df2b-4294-b7cd-7b9efbe424cc",
+          "label": "kalėdinių dovanų kolegoms idėjų"
+        },
+        {
+          "targetPageId": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
+          "label": "dovanų darbuotojams gidą"
+        },
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "kalėdinių dovanų gidas"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "pakavimo patarimai"
+        }
+      ],
+      "id": "dbbed12f-63d9-4ae6-8778-b033badc182e",
+      "revisionHash": "cb1dbf10485c883822b9a41f1d19aade65c59de222f841458176b0cab71fb0fa",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "cb1dbf10485c883822b9a41f1d19aade65c59de222f841458176b0cab71fb0fa",
+        "approvedAt": "2026-11-12T00:14:25.713Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-sveikinimai-vaikams",
+      "title": "Kalėdiniai sveikinimai vaikams: 40 šiltų ir žaismingų linkėjimų",
+      "description": "40 šiltų kalėdinių sveikinimų vaikams: trumpos ir žaismingos žinutės nuo artimųjų.",
+      "intent": "Padėti išrinkti ir pritaikyti vaikui šiltus šventinius žodžius.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinis sveikinimas vaikui gali būti ir linksmas, ir paprastas: keli žodžiai apie kartu praleistą laiką, padrąsinimas smalsauti arba palinkėjimas ramiai mėgautis švente. Toliau rasite žinučių nuo tėvų, senelių ir kitų artimųjų – mažam atvirukui, pokalbiui ar žinutei per atstumą. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkdamiesi pagalvokite, kas vaikui patinka ir kaip jūsų šeima švenčia. Nebūtina žadėti konkrečių dovanų, pasakoti apie dar neįvykusius dalykus ar sieti džiaugsmo su tuo, ar vaikas šiemet buvo „geras“. Geriausiai tiks žodžiai, kuriuos iš tikrųjų norite pasakyti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trumpi kalėdiniai sveikinimai vaikui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiuos sveikinimus galite užrašyti atviruke ar perskaityti garsiai. Vardą ir kreipinį pakeiskite taip, kaip įprasta jūsų santykyje."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Linkiu tau jaukių Kalėdų ir daug smagių akimirkų užsiimant tuo, ką mėgsti.“",
+            "„Gražių švenčių! Tegul šiandien atsiranda laiko žaisti, ilsėtis ir pasidžiaugti savais atradimais.“",
+            "„Siunčiu tau šiltą kalėdinį linkėjimą ir didelę šypseną.“",
+            "„Linkiu švenčių, kuriose būtų vietos ir smalsiems klausimams, ir ramiam poilsiui.“",
+            "„Jaukių Kalėdų! Labai smagu matyti, kaip atrandi tai, kas tau įdomu.“",
+            "„Tegul žiemos dienose netrūksta smagių istorijų ir malonių žmonių šalia.“",
+            "„Gražių švenčių! Linkiu tau laiko kurti, tyrinėti ar tiesiog niekur neskubėti.“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kalėdiniai sveikinimai nuo tėvų ar globėjų"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pavyzdžiai skirti pritaikyti jūsų šeimai. Jei sveikina vienas žmogus, daugiskaitą pakeiskite vienaskaita; jei norite paminėti bendrą įvykį, įrašykite tik tai, ką iš tiesų patyrėte kartu."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Džiaugiamės, kad esi mūsų šeimos dalis. Linkime tau jaukių švenčių ir laiko mėgstamiems žaidimams.“",
+            "„Ačiū už visus šių metų klausimus ir pokalbius. Su tavimi smagu atrasti naujų dalykų.“",
+            "„Linkime tau per šventes pailsėti ir užsiimti tuo, kas tau įdomu. Labai tave mylime.“",
+            "„Mums patinka klausytis tavo istorijų ir matyti, ką kuri. Gražių Kalėdų!“",
+            "„Šiandien norime tiesiog pasakyti, kaip gera būti kartu. Linkime tau šiltų šventinių akimirkų.“",
+            "„Džiaugiamės tavo mintimis, bandymais ir atradimais. Linkime tau smalsių bei ramių žiemos dienų.“",
+            "„Linkime, kad per šventes rastum laiko ir mėgstamai veiklai, ir jaukiam poilsiui. Esame šalia.“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Šilti linkėjimai vaikui nuo senelių"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaikui nebūtina girdėti tų pačių žodžių kiekvienais metais. Galite prisiminti bendrą žaidimą, pokalbį ar kelionę, jei tokia akimirka buvo svarbi jums abiem."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Mielas vaike, siunčiame tau šventinį linkėjimą ir džiaugiamės kiekviena proga pasikalbėti.“",
+            "„Gražių Kalėdų! Mums smagu klausytis, ką naujo sugalvojai ir kas tau dabar patinka.“",
+            "„Linkime tau malonių švenčių ir laukiame progos vėl kartu pasidalyti istorijomis.“",
+            "„Su Kalėdomis! Dėkojame už tavo šypsenas ir bendrą laiką, kurį mums dovanoji.“",
+            "„Siunčiame šiltą apkabinimą žodžiais ir linkime tau smagių žiemos dienų.“",
+            "„Labai gera, kad galime bendrauti ir mokytis vieni iš kitų. Jaukių švenčių tau!“",
+            "„Linkime tau poilsio, įdomių atradimų ir žmonių, su kuriais gera būti savimi.“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Sveikinimai vyresniam vaikui ar paaugliui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite toną pagal konkretų žmogų. Kai kuriems paaugliams patinka žaismingi linkėjimai, kitiems – tiesioginis ir trumpas pasveikinimas. Nereikia vertinti vaiko ar priminti pasiekimų, kurių jis pats nenori aptarti."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Linkiu tau švenčių be skubėjimo ir laiko tam, ką pats ar pati mėgsti veikti.“",
+            "„Gražių Kalėdų! Tikiuosi, rasi progų pailsėti ir pabūti su tais, su kuriais tau gera.“",
+            "„Linkiu tau naujų idėjų ir drąsos rinktis tai, kas tau svarbu, savu tempu.“",
+            "„Džiaugiuosi, kad galiu su tavimi kalbėtis ir išgirsti tavo požiūrį. Jaukių švenčių.“",
+            "„Tegul per atostogas atsiranda vietos mėgstamiems dalykams ir poilsiui, jei norisi nieko neveikti.“",
+            "„Siunčiu tau šiltą kalėdinį linkėjimą. Jei norėsi, rasime laiko veiklai, kuri tau būtų įdomi.“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Žaismingi kalėdiniai linkėjimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Šventinis žaismingumas gali slypėti žiemos spalvose, pasakojimuose ar vaizduotėje. Rinkitės tai, kas tinka vaiko amžiui ir jūsų šeimos tradicijoms; personažų neprivaloma pristatyti kaip tikrų."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Linkiu tiek smagių minčių, kiek ant lango galima nupiešti snaigių!“",
+            "„Tegul ši žiemos diena randa vietos vienai naujai istorijai ir poilsio akimirkai.“",
+            "„Gražių švenčių! Jei šiandien sugalvosi žiemos nuotykį, papasakok jį man.“",
+            "„Linkiu, kad tavo vaizduotėje atsirastų jaukus namelis, linksmas personažas ir įdomi istorija.“",
+            "„Siunčiu tau kalėdinį linkėjimą, lengvą kaip popierinė snaigė ir šiltą kaip mėgstama antklodė.“",
+            "„Tegul šventinėje dienoje telpa ir juokas, ir ramus kampelis, kai norisi pailsėti.“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai sveikinate vaiką per atstumą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei per Kalėdas nesate kartu, galite nusiųsti trumpą balso žinutę, paskambinti arba parašyti žmogui, kuris padės vaikui sveikinimą perskaityti. Dėl skambučio laiko susitarkite su vaiko šeima ar globėjais; nežadėkite datos, kurios dar nepatvirtinote."
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Nors šiandien esame toli, galvoju apie tave ir siunčiu šiltą kalėdinį linkėjimą.“",
+            "„Gražių švenčių! Jei bus patogu, norėčiau išgirsti, ką smagaus veikei šią savaitę.“",
+            "„Siunčiu tau šypseną per atstumą ir linkiu rasti laiko mėgstamai istorijai ar žaidimui.“",
+            "„Džiaugiuosi, kad galiu tau parašyti. Linkiu jaukios šventinės dienos ten, kur esi.“",
+            "„Per šias šventes prisiminiau mūsų pokalbį. Tikiuosi, vėl galėsime pasikalbėti abiem patogiu metu.“",
+            "„Linkime tau ramių Kalėdų ir siunčiame šiltus linkėjimus, nors šiandien nesame kartu.“",
+            "„Tegul žiemos dienose atsiranda laiko tam, kas tau teikia džiaugsmo. Iki kito mūsų pokalbio!“"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasveikinti vaiką asmeniškai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasirinkite vieną dalyką, kuris vaikui iš tikrųjų patinka: veiklą, knygą, žaidimą, gyvūną ar kartu patirtą įvykį. Tuomet papildykite sakinį konkrečia, bet ne pernelyg asmeniška detale. Jei sveikinimą skaitys kiti žmonės, neįrašykite informacijos, kurios vaikas ar jo šeima nenorėtų dalytis."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bendras prisiminimas: „Man buvo smagu, kai kartu [tikra bendra veikla]. Linkiu tau jaukių švenčių.“",
+            "Vaiko pomėgis: „Linkiu tau dar daug laiko skirti [vaiko mėgstamam užsiėmimui] ir poilsio tada, kai jo norisi.“",
+            "Kvietimas: „Jei norėsi, po švenčių galėtume kartu [reali, suderinama veikla]. Dėl laiko susitarsime.“"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Šablonus pakeiskite savais žodžiais ir patikrinkite, ar žinutei tinka pasirinktos giminės formos. Nelyginkite vaiko su kitais ir nesudarykite įspūdžio, kad jo vertė priklauso nuo pažymių, elgesio ar to, kiek jis pasiekė."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar prie sveikinimo būtina dovana?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne. Vaikui galite perskaityti žinutę, kartu nupiešti atviruką ar tiesiog pasakyti, ką jame vertinate. Jeigu renkatės dovaną, pirmiausia atsižvelkite į paties vaiko norus, šeimos aplinkybes ir gamintojo nurodomą tinkamumą. Kalėdinių dovanų vaikams gidas padės palyginti pasirinkimus, o kalėdinių dovanų šeimai gidas – apsvarstyti bendrą veiklą. Jau turimą dovaną galite įteikti pasinaudoję kalėdinių dovanų pakavimo idėjomis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei norite nufotografuoti atviruką ar viešai paskelbti vaiko žinutę, prieš tai aptarkite tai su vaiku ir jo tėvais ar globėjais. Svarbu gerbti vaiko norą nesidalyti asmeniniu kūriniu, net jeigu suaugusiesiems jis atrodo labai mielas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dažniausi klausimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ką trumpai parašyti vaikui per Kalėdas? Galite palinkėti jaukių švenčių ir paminėti jo mėgstamą užsiėmimą. Sakinys „Linkiu tau laiko tam, kas patinka“ tinka, kai nenorite spėlioti dėl konkrečios dovanos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaip pasveikinti vaiką, kurio per šventes nematysiu? Pasirinkite jam ir jo šeimai patogų būdą: žinutę, laišką ar skambutį sutartu laiku. Nežadėkite susitikimo datos, kol dėl jos nesutarėte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ar paaugliui tinka žaismingas sveikinimas? Jeigu jis mėgsta tokį toną, taip. Kitu atveju rinkitės trumpą, pagarbų tekstą ir venkite juokelių jo sąskaita."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ar galima pasveikinti be dovanos? Taip. Šilti žodžiai ar kartu praleistas laikas gali būti savarankiškas dėmesio ženklas; papildomas pirkinys nėra būtinas."
+        }
+      ],
+      "publishAt": "2026-11-26T14:00:00.000Z",
+      "media": [
+        {
+          "id": "9785f242-ae37-4b82-9e2f-88bd5337c71b",
+          "src": "/content-assets/memocasting/9785f242-ae37-4b82-9e2f-88bd5337c71b.webp",
+          "alt": "Bibliotekininkė skaito žiemos pasaką dviem vaikams šviesiame bibliotekos skaitymo kampelyje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "52e028a8-cbb5-47ff-9685-d5f162b5ca5b"
+        },
+        {
+          "id": "d767f40d-c782-41e1-9f19-fc28f4bd600a",
+          "src": "/content-assets/memocasting/d767f40d-c782-41e1-9f19-fc28f4bd600a.webp",
+          "alt": "Bibliotekininkė skaito žiemos pasaką dviem vaikams šviesiame bibliotekos skaitymo kampelyje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "52e028a8-cbb5-47ff-9685-d5f162b5ca5b"
+        },
+        {
+          "id": "d977a99d-db66-4738-82ec-3f2dce990a08",
+          "src": "/content-assets/memocasting/d977a99d-db66-4738-82ec-3f2dce990a08.webp",
+          "alt": "Bibliotekininkė skaito žiemos pasaką dviem vaikams šviesiame bibliotekos skaitymo kampelyje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "52e028a8-cbb5-47ff-9685-d5f162b5ca5b"
+        },
+        {
+          "id": "e7fe427d-359c-4be8-9dc7-9a8f963e64c4",
+          "src": "/content-assets/memocasting/e7fe427d-359c-4be8-9dc7-9a8f963e64c4.webp",
+          "alt": "Bibliotekininkė skaito žiemos pasaką dviem vaikams šviesiame bibliotekos skaitymo kampelyje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "52e028a8-cbb5-47ff-9685-d5f162b5ca5b"
+        },
+        {
+          "id": "854aa982-1245-4f42-a88e-4d2af7fb0c17",
+          "src": "/content-assets/memocasting/854aa982-1245-4f42-a88e-4d2af7fb0c17.webp",
+          "alt": "Bibliotekininkė skaito žiemos pasaką dviem vaikams šviesiame bibliotekos skaitymo kampelyje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "52e028a8-cbb5-47ff-9685-d5f162b5ca5b"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "127fe08d-856c-4488-ba89-8196b17572fe",
+          "label": "Kalėdinių dovanų vaikams gidas"
+        },
+        {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai gidas"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "kalėdinių dovanų pakavimo idėjomis"
+        }
+      ],
+      "id": "56714849-2396-4d36-bf2e-973247b0d36e",
+      "revisionHash": "b3998fa66ee4818f5626f586f6f91746e3a39286a584b1e15fe99ac5254881da",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "b3998fa66ee4818f5626f586f6f91746e3a39286a584b1e15fe99ac5254881da",
+        "approvedAt": "2026-11-12T00:14:25.790Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kalediniai-atvirukai-su-nuotrauka",
+      "title": "Kalėdinis atvirukas su nuotrauka: kaip sukurti asmenišką sveikinimą",
+      "description": "Žingsniai, kaip išsirinkti nuotrauką ir sukurti asmenišką skaitmeninį ar spausdintą kalėdinį atviruką.",
+      "intent": "Padėti sukurti asmenišką atviruką naudojant savo nuotrauką ir pagarbius leidimus.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinis atvirukas su nuotrauka gali būti paprasta žinutė telefone arba ant popieriaus atspausdintas prisiminimas. Išsirinkite nuotrauką, kuri gavėjui ką nors reiškia, palikite vietos trumpam sveikinimui ir prieš dalydamiesi pasitarkite su joje matomais žmonėmis. Toliau rasite praktinį planą, kaip nuo nuotraukos pasirinkimo pereiti prie paruošto atviruko. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide pateikiamos kūrimo idėjos ir tekstai – jis nesiūlo paruoštų atsisiunčiamų atvirukų ar nuotraukų redagavimo paslaugos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokią nuotrauką pasirinkti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia pagalvokite apie gavėją. Seneliams gali būti brangus bendras šeimos kadras, draugui – nuotrauka iš kartu praleistos dienos, o žmogui, kuris nenori matyti savęs viešai, galima rinktis vietą, augintinį ar jūsų sukurtą piešinį. Net ir paprasta nuotrauka iš kasdienybės gali būti asmeniškesnė nei iškilminga, jei ji primena svarbią akimirką."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ieškokite aiškios pagrindinės detalės ir patikrinkite, ar nuotraukoje nematyti dalykų, kuriais nenorėtumėte dalytis: namų adreso, dokumentų, automobilių numerių ar kitų žmonių. Jei planuojate nuotrauką karpyti, įsitikinkite, kad liks vietos ir vaizdui, ir sveikinimui. Tekstą galite rašyti kitoje popierinio atviruko pusėje – tuomet veidų ar svarbių detalių uždengti nereikės."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Trys paprasti atviruko išdėstymai"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nuotrauka priekyje, žinutė kitoje pusėje. Tinka, kai kadre daug svarbių detalių arba norite ranka parašyti ilgesnę padėką. Prieš spausdindami nuspręskite, kur bus lenkimo linija, ir išbandykite ant paprasto lapo.",
+            "Nuotrauka ir aiški teksto juosta. Palikite vieną kraštą trumpam linkėjimui, o vaizdą kadruokite taip, kad raidės nekonkuruotų su veidais. Šis variantas patogus siunčiant nuotrauką telefonu.",
+            "Kelių kadrų istorija. Pasirinkite dvi ar tris nuotraukas iš vieno bendro įvykio: vietą, detalę ir žmones. Vienas trumpas sakinys padės suprasti, kodėl prisiminimas svarbus. Mažam atvirukui geriau naudoti mažiau kadrų, kad jie nebūtų per smulkūs."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nebūtina rinktis raudonos ir žalios vien todėl, kad tai kalėdinis atvirukas. Galite naudoti vieną ramesnę spalvą, kuri derėtų prie jūsų nuotraukos, ir pakankamai aiškų šriftą. Jei šriftas vos įskaitomas telefono ekrane, prieš siųsdami jį padidinkite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką parašyti ant šeimos nuotraukos?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dažnai pakanka asmeninės detalės ir linkėjimo. Pritaikykite pateiktus pavyzdžius savo santykiui su gavėju:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "„Ačiū už mūsų bendras šių metų akimirkas. Jaukių Kalėdų!“",
+            "„Siunčiame šiltus linkėjimus ir prisiminimą apie [tikrą bendrą dieną].“",
+            "„Gražių švenčių! Džiaugiamės, kad galime dalytis šiais prisiminimais.“",
+            "„Tegul žiemos dienose būna laiko poilsiui ir žmonėms, su kuriais gera.“",
+            "„Prisimename mūsų [bendrą akimirką] ir linkime tau jaukių švenčių.“",
+            "„Su šventėmis nuo mūsų šeimos. Lauksime progos vėl pasikalbėti.“",
+            "„Linkime šilumos, ramybės ir mažų akimirkų, kurias norisi prisiminti.“",
+            "„Siunčiame tau šypseną iš [vietos, kurią abu pažįstate].“"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei sveikinimą pasirašo keli žmonės, susitarkite dėl vieno bendro teksto ir palikite vietos kiekvieno vardui. Nėra būtina minėti „visos šeimos“, jeigu dalyvauja tik dalis jos narių. Jei atviruką gavėjas gali rodyti kitiems, pernelyg asmenines detales palikite atskiram laiškui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti nuotraukos dydį spausdinimui?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia nuspręskite, kokio dydžio bus galutinis atvirukas ir ar jį spausdinsite namuose, ar pateiksite spaustuvei. Tuomet pasirinkite didžiausios turimos kokybės originalų failą: kelis kartus persiųsta ekrano kopija gali būti per smulki. Priartinkite nuotrauką iki numatomo dydžio ir patikrinkite veidus bei svarbias detales. Jei jos jau ekrane atrodo neryškios, ieškokite kito originalo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Orientacinis pavyzdys: 10 × 15 cm nuotraukai, spausdinant 300 dpi raiška, reikia maždaug 1 181 × 1 772 pikselių, neįskaitant galimų užlaidų. Kito dydžio atvirukui reikalinga raiška skirsis; dėl konkrečių spaudos reikalavimų pasitarkite su pasirinkta spaustuve."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spaustuvės reikalavimai gali skirtis, todėl prieš galutinai paruošdami failą pasiteiraukite dėl priimamo formato, paraščių ir užlaidų. Namų spausdintuve pirmiausia verta atspausdinti bandomąją kopiją ant paprasto lapo: įsitikinkite, kad nėra nukirstų kraštų, tekstas įskaitomas, o sulankstymo kryptis tinkama. Ekrane ir ant popieriaus spalvos gali atrodyti skirtingai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei fotografiją iškerpate į kvadratą, atkreipkite dėmesį, kad nenukirstumėte rankų, galvos ar svarbaus fono elemento. Veidus geriau palikti šiek tiek toliau nuo kraštų. Išsaugokite ir originalą, ir redaguotą kopiją, kad prireikus galėtumėte pakeisti sveikinimą ar formatą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip siųsti telefonu ir neprarasti svarbių detalių?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš siųsdami atverkite baigtą atviruką tame įrenginyje, kuriame jį peržiūrėsite jūs: tekstas turi būti įskaitomas be didinimo, o nuotrauka – aiški. Pasitikrinkite, ar programėlė nenukerpa paveikslėlio peržiūros. Jei abejojate, svarbiausią tekstą galite pakartoti žinutėje po nuotrauka."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skaitmeniniam sveikinimui ypač tinka trumpas tekstas ir vienas aiškus kadras. Galite pridėti ir balso žinutę, jeigu taip įprasta bendrauti su gavėju. Prieš viešai įkeldami šeimos nuotrauką dar kartą pasitarkite su joje matomais žmonėmis – asmeniniam atvirukui duotas sutikimas nebūtinai reiškia norą nuotrauką matyti viešai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kai nuotraukoje – vaikai ar kiti žmonės"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš dalydamiesi aptarkite pasirinkimą su nuotraukoje esančiais žmonėmis, o vaiko nuotrauką – ir su jo tėvais ar globėjais. Atsižvelkite į vaiko nuomonę bei norą nebūti fotografuojamam ar viešai rodomam. Jei kas nors nesutinka, rinkitės kitą kadrą arba kurkite atviruką iš piešinio, žiemos peizažo ar artimos detalės be atpažįstamų veidų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naudokite savo darytas nuotraukas arba vaizdus, kuriuos turite teisę naudoti pasirinktam tikslui. Nuotraukos radimas internete savaime nereiškia, kad ją galima laisvai perkelti į savo atviruką ir platinti. Jeigu nesate tikri, paprašykite autoriaus leidimo ar rinkitės savo kūrybą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikra prieš išsiunčiant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nuotrauka tikrai primena tai, kas svarbu gavėjui.",
+            "Veidai ir tekstas nėra nukirsti, o sveikinimą lengva perskaityti.",
+            "Vardai, pasirašantys žmonės ir žinutės kreipinys nurodyti teisingai.",
+            "Turite teisę naudoti nuotrauką ir aptarėte dalijimąsi su joje matomais žmonėmis.",
+            "Patikrinote, ar kadre nėra asmeninių duomenų, kurių nenorite perduoti.",
+            "Jei spausdinate, išbandėte bandomąją kopiją ir pasitikrinote pasirinkto spausdinimo reikalavimus."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atviruką galite įteikti ir be dovanos. Jei norite jį pridėti prie bendros veiklos ar siuntinio, peržiūrėkite kalėdinių dovanų šeimai idėjas ir dovanų pakavimo patarimus. Svarbiausia, kad vaizdas ir žodžiai primintų jūsų tikrą santykį – nebūtina siekti tobulo kadro."
+        }
+      ],
+      "publishAt": "2026-11-27T14:00:00.000Z",
+      "media": [
+        {
+          "id": "db43e0e7-12b0-40b7-b8c1-3234efd045e3",
+          "src": "/content-assets/memocasting/db43e0e7-12b0-40b7-b8c1-3234efd045e3.webp",
+          "alt": "Moteris renka žiemos nuotrauką kalėdiniam atvirukui šalia spausdintuvo.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "37612524-6394-492f-a888-52e1f552a219"
+        },
+        {
+          "id": "48d76e7b-d717-4a65-9494-a7d9a7099bad",
+          "src": "/content-assets/memocasting/48d76e7b-d717-4a65-9494-a7d9a7099bad.webp",
+          "alt": "Moteris renka žiemos nuotrauką kalėdiniam atvirukui šalia spausdintuvo.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "37612524-6394-492f-a888-52e1f552a219"
+        },
+        {
+          "id": "85e09438-c0f3-4a95-a707-a1796529e139",
+          "src": "/content-assets/memocasting/85e09438-c0f3-4a95-a707-a1796529e139.webp",
+          "alt": "Moteris renka žiemos nuotrauką kalėdiniam atvirukui šalia spausdintuvo.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "37612524-6394-492f-a888-52e1f552a219"
+        },
+        {
+          "id": "5886baa6-963c-4b52-afc0-c10968cc61ab",
+          "src": "/content-assets/memocasting/5886baa6-963c-4b52-afc0-c10968cc61ab.webp",
+          "alt": "Moteris renka žiemos nuotrauką kalėdiniam atvirukui šalia spausdintuvo.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "37612524-6394-492f-a888-52e1f552a219"
+        },
+        {
+          "id": "4d59159c-ef29-41fb-8f7d-fd3b56fb94a0",
+          "src": "/content-assets/memocasting/4d59159c-ef29-41fb-8f7d-fd3b56fb94a0.webp",
+          "alt": "Moteris renka žiemos nuotrauką kalėdiniam atvirukui šalia spausdintuvo.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "37612524-6394-492f-a888-52e1f552a219"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai idėjas"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "dovanų pakavimo patarimus"
+        }
+      ],
+      "id": "b6a11348-9ed9-4873-91e0-21de35df0681",
+      "revisionHash": "f1a05b6220131b24007669c092ec0c596f30b0b3fa6a036048443b9fcc8b9896",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "f1a05b6220131b24007669c092ec0c596f30b0b3fa6a036048443b9fcc8b9896",
+        "approvedAt": "2026-11-12T00:14:25.880Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kaledines-dovanos-dukrai",
+      "title": "Kalėdinė dovana dukrai: kaip pasirinkti pagal amžių, pomėgius ir jūsų santykį",
+      "description": "Kalėdinės dovanos dukrai pagal pomėgius ir biudžetą: praktiški pasirinkimo kriterijai ir konkrečios idėjos.",
+      "intent": "Padėti pasirinkti dukrai tinkamą kalėdinę dovaną pagal jos norus ir amžių.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Geriausia kalėdinė dovana dukrai priklauso ne vien nuo jos amžiaus. Mažam vaikui svarbu saugumas ir norai, paauglei – galimybė rinktis, o suaugusiai dukrai gali būti vertinga veikla ar daiktas, atitinkantis jos dabartinį gyvenimą. Prieš pirkdami išsiaiškinkite, kas jai patinka, kiek norite išleisti ir ar dovanai reikės papildomų išlaidų. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau rasite atrankos būdą, idėjų skirtingiems santykiams ir kelis konkrečius pasiūlymus palyginimui. Tai alternatyvos, ne pažadas, kad kiekviena tiks jūsų dukrai. Kainas, likučius, dalyvių amžių ir pristatymo sąlygas prieš pirkdami patikrinkite pardavėjo puslapyje."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pradėkite nuo trijų klausimų"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Kas ją domina dabar? Prisiminkite, ką dukra pati minėjo pastaruoju metu, tačiau nelaikykite ankstesnio pomėgio nekintančiu. Jei abejojate, paklauskite apie kelis variantus. Mažiau svarbu, ar dovana populiari, ir svarbiau, ar ji iš tiesų bus maloni konkrečiam žmogui."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Ar ji norėtų daikto, patirties, ar pasirinkimo laisvės? Viena dukra gali norėti kūrybinių priemonių, kita – bendro laiko, trečia geriau pati išsirinks knygą. Rinkdamiesi patirtį atsižvelkite į vietą, datą ir tai, ar jai patogu dalyvauti su kitu žmogumi."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Kiek kainuos visa dovana? Prie prekės ar kupono kainos pridėkite pristatymą, kelionę, papildomas priemones ar galimus kitus mokesčius. Nustatykite bendrą ribą prieš pradėdami ieškoti – maža, apgalvota dovana neprivalo būti brangi."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jei dukrai patinka: Piešti ar rašyti; Ką apsvarstyti: Užrašinė ar kūrybinės priemonės; Ką pasitikrinti: Ar patinka tušti, linijuoti ar kitokie lapai",
+            "Jei dukrai patinka: Išbandyti naujas veiklas; Ką apsvarstyti: Kūrybinės dirbtuvės; Ką pasitikrinti: Miestą, datų pasirinkimą, dalyvių sąlygas",
+            "Jei dukrai patinka: Stalo žaidimai; Ką apsvarstyti: Žaidimas šeimai ar draugams; Ką pasitikrinti: Dalyvių skaičių, nurodytą amžių, kalbą",
+            "Jei dukrai patinka: Bendri prisiminimai; Ką apsvarstyti: Laikas kartu ir asmeniška žinutė; Ką pasitikrinti: Ar veikla patinka abiem ir ar jai patogu dalyvauti"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kalėdinė dovana mažai dukrai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mažesniam vaikui rinkitės pagal jo paties domėjimąsi: piešimą, istorijas, judėjimą ar vaidmenų žaidimus. Kartu su tėvais arba globėjais patikrinkite gamintojo nurodytą tinkamumą pagal amžių, įspėjimus ir naudojimo sąlygas. Nepirkite vien pagal etiketę „mergaitėms“ – vaiko pomėgiai gali būti visai kitokie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei galvojate apie knygą, pasidomėkite, kokias istorijas vaikas jau mėgsta ir kokia kalba jas skaito ar klausosi. Renkantis priemones kūrybai, pasitikrinkite, kas įeina į komplektą ir ar reikės papildomų medžiagų. Jei dovanojate veiklą, jos organizatoriaus pasiteiraukite apie dalyvavimo sąlygas vaikui ir lydinčiam suaugusiajam."
+        },
+        {
+          "type": "paragraph",
+          "text": "Svarbu neapkrauti šeimos: dideliam daiktui gali reikėti vietos, o skambančiam žaislui – baterijų. Paklausimas „ar jums tiktų toks žaidimas?“ nesugadina dovanos staigmenos, jei leidžia pasirinkti jos temą kartu."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip rinkti dovaną paauglei dukrai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paauglės pomėgiai ir poreikis savarankiškai rinktis gali greitai keistis. Užuot spėlioję dėl labai asmeniškų daiktų, pasiūlykite du variantus: „Ar mieliau išsirinktum kūrybos priemones, ar norėtum veiklos?“ Taip išlieka pasirinkimo laisvė, o kaip dovaną įteiksite, vis tiek galite palikti kaip staigmeną."
+        },
+        {
+          "type": "paragraph",
+          "text": "Praktiški pasirinkimai – jos pageidauta knyga, medžiagos mėgstamam pomėgiui ar galimybė drauge nuveikti tai, ką ji pati išsirinks. Jei renkatės drabužį, kosmetiką ar kambario detalę, pirmiausia pasitarkite dėl skonio, dydžio ir poreikių. Kupono atveju patikrinkite pardavėją, galiojimo sąlygas ir ar juo galima pasinaudoti dukrai patogioje vietoje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Venkite dovanos, kuri primena nepageidaujamą kritiką: pavyzdžiui, priemonės pomėgiui, kuriuo ji nesidomi, ar išvaizdos pakeitimo pasiūlymo. Dovana neturi tapti užduotimi atitikti kitų lūkesčius."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Suaugusiai dukrai – pagal jos dabartinį gyvenimą"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suaugusiai dukrai tinka ne tik bendram laikui skirta dovana. Viena gali džiaugtis tyliu vakaru su knyga, kita nori išbandyti keramiką, trečiai svarbiausia pati išsirinkti. Jei gyvenate skirtinguose miestuose, prieš rezervuodami patirtį pasitikrinkite, ar vieta jai pasiekiama ir ar pasirinkimo laikas pakankamai lankstus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie dovanos galite pridėti trumpą asmeninę žinutę: „Ačiū už mūsų pasivaikščiojimus šiais metais. Norėčiau, kad ir kitais rastume jiems laiko.“ Geriau įrašyti realų bendrą prisiminimą nei žadėti kelionę ar rezervuoti laiką jos neatsiklausus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkretūs pasirinkimai palyginimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Užrašinė piešti ar rašyti. „Pegaso“ A5 „Van Gogh“ užrašinė su rašikliu pateikiama dovanų dėžutėje, o jos lapai tušti. Ji gali tikti mėgstančiai užsirašinėti ar eskizuoti; jei dukrai reikalingi tik linijuoti puslapiai, pirmiau išsiaiškinkite jos pageidavimą."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Keramikos dekoravimo veikla. „Gera dovana“ keramikos dekoravimo dirbtuvės Klaipėdoje siūlo pasirinkimus vienam ar dviem žmonėms. Tai idėja mėgstančiai kūrybą, jeigu Klaipėda jai patogi. Prieš pirkdami patikrinkite aktualią kainą, galiojimą, rezervacijos sąlygas ir, jei dovana skirta vaikui, dalyvių amžių su organizatoriumi."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Rankų liejimo veikla kartu. „Memory Casting“ šeimos rankų liejimo rinkinys yra šios svetainės siūloma prekė. Tai gali tikti, jeigu dukrai patinka kūrybinė veikla su artimaisiais ir ji nori joje dalyvauti. Patikrinkite produkto aprašą bei instrukciją, o rinkdami veiklą vaikui pasitarkite su suaugusiaisiais ir įsitikinkite, kad ji jam tinkama."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Jos pačios pasirinkta knyga ar žaidimas. Galite kartu susidaryti trumpą pageidavimų sąrašą ir iš jo parinkti vieną variantą. Tai nėra konkreti rekomenduojama prekė: knygos, žaidimo kalbą, amžiaus nurodymus, dalyvių skaičių ir prieinamumą tikrinkite pasirinkto pardavėjo aprašyme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trečiųjų šalių nuorodos veda į kitų pardavėjų pasiūlymus. Jų turinys, kaina ir prieinamumas gali pasikeisti; aprašymai sutikrinti 2026-11-12. Čia nepateikiame kitų pardavėjų prekių nuotraukų ar nepatvirtintų klientų atsiliepimų."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išrinkti dovaną, jei dukra sako „nieko nereikia“?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia gerbkite tokį atsakymą. Galite pasiūlyti išgerti arbatos, kartu pasivaikščioti ar parašyti atviruką – tik jei žinote, kad toks dėmesys jai malonus. Jei vis tiek norėtumėte įteikti daiktą, paklauskite, ar būtų naudinga rinktis kartu, arba ar ji turi vieną mažą norą. Dovanų kuponas ne visada yra neutralus pasirinkimas: patikrinkite jo sąlygas ir ar gavėja tikrai norės juo naudotis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu jūsų dukra dar vaikas, papildomų idėjų rasite kalėdinių dovanų vaikams gide. Jei ieškote kitai progai tinkamo sprendimo, peržiūrėkite bendrą dovanų dukrai gidą. Abiem atvejais naudingiausia pradėti nuo vieno paprasto klausimo: „Kas tau šiuo metu patiktų?“"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikra prieš užsakant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dovana atitinka dukros dabartinius norus, o ne vien ankstesnį pomėgį.",
+            "Patikrinti gamintojo nurodymai, jeigu dovana skirta vaikui.",
+            "Į bendrą sumą įtrauktas pristatymas ar kelionė.",
+            "Patirties vieta, rezervacijos bei galiojimo sąlygos priimtinos gavėjai.",
+            "Pirkdami kito pardavėjo prekę matote dabartinę kainą, prieinamumą ir grąžinimo sąlygas.",
+            "Asmeniniame sveikinime minite tik tikrą prisiminimą ir neduodate nesuderintų pažadų."
+          ]
+        }
+      ],
+      "publishAt": "2026-11-28T14:00:00.000Z",
+      "media": [
+        {
+          "id": "a0158b4f-c0bb-4c56-8407-0c42c078a722",
+          "src": "/content-assets/memocasting/a0158b4f-c0bb-4c56-8407-0c42c078a722.webp",
+          "alt": "Motina ir suaugusi dukra vaikšto pajūriu žiemiško saulėlydžio metu.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "e32ae6fc-ac6e-4271-a8ae-bc69e26f4956"
+        },
+        {
+          "id": "156941e0-465d-4f75-aeab-c8c2a555f2f4",
+          "src": "/content-assets/memocasting/156941e0-465d-4f75-aeab-c8c2a555f2f4.webp",
+          "alt": "Motina ir suaugusi dukra vaikšto pajūriu žiemiško saulėlydžio metu.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "e32ae6fc-ac6e-4271-a8ae-bc69e26f4956"
+        },
+        {
+          "id": "e69b78a6-0a00-4592-83af-01edc52d638b",
+          "src": "/content-assets/memocasting/e69b78a6-0a00-4592-83af-01edc52d638b.webp",
+          "alt": "Motina ir suaugusi dukra vaikšto pajūriu žiemiško saulėlydžio metu.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "e32ae6fc-ac6e-4271-a8ae-bc69e26f4956"
+        },
+        {
+          "id": "99aa8a93-cb85-4fba-822c-b78a17332b76",
+          "src": "/content-assets/memocasting/99aa8a93-cb85-4fba-822c-b78a17332b76.webp",
+          "alt": "Motina ir suaugusi dukra vaikšto pajūriu žiemiško saulėlydžio metu.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "e32ae6fc-ac6e-4271-a8ae-bc69e26f4956"
+        },
+        {
+          "id": "3f63a900-a0c8-453b-bc46-74836dbc241e",
+          "src": "/content-assets/memocasting/3f63a900-a0c8-453b-bc46-74836dbc241e.webp",
+          "alt": "Motina ir suaugusi dukra vaikšto pajūriu žiemiško saulėlydžio metu.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "e32ae6fc-ac6e-4271-a8ae-bc69e26f4956"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "„Memory Casting“ šeimos rankų liejimo rinkinys"
+        },
+        {
+          "targetPageId": "127fe08d-856c-4488-ba89-8196b17572fe",
+          "label": "kalėdinių dovanų vaikams gide"
+        },
+        {
+          "targetPageId": "9f43cc84-8b61-4b03-a31f-7d176b673e3c",
+          "label": "bendrą dovanų dukrai gidą"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pegasas.lt/uzrasine-van-gogh-su-rasikliu-a5-dovanu-dezuteje-5788917/",
+          "label": "„Pegaso“ A5 „Van Gogh“ užrašinė su rašikliu",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/keramikos-dekoravimo-dirbtuves-cosita-studija",
+          "label": "„Gera dovana“ keramikos dekoravimo dirbtuvės Klaipėdoje",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "69224251-e772-49e8-a3aa-b385cfb23c2e",
+      "revisionHash": "3c656b75740a3b9d0981cf2b3a8ae11cc89565dd71d71f8debc44f71e8be2464",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "3c656b75740a3b9d0981cf2b3a8ae11cc89565dd71d71f8debc44f71e8be2464",
+        "approvedAt": "2026-11-12T00:14:25.956Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-11T23:55:23.026Z"
+  "generatedAt": "2026-11-12T00:14:26.208Z"
 }
