@@ -15475,7 +15475,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Močiutė ir senelis nebūtinai nori tos pačios dovanos. Vienas gali laukti bendro šeimos susitikimo, kitas – konkrečios knygos ar priemonės savo pomėgiui. Bendra dovana tinka tada, kai ji domina abu. Jei norai skiriasi, galite įteikti dvi nedideles asmenines dovanas ir prie jų pridėti bendrą sveikinimą."
+          "text": "Močiutė ir senelis nebūtinai nori tos pačios dovanos. Vienas gali laukti bendro šeimos susitikimo, kitas – konkrečios knygos ar priemonės savo pomėgiui. Bendra dovana tinka tada, kai ji domina abu. Jei norai skiriasi, galite įteikti dvi nedideles asmenines dovanas ir prie jų pridėti bendrą sveikinimą. Jei kalėdinė dovana seneliui yra veikla, iš anksto pasiūlykite kelias dienas ir palikite jam laisvę rinktis."
         },
         {
           "type": "list",
@@ -15640,6 +15640,10 @@
         {
           "targetPageId": "5b4e2f2c-b782-4b5e-b59f-cd1c45872049",
           "label": "kalėdinis sveikinimas seneliams"
+        },
+        {
+          "targetPageId": "73dda4bf-b1e7-4dcf-ac0b-6730b6de9d51",
+          "label": "kalėdinė dovana seneliui"
         }
       ],
       "externalLinks": [
@@ -15675,11 +15679,11 @@
         }
       ],
       "id": "3c7cb521-1100-4b96-9d21-6beb78135f89",
-      "revisionHash": "521782d248b4636c267f4540bb9818b8b02f2a3a24251a8c1fa681680bf7661f",
+      "revisionHash": "1491df017dc45bed8f9862ec3e98a8d5a89bbcf33cf4a9422d1e511545a24f11",
       "approval": {
         "status": "approved",
-        "revisionHash": "521782d248b4636c267f4540bb9818b8b02f2a3a24251a8c1fa681680bf7661f",
-        "approvedAt": "2026-11-11T23:55:22.195Z",
+        "revisionHash": "1491df017dc45bed8f9862ec3e98a8d5a89bbcf33cf4a9422d1e511545a24f11",
+        "approvedAt": "2026-11-12T00:47:54.550Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
     },
@@ -17239,7 +17243,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Darbdavio finansuojamos dovanos tikslas – iš anksto nustatyti vienodą biudžetą, atsižvelgti į nuotoliu dirbančius ir užtikrinti, kad dovana pasiektų kiekvieną gavėją. Kolegų savanoriški mainai yra kitas susitarimas: žmonės patys nusprendžia, ar dalyvauti, ir neturėtų būti spaudžiami pirkti dovaną."
+          "text": "Darbdavio finansuojamos dovanos tikslas – iš anksto nustatyti vienodą biudžetą, atsižvelgti į nuotoliu dirbančius ir užtikrinti, kad dovana pasiektų kiekvieną gavėją. Kolegų savanoriški mainai yra kitas susitarimas: žmonės patys nusprendžia, ar dalyvauti, ir neturėtų būti spaudžiami pirkti dovaną. Renkant kalėdines dovanas verslo partneriams verta iš anksto patikrinti jų organizacijos dovanų priėmimo taisykles."
         },
         {
           "type": "paragraph",
@@ -17423,6 +17427,10 @@
         {
           "targetPageId": "2f621a5f-5967-4904-94c5-739a4e0fb9f4",
           "label": "verslo kalėdiniai sveikinimai"
+        },
+        {
+          "targetPageId": "61bf524c-18ba-4dd0-b830-8042285d8f6a",
+          "label": "kalėdines dovanas verslo partneriams"
         }
       ],
       "externalLinks": [
@@ -17448,11 +17456,11 @@
         }
       ],
       "id": "42839ff5-ecde-4f42-bb75-8b17a9a44a82",
-      "revisionHash": "7b6dbcfef7f2d7c8624a80002a0da6231c965be41e5298ea4b9c48409b4a0391",
+      "revisionHash": "3cc8ee56ac750f2009028232dfc3382330d555f0b974e7f628a3e80fc984dba7",
       "approval": {
         "status": "approved",
-        "revisionHash": "7b6dbcfef7f2d7c8624a80002a0da6231c965be41e5298ea4b9c48409b4a0391",
-        "approvedAt": "2026-11-12T00:31:49.221Z",
+        "revisionHash": "3cc8ee56ac750f2009028232dfc3382330d555f0b974e7f628a3e80fc984dba7",
+        "approvedAt": "2026-11-12T00:47:54.637Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
     },
@@ -22397,7 +22405,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Staigmena gali likti įteikimo būdas, laiškas ar susitikimo detalė. Nebūtina spėti svarbiausių dovanos savybių vien tam, kad visas pasirinkimas būtų netikėtas."
+          "text": "Staigmena gali likti įteikimo būdas, laiškas ar susitikimo detalė. Nebūtina spėti svarbiausių dovanos savybių vien tam, kad visas pasirinkimas būtų netikėtas. Rinkdami kalėdinę dovaną sesei, prieš užsakydami individualiai gaminamą daiktą išsiaiškinkite galutinę kainą ir pagaminimo laiką."
         },
         {
           "type": "heading",
@@ -22502,15 +22510,19 @@
         {
           "targetPageId": "a74780e9-7b58-4526-bc4a-32bc606e07d2",
           "label": "Kalėdinės dovanos draugams: asmeninės ir grupinės idėjos"
+        },
+        {
+          "targetPageId": "048d829b-6906-450a-9a18-adfc1bcea258",
+          "label": "kalėdinę dovaną sesei"
         }
       ],
       "id": "8eef6e4f-055e-4060-bc24-0a854b1a7b19",
-      "revisionHash": "a408fb8103be2e4be898436ab50cf0b9fb291b2180d6437498e0c6e6d40ef057",
+      "revisionHash": "090b53c5a41949ba2359c56b6bdbc467bfbd8a9e679a738ff6d51d36b25bca28",
       "approval": {
         "status": "approved",
-        "revisionHash": "a408fb8103be2e4be898436ab50cf0b9fb291b2180d6437498e0c6e6d40ef057",
-        "approvedAt": "2026-10-14T20:18:14.907Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "090b53c5a41949ba2359c56b6bdbc467bfbd8a9e679a738ff6d51d36b25bca28",
+        "approvedAt": "2026-11-12T00:47:54.812Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -22546,7 +22558,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Jei trūksta informacijos, užduokite siaurą klausimą: „Kokią knygą norėtum perskaityti?“ arba „Ar norėtum kartu nueiti į koncertą, ar mieliau rinktumeisi kitą veiklą?“ Taip paliekate vietos staigmenai, bet svarbiausio pasirinkimo nepaverčiate spėjimu."
+          "text": "Jei trūksta informacijos, užduokite siaurą klausimą: „Kokią knygą norėtum perskaityti?“ arba „Ar norėtum kartu nueiti į koncertą, ar mieliau rinktumeisi kitą veiklą?“ Taip paliekate vietos staigmenai, bet svarbiausio pasirinkimo nepaverčiate spėjimu. Planuodami kalėdinę dovaną broliui, patikrinkite, ar pardavėjas patvirtina gavimo datą, ir pridėkite siuntimo išlaidas prie bendro biudžeto."
         },
         {
           "type": "heading",
@@ -22696,15 +22708,19 @@
         {
           "targetPageId": "a74780e9-7b58-4526-bc4a-32bc606e07d2",
           "label": "Kalėdinės dovanos draugams: asmeninės ir grupinės idėjos"
+        },
+        {
+          "targetPageId": "4539071a-c6cd-4d36-b7c7-c82ce980807e",
+          "label": "kalėdinę dovaną broliui"
         }
       ],
       "id": "04095447-771e-4b47-b803-7c00475f2f6a",
-      "revisionHash": "644dacdb4697ff07d502ec5fa183846e84206028118582a5de2a08ea4e3ce3c0",
+      "revisionHash": "c4672171e0dc7c120d800b345c65b71c27a3bfd99e5b05f42cabb2e801522ded",
       "approval": {
         "status": "approved",
-        "revisionHash": "644dacdb4697ff07d502ec5fa183846e84206028118582a5de2a08ea4e3ce3c0",
-        "approvedAt": "2026-10-14T20:18:14.945Z",
-        "actorId": "codex-memocasting-content-completion-20261014"
+        "revisionHash": "c4672171e0dc7c120d800b345c65b71c27a3bfd99e5b05f42cabb2e801522ded",
+        "approvedAt": "2026-11-12T00:47:54.720Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -43596,7 +43612,407 @@
         "approvedAt": "2026-11-12T00:31:49.864Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kaledines-dovanos-zmonai",
+      "title": "Kalėdinė dovana žmonai: kaip išgirsti jos norus ir pasirinkti asmeniškai",
+      "description": "Idėjos kalėdinei dovanai žmonai: kaip atsižvelgti į jos norus ir išsirinkti asmenišką patirtį ar daiktą.",
+      "intent": "Padėti pasirinkti dovaną žmonai atsižvelgiant į jos pačios norus.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinė dovana žmonai nebūtinai turi būti romantiškas daiktas ar veikla dviem. Jai gali būti svarbesnis laikas sau, seniai norėta knyga, konkreti kūrybinė priemonė ar kartu suplanuotas vakaras. Prieš rinkdamiesi prisiminkite, ką ji pati yra sakiusi, ir įsitikinkite, kad pasirinkimas atitinka jos norus, o ne vien jūsų įsivaizdavimą apie šventę. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Čia rasite būdą palyginti kelias idėjas ir konkrečias kitų pardavėjų nuorodas. Kainas, vietas, dalyvių skaičių ir sąlygas pasitikrinkite prieš pirkdami: jos gali pasikeisti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sužinoti, ko žmona norėtų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peržiūrėkite mintyse pastarojo meto pokalbius: gal ji minėjo, ką norėtų išbandyti, arba konkrečiai paprašė tam tikro daikto. Senas pomėgis dar nereiškia, kad ji šiuo metu nori daugiau tam skirtų daiktų. Jei trūksta informacijos, paklauskite, kas jai artimiau: laisvas laikas sau, bendra veikla ar daiktas, kurį galėtų pasirinkti pati."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu norite palikti staigmenos, susitarkite dėl krypties, bet neatskleiskite visų detalių. Pavyzdžiui: „Ar mieliau norėtum kūrybinių dirbtuvių, ar ramesnio laisvadienio?“ Tai leidžia atsižvelgti į jos norus ir išvengti situacijos, kai dovana tampa dar vienu įsipareigojimu."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jos išsakytas noras: Daugiau kūrybos; Galima kryptis: Užsiėmimas ar konkreti priemonė; Prieš pasirenkant paklauskite: Ar patinka grupinės veiklos ir kuri vieta patogi?",
+            "Jos išsakytas noras: Laikas sau; Galima kryptis: Jos pačios pasirinktas poilsis; Prieš pasirenkant paklauskite: Kas padėtų tam laikui iš tikrųjų atsirasti?",
+            "Jos išsakytas noras: Buvimas drauge; Galima kryptis: Veikla, kuri patinka abiem; Prieš pasirenkant paklauskite: Ar ji norėtų dalyvauti ir kokią dieną?",
+            "Jos išsakytas noras: Konkretus daiktas; Galima kryptis: Jos nurodytas variantas; Prieš pasirenkant paklauskite: Ar tikslūs dydis, spalva ir modelis?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkrečios idėjos pagal skirtingus norus"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Arbatos dirbtuvės mėgstančiai pažinti skonius. „Gera dovana“ kūrybinių arbatos dirbtuvių pasiūlymas Vilniuje gali tikti, jei jai įdomi arbata ir patogus miestas. Prieš pirkdami patikrinkite dalyvių skaičių, galiojimą, rezervaciją ir galimas datas. Jei jai labiau patinka ramybė namuose, rinkitės kitą variantą."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Masažas dviem, jei ji norėtų tokios patirties. „Gera dovana“ atpalaiduojamojo masažo dviem pasiūlymas Vilniuje skirtas dviem žmonėms. Tai nėra automatiškai poilsis jūsų žmonai: pasiteiraukite, ar jai patinka masažai, ar norėtų eiti kartu ir ar vieta bei laikas būtų patogūs. Dėl sveikatos ar tinkamumo klausimų kreipkitės į paslaugos teikėją."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Bendras kūrybinis prisiminimas. „Memory Casting“ poros rankų liejimo rinkinys yra šioje svetainėje parduodamas produktas. Juo galima kurti rankų skulptūrą kartu, jei abu norite tokios veiklos. Prieš pirkdami peržiūrėkite instrukciją ir komplektaciją, o jei nesate tikri dėl jos noro – pasirinkite atvirą klausimą vietoje staigmenos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitų pardavėjų nuorodos skirtos palyginti galimybes. Neteigiame, kad pasiūlymus patys išbandėme, ir nepatvirtiname jų dabartinio prieinamumo. Aktualias kainas, datas ir sąlygas patikrinkite pas paslaugų teikėją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Laikas sau nėra tas pats, kas neplanuotas kuponas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu ji yra sakiusi, kad norėtų daugiau laiko sau, vien kuponas nebūtinai išspręs praktinį klausimą. Kartu aptarkite, kada jai patogu ilsėtis ir ar tam reikia suderinti kasdienius reikalus. Svarbu nedaryti prielaidos, kad jos poilsis turi atrodyti kaip SPA: vienam žmogui patinka renginiai, kitam – rami popietė be planų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nepirkite labai asmeniškų grožio priemonių, drabužių ar kvapų nežinodami, ar ji tokius naudoja ir ko pageidauja. Jei turite tik bendrą idėją, paprašykite jos nurodyti kelis galimus variantus arba pasiūlykite rinktis kartu. Konkretaus pageidavimo išklausymas gali būti asmeniškesnis už brangią staigmeną."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sukurti prasmingą bendro laiko dovaną?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasiūlykite veiklą, kurią ji yra minėjusi, ir palikite jai galimybę pasirinkti datą. Pavyzdžiui, kartu galite suplanuoti pasivaikščiojimą, apsilankymą renginyje ar kūrybinį vakarą namuose. Jeigu užsakote bilietus, iš anksto patikrinkite jų keitimo sąlygas ir tai, ar data jai tinkama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie dovanos pridėkite nuoširdų sakinį apie tikrą bendrą patirtį: „Ačiū už mūsų pokalbius vaikštant [tikroje vietoje]. Norėčiau rasti dar vieną mums abiem tinkamą dieną.“ Pažadėkite tik tai, ką tikrai galite suderinti; neskelbkite asmeninių prisiminimų viešai be jos sutikimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Biudžetas ir pristatymas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nusistatykite sumą, kurią galite skirti visai dovanai, o ne tik jos pagrindinei daliai. Įtraukite pristatymą, kelionę, papildomas priemones bei išlaidas, kurios gali būti būtinos naudojantis kuponu. Prieš perkant patikrinkite pardavėjo galiojimo, rezervacijos, keitimo ir grąžinimo informaciją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nedidelė dovana gali būti asmeniška, jei rodo dėmesį konkretiems jos pomėgiams. Knyga, atvirukas ar kartu suplanuota veikla nėra mažiau prasmingi vien todėl, kad kainuoja mažiau. Jeigu renkatės maisto produktus, peržiūrėkite sudėtį ir atsižvelkite į jos žinomus pageidavimus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikrinkite prieš užsakydami"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Žinote, kad dovana atitinka jos dabartinius norus, o ne tik jūsų pageidaujamą veiklą.",
+            "Bendrai patirčiai tinka vieta, data, dalyvių skaičius ir abiejų planai.",
+            "Į kainą įtrauktos pristatymo, kelionės ir būtinos papildomos išlaidos.",
+            "Kupono ar prekės sąlygos patikrintos pasirinkto pardavėjo puslapyje.",
+            "Sveikinime nėra privataus prisiminimo, kurio ji nenorėtų rodyti kitiems."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Daugiau pasirinkimų pagal įvairius pomėgius rasite kalėdinių dovanų moterims gide, o bendrų patirčių palyginimui tiks kalėdinių dovanų porai gidas. Kad ir kurią idėją rinktumėtės, pradėkite nuo to, kas svarbu jai."
+        }
+      ],
+      "publishAt": "2026-12-03T14:00:00.000Z",
+      "media": [
+        {
+          "id": "fd6d9b75-1688-4e85-938d-4166bb2568d6",
+          "src": "/content-assets/memocasting/fd6d9b75-1688-4e85-938d-4166bb2568d6.webp",
+          "alt": "Pora kartu lankosi šiltai apšviestoje meno galerijoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "c217fc4b-dff8-49f6-86bf-81e5582aa56a"
+        },
+        {
+          "id": "8ef9e12e-67e3-4d83-a795-971d5e2dff5d",
+          "src": "/content-assets/memocasting/8ef9e12e-67e3-4d83-a795-971d5e2dff5d.webp",
+          "alt": "Pora kartu lankosi šiltai apšviestoje meno galerijoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "c217fc4b-dff8-49f6-86bf-81e5582aa56a"
+        },
+        {
+          "id": "0d4d990f-7f29-4075-b63f-294edccb5054",
+          "src": "/content-assets/memocasting/0d4d990f-7f29-4075-b63f-294edccb5054.webp",
+          "alt": "Pora kartu lankosi šiltai apšviestoje meno galerijoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "c217fc4b-dff8-49f6-86bf-81e5582aa56a"
+        },
+        {
+          "id": "62553d06-eb15-4187-98b5-db8e826d2830",
+          "src": "/content-assets/memocasting/62553d06-eb15-4187-98b5-db8e826d2830.webp",
+          "alt": "Pora kartu lankosi šiltai apšviestoje meno galerijoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "c217fc4b-dff8-49f6-86bf-81e5582aa56a"
+        },
+        {
+          "id": "cede65d7-7958-4be4-9809-94b83de9cc07",
+          "src": "/content-assets/memocasting/cede65d7-7958-4be4-9809-94b83de9cc07.webp",
+          "alt": "Pora kartu lankosi šiltai apšviestoje meno galerijoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "c217fc4b-dff8-49f6-86bf-81e5582aa56a"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "„Memory Casting“ poros rankų liejimo rinkinys"
+        },
+        {
+          "targetPageId": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
+          "label": "kalėdinių dovanų moterims gide"
+        },
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdinių dovanų porai gidas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.geradovana.lt/kurybines-arbatos-dirbtuves-yugen-tea",
+          "label": "„Gera dovana“ kūrybinių arbatos dirbtuvių pasiūlymas Vilniuje",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/atpalaiduojamasis-masazas-dviem-masazo-namai",
+          "label": "„Gera dovana“ atpalaiduojamojo masažo dviem pasiūlymas Vilniuje",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "aa635ddc-1b94-4bad-95e8-bbf779281a6c",
+      "revisionHash": "7a20544d616bc19e49a94ed9f0eb2aa3aada46928323b934d4c1eb219a815e2b",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7a20544d616bc19e49a94ed9f0eb2aa3aada46928323b934d4c1eb219a815e2b",
+        "approvedAt": "2026-11-12T00:47:54.907Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/lietuviskos-kaledines-dovanos",
+      "title": "Lietuviškos kalėdinės dovanos: kaip patikrinti kilmę ir išrinkti prasmingai",
+      "description": "Lietuvoje pagamintų kalėdinių dovanų idėjos ir patarimai, kaip patikrinti gamybos vietą bei prekės aprašymą.",
+      "intent": "Padėti rinktis Lietuvoje pagamintas dovanas, skiriant gamybos vietą nuo žaliavų kilmės.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Ieškant lietuviškos kalėdinės dovanos verta atskirti tris dalykus: kur veikia pardavėjas, kur sukurtas prekės ženklas ir kur pagamintas pats daiktas. Lietuviškas pavadinimas ar parduotuvės adresas savaime nepasako visos gaminio kilmės. Jei norite dovanoti Lietuvoje pagamintą daiktą, ieškokite konkretaus gamintojo nurodymo ir prireikus paklauskite jo tiesiogiai. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau pateikiame keturis skirtingų kategorijų pavyzdžius, kurių gamybą Lietuvoje nurodo gaminių aprašymai, ir klausimus, padėsiančius palyginti pasirinkimus. Kainas, prieinamumą ir pristatymo sąlygas prieš užsakydami pasitikrinkite patys: jos gali keistis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką iš tikrųjų reiškia „lietuviška dovana“?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Žmogui gali būti svarbu, kad dovaną Lietuvoje sukūrė dizaineris, kad ji čia pagaminta arba kad pirkiniu paremiamas vietos verslas. Tai skirtingi kriterijai. Lietuvoje supakuota importuota prekė ir Lietuvoje pagamintas gaminys nėra tas pats. Be to, vietos gaminys gali būti pagamintas iš kitur išaugintų ar pagamintų žaliavų."
+        },
+        {
+          "type": "paragraph",
+          "text": "Išsirinkite, kuris kriterijus jums svarbiausias, ir ieškokite aiškaus atsakymo produkto apraše. Jei pardavėjas rašo tik „lietuviškas prekės ženklas“, bet nenurodo gamybos vietos, paprašykite patikslinti. Nereikia žadėti, kad visos dalys ar medžiagos lietuviškos, jei tokio patvirtinimo nėra."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Keturios Lietuvoje pagamintos dovanos palyginimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rankų darbo muilo rinkinys. „Muilo ūkio“ keturių muilo gabalėlių pasiūlyme nurodyta, kad muilas pagamintas Lietuvoje. Tai galimybė žmogui, kuris iš tiesų mėgsta tokius gaminius. Prieš pirkdami perskaitykite sudėtį, atkreipkite dėmesį į gavėjo pageidavimus ir jautrumą bei patikrinkite aktualias pardavimo sąlygas. Nespręskite apie tinkamumą odai vien iš žodžių „rankų darbo“."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Keramikos puodelis. „Tėkmėje“ rankų darbo puodelio „Smiltės magija“ apraše nurodoma, kad jis gaminamas Lietuvoje. Tai pasirinkimas vertinančiam keramiką ir mėgstančiam tokį dizainą. Prieš pirkdami pasidomėkite pasirinkto varianto dydžiu, rankenėle ir priežiūros nurodymais."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Karameliniai saldainiai. „Lai Sąla“ karamelinių saldainių su juoduoju šokoladu puslapyje gamintojas nurodo, kad saldainiai gaminami Lietuvoje. Pavadinime minimas belgiškas šokoladas rodo, kodėl gamybos vietos ir žaliavų kilmės nereikia laikyti tuo pačiu dalyku. Prieš rinkdamiesi skaitykite sudėtį, alergenų informaciją ir atsižvelkite į gavėjo pageidavimus."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Lininė stalo servetėlė. „SMJS“ lininės stalo servetėlės apraše nurodoma, kad ji yra rankų darbo ir pagaminta Lietuvoje. Ji gali tikti žmogui, kuris naudoja tekstilines stalo servetėles; prieš pirkdami patikrinkite matmenis, spalvą bei priežiūros nurodymus. Šis kilmės teiginys savaime nenurodo, kur užaugintas linas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šios nuorodos veda į kitų gamintojų ar pardavėjų puslapius; jas pateikiame kaip skirtingų gaminių pavyzdžius, o ne kaip savo bandymų ar klientų patirties apžvalgą. Kilmės aprašymus patikrinkite dar kartą prieš pirkdami, nes produktų sudėtis ir informacija gali keistis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti gavėjui, o ne vien pagal kilmę?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia pagalvokite, ar žmogus iš tiesų naudotų tokį daiktą. Šeimos, auginančios vaiką, verta atsiklausti dėl kambario dekoro; muilą naudojančiam žmogui svarbus kvapas ir sudėtis; kolegai gali labiau tikti nuoširdi žinutė be papildomo daikto. Vietos gamyba nepakeičia poreikio atsižvelgti į asmeninį skonį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovanojate maistą ar gėrimus, perskaitykite sudėtį bei laikymo nurodymus. Nuotraukų, tekstų ar rankų darbo kūrinių naudojimą dovanai derinkite su jų autoriais. Jeigu nežinote, ko žmogus norėtų, pasiūlykite rinktis drauge – taip jis gaus jam tinkamą dovaną ir jūs galėsite sąmoningai pasirinkti gamintoją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pristatymo ir biudžeto patikra prieš Kalėdas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gaminant pagal užsakymą gali reikėti papildomo laiko, todėl prieš sumokėdami patikrinkite konkretaus gaminio gamybos ir siuntimo sąlygas. Į bendrą išlaidų sumą įtraukite personalizaciją, pakuotę, pristatymą ir galimus papildomus mokesčius. Jei dovana reikalinga konkrečią dieną, pasitikrinkite terminą su pardavėju, o ne remkitės vien bendru pristatymo aprašymu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Individualiai pagamintų prekių užsakymo, taisymo ar grąžinimo sąlygos gali priklausyti nuo aplinkybių. Prieš užsakant įvertinkite pardavėjo pateiktą informaciją ir, jei neaišku, tiesiai paklauskite. Vardą ar datą personalizacijos laukelyje verta perskaityti du kartus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Klausimai pardavėjui, kai kilmė neaiški"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kur pagamintas konkretus daiktas, o ne tik kur registruotas prekės ženklas?",
+            "Kurios gamybos dalys atliekamos Lietuvoje, jei kūrimas ir gamyba vyksta skirtingose vietose?",
+            "Ar žaliavų kilmė nurodoma ir ar ji svarbi jūsų pasirinkimui?",
+            "Kokia dabartinė kaina su pakuote ir pristatymu?",
+            "Kiek trunka gamyba ir kokios sąlygos taikomos personalizuotam užsakymui?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu ieškote daugiau idėjų pagal žmogų ir progą, peržiūrėkite kalėdinių dovanų gidą. Norėdami mažą daiktą įteikti asmeniškiau, galite pasinaudoti kalėdinių dovanų pakavimo patarimais. Pirmiausia pasirinkite gavėjui tinkamą daiktą, o kilmės klausimą pagrįskite konkrečia gamintojo informacija."
+        }
+      ],
+      "publishAt": "2026-12-04T14:00:00.000Z",
+      "media": [
+        {
+          "id": "1bfc4558-92bb-4a1f-8088-2acf13ad0ca3",
+          "src": "/content-assets/memocasting/1bfc4558-92bb-4a1f-8088-2acf13ad0ca3.webp",
+          "alt": "Du amatininkai dirbtuvėse lipdo keramiką ir tvarko lino audinius.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "23a46556-60b2-4519-81ef-6ba894e9a386"
+        },
+        {
+          "id": "24a2988a-172a-47aa-bb09-ebe8c21b1a7f",
+          "src": "/content-assets/memocasting/24a2988a-172a-47aa-bb09-ebe8c21b1a7f.webp",
+          "alt": "Du amatininkai dirbtuvėse lipdo keramiką ir tvarko lino audinius.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "23a46556-60b2-4519-81ef-6ba894e9a386"
+        },
+        {
+          "id": "19c45338-dae3-4547-a6b2-1375f32243c2",
+          "src": "/content-assets/memocasting/19c45338-dae3-4547-a6b2-1375f32243c2.webp",
+          "alt": "Du amatininkai dirbtuvėse lipdo keramiką ir tvarko lino audinius.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "23a46556-60b2-4519-81ef-6ba894e9a386"
+        },
+        {
+          "id": "a19ae045-4e08-43f6-85a0-579a329678fd",
+          "src": "/content-assets/memocasting/a19ae045-4e08-43f6-85a0-579a329678fd.webp",
+          "alt": "Du amatininkai dirbtuvėse lipdo keramiką ir tvarko lino audinius.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "23a46556-60b2-4519-81ef-6ba894e9a386"
+        },
+        {
+          "id": "7db249bd-899d-4c15-b52c-3d1f1c1b713d",
+          "src": "/content-assets/memocasting/7db249bd-899d-4c15-b52c-3d1f1c1b713d.webp",
+          "alt": "Du amatininkai dirbtuvėse lipdo keramiką ir tvarko lino audinius.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "23a46556-60b2-4519-81ef-6ba894e9a386"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "7db71eba-3193-4e80-b481-24f0751f84e1",
+          "label": "kalėdinių dovanų gidą"
+        },
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "kalėdinių dovanų pakavimo patarimais"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://muiloukis.lt/produktas/keturi-gabaleliai-muilo/",
+          "label": "„Muilo ūkio“ keturių muilo gabalėlių pasiūlyme",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://tekmeje.com/produktas/keramikos-puodelis-smiltes-magija/",
+          "label": "„Tėkmėje“ rankų darbo puodelio „Smiltės magija“ apraše",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://laisala.lt/produktai/karameliniai-saldainiai-su-juoduoju-belgisku-sokoladu/",
+          "label": "„Lai Sąla“ karamelinių saldainių su juoduoju šokoladu puslapyje",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://smjs.lt/stalo-tekstile/152-15932-stalo-servetele.html",
+          "label": "„SMJS“ lininės stalo servetėlės apraše",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "c34fd30f-6341-43f7-b21c-b3d33f65413d",
+      "revisionHash": "7a13ef6adea6670e4bdf54d77d7b4c669c8607730da73869af7c1041fe139fab",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "7a13ef6adea6670e4bdf54d77d7b4c669c8607730da73869af7c1041fe139fab",
+        "approvedAt": "2026-11-12T00:47:54.983Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-12T00:31:50.149Z"
+  "generatedAt": "2026-11-12T00:47:55.242Z"
 }
