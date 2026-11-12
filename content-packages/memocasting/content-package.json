@@ -20683,6 +20683,19 @@
         {
           "type": "heading",
           "level": 2,
+          "text": "Dovana tėvams vestuvių metinių proga"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prieš planuodami tėvų vestuvių metines pasiteiraukite, kaip jie patys norėtų švęsti: ramiai dviese ar kartu su šeima. Jei svarstote rezervuotą veiklą, suderinkite datą ir iš anksto patikrinkite, ar ją galima pakeisti arba ką darysite, jei paslauga jiems netiks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei per sukaktį norite įteikti jau sukurtą prisiminimą, įvertinkite, kiek laiko reikia jam paruošti. Platesniame gide „dovana vestuvių metinėms“ aptariame ir įteikimo laiko planavimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
           "text": "Kada svarstyti rankų liejimo rinkinį"
         },
         {
@@ -20799,15 +20812,19 @@
         {
           "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
           "label": "Kalėdinės dovanos tėvams: viena bendra ar dvi atskiros?"
+        },
+        {
+          "targetPageId": "65534355-5b66-42be-ba22-23060c6a0f2e",
+          "label": "dovana vestuvių metinėms"
         }
       ],
       "id": "afdd055b-b5d4-4cb0-89c5-67d4ab620ee4",
-      "revisionHash": "4b9b6d78074298c3be4978eedba43b90f2154ae66717c4459fbeca7dd496631e",
+      "revisionHash": "334f5aeeb302bf208fb8a187ef8e936f50bf77e9421e44bc1e8ec26cff64bcdf",
       "approval": {
         "status": "approved",
-        "revisionHash": "4b9b6d78074298c3be4978eedba43b90f2154ae66717c4459fbeca7dd496631e",
-        "approvedAt": "2026-10-15T08:45:47.829Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "334f5aeeb302bf208fb8a187ef8e936f50bf77e9421e44bc1e8ec26cff64bcdf",
+        "approvedAt": "2026-11-12T16:49:26.829Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -45796,7 +45813,196 @@
         "approvedAt": "2026-11-12T16:31:15.710Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/grozio-proceduru-dovanu-kuponai",
+      "title": "Grožio procedūrų dovanų kuponai: ką patikrinti prieš dovanojant",
+      "description": "Kaip išrinkti grožio procedūrų dovanų kuponą: gavėjo norai, galiojimas, vieta, rezervacija ir tinkamumas.",
+      "intent": "Padėti pasirinkti grožio procedūros kuponą atsižvelgiant į gavėjo sutikimą ir teikėjo sąlygas.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Grožio procedūros kuponas gali būti maloni dovana, jei žmogus pats norėtų tokios paslaugos ir jam patogu ją gauti. Prieš rinkdamiesi pasiteiraukite apie gavėjo pageidavimus, įvertinkite paslaugos vietą ir perskaitykite kupono galiojimo bei rezervacijos sąlygas. Niekada nereikia dovanoti procedūros, kuri skamba kaip pastaba apie žmogaus išvaizdą. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau pateiktus kitų pardavėjų pasiūlymus naudokite kaip pavyzdžius, o ne mūsų asmeninių bandymų apžvalgą. Kainos, laisvos datos ir paslaugų sąlygos gali keistis; prieš pirkdami patikrinkite juos tiesiogiai."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ar gavėjas iš tikrųjų norėtų tokios dovanos?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu žmogus anksčiau aiškiai minėjo konkretų saloną ar veiklą, pradėkite nuo to pageidavimo. Jei nežinote, paklauskite: „Ar tave pradžiugintų galimybė pačiai ar pačiam pasirinkti paslaugą?“ Klausimas gali atskleisti dovanos kryptį, tačiau padeda išvengti situacijos, kai čekis lieka nepanaudotas arba kelia nejaukumą."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuponas neturėtų reikšti, kad žmogus privalo pakeisti savo išvaizdą, kūną ar įpročius. Jei abejojate, apsvarstykite neutralią alternatyvą: jos ar jo pasirinktos parduotuvės kuponą, knygą, bendrą laiką ar tiesiog padėkos žinutę. Tai, kas vienam žmogui atrodo poilsis, kitam gali būti nepageidaujama paslauga."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vertės čekis ar konkreti procedūra?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vertės čekis pagal pardavėjo taisykles gali leisti rinktis iš siūlomų paslaugų. Pavyzdžiui, „Gera dovana“ grožio studijos „Dalia“ čekio apraše nurodomas pasiūlymas Vilniuje. Prieš pirkdami patikrinkite konkretaus čekio panaudojimo galimybes, pasirinkto nominalo taisykles ir ar gavėjui šio salono paslaugos įdomios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkrečios veiklos čekis reiškia pasirinkimą už gavėją, todėl turite žinoti, kad jis norėtų būtent šios paslaugos. Pavyzdžiui, „Gera dovana“ masažo dviem Vilniuje aprašas yra konkrečios veiklos dviem pavyzdys. Pasitikrinkite dalyvių skaičių ir sąlygas, o dėl individualaus tinkamumo kreipkitės į paslaugos teikėją. Nespręskite už gavėją, kad jis norėtų dalyvauti poroje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šios nuorodos skirtos dviem pasiūlymų tipams suprasti, o ne įrodyti, kad vienas pasirinkimas visiems geresnis. Pardavėjų kainos, turinys ir prieinamumas gali keistis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Individualūs poreikiai ir tinkamumas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kai kurios paslaugos gali netikti dėl individualių aplinkybių. Neprisiimkite atsakomybės vertinti kito žmogaus sveikatos ir neprašykite jo atskleisti privačių duomenų jums. Prieš pirkdami galite paprašyti paslaugos teikėjo paaiškinti bendras paslaugos sąlygas, o gavėjas dėl savo individualaus tinkamumo, jei reikia, gali pasitarti su teikėju ar sveikatos specialistu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Venkite reklamos pažadų, kad procedūra būtinai pagerins sveikatą ar išvaizdą. Šio gido pavyzdžiai nėra medicininės rekomendacijos. Jei žinote, kad gavėjas nenori tokios veiklos, gerbkite jo pasirinkimą net jei pasiūlymas jums atrodo patrauklus."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Vieta, laikas ir papildomi mokėjimai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patikrinkite tikslų paslaugos teikimo miestą ir vietą, kaip atliekama rezervacija ir ar yra datų, kurios gavėjui gali tikti. Prie kupono kainos pridėkite kelionę, galimą papildomą dalyvį ar kitus mokesčius. Jeigu norite, kad žmogui nereikėtų primokėti, paklauskite teikėjo, ar pasirinkto čekio vertės pakaks pageidaujamai paslaugai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peržiūrėkite galiojimo terminą, registracijos ar neatvykimo sąlygas, atšaukimo bei keitimo galimybes. Nenumanykite, kad visų įmonių kuponus galima pratęsti arba panaudoti dalimis. Jei aprašas neaiškus, pasiklauskite prieš atsiskaitydami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip įteikti kuponą pagarbiai?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie čekio galite parašyti: „Jei norėsi, išsirink sau tinkančią paslaugą ir laiką. Pridėjau pardavėjo sąlygas.“ Jeigu pasirinkimas yra tik konkreti procedūra, taip ir nurodykite. Jei dar nieko nenupirkote, vadinkite tai savo kvietimu pasitarti, o ne jau galiojančiu paslaugos kuponu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kupono kodą ir naudojimo informaciją perduokite privačiai. Nereikalaukite, kad gavėjas paslaugą išbandytų ar dalytųsi nuotraukomis – jam turėtų būti patogu pačiam nuspręsti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pirkdami pasitikrinkite"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gavėjas yra išreiškęs norą gauti tokio pobūdžio paslaugą.",
+            "Aišku, ar čekis suteikia vertę pasirinkimui, ar apima konkrečią veiklą.",
+            "Vieta, rezervacijos laikai, galiojimas ir galimos priemokos suprantami.",
+            "Individualaus tinkamumo klausimai palikti gavėjui bei atitinkamam specialistui.",
+            "Pardavėjo sąlygas ir kodą galėsite perduoti privačiai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei ieškote kitokios patirties, kalėdinių dovanų moterims gide rasite pasirinkimų pagal pomėgius, o kalėdinių dovanų porai gide – idėjų bendram laikui. Abu gidai veda į skirtingas alternatyvas, todėl vertinkite, kas patinka konkrečiam žmogui."
+        }
+      ],
+      "publishAt": "2026-12-14T14:00:00.000Z",
+      "media": [
+        {
+          "id": "e65b02c3-4542-4e04-861d-a29108740efe",
+          "src": "/content-assets/memocasting/e65b02c3-4542-4e04-861d-a29108740efe.webp",
+          "alt": "Moteris atsipalaiduoja grožio studijoje, darbuotoja ruošia rankšluosčius.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "eaa813fd-3608-48ad-95c3-eb6a9646debc"
+        },
+        {
+          "id": "518b2664-3484-4709-ae08-4468aee5f650",
+          "src": "/content-assets/memocasting/518b2664-3484-4709-ae08-4468aee5f650.webp",
+          "alt": "Moteris atsipalaiduoja grožio studijoje, darbuotoja ruošia rankšluosčius.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "eaa813fd-3608-48ad-95c3-eb6a9646debc"
+        },
+        {
+          "id": "7fc3217e-15a9-47fe-8dd1-5ca1f052c346",
+          "src": "/content-assets/memocasting/7fc3217e-15a9-47fe-8dd1-5ca1f052c346.webp",
+          "alt": "Moteris atsipalaiduoja grožio studijoje, darbuotoja ruošia rankšluosčius.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "eaa813fd-3608-48ad-95c3-eb6a9646debc"
+        },
+        {
+          "id": "a20c9ff9-ea5b-44d5-8d75-eafe6cd2f0d6",
+          "src": "/content-assets/memocasting/a20c9ff9-ea5b-44d5-8d75-eafe6cd2f0d6.webp",
+          "alt": "Moteris atsipalaiduoja grožio studijoje, darbuotoja ruošia rankšluosčius.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "eaa813fd-3608-48ad-95c3-eb6a9646debc"
+        },
+        {
+          "id": "c461c5d3-d9f7-4039-8e2e-dce6de04403b",
+          "src": "/content-assets/memocasting/c461c5d3-d9f7-4039-8e2e-dce6de04403b.webp",
+          "alt": "Moteris atsipalaiduoja grožio studijoje, darbuotoja ruošia rankšluosčius.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "eaa813fd-3608-48ad-95c3-eb6a9646debc"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
+          "label": "kalėdinių dovanų moterims gide"
+        },
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdinių dovanų porai gide"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.geradovana.lt/grozio-studijos-dalia-dovanu-cekis-dalios-grozio-studija",
+          "label": "„Gera dovana“ grožio studijos „Dalia“ čekio apraše",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/atpalaiduojamasis-masazas-dviem-masazo-namai",
+          "label": "„Gera dovana“ masažo dviem Vilniuje aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "26e3faca-3772-449f-b185-d012018084f1",
+      "revisionHash": "041394c928f9c8d51257c192f89987d58c1aaac08491a94283a9f2408bbe3bfc",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "041394c928f9c8d51257c192f89987d58c1aaac08491a94283a9f2408bbe3bfc",
+        "approvedAt": "2026-11-12T16:49:27.013Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-12T16:31:16.147Z"
+  "generatedAt": "2026-11-12T16:49:27.676Z"
 }
