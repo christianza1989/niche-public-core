@@ -11873,7 +11873,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Užrašykite tris idėjas. Kiekvienai atsakykite taip arba ne: ar žinau, kodėl žmogus jos nori; ar jis galės ja naudotis be papildomo pirkinio; ar tilps visa galutinė suma; ar realus gavimo arba panaudojimo planas? Kandidatą, į kurį atsakėte „ne“ bent du kartus, pakeiskite tinkamesniu."
+          "text": "Užrašykite tris idėjas. Kiekvienai atsakykite taip arba ne: ar žinau, kodėl žmogus jos nori; ar jis galės ja naudotis be papildomo pirkinio; ar tilps visa galutinė suma; ar realus gavimo arba panaudojimo planas? Kandidatą, į kurį atsakėte „ne“ bent du kartus, pakeiskite tinkamesniu. Jei svarbi kilmė, lietuviškos kalėdinės dovanos vertinamos pagal konkrečios prekės gamybos vietą, o ne vien lietuvišką parduotuvės pavadinimą."
         },
         {
           "type": "paragraph",
@@ -12134,6 +12134,10 @@
         {
           "targetPageId": "f9cc9326-35d4-4349-8be6-082439e2e9ce",
           "label": "kalėdiniai sveikinimai"
+        },
+        {
+          "targetPageId": "c34fd30f-6341-43f7-b21c-b3d33f65413d",
+          "label": "lietuviškos kalėdinės dovanos"
         }
       ],
       "externalLinks": [
@@ -12184,11 +12188,11 @@
         }
       ],
       "id": "7db71eba-3193-4e80-b481-24f0751f84e1",
-      "revisionHash": "0ff0b0094b788d5f6707ed9f68cbfa6026f7c0c6ca431bdab466dc3da86504f4",
+      "revisionHash": "1b394f98a2446b29960fe2f0dc4cefebe6645fc5c6f876253f00cb15c551348d",
       "approval": {
         "status": "approved",
-        "revisionHash": "0ff0b0094b788d5f6707ed9f68cbfa6026f7c0c6ca431bdab466dc3da86504f4",
-        "approvedAt": "2026-11-11T23:55:22.013Z",
+        "revisionHash": "1b394f98a2446b29960fe2f0dc4cefebe6645fc5c6f876253f00cb15c551348d",
+        "approvedAt": "2026-11-12T01:08:37.931Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
     },
@@ -21458,7 +21462,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Kai dovana priklauso nuo dydžio, skonio ar darbotvarkės, paklauskite apie tą dalį tiesiogiai. Galite išsaugoti kitus netikėtus elementus: laišką, pakuotę ar įteikimo vietą. Klausimas „Labiau norėtum vakaro dviese ar dovanos savo pomėgiui?“ palieka jums erdvės pasiruošti ir leidžia jai išsakyti norą."
+          "text": "Kai dovana priklauso nuo dydžio, skonio ar darbotvarkės, paklauskite apie tą dalį tiesiogiai. Galite išsaugoti kitus netikėtus elementus: laišką, pakuotę ar įteikimo vietą. Klausimas „Labiau norėtum vakaro dviese ar dovanos savo pomėgiui?“ palieka jums erdvės pasiruošti ir leidžia jai išsakyti norą. Rinkdami kalėdinę dovaną žmonai pagal individualų užsakymą, atskirai patikrinkite gamybos ir pristatymo terminus."
         },
         {
           "type": "paragraph",
@@ -21565,15 +21569,19 @@
         {
           "targetPageId": "2343efcf-55bf-4aca-9b6a-d55eb4a20ef8",
           "label": "Kalėdinės dovanos moterims pagal jų pomėgius"
+        },
+        {
+          "targetPageId": "aa635ddc-1b94-4bad-95e8-bbf779281a6c",
+          "label": "kalėdinę dovaną žmonai"
         }
       ],
       "id": "3db28bf9-e96f-4381-b414-cf70471aca6c",
-      "revisionHash": "99962195ea4bbc4ee988c99f6c89498c2897556d2c05970a14ea258c3d75aaf3",
+      "revisionHash": "5c538f1ab5a06482998c1cd1e83467f474b9c2e984f5f0f2eaa1a2b3da62c12e",
       "approval": {
         "status": "approved",
-        "revisionHash": "99962195ea4bbc4ee988c99f6c89498c2897556d2c05970a14ea258c3d75aaf3",
-        "approvedAt": "2026-10-15T08:45:47.956Z",
-        "actorId": "codex-memocasting-date-only-launch-20261015"
+        "revisionHash": "5c538f1ab5a06482998c1cd1e83467f474b9c2e984f5f0f2eaa1a2b3da62c12e",
+        "approvedAt": "2026-11-12T01:08:37.850Z",
+        "actorId": "codex-memocasting-editor-20261112"
       }
     },
     {
@@ -44012,7 +44020,773 @@
         "approvedAt": "2026-11-12T00:47:54.983Z",
         "actorId": "codex-memocasting-editor-20261112"
       }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/kaledines-dovanos-namams",
+      "title": "Kalėdinės dovanos namams: kaip išrinkti tinkamą daiktą ar bendrą veiklą",
+      "description": "Kalėdinių dovanų namams idėjos ir kriterijai, padėsiantys rinktis pagal žmonių pomėgius ir erdvę.",
+      "intent": "Padėti pasirinkti namams tinkamą dovaną pagal gavėjų poreikius ir pomėgius.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Kalėdinė dovana namams turėtų tikti ten gyvenantiems žmonėms, o ne vien gražiai atrodyti parduotuvėje. Prieš pirkdami pasiteiraukite, ar jiems reikia naujo daikto, kiek yra vietos ir kokios spalvos bei medžiagos patinka. Jei abejojate, kartais geresnis pasirinkimas – sunaudojama dovana, bendras žaidimas arba kvietimas kartu pasirinkti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toliau pateikiamos konkrečios idėjos ir praktiniai atrankos klausimai. Kitų pardavėjų pasiūlymus pristatome palyginimui, ne kaip mūsų asmeniškai išbandytas prekes. Kainos, pristatymas ir prieinamumas gali keistis – prieš užsakydami juos patikrinkite pas pardavėją."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti, kai dovanojate visiems namams?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasitarkite dėl poreikio. Viename būste žmonės gali mėgti minimalistinę aplinką, kitame – tekstilę ar bendrus žaidimus. Užuot spėlioję apie interjerą, paklauskite, kokio daikto jiems iš tiesų reikėtų. Jei nenorite atskleisti staigmenos, galite pasitikslinti vieną svarbią detalę, pavyzdžiui, ar jie naudoja medžiagines stalo servetėles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Įvertinkite vietą ir priežiūrą. Dideliems daiktams reikia vietos, tekstilei – priežiūros, o gyviems augalams gali reikėti reguliaraus dėmesio. Dovana neturėtų virsti papildomu darbu, kurio gavėjai neprašė. Kvapnūs ar valgomi gaminiai netinka visiems, todėl pasitikrinkite pageidavimus ir sudėtį."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rinkitės visiems, o ne už visus. Bendras daiktas nebūtinai tiks kiekvienam namų gyventojui. Veiklą ar žaidimą verta pasiūlyti tuomet, kai žmonėms iš tikrųjų patinka taip leisti laiką; jei nežinote, leiskite jiems patiems pasirinkti."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dovanos kryptis: Stalo tekstilė; Kada gali tikti: Kai gavėjai ją naudoja; Ką pasitikrinti: Matmenis, spalvą ir priežiūrą",
+            "Dovanos kryptis: Žaidimas ar dėlionė; Kada gali tikti: Jei mėgsta bendrą veiklą; Ką pasitikrinti: Turinį, amžiaus nurodymus ir vietą laikymui",
+            "Dovanos kryptis: Sunaudojama dovana; Kada gali tikti: Jei žinomi gavėjų pomėgiai; Ką pasitikrinti: Sudėtį, alergenus ir galiojimą",
+            "Dovanos kryptis: Bendras kūrybinis rinkinys; Kada gali tikti: Jei žmonės norėtų jį naudoti kartu; Ką pasitikrinti: Dalyvių poreikius, instrukciją ir pasiruošimą"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkretūs variantai palyginimui"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lininė stalo servetėlė. „SMJS“ lininės servetėlės apraše nurodoma, kad ji pagaminta Lietuvoje. Tai idėja namams, kuriuose tokie daiktai naudojami; pasirinkite spalvą ir kiekį atsižvelgę į gavėjus, patikrinkite išmatavimus ir priežiūros rekomendacijas. Gamybos vieta savaime neįrodo lino žaliavos kilmės."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dėlionė bendram vakarui. „Pegaso“ dėlionės „Nature's Prism“ apraše nurodytos 500 detalių. Ji gali tikti mėgstantiems dėliones, jeigu paveikslas patinka ir jie turi vietos dėliojimui. Patikrinkite pasirinktos prekės įspėjimus ir pristatymo laiką; tai nėra tinkamumo visiems vaikams patvirtinimas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankų liejimo rinkinys. „Memory Casting“ šeimos rinkinys yra šios svetainės prekė, skirta kartu kurti rankų skulptūrą. Rinkitės, jei gavėjai iš tikrųjų nori tokios veiklos, ir prieš pirkdami peržiūrėkite instrukciją bei komplektaciją. Tai kūrybinė patirtis, o ne jau pagamintas namų aksesuaras."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip pasirinkti daiktą, kuris neužims nereikalingos vietos?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasitikrinkite išmatavimus ir pagalvokite, kur daiktas bus laikomas. Jei dovanojate tekstilę, svarbi ne tik spalva: paklauskite, ar gavėjai naudoja tokią medžiagą ir kokios priežiūros ji reikalauja. Prieš perkant dekoraciją verta žinoti, ar ji derės prie žmogaus pasirinktos aplinkos. Negalima spręsti vien iš savo namų skonio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu nežinote, ką jie jau turi, galima dovanoti nedidelę bendrą veiklą ar ranka parašytą kvietimą. Nenurodykite konkrečios datos, kol ji nesuderinta, ir nepaverskite dovanos įsipareigojimu priimti svečius. Kartais klausimas „ar norėtumėte kartu praleisti vakarą?“ yra geriausias būdas rasti tinkamą formą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kiek kainuos visa dovana ir kaip ją įteikti?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie prekės ar veiklos kainos pridėkite pristatymą, pakavimą ir viską, ko reikės jai naudoti. Kai dovanoja keli žmonės, aptarkite, kiek kiekvienam patogu prisidėti ir kas pasirūpins užsakymu. Vienas gali pasirūpinti kortele ar pristatymu, net jei prie pirkinio pinigais neprisideda."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prie dovanos pridėkite trumpą žinutę be pažadų, kurių negalite išpildyti: „Linkime jaukių švenčių ir laiko tam, ką mėgstate veikti kartu.“ Dovanodami maistą ar gėrimus, būtinai peržiūrėkite produkto sudėtį, galiojimą bei gavėjų pageidavimus. Jei siunčiate, prieš užsakydami patikrinkite adresą ir vežėjo sąlygas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Prieš pirkdami pasitikrinkite"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ar gavėjai nori būtent tokio daikto ir ar jau jo neturi?",
+            "Ar matmenys, spalva ir priežiūra tinka jų namams?",
+            "Jei dovanojate veiklą, ar visi norintys galės ja naudotis?",
+            "Ar į kainą įtrauktas pristatymas ir būtinos papildomos priemonės?",
+            "Ar pas pardavėją patikrinote dabartinę kainą, prieinamumą ir grąžinimo sąlygas?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu ieškote dovanos žmonėms, o ne interjerui, peržiūrėkite kalėdinių dovanų šeimai gidą. Planuodami bendrą dovaną keliems gavėjams galite palyginti ir kalėdinių dovanų tėvams idėjas. Mažiau daiktų, labiau tinkančių gavėjams, dažnai padeda išvengti nereikalingų pirkinių."
+        }
+      ],
+      "publishAt": "2026-12-05T14:00:00.000Z",
+      "media": [
+        {
+          "id": "3cac6137-26e6-405f-9ab0-1cdec16dba6d",
+          "src": "/content-assets/memocasting/3cac6137-26e6-405f-9ab0-1cdec16dba6d.webp",
+          "alt": "Pora ruošia jaukų šventinį namų kampelį.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "993be502-928e-40bb-99fb-2a98882019f4"
+        },
+        {
+          "id": "d7b70177-c03d-4c70-ae15-781e380bddad",
+          "src": "/content-assets/memocasting/d7b70177-c03d-4c70-ae15-781e380bddad.webp",
+          "alt": "Pora ruošia jaukų šventinį namų kampelį.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "993be502-928e-40bb-99fb-2a98882019f4"
+        },
+        {
+          "id": "db327ecd-9283-4bc2-9a9e-426d7a68e77e",
+          "src": "/content-assets/memocasting/db327ecd-9283-4bc2-9a9e-426d7a68e77e.webp",
+          "alt": "Pora ruošia jaukų šventinį namų kampelį.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "993be502-928e-40bb-99fb-2a98882019f4"
+        },
+        {
+          "id": "b67af3f6-76cc-4cad-9dfc-e3852c177bae",
+          "src": "/content-assets/memocasting/b67af3f6-76cc-4cad-9dfc-e3852c177bae.webp",
+          "alt": "Pora ruošia jaukų šventinį namų kampelį.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "993be502-928e-40bb-99fb-2a98882019f4"
+        },
+        {
+          "id": "21ba4ed8-8e89-439f-965b-2d97e9c6431a",
+          "src": "/content-assets/memocasting/21ba4ed8-8e89-439f-965b-2d97e9c6431a.webp",
+          "alt": "Pora ruošia jaukų šventinį namų kampelį.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "993be502-928e-40bb-99fb-2a98882019f4"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "66af512a-e57e-4f14-bfd5-0651eca06613",
+          "label": "„Memory Casting“ šeimos rinkinys"
+        },
+        {
+          "targetPageId": "94c34ccb-1514-4dc4-9137-f0eb3b6b0589",
+          "label": "kalėdinių dovanų šeimai gidą"
+        },
+        {
+          "targetPageId": "9540b7b3-3c05-429f-89b8-55db019f8577",
+          "label": "kalėdinių dovanų tėvams idėjas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://smjs.lt/stalo-tekstile/152-15932-stalo-servetele.html",
+          "label": "„SMJS“ lininės servetėlės apraše",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.pegasas.lt/delione-galison-nature-s-prism-500-det-5728394/",
+          "label": "„Pegaso“ dėlionės „Nature's Prism“ apraše",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "b7c31775-f3e8-4edc-af24-fc61a862e36d",
+      "revisionHash": "bc98f36e3ed1cb2a8ee906ff31c7f8eec3e491af84c5ea15d5c3eb4d9696f36d",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "bc98f36e3ed1cb2a8ee906ff31c7f8eec3e491af84c5ea15d5c3eb4d9696f36d",
+        "approvedAt": "2026-11-12T01:08:38.011Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dovanu-kuponai-paaugliams",
+      "title": "Dovanų kuponai paaugliams: ką patikrinti prieš pasirenkant",
+      "description": "Kaip pasirinkti dovanų kuponą paaugliui: veiklos tinkamumas, galiojimas, amžius ir kitos sąlygos.",
+      "intent": "Padėti pasirinkti paaugliui tinkamą kuponą tikrinant paslaugos ir naudojimo sąlygas.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovanų kuponas paaugliui gali suteikti galimybę pačiam išsirinkti knygą, žaidimą ar norimą veiklą. Tačiau jis naudingas tik tada, jei pasirinktas pardavėjas ir naudojimo sąlygos iš tiesų tinka gavėjui. Prieš pirkdami paklauskite apie jo pomėgius, patikrinkite kupono galiojimą, naudojimo vietas ir tai, ar veiklai netaikomi amžiaus arba suaugusiojo dalyvavimo reikalavimai. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide aptariami kitų pardavėjų kuponų bei patirčių pavyzdžiai. „Memory Casting“ čia neparduoda šių paslaugų, o kainų, likučių ir sąlygų pasikeitimus reikia patikrinti tiesiogiai prieš užsakant."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip išrinkti kuponą kartu su paaugliu?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo atviro klausimo: „Ar norėtum išsirinkti daiktą, ar tau labiau patiktų veikla?“ Pasiūlymas rinktis neprivalo atskleisti visos dovanos. Pavyzdžiui, galite paklausti, kurios dvi parduotuvės jam artimos, arba ar jis norėtų būti vienas, su draugu ar šeimos nariu. Nesirinkite procedūros, kurios žmogus neprašė, ir nepaverskite dovanos komentaru apie jo išvaizdą ar pasiekimus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasitarkite su tėvais ar globėjais, jeigu tai padės įvertinti praktines sąlygas, tačiau nepamirškite išgirsti paties paauglio. Užsiėmimams gali būti taikomi amžiaus, saugos ar lydinčio suaugusiojo reikalavimai. Juos tikrinkite su paslaugos teikėju, o ne pagal bendrą žodį „vaikams“."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ko norėtų gavėjas?: Pasirinkti savarankiškai; Galima kryptis: Parduotuvės kuponas; Prieš perkant paklauskite: Kur gali jį panaudoti ir ar prekės jam įdomios?",
+            "Ko norėtų gavėjas?: Išmokti naują dalyką; Galima kryptis: Užsiėmimo čekis; Prieš perkant paklauskite: Koks leidžiamas amžius ir ar reikia lydinčio asmens?",
+            "Ko norėtų gavėjas?: Leisti laiką su draugais; Galima kryptis: Kelių žmonių veikla; Prieš perkant paklauskite: Ar čekis apima visus dalyvius ir reikiamą įrangą?",
+            "Ko norėtų gavėjas?: Rinktis be skubos; Galima kryptis: Lanksčių sąlygų kuponas; Prieš perkant paklauskite: Koks galiojimas ir kaip keičiamas pasiūlymas?"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Du pasiūlymų pavyzdžiai ir ką juose tikrinti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elektroninis knygyno kuponas. „Pegaso“ elektroninio dovanų kupono puslapis yra vienas pavyzdžių, kai gavėjas gali rinktis iš pardavėjo asortimento. Prieš pirkdami patikrinkite kupono vertės pasirinkimus, galiojimą, panaudojimo vietas ir ką daryti, jei pasirinkta prekė kainuoja daugiau arba panaudojama ne visa suma. Jeigu paaugliui knygyno prekės neįdomios, ieškokite kito pasirinkimo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šokolado gaminimo edukacija. „Gera dovana“ šokolado gaminimo programos vaikams aprašas yra veiklos, o ne bendros vertės parduotuvės kupono pavyzdys. Apraše programa nurodoma vaikams iki 18 metų, o atsakyme į klausimą – 12 asmenų grupė. Prieš pirkdami paslaugos teikėjo paklauskite, ar ji tinka konkretaus amžiaus paaugliui, ar būtina lydinčio suaugusiojo registracija, kur ir kada vyksta užsiėmimas bei kokia sudėtis aktuali dėl alergijų. Neužsakykite datos, kol jos neaptarėte su gavėju ir šeima; aktualias sąlygas patikrinkite iš naujo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šie pasiūlymai pateikiami kaip skirtingų pasirinkimų pavyzdžiai, o ne mūsų išbandytų paslaugų rekomendacijos. Pardavėjai gali pakeisti sąlygas, todėl perskaitykite naujausią informaciją prieš atsiskaitydami."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kuponas parduotuvei ar konkreti patirtis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parduotuvės kuponas gali būti lankstesnis, kai paauglys jau žino jam patinkančią parduotuvę, bet jūs nežinote konkrečios prekės. Vis dėlto patikrinkite, ar įmanoma juo atsiskaityti internetu ar fizinėje vietoje, ar galima naudoti dalimis ir kokios taisyklės taikomos likučiui. Šie atsakymai skiriasi pagal pardavėją; nespręskite apie juos iš kito kupono patirties."
+        },
+        {
+          "type": "paragraph",
+          "text": "Konkretaus užsiėmimo čekis tinka tada, kai žinote, jog gavėjas nori būtent tos veiklos. Prie kainos gali prisidėti kelionė, papildomas dalyvis, įranga ar paslauga, kurios čekis neapima. Patikrinkite tikslią pasiūlymo apimtį, registracijos būdą, datų pasirinkimą, keitimą ir atšaukimą."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip įteikti kuponą neprimetant planų?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pridėkite paprastą žinutę: „Norėjau palikti tau galimybę pasirinkti tai, kas patinka. Jei norėsi, padėsiu išsiaiškinti sąlygas.“ Jeigu dovanojate konkrečią veiklą, patogu kartu perduoti teikėjo nuorodą ir pagrindinius dokumentus, bet neskelbkite kupono kodo viešai. Svarbiausia – kad gavėjas žinotų, kas įeina į dovaną ir kada bei kur ja galima pasinaudoti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Renkant kalėdinę dovaną mažesniam vaikui ar paaugliui, papildomų klausimų apie poreikius rasite kalėdinių dovanų paaugliams gide. Jei dar svarstote, ar apskritai rinktis daiktą, peržiūrėkite kalėdinių dovanų vaikams idėjas."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikra prieš perkant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gavėjas norėtų rinktis iš šio pardavėjo ar dalyvauti šioje veikloje.",
+            "Amžiaus ir lydinčio asmens sąlygos patikrintos tiesiogiai su teikėju.",
+            "Galiojimas, panaudojimo vietos ir registracija suprantami.",
+            "Aišku, ar kuponas naudojamas dalimis ir kas vyksta su likučiu.",
+            "Apskaičiuotos galimos kelionės, papildomo dalyvio ar įrangos išlaidos.",
+            "Gavėjas gaus kupono sąlygas ir kodą privačiai."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu kuris nors atsakymas neaiškus, prieš mokėdami paklauskite pardavėjo. Tikras pasirinkimo laisvės privalumas atsiranda tada, kai kuponą paaugliui patogu panaudoti."
+        }
+      ],
+      "publishAt": "2026-12-06T14:00:00.000Z",
+      "media": [
+        {
+          "id": "59903a07-8a97-405c-8636-7581244f3adf",
+          "src": "/content-assets/memocasting/59903a07-8a97-405c-8636-7581244f3adf.webp",
+          "alt": "Paauglys ir suaugusi moteris kartu šviesioje miesto erdvėje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "43fb1375-ff29-4d5f-a0f8-ca200e1aefbf"
+        },
+        {
+          "id": "d54188ed-0c43-4ce3-875f-88bdd43e9e8d",
+          "src": "/content-assets/memocasting/d54188ed-0c43-4ce3-875f-88bdd43e9e8d.webp",
+          "alt": "Paauglys ir suaugusi moteris kartu šviesioje miesto erdvėje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "43fb1375-ff29-4d5f-a0f8-ca200e1aefbf"
+        },
+        {
+          "id": "d9ec7856-90c3-4e9c-a4df-6f3dcfbff68f",
+          "src": "/content-assets/memocasting/d9ec7856-90c3-4e9c-a4df-6f3dcfbff68f.webp",
+          "alt": "Paauglys ir suaugusi moteris kartu šviesioje miesto erdvėje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "43fb1375-ff29-4d5f-a0f8-ca200e1aefbf"
+        },
+        {
+          "id": "2c0a93d5-a318-4e7c-b7de-f12c7a861b7c",
+          "src": "/content-assets/memocasting/2c0a93d5-a318-4e7c-b7de-f12c7a861b7c.webp",
+          "alt": "Paauglys ir suaugusi moteris kartu šviesioje miesto erdvėje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "43fb1375-ff29-4d5f-a0f8-ca200e1aefbf"
+        },
+        {
+          "id": "bf353006-3d23-4e00-a1a2-0d9f6954937d",
+          "src": "/content-assets/memocasting/bf353006-3d23-4e00-a1a2-0d9f6954937d.webp",
+          "alt": "Paauglys ir suaugusi moteris kartu šviesioje miesto erdvėje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "43fb1375-ff29-4d5f-a0f8-ca200e1aefbf"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "fc1745b3-f2a4-4dc3-b865-fa694a4d44b4",
+          "label": "kalėdinių dovanų paaugliams gide"
+        },
+        {
+          "targetPageId": "127fe08d-856c-4488-ba89-8196b17572fe",
+          "label": "kalėdinių dovanų vaikams idėjas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pegasas.lt/dovanu-kuponai/el-dovanu-kuponas-21001319/",
+          "label": "„Pegaso“ elektroninio dovanų kupono puslapis",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/edukacine-sokolado-gaminimo-programa-vaikams-aj-sokoladas",
+          "label": "„Gera dovana“ šokolado gaminimo programos vaikams aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "4d1c4129-3e13-4f88-9933-04d1ef56507f",
+      "revisionHash": "0d11e03f6d6b24d0642b5349faa312544b586a44a53f89bd76317a40fb3418dd",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "0d11e03f6d6b24d0642b5349faa312544b586a44a53f89bd76317a40fb3418dd",
+        "approvedAt": "2026-11-12T01:08:38.087Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/dovanu-kuponas-porai",
+      "title": "Dovanų kuponas porai: kaip išrinkti veiklą, kuri patiktų abiem",
+      "description": "Kaip išrinkti dovanų kuponą porai: dalyvių skaičius, vieta, galiojimas ir pasirinktos veiklos sąlygos.",
+      "intent": "Padėti pasirinkti kuponą porai atsižvelgiant į abiejų norus ir paslaugos sąlygas.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Dovanų kuponas porai gali būti kvietimas patirti ką nors kartu, tačiau geras pasirinkimas prasideda nuo abiejų žmonių norų. Prieš pirkdami išsiaiškinkite, kokia veikla jiems patiktų, ar vieta pasiekiama ir ar pasiūlymas tikrai skirtas dviem. Tada palyginkite galiojimą, rezervacijos galimybes ir visas papildomas išlaidas. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pateikiame kelis realių pasiūlymų pavyzdžius palyginimui. Kainų, laisvų datų ar dabartinio prieinamumo netvirtiname: prieš užsakydami perskaitykite teikėjo sąlygas ir, jeigu reikia, su juo susisiekite."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Nuo ko pradėti renkant kuponą dviem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pirmiausia pagalvokite apie abu gavėjus. Vienas gali mėgti aktyvius užsiėmimus, o kitam labiau patinka ramus vakaras namuose. Jei nežinote, nesistenkite atspėti vien iš šeimyninės padėties: galite paklausti, ar jie mieliau rinktųsi kūrybą, maistą ar poilsį. Atviras pasirinkimas dažnai geriau nei staigmena, kuria džiaugiasi tik vienas žmogus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Patikrinkite ir kasdienes aplinkybes: kuriame mieste jiems patogu dalyvauti, ar galima pasirinkti datą vėliau ir ar į užsiėmimą lengva nuvykti. Jeigu pora augina vaikus, neplanuokite už juos vaikų priežiūros ar kelionės – geriau pasitarkite, kokios sąlygos jiems priimtinos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Klausimas: Ar patirtis tikrai dviem?; Kodėl svarbu: Vieno dalyvio čekio gali nepakakti; Ką tikrinti: Dalyvių skaičių pasiūlymo apraše",
+            "Klausimas: Ar vieta patogi?; Kodėl svarbu: Papildoma kelionė keičia dovanos vertę; Ką tikrinti: Adresą, susisiekimą ir galimą nakvynę",
+            "Klausimas: Ar datas galima rinktis?; Kodėl svarbu: Gavėjai gali turėti kitų planų; Ką tikrinti: Galiojimą, rezervaciją ir pakeitimo taisykles",
+            "Klausimas: Kas įeina į kainą?; Kodėl svarbu: Priemones ar papildomą žmogų gali tekti pirkti atskirai; Ką tikrinti: Tikslų paslaugos turinį ir galimas priemokas"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Konkretūs pasiūlymai pagal pomėgius"
+        },
+        {
+          "type": "paragraph",
+          "text": "Masažas dviem. „Gera dovana“ masažo dviem pasiūlymo Vilniuje apraše nurodyta veikla dviem. Ji gali tikti tik jei abu gavėjai norėtų masažo ir jiems patogus Vilnius. Dėl individualaus tinkamumo ir praktinių sąlygų prieš perkant pasiteiraukite teikėjo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Picos gaminimo mokymai. „Gera dovana“ picos gaminimo mokymų Vilniuje aprašas – kitas pasirinkimas gaminti mėgstantiems žmonėms. Konkrečiame užsakyme patikrinkite, ar pasirinktas variantas apima abu dalyvius, taip pat sudėtį, laiką ir rezervavimo taisykles. Jei vienas gavėjas nemėgsta grupinių veiklų, ieškokite kito varianto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kūrybinė veikla namuose. „Memory Casting“ poros rankų liejimo rinkinys yra šios svetainės parduodama fizinė prekė, o ne dovanų kuponas. Tai alternatyva, jeigu pora norėtų pati kurti rankų skulptūrą namuose. Prieš renkantis peržiūrėkite komplektaciją ir instrukciją bei pasitarkite, ar tokia veikla patiktų abiem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kitų pardavėjų nuorodos skirtos palyginimui; neteigiame, kad šias paslaugas išbandėme. Pasiūlymų kainos, vietos, laikai ir naudojimo sąlygos gali keistis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką patikrinti prieš perkant?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perskaitykite ne tik pasiūlymo pavadinimą. Įsitikinkite, kiek dalyvių įtraukta ir ar reikia išankstinės registracijos. Patikrinkite, kiek laiko galioja kuponas, ar jį galima perleisti, pakeisti ar pratęsti, bei ką daryti, jeigu norima data užimta. Šios taisyklės gali skirtis pagal pasiūlymą ir teikėją."
+        },
+        {
+          "type": "paragraph",
+          "text": "Susiskaičiuokite visą išlaidų sumą: kuponą, kelionę, papildomą dalyvį, įrangą ar kitas būtinas paslaugas. Jeigu norite, kad gavėjams nereikėtų primokėti, paklauskite teikėjo, ar pasirinktas variantas apima viską, ko reikės. Nepirkite paslaugos, jei nežinote, ar jos sąlygos priimtinos abiem žmonėms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dovaną renkate keliese, iš anksto nuspręskite, kas tikrins sąlygas ir kam bus siunčiamas kodas. Kupono kodą perduokite privačiai, o kartu pridėkite naudojimo instrukciją ir teikėjo kontaktus. Asmens duomenis rinkite tik tiek, kiek reikia dovanos įteikimui."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip įteikti, kad neliktų spaudimo?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Atviruke galima parašyti: „Linkime jums abiem laiko pasirinkti tai, kas patinka. Patikrinkite sąlygas ir išsirinkite jums patogią dieną.“ Jei čekis skirtas konkrečiai veiklai, tą aiškiai nurodykite – nežadėkite visiškos pasirinkimo laisvės, jei teikėjas jos nesuteikia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gavėjai gali nenorėti veiklos, kuri patiktų jums. Palikite jiems galimybę aptarti alternatyvą pagal teikėjo taisykles ir nesuteikite dovanos kaip įpareigojimo jus pakviesti. Jei norite kurti asmenišką sveikinimą, galite paminėti tikrą bendrą prisiminimą, tačiau neprivalote atskleisti privačių detalių."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Paskutinė patikra"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pasiūlymas patinka abiem, o dalyvių skaičius ir vieta aiškūs.",
+            "Patikrinti galiojimas, rezervacija, keitimo ir atšaukimo sąlygos.",
+            "Apskaičiuota visa suma, įskaitant kelionę ar būtinas priemokas.",
+            "Gavėjams bus perduotos sąlygos ir privatus kupono kodas."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar renkatės tarp veiklos ir fizinės dovanos, peržiūrėkite dovanos porai gidą ir kalėdinių dovanų porai idėjas. Pasirinkimo pradžia turėtų būti paprasta: ko norėtų jie abu?"
+        }
+      ],
+      "publishAt": "2026-12-07T14:00:00.000Z",
+      "media": [
+        {
+          "id": "5b95d204-42eb-45e5-b24c-dde1ee96a4e4",
+          "src": "/content-assets/memocasting/5b95d204-42eb-45e5-b24c-dde1ee96a4e4.webp",
+          "alt": "Pora pasivaikščiojimo metu botanikos oranžerijoje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "80e096e7-e845-4f54-bc46-f033bce98f3d"
+        },
+        {
+          "id": "34e919d2-9034-4b75-b51b-8cc5d2d1b77a",
+          "src": "/content-assets/memocasting/34e919d2-9034-4b75-b51b-8cc5d2d1b77a.webp",
+          "alt": "Pora pasivaikščiojimo metu botanikos oranžerijoje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "80e096e7-e845-4f54-bc46-f033bce98f3d"
+        },
+        {
+          "id": "bd4228d2-4c44-489e-8975-e3a486ae6f01",
+          "src": "/content-assets/memocasting/bd4228d2-4c44-489e-8975-e3a486ae6f01.webp",
+          "alt": "Pora pasivaikščiojimo metu botanikos oranžerijoje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "80e096e7-e845-4f54-bc46-f033bce98f3d"
+        },
+        {
+          "id": "de28b228-6e7a-4993-8da5-1d5ca1a30f0e",
+          "src": "/content-assets/memocasting/de28b228-6e7a-4993-8da5-1d5ca1a30f0e.webp",
+          "alt": "Pora pasivaikščiojimo metu botanikos oranžerijoje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "80e096e7-e845-4f54-bc46-f033bce98f3d"
+        },
+        {
+          "id": "3ffca7b8-231c-4391-a0a1-06cfb395558e",
+          "src": "/content-assets/memocasting/3ffca7b8-231c-4391-a0a1-06cfb395558e.webp",
+          "alt": "Pora pasivaikščiojimo metu botanikos oranžerijoje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "80e096e7-e845-4f54-bc46-f033bce98f3d"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "01d74212-2141-4060-8127-a71c42090450",
+          "label": "„Memory Casting“ poros rankų liejimo rinkinys"
+        },
+        {
+          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+          "label": "dovanos porai gidą"
+        },
+        {
+          "targetPageId": "ed9ba99d-2f1c-4e33-97d7-43f651b2dbe9",
+          "label": "kalėdinių dovanų porai idėjas"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.geradovana.lt/atpalaiduojamasis-masazas-dviem-masazo-namai",
+          "label": "„Gera dovana“ masažo dviem pasiūlymo Vilniuje",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/picos-gaminimo-mokymai-gian-luca-demarco-studijoje-gian-luca-demarco",
+          "label": "„Gera dovana“ picos gaminimo mokymų Vilniuje aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "c532167e-a1dc-4fd4-ba14-e07381314ccf",
+      "revisionHash": "2b2ad7c7f82cdc8fd08f58afe37da27f5ae1be6939a2f680ddfab35aeb44e09f",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "2b2ad7c7f82cdc8fd08f58afe37da27f5ae1be6939a2f680ddfab35aeb44e09f",
+        "approvedAt": "2026-11-12T01:08:38.157Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
+    },
+    {
+      "siteId": "memocasting",
+      "type": "guide",
+      "slug": "gidai/asmeninis-dovanu-kuponas-bendram-laikui",
+      "title": "Asmeninis dovanų kuponas bendram laikui: kaip sukurti pažadą, kurį bus smagu įgyvendinti",
+      "description": "Kaip parašyti asmeninį dovanų kuponą bendram laikui, suderinti veiklą ir aiškiai apibūdinti sąlygas.",
+      "intent": "Padėti sukurti asmeninį kvietimą į bendrą laiką, nežadant neegzistuojančios paslaugos.",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Asmeninis dovanų kuponas – jūsų paties parašytas kvietimas kartu nuveikti tai, ko norėtų abu žmonės. Jis nėra parduotuvės čekis ir savaime nesuteikia teisės gauti trečiojo asmens paslaugos. Pavyzdžiui, galite pakviesti į pasivaikščiojimą, bendrą vakarienės gaminimą ar pokalbį, bet prieš rašydami pagalvokite, ar iš tikrųjų turėsite galimybę pažadą įgyvendinti. Teminė iliustracija sukurta dirbtiniu intelektu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Šiame gide rasite tekstų, kuriuos galite persirašyti ant savo kortelės. Atsisiunčiamo failo ar kuponų kūrimo įrankio čia nesiūlome."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kaip sugalvoti tinkamą kvietimą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pradėkite nuo gavėjo norų, o ne savo svajonių sąrašo. Jei nežinote, ar žmogus mėgsta aktyvų poilsį, pasiūlykite kelias alternatyvas: „Galime kartu pasivaikščioti arba tiesiog ramiai išgerti arbatos.“ Susitikimo datą palikite atvirą ir sutarkite ją vėliau. Taip dovana tampa kvietimu, o ne reikalavimu dalyvauti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pagalvokite apie realius resursus: laiką, kelionę, galimas bilietų ar maisto išlaidas ir tai, ar reikės kitų žmonių pagalbos. Jeigu išlaidos dar neapmokėtos, o data nesuderinta, taip ir nurodykite. Prie savo pažado galite parašyti: „Dėl vietos, laiko ir biudžeto susitarsime kartu.“"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Penki kvietimai, kuriuos lengva pritaikyti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bendra arbatos pertrauka. „Kviečiu tave kartu atsikvėpti ir pasikalbėti. Dėl vietos ir laiko susitarsime.“",
+            "Pasivaikščiojimas pagal gavėjo norą. „Kviečiu į ramų pasivaikščiojimą ten, kur tau patogu. Pasirinksime dieną kartu.“",
+            "Vakarienės gaminimas. „Kviečiu kartu išsirinkti ir pasigaminti vakarienę. Patiekalą bei išlaidas aptarsime prieš apsipirkdami.“",
+            "Žaidimo vakaras. „Kviečiu į vakarą su tau patinkančiu žaidimu. Pasirinkime, kur ir kada norėtume susitikti.“",
+            "Bendras kūrybos laikas. „Kviečiu kartu skirti laiko kūrybai. Veiklą ir reikalingas priemones išsirinksime drauge.“"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pakeiskite tekstą taip, kad jis atitiktų tikrą jūsų santykį. Jei gavėjas mėgsta daugiau ramybės, nesiūlykite didelės žmonių grupės. Jei gyvenate toli vienas nuo kito, galite susitarti dėl skambučio; nesukurkite prielaidos, kad kelionė jau suplanuota."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ką tiksliai įrašyti ant kortelės?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aiškiai nurodykite gavėją, savo kvietimą ir kaip susitarsite dėl laiko. Jei yra biudžeto riba ar vietos apribojimas, pasakykite tai pagarbiai. Galite palikti eilutę norimai datai, bet jos neužpildyti, kol gavėjas nepatvirtino. Pasirašykite savo vardu, kad asmeninio pažado nebūtų galima supainioti su įmonės išduotu komerciniu čekiu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pavyzdys: „[Vardas], kviečiu tave kartu išgerti arbatos ir prisiminti mūsų [tikrą bendrą akimirką]. Dieną ir vietą pasirinksime kartu. [Jūsų vardas].“ Jei dovanojate kelių žmonių vardu, prieš užrašydami jų vardus įsitikinkite, kad jie sutinka ir galės prisidėti."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Kokių priemonių reikia?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pakanka jau turimo popieriaus, rašiklio ir voko. Kuponą galima parašyti ranka arba sukurti tekstinį failą ir nusiųsti privačiai. Jei norite naujų priemonių, „Pegaso“ spalvoto popieriaus skyrius yra vienas iš pavyzdžių, kur galima palyginti pasirinkimus. Tai nuoroda į kategoriją, o ne konkrečios prekės rekomendacija; dabartinę kainą ir prekės sąlygas tikrinkite pas pardavėją. Naujų priemonių pirkti nebūtina."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei kartu norite paruošti nuotrauką, naudokite savo atvaizdus arba turėkite teisę juos naudoti. Apie bendros dovanos pakavimą galite paskaityti kalėdinių dovanų pakavimo gide. Neįrašykite į viešai matomą atviruką duomenų, kuriais gavėjas nenorėtų dalytis."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "O jeigu norite padovanoti realią trečiojo teikėjo veiklą?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuomet prieš rašydami, kad veikla apmokėta, turite ją iš tiesų įsigyti. Pavyzdžiui, „Gera dovana“ picos gaminimo mokymų Vilniuje aprašas leidžia pasitikrinti konkretaus pasiūlymo sąlygas. Patikrinkite dalyvių skaičių, datų rezervaciją, galiojimą, galimas papildomas išlaidas ir ar gavėjas tokios veiklos nori. Ši nuoroda nėra mūsų asmeniškai išbandytos paslaugos rekomendacija."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jei dar nesate pasirengę pirkti, ant savo kortelės rašykite tik kvietimą kartu apsvarstyti veiklą, o ne „galiojantį“ paslaugos čekį. Apmokėto oficialaus čekio kodą ir jo sąlygas perduokite privačiai. Nežadėkite kitos organizacijos paslaugų be jos patvirtinimo."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Patikrinkite prieš įteikdami"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gavėjui patinka veiklos kryptis ir jis gali laisvai atsisakyti.",
+            "Aišku, ką įsipareigojate padaryti jūs ir dėl ko dar tarsitės.",
+            "Data, vieta ir galimos išlaidos nėra išgalvotos ar pateiktos kaip jau apmokėtos.",
+            "Jei naudojamas mokamas čekis, jo sąlygos ir tikras kodas perduoti privačiai.",
+            "Kortelėje nepateikta privačių detalių, kurių gavėjas nenorėtų rodyti kitiems."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeigu renkatės kitą bendrą patirtį, pasisemkite idėjų dovanos porai gide. Asmeninis kuponas gali būti visai paprastas – svarbiausia, kad jį sukūręs žmogus būtų pasirengęs drauge sutarti dėl tikro laiko."
+        }
+      ],
+      "publishAt": "2026-12-08T14:00:00.000Z",
+      "media": [
+        {
+          "id": "8c4ba8bd-f883-40e7-9396-7efdc412c72a",
+          "src": "/content-assets/memocasting/8c4ba8bd-f883-40e7-9396-7efdc412c72a.webp",
+          "alt": "Dvi draugės bendrauja žiemos geležinkelio stotyje.",
+          "width": 1536,
+          "height": 1024,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "4517bb1b-e587-4933-a783-20020f475030"
+        },
+        {
+          "id": "3039886b-3c4b-4307-ad65-cf78398b2a27",
+          "src": "/content-assets/memocasting/3039886b-3c4b-4307-ad65-cf78398b2a27.webp",
+          "alt": "Dvi draugės bendrauja žiemos geležinkelio stotyje.",
+          "width": 1200,
+          "height": 800,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "4517bb1b-e587-4933-a783-20020f475030"
+        },
+        {
+          "id": "acdfc33b-ae6c-4292-9823-c23acd6cd185",
+          "src": "/content-assets/memocasting/acdfc33b-ae6c-4292-9823-c23acd6cd185.webp",
+          "alt": "Dvi draugės bendrauja žiemos geležinkelio stotyje.",
+          "width": 800,
+          "height": 533,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "4517bb1b-e587-4933-a783-20020f475030"
+        },
+        {
+          "id": "79efa2f9-fb15-4ac8-9326-3a84c5109143",
+          "src": "/content-assets/memocasting/79efa2f9-fb15-4ac8-9326-3a84c5109143.webp",
+          "alt": "Dvi draugės bendrauja žiemos geležinkelio stotyje.",
+          "width": 640,
+          "height": 427,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "4517bb1b-e587-4933-a783-20020f475030"
+        },
+        {
+          "id": "57d3d08b-0174-48f3-9461-1acbd2acf711",
+          "src": "/content-assets/memocasting/57d3d08b-0174-48f3-9461-1acbd2acf711.webp",
+          "alt": "Dvi draugės bendrauja žiemos geležinkelio stotyje.",
+          "width": 360,
+          "height": 240,
+          "credit": "",
+          "rights": "Originali projektui DI sugeneruota teminė iliustracija; tai nėra tikrų žmonių ar įvykio dokumentinė nuotrauka.",
+          "familyId": "4517bb1b-e587-4933-a783-20020f475030"
+        }
+      ],
+      "links": [
+        {
+          "targetPageId": "b0a4ace4-9a33-41c4-b8ae-278eb0e6d901",
+          "label": "kalėdinių dovanų pakavimo gide"
+        },
+        {
+          "targetPageId": "ff93abdd-8aae-4992-985e-f624ff8d874e",
+          "label": "dovanos porai gide"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pegasas.lt/mokyklai-ir-biurui/dailes-reikmenys/spalvotas-popierius/",
+          "label": "„Pegaso“ spalvoto popieriaus skyrius",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        },
+        {
+          "url": "https://www.geradovana.lt/picos-gaminimo-mokymai-gian-luca-demarco-studijoje-gian-luca-demarco",
+          "label": "„Gera dovana“ picos gaminimo mokymų Vilniuje aprašas",
+          "reason": "Pardavėjo pasiūlymo aprašymas patikrintas 2026-11-12; kaina ir prieinamumas gali keistis."
+        }
+      ],
+      "id": "70c72301-14ef-4ce9-8a9b-8a5bace34381",
+      "revisionHash": "937f5d957b2ec66d89219c9cfa324bcc416b9352c9df0f899f736b2dee0c8765",
+      "approval": {
+        "status": "approved",
+        "revisionHash": "937f5d957b2ec66d89219c9cfa324bcc416b9352c9df0f899f736b2dee0c8765",
+        "approvedAt": "2026-11-12T01:08:38.232Z",
+        "actorId": "codex-memocasting-editor-20261112"
+      }
     }
   ],
-  "generatedAt": "2026-11-12T00:47:55.242Z"
+  "generatedAt": "2026-11-12T01:08:38.500Z"
 }
